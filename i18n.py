@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Dictionnaires de traduction pour le site Vectis : cantons, domaines de
+Dictionnaires de traduction pour le site Legatis : cantons, domaines de
 droit, et libelles d'interface, dans les 4 langues (fr, de, it, en).
 Chaque canton/domaine porte un slug distinct par langue (URLs traduites).
 """
@@ -359,7 +359,7 @@ FSA_TO_DOMAINE = {
 
 UI = {
     "fr": {
-        "site_name": "Vectis",
+        "site_name": "Legatis",
         "tagline": "L'annuaire de référence des avocats en Suisse",
         "search_placeholder": "Chercher un avocat, une étude, un domaine…",
         "address": "Adresse", "phone": "Téléphone", "email": "Email",
@@ -375,12 +375,12 @@ UI = {
         "contact": "Contact", "legal_notice": "Mentions légales",
         "privacy": "Confidentialité", "correction": "Signaler une correction",
         "coming_soon": "Bientôt disponible",
-        "coming_soon_text": "Le registre de ce canton n'est pas encore intégré à Vectis. Nous travaillons à l'ajouter.",
+        "coming_soon_text": "Le registre de ce canton n'est pas encore intégré à Legatis. Nous travaillons à l'ajouter.",
         "no_specialty_title": "Spécialité non renseignée",
-        "home": "Accueil", "breadcrumb_home": "Vectis",
+        "home": "Accueil", "breadcrumb_home": "Legatis",
     },
     "de": {
-        "site_name": "Vectis",
+        "site_name": "Legatis",
         "tagline": "Das Referenzverzeichnis der Anwältinnen und Anwälte in der Schweiz",
         "search_placeholder": "Anwalt, Kanzlei oder Rechtsgebiet suchen…",
         "address": "Adresse", "phone": "Telefon", "email": "E-Mail",
@@ -395,12 +395,12 @@ UI = {
         "contact": "Kontakt", "legal_notice": "Impressum",
         "privacy": "Datenschutz", "correction": "Fehler melden",
         "coming_soon": "Demnächst verfügbar",
-        "coming_soon_text": "Das Register dieses Kantons ist noch nicht in Vectis integriert. Wir arbeiten daran.",
+        "coming_soon_text": "Das Register dieses Kantons ist noch nicht in Legatis integriert. Wir arbeiten daran.",
         "no_specialty_title": "Fachgebiet nicht erfasst",
-        "home": "Start", "breadcrumb_home": "Vectis",
+        "home": "Start", "breadcrumb_home": "Legatis",
     },
     "it": {
-        "site_name": "Vectis",
+        "site_name": "Legatis",
         "tagline": "L'elenco di riferimento degli avvocati in Svizzera",
         "search_placeholder": "Cerca un avvocato, uno studio, un ambito…",
         "address": "Indirizzo", "phone": "Telefono", "email": "E-mail",
@@ -416,12 +416,12 @@ UI = {
         "contact": "Contatto", "legal_notice": "Note legali",
         "privacy": "Privacy", "correction": "Segnala una correzione",
         "coming_soon": "Prossimamente",
-        "coming_soon_text": "Il registro di questo cantone non è ancora integrato in Vectis. Ci stiamo lavorando.",
+        "coming_soon_text": "Il registro di questo cantone non è ancora integrato in Legatis. Ci stiamo lavorando.",
         "no_specialty_title": "Ambito non ancora indicato",
-        "home": "Home", "breadcrumb_home": "Vectis",
+        "home": "Home", "breadcrumb_home": "Legatis",
     },
     "en": {
-        "site_name": "Vectis",
+        "site_name": "Legatis",
         "tagline": "Switzerland's reference directory of lawyers",
         "search_placeholder": "Search for a lawyer, firm, or practice area…",
         "address": "Address", "phone": "Phone", "email": "Email",
@@ -435,9 +435,9 @@ UI = {
         "contact": "Contact", "legal_notice": "Legal notice",
         "privacy": "Privacy", "correction": "Report a correction",
         "coming_soon": "Coming soon",
-        "coming_soon_text": "This canton's register is not yet integrated into Vectis. We're working on adding it.",
+        "coming_soon_text": "This canton's register is not yet integrated into Legatis. We're working on adding it.",
         "no_specialty_title": "Specialty not yet recorded",
-        "home": "Home", "breadcrumb_home": "Vectis",
+        "home": "Home", "breadcrumb_home": "Legatis",
     },
 }
 

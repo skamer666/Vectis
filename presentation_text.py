@@ -62,7 +62,7 @@ def firm_presentation(lang, nom_etude, canton_name, ville=None, n_membres=0):
             s += f", à {ville}"
         s += "."
         if n_membres:
-            s += f" {n_membres} avocat(e)s de l'étude figurent au registre Vectis."
+            s += f" {n_membres} avocat(e)s de l'étude figurent au registre Legatis."
         return s
     if lang == "de":
         s = f"{nom_etude} ist eine im Kanton {canton_name} registrierte Anwaltskanzlei"
@@ -70,7 +70,7 @@ def firm_presentation(lang, nom_etude, canton_name, ville=None, n_membres=0):
             s += f", in {ville}"
         s += "."
         if n_membres:
-            s += f" {n_membres} Anwältinnen und Anwälte der Kanzlei sind bei Vectis erfasst."
+            s += f" {n_membres} Anwältinnen und Anwälte der Kanzlei sind bei Legatis erfasst."
         return s
     if lang == "it":
         s = f"{nom_etude} è uno studio legale registrato nel Cantone {canton_name}"
@@ -78,44 +78,44 @@ def firm_presentation(lang, nom_etude, canton_name, ville=None, n_membres=0):
             s += f", a {ville}"
         s += "."
         if n_membres:
-            s += f" {n_membres} avvocati dello studio figurano nel registro Vectis."
+            s += f" {n_membres} avvocati dello studio figurano nel registro Legatis."
         return s
     s = f"{nom_etude} is a law firm registered in the canton of {canton_name}"
     if ville:
         s += f", in {ville}"
     s += "."
     if n_membres:
-        s += f" {n_membres} lawyers from this firm are listed on Vectis."
+        s += f" {n_membres} lawyers from this firm are listed on Legatis."
     return s
 
 
 def canton_intro(lang, canton_name, n_avocats):
     if lang == "fr":
-        return (f"Vectis recense {n_avocats} avocat(e)s inscrit(e)s au registre officiel du canton de "
+        return (f"Legatis recense {n_avocats} avocat(e)s inscrit(e)s au registre officiel du canton de "
                 f"{canton_name}. Recherchez par domaine de droit ou parcourez le registre complet.")
     if lang == "de":
-        return (f"Vectis verzeichnet {n_avocats} im offiziellen Register des Kantons {canton_name} "
+        return (f"Legatis verzeichnet {n_avocats} im offiziellen Register des Kantons {canton_name} "
                 f"eingetragene Anwältinnen und Anwälte. Suchen Sie nach Rechtsgebiet oder durchsuchen "
                 f"Sie das vollständige Register.")
     if lang == "it":
-        return (f"Vectis censisce {n_avocats} avvocati iscritti al registro ufficiale del Cantone "
+        return (f"Legatis censisce {n_avocats} avvocati iscritti al registro ufficiale del Cantone "
                 f"{canton_name}. Cercate per ambito del diritto o consultate il registro completo.")
-    return (f"Vectis lists {n_avocats} lawyers registered in the official register of the canton of "
+    return (f"Legatis lists {n_avocats} lawyers registered in the official register of the canton of "
             f"{canton_name}. Search by practice area or browse the full register.")
 
 
 def domaine_intro(lang, domaine_name):
     if lang == "fr":
         return (f"Trouvez un avocat spécialisé en {domaine_name.lower()} dans chaque canton de Suisse. "
-                f"Vectis recense les avocats inscrits aux registres cantonaux officiels.")
+                f"Legatis recense les avocats inscrits aux registres cantonaux officiels.")
     if lang == "de":
         return (f"Finden Sie eine Anwältin oder einen Anwalt im Bereich {domaine_name} in jedem "
-                f"Schweizer Kanton. Vectis verzeichnet die in den offiziellen kantonalen Registern "
+                f"Schweizer Kanton. Legatis verzeichnet die in den offiziellen kantonalen Registern "
                 f"eingetragenen Anwältinnen und Anwälte.")
     if lang == "it":
         return (f"Trova un avvocato specializzato in {domaine_name.lower()} in ogni cantone svizzero. "
-                f"Vectis censisce gli avvocati iscritti ai registri cantonali ufficiali.")
-    return (f"Find a lawyer specialising in {domaine_name.lower()} in every Swiss canton. Vectis lists "
+                f"Legatis censisce gli avvocati iscritti ai registri cantonali ufficiali.")
+    return (f"Find a lawyer specialising in {domaine_name.lower()} in every Swiss canton. Legatis lists "
             f"lawyers registered in the official cantonal registers.")
 
 

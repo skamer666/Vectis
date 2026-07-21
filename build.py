@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generateur statique du site Vectis (pilote canton de Geneve, 4 langues).
+Generateur statique du site Legatis (pilote canton de Geneve, 4 langues).
 Lit les CSV deja collectes dans data/, genere du HTML statique via Jinja2.
 """
 import csv
@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import i18n
 import presentation_text as pt
 
-BASE_DOMAIN = "https://vectis.ch"
+BASE_DOMAIN = "https://legatis.ch"
 SITE_ROOT = os.path.dirname(__file__)
 TEMPLATES_DIR = os.path.join(SITE_ROOT, "templates")
 DIST_DIR = os.path.join(SITE_ROOT, "dist")
@@ -222,7 +222,7 @@ def gen_home():
 def gen_indexes():
     for lang in LANGS:
         path = cantons_index_path(lang)
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['all_cantons']} | Vectis", i18n.UI[lang]["tagline"] + ".",
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['all_cantons']} | Legatis", i18n.UI[lang]["tagline"] + ".",
                         hreflang_for(cantons_index_path))
         ctx["cantons"] = [
             {"name": i18n.CANTONS[c][lang]["name"], "url": canton_path(c, lang), "count": CANTON_COUNTS.get(c, 0)}
@@ -235,7 +235,7 @@ def gen_indexes():
         write_page(path, render("cantons_index.html", ctx))
 
         path = domaines_index_path(lang)
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['all_practice_areas']} | Vectis", i18n.UI[lang]["tagline"] + ".",
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['all_practice_areas']} | Legatis", i18n.UI[lang]["tagline"] + ".",
                         hreflang_for(domaines_index_path))
         ctx["domaines"] = [
             {"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in i18n.DOMAINES
@@ -249,7 +249,7 @@ def gen_coming_soon():
             name = i18n.CANTONS_A_VENIR[code][lang]["name"]
             slug = i18n.CANTONS_A_VENIR[code][lang]["slug"]
             path = f"/{lang}/{seg('avocats', lang)}/{slug}/"
-            ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {name} | Vectis",
+            ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {name} | Legatis",
                             i18n.UI[lang]["coming_soon_text"],
                             {lg: f"/{lg}/{seg('avocats', lg)}/{i18n.CANTONS_A_VENIR[code][lg]['slug']}/" for lg in LANGS})
             ctx["canton_name"] = name
@@ -346,7 +346,7 @@ def gen_ge_etudes(start=0, count=None):
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)[:158]
-            ctx = base_ctx(lang, path, f"{nom_etude} — {i18n.UI[lang]['firm']} {canton_name} | Vectis", desc,
+            ctx = base_ctx(lang, path, f"{nom_etude} — {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
                             {lg: etude_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
@@ -377,7 +377,7 @@ def gen_canton_hub_ge():
         canton_name = i18n.CANTONS["GE"][lang]["name"]
         path = canton_path("GE", lang)
         desc = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])[:158]
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Vectis", desc,
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
                         {lg: canton_path("GE", lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
@@ -407,7 +407,7 @@ def gen_domain_hubs():
             dname = i18n.DOMAINES[did][lang]["name"]
             path = domaine_path(did, lang)
             desc = pt.domaine_intro(lang, dname)[:158]
-            ctx = base_ctx(lang, path, f"{dname} — {i18n.UI[lang]['find_a_lawyer']} | Vectis", desc,
+            ctx = base_ctx(lang, path, f"{dname} — {i18n.UI[lang]['find_a_lawyer']} | Legatis", desc,
                             {lg: domaine_path(did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["intro_text"] = pt.domaine_intro(lang, dname)
@@ -427,7 +427,7 @@ def gen_cross_ge():
             dname = i18n.DOMAINES[did][lang]["name"]
             path = cross_path("GE", did, lang)
             desc = pt.cross_intro(lang, dname, canton_name)[:158]
-            ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Vectis", desc,
+            ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
                             {lg: cross_path("GE", did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["canton_name"] = canton_name
