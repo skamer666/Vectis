@@ -183,13 +183,28 @@ def seniority_text(lang, year):
     return f"Registered with the bar since {y}" + (f" ({n} years)" if n > 0 else "")
 
 
-def firm_insight(lang, langues, domaines, oldest_year):
+def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_size_n=None):
     """Agrege des faits reels sur l'equipe d'une etude (langues et domaines
-    couverts par ses membres, anciennete du membre le plus ancien), calcules
-    depuis les donnees deja en base -- jamais devine ni complete par defaut."""
+    couverts par ses membres, anciennete du membre le plus ancien ou date de
+    fondation reelle si connue via le site du cabinet, taille annoncee),
+    calcules depuis les donnees deja en base -- jamais devine ni complete par
+    defaut. founding_year (source : site officiel du cabinet) est toujours
+    prefere a oldest_year (proxy : membre le plus ancien du registre) quand
+    disponible, car plus precis et plus honnete."""
     parts = []
     oldest_txt = None
-    if oldest_year:
+    if founding_year:
+        import datetime
+        n = datetime.date.today().year - founding_year
+        if lang == "fr":
+            oldest_txt = f"Étude fondée en {founding_year}" + (f" ({n} ans d'existence)." if n > 0 else ".")
+        elif lang == "de":
+            oldest_txt = f"Kanzlei gegründet {founding_year}" + (f" ({n} Jahre Bestehen)." if n > 0 else ".")
+        elif lang == "it":
+            oldest_txt = f"Studio fondato nel {founding_year}" + (f" ({n} anni di attività)." if n > 0 else ".")
+        else:
+            oldest_txt = f"Firm founded in {founding_year}" + (f" ({n} years of activity)." if n > 0 else ".")
+    elif oldest_year:
         import datetime
         n = datetime.date.today().year - oldest_year
         if lang == "fr":
@@ -204,6 +219,17 @@ def firm_insight(lang, langues, domaines, oldest_year):
         else:
             oldest_txt = (f"The most senior member of the firm has been registered with the bar "
                           f"since {oldest_year}" + (f" ({n} years)." if n > 0 else "."))
+    if team_size_n:
+        _unit = {"fr": "avocats et juristes", "de": "Anwältinnen, Anwälte und Juristen",
+                 "it": "avvocati e giuristi", "en": "lawyers and jurists"}[lang]
+        if lang == "fr":
+            parts.append(f"L'étude indique elle-même compter environ {team_size_n} {_unit}.")
+        elif lang == "de":
+            parts.append(f"Die Kanzlei gibt selbst an, rund {team_size_n} {_unit} zu zählen.")
+        elif lang == "it":
+            parts.append(f"Lo studio dichiara di contare circa {team_size_n} {_unit}.")
+        else:
+            parts.append(f"The firm itself states it has around {team_size_n} {_unit}.")
     if lang == "fr":
         if langues:
             parts.append("Langues parlées par l'équipe : " + ", ".join(langues) + ".")

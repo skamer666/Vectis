@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
+    "fetched_date": "2026-07-21",
+    "wave": 1
+  },
+  "borel-barbey.ch": {
+    "founding_year": 1907,
+    "practice_areas_fr": [
+      "Droit bancaire et financier",
+      "Droit des affaires",
+      "Clients privés",
+      "Droit fiscal",
+      "Contentieux et arbitrage",
+      "Droit immobilier",
+      "Droit du travail",
+      "Droit de la famille"
+    ],
+    "source_url": "https://www.borel-barbey.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 60
+  },
+  "bourgeoisavocats.com": {
+    "founding_year": 1953,
+    "practice_areas_fr": [],
+    "source_url": "https://www.bourgeoisavocats.com/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 30
+  },
+  "ptan.ch": {
+    "founding_year": 1921,
+    "practice_areas_fr": [],
+    "source_url": "https://www.ptan.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "budin.ch": {
+    "founding_year": 1965,
+    "practice_areas_fr": [
+      "Protection des données",
+      "Nouvelles technologies",
+      "Droit des étrangers",
+      "Libertés individuelles",
+      "Droit de l'art",
+      "Droit fiscal et planification fiscale",
+      "Arbitrage national et international",
+      "Contentieux civil et commercial",
+      "Droit bancaire et financier",
+      "Droit commercial, contrats et sociétés",
+      "Fusions et acquisitions",
+      "Droit du commerce international",
+      "Droit de la vente internationale",
+      "Droit maritime et des transports",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit des assurances et droit de la responsabilité civile",
+      "Droit du sport",
+      "Droit pénal général et entraide internationale",
+      "Poursuite pour dettes, faillite et concordat",
+      "Droit immobilier, droit de la construction et de l'aménagement du territoire",
+      "Droit administratif",
+      "Droit aéronautique",
+      "Droit international public et privé",
+      "Propriété intellectuelle"
+    ],
+    "source_url": "https://www.budin.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 30
+  },
+  "obersonabels.com": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit fiscal",
+      "Droit commercial et des sociétés",
+      "Droit bancaire et financier",
+      "Contentieux et droit pénal économique",
+      "Private client et droit successoral",
+      "Immigration",
+      "Droit du travail et prévoyance",
+      "Fondations, associations et ONG",
+      "Protection des données"
+    ],
+    "source_url": "https://obersonabels.com/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "valfor.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Arbitrage",
+      "Droit bancaire et financier",
+      "Marchés de capitaux",
+      "Droit commercial et des contrats",
+      "Droit de la concurrence",
+      "Droit des sociétés et M&A",
+      "Droit des données et technologies",
+      "Droit du travail, assurances sociales et migration",
+      "Droit de l'énergie et de l'environnement",
+      "Droit de la santé",
+      "Insolvabilité et restructuration",
+      "Droit des assurances",
+      "Propriété intellectuelle",
+      "Contentieux",
+      "Clients privés",
+      "Marchés publics",
+      "Droit immobilier et de la construction",
+      "Droit du sport",
+      "Droit fiscal",
+      "Criminalité économique et compliance"
+    ],
+    "source_url": "https://www.valfor.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 70
+  },
+  "kellerhals-carrard.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "source_url": "https://kellerhals-carrard.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 600
+  }
+}

@@ -11,6 +11,7 @@
 
   {% if presentation %}<p class="presentation">{{ presentation }}</p>{% endif %}
   {% if insight_text %}<p class="presentation" style="font-size:0.95rem;">{{ insight_text }}</p>{% endif %}
+  {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
 
   <p class="claim-notice" style="font-size:0.9rem;">
     <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>

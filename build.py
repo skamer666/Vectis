@@ -199,6 +199,34 @@ def clean_ville(v, npa=""):
     return v
 
 
+def load_web_enrichment():
+    path = os.path.join(DATA_DIR, "cabinet_web_enrichment.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    data.pop("_meta", None)
+    return data
+
+
+def site_domain(url):
+    from urllib.parse import urlparse
+    u = (url or "").strip()
+    if not u:
+        return None
+    if not u.startswith("http"):
+        u = "https://" + u
+    try:
+        d = urlparse(u).netloc.lower()
+        if d.startswith("www."):
+            d = d[4:]
+        return d or None
+    except ValueError:
+        return None
+
+
+WEB_ENRICHMENT = load_web_enrichment()
+
 GE_INDIVIDUALS = load_ge_individuals()
 for _r in GE_INDIVIDUALS:
     _r["ville"] = clean_ville(_r.get("ville", ""), _r.get("npa", ""))
@@ -462,6 +490,8 @@ def gen_ge_etudes(start=0, count=None):
             except ValueError:
                 pass
         _oldest_year = min(_years) if _years else None
+        _site_url = next((m.get("site_web") for m in matched if m.get("site_web")), "")
+        _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
@@ -493,11 +523,24 @@ def gen_ge_etudes(start=0, count=None):
                         fallback_members.append({"nom": mtxt.title(), "fonction": ""})
                 ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
                                     "url": None} for m in fallback_members]
+            _domaine_names = [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids]
+            if not _domaine_names and lang == "fr" and _web and _web.get("practice_areas_fr"):
+                # Donnees du site du cabinet disponibles seulement en francais pour l'instant
+                # (pilote) -- non affichees sur les autres langues pour eviter tout melange.
+                _domaine_names = _web["practice_areas_fr"]
             ctx["insight_text"] = pt.firm_insight(
-                lang, _team_langues,
-                [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids],
-                _oldest_year,
+                lang, _team_langues, _domaine_names, _oldest_year,
+                founding_year=(_web or {}).get("founding_year"),
+                team_size_n=(_web or {}).get("team_size_n"),
             )
+            ctx["web_source_note"] = None
+            if _web:
+                ctx["web_source_note"] = {
+                    "fr": f"Certaines informations ci-dessus proviennent du site officiel du cabinet, consulté le {_web['fetched_date']}.",
+                    "de": f"Einige der obigen Angaben stammen von der offiziellen Website der Kanzlei, abgerufen am {_web['fetched_date']}.",
+                    "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
+                    "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
+                }[lang]
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (nom_etude, path)]
             _schema = {
@@ -886,6 +929,8 @@ def gen_canton_etudes(code, start=0, count=None):
             except ValueError:
                 pass
         _oldest_year = min(_years) if _years else None
+        _site_url = next((m.get("site_web") for m in members if m.get("site_web")), "")
+        _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
@@ -906,7 +951,20 @@ def gen_canton_etudes(code, start=0, count=None):
                  "url": avocat_path(code, m["_slug"], lang)}
                 for m in members
             ]
-            ctx["insight_text"] = pt.firm_insight(lang, [], [], _oldest_year)
+            _domaine_names = _web["practice_areas_fr"] if (lang == "fr" and _web and _web.get("practice_areas_fr")) else []
+            ctx["insight_text"] = pt.firm_insight(
+                lang, [], _domaine_names, _oldest_year,
+                founding_year=(_web or {}).get("founding_year"),
+                team_size_n=(_web or {}).get("team_size_n"),
+            )
+            ctx["web_source_note"] = None
+            if _web:
+                ctx["web_source_note"] = {
+                    "fr": f"Certaines informations ci-dessus proviennent du site officiel du cabinet, consulté le {_web['fetched_date']}.",
+                    "de": f"Einige der obigen Angaben stammen von der offiziellen Website der Kanzlei, abgerufen am {_web['fetched_date']}.",
+                    "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
+                    "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
+                }[lang]
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path(code, lang)), (nom_etude, path)]
             ctx["schema"] = json.dumps({
