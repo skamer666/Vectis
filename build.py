@@ -446,7 +446,22 @@ def gen_cross_ge():
             write_page(path, render("cross.html", ctx))
 
 
+def copy_static():
+    import shutil
+    src = os.path.join(SITE_ROOT, "static")
+    dst = os.path.join(DIST_DIR, "static")
+    if os.path.isdir(src):
+        os.makedirs(dst, exist_ok=True)
+        for root, dirs, files in os.walk(src):
+            rel = os.path.relpath(root, src)
+            target_dir = os.path.join(dst, rel) if rel != "." else dst
+            os.makedirs(target_dir, exist_ok=True)
+            for fname in files:
+                shutil.copyfile(os.path.join(root, fname), os.path.join(target_dir, fname))
+
+
 if __name__ == "__main__":
+    copy_static()
     stage = sys.argv[1] if len(sys.argv) > 1 else "all"
     if stage == "base":
         gen_home()
