@@ -595,6 +595,11 @@ def gen_ge_etudes(start=0, count=None):
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
             )
+            # Noindex automatique : la fiche n'a aucun signal reel au-dela du nom/adresse/
+            # liste de membres (ni annee de fondation, ni taille d'equipe, ni langues, ni
+            # domaines de competence). Se retire tout seul au prochain build des qu'une
+            # donnee reelle arrive (registre ou enrichissement web) -- rien a faire a la main.
+            ctx["noindex"] = not ctx["insight_text"]
             ctx["web_source_note"] = None
             if _web:
                 ctx["web_source_note"] = {
@@ -1029,6 +1034,8 @@ def gen_canton_etudes(code, start=0, count=None):
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
             )
+            # Noindex automatique : voir commentaire equivalent dans gen_ge_etudes.
+            ctx["noindex"] = not ctx["insight_text"]
             ctx["web_source_note"] = None
             if _web:
                 ctx["web_source_note"] = {
