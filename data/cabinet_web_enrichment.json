@@ -3,8 +3,9 @@
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
     "wave": 1,
-    "domains_tested_total": 73,
-    "domains_with_usable_facts": 40
+    "domains_tested_total": 70,
+    "domains_with_usable_facts": 40,
+    "domains_failed_or_no_facts": 30
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -738,5 +739,127 @@
     "practice_areas_en": [],
     "source_url": "https://canonicalex.ch/",
     "fetched_date": "2026-07-21"
+  },
+  "_failed": {
+    "lenzstaehelin.com": {
+      "reason": "page trop volumineuse pour l'outil de fetch (>90k caracteres)",
+      "checked_date": "2026-07-21"
+    },
+    "junodhalperin.ch": {
+      "reason": "page trop volumineuse pour l'outil de fetch",
+      "checked_date": "2026-07-21"
+    },
+    "lppvlaw.ch": {
+      "reason": "page trop volumineuse pour l'outil de fetch",
+      "checked_date": "2026-07-21"
+    },
+    "walderwyss.com": {
+      "reason": "gros cabinet international, aucune annee de fondation / taille / domaines suisses clairement affiches sur la page d'accueil (necessiterait un crawl plus profond)",
+      "checked_date": "2026-07-21"
+    },
+    "mll-legal.com": {
+      "reason": "idem walderwyss.com : aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "cms.law": {
+      "reason": "chiffres globaux du reseau international (10000+ collaborateurs), pas specifiques a la Suisse -- non retenus pour eviter une donnee trompeuse",
+      "checked_date": "2026-07-21"
+    },
+    "charlesrussellspeechlys.com": {
+      "reason": "idem cms.law : chiffres globaux non specifiques a la Suisse",
+      "checked_date": "2026-07-21"
+    },
+    "jslegal.ch": {
+      "reason": "fetch vide / page probablement rendue en JavaScript",
+      "checked_date": "2026-07-21"
+    },
+    "baerkarrer.ch": {
+      "reason": "contenu trop mince, aucun fait exploitable",
+      "checked_date": "2026-07-21"
+    },
+    "g-w.ch": {
+      "reason": "contenu trop mince, aucun fait exploitable",
+      "checked_date": "2026-07-21"
+    },
+    "chabrier.ch": {
+      "reason": "contenu trop mince, aucun fait exploitable",
+      "checked_date": "2026-07-21"
+    },
+    "mcelegal.ch": {
+      "reason": "fetch vide / page probablement rendue en JavaScript",
+      "checked_date": "2026-07-21"
+    },
+    "bmglaw.ch": {
+      "reason": "fetch vide / page probablement rendue en JavaScript",
+      "checked_date": "2026-07-21"
+    },
+    "mentha.ch": {
+      "reason": "page quasi vide (juste adresse et navigation), aucun fait exploitable",
+      "checked_date": "2026-07-21"
+    },
+    "harari-avocats.ch": {
+      "reason": "texte de presentation uniquement, aucune annee/taille/liste de domaines chiffree",
+      "checked_date": "2026-07-21"
+    },
+    "nomea.ch": {
+      "reason": "fetch vide / page probablement rendue en JavaScript",
+      "checked_date": "2026-07-21"
+    },
+    "bqavocats.ch": {
+      "reason": "aucune annee de fondation, taille ou liste de domaines sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "letude-fabbro.ch": {
+      "reason": "page tres mince (probablement rendue en JavaScript), navigation seule recuperee",
+      "checked_date": "2026-07-21"
+    },
+    "etude-derville.ch": {
+      "reason": "aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "nexus-avocats.ch": {
+      "reason": "domaines mentionnes via lien mais pas enumeres sur la page recuperee",
+      "checked_date": "2026-07-21"
+    },
+    "spstlaw.ch": {
+      "reason": "mention vague des langues pratiquees en prose, pas de liste structuree ni annee/taille",
+      "checked_date": "2026-07-21"
+    },
+    "cvpartners.ch": {
+      "reason": "aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "regoavocats.ch": {
+      "reason": "aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "vischer.com": {
+      "reason": "page tres epuree (chatbot IA), aucun fait chiffre",
+      "checked_date": "2026-07-21"
+    },
+    "avocatsconseils.ch": {
+      "reason": "page ne liste que les adresses des bureaux, aucun autre fait",
+      "checked_date": "2026-07-21"
+    },
+    "desgouttes.ch": {
+      "reason": "page quasi vide (site en reconstruction ?)",
+      "checked_date": "2026-07-21"
+    },
+    "triplea.swiss": {
+      "reason": "aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "jmrlegal.ch": {
+      "reason": "site semble compromis : liens de spam (vetements de foot) injectes dans le menu -- ecarte par prudence, a re-verifier plus tard plutot que d'associer du contenu a une source potentiellement piratee",
+      "checked_date": "2026-07-21"
+    },
+    "bblaw.ch": {
+      "reason": "aucun fait exploitable sur la page d'accueil",
+      "checked_date": "2026-07-21"
+    },
+    "litis.ch": {
+      "reason": "page vide, probablement rendue en JavaScript (constate lors du pilote initial)",
+      "checked_date": "2026-07-21"
+    }
   }
 }
