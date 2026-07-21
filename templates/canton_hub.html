@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+    <div class="hero-eyebrow">{{ ui.canton }}</div>
+    <h1>{{ ui.find_a_lawyer_near }} {{ canton_name }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="section-head"><h2>{{ ui.all_practice_areas }}</h2></div>
+    <div class="tag-list">
+      {% for d in domaines %}
+      <a class="tag {% if d.has_data %}is-accent{% endif %}" href="{{ d.url }}">{{ d.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>{{ stats_label }}</h2>
+    </div>
+    <div class="registry">
+      {% for a in avocats_sample %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div>
+          <div class="registry-name">{{ a.nom }}</div>
+          {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
+        </div>
+        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-city">{{ a.ville }}</div>
+      </a>
+      {% endfor %}
+    </div>
+    {% if has_more %}<p style="margin-top:var(--space-xl); font-size:0.88rem; color:var(--text-muted);">{{ more_text }}</p>{% endif %}
+  </section>
+</div>
+{% endblock %}

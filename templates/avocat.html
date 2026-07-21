@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="profile-head">
+    <div>
+      <div class="hero-eyebrow">{{ ui.canton }} — {{ canton_name }}</div>
+      <h1 class="profile-title">{{ nom }}</h1>
+      {% if role_or_titre %}<p class="profile-sub">{{ role_or_titre }}</p>{% endif %}
+      {% if etude %}<p class="profile-sub">{{ etude }}</p>{% endif %}
+      <div class="profile-badge">{{ ui.bar_admission }}: {{ canton_name }}</div>
+    </div>
+  </div>
+
+  {% if presentation %}
+  <p class="presentation">{{ presentation }}</p>
+  {% endif %}
+
+  <table class="info-table">
+    {% if adresse %}<tr><td>{{ ui.address }}</td><td>{{ adresse }}{% if npa or ville %}<br>{{ npa }} {{ ville }}{% endif %}</td></tr>{% endif %}
+    {% if telephone %}<tr><td>{{ ui.phone }}</td><td>{{ telephone }}</td></tr>{% endif %}
+    {% if email %}<tr><td>{{ ui.email }}</td><td><a href="mailto:{{ email }}">{{ email }}</a></td></tr>{% endif %}
+    {% if site_web %}<tr><td>{{ ui.website }}</td><td><a href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ site_web }}</a></td></tr>{% endif %}
+    {% if etude %}<tr><td>{{ ui.firm }}</td><td>{% if etude_url %}<a href="{{ etude_url }}">{{ etude }}</a>{% else %}{{ etude }}{% endif %}</td></tr>{% endif %}
+  </table>
+
+  {% if domaines %}
+  <section class="section" style="padding-block:var(--space-xl);">
+    <h2 style="margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>
+    <div class="tag-list">
+      {% for d in domaines %}<a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="section">
+    <div class="section-head"><h2>{{ nearby_title }}</h2></div>
+    <div class="registry">
+      {% for a in nearby %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div><div class="registry-name">{{ a.nom }}</div></div>
+        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-city">{{ a.ville }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ meta_description }}">
+<link rel="canonical" href="{{ canonical_url }}">
+{% for hl_lang, hl_url in hreflang.items() %}
+<link rel="alternate" hreflang="{{ hl_lang }}" href="{{ hl_url }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ hreflang.get('fr', canonical_url) }}">
+<link rel="stylesheet" href="{{ asset_prefix }}static/css/style.css">
+{% if schema %}
+<script type="application/ld+json">{{ schema | safe }}</script>
+{% endif %}
+</head>
+<body>
+<header class="masthead">
+  <div class="container masthead-top">
+    <a class="brand" href="{{ home_url }}">
+      <span class="brand-mark">Vect<em>i</em>s</span>
+    </a>
+    <nav class="lang-switch" aria-label="Langue">
+      {% for hl_lang in ['fr','de','it','en'] %}
+      <a href="{{ hreflang.get(hl_lang, home_url) }}" {% if hl_lang == lang %}aria-current="true"{% endif %}>{{ hl_lang }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="container masthead-nav">
+    <a href="{{ cantons_index_url }}">{{ ui.all_cantons }}</a>
+    <a href="{{ domaines_index_url }}">{{ ui.all_practice_areas }}</a>
+    <a href="{{ methodology_url }}">{{ ui.methodology }}</a>
+  </div>
+</header>
+
+{% if breadcrumb %}
+<div class="container breadcrumb">
+  {% for label, url in breadcrumb %}
+    {% if not loop.last %}<a href="{{ url }}">{{ label }}</a><span class="sep">/</span>{% else %}<span>{{ label }}</span>{% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <span class="brand-mark" style="color:#fff;">Vect<em>i</em>s</span>
+      <p style="color:var(--paper-300); margin-top:12px; max-width:32ch;">{{ ui.tagline }}.</p>
+    </div>
+    <div>
+      <h4>{{ ui.all_cantons }}</h4>
+      <ul>
+        <li><a href="{{ cantons_index_url }}">{{ ui.all_cantons }}</a></li>
+        <li><a href="{{ domaines_index_url }}">{{ ui.all_practice_areas }}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>{{ ui.about }}</h4>
+      <ul>
+        <li><a href="{{ methodology_url }}">{{ ui.methodology }}</a></li>
+        <li><a href="{{ about_url }}">{{ ui.about }}</a></li>
+        <li><a href="{{ contact_url }}">{{ ui.contact }}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>{{ ui.legal_notice }}</h4>
+      <ul>
+        <li><a href="{{ legal_url }}">{{ ui.legal_notice }}</a></li>
+        <li><a href="{{ privacy_url }}">{{ ui.privacy }}</a></li>
+        <li><a href="{{ correction_url }}">{{ ui.correction }}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 Vectis</span>
+    <span>Suisse — FR / DE / IT / EN</span>
+  </div>
+</footer>
+</body>
+</html>

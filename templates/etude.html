@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="profile-head">
+    <div>
+      <div class="hero-eyebrow">{{ ui.firm }} — {{ canton_name }}</div>
+      <h1 class="profile-title">{{ nom_etude }}</h1>
+      {% if adresse %}<p class="profile-sub">{{ adresse }}{% if npa or ville %}, {{ npa }} {{ ville }}{% endif %}</p>{% endif %}
+    </div>
+  </div>
+
+  {% if presentation %}<p class="presentation">{{ presentation }}</p>{% endif %}
+
+  <section class="section">
+    <div class="section-head"><h2>{{ members_title }}</h2></div>
+    <div class="registry">
+      {% for a in membres %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div>
+          <div class="registry-name">{{ a.nom }}</div>
+          {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
+        </div>
+        <div class="registry-firm">{{ a.fonction }}</div>
+        <div class="registry-city"></div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

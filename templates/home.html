@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero">
+    <div class="hero-eyebrow">{{ ui.site_name }} — Suisse</div>
+    <h1>{{ ui.tagline }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+    <form class="search-box" action="{{ search_url }}" method="get">
+      <input type="text" name="q" placeholder="{{ ui.search_placeholder }}">
+      <button type="submit">{{ ui.home }}</button>
+    </form>
+  </section>
+
+  <section class="stat-strip">
+    <div class="stat"><div class="stat-value">{{ stats.total_avocats }}</div><div class="stat-label">{{ ui.lawyers_in_canton }}</div></div>
+    <div class="stat"><div class="stat-value">{{ stats.total_cantons }}</div><div class="stat-label">{{ ui.all_cantons }}</div></div>
+    <div class="stat"><div class="stat-value">{{ stats.total_etudes }}</div><div class="stat-label">{{ ui.firm }}s</div></div>
+    <div class="stat"><div class="stat-value">{{ stats.total_domaines }}</div><div class="stat-label">{{ ui.all_practice_areas }}</div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>{{ ui.all_cantons }}</h2>
+      <a href="{{ cantons_index_url }}">{{ ui.all_cantons }} &rarr;</a>
+    </div>
+    <div class="index-grid">
+      {% for c in cantons %}
+      <a class="index-cell" href="{{ c.url }}">
+        <div class="name">{{ c.name }}</div>
+        <div class="count">{{ c.count }} {{ ui.lawyers_in_canton }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>{{ ui.all_practice_areas }}</h2>
+      <a href="{{ domaines_index_url }}">{{ ui.all_practice_areas }} &rarr;</a>
+    </div>
+    <div class="tag-list">
+      {% for d in domaines %}
+      <a class="tag" href="{{ d.url }}">{{ d.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

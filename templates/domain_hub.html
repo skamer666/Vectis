@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+    <div class="hero-eyebrow">{{ ui.practice_areas }}</div>
+    <h1>{{ domaine_name }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+  </section>
+  <section class="section" style="padding-top:0;">
+    <div class="section-head"><h2>{{ ui.all_cantons }}</h2></div>
+    <div class="index-grid">
+      {% for c in cantons %}
+      <a class="index-cell" href="{{ c.url }}">
+        <div class="name">{{ c.name }}</div>
+        <div class="count">{{ ui.in }} {{ c.name }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

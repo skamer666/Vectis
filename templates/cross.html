@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+    <div class="hero-eyebrow">{{ domaine_name }} — {{ canton_name }}</div>
+    <h1>{{ h1 }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+  </section>
+  <section class="section" style="padding-top:0;">
+    <div class="section-head"><h2>{{ list_title }}</h2></div>
+    {% if avocats %}
+    <div class="registry">
+      {% for a in avocats %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div>
+          <div class="registry-name">{{ a.nom }}</div>
+          {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
+        </div>
+        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-city">{{ a.ville }}</div>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="notice">
+      <h2>{{ ui.no_specialty_title }}</h2>
+      <p>{{ no_specialty_text }}</p>
+    </div>
+    <div class="registry">
+      {% for a in fallback_avocats %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div><div class="registry-name">{{ a.nom }}</div></div>
+        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-city">{{ a.ville }}</div>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

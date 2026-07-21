@@ -1,0 +1,287 @@
+/* Vectis — systeme de design institutionnel
+   Titres: Frank Ruhl Libre (gravite editoriale/juridique)
+   Texte:  Public Sans (concu pour les services numeriques publics)
+   Palette: encre bleu-noir + papier chaud + accent bordeaux sourd */
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root{
+  /* encre (texte, fonds sombres) */
+  --ink-950: oklch(19% 0.025 258);
+  --ink-900: oklch(24% 0.03 258);
+  --ink-700: oklch(38% 0.03 258);
+  --ink-500: oklch(52% 0.025 258);
+
+  /* papier (neutres teintes chaud) */
+  --paper-0:  oklch(98.5% 0.006 75);
+  --paper-50: oklch(96.5% 0.008 75);
+  --paper-100:oklch(93% 0.01 75);
+  --paper-200:oklch(88% 0.012 75);
+  --paper-300:oklch(78% 0.014 75);
+
+  /* accent bordeaux sourd */
+  --accent-700: oklch(30% 0.09 22);
+  --accent-600: oklch(38% 0.11 22);
+  --accent-500: oklch(45% 0.13 22);
+  --accent-100: oklch(92% 0.03 22);
+  --accent-50:  oklch(96% 0.018 22);
+
+  --success-600: oklch(45% 0.1 155);
+
+  --surface-page: var(--paper-0);
+  --surface-card: oklch(99.3% 0.004 75);
+  --text-primary: var(--ink-950);
+  --text-secondary: var(--ink-700);
+  --text-muted: var(--ink-500);
+  --border: var(--paper-200);
+  --border-strong: var(--paper-300);
+
+  --font-display: 'Frank Ruhl Libre', ui-serif, Georgia, serif;
+  --font-body: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --space-xs: 4px; --space-sm: 8px; --space-md: 12px; --space-lg: 16px;
+  --space-xl: 24px; --space-2xl: 32px; --space-3xl: 48px; --space-4xl: 64px; --space-5xl: 96px;
+
+  --radius-sm: 4px; --radius-md: 8px;
+  --max-line: 72ch;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; }
+body{
+  margin:0;
+  background:var(--surface-page);
+  color:var(--text-primary);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.6;
+  font-feature-settings:"kern" 1,"liga" 1;
+}
+img{ max-width:100%; display:block; }
+a{ color:inherit; }
+
+h1,h2,h3{
+  font-family:var(--font-display);
+  font-weight:500;
+  line-height:1.15;
+  margin:0;
+  color:var(--ink-950);
+}
+h1{ font-size:clamp(2rem, 1.5rem + 2vw, 3.4rem); letter-spacing:-0.01em; }
+h2{ font-size:clamp(1.4rem, 1.2rem + 1vw, 2rem); }
+h3{ font-size:clamp(1.1rem, 1rem + 0.4vw, 1.35rem); font-weight:600; font-family:var(--font-body); }
+
+p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secondary); }
+.lede{ font-size:1.15rem; color:var(--text-secondary); max-width:60ch; }
+
+.container{
+  max-width:1180px;
+  margin-inline:auto;
+  padding-inline:var(--space-xl);
+}
+
+/* -- masthead -- */
+.masthead{
+  border-bottom:1px solid var(--border);
+  background:var(--surface-card);
+}
+.masthead-top{
+  display:flex; align-items:center; justify-content:space-between;
+  padding-block:var(--space-lg);
+  gap:var(--space-xl);
+}
+.brand{
+  display:flex; align-items:baseline; gap:var(--space-sm);
+  text-decoration:none;
+}
+.brand-mark{
+  font-family:var(--font-display); font-weight:700; font-size:1.5rem;
+  color:var(--ink-950); letter-spacing:-0.01em;
+}
+.brand-mark em{
+  font-style:normal; color:var(--accent-600);
+}
+.lang-switch{
+  display:flex; gap:2px; border:1px solid var(--border-strong); border-radius:var(--radius-sm); overflow:hidden;
+}
+.lang-switch a{
+  display:block; padding:6px 10px; font-size:0.78rem; font-weight:600; text-decoration:none;
+  color:var(--text-muted); text-transform:uppercase; letter-spacing:0.04em;
+}
+.lang-switch a[aria-current="true"]{ background:var(--ink-950); color:var(--paper-0); }
+.lang-switch a:not([aria-current="true"]):hover{ background:var(--paper-100); color:var(--text-primary); }
+
+.masthead-nav{
+  display:flex; gap:var(--space-xl); padding-block:var(--space-md);
+  border-top:1px solid var(--border);
+  font-size:0.92rem;
+}
+.masthead-nav a{ text-decoration:none; color:var(--text-secondary); }
+.masthead-nav a:hover{ color:var(--accent-600); }
+
+/* -- breadcrumb -- */
+.breadcrumb{
+  font-size:0.82rem; color:var(--text-muted); padding-block:var(--space-lg) 0;
+}
+.breadcrumb a{ text-decoration:none; color:var(--text-muted); }
+.breadcrumb a:hover{ color:var(--accent-600); }
+.breadcrumb .sep{ margin-inline:var(--space-xs); color:var(--border-strong); }
+
+/* -- hero -- */
+.hero{
+  padding-block:var(--space-3xl) var(--space-3xl);
+  border-bottom:1px solid var(--border);
+}
+.hero-eyebrow{
+  font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+  color:var(--accent-600); margin-bottom:var(--space-md);
+}
+.hero h1{ max-width:16ch; }
+.hero .lede{ margin-top:var(--space-lg); }
+
+.search-box{
+  margin-top:var(--space-2xl);
+  display:flex; max-width:640px; border:1px solid var(--ink-950); border-radius:var(--radius-md);
+  overflow:hidden;
+}
+.search-box input{
+  flex:1; border:0; padding:14px 16px; font-family:var(--font-body); font-size:0.98rem;
+  background:var(--surface-card); color:var(--text-primary);
+}
+.search-box input:focus{ outline:none; }
+.search-box button{
+  border:0; background:var(--ink-950); color:var(--paper-0); font-weight:600; font-size:0.9rem;
+  padding-inline:var(--space-xl); cursor:pointer;
+}
+.search-box button:hover{ background:var(--accent-700); }
+
+/* -- stat strip -- */
+.stat-strip{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:var(--space-2xl);
+  padding-block:var(--space-2xl);
+  border-bottom:1px solid var(--border);
+}
+.stat{ }
+.stat-value{ font-family:var(--font-display); font-size:2.2rem; font-weight:600; color:var(--ink-950); }
+.stat-label{ font-size:0.85rem; color:var(--text-muted); margin-top:2px; }
+
+/* -- section -- */
+.section{ padding-block:var(--space-4xl); }
+.section-head{
+  display:flex; align-items:baseline; justify-content:space-between; gap:var(--space-lg);
+  margin-bottom:var(--space-2xl);
+  border-bottom:1px solid var(--border-strong);
+  padding-bottom:var(--space-lg);
+}
+.section-head a{ font-size:0.88rem; text-decoration:none; color:var(--accent-600); font-weight:600; white-space:nowrap; }
+.section-head a:hover{ text-decoration:underline; }
+
+/* -- registry list (avocats) : vraie liste, pas des cartes -- */
+.registry{ border-top:1px solid var(--border-strong); }
+.registry-row{
+  display:grid; grid-template-columns:1.6fr 1.4fr auto; gap:var(--space-xl);
+  align-items:start;
+  padding-block:var(--space-lg);
+  border-bottom:1px solid var(--border);
+  text-decoration:none; color:inherit;
+}
+.registry-row:hover{ background:var(--paper-50); }
+.registry-name{ font-family:var(--font-display); font-size:1.08rem; font-weight:500; color:var(--ink-950); }
+.registry-role{ font-size:0.82rem; color:var(--text-muted); margin-top:2px; }
+.registry-firm{ font-size:0.92rem; color:var(--text-secondary); }
+.registry-meta{ font-size:0.82rem; color:var(--text-muted); }
+.registry-city{ text-align:right; font-size:0.88rem; color:var(--text-secondary); white-space:nowrap; }
+
+/* -- tags / domaines -- */
+.tag-list{ display:flex; flex-wrap:wrap; gap:var(--space-sm); }
+.tag{
+  display:inline-block; padding:5px 12px; font-size:0.8rem; font-weight:500;
+  border:1px solid var(--border-strong); border-radius:100px; text-decoration:none; color:var(--text-secondary);
+}
+.tag:hover{ border-color:var(--accent-500); color:var(--accent-600); }
+.tag.is-accent{ background:var(--accent-50); border-color:var(--accent-100); color:var(--accent-700); }
+
+/* -- grille cantons/domaines (grille reelle, pas des cartes a icones) -- */
+.index-grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:0;
+  border-top:1px solid var(--border-strong);
+  border-left:1px solid var(--border-strong);
+}
+.index-cell{
+  padding:var(--space-lg) var(--space-xl);
+  border-right:1px solid var(--border-strong);
+  border-bottom:1px solid var(--border-strong);
+  text-decoration:none; color:inherit;
+}
+.index-cell:hover{ background:var(--paper-50); }
+.index-cell .name{ font-family:var(--font-display); font-size:1.05rem; color:var(--ink-950); }
+.index-cell .count{ font-size:0.8rem; color:var(--text-muted); margin-top:2px; }
+
+/* -- profil avocat / etude -- */
+.profile-head{
+  display:flex; justify-content:space-between; align-items:flex-start; gap:var(--space-2xl);
+  padding-block:var(--space-2xl);
+  border-bottom:1px solid var(--border-strong);
+}
+.profile-title{ font-size:clamp(1.6rem,1.3rem + 1.2vw,2.4rem); }
+.profile-sub{ font-size:1.02rem; color:var(--text-secondary); margin-top:var(--space-sm); }
+.profile-badge{
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:0.78rem; font-weight:600; color:var(--success-600);
+  border:1px solid currentColor; border-radius:100px; padding:4px 10px; margin-top:var(--space-md);
+}
+
+.info-table{ width:100%; border-collapse:collapse; margin-block:var(--space-xl); }
+.info-table tr{ border-bottom:1px solid var(--border); }
+.info-table td{ padding:12px 0; vertical-align:top; }
+.info-table td:first-child{ width:180px; font-size:0.85rem; color:var(--text-muted); font-weight:600; }
+.info-table td:last-child{ font-size:0.98rem; color:var(--text-primary); }
+.info-table a{ color:var(--accent-600); text-decoration:none; }
+.info-table a:hover{ text-decoration:underline; }
+
+.presentation{
+  font-size:1.02rem; color:var(--text-secondary); line-height:1.75; max-width:var(--max-line);
+  padding-block:var(--space-xl);
+  border-bottom:1px solid var(--border);
+}
+
+/* -- bandeau bientot disponible -- */
+.notice{
+  border:1px solid var(--border-strong); background:var(--paper-50);
+  border-radius:var(--radius-md); padding:var(--space-2xl);
+  margin-block:var(--space-2xl);
+}
+.notice h2{ font-size:1.3rem; }
+.notice p{ margin-top:var(--space-sm); margin-bottom:0; }
+
+/* -- footer -- */
+.site-footer{
+  border-top:1px solid var(--border-strong);
+  background:var(--ink-950); color:var(--paper-100);
+  padding-block:var(--space-3xl) var(--space-2xl);
+  margin-top:var(--space-4xl);
+}
+.site-footer a{ color:var(--paper-200); text-decoration:none; }
+.site-footer a:hover{ color:#fff; }
+.footer-grid{
+  display:grid; grid-template-columns:1.4fr repeat(3,1fr); gap:var(--space-2xl);
+  padding-bottom:var(--space-2xl); border-bottom:1px solid var(--ink-700);
+}
+.footer-grid h4{
+  font-size:0.78rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--paper-300);
+  margin:0 0 var(--space-md); font-weight:600;
+}
+.footer-grid ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; font-size:0.9rem; }
+.footer-bottom{
+  display:flex; justify-content:space-between; padding-top:var(--space-lg);
+  font-size:0.8rem; color:var(--paper-300);
+}
+
+@media (max-width:760px){
+  .registry-row{ grid-template-columns:1fr; gap:4px; }
+  .registry-city{ text-align:left; }
+  .profile-head{ flex-direction:column; }
+  .footer-grid{ grid-template-columns:1fr 1fr; }
+}

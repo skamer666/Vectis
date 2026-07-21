@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+    <h1>{{ ui.all_practice_areas }}</h1>
+  </section>
+  <section class="section" style="padding-top:0;">
+    <div class="index-grid">
+      {% for d in domaines %}
+      <a class="index-cell" href="{{ d.url }}"><div class="name">{{ d.name }}</div></a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}
