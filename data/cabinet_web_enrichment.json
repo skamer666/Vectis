@@ -3,8 +3,8 @@
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
     "wave": 1,
-    "domains_tested_total": 43,
-    "domains_with_usable_facts": 24
+    "domains_tested_total": 63,
+    "domains_with_usable_facts": 33
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -438,6 +438,205 @@
     ],
     "practice_areas_en": [],
     "source_url": "https://www.waeberavocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "mbk.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Asset Recovery",
+      "Business Crime",
+      "Cross-border Litigation"
+    ],
+    "source_url": "https://mbk.law/en/home",
+    "fetched_date": "2026-07-21"
+  },
+  "sja.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Droit des sociétés",
+      "Droit des contrats",
+      "Droit bancaire et financier",
+      "Fusions et acquisitions",
+      "Droit du travail",
+      "Droit de la concurrence",
+      "Droit pénal économique",
+      "Droit de la santé",
+      "Droit fiscal",
+      "Protection des données",
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit de la personnalité",
+      "Droit des assurances",
+      "Droit pénal",
+      "Permis de résidence et de travail",
+      "Procédure civile",
+      "Arbitrage",
+      "Procédure pénale",
+      "Droit des poursuites et faillites",
+      "Procédure administrative",
+      "Droit de la construction & aménagement du territoire",
+      "Droit du bail",
+      "Contrats d'entreprises et mandats",
+      "Marchés publics",
+      "Droit de l'environnement"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://sja.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "dblex.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des sociétés",
+      "Droit du bail et de l'immobilier",
+      "Droit de la famille",
+      "Droit administratif",
+      "Droit du travail",
+      "Droit bancaire et des marchés financiers",
+      "Droit des successions et trusts",
+      "Droit français"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://dblex.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "sedlex-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": 14,
+    "practice_areas_fr": [
+      "Droit Administratif",
+      "Droit Bancaire",
+      "Droit Civil Général",
+      "Droit Commercial",
+      "Droit de la concurrence",
+      "Droit de la Circulation Routière",
+      "Droit de la Construction",
+      "Droit de la famille / divorce",
+      "Droit de la Responsabilité civile",
+      "Entraide internationale",
+      "Droit international privé",
+      "Droit des assurances privées",
+      "Droit des assurances sociales",
+      "Droit des étrangers",
+      "Droit des médias",
+      "Droit des poursuites et faillite",
+      "Droit des sociétés",
+      "Droit des successions",
+      "Droit du bail",
+      "Droit du sport",
+      "Droit du travail",
+      "Droit Fiscal",
+      "Droit Médical",
+      "Droit Pénal",
+      "Protection des données",
+      "Droit des contrats",
+      "Droit russe",
+      "Arbitrage international commercial"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.sedlex-avocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "voxlegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit administratif",
+      "Assurances privées et sociales",
+      "Construction et Immobilier",
+      "Contentieux judiciaire",
+      "Contrats",
+      "Droit des étrangers",
+      "Droit de la famille",
+      "Droit foncier rural",
+      "Médiation",
+      "Droit médical",
+      "Nouvelles technologies et Crypto",
+      "Pénal et circulation routière",
+      "Propriété intellectuelle",
+      "Protection des données",
+      "Sociétés / M&A / Start-up",
+      "Successions"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.voxlegal.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "archipel.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Cross-Border Litigation",
+      "Enforcement & Asset Recovery",
+      "Arbitration"
+    ],
+    "source_url": "https://archipel.law/en",
+    "fetched_date": "2026-07-21"
+  },
+  "pestalozzilaw.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Blockchain & Crypto Assets",
+      "Capital Markets",
+      "Competition & Trade",
+      "Compliance",
+      "Corporate / M&A",
+      "Employment & Pensions",
+      "Energy",
+      "ESG",
+      "Financial Services",
+      "Insurance",
+      "IP & TMT",
+      "Life Sciences",
+      "Litigation & Arbitration",
+      "Private Clients",
+      "Private Equity & Venture Capital",
+      "Real Estate & Environment",
+      "Restructuring & Insolvency",
+      "Tax",
+      "White-Collar Crime"
+    ],
+    "source_url": "https://pestalozzilaw.com/en",
+    "fetched_date": "2026-07-21"
+  },
+  "dgepartners.com": {
+    "founding_year": 2011,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Banque, Finance",
+      "Contentieux, Arbitrage",
+      "Contrats commerciaux",
+      "Clientèle privée, Immigration, Philanthropie",
+      "Droit des sociétés, Fusions et Acquisitions",
+      "Immobilier, Construction, Urbanisme",
+      "Infractions de droit pénal économique, Anti-blanchiment, Compliance",
+      "Responsabilité civile, Droit Médical, Assurances",
+      "Successions",
+      "Travail, Fonction Publique, Protection des données"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.dgepartners.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "lk-k.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "International Commercial Arbitration",
+      "International Investment Arbitration",
+      "International Sports Law",
+      "Public International Law"
+    ],
+    "source_url": "https://lk-k.com/",
     "fetched_date": "2026-07-21"
   }
 }
