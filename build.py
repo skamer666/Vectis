@@ -262,7 +262,7 @@ def gen_home():
         ctx["stats"] = {
             "total_avocats": sum(v for v in CANTON_COUNTS.values() if v),
             "total_cantons": len(i18n.CANTONS),
-            "total_etudes": len(GE_FIRMS),
+            "total_etudes": len(GE_FIRMS) + sum(len(d["firms"]) for d in CANTON_DATA.values()),
             "total_domaines": len(i18n.DOMAINES),
         }
         ctx["cantons"] = [
@@ -502,6 +502,326 @@ def gen_cross_ge():
             write_page(path, render("cross.html", ctx))
 
 
+# ---------------------------------------------------------------- autres cantons (generique)
+
+TITLE_ONLY_RE = re.compile(
+    r"^(dr\.?|lic\.?\s*iur\.?|mlaw|ll\.?m\.?|prof\.?|mag\.?\s*iur\.?|me|fürsprecher(in)?|"
+    r"rechtsanwalt|rechtsanwältin|avocate?)\.?$",
+    re.IGNORECASE,
+)
+
+
+def split_firm_address(text):
+    """Heuristique pour separer nom d'etude/prenom et adresse dans un champ combine
+    (ex: Lucerne 'etude_adresse', Soleure 'reste_nom_prenom_adresse')."""
+    m = re.search(
+        r"^(.*?)\s*([A-ZÄÖÜ][\wäöüÄÖÜß.\'’\-]*\.?\s*\d+[a-zA-Z]?.*)$",
+        text,
+    )
+    if m:
+        first, rest = m.group(1).strip(" ,-"), m.group(2).strip()
+        if TITLE_ONLY_RE.match(first):
+            return "", (first + " " + rest).strip() if first else rest
+        return first, rest
+    return "", text.strip()
+
+
+CANTON_FILES = {
+    "AG": "avocats_argovie.csv", "AI": "avocats_appenzell_rhodes_interieures.csv",
+    "BS": "avocats_bale_ville.csv", "FR": "avocats_fribourg.csv",
+    "GL": "avocats_glaris.csv", "GR": "avocats_grisons.csv", "JU": "avocats_jura.csv",
+    "LU": "avocats_lucerne.csv", "NE": "avocats_neuchatel.csv", "NW": "avocats_nidwald.csv",
+    "OW": "avocats_obwald.csv", "SG": "avocats_saint_gall.csv", "SO": "avocats_soleure.csv",
+    "SZ": "avocats_schwyz.csv", "TG": "avocats_thurgovie.csv", "UR": "avocats_uri.csv",
+    "VD": "avocats_vaud.csv", "ZG": "avocats_zoug.csv", "ZH": "avocats_zurich.csv",
+}
+
+
+LANG_MARKER_RE = re.compile(r"\s*\((DE|FR|IT|EN)\)\s*$", re.IGNORECASE)
+NPA_CITY_RE = re.compile(r"^(\d{4})\s+(.+)$")
+TEST_JUNK_RE = re.compile(r"\btest\b", re.IGNORECASE)
+
+
+def normalize_row(code, r):
+    nom_complet = (r.get("nom_complet") or "").strip()
+    if not nom_complet:
+        prenom = (r.get("prenom") or "").strip()
+        nom = (r.get("nom") or "").strip()
+        nom_complet = f"{prenom} {nom}".strip()
+    if TEST_JUNK_RE.search(nom_complet):
+        return {
+            "nom_complet": "", "fonction": "", "etude": "", "adresse": "", "npa": "",
+            "ville": "", "telephone": "", "email": "", "site_web": "", "canton": code,
+        }
+    etude = (r.get("etude") or "").strip()
+    adresse = (r.get("adresse") or "").strip()
+    if code == "LU" and not etude and not adresse:
+        etude, adresse = split_firm_address(r.get("etude_adresse", "") or "")
+    if code == "SO" and not adresse:
+        extra, adresse2 = split_firm_address(r.get("reste_nom_prenom_adresse", "") or "")
+        if not adresse:
+            adresse = adresse2
+        if extra and nom_complet and " " not in nom_complet:
+            nom_complet = f"{extra} {nom_complet}".strip()
+    fonction = (r.get("profession") or r.get("titre") or r.get("titre_academique") or "").strip()
+    fonction = LANG_MARKER_RE.sub("", fonction).strip()
+    npa = (r.get("npa") or "").strip()
+    ville = (r.get("ville") or "").strip()
+    if npa in ("", "[]") or not npa.isdigit():
+        m = NPA_CITY_RE.match(ville)
+        if m:
+            npa, ville = m.group(1), m.group(2)
+        elif npa == "[]":
+            npa = ""
+    if ville == "[]":
+        ville = ""
+    telephone = (r.get("telephone") or "").strip()
+    if telephone == "[]":
+        telephone = ""
+    email = (r.get("email") or "").strip()
+    if email == "[]":
+        email = ""
+    site_web = (r.get("site_web") or "").strip()
+    if site_web == "[]":
+        site_web = ""
+    return {
+        "nom_complet": nom_complet,
+        "fonction": fonction,
+        "etude": etude,
+        "adresse": adresse,
+        "npa": npa,
+        "ville": ville,
+        "telephone": telephone,
+        "email": email,
+        "site_web": site_web,
+        "canton": code,
+    }
+
+
+def load_canton(code):
+    fname = CANTON_FILES.get(code)
+    if not fname:
+        return []
+    path = os.path.join(DATA_DIR, fname)
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        raw_rows = list(csv.DictReader(f))
+    rows = [normalize_row(code, r) for r in raw_rows]
+    rows = [r for r in rows if r["nom_complet"]]
+    for r in rows:
+        r["ville"] = clean_ville(r.get("ville", ""), r.get("npa", ""))
+    seen_slugs = {}
+    for r in rows:
+        base = slugify(r["nom_complet"])
+        n = seen_slugs.get(base, 0)
+        seen_slugs[base] = n + 1
+        r["_slug"] = base if n == 0 else f"{base}-{n+1}"
+    return rows
+
+
+def build_canton_firms(individuals):
+    """Regroupe les avocats par etude (texte libre) au sein d'un canton.
+    Ces cantons n'ont pas de fichier etudes deja construit comme Geneve :
+    les etudes sont derivees directement du champ etude des avocats."""
+    groups = {}
+    for r in individuals:
+        e = r["etude"].strip()
+        if not e:
+            continue
+        key = norm(e)
+        groups.setdefault(key, {"etude": e, "members": [], "ville": r["ville"]})
+        groups[key]["members"].append(r)
+    firms = list(groups.values())
+    seen_slugs = {}
+    for f in firms:
+        base = slugify(f["etude"])
+        n = seen_slugs.get(base, 0)
+        seen_slugs[base] = n + 1
+        f["_slug"] = base if n == 0 else f"{base}-{n+1}"
+    return firms
+
+
+OTHER_CANTON_CODES = list(CANTON_FILES.keys())
+CANTON_DATA = {}
+for _code in OTHER_CANTON_CODES:
+    _individuals = load_canton(_code)
+    _firms = build_canton_firms(_individuals)
+    _solo = [r for r in _individuals if not r["etude"].strip()]
+    CANTON_DATA[_code] = {
+        "individuals": _individuals, "firms": _firms, "solo": _solo,
+        "firm_by_norm": {norm(f["etude"]): f for f in _firms},
+        "by_city": {},
+    }
+    for _r in _individuals:
+        CANTON_DATA[_code]["by_city"].setdefault(_r["ville"], []).append(_r)
+    CANTON_COUNTS[_code] = len(_individuals)
+    print(f"{_code}: {len(_individuals)} avocats, {len(_firms)} etudes derivees, {len(_solo)} indep.", file=sys.stderr)
+
+
+def canton_registry(code, lang):
+    data = CANTON_DATA[code]
+    rows = []
+    for f in data["firms"]:
+        rows.append({
+            "type": "etude", "nom": f["etude"], "url": etude_path(code, f["_slug"], lang),
+            "ville": f["ville"], "n_membres": len(f["members"]),
+        })
+    for r in data["solo"]:
+        rows.append({
+            "type": "avocat", "nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
+            "ville": r["ville"], "role": r.get("fonction", ""),
+        })
+    rows.sort(key=lambda x: x["nom"])
+    return rows
+
+
+def gen_canton_hub(code):
+    data = CANTON_DATA[code]
+    n_total = len(data["individuals"])
+    for lang in LANGS:
+        canton_name = i18n.CANTONS[code][lang]["name"]
+        path = canton_path(code, lang)
+        desc = pt.canton_intro(lang, canton_name, n_total)[:158]
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
+                        {lg: canton_path(code, lg) for lg in LANGS})
+        ctx["canton_name"] = canton_name
+        ctx["intro_text"] = pt.canton_intro(lang, canton_name, n_total)
+        ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path(code, d, lang), "has_data": False}
+                            for d in i18n.DOMAINES]
+        ctx["stats_label"] = {
+            "fr": f"{len(data['firms'])} études · {len(data['solo'])} avocats indépendants référencés",
+            "de": f"{len(data['firms'])} Kanzleien · {len(data['solo'])} unabhängige Anwältinnen und Anwälte erfasst",
+            "it": f"{len(data['firms'])} studi legali · {len(data['solo'])} avvocati indipendenti registrati",
+            "en": f"{len(data['firms'])} firms · {len(data['solo'])} independent lawyers listed",
+        }[lang]
+        ctx["registry"] = canton_registry(code, lang)
+        ctx["has_more"] = False
+        ctx["more_text"] = ""
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                              (i18n.UI[lang]["all_cantons"], cantons_index_path(lang)), (canton_name, path)]
+        write_page(path, render("canton_hub.html", ctx))
+
+
+def gen_canton_cross(code):
+    fallback_by_lang = {lang: canton_registry(code, lang)[:40] for lang in LANGS}
+    for did in i18n.DOMAINES:
+        for lang in LANGS:
+            canton_name = i18n.CANTONS[code][lang]["name"]
+            dname = i18n.DOMAINES[did][lang]["name"]
+            path = cross_path(code, did, lang)
+            desc = pt.cross_intro(lang, dname, canton_name)[:158]
+            ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
+                            {lg: cross_path(code, did, lg) for lg in LANGS})
+            ctx["domaine_name"] = dname
+            ctx["canton_name"] = canton_name
+            ctx["h1"] = pt.cross_h1(lang, dname, canton_name)
+            ctx["intro_text"] = pt.cross_intro(lang, dname, canton_name)
+            ctx["avocats"] = []
+            ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
+            ctx["no_specialty_text"] = pt.cross_fallback_text(lang, dname, canton_name)
+            ctx["fallback_avocats"] = fallback_by_lang[lang]
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                  (canton_name, canton_path(code, lang)), (dname, path)]
+            write_page(path, render("cross.html", ctx))
+
+
+def gen_canton_etudes(code, start=0, count=None):
+    data = CANTON_DATA[code]
+    subset = data["firms"][start:start + count] if count else data["firms"][start:]
+    for f in subset:
+        nom_etude = f["etude"]
+        members = sorted(f["members"], key=lambda m: m["nom_complet"])
+        n = len(members)
+        ville = f["ville"]
+        adresse = members[0].get("adresse", "") if members else ""
+        npa = members[0].get("npa", "") if members else ""
+        telephone = members[0].get("telephone", "") if members else ""
+        for lang in LANGS:
+            canton_name = i18n.CANTONS[code][lang]["name"]
+            path = etude_path(code, f["_slug"], lang)
+            desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)[:158]
+            ctx = base_ctx(lang, path, f"{nom_etude} — {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
+                            {lg: etude_path(code, f["_slug"], lg) for lg in LANGS})
+            ctx["nom_etude"] = nom_etude
+            ctx["canton_name"] = canton_name
+            ctx["adresse"] = adresse
+            ctx["npa"] = npa
+            ctx["ville"] = ville
+            ctx["presentation"] = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)
+            ctx["members_title"] = (
+                {"fr": "Avocats de l'étude", "de": "Anwältinnen und Anwälte der Kanzlei",
+                 "it": "Avvocati dello studio", "en": "Lawyers at this firm"}[lang])
+            ctx["membres"] = [
+                {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "fonction": m.get("fonction", ""),
+                 "url": avocat_path(code, m["_slug"], lang)}
+                for m in members
+            ]
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                  (canton_name, canton_path(code, lang)), (nom_etude, path)]
+            ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
+                "address": {"@type": "PostalAddress", "streetAddress": adresse,
+                             "postalCode": npa, "addressLocality": ville, "addressCountry": "CH"},
+                "telephone": telephone,
+            }, ensure_ascii=False)
+            write_page(path, render("etude.html", ctx))
+
+
+def gen_canton_avocats(code, start=0, count=None):
+    data = CANTON_DATA[code]
+    individuals = data["individuals"]
+    by_city = data["by_city"]
+    firm_by_norm = data["firm_by_norm"]
+    subset = individuals[start:start + count] if count else individuals[start:]
+    for row in subset:
+        nom = row["nom_complet"].title()
+        etude_name = row.get("etude", "").strip()
+        firm_row = firm_by_norm.get(norm(etude_name)) if etude_name else None
+        same_city = [r for r in by_city.get(row["ville"], []) if r["_slug"] != row["_slug"]][:6]
+        for lang in LANGS:
+            canton_name = i18n.CANTONS[code][lang]["name"]
+            path = avocat_path(code, row["_slug"], lang)
+            desc = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
+                                           ville=row.get("ville") or None,
+                                           fonction=row.get("fonction") or None)[:158]
+            ctx = base_ctx(lang, path, f"{nom} — {i18n.UI[lang]['site_name']}", desc,
+                            {lg: avocat_path(code, row["_slug"], lg) for lg in LANGS})
+            ctx["nom"] = nom
+            ctx["canton_name"] = canton_name
+            ctx["role_or_titre"] = row.get("fonction") or ""
+            ctx["etude"] = etude_name
+            ctx["etude_url"] = etude_path(code, firm_row["_slug"], lang) if firm_row else None
+            ctx["adresse"] = row.get("adresse") or ""
+            ctx["npa"] = row.get("npa") or ""
+            ctx["ville"] = row.get("ville") or ""
+            ctx["telephone"] = row.get("telephone") or ""
+            ctx["email"] = row.get("email") or ""
+            ctx["site_web"] = row.get("site_web") or ""
+            ctx["site_web_href"] = row.get("site_web") or "#"
+            ctx["presentation"] = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
+                                                           ville=row.get("ville") or None,
+                                                           fonction=row.get("fonction") or None)
+            ctx["domaines"] = []
+            ctx["nearby_title"] = f"{i18n.UI[lang]['find_a_lawyer_near']} {row.get('ville','')}" if lang != "de" else f"Weitere Anwältinnen und Anwälte in {row.get('ville','')}"
+            ctx["nearby"] = [
+                {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
+                 "etude": r.get("etude", ""), "ville": r.get("ville", "")}
+                for r in same_city
+            ]
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                  (canton_name, canton_path(code, lang)), (nom, path)]
+            ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "Attorney", "name": nom,
+                "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
+                             "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
+                             "addressCountry": "CH"},
+                "telephone": row.get("telephone", ""), "email": row.get("email", ""),
+                "areaServed": canton_name,
+            }, ensure_ascii=False)
+            write_page(path, render("avocat.html", ctx))
+
+
 def copy_static():
     import shutil
     src = os.path.join(SITE_ROOT, "static")
@@ -533,6 +853,21 @@ def gen_search():
                 "ville": r.get("ville", ""),
                 "url": etude_path("GE", r["_slug"], lang),
             })
+        for code, data in CANTON_DATA.items():
+            for r in data["individuals"]:
+                index.append({
+                    "nom": r["nom_complet"].title(),
+                    "etude": r.get("etude", ""),
+                    "ville": r.get("ville", ""),
+                    "url": avocat_path(code, r["_slug"], lang),
+                })
+            for f in data["firms"]:
+                index.append({
+                    "nom": f["etude"],
+                    "etude": "",
+                    "ville": f.get("ville", ""),
+                    "url": etude_path(code, f["_slug"], lang),
+                })
         json_path = os.path.join(DIST_DIR, f"search-index-{lang}.json")
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(index, f, ensure_ascii=False)
@@ -562,7 +897,35 @@ if __name__ == "__main__":
     elif stage == "avocats":
         start = int(sys.argv[2]); count = int(sys.argv[3])
         gen_ge_avocats(start, count)
+    elif stage == "canton-base":
+        code = sys.argv[2]
+        gen_canton_hub(code)
+        gen_canton_cross(code)
+    elif stage == "canton-etudes":
+        code = sys.argv[2]; start = int(sys.argv[3]); count = int(sys.argv[4])
+        gen_canton_etudes(code, start, count)
+    elif stage == "canton-avocats":
+        code = sys.argv[2]; start = int(sys.argv[3]); count = int(sys.argv[4])
+        gen_canton_avocats(code, start, count)
+    elif stage == "canton-full":
+        code = sys.argv[2]
+        gen_canton_hub(code)
+        gen_canton_cross(code)
+        gen_canton_etudes(code)
+        gen_canton_avocats(code)
+    elif stage == "other-cantons":
+        for code in OTHER_CANTON_CODES:
+            gen_canton_hub(code)
+            gen_canton_cross(code)
+            gen_canton_etudes(code)
+            gen_canton_avocats(code)
     else:
         gen_home(); gen_indexes(); gen_coming_soon(); gen_canton_hub_ge()
-        gen_domain_hubs(); gen_cross_ge(); gen_search(); gen_ge_etudes(); gen_ge_avocats()
+        gen_domain_hubs(); gen_cross_ge(); gen_ge_etudes(); gen_ge_avocats()
+        for code in OTHER_CANTON_CODES:
+            gen_canton_hub(code)
+            gen_canton_cross(code)
+            gen_canton_etudes(code)
+            gen_canton_avocats(code)
+        gen_search()
     print(f"{len(URLS_GENERATED)} pages generees dans {DIST_DIR}", file=sys.stderr)
