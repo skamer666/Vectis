@@ -182,8 +182,33 @@ def other_canton_counts():
 
 
 print("Chargement des donnees Geneve...", file=sys.stderr)
+def clean_ville(v, npa=""):
+    # Retire les suffixes de secteur postal (Geneve 3, Geneve 12 Champel...)
+    # qui ne parlent a personne hors du tri postal interne.
+    # Corrige aussi les quelques lignes ou l enrichissement a ecrit un texte
+    # d activite (ex: nom de societe avec virgule) a la place de la ville :
+    # une vraie localite suisse ne contient jamais de virgule.
+    if not v:
+        return v
+    v = re.sub(r"\s+\d+(\s+\S+)*$", "", v).strip()
+    known_bad = {"legal, conseil & tax", "gt sa"}
+    if (("," in v and npa.strip().startswith("12")) or v.lower() in known_bad):
+        return "Genève"
+    return v
+
+
 GE_INDIVIDUALS = load_ge_individuals()
+for _r in GE_INDIVIDUALS:
+    _r["ville"] = clean_ville(_r.get("ville", ""), _r.get("npa", ""))
+
 GE_FIRMS = load_ge_firms()
+for _r in GE_FIRMS:
+    _r["ville"] = clean_ville(_r.get("ville", ""), _r.get("npa", ""))
+
+# Exclure les pseudo-"etudes" [Independant] <adresse> : artefact du scraping
+# d'origine qui regroupe les avocats sans etude par adresse partagee plutot
+# que de les laisser comme individus. Ce ne sont pas de vraies etudes.
+GE_FIRMS = [f for f in GE_FIRMS if not f["etude"].strip().startswith("[Ind\u00e9pendant]")]
 FIRM_BY_NORM = {norm(r["etude"]): r for r in GE_FIRMS}
 
 MEMBERS_BY_FIRM_NORM = {}
