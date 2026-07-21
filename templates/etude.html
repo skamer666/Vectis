@@ -11,6 +11,10 @@
 
   {% if presentation %}<p class="presentation">{{ presentation }}</p>{% endif %}
 
+  <p class="claim-notice" style="font-size:0.9rem;">
+    <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
+  </p>
+
   <section class="section">
     <div class="section-head"><h2>{{ members_title }}</h2></div>
     <div class="registry">

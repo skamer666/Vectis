@@ -23,6 +23,10 @@
     {% if etude %}<tr><td>{{ ui.firm }}</td><td>{% if etude_url %}<a href="{{ etude_url }}">{{ etude }}</a>{% else %}{{ etude }}{% endif %}</td></tr>{% endif %}
   </table>
 
+  <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.9rem;">
+    <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
+  </p>
+
   {% if domaines %}
   <section class="section" style="padding-block:var(--space-xl);">
     <h2 style="margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>

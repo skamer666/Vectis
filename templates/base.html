@@ -11,9 +11,24 @@
 {% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ hreflang.get('fr', canonical_url) }}">
 <link rel="stylesheet" href="{{ asset_prefix }}static/css/style.css">
+{% if noindex %}
+<meta name="robots" content="noindex,follow">
+{% endif %}
+<meta property="og:site_name" content="Legatis">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ meta_description }}">
 {% if schema %}
 <script type="application/ld+json">{{ schema | safe }}</script>
 {% endif %}
+{% for extra in extra_schema %}
+<script type="application/ld+json">{{ extra | safe }}</script>
+{% endfor %}
 </head>
 <body>
 <header class="masthead">

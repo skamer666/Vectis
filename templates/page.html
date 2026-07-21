@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <h1>{{ page_title }}</h1>
+  </section>
+  <section class="section" style="padding-top:0; max-width:70ch;">
+    {% for s in sections %}
+    {% if s.heading %}<h2 style="margin-top:var(--space-xl);">{{ s.heading }}</h2>{% endif %}
+    {% for para in s.paragraphs %}<p class="lede" style="font-size:1rem;">{{ para }}</p>{% endfor %}
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

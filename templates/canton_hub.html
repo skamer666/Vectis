@@ -5,6 +5,7 @@
     <div class="hero-eyebrow">{{ ui.canton }}</div>
     <h1>{{ ui.find_a_lawyer_near }} {{ canton_name }}</h1>
     <p class="lede">{{ intro_text }}</p>
+    {% if insight_text %}<p class="lede" style="font-size:1rem;">{{ insight_text }}</p>{% endif %}
   </section>
 
   <section class="section" style="padding-top:0;">

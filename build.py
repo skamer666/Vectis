@@ -4,6 +4,7 @@ Generateur statique du site Legatis (pilote canton de Geneve, 4 langues).
 Lit les CSV deja collectes dans data/, genere du HTML statique via Jinja2.
 """
 import csv
+import datetime
 import json
 import os
 import re
@@ -15,6 +16,7 @@ from jinja2 import Environment, FileSystemLoader
 sys.path.insert(0, os.path.dirname(__file__))
 import i18n
 import presentation_text as pt
+import static_pages as sp_content
 
 BASE_DOMAIN = "https://legatis.ch"
 SITE_ROOT = os.path.dirname(__file__)
@@ -245,7 +247,24 @@ def ge_registry(lang):
 print(f"{len(GE_INDIVIDUALS)} avocats, {len(GE_FIRMS)} etudes charges.", file=sys.stderr)
 
 
+OG_LOCALES = {"fr": "fr_CH", "de": "de_CH", "it": "it_CH", "en": "en_US"}
+
+
 def render(template_name, ctx):
+    ctx.setdefault("noindex", False)
+    ctx.setdefault("og_locale", OG_LOCALES.get(ctx.get("lang"), "fr_CH"))
+    extra = list(ctx.get("extra_schema") or [])
+    bc = ctx.get("breadcrumb")
+    if bc:
+        items = [
+            {"@type": "ListItem", "position": i + 1, "name": label,
+             "item": url if url.startswith("http") else BASE_DOMAIN + url}
+            for i, (label, url) in enumerate(bc)
+        ]
+        extra.append(json.dumps({
+            "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items,
+        }, ensure_ascii=False))
+    ctx["extra_schema"] = extra
     return env.get_template(template_name).render(**ctx)
 
 
@@ -259,6 +278,24 @@ def gen_home():
                         hreflang_for(home_path))
         ctx["intro_text"] = i18n.UI[lang]["tagline"] + "."
         ctx["search_url"] = f"/{lang}/{seg('recherche', lang)}/"
+        ctx["schema"] = json.dumps({
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Organization", "name": "Legatis", "url": BASE_DOMAIN,
+                    "description": i18n.UI[lang]["tagline"],
+                },
+                {
+                    "@type": "WebSite", "name": "Legatis", "url": BASE_DOMAIN,
+                    "inLanguage": lang,
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": f"{BASE_DOMAIN}{ctx['search_url']}?q={{search_term_string}}",
+                        "query-input": "required name=search_term_string",
+                    },
+                },
+            ],
+        }, ensure_ascii=False)
         ctx["stats"] = {
             "total_avocats": sum(v for v in CANTON_COUNTS.values() if v),
             "total_cantons": len(i18n.CANTONS),
@@ -309,6 +346,7 @@ def gen_coming_soon():
                             i18n.UI[lang]["coming_soon_text"],
                             {lg: f"/{lg}/{seg('avocats', lg)}/{i18n.CANTONS_A_VENIR[code][lg]['slug']}/" for lg in LANGS})
             ctx["canton_name"] = name
+            ctx["noindex"] = True
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (i18n.UI[lang]["all_cantons"], cantons_index_path(lang)),
                                   (name, path)]
@@ -331,6 +369,11 @@ def domaines_for_lawyer(row):
 BY_CITY = {}
 for _r in GE_INDIVIDUALS:
     BY_CITY.setdefault(_r["ville"], []).append(_r)
+
+GE_BY_DOMAINE = {}
+for _r in GE_INDIVIDUALS:
+    for _did in domaines_for_lawyer(_r):
+        GE_BY_DOMAINE.setdefault(_did, []).append(_r)
 
 
 def gen_ge_avocats(start=0, count=None):
@@ -435,6 +478,47 @@ def gen_ge_etudes(start=0, count=None):
             write_page(path, render("etude.html", ctx))
 
 
+def top_city(individuals):
+    from collections import Counter
+    c = Counter(r["ville"] for r in individuals if r.get("ville"))
+    if not c:
+        return None, 0
+    city, n = c.most_common(1)[0]
+    return city, n
+
+
+def canton_insight(lang, top_city_name, top_city_n, total, n_solo):
+    if not top_city_name or not total:
+        return ""
+    pct_indep = round(100 * n_solo / total)
+    if pct_indep == 0:
+        indep_fr = "Tous les avocats référencés sont rattachés à une étude dans le registre."
+        indep_de = "Alle erfassten Anwältinnen und Anwälte sind im Register einer Kanzlei zugeordnet."
+        indep_it = "Tutti gli avvocati registrati sono associati a uno studio nel registro."
+        indep_en = "All listed lawyers are affiliated with a firm in the register."
+    elif pct_indep == 100:
+        indep_fr = "Aucun n'est rattaché à une étude déclarée dans le registre."
+        indep_de = "Keiner ist im Register einer Kanzlei zugeordnet."
+        indep_it = "Nessuno è associato a uno studio dichiarato nel registro."
+        indep_en = "None are affiliated with a firm declared in the register."
+    else:
+        indep_fr = f"Environ {pct_indep}% des avocats référencés exercent sans étude déclarée dans le registre."
+        indep_de = f"Rund {pct_indep}% der erfassten Anwältinnen und Anwälte üben ohne im Register angegebene Kanzlei aus."
+        indep_it = f"Circa il {pct_indep}% degli avvocati registrati esercita senza uno studio dichiarato nel registro."
+        indep_en = f"About {pct_indep}% of listed lawyers practise without a firm declared in the register."
+    if lang == "fr":
+        return (f"{top_city_name} concentre le plus grand nombre d'avocats référencés du canton "
+                f"({top_city_n} sur {total}). {indep_fr}")
+    if lang == "de":
+        return (f"{top_city_name} verzeichnet die meisten im Kanton erfassten Anwältinnen und Anwälte "
+                f"({top_city_n} von {total}). {indep_de}")
+    if lang == "it":
+        return (f"{top_city_name} concentra il maggior numero di avvocati registrati del cantone "
+                f"({top_city_n} su {total}). {indep_it}")
+    return (f"{top_city_name} has the highest concentration of registered lawyers in the canton "
+            f"({top_city_n} out of {total}). {indep_en}")
+
+
 def gen_canton_hub_ge():
     for lang in LANGS:
         canton_name = i18n.CANTONS["GE"][lang]["name"]
@@ -444,7 +528,10 @@ def gen_canton_hub_ge():
                         {lg: canton_path("GE", lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
-        ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path("GE", d, lang), "has_data": False}
+        _tc_name, _tc_n = top_city(GE_INDIVIDUALS)
+        ctx["insight_text"] = canton_insight(lang, _tc_name, _tc_n, len(GE_INDIVIDUALS), len(SOLO_LAWYERS))
+        ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path("GE", d, lang),
+                             "has_data": bool(GE_BY_DOMAINE.get(d))}
                             for d in i18n.DOMAINES]
         registry = ge_registry(lang)
         ctx["stats_label"] = {
@@ -482,6 +569,7 @@ def gen_domain_hubs():
 def gen_cross_ge():
     fallback_by_lang = {lang: ge_registry(lang)[:40] for lang in LANGS}
     for did in i18n.DOMAINES:
+        matches = GE_BY_DOMAINE.get(did, [])
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             dname = i18n.DOMAINES[did][lang]["name"]
@@ -493,10 +581,15 @@ def gen_cross_ge():
             ctx["canton_name"] = canton_name
             ctx["h1"] = pt.cross_h1(lang, dname, canton_name)
             ctx["intro_text"] = pt.cross_intro(lang, dname, canton_name)
-            ctx["avocats"] = []  # GE n'a pas de specialites structurees pour l'instant
+            ctx["avocats"] = [
+                {"nom": r["nom_complet"].title(), "url": avocat_path("GE", r["_slug"], lang),
+                 "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
+                for r in matches
+            ]
             ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
             ctx["no_specialty_text"] = pt.cross_fallback_text(lang, dname, canton_name)
             ctx["fallback_avocats"] = fallback_by_lang[lang]
+            ctx["noindex"] = not matches
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (dname, path)]
             write_page(path, render("cross.html", ctx))
@@ -679,6 +772,7 @@ def canton_registry(code, lang):
 def gen_canton_hub(code):
     data = CANTON_DATA[code]
     n_total = len(data["individuals"])
+    _tc_name, _tc_n = top_city(data["individuals"])
     for lang in LANGS:
         canton_name = i18n.CANTONS[code][lang]["name"]
         path = canton_path(code, lang)
@@ -687,6 +781,7 @@ def gen_canton_hub(code):
                         {lg: canton_path(code, lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, n_total)
+        ctx["insight_text"] = canton_insight(lang, _tc_name, _tc_n, n_total, len(data["solo"]))
         ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path(code, d, lang), "has_data": False}
                             for d in i18n.DOMAINES]
         ctx["stats_label"] = {
@@ -721,6 +816,7 @@ def gen_canton_cross(code):
             ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
             ctx["no_specialty_text"] = pt.cross_fallback_text(lang, dname, canton_name)
             ctx["fallback_avocats"] = fallback_by_lang[lang]
+            ctx["noindex"] = True
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path(code, lang)), (dname, path)]
             write_page(path, render("cross.html", ctx))
@@ -836,6 +932,71 @@ def copy_static():
                 shutil.copyfile(os.path.join(root, fname), os.path.join(target_dir, fname))
 
 
+STATIC_PAGE_IDS = ["methodologie", "a-propos", "contact", "mentions-legales", "confidentialite", "correction"]
+
+
+def gen_static_pages():
+    for page_id in STATIC_PAGE_IDS:
+        for lang in LANGS:
+            content = sp_content.get_page(page_id, lang)
+            path = f"/{lang}/{seg(page_id, lang)}/"
+            desc = (content["sections"][0]["paragraphs"][0])[:158]
+            ctx = base_ctx(lang, path, f"{content['title']} | Legatis", desc,
+                            {lg: f"/{lg}/{seg(page_id, lg)}/" for lg in LANGS})
+            ctx["page_title"] = content["title"]
+            ctx["sections"] = content["sections"]
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (content["title"], path)]
+            write_page(path, render("page.html", ctx))
+
+
+def gen_sitemaps():
+    today = datetime.date.today().isoformat()
+    by_lang = {lg: [] for lg in LANGS}
+    for lg in LANGS:
+        lang_dir = os.path.join(DIST_DIR, lg)
+        for dirpath, _dirnames, filenames in os.walk(lang_dir):
+            if "index.html" in filenames:
+                fpath = os.path.join(dirpath, "index.html")
+                with open(fpath, encoding="utf-8") as f:
+                    head = f.read(2500)
+                if 'name="robots" content="noindex' in head:
+                    continue
+                rel = os.path.relpath(dirpath, DIST_DIR).replace(os.sep, "/")
+                by_lang[lg].append("/" + rel + "/")
+    sitemap_files = []
+    for lg in LANGS:
+        urls = by_lang[lg]
+        fname = f"sitemap-{lg}.xml"
+        xml = ['<?xml version="1.0" encoding="UTF-8"?>',
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+        for p in urls:
+            xml.append(f"  <url><loc>{BASE_DOMAIN}{p}</loc><lastmod>{today}</lastmod></url>")
+        xml.append("</urlset>")
+        with open(os.path.join(DIST_DIR, fname), "w", encoding="utf-8") as f:
+            f.write("\n".join(xml))
+        sitemap_files.append(fname)
+    idx = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for fname in sitemap_files:
+        idx.append(f"  <sitemap><loc>{BASE_DOMAIN}/{fname}</loc><lastmod>{today}</lastmod></sitemap>")
+    idx.append("</sitemapindex>")
+    with open(os.path.join(DIST_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write("\n".join(idx))
+    print(f"sitemap.xml + {len(sitemap_files)} sous-sitemaps ({sum(len(v) for v in by_lang.values())} URLs)", file=sys.stderr)
+
+
+def gen_robots():
+    content = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /search-index-*.json\n"
+        "\n"
+        f"Sitemap: {BASE_DOMAIN}/sitemap.xml\n"
+    )
+    with open(os.path.join(DIST_DIR, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(content)
+
+
 def gen_search():
     for lang in LANGS:
         index = []
@@ -890,6 +1051,7 @@ if __name__ == "__main__":
         gen_canton_hub_ge()
         gen_domain_hubs()
         gen_cross_ge()
+        gen_static_pages()
         gen_search()
     elif stage == "etudes":
         start = int(sys.argv[2]); count = int(sys.argv[3])
@@ -927,5 +1089,8 @@ if __name__ == "__main__":
             gen_canton_cross(code)
             gen_canton_etudes(code)
             gen_canton_avocats(code)
+        gen_static_pages()
         gen_search()
+        gen_sitemaps()
+        gen_robots()
     print(f"{len(URLS_GENERATED)} pages generees dans {DIST_DIR}", file=sys.stderr)
