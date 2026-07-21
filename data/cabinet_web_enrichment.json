@@ -3,8 +3,8 @@
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
     "wave": 1,
-    "domains_tested_total": 63,
-    "domains_with_usable_facts": 33
+    "domains_tested_total": 73,
+    "domains_with_usable_facts": 40
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -637,6 +637,106 @@
       "Public International Law"
     ],
     "source_url": "https://lk-k.com/",
+    "fetched_date": "2026-07-21"
+  },
+  "hdclegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des contrats",
+      "Technologies et médias",
+      "Protection des données",
+      "Droit du sport et de l'association",
+      "Clientèle privée",
+      "Contentieux",
+      "Droit de la construction",
+      "Droit du travail, de l'immigration et des assurances sociales"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://hdclegal.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "eigenmann-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des Successions",
+      "Responsabilité civile et droit des assurances",
+      "Droit de la construction et de l'immobilier",
+      "Médiation"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.eigenmann-avocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "ohs-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit civil et relations familiales",
+      "Droit du travail et des étrangers",
+      "Droit pénal",
+      "Droit immobilier"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.ohs-avocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "mravocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la fonction publique",
+      "Droit collectif du travail",
+      "Droit de la prévoyance professionnelle (LPP)",
+      "Droit des assurances sociales et des assurances privées",
+      "Droit des sociétés, restructurations d'entreprises, fusions et acquisitions",
+      "Droit des associations et des fondations",
+      "Enquêtes internes",
+      "Médiation en entreprise",
+      "Personne de Confiance en Entreprise",
+      "Protection des données",
+      "Droit européen",
+      "Droit des étrangers",
+      "Droit des successions"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://mravocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "ldlegal.ch": {
+    "founding_year": 2018,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Tax",
+      "Real Estate",
+      "Corporate",
+      "Litigation"
+    ],
+    "source_url": "https://www.ldlegal.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "khlegal.ch": {
+    "founding_year": null,
+    "team_size_n": 12,
+    "practice_areas_fr": [
+      "Divorce & Séparation",
+      "Succession",
+      "Planification",
+      "Protection"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://khlegal.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "canonicalex.ch": {
+    "founding_year": 1953,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://canonicalex.ch/",
     "fetched_date": "2026-07-21"
   }
 }
