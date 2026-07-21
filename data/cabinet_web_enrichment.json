@@ -1,11 +1,9 @@
 {
   "_meta": {
-    "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
-    "fetched_date": "2026-07-21",
-    "wave": 2,
-    "domains_tested_total": 90,
-    "domains_with_usable_facts": 58,
-    "domains_failed_or_no_facts": 32
+    "total_tested": 110,
+    "total_success": 74,
+    "total_failed": 36,
+    "last_updated": "2026-07-21"
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -868,6 +866,22 @@
     "eversheds-sutherland.com": {
       "reason": "contenu vide (pages Geneve/Zurich necessitent JS, fetch renvoie une page quasi vide)",
       "checked_date": "2026-07-21"
+    },
+    "stralta.ch": {
+      "reason": "page vide au fetch (contenu rendu en JavaScript), aucun fait exploitable",
+      "checked_date": "2026-07-21"
+    },
+    "10decembre.ch": {
+      "reason": "page d'accueil consultée mais aucune année de fondation ni effectif chiffré ni liste de domaines de droit formulée explicitement",
+      "checked_date": "2026-07-21"
+    },
+    "avevey.ch": {
+      "reason": "site rendu en JavaScript, contenu vide sur plusieurs pages testées",
+      "checked_date": "2026-07-21"
+    },
+    "interlegal.ch": {
+      "reason": "site vide au fetch sur plusieurs pages testées (rendu JavaScript probable)",
+      "checked_date": "2026-07-21"
     }
   },
   "ducrestheggli.com": {
@@ -1200,5 +1214,287 @@
     "source_url": "https://www.bakermckenzie.com/en/locations/emea/switzerland",
     "fetched_date": "2026-07-21",
     "team_size_n": 130
+  },
+  "bottge.ch": {
+    "founding_year": 1998,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Procédures",
+      "Conseil en entreprise",
+      "Entrepreneuriat social et innovant",
+      "Banque et finance",
+      "Médias",
+      "Art et biens culturels",
+      "Successions"
+    ],
+    "source_url": "https://bottge.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "renold-gabus.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de l'art et des biens culturels",
+      "Droit de la famille",
+      "Droit de la poursuite pour dette et de la faillite",
+      "Droit des assurances",
+      "Droit des contrats",
+      "Droit des étrangers",
+      "Droits réels",
+      "Droit des victimes d'infractions",
+      "Droit du travail",
+      "Droit pénal général",
+      "Propriété intellectuelle",
+      "Protection de l'adulte et de l'enfant"
+    ],
+    "source_url": "https://www.renlaw.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "gthc.ch": {
+    "founding_year": 2020,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du bail",
+      "Droit de la construction",
+      "Droit pénal",
+      "Droit pénal économique",
+      "Droit de la famille",
+      "Droit administratif",
+      "Entraide",
+      "Contentieux civil"
+    ],
+    "source_url": "https://gthc.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "brslaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit international privé, reconnaissance et exécution de jugements étrangers",
+      "Contentieux et arbitrage national et international",
+      "Poursuites et faillite",
+      "Droit pénal"
+    ],
+    "source_url": "https://brslaw.ch/en/about-us",
+    "fetched_date": "2026-07-21"
+  },
+  "100-legal.com": {
+    "founding_year": 2009,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des sociétés et droit commercial",
+      "Contentieux et arbitrage",
+      "Banque et finance",
+      "Immobilier et aménagement du territoire",
+      "Droit de la concurrence",
+      "Clients privés",
+      "Droit du sport"
+    ],
+    "source_url": "https://100-legal.com/etude/",
+    "fetched_date": "2026-07-21"
+  },
+  "lawyersgeneva.ch": {
+    "founding_year": 2014,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit pénal",
+      "Droit administratif"
+    ],
+    "source_url": "https://www.lawyersgeneva.ch/en/our-law-firm/",
+    "fetched_date": "2026-07-21"
+  },
+  "mclb-avocats.ch": {
+    "founding_year": 2023,
+    "team_size_n": 4,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit de la circulation routière",
+      "Droit aérien",
+      "Droit de la propriété intellectuelle et de la protection des données",
+      "Droit des contrats",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit des poursuites, faillites et sursis concordataires",
+      "Droit des assurances privées",
+      "Droit de la prévoyance professionnelle",
+      "Responsabilité civile et droit des assurances sociales",
+      "Droit médical et de la santé",
+      "Droit des successions",
+      "Droit de la famille",
+      "Droit de la protection de l'adulte et de l'enfant",
+      "Arbitrage et résolution extrajudiciaire des litiges",
+      "Droit de la construction et de l'immobilier",
+      "Droit administratif et des collectivités publiques",
+      "Droit de l'aménagement du territoire et des permis de construire",
+      "Droit des marchés publics"
+    ],
+    "source_url": "https://mclb-avocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "idest.pro": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Activités judiciaires et médiation",
+      "Capital-risque & capital-investissement",
+      "Concurrence déloyale",
+      "Contrats commerciaux",
+      "Divertissements & sponsoring",
+      "Droit bancaire, finance & fintech",
+      "Droit de la concurrence et des cartels",
+      "Droit des sociétés et droit commercial",
+      "Droit du travail & ressources humaines",
+      "ESG/Impact Investing",
+      "Financement d'entreprises",
+      "Fusions & acquisitions, transferts d'entreprises",
+      "Gouvernance d'entreprises",
+      "Informatique, externalisation & solutions XaaS",
+      "Insolvabilité, assainissement et restructuration",
+      "Open access & open source",
+      "Propriété intellectuelle",
+      "Protection des données & cybersécurité",
+      "Technologies avancées & innovation",
+      "Art, médias & marketing digital",
+      "Sciences de la vie & santé"
+    ],
+    "source_url": "https://www.idest.pro/fr/what-we-do/",
+    "fetched_date": "2026-07-21"
+  },
+  "sf5.ch": {
+    "founding_year": null,
+    "team_size_n": 5,
+    "practice_areas_fr": null,
+    "source_url": "https://sf5.ch/about/",
+    "fetched_date": "2026-07-21"
+  },
+  "noelavocats.ch": {
+    "founding_year": 1999,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit fiscal",
+      "Droit successoral",
+      "Droit judiciaire",
+      "Droit de l'immobilier",
+      "Droit de la construction",
+      "Droit de l'aménagement du territoire"
+    ],
+    "source_url": "https://noelavocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "allia.legal": {
+    "founding_year": null,
+    "team_size_n": 5,
+    "practice_areas_fr": [
+      "Droit immobilier",
+      "Contentieux civil et commercial / arbitrage",
+      "Droit de la famille",
+      "Droit de la santé / droit médical",
+      "Droit pénal",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit pénal économique / entraide judiciaire",
+      "Droit des contrats / droit commercial",
+      "Droit des successions",
+      "Droit des assurances / responsabilité civile",
+      "Droit de la circulation routière",
+      "Droit de la profession d'avocat",
+      "Droit collaboratif",
+      "Médiation"
+    ],
+    "source_url": "https://allia.legal/en/domaines-de-competences/",
+    "fetched_date": "2026-07-21"
+  },
+  "ventura-associes.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit civil",
+      "Droit administratif",
+      "Droit commercial",
+      "Droit international"
+    ],
+    "source_url": "https://www.ventura-associes.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "rivara.ch": {
+    "founding_year": 1986,
+    "team_size_n": 5,
+    "practice_areas_fr": [
+      "Droit des personnes et de la famille",
+      "Droit du divorce",
+      "Droit de protection de l'adulte et de l'enfant",
+      "Droit du travail",
+      "Droit des successions",
+      "Droits réels",
+      "Droit du contrat d'entreprise",
+      "Droit du bail",
+      "Droit des contrats",
+      "Droit des poursuites et de la faillite",
+      "Droit de la responsabilité civile",
+      "Droit des assurances privées",
+      "Droit des assurances sociales",
+      "Droit de la circulation routière",
+      "Droit pénal général",
+      "Droit pénal des mineurs",
+      "Droit civil",
+      "Médiation"
+    ],
+    "source_url": "https://www.rivara.ch/presentation",
+    "fetched_date": "2026-07-21"
+  },
+  "skandamis.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Litigation & Arbitration",
+      "Banking & Finance",
+      "Corporate & Commercial Law",
+      "Criminal & White Collar",
+      "European Law",
+      "Private Clients"
+    ],
+    "source_url": "https://www.skandamis.com/about/",
+    "fetched_date": "2026-07-21"
+  },
+  "mwr-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Criminal Law",
+      "Corporate law and start-up creation",
+      "Labour and public service law",
+      "Social insurance law",
+      "Family law",
+      "Tenancy law"
+    ],
+    "source_url": "https://mwr-avocats.ch/en/",
+    "fetched_date": "2026-07-21"
+  },
+  "kostenbaum.ch": {
+    "founding_year": 1976,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Banking and financial law",
+      "Construction and real estate law",
+      "Tenancy law",
+      "Labour law",
+      "Economic criminal proceedings",
+      "Civil liability and insurance",
+      "Arbitration and mediation",
+      "International mutual assistance",
+      "Family law and divorce",
+      "Bankruptcy and debt collection",
+      "Corporate law",
+      "Commercial contracts",
+      "Private clients",
+      "Inheritance",
+      "Wealth structuring",
+      "Residence and work permits / Naturalisation"
+    ],
+    "source_url": "https://www.kostenbaum.ch/en",
+    "fetched_date": "2026-07-21"
   }
 }

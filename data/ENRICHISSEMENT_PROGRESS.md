@@ -4,16 +4,20 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-21 16:08 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-21 18:15 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **58** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **74** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **32** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **36** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **396** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~64%** (58 / 90 domaines réellement testés).
+- **376** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~67%** (74 / 110 domaines réellement testés).
+- Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
+  « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
+  donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
+  sous-page pertinente), jamais sur la base du seul résumé de recherche.
 
 Toutes les données sont dans `data/cabinet_web_enrichment.json` :
 - chaque clé de premier niveau (hors `_meta` et `_failed`) est un nom de domaine avec des faits
@@ -143,3 +147,38 @@ aléatoire de 40 pages avec `bad=0` artefact Jinja détecté. Entrée Bratschi S
 manuellement sur sa fiche étude Genève (`/fr/avocats/geneve/etude/bratschi-sa/`) : les
 faits (fondation 2008, ~120 avocats et juristes, domaines de compétence, date de
 consultation) s'affichent correctement.
+
+
+### 2026-07-21 18:15 UTC — exécution automatisée (lot 3)
+
+Lot de 20 domaines traités (GE/VD restants, par nombre d'avocats décroissant). **16 succès /
+4 échecs.**
+
+Faits notables extraits : Bottge & Associés SA au barreau de Genève depuis 1998 ; GTHC
+(Grobet Thorens Hohl-Chirazi) fondée en 2020 ; 100 Legal SA — histoire débutant en 2009 à
+Genève (ex-100 Rhône Avocats, statistiques mondiales UAE/France/UK écartées, seul point
+d'ancrage suisse retenu) ; Saint-Léger Avocats (lawyersgeneva.ch) fondée en 2014 ; MCLB
+Avocats fondée en 2023 à Lausanne (4 associés explicitement annoncés) ; Noël & Associé.e.s
+fondée en 1999 à Lausanne ; Rivara Wenger Cordonier & Amos fondée par Jacopo Rivara en 1986
+(5 associés) ; Köstenbaum & Associés SA active depuis 1976 à Genève ; SF5 Avocats et Allia
+(Lausanne) annoncent chacune 5 associés/avocats sans année de fondation précise. Pour
+Renold et Associé.e.s (renold-gabus.ch, désormais renlaw.ch), BRS Berger Recordon & de
+Saugy, id est avocats, Ventura & Associés, Skandamis Avocats et MWR Avocats, seule une
+liste de domaines de compétence formulée par le cabinet a été retenue (années vagues du
+type « depuis un quart de siècle » ou « plus de 35/40 ans » écartées conformément à la
+règle 2 ; statistiques non locales écartées conformément à la règle 4).
+
+Échecs : stralta.ch et interlegal.ch (contenu vide au fetch, rendu JavaScript probable,
+plusieurs pages testées) ; avevey.ch (même symptôme sur trois pages différentes) ;
+10decembre.ch (page d'accueil consultée mais aucune année de fondation, effectif chiffré,
+ni liste de domaines de droit formulée explicitement par le cabinet lui-même).
+
+Totaux cumulés après ce lot : 110 domaines testés au total (74 réussis / 36 échoués) sur
+les 486 domaines connus. Il reste environ 376 domaines connus non testés, soit encore
+~19 lots de 20 avant d'atteindre la phase de découverte (18 autres cantons).
+
+Vérification post-build : régénération complète du site (`dist/`, 64628 fichiers
+`index.html`) sans erreur, échantillon aléatoire de 40 pages avec `bad=0` artefact Jinja
+détecté. Entrée Bottge & Associés SA vérifiée manuellement sur sa fiche étude Genève
+(`/fr/avocats/geneve/etude/bottge-associes-sa/`) : la mention « Étude fondée en 1998 »
+et la date de consultation (2026-07-21) s'affichent correctement.
