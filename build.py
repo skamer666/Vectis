@@ -185,8 +185,38 @@ print("Chargement des donnees Geneve...", file=sys.stderr)
 GE_INDIVIDUALS = load_ge_individuals()
 GE_FIRMS = load_ge_firms()
 FIRM_BY_NORM = {norm(r["etude"]): r for r in GE_FIRMS}
+
+MEMBERS_BY_FIRM_NORM = {}
+for _r in GE_INDIVIDUALS:
+    _e = _r.get("etude", "").strip()
+    if _e:
+        MEMBERS_BY_FIRM_NORM.setdefault(norm(_e), []).append(_r)
+
+SOLO_LAWYERS = [r for r in GE_INDIVIDUALS if not r.get("etude", "").strip()]
+
 CANTON_COUNTS = other_canton_counts()
 CANTON_COUNTS["GE"] = len(GE_INDIVIDUALS)
+
+
+def ge_registry(lang):
+    """Registre principal : etudes + avocats sans etude, trie alphabetiquement.
+    C'est la seule liste browsable exposee aux utilisateurs (pas la liste brute
+    des 2895 avocats individuels, qui reste generee pour le SEO mais accessible
+    uniquement via les fiches etude / avocats sans etude / maillage interne)."""
+    rows = []
+    for f in GE_FIRMS:
+        n = len(MEMBERS_BY_FIRM_NORM.get(norm(f["etude"]), [])) or int(f.get("nb_avocats") or 0)
+        rows.append({
+            "type": "etude", "nom": f["etude"], "url": etude_path("GE", f["_slug"], lang),
+            "ville": f.get("ville", ""), "n_membres": n,
+        })
+    for r in SOLO_LAWYERS:
+        rows.append({
+            "type": "avocat", "nom": r["nom_complet"].title(), "url": avocat_path("GE", r["_slug"], lang),
+            "ville": r.get("ville", ""), "role": r.get("fonction", ""),
+        })
+    rows.sort(key=lambda x: x["nom"])
+    return rows
 print(f"{len(GE_INDIVIDUALS)} avocats, {len(GE_FIRMS)} etudes charges.", file=sys.stderr)
 
 
@@ -335,14 +365,8 @@ def gen_ge_etudes(start=0, count=None):
     subset = GE_FIRMS[start:start + count] if count else GE_FIRMS[start:]
     for row in subset:
         nom_etude = row["etude"]
-        n = int(row.get("nb_avocats") or 0)
-        members = []
-        for m in row["_members"][:200]:
-            mm = re.match(r"^(.*?)\s*\((.*?)\)\s*$", m)
-            if mm:
-                members.append({"nom": mm.group(1).title(), "fonction": mm.group(2)})
-            else:
-                members.append({"nom": m.title(), "fonction": ""})
+        matched = MEMBERS_BY_FIRM_NORM.get(norm(nom_etude), [])
+        n = len(matched) if matched else int(row.get("nb_avocats") or 0)
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
@@ -355,11 +379,25 @@ def gen_ge_etudes(start=0, count=None):
             ctx["npa"] = row.get("npa", "")
             ctx["ville"] = row.get("ville", "")
             ctx["presentation"] = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)
-            ctx["members_title"] = i18n.UI[lang]["practice_areas"] if False else (
+            ctx["members_title"] = (
                 {"fr": "Avocats de l'étude", "de": "Anwältinnen und Anwälte der Kanzlei",
                  "it": "Avvocati dello studio", "en": "Lawyers at this firm"}[lang])
-            ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
-                                "url": "#"} for m in members]
+            if matched:
+                ctx["membres"] = [
+                    {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "fonction": m.get("fonction", ""),
+                     "url": avocat_path("GE", m["_slug"], lang)}
+                    for m in sorted(matched, key=lambda m: m["nom_complet"])
+                ]
+            else:
+                fallback_members = []
+                for mtxt in row["_members"][:200]:
+                    mm = re.match(r"^(.*?)\s*\((.*?)\)\s*$", mtxt)
+                    if mm:
+                        fallback_members.append({"nom": mm.group(1).title(), "fonction": mm.group(2)})
+                    else:
+                        fallback_members.append({"nom": mtxt.title(), "fonction": ""})
+                ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
+                                    "url": None} for m in fallback_members]
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (nom_etude, path)]
             ctx["schema"] = json.dumps({
@@ -373,7 +411,6 @@ def gen_ge_etudes(start=0, count=None):
 
 
 def gen_canton_hub_ge():
-    sample = GE_INDIVIDUALS[:60]
     for lang in LANGS:
         canton_name = i18n.CANTONS["GE"][lang]["name"]
         path = canton_path("GE", lang)
@@ -384,19 +421,16 @@ def gen_canton_hub_ge():
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
         ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path("GE", d, lang), "has_data": False}
                             for d in i18n.DOMAINES]
-        ctx["stats_label"] = f"{CANTON_COUNTS['GE']} {i18n.UI[lang]['lawyers_in_canton']}"
-        ctx["avocats_sample"] = [
-            {"nom": r["nom_complet"].title(), "role": r.get("fonction", ""), "etude": r.get("etude", ""),
-             "ville": r.get("ville", ""), "url": avocat_path("GE", r["_slug"], lang)}
-            for r in sample
-        ]
-        ctx["has_more"] = True
-        ctx["more_text"] = {
-            "fr": f"{CANTON_COUNTS['GE'] - len(sample)} autres avocat(e)s sont référencés pour ce canton.",
-            "de": f"{CANTON_COUNTS['GE'] - len(sample)} weitere Anwältinnen und Anwälte sind für diesen Kanton erfasst.",
-            "it": f"Altri {CANTON_COUNTS['GE'] - len(sample)} avvocati sono registrati per questo cantone.",
-            "en": f"{CANTON_COUNTS['GE'] - len(sample)} more lawyers are listed for this canton.",
+        registry = ge_registry(lang)
+        ctx["stats_label"] = {
+            "fr": f"{len(GE_FIRMS)} études · {len(SOLO_LAWYERS)} avocats indépendants référencés",
+            "de": f"{len(GE_FIRMS)} Kanzleien · {len(SOLO_LAWYERS)} unabhängige Anwältinnen und Anwälte erfasst",
+            "it": f"{len(GE_FIRMS)} studi legali · {len(SOLO_LAWYERS)} avvocati indipendenti registrati",
+            "en": f"{len(GE_FIRMS)} firms · {len(SOLO_LAWYERS)} independent lawyers listed",
         }[lang]
+        ctx["registry"] = registry
+        ctx["has_more"] = False
+        ctx["more_text"] = ""
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                               (i18n.UI[lang]["all_cantons"], cantons_index_path(lang)), (canton_name, path)]
         write_page(path, render("canton_hub.html", ctx))
@@ -421,7 +455,7 @@ def gen_domain_hubs():
 
 
 def gen_cross_ge():
-    fallback = GE_INDIVIDUALS[:40]
+    fallback_by_lang = {lang: ge_registry(lang)[:40] for lang in LANGS}
     for did in i18n.DOMAINES:
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
@@ -437,11 +471,7 @@ def gen_cross_ge():
             ctx["avocats"] = []  # GE n'a pas de specialites structurees pour l'instant
             ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
             ctx["no_specialty_text"] = pt.cross_fallback_text(lang, dname, canton_name)
-            ctx["fallback_avocats"] = [
-                {"nom": r["nom_complet"].title(), "etude": r.get("etude", ""), "ville": r.get("ville", ""),
-                 "url": avocat_path("GE", r["_slug"], lang)}
-                for r in fallback
-            ]
+            ctx["fallback_avocats"] = fallback_by_lang[lang]
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (dname, path)]
             write_page(path, render("cross.html", ctx))

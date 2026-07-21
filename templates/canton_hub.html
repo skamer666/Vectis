@@ -21,18 +21,17 @@
       <h2>{{ stats_label }}</h2>
     </div>
     <div class="registry">
-      {% for a in avocats_sample %}
+      {% for a in registry %}
       <a class="registry-row" href="{{ a.url }}">
         <div>
           <div class="registry-name">{{ a.nom }}</div>
-          {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
+          {% if a.type == "avocat" and a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
         </div>
-        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-firm">{% if a.type == "etude" %}{{ a.n_membres }} {{ ui.members_short }}{% endif %}</div>
         <div class="registry-city">{{ a.ville }}</div>
       </a>
       {% endfor %}
     </div>
-    {% if has_more %}<p style="margin-top:var(--space-xl); font-size:0.88rem; color:var(--text-muted);">{{ more_text }}</p>{% endif %}
   </section>
 </div>
 {% endblock %}

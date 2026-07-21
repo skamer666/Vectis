@@ -30,7 +30,7 @@
       {% for a in fallback_avocats %}
       <a class="registry-row" href="{{ a.url }}">
         <div><div class="registry-name">{{ a.nom }}</div></div>
-        <div class="registry-firm">{{ a.etude }}</div>
+        <div class="registry-firm">{% if a.type == "etude" %}{{ a.n_membres }} {{ ui.members_short }}{% endif %}</div>
         <div class="registry-city">{{ a.ville }}</div>
       </a>
       {% endfor %}
