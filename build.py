@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import unicodedata
+from collections import Counter
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -248,6 +249,65 @@ for _r in GE_INDIVIDUALS:
         MEMBERS_BY_FIRM_NORM.setdefault(norm(_e), []).append(_r)
 
 SOLO_LAWYERS = [r for r in GE_INDIVIDUALS if not r.get("etude", "").strip()]
+
+# Vaud (et potentiellement d'autres cantons a l'avenir) n'a aucun champ "etude"
+# en texte libre dans son registre source -- contrairement a Geneve, on ne peut
+# pas regrouper les avocats par cabinet directement depuis les donnees brutes.
+# On derive ce regroupement depuis le domaine du site_web (donnee deja fiable,
+# affirmee par l'avocat lui-meme au registre), en reutilisant si possible le nom
+# officiel du cabinet tel que declare au barreau de Geneve pour la meme entite.
+_domain_name_votes = {}
+for _r in GE_INDIVIDUALS:
+    _d = site_domain(_r.get("site_web"))
+    _e = (_r.get("etude") or "").strip()
+    if _d and _e:
+        _domain_name_votes.setdefault(_d, Counter())[_e] += 1
+GE_DOMAIN_NAMES = {d: votes.most_common(1)[0][0] for d, votes in _domain_name_votes.items()}
+
+
+def pretty_name_from_domain(domain):
+    """Nom lisible derive du nom de domaine, utilise uniquement quand aucun nom
+    officiel n'est connu (ni via le registre de Geneve, ni via l'enrichissement
+    web). Pur formatage -- aucune information inventee, juste une mise en forme
+    lisible du domaine deja fourni par l'avocat lui-meme."""
+    base = domain.split(".")[0]
+    words = re.split(r"[-_]+", base)
+    return " ".join(w.capitalize() for w in words if w)
+
+
+def derive_domain_firms(individuals, existing_slugs=None):
+    """Regroupe par nom de domaine (site_web) les avocats sans nom d'etude en
+    texte libre (cas de Vaud). Seuil : au moins 2 avocats partageant le meme
+    domaine, OU un seul si ce domaine est deja confirme comme cabinet reel via
+    le registre de Geneve ou le cache d'enrichissement web (source externe qui
+    etablit deja la realite du cabinet). Rien n'est jamais fabrique : le nom
+    vient du registre officiel quand connu, sinon d'un simple formatage du
+    domaine deja declare par l'avocat."""
+    seen_slugs = dict(existing_slugs or {})
+    by_domain = {}
+    for r in individuals:
+        if (r.get("etude") or "").strip():
+            continue
+        d = site_domain(r.get("site_web"))
+        if not d:
+            continue
+        by_domain.setdefault(d, []).append(r)
+
+    firms = []
+    for d, members in sorted(by_domain.items(), key=lambda kv: -len(kv[1])):
+        confirmed_external = d in GE_DOMAIN_NAMES or d in WEB_ENRICHMENT
+        if len(members) < 2 and not confirmed_external:
+            continue
+        name = GE_DOMAIN_NAMES.get(d) or pretty_name_from_domain(d)
+        for m in members:
+            m["etude"] = name
+        base = slugify(name)
+        n = seen_slugs.get(base, 0)
+        seen_slugs[base] = n + 1
+        firms.append({"etude": name, "members": members, "ville": members[0]["ville"],
+                       "_slug": base if n == 0 else f"{base}-{n+1}"})
+    return firms
+
 
 CANTON_COUNTS = other_canton_counts()
 CANTON_COUNTS["GE"] = len(GE_INDIVIDUALS)
@@ -831,6 +891,11 @@ CANTON_DATA = {}
 for _code in OTHER_CANTON_CODES:
     _individuals = load_canton(_code)
     _firms = build_canton_firms(_individuals)
+    if _code == "VD":
+        # Vaud n'a pas de champ "etude" source -- on derive le regroupement
+        # depuis le domaine du site_web (voir derive_domain_firms plus haut).
+        _existing_slugs = {f["_slug"]: 1 for f in _firms}
+        _firms = _firms + derive_domain_firms(_individuals, existing_slugs=_existing_slugs)
     _solo = [r for r in _individuals if not r["etude"].strip()]
     CANTON_DATA[_code] = {
         "individuals": _individuals, "firms": _firms, "solo": _solo,
