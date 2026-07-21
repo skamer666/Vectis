@@ -109,6 +109,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "meta_description": description,
         "canonical_url": BASE_DOMAIN + path,
         "hreflang": hreflang,
+        "nav_hreflang": {lg: (u[len(BASE_DOMAIN):] if u.startswith(BASE_DOMAIN) else u) for lg, u in hreflang.items()},
         "asset_prefix": static_path(lang, depth).replace("static/", ""),
         "home_url": home_path(lang),
         "cantons_index_url": cantons_index_path(lang),
@@ -202,7 +203,7 @@ def gen_home():
                         i18n.UI[lang]["tagline"] + ". " + pt.canton_intro(lang, i18n.CANTONS["GE"][lang]["name"], CANTON_COUNTS["GE"]),
                         hreflang_for(home_path))
         ctx["intro_text"] = i18n.UI[lang]["tagline"] + "."
-        ctx["search_url"] = f"/{lang}/recherche/"
+        ctx["search_url"] = f"/{lang}/{seg('recherche', lang)}/"
         ctx["stats"] = {
             "total_avocats": sum(v for v in CANTON_COUNTS.values() if v),
             "total_cantons": len(i18n.CANTONS),
@@ -460,6 +461,35 @@ def copy_static():
                 shutil.copyfile(os.path.join(root, fname), os.path.join(target_dir, fname))
 
 
+def gen_search():
+    for lang in LANGS:
+        index = []
+        for r in GE_INDIVIDUALS:
+            index.append({
+                "nom": r["nom_complet"].title(),
+                "etude": r.get("etude", ""),
+                "ville": r.get("ville", ""),
+                "url": avocat_path("GE", r["_slug"], lang),
+            })
+        for r in GE_FIRMS:
+            index.append({
+                "nom": r["etude"],
+                "etude": "",
+                "ville": r.get("ville", ""),
+                "url": etude_path("GE", r["_slug"], lang),
+            })
+        json_path = os.path.join(DIST_DIR, f"search-index-{lang}.json")
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False)
+
+        path = f"/{lang}/{seg('recherche', lang)}/"
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['search_title']} | Legatis", i18n.UI[lang]["tagline"] + ".",
+                        hreflang_for(lambda lg: f"/{lg}/{seg('recherche', lg)}/"))
+        ctx["search_index_url"] = f"/search-index-{lang}.json"
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (i18n.UI[lang]["search_title"], path)]
+        write_page(path, render("search.html", ctx))
+
+
 if __name__ == "__main__":
     copy_static()
     stage = sys.argv[1] if len(sys.argv) > 1 else "all"
@@ -470,6 +500,7 @@ if __name__ == "__main__":
         gen_canton_hub_ge()
         gen_domain_hubs()
         gen_cross_ge()
+        gen_search()
     elif stage == "etudes":
         start = int(sys.argv[2]); count = int(sys.argv[3])
         gen_ge_etudes(start, count)
@@ -478,5 +509,5 @@ if __name__ == "__main__":
         gen_ge_avocats(start, count)
     else:
         gen_home(); gen_indexes(); gen_coming_soon(); gen_canton_hub_ge()
-        gen_domain_hubs(); gen_cross_ge(); gen_ge_etudes(); gen_ge_avocats()
+        gen_domain_hubs(); gen_cross_ge(); gen_search(); gen_ge_etudes(); gen_ge_avocats()
     print(f"{len(URLS_GENERATED)} pages generees dans {DIST_DIR}", file=sys.stderr)

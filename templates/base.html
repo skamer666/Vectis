@@ -23,7 +23,7 @@
     </a>
     <nav class="lang-switch" aria-label="Langue">
       {% for hl_lang in ['fr','de','it','en'] %}
-      <a href="{{ hreflang.get(hl_lang, home_url) }}" {% if hl_lang == lang %}aria-current="true"{% endif %}>{{ hl_lang }}</a>
+      <a href="{{ nav_hreflang.get(hl_lang, home_url) }}" {% if hl_lang == lang %}aria-current="true"{% endif %}>{{ hl_lang }}</a>
       {% endfor %}
     </nav>
   </div>
