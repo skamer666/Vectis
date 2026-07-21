@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-21)
+## Statut actuel (dernière mise à jour : 2026-07-21 16:08 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **40** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **58** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **30** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **32** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **416** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~57%** (40 / 70 domaines réellement testés).
+- **396** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~64%** (58 / 90 domaines réellement testés).
 
 Toutes les données sont dans `data/cabinet_web_enrichment.json` :
 - chaque clé de premier niveau (hors `_meta` et `_failed`) est un nom de domaine avec des faits
@@ -112,3 +112,34 @@ consolider les échecs constatés au fil des vagues. Mise en place de ce journal
 l'automatisation toutes les 30 minutes à partir de ce point.
 
 *(les prochaines exécutions ajoutent leur entrée ci-dessous, la plus récente en bas)*
+
+
+### 2026-07-21 16:08 UTC — exécution automatisée (lot 2)
+
+Lot de 20 domaines traités (les plus gros cabinets restants, GE/VD, par nombre d'avocats
+décroissant). **18 succès / 2 échecs.**
+
+Faits notables extraits : Bratschi SA fondée en 2008 (fusion de trois études, ~120
+avocats et juristes annoncés) ; Etude Lion d'Or fondée en 1995 à Lausanne (22 personnes) ;
+BM Avocats fondée en 1990 à Genève ; Etude Athena fondée en 2021 ; BOURG 8 Étude d'avocats
+depuis 1987 ; TerrAvocats ouverte en 2019 (Lutry puis Genève) ; Baker McKenzie Suisse
+indique plus de 130 avocats (chiffre explicitement suisse, statistiques mondiales du
+réseau écartées conformément à la règle 4). Pour les autres succès (Ducrest & Heggli,
+Relief Avocats, Alphalex, Tschumy Avocats, De-Beaumont 3, Beker Guiramand & Associés,
+Locca Pion & Ryser, LBS/LBR Legal, Pyxis Law, Reiser Avocats, Gillioz Dorsaz & Associés),
+seule une liste de domaines de compétence formulée par le cabinet a pu être retenue
+(aucune année de fondation ni effectif chiffré explicitement annoncés sur leurs pages).
+
+Échecs : geneva-lawyers.ch (SLRG Avocats — page consultée mais aucun fait chiffré ou
+daté, domaines de droit décrits de façon trop générale) ; eversheds-sutherland.com
+(pages Genève/Zurich renvoient un contenu quasi vide, probablement rendu en JavaScript).
+
+Totaux cumulés après ce lot : 90 domaines testés au total (58 réussis / 32 échoués) sur
+les 486 domaines connus. Il reste environ 396 domaines connus non testés, soit encore
+~20 lots de 20 avant d'atteindre la phase de découverte (18 autres cantons).
+
+Vérification post-build : régénération complète du site (`dist/`) sans erreur, échantillon
+aléatoire de 40 pages avec `bad=0` artefact Jinja détecté. Entrée Bratschi SA vérifiée
+manuellement sur sa fiche étude Genève (`/fr/avocats/geneve/etude/bratschi-sa/`) : les
+faits (fondation 2008, ~120 avocats et juristes, domaines de compétence, date de
+consultation) s'affichent correctement.

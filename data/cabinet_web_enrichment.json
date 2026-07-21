@@ -2,10 +2,10 @@
   "_meta": {
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
-    "wave": 1,
-    "domains_tested_total": 70,
-    "domains_with_usable_facts": 40,
-    "domains_failed_or_no_facts": 30
+    "wave": 2,
+    "domains_tested_total": 90,
+    "domains_with_usable_facts": 58,
+    "domains_failed_or_no_facts": 32
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -860,6 +860,345 @@
     "litis.ch": {
       "reason": "page vide, probablement rendue en JavaScript (constate lors du pilote initial)",
       "checked_date": "2026-07-21"
+    },
+    "geneva-lawyers.ch": {
+      "reason": "aucun fait exploitable (pas d'annee de fondation, pas d'effectif chiffre, domaines de droit decrits de facon trop generale)",
+      "checked_date": "2026-07-21"
+    },
+    "eversheds-sutherland.com": {
+      "reason": "contenu vide (pages Geneve/Zurich necessitent JS, fetch renvoie une page quasi vide)",
+      "checked_date": "2026-07-21"
     }
+  },
+  "ducrestheggli.com": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Arbitrage",
+      "Droit de l'art",
+      "Droit des contrats et commercial",
+      "Droit des sociétés",
+      "Droit de la famille et des successions",
+      "Immigration",
+      "Investigations et recouvrement d'actifs",
+      "Contentieux",
+      "Fusions et acquisitions",
+      "Clients privés, trusts et successions",
+      "Droit immobilier",
+      "Droit fiscal",
+      "Criminalité économique"
+    ],
+    "practice_areas_en": [
+      "Arbitration",
+      "Art Law",
+      "Contract and Commercial",
+      "Corporate",
+      "Family and Estate Law",
+      "Immigration",
+      "Investigations and Asset recovery",
+      "Litigation",
+      "Merger and Acquisition",
+      "Private clients, Trusts & Estates",
+      "Real Estate",
+      "Tax",
+      "White-Collar Crime"
+    ],
+    "source_url": "https://www.ducrestheggli.com/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "bratschi.ch": {
+    "founding_year": 2008,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit fiscal",
+      "Droit public"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Tax law",
+      "Public law"
+    ],
+    "source_url": "https://www.bratschi.ch/en/about-us",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 120
+  },
+  "etudeliondor.ch": {
+    "founding_year": 1995,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit pénal et entraide internationale",
+      "Droit de la construction et de l'aménagement du territoire",
+      "Droit commercial",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit du sport et arbitrage",
+      "Droit de l'art",
+      "Droit des étrangers"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://etudeliondor.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 22
+  },
+  "relief.legal": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit pénal",
+      "Droit de la famille",
+      "Droit commercial et des sociétés",
+      "Droit de la construction et de l'immobilier",
+      "Droit du bail et des contrats"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.relief.legal/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "bourg8.ch": {
+    "founding_year": 1987,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://bourg8.ch/en/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "alphalex.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit du logement (immobilier et construction)",
+      "Droit des successions",
+      "Droit commercial et des sociétés"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Criminal law",
+      "Labour law",
+      "Housing law",
+      "Inheritance law",
+      "Commercial and corporate law"
+    ],
+    "source_url": "https://alphalex.ch/areas-of-expertise/?lang=en",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "tschumy-avocats.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit commercial",
+      "Droit des contrats",
+      "Droit des étrangers",
+      "Droit du travail",
+      "Droit pénal",
+      "Droit des successions",
+      "Droit agraire",
+      "Droit fiscal",
+      "Droit des constructions et de l'immobilier",
+      "Droit de la famille",
+      "Droit de la circulation routière",
+      "Droit administratif",
+      "Droit de la poursuite pour dettes et de la faillite",
+      "Droit des associations et fondations"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.tschumy-avocats.ch/competences/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "bmavocats.ch": {
+    "founding_year": 1990,
+    "practice_areas_fr": [
+      "Droit immobilier",
+      "Droit civil et commercial",
+      "Droit pénal"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://bmavocats.ch/etude",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "db3lex.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit des sociétés et droit bancaire",
+      "Droit immobilier et de la construction",
+      "Droit des poursuites, faillites et séquestre",
+      "Droit pénal",
+      "Droit de la responsabilité et des assurances",
+      "Droit des familles",
+      "Droit des successions",
+      "Droit des étrangers"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://db3lex.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "bgslaw.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Fiscalité suisse et internationale",
+      "Family office, planification patrimoniale et successorale",
+      "Immobilier et investissements privés",
+      "Droit des sociétés, fusions-acquisitions et contrats",
+      "Conflits commerciaux et successoraux",
+      "Banque privée et gestion de patrimoine"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.bgslaw.ch/cabinet",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "athenalaw.ch": {
+    "founding_year": 2021,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit fiscal",
+      "Contentieux judiciaire",
+      "Droit de la famille"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.athenalaw.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "loccapionryser.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Contentieux civil et pénal",
+      "Droit de la famille",
+      "Droit du travail",
+      "Criminalité économique"
+    ],
+    "practice_areas_en": [
+      "Civil and criminal litigation",
+      "Family law",
+      "Labor law",
+      "White collar crime"
+    ],
+    "source_url": "https://loccapionryser.ch/en/firm.htm",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "lbslegal.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit du travail",
+      "Droit commercial",
+      "Droit pénal",
+      "Droit de la responsabilité civile",
+      "Droit médical"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://lbr.legal/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "pyxislaw.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit public",
+      "Droit du travail",
+      "Criminalité économique"
+    ],
+    "practice_areas_en": [
+      "Public law",
+      "Employment law",
+      "White collar crime"
+    ],
+    "source_url": "https://www.pyxislaw.ch/en/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "terravocats.ch": {
+    "founding_year": 2019,
+    "practice_areas_fr": [
+      "Protection de la nature et des animaux",
+      "Aménagement du territoire et droit des constructions",
+      "Droit de la famille",
+      "Droit pénal et procédure pénale",
+      "Contrats et commerce international",
+      "Droit des étrangers",
+      "Circulation routière",
+      "Droit des nouvelles technologies",
+      "Droit des successions",
+      "Droit médical",
+      "Droit rural"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://terravocats.ch/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "reiser.law": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit des sociétés",
+      "Droit bancaire et financier",
+      "Droit pénal et criminalité économique",
+      "Droit du travail",
+      "Droit de l'immigration",
+      "Droit des successions",
+      "Responsabilité civile",
+      "Contentieux civil et commercial et arbitrage"
+    ],
+    "practice_areas_en": [
+      "Corporate",
+      "Banking and finance",
+      "Criminal and economic crime",
+      "Labour",
+      "Immigration",
+      "Inheritance",
+      "Civil liability",
+      "Civil and commercial litigation and arbitration"
+    ],
+    "source_url": "https://www.reiser.law/en/etude/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "gdlaw.com": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate",
+      "Contracts and transactions",
+      "Banking and finance",
+      "Tax",
+      "Private clients",
+      "Employment",
+      "Insolvency",
+      "Litigation"
+    ],
+    "source_url": "https://www.gdlaw.com/en/homepage/",
+    "fetched_date": "2026-07-21",
+    "team_size_n": null
+  },
+  "bakermckenzie.com": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Antitrust & Competition",
+      "Banking & Finance",
+      "Capital Markets",
+      "Dispute Resolution",
+      "Employment & Compensation",
+      "Intellectual Property",
+      "Investment Funds",
+      "Mergers & Acquisitions",
+      "Private Equity",
+      "Real Estate",
+      "Restructuring & Insolvency",
+      "Tax"
+    ],
+    "source_url": "https://www.bakermckenzie.com/en/locations/emea/switzerland",
+    "fetched_date": "2026-07-21",
+    "team_size_n": 130
   }
 }
