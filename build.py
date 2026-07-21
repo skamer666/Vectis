@@ -444,7 +444,8 @@ def gen_ge_avocats(start=0, count=None):
                  "etude": r.get("etude", ""), "ville": r.get("ville", "")}
                 for r in same_city
             ]
-            ctx["langues"] = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+            _raw_langues = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+            ctx["langues"] = pt.translate_langues(_raw_langues, lang)
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("brevet_date"))
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (nom, path)]
@@ -456,12 +457,12 @@ def gen_ge_avocats(start=0, count=None):
                 "telephone": row.get("telephone", ""), "email": row.get("email", ""),
                 "areaServed": canton_name,
             }
-            if ctx["langues"]:
+            if _raw_langues:
                 _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
                              "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
                              "romanche": "rm"}
-                _codes = [_lang_map.get(l.lower()) for l in ctx["langues"]]
-                _schema["knowsLanguage"] = [c for c in _codes if c] or ctx["langues"]
+                _codes = [_lang_map.get(l.lower()) for l in _raw_langues]
+                _schema["knowsLanguage"] = [c for c in _codes if c] or _raw_langues
             ctx["schema"] = json.dumps(_schema, ensure_ascii=False)
             write_page(path, render("avocat.html", ctx))
 
@@ -524,12 +525,13 @@ def gen_ge_etudes(start=0, count=None):
                 ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
                                     "url": None} for m in fallback_members]
             _domaine_names = [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids]
-            if not _domaine_names and lang == "fr" and _web and _web.get("practice_areas_fr"):
-                # Donnees du site du cabinet disponibles seulement en francais pour l'instant
-                # (pilote) -- non affichees sur les autres langues pour eviter tout melange.
-                _domaine_names = _web["practice_areas_fr"]
+            if not _domaine_names and _web:
+                if lang == "fr" and _web.get("practice_areas_fr"):
+                    _domaine_names = _web["practice_areas_fr"]
+                elif lang == "en" and _web.get("practice_areas_en"):
+                    _domaine_names = _web["practice_areas_en"]
             ctx["insight_text"] = pt.firm_insight(
-                lang, _team_langues, _domaine_names, _oldest_year,
+                lang, pt.translate_langues(_team_langues, lang), _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
             )
@@ -951,7 +953,12 @@ def gen_canton_etudes(code, start=0, count=None):
                  "url": avocat_path(code, m["_slug"], lang)}
                 for m in members
             ]
-            _domaine_names = _web["practice_areas_fr"] if (lang == "fr" and _web and _web.get("practice_areas_fr")) else []
+            _domaine_names = []
+            if _web:
+                if lang == "fr" and _web.get("practice_areas_fr"):
+                    _domaine_names = _web["practice_areas_fr"]
+                elif lang == "en" and _web.get("practice_areas_en"):
+                    _domaine_names = _web["practice_areas_en"]
             ctx["insight_text"] = pt.firm_insight(
                 lang, [], _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),

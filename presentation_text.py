@@ -183,6 +183,34 @@ def seniority_text(lang, year):
     return f"Registered with the bar since {y}" + (f" ({n} years)" if n > 0 else "")
 
 
+_LANG_CODE_MAP = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
+                   "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
+                   "romanche": "rm"}
+_LANG_DISPLAY_NAMES = {
+    "fr": {"fr": "Français", "de": "Allemand", "it": "Italien", "en": "Anglais",
+           "es": "Espagnol", "pt": "Portugais", "ar": "Arabe", "ru": "Russe", "rm": "Romanche"},
+    "de": {"fr": "Französisch", "de": "Deutsch", "it": "Italienisch", "en": "Englisch",
+           "es": "Spanisch", "pt": "Portugiesisch", "ar": "Arabisch", "ru": "Russisch", "rm": "Rätoromanisch"},
+    "it": {"fr": "Francese", "de": "Tedesco", "it": "Italiano", "en": "Inglese",
+           "es": "Spagnolo", "pt": "Portoghese", "ar": "Arabo", "ru": "Russo", "rm": "Romancio"},
+    "en": {"fr": "French", "de": "German", "it": "Italian", "en": "English",
+           "es": "Spanish", "pt": "Portuguese", "ar": "Arabic", "ru": "Russian", "rm": "Romansh"},
+}
+
+
+def translate_langues(langues, lang):
+    """Traduit une liste de noms de langues (mots bruts saisis en francais dans
+    les registres source) vers la langue de la page affichee. Un mot non
+    reconnu est conserve tel quel plutot que suppose ou supprime -- on ne
+    fabrique jamais une traduction, on la trouve ou on garde l'original."""
+    names = _LANG_DISPLAY_NAMES.get(lang, {})
+    out = []
+    for l in langues:
+        code = _LANG_CODE_MAP.get(l.strip().lower())
+        out.append(names.get(code, l) if code else l)
+    return out
+
+
 def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_size_n=None):
     """Agrege des faits reels sur l'equipe d'une etude (langues et domaines
     couverts par ses membres, anciennete du membre le plus ancien ou date de

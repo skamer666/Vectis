@@ -2,7 +2,9 @@
   "_meta": {
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
-    "wave": 1
+    "wave": 1,
+    "domains_tested_total": 23,
+    "domains_with_usable_facts": 13
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -18,21 +20,24 @@
     ],
     "source_url": "https://www.borel-barbey.ch/",
     "fetched_date": "2026-07-21",
-    "team_size_n": 60
+    "team_size_n": 60,
+    "practice_areas_en": []
   },
   "bourgeoisavocats.com": {
     "founding_year": 1953,
     "practice_areas_fr": [],
     "source_url": "https://www.bourgeoisavocats.com/",
     "fetched_date": "2026-07-21",
-    "team_size_n": 30
+    "team_size_n": 30,
+    "practice_areas_en": []
   },
   "ptan.ch": {
     "founding_year": 1921,
     "practice_areas_fr": [],
     "source_url": "https://www.ptan.ch/",
     "fetched_date": "2026-07-21",
-    "team_size_n": null
+    "team_size_n": null,
+    "practice_areas_en": []
   },
   "budin.ch": {
     "founding_year": 1965,
@@ -67,7 +72,8 @@
     ],
     "source_url": "https://www.budin.ch/",
     "fetched_date": "2026-07-21",
-    "team_size_n": 30
+    "team_size_n": 30,
+    "practice_areas_en": []
   },
   "obersonabels.com": {
     "founding_year": null,
@@ -84,7 +90,8 @@
     ],
     "source_url": "https://obersonabels.com/",
     "fetched_date": "2026-07-21",
-    "team_size_n": null
+    "team_size_n": null,
+    "practice_areas_en": []
   },
   "valfor.ch": {
     "founding_year": null,
@@ -112,13 +119,125 @@
     ],
     "source_url": "https://www.valfor.ch/",
     "fetched_date": "2026-07-21",
-    "team_size_n": 70
+    "team_size_n": 70,
+    "practice_areas_en": []
   },
   "kellerhals-carrard.ch": {
     "founding_year": null,
     "practice_areas_fr": [],
     "source_url": "https://kellerhals-carrard.ch/",
     "fetched_date": "2026-07-21",
-    "team_size_n": 600
+    "team_size_n": 600,
+    "practice_areas_en": []
+  },
+  "nkf.ch": {
+    "founding_year": 1936,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Antitrust / Competition",
+      "Banking, Finance & Regulatory",
+      "Capital Markets",
+      "Commercial",
+      "Compliance",
+      "Corporate / M&A",
+      "Dispute Resolution",
+      "Employment",
+      "ESG",
+      "Intellectual Property",
+      "Investigations & White Collar",
+      "Life Sciences & Healthcare",
+      "Private Clients",
+      "Private Equity",
+      "Real Estate",
+      "Sports",
+      "Tax",
+      "Technology"
+    ],
+    "source_url": "https://www.nkf.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "bonnard-lawson.com": {
+    "founding_year": 1998,
+    "team_size_n": 50,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Banking and Finance",
+      "Corporate and M&A",
+      "Intellectual Property",
+      "Arbitration",
+      "Tax",
+      "Private Clients & Estate planning",
+      "Sport",
+      "Restructuring and Insolvency",
+      "New Technologies & IT",
+      "Data Protection and Security",
+      "Real Estate",
+      "Commercial and Contracts"
+    ],
+    "source_url": "https://www.bonnard-lawson.com/",
+    "fetched_date": "2026-07-21"
+  },
+  "cbwm.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Patrimoine privé et Family Office",
+      "Médiation",
+      "Droit du travail, de la fonction publique et des assurances",
+      "Droit commercial et des sociétés",
+      "Droit des successions",
+      "Droit bancaire et financier",
+      "Responsabilité civile",
+      "Famille et divorce",
+      "Droit des constructions et de l'immobilier",
+      "Arbitrage",
+      "Droit administratif et des collectivités publiques, marchés publics",
+      "Contrats",
+      "Droit pénal",
+      "Nouvelles technologies",
+      "Aménagement du territoire, autorisations de construire et droit de l'environnement"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.cbwm.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "r-associes.ch": {
+    "founding_year": 1989,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://www.r-associes.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "kasser-schlosser.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Analyse climat, enquête et médiation",
+      "Droit de la propriété intellectuelle",
+      "Droit commercial et des sociétés",
+      "Droit du travail, médiation et audit",
+      "Droit de l'immobilier et des constructions",
+      "Droit des contrats",
+      "Droit public et administratif",
+      "Droit de l'énergie, de l'environnement et des industries de réseaux",
+      "Droit pénal",
+      "Droit de la personnalité et des médias",
+      "Droit des successions",
+      "Droit de la responsabilité civile",
+      "Droit des assurances privées et sociales"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://kasser-schlosser.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "fontanet.ch": {
+    "founding_year": 1985,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://fontanet.ch/",
+    "fetched_date": "2026-07-21"
   }
 }
