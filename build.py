@@ -416,16 +416,25 @@ def gen_ge_avocats(start=0, count=None):
                  "etude": r.get("etude", ""), "ville": r.get("ville", "")}
                 for r in same_city
             ]
+            ctx["langues"] = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+            ctx["seniority_text"] = pt.seniority_text(lang, row.get("brevet_date"))
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (nom, path)]
-            ctx["schema"] = json.dumps({
+            _schema = {
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
                 "telephone": row.get("telephone", ""), "email": row.get("email", ""),
                 "areaServed": canton_name,
-            }, ensure_ascii=False)
+            }
+            if ctx["langues"]:
+                _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
+                             "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
+                             "romanche": "rm"}
+                _codes = [_lang_map.get(l.lower()) for l in ctx["langues"]]
+                _schema["knowsLanguage"] = [c for c in _codes if c] or ctx["langues"]
+            ctx["schema"] = json.dumps(_schema, ensure_ascii=False)
             write_page(path, render("avocat.html", ctx))
 
 
@@ -435,6 +444,24 @@ def gen_ge_etudes(start=0, count=None):
         nom_etude = row["etude"]
         matched = MEMBERS_BY_FIRM_NORM.get(norm(nom_etude), [])
         n = len(matched) if matched else int(row.get("nb_avocats") or 0)
+        _team_langues = []
+        for m in matched:
+            for l in (m.get("langues") or "").split(";"):
+                l = l.strip()
+                if l and l not in _team_langues:
+                    _team_langues.append(l)
+        _team_domaine_ids = []
+        for m in matched:
+            for did in domaines_for_lawyer(m):
+                if did not in _team_domaine_ids:
+                    _team_domaine_ids.append(did)
+        _years = []
+        for m in matched:
+            try:
+                _years.append(int(str(m.get("brevet_date") or "")[:4]))
+            except ValueError:
+                pass
+        _oldest_year = min(_years) if _years else None
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
@@ -466,15 +493,27 @@ def gen_ge_etudes(start=0, count=None):
                         fallback_members.append({"nom": mtxt.title(), "fonction": ""})
                 ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
                                     "url": None} for m in fallback_members]
+            ctx["insight_text"] = pt.firm_insight(
+                lang, _team_langues,
+                [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids],
+                _oldest_year,
+            )
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path("GE", lang)), (nom_etude, path)]
-            ctx["schema"] = json.dumps({
+            _schema = {
                 "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
                 "telephone": row.get("telephone", ""),
-            }, ensure_ascii=False)
+            }
+            if _team_langues:
+                _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
+                             "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
+                             "romanche": "rm"}
+                _codes = [_lang_map.get(l.lower()) for l in _team_langues]
+                _schema["knowsLanguage"] = [c for c in _codes if c] or _team_langues
+            ctx["schema"] = json.dumps(_schema, ensure_ascii=False)
             write_page(path, render("etude.html", ctx))
 
 
@@ -677,6 +716,12 @@ def normalize_row(code, r):
     site_web = (r.get("site_web") or "").strip()
     if site_web == "[]":
         site_web = ""
+    annee_admission = ""
+    date_insc = (r.get("date_inscription") or "").strip()
+    if date_insc:
+        parts = date_insc.split(".")
+        if len(parts) == 3 and len(parts[-1]) == 4 and parts[-1].isdigit():
+            annee_admission = parts[-1]
     return {
         "nom_complet": nom_complet,
         "fonction": fonction,
@@ -687,6 +732,7 @@ def normalize_row(code, r):
         "telephone": telephone,
         "email": email,
         "site_web": site_web,
+        "annee_admission": annee_admission,
         "canton": code,
     }
 
@@ -833,6 +879,13 @@ def gen_canton_etudes(code, start=0, count=None):
         adresse = members[0].get("adresse", "") if members else ""
         npa = members[0].get("npa", "") if members else ""
         telephone = members[0].get("telephone", "") if members else ""
+        _years = []
+        for m in members:
+            try:
+                _years.append(int(str(m.get("annee_admission") or "")[:4]))
+            except ValueError:
+                pass
+        _oldest_year = min(_years) if _years else None
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
@@ -853,6 +906,7 @@ def gen_canton_etudes(code, start=0, count=None):
                  "url": avocat_path(code, m["_slug"], lang)}
                 for m in members
             ]
+            ctx["insight_text"] = pt.firm_insight(lang, [], [], _oldest_year)
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path(code, lang)), (nom_etude, path)]
             ctx["schema"] = json.dumps({
@@ -905,6 +959,8 @@ def gen_canton_avocats(code, start=0, count=None):
                  "etude": r.get("etude", ""), "ville": r.get("ville", "")}
                 for r in same_city
             ]
+            ctx["langues"] = []
+            ctx["seniority_text"] = pt.seniority_text(lang, row.get("annee_admission"))
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path(code, lang)), (nom, path)]
             ctx["schema"] = json.dumps({

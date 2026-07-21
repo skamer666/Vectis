@@ -159,3 +159,71 @@ def cross_h1(lang, domaine_name, canton_name):
     if lang == "it":
         return f"{domaine_name} a {canton_name} — trova un avvocato"
     return f"{domaine_name} in {canton_name} — find a lawyer"
+
+
+def seniority_text(lang, year):
+    """Texte d'anciennete au barreau, calcule depuis une annee d'admission reelle
+    (jamais devine). Retourne une chaine vide si l'annee est absente ou invalide."""
+    if not year:
+        return ""
+    try:
+        y = int(str(year).strip()[:4])
+    except (TypeError, ValueError):
+        return ""
+    if y < 1900 or y > 2026:
+        return ""
+    import datetime
+    n = datetime.date.today().year - y
+    if lang == "fr":
+        return f"Inscrit\u00b7e au barreau depuis {y}" + (f" ({n} ans)" if n > 0 else "")
+    if lang == "de":
+        return f"Im Anwaltsregister eingetragen seit {y}" + (f" ({n} Jahre)" if n > 0 else "")
+    if lang == "it":
+        return f"Iscritto/a all'albo dal {y}" + (f" ({n} anni)" if n > 0 else "")
+    return f"Registered with the bar since {y}" + (f" ({n} years)" if n > 0 else "")
+
+
+def firm_insight(lang, langues, domaines, oldest_year):
+    """Agrege des faits reels sur l'equipe d'une etude (langues et domaines
+    couverts par ses membres, anciennete du membre le plus ancien), calcules
+    depuis les donnees deja en base -- jamais devine ni complete par defaut."""
+    parts = []
+    oldest_txt = None
+    if oldest_year:
+        import datetime
+        n = datetime.date.today().year - oldest_year
+        if lang == "fr":
+            oldest_txt = (f"Le membre le plus ancien de l'étude est inscrit au barreau depuis "
+                          f"{oldest_year}" + (f" ({n} ans)." if n > 0 else "."))
+        elif lang == "de":
+            oldest_txt = (f"Das dienstälteste Mitglied der Kanzlei ist seit {oldest_year} im "
+                          f"Anwaltsregister eingetragen" + (f" ({n} Jahre)." if n > 0 else "."))
+        elif lang == "it":
+            oldest_txt = (f"Il membro più anziano dello studio è iscritto all'albo dal "
+                          f"{oldest_year}" + (f" ({n} anni)." if n > 0 else "."))
+        else:
+            oldest_txt = (f"The most senior member of the firm has been registered with the bar "
+                          f"since {oldest_year}" + (f" ({n} years)." if n > 0 else "."))
+    if lang == "fr":
+        if langues:
+            parts.append("Langues parlées par l'équipe : " + ", ".join(langues) + ".")
+        if domaines:
+            parts.append("Domaines de compétence indiqués par l'équipe : " + ", ".join(domaines) + ".")
+    elif lang == "de":
+        if langues:
+            parts.append("Vom Team gesprochene Sprachen: " + ", ".join(langues) + ".")
+        if domaines:
+            parts.append("Vom Team angegebene Fachgebiete: " + ", ".join(domaines) + ".")
+    elif lang == "it":
+        if langues:
+            parts.append("Lingue parlate dal team: " + ", ".join(langues) + ".")
+        if domaines:
+            parts.append("Ambiti di competenza indicati dal team: " + ", ".join(domaines) + ".")
+    else:
+        if langues:
+            parts.append("Languages spoken by the team: " + ", ".join(langues) + ".")
+        if domaines:
+            parts.append("Practice areas indicated by the team: " + ", ".join(domaines) + ".")
+    if oldest_txt:
+        parts.append(oldest_txt)
+    return " ".join(parts)

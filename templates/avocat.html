@@ -8,6 +8,8 @@
       {% if role_or_titre %}<p class="profile-sub">{{ role_or_titre }}</p>{% endif %}
       {% if etude %}<p class="profile-sub">{{ etude }}</p>{% endif %}
       <div class="profile-badge">{{ ui.bar_admission }}: {{ canton_name }}</div>
+      {% if seniority_text %}<p class="profile-sub" style="margin-top:4px;">{{ seniority_text }}</p>{% endif %}
+      {% if langues %}<p class="profile-sub">{{ ui.languages_spoken }}: {{ langues | join(", ") }}</p>{% endif %}
     </div>
   </div>
 
