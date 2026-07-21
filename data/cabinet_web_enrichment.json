@@ -3,8 +3,8 @@
     "description": "Cache pilote d'enrichissement extrait des sites web officiels des cabinets. Faits factuels uniquement (annee de fondation, taille d'equipe, domaines de competence tels que formules par le cabinet), extraits par motifs cibles -- jamais de resume libre. Chaque entree est sourcee et datee.",
     "fetched_date": "2026-07-21",
     "wave": 1,
-    "domains_tested_total": 23,
-    "domains_with_usable_facts": 13
+    "domains_tested_total": 43,
+    "domains_with_usable_facts": 24
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -238,6 +238,206 @@
     "practice_areas_fr": [],
     "practice_areas_en": [],
     "source_url": "https://fontanet.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "lalive.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "International Commercial Arbitration",
+      "Investment Treaty Arbitration",
+      "Asset Recovery & Insolvency",
+      "Commercial Litigation",
+      "Corporate Commercial Advisory",
+      "Employment",
+      "ESG",
+      "Intellectual Property",
+      "Investigations, Regulatory & Compliance",
+      "Private Client",
+      "Public International Law",
+      "White Collar Crime"
+    ],
+    "source_url": "https://www.lalive.law/",
+    "fetched_date": "2026-07-21"
+  },
+  "pbm.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Art law",
+      "Corporate, business law and M&A",
+      "Employment law",
+      "Estate law & construction",
+      "Family law",
+      "Finance and FinTech",
+      "Insolvency and restructuring",
+      "Litigation",
+      "Pension and social security",
+      "Real estate",
+      "Road traffic law",
+      "Sports law",
+      "Tax",
+      "Tort law",
+      "White collar crime"
+    ],
+    "source_url": "https://www.pbm.law/en",
+    "fetched_date": "2026-07-21"
+  },
+  "fbt.ch": {
+    "founding_year": 1993,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit bancaire et financier",
+      "Droit fiscal",
+      "Droit des sociétés et contrats",
+      "Contentieux et arbitrage",
+      "Droit pénal économique",
+      "Droit du travail",
+      "Droit patrimonial de la famille"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.fbt-avocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "rhoneavocats.ch": {
+    "founding_year": null,
+    "team_size_n": 18,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://rhoneavocats.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "oalegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Banking and Finance",
+      "Business Litigation",
+      "Corporate and Commercial",
+      "Criminal Law",
+      "Data protection and Privacy",
+      "Employment Law",
+      "Family Law",
+      "Fintech",
+      "International Commercial Arbitration",
+      "Real Estate",
+      "Sports Law"
+    ],
+    "source_url": "https://oalegal.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "keplaw.ch": {
+    "founding_year": 1962,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des contrats",
+      "Droit de l'immobilier",
+      "Droit pénal",
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit public"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.keplaw.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "1204legal.ch": {
+    "founding_year": 1994,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit fiscal et comptable",
+      "Droit immobilier & Construction",
+      "Droit bancaire et financier, réglementation",
+      "Corporate & Commercial",
+      "Criminalité économique & entraide judiciaire",
+      "Droit du travail & Immigration",
+      "Planification patrimoniale",
+      "Droit de la famille",
+      "Droit des successions",
+      "Recouvrement",
+      "FinTech et VASP",
+      "Médiation commerciale et pénale"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.1204legal.ch/fr",
+    "fetched_date": "2026-07-21"
+  },
+  "merkt.ch": {
+    "founding_year": 1946,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://merkt.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "rvmh.ch": {
+    "founding_year": 2012,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal économique",
+      "Droit pénal",
+      "Entraide internationale en matière pénale",
+      "Contentieux civil et commercial",
+      "Droit des contrats",
+      "Droit du travail",
+      "Contentieux bancaire",
+      "Droit des successions",
+      "Droit matrimonial et du divorce",
+      "Entraide internationale en matière civile",
+      "Droit des poursuites et de la faillite",
+      "Exécution de jugements étrangers",
+      "Recouvrement d'actifs",
+      "Droit de la construction",
+      "Droit de la concurrence"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://rvmh.ch/",
+    "fetched_date": "2026-07-21"
+  },
+  "gross-law.ch": {
+    "founding_year": 1972,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Successions",
+      "Responsabilité civile et assurances",
+      "Immobilier, construction et aménagement du territoire",
+      "Droit fiscal",
+      "Contrats",
+      "Marchés publics",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit des sociétés - fusions et acquisitions",
+      "Droit bancaire et financier",
+      "Poursuites, faillites et sursis concordataire",
+      "Droit pénal économique",
+      "Droit matrimonial"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.gross-law.ch/accueil",
+    "fetched_date": "2026-07-21"
+  },
+  "waeberavocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail, conventions collectives et plans sociaux",
+      "Droit administratif, collectivités publiques et fonction publique",
+      "Responsabilité civile et assurances",
+      "Assurances sociales et prévoyance professionnelle",
+      "Droit de la santé et droit médical",
+      "Droit immobilier et de la construction",
+      "Droit des associations et fondations",
+      "Droit des contrats et des sociétés",
+      "Droit des successions",
+      "Poursuites pour dettes et faillite, séquestres",
+      "Droit pénal",
+      "Droit de la personnalité, des médias, protection des données et transparence"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.waeberavocats.ch/",
     "fetched_date": "2026-07-21"
   }
 }
