@@ -1066,6 +1066,15 @@ def gen_canton_avocats(code, start=0, count=None):
         etude_name = row.get("etude", "").strip()
         firm_row = firm_by_norm.get(norm(etude_name)) if etude_name else None
         same_city = [r for r in by_city.get(row["ville"], []) if r["_slug"] != row["_slug"]][:6]
+        # Signal web reel pour cette fiche individuelle : d'abord le site_web propre a
+        # l'avocat, sinon celui d'un autre membre de la meme etude (meme cabinet =
+        # meme site officiel). Jamais invente -- vient toujours d'une donnee deja
+        # presente en base ou du cache d'enrichissement deja verifie manuellement.
+        _site_url = row.get("site_web") or (
+            next((m.get("site_web") for m in firm_row["members"] if m.get("site_web")), "")
+            if firm_row else ""
+        )
+        _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = avocat_path(code, row["_slug"], lang)
@@ -1098,6 +1107,29 @@ def gen_canton_avocats(code, start=0, count=None):
             ]
             ctx["langues"] = []
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("annee_admission"))
+            _domaine_names = []
+            if _web:
+                if lang == "fr" and _web.get("practice_areas_fr"):
+                    _domaine_names = _web["practice_areas_fr"]
+                elif lang == "en" and _web.get("practice_areas_en"):
+                    _domaine_names = _web["practice_areas_en"]
+            ctx["insight_text"] = pt.firm_insight(
+                lang, [], _domaine_names, None,
+                founding_year=(_web or {}).get("founding_year"),
+                team_size_n=(_web or {}).get("team_size_n"),
+            ) if _web else ""
+            ctx["web_source_note"] = None
+            if _web:
+                ctx["web_source_note"] = {
+                    "fr": f"Certaines informations ci-dessus proviennent du site officiel du cabinet, consulté le {_web['fetched_date']}.",
+                    "de": f"Einige der obigen Angaben stammen von der offiziellen Website der Kanzlei, abgerufen am {_web['fetched_date']}.",
+                    "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
+                    "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
+                }[lang]
+            # Noindex automatique : aucun signal reel (ni anciennete, ni langue, ni domaine,
+            # ni enrichissement web) au-dela du nom/adresse -- se retire tout seul des qu'une
+            # donnee reelle arrive (meme mecanisme que les fiches etude).
+            ctx["noindex"] = not (ctx["seniority_text"] or ctx["langues"] or ctx["domaines"] or ctx["insight_text"])
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (canton_name, canton_path(code, lang)), (nom, path)]
             ctx["schema"] = json.dumps({

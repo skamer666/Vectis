@@ -16,6 +16,8 @@
   {% if presentation %}
   <p class="presentation">{{ presentation }}</p>
   {% endif %}
+  {% if insight_text %}<p class="presentation" style="font-size:0.95rem;">{{ insight_text }}</p>{% endif %}
+  {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
 
   <table class="info-table">
     {% if adresse %}<tr><td>{{ ui.address }}</td><td>{{ adresse }}{% if npa or ville %}<br>{{ npa }} {{ ville }}{% endif %}</td></tr>{% endif %}
