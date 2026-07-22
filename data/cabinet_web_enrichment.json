@@ -1,14 +1,10 @@
 {
   "_meta": {
-    "total_done": 171,
-    "total_failed": 65,
-    "total_tested": 230,
-    "last_updated": "2026-07-22",
-    "success_count": 189,
-    "fail_count": 61,
-    "successes": 206,
-    "failures": 64,
-    "total_successes": 223
+    "total_domains_known": 485,
+    "total_successful": 238,
+    "total_failed": 70,
+    "total_tested": 308,
+    "last_updated": "2026-07-23"
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -964,7 +960,27 @@
     "ksr-avocats.ch": "site en construction, aucun contenu exploitable",
     "cramer-avocats.ch": "contenu vide au fetch (page blanche sans texte)",
     "fdlex.ch": "contenu vide au fetch (page blanche sans texte)",
-    "avocats-riviera.ch": "contenu vide au fetch sur toutes les pages testées — site inaccessible"
+    "avocats-riviera.ch": "contenu vide au fetch sur toutes les pages testées — site inaccessible",
+    "kellerpachoud.ch": {
+      "reason": "contenu vide au fetch (rendu JavaScript probable) sur toutes les pages testées",
+      "date_tested": "2026-07-23"
+    },
+    "avocats-stpierre.ch": {
+      "reason": "redirige vers avsp.ch, déjà traité dans le cache sous avsp.ch (founding_year 1979)",
+      "date_tested": "2026-07-23"
+    },
+    "mont-avocats.ch": {
+      "reason": "aucune présence web indexée — site:mont-avocats.ch ne renvoie aucun résultat",
+      "date_tested": "2026-07-23"
+    },
+    "avocatlausanne.ch": {
+      "reason": "site secondaire/personnel de Me Marc-Aurèle Vollenweider, même étude que avocatlausanne.com (déjà traité)",
+      "date_tested": "2026-07-23"
+    },
+    "aberlaw.ch": {
+      "reason": "aucune présence web indexée — site:aberlaw.ch ne renvoie aucun résultat",
+      "date_tested": "2026-07-23"
+    }
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -4564,5 +4580,437 @@
     ],
     "source_url": "https://banic-stamenkovic.ch/filip-banic-avocat-lausanne-yverdon/",
     "fetched_date": "2026-07-22"
+  },
+  "kavocats.ch": {
+    "founding_year": 2022,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la construction et de l'immobilier",
+      "Droit des contrats",
+      "Droit de la responsabilité civile",
+      "Droit des assurances sociales",
+      "Droit des assurances privées",
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit de la circulation routière",
+      "Droit des poursuites et faillites"
+    ],
+    "practice_areas_en": [
+      "Construction and real estate law",
+      "Contract law",
+      "Civil liability law",
+      "Social insurance law",
+      "Private insurance law",
+      "Family law",
+      "Criminal law",
+      "Road traffic law",
+      "Debt enforcement and bankruptcy law"
+    ],
+    "source_url": "https://www.kavocats.ch/etude/",
+    "fetched_date": "2026-07-23",
+    "note": "Fondée en septembre 2022 (mention explicite sur la page L'étude)"
+  },
+  "espace.legal": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des personnes et de la famille",
+      "Droit des successions",
+      "Droits réels",
+      "Droit immobilier et de la construction",
+      "Droit des obligations et des contrats",
+      "Droit commercial et des sociétés",
+      "Droit pénal",
+      "Droit administratif et fiscal",
+      "Droit des poursuites et faillites",
+      "Droit bancaire et des assurances",
+      "Droit du travail",
+      "Procédure, médiation et arbitrage",
+      "Technologie, esport et intelligence artificielle"
+    ],
+    "practice_areas_en": [
+      "Law of persons and family law",
+      "Succession law",
+      "Property law",
+      "Real estate and construction law",
+      "Contract law",
+      "Business law",
+      "Criminal law",
+      "Administrative and tax law",
+      "Debt collection and bankruptcy law",
+      "Banking and insurance law",
+      "Labour law",
+      "Procedure, mediation and arbitration",
+      "Technology, esport and artificial intelligence"
+    ],
+    "source_url": "https://www.espace.legal/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "tp-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit de la construction et aménagement du territoire",
+      "Droit des assurances sociales",
+      "Droit des successions",
+      "Droit immobilier",
+      "Droit des sociétés"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Criminal law",
+      "Tenancy law",
+      "Labour law",
+      "Construction and land use law",
+      "Social insurance law",
+      "Succession law",
+      "Real estate law",
+      "Corporate law"
+    ],
+    "source_url": "https://tp-avocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Étude Tobler & Plumez Avocats à Vevey, étude récente (stagiaire devenu indépendant 2024-2025)"
+  },
+  "leiravelloavocats.ch": {
+    "founding_year": null,
+    "team_size_n": 2,
+    "practice_areas_fr": [
+      "Artistes et propriété intellectuelle",
+      "Droit administratif",
+      "Droit commercial et droit des sociétés",
+      "Droit de la circulation routière",
+      "Droit de la construction et de l'immobilier",
+      "Droit de la famille et du divorce",
+      "Droit de la responsabilité civile",
+      "Droit des assurances privées et sociales",
+      "Droit des contrats",
+      "Droit du bail",
+      "Droit du sport",
+      "Droit du travail",
+      "Droit pénal",
+      "Poursuite pour dettes et faillite"
+    ],
+    "practice_areas_en": [
+      "Artists and intellectual property",
+      "Administrative law",
+      "Commercial and corporate law",
+      "Road traffic law",
+      "Construction and real estate law",
+      "Family and divorce law",
+      "Civil liability law",
+      "Private and social insurance law",
+      "Contract law",
+      "Tenancy law",
+      "Sports law",
+      "Labour law",
+      "Criminal law",
+      "Debt enforcement and bankruptcy"
+    ],
+    "source_url": "https://leiravelloavocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "2 associés mentionnés explicitement ('Deux associés, un seul nom')"
+  },
+  "legalia-avocats.ch": {
+    "founding_year": 2006,
+    "team_size_n": 5,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit des contrats",
+      "Droit pénal",
+      "Droit de la responsabilité civile",
+      "Droit des assurances",
+      "Droit administratif",
+      "Droit des successions",
+      "Droits réels",
+      "Droit des étrangers",
+      "Droit de la circulation routière",
+      "Droit des sociétés",
+      "Poursuites et faillites"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Contract law",
+      "Criminal law",
+      "Civil liability law",
+      "Insurance law",
+      "Administrative law",
+      "Succession law",
+      "Property law",
+      "Immigration law",
+      "Road traffic law",
+      "Corporate law",
+      "Debt enforcement and bankruptcy"
+    ],
+    "source_url": "https://legalia-avocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Fondée en 2006, rebaptisée Legalia en mars 2014. '5 collaborateurs' affiché explicitement sur la page d'accueil."
+  },
+  "etude-jl.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille (séparation et divorce)",
+      "Droit des contrats",
+      "Droit pénal",
+      "Droit de la construction",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Family law (separation and divorce)",
+      "Contract law",
+      "Criminal law",
+      "Construction law",
+      "Mediation"
+    ],
+    "source_url": "https://etude-jl.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "JL Avocats & Médiation Sàrl, Vevey. Me Céline Jarry-Lacombe."
+  },
+  "hnblaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des sociétés",
+      "Droit des contrats",
+      "Gouvernance d'entreprise",
+      "Blockchain et modèles d'affaires numériques",
+      "Gestion des cyber-risques",
+      "Commerce international",
+      "Recouvrement d'actifs",
+      "Services clients privés",
+      "Criminalité en col blanc",
+      "Protection des données",
+      "Franchise",
+      "Startups"
+    ],
+    "practice_areas_en": [
+      "Corporate and commercial law",
+      "Contract law",
+      "Corporate governance",
+      "Blockchain and digital business models",
+      "Cyber risk management",
+      "International trade",
+      "Asset recovery",
+      "Private client services",
+      "White collar and money laundering crime",
+      "Data protection",
+      "Franchising",
+      "Startups"
+    ],
+    "source_url": "https://www.hnblaw.ch/claude-alain-boillat",
+    "fetched_date": "2026-07-23",
+    "note": "H&B Law, Morges. Domaines extraits des pages biographies des associés (pages principales rendu JS)."
+  },
+  "pgavocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit commercial (sociétés, M&A, gouvernance, financement)",
+      "Protection des données",
+      "Droit de la concurrence et lutte contre la concurrence déloyale"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Commercial law (companies, M&A, governance, financing)",
+      "Data protection",
+      "Competition law and unfair competition"
+    ],
+    "source_url": "https://www.pgavocats.ch/services/",
+    "fetched_date": "2026-07-23",
+    "note": "PG Avocats Sàrl, Lausanne. Sandeep Pai (spécialiste FSA droit du travail) + Anne Gabellon."
+  },
+  "flurilaw.ch": {
+    "founding_year": 2007,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Droit des contrats suisse et international",
+      "Droit de la concurrence et propriété intellectuelle",
+      "Droit de la construction et de l'immobilier",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit des médias et protection de la personnalité",
+      "Droit administratif et marchés publics",
+      "Droit pénal économique",
+      "Droit des poursuites et faillites",
+      "Arbitrage et contentieux civil et commercial"
+    ],
+    "practice_areas_en": [
+      "Commercial law",
+      "Swiss and international contract law",
+      "Competition law and intellectual property",
+      "Real estate and construction law",
+      "Tenancy law",
+      "Labour law",
+      "Media law and personality rights",
+      "Administrative law and public procurement",
+      "Economic criminal law",
+      "Debt enforcement and bankruptcy law",
+      "Arbitration and civil/commercial litigation"
+    ],
+    "source_url": "http://www.flurilaw.ch/fluri.php",
+    "fetched_date": "2026-07-23",
+    "note": "Fluri & Associés, Le Mont-sur-Lausanne. Fondée en 2007 ('she created FLURI & Partner in 2007') par Nathalie Fluri."
+  },
+  "pvlegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Propriété intellectuelle, nouvelles technologies et concurrence",
+      "Droit commercial et des entreprises",
+      "Droit de l'aménagement du territoire et constructions",
+      "Droit de la famille et des successions",
+      "Droit pénal et assistance aux victimes",
+      "Droit des contrats, bail et travail"
+    ],
+    "practice_areas_en": [
+      "Intellectual property, technology and competition law",
+      "Business and commercial law",
+      "Land use and construction law",
+      "Family and succession law",
+      "Criminal law and victim assistance",
+      "Contract, tenancy and labour law"
+    ],
+    "source_url": "https://www.pvlegal.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Portmann Ventura, Lausanne. Urs Portmann et Grégoire Ventura (2 associés)."
+  },
+  "novier.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail et de la fonction publique",
+      "Droit de la formation",
+      "Droit de la santé",
+      "Droit des contrats",
+      "Droit des associations et des collectivités publiques"
+    ],
+    "practice_areas_en": [
+      "Labour law and civil service law",
+      "Education law",
+      "Health law",
+      "Contract law",
+      "Association and public entities law"
+    ],
+    "source_url": "https://www.novier.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Novier Avocats, Pully. Mercedes Novier + Carmela Schaller."
+  },
+  "dha-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit du bail",
+      "Droit de la famille",
+      "Droit des assurances sociales",
+      "Droit pénal",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Tenancy law",
+      "Family law",
+      "Social insurance law",
+      "Criminal law",
+      "Mediation"
+    ],
+    "source_url": "https://dha-avocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "DHA Avocats, Lausanne. Boris Heinzer et Nataša Djurdjevac Heinzer (associés), David Khalfi (stagiaire)."
+  },
+  "avocates-lavaux.ch": {
+    "founding_year": 2005,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit des assurances sociales",
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit pénal",
+      "Enquêtes internes et administratives"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Social insurance law",
+      "Family law",
+      "Succession law",
+      "Criminal law",
+      "Internal and administrative investigations"
+    ],
+    "source_url": "https://www.avocates-lavaux.ch/qui-nous-sommes/",
+    "fetched_date": "2026-07-23",
+    "note": "Avocates Sattiva - Gétaz Kunz, Cully. Étude fondée en 2005 par Me Valentine Gétaz Kunz (mention explicite dans sa biographie). Association avec Me Christine Sattiva en 2022."
+  },
+  "feldmann-savoy-avocats.ch": {
+    "founding_year": 2006,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit fiscal",
+      "Droit pénal",
+      "Droit de la circulation routière",
+      "Droits réels et droit immobilier",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit des sociétés",
+      "Droit des contrats"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Succession law",
+      "Tax law",
+      "Criminal law",
+      "Road traffic law",
+      "Property and real estate law",
+      "Labour law",
+      "Tenancy law",
+      "Corporate law",
+      "Contract law"
+    ],
+    "source_url": "https://www.feldmann-savoy-avocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Inès Feldmann Wyler & Laurent Savoy (Budin Associés Vaud), Lutry. 'nous avons créé ensemble le 1er février 2006 l'Étude d'avocats BUDIN ASSOCIÉS Vaud' — date explicite."
+  },
+  "avocatlausanne.com": {
+    "founding_year": 1971,
+    "team_size_n": 4,
+    "practice_areas_fr": [
+      "Droit commercial et droit des sociétés",
+      "Droit bancaire",
+      "Droit de la famille et du divorce",
+      "Droit pénal et droit de la circulation routière",
+      "Droit réel, aménagement du territoire et droit des constructions",
+      "Droit de la propriété intellectuelle et des nouvelles technologies",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit fiscal",
+      "Droit des successions",
+      "Droit des poursuites et faillites",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Commercial and corporate law",
+      "Banking law",
+      "Family and divorce law",
+      "Criminal law and road traffic law",
+      "Property law, land use and construction law",
+      "Intellectual property and new technologies law",
+      "Tenancy law",
+      "Labour law",
+      "Tax law",
+      "Succession law",
+      "Debt enforcement and bankruptcy law",
+      "Mediation"
+    ],
+    "source_url": "https://www.avocatlausanne.com/",
+    "fetched_date": "2026-07-23",
+    "note": "Étude Fischer-Lanfranconi-Vollenweider, Lausanne. 'L'étude, fondée en 1971, est formée de quatre associés' — fondation et effectif explicites."
   }
 }

@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 22:45 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-23)
 
-- **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
+- **485** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **206** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **238** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **64** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **70** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **216** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~76.3%** (206 / 270 domaines réellement testés).
+- **177** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~77.3%** (238 / 308 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -464,3 +464,37 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - Domaine invalide `[]` présent dans les données CSV ignoré (entrée corrompue, aucun nom de domaine).
 - Totaux cumulés : **223 réussites / 65 échecs / 288 testés** sur les 487 domaines normalisés connus. Il reste environ **199 domaines** non testés, soit encore ~10 lots de 20 avant d'atteindre la phase de découverte.
 - Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 135 URLs, échantillon de 40 fichiers sans artefact Jinja).
+
+### 2026-07-23 — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : **15 réussites, 5 échecs**.
+- Années de fondation trouvées : kavocats.ch (2022 — "Fondée en septembre 2022"), legalia-avocats.ch
+  (2006 — "Fondée en 2006 par trois avocats lausannois"), flurilaw.ch (2007 — "she created FLURI &
+  Partner in 2007"), avocates-lavaux.ch (2005 — "Fondation de l'Etude Valentine Gétaz Kunz" dans
+  la biographie de l'associée), feldmann-savoy-avocats.ch (2006 — "nous avons créé ensemble le 1er
+  février 2006 l'Étude d'avocats BUDIN ASSOCIÉS Vaud"), avocatlausanne.com (1971 — "L'étude, fondée
+  en 1971").
+- Tailles d'équipe : leiravelloavocats.ch ("Deux associés, un seul nom" — 2 associés explicites),
+  legalia-avocats.ch ("5 collaborateurs" affiché explicitement), avocatlausanne.com ("formée de quatre
+  associés" — 4 associés explicites).
+- Autres réussites (domaines de compétence) : espace.legal (13 domaines dont technologie/esport/IA
+  — spécialité rare), tp-avocats.ch (9 domaines, Étude Tobler & Plumez à Vevey), etude-jl.ch
+  (JL Avocats & Médiation Sàrl, 4 domaines + médiation), hnblaw.ch (H&B Law Morges, domaines
+  extraits depuis bios — pages principales en JS), pgavocats.ch (PG Avocats Lausanne, 4 domaines
+  dont droit de la concurrence), pvlegal.ch (Portmann Ventura Lausanne, 6 domaines variés dont
+  horlogerie et aéronautique), novier.ch (Novier Avocats Pully, 5 domaines dont droit de la
+  formation et de la santé), dha-avocats.ch (DHA Avocats Lausanne, 6 domaines).
+- Notes de rigueur : "plus de trente ans de pratique du barreau" (dha-avocats.ch — cumul non
+  daté, non retenu), "De dimension humaine" (novier.ch — vague, non retenu), biographies
+  indiquant "depuis 1992" ou "plus de 25 ans" pour des associés (flurilaw.ch, feldmann) —
+  toujours non retenus comme founding_year car relatifs à des carrières individuelles, pas à la
+  date de fondation du cabinet actuel.
+- Échecs : kellerpachoud.ch (contenu vide, rendu JS) ; avocats-stpierre.ch (redirige vers
+  avsp.ch, déjà traité, fondation 1979) ; mont-avocats.ch (aucune présence web indexée) ;
+  avocatlausanne.ch (site secondaire de Me Vollenweider pour la même étude que avocatlausanne.com) ;
+  aberlaw.ch (aucune présence web indexée).
+- Totaux cumulés : **238 réussites / 70 échecs / 308 testés** sur les ~485 domaines connus.
+  Il reste environ **177 domaines** non testés, soit encore ~9 lots de 20.
+- Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 267 URLs, échantillon de 40
+  fichiers sans artefact Jinja détecté).
+
