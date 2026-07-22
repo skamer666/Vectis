@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 (session en cours) UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 18:35 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **90** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **109** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **40** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **41** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **356** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~69%** (90 / 130 domaines réellement testés).
+- **336** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~72.7%** (109 / 150 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -222,3 +222,58 @@ Vérification post-build : régénération complète du site (`dist/`, 65228 fic
 détecté. Entrée GVA law vérifiée manuellement sur sa fiche étude Genève
 (`/fr/avocats/geneve/etude/gva-law/`) : la mention « fondée en 1938 (88 ans d'existence) »
 s'affiche correctement.
+
+
+### 2026-07-22 18:35 UTC — exécution automatisée (lot 5)
+
+Lot de 20 domaines traités (GE/VD restants, par nombre d'avocats décroissant). **19 succès /
+1 échec** — meilleur taux de réussite du pilote jusqu'ici.
+
+Faits notables extraits : KT Legal SA (Kronbichler & Tourette) — Pascal Tourette « ouvre
+l'Etude Kronbichler & Tourette en 2005 » (fait trouvé sur la bio d'un associé, pas sur une
+page "à propos" générique) ; ABC Avocats (Nyon) — bloc de statistiques explicite sur la page
+d'accueil : « 2023 Founded », « 5 Professionals », « 12 Fields of expertise » ; Sphera Étude
+d'avocates — page d'actualités indique explicitement « Depuis le 1er juillet 2022 » (quatre
+associées) ; Salomé Preile Associées — « Mes Salomé Daïna et Me Preile ont décidé de créer
+leur propre étude en 2023 » (deux associées, deux collaborateurs) ; Libra Law — bandeau
+d'accueil « Founded in 2007, Libra Law is a Swiss law firm specialising in Sports and Business
+law » ; Leximmo avocat·e·s — « Founded in 2009 », composée de six avocats explicitement
+annoncés ; Avocats Palud — bandeau d'accueil « Au plus près de vos intérêts depuis 1976 »
+(année précise retenue, à la différence des formulations vagues type "depuis plus de X ans").
+Pour Penalex (quatre avocats explicitement chiffrés, sans année de fondation précise —
+seulement "20 ans de pratique" jugé trop vague pour l'outil Compass, non retenu), Dayer
+Ahlström Fauconnet (page "à propos" trouvée être un gabarit WordPress non complété avec faux
+noms et Lorem Ipsum, mais les pages "avocats" et "domaines d'activité" contenaient de vrais
+faits exploitables), Faerus, KBLex, DWZ de Weck Zoells & Associés, Meyer Legal (droit de
+l'aviation), WLM Avocats, Omnia Avocats, Etude Asteria, Peter & Moreau et André Associés
+Avocats, seule une liste de domaines de compétence formulée par le cabinet lui-même a pu être
+retenue (aucune année de fondation ni effectif chiffré explicitement annoncés, ou statistiques
+de réseau international écartées conformément à la règle 4 — non applicable ici mais
+vérifié systématiquement).
+
+Échec : mvh-avocats.ch (contenu vide au fetch sur toutes les pages testées — accueil,
+attorneys, contact-acces — rendu JavaScript probable, site non exploitable avec l'outil
+actuel).
+
+Totaux cumulés après ce lot : 150 domaines testés au total (109 réussis / 41 échoués) sur
+les 486 domaines connus. Il reste environ 336 domaines connus non testés, soit encore
+~17 lots de 20 avant d'atteindre la phase de découverte (18 autres cantons).
+
+Vérification post-build : **incident technique de disque signalé pour information.** Le
+bac à sable de cette exécution ne disposait que de ~848 Mo d'espace libre au démarrage du
+build (disque système à 9,6 Go, en grande partie occupé par des fichiers résiduels d'autres
+sessions non liées à ce projet, non supprimables faute de permissions). La régénération
+complète a réussi pour Genève, Vaud et les cantons AG à ZG (dans l'ordre du build), mais a
+échoué par manque d'espace disque pendant la génération des pages avocat individuelles de
+Zurich (dernier canton de la boucle, le plus volumineux avec 4213 avocats). Ceci n'est pas
+lié aux données modifiées dans ce lot : `dist/` n'est pas versionné dans Git (`.gitignore`),
+le site réel est reconstruit par Vercel au déploiement avec des ressources qu'on suppose
+suffisantes ; ce build local ne sert qu'à la vérification anti-régression avant push.
+Vérification effectuée sur la portion réellement construite : échantillon aléatoire de 40
+pages avec `bad=0` artefact Jinja détecté, plus vérification ciblée des 17 nouvelles fiches
+étude (GE et VD) qui affichent toutes correctement leurs faits (ex. KT Legal SA « Étude
+fondée en 2005 », ABC Avocats « Étude fondée en 2023 », Sphera « Étude fondée en 2022 »,
+avec la date de consultation 2026-07-22). Donnée et code jugés sains ; seule la construction
+locale complète (18 cantons) n'a pu être vérifiée intégralement faute d'espace disque dans
+ce bac à sable. La prochaine exécution pourra retenter un build complet si l'espace disque
+du bac à sable redevient suffisant.

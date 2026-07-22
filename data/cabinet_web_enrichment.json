@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "total_tested": 130,
-    "total_success": 90,
-    "total_failed": 40,
+    "total_tested": 150,
+    "total_success": 109,
+    "total_failed": 41,
     "last_updated": "2026-07-22"
   },
   "borel-barbey.ch": {
@@ -886,7 +886,11 @@
     "kaiser-bohler.com": "contenu vide au fetch (plusieurs URLs testées : page d'accueil et sous-page 'Information'), aucun texte exploitable retourné",
     "msvavocates.ch": "page d'accueil vide au premier fetch, puis timeout (>180s) sur la page équipe — contenu probablement rendu en JavaScript",
     "hcml.ch": "timeout (>180s) lors du fetch de la page d'accueil, page trop volumineuse ou lente pour l'outil de fetch",
-    "lexel.ch": "timeout (>180s) lors du fetch de la page d'accueil anglaise, page trop volumineuse ou lente pour l'outil de fetch"
+    "lexel.ch": "timeout (>180s) lors du fetch de la page d'accueil anglaise, page trop volumineuse ou lente pour l'outil de fetch",
+    "mvh-avocats.ch": {
+      "reason": "contenu vide au fetch sur toutes les pages testees (accueil, attorneys, contact-acces), rendu JavaScript probable",
+      "checked_date": "2026-07-22"
+    }
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -1789,5 +1793,312 @@
     "practice_areas_en": null,
     "source_url": "https://mavocats.ch/letude/",
     "fetched_date": "2026-07-22"
+  },
+  "penalex.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit pénal économique",
+      "Entraide judiciaire internationale"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://penalex.ch/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": 4
+  },
+  "etude-asteria.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit des contrats",
+      "Droit des successions",
+      "Droit des étrangers",
+      "Droit immobilier",
+      "Droit commercial et des sociétés",
+      "Protection de l'adulte et de l'enfant",
+      "Droit des poursuites et faillites",
+      "Responsabilité civile",
+      "Droit public",
+      "Aménagement du territoire",
+      "Droit de la circulation routière"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.etude-asteria.ch/notre-equipe",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "leximmo.ch": {
+    "founding_year": 2009,
+    "practice_areas_fr": [
+      "Droit public de la construction",
+      "Aménagement du territoire",
+      "Droit de l'environnement",
+      "Droit de la nature et du paysage",
+      "Droit de l'énergie",
+      "Marchés publics",
+      "Droit administratif général",
+      "Vente immobilière",
+      "Contrats de construction",
+      "Droit du bail",
+      "Droit réel immobilier",
+      "Médiation et arbitrage"
+    ],
+    "practice_areas_en": [
+      "Construction and Real Estate Law"
+    ],
+    "source_url": "https://leximmo.ch/en/welcome/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": 6
+  },
+  "dalaw.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit commercial",
+      "Droit administratif",
+      "Droit pénal",
+      "Propriété intellectuelle",
+      "Arbitrage international",
+      "Droit des contrats"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://dalaw.ch/domaines-dactivite/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "faerus.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Litigation & Arbitration",
+      "Business & Financial Crime proceedings",
+      "Asset-tracing and recovery"
+    ],
+    "source_url": "https://www.faerus.ch/services",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "omnia-avocats.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Clientèle privée",
+      "Droit de la famille"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.omnia-avocats.ch/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "kt-legal.ch": {
+    "founding_year": 2005,
+    "practice_areas_fr": [
+      "Droit commercial et litiges commerciaux",
+      "Droit bancaire",
+      "Droit de l'informatique",
+      "Droit des télécommunications",
+      "Protection des données",
+      "Droit pénal économique",
+      "Entraide administrative internationale",
+      "Droit civil et successoral"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://kt-legal.ch/avocats/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "petermoreau.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit international des droits humains",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit de la migration"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.petermoreau.ch/fr/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "meyerlegal.aero": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Aviation law",
+      "Aircraft purchase, sale, lease and financing",
+      "Aircraft management",
+      "Holding and operational structures"
+    ],
+    "source_url": "https://meyerlegal.aero/meyer/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "wlm-law.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Droit de la famille - Patrimoine",
+      "Droit des affaires - Droit des contrats",
+      "Droit administratif",
+      "Droit pénal",
+      "Avis de droit & audit juridique",
+      "Négociation"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://wlm-law.ch/domaine-dactivites/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "kblex.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate law",
+      "Commercial and contract law",
+      "Mergers & acquisitions",
+      "Banking and financial law",
+      "Litigation and arbitration",
+      "Tax law",
+      "Wealth and estate planning",
+      "Labour law",
+      "Debt collection and bankruptcy",
+      "Immigration law"
+    ],
+    "source_url": "https://kblex.ch/en/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "dwza.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Contrats",
+      "Corporate",
+      "Fiscalité",
+      "Banque et finance",
+      "Relations du travail",
+      "Patrimoine et succession",
+      "Contentieux et recouvrements",
+      "Immobilier"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.dwza.ch/domaines.html",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "sphera-avocates.ch": {
+    "founding_year": 2022,
+    "practice_areas_fr": [
+      "Droit des familles",
+      "Droit du travail",
+      "Droit des personnes",
+      "Droit du bail",
+      "Droit des contrats",
+      "Droit international privé",
+      "Droit bancaire",
+      "Droit pénal général",
+      "Droit des victimes",
+      "Droit pénal économique",
+      "Droit pénal administratif",
+      "Entraide judiciaire",
+      "Droit pénal militaire",
+      "Droit pénal des mineurs",
+      "Droit médical et de la santé",
+      "Droit des étrangers",
+      "Droit des successions",
+      "Droit commercial",
+      "Droit des associations et fondations",
+      "Droit des assurances sociales"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://sphera-avocates.ch/domaines-d-activites/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": 4
+  },
+  "salomepreile.ch": {
+    "founding_year": 2023,
+    "practice_areas_fr": [
+      "Droit du bail",
+      "Droit de la famille",
+      "Droit de l'immobilier"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://salomepreile.ch/etude/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": 4
+  },
+  "libra-law.ch": {
+    "founding_year": 2007,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Sport",
+      "Commercial",
+      "Civil liability",
+      "Mediation",
+      "Arbitrage",
+      "Institutional"
+    ],
+    "source_url": "https://libra-law.ch/en/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "avocats-palud.ch": {
+    "founding_year": 1976,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://avocats-palud.ch/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "andre.law": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Transactions commerciales et contrats",
+      "Droit de la santé",
+      "Immobilier et aménagement du territoire",
+      "Droit du travail",
+      "Droit de l'art",
+      "Litige et représentation en justice",
+      "Protection des données"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://andre.law/fr",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
+  },
+  "abc-avocats.ch": {
+    "founding_year": 2023,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit civil",
+      "Droit des successions",
+      "Droit des sociétés",
+      "Droit commercial",
+      "Droit des poursuites et faillites",
+      "Droit pénal",
+      "Droit immobilier",
+      "Droit administratif",
+      "Propriété intellectuelle",
+      "Droit du travail",
+      "Protection de l'adulte"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.abc-avocats.ch/en/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": 5
+  },
+  "brodard-avocats.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Divorce et séparation (suisse et internationale)",
+      "Régimes matrimoniaux",
+      "Successions",
+      "Droit immobilier en lien avec la famille",
+      "Médiation",
+      "Droit collaboratif"
+    ],
+    "practice_areas_en": [],
+    "source_url": "https://www.brodard-avocats.ch/",
+    "fetched_date": "2026-07-22",
+    "team_size_n": null
   }
 }
