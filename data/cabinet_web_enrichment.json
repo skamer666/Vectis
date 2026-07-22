@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_tested": 110,
-    "total_success": 74,
-    "total_failed": 36,
-    "last_updated": "2026-07-21"
+    "total_tested": 130,
+    "total_success": 90,
+    "total_failed": 40,
+    "last_updated": "2026-07-22"
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -882,7 +882,11 @@
     "interlegal.ch": {
       "reason": "site vide au fetch sur plusieurs pages testées (rendu JavaScript probable)",
       "checked_date": "2026-07-21"
-    }
+    },
+    "kaiser-bohler.com": "contenu vide au fetch (plusieurs URLs testées : page d'accueil et sous-page 'Information'), aucun texte exploitable retourné",
+    "msvavocates.ch": "page d'accueil vide au premier fetch, puis timeout (>180s) sur la page équipe — contenu probablement rendu en JavaScript",
+    "hcml.ch": "timeout (>180s) lors du fetch de la page d'accueil, page trop volumineuse ou lente pour l'outil de fetch",
+    "lexel.ch": "timeout (>180s) lors du fetch de la page d'accueil anglaise, page trop volumineuse ou lente pour l'outil de fetch"
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -1496,5 +1500,294 @@
     ],
     "source_url": "https://www.kostenbaum.ch/en",
     "fetched_date": "2026-07-21"
+  },
+  "gvalaw.com": {
+    "founding_year": 1938,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Commercial law",
+      "Real estate law",
+      "Tenancy law",
+      "Labour law",
+      "Debt enforcement and bankruptcy",
+      "Social insurance law",
+      "Banking and finance law",
+      "Intellectual property",
+      "Criminal law",
+      "International arbitration"
+    ],
+    "source_url": "https://www.gvalaw.com/en/",
+    "fetched_date": "2026-07-22"
+  },
+  "mbld.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Family law",
+      "Tax law",
+      "Employment law",
+      "Criminal law",
+      "Victims' rights",
+      "Social insurance law",
+      "Commercial and company law",
+      "Commercial disputes",
+      "Enforcement, debt collection and bankruptcy",
+      "Estates",
+      "Administrative disputes",
+      "Road traffic",
+      "Protection of adults and children",
+      "Curatorship"
+    ],
+    "source_url": "https://www.mbld.ch/en/the-law-firm/",
+    "fetched_date": "2026-07-22"
+  },
+  "habeas.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Criminalité économique",
+      "Droit pénal général",
+      "Droit bancaire et financier",
+      "Droit commercial et patrimonial"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://www.habeas.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "cgpartners.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Debt recovery, enforcement and bankruptcy procedures",
+      "Employment contracts",
+      "Real Estate Law",
+      "Construction Law",
+      "Lease Law",
+      "Corporate law / M&A",
+      "Commercial and corporate contracts",
+      "Tax planning and optimization for entrepreneurs and HNWI",
+      "Family law (divorce, separation, matrimonial regimes)",
+      "Inheritance law and estate planning",
+      "Social insurance law"
+    ],
+    "source_url": "https://cg-partners.ch/home/",
+    "fetched_date": "2026-07-22"
+  },
+  "askhouse.ch": {
+    "founding_year": 2018,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Intellectual property",
+      "Tax",
+      "Dispute resolution",
+      "Corporate",
+      "Strategic advice"
+    ],
+    "source_url": "https://askhouse.ch/who-we-are/",
+    "fetched_date": "2026-07-22"
+  },
+  "jncavocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Commercial law",
+      "Tax law",
+      "Real estate law"
+    ],
+    "source_url": "https://jncavocats.ch/en/",
+    "fetched_date": "2026-07-22"
+  },
+  "green-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Responsabilité civile",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit des contrats",
+      "Droit administratif"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://www.green-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "atlaslegal.ch": {
+    "founding_year": 2024,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit pénal des mineurs",
+      "Droit des assurances sociales",
+      "Droit de la famille",
+      "Droit des poursuites",
+      "Droit des affaires",
+      "Droit des associations",
+      "Droit des sociétés",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit de la construction",
+      "Droit de la migration",
+      "Protection de l'adulte et de l'enfant",
+      "Droit des contrats",
+      "Droit administratif",
+      "Droits humains",
+      "Droit international privé",
+      "Entraide pénale internationale",
+      "Entraide en matière fiscale",
+      "Droit de la circulation routière",
+      "Médiation",
+      "Protection des données",
+      "Propriété intellectuelle",
+      "Droit des successions"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://www.atlaslegal.ch/news/fondation-d-atlas-legal",
+    "fetched_date": "2026-07-22"
+  },
+  "peterandkim.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Commercial arbitration",
+      "Investor-State arbitration",
+      "Sporting disputes",
+      "Arbitration-related court proceedings"
+    ],
+    "source_url": "https://peterandkim.com/",
+    "fetched_date": "2026-07-22"
+  },
+  "lecocqassociate.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Regulatory Finance",
+      "Regulatory Insurance",
+      "Capital Markets, Private Equity and Mergers and Acquisitions",
+      "Corporate and Commercial",
+      "Online Reputation Management",
+      "Cyber Crime",
+      "Data Protection",
+      "Intellectual Property",
+      "White Collar Crime",
+      "AI and Innovative Technologies"
+    ],
+    "source_url": "https://www.lecocqassociate.com/",
+    "fetched_date": "2026-07-22"
+  },
+  "swisslegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Commercial Law & Tax",
+      "Construction & Real Estate",
+      "Family, Marriage & Succession",
+      "Data- and Technology Law, AI & Crypto",
+      "Litigation & Arbitration",
+      "European & International Law",
+      "Labour, Mobility & Health",
+      "Property Law & IP Law",
+      "Notarial Services & Certificates",
+      "Criminal Law and Road Traffic Law",
+      "Liability & Insurances",
+      "Federal & Administrative Law"
+    ],
+    "source_url": "https://www.swisslegal.ch/en/practice-areas.html",
+    "fetched_date": "2026-07-22"
+  },
+  "integra-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit administratif",
+      "Droit de la circulation routière",
+      "Droit de la construction et aménagement du territoire",
+      "Droit de la famille",
+      "Droit des assurances",
+      "Droit des contrats",
+      "Droit des étrangers",
+      "Droit des poursuites et faillites",
+      "Droit des successions",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit pénal et conseil aux victimes d'infraction (LAVI)",
+      "Médiation"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://integra-avocats.ch/etude/",
+    "fetched_date": "2026-07-22"
+  },
+  "mazou-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": [
+      "Business criminal law",
+      "Criminal law and procedure",
+      "International mutual legal assistance",
+      "Criminal and commercial litigation"
+    ],
+    "source_url": "https://mazou-avocats.ch/en/",
+    "fetched_date": "2026-07-22"
+  },
+  "pr-legal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et financier",
+      "Droit des affaires",
+      "Droit fiscal suisse et international",
+      "Fiscalité des entreprises et des particuliers",
+      "Droit bancaire et financier",
+      "Conseils à la clientèle privée",
+      "Droit successoral et fiscalité",
+      "Poursuites pour dettes, faillites et restructurations",
+      "Litiges commerciaux et arbitrage",
+      "Autorisations de séjour, permis de travail et installation en Suisse"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://www.pr-legal.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "etude-richemont.ch": {
+    "founding_year": null,
+    "team_size_n": 3,
+    "practice_areas_fr": [
+      "Droit du travail et de la fonction publique",
+      "Droit de la construction et de l'immobilier",
+      "Droit de la famille et du divorce",
+      "Droit pénal général et économique",
+      "Droit des contrats (bail, mandat, entreprise)",
+      "Droit de la circulation routière",
+      "Droit de la responsabilité civile",
+      "Droit du sport",
+      "Droit des assurances sociales privées et publiques",
+      "Droit de la poursuite pour dettes et de la faillite",
+      "Droit commercial et des sociétés",
+      "Droit des successions",
+      "Droit administratif et des collectivités publiques",
+      "Droit des étrangers",
+      "Droit médical et de la santé",
+      "Droit fiscal"
+    ],
+    "practice_areas_en": null,
+    "source_url": "https://www.etude-richemont.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "mavocats.ch": {
+    "founding_year": 2016,
+    "team_size_n": null,
+    "practice_areas_fr": null,
+    "practice_areas_en": null,
+    "source_url": "https://mavocats.ch/letude/",
+    "fetched_date": "2026-07-22"
   }
 }

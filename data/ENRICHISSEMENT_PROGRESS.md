@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-21 18:15 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 (session en cours) UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **74** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **90** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **36** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **40** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **376** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~67%** (74 / 110 domaines réellement testés).
+- **356** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~69%** (90 / 130 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -182,3 +182,43 @@ Vérification post-build : régénération complète du site (`dist/`, 64628 fic
 détecté. Entrée Bottge & Associés SA vérifiée manuellement sur sa fiche étude Genève
 (`/fr/avocats/geneve/etude/bottge-associes-sa/`) : la mention « Étude fondée en 1998 »
 et la date de consultation (2026-07-21) s'affichent correctement.
+
+
+### 2026-07-22 — exécution automatisée (lot 4)
+
+Lot de 20 domaines traités (GE/VD restants, par nombre d'avocats décroissant). **16 succès /
+4 échecs.**
+
+Faits notables extraits : GVA law (gvalaw.com) fondée en 1938, plus de 80 ans d'existence,
+liste complète de domaines de compétence (droit commercial, immobilier, bail, travail,
+poursuites et faillites, assurances sociales, bancaire et financier, propriété
+intellectuelle, pénal, arbitrage international) ; HOUSE attorneys (askhouse.ch) créée en
+2018 ; Atlas Legal (atlaslegal.ch) fondée le 27 août 2024 (annonce explicite de création,
+liste très étendue de domaines de compétence) ; M & Avocats (mavocats.ch) fondée en 2016
+par Nicolas Mattenberger et Jessica Jaccoud ; Etude Richemont (etude-richemont.ch) —
+effectif explicitement annoncé de 3 avocats expérimentés (et leurs 3 collaborateurs), liste
+étendue de domaines de droit. Pour MBLD Associés, HABEAS Avocats, CG Partners (domaine CSV
+cgpartners.ch, contenu réel constaté sur cg-partners.ch), JNC Avocats, Green Avocats, Peter
+& Kim (statistiques mondiales du réseau écartées, seule la liste des expertises en
+arbitrage retenue), lecocqassociate (effectif de 40+ professionnels écarté car réparti sur
+4 bureaux internationaux, non spécifique à la Suisse, conformément à la règle 4),
+SwissLegal (réseau national de cabinets, page de domaines de compétence commune retenue),
+Integra Avocats, Mazou Avocats et Pétremand & Rappo, seule une liste de domaines de
+compétence formulée par le cabinet lui-même a pu être retenue (aucune année de fondation ni
+effectif chiffré explicitement annoncés, ou chiffres explicitement écartés car non
+spécifiques à la Suisse).
+
+Échecs : kaiser-bohler.com (contenu vide au fetch sur plusieurs URLs testées, page
+d'accueil et sous-page "Information") ; msvavocates.ch (page d'accueil vide puis timeout
+sur la page équipe, rendu JavaScript probable) ; hcml.ch et lexel.ch (timeout du fetch,
+pages trop volumineuses ou lentes).
+
+Totaux cumulés après ce lot : 130 domaines testés au total (90 réussis / 40 échoués) sur
+les 486 domaines connus. Il reste environ 356 domaines connus non testés, soit encore
+~18 lots de 20 avant d'atteindre la phase de découverte (18 autres cantons).
+
+Vérification post-build : régénération complète du site (`dist/`, 65228 fichiers
+`index.html`) sans erreur, échantillon aléatoire de 40 pages avec `bad=0` artefact Jinja
+détecté. Entrée GVA law vérifiée manuellement sur sa fiche étude Genève
+(`/fr/avocats/geneve/etude/gva-law/`) : la mention « fondée en 1938 (88 ans d'existence) »
+s'affiche correctement.
