@@ -4,7 +4,9 @@
     "total_successful": 238,
     "total_failed": 70,
     "total_tested": 308,
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-07-23",
+    "success_count": 254,
+    "failed_count": 74
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -980,7 +982,11 @@
     "aberlaw.ch": {
       "reason": "aucune présence web indexée — site:aberlaw.ch ne renvoie aucun résultat",
       "date_tested": "2026-07-23"
-    }
+    },
+    "alkatout-legal.ch": "aucune présence web indexée pour ce domaine",
+    "votreavocat.ch": "contenu vide au fetch sur toutes les pages testées, rendu JavaScript probable",
+    "daldewolf.com": "cabinet basé à Bruxelles (Belgique), sans bureau suisse distinct, statistiques non spécifiques à la Suisse (règle 4)",
+    "tribunal.ch": "aucune présence web indexée comme cabinet d'avocats, résultats renvoient vers des institutions judiciaires officielles"
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -5012,5 +5018,428 @@
     "source_url": "https://www.avocatlausanne.com/",
     "fetched_date": "2026-07-23",
     "note": "Étude Fischer-Lanfranconi-Vollenweider, Lausanne. 'L'étude, fondée en 1971, est formée de quatre associés' — fondation et effectif explicites."
+  },
+  "legalea.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Résolution amiable des litiges",
+      "Médiation",
+      "Négociation raisonnée",
+      "Pratique collaborative",
+      "Droit de la famille",
+      "Divorce et séparation",
+      "Rédaction de contrats",
+      "Procédures judiciaires"
+    ],
+    "practice_areas_en": [
+      "Amicable dispute resolution",
+      "Mediation",
+      "Collaborative practice",
+      "Family law",
+      "Divorce and separation",
+      "Contract drafting",
+      "Litigation"
+    ],
+    "source_url": "https://legalea.ch/etude/",
+    "fetched_date": "2026-07-23"
+  },
+  "gvalex.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des personnes",
+      "Droit des contrats",
+      "Droit de la construction",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit pénal économique",
+      "Entraide judiciaire internationale"
+    ],
+    "practice_areas_en": [
+      "Personal law",
+      "Contract law",
+      "Construction law",
+      "Tenancy law",
+      "Labour law",
+      "Economic criminal law",
+      "International judicial cooperation"
+    ],
+    "source_url": "https://www.gvalex.ch/fr/etude",
+    "fetched_date": "2026-07-23"
+  },
+  "atatavocate.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal et droit pénal économique",
+      "Droit de la famille",
+      "Droit du travail et harcèlement",
+      "Droit du bail",
+      "Droit des étrangers",
+      "Droit des contrats et des sociétés",
+      "Droit des successions",
+      "Droit des assurances",
+      "Droit des poursuites et de la faillite",
+      "Procédures civiles, pénales et administratives"
+    ],
+    "practice_areas_en": [
+      "Criminal law and economic criminal law",
+      "Family law",
+      "Labour law and mobbing",
+      "Tenancy law",
+      "Immigration law",
+      "Contract and company law",
+      "Inheritance law",
+      "Insurance law",
+      "Debt collection and bankruptcy law",
+      "Civil, criminal and administrative procedure"
+    ],
+    "source_url": "https://atatavocate.ch/en/about-us/",
+    "fetched_date": "2026-07-23"
+  },
+  "azha.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Arbitrage international",
+      "Sanctions économiques",
+      "Transactions commerciales internationales"
+    ],
+    "practice_areas_en": [
+      "International arbitration",
+      "Economic sanctions",
+      "International commercial transactions"
+    ],
+    "source_url": "https://azha.ch/international-arbitration-economic-sanctions/",
+    "fetched_date": "2026-07-23"
+  },
+  "avocatsgeneve.ch": {
+    "founding_year": 2006,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Divorce",
+      "Filiation",
+      "Successions",
+      "Droit médical",
+      "Droit administratif",
+      "Droit du travail",
+      "Droit pénal",
+      "Droit des contrats",
+      "Arbitrage international",
+      "Droit immobilier et du bail",
+      "Droit des sociétés",
+      "Droit des poursuites"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Divorce",
+      "Medical law",
+      "Administrative law",
+      "Labour law",
+      "Criminal law",
+      "Contract law",
+      "International arbitration",
+      "Real estate and tenancy law",
+      "Corporate law",
+      "Debt collection"
+    ],
+    "source_url": "https://www.avocatsgeneve.ch/etude-avocats-geneve-reglement-litiges/",
+    "fetched_date": "2026-07-23"
+  },
+  "abgavocate.ch": {
+    "founding_year": 2023,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit commercial",
+      "Droit des étrangers et de l'immigration",
+      "Droit pénal et droit pénal des mineurs"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Commercial law",
+      "Immigration law",
+      "Criminal law including minors"
+    ],
+    "source_url": "https://abgavocate.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "swiss-lawyers.com": {
+    "founding_year": null,
+    "team_size_n": 3,
+    "practice_areas_fr": [
+      "Droit commercial et des affaires",
+      "Droit bancaire et financier",
+      "Droit de la famille",
+      "Droit administratif",
+      "Droit pénal",
+      "Droit pénal économique"
+    ],
+    "practice_areas_en": [
+      "Commercial and business law",
+      "Banking and financial law",
+      "Family law",
+      "Administrative law",
+      "Criminal law",
+      "Economic criminal law"
+    ],
+    "source_url": "https://www.swiss-lawyers.com/",
+    "fetched_date": "2026-07-23"
+  },
+  "siegrist-lazzarotto.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit immobilier",
+      "Aménagement du territoire",
+      "Droits réels",
+      "Droit de la construction",
+      "Droit de l'environnement",
+      "Marchés publics",
+      "Droit du bail",
+      "Droit des contrats"
+    ],
+    "practice_areas_en": [
+      "Real estate law",
+      "Land use planning",
+      "Property rights",
+      "Construction law",
+      "Environmental law",
+      "Public procurement",
+      "Tenancy law",
+      "Contract law"
+    ],
+    "source_url": "https://www.siegrist-lazzarotto.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "bellonderham.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit civil",
+      "Droit administratif",
+      "Droit médical et médico-légal",
+      "Droit immobilier",
+      "Droit des contrats",
+      "Droit des assurances sociales"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Civil law",
+      "Administrative law",
+      "Medical and medico-legal law",
+      "Real estate law",
+      "Contract law",
+      "Social insurance law"
+    ],
+    "source_url": "https://bellonderham.ch/me-marc-bellon/",
+    "fetched_date": "2026-07-23"
+  },
+  "bouzaglo.law": {
+    "founding_year": 2024,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit international des affaires",
+      "Litiges civils et commerciaux complexes",
+      "Droit bancaire et gestion de fortune",
+      "Droit de l'art",
+      "Droit pénal économique",
+      "Entraide internationale pénale",
+      "Recherche et recouvrement d'actifs",
+      "Droit des étrangers",
+      "Divorces transfrontaliers",
+      "Litiges successoraux internationaux",
+      "E-réputation et adverse media",
+      "Family Office et domiciliation"
+    ],
+    "practice_areas_en": [
+      "International business law",
+      "Complex civil and commercial litigation",
+      "Banking and wealth management",
+      "Art law",
+      "Economic criminal law",
+      "International criminal mutual assistance",
+      "Asset search and recovery",
+      "Immigration law",
+      "Cross-border divorces",
+      "International succession disputes",
+      "E-reputation and adverse media",
+      "Family Office and domiciliation"
+    ],
+    "source_url": "https://bouzaglo.law/",
+    "fetched_date": "2026-07-23"
+  },
+  "camporini-avocat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal et droit pénal des mineurs",
+      "Droit du travail",
+      "Droit de la circulation routière (LCR)",
+      "Droit des étrangers",
+      "Droit des assurances sociales",
+      "Droit administratif général"
+    ],
+    "practice_areas_en": [
+      "Criminal law and juvenile criminal law",
+      "Labour law",
+      "Road traffic law (LCR)",
+      "Immigration law",
+      "Social insurance law",
+      "Administrative law"
+    ],
+    "source_url": "https://camporini-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "mjcosta-litige-assurances.ch": {
+    "founding_year": 2020,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des assurances sociales",
+      "Droit des assurances privées",
+      "Responsabilité civile"
+    ],
+    "practice_areas_en": [
+      "Social insurance law",
+      "Private insurance law",
+      "Civil liability"
+    ],
+    "source_url": "https://www.mjcosta-litige-assurances.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "croce-associes.ch": {
+    "founding_year": 1981,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des affaires",
+      "Droit bancaire et financier",
+      "Résidence et établissement en Suisse",
+      "Gestion d'actifs et planification successorale",
+      "Trusts et fondations de famille",
+      "Droit fiscal",
+      "Droit immobilier",
+      "Droit pénal économique",
+      "Blanchiment et infractions fiscales",
+      "Droit du travail",
+      "Propriété intellectuelle",
+      "Arbitrage et médiation",
+      "Droit des navires et aéronefs",
+      "Droit des étrangers",
+      "Droit international privé"
+    ],
+    "practice_areas_en": [
+      "Commercial and business law",
+      "Banking and financial law",
+      "Residence and establishment in Switzerland",
+      "Asset management and estate planning",
+      "Trusts and family foundations",
+      "Tax law",
+      "Real estate law",
+      "Economic criminal law",
+      "Money laundering and tax offences",
+      "Labour law",
+      "Intellectual property",
+      "Arbitration and mediation",
+      "Ship and aircraft management",
+      "Immigration law",
+      "Private international law"
+    ],
+    "source_url": "https://croce-associes.ch/en/law-firm-geneva/",
+    "fetched_date": "2026-07-23"
+  },
+  "daudinlaw.com": {
+    "founding_year": 1975,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit immobilier",
+      "Droit de la construction",
+      "Aménagement du territoire",
+      "Droit de l'environnement",
+      "Contentieux et arbitrage",
+      "Droit commercial et des affaires",
+      "Droit des contrats",
+      "Droit des poursuites et de la faillite",
+      "Responsabilité civile et droit des assurances",
+      "Droit pénal et pénal administratif",
+      "Droit des étrangers",
+      "Propriété intellectuelle et droit de la concurrence",
+      "Droit des marchés publics",
+      "Droit du travail",
+      "Droit matrimonial et du divorce"
+    ],
+    "practice_areas_en": [
+      "Real estate law",
+      "Construction law",
+      "Land use planning",
+      "Environmental law",
+      "Litigation and arbitration",
+      "Commercial law",
+      "Contract law",
+      "Debt collection and bankruptcy",
+      "Civil liability and insurance law",
+      "Criminal law",
+      "Immigration law",
+      "Intellectual property and competition law",
+      "Public procurement",
+      "Labour law",
+      "Family and divorce law"
+    ],
+    "source_url": "https://www.daudinlaw.com/",
+    "fetched_date": "2026-07-23"
+  },
+  "decourtensolutions.ch": {
+    "founding_year": 2022,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Médiation",
+      "Gestion amiable des conflits",
+      "Négociation",
+      "Droit du travail",
+      "Risques psychosociaux",
+      "Relations employeur-employé",
+      "Prévention des conflits",
+      "Droit bancaire",
+      "Affaires médicales et scolaires",
+      "Formation et conférences"
+    ],
+    "practice_areas_en": [
+      "Mediation",
+      "Amicable conflict management",
+      "Negotiation",
+      "Labour law",
+      "Psychosocial risks",
+      "Employer-employee relations",
+      "Conflict prevention",
+      "Banking environment",
+      "Medical and school affairs",
+      "Training and workshops"
+    ],
+    "source_url": "https://decourtensolutions.ch/en/about-us/",
+    "fetched_date": "2026-07-23"
+  },
+  "pdllaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit fiscal (entreprises et particuliers)",
+      "Fiscalité immobilière",
+      "Successions et transmission d'actifs",
+      "Négociation de contrats et compliance",
+      "Fondations et associations sans but lucratif",
+      "Droit administratif"
+    ],
+    "practice_areas_en": [
+      "Corporate and private tax law",
+      "Real estate taxation",
+      "Inheritance and asset transfer",
+      "Contract negotiations and compliance",
+      "Foundations and non-profits",
+      "Administrative law"
+    ],
+    "source_url": "https://www.pdllaw.ch/",
+    "fetched_date": "2026-07-23"
   }
 }

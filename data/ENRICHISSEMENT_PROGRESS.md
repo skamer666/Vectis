@@ -8,12 +8,10 @@ commencer par le lire.
 
 - **485** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **238** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-  annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **70** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
+- **254** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **177** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~77.3%** (238 / 308 domaines réellement testés).
+- **157** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~77.4%** (254 / 328 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -498,3 +496,14 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 267 URLs, échantillon de 40
   fichiers sans artefact Jinja détecté).
 
+
+### 2026-07-23 — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : **16 réussites, 4 échecs**.
+- Années de fondation trouvées : avocatsgeneve.ch (BARTH Avocats, 2006 — "il a ouvert son Cabinet d'avocats en 2006") ; abgavocate.ch (ABG Avocate, 2023 — "fonder mon Etude ABG AVOCATE au début de l'année 2023") ; bouzaglo.law (Etude de Me James Bouzaglo, 2024 — "il a fondé au début de l'année 2024 l'étude de Me James Bouzaglo") ; mjcosta-litige-assurances.ch (Etude Costa, 2020 — "Création de l'étude COSTA en avril 2020") ; croce-associes.ch (CROCE & Associés SA, 1981 — "Founded in 1981 by Franco CROCE" dans la meta-description officielle du site) ; daudinlaw.com (Daudin Law, 1975 — "L'Etude Daudin Law a été fondée en 1975") ; decourtensolutions.ch (de Courten Solutions, 2022 — "Frédérique founded de Courten Solutions in 2022").
+- Tailles d'équipe : swiss-lawyers.com (BEGUIN DE GORSKI HUNZIKER — "Les trois avocats de l'étude", 3 avocats explicitement annoncés).
+- Autres réussites (domaines de compétence) : legalea.ch (médiation, résolution amiable, famille/divorce — première étude à Genève à maîtriser plusieurs processus de résolution amiable hors tribunaux) ; gvalex.ch (droit civil, bail, travail, pénal économique, entraide judiciaire) ; atatavocate.ch (9 domaines dont droit des étrangers, assurances, circulation routière, pénal des mineurs) ; azha.ch (boutique spécialisée arbitrage international et sanctions économiques, 2 associés) ; siegrist-lazzarotto.ch (renommé SIEGRIST LAZZAROTTO LACHAT CLERIGO MULLER — spécialisée exclusivement immobilier, construction, aménagement, environnement, marchés publics) ; bellonderham.ch (Bellon & de Rham — profil unique: avocat titulaire d'un doctorat en médecine, spécialisé droit médical/médico-légal en plus des domaines classiques) ; camporini-avocat.ch (6 domaines : pénal/pénal des mineurs, travail, LCR, étrangers, assurances sociales, administratif) ; croce-associes.ch (15 domaines très étendus dont navires et aéronefs, trusts/fondations, Family Office — cabinet international avec bureaux à Genève, Londres, Singapour et Shanghai) ; pdllaw.ch (droit fiscal entreprises et particuliers, imposition immobilière, successions, contrats/compliance, fondations/OSBL — site en rendu JS, données issues des métadonnées HTML).
+- Notes de rigueur : copyright "2015-2026" de gvalex.ch non retenu comme founding_year (date de copyright du site, pas de fondation du cabinet). "Expérience professionnelle variée de plus de 20 ans" (legalea.ch) et "20 years of experience" (pdllaw.ch) non retenus — formulations vagues. "Les trois avocats" de swiss-lawyers.com retenu comme team_size_n: 3 car déclaration directe ("Les trois avocats de l'étude BEGUIN DE GORSKI HUNZIKER, Marc Béguin, Alexandre de Gorski et Sayeh Hunziker"), non déduit d'un comptage de profils. Données de daldewolf.com non retenues : cabinet basé à Bruxelles (Belgique), statistiques mondiales (49 avocats, bureaux à Kinshasa) non spécifiques à la Suisse, conformément à la règle 4.
+- Échecs : alkatout-legal.ch (aucune présence web indexée pour ce domaine) ; votreavocat.ch (contenu vide au fetch sur toutes les pages, rendu JavaScript probable) ; daldewolf.com (cabinet belge, données non suisses, règle 4) ; tribunal.ch (aucune présence indexée comme cabinet d'avocats, résultats renvoient vers institutions judiciaires officielles).
+- Totaux cumulés : **254 réussites / 74 échecs / 328 testés** sur ~485 domaines connus. Il reste environ **157 domaines** non testés, soit encore ~8 lots de 20 avant d'atteindre la phase de découverte.
+- Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 267 URLs, échantillon de 40 fichiers sans artefact Jinja détecté).
