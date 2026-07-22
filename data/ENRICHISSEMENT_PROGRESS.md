@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 19:05 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 19:35 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **126** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **139** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **44** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **51** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **316** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~74.1%** (126 / 170 domaines réellement testés).
+- **295** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~73.2%** (139 / 190 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -327,3 +327,19 @@ build), mais suffisant pour compléter le build cette fois ; ceci reste un probl
 (fichiers résiduels non supprimables d'autres sessions, propriété "nobody") sans lien avec les
 données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 
+### 2026-07-22 19:35 UTC — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : 13 réussites, 7 échecs.
+- Années de fondation trouvées : avocatsassocies.net (1890), etudelknr.ch (1955),
+  avopep.ch (1976), riavocats.ch (2011), spiralaw.ch (2018).
+- Tailles d'équipe : avopep.ch (7 avocats), etudelknr.ch (4 avocats associés).
+- Autres réussites (domaines de compétence) : gantey.ch, smblaw.ch, taadvisory.law,
+  groslimond-avocats.ch, resolution-lp.ch, phbavocats.ch, hz-avocats.ch, waser-avocats.ch.
+- Échecs : mbavocats.law, judiciaire.ch, arcuslegal.ch (aucune présence web indexée) ;
+  wm-legal.ch, lexiss.ch, droit-immo.ch (contenu vide au fetch, rendu JS probable) ;
+  zenithav.ch (site accessible mais aucun fait exploitable).
+- Note : « depuis plus de vingt ans » (riavocats), « plus de 125 ans d'expérience »
+  (avocatsassocies) et la fondation 2018 de Groslimond (vue seulement dans un résumé de
+  recherche, pas sur le site) n'ont PAS été retenus, conformément aux règles.
+- Totaux cumulés : 139 réussites / 51 échecs / 190 testés sur 486 connus, ~295 restants.
+- Rebuild complet OK (65 228 pages, échantillon de 40 fichiers sans artefact Jinja).
