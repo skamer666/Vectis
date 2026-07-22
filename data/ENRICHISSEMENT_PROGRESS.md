@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 20:05 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 21:00 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **153** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **171** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **57** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **59** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **276** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~72.9%** (153 / 210 domaines réellement testés).
+- **256** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~74.3%** (171 / 230 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -361,3 +361,30 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   FLD (annuaires tiers) NON retenues — jamais sur le site du cabinet lui-même.
 - Totaux cumulés : 153 réussites / 57 échecs / 210 testés sur 486 connus, ~276 restants.
 - Rebuild complet OK (65 228 pages, échantillon de 40 fichiers sans artefact Jinja).
+
+### 2026-07-22 21:00 UTC — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : 18 réussites, 2 échecs.
+- Années de fondation trouvées : pirker.ch (1999), seidler.law (2024), jobin-legal.ch (2025),
+  patocchimarzolini.com (2014), vmp-avocats.ch (2022), avdem.ch (2016).
+- Tailles d'équipe : heimavocats.ch (3 avocats, équipe nommément identifiée) ;
+  metropole-avocats.ch (12 collaborateurs annoncés explicitement).
+- Autres réussites (domaines de compétence) : e-avocats.ch (Page & Partners — droit commercial,
+  IA/nouvelles technologies, protection des données, immobilier, successions, criminalité en col
+  blanc, entraide judiciaire) ; andlaw.ch (liste étendue de 12 domaines dont bancaire, circulation
+  routière, migrations) ; savolainen.law (droit pénal international, criminalité en col blanc,
+  responsabilité des entreprises) ; jordanlex.ch (cabinet spécialisé droit de la famille —
+  divorce, garde, alimentaire, filiation) ; callan.law (13 domaines listés, palette très étendue) ;
+  fravocats.ch (11 domaines dont droit pénal militaire et droit des étrangers) ; edifice-avocats.ch
+  (spécialiste construction/immobilier — 8 domaines dont marchés publics et droit de l'environnement) ;
+  parein-avocats.ch (droit pénal des affaires exclusivement) ; ipfa.ch (6 domaines incluant
+  médiation) ; edeb.ch (8 domaines dont droit aérien et droit du sport, spécialités inhabituelles).
+- Notes de rigueur : « expérience accumulée depuis plus de 15 ans » (parein-avocats.ch),
+  « depuis plus de 80 ans » et « Depuis 2010 » comme date de changement de nom (ipfa.ch) NON
+  retenus — jamais une année exacte de fondation ni une formulation sans ambiguïté sur la page
+  du cabinet lui-même.
+- Échecs : hornung-lawfirm.ch (erreur PHP fatale sur toutes les pages, site entièrement
+  inaccessible) ; etude-blb.ch (contenu vide au fetch sur toutes les pages, rendu JavaScript
+  probable).
+- Totaux cumulés : **171 réussites / 59 échecs / 230 testés** sur 486 connus, ~256 restants.
+- Rebuild complet OK (65 892 fichiers `index.html`, échantillon de 40 fichiers sans artefact Jinja).
