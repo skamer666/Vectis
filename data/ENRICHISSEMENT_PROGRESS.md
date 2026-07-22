@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 18:35 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 19:05 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **109** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **126** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **41** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **44** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **336** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~72.7%** (109 / 150 domaines réellement testés).
+- **316** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~74.1%** (126 / 170 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -277,3 +277,53 @@ avec la date de consultation 2026-07-22). Donnée et code jugés sains ; seule l
 locale complète (18 cantons) n'a pu être vérifiée intégralement faute d'espace disque dans
 ce bac à sable. La prochaine exécution pourra retenter un build complet si l'espace disque
 du bac à sable redevient suffisant.
+
+### 2026-07-22 19:05 UTC — exécution automatisée (lot 6)
+
+Lot de 20 domaines traités (GE/VD restants, par nombre d'avocats décroissant). **17 succès /
+3 échecs.**
+
+Faits notables extraits : RSBP | Legal (Lausanne) — bandeau d'accueil « Établis depuis 1986 »
+(année précise retenue, malgré une formulation complémentaire vague « Créée il y a 30 ans » non
+utilisée pour la date) ; Alinéa Avocats — « Etablie place Saint-François à Lausanne depuis
+2012 », liste complète de neuf domaines de compétence ; AVOCATS-CH — « étude fondée en 2000 à
+Lausanne », « constituée de trois associés » (Olivier Subilia, Mélanie Freymond, Alain Sauteur,
+effectif explicitement chiffré, sans compter les « plusieurs collaborateurs » ajoutés de façon
+vague) ; Rivieravocats (Vevey) — « actuellement formée de quatre avocats » (effectif explicite,
+sans année de fondation) ; Collectif d'avocat·e·s (Lausanne) — « créé en 2004 par Me Jean-Michel
+Dolivo et Me Christophe Tafelmacher » ; Legentis Avocats (ex-Boudry/Derron, Lausanne) —
+« Fondée en 1947 par Me Pierre Bolomey et Me Georges Derron », liste complète de dix domaines de
+compétence ; Dini & Lardi Avocats (pdglaw.ch, Genève) — historique détaillé remontant à 1958
+(création par Me Jean-Pierre Imhoos), seize domaines d'expertise listés. Pour Kilani Bugnion
+Emonet Avocats, Etude Boudry & Arnouni (etudegp.ch), Centralex Avocats, Wilhelm Avocats
+(wg-avocats.ch), Avocats Yverdon (Etude Casino 1), VZ Lawyers, Djaziri & Nuzzo, Salamian
+Bolsterli (sblegal.ch) et Sulmoni & Félix (sflegal.ch), seule une liste de domaines de
+compétence formulée par le cabinet lui-même a pu être retenue (aucune année de fondation ni
+effectif chiffré explicitement annoncés sur les pages consultées, ou formulations trop vagues
+type « plus de 50 ans » écartées conformément à la règle 2). Aubert Neyroud Stückelberg Fratini
+(ibilex.ch) : liste de six domaines d'activité retenue de façon similaire.
+
+Échecs : aperys.ch (contenu vide au fetch sur toutes les pages testées — accueil, à-propos,
+contact, équipe — rendu JavaScript probable) ; barokas.ch (contenu vide au fetch, y compris sur
+un miroir alternatif, rendu JavaScript probable) ; lion-d-or.ch (domaine ne correspond pas au
+cabinet d'avocats — la recherche web ne renvoie qu'un restaurant/hôtel homonyme à Cologny ; le
+cabinet réel « Etude Lion d'Or » est déjà présent dans le cache sous son vrai domaine
+etudeliondor.ch, traité lors du lot 2).
+
+Totaux cumulés après ce lot : 170 domaines testés au total (126 réussis / 44 échoués) sur les
+486 domaines connus. Il reste environ 316 domaines connus non testés, soit encore ~16 lots de 20
+avant d'atteindre la phase de découverte (18 autres cantons).
+
+Vérification post-build : régénération complète du site (`dist/`, 65228 fichiers `index.html`)
+réussie intégralement cette fois, y compris les 18 cantons hors GE/VD (Zurich compris, contrairement
+au lot précédent qui avait buté sur l'espace disque à ce stade). Échantillon aléatoire de 40
+pages avec `bad=0` artefact Jinja détecté. Entrées vérifiées manuellement sur leurs fiches étude
+Vaud : RSBP | Legal (« Étude fondée en 1986 (40 ans d'existence) »), AVOCATS-CH (« L'étude
+indique elle-même compter environ 3 avocats et juristes. Étude fondée en 2000 (26 ans
+d'existence) »), Legentis (liste des dix domaines de compétence et « Étude fondée en 1947 (79
+ans d'existence) »), toutes avec la date de consultation 2026-07-22 affichée correctement. Note
+sur l'espace disque du bac à sable : à nouveau très contraint (moins de 10 Mo libres en fin de
+build), mais suffisant pour compléter le build cette fois ; ceci reste un problème d'environnement
+(fichiers résiduels non supprimables d'autres sessions, propriété "nobody") sans lien avec les
+données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
+
