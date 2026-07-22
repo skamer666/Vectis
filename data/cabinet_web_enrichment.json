@@ -1,12 +1,9 @@
 {
   "_meta": {
-    "total_domains_known": 485,
-    "total_successful": 238,
-    "total_failed": 70,
-    "total_tested": 308,
-    "last_updated": "2026-07-23",
-    "success_count": 254,
-    "failed_count": 74
+    "total_success": 264,
+    "total_failed": 77,
+    "total_tested": 341,
+    "last_updated": "2026-07-23"
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -986,7 +983,19 @@
     "alkatout-legal.ch": "aucune présence web indexée pour ce domaine",
     "votreavocat.ch": "contenu vide au fetch sur toutes les pages testées, rendu JavaScript probable",
     "daldewolf.com": "cabinet basé à Bruxelles (Belgique), sans bureau suisse distinct, statistiques non spécifiques à la Suisse (règle 4)",
-    "tribunal.ch": "aucune présence web indexée comme cabinet d'avocats, résultats renvoient vers des institutions judiciaires officielles"
+    "tribunal.ch": "aucune présence web indexée comme cabinet d'avocats, résultats renvoient vers des institutions judiciaires officielles",
+    "tglf.ch": {
+      "reason": "aucune présence web indexée",
+      "date": "2026-07-23"
+    },
+    "partem.ch": {
+      "reason": "aucune présence web indexée",
+      "date": "2026-07-23"
+    },
+    "lg-avocats.ch": {
+      "reason": "contenu vide au fetch, rendu JavaScript probable",
+      "date": "2026-07-23"
+    }
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -5440,6 +5449,218 @@
       "Administrative law"
     ],
     "source_url": "https://www.pdllaw.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "etude-themis.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Défense des victimes de violences",
+      "Droit du travail",
+      "Droit pénal des mineurs",
+      "Défense des droits humains",
+      "Protection de l adulte et de l enfant"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Victim defence",
+      "Labour law",
+      "Juvenile criminal law",
+      "Human rights",
+      "Adult and child protection"
+    ],
+    "source_url": "https://etude-themis.ch/domaines-d-activites",
+    "fetched_date": "2026-07-23"
+  },
+  "gd-avocat.ch": {
+    "founding_year": 2024,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit des personnes et de la famille",
+      "Successions",
+      "Contrats (bail, travail, entreprise, mandat)",
+      "Exécution forcée",
+      "Droit des étrangers",
+      "Droit administratif"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Family law",
+      "Inheritance law",
+      "Contract law (lease, employment, enterprise, mandate)",
+      "Debt enforcement",
+      "Immigration law",
+      "Administrative law"
+    ],
+    "source_url": "https://www.gd-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "dinh-avocat.ch": {
+    "founding_year": 2023,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal (y compris des mineurs)",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit de la famille",
+      "Droit des étrangers et de l immigration",
+      "Droit de la circulation routière"
+    ],
+    "practice_areas_en": [
+      "Criminal law (including minors)",
+      "Labour law",
+      "Rental law",
+      "Family law",
+      "Immigration law",
+      "Road traffic law"
+    ],
+    "source_url": "https://dinh-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "interdroit.ch": {
+    "founding_year": 2017,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Migrations et permis de séjour",
+      "Sécurité sociale (chômage, invalidité, assurances perte de gain)",
+      "Logement",
+      "Procédures pénales et entraide internationale",
+      "Droit de la famille",
+      "Défense des victimes de violations des droits humains"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Immigration",
+      "Social security (unemployment, disability, income replacement insurance)",
+      "Housing",
+      "Criminal procedure and international mutual assistance",
+      "Family law",
+      "Human rights defence"
+    ],
+    "source_url": "https://interdroit.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "ducor-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la santé",
+      "Droit des produits thérapeutiques",
+      "Droit de la technologie"
+    ],
+    "practice_areas_en": [
+      "Health law",
+      "Therapeutic products law",
+      "Technology law"
+    ],
+    "source_url": "https://ducor-law.ch/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "soniaelkrief.com": {
+    "founding_year": 2015,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Propriété intellectuelle — audit et stratégie",
+      "Protection des marques",
+      "Transactions et licences PI",
+      "Litiges en propriété intellectuelle (pharma/biotech/chimie)"
+    ],
+    "practice_areas_en": [
+      "Intellectual property — audit & strategy",
+      "Trademark protection",
+      "IP transactions & licensing",
+      "IP litigation (pharma/biotech/chemistry)"
+    ],
+    "source_url": "https://www.soniaelkrief.com/",
+    "fetched_date": "2026-07-23"
+  },
+  "impulsius.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Contrats et accords commerciaux",
+      "Propriété intellectuelle",
+      "Droit fiscal",
+      "Droit du travail",
+      "Conseil aux PME",
+      "Entreprises sociales et ONG",
+      "Investissement d impact et ESG"
+    ],
+    "practice_areas_en": [
+      "Commercial contracts",
+      "Intellectual property",
+      "Tax law",
+      "Labour law",
+      "SME advisory",
+      "Social enterprises and NGOs",
+      "Impact investment and ESG"
+    ],
+    "source_url": "https://www.impulsius.ch/focus",
+    "fetched_date": "2026-07-23"
+  },
+  "gabellon-legal.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Organisations caritatives et philanthropie",
+      "Litiges commerciaux et résolution des différends",
+      "Droit pénal des affaires et enquêtes réglementaires",
+      "Contrats et droit des sociétés",
+      "Droit de la famille et successions"
+    ],
+    "practice_areas_en": [
+      "Charitable organizations and philanthropy",
+      "Commercial litigation and dispute resolution",
+      "White-collar crime and regulatory investigations",
+      "Contracts and corporate law",
+      "Family law and estate planning"
+    ],
+    "source_url": "https://gabellon-legal.com/en/our-services/",
+    "fetched_date": "2026-07-23"
+  },
+  "cmg-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit du travail",
+      "Droit du bail",
+      "Successions",
+      "Protection de la personnalité",
+      "Contrats",
+      "Droit pénal"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Labour law",
+      "Rental law",
+      "Inheritance law",
+      "Personality rights",
+      "Contracts",
+      "Criminal law"
+    ],
+    "source_url": "https://cmg-avocats.ch/etude/",
+    "fetched_date": "2026-07-23"
+  },
+  "gloor-avocat.ch": {
+    "founding_year": 1995,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit bancaire",
+      "Contrats commerciaux",
+      "Droit diplomatique et immunités internationales"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Banking law",
+      "Commercial contracts",
+      "Diplomatic law and international immunities"
+    ],
+    "source_url": "http://www.gloor-avocat.ch/",
     "fetched_date": "2026-07-23"
   }
 }
