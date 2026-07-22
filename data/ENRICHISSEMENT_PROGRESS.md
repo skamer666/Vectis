@@ -388,3 +388,27 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   probable).
 - Totaux cumulés : **171 réussites / 59 échecs / 230 testés** sur 486 connus, ~256 restants.
 - Rebuild complet OK (65 892 fichiers `index.html`, échantillon de 40 fichiers sans artefact Jinja).
+
+### 2026-07-22 22:00 UTC — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : 18 réussites, 2 échecs.
+- Années de fondation trouvées : giorgini-avocats.ch (2008), helvetica-avocats.ch (2016),
+  avocat-fiscal.ch (2025), legalinsights.ch (2018), lexr.com (2016), avsp.ch (1979),
+  thevoz.ch (2015), stc-avocats.ch (2009), avocatsleman.ch (1994), vos-avocates.ch (2018),
+  plaideurs.ch (1997), rsbblegal.ch (1986 — cabinet devenu RSBP Legal, source : rsbplegal.ch).
+- Tailles d'équipe : helvetica-avocats.ch (9 avocats annoncés), avsp.ch (5 associés),
+  stc-avocats.ch (4 avocats), rsbblegal.ch (7 avocats nommés sur rsbplegal.ch).
+- Autres réussites (domaines de compétence) : primault-tieche.ch (9 domaines dont assurances/RC
+  et propriété intellectuelle) ; lex-avocats.ch / Mitrea & Associés (16 domaines, palette étendue) ;
+  proxima.legal (droit des sociétés, technologies, médias, cybersécurité) ; alta-avocats.ch
+  (7 domaines) ; morgia-avocats.ch (11 domaines dont pénal/exécution des peines et PI) ;
+  bory-legal.ch (cabinet spécialisé médiation/arbitrage et droit commercial) ; plaideurs.ch
+  (redirect vers avocats-lawyers.ch — 23 domaines, palette très étendue).
+- Notes de rigueur : rsbblegal.ch → fondation 1986 lue « Établis depuis 1986 » sur la page
+  d'accueil de rsbplegal.ch (site actuel du même cabinet, mention directe et non ambiguë).
+  proxima.legal et bory-legal.ch : années non mentionnées explicitement → founding_year null.
+- Échecs : avocats-romandie.ch (Wix JS, contenu vide) ; avocats-morges.ch (contenu vide,
+  rendu JavaScript probable).
+- Totaux cumulés : **189 réussites / 61 échecs / 250 testés** sur 486 connus, ~236 restants.
+- Rebuild complet OK (65 972 fichiers HTML, sitemap 23 055 URLs, échantillon de 40 fichiers
+  sans artefact Jinja).

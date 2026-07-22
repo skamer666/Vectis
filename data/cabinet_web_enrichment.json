@@ -3,7 +3,9 @@
     "total_done": 171,
     "total_failed": 59,
     "total_tested": 230,
-    "last_updated": "2026-07-22"
+    "last_updated": "2026-07-22",
+    "success_count": 189,
+    "fail_count": 61
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -956,7 +958,9 @@
       "checked_date": "2026-07-22"
     },
     "hornung-lawfirm.ch": "erreur PHP fatale sur toutes les pages — site inaccessible",
-    "etude-blb.ch": "contenu vide au fetch sur toutes les pages — rendu JavaScript probable"
+    "etude-blb.ch": "contenu vide au fetch sur toutes les pages — rendu JavaScript probable",
+    "avocats-romandie.ch": "contenu vide au fetch, rendu JavaScript probable (site Wix)",
+    "avocats-morges.ch": "contenu vide au fetch sur la page le-cabinet, rendu JavaScript probable"
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -3334,6 +3338,349 @@
       "immigration law"
     ],
     "source_url": "https://www.edeb.ch/fr/a-propos/",
+    "fetched_date": "2026-07-22"
+  },
+  "primault-tieche.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit des assurances",
+      "responsabilité civile",
+      "droit immobilier",
+      "droit de la construction",
+      "droit civil",
+      "droit pénal",
+      "droit administratif",
+      "droit des contrats",
+      "droit du travail",
+      "droit des étrangers",
+      "propriété intellectuelle"
+    ],
+    "source_url": "https://www.primault-tieche.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "giorgini-avocats.ch": {
+    "founding_year": 2008,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit du travail",
+      "droit de la famille",
+      "droit des contrats",
+      "droit des successions",
+      "droit des étrangers",
+      "droit immobilier",
+      "droit pénal",
+      "médiation",
+      "droit scolaire"
+    ],
+    "source_url": "https://www.giorgini-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "helvetica-avocats.ch": {
+    "founding_year": 2016,
+    "team_size_n": 9,
+    "practice_areas": [
+      "droit de la famille",
+      "droit des successions",
+      "droit immobilier",
+      "droit des contrats",
+      "droit pénal",
+      "droit des sociétés",
+      "droit des étrangers",
+      "poursuites et faillites",
+      "médiation"
+    ],
+    "source_url": "https://www.helvetica-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "lex-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit de la construction",
+      "droit immobilier",
+      "droit du bail",
+      "droit du sport",
+      "procédure civile",
+      "droit administratif",
+      "droit des contrats",
+      "droit international privé",
+      "droit du travail",
+      "droit commercial",
+      "droit bancaire",
+      "poursuites et faillites",
+      "assurances privées",
+      "droit civil et famille",
+      "droit des étrangers",
+      "droit pénal"
+    ],
+    "source_url": "https://www.lex-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "proxima.legal": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit du travail",
+      "droit des contrats",
+      "droit des sociétés",
+      "droit commercial",
+      "technologies",
+      "médias",
+      "protection des données",
+      "cybersécurité",
+      "propriété intellectuelle"
+    ],
+    "source_url": "https://proxima.legal/",
+    "fetched_date": "2026-07-22"
+  },
+  "avocat-fiscal.ch": {
+    "founding_year": 2025,
+    "team_size_n": null,
+    "practice_areas": [
+      "fiscalité des entreprises",
+      "fiscalité des personnes physiques",
+      "fiscalité immobilière",
+      "droit des successions",
+      "droit de la famille"
+    ],
+    "source_url": "https://www.avocat-fiscal.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "legalinsights.ch": {
+    "founding_year": 2018,
+    "team_size_n": null,
+    "practice_areas": [
+      "résolution alternative des conflits",
+      "restructuration et faillites",
+      "construction et immobilier",
+      "droit des sociétés et contrats",
+      "propriété intellectuelle et protection des données",
+      "droit de la famille",
+      "droit du travail",
+      "contentieux",
+      "droit des étrangers",
+      "private clients et successions",
+      "startups et fusions-acquisitions"
+    ],
+    "source_url": "https://www.legalinsights.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "lexr.com": {
+    "founding_year": 2016,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit des sociétés",
+      "capital-risque",
+      "fusions-acquisitions",
+      "technologies",
+      "intelligence artificielle",
+      "blockchain",
+      "fintech",
+      "SaaS",
+      "MedTech",
+      "protection des données",
+      "propriété intellectuelle"
+    ],
+    "source_url": "https://www.lexr.com/",
+    "fetched_date": "2026-07-22"
+  },
+  "avsp.ch": {
+    "founding_year": 1979,
+    "team_size_n": 5,
+    "practice_areas": [
+      "aménagement du territoire",
+      "construction",
+      "environnement",
+      "droit administratif",
+      "aide aux victimes",
+      "circulation routière",
+      "fonction publique",
+      "protection de l'adulte et de l'enfant",
+      "responsabilité civile",
+      "assurances",
+      "droit des contrats",
+      "droit de la famille",
+      "marchés publics",
+      "droit des étrangers",
+      "droit du sport",
+      "droit médical",
+      "droit pénal",
+      "droit pénal administratif",
+      "droit pénal des mineurs"
+    ],
+    "source_url": "https://www.avsp.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "thevoz.ch": {
+    "founding_year": 2015,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit fiscal suisse",
+      "droit fiscal américain",
+      "droit commercial",
+      "droit des contrats",
+      "droit des sociétés",
+      "contentieux et criminalité économique",
+      "droit bancaire",
+      "droit de la santé",
+      "droit du travail",
+      "immigration"
+    ],
+    "source_url": "https://www.thevoz.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "stc-avocats.ch": {
+    "founding_year": 2009,
+    "team_size_n": 4,
+    "practice_areas": [
+      "droit de la famille",
+      "droit de l'enfant",
+      "divorce",
+      "droit des successions",
+      "droit de la personnalité",
+      "droit des obligations",
+      "droit des sociétés",
+      "droit du travail",
+      "droit du bail",
+      "droit des contrats",
+      "droit pénal",
+      "LAVI",
+      "droit pénal des mineurs",
+      "droit immobilier",
+      "droit des étrangers"
+    ],
+    "source_url": "https://www.stc-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "alta-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit de la famille",
+      "droits réels",
+      "droit du travail",
+      "droit civil",
+      "droit de la construction",
+      "droit des contrats",
+      "droit pénal"
+    ],
+    "source_url": "https://www.alta-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "avocatsleman.ch": {
+    "founding_year": 1994,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit pénal",
+      "responsabilité civile",
+      "LAVI",
+      "circulation routière",
+      "droit de la famille",
+      "droit des successions",
+      "droit des sociétés",
+      "droit des entreprises",
+      "droit du travail",
+      "droit du bail",
+      "droit foncier rural",
+      "droit de la construction",
+      "droit immobilier",
+      "droit administratif",
+      "assurances",
+      "droit des étrangers"
+    ],
+    "source_url": "https://www.avocatsleman.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "vos-avocates.ch": {
+    "founding_year": 2018,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit du bail",
+      "droit du travail",
+      "droit pénal",
+      "LAVI",
+      "droit de la famille",
+      "droit des contrats",
+      "droits réels",
+      "protection de l'adulte et curatelle",
+      "droit des successions",
+      "droit administratif",
+      "droit des étrangers",
+      "droit de la santé"
+    ],
+    "source_url": "https://www.vos-avocates.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "morgia-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit de la famille",
+      "droit de la construction",
+      "aménagement du territoire",
+      "droit pénal",
+      "exécution des peines",
+      "propriété intellectuelle",
+      "droit des étrangers",
+      "droit du travail",
+      "droit du bail",
+      "droit des contrats",
+      "poursuites et faillites"
+    ],
+    "source_url": "https://www.morgia-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "bory-legal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit commercial",
+      "droit du travail",
+      "prévention et gestion des conflits",
+      "médiation",
+      "arbitrage"
+    ],
+    "source_url": "https://www.bory-legal.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "plaideurs.ch": {
+    "founding_year": 1997,
+    "team_size_n": null,
+    "practice_areas": [
+      "droit des contrats",
+      "droit du travail",
+      "droit du bail",
+      "droit de la vente",
+      "droit des entreprises",
+      "droit du mandat",
+      "leasing",
+      "droit commercial",
+      "droit des sociétés",
+      "droit des successions",
+      "droit de la famille",
+      "droit pénal",
+      "droit pénal économique",
+      "assurances",
+      "responsabilité civile",
+      "droits réels",
+      "droit administratif",
+      "poursuites et faillites",
+      "droit informatique",
+      "droit fiscal",
+      "concurrence déloyale",
+      "propriété intellectuelle",
+      "droit bancaire",
+      "droit du sport"
+    ],
+    "source_url": "https://avocats-lawyers.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "rsbblegal.ch": {
+    "founding_year": 1986,
+    "team_size_n": 7,
+    "practice_areas": [],
+    "source_url": "https://www.rsbplegal.ch/",
     "fetched_date": "2026-07-22"
   }
 }
