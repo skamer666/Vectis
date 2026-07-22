@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import i18n
 import presentation_text as pt
 import static_pages as sp_content
+import guides_content
 
 BASE_DOMAIN = "https://legatis.ch"
 SITE_ROOT = os.path.dirname(__file__)
@@ -76,6 +77,24 @@ def etude_path(canton_code, firm_slug, lang):
     return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('etude', lang)}/{firm_slug}/"
 
 
+def ville_path(canton_code, city_slug, lang):
+    c = i18n.CANTONS[canton_code][lang]
+    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('ville', lang)}/{city_slug}/"
+
+
+def ville_domaine_path(canton_code, city_slug, domaine_id, lang):
+    d = i18n.DOMAINES[domaine_id][lang]
+    return ville_path(canton_code, city_slug, lang) + d["slug"] + "/"
+
+
+def guides_index_path(lang):
+    return f"/{lang}/{seg('guides', lang)}/"
+
+
+def guide_path(gid, lang):
+    return f"/{lang}/{seg('guides', lang)}/{guides_content.GUIDES[gid][lang]['slug']}/"
+
+
 def home_path(lang):
     return f"/{lang}/"
 
@@ -117,6 +136,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "home_url": home_path(lang),
         "cantons_index_url": cantons_index_path(lang),
         "domaines_index_url": domaines_index_path(lang),
+        "guides_index_url": guides_index_path(lang),
         "methodology_url": f"/{lang}/{seg('methodologie', lang)}/",
         "about_url": f"/{lang}/{seg('a-propos', lang)}/",
         "contact_url": f"/{lang}/{seg('contact', lang)}/",
@@ -692,6 +712,7 @@ def gen_canton_hub_ge():
         ctx["registry"] = registry
         ctx["has_more"] = False
         ctx["more_text"] = ""
+        ctx["villes"] = canton_villes_links("GE", lang)
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                               (i18n.UI[lang]["all_cantons"], cantons_index_path(lang)), (canton_name, path)]
         write_page(path, render("canton_hub.html", ctx))
@@ -954,6 +975,7 @@ def gen_canton_hub(code):
         ctx["registry"] = canton_registry(code, lang)
         ctx["has_more"] = False
         ctx["more_text"] = ""
+        ctx["villes"] = canton_villes_links(code, lang)
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                               (i18n.UI[lang]["all_cantons"], cantons_index_path(lang)), (canton_name, path)]
         write_page(path, render("canton_hub.html", ctx))
@@ -1143,6 +1165,315 @@ def gen_canton_avocats(code, start=0, count=None):
             write_page(path, render("avocat.html", ctx))
 
 
+# ---------------------------------------------------------------- pages villes
+
+# Suffixe postal de canton ("Carouge GE", "Kuesnacht ZH") : meme localite que la
+# forme sans suffixe -- on regroupe sous un seul nom d'affichage.
+CANTON_CODE_SUFFIX_RE = re.compile(
+    r"\s+(AG|AI|AR|BE|BL|BS|FR|GE|GL|GR|JU|LU|NE|NW|OW|SG|SH|SO|SZ|TG|TI|UR|VD|VS|ZG|ZH)$")
+
+# Villes eponymes de leur canton (Geneve, Zuerich, Zug, Luzern...) : la page
+# canton couvre deja exactement cette requete -- generer une page ville serait
+# du contenu duplique. On les exclut.
+_EPONYMOUS_NORMS = set()
+for _c in list(i18n.CANTONS.values()) + list(i18n.CANTONS_A_VENIR.values()):
+    for _lg in i18n.LANGUAGES:
+        _EPONYMOUS_NORMS.add(norm(_c[_lg]["name"]))
+_EPONYMOUS_NORMS.update({"basel", "bale", "basilea", "geneve 3", "st. gallen", "saint gall"})
+
+CITY_MIN_LAWYERS = 3
+
+
+def city_display(ville):
+    return CANTON_CODE_SUFFIX_RE.sub("", ville or "").strip()
+
+
+def build_city_data():
+    """Regroupe les avocats par ville (nom postal nettoye) pour chaque canton.
+    Seules les villes non eponymes du canton et comptant au moins
+    CITY_MIN_LAWYERS avocats donnent lieu a une page (anti-thin-content :
+    on ne genere pas de coquilles vides, plutot que de les generer en noindex)."""
+    out = {}
+    pools = {"GE": GE_INDIVIDUALS}
+    for code, data in CANTON_DATA.items():
+        pools[code] = data["individuals"]
+    for code, individuals in pools.items():
+        groups = {}
+        for r in individuals:
+            disp = city_display(r.get("ville", ""))
+            if not disp:
+                continue
+            key = norm(disp)
+            if key in _EPONYMOUS_NORMS:
+                continue
+            g = groups.setdefault(key, {"name": disp, "members": []})
+            g["members"].append(r)
+        cities = [g for g in groups.values() if len(g["members"]) >= CITY_MIN_LAWYERS]
+        cities.sort(key=lambda g: -len(g["members"]))
+        seen_slugs = {}
+        for g in cities:
+            base = slugify(g["name"])
+            n = seen_slugs.get(base, 0)
+            seen_slugs[base] = n + 1
+            g["slug"] = base if n == 0 else f"{base}-{n+1}"
+            g["count"] = len(g["members"])
+        if cities:
+            out[code] = cities
+    return out
+
+
+CITY_DATA = build_city_data()
+print(f"Pages villes : {sum(len(v) for v in CITY_DATA.values())} villes retenues "
+      f"(seuil {CITY_MIN_LAWYERS} avocats) dans {len(CITY_DATA)} cantons.", file=sys.stderr)
+
+
+def ville_intro(lang, ville, canton_name, n_avocats, n_etudes):
+    if lang == "fr":
+        base = (f"{n_avocats} avocats sont référencés à {ville}, dans le canton de {canton_name}, "
+                f"sur la base du registre cantonal officiel.")
+        if n_etudes:
+            base += f" Ils exercent au sein de {n_etudes} études ou cabinets recensés dans cette localité."
+        return base
+    if lang == "de":
+        base = (f"{n_avocats} Anwältinnen und Anwälte sind in {ville} (Kanton {canton_name}) erfasst, "
+                f"auf Grundlage des offiziellen kantonalen Anwaltsregisters.")
+        if n_etudes:
+            base += f" Sie sind in {n_etudes} an diesem Ort erfassten Kanzleien tätig."
+        return base
+    if lang == "it":
+        base = (f"{n_avocats} avvocati sono registrati a {ville}, nel cantone {canton_name}, "
+                f"sulla base dell'albo cantonale ufficiale.")
+        if n_etudes:
+            base += f" Esercitano in {n_etudes} studi legali censiti in questa località."
+        return base
+    base = (f"{n_avocats} lawyers are listed in {ville}, canton of {canton_name}, "
+            f"based on the official cantonal bar registry.")
+    if n_etudes:
+        base += f" They practise in {n_etudes} firms recorded in this locality."
+    return base
+
+
+def _city_registry(code, city, lang):
+    """Registre d'une ville : etudes presentes (avec lien vers leur fiche) puis
+    avocats sans etude referencable, tries alphabetiquement."""
+    if code == "GE":
+        firm_map = FIRM_BY_NORM
+    else:
+        firm_map = CANTON_DATA[code]["firm_by_norm"]
+    firms_seen = {}
+    solos = []
+    for m in city["members"]:
+        e = (m.get("etude") or "").strip()
+        f = firm_map.get(norm(e)) if e else None
+        if f is not None:
+            k = norm(e)
+            firms_seen.setdefault(k, {"row": f, "n": 0})
+            firms_seen[k]["n"] += 1
+        else:
+            solos.append(m)
+    rows = []
+    for entry in firms_seen.values():
+        f = entry["row"]
+        rows.append({
+            "type": "etude", "nom": f["etude"], "url": etude_path(code, f["_slug"], lang),
+            "ville": city["name"], "n_membres": entry["n"],
+        })
+    for m in solos:
+        rows.append({
+            "type": "avocat", "nom": m["nom_complet"].title(), "url": avocat_path(code, m["_slug"], lang),
+            "ville": city["name"], "role": m.get("fonction", ""),
+        })
+    rows.sort(key=lambda x: x["nom"])
+    return rows, len(firms_seen)
+
+
+def _ge_city_domain_matches(city):
+    """Pour une ville GE : avocats de la ville par domaine (donnees registre)."""
+    by_dom = {}
+    for m in city["members"]:
+        for did in domaines_for_lawyer(m):
+            by_dom.setdefault(did, []).append(m)
+    return {did: ms for did, ms in by_dom.items() if len(ms) >= 2}
+
+
+def gen_villes():
+    for code, cities in CITY_DATA.items():
+        for city in cities:
+            dom_matches = _ge_city_domain_matches(city) if code == "GE" else {}
+            for lang in LANGS:
+                canton_name = i18n.CANTONS[code][lang]["name"]
+                path = ville_path(code, city["slug"], lang)
+                registry, n_firms = _city_registry(code, city, lang)
+                intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
+                title = f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | Legatis"
+                ctx = base_ctx(lang, path, title, intro[:158],
+                                {lg: ville_path(code, city["slug"], lg) for lg in LANGS})
+                ctx["ville_name"] = city["name"]
+                ctx["canton_name"] = canton_name
+                ctx["intro_text"] = intro
+                ctx["registry"] = registry
+                ctx["stats_label"] = {
+                    "fr": f"{city['count']} avocats référencés à {city['name']}",
+                    "de": f"{city['count']} erfasste Anwältinnen und Anwälte in {city['name']}",
+                    "it": f"{city['count']} avvocati registrati a {city['name']}",
+                    "en": f"{city['count']} lawyers listed in {city['name']}",
+                }[lang]
+                ctx["domaines"] = [
+                    {"name": i18n.DOMAINES[did][lang]["name"],
+                     "url": ville_domaine_path(code, city["slug"], did, lang)}
+                    for did in dom_matches
+                ]
+                ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                      (canton_name, canton_path(code, lang)),
+                                      (city["name"], path)]
+                write_page(path, render("ville_hub.html", ctx))
+
+
+def gen_ville_domaines():
+    """Pages ville x domaine, uniquement la ou des avocats du registre declarent
+    effectivement le domaine (Geneve : seul canton avec domaines par avocat).
+    Seuil de 2 avocats minimum -- jamais de page vide."""
+    for code, cities in CITY_DATA.items():
+        if code != "GE":
+            continue
+        for city in cities:
+            dom_matches = _ge_city_domain_matches(city)
+            for did, matches in dom_matches.items():
+                for lang in LANGS:
+                    canton_name = i18n.CANTONS[code][lang]["name"]
+                    dname = i18n.DOMAINES[did][lang]["name"]
+                    path = ville_domaine_path(code, city["slug"], did, lang)
+                    desc = pt.cross_intro(lang, dname, city["name"])[:158]
+                    ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {city['name']} | Legatis", desc,
+                                    {lg: ville_domaine_path(code, city["slug"], did, lg) for lg in LANGS})
+                    ctx["domaine_name"] = dname
+                    ctx["canton_name"] = canton_name
+                    ctx["h1"] = pt.cross_h1(lang, dname, city["name"])
+                    ctx["intro_text"] = pt.cross_intro(lang, dname, city["name"])
+                    ctx["avocats"] = [
+                        {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
+                         "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
+                        for r in matches
+                    ]
+                    ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
+                    ctx["no_specialty_text"] = ""
+                    ctx["fallback_avocats"] = []
+                    ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                          (canton_name, canton_path(code, lang)),
+                                          (city["name"], ville_path(code, city["slug"], lang)),
+                                          (dname, path)]
+                    write_page(path, render("cross.html", ctx))
+
+
+def canton_villes_links(code, lang):
+    """Liens vers les pages villes d'un canton (maillage interne du hub canton)."""
+    return [
+        {"name": c["name"], "url": ville_path(code, c["slug"], lang), "count": c["count"]}
+        for c in CITY_DATA.get(code, [])
+    ]
+
+
+# ---------------------------------------------------------------- guides
+
+GUIDES_INDEX_INTRO = {
+    "fr": "Des guides pratiques pour comprendre comment travailler avec un avocat en Suisse : choix, coûts, assistance judiciaire, spécialisations.",
+    "de": "Praktische Ratgeber zur Zusammenarbeit mit Anwältinnen und Anwälten in der Schweiz: Auswahl, Kosten, unentgeltliche Rechtspflege, Spezialisierungen.",
+    "it": "Guide pratiche per capire come lavorare con un avvocato in Svizzera: scelta, costi, gratuito patrocinio, specializzazioni.",
+    "en": "Practical guides to working with a lawyer in Switzerland: choosing one, costs, legal aid, specialisations.",
+}
+
+
+def gen_guides():
+    gids = list(guides_content.GUIDES.keys())
+    for lang in LANGS:
+        path = guides_index_path(lang)
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['guides_title']} | Legatis",
+                        GUIDES_INDEX_INTRO[lang][:158], hreflang_for(guides_index_path))
+        ctx["intro_text"] = GUIDES_INDEX_INTRO[lang]
+        ctx["guides"] = [
+            {"title": guides_content.GUIDES[g][lang]["title"],
+             "meta": guides_content.GUIDES[g][lang]["meta"],
+             "url": guide_path(g, lang)}
+            for g in gids
+        ]
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                              (i18n.UI[lang]["guides_title"], path)]
+        write_page(path, render("guides_index.html", ctx))
+
+    for gid in gids:
+        for lang in LANGS:
+            g = guides_content.GUIDES[gid][lang]
+            path = guide_path(gid, lang)
+            ctx = base_ctx(lang, path, f"{g['title']} | Legatis", g["meta"][:158],
+                            {lg: guide_path(gid, lg) for lg in LANGS})
+            ctx["page_title"] = g["title"]
+            ctx["sections"] = g["sections"]
+            ctx["faq"] = g["faq"]
+            ctx["related"] = (
+                [{"name": guides_content.GUIDES[o][lang]["title"], "url": guide_path(o, lang)}
+                 for o in gids if o != gid]
+                + [{"name": i18n.UI[lang]["all_cantons"], "url": cantons_index_path(lang)},
+                   {"name": i18n.UI[lang]["all_practice_areas"], "url": domaines_index_path(lang)}]
+            )
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                  (i18n.UI[lang]["guides_title"], guides_index_path(lang)),
+                                  (g["title"], path)]
+            ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in g["faq"]
+                ],
+            }, ensure_ascii=False)
+            write_page(path, render("guide.html", ctx))
+
+
+# ---------------------------------------------------------------- llms.txt
+
+def gen_llms_txt():
+    """Fichier llms.txt a la racine : oriente les assistants IA (AEO) vers les
+    points d'entree structures du site. Uniquement des faits reels du build."""
+    n_avocats = sum(v for v in CANTON_COUNTS.values() if v)
+    n_etudes = len(GE_FIRMS) + sum(len(d["firms"]) for d in CANTON_DATA.values())
+    n_cantons = len(i18n.CANTONS)
+    lines = [
+        "# Legatis",
+        "",
+        "> Legatis (legatis.ch) is a multilingual directory (FR/DE/IT/EN) of lawyers in Switzerland, "
+        f"built from the official cantonal bar registries. It currently lists {n_avocats} lawyers and "
+        f"{n_etudes} law firms across {n_cantons} cantons. Facts shown on profile pages come from official "
+        "registers or from the firms' own websites (always dated and attributed); nothing is invented or estimated.",
+        "",
+        "## Main entry points",
+        "",
+        "- [Accueil (FR)](https://legatis.ch/fr/): French home page",
+        "- [Startseite (DE)](https://legatis.ch/de/): German home page",
+        "- [Home (IT)](https://legatis.ch/it/): Italian home page",
+        "- [Home (EN)](https://legatis.ch/en/): English home page",
+        "- [Cantons (FR)](https://legatis.ch/fr/avocats/): lawyers by canton",
+        "- [Practice areas (EN)](https://legatis.ch/en/practice-areas/): lawyers by field of law",
+        "- [Guides pratiques (FR)](https://legatis.ch/fr/guides/): practical guides (choosing a lawyer, "
+        "costs, legal aid, specialist titles, first consultation)",
+        "- [Methodology (EN)](https://legatis.ch/en/methodology/): data sources and methodology",
+        "",
+        "## Data principles",
+        "",
+        "- Sources: official cantonal bar registries (registre cantonal des avocats / kantonales Anwaltsregister).",
+        "- Enrichment: facts published by law firms on their own official websites, always dated and attributed.",
+        "- No fabrication: profiles without verified signals carry no invented content.",
+        "- Corrections: https://legatis.ch/fr/signaler-une-correction/",
+        "",
+        "## Sitemap",
+        "",
+        "- https://legatis.ch/sitemap.xml",
+        "",
+    ]
+    with open(os.path.join(DIST_DIR, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print("llms.txt genere.", file=sys.stderr)
+
+
 def copy_static():
     import shutil
     src = os.path.join(SITE_ROOT, "static")
@@ -1277,6 +1608,10 @@ if __name__ == "__main__":
         gen_domain_hubs()
         gen_cross_ge()
         gen_static_pages()
+        gen_villes()
+        gen_ville_domaines()
+        gen_guides()
+        gen_llms_txt()
         gen_search()
     elif stage == "etudes":
         start = int(sys.argv[2]); count = int(sys.argv[3])
@@ -1315,6 +1650,10 @@ if __name__ == "__main__":
             gen_canton_etudes(code)
             gen_canton_avocats(code)
         gen_static_pages()
+        gen_villes()
+        gen_ville_domaines()
+        gen_guides()
+        gen_llms_txt()
         gen_search()
         gen_sitemaps()
         gen_robots()

@@ -379,6 +379,11 @@ UI = {
         "coming_soon_text": "Le registre de ce canton n'est pas encore intégré à Legatis. Nous travaillons à l'ajouter.",
         "no_specialty_title": "Spécialité non renseignée",
         "home": "Accueil", "breadcrumb_home": "Legatis",
+        "cities_in_canton": "Avocats par ville",
+        "guides_title": "Guides pratiques",
+        "faq_title": "Questions fréquentes",
+        "all_guides": "Tous les guides",
+        "related_pages": "Pour aller plus loin",
     },
     "de": {
         "site_name": "Legatis",
@@ -400,6 +405,11 @@ UI = {
         "coming_soon_text": "Das Register dieses Kantons ist noch nicht in Legatis integriert. Wir arbeiten daran.",
         "no_specialty_title": "Fachgebiet nicht erfasst",
         "home": "Start", "breadcrumb_home": "Legatis",
+        "cities_in_canton": "Anwältinnen und Anwälte nach Ort",
+        "guides_title": "Praktische Ratgeber",
+        "faq_title": "Häufige Fragen",
+        "all_guides": "Alle Ratgeber",
+        "related_pages": "Weiterführende Seiten",
     },
     "it": {
         "site_name": "Legatis",
@@ -422,6 +432,11 @@ UI = {
         "coming_soon_text": "Il registro di questo cantone non è ancora integrato in Legatis. Ci stiamo lavorando.",
         "no_specialty_title": "Ambito non ancora indicato",
         "home": "Home", "breadcrumb_home": "Legatis",
+        "cities_in_canton": "Avvocati per località",
+        "guides_title": "Guide pratiche",
+        "faq_title": "Domande frequenti",
+        "all_guides": "Tutte le guide",
+        "related_pages": "Per approfondire",
     },
     "en": {
         "site_name": "Legatis",
@@ -442,6 +457,11 @@ UI = {
         "coming_soon_text": "This canton's register is not yet integrated into Legatis. We're working on adding it.",
         "no_specialty_title": "Specialty not yet recorded",
         "home": "Home", "breadcrumb_home": "Legatis",
+        "cities_in_canton": "Lawyers by city",
+        "guides_title": "Practical guides",
+        "faq_title": "Frequently asked questions",
+        "all_guides": "All guides",
+        "related_pages": "Related pages",
     },
 }
 
@@ -457,4 +477,6 @@ SEGMENTS = {
     "confidentialite": {"fr": "confidentialite", "de": "datenschutz", "it": "privacy", "en": "privacy"},
     "correction": {"fr": "signaler-une-correction", "de": "fehler-melden", "it": "segnala-correzione", "en": "report-correction"},
     "recherche": {"fr": "recherche", "de": "suche", "it": "ricerca", "en": "search"},
+    "ville": {"fr": "ville", "de": "ort", "it": "citta", "en": "city"},
+    "guides": {"fr": "guides", "de": "ratgeber", "it": "guide", "en": "guides"},
 }

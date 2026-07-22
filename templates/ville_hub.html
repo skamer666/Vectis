@@ -2,33 +2,23 @@
 {% block content %}
 <div class="container">
   <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
-    <div class="hero-eyebrow">{{ ui.canton }}</div>
-    <h1>{{ ui.find_a_lawyer_near }} {{ canton_name }}</h1>
+    <div class="hero-eyebrow">{{ canton_name }}</div>
+    <h1>{{ ui.find_a_lawyer_near }} {{ ville_name }}</h1>
     <p class="lede">{{ intro_text }}</p>
-    {% if insight_text %}<p class="lede" style="font-size:1rem;">{{ insight_text }}</p>{% endif %}
   </section>
 
+  {% if domaines %}
   <section class="section" style="padding-top:0;">
     <div class="section-head"><h2>{{ ui.all_practice_areas }}</h2></div>
     <div class="tag-list">
       {% for d in domaines %}
-      <a class="tag {% if d.has_data %}is-accent{% endif %}" href="{{ d.url }}">{{ d.name }}</a>
-      {% endfor %}
-    </div>
-  </section>
-
-  {% if villes %}
-  <section class="section" style="padding-top:0;">
-    <div class="section-head"><h2>{{ ui.cities_in_canton }}</h2></div>
-    <div class="tag-list">
-      {% for v in villes %}
-      <a class="tag is-accent" href="{{ v.url }}">{{ v.name }} ({{ v.count }})</a>
+      <a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>
       {% endfor %}
     </div>
   </section>
   {% endif %}
 
-  <section class="section">
+  <section class="section" {% if not domaines %}style="padding-top:0;"{% endif %}>
     <div class="section-head">
       <h2>{{ stats_label }}</h2>
     </div>

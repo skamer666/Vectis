@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ ui.guides_title }}</div>
+    <h1>{{ page_title }}</h1>
+  </section>
+  <section class="section" style="padding-top:0; max-width:70ch;">
+    {% for s in sections %}
+    {% if s.heading %}<h2 style="margin-top:var(--space-xl);">{{ s.heading }}</h2>{% endif %}
+    {% for para in s.paragraphs %}<p class="lede" style="font-size:1rem;">{{ para }}</p>{% endfor %}
+    {% endfor %}
+
+    {% if faq %}
+    <h2 style="margin-top:var(--space-xl);">{{ ui.faq_title }}</h2>
+    {% for item in faq %}
+    <h3 style="margin-top:var(--space-lg);">{{ item.q }}</h3>
+    <p class="lede" style="font-size:1rem;">{{ item.a }}</p>
+    {% endfor %}
+    {% endif %}
+
+    {% if related %}
+    <h2 style="margin-top:var(--space-xl);">{{ ui.related_pages }}</h2>
+    <div class="tag-list">
+      {% for r in related %}
+      <a class="tag" href="{{ r.url }}">{{ r.name }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
