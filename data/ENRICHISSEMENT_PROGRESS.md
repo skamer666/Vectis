@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 19:35 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 20:05 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **139** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **153** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **51** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **57** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **295** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~73.2%** (139 / 190 domaines réellement testés).
+- **276** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~72.9%** (153 / 210 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -342,4 +342,22 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   (avocatsassocies) et la fondation 2018 de Groslimond (vue seulement dans un résumé de
   recherche, pas sur le site) n'ont PAS été retenus, conformément aux règles.
 - Totaux cumulés : 139 réussites / 51 échecs / 190 testés sur 486 connus, ~295 restants.
+- Rebuild complet OK (65 228 pages, échantillon de 40 fichiers sans artefact Jinja).
+
+### 2026-07-22 20:05 UTC — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : 14 réussites, 6 échecs.
+- Années de fondation trouvées : avopartner.ch (1932), avocadid.com (1947), pacta-avocats.ch
+  (2012), kananirezki.com (2024), b4legal.ch (2025).
+- Tailles d'équipe : avopartner.ch (8 avocats associés), psf12.ch (4 avocats),
+  avocadid.com (3 associés).
+- Autres réussites (domaines de compétence) : 373-avocats.com, abtavocats.ch, nexlaw.ch,
+  avgroupe.ch, tabet.law, etude-bersier.ch, whitecase.com (bureau de Genève uniquement,
+  stats mondiales ignorées), enodo.ch.
+- Échecs : sda-avocats.ch, streng.ch, baalaw.ch, mdlaw.ch (aucune présence web indexée) ;
+  fld-law.com, decandolle.ch (contenu vide au fetch, rendu JS probable).
+- Notes de rigueur : fondation 2014 de 373-avocats (vue seulement sur Moneyhouse), 2016 de
+  De Candolle et 2023 de Tabet (résumés de recherche), 2017 de Waser et « depuis 1980 » de
+  FLD (annuaires tiers) NON retenues — jamais sur le site du cabinet lui-même.
+- Totaux cumulés : 153 réussites / 57 échecs / 210 testés sur 486 connus, ~276 restants.
 - Rebuild complet OK (65 228 pages, échantillon de 40 fichiers sans artefact Jinja).
