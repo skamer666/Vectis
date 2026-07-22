@@ -4,16 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-22 21:00 UTC)
+## Statut actuel (dernière mise à jour : 2026-07-22 22:45 UTC)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **171** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **206** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **59** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **64** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **256** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~74.3%** (171 / 230 domaines réellement testés).
+- **216** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~76.3%** (206 / 270 domaines réellement testés).
 - Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
   « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
   donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
@@ -412,3 +412,43 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - Totaux cumulés : **189 réussites / 61 échecs / 250 testés** sur 486 connus, ~236 restants.
 - Rebuild complet OK (65 972 fichiers HTML, sitemap 23 055 URLs, échantillon de 40 fichiers
   sans artefact Jinja).
+
+### 2026-07-22 22:45 UTC — lot automatique de 20 (GE/VD)
+
+- 20 domaines traités : **17 réussites, 3 échecs**.
+- Années de fondation trouvées : etudegr.ch (Gabus Avocats, 1985 — « Pierre Gabus exerce le
+  métier d'avocat à titre indépendant depuis 1985 », mention directe sur sa page bio) ;
+  bonnant-associes.ch (Bonnant & Associés, 1996 — « L'Étude Bonnant & Associés, fondée en 1996
+  par le Bâtonnier Marc Bonnant ») ; santana-lima.com (Sant'Ana Lima Avocats, 2016 — « Fondée
+  en 2016 ») ; swisslawyersgroup.ch (SwissLawyersGroup FOGLIA, 2001 — « fondé en 2001 par des
+  avocats bien établis, dont le Studio Legale Foglia créé à Lugano et à Genève en 1990 ») ;
+  fabiennefischer.ch (Me Fabienne Fischer, 2005 — « avocate à Genève depuis 2005 »).
+- Autres réussites (domaines de compétence) : vca-avocats.ch (4 domaines : représentation en
+  justice, optimisation fiscale, conseils juridiques, planification patrimoniale) ; bmjlex.ch
+  (exclusivement droit du travail pour les entreprises) ; lesavocatesge.ch (26 domaines, palette
+  très étendue — droit public et administratif, asile, migrations, pénal adultes/mineurs, personnes
+  détenues, civil, famille, bail, travail, successions, sport, arbitrage, etc.) ; novalegal.ch
+  (8 domaines — banking/finance, fondations/philanthropie, clients privés HNWI, planification
+  fiscale et successorale, trusts, droit des sociétés, contrats, recouvrement de créances) ;
+  casus-belli.legal (15 domaines, dont blockchain/Fintech et marchés publics internationaux,
+  « plus de 10 avocats et autres professionnels ») ; avocat-cecconi.ch (solo — famille, divorce,
+  successions, assurances sociales et privées) ; avocatsge.com (CCK Avocats — famille, pénal,
+  responsabilité civile) ; philippecurrat.ch (Currat & Associés — droits de l'homme, droit
+  international, pénal, droit suisse, présence en RDC depuis 2012) ; nevesavocats.ch (conseil
+  juridique, arbitrage international, droit suisse) ; linea-avocats.ch (7 domaines spécialisés
+  droit du travail/prévoyance/assurances sociales/ONG/bail/contrats/procédure) ;
+  gunter-arbitration.law (boutique arbitrage international — ICC, LCIA, UNCITRAL, SIAC, SCAI —
+  Pierre-Yves Gunter au barreau depuis 1991, 245+ cas) ; ilazi-law.com (famille, successions,
+  litiges contractuels, philanthropie/ONG).
+- Notes de rigueur : « une douzaine d'avocats » (Bonnant & Associés) — formulation approximative,
+  non retenue comme effectif précis conformément à la règle 2. Année 2009 de fondation de Currat &
+  Associés (trouvée dans des résumés de recherche) — non mentionnée sur le site du cabinet lui-même,
+  non retenue. Admission au barreau 1991 de Pierre-Yves Gunter — date de début de carrière, pas
+  de fondation du cabinet Gunter Arbitration Sàrl, non retenue comme founding_year.
+- Échecs : ksr-avocats.ch (site en construction, page vide) ; cramer-avocats.ch (contenu vide
+  au fetch — page blanche) ; fdlex.ch (contenu vide au fetch — page blanche).
+- Totaux cumulés : **206 réussites / 64 échecs / 270 testés** sur 486 connus, ~216 restants.
+- Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 057 URLs, échantillon de 40
+  fichiers sans artefact Jinja). Entrée Bonnant & Associés vérifiée manuellement
+  (`/fr/avocats/geneve/etude/bonnant-associes/`) : « Étude fondée en 1996 (30 ans d'existence) »
+  et date de consultation 2026-07-22 s'affichent correctement.

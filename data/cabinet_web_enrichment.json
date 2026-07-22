@@ -5,7 +5,9 @@
     "total_tested": 230,
     "last_updated": "2026-07-22",
     "success_count": 189,
-    "fail_count": 61
+    "fail_count": 61,
+    "successes": 206,
+    "failures": 64
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -960,7 +962,10 @@
     "hornung-lawfirm.ch": "erreur PHP fatale sur toutes les pages — site inaccessible",
     "etude-blb.ch": "contenu vide au fetch sur toutes les pages — rendu JavaScript probable",
     "avocats-romandie.ch": "contenu vide au fetch, rendu JavaScript probable (site Wix)",
-    "avocats-morges.ch": "contenu vide au fetch sur la page le-cabinet, rendu JavaScript probable"
+    "avocats-morges.ch": "contenu vide au fetch sur la page le-cabinet, rendu JavaScript probable",
+    "ksr-avocats.ch": "site en construction, aucun contenu exploitable",
+    "cramer-avocats.ch": "contenu vide au fetch (page blanche sans texte)",
+    "fdlex.ch": "contenu vide au fetch (page blanche sans texte)"
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -3681,6 +3686,474 @@
     "team_size_n": 7,
     "practice_areas": [],
     "source_url": "https://www.rsbplegal.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "vca-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "représentation en justice",
+      "optimisation fiscale",
+      "conseils juridiques",
+      "planification patrimoniale"
+    ],
+    "practice_areas_en": [
+      "court representation",
+      "tax optimization",
+      "legal advice",
+      "estate planning"
+    ],
+    "source_url": "https://vca-avocats.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "bmjlex.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit du travail (exclusivement pour les entreprises)"
+    ],
+    "practice_areas_en": [
+      "employment law (exclusively for companies)"
+    ],
+    "source_url": "https://www.bmjlex.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "lesavocatesge.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit public et administratif",
+      "droit de l'asile",
+      "droit des migrations",
+      "détention administrative",
+      "droit des constructions",
+      "droit international public",
+      "droit pénal (adultes, mineurs)",
+      "droit pénal économique",
+      "droit pénal international",
+      "entraide internationale",
+      "droit des personnes détenues",
+      "droit civil",
+      "droit de la famille",
+      "droit de la responsabilité civile",
+      "droit des contrats",
+      "droit du bail",
+      "droit du travail",
+      "droit des successions",
+      "protection de l'adulte",
+      "protection de la personnalité et des médias",
+      "droit et protection de l'enfant",
+      "poursuites et faillites",
+      "droits réels",
+      "droit international privé",
+      "droit du sport",
+      "arbitrage"
+    ],
+    "practice_areas_en": [
+      "public and administrative law",
+      "asylum law",
+      "immigration law",
+      "administrative detention",
+      "construction law",
+      "public international law",
+      "criminal law (adults, minors)",
+      "economic criminal law",
+      "international criminal law",
+      "international mutual legal assistance",
+      "law for detained persons",
+      "civil law",
+      "family law",
+      "civil liability law",
+      "contract law",
+      "rental law",
+      "labour law",
+      "inheritance law",
+      "protection of adults",
+      "privacy, image rights and media law",
+      "child law and protection",
+      "debt enforcement and bankruptcy",
+      "property rights",
+      "private international law",
+      "sports law",
+      "arbitration"
+    ],
+    "source_url": "https://www.lesavocatesge.ch/domaines-dactivit",
+    "fetched_date": "2026-07-22"
+  },
+  "etudegr.ch": {
+    "founding_year": 1985,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "procédures judiciaires",
+      "droit des assurances",
+      "droit du travail",
+      "propriété intellectuelle",
+      "droit de l'art",
+      "droit de l'environnement",
+      "droit des marchés publics",
+      "droit administratif et immobilier",
+      "droit des contrats",
+      "droit pénal",
+      "droit de la famille"
+    ],
+    "practice_areas_en": [
+      "court proceedings",
+      "insurance law",
+      "labour law",
+      "intellectual property",
+      "art law",
+      "environmental law",
+      "public procurement law",
+      "administrative and real estate law",
+      "contract law",
+      "criminal law",
+      "family law"
+    ],
+    "source_url": "http://www.etudegr.ch/pierre_gabus",
+    "fetched_date": "2026-07-22",
+    "note": "Pierre Gabus exerce le métier d'avocat à titre indépendant depuis 1985 (mention explicite sur la page)"
+  },
+  "bonnant-associes.ch": {
+    "founding_year": 1996,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit contractuel",
+      "droit commercial",
+      "droit des sociétés",
+      "droit bancaire et financier",
+      "droit pénal",
+      "criminalité économique",
+      "entraide judiciaire internationale",
+      "contentieux judiciaire et arbitrage",
+      "droit fiscal",
+      "droit des étrangers",
+      "droit des poursuites et faillites",
+      "droit de la famille",
+      "droit du travail"
+    ],
+    "practice_areas_en": [
+      "contract law",
+      "commercial law",
+      "corporate law",
+      "banking and financial law",
+      "criminal law",
+      "economic crime",
+      "international mutual legal assistance",
+      "judicial disputes and arbitration",
+      "tax law",
+      "immigration law",
+      "debt enforcement and bankruptcy",
+      "family law",
+      "labour law"
+    ],
+    "source_url": "https://www.bonnant-associes.ch/fr/etude/",
+    "fetched_date": "2026-07-22",
+    "note": "L'Étude Bonnant & Associés, fondée en 1996 par le Bâtonnier Marc Bonnant (mention explicite sur la page)"
+  },
+  "novalegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit bancaire et financier",
+      "droit des fondations et philanthropie",
+      "conseil aux clients privés (HNWI)",
+      "planification fiscale et successorale",
+      "trusts et protection du patrimoine",
+      "droit des sociétés et conseil général",
+      "rédaction et négociation de contrats",
+      "recouvrement de créances et liquidation"
+    ],
+    "practice_areas_en": [
+      "banking and finance",
+      "foundations and philanthropy",
+      "private clients (HNWI)",
+      "tax and inheritance planning",
+      "trusts and protection",
+      "corporate & general counsel services",
+      "contracts drafting and negotiation",
+      "debt enforcement & liquidation"
+    ],
+    "source_url": "https://www.novalegal.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "santana-lima.com": {
+    "founding_year": 2016,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille et des successions",
+      "droit des étrangers",
+      "droit des obligations",
+      "droit du travail",
+      "droit commercial",
+      "droit bancaire et financier",
+      "droit des sociétés",
+      "droit pénal",
+      "arbitrage",
+      "reconnaissance de décisions étrangères",
+      "exécution forcée (poursuites, faillite et séquestre)",
+      "protection des données"
+    ],
+    "practice_areas_en": [
+      "family and inheritance law",
+      "immigration law",
+      "contract and obligations law",
+      "labour law",
+      "commercial law",
+      "banking and financial law",
+      "corporate law",
+      "criminal law",
+      "arbitration",
+      "recognition of foreign judgments",
+      "enforcement (debt collection, bankruptcy, seizure)",
+      "data protection"
+    ],
+    "source_url": "https://www.santana-lima.com/activites/",
+    "fetched_date": "2026-07-22",
+    "note": "Fondée en 2016 (mention explicite sur la page étude)"
+  },
+  "casus-belli.legal": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit fiscal",
+      "droit des sociétés, contrats et des affaires",
+      "droit bancaire et financier",
+      "droit pénal économique",
+      "intermédiation financière",
+      "droit des poursuites",
+      "droit des successions et du patrimoine",
+      "droit administratif et immigration",
+      "droit des marchés publics internationaux, appels d'offres et investissements",
+      "droit des constructions, de l'immobilier et du bail",
+      "droit du divorce, des personnes et de la famille",
+      "droit du travail",
+      "arbitrage",
+      "technologies blockchain et Fintech",
+      "propriété intellectuelle"
+    ],
+    "practice_areas_en": [
+      "tax law",
+      "corporate, contracts and business law",
+      "banking and financial law",
+      "economic criminal law",
+      "financial intermediation",
+      "debt enforcement",
+      "inheritance and estate law",
+      "administrative law and immigration",
+      "international public procurement, tenders and investments",
+      "construction, real estate and rental law",
+      "divorce, family and persons law",
+      "labour law",
+      "arbitration",
+      "blockchain and fintech technologies",
+      "intellectual property"
+    ],
+    "source_url": "https://casus-belli.legal/etude/",
+    "fetched_date": "2026-07-22",
+    "note": "Regroupe plus de 10 avocats et autres professionnels (mention explicite sur le site)"
+  },
+  "avocat-cecconi.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit du divorce",
+      "droit des successions",
+      "droit des assurances sociales et privées"
+    ],
+    "practice_areas_en": [
+      "family law",
+      "divorce law",
+      "inheritance law",
+      "social and private insurance law"
+    ],
+    "source_url": "https://avocat-cecconi.ch/",
+    "fetched_date": "2026-07-22"
+  },
+  "avocatsge.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille et des personnes",
+      "droit pénal",
+      "droit de la responsabilité civile"
+    ],
+    "practice_areas_en": [
+      "family and persons law",
+      "criminal law",
+      "civil liability law"
+    ],
+    "source_url": "https://avocatsge.com/vera-coignard-drai/",
+    "fetched_date": "2026-07-22"
+  },
+  "philippecurrat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droits de l'homme",
+      "droit international",
+      "droit pénal",
+      "droit suisse"
+    ],
+    "practice_areas_en": [
+      "human rights",
+      "international law",
+      "criminal law",
+      "Swiss law"
+    ],
+    "source_url": "https://www.philippecurrat.ch/",
+    "fetched_date": "2026-07-22",
+    "note": "Site redirige vers currat-avocats.ch — Currat & Associés, cabinet spécialisé droit international, pénal et droits de l'homme, présence en RDC depuis 2012"
+  },
+  "nevesavocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "conseil juridique",
+      "arbitrage international",
+      "droit suisse"
+    ],
+    "practice_areas_en": [
+      "legal advice",
+      "international arbitration",
+      "Swiss law"
+    ],
+    "source_url": "https://nevesavocats.ch/accueil",
+    "fetched_date": "2026-07-22"
+  },
+  "linea-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit du travail et de la fonction publique",
+      "droit de la prévoyance professionnelle",
+      "droit des assurances sociales et privées",
+      "associations, fondations et ONG",
+      "droit du bail",
+      "droit des contrats et de la responsabilité civile",
+      "procédure civile, administrative et pénale"
+    ],
+    "practice_areas_en": [
+      "labour law and public employment law",
+      "occupational pension law (LPP)",
+      "social and private insurance law",
+      "associations, foundations and NGOs",
+      "rental law",
+      "contract and civil liability law",
+      "civil, administrative and criminal procedure"
+    ],
+    "source_url": "https://linea-avocats.ch/nos-domaines-d-expertise/",
+    "fetched_date": "2026-07-22"
+  },
+  "swisslawyersgroup.ch": {
+    "founding_year": 2001,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit civil",
+      "droit commercial",
+      "affaires bancaires et financières",
+      "droit des assurances",
+      "droit de la famille et du divorce",
+      "droits réels",
+      "droit des successions",
+      "planification successorale",
+      "droit des contrats",
+      "droit des poursuites et faillites",
+      "droit fiscal international",
+      "droit des sociétés",
+      "droit pénal",
+      "droit administratif",
+      "actes notariaux"
+    ],
+    "practice_areas_en": [
+      "civil law",
+      "commercial law",
+      "banking and financial affairs",
+      "insurance law",
+      "family and divorce law",
+      "property rights",
+      "inheritance law",
+      "estate planning",
+      "contract law",
+      "debt enforcement and bankruptcy",
+      "international tax law",
+      "corporate law",
+      "criminal law",
+      "administrative law",
+      "notarial acts"
+    ],
+    "source_url": "https://www.swisslawyersgroup.ch/",
+    "fetched_date": "2026-07-22",
+    "note": "SwissLawyersGroup FOGLIA fondé en 2001; Studio Legale Foglia créé à Lugano et à Genève en 1990 (mention explicite sur la page d'accueil)"
+  },
+  "fabiennefischer.ch": {
+    "founding_year": 2005,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit du travail",
+      "droit administratif",
+      "droit des contrats",
+      "droit de la famille",
+      "droit civil général (filiation, successions, curatelles, propriété)",
+      "assurances sociales (AVS, AI, chômage)",
+      "prévoyance professionnelle",
+      "assurance maladie",
+      "poursuites et faillites",
+      "responsabilité sociale et environnementale des entreprises",
+      "aménagement du territoire et droit des constructions"
+    ],
+    "practice_areas_en": [
+      "labour law",
+      "administrative law",
+      "contract law",
+      "family law",
+      "general civil law (filiation, inheritance, guardianship, property)",
+      "social insurance (AHV, IV, unemployment)",
+      "occupational pension law",
+      "health insurance",
+      "debt enforcement and bankruptcy",
+      "corporate social and environmental responsibility",
+      "land use and building permit law"
+    ],
+    "source_url": "https://www.fabiennefischer.ch/",
+    "fetched_date": "2026-07-22",
+    "note": "Me Fabienne Fischer est avocate à Genève depuis 2005 (mention explicite sur le site)"
+  },
+  "gunter-arbitration.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "arbitrage commercial international",
+      "résolution des conflits",
+      "droit commercial et des sociétés",
+      "contentieux judiciaire"
+    ],
+    "practice_areas_en": [
+      "international commercial arbitration",
+      "dispute resolution",
+      "commercial and corporate law",
+      "litigation"
+    ],
+    "source_url": "https://gunter-arbitration.law/about",
+    "fetched_date": "2026-07-22",
+    "note": "Boutique spécialisée arbitrage international (ICC, LCIA, UNCITRAL, SIAC, SCAI...) — Pierre-Yves Gunter au barreau depuis 1991, plus de 245 cas d'arbitrage international"
+  },
+  "ilazi-law.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit des successions",
+      "litiges contractuels",
+      "philanthropie et conseil aux organisations non lucratives"
+    ],
+    "practice_areas_en": [
+      "family law",
+      "inheritance law",
+      "contractual disputes",
+      "philanthropy and non-profit advisory"
+    ],
+    "source_url": "https://www.ilazi-law.com/",
     "fetched_date": "2026-07-22"
   }
 }
