@@ -1,9 +1,10 @@
 {
   "_meta": {
     "total_success": 264,
-    "total_failed": 77,
+    "total_failed": 87,
     "total_tested": 341,
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-07-23",
+    "total_done": 274
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -995,7 +996,17 @@
     "lg-avocats.ch": {
       "reason": "contenu vide au fetch, rendu JavaScript probable",
       "date": "2026-07-23"
-    }
+    },
+    "gowenlaw.ch": "aucune présence web indexée",
+    "grossin-avocat.ch": "aucune présence web indexée",
+    "glegal.ch": "aucune présence web indexée",
+    "shgavocats.ch": "aucune présence web indexée",
+    "k-lm.ch": "aucune présence web indexée",
+    "landrove.ch": "URL non accessible via l'outil de fetch (domaine non indexé)",
+    "decerjat.ch": "aucune présence web indexée",
+    "mlgeneva.com": "aucune présence web indexée",
+    "sautter29avocats.ch": "erreur HTTP 503 lors du fetch, site inaccessible",
+    "moro-avocats.ch": "site en construction, aucun contenu exploitable"
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -5661,6 +5672,298 @@
       "Diplomatic law and international immunities"
     ],
     "source_url": "http://www.gloor-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "ifntaxlaw.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Fiscalité des entreprises",
+      "Clients privés",
+      "TVA",
+      "Fiscalité internationale",
+      "Contentieux fiscal",
+      "Due diligence fiscale",
+      "Fiscalité des régimes de pension et produits d'assurance",
+      "Fiscalité immobilière",
+      "Divulgation volontaire",
+      "Fiscalité liée aux financements",
+      "Fiscalité des organismes de placement collectif",
+      "Fiscalité des produits dérivés et financiers",
+      "Prix de transfert",
+      "Charités et fondations",
+      "Droit des sociétés",
+      "Droit civil",
+      "Droit bancaire et financier",
+      "Droit du sport"
+    ],
+    "practice_areas_en": [
+      "Corporate tax",
+      "Private clients",
+      "VAT",
+      "International tax",
+      "Tax litigation",
+      "Tax due diligence",
+      "Taxation of pension schemes and insurance products",
+      "Real estate taxation",
+      "Voluntary disclosure",
+      "Taxation related to financing",
+      "Taxation of collective investment schemes",
+      "Taxation of derivatives and other financial products",
+      "Transfer pricing",
+      "Charities",
+      "Company law",
+      "Civil law",
+      "Banking and finance law",
+      "Sports law"
+    ],
+    "source_url": "https://www.ifntaxlaw.com/the-firm.html",
+    "fetched_date": "2026-07-23"
+  },
+  "id-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit du divorce et séparation",
+      "Droits parentaux et contributions d'entretien",
+      "Liquidation de régimes matrimoniaux",
+      "Droit pénal",
+      "Droit judiciaire et représentation en justice",
+      "Droit civil",
+      "Droit des contrats",
+      "Droit du bail",
+      "Droit du travail",
+      "Poursuites pour dettes et faillites",
+      "Protection de la personnalité",
+      "Droit de l'immobilier",
+      "Droit des successions",
+      "Droit équin",
+      "Violences conjugales"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Divorce and separation law",
+      "Parental rights and child support",
+      "Matrimonial regime settlement",
+      "Criminal law",
+      "Civil procedure and representation",
+      "Civil law",
+      "Contract law",
+      "Lease law",
+      "Labour law",
+      "Debt enforcement and bankruptcy",
+      "Personality rights",
+      "Real estate law",
+      "Inheritance law",
+      "Equine law",
+      "Domestic violence"
+    ],
+    "source_url": "https://www.id-avocats.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "jgpartners.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Cohabitation et partenariats civils",
+      "Successions et patrimoine",
+      "Droit pénal",
+      "Criminalité économique et en col blanc",
+      "Droit des contrats",
+      "Droit des poursuites et faillites",
+      "Droit constitutionnel et administratif",
+      "Droit des étrangers",
+      "Médiation et négociation"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Cohabitation and civil partnerships",
+      "Wealth and heritage",
+      "Criminal law",
+      "White-collar crime",
+      "Contract law",
+      "Debt collection and bankruptcy law",
+      "Constitutional and administrative law",
+      "Immigration law",
+      "Mediation and negotiation"
+    ],
+    "source_url": "https://jgpartners.ch/en",
+    "fetched_date": "2026-07-23"
+  },
+  "kellezi-legal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit des contrats",
+      "Droit des sociétés",
+      "Fusions-acquisitions",
+      "Droit de la concurrence et antitrust",
+      "Droit de la concurrence déloyale",
+      "Protection des données et vie privée",
+      "Droit public économique",
+      "Marchés publics",
+      "Droit bancaire",
+      "Responsabilité du fait des produits",
+      "Aide d'État"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Contract law",
+      "Corporate law",
+      "Mergers and acquisitions",
+      "Competition and antitrust law",
+      "Unfair competition law",
+      "Data protection and privacy",
+      "Public economic law",
+      "Public procurement",
+      "Banking law",
+      "Product liability",
+      "State aid"
+    ],
+    "source_url": "https://kellezi-legal.ch/?lang=en",
+    "fetched_date": "2026-07-23"
+  },
+  "degaullefleurance.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Fusions-acquisitions et droit des sociétés",
+      "Droit fiscal",
+      "Opérations transfrontalières en infrastructures et immobilier",
+      "Droit bancaire et régulation financière",
+      "Compliance",
+      "Droit patrimonial",
+      "Fonds d'investissements",
+      "Droit financier et des sûretés"
+    ],
+    "practice_areas_en": [
+      "Mergers and acquisitions and corporate law",
+      "Tax law",
+      "Cross-border infrastructure and real estate transactions",
+      "Banking and financial regulation",
+      "Compliance",
+      "Wealth management",
+      "Investment funds",
+      "Financial and securities law"
+    ],
+    "source_url": "https://www.degaullefleurance.com/nos-implantations/cabinet-de-gaulle-fleurance-a-geneve/",
+    "fetched_date": "2026-07-23"
+  },
+  "alainlevy.ch": {
+    "founding_year": 2001,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit de la construction",
+      "Droit international privé",
+      "Procédure civile",
+      "Arbitrage international"
+    ],
+    "practice_areas_en": [
+      "Contract law",
+      "Construction law",
+      "Private international law",
+      "Civil procedure",
+      "International arbitration"
+    ],
+    "source_url": "https://www.alainlevy.ch/experiences-professionnelles",
+    "fetched_date": "2026-07-23"
+  },
+  "loonis-quelen.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit général civil et commercial",
+      "Droit maritime",
+      "Droit de l'espace",
+      "Représentation d'intérêts et lobbying",
+      "Formation en droit"
+    ],
+    "practice_areas_en": [
+      "General civil and commercial law",
+      "Maritime law",
+      "Space law",
+      "Advocacy and interest representation",
+      "Legal training and education"
+    ],
+    "source_url": "https://www.loonis-quelen.com/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "markarian-avocat.ch": {
+    "founding_year": 2012,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la fonction publique (droit public suisse et international)"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Public service law (Swiss and international civil service)"
+    ],
+    "source_url": "https://www.markarian-avocat.ch/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "withersworldwide.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Fiscalité internationale US/UK et transfrontalière",
+      "Trusts et planification patrimoniale",
+      "Successions et exécution testamentaire",
+      "Clients privés à hauts patrimoines (HNWI)",
+      "Litige multi-juridictionnel",
+      "Droit de la famille",
+      "Droit des sociétés",
+      "Arbitrage international"
+    ],
+    "practice_areas_en": [
+      "US/UK and cross-border international tax",
+      "Trusts and estate planning",
+      "Probate and estate administration",
+      "Private client/high net worth individuals (HNWI)",
+      "Multi-jurisdictional litigation",
+      "Family law",
+      "Corporate law",
+      "International arbitration"
+    ],
+    "source_url": "https://www.withersworldwide.com/en-gb/locations/europe/geneva",
+    "fetched_date": "2026-07-23"
+  },
+  "fourknights.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Arbitrage international",
+      "Litige et représentation judiciaire",
+      "Mesures conservatoires et saisies",
+      "Droit des poursuites et faillites",
+      "Entraide judiciaire internationale",
+      "Droit pénal des affaires et criminalité en col blanc",
+      "Médiation",
+      "Droit des contrats",
+      "Droit des sociétés",
+      "Droit du travail (privé et public)",
+      "Droit international privé et public",
+      "Gestion de projet juridique"
+    ],
+    "practice_areas_en": [
+      "International arbitration",
+      "Litigation",
+      "Asset freezing and interim measures",
+      "Debt enforcement and insolvency",
+      "Legal mutual assistance",
+      "White collar crime",
+      "Mediation",
+      "Contracts",
+      "Corporate law",
+      "Employment law (private and public)",
+      "Private and public international law",
+      "Project management"
+    ],
+    "source_url": "https://www.fourknights.ch/services",
     "fetched_date": "2026-07-23"
   }
 }
