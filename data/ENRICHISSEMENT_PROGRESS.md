@@ -708,3 +708,40 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   (GE + VD). Il reste environ **43 domaines** non testés, soit ~2 lots de 20.
 - Rebuild complet OK (66 128 fichiers HTML, sitemap 23 471 URLs, échantillon de 40 fichiers
   sans artefact Jinja détecté).
+
+
+### 2026-07-23 — lot automatique 23 (GE/VD — dernier lot de domaines connus, fin de la liste des 486)
+
+- 20 domaines traités : **16 réussites, 4 échecs**.
+- **Années de fondation trouvées** : waeberavocats.ch (Waeber Avocats, 2006 — fondée explicitement
+  en 2006 sur la page "étude") ; borlatavocate.ch (Borlat Avocate & Médiation, 2020 — année de
+  démarrage explicite sur le site) ; borgeaud-avocat.ch (Nathan Borgeaud, 2025 — cabinet très
+  récent) ; kalbermatten-avocat.ch (Stève Kalbermatten, 2016 — fondation 2016 sur le site) ;
+  intermandat.ch (Intermandat SA, 1932 — fiduciaire fondée en 1932, depuis 93 ans, non un cabinet
+  d'avocats traditionnel).
+- **Autres réussites** (domaines de compétence uniquement) : alderwyss.com (Walder Wyss SA —
+  grand cabinet national, 26 domaines listés en FR — clé normalisée lstrip bug sur "walderwyss") ;
+  lm-law.ch (WLM Avocats, 6 domaines — clé normalisée depuis "wlm-law.ch") ; g-avocats.ch
+  (Wilhelm Avocats SA, Lausanne — 10 domaines) ; m-legal.ch (WM Legal / Waeber Penet, Genève —
+  8 domaines incluant droit français) ; aser-avocats.ch (Marcel Waser Avocats, Lausanne — 7
+  domaines, clé depuis "waser-avocats.ch") ; hitecase.com (White & Case Genève — commerce
+  international / OMC / arbitrage, bureau GE uniquement, clé lstrip "whitecase.com") ;
+  ithersworldwide.com (Withers Genève — 13 domaines page Genève, clé lstrip "withersworldwide") ;
+  est-avocats.fr (West Avocats — cabinet français avec bureau Lausanne, 6 domaines du site FR) ;
+  ivt-legal.ch (Ingrid Van Tongerloo, civil/pénal/administratif) ; etudeaz.ch (Aesane Ziegler,
+  7 domaines) ; legalex.ch (LEGALEX Avocats, 6 domaines).
+- **Notes de rigueur** : alderwyss.com et hitecase.com/ithersworldwide.com : clés normalisées
+  dues au bug lstrip('www.') dans extract_domain() de build.py — les clés dans le cache
+  correspondent bien aux formes normalisées utilisées par build.py. intermandat.ch est une
+  fiduciaire (pas stricto sensu un cabinet d'avocats) mais le site est présent dans les données
+  CSV GE — marqué en succès avec note. Pour White & Case et Withers, chiffres globaux du réseau
+  exclus ; seuls les domaines et informations spécifiques au bureau de Genève retenus.
+- **Échecs** : reichenbach@waser-avocats.ch (adresse e-mail dans le champ site_web) ;
+  raphaelguisan.ch (site redirige vers gh-avocats.ch depuis 2025, pas de faits propres) ;
+  avocat-vertesi.ch (contenu vide au fetch) ; personne-de-confiance.com (service de médiation,
+  pas de cabinet d'avocats, pas de faits chiffrés).
+- **Totaux cumulés** : **346 réussites / 118 échecs / 464 testés** sur 486 domaines connus
+  (GE + VD). Il reste **22 domaines non testés** dans la liste connue (~1 lot).
+  Taux de réussite : ~74.6% (346 / 464).
+- Rebuild complet OK (66 156 fichiers HTML, sitemap 23 509 URLs, échantillon de 40 fichiers
+  sans artefact Jinja détecté).

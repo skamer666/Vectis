@@ -1116,6 +1116,22 @@
     "baudraz-torchio.ch": {
       "reason": "Contenu vide au fetch (rendu JavaScript probable, deux URLs testées : accueil et contact.php)",
       "tested_date": "2026-07-23"
+    },
+    "reichenbach@waser-avocats.ch": {
+      "reason": "adresse email dans le champ site_web (non une URL)",
+      "checked_date": "2026-07-23"
+    },
+    "raphaelguisan.ch": {
+      "reason": "aucun fait chiffré ; site redirige désormais vers gh-avocats.ch (fusion Guisan Hämmerli 2025)",
+      "checked_date": "2026-07-23"
+    },
+    "avocat-vertesi.ch": {
+      "reason": "page vide (fetch retourné vide)",
+      "checked_date": "2026-07-23"
+    },
+    "personne-de-confiance.com": {
+      "reason": "service de médiation/personne de confiance, pas de cabinet d'avocats traditionnel ; pas d'année de fondation ni domaines juridiques classiques",
+      "checked_date": "2026-07-23"
     }
   },
   "ducrestheggli.com": {
@@ -7214,5 +7230,268 @@
     "source_url": "https://raphaelhammerli.ch/",
     "fetched_date": "2026-07-23",
     "notes": "Site personnel de Me Raphaël Hämmerli, associé de Guisan Hämmerli Avocats (gh-avocats.ch). Spécialiste en droit immobilier (notamment droit du bail)."
+  },
+  "alderwyss.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Arbitrage",
+      "Art et divertissement",
+      "Bancaire, financier et assurance",
+      "Clients Privés",
+      "Contentieux",
+      "Contrats commerciaux",
+      "Corporate / M&A",
+      "Criminalité économique et enquêtes internes",
+      "Données et technologie",
+      "Droit de la concurrence",
+      "Droit du travail, rémunérations, mobilité et assurances sociales",
+      "Droit fiscal",
+      "Droit public et litiges",
+      "Énergie et infrastructures",
+      "ESG & Durabilité",
+      "Immobilier & construction",
+      "Marchés des capitaux",
+      "Marchés publics",
+      "Philanthropie et organisations internationales",
+      "Private equity et fonds",
+      "Propriété intellectuelle",
+      "Restructurations et insolvabilité",
+      "Santé et sciences de la vie",
+      "Services notariaux",
+      "Sport",
+      "Start-ups et Venture capital"
+    ],
+    "source_url": "https://www.walderwyss.com/fr/domaines-de-competence",
+    "fetched_date": "2026-07-23",
+    "note": "Cabinet Walder Wyss SA — grand cabinet national (6 sites). Domaine normalisé via lstrip bug."
+  },
+  "aeberavocats.ch": {
+    "founding_year": 2006,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail, conventions collectives et plans sociaux",
+      "Droit administratif, collectivités publiques et fonction publique",
+      "Responsabilité civile et assurances",
+      "Assurances sociales et prévoyance professionnelle",
+      "Droit de la santé et droit médical",
+      "Droit immobilier et de la construction",
+      "Droit des associations et fondations",
+      "Droit des contrats et des sociétés",
+      "Droit des successions",
+      "Poursuites pour dettes et faillite, séquestres",
+      "Droit pénal",
+      "Droit de la personnalité, des médias, protection des données et transparence"
+    ],
+    "source_url": "https://www.waeberavocats.ch/etude",
+    "fetched_date": "2026-07-23"
+  },
+  "lm-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille – Patrimoine",
+      "Droit des affaires – Droit des contrats",
+      "Droit administratif",
+      "Droit pénal",
+      "Avis de droit & audit juridique",
+      "Négociation"
+    ],
+    "source_url": "https://wlm-law.ch/domaine-dactivites/",
+    "fetched_date": "2026-07-23"
+  },
+  "g-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Droit des sociétés",
+      "Cession et reprise d'entreprise",
+      "Restructuration d'entreprise",
+      "Litiges en droit commercial",
+      "Droit des contrats",
+      "Droit du travail",
+      "Droit du bail",
+      "Litiges en droit contractuel",
+      "Droit de la construction et de l'immobilier"
+    ],
+    "source_url": "https://www.wg-avocats.ch/en/our-law-firm/",
+    "fetched_date": "2026-07-23",
+    "note": "Cabinet Wilhelm Avocats SA, Lausanne"
+  },
+  "m-legal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial et des sociétés",
+      "Droit immobilier et de la construction",
+      "Droit du travail",
+      "Fiscalité nationale et internationale",
+      "Propriété intellectuelle",
+      "Droit de la famille",
+      "Droit français de la famille",
+      "Droit français général"
+    ],
+    "source_url": "https://www.wm-legal.ch/en/",
+    "fetched_date": "2026-07-23",
+    "note": "Cabinet Waeber Penet (Maitre), Genève"
+  },
+  "aser-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit des contrats",
+      "Droit pénal",
+      "Droit civil",
+      "Droit des poursuites et faillites",
+      "Droit administratif et public",
+      "Droit de la personnalité"
+    ],
+    "source_url": "https://www.waser-avocats.ch/domaines-de-competences/",
+    "fetched_date": "2026-07-23",
+    "note": "Cabinet Marcel Waser Avocats, Lausanne"
+  },
+  "hitecase.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Commerce international et politique commerciale",
+      "Règlement des différends OMC",
+      "Arbitrage international"
+    ],
+    "source_url": "https://www.whitecase.com/locations/emea/geneva",
+    "fetched_date": "2026-07-23",
+    "note": "White & Case LLP, bureau de Genève. Présence depuis les années 2000 (vague). Pratiques spécifiques au bureau GE."
+  },
+  "ithersworldwide.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Banque et finance",
+      "Contentieux commerciaux",
+      "Divorce et famille",
+      "Emploi",
+      "Immigration",
+      "Arbitrage international",
+      "Fonds d'investissement",
+      "Protection de la propriété intellectuelle et des données",
+      "Clients privés",
+      "Fiscalité",
+      "Litiges en matière de trusts et de succession",
+      "Enquêtes et défense des cadres",
+      "Immobilier"
+    ],
+    "source_url": "https://www.withersworldwide.com/fr-fr/nos-implantations/l-europe/geneve",
+    "fetched_date": "2026-07-23",
+    "note": "Withers, bureau de Genève. Pas d'année ni effectif suisse explicite."
+  },
+  "est-avocats.fr": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit du travail",
+      "Droit du cheval",
+      "Droit international",
+      "Droit immobilier",
+      "Audit des risques et gestion des crises"
+    ],
+    "source_url": "https://www.west-avocats.fr/",
+    "fetched_date": "2026-07-23",
+    "note": "Cabinet français (Paris/Caen) avec bureau à Lausanne. Domaines extraits du site français."
+  },
+  "borlatavocate.ch": {
+    "founding_year": 2020,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Médiation familiale",
+      "Séparation et divorce à l'amiable"
+    ],
+    "source_url": "https://borlatavocate.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "ivt-legal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit pénal",
+      "Droit administratif"
+    ],
+    "source_url": "https://www.ivt-legal.ch/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "borgeaud-avocat.ch": {
+    "founding_year": 2025,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Procédure civile et arbitrage",
+      "Droit des contrats",
+      "Droit immobilier",
+      "Droit des poursuites et faillites",
+      "Droit pénal, y compris droit pénal économique"
+    ],
+    "source_url": "https://www.borgeaud-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "etudeaz.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit du bail",
+      "Droit de la copropriété / PPE",
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit pénal",
+      "Droit des contrats"
+    ],
+    "source_url": "https://www.etudeaz.ch/domaines.php",
+    "fetched_date": "2026-07-23"
+  },
+  "legalex.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit pénal",
+      "Droit des contrats",
+      "Droit des constructions",
+      "Droit des assurances",
+      "Recouvrement de créances"
+    ],
+    "source_url": "https://legalex.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "kalbermatten-avocat.ch": {
+    "founding_year": 2016,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit de la responsabilité civile et assurances",
+      "Droit pénal",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit des contrats",
+      "Droit des assurances sociales",
+      "Droit de la circulation routière",
+      "Droit de la construction"
+    ],
+    "source_url": "https://kalbermatten-avocat.ch/activites/",
+    "fetched_date": "2026-07-23"
+  },
+  "intermandat.ch": {
+    "founding_year": 1932,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Fiscalité",
+      "Révision / Audit",
+      "Services externalisés"
+    ],
+    "source_url": "https://intermandat.ch/en/",
+    "fetched_date": "2026-07-23",
+    "note": "Société fiduciaire (pas un cabinet d'avocats traditionnel). Fondée en 1932, +30 spécialistes."
   }
 }
