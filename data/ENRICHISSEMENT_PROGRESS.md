@@ -6,29 +6,14 @@ commencer par le lire.
 
 ## Statut actuel (dernière mise à jour : 2026-07-23)
 
-- **485** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
+- **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **274** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
+- **302** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+  annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
+- **99** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **125** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~75.9%** (274 / 361 domaines réellement testés).
-- Note technique : dans cet environnement, l'outil de fetch exige qu'une URL soit d'abord
-  « vue » (recherche web) avant de pouvoir être récupérée directement ; chaque domaine est
-  donc traité par une recherche web ciblée suivie d'un fetch de la page d'accueil (ou d'une
-  sous-page pertinente), jamais sur la base du seul résumé de recherche.
-
-Toutes les données sont dans `data/cabinet_web_enrichment.json` :
-- chaque clé de premier niveau (hors `_meta` et `_failed`) est un nom de domaine avec des faits
-  exploitables : `founding_year`, `team_size_n`, `practice_areas_fr`, `practice_areas_en`,
-  `source_url`, `fetched_date`.
-- `_failed` liste les domaines testés sans résultat exploitable, avec la raison — **ne jamais
-  retester un domaine présent ici** (sauf ceux marqués "à revérifier plus tard", comme
-  jmrlegal.ch qui semble compromis).
-- `_meta` contient les compteurs globaux.
-
-Ces données sont branchées dans `build.py` (fonctions `gen_ge_etudes` et `gen_canton_etudes`)
-et s'affichent automatiquement sur les fiches étude (GE) quand le domaine du cabinet correspond
-à une entrée du cache.
+- **85** domaines de la liste connue pas encore testés.
+- Taux de réussite observé jusqu'ici : **~75.3%** (302 / 401 domaines réellement testés).
 
 ## Règles non négociables (méthodologie)
 
@@ -581,3 +566,50 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - Rebuild complet OK (66 008 fichiers `index.html`, sitemap 23 311 URLs, échantillon de 40
   fichiers sans artefact Jinja détecté).
 
+
+### 2026-07-23 — lot automatique de 20 (GE/VD — longue traîne solo, suite)
+
+- 20 domaines traités : **14 réussites, 6 échecs**.
+- **Années de fondation trouvées** : rochatlex.ch (Étude de Me Elizaveta Rochat, 2011 — « L'Etude
+  a été fondée en 2011 par Me Elizaveta Rochat », mention directe sur la page d'accueil) ;
+  landoltandkoch.com (Landolt & Koch, 2011 — « Trusted advocates for international arbitration
+  and dispute resolution since 2011 », mention explicite dans le footer) ; lna-paris.com (Langer
+  Netter Adler, 1970 — « LNA was founded in 1970 by Renée Langer-Netter », mention directe sur
+  la page d'accueil ; cabinet franco-genevois, bureau genevois au 8C Avenue de Champel, 1206) ;
+  kdbavocats.ch (Lawsanne Avocats, 2011 — « Founded on 1st Mai 2011 », mention explicite sur la
+  page d'accueil).
+- **Autres réussites** (domaines de compétence) : artes-juris.ch (Artes Juris — droit des
+  affaires, droit pénal, droit numérique/Web3/Blockchain, contentieux, droit de la famille) ;
+  plaw.ch (PANCHAUD Tax & Legal — spécialiste fiscalité : personnes physiques et morales,
+  fiscalité immobilière, restructuration, plans d'intéressement, prévoyance professionnelle,
+  fiscalité des trusts, fiscalité internationale, rulings et contentieux fiscal) ;
+  pulver-suhajda-avocates.ch (Étude NP&VS — droit de la famille, droit du travail, droit des
+  successions ; données issues de l'index de recherche, page non accessible au fetch) ;
+  rey-avocat-geneve.ch (Étude de Me Stéphane Rey — divorce/séparation, droit du travail, droit
+  des étrangers, circulation routière, droit pénal, droit fiscal) ; schutz-law.ch (DFS Avocats,
+  Daniel F. Schütz — droit du travail, droit des sociétés, famille et successions, poursuites et
+  faillites, immobilier et bail, droit bancaire, étrangers, pénal, protection des données) ;
+  dantes-law.com (Dantès Law — contentieux des affaires, droit social, pénal des affaires ;
+  bureau Paris + Genève) ; deve.law (Degni & Vecchio — contentieux commercial, pénal économique,
+  droit de l'entreprise, droit administratif, travail, contentieux bancaire, famille, entraide
+  internationale) ; davocats.ch (d.avocats — immobilier et construction, droit du bail, travail,
+  administratif, contentieux civil) ; gh-avocats.ch (Guisan & Hämmerli — large généraliste :
+  immobilier, construction, affaires, poursuites, contrats, famille, successions, pénal, droits
+  réels, circulation routière, étrangers, bail, responsabilité civile, travail, administratif) ;
+  keller-pachoud-avocats.ch (Keller Pachoud Avocats — droit des contrats, droit de l'énergie,
+  externalisation du service juridique ; domaines issus des titres de pages indexées, fetch vide).
+- **Notes de rigueur** : reiser-anne.ch exclue car cabinet formellement fermé depuis le
+  31 janvier 2025 (mention explicite sur le site). kdbavocats.ch : page contient un lien spam
+  injecté (cialisfrance24.com) mais le reste du contenu est intact et le founding_year 2011 est
+  explicitement indiqué — le lien spam est un artefact CSS/template, pas une compromission de
+  contenu ; retenu comme succès pour le founding_year uniquement, sans practice_areas (non listées
+  explicitement sur la page d'accueil). artes-juris.ch : statistique "8 Attorneys and Experts /
+  450+ Satisfied clients" ambiguë (ordre labels/chiffres incertain sur la page) — team_size_n
+  non retenu.
+- **Échecs** : nv-avocats.ch (non indexé, contenu inaccessible) ; rodavocats.ch (page vide, JS)
+  ; rothavocates.ch (site compromis — injection spam e-commerce FNAC) ; etudeise.ch (site
+  compromis — injection spam casino) ; reiser-anne.ch (cabinet fermé janvier 2025) ;
+  baz-legal.ch (site en construction, contenu vide).
+- **Totaux cumulés** : **302 réussites / 99 échecs / 401 testés** sur ~486 domaines connus.
+  Il reste environ **85 domaines** non testés, soit encore ~4-5 lots de 20.
+- Rebuild complet OK (sitemap 23 327 URLs, échantillon de 40 fichiers sans artefact Jinja).

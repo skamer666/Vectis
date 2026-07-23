@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "total_success": 264,
-    "total_failed": 93,
-    "total_tested": 341,
+    "total_success": 302,
+    "total_failed": 99,
+    "total_tested": 401,
     "last_updated": "2026-07-23",
-    "total_done": 274,
+    "total_done": 302,
     "total_domains_found": 486,
-    "total_enriched": 288
+    "total_enriched": 302
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -1032,6 +1032,30 @@
     "sfalegal.com": {
       "reason": "URL non accessible via l'outil de fetch (hors de la liste de provenance malgré recherche web)",
       "date": "2026-07-23"
+    },
+    "nv-avocats.ch": {
+      "reason": "site non indexé, contenu inaccessible",
+      "checked_date": "2026-07-23"
+    },
+    "rodavocats.ch": {
+      "reason": "page vide au fetch (contenu JS non rendu)",
+      "checked_date": "2026-07-23"
+    },
+    "rothavocates.ch": {
+      "reason": "site compromis (injection spam e-commerce FNAC)",
+      "checked_date": "2026-07-23"
+    },
+    "etudeise.ch": {
+      "reason": "site compromis (injection spam casino)",
+      "checked_date": "2026-07-23"
+    },
+    "reiser-anne.ch": {
+      "reason": "cabinet fermé depuis le 31 janvier 2025",
+      "checked_date": "2026-07-23"
+    },
+    "baz-legal.ch": {
+      "reason": "site en construction, contenu vide",
+      "checked_date": "2026-07-23"
     }
   },
   "ducrestheggli.com": {
@@ -6322,5 +6346,287 @@
     "source_url": "https://www.sekkiouavocat.ch/me-mourad-sekkiou.html",
     "fetched_date": "2026-07-23",
     "notes": "Me Mourad Sekkiou, brevet avocat 1987. Associé GRAZ & SEKKIOU de 1999 à 2014, puis indépendant. Cabinet généraliste."
+  },
+  "lna-paris.com": {
+    "founding_year": 1970,
+    "practice_areas_fr": [
+      "Droit des sociétés et droit des affaires",
+      "Activités économiques et commerciales",
+      "Nouvelles technologies et énergies renouvelables",
+      "Fiscalité et ingénierie patrimoniale",
+      "Responsabilité et risques industriels",
+      "Droit social",
+      "Contentieux et arbitrage"
+    ],
+    "practice_areas_en": [
+      "Corporate and business law",
+      "Commercial activities",
+      "New technologies and renewable energy",
+      "Taxation and wealth",
+      "Contractual liability and industrial risks",
+      "Social and employment law",
+      "Litigation and arbitration"
+    ],
+    "source_url": "https://www.lna-paris.com/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "artes-juris.ch": {
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit pénal",
+      "Droit numérique / Web3 / Blockchain",
+      "Contentieux et arbitrage",
+      "Droit de la famille",
+      "Droit de l'immobilier"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Criminal law",
+      "Digital law / Web3 / Blockchain",
+      "Litigation and arbitration",
+      "Family law",
+      "Real estate law"
+    ],
+    "source_url": "https://artes-juris.ch/en",
+    "fetched_date": "2026-07-23"
+  },
+  "plaw.ch": {
+    "practice_areas_fr": [
+      "Fiscalité des personnes physiques",
+      "Fiscalité des personnes morales",
+      "Fiscalité immobilière",
+      "Création et restructuration d'entreprise",
+      "Plans d'intéressement",
+      "Prévoyance professionnelle",
+      "Fiscalité des trusts",
+      "Fiscalité internationale",
+      "Négociation et rulings fiscaux",
+      "Contentieux fiscal"
+    ],
+    "practice_areas_en": [
+      "Personal income tax",
+      "Corporate tax",
+      "Real estate taxation",
+      "Company formation and restructuring",
+      "Employee incentive plans",
+      "Professional pension",
+      "Trust taxation",
+      "International taxation",
+      "Tax negotiations and rulings",
+      "Tax litigation"
+    ],
+    "source_url": "https://plaw.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "pulver-suhajda-avocates.ch": {
+    "practice_areas_fr": [
+      "Droit de la famille (divorce, séparation, garde, pensions alimentaires)",
+      "Droit du travail",
+      "Droit des successions"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Employment law",
+      "Inheritance law"
+    ],
+    "source_url": "https://pulver-suhajda-avocates.ch/fr/",
+    "fetched_date": "2026-07-23"
+  },
+  "rey-avocat-geneve.ch": {
+    "practice_areas_fr": [
+      "Divorce et séparation",
+      "Droit du travail",
+      "Droit des étrangers",
+      "Droit de la circulation routière",
+      "Droit pénal",
+      "Droit fiscal"
+    ],
+    "practice_areas_en": [
+      "Divorce and separation",
+      "Employment law",
+      "Immigration law",
+      "Road traffic law",
+      "Criminal law",
+      "Tax law"
+    ],
+    "source_url": "https://www.rey-avocat-geneve.ch/activites-de-letude-de-me-stephane-rey/",
+    "fetched_date": "2026-07-23"
+  },
+  "rochatlex.ch": {
+    "founding_year": 2011,
+    "practice_areas_fr": [
+      "Droit des étrangers",
+      "Droit des séquestres (pénal et civil)",
+      "Contentieux bancaire et financier",
+      "Droit de la famille",
+      "Rédaction de documents juridiques"
+    ],
+    "practice_areas_en": [
+      "Immigration law",
+      "Civil and criminal seizures",
+      "Banking and financial litigation",
+      "Family law",
+      "Drafting of legal documents"
+    ],
+    "source_url": "https://rochatlex.ch/services-2/",
+    "fetched_date": "2026-07-23"
+  },
+  "schutz-law.ch": {
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit des sociétés et associations",
+      "Droit de la famille et des successions",
+      "Droit des poursuites et faillites",
+      "Droit immobilier et du bail",
+      "Droit bancaire et financier",
+      "Droit des étrangers",
+      "Droit pénal",
+      "Protection des données"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Company and association law",
+      "Family and inheritance law",
+      "Debt collection and bankruptcy",
+      "Real estate law and leases",
+      "Banking and finance law",
+      "Foreigners law",
+      "Criminal law",
+      "Data protection"
+    ],
+    "source_url": "https://schutz-law.ch/en/home/",
+    "fetched_date": "2026-07-23"
+  },
+  "landoltandkoch.com": {
+    "founding_year": 2011,
+    "practice_areas_fr": [
+      "Arbitrage international",
+      "Droit commercial international",
+      "Droit pénal économique international",
+      "Droit bancaire suisse"
+    ],
+    "practice_areas_en": [
+      "International arbitration",
+      "International commercial law",
+      "International white-collar criminal law",
+      "Swiss banking law"
+    ],
+    "source_url": "https://landoltandkoch.com/",
+    "fetched_date": "2026-07-23"
+  },
+  "dantes-law.com": {
+    "practice_areas_fr": [
+      "Contentieux des affaires",
+      "Droit social",
+      "Droit pénal des affaires",
+      "Départs négociés de dirigeants"
+    ],
+    "practice_areas_en": [
+      "Business litigation",
+      "Employment law",
+      "Criminal business law",
+      "Executive departure negotiations"
+    ],
+    "source_url": "https://dantes-law.com/fr/notre-equipe/",
+    "fetched_date": "2026-07-23"
+  },
+  "deve.law": {
+    "practice_areas_fr": [
+      "Contentieux commercial",
+      "Droit pénal économique",
+      "Droit de l'entreprise",
+      "Droit administratif",
+      "Droit du travail",
+      "Contentieux bancaire",
+      "Contentieux de la famille",
+      "Droit international pénal et entraide judiciaire"
+    ],
+    "practice_areas_en": [
+      "Commercial litigation",
+      "Economic criminal law",
+      "Corporate law",
+      "Administrative law",
+      "Labour law",
+      "Banking litigation",
+      "Family litigation",
+      "International criminal law and mutual assistance"
+    ],
+    "source_url": "https://www.deve.law/en/home/",
+    "fetched_date": "2026-07-23"
+  },
+  "davocats.ch": {
+    "practice_areas_fr": [
+      "Droit immobilier et de la construction",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit administratif",
+      "Contentieux civil"
+    ],
+    "practice_areas_en": [
+      "Real estate and construction law",
+      "Lease law",
+      "Labour law",
+      "Administrative law",
+      "Civil litigation"
+    ],
+    "source_url": "https://www.davocats.ch/en",
+    "fetched_date": "2026-07-23"
+  },
+  "kdbavocats.ch": {
+    "founding_year": 2011,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "http://kdbavocats.ch/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "gh-avocats.ch": {
+    "practice_areas_fr": [
+      "Droit immobilier et de la construction",
+      "Droit des affaires",
+      "Droit des poursuites",
+      "Droit des contrats",
+      "Droit de la famille",
+      "Droit des successions",
+      "Droit pénal",
+      "Droits réels",
+      "Droit de la circulation routière",
+      "Droit des étrangers",
+      "Droit du bail",
+      "Droit de la responsabilité civile",
+      "Droit du travail",
+      "Droit administratif"
+    ],
+    "practice_areas_en": [
+      "Real estate and construction law",
+      "Business law",
+      "Debt collection law",
+      "Contract law",
+      "Family law",
+      "Inheritance law",
+      "Criminal law",
+      "Property law",
+      "Road traffic law",
+      "Immigration law",
+      "Lease law",
+      "Civil liability law",
+      "Labour law",
+      "Administrative law"
+    ],
+    "source_url": "https://www.gh-avocats.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "keller-pachoud-avocats.ch": {
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit de l'énergie",
+      "Externalisation du service juridique"
+    ],
+    "practice_areas_en": [
+      "Contract law",
+      "Energy law",
+      "Legal department outsourcing"
+    ],
+    "source_url": "https://keller-pachoud-avocats.ch/",
+    "fetched_date": "2026-07-23"
   }
 }
