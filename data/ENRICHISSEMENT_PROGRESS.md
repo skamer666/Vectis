@@ -613,3 +613,52 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Totaux cumulés** : **302 réussites / 99 échecs / 401 testés** sur ~486 domaines connus.
   Il reste environ **85 domaines** non testés, soit encore ~4-5 lots de 20.
 - Rebuild complet OK (sitemap 23 327 URLs, échantillon de 40 fichiers sans artefact Jinja).
+
+
+### 2026-07-23 — lot automatique de 20 (GE/VD — longue traîne solo et petits cabinets, suite)
+
+- 20 domaines traités : **15 réussites, 5 échecs**.
+- **Années de fondation trouvées** : avocats-lawyers.ch (Bénédict // Bernel // Capt, 1997 —
+  mention directe sur la page d'accueil du cabinet à Lausanne et Aigle) ; kdbtavocats.ch
+  (Lawsanne Avocats, 2011 — alias de kdbavocats.ch, même fondation 2011 confirmée sur le site) ;
+  reyavocats.ch (Rey Avocats Sàrl, 2021 — fondation indiquée sur la page d'accueil) ;
+  primalex.ch (PRIMALEX – Haymoz Avocat, 2026 — cabinet récent, mention directe) ;
+  avocats-nyon.ch (MGB Avocats Nyon, 1974 — « depuis 1974 », mention explicite sur le site) ;
+  graenicher.law (GRAENICHER., 2024 — fondation indiquée sur le site) ; lapaix6.ch (Etude de la
+  Paix 6 – David Abikzer, 2012 — « fondée en 2012 » sur la page d'accueil) ; hdb-law.com
+  (HdB-Law – Hugues du Bois de Dunilac, 2023 — « In November 2023, Hugues du Bois de Dunilac
+  decided to put his legal experience at the service of demanding clients within his own firm »,
+  mention directe sur le site) ; bclegal.ch (BC Legal, 2016 — « L'Etude BC Legal est née en 2016
+  de la fusion des Etudes CLegal créée par Me Nadia Calabria... et MBLegal fondée par Me Myriam
+  Bitschy », mention directe sur la page d'accueil).
+- **Taille d'équipe trouvée** : avocats-nyon.ch (MGB Avocats Nyon, 2 avocats — confirmé sur le
+  site) ; bclegal.ch (BC Legal, 3 associées — Me Bitschy, Me Calabria, Me Safaï, mentionnées
+  explicitement).
+- **Autres réussites** (domaines de compétence uniquement) : gros-waltenspuhl.ch (Gros &
+  Waltenspühl — droit commercial, sociétés, contrats, immobilier, trusts/successions, fiscal
+  suisse et international, concurrence, sport, étrangers, travail, contentieux/arbitrage, PI) ;
+  aebilaw.ch (Aebilaw – Me Florence Aebi — droit des affaires, gestion de sociétés, arbitrage,
+  droit de l'art, immigration, famille, égalité, violence domestique, sociétés, poursuites, pénal
+  économique, immobilier) ; sbplegal.ch (SBP Legal – Me Stéfanie Brun — travail, assurances
+  sociales, famille, contrats, pénal) ; avo-k.ch (Elsig & Fivian — RC, assurances, médical,
+  prévoyance, montagne/ski, construction, circulation routière, pénal, travail, contrats, art) ;
+  nouvjur.ch (NOUVJUR SA – Jean-Michel Duc — assurances sociales, assurances privées, RC, travail,
+  recouvrement) ; lavoielegale.ch (La Voie Légale – Me Pavel Vasilevski — contentieux, arbitrage,
+  exécution forcée, planification patrimoniale, étrangers, sanctions, pénal économique).
+- **Notes de rigueur** : kdbtavocats.ch est un alias de kdbavocats.ch (même cabinet Lawsanne
+  Avocats), traité comme entrée distincte dans le cache car il apparaît comme une entrée distincte
+  dans les CSV ; aucune practice_areas ajoutée car non listées explicitement (cohérent avec
+  kdbavocats.ch). hdb-law.com est un cabinet boutique très spécialisé (life sciences, produits,
+  marketing digital) — domaines inhabituels mais explicitement listés sur le site. gros-waltenspuhl.ch :
+  l'année 1981 mentionnée par des tiers (annuaires) n'est pas confirmée sur le site propre du
+  cabinet (page JS non accessible au fetch) — founding_year laissé à null. Pour primalex.ch :
+  founding_year=2026 est inhabituel mais explicitement mentionné sur le site pour ce cabinet très
+  récent.
+- **Échecs** : jm-avocats.ch (aucune présence web indexée) ; pirrello.legal (site non accessible
+  via fetch, URL hors provenance) ; bogensbergerlaw.ch (site WordPress non configuré — page
+  « Hello world! » par défaut, créé mai 2025) ; etude-lubishtani.ch (site non indexé, URL non
+  accessible) ; ides.pro (domaine expiré — redirige vers expireddomains.com).
+- **Totaux cumulés** : **317 réussites / 104 échecs / 421 testés** sur ~486 domaines connus
+  (GE + VD). Il reste environ **65 domaines** non testés, soit ~3 lots de 20.
+- Rebuild complet OK (65 336 fichiers HTML, sitemap 22 667 URLs, échantillon de 40 fichiers
+  sans artefact Jinja détecté).

@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "total_success": 302,
-    "total_failed": 99,
-    "total_tested": 401,
+    "total_success": 317,
+    "total_failed": 104,
+    "total_tested": 421,
     "last_updated": "2026-07-23",
-    "total_done": 302,
+    "total_done": 317,
     "total_domains_found": 486,
-    "total_enriched": 302
+    "total_enriched": 317
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -1056,6 +1056,26 @@
     "baz-legal.ch": {
       "reason": "site en construction, contenu vide",
       "checked_date": "2026-07-23"
+    },
+    "jm-avocats.ch": {
+      "reason": "aucune présence web indexée – site inaccessible",
+      "tested_date": "2026-07-23"
+    },
+    "pirrello.legal": {
+      "reason": "site non accessible via fetch, URL hors provenance",
+      "tested_date": "2026-07-23"
+    },
+    "bogensbergerlaw.ch": {
+      "reason": "site WordPress non configuré (page Hello world! par défaut, créé mai 2025)",
+      "tested_date": "2026-07-23"
+    },
+    "etude-lubishtani.ch": {
+      "reason": "site non indexé, URL non accessible via l'outil de fetch",
+      "tested_date": "2026-07-23"
+    },
+    "ides.pro": {
+      "reason": "domaine expiré — redirige vers expireddomains.com (domain parking)",
+      "tested_date": "2026-07-23"
     }
   },
   "ducrestheggli.com": {
@@ -6628,5 +6648,258 @@
     ],
     "source_url": "https://keller-pachoud-avocats.ch/",
     "fetched_date": "2026-07-23"
+  },
+  "gros-waltenspuhl.ch": {
+    "name": "Gros & Waltenspühl",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "gros-waltenspuhl.ch",
+    "note": "Domaines extraits de la page Domaines de spécialisation du site du cabinet",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit commercial",
+      "droit des sociétés",
+      "droit des contrats",
+      "droit immobilier",
+      "droit des trusts et des successions",
+      "droit fiscal suisse et international",
+      "droit de la concurrence",
+      "droit du sport",
+      "droit des étrangers",
+      "droit du travail",
+      "contentieux et arbitrage",
+      "propriété intellectuelle"
+    ]
+  },
+  "aebilaw.ch": {
+    "name": "Aebilaw – Me Florence Aebi",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "aebilaw.ch",
+    "note": "Domaines extraits de la page Domaines d'activité du site du cabinet (page 1/2)",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit des affaires",
+      "mandats de gestion de sociétés",
+      "arbitrage",
+      "droit de l'art",
+      "droit de l'immigration",
+      "mariages et divorces",
+      "droit de l'égalité",
+      "violence domestique",
+      "droit des sociétés",
+      "poursuites, faillites et concordats",
+      "droit pénal et pénal économique",
+      "immobilier"
+    ]
+  },
+  "avocats-lawyers.ch": {
+    "name": "Bénédict // Bernel // Capt",
+    "founding_year": 1997,
+    "team_size_n": null,
+    "source": "avocats-lawyers.ch",
+    "note": "Fondation 1997 indiquée sur le site du cabinet",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit des contrats",
+      "droit immobilier",
+      "droit de la construction",
+      "aménagement du territoire",
+      "droit administratif",
+      "bail",
+      "droit de la famille",
+      "droit fiscal",
+      "droit pénal et pénal économique",
+      "responsabilité civile",
+      "assurances sociales"
+    ]
+  },
+  "sbplegal.ch": {
+    "name": "SBP Legal – Me Stéfanie Brun",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "sbplegal.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit du travail",
+      "assurances sociales",
+      "droit de la famille",
+      "droit des contrats",
+      "droit pénal"
+    ]
+  },
+  "kdbtavocats.ch": {
+    "name": "Lawsanne Avocats",
+    "founding_year": 2011,
+    "team_size_n": null,
+    "source": "kdbtavocats.ch",
+    "note": "Alias de kdbavocats.ch – même cabinet (Lawsanne Avocats), fondation 2011 indiquée sur site",
+    "fetched_date": "2026-07-23"
+  },
+  "reyavocats.ch": {
+    "name": "Rey Avocats Sàrl",
+    "founding_year": 2021,
+    "team_size_n": null,
+    "source": "reyavocats.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit des contrats",
+      "droit de la famille",
+      "droit immobilier",
+      "procédure civile"
+    ]
+  },
+  "primalex.ch": {
+    "name": "PRIMALEX – Haymoz Avocat",
+    "founding_year": 2026,
+    "team_size_n": null,
+    "source": "primalex.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit civil",
+      "droit pénal",
+      "droit public"
+    ]
+  },
+  "avo-k.ch": {
+    "name": "Elsig & Fivian",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "avo-k.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "responsabilité civile",
+      "assurances",
+      "droit médical",
+      "prévoyance",
+      "droit de la montagne et du ski",
+      "droit de la construction",
+      "circulation routière",
+      "droit pénal",
+      "droit du travail",
+      "droit des contrats",
+      "droit de l'art"
+    ]
+  },
+  "nouvjur.ch": {
+    "name": "NOUVJUR SA – Jean-Michel Duc",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "nouvjur.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "assurances sociales",
+      "assurances privées",
+      "responsabilité civile",
+      "droit du travail",
+      "recouvrement de créances"
+    ]
+  },
+  "avocats-nyon.ch": {
+    "name": "MGB Avocats Nyon",
+    "founding_year": 1974,
+    "team_size_n": 2,
+    "source": "avocats-nyon.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit des successions",
+      "bail",
+      "droit administratif",
+      "droit commercial",
+      "droit pénal",
+      "droit du travail",
+      "assurances",
+      "droit de la construction",
+      "poursuites et faillites"
+    ]
+  },
+  "graenicher.law": {
+    "name": "GRAENICHER.",
+    "founding_year": 2024,
+    "team_size_n": null,
+    "source": "graenicher.law",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit pénal",
+      "droit de l'aviation"
+    ]
+  },
+  "lapaix6.ch": {
+    "name": "Etude de la Paix 6 – David Abikzer",
+    "founding_year": 2012,
+    "team_size_n": null,
+    "source": "lapaix6.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit commercial",
+      "droit des contrats",
+      "circulation routière",
+      "droit des sociétés",
+      "droit pénal",
+      "droit bancaire",
+      "propriété intellectuelle",
+      "droit des étrangers",
+      "droit du sport",
+      "poursuites et faillites",
+      "droit de la famille"
+    ]
+  },
+  "hdb-law.com": {
+    "name": "HdB-Law – Hugues du Bois de Dunilac",
+    "founding_year": 2023,
+    "team_size_n": null,
+    "source": "hdb-law.com",
+    "note": "Fondation novembre 2023 indiquée sur le site du cabinet",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "life sciences et santé",
+      "réglementation des produits",
+      "responsabilité civile (produits)",
+      "marketing digital et e-commerce",
+      "contrats commerciaux",
+      "protection des données",
+      "compliance"
+    ]
+  },
+  "lavoielegale.ch": {
+    "name": "La Voie Légale – Me Pavel Vasilevski",
+    "founding_year": null,
+    "team_size_n": null,
+    "source": "lavoielegale.ch",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "contentieux",
+      "arbitrage",
+      "exécution forcée",
+      "planification patrimoniale",
+      "droit des étrangers",
+      "sanctions",
+      "droit pénal économique"
+    ]
+  },
+  "bclegal.ch": {
+    "name": "BC Legal",
+    "founding_year": 2016,
+    "team_size_n": 3,
+    "source": "bclegal.ch",
+    "note": "Fondation 2016 explicitement indiquée sur le site. Fusion de CLegal (Calabria) et MBLegal (Bitschy)",
+    "fetched_date": "2026-07-23",
+    "practice_areas_fr": [
+      "droit du travail",
+      "bail",
+      "droit des contrats",
+      "droit de la famille",
+      "droit des successions",
+      "poursuites et faillites",
+      "responsabilité civile",
+      "droits réels",
+      "droit des étrangers",
+      "sécurité sociale",
+      "droit pénal",
+      "droit pénal économique",
+      "procédure pénale"
+    ]
   }
 }
