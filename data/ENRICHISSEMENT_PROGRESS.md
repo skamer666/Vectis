@@ -662,3 +662,49 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   (GE + VD). Il reste environ **65 domaines** non testés, soit ~3 lots de 20.
 - Rebuild complet OK (65 336 fichiers HTML, sitemap 22 667 URLs, échantillon de 40 fichiers
   sans artefact Jinja détecté).
+
+
+### 2026-07-23 — lot automatique 22 (GE/VD — longue traîne solo, avant-dernier lot de domaines connus)
+
+- 22 entrées traitées (20 domaines valides + 2 entrées invalides dans les CSV) : **12 réussites,
+  10 échecs**.
+- **Années de fondation trouvées** : etude-avocat.com (Rive Avocats, 2001 — « il a fondé l'étude
+  Rive Avocats en janvier 2001 », mention explicite dans la biographie de Me Abderrahim Razi) ;
+  etudetissieres.ch (Étude Tissières, 2025 — « Dès 2025 Avocate indépendante – Étude Tissières »,
+  biographie de Me Alexia Tissières) ; drpb.ch (Burkhalter Rechtsanwälte / Burkhalter Avocats,
+  1922 — « 1922 Dr. Armin Hodler fonde le cabinet à Berne », chronologie officielle ; succursale
+  Lausanne ouverte le 1er janvier 2026).
+- **Autres réussites** (domaines de compétence uniquement) : etude-adelia.ch (AdElia – Me
+  Nour-Aïda Bujard, Lausanne — famille, enfant/curatelle, pénal, travail, bail, poursuites) ;
+  benardavocats.ch (Bénard Avocats Sàrl – Me Guillaume Bénard, Montreux — famille, travail,
+  défense pénale, PI) ; casimiromartins-avocat.ch (Me Sara Casimiro Martins, Montreux — pénal,
+  construction, civil, assurances sociales, obligations, faillites) ; nravocate.ch (Natacha
+  Rickenbacher Avocate, Lausanne — bail, travail, PPE, famille, pénal, protection enfant) ;
+  dmplegal.ch (DMP Legal – Me Fabienne Delapierre, Lausanne — énergie, entreprise, marchés
+  publics, droit privé général) ; perspective-solution.ch (Perspective Solution Sàrl – Me Barbara
+  Regamey, St-Prex — administratif/communal, travail, bail, contrats, médiation, PCE) ;
+  avocat-oron.ch (Étude CMM – Me Caroline Matthey-Marchesi, Oron-la-Ville — famille, protection
+  adulte/enfant, contrats, bail, travail, successions, assurances sociales, poursuites, pénal/LAVI,
+  circulation routière, violences domestiques) ; lexinn.ch (LexInn sàrl, Morges — conseil
+  juridique, arbitrage/médiation international, expertise juridique, spécialité énergie et sport) ;
+  raphaelhammerli.ch (Me Raphaël Hämmerli, Yverdon-les-Bains — contrats, immobilier/construction,
+  pénal, famille/successions, poursuites, administratif).
+- **Notes de rigueur** : avocat-oron.ch mentionne « il y a sept ans » pour l'ancienneté —
+  durée relative, founding_year laissé à null. casimiromartins-avocat.ch n'a que « © 2023 by
+  MC & SC » — copyright de site, pas une année de fondation. antaria-legal.ch présentait un
+  rapport de parenté possible avec etude-adelia.ch (même avocate Me Nour-Aïda Bujard) mais le
+  site antaria-legal.ch est littéralement en construction (page blanche) — marqué en échec.
+  latourinternational.ch est un cabinet parisien (49 rue de Lisbonne, 75008 Paris) malgré le
+  .ch — exclu car non suisse.
+- **Échecs** : etude-eich.ch (sous-pages inaccessibles au fetch, accueil sans faits exploitables) ;
+  latourinternational.ch (cabinet français, non suisse) ; juriscausa.ch (aucune présence indexée) ;
+  antaria-legal.ch (site en construction) ; lawsanneavocats.ch (inaccessible directement ; données
+  déjà en cache sous kdbavocats.ch ; ancienne version kdbtavocats.ch montre des signes d'injection
+  spam cialisfrance24.com) ; homepage (entrée invalide CSV — non-domaine) ; groslimond-avocat.ch
+  (contenu vide, JS ; déjà traité sous groslimond-avocats.ch) ; redzepi-avocats.ch (contenu vide,
+  JS probable) ; etude@lion-or.ch (entrée invalide CSV — adresse e-mail) ; baudraz-torchio.ch
+  (contenu vide, JS probable).
+- **Totaux cumulés** : **329 réussites / 114 échecs / 443 testés** sur ~486 domaines connus
+  (GE + VD). Il reste environ **43 domaines** non testés, soit ~2 lots de 20.
+- Rebuild complet OK (66 128 fichiers HTML, sitemap 23 471 URLs, échantillon de 40 fichiers
+  sans artefact Jinja détecté).
