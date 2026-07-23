@@ -745,3 +745,36 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   Taux de réussite : ~74.6% (346 / 464).
 - Rebuild complet OK (66 156 fichiers HTML, sitemap 23 509 URLs, échantillon de 40 fichiers
   sans artefact Jinja détecté).
+
+
+### 2026-07-23 — lot automatique 24 (GE/VD — avant-dernier lot, 3 domaines restants après ce lot)
+
+- 20 domaines traités : **15 réussites, 5 échecs**.
+- **Années de fondation trouvées** : bourgeoisavocats.ch (1953 — "Fondée en 1953", cabinet genevois
+  de renom) ; codexavocats.ch (1962 — "depuis 1962", Lausanne) ; bvhlegal.ch/bvlegal.ch (2005 —
+  "DEPUIS 2005", Me Bender & Vogel, Monthey/Lausanne) ; etudelacote.com (2012 — "depuis 2012",
+  Nyon) ; heringavocats.com (2012 — "Fondée par Me Isabelle Hering en 2012", Nyon) ;
+  imhof-avocat.ch (2021 — "à titre indépendant, dès juin 2021").
+- **Taille d'équipe trouvée** : bvhlegal.ch (2 avocats-associés — "2 AVOCATS-ASSOCIÉS", explicite).
+- **Autres réussites** (domaines de compétence uniquement) : pache-henny-burdet.ch/phbavocats.ch
+  (10 domaines) ; merenyi-avocats.ch (6 domaines — famille/AI/successions/RC/contrats/circulation) ;
+  brenci.ch (5 domaines — droit douanier international, compliance AML/KYC) ; etudepetito.ch
+  (13 domaines — droit de la famille, pénal, circulation, étrangers) ; charpie.pro (6 domaines
+  — droit international des affaires, pénal international) ; laurentdamond.ch (7 domaines —
+  droit commercial, successions, bail, médiation) ; avocats-rumine.ch (11 domaines — cabinet
+  Dessemontet & Ghosn, Lausanne) ; besselegal.com (5 domaines — PI, immobilier, concurrence,
+  patrimoine, pénal économique) ; gillieronavocat.ch (6 domaines — PI, droit numérique, IA,
+  FinTech) ; heringavocats.com (7 domaines — TI, PI, protection des données, DPO externe).
+- **Notes de rigueur** : bourgeoisavocats.ch redirige vers bourgeoisavocats.com (clé CSV conservée) ;
+  bvhlegal.ch redirige vers bvlegal.ch (clé CSV conservée) ; pache-henny-burdet.ch redirige
+  vers phbavocats.ch (clé CSV conservée). Pour charpie.pro, inscription au barreau vaudois
+  depuis 1977 non retenue comme année de fondation (date personnelle ≠ création de l'étude).
+- **Échecs** : avocatchappaz.ch (aucune présence web indexée) ; bp-avocats.ch (aucune présence
+  web indexée) ; etude-saint-marc.ch, lexpro.ch, hofstetter-avocats.ch (contenu vide au fetch,
+  rendu JavaScript probable).
+- **Totaux cumulés** : **360 réussites / 123 échecs / 483 testés** sur 486 domaines connus.
+  Il reste **3 domaines non testés** dans la liste connue (dernier lot très partiel — peut être
+  combiné avec le démarrage de la phase de découverte des 18 autres cantons).
+  Taux de réussite : ~74.5% (360 / 483).
+- Rebuild complet OK (66 216 fichiers HTML, sitemap 23 593 URLs, échantillon de 40 fichiers
+  sans artefact Jinja détecté).

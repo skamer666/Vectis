@@ -1132,6 +1132,21 @@
     "personne-de-confiance.com": {
       "reason": "service de médiation/personne de confiance, pas de cabinet d'avocats traditionnel ; pas d'année de fondation ni domaines juridiques classiques",
       "checked_date": "2026-07-23"
+    },
+    "avocatchappaz.ch": {
+      "reason": "aucune présence web indexée"
+    },
+    "etude-saint-marc.ch": {
+      "reason": "contenu vide au fetch, rendu JavaScript probable"
+    },
+    "lexpro.ch": {
+      "reason": "contenu vide au fetch sur toutes les pages, rendu JavaScript probable"
+    },
+    "hofstetter-avocats.ch": {
+      "reason": "contenu vide au fetch sur toutes les pages, rendu JavaScript probable"
+    },
+    "bp-avocats.ch": {
+      "reason": "aucune présence web indexée"
     }
   },
   "ducrestheggli.com": {
@@ -7493,5 +7508,435 @@
     "source_url": "https://intermandat.ch/en/",
     "fetched_date": "2026-07-23",
     "note": "Société fiduciaire (pas un cabinet d'avocats traditionnel). Fondée en 1932, +30 spécialistes."
+  },
+  "bourgeoisavocats.ch": {
+    "founding_year": 1953,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Transactions commerciales et contrats",
+      "Sociétés, fusions-acquisitions et restructurations",
+      "Travail et assurances sociales",
+      "Immigration et installation en Suisse",
+      "Patrimoine, succession et planification",
+      "Famille et divorce",
+      "Santé et sciences de la vie",
+      "Innovation, propriété intellectuelle et concurrence",
+      "Litiges et représentation en justice",
+      "Médiation",
+      "Immobilier et aménagement du territoire",
+      "Fiscalité",
+      "Responsabilité et assurances"
+    ],
+    "practice_areas_en": [
+      "Commercial transactions and contracts",
+      "Companies, mergers and acquisitions",
+      "Labour and social insurance",
+      "Immigration and relocation to Switzerland",
+      "Estate and succession planning",
+      "Family law and divorce",
+      "Health and life sciences",
+      "Innovation, intellectual property and competition",
+      "Litigation and legal representation",
+      "Mediation",
+      "Real estate and land use planning",
+      "Tax law",
+      "Liability and insurance"
+    ],
+    "source_url": "https://www.bourgeoisavocats.com/",
+    "fetched_date": "2026-07-23",
+    "note": "CSV domain bourgeoisavocats.ch redirects to bourgeoisavocats.com"
+  },
+  "pache-henny-burdet.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit des contrats",
+      "droit commercial",
+      "cessions d'entreprises",
+      "droit du travail",
+      "responsabilité civile et assurances",
+      "droit de l'aménagement du territoire et des constructions",
+      "droit public et administratif",
+      "droit des poursuites et faillites",
+      "droit de la circulation routière",
+      "droit pénal"
+    ],
+    "practice_areas_en": [
+      "contract law",
+      "commercial law",
+      "business transfers",
+      "employment law",
+      "civil liability and insurance",
+      "land use planning and construction law",
+      "public and administrative law",
+      "prosecution and bankruptcy law",
+      "road traffic law",
+      "criminal law"
+    ],
+    "source_url": "https://phbavocats.ch/en",
+    "fetched_date": "2026-07-23",
+    "note": "CSV domain pache-henny-burdet.ch redirects to phbavocats.ch"
+  },
+  "merenyi-avocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille – divorce, séparation",
+      "assurances sociales et privées – rentes AI",
+      "droit des successions – droit de la filiation",
+      "responsabilité civile",
+      "droit des contrats (travail, bail, mandat)",
+      "droit de la circulation routière"
+    ],
+    "practice_areas_en": [
+      "family law – divorce, separation",
+      "social and private insurance – disability pensions",
+      "succession law – filiation",
+      "civil liability",
+      "contract law (employment, lease, mandate)",
+      "road traffic law"
+    ],
+    "source_url": "https://www.merenyi-avocats.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "brenci.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit douanier suisse, européen et international",
+      "compliance AML/KYC",
+      "contrats commerciaux internationaux",
+      "intermédiation financière OAR FSA/FSN",
+      "négociation professionnelle"
+    ],
+    "practice_areas_en": [
+      "Swiss, European and international customs law",
+      "AML/KYC compliance",
+      "international commercial contracts",
+      "financial intermediation OAR FSA/FSN",
+      "professional negotiation"
+    ],
+    "source_url": "https://brenci.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "imhof-avocat.ch": {
+    "founding_year": 2021,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit des successions",
+      "droit de la famille",
+      "droit pénal",
+      "droit pénal économique",
+      "droit bancaire",
+      "droit économique",
+      "droit des sociétés"
+    ],
+    "practice_areas_en": [
+      "succession law",
+      "family law",
+      "criminal law",
+      "economic criminal law",
+      "banking law",
+      "economic law",
+      "corporate law"
+    ],
+    "source_url": "https://imhof-avocat.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Étude de Me Alain Imhof fondée à titre indépendant dès juin 2021"
+  },
+  "etudepetito.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit du divorce",
+      "droit de la filiation",
+      "droit pénal",
+      "droit pénal militaire",
+      "droit de la circulation routière",
+      "droit pénal des mineurs",
+      "droit des contrats",
+      "droit du travail",
+      "droit du bail",
+      "droit des successions",
+      "droit des étrangers",
+      "droit de la protection de l'adulte et de l'enfant"
+    ],
+    "practice_areas_en": [
+      "family law",
+      "divorce law",
+      "filiation law",
+      "criminal law",
+      "military criminal law",
+      "road traffic law",
+      "juvenile criminal law",
+      "contract law",
+      "employment law",
+      "tenancy law",
+      "succession law",
+      "immigration law",
+      "adult and child protection law"
+    ],
+    "source_url": "https://etudepetito.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "charpie.pro": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "investissements et transactions internationaux",
+      "droit financier et bancaire",
+      "droit pénal international",
+      "nouvelles technologies et droits numériques",
+      "droit des sociétés et capital-investissement",
+      "lutte anti-corruption (FCPA, OCDE)"
+    ],
+    "practice_areas_en": [
+      "international investment and trade law",
+      "financial and banking law",
+      "international criminal law",
+      "new technologies and digital rights",
+      "corporate law and private equity",
+      "anti-bribery compliance (FCPA, OECD Convention)"
+    ],
+    "source_url": "https://charpie.pro/en/",
+    "fetched_date": "2026-07-23",
+    "note": "Me Pierre Charpié inscrit au barreau vaudois depuis 1977, premier avocat du canton informatisé (1983)"
+  },
+  "laurentdamond.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit commercial et des affaires",
+      "droit des successions",
+      "conflits de voisinage",
+      "droit du bail",
+      "droit de la famille et du divorce",
+      "médiation familiale et commerciale",
+      "droit du travail"
+    ],
+    "practice_areas_en": [
+      "commercial and business law",
+      "succession law",
+      "neighbourhood disputes",
+      "tenancy law",
+      "family law and divorce",
+      "family and commercial mediation",
+      "employment law"
+    ],
+    "source_url": "https://www.laurentdamond.ch/laurent-damond-avocat-mediateur-a-lausanne/",
+    "fetched_date": "2026-07-23"
+  },
+  "avocats-rumine.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit commercial et des contrats",
+      "droit de l'immobilier",
+      "droit des successions",
+      "droit des séparations et du divorce",
+      "droit administratif",
+      "droit pénal",
+      "droit de la circulation routière",
+      "droit des sociétés",
+      "droit de la construction",
+      "propriété intellectuelle",
+      "arbitrage international"
+    ],
+    "practice_areas_en": [
+      "commercial and contract law",
+      "real estate law",
+      "succession law",
+      "separation and divorce law",
+      "administrative law",
+      "criminal law",
+      "road traffic law",
+      "corporate law",
+      "construction law",
+      "intellectual property",
+      "international arbitration"
+    ],
+    "source_url": "http://www.avocats-rumine.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "etudelacote.com": {
+    "founding_year": 2012,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit des contrats",
+      "droit du travail",
+      "droit du bail",
+      "droit des successions",
+      "droit pénal",
+      "protection de la personnalité",
+      "séparation et divorce",
+      "protection de l'enfant"
+    ],
+    "practice_areas_en": [
+      "contract law",
+      "employment law",
+      "tenancy law",
+      "succession law",
+      "criminal law",
+      "personality protection",
+      "separation and divorce",
+      "child protection"
+    ],
+    "source_url": "https://www.etudelacote.com/",
+    "fetched_date": "2026-07-23",
+    "note": "Fondée en 2012, Nyon"
+  },
+  "besselegal.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "propriété intellectuelle",
+      "droit immobilier",
+      "droit de la concurrence",
+      "conseils en organisation et gestion du patrimoine",
+      "droit pénal économique et financier"
+    ],
+    "practice_areas_en": [
+      "intellectual property",
+      "real estate law",
+      "competition law",
+      "asset management advisory",
+      "economic and financial criminal law"
+    ],
+    "source_url": "https://www.besselegal.com/en/francois-besse/",
+    "fetched_date": "2026-07-23"
+  },
+  "gillieronavocat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "propriété intellectuelle",
+      "droit numérique/digital",
+      "protection des données",
+      "intelligence artificielle",
+      "informatique et technologies",
+      "FinTech"
+    ],
+    "practice_areas_en": [
+      "intellectual property",
+      "digital law",
+      "data protection",
+      "artificial intelligence",
+      "information technology",
+      "FinTech"
+    ],
+    "source_url": "https://www.gillieronavocat.ch/en/",
+    "fetched_date": "2026-07-23"
+  },
+  "codexavocats.ch": {
+    "founding_year": 1962,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit des contrats",
+      "droit de l'immobilier et de la construction",
+      "droit du travail",
+      "droit de la famille",
+      "droit de la responsabilité civile et des assurances sociales",
+      "droit des poursuites et faillites",
+      "droit pénal",
+      "droit pénal des mineurs et aide aux victimes",
+      "droit de la circulation routière",
+      "droit des successions",
+      "droit des étrangers",
+      "droit administratif",
+      "droit bancaire et financier",
+      "droit aérien",
+      "arbitrage"
+    ],
+    "practice_areas_en": [
+      "contract law",
+      "real estate and construction law",
+      "employment law",
+      "family law",
+      "civil liability and social insurance law",
+      "debt enforcement and bankruptcy law",
+      "criminal law",
+      "juvenile criminal law and victim support",
+      "road traffic law",
+      "succession law",
+      "immigration law",
+      "administrative law",
+      "banking and financial law",
+      "aviation law",
+      "arbitration"
+    ],
+    "source_url": "https://codexavocats.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "Étude au cœur de Lausanne depuis 1962"
+  },
+  "bvhlegal.ch": {
+    "founding_year": 2005,
+    "team_size_n": 2,
+    "practice_areas_fr": [
+      "droit des constructions et de l'immobilier",
+      "droit de l'aménagement du territoire",
+      "droit du bail",
+      "droit de l'environnement",
+      "droits réels",
+      "droit des successions",
+      "droit de la famille",
+      "droit des sociétés",
+      "droit commercial",
+      "droit des contrats",
+      "droit du travail",
+      "droit bancaire",
+      "droit international privé",
+      "arbitrage",
+      "procédure civile",
+      "droit des poursuites et faillites",
+      "droit pénal général et économique"
+    ],
+    "practice_areas_en": [
+      "construction and real estate law",
+      "land use planning law",
+      "tenancy law",
+      "environmental law",
+      "property rights",
+      "succession law",
+      "family law",
+      "corporate law",
+      "commercial law",
+      "contract law",
+      "employment law",
+      "banking law",
+      "private international law",
+      "arbitration",
+      "civil procedure",
+      "debt enforcement and bankruptcy law",
+      "general and economic criminal law"
+    ],
+    "source_url": "https://www.bvlegal.ch/",
+    "fetched_date": "2026-07-23",
+    "note": "CSV domain bvhlegal.ch, site réel www.bvlegal.ch. Fondée en 2005, 2 avocats-associés Me Damien Bender et Me Alain Vogel, bureaux à Monthey (VS) et Lausanne (VD)"
+  },
+  "heringavocats.com": {
+    "founding_year": 2012,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "technologies de l'information",
+      "propriété intellectuelle",
+      "contrats de transfert de technologies",
+      "concurrence déloyale",
+      "protection des données / DPO externe",
+      "médiation familiale et commerciale",
+      "arbitrage"
+    ],
+    "practice_areas_en": [
+      "information technologies",
+      "intellectual property",
+      "technology transfer contracts",
+      "unfair competition",
+      "data protection / external DPO",
+      "family and commercial mediation",
+      "arbitration"
+    ],
+    "source_url": "https://heringavocats.com/",
+    "fetched_date": "2026-07-23",
+    "note": "Fondée par Me Isabelle Hering en 2012, Nyon"
   }
 }
