@@ -530,3 +530,54 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Échecs** : gowenlaw.ch, grossin-avocat.ch, glegal.ch, shgavocats.ch, k-lm.ch, decerjat.ch, mlgeneva.com (aucune présence web indexée) ; landrove.ch (URL non accessible via l'outil de fetch) ; sautter29avocats.ch (erreur HTTP 503) ; moro-avocats.ch (site en construction, aucun contenu exploitable).
 - Totaux cumulés : **274 réussites / 87 échecs / 361 testés** sur ~486 domaines connus. Il reste environ **125 domaines** non testés (145 selon queue corrigée moins 20 de ce lot), soit encore ~6-7 lots de 20.
 - Rebuild complet OK (65 972 fichiers `index.html`, sitemap 23 267 URLs, échantillon de 40 fichiers sans artefact Jinja). Markarian Avocat vérifiée manuellement (`/fr/avocats/geneve/etude/markarian-avocat/`) : « Étude fondée en 2012 (14 ans d'existence) » s'affiche correctement. Alain Lévy (rue-de-la-fontaine-7) : « Étude fondée en 2001 (25 ans d'existence) » s'affiche correctement.
+
+### 2026-07-23 — lot automatique de 20 (GE/VD — longue traîne solo, suite)
+
+- 20 domaines traités : **14 réussites, 6 échecs**.
+- **Années de fondation trouvées** : vaudan-avocat.ch (Jean-Baptiste Vaudan, 2010 — « Fondée en 2010
+  pour la pratique du barreau en Suisse », mention explicite sur la page d'accueil) ;
+  urbensignori.ch (URBEN SIGNORI *étude d'avocats, 2023 — « Fondation de l'Étude URBEN SIGNORI
+  *étude d'avocats en 2023 » sur la bio de Me Luca Urben) ; urbenavocats.ch (URBEN AVOCAT•E•S,
+  2018 pour la fondation originale de l'Étude Urben Legal — même cabinet renommé successivement
+  en Urben Signori 2023 puis URBEN AVOCAT•E•S 2026 ; founding_year = 2018 retenu comme date de
+  fondation continue) ; sutter-avocats.com (SUTTER Avocats, 2011 — « Fondée en 2011, l'Etude
+  déploie une activité de conseil », mention directe sur la page d'accueil) ; stucki-legal.ch
+  (Stucki Legal, 2019 — « Founded in 2019 by Blaise Stucki », mention explicite dans la
+  meta-description et le corps de la page).
+- **Autres réussites** (domaines de compétence) : west-avocats.fr (cabinet français avec bureau à
+  Lausanne — droit des affaires, droit du travail, droit du cheval, droit international, droit
+  immobilier, audit des risques et gestion des crises) ; vaney-avocat.ch (droit de la famille et
+  du divorce, protection de l'enfant et de l'adulte, successions, droit pénal) ; thevozpartners.ch
+  (cabinet international Lausanne+US — droit fiscal international, droit des sociétés, services
+  patrimoniaux, litiges commerciaux ; statistiques mondiales non retenues, règle 4) ; tanlegal.ch
+  (My-Hué TAN — General Counsel Desk pour entreprises, management consulting pour cabinets
+  d'avocats, médiation, droit commercial) ; subilia-avialegal.ch (Dr Julien Subilia — droit aérien
+  et spatial, droit médical, spécialités très rares ; expert ICAO, instructeur IATA depuis 2015) ;
+  staub-law.com (STAUB AVOCATS — droit pénal économique, entraide judiciaire internationale,
+  litiges civils et commerciaux, droit successoral) ; sportlegis.com (Dr Despina Mavromati —
+  droit international du sport, arbitrage CAS, litiges disciplinaires et gouvernance sportive,
+  droit UEFA/FIFA ; ancienne Managing Counsel au CAS, arbitre CAS et membre UEFA CFCB Appeals
+  Chamber, auteure du commentaire Code CAS 2015 et 2025) ; sivanesan.ch (Me Gayatthiri Sivanesan
+  — famille, travail, pénal, étrangers, contrats, assurances, prévoyance professionnelle,
+  poursuites et faillites) ; sekkiouavocat.ch (Me Mourad Sekkiou — procédure civile, divorce et
+  famille, étrangers, commercial et sociétés, travail, contrats, pénal économique, droit de
+  l'architecte, droit des personnes ; brevet 1987, associé GRAZ & SEKKIOU 1999-2014).
+- **Notes de rigueur** : urbenavocats.ch et urbensignori.ch désignent le même cabinet physique
+  (même adresse Montreux, même Me Luca Urben), traités comme deux entrées distinctes dans le
+  cache puisque le CSV en a deux entrées distinctes. founding_year = 2018 retenu pour
+  urbenavocats.ch (fondation originale Urben Legal), 2023 pour urbensignori.ch (fusion
+  créatrice de l'entité URBEN SIGNORI). trivialmass.com et trivialmass.ch : société de
+  marketing (trivial mass SA, Savigny VD) — entrées incorrectes dans les données CSV, aucun
+  rapport avec un cabinet d'avocats, marquées en échec. west-avocats.fr : cabinet inscrit au
+  barreau de Paris (pas Genève), bureau à Lausanne uniquement comme antenne ; domaines de
+  compétence retenus car explicitement formulés par le cabinet lui-même et applicables à
+  l'antenne suisse.
+- **Échecs** : wettstein-mediation.ch (contenu vide, rendu JS) ; vestrae.ch (contenu vide, rendu
+  JS) ; trivialmass.com et trivialmass.ch (pas un cabinet d'avocats — société de marketing) ;
+  siegrist-avocat.ch (contenu vide, rendu JS) ; sfalegal.com (URL non accessible via l'outil
+  de fetch malgré recherche web préalable).
+- **Totaux cumulés** : **288 réussites / 93 échecs / 381 testés** sur ~486 domaines connus.
+  Il reste environ **105 domaines** non testés, soit encore ~5-6 lots de 20.
+- Rebuild complet OK (66 008 fichiers `index.html`, sitemap 23 311 URLs, échantillon de 40
+  fichiers sans artefact Jinja détecté).
+

@@ -1,10 +1,12 @@
 {
   "_meta": {
     "total_success": 264,
-    "total_failed": 87,
+    "total_failed": 93,
     "total_tested": 341,
     "last_updated": "2026-07-23",
-    "total_done": 274
+    "total_done": 274,
+    "total_domains_found": 486,
+    "total_enriched": 288
   },
   "borel-barbey.ch": {
     "founding_year": 1907,
@@ -1006,7 +1008,31 @@
     "decerjat.ch": "aucune présence web indexée",
     "mlgeneva.com": "aucune présence web indexée",
     "sautter29avocats.ch": "erreur HTTP 503 lors du fetch, site inaccessible",
-    "moro-avocats.ch": "site en construction, aucun contenu exploitable"
+    "moro-avocats.ch": "site en construction, aucun contenu exploitable",
+    "wettstein-mediation.ch": {
+      "reason": "Contenu vide au fetch — rendu JavaScript probable",
+      "date": "2026-07-23"
+    },
+    "vestrae.ch": {
+      "reason": "Contenu vide au fetch sur toutes les pages — rendu JavaScript probable",
+      "date": "2026-07-23"
+    },
+    "trivialmass.com": {
+      "reason": "Société de marketing et communication (trivial mass SA) — pas un cabinet d'avocats, entrée incorrecte dans le CSV",
+      "date": "2026-07-23"
+    },
+    "trivialmass.ch": {
+      "reason": "Même société de marketing que trivialmass.com (trivial mass SA) — pas un cabinet d'avocats",
+      "date": "2026-07-23"
+    },
+    "siegrist-avocat.ch": {
+      "reason": "Contenu vide au fetch sur toutes les pages — rendu JavaScript probable",
+      "date": "2026-07-23"
+    },
+    "sfalegal.com": {
+      "reason": "URL non accessible via l'outil de fetch (hors de la liste de provenance malgré recherche web)",
+      "date": "2026-07-23"
+    }
   },
   "ducrestheggli.com": {
     "founding_year": null,
@@ -5965,5 +5991,336 @@
     ],
     "source_url": "https://www.fourknights.ch/services",
     "fetched_date": "2026-07-23"
+  },
+  "west-avocats.fr": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit du travail",
+      "Droit du cheval",
+      "Droit international",
+      "Droit immobilier",
+      "Audit des risques et gestion des crises"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Employment law",
+      "Equine law",
+      "International law",
+      "Real estate law",
+      "Risk audit and crisis management"
+    ],
+    "source_url": "https://www.west-avocats.fr/",
+    "fetched_date": "2026-07-23",
+    "notes": "Cabinet français (Paris/Normandie) avec bureau à Lausanne (Avenue de Rumine 13, CH-1001)"
+  },
+  "vaudan-avocat.ch": {
+    "founding_year": 2010,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Construction et immobilier",
+      "Contrats et sociétés",
+      "Contentieux et procédure",
+      "Recouvrement et faillite",
+      "Protection des données",
+      "Médiation et arbitrage"
+    ],
+    "practice_areas_en": [
+      "Construction and real estate",
+      "Contracts and corporate law",
+      "Litigation and procedure",
+      "Debt recovery and bankruptcy",
+      "Data protection",
+      "Mediation and arbitration"
+    ],
+    "source_url": "https://vaudan-avocat.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "vaney-avocat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille et du divorce",
+      "Droit de la protection de l'enfant et de l'adulte",
+      "Droit des successions",
+      "Droit pénal"
+    ],
+    "practice_areas_en": [
+      "Family and divorce law",
+      "Child and adult protection law",
+      "Succession law",
+      "Criminal law"
+    ],
+    "source_url": "https://vaney-avocat.ch/etude",
+    "fetched_date": "2026-07-23"
+  },
+  "urbensignori.ch": {
+    "founding_year": 2023,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Conseil en droit commercial et rédaction de contrats",
+      "Négociation et résolution de litiges",
+      "Représentation en justice",
+      "Droit de la famille",
+      "Litiges en droit des contrats",
+      "Conseil en droit des sociétés",
+      "Droit de la PPE et droits réels",
+      "Droit de la poursuite et des faillites",
+      "Droit pénal",
+      "Droit administratif",
+      "Droit de la circulation routière",
+      "Droit des assurances sociales",
+      "Domiciliation d'entreprises",
+      "Établissement sous le régime de l'impôt à la dépense (forfait fiscal)",
+      "Droit des étrangers"
+    ],
+    "practice_areas_en": [
+      "Commercial law advice and contract drafting",
+      "Negotiation and dispute resolution",
+      "Court representation",
+      "Family law",
+      "Contract litigation",
+      "Corporate law advice",
+      "Condominium and property rights",
+      "Debt enforcement and bankruptcy",
+      "Criminal law",
+      "Administrative law",
+      "Traffic law",
+      "Social insurance law",
+      "Business domiciliation",
+      "Lump-sum taxation (forfait fiscal)",
+      "Immigration law"
+    ],
+    "source_url": "https://urbensignori.ch",
+    "fetched_date": "2026-07-23",
+    "notes": "Fondée en 2023 par Marie Signori et Luca Urben (fusion Urben Legal + Legalex). Devenue URBEN AVOCAT·E·S en 2026."
+  },
+  "urbenavocats.ch": {
+    "founding_year": 2018,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Conseil en droit commercial et rédaction de contrats",
+      "Négociation et résolution de litiges",
+      "Représentation en justice",
+      "Droit de la famille",
+      "Litiges en droit des contrats",
+      "Conseil en droit des sociétés",
+      "Droit de la PPE et droits réels",
+      "Droit de la poursuite et des faillites",
+      "Droit pénal",
+      "Droit administratif",
+      "Droit de la circulation routière",
+      "Droit des assurances sociales",
+      "Domiciliation d'entreprises",
+      "Établissement sous le régime de l'impôt à la dépense (forfait fiscal)",
+      "Droit des étrangers"
+    ],
+    "practice_areas_en": [
+      "Commercial law advice and contract drafting",
+      "Negotiation and dispute resolution",
+      "Court representation",
+      "Family law",
+      "Contract litigation",
+      "Corporate law advice",
+      "Condominium and property rights",
+      "Debt enforcement and bankruptcy",
+      "Criminal law",
+      "Administrative law",
+      "Traffic law",
+      "Social insurance law",
+      "Business domiciliation",
+      "Lump-sum taxation (forfait fiscal)",
+      "Immigration law"
+    ],
+    "source_url": "https://urbenavocats.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Me Luca Urben a fondé l'Étude Urben Legal en 2018, fusionnée avec Legalex → Urben Signori (2023), renommée URBEN AVOCAT·E·S (2026). founding_year = 2018 (fondation originale). Même cabinet que urbensignori.ch."
+  },
+  "thevozpartners.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit fiscal international",
+      "Droit des sociétés",
+      "Services patrimoniaux internationaux",
+      "Litiges commerciaux",
+      "Contentieux"
+    ],
+    "practice_areas_en": [
+      "Tax law",
+      "Corporate law",
+      "International estate services",
+      "Business litigation",
+      "Litigation"
+    ],
+    "source_url": "https://thevozpartners.com/about-us",
+    "fetched_date": "2026-07-23",
+    "notes": "Cabinet international avec bureau à Lausanne (Rue Etraz 4) et bureaux US (New York, Austin, Honolulu). Statistiques mondiales non retenues (règle 4)."
+  },
+  "tanlegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Conseil juridique d'entreprise (General Counsel Desk)",
+      "Management consulting pour cabinets d'avocats et dirigeants",
+      "Médiation",
+      "Droit commercial",
+      "Droit des contrats",
+      "Droit du travail"
+    ],
+    "practice_areas_en": [
+      "Corporate legal counsel (General Counsel Desk)",
+      "Management consulting for law firms and executives",
+      "Mediation",
+      "Commercial law",
+      "Contract law",
+      "Employment law"
+    ],
+    "source_url": "https://tanlegal.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "sutter-avocats.com": {
+    "founding_year": 2011,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Clientèle privée",
+      "Contentieux et résolution de litiges",
+      "Droit du travail et sécurité sociale"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Private clients",
+      "Litigation and dispute resolution",
+      "Employment and social security law"
+    ],
+    "source_url": "https://www.sutter-avocats.com/",
+    "fetched_date": "2026-07-23",
+    "notes": "Fondée en 2011 par Frédéric Sutter. Double barreau Genève et Paris. Dossiers internationaux franco-suisses."
+  },
+  "subilia-avialegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit aérien et spatial",
+      "Droit médical",
+      "Assistance juridique internationale en aviation"
+    ],
+    "practice_areas_en": [
+      "Air and space law",
+      "Medical law",
+      "International legal assistance in aviation"
+    ],
+    "source_url": "https://www.subilia-avialegal.ch/about-us/",
+    "fetched_date": "2026-07-23",
+    "notes": "Dr Julien Subilia, doctorat 2009 (UNIL) sur les GNSS en aviation civile. Expert ICAO, instructeur IATA depuis 2015. Spécialités très rares: droit aérien/spatial/médical."
+  },
+  "stucki-legal.ch": {
+    "founding_year": 2019,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Litige et litige transfrontalier",
+      "Arbitrage international"
+    ],
+    "practice_areas_en": [
+      "Litigation and cross-border litigation",
+      "International arbitration"
+    ],
+    "source_url": "https://www.stucki-legal.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Founded in 2019 by Blaise Stucki (mention explicite sur page d'accueil). Boutique spécialisée litige commercial et arbitrage international."
+  },
+  "staub-law.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal économique et droit pénal général",
+      "Entraide judiciaire internationale",
+      "Litiges civils et commerciaux",
+      "Droit successoral"
+    ],
+    "practice_areas_en": [
+      "Economic crime and general criminal law",
+      "International mutual assistance",
+      "Commercial and civil litigation",
+      "Inheritance law"
+    ],
+    "source_url": "https://www.staub-law.com/en/domaines-d-activit%C3%A9",
+    "fetched_date": "2026-07-23"
+  },
+  "sportlegis.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit international du sport",
+      "Arbitrage CAS (Tribunal Arbitral du Sport)",
+      "Litiges disciplinaires et gouvernance sportive",
+      "Droit du sport UEFA/FIFA"
+    ],
+    "practice_areas_en": [
+      "International sports law",
+      "CAS arbitration (Court of Arbitration for Sport)",
+      "Disciplinary disputes and sports governance",
+      "UEFA/FIFA sports law"
+    ],
+    "source_url": "https://www.sportlegis.com/",
+    "fetched_date": "2026-07-23",
+    "notes": "Dr Despina Mavromati, avocate fondatrice. Ancienne Managing Counsel au CAS. Arbitre CAS et membre UEFA CFCB Appeals Chamber. Auteure du commentaire Code CAS (2015 et 2025 2e éd.)."
+  },
+  "sivanesan.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit du travail",
+      "Droit pénal",
+      "Droit des étrangers",
+      "Droit des contrats",
+      "Droit des assurances",
+      "Prévoyance professionnelle",
+      "Poursuites et faillites"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Employment law",
+      "Criminal law",
+      "Immigration law",
+      "Contract law",
+      "Insurance law",
+      "Occupational pension",
+      "Debt enforcement and bankruptcy"
+    ],
+    "source_url": "https://sivanesan.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "sekkiouavocat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Procédure civile et contentieux",
+      "Droit du divorce et de la famille",
+      "Droit des étrangers",
+      "Droit commercial et droit des sociétés",
+      "Droit du travail",
+      "Droit des contrats",
+      "Droit pénal économique",
+      "Droit de l'architecte",
+      "Droit des personnes"
+    ],
+    "practice_areas_en": [
+      "Civil procedure and litigation",
+      "Divorce and family law",
+      "Immigration law",
+      "Commercial and corporate law",
+      "Employment law",
+      "Contract law",
+      "Economic criminal law",
+      "Construction law (architect)",
+      "Personal status law"
+    ],
+    "source_url": "https://www.sekkiouavocat.ch/me-mourad-sekkiou.html",
+    "fetched_date": "2026-07-23",
+    "notes": "Me Mourad Sekkiou, brevet avocat 1987. Associé GRAZ & SEKKIOU de 1999 à 2014, puis indépendant. Cabinet généraliste."
   }
 }
