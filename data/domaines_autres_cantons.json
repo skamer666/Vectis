@@ -1,0 +1,324 @@
+{
+  "homburger.ch": {
+    "founding_year": 1957,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "team_size_text": "43 associés et plus de 160 professionnels",
+    "source_url": "https://www.homburger.ch/en/about-us",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Homburger AG",
+    "canton": "ZH"
+  },
+  "swlegal.com": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Banking & Finance",
+      "Competition & Antitrust",
+      "Construction",
+      "Corporate & Commercial / M&A",
+      "Dispute Resolution",
+      "ESG",
+      "Employment",
+      "Energy",
+      "ICT / Data / Cybercrime",
+      "Insurance",
+      "Intellectual Property",
+      "International Arbitration",
+      "Life Sciences",
+      "Private Wealth",
+      "Real Estate",
+      "Restructuring & Insolvency",
+      "Taxation",
+      "Trade and Transport",
+      "White-Collar Crime and Compliance"
+    ],
+    "team_size_n": 150,
+    "source_url": "https://www.swlegal.com/en/about/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Schellenberg Wittmer Ltd",
+    "canton": "ZH"
+  },
+  "wengervieli.ch": {
+    "founding_year": 1971,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.wengervieli.ch/en-us/further/about-us",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Wenger Vieli AG",
+    "canton": "ZH"
+  },
+  "mme.ch": {
+    "founding_year": 1999,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Banking / Insurance",
+      "Blockchain / Digital Assets",
+      "Data / Technology / IP",
+      "Employment / Immigration",
+      "Gaming / Entertainment",
+      "Governance / ESG",
+      "Health / Life Sciences",
+      "Inheritance / Succession",
+      "Litigation / Arbitration",
+      "Mediation / Dispute Resolution",
+      "Notary",
+      "Private Clients / Families",
+      "Real Estate",
+      "Regulatory Compliance",
+      "Restructuring / Insolvency",
+      "Structuring / Relocation",
+      "Taxes / Duties",
+      "Trade / Logistics / Competition",
+      "Transactions / M&A"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.mme.ch/en/about",
+    "fetched_date": "2026-07-23",
+    "firm_name": "MME Legal AG",
+    "canton": "ZH"
+  },
+  "wenger-plattner.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Employment Law",
+      "Art Law & Entertainment Law",
+      "Banking & Financial Market Law",
+      "Construction & Real Estate Law",
+      "Corporate Governance & Compliance",
+      "Liability & Insurance Law",
+      "Insolvency & Restructuring",
+      "IP / IT & Data Protection",
+      "Life Sciences & Health Law",
+      "M&A / Corporate",
+      "Notary Services",
+      "Private Clients",
+      "Litigation & Arbitration",
+      "Sports Law",
+      "Constitutional & Administrative Law",
+      "Tax Law",
+      "Competition Law"
+    ],
+    "team_size_n": 100,
+    "source_url": "https://wenger-plattner.ch/en/law-firm/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Wenger Plattner",
+    "canton": "BS"
+  },
+  "prager-dreifuss.com": {
+    "founding_year": 1980,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": 45,
+    "source_url": "https://www.prager-dreifuss.com/en/about-us/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Prager Dreifuss AG",
+    "canton": "ZH"
+  },
+  "advestra.ch": {
+    "founding_year": 2020,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.advestra.ch/en/story/index.php",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Advestra AG",
+    "canton": "ZH"
+  },
+  "blumgrob.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": 55,
+    "source_url": "https://blumgrob.ch/en/company/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Blum & Grob Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "loyensloeff.com": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "note": "Cabinet international (NL/BE/LU/CH). Présence suisse depuis 1983, licence suisse depuis 2015. Statistiques globales (940+ experts) non spécifiques à la Suisse, non retenues.",
+    "source_url": "https://www.loyensloeff.com/ch/en/about-us/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Loyens & Loeff Schweiz GmbH",
+    "canton": "ZH"
+  },
+  "thouvenin.com": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate and Contract Law",
+      "Mergers and Acquisitions",
+      "Litigation and Arbitration",
+      "Private Clients and Entrepreneurs"
+    ],
+    "team_size_n": null,
+    "source_url": "https://thouvenin.com/en/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Thouvenin Rechtsanwälte KLG",
+    "canton": "ZH"
+  },
+  "schochauer.ch": {
+    "founding_year": 1970,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate Law",
+      "Contract Law",
+      "Labour Law",
+      "Trademark and Copyright Law",
+      "Public Law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://schochauer.ch/en/company/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "schochauer ag",
+    "canton": "SG"
+  },
+  "ruossvoegele.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate Regulatory",
+      "Transactions",
+      "Litigation / Arbitration",
+      "Private Clients"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.ruossvoegele.ch/kanzlei",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Ruoss Vögele Partner",
+    "canton": "ZH"
+  },
+  "naterdallafior.ch": {
+    "founding_year": 2006,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Commercial Law Litigation",
+      "Arbitration"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.naterdallafior.ch/en/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Nater Dallafior Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "probstpartner.ch": {
+    "founding_year": 1995,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Construction and Real Estate",
+      "Professional Liability and Torts",
+      "IP / Media / Technology / Data Protection",
+      "Sports Law",
+      "Life Sciences",
+      "Tax",
+      "Public Procurement"
+    ],
+    "team_size_n": null,
+    "source_url": "https://probstpartner.ch/en/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Probst Partner AG",
+    "canton": "ZH"
+  },
+  "streichenberg.ch": {
+    "founding_year": 1997,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Commercial Law",
+      "Corporate Law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.streichenberg.ch/en",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Streichenberg und Partner",
+    "canton": "ZH"
+  },
+  "neovius.ch": {
+    "founding_year": 1972,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Planning – Construction – Real Estate",
+      "Contracts – Commercial Law",
+      "Public Service – Administration",
+      "Corporate Law – Companies",
+      "Litigation – Arbitration",
+      "Insolvency – Restructuring",
+      "Employment Law",
+      "Inheritance Law – Family Law",
+      "Notarial Services"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.neovius.ch/en/about-us/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "NEOVIUS AG",
+    "canton": "BS"
+  },
+  "b-legal.ch": {
+    "founding_year": 1996,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Commercial Law",
+      "Tax Law",
+      "Notarial Services"
+    ],
+    "team_size_n": 24,
+    "source_url": "https://www.b-legal.ch/kanzlei/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Badertscher Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "peyerpartner.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Family Law",
+      "Criminal Law",
+      "Contract Law",
+      "Inheritance Law",
+      "Immigration Law",
+      "Liability and Insurance Law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://peyerpartner.ch/en/about-us/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Peyer Partner Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "reetz-sohm.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Real Estate Law",
+      "Construction and Planning Law",
+      "Public Procurement",
+      "Litigation in Construction and Real Estate"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.reetz-sohm.ch/kanzlei/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Reetz Sohm Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "beelegal.ch": {
+    "founding_year": 2014,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Corporate Law",
+      "Civil Law",
+      "Administrative Law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://beelegal.ch/en/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "BEELEGAL Bösiger. Engel. Egloff",
+    "canton": "ZH"
+  },
+  "_failed": {},
+  "_sans_site": {}
+}

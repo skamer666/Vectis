@@ -4,7 +4,7 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-23 — lot 25)
+## Statut actuel (dernière mise à jour : 2026-07-23 — lot 26 — phase de découverte lot 1)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
@@ -806,3 +806,27 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   officels des cabinets des 18 cantons sans colonne `site_web` (AG, AI, BS, FR, GL, GR,
   JU, LU, NE, NW, OW, SG, SO, SZ, TG, UR, ZG, ZH), en commençant par les plus gros cabinets
   (champ `etude`). Fichier de suivi : `data/domaines_autres_cantons.json` (créé si absent).
+
+### 2026-07-23 — lot automatique 26 (phase de découverte — autres cantons, lot 1)
+- Liste GE/VD épuisée depuis le lot 25. Passage en phase de découverte pour les 18 cantons hors GE/VD.
+- **20 cabinets traités** (top firms par taille depuis les cantons avec champ `etude` : ZH, BS, SG) : **14 faits utiles / 6 entrées sans fait chiffré** (founding_year ou team_size_n null, mais domaines de compétence extraits).
+- Données stockées dans `data/domaines_autres_cantons.json` (nouveau fichier, même structure que le cache principal).
+- Résultats notables :
+  - Homburger AG (ZH) : fondé en 1957, 43 associés + plus de 160 professionnels
+  - Schellenberg Wittmer (ZH/GE) : 150+ avocats, 19 domaines de compétence
+  - Wenger Vieli AG (ZH) : fondé en 1971
+  - MME Legal AG (ZH) : fondé en 1999, 19 domaines de compétence
+  - Prager Dreifuss AG (ZH) : fondé en 1980, 45 avocats
+  - Wenger Plattner (BS/ZH/BE) : 100+ collaborateurs, 17 domaines de compétence
+  - schochauer ag (SG) : fondé en 1970
+  - NEOVIUS AG (BS) : fondé en 1972, 9 domaines de compétence
+  - Badertscher Rechtsanwälte (ZH) : fondé en 1996, ~24 avocats
+  - Advestra AG (ZH) : fondé en 2020
+  - Blum & Grob (ZH) : 55 collaborateurs
+  - Nater Dallafior (ZH) : fondé en 2006
+  - Probst Partner AG (ZH) : fondé en 1995
+  - Streichenberg (ZH) : fondé en 1997
+  - BEELEGAL (ZH) : fondé en 2014
+- Note : ces données ne sont pas encore utilisées dans le build (les CSV des autres cantons n'ont pas de colonne `site_web`). Prochaine étape : intégrer `domaines_autres_cantons.json` dans `build.py` ou enrichir les CSV des autres cantons avec les URLs découvertes.
+- Cache GE/VD inchangé : 369 succès / 126 échecs.
+- Phase de découverte autres cantons : 20 cabinets découverts (lot 1/N).
