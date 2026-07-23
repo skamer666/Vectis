@@ -1076,6 +1076,46 @@
     "ides.pro": {
       "reason": "domaine expiré — redirige vers expireddomains.com (domain parking)",
       "tested_date": "2026-07-23"
+    },
+    "etude-eich.ch": {
+      "reason": "Page d'accueil avec coordonnées uniquement, aucune liste de domaines de compétences accessible via fetch (sous-pages inaccessibles — hors provenance)",
+      "tested_date": "2026-07-23"
+    },
+    "latourinternational.ch": {
+      "reason": "Cabinet basé à Paris, France (49 rue de Lisbonne, 75008 Paris) — non suisse, données non pertinentes pour l'annuaire",
+      "tested_date": "2026-07-23"
+    },
+    "juriscausa.ch": {
+      "reason": "Aucune présence web indexée — domaine non trouvé dans les résultats de recherche",
+      "tested_date": "2026-07-23"
+    },
+    "antaria-legal.ch": {
+      "reason": "Site en construction — page blanche avec message 'Ce site est actuellement en construction'",
+      "tested_date": "2026-07-23"
+    },
+    "lawsanneavocats.ch": {
+      "reason": "URL non accessible via fetch (hors provenance); ancienne version du site (kdbtavocats.ch) présentait des signes d'injection spam (lien cialisfrance24.com); données du cabinet déjà présentes sous kdbavocats.ch et kdbtavocats.ch dans le cache",
+      "tested_date": "2026-07-23"
+    },
+    "homepage": {
+      "reason": "Entrée invalide dans les données CSV (valeur 'homepage' au lieu d'un nom de domaine réel)",
+      "tested_date": "2026-07-23"
+    },
+    "groslimond-avocat.ch": {
+      "reason": "Contenu vide au fetch (rendu JavaScript probable, deux URLs testées). Données du cabinet disponibles sous groslimond-avocats.ch (déjà traité).",
+      "tested_date": "2026-07-23"
+    },
+    "redzepi-avocats.ch": {
+      "reason": "Contenu vide au fetch — rendu JavaScript probable",
+      "tested_date": "2026-07-23"
+    },
+    "etude@lion-or.ch": {
+      "reason": "Entrée invalide dans les données CSV — adresse e-mail au lieu d'un nom de domaine",
+      "tested_date": "2026-07-23"
+    },
+    "baudraz-torchio.ch": {
+      "reason": "Contenu vide au fetch (rendu JavaScript probable, deux URLs testées : accueil et contact.php)",
+      "tested_date": "2026-07-23"
     }
   },
   "ducrestheggli.com": {
@@ -6901,5 +6941,278 @@
       "droit pénal économique",
       "procédure pénale"
     ]
+  },
+  "etude-avocat.com": {
+    "founding_year": 2001,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du divorce et de la famille",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit des étrangers",
+      "Droit des successions",
+      "Droit commercial",
+      "Droit international privé",
+      "Droit fiscal"
+    ],
+    "practice_areas_en": [
+      "Family law and divorce",
+      "Criminal law",
+      "Labour law",
+      "Immigration law",
+      "Succession law",
+      "Commercial law",
+      "Private international law",
+      "Tax law"
+    ],
+    "source_url": "https://www.etudeavocat.com/",
+    "fetched_date": "2026-07-23",
+    "notes": "Fondé en janvier 2001 par Me Abderrahim Razi (mention explicite dans sa biographie). 2 avocates supplémentaires (dont une stagiaire) et 1 assistante juridique en 2026."
+  },
+  "etude-adelia.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit de l'enfant et curatelle",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit des poursuites et faillites"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Children's rights and guardianship",
+      "Criminal law",
+      "Labour law",
+      "Tenancy law",
+      "Debt enforcement law"
+    ],
+    "source_url": "https://etudeadelia.ch/competences",
+    "fetched_date": "2026-07-23"
+  },
+  "etudetissieres.ch": {
+    "founding_year": 2025,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit pénal",
+      "Droit civil",
+      "Droit des contrats",
+      "Droit des poursuites",
+      "Droit administratif général",
+      "Droit des médias"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Criminal law",
+      "Civil law",
+      "Contract law",
+      "Debt enforcement law",
+      "Administrative law",
+      "Media law"
+    ],
+    "source_url": "https://www.etudetissieres.ch/domaine-dactivite",
+    "fetched_date": "2026-07-23",
+    "notes": "Fondée en 2025 — mention explicite ('Dès 2025 Avocate indépendante – Étude Tissières') dans la biographie de Me Alexia Tissières."
+  },
+  "benardavocats.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit du travail",
+      "Défense pénale",
+      "Propriété intellectuelle (marques, droit d'auteur, contrefaçon, concurrence déloyale)"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Labour law",
+      "Criminal defense",
+      "Intellectual property (trademarks, copyright, counterfeiting, unfair competition)"
+    ],
+    "source_url": "https://www.benardavocats.ch/",
+    "fetched_date": "2026-07-23"
+  },
+  "casimiromartins-avocat.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal (incl. droit de la circulation routière)",
+      "Droit de la construction (hypothèques légales, contrats, marchés publics)",
+      "Droit civil (famille, divorce, successions, droits réels, protection adulte/enfant)",
+      "Droit des assurances sociales (AVS, AI, AA, LAMal, LPP, AC)",
+      "Droit des obligations (bail, travail, contrats, commercial)",
+      "Droit des faillites et poursuites"
+    ],
+    "practice_areas_en": [
+      "Criminal law (incl. road traffic law)",
+      "Construction law",
+      "Civil law (family, divorce, succession, real rights, adult/child protection)",
+      "Social insurance law",
+      "Law of obligations (tenancy, labour, contracts, commercial law)",
+      "Insolvency and debt enforcement law"
+    ],
+    "source_url": "https://www.casimiromartins-avocat.ch/domaines-de-comp%C3%A9tences",
+    "fetched_date": "2026-07-23"
+  },
+  "nravocate.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du bail",
+      "Droit du travail (incl. clause de non-concurrence, cession de clientèle, contrat de travail)",
+      "Droit de la PPE (propriété par étages)",
+      "Droit de la famille (divorce, garde, contributions, liquidation régime matrimonial)",
+      "Droit pénal",
+      "Droit de la protection de l'enfant (désaveu, reconnaissance de paternité, curatelle de procédure)"
+    ],
+    "practice_areas_en": [
+      "Tenancy law",
+      "Labour law (incl. non-compete clause, customer transfer)",
+      "Condominium law",
+      "Family law (divorce, custody, maintenance, matrimonial property)",
+      "Criminal law",
+      "Child protection law"
+    ],
+    "source_url": "https://nravocate.ch/competences",
+    "fetched_date": "2026-07-23"
+  },
+  "dmplegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de l'énergie (réseaux électriques, photovoltaïque, hydraulique, chauffage à distance, pompes à chaleur, autoconsommation collective, marchés publics de l'énergie)",
+      "Droit de l'entreprise (M&A, sociétés, contrats, compliance)",
+      "Droit public (marchés publics, aménagement du territoire, PPP)",
+      "Droit privé (construction, immobilier, bail, travail, administratif, famille, poursuites)"
+    ],
+    "practice_areas_en": [
+      "Energy law (electric networks, solar, hydraulic, district heating, heat pumps, collective self-consumption, energy public procurement)",
+      "Corporate law (M&A, companies, contracts, compliance)",
+      "Public law (public procurement, land use planning, PPP)",
+      "Private law (construction, real estate, tenancy, labour, administrative, family, debt enforcement)"
+    ],
+    "source_url": "https://dmplegal.ch/prestations/",
+    "fetched_date": "2026-07-23",
+    "notes": "Spécialisation notable en droit de l'énergie, y compris réseaux électriques et projets d'énergie renouvelable."
+  },
+  "perspective-solution.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit administratif et droit communal",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit des contrats",
+      "Médiation civile (contrats, commerce, travail, famille, immobilier, construction, PPE, voisinage, administratif, politique)",
+      "Personne de confiance en entreprise (PCE) — risques psychosociaux, enquêtes, audits, formations"
+    ],
+    "practice_areas_en": [
+      "Administrative law and municipal law",
+      "Labour law",
+      "Tenancy law",
+      "Contract law",
+      "Civil mediation (contracts, commerce, labour, family, real estate, construction, administrative)",
+      "Corporate trusted person (PCE) — psychosocial risks, investigations, audits"
+    ],
+    "source_url": "https://www.perspective-solution.ch/Accueil/",
+    "fetched_date": "2026-07-23"
+  },
+  "drpb.ch": {
+    "founding_year": 1922,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Entreprises et transactions (M&A, droit des sociétés)",
+      "Construction et immobilier",
+      "Télécommunications et médias",
+      "Santé et médecine",
+      "Droit du sport",
+      "Banques et assurances"
+    ],
+    "practice_areas_en": [
+      "Corporate and transactions (M&A, company law)",
+      "Construction and real estate",
+      "Telecommunications and media",
+      "Health and medicine",
+      "Sports law",
+      "Banking and insurance"
+    ],
+    "source_url": "https://drpb.ch/fr/cabinet-davocats/",
+    "fetched_date": "2026-07-23",
+    "notes": "Fondé en 1922 à Berne par Dr. Armin Hodler (mention explicite dans la chronologie du site). Depuis 2016 : Burkhalter Rechtsanwälte AG. Succursale de Lausanne ouverte le 1er janvier 2026."
+  },
+  "avocat-oron.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille (séparation, divorce, régimes matrimoniaux, filiation, contributions d'entretien)",
+      "Droit de la protection de l'adulte et de l'enfant",
+      "Droit des contrats",
+      "Droit du bail",
+      "Droit du travail",
+      "Droit des successions",
+      "Droit des assurances sociales",
+      "Droit des poursuites et faillites",
+      "Droit pénal et droits des victimes d'infraction (LAVI)",
+      "Droit de la circulation routière",
+      "Violences domestiques"
+    ],
+    "practice_areas_en": [
+      "Family law (separation, divorce, matrimonial property, filiation, maintenance)",
+      "Adult and child protection law",
+      "Contract law",
+      "Tenancy law",
+      "Labour law",
+      "Succession law",
+      "Social insurance law",
+      "Debt enforcement law",
+      "Criminal law and victim assistance (LAVI)",
+      "Road traffic law",
+      "Domestic violence"
+    ],
+    "source_url": "https://avocat-oron.ch/prestations/",
+    "fetched_date": "2026-07-23",
+    "notes": "Me Caroline Matthey-Marchesi, membre ARVD (association d'avocats ressources en matière de violences domestiques), pratique depuis 2018."
+  },
+  "lexinn.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Conseil juridique (contentieux, droit commercial, gestion préventive des litiges)",
+      "Arbitrage et médiation (droit commercial, investissements, sport, environnement, énergie)",
+      "Expert juridique (avis pour institutions publiques, entités privées et assurances)"
+    ],
+    "practice_areas_en": [
+      "Legal counsel (litigation, commercial law, preventive dispute management)",
+      "Arbitration and mediation (commercial law, investment disputes, sports, environment, energy)",
+      "Legal expert opinions (public institutions, private entities and insurers)"
+    ],
+    "source_url": "https://lexinn.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Boutique spécialisée arbitrage international, contentieux commercial, droit du sport et droit de l'environnement/énergie. Expertise pluridisciplinaire avec réseau international."
+  },
+  "raphaelhammerli.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit des contrats (bail, travail, entreprise, litiges)",
+      "Droit immobilier et construction",
+      "Droit pénal",
+      "Droit de la famille et des successions",
+      "Droit des poursuites et faillites",
+      "Droit administratif"
+    ],
+    "practice_areas_en": [
+      "Contract law (tenancy, labour, business, disputes)",
+      "Real estate and construction law",
+      "Criminal law",
+      "Family law and succession law",
+      "Debt enforcement law",
+      "Administrative law"
+    ],
+    "source_url": "https://raphaelhammerli.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Site personnel de Me Raphaël Hämmerli, associé de Guisan Hämmerli Avocats (gh-avocats.ch). Spécialiste en droit immobilier (notamment droit du bail)."
   }
 }
