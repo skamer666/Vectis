@@ -1147,6 +1147,18 @@
     },
     "bp-avocats.ch": {
       "reason": "aucune présence web indexée"
+    },
+    "brownandpage.com": {
+      "reason": "page placeholder hébergeur cyon, aucun contenu cabinet",
+      "checked_date": "2026-07-23"
+    },
+    "cm-avocat.ch": {
+      "reason": "contenu vide (page non chargée)",
+      "checked_date": "2026-07-23"
+    },
+    "avocat-mediation-aigle.com": {
+      "reason": "domaine non indexé, aucun contenu trouvé",
+      "checked_date": "2026-07-23"
     }
   },
   "ducrestheggli.com": {
@@ -7938,5 +7950,154 @@
     "source_url": "https://heringavocats.com/",
     "fetched_date": "2026-07-23",
     "note": "Fondée par Me Isabelle Hering en 2012, Nyon"
+  },
+  "rufavocate.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit des successions",
+      "droit de la famille",
+      "droit du travail",
+      "droit des contrats"
+    ],
+    "practice_areas_en": [
+      "inheritance law",
+      "family law",
+      "labor law",
+      "contract law"
+    ],
+    "source_url": "https://rufavocate.ch/en/competences/",
+    "fetched_date": "2026-07-23",
+    "notes": "Lorraine Ruf, avocate spécialiste FSA droit des successions (1ère femme VD, 2012). Pratique aussi en partenariat avec Sylvain Bogensberger."
+  },
+  "avocats-montreux.com": {
+    "founding_year": 2003,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droits réels",
+      "droit des contrats",
+      "droit des sociétés",
+      "droit des successions",
+      "droit de la famille",
+      "droit pénal",
+      "droit de l'aménagement du territoire et des constructions"
+    ],
+    "source_url": "https://www.avocats-montreux.com/",
+    "fetched_date": "2026-07-23",
+    "notes": "Me Kohli s'est établi à Montreux en 2003 (mention explicite)."
+  },
+  "avocats-nordvaudois.ch": {
+    "founding_year": 2004,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit civil",
+      "droit pénal",
+      "droit pénal militaire",
+      "droit administratif",
+      "droit des contrats",
+      "droit du travail",
+      "droit des sociétés et des entreprises"
+    ],
+    "source_url": "https://www.avocats-nordvaudois.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Étude fondée par Me Monnin Zwahlen, installée rue de la Plaine depuis 2004 (mention explicite)."
+  },
+  "boldtapfer.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit de l'habitation",
+      "droit du travail"
+    ],
+    "source_url": "https://www.boldtapfer.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Étude interdisciplinaire dédiée explicitement à ces trois domaines. Offre aussi médiation, formation, coaching."
+  },
+  "richardlaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "criminalité économique",
+      "droit des successions et trusts",
+      "droit bancaire",
+      "responsabilité médicale",
+      "litiges et arbitrages nationaux et internationaux",
+      "droit fiscal"
+    ],
+    "practice_areas_en": [
+      "white-collar and economic crime",
+      "inheritance law and trusts",
+      "banking law",
+      "medical liability",
+      "domestic and international litigation and arbitration",
+      "tax law"
+    ],
+    "source_url": "https://richardlaw.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "'depuis plus de 40 ans' = formulation vague, founding_year null. Me Philippe Richard, ancien bâtonnier OAV."
+  },
+  "datalex.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "protection des données",
+      "droit de la santé et sciences de la vie",
+      "technologies avancées (IA, blockchain, drones, cloud)",
+      "cybercriminalité"
+    ],
+    "practice_areas_en": [
+      "data protection",
+      "health law and life sciences",
+      "advanced technologies (AI, blockchain, drones, cloud)",
+      "cybercrime"
+    ],
+    "source_url": "https://www.datalex.ch/avocats/",
+    "fetched_date": "2026-07-23",
+    "notes": "Plateforme fondée par deux avocats (Gabriel Avigdor, Ludovic Tirelli). Spécialisée nouvelles technologies et protection des données."
+  },
+  "lagrotte.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de la famille",
+      "droit des successions",
+      "droit de l'immobilier",
+      "droit du bail",
+      "droit du travail",
+      "droit pénal",
+      "droit des contrats",
+      "protection de l'adulte",
+      "droit international privé"
+    ],
+    "source_url": "https://lagrotte.ch/domaines-de-competence/",
+    "fetched_date": "2026-07-23",
+    "notes": "Cabinet Heim Avocats (Lausanne). Domaines listés explicitement sur le site."
+  },
+  "bettems.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "droit de l'immobilier et de la construction",
+      "droit du travail"
+    ],
+    "source_url": "https://bettems.ch/",
+    "fetched_date": "2026-07-23",
+    "notes": "Me Denis Bettems, inscrit au barreau depuis 1990 (mention explicite). Pratique solo, Aubonne. Président CA Camandona SA, conseil FVE."
+  },
+  "mediation-concorde.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "médiation commerciale",
+      "médiation entre associés",
+      "médiation employeur/employé",
+      "médiation immobilière",
+      "médiation entre héritiers"
+    ],
+    "source_url": "https://www.mediation-concorde.com/",
+    "fetched_date": "2026-07-23",
+    "notes": "Service de médiation (non cabinet d'avocats traditionnel). Maxime Hacot & Violaine Jaccottet Sherif. Actifs Paris + Vaud/Genève/Valais."
   }
 }

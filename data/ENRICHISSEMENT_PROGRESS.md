@@ -4,16 +4,19 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-23)
+## Statut actuel (dernière mise à jour : 2026-07-23 — lot 25)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **302** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
+- **370** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
   annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **99** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
+- **126** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
   spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **85** domaines de la liste connue pas encore testés.
-- Taux de réussite observé jusqu'ici : **~75.3%** (302 / 401 domaines réellement testés).
+- **0** domaines de la liste GE/VD pas encore testés — **liste GE/VD ÉPUISÉE**.
+- Taux de réussite observé : **~74.6%** (370 / 496 entrées cache).
+- **Prochaine étape : phase de découverte** — chercher les sites web des cabinets des
+  18 cantons hors GE/VD (AG, AI, BS, FR, GL, GR, JU, LU, NE, NW, OW, SG, SO, SZ, TG,
+  UR, ZG, ZH) qui n'ont pas de colonne `site_web` dans leurs CSV.
 
 ## Règles non négociables (méthodologie)
 
@@ -778,3 +781,28 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
   Taux de réussite : ~74.5% (360 / 483).
 - Rebuild complet OK (66 216 fichiers HTML, sitemap 23 593 URLs, échantillon de 40 fichiers
   sans artefact Jinja détecté).
+
+### 2026-07-23 — lot automatique 25 (GE/VD — DERNIER LOT, liste épuisée)
+
+- 12 domaines traités (les derniers restants de la liste GE/VD) : **9 réussites, 3 échecs**.
+- **Années de fondation trouvées** : avocats-montreux.com (2003 — "Il s'est établi à
+  Montreux en 2003", Me Kohli) ; avocats-nordvaudois.ch (2004 — "fondée par Me Monnin
+  Zwahlen, installée rue de la Plaine depuis 2004", mention explicite).
+- **Autres réussites** (domaines de compétence uniquement) : rufavocate.ch (droit des
+  successions/famille/travail/contrats — Lorraine Ruf, spécialiste FSA successions) ;
+  boldtapfer.ch (famille/habitation/travail) ; richardlaw.ch (criminalité économique,
+  successions/trusts, droit bancaire, responsabilité médicale, arbitrage, droit fiscal) ;
+  datalex.ch (protection des données, droit de la santé, technologies avancées, cybercriminalité) ;
+  lagrotte.ch = Heim Avocats (9 domaines : famille, successions, immobilier, bail, travail,
+  pénal, contrats, protection adulte, droit international privé) ; bettems.ch (immobilier/
+  construction, droit du travail — Me Denis Bettems, inscrit au barreau depuis 1990 à Aubonne) ;
+  mediation-concorde.com (service de médiation, domaines commerciaux/immobiliers/familiaux).
+- **Échecs** : brownandpage.com (page placeholder cyon, aucun contenu) ; cm-avocat.ch (contenu
+  vide) ; avocat-mediation-aigle.com (domaine non indexé, sans contenu).
+- **Totaux cumulés** : **370 réussites / 126 échecs / 496 entrées cache**.
+  Les **486 domaines GE/VD sont intégralement testés**. Taux de réussite : ~74.6%.
+- Rebuild complet OK. Sitemap 23 629 URLs. Échantillon 40 fichiers sans artefact Jinja.
+- **La prochaine exécution démarrera la phase de découverte** : recherche web des sites
+  officels des cabinets des 18 cantons sans colonne `site_web` (AG, AI, BS, FR, GL, GR,
+  JU, LU, NE, NW, OW, SG, SO, SZ, TG, UR, ZG, ZH), en commençant par les plus gros cabinets
+  (champ `etude`). Fichier de suivi : `data/domaines_autres_cantons.json` (créé si absent).
