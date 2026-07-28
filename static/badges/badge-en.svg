@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="Listed on Legatis">
+  <rect x="0.5" y="0.5" width="219" height="55" rx="8" fill="#1c1f27" stroke="#33363f" stroke-width="1"/>
+  <circle cx="28" cy="28" r="13" fill="#7a2e35"/>
+  <path d="M22 28l4 4 8-9" fill="none" stroke="#faf9f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="50" y="25" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#faf9f6">Legat<tspan font-style="italic">i</tspan>s</text>
+  <text x="50" y="40" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="0.3" fill="#c9ccd3">Listed on legatis.ch</text>
+</svg>

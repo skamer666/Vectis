@@ -45,6 +45,37 @@ _PAGES = {
                     "à ce jour : " + ", ".join(BLOCKED_CANTONS_FR) + ". Ils seront ajoutés dès qu'un accès "
                     "légitime aux données sera possible.",
                 )},
+                {"heading": "Nos règles éditoriales : ne jamais inventer un fait", "paragraphs": _p(
+                    "C'est la règle non négociable qui gouverne tout le contenu du site, y compris les "
+                    "textes de présentation générés automatiquement pour chaque avocat et chaque étude. "
+                    "Nous documentons ces règles ici plutôt que de simplement les appliquer en silence, "
+                    "parce que la façon dont un fait est établi compte autant que le fait lui-même.",
+                    "Une ancienneté ou une année de fondation n'est affichée que si elle est explicitement "
+                    "écrite dans le registre officiel ou sur le site du cabinet — jamais déduite d'une "
+                    "formulation vague comme « depuis plus de 20 ans ». Un effectif d'équipe n'est affiché "
+                    "que s'il est annoncé en toutes lettres par le cabinet — jamais compté à partir du "
+                    "nombre de profils listés sur une page « équipe », qui peut être partielle ou datée.",
+                    "Quand une information vient du site web d'un cabinet plutôt que du registre officiel, "
+                    "la fiche l'indique explicitement et mentionne la date à laquelle le site a été "
+                    "consulté. Pour les cabinets appartenant à un réseau international, seules les "
+                    "statistiques spécifiquement suisses sont retenues : un chiffre mondial du groupe "
+                    "(« 10 000 collaborateurs dans le monde ») n'est jamais utilisé pour décrire l'antenne "
+                    "suisse.",
+                    "Un cabinet dont le site montre des signes de compromission (contenu suspect, "
+                    "injection publicitaire) est exclu entièrement de l'enrichissement plutôt qu'utilisé "
+                    "partiellement.",
+                    "Une fiche sans aucun signal réel (ni ancienneté, ni langue, ni domaine de compétence, "
+                    "ni enrichissement vérifié) est automatiquement exclue des moteurs de recherche "
+                    "(balise « noindex ») jusqu'à ce qu'une donnée réelle soit disponible — nous préférons "
+                    "une fiche incomplète mais honnête à une fiche complétée artificiellement.",
+                )},
+                {"heading": "Indépendance", "paragraphs": _p(
+                    "Aucun cabinet ni avocat ne peut payer pour être mieux classé, apparaître en premier, "
+                    "ou faire modifier son texte de présentation dans un sens plus favorable. Le classement "
+                    "au sein d'un canton ou d'une ville suit un ordre alphabétique ou le nombre de membres "
+                    "d'une étude — jamais un critère commercial. Aucun avis ni note n'est affiché sur les "
+                    "fiches : nous n'en collectons pas, donc nous n'en inventons pas.",
+                )},
                 {"heading": "Fraîcheur des données", "paragraphs": _p(
                     f"Cette version du registre a été générée le {TODAY}. La fréquence de resynchronisation "
                     "avec les registres officiels n'est pas encore fixée à intervalle régulier ; nous "
@@ -81,6 +112,39 @@ _PAGES = {
                     + ", ".join(BLOCKED_CANTONS_FR) + ". Sie werden ergänzt, sobald ein legitimer "
                     "Datenzugang möglich ist.",
                 )},
+                {"heading": "Unsere redaktionellen Regeln: nie einen Fakt erfinden", "paragraphs": _p(
+                    "Das ist die nicht verhandelbare Regel, die den gesamten Inhalt der Seite bestimmt, "
+                    "einschliesslich der automatisch erzeugten Vorstellungstexte für jede Anwältin, jeden "
+                    "Anwalt und jede Kanzlei. Wir dokumentieren diese Regeln hier, statt sie nur still "
+                    "anzuwenden, weil die Art und Weise, wie ein Fakt belegt ist, ebenso zählt wie der Fakt "
+                    "selbst.",
+                    "Ein Gründungsjahr oder eine Berufserfahrung wird nur angezeigt, wenn sie ausdrücklich "
+                    "im offiziellen Register oder auf der Website der Kanzlei steht — nie abgeleitet aus "
+                    "einer vagen Formulierung wie «seit über 20 Jahren». Eine Teamgrösse wird nur "
+                    "angezeigt, wenn sie von der Kanzlei ausdrücklich genannt wird — nie aus der Anzahl der "
+                    "auf einer Team-Seite gelisteten Profile gezählt, die unvollständig oder veraltet sein "
+                    "kann.",
+                    "Stammt eine Angabe von der Website einer Kanzlei statt aus dem offiziellen Register, "
+                    "weist die Seite dies ausdrücklich aus und nennt das Datum des Abrufs. Bei Kanzleien "
+                    "eines internationalen Netzwerks werden nur spezifisch schweizerische Kennzahlen "
+                    "verwendet: eine weltweite Konzernzahl («10'000 Mitarbeitende weltweit») beschreibt nie "
+                    "den Schweizer Standort.",
+                    "Eine Kanzlei, deren Website Anzeichen einer Kompromittierung aufweist (verdächtiger "
+                    "Inhalt, Werbe-Injektion), wird vollständig von der Anreicherung ausgeschlossen, statt "
+                    "teilweise genutzt zu werden.",
+                    "Eine Seite ohne jedes reale Signal (weder Berufserfahrung noch Sprache, Fachgebiet "
+                    "oder verifizierte Anreicherung) wird automatisch von Suchmaschinen ausgeschlossen "
+                    "(«noindex»-Tag), bis eine reale Angabe verfügbar ist — wir bevorzugen eine "
+                    "unvollständige, aber ehrliche Seite gegenüber einer künstlich aufgefüllten.",
+                )},
+                {"heading": "Unabhängigkeit", "paragraphs": _p(
+                    "Keine Kanzlei und keine Anwältin kann dafür bezahlen, besser platziert zu werden, "
+                    "zuerst zu erscheinen, oder ihren Vorstellungstext in einem günstigeren Sinn ändern zu "
+                    "lassen. Die Reihenfolge innerhalb eines Kantons oder einer Ortschaft folgt dem "
+                    "Alphabet oder der Anzahl der Kanzleimitglieder — nie einem kommerziellen Kriterium. "
+                    "Es werden keine Bewertungen oder Noten angezeigt: Wir erheben keine, also erfinden "
+                    "wir keine.",
+                )},
                 {"heading": "Aktualität der Daten", "paragraphs": _p(
                     f"Diese Version des Registers wurde am {TODAY} erstellt. Ein fester Rhythmus für die "
                     "Neusynchronisation mit den offiziellen Registern ist noch nicht festgelegt.",
@@ -112,6 +176,36 @@ _PAGES = {
                     "6 cantoni non sono ancora coperti, per mancanza di un registro pubblico consultabile: "
                     + ", ".join(BLOCKED_CANTONS_FR) + ". Verranno aggiunti non appena sarà possibile un "
                     "accesso legittimo ai dati.",
+                )},
+                {"heading": "Le nostre regole editoriali: mai inventare un fatto", "paragraphs": _p(
+                    "È la regola non negoziabile che governa tutto il contenuto del sito, compresi i testi "
+                    "di presentazione generati automaticamente per ogni avvocato e ogni studio. "
+                    "Documentiamo queste regole qui invece di applicarle semplicemente in silenzio, perché "
+                    "il modo in cui un fatto viene stabilito conta quanto il fatto stesso.",
+                    "Un'anzianità o un anno di fondazione è mostrato solo se scritto esplicitamente nel "
+                    "registro ufficiale o sul sito dello studio — mai dedotto da una formulazione vaga come "
+                    "«da oltre 20 anni». Un numero di collaboratori è mostrato solo se dichiarato "
+                    "espressamente dallo studio — mai contato dal numero di profili elencati in una pagina "
+                    "«team», che può essere parziale o non aggiornata.",
+                    "Quando un'informazione proviene dal sito web di uno studio anziché dal registro "
+                    "ufficiale, la scheda lo indica esplicitamente e menziona la data di consultazione del "
+                    "sito. Per gli studi appartenenti a un network internazionale, si considerano solo le "
+                    "statistiche specificamente svizzere: una cifra mondiale del gruppo («10'000 "
+                    "collaboratori nel mondo») non viene mai usata per descrivere la sede svizzera.",
+                    "Uno studio il cui sito mostra segni di compromissione (contenuto sospetto, iniezione "
+                    "pubblicitaria) viene escluso interamente dall'arricchimento invece di essere utilizzato "
+                    "parzialmente.",
+                    "Una scheda priva di qualsiasi segnale reale (né anzianità, né lingua, né ambito di "
+                    "competenza, né arricchimento verificato) viene automaticamente esclusa dai motori di "
+                    "ricerca (tag «noindex») finché non è disponibile un dato reale — preferiamo una scheda "
+                    "incompleta ma onesta a una completata artificialmente.",
+                )},
+                {"heading": "Indipendenza", "paragraphs": _p(
+                    "Nessuno studio o avvocato può pagare per essere classificato meglio, apparire per "
+                    "primo, o far modificare il proprio testo di presentazione in senso più favorevole. "
+                    "L'ordine all'interno di un cantone o di una città segue l'alfabeto o il numero di "
+                    "membri di uno studio — mai un criterio commerciale. Nessuna recensione o valutazione "
+                    "è mostrata sulle schede: non le raccogliamo, quindi non le inventiamo.",
                 )},
                 {"heading": "Aggiornamento dei dati", "paragraphs": _p(
                     f"Questa versione del registro è stata generata il {TODAY}. La frequenza di "
@@ -145,6 +239,34 @@ _PAGES = {
                     + ", ".join(BLOCKED_CANTONS_FR) + ". They will be added as soon as legitimate access "
                     "to the data becomes possible.",
                 )},
+                {"heading": "Our editorial rules: never invent a fact", "paragraphs": _p(
+                    "This is the non-negotiable rule governing every piece of content on the site, "
+                    "including the automatically generated presentation text for each lawyer and firm. We "
+                    "document these rules here rather than simply applying them silently, because how a "
+                    "fact is established matters as much as the fact itself.",
+                    "A firm's seniority or founding year is only shown if explicitly written in the "
+                    "official register or on the firm's website — never inferred from a vague phrase like "
+                    "\"for over 20 years\". A team size is only shown if explicitly stated by the firm "
+                    "itself — never counted from the number of profiles listed on a \"team\" page, which "
+                    "may be partial or outdated.",
+                    "When a piece of information comes from a firm's website rather than the official "
+                    "register, the listing says so explicitly and states the date the website was "
+                    "accessed. For firms belonging to an international network, only Switzerland-specific "
+                    "figures are used: a global network statistic (\"10,000 staff worldwide\") is never "
+                    "used to describe the Swiss office.",
+                    "A firm whose website shows signs of compromise (suspicious content, ad injection) is "
+                    "excluded entirely from enrichment rather than used partially.",
+                    "A listing with no real signal at all (no seniority, language, practice area, or "
+                    "verified enrichment) is automatically excluded from search engines (\"noindex\" tag) "
+                    "until real data becomes available — we prefer an incomplete but honest listing over "
+                    "one artificially filled in.",
+                )},
+                {"heading": "Independence", "paragraphs": _p(
+                    "No firm or lawyer can pay to rank higher, appear first, or have their presentation "
+                    "text edited in a more favourable direction. Ordering within a canton or city follows "
+                    "the alphabet or firm size — never a commercial criterion. No reviews or ratings are "
+                    "shown on listings: we don't collect any, so we don't invent any.",
+                )},
                 {"heading": "Data freshness", "paragraphs": _p(
                     f"This version of the register was generated on {TODAY}. A fixed resynchronisation "
                     "schedule with the official registers has not yet been set.",
@@ -164,53 +286,91 @@ _PAGES = {
     },
     "a-propos": {
         "fr": {"title": "À propos", "sections": [
-            {"heading": None, "paragraphs": _p(
+            {"heading": "Notre mission", "paragraphs": _p(
                 "Legatis est l'annuaire de référence des avocats en Suisse : un registre public et "
                 "gratuit, construit à partir des registres officiels cantonaux, en français, allemand, "
-                "italien et anglais.",
-                "Pas de compte utilisateur, pas de classement payant, pas d'avis fabriqués. L'objectif est "
-                "que n'importe qui puisse vérifier rapidement qu'un avocat est bien inscrit au barreau et "
-                "retrouver ses coordonnées officielles — pas de générer des prospects payants pour les "
-                "études.",
+                "italien et anglais. L'objectif est que n'importe qui puisse vérifier rapidement qu'un "
+                "avocat est bien inscrit au barreau et retrouver ses coordonnées officielles.",
+            )},
+            {"heading": "Notre indépendance", "paragraphs": _p(
+                "Pas de compte utilisateur, pas de classement payant, pas d'avis fabriqués. Un cabinet ne "
+                "peut pas payer pour être mieux placé ni pour faire modifier sa fiche dans un sens plus "
+                "favorable — voir le détail de nos règles éditoriales sur la page méthodologie. Legatis "
+                "n'a pas vocation à générer des prospects payants pour les études référencées.",
+            )},
+            {"heading": "Où en est le projet", "paragraphs": _p(
                 "Le projet est encore jeune : certaines données restent incomplètes (voir la page "
-                "méthodologie) et six cantons ne sont pas encore couverts. Il s'améliore progressivement.",
+                "méthodologie) et six cantons ne sont pas encore couverts. La collecte et l'enrichissement "
+                "des données se poursuivent en continu ; le site s'améliore progressivement plutôt que de "
+                "prétendre être terminé.",
+                "Vous êtes avocat·e ou responsable d'étude et souhaitez signaler une inexactitude ou "
+                "compléter votre fiche ? Rendez-vous sur la page « Signaler une correction ».",
             )},
         ]},
         "de": {"title": "Über uns", "sections": [
-            {"heading": None, "paragraphs": _p(
+            {"heading": "Unsere Mission", "paragraphs": _p(
                 "Legatis ist das Referenzverzeichnis der Anwältinnen und Anwälte in der Schweiz: ein "
                 "öffentliches, kostenloses Register auf Basis der offiziellen kantonalen Register, auf "
-                "Französisch, Deutsch, Italienisch und Englisch.",
-                "Kein Benutzerkonto, kein bezahltes Ranking, keine erfundenen Bewertungen. Ziel ist es, "
-                "dass jede und jeder schnell prüfen kann, ob eine Anwältin oder ein Anwalt tatsächlich im "
-                "Anwaltsregister eingetragen ist, und die offiziellen Kontaktdaten findet — nicht, "
-                "kostenpflichtige Leads für Kanzleien zu generieren.",
+                "Französisch, Deutsch, Italienisch und Englisch. Ziel ist es, dass jede und jeder schnell "
+                "prüfen kann, ob eine Anwältin oder ein Anwalt tatsächlich im Register eingetragen ist, und "
+                "die offiziellen Kontaktdaten findet.",
+            )},
+            {"heading": "Unsere Unabhängigkeit", "paragraphs": _p(
+                "Kein Benutzerkonto, kein bezahltes Ranking, keine erfundenen Bewertungen. Eine Kanzlei "
+                "kann nicht dafür bezahlen, besser platziert zu werden oder ihren Eintrag in einem "
+                "günstigeren Sinn ändern zu lassen — Details zu unseren redaktionellen Regeln auf der "
+                "Methodik-Seite. Legatis hat nicht zum Ziel, kostenpflichtige Leads für die erfassten "
+                "Kanzleien zu generieren.",
+            )},
+            {"heading": "Stand des Projekts", "paragraphs": _p(
                 "Das Projekt ist noch jung: manche Daten sind noch unvollständig (siehe Methodik-Seite), "
-                "und sechs Kantone sind noch nicht erfasst. Es wird laufend erweitert.",
+                "und sechs Kantone sind noch nicht erfasst. Die Datenerhebung und -anreicherung läuft "
+                "laufend weiter; die Seite wird schrittweise verbessert, statt vorzugeben, fertig zu sein.",
+                "Sind Sie Anwältin, Anwalt oder Kanzleiverantwortliche·r und möchten eine Ungenauigkeit "
+                "melden oder Ihren Eintrag ergänzen? Nutzen Sie die Seite «Fehler melden».",
             )},
         ]},
         "it": {"title": "Chi siamo", "sections": [
-            {"heading": None, "paragraphs": _p(
+            {"heading": "La nostra missione", "paragraphs": _p(
                 "Legatis è l'elenco di riferimento degli avvocati in Svizzera: un registro pubblico e "
                 "gratuito, costruito a partire dai registri ufficiali cantonali, in francese, tedesco, "
-                "italiano e inglese.",
-                "Nessun account utente, nessuna classifica a pagamento, nessuna recensione inventata. "
-                "L'obiettivo è permettere a chiunque di verificare rapidamente che un avvocato sia "
-                "effettivamente iscritto all'albo e di trovarne i contatti ufficiali — non generare "
-                "contatti commerciali a pagamento per gli studi legali.",
+                "italiano e inglese. L'obiettivo è permettere a chiunque di verificare rapidamente che un "
+                "avvocato sia effettivamente iscritto all'albo e di trovarne i contatti ufficiali.",
+            )},
+            {"heading": "La nostra indipendenza", "paragraphs": _p(
+                "Nessun account utente, nessuna classifica a pagamento, nessuna recensione inventata. Uno "
+                "studio non può pagare per essere posizionato meglio né per far modificare la propria "
+                "scheda in senso più favorevole — dettagli delle nostre regole editoriali sulla pagina "
+                "metodologia. Legatis non ha lo scopo di generare contatti commerciali a pagamento per gli "
+                "studi censiti.",
+            )},
+            {"heading": "A che punto è il progetto", "paragraphs": _p(
                 "Il progetto è ancora giovane: alcuni dati restano incompleti (vedi la pagina metodologia) "
-                "e sei cantoni non sono ancora coperti. Viene migliorato progressivamente.",
+                "e sei cantoni non sono ancora coperti. La raccolta e l'arricchimento dei dati proseguono "
+                "in continuo; il sito viene migliorato progressivamente invece di presentarsi come finito.",
+                "Siete un avvocato o un responsabile di studio e volete segnalare un'imprecisione o "
+                "completare la vostra scheda? Andate alla pagina «Segnala una correzione».",
             )},
         ]},
         "en": {"title": "About", "sections": [
-            {"heading": None, "paragraphs": _p(
+            {"heading": "Our mission", "paragraphs": _p(
                 "Legatis is Switzerland's reference directory of lawyers: a free, public register built "
-                "from official cantonal registers, in French, German, Italian and English.",
-                "No user accounts, no paid ranking, no fabricated reviews. The goal is for anyone to "
-                "quickly verify that a lawyer is genuinely registered with the bar and find their official "
-                "contact details — not to generate paid leads for law firms.",
+                "from official cantonal registers, in French, German, Italian and English. The goal is "
+                "for anyone to quickly verify that a lawyer is genuinely registered with the bar and find "
+                "their official contact details.",
+            )},
+            {"heading": "Our independence", "paragraphs": _p(
+                "No user accounts, no paid ranking, no fabricated reviews. A firm cannot pay to rank "
+                "higher or to have its listing edited in a more favourable direction — see our editorial "
+                "rules on the methodology page. Legatis is not built to generate paid leads for the firms "
+                "it lists.",
+            )},
+            {"heading": "Where the project stands", "paragraphs": _p(
                 "The project is still young: some data remains incomplete (see the methodology page) and "
-                "six cantons are not yet covered. It is improved progressively.",
+                "six cantons are not yet covered. Data collection and enrichment continue on an ongoing "
+                "basis; the site is improved progressively rather than presented as finished.",
+                "Are you a lawyer or firm administrator and want to report an inaccuracy or complete your "
+                "listing? Go to the \"Report a correction\" page.",
             )},
         ]},
     },
@@ -327,6 +487,113 @@ _PAGES = {
                 "profession, not their private life.",
                 "Anyone concerned can request a correction or exercise their rights via the \"Report a "
                 "correction\" page.",
+            )},
+        ]},
+    },
+    "revendiquer": {
+        "fr": {"title": "Revendiquer votre fiche", "sections": [
+            {"heading": "Votre fiche vous appartient", "paragraphs": _p(
+                "Chaque fiche avocat ou étude sur Legatis provient d'un registre cantonal officiel. Si "
+                "vous êtes la personne ou le cabinet concerné, vous pouvez à tout moment demander une "
+                "correction, un complément d'information, ou même le retrait de votre fiche — gratuitement "
+                "et sans justification à fournir au-delà de la preuve de votre identité professionnelle.",
+            )},
+            {"heading": "Le badge « Référencé sur Legatis »", "paragraphs": _p(
+                "Chaque fiche étude et avocat propose un badge et un code d'intégration prêts à copier, "
+                "avec un lien direct vers votre fiche. L'ajouter à votre site indique à vos clients que "
+                "votre inscription au barreau est vérifiable publiquement — et nous aide à faire connaître "
+                "un annuaire indépendant, sans classement payant.",
+                "Aucune inscription, aucun compte, aucun paiement n'est nécessaire pour utiliser ce badge : "
+                "il suffit de copier le code présent sur votre fiche.",
+            )},
+            {"heading": "Ce que nous garantissons", "paragraphs": _p(
+                "Revendiquer ou corriger votre fiche ne change jamais son classement : l'ordre d'affichage "
+                "suit l'alphabet ou le nombre de membres d'une étude, jamais un critère commercial (voir "
+                "notre page méthodologie). Nous ne vendons pas de mise en avant.",
+            )},
+            {"heading": "Comment procéder", "paragraphs": _p(
+                "Écrivez-nous à contact@legatis.ch avec l'URL de votre fiche et la nature de votre demande "
+                "(correction, complément, retrait). Nous vérifions et traitons chaque demande "
+                "individuellement.",
+            )},
+        ]},
+        "de": {"title": "Ihren Eintrag beanspruchen", "sections": [
+            {"heading": "Ihr Eintrag gehört Ihnen", "paragraphs": _p(
+                "Jeder Anwalts- oder Kanzleieintrag auf Legatis stammt aus einem offiziellen kantonalen "
+                "Register. Sind Sie die betroffene Person oder Kanzlei, können Sie jederzeit eine "
+                "Korrektur, eine Ergänzung oder sogar die Entfernung Ihres Eintrags verlangen — "
+                "kostenlos und ohne weitere Begründung als den Nachweis Ihrer beruflichen Identität.",
+            )},
+            {"heading": "Das Badge «Erfasst auf Legatis»", "paragraphs": _p(
+                "Jeder Kanzlei- und Anwaltseintrag bietet ein Badge samt fertigem Einbindungscode mit "
+                "direktem Link zu Ihrem Eintrag. Es auf Ihrer Website einzubinden zeigt Ihren Mandantinnen "
+                "und Mandanten, dass Ihre Zulassung öffentlich überprüfbar ist — und hilft, ein "
+                "unabhängiges Verzeichnis ohne bezahltes Ranking bekannter zu machen.",
+                "Für die Nutzung des Badges ist keine Anmeldung, kein Konto und keine Zahlung nötig: "
+                "kopieren Sie einfach den Code auf Ihrem Eintrag.",
+            )},
+            {"heading": "Was wir garantieren", "paragraphs": _p(
+                "Die Beanspruchung oder Korrektur Ihres Eintrags ändert nie dessen Platzierung: Die "
+                "Reihenfolge folgt dem Alphabet oder der Anzahl der Kanzleimitglieder, nie einem "
+                "kommerziellen Kriterium (siehe unsere Methodik-Seite). Wir verkaufen keine "
+                "Hervorhebung.",
+            )},
+            {"heading": "So gehen Sie vor", "paragraphs": _p(
+                "Schreiben Sie uns an contact@legatis.ch mit der URL Ihres Eintrags und der Art Ihres "
+                "Anliegens (Korrektur, Ergänzung, Entfernung). Wir prüfen und bearbeiten jede Anfrage "
+                "einzeln.",
+            )},
+        ]},
+        "it": {"title": "Rivendicare la vostra scheda", "sections": [
+            {"heading": "La vostra scheda vi appartiene", "paragraphs": _p(
+                "Ogni scheda avvocato o studio su Legatis proviene da un registro cantonale ufficiale. Se "
+                "siete la persona o lo studio interessato, potete in qualsiasi momento richiedere una "
+                "correzione, un'integrazione, o persino la rimozione della vostra scheda — gratuitamente e "
+                "senza dover fornire giustificazioni oltre alla prova della vostra identità "
+                "professionale.",
+            )},
+            {"heading": "Il badge «Censito su Legatis»", "paragraphs": _p(
+                "Ogni scheda studio e avvocato propone un badge e un codice di integrazione pronti da "
+                "copiare, con un link diretto alla vostra scheda. Aggiungerlo al vostro sito indica ai "
+                "vostri clienti che la vostra iscrizione all'albo è verificabile pubblicamente — e ci aiuta "
+                "a far conoscere un elenco indipendente, senza classifiche a pagamento.",
+                "Non è necessaria alcuna registrazione, account o pagamento per usare questo badge: basta "
+                "copiare il codice presente sulla vostra scheda.",
+            )},
+            {"heading": "Cosa garantiamo", "paragraphs": _p(
+                "Rivendicare o correggere la vostra scheda non ne modifica mai la posizione: l'ordine "
+                "segue l'alfabeto o il numero di membri di uno studio, mai un criterio commerciale (vedi "
+                "la nostra pagina metodologia). Non vendiamo posizionamenti in evidenza.",
+            )},
+            {"heading": "Come procedere", "paragraphs": _p(
+                "Scriveteci a contact@legatis.ch con l'URL della vostra scheda e la natura della richiesta "
+                "(correzione, integrazione, rimozione). Verifichiamo e trattiamo ogni richiesta "
+                "individualmente.",
+            )},
+        ]},
+        "en": {"title": "Claim your listing", "sections": [
+            {"heading": "Your listing belongs to you", "paragraphs": _p(
+                "Every lawyer or firm listing on Legatis comes from an official cantonal register. If "
+                "you're the person or firm concerned, you can request a correction, an addition, or even "
+                "the removal of your listing at any time — free of charge and without needing to provide "
+                "anything beyond proof of your professional identity.",
+            )},
+            {"heading": "The \"Listed on Legatis\" badge", "paragraphs": _p(
+                "Every firm and lawyer listing offers a ready-to-copy badge and embed code linking "
+                "directly to your listing. Adding it to your website tells your clients that your bar "
+                "registration is publicly verifiable — and helps spread the word about an independent "
+                "directory with no paid ranking.",
+                "No sign-up, account, or payment is needed to use this badge: just copy the code shown on "
+                "your listing.",
+            )},
+            {"heading": "What we guarantee", "paragraphs": _p(
+                "Claiming or correcting your listing never changes its ranking: display order follows the "
+                "alphabet or firm size, never a commercial criterion (see our methodology page). We do "
+                "not sell featured placement.",
+            )},
+            {"heading": "How to proceed", "paragraphs": _p(
+                "Write to us at contact@legatis.ch with your listing's URL and the nature of your request "
+                "(correction, addition, removal). We review and handle every request individually.",
             )},
         ]},
     },

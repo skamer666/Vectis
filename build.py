@@ -60,9 +60,19 @@ def write_page(path, html):
 URLS_GENERATED = []
 
 
+BADGE_ALT = {"fr": "Référencé sur Legatis", "de": "Erfasst auf Legatis", "it": "Censito su Legatis", "en": "Listed on Legatis"}
+
+
 def base_ctx(lang, path, title, description, extra_hreflang=None):
     depth = path.strip("/").count("/") + 1
     hreflang = extra_hreflang or {}
+    page_url = BASE_DOMAIN + path
+    badge_svg_url = f"{BASE_DOMAIN}/static/badges/badge-{lang}.svg"
+    badge_alt = BADGE_ALT[lang]
+    badge_embed_code = (
+        f'<a href="{page_url}" target="_blank" rel="noopener">'
+        f'<img src="{badge_svg_url}" alt="{badge_alt}" width="220" height="56"></a>'
+    )
     return {
         "lang": lang,
         "title": title,
@@ -75,6 +85,10 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "cantons_index_url": cantons_index_path(lang),
         "domaines_index_url": domaines_index_path(lang),
         "guides_index_url": guides_index_path(lang),
+        "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
+        "badge_svg_url": badge_svg_url,
+        "badge_alt": badge_alt,
+        "badge_embed_code": badge_embed_code,
         "methodology_url": f"/{lang}/{seg('methodologie', lang)}/",
         "about_url": f"/{lang}/{seg('a-propos', lang)}/",
         "contact_url": f"/{lang}/{seg('contact', lang)}/",
@@ -1422,7 +1436,7 @@ def copy_static():
                 shutil.copyfile(os.path.join(root, fname), os.path.join(target_dir, fname))
 
 
-STATIC_PAGE_IDS = ["methodologie", "a-propos", "contact", "mentions-legales", "confidentialite", "correction"]
+STATIC_PAGE_IDS = ["methodologie", "a-propos", "contact", "mentions-legales", "confidentialite", "correction", "revendiquer"]
 
 
 def gen_static_pages():

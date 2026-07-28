@@ -279,9 +279,26 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   font-size:0.8rem; color:var(--paper-300);
 }
 
+/* -- badge / revendication de fiche -- */
+.badge-box{
+  display:flex; gap:var(--space-lg); align-items:flex-start; flex-wrap:wrap;
+  margin-top:var(--space-lg); padding:var(--space-lg);
+  background:var(--surface-card); border:1px solid var(--border-strong); border-radius:12px;
+}
+.badge-box-preview img{ display:block; border-radius:6px; }
+.badge-box-copy{ flex:1; min-width:220px; }
+.badge-box-title{ font-family:var(--font-display); font-size:1rem; font-weight:600; color:var(--text-primary); margin:0 0 4px; }
+.badge-box-text{ font-size:0.86rem; color:var(--text-secondary); margin:0 0 var(--space-sm); }
+.badge-embed-code{
+  width:100%; box-sizing:border-box; resize:vertical; font-family:ui-monospace,Menlo,Consolas,monospace;
+  font-size:0.78rem; color:var(--text-secondary); background:var(--surface-page);
+  border:1px solid var(--border-strong); border-radius:6px; padding:8px 10px;
+}
+
 @media (max-width:760px){
   .registry-row{ grid-template-columns:1fr; gap:4px; }
   .registry-city{ text-align:left; }
   .profile-head{ flex-direction:column; }
   .footer-grid{ grid-template-columns:1fr 1fr; }
+  .badge-box{ flex-direction:column; }
 }

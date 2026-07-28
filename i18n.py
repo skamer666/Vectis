@@ -384,6 +384,10 @@ UI = {
         "faq_title": "Questions fréquentes",
         "all_guides": "Tous les guides",
         "related_pages": "Pour aller plus loin",
+        "badge_title": "Cette fiche vous concerne ?",
+        "badge_text": "Intégrez ce badge sur votre site pour indiquer que votre cabinet est référencé sur Legatis, l'annuaire indépendant des avocats suisses. Copiez le code ci-dessous.",
+        "badge_alt": "Référencé sur Legatis",
+        "claim_page_link": "En savoir plus sur la revendication de fiche",
     },
     "de": {
         "site_name": "Legatis",
@@ -410,6 +414,10 @@ UI = {
         "faq_title": "Häufige Fragen",
         "all_guides": "Alle Ratgeber",
         "related_pages": "Weiterführende Seiten",
+        "badge_title": "Betrifft dieser Eintrag Sie?",
+        "badge_text": "Binden Sie dieses Badge auf Ihrer Website ein, um zu zeigen, dass Ihre Kanzlei auf Legatis, dem unabhängigen Verzeichnis der Schweizer Anwältinnen und Anwälte, erfasst ist. Kopieren Sie den Code unten.",
+        "badge_alt": "Erfasst auf Legatis",
+        "claim_page_link": "Mehr zur Beanspruchung eines Eintrags",
     },
     "it": {
         "site_name": "Legatis",
@@ -437,6 +445,10 @@ UI = {
         "faq_title": "Domande frequenti",
         "all_guides": "Tutte le guide",
         "related_pages": "Per approfondire",
+        "badge_title": "Questa scheda vi riguarda?",
+        "badge_text": "Integrate questo badge sul vostro sito per indicare che il vostro studio è censito su Legatis, l'elenco indipendente degli avvocati svizzeri. Copiate il codice qui sotto.",
+        "badge_alt": "Censito su Legatis",
+        "claim_page_link": "Scopri di più sulla rivendicazione di una scheda",
     },
     "en": {
         "site_name": "Legatis",
@@ -462,6 +474,10 @@ UI = {
         "faq_title": "Frequently asked questions",
         "all_guides": "All guides",
         "related_pages": "Related pages",
+        "badge_title": "Is this your listing?",
+        "badge_text": "Add this badge to your website to show that your firm is listed on Legatis, the independent directory of Swiss lawyers. Copy the code below.",
+        "badge_alt": "Listed on Legatis",
+        "claim_page_link": "Learn more about claiming a listing",
     },
 }
 
@@ -479,4 +495,5 @@ SEGMENTS = {
     "recherche": {"fr": "recherche", "de": "suche", "it": "ricerca", "en": "search"},
     "ville": {"fr": "ville", "de": "ort", "it": "citta", "en": "city"},
     "guides": {"fr": "guides", "de": "ratgeber", "it": "guide", "en": "guides"},
+    "revendiquer": {"fr": "revendiquer-une-fiche", "de": "eintrag-beanspruchen", "it": "rivendicare-una-scheda", "en": "claim-a-listing"},
 }
