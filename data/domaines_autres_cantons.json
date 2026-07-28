@@ -331,6 +331,54 @@
     "epartners.ch": {
       "reason": "URL hors provenance — non accessible via web_fetch (pas apparu dans les résultats de recherche directs)",
       "tested_date": "2026-07-28"
+    },
+    "gbf-legal.ch": {
+      "reason": "URL hors provenance — non accessible via web_fetch",
+      "firm_name": "gbf Rechtsanwälte AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "vialex.ch": {
+      "reason": "aucun fait exploitable — page trop sommaire (boilerplate uniquement)",
+      "firm_name": "VIALEX Rechtsanwälte AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "kleinlaw.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "Klein Rechtsanwälte AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "nigon.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "Nigon Partner AG",
+      "canton": "BS",
+      "tested_date": "2026-07-28"
+    },
+    "zurich-law.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "Zürcher Rechtsanwälte AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "zurichlawyers.com": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "ZL ZurichLawyers",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "suterhowald.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "Suter Howald Rechtsanwälte AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
+    },
+    "landmann.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "firm_name": "Landmann & Partner AG",
+      "canton": "ZH",
+      "tested_date": "2026-07-28"
     }
   },
   "_sans_site": {},
@@ -674,5 +722,299 @@
     "source_url": "https://pestalozzilaw.com/en",
     "fetched_date": "2026-07-21",
     "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json)."
+  },
+  "valfor.ch": {
+    "founding_year": 2024,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail, assurances sociales et immigration",
+      "Arbitrage",
+      "Banque et finance",
+      "Données et technologie",
+      "Énergie, ressources naturelles et environnement",
+      "Droit des sociétés et M&A",
+      "Droit de la santé",
+      "Droit commercial et des contrats",
+      "Propriété intellectuelle",
+      "Droit immobilier et de la construction",
+      "Marchés des capitaux",
+      "Secteur public et marchés publics",
+      "Clientèle privée",
+      "Représentation en justice",
+      "Restructuration, insolvabilité et asset recovery",
+      "Droit du sport",
+      "Fiscalité",
+      "Assurances et réassurances",
+      "Droit de la concurrence et ententes",
+      "Droit pénal économique et compliance"
+    ],
+    "practice_areas_en": [
+      "Labour law, social insurance and immigration",
+      "Arbitration",
+      "Banking and Finance",
+      "Data and Technology",
+      "Energy, Natural Resources and Environment",
+      "Corporate law and M&A",
+      "Health law",
+      "Commercial and contract law",
+      "Intellectual Property",
+      "Real Estate and Construction",
+      "Capital markets",
+      "Public sector and procurement",
+      "Private clients",
+      "Litigation",
+      "Restructuring, Insolvency and Asset Recovery",
+      "Sports law",
+      "Tax",
+      "Insurance and Reinsurance",
+      "Competition and Antitrust law",
+      "Commercial criminal law and compliance"
+    ],
+    "source_url": "https://www.valfor.ch/de/ueber-uns",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Valfor Rechtsanwälte AG",
+    "canton": "ZH",
+    "note": "Fondé le 1er juillet 2024 par fusion de BianchiSchwald, GHR Rechtsanwälte et PYTHON. 70+ juristes dans 6 bureaux suisses + Bruxelles (chiffre non spécifiquement suisse)."
+  },
+  "streiffvonkaenel.ch": {
+    "founding_year": 1962,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la construction et de l'immobilier"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Construction and real estate law"
+    ],
+    "source_url": "https://streiffvonkaenel.ch/en/about/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Streiff von Kaenel AG",
+    "canton": "ZH"
+  },
+  "steinlex.ch": {
+    "founding_year": 1951,
+    "team_size_n": 16,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://steinlex.ch/kanzlei/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Steinbrüchel Hüssy Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "rmp.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la construction et de l'immobilier (public et privé)",
+      "Droit des contrats",
+      "Droit successoral"
+    ],
+    "practice_areas_en": [
+      "Construction and real estate law (public and private)",
+      "Contract law",
+      "Inheritance law"
+    ],
+    "source_url": "https://www.rmp.ch/rmp/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Rohrer Müller Partner AG",
+    "canton": "ZH"
+  },
+  "wartmann-merker.ch": {
+    "founding_year": 1992,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Résolution des litiges",
+      "Droit commercial"
+    ],
+    "practice_areas_en": [
+      "Dispute Resolution",
+      "Commercial law"
+    ],
+    "source_url": "https://www.wartmann-merker.ch/en/firm",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Wartmann Merker AG",
+    "canton": "ZH"
+  },
+  "bmlaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Résolution des litiges",
+      "Droit des sociétés et droit commercial"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Dispute Resolution",
+      "Corporate and commercial law"
+    ],
+    "source_url": "https://bmlaw.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Baumgartner Mächler Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "balex.law": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit des contrats",
+      "Droit bancaire",
+      "Droit de la construction",
+      "Droit successoral",
+      "Droit de la famille",
+      "Droit des sociétés",
+      "Propriété intellectuelle",
+      "Droit immobilier",
+      "Droit pénal",
+      "Arbitrage",
+      "Notariat"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Contract law",
+      "Banking law",
+      "Construction law",
+      "Inheritance law",
+      "Family law",
+      "Corporate law",
+      "Intellectual property",
+      "Real estate law",
+      "Criminal law",
+      "Arbitration",
+      "Notarization"
+    ],
+    "source_url": "https://balex.law/en/services/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "BALEX AG",
+    "canton": "BS"
+  },
+  "weber-schaub.ch": {
+    "founding_year": 1993,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit successoral",
+      "Droit fiscal",
+      "Droit des sociétés",
+      "Droit des contrats"
+    ],
+    "practice_areas_en": [
+      "Inheritance and estate law",
+      "Tax law",
+      "Company law",
+      "Contract law"
+    ],
+    "source_url": "https://www.weber-schaub.ch/en/wsp/about-us/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "weber schaub & partner ag",
+    "canton": "ZH"
+  },
+  "werdervigano.ch": {
+    "founding_year": 2009,
+    "team_size_n": 15,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Droit public",
+      "Propriété intellectuelle"
+    ],
+    "practice_areas_en": [
+      "Business law",
+      "Public law",
+      "Intellectual property law"
+    ],
+    "source_url": "https://www.werdervigano.ch/ueber-uns",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Werder Viganò AG",
+    "canton": "ZH",
+    "note": "Fondé en 2009 par fusion des études Werder et Viganò."
+  },
+  "schillerlegal.ch": {
+    "founding_year": 1875,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la construction et de l'immobilier",
+      "Droit des avocats",
+      "Droit de l'énergie et de l'électricité",
+      "Droit successoral",
+      "Droit de la responsabilité et des assurances",
+      "Droit aérien et des transports",
+      "Droit du bail",
+      "Procédures judiciaires et arbitrage",
+      "Questions réglementaires",
+      "Marchés publics",
+      "Droit des contrats",
+      "Droit administratif et communal",
+      "Droit de la concurrence",
+      "Droit commercial"
+    ],
+    "practice_areas_en": [
+      "Labour law",
+      "Construction and real estate",
+      "Attorney law",
+      "Energy and electricity law",
+      "Inheritance law and succession planning",
+      "Liability law and insurance law",
+      "Air and transportation law",
+      "Tenancy law",
+      "Litigation, arbitration, enforcement and bankruptcy",
+      "Regulatory matters",
+      "Public Procurement",
+      "Contract law",
+      "Administrative and municipal law",
+      "Competition law",
+      "Business and commercial law"
+    ],
+    "source_url": "https://schillerlegal.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Schiller Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "rlaw.ch": {
+    "founding_year": 1938,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial"
+    ],
+    "practice_areas_en": [
+      "Commercial law"
+    ],
+    "source_url": "https://rlaw.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Reichenbach Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "altenburger.ch": {
+    "founding_year": 1978,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Banque, finance et fintech",
+      "Droit commercial et des contrats",
+      "Droit des sociétés et M&A",
+      "Résolution des litiges",
+      "Droit du travail",
+      "Assurances et réassurances",
+      "Clientèle privée",
+      "Immobilier",
+      "Restructuration et faillite",
+      "Fiscalité"
+    ],
+    "practice_areas_en": [
+      "Banking, Finance & FinTech",
+      "Commercial & Contracts",
+      "Corporate and M&A",
+      "Dispute Resolution",
+      "Employment Law",
+      "Insurance & Re-Insurance",
+      "Private Client",
+      "Real Estate",
+      "Restructuring & Bankruptcy",
+      "Tax"
+    ],
+    "source_url": "https://www.altenburger.ch/expertise",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Altenburger Ltd legal + tax",
+    "canton": "ZH"
   }
 }

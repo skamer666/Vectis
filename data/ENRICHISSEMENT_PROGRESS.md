@@ -4,19 +4,17 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-23 — lot 26 — phase de découverte lot 1)
+## Statut actuel (dernière mise à jour : 2026-07-28 — lot 28 — phase de découverte lot 3)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
-- **370** cabinets avec au moins un fait exploitable (année de fondation, taille d'équipe
-  annoncée, et/ou liste de domaines de compétence formulée par le cabinet lui-même).
-- **126** domaines testés sans succès (page vide/JS, contenu trop mince, chiffres non
-  spécifiques à la Suisse, page trop volumineuse pour l'outil de fetch, ou site suspect).
-- **0** domaines de la liste GE/VD pas encore testés — **liste GE/VD ÉPUISÉE**.
-- Taux de réussite observé : **~74.6%** (370 / 496 entrées cache).
-- **Prochaine étape : phase de découverte** — chercher les sites web des cabinets des
-  18 cantons hors GE/VD (AG, AI, BS, FR, GL, GR, JU, LU, NE, NW, OW, SG, SO, SZ, TG,
-  UR, ZG, ZH) qui n'ont pas de colonne `site_web` dans leurs CSV.
+- **370** cabinets avec au moins un fait exploitable dans le cache principal GE/VD (inchangé).
+- **126** domaines testés sans succès dans le cache principal GE/VD (inchangé).
+- **0** domaines GE/VD restants — liste épuisée.
+- **Cache découverte autres cantons :** 49 succès / 11 échecs (lot 28 : +12 succès, +8 échecs).
+- Taux de réussite phase de découverte : **~82%** (49 / 60 entrées).
+- **Prochaine étape :** poursuivre la phase de découverte — cabinets ZH/BS/SG/GR de taille
+  moyenne (~10 avocats) pas encore testés.
 
 ## Règles non négociables (méthodologie)
 
@@ -853,3 +851,25 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Cache principal GE/VD :** 369 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 37 entrées / 3 _failed.
 - Rebuild complet OK : 66 252 fichiers HTML, sitemap **23 633 URLs**, échantillon de 40 fichiers sans artefact Jinja.
+
+### 2026-07-28 — lot automatique 28 (phase de découverte — autres cantons, lot 3)
+
+- **20 domaines traités** (cabinets ZH/BS principalement, tranche 14-12 avocats) : **12 succès / 8 échecs**.
+- Données stockées dans `data/domaines_autres_cantons.json` (49 succès, 11 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **Valfor Rechtsanwälte AG** (valfor.ch, ZH) : fondé le **1er juillet 2024** (fusion de BianchiSchwald, GHR Rechtsanwälte et PYTHON), 20 domaines de compétence. Note : 70+ juristes incluent le bureau de Bruxelles — taille non spécifiquement suisse, non retenue.
+  - **Streiff von Kaenel AG** (streiffvonkaenel.ch, ZH/Wetzikon) : fondé en **1962** (origine : Advokatenbüro Dr. Ullin Streiff à Uster), spécialités : droit du travail et droit de la construction.
+  - **Steinbrüchel Hüssy Rechtsanwälte** (steinlex.ch, ZH) : fondé en **1951**, **16 avocats** (explicite : "derzeit 16 Anwältinnen und Anwälten").
+  - **Wartmann Merker AG** (wartmann-merker.ch, ZH) : fondé en **1992** par Thomas Wartmann et Rudolf Merker. Spécialité : dispute resolution.
+  - **Werder Viganò AG** (werdervigano.ch, ZH) : fondé en **2009** (fusion des études Werder et Viganò), **15 experts** (explicite), 3 domaines de compétence.
+  - **Schiller Rechtsanwälte AG** (schillerlegal.ch, ZH/Winterthur) : issu d'un cabinet fondé en **1875**, 15 domaines de compétence.
+  - **Reichenbach Rechtsanwälte AG** (rlaw.ch, ZH) : fondé en **1938** (explicite : "advising... since 1938"). Spécialité : droit commercial.
+  - **Altenburger Ltd legal + tax** (altenburger.ch, ZH) : fondé en **1978** (explicite dans la méta-description officielle), 10 domaines de compétence.
+  - **weber schaub & partner ag** (weber-schaub.ch, ZH) : fondé en **1993** par Peter Schaub et son épouse (explicite), 4 domaines de compétence.
+  - **Baumgartner Mächler Rechtsanwälte AG** (bmlaw.ch, ZH) : 3 domaines de compétence (droit pénal, litiges, droit des sociétés). Pas d'année ni taille explicite.
+  - **BALEX AG** (balex.law, BS) : liste complète de spécialités (12 domaines principaux). Pas d'année ni taille explicite.
+  - **Rohrer Müller Partner AG** (rmp.ch, ZH) : spécialité Bau- und Immobilienrecht (explicite dans titre/méta). Pas d'année ni taille.
+- **Échecs (8) :** gbf-legal.ch (hors provenance), vialex.ch (contenu trop sommaire), kleinlaw.ch / nigon.ch / zurich-law.ch / zurichlawyers.com / suterhowald.ch / landmann.ch (rendu JavaScript — page vide).
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 49 succès / 11 échecs.
+- Rebuild complet OK : sitemap **23 629 URLs**, échantillon de 40 fichiers sans artefact Jinja.
