@@ -929,3 +929,33 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Note :** comme pour les lots précédents, domaines_autres_cantons.json non encore consommé par build.py → pas de rebuild local ciblé (pages HTML inchangées). Vercel fait le build complet sur push.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 86 succès / 14 échecs.
+
+### 2026-07-28 — lot 31 (phase de découverte — autres cantons, lot 6)
+
+- **20 domaines traités** (cabinets ZH/BS/SZ — tranche suivante par taille) : **14 succès / 6 échecs**.
+- Données stockées dans `data/domaines_autres_cantons.json` (99 succès / 20 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **Prof. Giger & Partner Rechtsanwälte** (gigerpartnerlaw.ch, ZH) : fondé en **1962** (explicite : "im Jahre 1962"), 12 domaines de compétence (emploi, famille, scolaire, circulation, pénal, contrats, construction, successions, sociétés, leasing, administratif, assurances/responsabilité).
+  - **meyer & meier Rechtsanwälte AG** (mmlawyers.ch, ZH) : fondé en **2012** (explicite : "wurde 2012 gegründet"), 9 domaines de compétence.
+  - **Advokatur West** (advokatur-west.ch, ZH) : fondé en **1995** (explicite : "Seit 1995"), 11 domaines de compétence (généraliste, médiation).
+  - **DUFOUR Advokatur AG** (dufour-advokatur.ch, BS) : fondé en **1991** (explicite : "Founded in 1991"), 6 domaines de compétence — fondations/NPO, sociétés, clientèle privée, prévoyance, art/culture, successions.
+  - **gbk Rechtsanwälte AG** (gbk-law.ch, ZH) : 6 domaines de compétence (droit immobilier public/privé, construction, environnement, assurances, droit scolaire).
+  - **Advokatur Lachen** (advokatur-lachen.ch, SZ) : **9 avocats** (explicite : 3 avocates + 5 avocats + 1 Rechtskonsulent), 5 domaines (généraliste, notariat, pénal, famille, droit public). Nom actuel depuis avril 2017 ; tradition familiale Schwander depuis ~1920.
+  - **PMP Rechtsanwälte AG** (pmp-ra.ch, ZH) : boutique planification/construction/immobilier.
+  - **HUMBERT HEINZEN HISCHIER Rechtsanwälte** (hhh-law.ch, ZH) : boutique droit du travail.
+  - **Thaler Berz Partner Rechtsanwälte** (tbp-law.ch, ZH) : boutique immobilier/bail/construction.
+  - **Blesi & Papa** (blesi-papa.ch, ZH) : 6 domaines — emploi, prévoyance professionnelle, sécurité sociale, immigration, protection des données, litiges.
+  - **TIMES Attorneys** (timesattorneys.ch, ZH) : boutique spécialisée technologie, PI, droit médical, entertainment, sports.
+  - **Suffert Neuenschwander & Partner** (snplegal.com, ZH) : 18 domaines de compétence (généraliste + digital/IT, marchés publics, sports).
+  - **LAUX LAWYERS AG** (lauxlawyers.ch, ZH) : spécialiste IT law, propriété intellectuelle, protection des données, droit de la santé numérique.
+  - **WS LAW** (wslaw.ch, ZH) : 5 domaines — emploi, successions, droit des sociétés, famille, pénal.
+- **Échecs (6) :**
+  - reberlaw.ch (REBER Rechtsanwälte, ZH) — rendu JavaScript probable
+  - advogar.ch (Advokatur Gartenhof, ZH) — rendu JavaScript probable
+  - stplaw.ch (Stiffler & Partner, ZH) — rendu JavaScript probable
+  - eversheds-sutherland.com (Eversheds Sutherland AG, ZH) — rendu JavaScript probable (site global)
+  - klgp.ch (Kessler Landolt Giacomini & Partner, SZ) — rendu JavaScript probable
+  - pachmann.law (Pachmann AG, ZH) — URL hors provenance, non accessible via web_fetch
+- **Note :** domaines_autres_cantons.json non encore consommé par build.py → pas de rebuild local (pages HTML inchangées). Vercel fait le build complet sur push.
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 99 succès / 20 échecs.

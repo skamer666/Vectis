@@ -391,6 +391,42 @@
     "mzbs.ch": {
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "reberlaw.ch": {
+      "firm_name": "REBER Rechtsanwälte",
+      "canton": "ZH",
+      "reason": "contenu vide, rendu JavaScript probable",
+      "tested_date": "2026-07-28"
+    },
+    "advogar.ch": {
+      "firm_name": "Advokatur Gartenhof",
+      "canton": "ZH",
+      "reason": "contenu vide, rendu JavaScript probable",
+      "tested_date": "2026-07-28"
+    },
+    "stplaw.ch": {
+      "firm_name": "Stiffler & Partner",
+      "canton": "ZH",
+      "reason": "contenu vide, rendu JavaScript probable",
+      "tested_date": "2026-07-28"
+    },
+    "eversheds-sutherland.com": {
+      "firm_name": "Eversheds Sutherland AG",
+      "canton": "ZH",
+      "reason": "contenu vide, rendu JavaScript probable (site global)",
+      "tested_date": "2026-07-28"
+    },
+    "klgp.ch": {
+      "firm_name": "Kessler Landolt Giacomini & Partner",
+      "canton": "SZ",
+      "reason": "contenu vide, rendu JavaScript probable",
+      "tested_date": "2026-07-28"
+    },
+    "pachmann.law": {
+      "firm_name": "Pachmann AG",
+      "canton": "ZH",
+      "reason": "URL hors provenance — non accessible via web_fetch",
+      "tested_date": "2026-07-28"
     }
   },
   "_sans_site": {},
@@ -2101,5 +2137,254 @@
     "fetched_date": "2026-07-28",
     "firm_name": "Mengiardi Fey & Partner AG",
     "canton": "GR"
+  },
+  "gbk-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Private real estate law",
+      "Public real estate law",
+      "Construction law",
+      "Environmental law",
+      "Insurance law",
+      "Education law"
+    ],
+    "source_url": "https://gbk-law.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "gbk Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "advokatur-lachen.ch": {
+    "founding_year": null,
+    "team_size_n": 9,
+    "team_size_text": "3 Rechtsanwältinnen und 6 Rechtsanwälte (actuel nom depuis avril 2017, tradition familiale Schwander depuis 1920)",
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "All areas of law",
+      "Notary services",
+      "Criminal defense",
+      "Family law",
+      "Public procurement law"
+    ],
+    "source_url": "https://advokatur-lachen.ch/kanzlei",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Advokatur Lachen",
+    "canton": "SZ"
+  },
+  "pmp-ra.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Planning law",
+      "Construction law",
+      "Real estate law"
+    ],
+    "source_url": "https://pmp-ra.ch/en/home/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "PMP Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "gigerpartnerlaw.ch": {
+    "founding_year": 1962,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Employment law",
+      "Family law",
+      "Education and school law",
+      "Traffic law",
+      "Criminal law",
+      "Contract law",
+      "Construction law",
+      "Inheritance law",
+      "Corporate law",
+      "Leasing and consumer credit law",
+      "Administrative law",
+      "Insurance and liability law"
+    ],
+    "source_url": "https://gigerpartnerlaw.ch/kanzlei/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Prof. Giger & Partner Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "hhh-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Employment law"
+    ],
+    "source_url": "https://hhh-law.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "HUMBERT HEINZEN HISCHIER Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "tbp-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Real estate law",
+      "Tenancy law",
+      "Construction law"
+    ],
+    "source_url": "https://www.tbp-law.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Thaler Berz Partner Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "blesi-papa.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Labour law",
+      "Occupational pension law",
+      "Social security law",
+      "Immigration law",
+      "Data protection law",
+      "Litigation"
+    ],
+    "source_url": "https://www.blesi-papa.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Blesi & Papa",
+    "canton": "ZH"
+  },
+  "timesattorneys.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Technology law",
+      "Intellectual Property",
+      "Medical law",
+      "Entertainment law",
+      "Sports law"
+    ],
+    "source_url": "https://timesattorneys.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "TIMES Attorneys",
+    "canton": "ZH"
+  },
+  "mmlawyers.ch": {
+    "founding_year": 2012,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Family law",
+      "Labour law",
+      "Tenancy and lease law",
+      "Criminal and traffic law",
+      "Inheritance law",
+      "Commercial and company law",
+      "Contract law",
+      "Trademark and design law",
+      "Debt enforcement and bankruptcy law"
+    ],
+    "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
+    "fetched_date": "2026-07-28",
+    "firm_name": "meyer & meier Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "advokatur-west.ch": {
+    "founding_year": 1995,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Labour law",
+      "Criminal law",
+      "Private construction law",
+      "Family law",
+      "Contract law",
+      "Tenancy law",
+      "Inheritance law",
+      "Public employment law",
+      "Public procurement law",
+      "Travel law",
+      "Mediation and Coaching"
+    ],
+    "source_url": "https://www.advokatur-west.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Advokatur West",
+    "canton": "ZH"
+  },
+  "lauxlawyers.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "IT law",
+      "Intellectual property law",
+      "Data protection law",
+      "Digital health law"
+    ],
+    "source_url": "https://www.lauxlawyers.ch/en/law-firm/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "LAUX LAWYERS AG",
+    "canton": "ZH"
+  },
+  "snplegal.com": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Labour law",
+      "Family law",
+      "Tenancy and real estate law",
+      "Litigation",
+      "Contracts and start-ups",
+      "Social security law",
+      "Criminal and traffic law",
+      "Immigration law",
+      "Public-sector labour and school law",
+      "IT law and data privacy",
+      "Digitalisation and cloud projects",
+      "Public procurement law",
+      "Commercial law",
+      "Trade and distribution law",
+      "Company law and M&A",
+      "IP and competition law",
+      "Event and sports law",
+      "Start-ups"
+    ],
+    "source_url": "https://www.snplegal.com/en/fachgebiete/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Suffert Neuenschwander & Partner",
+    "canton": "ZH"
+  },
+  "dufour-advokatur.ch": {
+    "founding_year": 1991,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Foundations and NPOs",
+      "Corporate law (formation, M&A, IP)",
+      "Private clients (employment, contracts, real estate)",
+      "Occupational benefits and pension funds",
+      "Art and culture law",
+      "Estate planning"
+    ],
+    "source_url": "https://www.dufour-advokatur.ch/en/firm/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "DUFOUR Advokatur AG",
+    "canton": "BS"
+  },
+  "wslaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Labour law",
+      "Inheritance law and estate planning",
+      "Corporate and contract law",
+      "Family law",
+      "Criminal law"
+    ],
+    "source_url": "https://www.wslaw.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "WS LAW",
+    "canton": "ZH"
   }
 }
