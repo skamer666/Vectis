@@ -19,8 +19,12 @@ import i18n
 import presentation_text as pt
 import static_pages as sp_content
 import guides_content
+from urls import (
+    BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
+    etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
+    home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
+)
 
-BASE_DOMAIN = "https://legatis.ch"
 SITE_ROOT = os.path.dirname(__file__)
 TEMPLATES_DIR = os.path.join(SITE_ROOT, "templates")
 DIST_DIR = os.path.join(SITE_ROOT, "dist")
@@ -29,8 +33,6 @@ if not os.path.isdir(DATA_DIR):
     DATA_DIR = os.path.abspath(os.path.join(SITE_ROOT, "..", "..", "..", "..", "Vectis", "data"))
 if not os.path.isdir(DATA_DIR):
     DATA_DIR = "/sessions/sweet-beautiful-heisenberg/mnt/Vectis/data"
-
-LANGS = i18n.LANGUAGES
 
 env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
 
@@ -45,70 +47,6 @@ def slugify(text):
 def norm(text):
     text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode("ascii")
     return re.sub(r"\s+", " ", text).strip().lower()
-
-
-def seg(name, lang):
-    return i18n.SEGMENTS[name][lang]
-
-
-def canton_path(canton_code, lang):
-    c = i18n.CANTONS[canton_code][lang]
-    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/"
-
-
-def domaine_path(domaine_id, lang):
-    d = i18n.DOMAINES[domaine_id][lang]
-    return f"/{lang}/{seg('domaines', lang)}/{d['slug']}/"
-
-
-def cross_path(canton_code, domaine_id, lang):
-    c = i18n.CANTONS[canton_code][lang]
-    d = i18n.DOMAINES[domaine_id][lang]
-    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{d['slug']}/"
-
-
-def avocat_path(canton_code, lawyer_slug, lang):
-    c = i18n.CANTONS[canton_code][lang]
-    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('avocat', lang)}/{lawyer_slug}/"
-
-
-def etude_path(canton_code, firm_slug, lang):
-    c = i18n.CANTONS[canton_code][lang]
-    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('etude', lang)}/{firm_slug}/"
-
-
-def ville_path(canton_code, city_slug, lang):
-    c = i18n.CANTONS[canton_code][lang]
-    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('ville', lang)}/{city_slug}/"
-
-
-def ville_domaine_path(canton_code, city_slug, domaine_id, lang):
-    d = i18n.DOMAINES[domaine_id][lang]
-    return ville_path(canton_code, city_slug, lang) + d["slug"] + "/"
-
-
-def guides_index_path(lang):
-    return f"/{lang}/{seg('guides', lang)}/"
-
-
-def guide_path(gid, lang):
-    return f"/{lang}/{seg('guides', lang)}/{guides_content.GUIDES[gid][lang]['slug']}/"
-
-
-def home_path(lang):
-    return f"/{lang}/"
-
-
-def cantons_index_path(lang):
-    return f"/{lang}/{seg('avocats', lang)}/"
-
-
-def domaines_index_path(lang):
-    return f"/{lang}/{seg('domaines', lang)}/"
-
-
-def static_path(lang, depth):
-    return "../" * depth + "static/"
 
 
 def write_page(path, html):
@@ -147,10 +85,6 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "schema": None,
         "breadcrumb": None,
     }
-
-
-def hreflang_for(path_fn, *args):
-    return {lg: BASE_DOMAIN + path_fn(*args, lg) if args else BASE_DOMAIN + path_fn(lg) for lg in LANGS}
 
 
 # ---------------------------------------------------------------- data load
@@ -484,9 +418,9 @@ for _r in GE_INDIVIDUALS:
         GE_BY_DOMAINE.setdefault(_did, []).append(_r)
 
 
-def gen_ge_avocats(start=0, count=None):
+def gen_ge_avocats(start=0, count=None, rows=None):
     canton_name_fr = i18n.CANTONS["GE"]["fr"]["name"]
-    subset = GE_INDIVIDUALS[start:start + count] if count else GE_INDIVIDUALS[start:]
+    subset = rows if rows is not None else (GE_INDIVIDUALS[start:start + count] if count else GE_INDIVIDUALS[start:])
     for row in subset:
         nom = row["nom_complet"].title()
         firm_row = FIRM_BY_NORM.get(norm(row.get("etude", "")))
@@ -547,8 +481,8 @@ def gen_ge_avocats(start=0, count=None):
             write_page(path, render("avocat.html", ctx))
 
 
-def gen_ge_etudes(start=0, count=None):
-    subset = GE_FIRMS[start:start + count] if count else GE_FIRMS[start:]
+def gen_ge_etudes(start=0, count=None, rows=None):
+    subset = rows if rows is not None else (GE_FIRMS[start:start + count] if count else GE_FIRMS[start:])
     for row in subset:
         nom_etude = row["etude"]
         matched = MEMBERS_BY_FIRM_NORM.get(norm(nom_etude), [])
@@ -1005,9 +939,9 @@ def gen_canton_cross(code):
             write_page(path, render("cross.html", ctx))
 
 
-def gen_canton_etudes(code, start=0, count=None):
+def gen_canton_etudes(code, start=0, count=None, rows=None):
     data = CANTON_DATA[code]
-    subset = data["firms"][start:start + count] if count else data["firms"][start:]
+    subset = rows if rows is not None else (data["firms"][start:start + count] if count else data["firms"][start:])
     for f in subset:
         nom_etude = f["etude"]
         members = sorted(f["members"], key=lambda m: m["nom_complet"])
@@ -1077,12 +1011,12 @@ def gen_canton_etudes(code, start=0, count=None):
             write_page(path, render("etude.html", ctx))
 
 
-def gen_canton_avocats(code, start=0, count=None):
+def gen_canton_avocats(code, start=0, count=None, rows=None):
     data = CANTON_DATA[code]
     individuals = data["individuals"]
     by_city = data["by_city"]
     firm_by_norm = data["firm_by_norm"]
-    subset = individuals[start:start + count] if count else individuals[start:]
+    subset = rows if rows is not None else (individuals[start:start + count] if count else individuals[start:])
     for row in subset:
         nom = row["nom_complet"].title()
         etude_name = row.get("etude", "").strip()
@@ -1541,6 +1475,100 @@ def gen_sitemaps():
     print(f"sitemap.xml + {len(sitemap_files)} sous-sitemaps ({sum(len(v) for v in by_lang.values())} URLs)", file=sys.stderr)
 
 
+# ---------------------------------------------------------------- IndexNow
+# Cle stable (Bing/Yandex/Seznam/Naver partagent le meme protocole via
+# api.indexnow.org) : ne jamais changer cette valeur, le fichier de
+# verification a la racine et la cle utilisee dans chaque soumission doivent
+# rester identiques indefiniment.
+INDEXNOW_KEY = "7f3a9c14e8b5426a9d2f6c1e0a7b8d3f"
+
+
+def gen_indexnow_key():
+    with open(os.path.join(DIST_DIR, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
+        f.write(INDEXNOW_KEY)
+
+
+def urls_for_domain(domain):
+    """URLs (etude + avocats membres, 4 langues) dont le contenu depend d'un
+    domaine de site web donne -- utilise pour cibler les soumissions IndexNow
+    apres un lot d'enrichissement, sans avoir a resoumettre tout le site."""
+    urls = []
+
+    def _collect(code, firm, members):
+        for lang in LANGS:
+            urls.append(BASE_DOMAIN + etude_path(code, firm["_slug"], lang))
+        for m in members:
+            for lang in LANGS:
+                urls.append(BASE_DOMAIN + avocat_path(code, m["_slug"], lang))
+
+    for f in GE_FIRMS:
+        members = MEMBERS_BY_FIRM_NORM.get(norm(f["etude"]), [])
+        if any(site_domain(m.get("site_web")) == domain for m in members):
+            _collect("GE", f, members)
+    for r in GE_INDIVIDUALS:
+        if not r.get("etude", "").strip() and site_domain(r.get("site_web")) == domain:
+            for lang in LANGS:
+                urls.append(BASE_DOMAIN + avocat_path("GE", r["_slug"], lang))
+    for code, data in CANTON_DATA.items():
+        for f in data["firms"]:
+            if any(site_domain(m.get("site_web")) == domain for m in f["members"]):
+                _collect(code, f, f["members"])
+        for r in data["solo"]:
+            if site_domain(r.get("site_web")) == domain:
+                for lang in LANGS:
+                    urls.append(BASE_DOMAIN + avocat_path(code, r["_slug"], lang))
+    return sorted(set(urls))
+
+
+def _dedup(rows):
+    return list({id(r): r for r in rows}.values())
+
+
+def gen_affected_for_domain(domain):
+    """Regenere uniquement les pages etude + avocats dont le contenu depend
+    de ce domaine de site web (fiche etude elle-meme, et fiches des avocats
+    membres puisqu'elles heritent de l'insight/enrichissement du cabinet).
+
+    Utilise par la tache planifiee apres un lot d'enrichissement cible, pour
+    eviter un rebuild complet des ~66'000 pages du site a chaque execution
+    (30 min) -- c'etait la cause directe du risque de saturation disque du
+    bac a sable. Le deploiement de production (Vercel, sur chaque push)
+    continue de faire un rebuild complet via `python3 build.py all` : cette
+    fonction ne sert que pour la verification/ecriture locale ciblee avant
+    de pousser, pas pour remplacer le build de reference."""
+    written_before = len(URLS_GENERATED)
+
+    ge_firms_touched = [
+        f for f in GE_FIRMS
+        if any(site_domain(m.get("site_web")) == domain
+               for m in MEMBERS_BY_FIRM_NORM.get(norm(f["etude"]), []))
+    ]
+    if ge_firms_touched:
+        gen_ge_etudes(rows=ge_firms_touched)
+    ge_avocats_touched = [r for r in GE_INDIVIDUALS if site_domain(r.get("site_web")) == domain]
+    for f in ge_firms_touched:
+        ge_avocats_touched += MEMBERS_BY_FIRM_NORM.get(norm(f["etude"]), [])
+    ge_avocats_touched = _dedup(ge_avocats_touched)
+    if ge_avocats_touched:
+        gen_ge_avocats(rows=ge_avocats_touched)
+
+    for code, data in CANTON_DATA.items():
+        firms_touched = [
+            f for f in data["firms"]
+            if any(site_domain(m.get("site_web")) == domain for m in f["members"])
+        ]
+        if firms_touched:
+            gen_canton_etudes(code, rows=firms_touched)
+        avocats_touched = [r for r in data["individuals"] if site_domain(r.get("site_web")) == domain]
+        for f in firms_touched:
+            avocats_touched += f["members"]
+        avocats_touched = _dedup(avocats_touched)
+        if avocats_touched:
+            gen_canton_avocats(code, rows=avocats_touched)
+
+    return len(URLS_GENERATED) - written_before
+
+
 def gen_robots():
     content = (
         "User-agent: *\n"
@@ -1612,7 +1640,24 @@ if __name__ == "__main__":
         gen_ville_domaines()
         gen_guides()
         gen_llms_txt()
+        gen_indexnow_key()
         gen_search()
+    elif stage == "urls-for-domains":
+        domains = sys.argv[2].split(",")
+        seen = []
+        for d in domains:
+            for u in urls_for_domain(d.strip()):
+                if u not in seen:
+                    seen.append(u)
+        print("\n".join(seen))
+    elif stage == "affected":
+        # Rebuild cible : ecrit uniquement les pages etude/avocat touchees par
+        # les domaines donnes (+ index/sitemap NON regeneres -- production=Vercel).
+        domains = sys.argv[2].split(",")
+        total = 0
+        for d in domains:
+            total += gen_affected_for_domain(d.strip())
+        print(f"{total} pages ecrites pour {len(domains)} domaine(s)", file=sys.stderr)
     elif stage == "etudes":
         start = int(sys.argv[2]); count = int(sys.argv[3])
         gen_ge_etudes(start, count)
@@ -1654,6 +1699,7 @@ if __name__ == "__main__":
         gen_ville_domaines()
         gen_guides()
         gen_llms_txt()
+        gen_indexnow_key()
         gen_search()
         gen_sitemaps()
         gen_robots()
