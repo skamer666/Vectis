@@ -993,3 +993,29 @@ garde-fou anti-collision. 46 tests passent au total. Rebuild ciblé (ZH, BS, SG,
 Les prochains lots de la phase de découverte bénéficieront désormais automatiquement de ce
 rattachement dès le prochain rebuild Vercel — aucune action supplémentaire requise côté
 tâche planifiée.
+
+### 2026-07-28 — lot 32 (phase de découverte — autres cantons, lot 7)
+
+- **20 domaines traités** (cabinets ZH/SG — tranche suivante par taille) : **13 succès / 4 échecs / 2 copies / 1 correction**.
+- Données stockées dans `data/domaines_autres_cantons.json` (112 succès / 24 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **LEXR Law Switzerland AG** (lexr.com, ZH) : fondé en **2016** (explicite : "2016 gegründet"), boutique tech law spécialisée startups/VC/fintech/data. 4 bureaux suisses (Zurich, Lausanne, Saint-Gall, Zoug) + Allemagne.
+  - **Binder Legal KLG** (binderlegal.ch, ZH) : fondé en **1953** (explicite : "Since 1953"), boutique droit des affaires. Bureaux Zurich et Baden.
+  - **Advokatur 107** (advokatur107.ch, SG) : **9 avocats** (explicite : "Team von 9 Anwältinnen und Anwälten"), 22 domaines de compétence généraliste + notariat.
+  - **Advokatur Ankerstrasse** (anker24.ch, ZH) : histoire remontant à **1944** (explicite : "Geschichte, die bis ins Jahr 1944 zurückreicht"), spécialiste droit pénal et droit de la famille. À l'Ankerstrasse 24 depuis 2000.
+  - **Barbier Habegger Rödl Rechtsanwälte AG** (bhr.law, ZH) : 17 domaines de compétence. Bureaux Winterthur (siège) et Zoug.
+  - **Bürgi Nägeli Rechtsanwälte** (bnlawyers.ch, ZH) : 37 domaines de compétence. Cabinet généraliste très large spectre. Deux adresses zurichoises.
+  - **Fischer Ramp Buchmann AG** (frb-law.ch, ZH) : boutique Private Clients (fiscalité, immobilier, successions, family offices, philanthropie). Band 2 Chambers 2026 Private Wealth, Leading Firm Legal 500 EMEA 2025.
+  - **Fankhauser Rechtsanwälte** (fank-law.ch, ZH) : 12 domaines de compétence (généraliste). Bureaux Zurich + Samedan (GR).
+  - **Legal Partners Zurich** (lp-zurich.ch, ZH) : Bürogemeinschaft (avocats individuellement responsables, pas de solidarité mutuelle), 12 domaines. Reconnue 5 années consécutives parmi les meilleures études suisses (BILANZ/PME).
+  - **Linde Law AG** (linde-law.ch, ZH) : 5 domaines (contentieux & litige). Bureaux Zurich et Coire.
+  - **Riedweg & Partner AG** (riedwegpartner.ch, ZH) : boutique droit fiscal & droit des sociétés, 10 domaines.
+  - **Rutschmann Schwaibold Partner** (rsplaw.ch, ZH) : 15 domaines de compétence. Spécialiste droit des médias, insolvabilité, contentieux. Reconnu parmi les meilleures études suisses (BILANZ, 9 années consécutives).
+  - **Jacober Bialas & Partner** (jb-anwaelte.ch, SG) : 13 domaines (généraliste + notariat). Cabinet orienté personnes privées, Saint-Gall.
+- **Échecs (4) :** frt-anwaelte.ch (FRT RECHTSANWÄLTE & NOTARE, SG), bachmann.law (Bachmann Rechtsanwälte AG, ZH), tappolet-partner.ch (Tappolet & Partner, ZH), nplaw.ch (NEUPERT VUILLE PARTNERS, ZH) — pages vides, rendu JavaScript probable.
+- **Copies (2) :** SwissLegal (Zürich) AG et SwissLegal asg.advocati (SG) → domaine swisslegal.ch déjà en cache (cabinet Basel). Entités distinctes, même site web — pas de nouvelle entrée.
+- **Correction (1) :** sms-lawyers.ch — nom de cabinet corrigé de "Scherler Siegenthaler Schweizer Rechtsanwälte AG" (ZH, lot 28) en "Schwager Mätzler Schneider Rechtsanwälte" (SG). SMS = Schwager/Mätzler/Schneider, pas SSS. Canton mis à jour ZH→SG.
+- **Note :** domaines_autres_cantons.json désormais consommé par build.py (intégration ajoutée ce même jour — voir section précédente). Le rattachement par nom (`attach_name_based_enrichment`) bénéficiera aux fiches ZH/SG au prochain rebuild Vercel.
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 112 succès / 24 échecs.
+
