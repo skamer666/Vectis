@@ -873,3 +873,30 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 49 succès / 11 échecs.
 - Rebuild complet OK : sitemap **23 629 URLs**, échantillon de 40 fichiers sans artefact Jinja.
+
+### 2026-07-28 — lot automatique 29 (phase de découverte — autres cantons, lot 4)
+
+- **19 domaines traités** (cabinets ZH/BS/SG/GR/LU — tranche suivante par taille) : **17 succès / 2 échecs**.
+- Données stockées dans `data/domaines_autres_cantons.json` (66 succès / 13 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **Tschümperlin Lötscher Schwarz AG** (tls-partner.ch, LU) : fondé en **1973** (50e anniversaire célébré en juin 2023), 9 domaines de compétence. Grande étude du centre de la Suisse (Lucerne, Emmenbrücke, Sursee).
+  - **Baur Hürlimann AG** (bhlaw.ch, ZH) : fondé en **1956**, **env. 30 avocats** (explicite), 7 domaines de compétence. Spécialistes construction, énergie et droit administratif. Bureaux Zurich et Baden.
+  - **FROMER Advokatur und Notariat** (fromer-law.com, BS) : fondé en **1941** par Dr. Leo Fromer, fusionné avec Fischer & Megert en 2011. 16 domaines de compétence.
+  - **rtwp rechtsanwälte & notare** (rtwp.ch, SG) : fondé en **1940** ("seit 1940"), 13 domaines de compétence. Étude généraliste Saint-Gall.
+  - **Scherler Siegenthaler Schweizer Rechtsanwälte AG** (sms-lawyers.ch, ZH) : fondé en **1956**, **10 avocats** (explicite). Étude généraliste.
+  - **Kanzlei am Park** (ampark.law, ZH) : fondé en **1972**, **10 avocats** (explicite), 7 domaines de compétence.
+  - **AH4 AG** (ah4.law, ZH) : fondé en **2017**, boutique spécialisée exclusivement droit de la famille et successions.
+  - **Advokaturbüro Kernstrasse** (advokern.ch, ZH) : fondé en **1991** (explicite : "Einige Mitglieder des ersten Zürcher Anwaltskollektivs haben 1991 das advokaturbüro kernstrasse gegründet"), 9 avocats + 1 juriste, 6 domaines de compétence. Collectif zurichois, ne représente pas les économiquement forts contre les faibles.
+  - **Quinn Emanuel Urquhart & Sullivan (Schweiz) GmbH** (quinnemanuel.com, ZH) : bureau zurichois ouvert en **2016**, 13 domaines de compétence. Plus grande étude mondiale consacrée exclusivement aux litiges commerciaux.
+  - **Battegay Dürr AG** (bdlegal.ch, BS) : 14 domaines de compétence (FR/EN/IT/ES desks), pas d'année ni taille explicite.
+  - **Walder Häusermann Rechtsanwälte AG** (whr.ch, ZH) : 15 domaines de compétence (spécialistes droit pénal, migrations, famille, bail).
+  - **HOLENSTEIN BRUSA Ltd** (hol-law.ch, ZH) : 5 domaines de compétence (médias, PI, corporate, banque, contentieux, clientèle privée).
+  - **Lustenberger + Partners** (lplegal.ch, ZH) : boutique contentieux/arbitrage/travail/construction.
+  - **Rudin Cantieni Rechtsanwälte AG** (rudincantieni.ch, ZH) : 10 domaines de compétence (droit public, scolaire, personnel).
+  - **Kunz Schmid Rechtsanwälte und Notare AG** (kunzschmid.ch, GR) : 10 domaines de compétence, "seit über 50 Jahren" → année non retenue (vague).
+  - **Advokatur Walche** (walche.ch, ZH) : 9 avocats, 5 domaines (pénal, migrations, bail).
+  - **Ringhof Rechtsanwälte** (bahnhofstrasse58.ch, ZH) : 8 avocats, pas d'année ("um 1930" → vague).
+- **Échecs (2) :** advotech.ch / vincenzpartner.ch (rendu JavaScript — page vide).
+- **Note architecture :** commit `edcce0e` récupéré avant push — ajout de `gen_affected_for_domain()`, `urls.py`, `indexnow_submit.py`, tests pytest. `domaines_autres_cantons.json` non encore utilisé dans `build.py` → pas de changement HTML, pas de rebuild local (inutile). Vercel fait le build complet sur push.
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 66 succès / 13 échecs.

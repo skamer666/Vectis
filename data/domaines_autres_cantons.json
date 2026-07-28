@@ -379,6 +379,14 @@
       "firm_name": "Landmann & Partner AG",
       "canton": "ZH",
       "tested_date": "2026-07-28"
+    },
+    "advotech.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "tested_date": "2026-07-28"
+    },
+    "vincenzpartner.ch": {
+      "reason": "contenu vide / rendu JavaScript",
+      "tested_date": "2026-07-28"
     }
   },
   "_sans_site": {},
@@ -1016,5 +1024,489 @@
     "fetched_date": "2026-07-28",
     "firm_name": "Altenburger Ltd legal + tax",
     "canton": "ZH"
+  },
+  "tls-partner.ch": {
+    "founding_year": 1973,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la construction et de l'immobilier",
+      "Droit successoral",
+      "Droit de la famille",
+      "Notariat",
+      "Droit des sociétés et M&A",
+      "Droit pénal",
+      "Droit des contrats et responsabilité",
+      "Propriété intellectuelle"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Construction and real estate law",
+      "Inheritance law",
+      "Family law",
+      "Notarial services",
+      "Corporate law and M&A",
+      "Criminal law",
+      "Contract law and liability",
+      "Intellectual property"
+    ],
+    "source_url": "https://www.tls-partner.ch/de/ueber-uns",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Tschümperlin Lötscher Schwarz AG",
+    "canton": "LU",
+    "note": "Fondé en 1973 ; a célébré son 50e anniversaire en juin 2023."
+  },
+  "hol-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Médias et propriété intellectuelle",
+      "Droit des sociétés et droit commercial",
+      "Banque et finance",
+      "Contentieux et arbitrage",
+      "Clientèle privée (famille, successions, fiscalité)"
+    ],
+    "practice_areas_en": [
+      "Media and intellectual property",
+      "Corporate and commercial law",
+      "Banking and finance",
+      "Litigation and arbitration",
+      "Private client services (family, estate, tax)"
+    ],
+    "source_url": "https://www.hol-law.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "HOLENSTEIN BRUSA Ltd",
+    "canton": "ZH"
+  },
+  "bdlegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit bancaire",
+      "Droit de la construction et de l'immobilier",
+      "Droit successoral et planification successorale",
+      "Droit des sociétés",
+      "Droit commercial et des contrats",
+      "Italian Desk",
+      "Spanish Desk",
+      "Life Sciences",
+      "Médiation",
+      "Droit du bail",
+      "Notariat",
+      "Litiges et exécution",
+      "Droit du sport"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Banking law",
+      "Construction and real estate law",
+      "Inheritance law and estate planning",
+      "Corporate law",
+      "Commercial and contract law",
+      "Italian Desk",
+      "Spanish Desk",
+      "Life Sciences",
+      "Mediation",
+      "Tenancy law",
+      "Notarial services",
+      "Litigation and enforcement",
+      "Sports law"
+    ],
+    "source_url": "https://bdlegal.ch/en/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Battegay Dürr AG",
+    "canton": "BS"
+  },
+  "kunzschmid.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit successoral",
+      "Droit de la famille et protection de l'enfant et de l'adulte",
+      "Droit des contrats",
+      "Droit des sociétés",
+      "Droit public",
+      "Droit pénal et circulation routière",
+      "Droit fiscal",
+      "Notariat",
+      "Clientèle privée",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Inheritance law",
+      "Family law and child and adult protection",
+      "Contract law",
+      "Corporate law",
+      "Public law",
+      "Criminal law and traffic law",
+      "Tax law",
+      "Notarial services",
+      "Private clients",
+      "Mediation"
+    ],
+    "source_url": "https://www.kunzschmid.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Kunz Schmid Rechtsanwälte und Notare AG",
+    "canton": "GR",
+    "note": "\"Seit über 50 Jahren\" → année de fondation non retenue (formulation vague)."
+  },
+  "bhlaw.ch": {
+    "founding_year": 1956,
+    "team_size_n": 30,
+    "practice_areas_fr": [
+      "Droit de la construction, aménagement et immobilier",
+      "Droit de l'énergie et de l'environnement",
+      "Poursuites, faillites et restructuration",
+      "Responsabilité civile et assurances",
+      "Notariat, successions et héritages",
+      "Droit administratif",
+      "Contentieux et arbitrage"
+    ],
+    "practice_areas_en": [
+      "Construction, planning and real estate law",
+      "Energy and environmental law",
+      "Enforcement and insolvency law",
+      "Liability and insurance law",
+      "Notarial and succession law",
+      "Administrative law",
+      "Litigation and arbitration"
+    ],
+    "source_url": "https://bhlaw.ch/?lang=en",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Baur Hürlimann AG",
+    "canton": "ZH",
+    "note": "Env. 30 avocats, bureaux à Zurich et Baden."
+  },
+  "rudincantieni.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit scolaire et de l'éducation",
+      "Droit du personnel public",
+      "Droit communal",
+      "Protection de l'adulte et de l'enfant",
+      "Aide sociale",
+      "Protection des données",
+      "Responsabilité de l'État",
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit pénal"
+    ],
+    "practice_areas_en": [
+      "School and education law",
+      "Public personnel law",
+      "Municipal law",
+      "Child and adult protection",
+      "Social welfare law",
+      "Data protection",
+      "State liability",
+      "Family law",
+      "Inheritance law",
+      "Criminal law"
+    ],
+    "source_url": "https://www.rudincantieni.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Rudin Cantieni Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "lplegal.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Résolution des litiges (contentieux, arbitrage, ADR)",
+      "Droit de la construction",
+      "Droit du travail",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Dispute resolution (litigation, arbitration, ADR)",
+      "Construction law",
+      "Employment law",
+      "Mediation"
+    ],
+    "source_url": "https://lplegal.ch/en/about-us",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Lustenberger + Partners",
+    "canton": "ZH",
+    "note": "Boutique spécialisée en résolution des litiges."
+  },
+  "whr.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Défense pénale",
+      "Droit pénal des mineurs",
+      "Droit des victimes",
+      "Droit administratif",
+      "Droit des étrangers",
+      "Droit de la famille",
+      "Droit du partenariat et concubinage",
+      "Droit de l'enfant",
+      "Protection adulte",
+      "Droit successoral",
+      "Créances",
+      "Poursuites et faillites",
+      "Droit civil",
+      "Droit du travail",
+      "Droit du bail"
+    ],
+    "practice_areas_en": [
+      "Criminal defence",
+      "Juvenile criminal law",
+      "Victims' rights",
+      "Administrative law",
+      "Immigration law",
+      "Family law",
+      "Partnership and cohabitation law",
+      "Child law",
+      "Adult protection",
+      "Inheritance law",
+      "Debt collection",
+      "Bankruptcy",
+      "Civil law",
+      "Employment law",
+      "Tenancy law"
+    ],
+    "source_url": "https://www.whr.ch/kontakt",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Walder Häusermann Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "fromer-law.com": {
+    "founding_year": 1941,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Gestion d'actifs",
+      "Droit bancaire",
+      "Droit des sociétés",
+      "Droit de la concurrence",
+      "Droit des contrats",
+      "Poursuites et faillites",
+      "Divorce et séparation",
+      "Droit de la famille",
+      "Successions et testaments",
+      "Droit des technologies de l'information",
+      "Propriété intellectuelle",
+      "Procédure civile",
+      "Notariat",
+      "Droit immobilier",
+      "Droit fiscal"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Asset management",
+      "Banking law",
+      "Corporate law",
+      "Competition law",
+      "Contract law",
+      "Enforcement and bankruptcy",
+      "Divorce and separation",
+      "Family law",
+      "Inheritance and wills",
+      "IT law",
+      "Intellectual property",
+      "Civil procedure",
+      "Notarial services",
+      "Real estate law",
+      "Tax law"
+    ],
+    "source_url": "https://www.fromer-law.com/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "FROMER Advokatur und Notariat",
+    "canton": "BS",
+    "note": "Fondé en 1941 par Dr. Leo Fromer ; fusionné avec Fischer & Megert en 2011."
+  },
+  "sms-lawyers.ch": {
+    "founding_year": 1956,
+    "team_size_n": 10,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "All civil and public law matters"
+    ],
+    "source_url": "https://www.sms-lawyers.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Scherler Siegenthaler Schweizer Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "rtwp.ch": {
+    "founding_year": 1940,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Notariat",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit de la famille",
+      "Droit successoral",
+      "Responsabilité civile",
+      "Droit privé général",
+      "Procédure civile et SchKG",
+      "Droit administratif et constitutionnel",
+      "Droit pénal et circulation routière",
+      "Droit des assurances",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Commercial law",
+      "Notarial services",
+      "Employment law",
+      "Tenancy law",
+      "Family law",
+      "Inheritance law",
+      "Liability law",
+      "General private law",
+      "Civil procedure and debt enforcement (SchKG)",
+      "Administrative and constitutional law",
+      "Criminal law and traffic law",
+      "Insurance law",
+      "Mediation"
+    ],
+    "source_url": "https://www.rtwp.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "rtwp rechtsanwälte & notare",
+    "canton": "SG",
+    "note": "Explicit: 'seit 1940'."
+  },
+  "ah4.law": {
+    "founding_year": 2017,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit successoral"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Inheritance law"
+    ],
+    "source_url": "https://ah4.law/en/contact",
+    "fetched_date": "2026-07-28",
+    "firm_name": "AH4 AG",
+    "canton": "ZH",
+    "note": "Boutique spécialisée exclusivement en droit de la famille et successions."
+  },
+  "ampark.law": {
+    "founding_year": 1972,
+    "team_size_n": 10,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Assurances sociales",
+      "Droit du travail",
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit des migrations",
+      "Responsabilité civile"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Social insurance law",
+      "Employment law",
+      "Family law",
+      "Inheritance law",
+      "Immigration law",
+      "Liability law"
+    ],
+    "source_url": "https://www.ampark.law/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Kanzlei am Park",
+    "canton": "ZH"
+  },
+  "walche.ch": {
+    "founding_year": null,
+    "team_size_n": 9,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit des migrations",
+      "Droit du bail",
+      "Droit privé général",
+      "Droits fondamentaux et droits de l'homme"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Immigration law",
+      "Tenancy law",
+      "General private law",
+      "Fundamental rights and human rights"
+    ],
+    "source_url": "https://www.walche.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Advokatur Walche",
+    "canton": "ZH"
+  },
+  "bahnhofstrasse58.ch": {
+    "founding_year": null,
+    "team_size_n": 8,
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "source_url": "https://www.bahnhofstrasse58.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Ringhof Rechtsanwälte",
+    "canton": "ZH",
+    "note": "\"Um 1930\" → année de fondation non retenue (formulation vague). 8 avocats."
+  },
+  "advokern.ch": {
+    "founding_year": 1991,
+    "team_size_n": 9,
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit des étrangers",
+      "Droit du bail",
+      "Droit privé général",
+      "Assurances sociales",
+      "Droit de la famille"
+    ],
+    "practice_areas_en": [
+      "Criminal law",
+      "Immigration and foreign nationals law",
+      "Tenancy law",
+      "General private law",
+      "Social insurance law",
+      "Family law"
+    ],
+    "source_url": "https://advokern.ch/buero/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Advokaturbüro Kernstrasse",
+    "canton": "ZH",
+    "note": "Fondé en 1991 par des membres du premier collectif d'avocats zurichois (1975). Bürogemeinschaft de 9 avocates/avocats + 1 juriste. Ne représente pas les économiquement forts contre les économiquement faibles."
+  },
+  "quinnemanuel.com": {
+    "founding_year": 2016,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Contentieux commercial et financier",
+      "Arbitrage international",
+      "Infractions économiques et enquêtes internes",
+      "Litiges M&A et actionnaires",
+      "Contentieux financier",
+      "Droit du sport",
+      "Services financiers",
+      "Matières premières et énergie",
+      "Pharma et sciences de la vie",
+      "Infrastructure",
+      "Arts et divertissement",
+      "Assistance judiciaire internationale",
+      "Procédures de saisie et d'exécution"
+    ],
+    "practice_areas_en": [
+      "Commercial and financial disputes",
+      "International arbitration",
+      "White-collar and corporate investigations",
+      "M&A and shareholder disputes",
+      "Financial litigation",
+      "Sports litigation",
+      "Financial services",
+      "Commodities and energy",
+      "Pharma and life science",
+      "Infrastructure",
+      "Arts and entertainment",
+      "International legal assistance",
+      "Attachment and enforcement proceedings"
+    ],
+    "source_url": "https://www.quinnemanuel.com/offices/zurich/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Quinn Emanuel Urquhart & Sullivan (Schweiz) GmbH",
+    "canton": "ZH",
+    "note": "Bureau zurichois ouvert en 2016. Cabinet international, plus grande étude au monde consacrée exclusivement aux litiges commerciaux."
   }
 }
