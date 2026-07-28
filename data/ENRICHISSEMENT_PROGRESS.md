@@ -830,3 +830,26 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - Note : ces données ne sont pas encore utilisées dans le build (les CSV des autres cantons n'ont pas de colonne `site_web`). Prochaine étape : intégrer `domaines_autres_cantons.json` dans `build.py` ou enrichir les CSV des autres cantons avec les URLs découvertes.
 - Cache GE/VD inchangé : 369 succès / 126 échecs.
 - Phase de découverte autres cantons : 20 cabinets découverts (lot 1/N).
+
+### 2026-07-28 — lot automatique 27 (phase de découverte — autres cantons, lot 2)
+
+- **20 cabinets traités** (top firms ZH/BS par taille — suite du lot 26) : **16 succès (dont 5 copies du cache principal) / 4 échecs**.
+- Données stockées dans `data/domaines_autres_cantons.json` (37 entrées total, 3 _failed).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **Walder Wyss AG** (walderwyss.com, ZH) : 26 domaines de compétence (site FR consulté). Année de fondation vague ("depuis 50 ans") → null.
+  - **Bär & Karrer AG** (baerkarrer.ch, ZH) : fondé en **mars 1969**, **200+ avocats** (méta officielle), 28 domaines de compétence. Bureaux : Zurich, Genève, Lugano, Zoug, Bâle, St-Moritz.
+  - **Lenz & Staehelin** (lenzstaehelin.com, ZH) : fondé le **1er janvier 1991** (fusion des études Lenz/Genève 1951 et Staehelin/Zurich 1917), 19 domaines de compétence. Bureaux : Zurich, Genève, Lausanne.
+  - **CMS von Erlach Partners AG** (cms.law, ZH) : fondé en **1936** (explicite), **70+ professionnels** à Zurich (siège CH, chiffre CH-spécifique), 13 domaines de compétence.
+  - **LALIVE SA** (lalive.law, ZH) : 12 domaines de compétence (spécialiste contentieux et arbitrage international). Note : l'URL a changé de lalive.ch à lalive.law.
+  - **Lenz Caemmerer** (lclaw.ch, BS) : 14 domaines de compétence. Effectif total (45+) non retenu car non spécifique à la Suisse (inclut bureau Karlsruhe).
+  - **burckhardt AG** (burckhardtlaw.com, BS) : **20 avocats, notaires et experts fiscaux** (explicite : "20 Anwälte, Notare sowie Steuerexperten"). 2 bureaux CH (Bâle + Zurich).
+  - **Barandun AG** (barandun-law.ch, ZH) : 14 domaines de compétence.
+  - **Rechtskraft Advokatur** (rechtskraft.ch, ZH) : 16 domaines de compétence.
+  - **SwissLegal Dürr + Partner** (swisslegal.ch, BS) : 12 domaines de compétence.
+  - **VISCHER AG** (vischer.com, ZH) : domaines partiels extraits (commercial, fiscal, réglementaire), page about partiellement JS-rendue.
+  - **MLL Legal AG** (mll-legal.com, ZH) : 150+ avocats mentionnés dans la méta mais inclut bureaux Londres et Madrid → non retenu comme chiffre CH-spécifique.
+- **Copies depuis cache principal (aucun nouveau fetch) :** bratschi.ch, nkf.ch, bakermckenzie.com, kellerhals-carrard.ch, pestalozzilaw.com.
+- **Échecs (4) :** staiger.law (contenu vide, JS), quadra.law (contenu vide, JS), epartners.ch (URL non accessible via fetch), vischer.com classé succès partiel.
+- **Cache principal GE/VD :** 369 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 37 entrées / 3 _failed.
+- Rebuild complet OK : 66 252 fichiers HTML, sitemap **23 633 URLs**, échantillon de 40 fichiers sans artefact Jinja.
