@@ -959,3 +959,37 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Note :** domaines_autres_cantons.json non encore consommé par build.py → pas de rebuild local (pages HTML inchangées). Vercel fait le build complet sur push.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 99 succès / 20 échecs.
+### 2026-07-28 — intégration `domaines_autres_cantons.json` dans build.py
+
+Correction du point mort signalé après le lot 30 : le cache de découverte (86 cabinets
+ZH/BS/SG/GR/LU) était alimenté par la tâche automatique mais jamais lu par `build.py` —
+les CSV des cantons génériques n'ont pas de colonne `site_web`, donc le mécanisme
+d'enrichissement existant (`WEB_ENRICHMENT`, indexé par domaine) ne pouvait pas s'y
+brancher.
+
+Ajout d'un second mécanisme de rattachement, par **nom de cabinet** plutôt que par
+domaine : `firm_core_name()` réduit un nom à son cœur identifiant (sans forme juridique —
+AG/SA/Ltd/GmbH/etc. — ni ponctuation) pour rapprocher deux graphies du même cabinet
+(ex. « Schellenberg Wittmer AG » vs « Schellenberg Wittmer Ltd »). `attach_name_based_enrichment()`
+apparie ensuite chaque entrée du cache à l'étude correspondante dans `CANTON_DATA`, canton
+par canton — avec garde-fou anti-collision : si deux études distinctes du même canton
+partagent le même nom cœur, aucune n'est enrichie (mieux vaut rater un rattachement que se
+tromper de cabinet, conformément au principe de non-fabrication). `gen_canton_etudes` et
+`gen_canton_avocats` utilisent ce rattachement en repli quand le rattachement par domaine
+échoue (site_web absent).
+
+Résultat mesuré après rebase sur le lot 31 (99 entrées exploitables) : **92 études
+rattachées avec succès, 1 ignorée pour collision de nom, 6 non rattachées** (variantes de
+nom trop éloignées — ex. rebranding non reflété dans le registre officiel — laissées sans
+enrichissement plutôt que forcées). Ce chiffre grandira automatiquement à chaque nouveau
+lot de découverte, sans action supplémentaire. Vérifié manuellement sur Homburger AG
+(Zurich) : la fiche affiche désormais « Étude fondée en 1957 (69 ans d'existence) » et sort
+du noindex automatique.
+
+6 tests ajoutés (`tests/test_other_canton_enrichment.py`), dont un test explicite du
+garde-fou anti-collision. 46 tests passent au total. Rebuild ciblé (ZH, BS, SG, GR, LU) +
+échantillon de 40 pages sur l'ensemble du site : aucun artefact Jinja détecté.
+
+Les prochains lots de la phase de découverte bénéficieront désormais automatiquement de ce
+rattachement dès le prochain rebuild Vercel — aucune action supplémentaire requise côté
+tâche planifiée.

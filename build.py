@@ -178,6 +178,44 @@ def load_web_enrichment():
     return data
 
 
+def load_other_canton_enrichment():
+    """Cache de decouverte alimente par la phase 2 du pilote d'enrichissement
+    (cabinets des cantons generiques, sans etude/site_web dans leur CSV source
+    -- voir data/ENRICHISSEMENT_PROGRESS.md). Contrairement a WEB_ENRICHMENT
+    (indexe par domaine, associe via le champ site_web des avocats), ce cache
+    doit etre rattache par nom de cabinet car ces CSV n'ont aucun site_web."""
+    path = os.path.join(DATA_DIR, "domaines_autres_cantons.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    entries = []
+    for domain, entry in data.items():
+        if not isinstance(entry, dict) or entry.get("_failed"):
+            continue
+        if not entry.get("canton") or not entry.get("firm_name"):
+            continue
+        entries.append(entry)
+    return entries
+
+
+_LEGAL_SUFFIX_RE = re.compile(
+    r"\b(ag|sa|gmbh|sarl|s a r l|ltd|llp|klg|kollektivgesellschaft|inc|llc|se)\b"
+)
+
+
+def firm_core_name(name):
+    """Nom de cabinet reduit a son coeur identifiant (sans forme juridique ni
+    ponctuation) pour rapprocher deux graphies du meme nom (ex. 'Schellenberg
+    Wittmer AG' vs 'Schellenberg Wittmer Ltd'). Sert uniquement a apparier des
+    donnees deja reelles entre elles -- ne genere ni n'invente aucun nom."""
+    n = norm(name)
+    n = _LEGAL_SUFFIX_RE.sub(" ", n)
+    n = re.sub(r"[^a-z0-9 ]", " ", n)
+    n = re.sub(r"\s+", " ", n).strip()
+    return n
+
+
 def site_domain(url):
     from urllib.parse import urlparse
     u = (url or "").strip()
@@ -195,6 +233,7 @@ def site_domain(url):
 
 
 WEB_ENRICHMENT = load_web_enrichment()
+OTHER_CANTON_ENRICHMENT = load_other_canton_enrichment()
 
 GE_INDIVIDUALS = load_ge_individuals()
 for _r in GE_INDIVIDUALS:
@@ -882,6 +921,48 @@ for _code in OTHER_CANTON_CODES:
     print(f"{_code}: {len(_individuals)} avocats, {len(_firms)} etudes derivees, {len(_solo)} indep.", file=sys.stderr)
 
 
+def attach_name_based_enrichment(canton_data, entries):
+    """Rattache les entrees du cache de decouverte (autres cantons) aux etudes
+    deja regroupees, par nom de cabinet -- ces CSV n'ont pas de site_web pour
+    faire le lien par domaine comme WEB_ENRICHMENT. Garde-fou : si plusieurs
+    etudes du meme canton partagent le meme nom "coeur" (collision), on
+    n'attache rien -- mieux vaut aucun enrichissement qu'un rattachement
+    ambigu a la mauvaise etude. Ecrit "_name_web" sur l'etude concernee.
+    Retourne (nb_rattaches, nb_ignores_ambigus)."""
+    attached = 0
+    skipped_ambiguous = 0
+    for code, data in canton_data.items():
+        by_core = {}
+        for f in data["firms"]:
+            core = firm_core_name(f["etude"])
+            if not core:
+                continue
+            by_core.setdefault(core, []).append(f)
+        for entry in entries:
+            if entry.get("canton") != code:
+                continue
+            core = firm_core_name(entry["firm_name"])
+            candidates = by_core.get(core)
+            if not candidates:
+                continue
+            if len(candidates) > 1:
+                skipped_ambiguous += 1
+                continue
+            candidates[0]["_name_web"] = entry
+            attached += 1
+    return attached, skipped_ambiguous
+
+
+_name_matches_attached, _name_matches_skipped_ambiguous = attach_name_based_enrichment(
+    CANTON_DATA, OTHER_CANTON_ENRICHMENT
+)
+print(
+    f"Cache decouverte autres cantons : {_name_matches_attached} etudes rattachees "
+    f"par nom, {_name_matches_skipped_ambiguous} ignorees (collision de nom).",
+    file=sys.stderr,
+)
+
+
 def canton_registry(code, lang):
     data = CANTON_DATA[code]
     rows = []
@@ -973,6 +1054,8 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
         _oldest_year = min(_years) if _years else None
         _site_url = next((m.get("site_web") for m in members if m.get("site_web")), "")
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
+        if not _web:
+            _web = f.get("_name_web")
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
@@ -1045,6 +1128,8 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             if firm_row else ""
         )
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
+        if not _web and firm_row:
+            _web = firm_row.get("_name_web")
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = avocat_path(code, row["_slug"], lang)
