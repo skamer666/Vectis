@@ -1019,3 +1019,31 @@ tâche planifiée.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 112 succès / 24 échecs.
 
+### 2026-07-28 — Fribourg : regroupement par domaine d'email
+
+Fribourg fait partie des 7 cantons sans champ `etude` ni `site_web` dans son CSV
+source — jusqu'ici hors de portée de tout mécanisme de regroupement. Constat : le champ
+`email` est rempli à 100% (217/217) et son domaine correspond presque toujours au
+cabinet (ex. `v.emery@emery-avocats.ch` → Emery Avocats), exactement comme le `site_web`
+sert pour Vaud.
+
+`derive_domain_firms()` généralisé pour accepter un extracteur de domaine (`domain_fn`)
+et une liste d'exclusion (`excluded_domains`) au lieu d'être câblé sur `site_web`.
+Fribourg utilise `email_domain()` comme extracteur, avec une liste
+`GENERIC_EMAIL_DOMAINS` de fournisseurs mail grand public (bluewin.ch, gmail.com,
+hotmail.com, etc.) — sans quoi 7 avocats indépendants partageant bluewin.ch pour leur
+messagerie personnelle auraient été regroupés à tort en un faux « cabinet ».
+
+Résultat : 51 études dérivées, 162 avocats sur 217 (75%) désormais rattachés à un
+cabinet plutôt que listés en indépendants isolés. Les 55 restants n'ont pas de domaine
+partagé exploitable (email personnel ou domaine à avocat unique non confirmé ailleurs).
+4 tests ajoutés (`tests/test_fribourg_email_firms.py`), dont un test explicite
+garantissant que les fournisseurs mail grand public ne deviennent jamais un « cabinet ».
+50 tests passent au total. Rebuild ciblé (canton FR) + échantillon 40 pages sur
+l'ensemble du site : aucun artefact Jinja détecté.
+
+Note pour la suite : ce mécanisme (extraction de domaine depuis l'email) ne s'applique
+qu'à Fribourg — c'est le seul des 7 cantons thin (AG, FR, JU, NE, SO, TG, ZG) dont le CSV
+contient un champ email exploitable. Les 6 autres (1501 avocats) n'ont aucun signal
+structuré de regroupement dans leurs données source ; un test à petite échelle de
+recherche web nom par nom est prévu pour évaluer si une autre piste est envisageable.

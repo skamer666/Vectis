@@ -282,21 +282,51 @@ def pretty_name_from_domain(domain):
     return " ".join(w.capitalize() for w in words if w)
 
 
-def derive_domain_firms(individuals, existing_slugs=None):
-    """Regroupe par nom de domaine (site_web) les avocats sans nom d'etude en
-    texte libre (cas de Vaud). Seuil : au moins 2 avocats partageant le meme
-    domaine, OU un seul si ce domaine est deja confirme comme cabinet reel via
-    le registre de Geneve ou le cache d'enrichissement web (source externe qui
-    etablit deja la realite du cabinet). Rien n'est jamais fabrique : le nom
-    vient du registre officiel quand connu, sinon d'un simple formatage du
-    domaine deja declare par l'avocat."""
+# Fournisseurs email generalistes/grand public : jamais un nom de cabinet meme
+# quand plusieurs avocats les partagent (cas reel constate a Fribourg avec
+# bluewin.ch et gmail.com). Les regrouper comme "cabinet" serait une
+# fabrication -- ce ne sont que des avocats independants qui partagent un
+# hebergeur mail, pas une structure commune.
+GENERIC_EMAIL_DOMAINS = {
+    "bluewin.ch", "gmail.com", "hotmail.com", "hotmail.ch", "outlook.com",
+    "outlook.ch", "yahoo.com", "yahoo.fr", "yahoo.de", "gmx.ch", "gmx.net",
+    "gmx.de", "sunrise.ch", "icloud.com", "me.com", "mac.com", "live.com",
+    "msn.com", "aol.com", "protonmail.com", "swissonline.ch", "tele2.ch",
+    "vtxnet.ch", "freesurf.ch", "bluemail.ch", "bluewin.com", "citycable.ch",
+    "hispeed.ch", "web.de", "t-online.de", "libero.it", "alice.it",
+}
+
+
+def email_domain(email):
+    e = (email or "").strip().lower()
+    if "@" not in e:
+        return None
+    d = e.rsplit("@", 1)[-1].strip()
+    return d or None
+
+
+def derive_domain_firms(individuals, existing_slugs=None, domain_fn=None, excluded_domains=None):
+    """Regroupe par nom de domaine les avocats sans nom d'etude en texte libre.
+    Cas d'origine : Vaud, domaine tire du site_web. Generalise pour Fribourg,
+    domaine tire de l'email (pas de site_web dans ce registre, mais l'email
+    professionnel contient presque toujours le domaine du cabinet -- meme
+    principe, source differente). Seuil : au moins 2 avocats partageant le
+    meme domaine, OU un seul si ce domaine est deja confirme comme cabinet reel
+    via le registre de Geneve ou le cache d'enrichissement web (source externe
+    qui etablit deja la realite du cabinet). Les domaines de fournisseurs mail
+    grand public (excluded_domains) ne sont jamais traites comme un cabinet,
+    quel que soit le nombre d'avocats qui les partagent. Rien n'est jamais
+    fabrique : le nom vient du registre officiel quand connu, sinon d'un
+    simple formatage du domaine deja declare par l'avocat."""
+    domain_fn = domain_fn or (lambda r: site_domain(r.get("site_web")))
+    excluded = excluded_domains or set()
     seen_slugs = dict(existing_slugs or {})
     by_domain = {}
     for r in individuals:
         if (r.get("etude") or "").strip():
             continue
-        d = site_domain(r.get("site_web"))
-        if not d:
+        d = domain_fn(r)
+        if not d or d in excluded:
             continue
         by_domain.setdefault(d, []).append(r)
 
@@ -909,6 +939,18 @@ for _code in OTHER_CANTON_CODES:
         # depuis le domaine du site_web (voir derive_domain_firms plus haut).
         _existing_slugs = {f["_slug"]: 1 for f in _firms}
         _firms = _firms + derive_domain_firms(_individuals, existing_slugs=_existing_slugs)
+    if _code == "FR":
+        # Fribourg n'a ni champ "etude" ni "site_web", mais un champ email
+        # rempli a 100% dont le domaine est presque toujours celui du cabinet
+        # (ex. v.emery@emery-avocats.ch) -- meme mecanisme que Vaud, source
+        # differente. Fournisseurs mail grand public exclus (voir
+        # GENERIC_EMAIL_DOMAINS) pour ne jamais fabriquer un faux "cabinet".
+        _existing_slugs = {f["_slug"]: 1 for f in _firms}
+        _firms = _firms + derive_domain_firms(
+            _individuals, existing_slugs=_existing_slugs,
+            domain_fn=lambda r: email_domain(r.get("email")),
+            excluded_domains=GENERIC_EMAIL_DOMAINS,
+        )
     _solo = [r for r in _individuals if not r["etude"].strip()]
     CANTON_DATA[_code] = {
         "individuals": _individuals, "firms": _firms, "solo": _solo,
