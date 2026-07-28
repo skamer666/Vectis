@@ -4,17 +4,17 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-28 — lot 28 — phase de découverte lot 3)
+## Statut actuel (dernière mise à jour : 2026-07-28 — lot 30 — phase de découverte lot 5)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
 - **370** cabinets avec au moins un fait exploitable dans le cache principal GE/VD (inchangé).
 - **126** domaines testés sans succès dans le cache principal GE/VD (inchangé).
 - **0** domaines GE/VD restants — liste épuisée.
-- **Cache découverte autres cantons :** 49 succès / 11 échecs (lot 28 : +12 succès, +8 échecs).
-- Taux de réussite phase de découverte : **~82%** (49 / 60 entrées).
-- **Prochaine étape :** poursuivre la phase de découverte — cabinets ZH/BS/SG/GR de taille
-  moyenne (~10 avocats) pas encore testés.
+- **Cache découverte autres cantons :** 86 succès / 14 échecs (lot 30 : +19 succès, +1 échec).
+- Taux de réussite phase de découverte : **~86%** (86 / 100 entrées).
+- **Prochaine étape :** poursuivre la phase de découverte — cabinets BS/SG/GR/LU de taille
+  intermédiaire (6-10 avocats) pas encore testés.
 
 ## Règles non négociables (méthodologie)
 
@@ -900,3 +900,32 @@ données du projet, `dist/` n'étant de toute façon pas versionné dans Git.
 - **Note architecture :** commit `edcce0e` récupéré avant push — ajout de `gen_affected_for_domain()`, `urls.py`, `indexnow_submit.py`, tests pytest. `domaines_autres_cantons.json` non encore utilisé dans `build.py` → pas de changement HTML, pas de rebuild local (inutile). Vercel fait le build complet sur push.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 66 succès / 13 échecs.
+
+### 2026-07-28 — lot 30 (phase de découverte — autres cantons, lot 5)
+
+- **20 domaines traités** (cabinets BS/GR/SG/ZH/LU — tranche suivante par taille) : **19 succès / 1 échec**.
+- Données stockées dans `data/domaines_autres_cantons.json` (86 succès / 14 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **WALDMANN Rechtsanwälte** (lawyers.ch, BS) : fondé en **1953**, 15 domaines de compétence.
+  - **ME Advocat AG** (advocat.ch, SG) : fondé en **1992** (explicite : fondation par Prof. Dr. Roland Müller à Staad SG), 8 domaines de compétence. 2 bureaux (Staad + Herisau).
+  - **Buis Bürgi AG** (bblegal.ch, ZH) : fondé en **1955** (explicite : "long history going back to 1955"), boutique banking/litige, 8 domaines de compétence. Recommandé Legal 500 EMEA, IFLR1000.
+  - **basleradvokat:innen Advokatur & Notariat** (basleradvokatinnen.ch, BS) : fondé en **1992**, **9 avocats** (explicite), 26 domaines de compétence. Mixte généralistes + spécialistes SAV.
+  - **ettlersuter Rechtsanwälte** (ettlersuter.ch, ZH) : fondé en **1986**, 11 domaines de compétence. Quartier Seefeld, Zurich.
+  - **KSPartner AG** (kspartner.ch, ZH) : fondé en **1993**, 7 domaines de compétence — spécialistes droit de la responsabilité civile, assurances et droit de la santé.
+  - **Simonius & Partner** (advokaten.ch, BS) : fondé en **2000** (fusion Holliger Pfrommer & Partners et Simonius & Partners, oct. 2000 ; origines remontant à 1916).
+  - **Böckli Häring Partner AG** (bhplaw.ch, BS — domaine canonique de boeckli-buehler.ch après rebranding) : 17 domaines de compétence.
+  - **Teichmann International (Schweiz) AG** (teichmann-law.ch, SG) : 9 domaines principaux + 16 groupes d'expertise. Bureaux Saint-Gall, Zurich, Frauenfeld + international (Liechtenstein, Londres, Dubaï).
+  - **Mengiardi Fey & Partner AG** (mfpartner.ch, GR) : 11 domaines de compétence. Notariat et droit civil/pénal à Coire (Graubünden).
+  - **Caviezel Partner AG** (caviezelpartner.ch, GR) : 8 domaines spécialisés droit public, construction, eau/énergie, environnement. Notariat.
+  - **Bolzern Haas & Partner AG** (bhup.ch, LU) : 10 domaines de compétence. 5 bureaux lucernois (Lucerne, Hochdorf, Sursee, Weggis, Hergiswil).
+  - **Grossenbacher Rechtsanwälte AG** (gr-law.ch, LU) : 12 domaines de compétence. Notariat à Lucerne.
+  - **schadenanwaelte AG** (schadenanwaelte.ch, ZH) : **20 spécialistes** (explicite), spécialiste responsabilité civile, assurances sociales et privées.
+  - **Advoro Zürich AG** (advoro.ch, ZH) : 9 domaines de compétence. Boutique corporate/fintech/contentieux.
+  - **LEXTERNA AG** (lexterna.ch, BS) : 3 domaines (droit des entreprises, données & innovation, droit personnel).
+  - **Ludwig + Partner AG** (ludwigpartner.ch, BS) : 4 domaines (fiscal, affaires, immobilier, notariat/successions).
+  - **Liatowitsch & Partner** (liatowitsch.ch, BS) : conseil, contentieux, notariat, expertises, médiation.
+  - **advokatur am brühl** (adab.ch, SG) : droit privé et public généraliste.
+- **Échec (1) :** mzbs.ch (contenu vide, rendu JavaScript probable).
+- **Note :** comme pour les lots précédents, domaines_autres_cantons.json non encore consommé par build.py → pas de rebuild local ciblé (pages HTML inchangées). Vercel fait le build complet sur push.
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 86 succès / 14 échecs.

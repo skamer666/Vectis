@@ -387,6 +387,10 @@
     "vincenzpartner.ch": {
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
+    },
+    "mzbs.ch": {
+      "reason": "contenu vide, rendu JavaScript probable",
+      "tested_date": "2026-07-28"
     }
   },
   "_sans_site": {},
@@ -1508,5 +1512,594 @@
     "firm_name": "Quinn Emanuel Urquhart & Sullivan (Schweiz) GmbH",
     "canton": "ZH",
     "note": "Bureau zurichois ouvert en 2016. Cabinet international, plus grande étude au monde consacrée exclusivement aux litiges commerciaux."
+  },
+  "lexterna.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit des entreprises",
+      "Données et innovation",
+      "Droit personnel"
+    ],
+    "practice_areas_en": [
+      "Corporate law",
+      "Data and innovation",
+      "Personal law"
+    ],
+    "source_url": "https://www.lexterna.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "LEXTERNA AG",
+    "canton": "BS"
+  },
+  "bhplaw.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit des sociétés",
+      "Gouvernance d'entreprise",
+      "Compliance",
+      "Droit des contrats",
+      "Fusions et acquisitions",
+      "Droit successoral",
+      "Contentieux",
+      "Droit pénal des affaires",
+      "Droit de la concurrence",
+      "Mandats d'administrateur",
+      "Droit du travail",
+      "Sciences de la vie",
+      "Droit du bail",
+      "Droit bancaire et financier",
+      "Planification patrimoniale",
+      "Droit immobilier",
+      "Droit de l'art"
+    ],
+    "practice_areas_en": [
+      "Corporate law",
+      "Corporate governance",
+      "Compliance",
+      "Contract law",
+      "Mergers and acquisitions",
+      "Succession law",
+      "Litigation",
+      "Business crime",
+      "Competition law",
+      "Board mandates",
+      "Employment law",
+      "Life sciences",
+      "Tenancy law",
+      "Banking and financial law",
+      "Wealth planning",
+      "Real estate law",
+      "Art law"
+    ],
+    "source_url": "https://www.bhplaw.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Böckli Häring Partner AG",
+    "canton": "BS",
+    "note": "Domaine canonique de boeckli-buehler.ch après rebranding en Böckli Häring Partner."
+  },
+  "advokaten.ch": {
+    "founding_year": 2000,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit général",
+      "Droit des affaires"
+    ],
+    "practice_areas_en": [
+      "General law",
+      "Business law"
+    ],
+    "source_url": "https://www.advokaten.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Simonius & Partner",
+    "canton": "BS",
+    "note": "Fondée en 2000 (fusion Holliger Pfrommer & Partners et Simonius & Partners en oct. 2000). Origines remontant à 1916."
+  },
+  "ludwigpartner.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit fiscal",
+      "Droit des affaires",
+      "Immobilier et financement",
+      "Notariat, successions et droit de la propriété"
+    ],
+    "practice_areas_en": [
+      "Tax law",
+      "Business law",
+      "Real estate and financing",
+      "Notary, inheritance and property law"
+    ],
+    "source_url": "https://www.ludwigpartner.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Ludwig + Partner AG",
+    "canton": "BS"
+  },
+  "liatowitsch.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Conseil juridique",
+      "Contentieux",
+      "Services notariaux",
+      "Expertises juridiques",
+      "Médiation"
+    ],
+    "practice_areas_en": [
+      "Legal consulting",
+      "Litigation",
+      "Notarial services",
+      "Legal expert opinions",
+      "Mediation"
+    ],
+    "source_url": "https://www.liatowitsch.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Liatowitsch & Partner",
+    "canton": "BS"
+  },
+  "lawyers.ch": {
+    "founding_year": 1953,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit des sociétés",
+      "Droit des contrats",
+      "Droit pénal",
+      "Droit administratif",
+      "Droit des assurances",
+      "Propriété intellectuelle",
+      "Droit des transports",
+      "Représentation juridique",
+      "Recouvrement de créances",
+      "Conseil aux PME",
+      "Conseil aux startups",
+      "Médiation",
+      "Notariat"
+    ],
+    "practice_areas_en": [
+      "Family law",
+      "Inheritance law",
+      "Corporate law",
+      "Contract law",
+      "Criminal law",
+      "Administrative law",
+      "Insurance law",
+      "Intellectual property",
+      "Transport law",
+      "Legal representation",
+      "Debt collection",
+      "SME consulting",
+      "Startup consulting",
+      "Mediation",
+      "Notary"
+    ],
+    "source_url": "https://www.lawyers.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "WALDMANN Rechtsanwälte",
+    "canton": "BS"
+  },
+  "caviezelpartner.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit public",
+      "Droit de la construction",
+      "Droit de l'eau et de l'énergie",
+      "Droit de l'environnement",
+      "Droit des marchés publics",
+      "Droit de la construction privée",
+      "Droit des contrats et des sociétés",
+      "Notariat"
+    ],
+    "practice_areas_en": [
+      "Public law",
+      "Construction law",
+      "Water and energy law",
+      "Environmental law",
+      "Public procurement law",
+      "Private construction law",
+      "Contract and corporate law",
+      "Notary"
+    ],
+    "source_url": "https://www.caviezelpartner.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Caviezel Partner AG",
+    "canton": "GR"
+  },
+  "adab.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit privé",
+      "Droit public"
+    ],
+    "practice_areas_en": [
+      "Private law",
+      "Public law"
+    ],
+    "source_url": "https://www.adab.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "advokatur am brühl",
+    "canton": "SG"
+  },
+  "advoro.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit des sociétés et transactions",
+      "Services financiers et fintech",
+      "Droit commercial et des contrats",
+      "Sciences de la vie",
+      "Droit réglementaire et public",
+      "Droit pénal et enquêtes",
+      "Droit fiscal",
+      "Clientèle privée",
+      "Notariat"
+    ],
+    "practice_areas_en": [
+      "Corporate law and transactions",
+      "Financial services and fintech",
+      "Commercial law and contracts",
+      "Life sciences",
+      "Regulatory and public law",
+      "Criminal law and investigations",
+      "Tax law",
+      "Private clients",
+      "Notary"
+    ],
+    "source_url": "https://www.advoro.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Advoro Zürich AG",
+    "canton": "ZH"
+  },
+  "ettlersuter.ch": {
+    "founding_year": 1986,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit des étrangers",
+      "Droit de la construction",
+      "Droit successoral",
+      "Droit de la famille",
+      "Droit du bail",
+      "Droit des assurances sociales",
+      "Droit pénal",
+      "Droit des contrats",
+      "Droit administratif",
+      "Droit des affaires"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Immigration law",
+      "Construction law",
+      "Inheritance law",
+      "Family law",
+      "Tenancy law",
+      "Social insurance law",
+      "Criminal law",
+      "Contract law",
+      "Administrative law",
+      "Commercial law"
+    ],
+    "source_url": "https://www.ettlersuter.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "ettlersuter Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "kspartner.ch": {
+    "founding_year": 1993,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit de la responsabilité civile",
+      "Assurance-invalidité",
+      "Indemnités journalières de maladie",
+      "Assurance-accidents",
+      "Droit des assurances privées",
+      "Prévoyance professionnelle (LPP)",
+      "Droit de la santé"
+    ],
+    "practice_areas_en": [
+      "Tort law",
+      "Disability insurance",
+      "Sick pay insurance",
+      "Accident insurance",
+      "Private insurance law",
+      "Occupational pension (BVG)",
+      "Health law"
+    ],
+    "source_url": "https://www.kspartner.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "KSPartner AG",
+    "canton": "ZH"
+  },
+  "schadenanwaelte.ch": {
+    "founding_year": null,
+    "team_size_n": 20,
+    "team_size_text": "20 spécialistes",
+    "practice_areas_fr": [
+      "Droit de la responsabilité civile",
+      "Droit des assurances sociales",
+      "Droit des assurances privées"
+    ],
+    "practice_areas_en": [
+      "Tort law",
+      "Social insurance law",
+      "Private insurance law"
+    ],
+    "source_url": "https://www.schadenanwaelte.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "schadenanwaelte AG",
+    "canton": "ZH"
+  },
+  "gr-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit de la construction et de l'aménagement",
+      "Droit des contrats",
+      "Droit immobilier",
+      "Notariat",
+      "Droit du travail",
+      "Droit de la famille",
+      "Poursuites et faillite",
+      "Droit du bail",
+      "Droit du divorce",
+      "Droit pénal",
+      "Droit administratif",
+      "Droit des assurances"
+    ],
+    "practice_areas_en": [
+      "Construction and planning law",
+      "Contract law",
+      "Real estate law",
+      "Notary",
+      "Employment law",
+      "Family law",
+      "Debt collection and bankruptcy",
+      "Tenancy law",
+      "Divorce law",
+      "Criminal law",
+      "Administrative law",
+      "Insurance law"
+    ],
+    "source_url": "https://www.gr-law.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Grossenbacher Rechtsanwälte AG",
+    "canton": "LU"
+  },
+  "bhup.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit des sociétés et M&A",
+      "Droit successoral et planification successorale",
+      "Droit du mariage et de la famille",
+      "Droit des contrats, poursuites et faillite",
+      "Droit de la construction et de l'aménagement, droit immobilier",
+      "Notariat Lucerne",
+      "Droit pénal et droit de la circulation routière",
+      "Droit de la responsabilité civile et des assurances sociales",
+      "Droit fiscal"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Corporate law and M&A",
+      "Inheritance law and estate planning",
+      "Marriage and family law",
+      "Contract law, debt collection and bankruptcy",
+      "Construction and planning law, real estate law",
+      "Notary Lucerne",
+      "Criminal law and road traffic law",
+      "Tort and social insurance law",
+      "Tax law"
+    ],
+    "source_url": "https://www.bhup.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Bolzern Haas & Partner AG",
+    "canton": "LU"
+  },
+  "advocat.ch": {
+    "founding_year": 1992,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Prévoyance et testament de patient",
+      "Droit du travail",
+      "Droit des accidents",
+      "Droit du divorce",
+      "Droit de la famille",
+      "Droit fiscal",
+      "Droit de la construction et de l'aménagement",
+      "Conseil juridique général"
+    ],
+    "practice_areas_en": [
+      "Advance care directives",
+      "Employment law",
+      "Accident law",
+      "Divorce law",
+      "Family law",
+      "Tax law",
+      "Construction and planning law",
+      "General legal advice"
+    ],
+    "source_url": "https://www.advocat.ch/kanzlei/geschichte/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "ME Advocat AG",
+    "canton": "SG"
+  },
+  "teichmann-law.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit des affaires",
+      "Droit pénal",
+      "Droit administratif",
+      "Contentieux",
+      "Arbitrage",
+      "Compliance"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Family law",
+      "Inheritance law",
+      "Business law",
+      "Criminal law",
+      "Administrative law",
+      "Litigation",
+      "Arbitration",
+      "Compliance"
+    ],
+    "source_url": "https://www.teichmann-law.ch/fr/avocat/profil.html",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Teichmann International (Schweiz) AG",
+    "canton": "SG"
+  },
+  "bblegal.ch": {
+    "founding_year": 1955,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Droit bancaire et financier",
+      "Droit des sociétés et M&A",
+      "Droit du travail",
+      "Droit successoral",
+      "Droit des contrats",
+      "Insolvabilité",
+      "Responsabilité civile et droit des assurances",
+      "Propriété intellectuelle et concurrence"
+    ],
+    "practice_areas_en": [
+      "Banking and finance",
+      "Corporate law and M&A",
+      "Employment law",
+      "Inheritance law",
+      "Contract law",
+      "Insolvency",
+      "Torts and insurance law",
+      "Intellectual property and competition law"
+    ],
+    "source_url": "https://www.bblegal.ch/firm/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Buis Bürgi AG",
+    "canton": "ZH"
+  },
+  "basleradvokatinnen.ch": {
+    "founding_year": 1992,
+    "team_size_n": 9,
+    "team_size_text": "9 avocats",
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la construction et de l'urbanisme",
+      "Droit des successions",
+      "Droit de la famille",
+      "Droit des coopératives, associations et fondations",
+      "Droit des sociétés",
+      "Droit de la santé",
+      "Droits fondamentaux et droits de l'homme",
+      "Droit de la responsabilité civile",
+      "Droit pénal des mineurs",
+      "Propriété intellectuelle et droit d'auteur",
+      "Protection de l'enfant et de l'adulte",
+      "Droit du bail et des fermages",
+      "Droit des migrations",
+      "Notariat",
+      "Aide aux victimes",
+      "Droit des patients",
+      "Droit des assurances privées",
+      "Aide sociale et droit d'urgence",
+      "Droit des assurances sociales",
+      "Droit pénal et procédure pénale",
+      "Droit de la circulation routière",
+      "Droit des entreprises et des mandats",
+      "Droit des contrats",
+      "Droit administratif",
+      "Droit de l'environnement"
+    ],
+    "practice_areas_en": [
+      "Employment law",
+      "Construction and planning law",
+      "Inheritance law",
+      "Family law",
+      "Cooperative, association and foundation law",
+      "Company law",
+      "Health law",
+      "Fundamental and human rights",
+      "Tort law",
+      "Juvenile criminal law",
+      "Intellectual property and copyright",
+      "Child and adult protection law",
+      "Tenancy and lease law",
+      "Migration law",
+      "Notary",
+      "Victim assistance",
+      "Patient law",
+      "Private insurance law",
+      "Social assistance and emergency law",
+      "Social insurance law",
+      "Criminal law and criminal procedure",
+      "Road traffic law",
+      "Corporate and mandate law",
+      "Contract law",
+      "Administrative law",
+      "Environmental law"
+    ],
+    "source_url": "https://www.basleradvokatinnen.ch/taetigkeiten.html",
+    "fetched_date": "2026-07-28",
+    "firm_name": "basleradvokat:innen Advokatur & Notariat",
+    "canton": "BS"
+  },
+  "mfpartner.ch": {
+    "founding_year": null,
+    "team_size_n": null,
+    "team_size_text": null,
+    "practice_areas_fr": [
+      "Notariat et actes authentiques",
+      "Droit civil et droit des contrats",
+      "Droit des affaires et droit des sociétés",
+      "Droit successoral et planification successorale",
+      "Lex Koller et droit des résidences secondaires",
+      "Droit fiscal et contributions publiques",
+      "Droit de la construction et de l'aménagement",
+      "Droit administratif et communal",
+      "Droit de la famille",
+      "Droit des marchés publics",
+      "Droit pénal"
+    ],
+    "practice_areas_en": [
+      "Notary and notarial acts",
+      "Civil law and contract law",
+      "Business law and company law",
+      "Inheritance law and estate planning",
+      "Lex Koller and secondary residence law",
+      "Tax law and public levies",
+      "Construction and planning law",
+      "Administrative and municipal law",
+      "Family law",
+      "Public procurement law",
+      "Criminal law"
+    ],
+    "source_url": "https://mfpartner.ch/",
+    "fetched_date": "2026-07-28",
+    "firm_name": "Mengiardi Fey & Partner AG",
+    "canton": "GR"
   }
 }
