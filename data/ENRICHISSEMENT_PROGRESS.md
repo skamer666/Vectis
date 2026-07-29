@@ -1436,3 +1436,32 @@ régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 
 `data/tessin_import_progress.json` : `last_page_imported` 77 → 87.
 
 **Cumul : 868 avocats sur ~907 (95,7%), page 87/91.**
+
+### 2026-07-29 — Tessin, lot pages 88-91 (tâche planifiée vectis-tessin-scraping) — IMPORT TERMINÉ
+
+Pages 88 à 91 du registre cantonal tessinois (www4.ti.ch) récupérées avec succès (4/4 pages,
+aucun échec — c'était le solde des 91 pages du registre). 34 lignes extraites (noms, adresses,
+dates d'inscription) selon le format pipe-delimité habituel, écrites dans `sources/ti_raw/batch10.txt`.
+Chevauchement attendu en fin de pagination : ZORZI Luca et ZORZI Nicola apparaissent à la fois en
+page 90 et en page 91 (le registre source a légèrement bougé entre les deux fetches, passant de
+904 à 906 résultats totaux affichés) — dédupliqués automatiquement par `build_ti_csv.py`
+(nom+adresse), donc sans double compte dans le CSV final.
+
+`sources/build_ti_csv.py` relancé sur les 10 lots cumulés (`batch01.txt` à `batch10.txt`) :
+**902 avocats** dans `data/avocats_tessin.csv` (870/902 avec npa/ville identifié, 516/902 avec
+cabinet identifié).
+
+Rebuild ciblé du canton TI (`gen_canton_hub`, `gen_canton_cross`, `gen_canton_etudes`,
+`gen_canton_avocats`) : 4832 fichiers `dist/**/tessin/**/index.html` + `dist/**/ticino/**/index.html`
+régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
+
+`data/tessin_import_progress.json` : `last_page_imported` 87 → 91 (= `total_pages`, 91/91).
+
+**Cumul final : 902 avocats sur ~907 attendus (99,4%), 91/91 pages — l'import du Tessin est
+terminé.** L'écart résiduel (~5 avocats) s'explique par le mouvement naturel du registre source
+entre le début et la fin de la collecte (radiations/inscriptions en cours de route, le registre
+n'est pas figé) et par la marge d'incertitude du chiffre indicatif initial (907), pas par des pages
+manquées. La tâche planifiée `vectis-tessin-scraping` n'a plus de raison de tourner : à supprimer
+(`mcp__scheduled-tasks__delete_scheduled_task`, id `vectis-tessin-scraping`) lors d'une prochaine
+session interactive, ou laissée tourner sans effet (chaque exécution future constatera
+`last_page_imported >= total_pages` et s'arrêtera sans rien committer, comme prévu par son prompt).
