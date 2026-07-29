@@ -1071,3 +1071,26 @@ fetch par domaine qui couvre plusieurs avocats d'un coup).
 **Décision : ces 6 cantons restent fermés pour l'instant**, sauf nouvelle piste (ex. un
 registre alternatif avec un identifiant plus fiable que le nom seul). Aucune tâche
 récurrente n'est dirigée vers eux.
+
+### 2026-07-29 — lot 33 (phase de découverte — autres cantons, lot 8)
+
+- **20 domaines traités** (cabinets ZH/SG — tranche suivante par taille) : **10 succès / 9 échecs / 1 copie**.
+- Données stockées dans `data/domaines_autres_cantons.json` (122 succès / 26 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **EPARTNERS AG** (epartners.ch, ZH) : 23 domaines de compétence (full-service : corporate/M&A, arbitrage, concurrence, IT/IA, marché public, insolvabilité, start-ups, sports, télécoms, etc.).
+  - **advokatur kanonengasse** (kanonengasse.ch, ZH) : 3 domaines (asile/étranger, famille, pénal). Boutique zurichoise.
+  - **Cognitor Rechtsanwälte** (cognitor.ch, ZH) : fondé en **1932** (explicite : date sur le site), spécialisé droit pénal, droit pénal économique, droit de la famille.
+  - **rechtsanwälte.og42** (og42.ch, SG) : 8 domaines de compétence (généraliste). Cabinet Saint-Gallois.
+  - **bürki bolt rechtsanwälte ag** (buerki-bolt.ch, SG) : fondé en **1920**, **7 avocats** (tous deux explicites sur le site), 14 domaines de compétence (généraliste + notariat). Cabinet ancré à Saint-Gall.
+  - **Fricker Füllemann Rechtsanwälte GmbH** (ff-law.ch, ZH) : 7 domaines (pénal, social, migration, circulation, animaux, travail, contrats).
+  - **Niedermann Rechtsanwälte** (niedermann.com, ZH) : fondé en **1994** (explicite), 6 domaines (contentieux commercial, recouvrement d'actifs, affaires pénales économiques, entraide judiciaire). Boutique litige international.
+  - **5Gambit Disputes AG** (5gambit.com, ZH) : 2 domaines (litige, réglementaire). Boutique spécialisée contentieux.
+  - **BodmerFischer AG** (bodmerfischer.ch, ZH) : fondé en **2005** (explicite), 20 domaines de compétence (full-service : arbitrage, bancaire, corporate, pénal, famille, immigration, notariat, sanctions, fiscal, etc.).
+  - **Losinger Rechtsanwälte** (losinger.law, ZH) : 17 domaines de compétence (généraliste : travail, banque, succession, AML, sociétés, immobilier, famille, loyer, pénal militaire, voisinage, arbitrage, poursuites, pénal, circulation, contrats, administratif, entreprise).
+- **Échecs (9) :** staiger.law, quadra.law, advotech.ch, vincenzpartner.ch, mzbs.ch, drsp-law.ch, reichle-stehle.ch, lexp.ch, klgp.ch — pages vides, rendu JavaScript côté client.
+- **Copie (1) :** boeckli-buehler.ch redirige vers bhplaw.ch (déjà en cache). Même cabinet, ancienne URL.
+- **Corrections de firm_name (6) :** reetz-sohm.ch (→ "Reetz Sohm AG"), steinlex.ch (→ "Steinbrüchel Hüssy"), lawyers.ch (→ "WALDMANN Rechtsanwälte und Notare"), kellerhals-carrard.ch (→ "Kellerhals Carrard Zürich"), basleradvokatinnen.ch (→ "basleradvokat:innen"), bhplaw.ch (→ "böckli bühler partner") — noms mis à jour pour correspondre aux champs `etude` de leurs CSV respectifs.
+- **Clés composites ajoutées (4) :** kellerhals-carrard.ch#BS (BS, "Kellerhals Carrard Basel"), wenger-plattner.ch#ZH (ZH, "Wenger Plattner"), vischer.com#BS (BS, "VISCHER AG"), walderwyss.com#BS (BS, "Walder Wyss AG") — permettent à ces cabinets présents dans plusieurs cantons d'être rattachés dans chaque canton.
+- **Rebuild ciblé :** cantons ZH, SG, BS — pages étude + avocat régénérées. Échantillon 40 pages : aucun artefact Jinja détecté.
+- **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
+- **Cache découverte autres cantons :** 122 succès / 26 échecs.

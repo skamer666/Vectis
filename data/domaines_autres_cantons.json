@@ -302,7 +302,7 @@
     "team_size_n": null,
     "source_url": "https://www.reetz-sohm.ch/kanzlei/",
     "fetched_date": "2026-07-23",
-    "firm_name": "Reetz Sohm Rechtsanwälte",
+    "firm_name": "Reetz Sohm AG",
     "canton": "ZH"
   },
   "beelegal.ch": {
@@ -321,16 +321,12 @@
   },
   "_failed": {
     "staiger.law": {
-      "reason": "contenu vide / rendu JavaScript — page retournée vide",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "quadra.law": {
-      "reason": "contenu vide / rendu JavaScript — page retournée vide",
-      "tested_date": "2026-07-28"
-    },
-    "epartners.ch": {
-      "reason": "URL hors provenance — non accessible via web_fetch (pas apparu dans les résultats de recherche directs)",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "gbf-legal.ch": {
       "reason": "URL hors provenance — non accessible via web_fetch",
@@ -381,16 +377,16 @@
       "tested_date": "2026-07-28"
     },
     "advotech.ch": {
-      "reason": "contenu vide / rendu JavaScript",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "vincenzpartner.ch": {
-      "reason": "contenu vide / rendu JavaScript",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "mzbs.ch": {
-      "reason": "contenu vide, rendu JavaScript probable",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "reberlaw.ch": {
       "firm_name": "REBER Rechtsanwälte",
@@ -417,10 +413,8 @@
       "tested_date": "2026-07-28"
     },
     "klgp.ch": {
-      "firm_name": "Kessler Landolt Giacomini & Partner",
-      "canton": "SZ",
-      "reason": "contenu vide, rendu JavaScript probable",
-      "tested_date": "2026-07-28"
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     },
     "pachmann.law": {
       "firm_name": "Pachmann AG",
@@ -451,6 +445,18 @@
       "firm_name": "NEUPERT VUILLE PARTNERS",
       "canton": "ZH",
       "tested_date": "2026-07-28"
+    },
+    "drsp-law.ch": {
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "reichle-stehle.ch": {
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "lexp.ch": {
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
     }
   },
   "_sans_site": {},
@@ -776,7 +782,7 @@
     "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json)."
   },
   "kellerhals-carrard.ch": {
-    "firm_name": "Kellerhals Carrard",
+    "firm_name": "Kellerhals Carrard Zürich",
     "canton": "ZH",
     "founding_year": null,
     "team_size_n": 600,
@@ -871,7 +877,7 @@
     "practice_areas_en": [],
     "source_url": "https://steinlex.ch/kanzlei/",
     "fetched_date": "2026-07-28",
-    "firm_name": "Steinbrüchel Hüssy Rechtsanwälte",
+    "firm_name": "Steinbrüchel Hüssy",
     "canton": "ZH"
   },
   "rmp.ch": {
@@ -1637,7 +1643,7 @@
     ],
     "source_url": "https://www.bhplaw.ch/",
     "fetched_date": "2026-07-28",
-    "firm_name": "Böckli Häring Partner AG",
+    "firm_name": "böckli bühler partner",
     "canton": "BS",
     "note": "Domaine canonique de boeckli-buehler.ch après rebranding en Böckli Häring Partner."
   },
@@ -1743,7 +1749,7 @@
     ],
     "source_url": "https://www.lawyers.ch/",
     "fetched_date": "2026-07-28",
-    "firm_name": "WALDMANN Rechtsanwälte",
+    "firm_name": "WALDMANN Rechtsanwälte und Notare",
     "canton": "BS"
   },
   "caviezelpartner.ch": {
@@ -2125,7 +2131,7 @@
     ],
     "source_url": "https://www.basleradvokatinnen.ch/taetigkeiten.html",
     "fetched_date": "2026-07-28",
-    "firm_name": "basleradvokat:innen Advokatur & Notariat",
+    "firm_name": "basleradvokat:innen",
     "canton": "BS"
   },
   "mfpartner.ch": {
@@ -2923,5 +2929,296 @@
     "firm_name": "Jacober Bialas & Partner",
     "canton": "SG",
     "note": "Cabinet généraliste & notariat à Saint-Gall. Principalement personnes privées, également entreprises & associations."
+  },
+  "kellerhals-carrard.ch#BS": {
+    "firm_name": "Kellerhals Carrard Basel",
+    "canton": "BS",
+    "founding_year": null,
+    "team_size_n": 600,
+    "practice_areas_fr": [],
+    "source_url": "https://kellerhals-carrard.ch/",
+    "fetched_date": "2026-07-21",
+    "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json)."
+  },
+  "wenger-plattner.ch#ZH": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Employment Law",
+      "Art Law & Entertainment Law",
+      "Banking & Financial Market Law",
+      "Construction & Real Estate Law",
+      "Corporate Governance & Compliance",
+      "Liability & Insurance Law",
+      "Insolvency & Restructuring",
+      "IP / IT & Data Protection",
+      "Life Sciences & Health Law",
+      "M&A / Corporate",
+      "Notary Services",
+      "Private Clients",
+      "Litigation & Arbitration",
+      "Sports Law",
+      "Constitutional & Administrative Law",
+      "Tax Law",
+      "Competition Law"
+    ],
+    "team_size_n": 100,
+    "source_url": "https://wenger-plattner.ch/en/law-firm/",
+    "fetched_date": "2026-07-23",
+    "firm_name": "Wenger Plattner",
+    "canton": "ZH"
+  },
+  "vischer.com#BS": {
+    "firm_name": "VISCHER AG",
+    "canton": "BS",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Droit commercial",
+      "Droit fiscal",
+      "Droit réglementaire"
+    ],
+    "source_url": "https://www.vischer.com/en/team/about-us/",
+    "fetched_date": "2026-07-28",
+    "notes": "Spécialisé en droit commercial, fiscal et réglementaire. 28 équipes spécialisées. Bureaux: Zurich, Bâle, Genève. Contenu de la page about partiellement rendu côté JS."
+  },
+  "walderwyss.com#BS": {
+    "firm_name": "Walder Wyss AG",
+    "canton": "BS",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_fr": [
+      "Arbitrage",
+      "Art et divertissement",
+      "Bancaire, financier et assurance",
+      "Clients Privés",
+      "Contentieux",
+      "Contrats commerciaux",
+      "Corporate / M&A",
+      "Criminalité économique et enquêtes internes",
+      "Données et technologie",
+      "Droit de la concurrence",
+      "Droit du travail, rémunérations, mobilité et assurances sociales",
+      "Droit fiscal",
+      "Droit public et litiges",
+      "Énergie et infrastructures",
+      "ESG & Durabilité",
+      "Immobilier & construction",
+      "Marchés des capitaux",
+      "Marchés publics",
+      "Philanthropie et organisations internationales",
+      "Private equity et fonds",
+      "Propriété intellectuelle",
+      "Restructurations et insolvabilité",
+      "Santé et sciences de la vie",
+      "Services notariaux",
+      "Sport",
+      "Start-ups et Venture capital"
+    ],
+    "source_url": "https://www.walderwyss.com/fr/domaines-de-competence",
+    "fetched_date": "2026-07-28"
+  },
+  "epartners.ch": {
+    "canton": "ZH",
+    "firm_name": "EPARTNERS AG",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Arbitration",
+      "Competition & Antitrust Law",
+      "Compliance",
+      "Construction & Real Estate Law",
+      "Contract Law",
+      "Corporate and Commercial Law & M&A",
+      "Data Protection Law",
+      "Digitalization & Artificial Intelligence",
+      "Employment Law",
+      "Export Control & Sanctions",
+      "Intellectual Property Law",
+      "IT and Technology Law",
+      "Litigation",
+      "Media Law",
+      "Notary's Office",
+      "Private Clients",
+      "Private Equity",
+      "Public Procurement",
+      "Restructuring & Insolvency Law",
+      "Sports Law",
+      "Start-ups & Venture Capital",
+      "Telecommunications Law",
+      "White Collar & Investigations"
+    ],
+    "source_url": "https://epartners.ch/en/expertise/",
+    "fetched_date": "2026-07-29"
+  },
+  "kanonengasse.ch": {
+    "canton": "ZH",
+    "firm_name": "advokatur kanonengasse",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Asyl- und Ausländerrecht",
+      "Familienrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.kanonengasse.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "cognitor.ch": {
+    "canton": "ZH",
+    "firm_name": "Cognitor Rechtsanwälte",
+    "founding_year": 1932,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.cognitor.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "og42.ch": {
+    "canton": "SG",
+    "firm_name": "rechtsanwälte.og42",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Unternehmen & Verträge",
+      "Vorsorgen & Erben",
+      "Ehe & Familie",
+      "Bau, Planung & Umwelt",
+      "Verteidigung & Opfervertretung",
+      "Versicherung & Haftung",
+      "Wohnen & Arbeiten",
+      "Rechtssetzung & Verwaltung"
+    ],
+    "source_url": "https://og42.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "buerki-bolt.ch": {
+    "canton": "SG",
+    "firm_name": "bürki bolt rechtsanwälte ag",
+    "founding_year": 1920,
+    "team_size_n": 7,
+    "practice_areas_de": [
+      "Erbrecht und Vorsorge",
+      "Haftpflichtrecht",
+      "Gesellschaftsrecht",
+      "Familienrecht",
+      "Mietrecht und Nachbarrecht",
+      "Baurecht",
+      "Strassenverkehrsrecht",
+      "Forderungsinkasso",
+      "Notariat",
+      "Verwaltungsrecht",
+      "Strafrecht",
+      "Allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Ärzterecht"
+    ],
+    "source_url": "https://www.buerki-bolt.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "ff-law.ch": {
+    "canton": "ZH",
+    "firm_name": "Fricker Füllemann Rechtsanwälte GmbH",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Strafrecht",
+      "Sozialversicherungsrecht",
+      "Migrationsrecht",
+      "Strassenverkehrsrecht",
+      "Tierrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.ff-law.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "niedermann.com": {
+    "canton": "ZH",
+    "firm_name": "Niedermann Rechtsanwälte",
+    "founding_year": 1994,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Commercial litigation",
+      "Dispute resolution",
+      "Asset recovery",
+      "White collar cases",
+      "Legal assistance proceedings",
+      "Investigations"
+    ],
+    "source_url": "https://niedermann.com/en/law-firm/",
+    "fetched_date": "2026-07-29"
+  },
+  "5gambit.com": {
+    "canton": "ZH",
+    "firm_name": "5Gambit Disputes AG",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Dispute resolution",
+      "Regulatory"
+    ],
+    "source_url": "https://5gambit.ch/contact/",
+    "fetched_date": "2026-07-29"
+  },
+  "bodmerfischer.ch": {
+    "canton": "ZH",
+    "firm_name": "BodmerFischer AG",
+    "founding_year": 2005,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Arbitration",
+      "Banking Law",
+      "Commercial and Contract Law",
+      "Compliance and Financial Market Regulations",
+      "Corporate Law",
+      "Criminal law",
+      "Debt Collection and Bankruptcy Law",
+      "Employment Law",
+      "Private Clients / Estate and Wealth Planning",
+      "Family Law",
+      "Immigration Law",
+      "International Legal Assistance in Civil Matters",
+      "International Legal Assistance in Criminal Matters",
+      "Litigation Law",
+      "Notarial Law",
+      "Procurement Law",
+      "Road Traffic Law",
+      "Sanctions Law",
+      "Tax Law and Tax Planning",
+      "Weapons Law"
+    ],
+    "source_url": "https://bodmerfischer.ch/en/expertise/",
+    "fetched_date": "2026-07-29"
+  },
+  "losinger.law": {
+    "canton": "ZH",
+    "firm_name": "Losinger Rechtsanwälte",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Banken- und Finanzmarktrecht",
+      "Erbrecht",
+      "Geldwäscherei",
+      "Handels- und Gesellschaftsrecht",
+      "Immobilienrecht",
+      "Ehe- und Familienrecht",
+      "Mietrecht",
+      "Militärstrafrecht / Militärrecht",
+      "Nachbarrecht",
+      "Prozessführung und Schiedsgerichtsbarkeit",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Werkvertragsrecht (inkl. Bauhandwerkerpfandrecht)"
+    ],
+    "source_url": "https://www.losinger.law/fachgebiete",
+    "fetched_date": "2026-07-29"
   }
 }
