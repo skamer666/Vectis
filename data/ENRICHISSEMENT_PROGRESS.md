@@ -1094,3 +1094,60 @@ récurrente n'est dirigée vers eux.
 - **Rebuild ciblé :** cantons ZH, SG, BS — pages étude + avocat régénérées. Échantillon 40 pages : aucun artefact Jinja détecté.
 - **Cache principal GE/VD :** 370 succès / 126 échecs — inchangé.
 - **Cache découverte autres cantons :** 122 succès / 26 échecs.
+### 2026-07-29 — 4 nouveaux cantons débloqués : Tessin (partiel), Bâle-Campagne, Appenzell Rhodes-Ext., Schaffhouse
+
+Constat déclencheur : les 4 cantons documentés comme « bloqués à la source » (BE, BL, TI, VS)
+n'avaient en réalité jamais été revérifiés individuellement — ils avaient été groupés sous une
+même étiquette. Une vérification canton par canton a montré que 2 d'entre eux (BL, TI) ont bien
+un registre officiel scrapable statiquement, et que 2 cantons supplémentaires jamais documentés
+du tout comme « à venir » dans `i18n.CANTONS_A_VENIR` (AR, SH) le sont aussi. Seuls BE et VS
+restent réellement bloqués (outil de recherche JS/JSF sans liste statique).
+
+**Bâle-Campagne (BL)** — registre officiel (baselland.ch) : 174 avocats transcrits, adresse
+combinée (nom, cabinet, rue, NPA/ville) parsée par une heuristique commune
+(`sources/registry_parse_common.py`, `parse_address()` : découpe sur virgules, isole NPA+ville
+en fin de chaîne via regex, remonte pour trouver le premier segment avec un chiffre qui n'est
+pas une case postale). 174/174 avec NPA/ville, 142/174 avec cabinet identifié, 79 études
+dérivées par regroupement texte libre (mécanisme générique existant).
+
+**Appenzell Rhodes-Extérieures (AR)** — registre officiel (ar.ch) : 29 avocats, même parsing,
+29/29 correctement traités (échantillon complet vérifié), 10 études dérivées.
+
+**Schaffhouse (SH)** — association professionnelle (shav.ch), le jeu de données le plus riche
+des 4 : 36 avocats actifs (14 membres passifs/inactifs explicitement exclus — aucune donnée
+exploitable pour eux), avec en plus téléphone, site web, **domaines de compétence** et
+**langues parlées** par avocat — deux champs qu'aucun autre canton hors Genève n'a. Nouveaux
+champs `domaines_raw`/`langues_raw` ajoutés en passthrough dans `normalize_row()`, consommés
+dans `gen_canton_avocats` et `gen_canton_etudes` : les langues sont traduites dans les 4 langues
+du site (`LANG_NAME_TRANSLATIONS`, noms de langues uniquement — traduction sûre) et affichées
+partout ; les domaines de compétence (jargon juridique) ne sont affichés que sur la page
+allemande, langue source, pour éviter tout risque de contresens en traduisant un terme de droit
+sans certitude. Résultat : les fiches SH avec ces signaux sortent automatiquement du mécanisme
+de noindex (signal réel = ancienneté OU langue OU domaine OU enrichissement web).
+
+**Tessin (TI) — import partiel, à compléter en tâche de fond** : registre officiel (OTAF/CAT,
+plateforme TYPO3, pagination `?cHash=...&page=N`, ~91 pages, ~904-907 avocats). Le seul canton
+italophone du pays, donc prioritaire pour la crédibilité multilingue du site. Après avoir
+constaté que chaque fetch de page coûte ~1800-2000 tokens de contexte (menu/footer/réseaux
+sociaux répétés à chaque page pour ~10 avocats utiles), fetcher les 91 pages en une seule
+conversation aurait épuisé le budget de contexte avant la fin. Décision : import des 7 premières
+pages (70 avocats, 7,7% du total) mis en ligne immédiatement, complément des ~84 pages restantes
+(~834 avocats) délégué à un mécanisme en arrière-plan à concevoir (probablement une tâche
+planifiée dédiée, suivant le même principe que celle des cabinets : traiter un lot de pages par
+exécution, état persisté en JSON, commit+push, reprise au lot suivant) — **pas encore créée**,
+à faire dans une prochaine session.
+
+Parsing Tessin : mêmes heuristiques (`registry_parse_common.py`), avec en plus une colonne
+`date_inscription` (renommée depuis l'italien « iscrizione ») lue par `normalize_row()` pour
+dériver `annee_admission` automatiquement, comme pour les autres cantons. 68/70 avec NPA/ville
+(2 sans code postal dans la source, laissé vide plutôt que deviné), 39/70 avec cabinet identifié
+(beaucoup d'avocats tessinois ne listent qu'une adresse personnelle, sans cabinet).
+
+**Fichiers sources bruts** conservés dans `sources/` (transcriptions + scripts de parsing) pour
+traçabilité/audit, distincts des CSV finaux dans `data/`.
+
+**État après cet ajout : 23 cantons sur 26 avec des données actives** (au lieu de 19),
+soit ~88% des cantons suisses. Seuls BE, VS (registres inaccessibles) et le solde du Tessin
+(834 avocats restants, mécanisme de complément à créer) restent à traiter. Build complet
+vérifié (import + rebuild ciblé des 4 nouveaux cantons + échantillon complet des pages
+générées) : aucun artefact Jinja, 50 tests existants toujours au vert.

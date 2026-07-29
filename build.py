@@ -62,6 +62,27 @@ URLS_GENERATED = []
 
 BADGE_ALT = {"fr": "Référencé sur Legatis", "de": "Erfasst auf Legatis", "it": "Censito su Legatis", "en": "Listed on Legatis"}
 
+# Traduction des noms de langues tels que fournis en allemand par le registre
+# de Schaffhouse (seul canton avec ce champ pour l'instant) -- juste des noms
+# de langues, pas de jargon juridique, donc traduction sure et non ambigue.
+LANG_NAME_TRANSLATIONS = {
+    "Deutsch": {"fr": "allemand", "de": "Deutsch", "it": "tedesco", "en": "German"},
+    "Englisch": {"fr": "anglais", "de": "Englisch", "it": "inglese", "en": "English"},
+    "Französisch": {"fr": "français", "de": "Französisch", "it": "francese", "en": "French"},
+    "Italienisch": {"fr": "italien", "de": "Italienisch", "it": "italiano", "en": "Italian"},
+    "Spanisch": {"fr": "espagnol", "de": "Spanisch", "it": "spagnolo", "en": "Spanish"},
+    "Portugiesisch": {"fr": "portugais", "de": "Portugiesisch", "it": "portoghese", "en": "Portuguese"},
+    "Serbokroatisch": {"fr": "serbo-croate", "de": "Serbokroatisch", "it": "serbo-croato", "en": "Serbo-Croatian"},
+    "Rätoromanisch": {"fr": "romanche", "de": "Rätoromanisch", "it": "romancio", "en": "Romansh"},
+    "Türkisch": {"fr": "turc", "de": "Türkisch", "it": "turco", "en": "Turkish"},
+    "Schwedisch": {"fr": "suédois", "de": "Schwedisch", "it": "svedese", "en": "Swedish"},
+}
+
+
+def translate_lang_name(name, lang):
+    entry = LANG_NAME_TRANSLATIONS.get(name)
+    return entry[lang] if entry else name
+
 
 def base_ctx(lang, path, title, description, extra_hreflang=None):
     depth = path.strip("/").count("/") + 1
@@ -814,6 +835,12 @@ CANTON_FILES = {
     "OW": "avocats_obwald.csv", "SG": "avocats_saint_gall.csv", "SO": "avocats_soleure.csv",
     "SZ": "avocats_schwyz.csv", "TG": "avocats_thurgovie.csv", "UR": "avocats_uri.csv",
     "VD": "avocats_vaud.csv", "ZG": "avocats_zoug.csv", "ZH": "avocats_zurich.csv",
+    # Ajoutes le 29/07/2026 : registres officiels decouverts accessibles (voir
+    # data/ENRICHISSEMENT_PROGRESS.md). TI : import initial partiel (70/904 --
+    # pagination du registre cantonal, le reste suit via la tache planifiee).
+    # BL, AR, SH : import complet en un seul passage (pages statiques uniques).
+    "TI": "avocats_tessin.csv", "BL": "avocats_bale_campagne.csv",
+    "AR": "avocats_appenzell_rhodes_exterieures.csv", "SH": "avocats_schaffhouse.csv",
 }
 
 
@@ -870,6 +897,11 @@ def normalize_row(code, r):
         parts = date_insc.split(".")
         if len(parts) == 3 and len(parts[-1]) == 4 and parts[-1].isdigit():
             annee_admission = parts[-1]
+    # Domaines de competence / langues parlees : uniquement presents pour
+    # Schaffhouse pour l'instant (texte brut, virgule-separe, tel que fourni
+    # par le registre officiel de l'ordre cantonal -- jamais reformule).
+    domaines_raw = (r.get("domaines") or "").strip()
+    langues_raw = (r.get("langues") or "").strip()
     return {
         "nom_complet": nom_complet,
         "fonction": fonction,
@@ -881,6 +913,8 @@ def normalize_row(code, r):
         "email": email,
         "site_web": site_web,
         "annee_admission": annee_admission,
+        "domaines_raw": domaines_raw,
+        "langues_raw": langues_raw,
         "canton": code,
     }
 
@@ -1124,8 +1158,29 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                     _domaine_names = _web["practice_areas_fr"]
                 elif lang == "en" and _web.get("practice_areas_en"):
                     _domaine_names = _web["practice_areas_en"]
+            # Langues/domaines tels que fournis par le registre de Schaffhouse
+            # (seul canton avec ces champs pour l'instant) -- agreges sur tous
+            # les membres de l'etude, dedupliques. Domaines = jargon juridique
+            # non traduit (page DE uniquement) ; langues = noms simples, traduits.
+            _sh_langues, _seen_l = [], set()
+            for m in members:
+                for x in (m.get("langues_raw") or "").split(","):
+                    x = x.strip()
+                    if x and x not in _seen_l:
+                        _seen_l.add(x)
+                        _sh_langues.append(x)
+            _langues_names = [translate_lang_name(x, lang) for x in _sh_langues]
+            if lang == "de" and not _domaine_names:
+                _sh_domaines, _seen_d = [], set()
+                for m in members:
+                    for x in (m.get("domaines_raw") or "").split(","):
+                        x = x.strip()
+                        if x and x not in _seen_d:
+                            _seen_d.add(x)
+                            _sh_domaines.append(x)
+                _domaine_names = _sh_domaines
             ctx["insight_text"] = pt.firm_insight(
-                lang, [], _domaine_names, _oldest_year,
+                lang, _langues_names, _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
             )
@@ -1202,7 +1257,11 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                  "etude": r.get("etude", ""), "ville": r.get("ville", "")}
                 for r in same_city
             ]
-            ctx["langues"] = []
+            # Langues parlees : pour l'instant seul Schaffhouse fournit ce champ
+            # (langues_raw, allemand source) -- traduction sure (noms de langues,
+            # pas de jargon) vers la langue de la page courante.
+            _langues_raw = [x.strip() for x in (row.get("langues_raw") or "").split(",") if x.strip()]
+            ctx["langues"] = [translate_lang_name(x, lang) for x in _langues_raw]
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("annee_admission"))
             _domaine_names = []
             if _web:
@@ -1210,11 +1269,16 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                     _domaine_names = _web["practice_areas_fr"]
                 elif lang == "en" and _web.get("practice_areas_en"):
                     _domaine_names = _web["practice_areas_en"]
+            elif lang == "de" and row.get("domaines_raw"):
+                # Domaines de competence tels que formules par le registre de
+                # Schaffhouse -- jargon juridique specifique, on ne traduit pas
+                # (risque de contresens) : affiche uniquement sur la page DE.
+                _domaine_names = [x.strip() for x in row["domaines_raw"].split(",") if x.strip()]
             ctx["insight_text"] = pt.firm_insight(
-                lang, [], _domaine_names, None,
+                lang, ctx["langues"], _domaine_names, None,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
-            ) if _web else ""
+            ) if (_web or _domaine_names or ctx["langues"]) else ""
             ctx["web_source_note"] = None
             if _web:
                 ctx["web_source_note"] = {

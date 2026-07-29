@@ -129,26 +129,11 @@ CANTONS = {
         "it": {"name": "Uri", "slug": "uri"},
         "en": {"name": "Uri", "slug": "uri"},
     },
-}
-
-CANTONS_A_VENIR = {
-    "BE": {
-        "fr": {"name": "Berne", "slug": "berne"},
-        "de": {"name": "Bern", "slug": "bern"},
-        "it": {"name": "Berna", "slug": "berna"},
-        "en": {"name": "Bern", "slug": "bern"},
-    },
     "TI": {
         "fr": {"name": "Tessin", "slug": "tessin"},
         "de": {"name": "Tessin", "slug": "tessin"},
         "it": {"name": "Ticino", "slug": "ticino"},
         "en": {"name": "Ticino", "slug": "ticino"},
-    },
-    "VS": {
-        "fr": {"name": "Valais", "slug": "valais"},
-        "de": {"name": "Wallis", "slug": "wallis"},
-        "it": {"name": "Vallese", "slug": "vallese"},
-        "en": {"name": "Valais", "slug": "valais"},
     },
     "BL": {
         "fr": {"name": "Bâle-Campagne", "slug": "bale-campagne"},
@@ -167,6 +152,24 @@ CANTONS_A_VENIR = {
         "de": {"name": "Schaffhausen", "slug": "schaffhausen"},
         "it": {"name": "Sciaffusa", "slug": "sciaffusa"},
         "en": {"name": "Schaffhausen", "slug": "schaffhausen"},
+    },
+}
+
+# Registres officiels inaccessibles par scraping legitime (outil de recherche
+# JS/JSF partage sans liste statique -- voir data/ENRICHISSEMENT_PROGRESS.md,
+# verifie a nouveau le 29/07/2026). A revisiter si une nouvelle source apparait.
+CANTONS_A_VENIR = {
+    "BE": {
+        "fr": {"name": "Berne", "slug": "berne"},
+        "de": {"name": "Bern", "slug": "bern"},
+        "it": {"name": "Berna", "slug": "berna"},
+        "en": {"name": "Bern", "slug": "bern"},
+    },
+    "VS": {
+        "fr": {"name": "Valais", "slug": "valais"},
+        "de": {"name": "Wallis", "slug": "wallis"},
+        "it": {"name": "Vallese", "slug": "vallese"},
+        "en": {"name": "Valais", "slug": "valais"},
     },
 }
 
