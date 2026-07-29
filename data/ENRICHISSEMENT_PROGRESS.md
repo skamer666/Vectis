@@ -4,7 +4,7 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-29 — lot 36 — phase de découverte lot 11)
+## Statut actuel (dernière mise à jour : 2026-07-29 — lot 37 — FILE D'ATTENTE ÉPUISÉE)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
@@ -13,7 +13,7 @@ commencer par le lire.
 - **0** domaines GE/VD restants — liste épuisée.
 - **Cache découverte autres cantons :** 157 succès / 46 échecs (lot 36 : +9 succès, +9 échecs).
 - Taux de réussite phase de découverte : **~77%** (157 / 203 entrées).
-- **Prochaine étape :** poursuivre la phase de découverte ZH (cabinets restants ≥3 avocats pas encore testés).
+- **Prochaine étape :** ⚠️ FILE D'ATTENTE ÉPUISÉE — tous les cabinets ≥3 avocats des cantons de découverte ont été traités. Greg doit rediriger ou désactiver cette tâche planifiée.
 
 ## Règles non négociables (méthodologie)
 
@@ -1265,6 +1265,32 @@ complet vérifié sans artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests 
   vocate.ch (SG), spuehler.legal (ZH), szlaw.ch (ZH). Zéro artefact Jinja (60 fichiers vérifiés).
 - **Cache découverte autres cantons :** 148 succès / 37 échecs (total cumulé).
 
+### 2026-07-29 — lot 36 (phase de découverte — autres cantons, lot 11)
+
+*Note : entrée de journal reconstruite rétrospectivement — le commit 7022c49 a mis à jour le
+header et le cache JSON mais a omis d'écrire cette section. Données issues du commit et du JSON.*
+
+- **20 domaines traités** (ZH — tranche suivante par taille) : **9 succès / 9 échecs / 2 mises à jour d'entrées existantes**.
+- Cache mis à jour : `data/domaines_autres_cantons.json` → **157 succès / 46 échecs** (total cumulé).
+- **Succès (9, tous ZH) :**
+  - **VALLONI Attorneys at Law GmbH** (valloni.ch) : 4 domaines (Vertragsrecht, Gesellschaftsrecht,
+    Immobilienrecht, Schiedsgerichtsbarkeit/Mediation).
+  - **SILK Rechtsanwälte** (silk-rechtsanwaelte.ch) : 16 domaines de compétence (cabinet spécialisé).
+  - **Legis Rechtsanwälte AG** (legis-law.ch) : présence confirmée, aucun fait chiffré.
+  - **BÜHLMANN KOENIG & PARTNER AG** (bkp-legal.ch) : 6 domaines (Wirtschaftsrecht, Streit/Schiedsverfahren,
+    Technologie/IP/Datenschutz, Immobilien/Bau, Steuerrecht, Regulierung/Compliance).
+  - **DAVATZ LEGAL AG** (davatzlegal.ch) : 2 domaines (Bau/Immobilienrecht, Schiedsgerichtsbarkeit).
+  - **Romero & Ziegler Meier Jucker Rechtsanwälte** (romeroziegler.ch) : fondé en **1999** — présence confirmée.
+  - **Frey & Jud Rechtsanwälte** (frey-jud.ch) : présence confirmée, aucun fait chiffré.
+  - **Scherler Siegenthaler Schweizer Rechtsanwälte AG** (advo-net.ch) : présence confirmée.
+  - **Charles Russell Speechlys AG** (charlesrussellspeechlys.com#ZH, clé composite) : 5 domaines
+    (Corporate/M&A, Private Client, Employment, IP/Technology, Dispute Resolution) — bureau ZH du réseau
+    international, chiffres locaux uniquement.
+- **Échecs (9) :** lexp.ch (JS), quadra.law (JS — mise à jour firm_name/canton),
+  staiger.law (JS — mise à jour firm_name/canton), advotech.ch (BS/JS), baeumlin-partner.ch (BS/JS),
+  indemnis.ch (BS/JS), klgp.ch (SZ/JS), museum35.ch (SG/JS), vincenzpartner.ch (GR/JS).
+- **Cache découverte autres cantons :** 157 succès / 46 échecs (total cumulé).
+
 ### 2026-07-29 — Tessin, lot pages 18-27 (tâche planifiée vectis-tessin-scraping)
 
 Pages 18 à 27 du registre cantonal tessinois (www4.ti.ch) récupérées avec succès (10/10 pages,
@@ -1282,3 +1308,19 @@ artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
 `data/tessin_import_progress.json` : `last_page_imported` 17 → 27.
 
 **Cumul : 270 avocats sur ~907 (29,8%), page 27/91.**
+
+### 2026-07-29 — lot 37 (file d'attente épuisée)
+
+- **0 domaines traités.** La file d'attente de la phase de découverte est vide : tous les cabinets
+  de ≥3 avocats dans les cantons de découverte (ZH, BS, SG, LU, GR, SZ, AI, GL, NW, OW, UR)
+  ont été traités ou tentés.
+- **Détail par canton :** ZH (1260 études dérivées), SG (248), LU (179), BS (175), GR (148), SZ (77),
+  OW (19), NW (16), GL (7), UR (5), AI (1). Cantons avec 0 études dérivées (pas d'entrée `etude` dans
+  le CSV) : AG, JU, NE, SO, TG, ZG — exclus depuis le 29/07/2026 (test web nom par nom : 60% fiabilité,
+  risque d'homonymie).
+- **Compte exact :** 202 paires (nom-cœur, canton) couvertes sur 202 identifiées (seuil 3 avocats).
+  Cache `domaines_autres_cantons.json` : **157 succès / 46 échecs** (inchangé).
+- **Aucun rebuild, aucune modification de données** — seule cette entrée de journal est ajoutée.
+- **Prochaine action :** Greg doit rediriger explicitement cette tâche planifiée. Pistes possibles :
+  descendre à 2 avocats (non recommandé — testé, rendement très faible), cibler BE/VS si une nouvelle
+  source de données apparaît, ou désactiver la tâche si l'enrichissement est considéré complet.
