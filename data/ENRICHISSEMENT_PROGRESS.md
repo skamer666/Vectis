@@ -1232,3 +1232,36 @@ complet vérifié sans artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests 
 `data/tessin_import_progress.json` : `last_page_imported` 7 → 17.
 
 **Cumul : 170 avocats sur ~907 (18,7%), page 17/91.**
+
+### 2026-07-29 — lot 35 (phase de découverte — autres cantons, lot 10)
+
+- **20 domaines traités** (ZH/BS/SG/BL/GR — clés composites + nouvelles études) : **13 succès (dont 4 clés composites) / 7 échecs**.
+- Cache mis à jour : `data/domaines_autres_cantons.json` → **148 succès / 37 échecs** (total cumulé).
+- **Clés composites ajoutées (même cabinet, plusieurs cantons) :**
+  - `bratschi.ch#SG` et `bratschi.ch#BS` : Bratschi AG (fondé 2008, 120 avocats) déjà en cache pour ZH —
+    composite keys pour rattacher les bureaux SG et BS.
+  - `swisslegal.ch#ZH` (SwissLegal (Zürich) AG) et `swisslegal.ch#SG` (SwissLegal asg.advocati) :
+    8 domaines communs (Commercial Law & Tax, Construction & Real Estate, Family/Marriage/Succession,
+    Data/Technology/AI & Crypto, Litigation & Arbitration, Labour/Mobility/Health, Notarial Services,
+    Federal & Administrative Law). La clé de base `swisslegal.ch` correspond à SwissLegal Dürr + Partner (BS).
+- **Nouveaux succès (faits extraits) :**
+  - **LEXPARTNERS.** (lexpartners.ch, BL) : fondé en **1978** par Prof. Ernst Fischli,
+    cabinet d'avocats et notaires spécialisé BL/BS.
+  - **\@vocate** (vocate.ch, SG) : **6 avocats** (3 femmes, 3 hommes) — effectif confirmé explicitement.
+  - **Spühler Rechtsanwälte AG** (spuehler.legal, ZH) : 6 domaines (Strafverteidigung, Opfervertretung,
+    Familienrecht, Arbeitsrecht, Vertragsrecht, Betreibung und Konkurs).
+  - **Strazzer Zeiter Rechtsanwälte AG** (szlaw.ch, ZH) : 8 domaines (Nachlassplanung, Nachlassabwicklung,
+    Erbstreitigkeiten, Ehegüterrecht, Erwachsenenschutz und Vorsorge, Vertragsrecht und
+    Vermögensgestaltung, Unternehmensnachfolge, Philanthropie und Stiftungen). Spécialiste Erbrecht.
+  - (kspartner.ch, mfpartner.ch, gigerpartnerlaw.ch, dufour-advokatur.ch déjà en cache depuis lots précédents,
+    non recomptés ici.)
+- **Échecs (7) :** lplegal.ch (aucun fait extractible), kanzlei-helvetiaplatz.ch (JS/Readymag),
+  kanzlei-im-turm.ch (JS/Webflow), suter.legal (URL hors provenance), advobasel.ch (mauvais cabinet :
+  Pfander/Alder ≠ Emmel/Jedelhauser BS « Advokatur und Mediation »), hol-law.ch (déjà en cache ZH),
+  mzbs.ch (déjà en _failed).
+- **Note technique :** collision de nom toujours active pour « Baud, Diehl, Stauffer » / « Baud Diehl Stauffer »
+  (deux entrées BS avec le même nom-cœur) — enrichissement awg.ch toujours non rattaché (mieux vaut rien
+  qu'ambigu). À corriger en fusionnant les deux entrées du registre BS.
+- **Rebuild ciblé :** bratschi.ch (ZH/SG/BS), swisslegal.ch (BS/ZH/SG), lexpartners.ch (BL),
+  vocate.ch (SG), spuehler.legal (ZH), szlaw.ch (ZH). Zéro artefact Jinja (60 fichiers vérifiés).
+- **Cache découverte autres cantons :** 148 succès / 37 échecs (total cumulé).

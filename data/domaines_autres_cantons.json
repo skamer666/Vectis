@@ -509,6 +509,36 @@
       "canton": "BS",
       "reason": "site JS rendu, contenu non accessible",
       "date": "2026-07-29"
+    },
+    "lplegal.ch": {
+      "firm_name": "Lustenberger + Partners KLG",
+      "canton": "ZH",
+      "raison": "aucun fait extractible (pas de founding_year, team_size, ni liste practice_areas)",
+      "fetched_date": "2026-07-29"
+    },
+    "kanzlei-helvetiaplatz.ch": {
+      "firm_name": "Kanzlei Helvetiaplatz",
+      "canton": "ZH",
+      "raison": "rendu JavaScript (Readymag), page vide",
+      "fetched_date": "2026-07-29"
+    },
+    "kanzlei-im-turm.ch": {
+      "firm_name": "Kanzlei im Turm AG",
+      "canton": "ZH",
+      "raison": "rendu JavaScript (Webflow), page vide",
+      "fetched_date": "2026-07-29"
+    },
+    "suter.legal": {
+      "firm_name": "Suter.Legal. AG",
+      "canton": "ZH",
+      "raison": "URL hors provenance web_fetch, inaccessible",
+      "fetched_date": "2026-07-29"
+    },
+    "advobasel.ch": {
+      "firm_name": "Advokatur & Mediation (Pfander/Alder/Lehmann/Fuchs)",
+      "canton": "BS",
+      "raison": "mauvais cabinet — ne correspond pas aux membres BS CSV 'Advokatur und Mediation' (Emmel/Jedelhauser/Knecht/Müller/Tibis)",
+      "fetched_date": "2026-07-29"
     }
   },
   "_sans_site": {},
@@ -3593,5 +3623,125 @@
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "fetched_date": "2026-07-29",
     "note": "Bureau principal Rapperswil-Jona, bureau St-Gall"
+  },
+  "bratschi.ch#SG": {
+    "firm_name": "Bratschi AG",
+    "canton": "SG",
+    "founding_year": 2008,
+    "team_size_n": 120,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit fiscal",
+      "Droit public"
+    ],
+    "source_url": "https://www.bratschi.ch/en/about-us",
+    "fetched_date": "2026-07-29",
+    "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json).",
+    "composite_of": "bratschi.ch"
+  },
+  "bratschi.ch#BS": {
+    "firm_name": "Bratschi AG",
+    "canton": "BS",
+    "founding_year": 2008,
+    "team_size_n": 120,
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit fiscal",
+      "Droit public"
+    ],
+    "source_url": "https://www.bratschi.ch/en/about-us",
+    "fetched_date": "2026-07-29",
+    "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json).",
+    "composite_of": "bratschi.ch"
+  },
+  "swisslegal.ch#ZH": {
+    "firm_name": "SwissLegal (Zürich) AG",
+    "canton": "ZH",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Commercial Law & Tax",
+      "Construction & Real Estate",
+      "Family, Marriage & Succession",
+      "Data and Technology Law, AI & Crypto",
+      "Litigation & Arbitration",
+      "Labour, Mobility & Health",
+      "Notarial Services & Certificates",
+      "Federal & Administrative Law"
+    ],
+    "source_url": "https://www.swisslegal.ch/en/offices/",
+    "fetched_date": "2026-07-29",
+    "composite_of": "swisslegal.ch"
+  },
+  "swisslegal.ch#SG": {
+    "firm_name": "SwissLegal asg.advocati",
+    "canton": "SG",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_en": [
+      "Commercial Law & Tax",
+      "Construction & Real Estate",
+      "Family, Marriage & Succession",
+      "Data and Technology Law, AI & Crypto",
+      "Litigation & Arbitration",
+      "Labour, Mobility & Health",
+      "Notarial Services & Certificates",
+      "Federal & Administrative Law"
+    ],
+    "source_url": "https://www.swisslegal.ch/en/offices/",
+    "fetched_date": "2026-07-29",
+    "composite_of": "swisslegal.ch"
+  },
+  "lexpartners.ch": {
+    "firm_name": "LEXPARTNERS.",
+    "canton": "BL",
+    "founding_year": 1978,
+    "team_size_n": null,
+    "practice_areas_de": null,
+    "source_url": "https://www.lexpartners.ch/en/",
+    "fetched_date": "2026-07-29"
+  },
+  "vocate.ch": {
+    "firm_name": "@vocate",
+    "canton": "SG",
+    "founding_year": null,
+    "team_size_n": 6,
+    "practice_areas_de": null,
+    "source_url": "https://vocate.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "spuehler.legal": {
+    "firm_name": "Spühler Rechtsanwälte AG",
+    "canton": "ZH",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Opfervertretung",
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Betreibung und Konkurs"
+    ],
+    "source_url": "https://spuehler.legal/",
+    "fetched_date": "2026-07-29"
+  },
+  "szlaw.ch": {
+    "firm_name": "Strazzer Zeiter Rechtsanwälte AG",
+    "canton": "ZH",
+    "founding_year": null,
+    "team_size_n": null,
+    "practice_areas_de": [
+      "Nachlassplanung",
+      "Nachlassabwicklung",
+      "Erbstreitigkeiten",
+      "Ehegüterrecht",
+      "Erwachsenenschutz und Vorsorge",
+      "Vertragsrecht und Vermögensgestaltung",
+      "Unternehmensnachfolge",
+      "Philanthropie und Stiftungen"
+    ],
+    "source_url": "https://szlaw.ch/",
+    "fetched_date": "2026-07-29"
   }
 }
