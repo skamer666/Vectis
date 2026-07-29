@@ -1047,3 +1047,27 @@ qu'à Fribourg — c'est le seul des 7 cantons thin (AG, FR, JU, NE, SO, TG, ZG)
 contient un champ email exploitable. Les 6 autres (1501 avocats) n'ont aucun signal
 structuré de regroupement dans leurs données source ; un test à petite échelle de
 recherche web nom par nom est prévu pour évaluer si une autre piste est envisageable.
+
+### 2026-07-29 — Test à petite échelle : recherche web nom par nom (cantons sans email/site_web)
+
+Pour les 6 cantons restants sans aucun signal structuré (AG, JU, NE, SO, TG, ZG — 1501
+avocats), test manuel sur un échantillon de 20 avocats d'Argovie (recherche web
+"Prénom Nom Rechtsanwalt/Rechtsanwältin canton").
+
+Résultat : 12/20 (60%) rattachements fiables à un cabinet identifiable sans ambiguïté ;
+3/20 identité confirmée mais avocat solo (pas de cabinet à rattacher) ou nom de cabinet
+contradictoire selon la source ; 5/20 noms trop courants en Suisse (Müller, Weber,
+Fröhlich) pour garantir qu'il s'agit du bon homonyme sans signal supplémentaire.
+
+**Conclusion : ne pas automatiser cette approche.** Le problème n'est pas seulement le
+taux de succès plus faible que l'enrichissement par domaine (60% contre 76-90%), c'est le
+risque qualitatif différent : un domaine mal fetché donne un échec silencieux (rien n'est
+publié), alors qu'un nom mal désambiguïsé donne une **fausse attribution à une vraie
+personne** (associer un avocat au cabinet de son homonyme). C'est strictement pire que le
+principe de non-fabrication du projet — pas une fiche vide, une fiche fausse. Le coût est
+aussi plus élevé (une recherche + un jugement de désambiguïsation par avocat, contre un
+fetch par domaine qui couvre plusieurs avocats d'un coup).
+
+**Décision : ces 6 cantons restent fermés pour l'instant**, sauf nouvelle piste (ex. un
+registre alternatif avec un identifiant plus fiable que le nom seul). Aucune tâche
+récurrente n'est dirigée vers eux.
