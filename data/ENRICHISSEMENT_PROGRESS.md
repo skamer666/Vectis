@@ -1418,3 +1418,21 @@ régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 
 `data/tessin_import_progress.json` : `last_page_imported` 67 → 77.
 
 **Cumul : 768 avocats sur ~907 (84,7%), page 77/91.**
+
+### 2026-07-29 — Tessin, lot pages 78-87 (tâche planifiée vectis-tessin-scraping)
+
+Pages 78 à 87 du registre cantonal tessinois (www4.ti.ch) récupérées avec succès (10/10 pages,
+aucun échec). 100 nouveaux avocats extraits (noms, adresses, dates d'inscription) selon le format
+pipe-delimité habituel, écrits dans `sources/ti_raw/batch09.txt`.
+
+`sources/build_ti_csv.py` relancé sur les 9 lots cumulés (`batch01.txt` à `batch09.txt`) :
+**868 avocats** dans `data/avocats_tessin.csv` (837/868 avec npa/ville identifié, 499/868 avec
+cabinet identifié).
+
+Rebuild ciblé du canton TI (`gen_canton_hub`, `gen_canton_cross`, `gen_canton_etudes`,
+`gen_canton_avocats`) : 4668 fichiers `dist/**/tessin/**/index.html` + `dist/**/ticino/**/index.html`
+régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
+
+`data/tessin_import_progress.json` : `last_page_imported` 77 → 87.
+
+**Cumul : 868 avocats sur ~907 (95,7%), page 87/91.**
