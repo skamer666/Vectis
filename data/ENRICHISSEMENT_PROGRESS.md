@@ -1264,3 +1264,21 @@ complet vérifié sans artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests 
 - **Rebuild ciblé :** bratschi.ch (ZH/SG/BS), swisslegal.ch (BS/ZH/SG), lexpartners.ch (BL),
   vocate.ch (SG), spuehler.legal (ZH), szlaw.ch (ZH). Zéro artefact Jinja (60 fichiers vérifiés).
 - **Cache découverte autres cantons :** 148 succès / 37 échecs (total cumulé).
+
+### 2026-07-29 — Tessin, lot pages 18-27 (tâche planifiée vectis-tessin-scraping)
+
+Pages 18 à 27 du registre cantonal tessinois (www4.ti.ch) récupérées avec succès (10/10 pages,
+aucun échec). 100 nouveaux avocats extraits (noms, adresses, dates d'inscription) selon le format
+pipe-delimité habituel, écrits dans `sources/ti_raw/batch03.txt`.
+
+`sources/build_ti_csv.py` relancé sur les 3 lots cumulés (`batch01.txt` + `batch02.txt` +
+`batch03.txt`) : **270 avocats** dans `data/avocats_tessin.csv` (258/270 avec npa/ville identifié,
+154/270 avec cabinet identifié).
+
+Rebuild ciblé du canton TI (`gen_canton_hub`, `gen_canton_cross`, `gen_canton_etudes`,
+`gen_canton_avocats`) : 808 fichiers `dist/**/tessin|ticino/**/index.html` régénérés, aucun
+artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
+
+`data/tessin_import_progress.json` : `last_page_imported` 17 → 27.
+
+**Cumul : 270 avocats sur ~907 (29,8%), page 27/91.**
