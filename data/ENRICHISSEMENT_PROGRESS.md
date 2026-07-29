@@ -1216,3 +1216,19 @@ générées) : aucun artefact Jinja, 50 tests existants toujours au vert.
 - **Rebuild ciblé :** cantons LU (8 études/58 avocats), BS (1 étude/6 avocats), GR (2 études/12 avocats),
   SG (2 études/12 avocats) — pages étude + avocat régénérées (~376 pages × 4 langues). Zéro artefact Jinja.
 - **Cache découverte autres cantons :** 140 succès / 32 échecs (total cumulé).
+
+### 2026-07-29 — vectis-tessin-scraping, lot 1 (pages 8-17)
+
+Première exécution de la tâche planifiée dédiée au complément du Tessin. Pages 8 à 17 du
+registre cantonal (www4.ti.ch) fetchées avec succès (10/10, aucun échec). 100 avocats extraits
+(BELTRAMI Gianfrancesco → CAMPONOVO Teo), écrits dans `sources/ti_raw/batch02.txt`.
+
+`sources/build_ti_csv.py` relancé : combine batch01 (70) + batch02 (100) = **170 avocats** dans
+`data/avocats_tessin.csv` (164/170 avec NPA/ville identifié, 94/170 avec cabinet identifié).
+Rebuild ciblé du canton TI (`gen_canton_hub`, `gen_canton_cross`, `gen_canton_etudes`,
+`gen_canton_avocats`) : 1068 fichiers `dist/**/tessin|ticino/**/index.html` générés, échantillon
+complet vérifié sans artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
+
+`data/tessin_import_progress.json` : `last_page_imported` 7 → 17.
+
+**Cumul : 170 avocats sur ~907 (18,7%), page 17/91.**
