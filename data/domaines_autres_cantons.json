@@ -322,11 +322,15 @@
   "_failed": {
     "staiger.law": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Staiger Rechtsanwälte AG",
+      "canton": "ZH"
     },
     "quadra.law": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Quadra Rechtsanwälte AG",
+      "canton": "ZH"
     },
     "gbf-legal.ch": {
       "reason": "URL hors provenance — non accessible via web_fetch",
@@ -378,15 +382,21 @@
     },
     "advotech.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "ADVOTECH ADVOKATEN",
+      "canton": "BS"
     },
     "vincenzpartner.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Vincenz & Partner",
+      "canton": "GR"
     },
     "mzbs.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "MZBS Advokatur Notariat",
+      "canton": "BS"
     },
     "reberlaw.ch": {
       "firm_name": "REBER Rechtsanwälte",
@@ -414,7 +424,9 @@
     },
     "klgp.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Kessler Landolt Giacomini & Partner",
+      "canton": "SZ"
     },
     "pachmann.law": {
       "firm_name": "Pachmann AG",
@@ -448,13 +460,53 @@
     },
     "drsp-law.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "DRSP Advokatur & Notariat",
+      "canton": "GR"
     },
     "reichle-stehle.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Reichle Stehle AG",
+      "canton": "SG"
     },
     "lexp.ch": {
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "rudolf-bieri.ch": {
+      "firm_name": "Rudolf & Bieri AG",
+      "canton": "LU",
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "museum35.ch": {
+      "firm_name": "LOCHER KOBLER STADELMANN",
+      "canton": "SG",
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "indemnis.ch": {
+      "firm_name": "INDEMNIS",
+      "canton": "BS",
+      "reason": "site JS rendu, contenu non accessible",
+      "date": "2026-07-29"
+    },
+    "kuenglaw-sg.ch": {
+      "firm_name": "Küng Rechtsanwälte & Notare AG",
+      "canton": "SG",
+      "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)",
+      "date": "2026-07-29"
+    },
+    "sglaw.ch": {
+      "firm_name": "Rüesch Rechtsanwälte",
+      "canton": "SG",
+      "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)",
+      "date": "2026-07-29"
+    },
+    "baeumlin-partner.ch": {
+      "firm_name": "Bäumlin + Partner Advokatur und Mediation",
+      "canton": "BS",
       "reason": "site JS rendu, contenu non accessible",
       "date": "2026-07-29"
     }
@@ -3220,5 +3272,326 @@
     ],
     "source_url": "https://www.losinger.law/fachgebiete",
     "fetched_date": "2026-07-29"
+  },
+  "stadelmann-law.ch": {
+    "firm_name": "Stadelmann Advokatur & Notariat AG",
+    "canton": "LU",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Notariat",
+      "Mediation"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://stadelmann-law.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "brackpartner.ch": {
+    "firm_name": "Brack & Partner AG",
+    "canton": "LU",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Immobilien, Bau und Miete",
+      "Wirtschaftsstrafrecht",
+      "Vertragsrecht, Wirtschafts- und Gesellschaftsrecht",
+      "Scheidung und Konkubinat",
+      "Notariat",
+      "Altersvorsorge",
+      "Betreibung und Konkurs",
+      "Domizile und Verwaltungsrat"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://brackpartner.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "hofstetteradvokatur.ch": {
+    "firm_name": "Hofstetter Advokatur & Notariat AG",
+    "canton": "LU",
+    "founding_year": 1987,
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Immobilienrecht",
+      "Erb- und Nachlassrecht",
+      "Energie- und Umweltrecht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://hofstetteradvokatur.ch/en/",
+    "fetched_date": "2026-07-29"
+  },
+  "trollerlaw.ch": {
+    "firm_name": "Troller Hitz Troller",
+    "canton": "LU",
+    "founding_year": 1941,
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Immaterialgüterrecht",
+      "Wettbewerbsrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Bankenrecht",
+      "allgemeines Vertragsrecht",
+      "Staats- und Verwaltungsrecht",
+      "Notariat"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.trollerlaw.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "hess-advokatur.ch": {
+    "firm_name": "Hess Advokatur AG",
+    "canton": "LU",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Alter",
+      "Arbeit",
+      "Bauen",
+      "Datenschutz",
+      "Familie",
+      "Gemeinde",
+      "Internet",
+      "Immaterialgüterrecht",
+      "Kindesvertretung",
+      "KMU",
+      "Landwirtschaft",
+      "Mediation",
+      "Miete",
+      "Notariat",
+      "Strafrecht",
+      "Schule",
+      "Strassenverkehr"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.hess-advokatur.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "advokaturteam.ch": {
+    "firm_name": "Gremmelspacher Ruppanner Roth Gass",
+    "canton": "BS",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Gesellschaftsrecht",
+      "Haftpflichtrecht",
+      "Immaterialgüterrecht",
+      "Mietrecht",
+      "Persönlichkeitsrecht",
+      "Sachenrecht",
+      "SchKG",
+      "Vertragsrecht",
+      "Life Sciences",
+      "Medienrecht",
+      "Öffentliches Personalrecht",
+      "Raumplanung",
+      "Verwaltungsrecht",
+      "Strafverteidigung",
+      "Opfervertretung"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.advokaturteam.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "kornplatz.ch": {
+    "firm_name": "Kanzlei Kornplatz AG",
+    "canton": "GR",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Verwaltungsrecht",
+      "Baurecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht / M&A",
+      "Strafrecht",
+      "Datenschutz",
+      "Familienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Litigation",
+      "Notariat",
+      "Raumplanung",
+      "Immobilienrecht",
+      "Sportrecht",
+      "Submissionsrecht",
+      "Steuerrecht",
+      "Mietrecht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.kornplatz.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "bps-partner.ch": {
+    "firm_name": "BänzigerPallySchuler KLG",
+    "canton": "GR",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Öffentliches Recht",
+      "Strafrecht",
+      "Privatrecht",
+      "Notariat"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.bps-partner.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "krlaw.ch": {
+    "firm_name": "Kaufmann Rüedi Rechtsanwälte AG",
+    "canton": "LU",
+    "founding_year": 1974,
+    "practice_areas_de": [
+      "Arbeiten",
+      "Beschaffungswesen",
+      "Compliance / Wirtschaftsstrafrecht",
+      "Familie / Erbe",
+      "Gesundheit / Life Sciences",
+      "Immobilien / Bauen",
+      "Inkasso / Insolvenz",
+      "International Desk",
+      "IT / ICT / Datenschutz",
+      "Notariat",
+      "Rechtliche Übersetzungen",
+      "Schiedsgerichtsbarkeit / Mediation",
+      "Sportrecht",
+      "Staat / Behörden",
+      "Unternehmen / M&A / Nachfolge"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.krlaw.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "anwaltspraxis.ch": {
+    "firm_name": "Schwegler & Partner Anwälte und Notare AG",
+    "canton": "LU",
+    "founding_year": 1997,
+    "practice_areas_de": [
+      "Anwaltstätigkeit",
+      "Notariatstätigkeit",
+      "Mediation"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.anwaltspraxis.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "vetsch-rechtsanwaelte.ch": {
+    "firm_name": "Vetsch Rechtsanwälte AG",
+    "canton": "LU",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Notariat",
+      "Erbrecht",
+      "Familienrecht",
+      "Immobilienrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Schuldbetreibungsrecht",
+      "Landwirtschaftsrecht",
+      "Strafrecht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.vetsch-rechtsanwaelte.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "steurifisch.ch": {
+    "firm_name": "SteuriFisch AG",
+    "canton": "SG",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Erbrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Bildungs- und Schulrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Baurecht",
+      "Datenschutzrecht",
+      "IP-IT-Recht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.steurifisch.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "awg.ch": {
+    "firm_name": "Anwaltsgemeinschaft Baud Diehl Stauffer",
+    "canton": "BS",
+    "founding_year": 1981,
+    "practice_areas_de": [
+      "Berufliche Vorsorge",
+      "Familienrecht",
+      "Sozialversicherungsrecht",
+      "Arbeitsrecht",
+      "Migrationsrecht",
+      "Erbrecht",
+      "Mediation",
+      "Ombudsstellen",
+      "Strafrecht",
+      "Vereins- und Stiftungsrecht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.awg.ch/",
+    "fetched_date": "2026-07-29"
+  },
+  "anwaelte-hgs.ch": {
+    "firm_name": "Hofmann Gehler Schmidlin & Partner Rechtsanwälte und Notare KLG",
+    "canton": "SG",
+    "founding_year": null,
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Scheidungsrecht",
+      "Erbrecht",
+      "Sachenrecht",
+      "allgemeines Vertragsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Werkvertragsrecht",
+      "Haftpflichtrecht",
+      "Versicherungsrecht",
+      "Gesellschaftsrecht",
+      "Handelsrecht",
+      "Baurecht",
+      "öffentliches Bau- und Planungsrecht",
+      "Enteignungsrecht",
+      "Sozialversicherungsrecht",
+      "Strassenverkehrsrecht",
+      "Schuldbetreibungsrecht",
+      "Verwaltungsrecht",
+      "Steuerrecht"
+    ],
+    "practice_areas_fr": [],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
+    "fetched_date": "2026-07-29",
+    "note": "Bureau principal Rapperswil-Jona, bureau St-Gall"
   }
 }

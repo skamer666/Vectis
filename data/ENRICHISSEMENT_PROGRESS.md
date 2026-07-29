@@ -4,17 +4,17 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-28 — lot 30 — phase de découverte lot 5)
+## Statut actuel (dernière mise à jour : 2026-07-29 — lot 34 — phase de découverte lot 9)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
 - **370** cabinets avec au moins un fait exploitable dans le cache principal GE/VD (inchangé).
 - **126** domaines testés sans succès dans le cache principal GE/VD (inchangé).
 - **0** domaines GE/VD restants — liste épuisée.
-- **Cache découverte autres cantons :** 86 succès / 14 échecs (lot 30 : +19 succès, +1 échec).
-- Taux de réussite phase de découverte : **~86%** (86 / 100 entrées).
-- **Prochaine étape :** poursuivre la phase de découverte — cabinets BS/SG/GR/LU de taille
-  intermédiaire (6-10 avocats) pas encore testés.
+- **Cache découverte autres cantons :** 140 succès / 32 échecs (lot 34 : +14 succès, +6 échecs).
+- Taux de réussite phase de découverte : **~81%** (140 / 172 entrées).
+- **Prochaine étape :** poursuivre la phase de découverte — cabinets LU/SG/BS/GR/BL/AR/SH de taille
+  intermédiaire (5-8 avocats) pas encore testés.
 
 ## Règles non négociables (méthodologie)
 
@@ -1151,3 +1151,68 @@ soit ~88% des cantons suisses. Seuls BE, VS (registres inaccessibles) et le sold
 (834 avocats restants, mécanisme de complément à créer) restent à traiter. Build complet
 vérifié (import + rebuild ciblé des 4 nouveaux cantons + échantillon complet des pages
 générées) : aucun artefact Jinja, 50 tests existants toujours au vert.
+
+### 2026-07-29 — lot 34 (phase de découverte — autres cantons, lot 9)
+
+- **20 domaines traités** (cabinets LU/BS/GR/SG — tranche suivante par taille) : **14 succès / 6 échecs**.
+- Données stockées dans `data/domaines_autres_cantons.json` (140 succès / 32 échecs au total).
+- **Résultats notables (nouveaux faits extraits) :**
+  - **Troller Hitz Troller** (trollerlaw.ch, LU) : fondé en **1941** ("im Jahre 1941 gegründete"), 8 domaines
+    (Wirtschaftsrecht, Immaterialgüterrecht, Wettbewerbsrecht, Handels/Gesellschaftsrecht, Bankenrecht,
+    Vertragsrecht, Staats/Verwaltungsrecht, Notariat). Bureaux Luzern + Bern.
+  - **Kaufmann Rüedi Rechtsanwälte AG** (krlaw.ch, LU) : fondé en **1974** ("Gemeinsamer Erfolg seit 1974"),
+    15 domaines de compétence (Arbeiten, Beschaffungswesen, Compliance/Wirtschaftsstrafrecht,
+    Familie/Erbe, Gesundheit/Life Sciences, Immobilien/Bauen, Inkasso/Insolvenz, International Desk,
+    IT/ICT/Datenschutz, Notariat, Übersetzungen, Schiedsgerichtsbarkeit/Mediation, Sportrecht,
+    Staat/Behörden, Unternehmen/M&A/Nachfolge). Certifié ISO 9001:2015.
+  - **Hofstetter Advokatur & Notariat AG** (hofstetteradvokatur.ch, LU) : fondé en **1987** ("Since 1987"),
+    4 domaines (Bau/Planungsrecht, Immobilienrecht, Erb/Nachlassrecht, Energie/Umweltrecht).
+  - **Anwaltsgemeinschaft Baud Diehl Stauffer** (awg.ch, BS) : fondé en **1981** ("Seit 1981 beraten und
+    vertreten wir…"), 10 domaines (Berufliche Vorsorge, Familienrecht, Sozialversicherungsrecht,
+    Arbeitsrecht, Migrationsrecht, Erbrecht, Mediation, Ombudsstellen, Strafrecht, Vereins/Stiftungsrecht).
+    Note : les deux entrées BS ("Baud, Diehl, Stauffer" et "Baud Diehl Stauffer") ont le même nom-cœur
+    → collision détectée par `attach_name_based_enrichment` → enrichissement non rattaché pour l'instant
+    (mieux vaut aucun rattachement qu'un rattachement ambigu). À corriger ultérieurement en fusionnant
+    les deux entrées du registre BS.
+  - **Schwegler & Partner Anwälte und Notare AG** (anwaltspraxis.ch, LU) : fondé en **1997** (explicite),
+    généraliste (Anwalts/Notariats/Mediationstätigkeit). Bureaux Menznau + Sursee.
+  - **Stadelmann Advokatur & Notariat AG** (stadelmann-law.ch, LU) : 6 domaines (Bau/Immobilienrecht,
+    Gesellschafts/Vertragsrecht, Arbeitsrecht, Erbrecht, Notariat, Mediation). Bureaux Luzern/Ruswil/Willisau.
+  - **Brack & Partner AG** (brackpartner.ch, LU) : 8 domaines (Immobilien/Bau/Miete, Wirtschaftsstrafrecht,
+    Vertragsrecht/Wirtschafts/Gesellschaftsrecht, Scheidung/Konkubinat, Notariat, Altersvorsorge,
+    Betreibung/Konkurs, Domizile/Verwaltungsrat).
+  - **Hess Advokatur AG** (hess-advokatur.ch, LU) : 17 domaines (Alter, Arbeit, Bauen, Datenschutz,
+    Familie, Gemeinde, Internet, Immaterialgüterrecht, Kindesvertretung, KMU, Landwirtschaft, Mediation,
+    Miete, Notariat, Strafrecht, Schule, Strassenverkehr). Bureaux Sursee + Luzern.
+  - **Vetsch Rechtsanwälte AG** (vetsch-rechtsanwaelte.ch, LU) : 11 domaines (Notariat, Erbrecht,
+    Familienrecht, Immobilienrecht, Vertragsrecht, Gesellschaftsrecht, Arbeitsrecht, Mietrecht,
+    Schuldbetreibungsrecht, Landwirtschaftsrecht, Strafrecht). Bureaux Luzern + Hochdorf.
+  - **Kanzlei Kornplatz AG** (kornplatz.ch, GR) : 17 domaines (Verwaltungsrecht, Baurecht, Vertragsrecht,
+    Gesellschaftsrecht/M&A, Strafrecht, Datenschutz, Familienrecht, Erbrecht, Arbeitsrecht, Litigation,
+    Notariat, Raumplanung, Immobilienrecht, Sportrecht, Submissionsrecht, Steuerrecht, Mietrecht).
+    Bureaux Chur/Flims/St.Moritz.
+  - **BänzigerPallySchuler KLG** (bps-partner.ch, GR) : 4 domaines (Öffentliches Recht, Strafrecht,
+    Privatrecht, Notariat).
+  - **Gremmelspacher Ruppanner Roth Gass** (advokaturteam.ch, BS) : 17 domaines (Zivilrecht + Öffentliches
+    Recht + Strafrecht : Arbeitsrecht, Familienrecht, Gesellschaftsrecht, Haftpflichtrecht,
+    Immaterialgüterrecht, Mietrecht, Persönlichkeitsrecht, Sachenrecht, SchKG, Vertragsrecht, Life Sciences,
+    Medienrecht, Öff.Personalrecht, Raumplanung, Verwaltungsrecht, Strafverteidigung, Opfervertretung).
+  - **SteuriFisch AG** (steurifisch.ch, SG) : 11 domaines (Erbrecht, Familienrecht, Strafrecht,
+    Gesellschafts/Handelsrecht, Bildungs/Schulrecht, Vertragsrecht, Arbeitsrecht, Mietrecht, Baurecht,
+    Datenschutzrecht, IP-IT-Recht). Bureaux Wil SG/Zürich/Gossau SG.
+  - **Hofmann Gehler Schmidlin & Partner Rechtsanwälte und Notare KLG** (anwaelte-hgs.ch, SG) : 21 domaines
+    (Familienrecht, Kindes/Erwachsenenschutzrecht, Scheidungsrecht, Erbrecht, Sachenrecht,
+    allgemeines Vertragsrecht, Mietrecht, Arbeitsrecht, Werkvertragsrecht, Haftpflichtrecht,
+    Versicherungsrecht, Gesellschaftsrecht, Handelsrecht, Baurecht, öff.Bau/Planungsrecht,
+    Enteignungsrecht, Sozialversicherungsrecht, Strassenverkehrsrecht, Schuldbetreibungsrecht,
+    Verwaltungsrecht, Steuerrecht). Bureaux Rapperswil-Jona + St-Gall.
+- **Échecs (6) :** rudolf-bieri.ch (JS), museum35.ch (JS), indemnis.ch (JS), baeumlin-partner.ch (JS),
+  kuenglaw-sg.ch (accessible mais aucun fait extractible), sglaw.ch (accessible mais aucun fait extractible).
+- **Corrections firm_name (8 entrées _failed) :** staiger.law, quadra.law, advotech.ch, vincenzpartner.ch,
+  mzbs.ch, drsp-law.ch, reichle-stehle.ch, klgp.ch — firm_name et canton ajoutés pour permettre à
+  `is_handled()` de les reconnaître correctement dans les prochains passages.
+- **Années de fondation trouvées ce lot :** 1941 (Troller), 1974 (Kaufmann Rüedi), 1981 (AWG Baud Diehl
+  Stauffer), 1987 (Hofstetter), 1997 (Schwegler & Partner) — 5 nouvelles dates.
+- **Rebuild ciblé :** cantons LU (8 études/58 avocats), BS (1 étude/6 avocats), GR (2 études/12 avocats),
+  SG (2 études/12 avocats) — pages étude + avocat régénérées (~376 pages × 4 langues). Zéro artefact Jinja.
+- **Cache découverte autres cantons :** 140 succès / 32 échecs (total cumulé).
