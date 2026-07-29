@@ -4,17 +4,16 @@ Ce fichier est la mémoire du projet entre deux exécutions automatiques. Il est
 chaque passage (manuel ou planifié). Toute exécution future — humaine ou automatisée — doit
 commencer par le lire.
 
-## Statut actuel (dernière mise à jour : 2026-07-29 — lot 34 — phase de découverte lot 9)
+## Statut actuel (dernière mise à jour : 2026-07-29 — lot 36 — phase de découverte lot 11)
 
 - **486** domaines uniques identifiés à partir des colonnes `site_web` des CSV Genève et Vaud
   (les 18 autres cantons n'ont pas cette colonne — voir "Phase de découverte" plus bas).
 - **370** cabinets avec au moins un fait exploitable dans le cache principal GE/VD (inchangé).
 - **126** domaines testés sans succès dans le cache principal GE/VD (inchangé).
 - **0** domaines GE/VD restants — liste épuisée.
-- **Cache découverte autres cantons :** 140 succès / 32 échecs (lot 34 : +14 succès, +6 échecs).
-- Taux de réussite phase de découverte : **~81%** (140 / 172 entrées).
-- **Prochaine étape :** poursuivre la phase de découverte — cabinets LU/SG/BS/GR/BL/AR/SH de taille
-  intermédiaire (5-8 avocats) pas encore testés.
+- **Cache découverte autres cantons :** 157 succès / 46 échecs (lot 36 : +9 succès, +9 échecs).
+- Taux de réussite phase de découverte : **~77%** (157 / 203 entrées).
+- **Prochaine étape :** poursuivre la phase de découverte ZH (cabinets restants ≥3 avocats pas encore testés).
 
 ## Règles non négociables (méthodologie)
 

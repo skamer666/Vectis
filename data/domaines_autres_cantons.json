@@ -472,7 +472,9 @@
     },
     "lexp.ch": {
       "reason": "site JS rendu, contenu non accessible",
-      "date": "2026-07-29"
+      "date": "2026-07-29",
+      "firm_name": "Lexperience AG",
+      "canton": "ZH"
     },
     "rudolf-bieri.ch": {
       "firm_name": "Rudolf & Bieri AG",
@@ -538,6 +540,60 @@
       "firm_name": "Advokatur & Mediation (Pfander/Alder/Lehmann/Fuchs)",
       "canton": "BS",
       "raison": "mauvais cabinet — ne correspond pas aux membres BS CSV 'Advokatur und Mediation' (Emmel/Jedelhauser/Knecht/Müller/Tibis)",
+      "fetched_date": "2026-07-29"
+    },
+    "bellparklegal.com": {
+      "firm_name": "bellpark legal AG",
+      "canton": "ZH",
+      "reason": "aucun fait extractible (pas de founding_year, team_size ni liste practice_areas)",
+      "fetched_date": "2026-07-29"
+    },
+    "vfs-partner.ch": {
+      "firm_name": "VFS Partner",
+      "canton": "ZH",
+      "reason": "aucun fait extractible — domaines trop génériques (Legal, Tax, Compliance), pas d'année de fondation",
+      "fetched_date": "2026-07-29"
+    },
+    "utolegal.ch": {
+      "firm_name": "Uto Legal",
+      "canton": "ZH",
+      "reason": "aucun fait extractible — description de secteurs clients (Medien, Tech, IT) sans liste de domaines juridiques ni année de fondation",
+      "fetched_date": "2026-07-29"
+    },
+    "lexarte.ch": {
+      "firm_name": "Lexarte AG",
+      "canton": "ZH",
+      "reason": "site JS rendu, page vide",
+      "fetched_date": "2026-07-29"
+    },
+    "kanzleikreis2.ch": {
+      "firm_name": "KANZLEI KREIS 2 AG",
+      "canton": "ZH",
+      "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation",
+      "fetched_date": "2026-07-29"
+    },
+    "fnb-law.ch": {
+      "firm_name": "Frick Nafz Bieri Jost Rechtsanwälte",
+      "canton": "ZH",
+      "reason": "site 'New Website coming soon' — aucun contenu disponible",
+      "fetched_date": "2026-07-29"
+    },
+    "fhs.legal": {
+      "firm_name": "Felchlin Harb Schenkel Rechtsanwälte AG",
+      "canton": "ZH",
+      "reason": "site JS rendu (page vide au fetch)",
+      "fetched_date": "2026-07-29"
+    },
+    "sts-law.ch": {
+      "firm_name": "Schwarzmann Brändli Hofer Rechtsanwälte AG",
+      "canton": "ZH",
+      "reason": "site JS rendu (page vide au fetch)",
+      "fetched_date": "2026-07-29"
+    },
+    "bettonipartner.ch": {
+      "firm_name": "Bettoni & Partner",
+      "canton": "ZH",
+      "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation",
       "fetched_date": "2026-07-29"
     }
   },
@@ -2093,34 +2149,30 @@
   },
   "teichmann-law.ch": {
     "founding_year": null,
-    "team_size_n": null,
-    "team_size_text": null,
-    "practice_areas_fr": [
-      "Droit du travail",
-      "Droit de la famille",
-      "Droit successoral",
-      "Droit des affaires",
-      "Droit pénal",
-      "Droit administratif",
-      "Contentieux",
-      "Arbitrage",
-      "Compliance"
-    ],
+    "practice_areas_fr": [],
     "practice_areas_en": [
-      "Employment law",
-      "Family law",
-      "Inheritance law",
-      "Business law",
-      "Criminal law",
-      "Administrative law",
-      "Litigation",
+      "Labor law",
+      "Compliance and Investigations",
+      "Inheritance",
+      "Family",
+      "Intellectual Property and Data Protection",
+      "Technology",
+      "Litigation and Insolvency",
       "Arbitration",
-      "Compliance"
+      "State and Administration",
+      "Taxes",
+      "Companies and Transactions",
+      "Contracts",
+      "Competition and Media",
+      "Criminal Law",
+      "Commercial Law",
+      "White-Collar Crime"
     ],
-    "source_url": "https://www.teichmann-law.ch/fr/avocat/profil.html",
-    "fetched_date": "2026-07-28",
+    "team_size_n": null,
+    "source_url": "https://www.teichmann-law.ch/en/",
+    "fetched_date": "2026-07-29",
     "firm_name": "Teichmann International (Schweiz) AG",
-    "canton": "SG"
+    "canton": "ZH"
   },
   "bblegal.ch": {
     "founding_year": 1955,
@@ -3743,5 +3795,175 @@
     ],
     "source_url": "https://szlaw.ch/",
     "fetched_date": "2026-07-29"
+  },
+  "valloni.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Sports law",
+      "Litigation",
+      "Arbitration",
+      "Mediation"
+    ],
+    "team_size_n": null,
+    "source_url": "https://valloni.ch/about-us/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "VALLONI Attorneys at Law GmbH",
+    "canton": "ZH"
+  },
+  "advo-net.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Bauvertragsrecht",
+      "Öffentliches Bau- und Planungsrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Schiedsgerichte und Schlichtungsverfahren",
+      "Expertisen und Gutachten"
+    ],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://advo-net.ch/taetigkeitsgebiete/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "Scherler Siegenthaler Schweizer Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "silk-rechtsanwaelte.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "General contract law",
+      "Labor law",
+      "Construction law / Real estate",
+      "Corporate Governance and Compliance",
+      "Financial Services",
+      "Anti-money laundering prevention",
+      "Commercial and corporate law",
+      "International trade and distribution law",
+      "Mediation",
+      "Private insurance law",
+      "Debt collection and bankruptcy law",
+      "Social insurance law",
+      "Property law",
+      "Sanction law",
+      "Foundation and Association Law",
+      "Criminal Law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.silk-rechtsanwaelte.ch/en/firm/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "SILK Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "romeroziegler.ch": {
+    "founding_year": 1999,
+    "practice_areas_fr": [
+      "Mietrecht",
+      "Immobilienrecht",
+      "Privates Baurecht",
+      "Öffentliches Baurecht",
+      "Werkvertragsrecht",
+      "Auftragsrecht",
+      "Kaufrecht",
+      "Erbrecht"
+    ],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://romeroziegler.ch/kanzleiprofil/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "Romero & Ziegler Meier Jucker Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "legis-law.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Vertrags-, Handels- und Gesellschaftsrecht",
+      "Kauf und Verkauf von Unternehmungen",
+      "Arbeitsrecht",
+      "Verantwortlichkeits- und Haftpflichtrecht",
+      "Familienrecht, Erbrecht und Nachfolgeplanungen",
+      "Immobilien- und Baurecht",
+      "Mietrecht",
+      "Insolvenz- und Konkursrecht",
+      "Vereine und Stiftungen",
+      "Prozessführung",
+      "Energierecht",
+      "Vertriebs- und Produkthaftpflichtrecht",
+      "Timesharing-, Hotel- und Reiserecht"
+    ],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://legis-law.ch/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "Legis Rechtsanwälte AG",
+    "canton": "ZH"
+  },
+  "frey-jud.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [
+      "Steuerrecht",
+      "Erbrecht",
+      "Stiftungsrecht",
+      "Gesellschaftsrecht",
+      "Staats- und Gemeinderecht",
+      "Sozialversicherungsrecht",
+      "Mediationen",
+      "Mietrecht",
+      "Strafrecht",
+      "Finanz- und Lohnbuchhaltung"
+    ],
+    "practice_areas_en": [],
+    "team_size_n": null,
+    "source_url": "https://www.frey-jud.ch/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "Frey & Jud Rechtsanwälte",
+    "canton": "ZH"
+  },
+  "davatzlegal.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Inheritance and family law",
+      "Contract and corporate law"
+    ],
+    "team_size_n": null,
+    "source_url": "https://davatzlegal.ch/en",
+    "fetched_date": "2026-07-29",
+    "firm_name": "DAVATZ LEGAL AG",
+    "canton": "ZH"
+  },
+  "charlesrussellspeechlys.com#ZH": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Private Wealth",
+      "Corporate",
+      "Commercial",
+      "Dispute Resolution",
+      "Sport"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.charlesrussellspeechlys.com/en/our-locations/offices/zurich/",
+    "fetched_date": "2026-07-29",
+    "firm_name": "Charles Russell Speechlys AG",
+    "canton": "ZH",
+    "note": "Bureau de Zurich uniquement — cabinet international, focus private wealth management"
+  },
+  "bkp-legal.ch": {
+    "founding_year": null,
+    "practice_areas_fr": [],
+    "practice_areas_en": [
+      "Banking and financial markets law",
+      "Contract law",
+      "Commercial and corporate law",
+      "Civil procedure and debt enforcement",
+      "Labour law",
+      "Inheritance law and estate planning"
+    ],
+    "team_size_n": null,
+    "source_url": "https://www.bkp-legal.ch/en/home",
+    "fetched_date": "2026-07-29",
+    "firm_name": "BÜHLMANN KOENIG & PARTNER AG",
+    "canton": "ZH"
   }
 }
