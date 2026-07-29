@@ -1360,3 +1360,23 @@ régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 
 `data/tessin_import_progress.json` : `last_page_imported` 37 → 47.
 
 **Cumul : 470 avocats sur ~907 (51,8%), page 47/91.**
+
+### 2026-07-29 — Tessin, lot pages 48-57 (tâche planifiée vectis-tessin-scraping)
+
+Pages 48 à 57 du registre cantonal tessinois (www4.ti.ch) récupérées avec succès (10/10 pages,
+aucun échec). 99 nouveaux avocats extraits (noms, adresses, dates d'inscription) selon le format
+pipe-delimité habituel, écrits dans `sources/ti_raw/batch06.txt` (une entrée, MAMELI Gabriella,
+apparaissait en doublon exact à la frontière pages 53/54 — dédupliquée automatiquement par
+`build_ti_csv.py`).
+
+`sources/build_ti_csv.py` relancé sur les 6 lots cumulés (`batch01.txt` à `batch06.txt`) :
+**569 avocats** dans `data/avocats_tessin.csv` (547/569 avec npa/ville identifié, 329/569 avec
+cabinet identifié).
+
+Rebuild ciblé du canton TI (`gen_canton_hub`, `gen_canton_cross`, `gen_canton_etudes`,
+`gen_canton_avocats`) : 9432 fichiers `dist/**/tessin/**/index.html` + `dist/**/ticino/**/index.html`
+régénérés, aucun artefact Jinja (`{{`, `{%`, `Undefined`). Suite de tests : 50/50 au vert.
+
+`data/tessin_import_progress.json` : `last_page_imported` 47 → 57.
+
+**Cumul : 569 avocats sur ~907 (62,7%), page 57/91.**
