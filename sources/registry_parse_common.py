@@ -31,6 +31,10 @@ def parse_address(raw):
     street = remaining[street_idx]
     firm_parts = [p for j, p in enumerate(remaining) if j != street_idx and not re.match(r"(?i)^(postfach|casella postale|cp)\b", p)]
     etude = ", ".join(firm_parts).strip()
+    # "c/o Nom du cabinet" -- convention d'adresse (chez/aux bons soins de),
+    # pas une partie du nom lui-meme : on la retire pour un affichage propre,
+    # sans changer le nom reel du cabinet.
+    etude = re.sub(r"(?i)^c/o\s+", "", etude).strip()
     return etude, street, npa, ville
 
 
