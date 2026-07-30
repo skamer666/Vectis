@@ -180,4 +180,300 @@ BLOG_ARTICLES = {
             ],
         },
     },
+    "heures-supplementaires-salaire-vacances": {
+        "domaine_id": "droit_travail",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "heures-supplementaires-salaire-vacances",
+            "title": "Heures supplémentaires, salaire et vacances en Suisse",
+            "meta": "Rémunération des heures supplémentaires, paiement du salaire, durée minimale des vacances : ce que prévoit le Code des obligations.",
+            "sections": [
+                {"heading": "Les heures supplémentaires", "paragraphs": [
+                    "L'art. 321c CO oblige le travailleur à exécuter des heures supplémentaires dans la mesure où il peut s'en charger et où les règles de la bonne foi permettent de les exiger de lui. Ces heures supplémentaires, qui dépassent l'horaire convenu ou usuel, se distinguent du « travail supplémentaire » au sens de la loi sur le travail, qui vise le dépassement de la durée maximale légale de la semaine de travail et obéit à des règles propres.",
+                    "Sauf accord écrit contraire, l'employeur compense les heures supplémentaires par un congé de même durée, avec l'accord du travailleur et dans un délai approprié. À défaut de compensation, il doit les payer avec une majoration de salaire d'au moins 25 % (art. 321c al. 3 CO). Un contrat écrit, un contrat-type de travail ou une convention collective peuvent prévoir une autre solution, y compris l'exclusion de toute majoration pour certaines catégories de personnel.",
+                ]},
+                {"heading": "Le paiement du salaire", "paragraphs": [
+                    "Le salaire est dû dès que le travail convenu a été fourni ; sauf convention ou usage contraire, il est versé à la fin de chaque mois (art. 323 al. 1 CO). L'employeur ne peut pas retenir le salaire à titre de garantie, sauf disposition contraire d'une convention collective, et toute compensation avec une créance envers le travailleur est strictement limitée par la loi lorsque cela toucherait au minimum vital.",
+                ]},
+                {"heading": "La durée minimale des vacances", "paragraphs": [
+                    "L'art. 329a CO garantit au moins quatre semaines de vacances par année de service, et cinq semaines jusqu'à l'âge de 20 ans révolus. Ce minimum est impératif : un contrat ne peut pas prévoir moins, même avec l'accord du travailleur.",
+                    "Les vacances ne peuvent pas être remplacées par une prestation en argent tant que les rapports de travail durent (art. 329d al. 2 CO). Une exception existe pour le travail sur appel ou à temps partiel très irrégulier, où une indemnité de vacances peut être intégrée au salaire horaire, à condition d'être clairement mentionnée à part sur chaque décompte de salaire.",
+                    "L'employeur fixe la date des vacances en tenant compte des désirs du travailleur dans la mesure compatible avec les intérêts de l'entreprise (art. 329c al. 2 CO), et doit les annoncer suffisamment à l'avance pour permettre au travailleur de s'organiser.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Mon employeur peut-il m'imposer des heures supplémentaires ?",
+                 "a": "Dans une certaine mesure : l'art. 321c CO oblige le travailleur à en effectuer si cela peut raisonnablement être exigé de lui selon les règles de la bonne foi. Il ne s'agit pas d'une obligation illimitée ; la charge de travail habituelle, la santé et la vie privée du travailleur entrent en ligne de compte."},
+                {"q": "Puis-je me faire payer mes vacances non prises au lieu de les prendre ?",
+                 "a": "Non, pas tant que le contrat de travail se poursuit : l'art. 329d al. 2 CO interdit de remplacer les vacances par une prestation en argent. Ce n'est qu'à la fin des rapports de travail, si des vacances n'ont pas pu être prises, qu'elles sont indemnisées en argent."},
+                {"q": "Comment sont rémunérées les heures supplémentaires ?",
+                 "a": "Par un congé de même durée en priorité, ou par un paiement avec une majoration d'au moins 25 % si aucune compensation n'est convenue, sauf accord écrit contraire (art. 321c al. 3 CO)."},
+                {"q": "Mon employeur peut-il m'imposer les dates de mes vacances ?",
+                 "a": "Oui, c'est en principe à lui de les fixer, mais il doit tenir compte de vos souhaits dans la mesure compatible avec le fonctionnement de l'entreprise (art. 329c al. 2 CO) et vous les annoncer suffisamment à l'avance."},
+            ],
+        },
+    },
+    "autorite-parentale-garde-enfants": {
+        "domaine_id": "droit_famille",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "autorite-parentale-garde-enfants-separation",
+            "title": "Autorité parentale et garde des enfants après une séparation",
+            "meta": "Autorité parentale conjointe, garde exclusive ou alternée, droit aux relations personnelles : les règles du Code civil suisse après une séparation.",
+            "sections": [
+                {"heading": "L'autorité parentale conjointe, la règle depuis 2014", "paragraphs": [
+                    "Depuis la révision du droit de l'autorité parentale entrée en vigueur en 2014, l'autorité parentale conjointe est le principe : le père et la mère exercent en commun l'autorité parentale, qu'ils soient mariés, séparés ou jamais mariés (art. 296 al. 2 CC). Une attribution exclusive à un seul parent reste possible, mais seulement si le bien de l'enfant l'exige.",
+                    "L'autorité parentale porte sur les décisions importantes concernant l'enfant : lieu de vie, formation, questions médicales significatives, religion. Elle ne se confond pas avec la garde, qui concerne l'organisation concrète du quotidien.",
+                ]},
+                {"heading": "Garde exclusive ou garde alternée", "paragraphs": [
+                    "La garde peut être confiée à un seul parent, avec un droit de visite pour l'autre, ou organisée en garde alternée entre les deux domiciles. Le tribunal ou l'autorité de protection de l'enfant tranche selon le bien de l'enfant, en tenant compte de la stabilité, de la disponibilité de chaque parent, de leur capacité à collaborer et, selon son âge, de l'avis de l'enfant lui-même.",
+                ]},
+                {"heading": "Le droit aux relations personnelles", "paragraphs": [
+                    "Le parent qui n'a pas la garde a droit à des relations personnelles appropriées avec l'enfant (art. 273 CC), un droit qui appartient aussi à l'enfant lui-même, pas seulement au parent. Ce droit peut être limité ou suspendu par l'autorité si l'exercice des relations personnelles compromet le développement de l'enfant.",
+                ]},
+                {"heading": "Le déménagement avec l'enfant", "paragraphs": [
+                    "En cas d'autorité parentale conjointe, le parent qui souhaite déménager avec l'enfant doit obtenir l'accord de l'autre parent, ou une décision du juge ou de l'autorité de protection de l'enfant, si le déménagement a un impact significatif sur l'exercice de l'autorité parentale ou sur les relations personnelles (art. 301a CC).",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'autorité parentale conjointe signifie-t-elle une garde partagée à parts égales ?",
+                 "a": "Non. L'autorité parentale conjointe porte sur le droit de codécision pour les questions importantes ; elle n'implique pas automatiquement une garde alternée. La garde peut rester exclusive à un parent même quand l'autorité parentale est conjointe."},
+                {"q": "Puis-je déménager avec mon enfant sans l'accord de l'autre parent ?",
+                 "a": "Si le déménagement a un impact significatif sur l'exercice de l'autorité parentale conjointe ou sur les relations personnelles, l'art. 301a CC exige l'accord de l'autre parent titulaire de l'autorité parentale, ou à défaut une décision du juge ou de l'autorité de protection de l'enfant."},
+                {"q": "Que se passe-t-il si les parents ne s'entendent pas sur une question importante ?",
+                 "a": "En l'absence d'accord, l'un des parents peut saisir l'autorité de protection de l'enfant, qui peut prendre les mesures nécessaires dans l'intérêt de l'enfant, y compris limiter l'autorité parentale conjointe si le désaccord persistant nuit à l'enfant."},
+                {"q": "L'enfant peut-il donner son avis sur la garde ?",
+                 "a": "Oui, l'enfant capable de discernement est entendu personnellement, en principe par le juge ou par une personne qu'il délègue, et son avis est pris en compte en fonction de son âge et de sa maturité."},
+            ],
+        },
+    },
+    "pension-alimentaire-calcul": {
+        "domaine_id": "droit_famille",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "pension-alimentaire-calcul-suisse",
+            "title": "Pension alimentaire : comment elle est calculée en Suisse",
+            "meta": "Contribution d'entretien de l'enfant, contribution de prise en charge, méthode de calcul du Tribunal fédéral : les bases légales de la pension alimentaire.",
+            "sections": [
+                {"heading": "L'obligation d'entretien des parents", "paragraphs": [
+                    "L'art. 276 CC pose le principe : le père et la mère doivent pourvoir à l'entretien de l'enfant, notamment en argent, en nature ou en soins, proportionnellement à leurs ressources. Cette obligation existe indépendamment de l'état civil des parents et se poursuit après une séparation ou un divorce.",
+                ]},
+                {"heading": "Ce que couvre la contribution d'entretien", "paragraphs": [
+                    "La contribution d'entretien de l'enfant (art. 285 CC) couvre les frais directs liés à son entretien et à son éducation : nourriture, logement, santé, formation. Depuis 2017, elle peut aussi inclure une contribution de prise en charge (art. 285 al. 2 CC), destinée à couvrir les frais de subsistance du parent qui s'occupe personnellement de l'enfant lorsque celui-ci ne peut, de ce fait, exercer une activité lucrative à plein temps.",
+                ]},
+                {"heading": "La méthode de calcul", "paragraphs": [
+                    "Le Tribunal fédéral a uniformisé en 2020 la méthode de calcul des contributions d'entretien à l'échelle du pays : une méthode en deux étapes qui détermine d'abord le minimum vital du droit des poursuites de chaque partie, puis répartit l'excédent disponible entre les membres de la famille selon des règles précises. Cette méthode remplace les approches cantonales auparavant divergentes et vise une plus grande prévisibilité.",
+                ]},
+                {"heading": "Révision et non-paiement", "paragraphs": [
+                    "Une contribution d'entretien fixée par jugement ou convention peut être révisée si la situation financière ou personnelle de l'une des parties change de manière importante et durable. En cas de non-paiement, le parent créancier peut demander l'aide au recouvrement auprès du service cantonal compétent, et engager une poursuite pour dettes.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Jusqu'à quel âge la pension alimentaire est-elle due ?",
+                 "a": "En principe jusqu'à la majorité de l'enfant, et au-delà si l'enfant n'a pas encore de formation appropriée achevée à ce moment-là, dans les limites de ce qui peut raisonnablement être exigé des parents (art. 277 CC)."},
+                {"q": "La pension alimentaire peut-elle être révisée ?",
+                 "a": "Oui, si la situation financière ou personnelle de l'un des parents ou de l'enfant change de manière importante et durable, l'un ou l'autre parent peut demander au tribunal d'adapter le montant fixé."},
+                {"q": "Que faire si l'autre parent ne paie pas la pension ?",
+                 "a": "Vous pouvez demander l'aide au recouvrement auprès du service cantonal compétent, qui peut intervenir auprès du débiteur, et engager une poursuite pour dettes en cas d'échec des démarches amiables."},
+                {"q": "Qu'est-ce que la contribution de prise en charge ?",
+                 "a": "Introduite en 2017, elle couvre les frais de subsistance du parent qui s'occupe personnellement de l'enfant lorsque cette prise en charge l'empêche de travailler à plein temps (art. 285 al. 2 CC), en plus des frais directs de l'enfant."},
+            ],
+        },
+    },
+    "divorce-procedure-delais": {
+        "domaine_id": "droit_divorce",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "divorce-suisse-procedure-delais",
+            "title": "Divorce en Suisse : procédure et délais",
+            "meta": "Divorce sur requête commune, divorce après deux ans de séparation, divorce pour rupture du lien conjugal : les voies prévues par le Code civil.",
+            "sections": [
+                {"heading": "Le divorce sur requête commune", "paragraphs": [
+                    "Lorsque les deux époux sont d'accord de divorcer, ils peuvent déposer une requête commune (art. 111-112 CC). Si l'accord porte aussi sur les effets du divorce (entretien, biens, prévoyance, enfants), la procédure est simplifiée. À défaut d'accord complet, chaque époux peut faire valoir ses conclusions sur les points litigieux, et le tribunal statue sur ces points tout en prononçant le divorce.",
+                ]},
+                {"heading": "Le divorce après suspension de la vie commune", "paragraphs": [
+                    "Si un seul des époux souhaite divorcer, l'art. 114 CC lui permet de demander le divorce après une séparation de deux ans. Ce délai court dès la cessation de la vie commune, qu'elle résulte d'un départ physique ou d'une séparation au sein du même logement dans certaines circonstances reconnues par la jurisprudence.",
+                ]},
+                {"heading": "Le divorce pour rupture du lien conjugal", "paragraphs": [
+                    "À titre exceptionnel, l'art. 115 CC permet de demander le divorce avant l'écoulement du délai de deux ans, si la continuation du mariage est insupportable pour des motifs sérieux qui ne sont pas imputables au demandeur, par exemple des violences conjugales graves.",
+                ]},
+                {"heading": "Le déroulement de la procédure", "paragraphs": [
+                    "La procédure se déroule devant le tribunal civil du domicile de l'un des époux. Elle règle, en même temps que le prononcé du divorce, les effets accessoires : entretien entre époux, partage des biens, partage de la prévoyance professionnelle, et le sort des enfants (autorité parentale, garde, contribution d'entretien).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Peut-on divorcer sans l'accord de son conjoint ?",
+                 "a": "Oui, après une séparation de deux ans (art. 114 CC), un époux peut demander le divorce même sans l'accord de l'autre. Avant ce délai, ce n'est possible qu'à titre exceptionnel pour rupture du lien conjugal (art. 115 CC)."},
+                {"q": "Faut-il obligatoirement passer par un avocat pour divorcer ?",
+                 "a": "Non, la représentation par un avocat n'est pas obligatoire en matière civile en Suisse. Elle est toutefois vivement recommandée dès que des questions patrimoniales ou parentales complexes sont en jeu."},
+                {"q": "Combien de temps dure une procédure de divorce en Suisse ?",
+                 "a": "Cela dépend fortement du degré d'accord entre les époux et de la charge du tribunal saisi : un divorce sur requête commune avec accord complet peut aboutir en quelques mois, tandis qu'une procédure contentieuse peut durer plusieurs années."},
+                {"q": "Qu'est-ce que le divorce par consentement mutuel ?",
+                 "a": "C'est le nom courant du divorce sur requête commune avec accord complet sur les effets du divorce (art. 111 CC) : les époux soumettent au tribunal une convention réglant tous les points, que le tribunal ratifie s'il la juge conforme au bien des parties et des enfants."},
+            ],
+        },
+    },
+    "partage-deuxieme-pilier-divorce": {
+        "domaine_id": "droit_divorce",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "partage-2e-pilier-divorce",
+            "title": "Partage du 2e pilier en cas de divorce",
+            "meta": "Partage par moitié de la prévoyance professionnelle, cas particuliers, dérogations possibles : ce que prévoit le Code civil en cas de divorce.",
+            "sections": [
+                {"heading": "Le principe du partage par moitié", "paragraphs": [
+                    "Les avoirs de prévoyance professionnelle (2e pilier) accumulés par les deux époux pendant le mariage, jusqu'à l'introduction de la procédure de divorce, sont en principe partagés par moitié entre eux (art. 122 CC). Ce partage vise à compenser le désavantage de prévoyance que subit souvent l'époux qui a réduit ou cessé son activité lucrative pour se consacrer au ménage ou aux enfants.",
+                ]},
+                {"heading": "Quand l'un des époux est déjà retraité ou invalide", "paragraphs": [
+                    "Si l'un des époux touche déjà une rente de vieillesse ou une rente d'invalidité au moment du divorce, un partage classique de l'avoir de prévoyance n'est plus possible : la loi prévoit alors un partage de la rente elle-même, sous forme d'une rente viagère versée à l'époux créancier (art. 124a CC).",
+                ]},
+                {"heading": "Les dérogations au partage par moitié", "paragraphs": [
+                    "Le tribunal peut s'écarter du partage par moitié pour de justes motifs, notamment si ce partage est manifestement inéquitable au regard des besoins de prévoyance respectifs des époux, par exemple en raison d'une grande différence d'âge ou de la liquidation du régime matrimonial (art. 124b CC).",
+                ]},
+                {"heading": "L'exécution du partage", "paragraphs": [
+                    "Le tribunal transmet le dossier aux institutions de prévoyance concernées, qui procèdent au transfert des montants. Si l'un des époux n'est affilié à aucune institution de prévoyance ou si le transfert n'est pas possible directement, la Fondation institution supplétive LPP intervient pour recevoir et gérer les montants transférés.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le partage du 2e pilier est-il automatique en cas de divorce ?",
+                 "a": "Oui, sauf accord contraire des époux validé par le tribunal ou situation particulière (retraite, invalidité) : le partage par moitié de l'avoir accumulé pendant le mariage est le principe légal (art. 122 CC)."},
+                {"q": "Que se passe-t-il si l'un des époux est déjà à la retraite ?",
+                 "a": "Un partage classique de l'avoir n'est plus possible ; la loi prévoit alors un partage de la rente de vieillesse ou d'invalidité elle-même, versée à l'époux créancier sous forme de rente viagère (art. 124a CC)."},
+                {"q": "Peut-on renoncer au partage du 2e pilier ?",
+                 "a": "Les époux peuvent convenir d'un partage différent ou y renoncer partiellement dans une convention sur les effets du divorce, à condition qu'une prévoyance vieillesse et invalidité adéquate reste assurée pour chacun, ce que le tribunal vérifie avant d'homologuer la convention."},
+                {"q": "Le 3e pilier est-il aussi partagé en cas de divorce ?",
+                 "a": "Le 3e pilier lié (3a) et le 3e pilier libre (3b) ne relèvent pas du partage de la prévoyance professionnelle de l'art. 122 CC ; ils sont en principe traités dans le cadre de la liquidation du régime matrimonial, selon le régime matrimonial applicable."},
+            ],
+        },
+    },
+    "casier-judiciaire-suisse": {
+        "domaine_id": "droit_penal",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "casier-judiciaire-suisse-inscription-radiation",
+            "title": "Casier judiciaire suisse : inscription et radiation",
+            "meta": "Ce qui figure au casier judiciaire, la différence entre extrait pour particuliers et extrait pour autorités, et comment les inscriptions sont radiées.",
+            "sections": [
+                {"heading": "Ce qui figure au casier judiciaire", "paragraphs": [
+                    "Le casier judiciaire suisse, géré au niveau fédéral dans le système d'information VOSTRA, recense les jugements pénaux prononcés contre une personne : peines privatives de liberté, peines pécuniaires, travail d'intérêt général, ainsi que certaines décisions d'autorités administratives compétentes en matière pénale.",
+                ]},
+                {"heading": "Deux types d'extraits", "paragraphs": [
+                    "L'extrait destiné à un particulier, que chacun peut demander pour lui-même, est plus limité que l'extrait complet réservé aux autorités de poursuite pénale et à certaines autorités administratives habilitées par la loi. Un employeur ne peut donc pas exiger de consulter directement le casier judiciaire : il peut seulement demander au candidat ou à l'employé de produire lui-même son extrait pour particuliers.",
+                ]},
+                {"heading": "La radiation des inscriptions", "paragraphs": [
+                    "Les inscriptions ne restent pas indéfiniment au casier judiciaire : la loi prévoit des délais de radiation qui dépendent de la gravité de la peine prononcée, les sanctions les plus légères étant radiées plus rapidement que les peines privatives de liberté de longue durée. Une fois radiée, une inscription n'apparaît plus, y compris sur l'extrait destiné aux autorités, sauf exceptions prévues par la loi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Comment obtenir un extrait de son casier judiciaire ?",
+                 "a": "La demande se fait en ligne auprès de l'Office fédéral de la justice, moyennant une pièce d'identité et le paiement d'un émolument. L'extrait est envoyé par courrier à l'adresse de domicile enregistrée."},
+                {"q": "Un employeur peut-il consulter mon casier judiciaire sans mon accord ?",
+                 "a": "Non. Seules les autorités habilitées par la loi ont un accès direct au système VOSTRA. Un employeur ne peut que demander au candidat de lui remettre lui-même son extrait pour particuliers."},
+                {"q": "Toutes les condamnations pénales apparaissent-elles sur l'extrait pour particuliers ?",
+                 "a": "Non, cet extrait est plus restreint que celui destiné aux autorités : certaines inscriptions, notamment les sanctions les plus légères ou anciennes, n'y figurent pas ou plus, selon les règles fixées par la loi sur le casier judiciaire."},
+                {"q": "Combien de temps une condamnation reste-t-elle inscrite ?",
+                 "a": "La durée dépend de la gravité de la peine prononcée : plus la sanction est lourde, plus le délai avant radiation est long. Pour connaître le délai applicable à une situation précise, il faut se référer à la loi fédérale sur le casier judiciaire ou consulter un avocat."},
+            ],
+        },
+    },
+    "ordonnance-penale-opposition": {
+        "domaine_id": "droit_penal",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "ordonnance-penale-que-faire-opposition",
+            "title": "Ordonnance pénale : que faire si vous en recevez une",
+            "meta": "Délai d'opposition, motivation, conséquences de l'absence d'opposition : ce qu'il faut savoir sur l'ordonnance pénale selon le Code de procédure pénale.",
+            "sections": [
+                {"heading": "Qu'est-ce qu'une ordonnance pénale", "paragraphs": [
+                    "L'ordonnance pénale (art. 352 CPP) est une décision rendue par le ministère public sans débats devant un tribunal, pour des infractions de gravité limitée. Elle suppose que le prévenu ait été entendu ou ait eu l'occasion de s'exprimer, que les faits soient établis, et que la sanction n'excède pas les limites fixées par la loi (notamment une peine privative de liberté de six mois au plus, combinée le cas échéant avec une peine pécuniaire ou une amende).",
+                ]},
+                {"heading": "Faire opposition", "paragraphs": [
+                    "Le prévenu, ou toute autre personne directement touchée par l'ordonnance, peut y faire opposition par écrit dans les dix jours auprès du ministère public qui l'a rendue (art. 354 CPP). L'opposition doit en principe être motivée, sauf si elle porte uniquement sur la quotité de la peine, auquel cas une simple déclaration suffit.",
+                ]},
+                {"heading": "Les suites d'une opposition valable", "paragraphs": [
+                    "Si l'opposition est recevable, le ministère public administre les preuves nécessaires pour statuer sur elle. Il peut ensuite maintenir l'ordonnance pénale, classer la procédure, rendre une nouvelle ordonnance pénale, ou porter l'accusation devant le tribunal de première instance si le désaccord persiste (art. 355-356 CPP).",
+                ]},
+                {"heading": "Ce qui se passe en l'absence d'opposition", "paragraphs": [
+                    "Si aucune opposition n'est formée dans le délai de dix jours, l'ordonnance pénale devient un jugement entré en force, avec les mêmes effets qu'une condamnation pénale prononcée par un tribunal, y compris son inscription au casier judiciaire le cas échéant.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je faire opposition à une ordonnance pénale ?",
+                 "a": "Dans les dix jours suivant sa notification, par écrit, auprès du ministère public qui l'a rendue (art. 354 CPP)."},
+                {"q": "Que se passe-t-il si je ne fais pas opposition ?",
+                 "a": "L'ordonnance pénale devient un jugement définitif et exécutoire, avec les mêmes effets qu'une condamnation prononcée par un tribunal, y compris l'inscription au casier judiciaire si la sanction le prévoit."},
+                {"q": "L'opposition doit-elle être motivée ?",
+                 "a": "En principe oui, sauf si elle porte uniquement sur la quotité de la peine (le montant ou la durée de la sanction), auquel cas une opposition non motivée suffit selon l'art. 354 CPP."},
+                {"q": "Une ordonnance pénale figure-t-elle au casier judiciaire ?",
+                 "a": "Si elle entre en force et que la sanction prononcée relève des cas soumis à inscription selon la loi sur le casier judiciaire, oui : une ordonnance pénale a les mêmes effets qu'un jugement pénal ordinaire."},
+            ],
+        },
+    },
+    "resiliation-bail-delais-contestation": {
+        "domaine_id": "droit_bail",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "resiliation-bail-delais-formulaire-contestation",
+            "title": "Résiliation du bail : délais et contestation",
+            "meta": "Formulaire officiel, délais de préavis, congé abusif et délai de contestation : les règles du Code des obligations sur la résiliation du bail.",
+            "sections": [
+                {"heading": "La forme de la résiliation", "paragraphs": [
+                    "La résiliation d'un bail portant sur des locaux d'habitation ou commerciaux doit se faire par écrit et, du côté du bailleur, au moyen d'une formule officielle agréée par le canton (art. 266l CO). Une résiliation qui ne respecte pas cette forme est nulle et sans effet.",
+                ]},
+                {"heading": "Les délais et termes", "paragraphs": [
+                    "Sauf accord contraire, un bail d'habitation peut être résilié moyennant un préavis d'au moins trois mois pour le prochain terme fixé par l'usage local (art. 266c CO). Les délais et termes applicables aux baux commerciaux ou mobiliers sont différents et fixés par les art. 266a-266e CO.",
+                    "Le locataire peut aussi résilier le bail de façon anticipée, avant l'échéance contractuelle, s'il présente un locataire de remplacement solvable et prêt à reprendre le bail aux mêmes conditions (art. 264 CO).",
+                ]},
+                {"heading": "Le congé abusif", "paragraphs": [
+                    "Un congé peut être annulé s'il contrevient aux règles de la bonne foi (art. 271-271a CO), notamment lorsqu'il est donné parce que le locataire a fait valoir de bonne foi des prétentions découlant du bail, pendant une procédure de conciliation ou judiciaire relative au bail, ou dans les trois ans suivant la fin d'une telle procédure si le bailleur a obtenu gain de cause pour l'essentiel, sauf exceptions prévues par la loi.",
+                ]},
+                {"heading": "Contester un congé", "paragraphs": [
+                    "Le locataire qui estime son congé abusif doit saisir l'autorité de conciliation dans les 30 jours suivant sa réception (art. 273 CO). Passé ce délai, le congé ne peut plus être contesté sur ce motif.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Mon bailleur doit-il justifier la résiliation de mon bail ?",
+                 "a": "Non, la loi n'exige pas de motif pour une résiliation ordinaire. Le congé peut toutefois être annulé s'il est donné dans des circonstances contraires à la bonne foi visées par l'art. 271-271a CO."},
+                {"q": "Que faire si je reçois un congé sans le formulaire officiel ?",
+                 "a": "Un congé donné par le bailleur sans la formule officielle agréée par le canton est nul (art. 266l CO) : il est réputé n'avoir jamais été donné, sans qu'il soit même nécessaire de le contester devant l'autorité de conciliation."},
+                {"q": "Puis-je résilier mon bail avant l'échéance contractuelle ?",
+                 "a": "Oui, à condition de présenter un locataire de remplacement solvable, prêt à reprendre le bail aux mêmes conditions et acceptable pour le bailleur (art. 264 CO)."},
+                {"q": "Dans quel délai dois-je contester un congé que je trouve abusif ?",
+                 "a": "Dans les 30 jours suivant la réception du congé, en saisissant l'autorité de conciliation compétente (art. 273 CO)."},
+            ],
+        },
+    },
+    "contester-augmentation-loyer": {
+        "domaine_id": "droit_bail",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "contester-augmentation-loyer-suisse",
+            "title": "Contester une augmentation de loyer",
+            "meta": "Formulaire officiel, motifs de hausse admis, délai de contestation : comment contester une augmentation de loyer selon le Code des obligations.",
+            "sections": [
+                {"heading": "Le principe du loyer abusif", "paragraphs": [
+                    "L'art. 269 CO pose le principe : les loyers sont abusifs lorsqu'ils permettent au bailleur d'obtenir un rendement excessif de la chose louée, ou résultent d'un prix d'achat manifestement exagéré. C'est sur cette base que le locataire peut contester une hausse de loyer.",
+                ]},
+                {"heading": "La forme de l'avis de majoration", "paragraphs": [
+                    "Toute majoration de loyer doit être notifiée au moyen d'une formule officielle agréée par le canton, indiquant les motifs de la hausse (art. 269d CO), au moins dix jours avant le début du délai de résiliation et pour le prochain terme de résiliation possible. Un avis qui ne respecte pas cette forme est nul.",
+                ]},
+                {"heading": "Les motifs usuels de hausse", "paragraphs": [
+                    "Les hausses de loyer sont le plus souvent justifiées par l'adaptation au taux hypothécaire de référence, la hausse des charges ou des coûts d'entretien, des prestations supplémentaires fournies par le bailleur, ou, pour les baux indexés, l'évolution de l'indice suisse des prix à la consommation. Une hausse peut aussi être justifiée par l'adaptation aux loyers usuels du quartier.",
+                ]},
+                {"heading": "Contester la hausse", "paragraphs": [
+                    "Le locataire qui estime la hausse injustifiée peut saisir l'autorité de conciliation dans les 30 jours suivant la réception de l'avis de majoration (art. 270b CO). C'est en principe au bailleur de démontrer que la hausse repose sur l'un des motifs reconnus par la loi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Mon bailleur peut-il augmenter mon loyer comme il le souhaite ?",
+                 "a": "Non, toute majoration doit reposer sur un motif reconnu par la loi (adaptation au taux de référence, hausse des charges, prestations supplémentaires, etc.) et être notifiée dans les formes légales."},
+                {"q": "Quel document dois-je recevoir en cas de hausse de loyer ?",
+                 "a": "La formule officielle agréée par le canton, indiquant le nouveau loyer et les motifs de la hausse (art. 269d CO). Sans ce document, la hausse est nulle."},
+                {"q": "Dans quel délai puis-je contester une augmentation de loyer ?",
+                 "a": "Dans les 30 jours suivant la réception de l'avis de majoration, en saisissant l'autorité de conciliation compétente (art. 270b CO)."},
+                {"q": "Une baisse du taux hypothécaire de référence me donne-t-elle droit à une baisse de loyer ?",
+                 "a": "Si votre loyer avait été fixé ou augmenté en tenant compte d'un taux hypothécaire de référence plus élevé, une baisse de ce taux peut justifier une demande de baisse de loyer auprès du bailleur, éventuellement portée devant l'autorité de conciliation en cas de refus."},
+            ],
+        },
+    },
 }

@@ -1,4 +1,4 @@
-# Blog juridique — journal de bord et liste des 50 sujets
+# Blog juridique | journal de bord et liste des 50 sujets
 
 Ce fichier est la mémoire du chantier "blog" entre deux sessions/lots de rédaction.
 À lire avant de reprendre la rédaction : contient la liste des 50 sujets validés
@@ -10,14 +10,14 @@ qui encadrent ce chantier.
 - Section intégrée au site (`/blog/`), pas des documents livrés à part.
 - 4 langues (FR/DE/IT/EN), mais rédaction en français d'abord, par lots de 10,
   traduction dans un second temps (voir tâche "Traduire les 50 articles").
-- Liste des 50 sujets validée telle quelle par Greg avant rédaction complète —
+- Liste des 50 sujets validée telle quelle par Greg avant rédaction complète,
   ne pas la modifier sans repasser par lui.
 - Même principe de non-fabrication que les guides existants : sources légales
   citées explicitement (CO, CC, CP, CPC, CPP, LCR, LP, LEI, LDIP, LAT, etc.),
   aucun chiffre inventé, contenu informatif général (pas un conseil juridique
   individualisé).
 - 2 articles par domaine de droit, sur les 25 domaines déjà référencés par le
-  site (`i18n.DOMAINES`) — assure un maillage naturel avec les hubs domaines.
+  site (`i18n.DOMAINES`), ce qui assure un maillage naturel avec les hubs domaines.
 - Format cible : 800-1200 mots par article, FAQ courte en fin d'article avec
   schema markup FAQPage (même mécanisme que les guides).
 
@@ -28,15 +28,15 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | # | Domaine | Titre (FR) | Base légale | Statut |
 |---|---|---|---|---|
 | 1 | Droit du travail | Licenciement en Suisse : délais de préavis et protection contre le congé abusif | CO art. 335-337c | ✅ `licenciement-delais-conge-abusif` |
-| 2 | Droit du travail | Heures supplémentaires, salaire et vacances : vos droits selon le CO | CO art. 321c, 329a | ⬜ |
-| 3 | Droit de la famille | Autorité parentale et garde des enfants après une séparation | CC art. 296-301a | ⬜ |
-| 4 | Droit de la famille | Pension alimentaire : comment elle est calculée en Suisse | CC art. 285 | ⬜ |
-| 5 | Droit du divorce | Divorce en Suisse : procédure, délais et divorce par consentement mutuel | CC art. 111-114 | ⬜ |
-| 6 | Droit du divorce | Partage du 2e pilier en cas de divorce | CC art. 122-124 | ⬜ |
-| 7 | Droit pénal | Casier judiciaire suisse : inscription, consultation et radiation | Loi sur le casier judiciaire (VOSTRA) | ⬜ |
-| 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | ⬜ |
-| 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | ⬜ |
-| 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | ⬜ |
+| 2 | Droit du travail | Heures supplémentaires, salaire et vacances : vos droits selon le CO | CO art. 321c, 329a | 🟡 `heures-supplementaires-salaire-vacances` |
+| 3 | Droit de la famille | Autorité parentale et garde des enfants après une séparation | CC art. 296-301a | 🟡 `autorite-parentale-garde-enfants` |
+| 4 | Droit de la famille | Pension alimentaire : comment elle est calculée en Suisse | CC art. 285 | 🟡 `pension-alimentaire-calcul` |
+| 5 | Droit du divorce | Divorce en Suisse : procédure, délais et divorce par consentement mutuel | CC art. 111-114 | 🟡 `divorce-procedure-delais` |
+| 6 | Droit du divorce | Partage du 2e pilier en cas de divorce | CC art. 122-124 | 🟡 `partage-deuxieme-pilier-divorce` |
+| 7 | Droit pénal | Casier judiciaire suisse : inscription, consultation et radiation | Loi sur le casier judiciaire (VOSTRA) | 🟡 `casier-judiciaire-suisse` |
+| 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | 🟡 `ordonnance-penale-opposition` |
+| 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | 🟡 `resiliation-bail-delais-contestation` |
+| 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | 🟡 `contester-augmentation-loyer` |
 | 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | ⬜ |
 | 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | ⬜ |
 | 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | ⬜ |
@@ -74,20 +74,20 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 45 | Procédure pénale | Être entendu comme prévenu : vos droits pendant l'audition | CPP art. 157-158 | ⬜ |
 | 46 | Procédure pénale | Plainte pénale : délais et différence avec la dénonciation | CP art. 30-33 | ⬜ |
 | 47 | Médiation | Médiation familiale : quand et pourquoi y recourir | CPC art. 214-218 | ⬜ |
-| 48 | Médiation | Médiation commerciale : alternative au procès pour les entreprises | — | ⬜ |
+| 48 | Médiation | Médiation commerciale : alternative au procès pour les entreprises | n/a | ⬜ |
 | 49 | Aménagement du territoire | Permis de construire : procédure et opposition des voisins | LAT / droit cantonal | ⬜ |
 | 50 | Aménagement du territoire | Zone à bâtir et hors zone à bâtir : ce que ça change pour un terrain | LAT | ⬜ |
 
 ## Journal des sessions
 
-### 2026-07-30 — Lancement : architecture + article pilote
+### 2026-07-30 | Lancement : architecture + article pilote
 
 - Architecture blog créée : `blog_content.py`, `gen_blog()` dans `build.py`,
   templates `blog_index.html`/`blog_article.html`, segment URL "blog" et
   chaînes UI (`blog_title`, `blog_intro`, `all_blog_articles`) ajoutés dans
   `i18n.py`.
 - `gen_blog()` tolère les articles partiellement traduits (seules les langues
-  présentes dans `BLOG_ARTICLES[id]` sont générées) — permet une mise en ligne
+  présentes dans `BLOG_ARTICLES[id]` sont générées), ce qui permet une mise en ligne
   progressive par lots sans bloquer sur la traduction.
 - 1 article pilote rédigé et vérifié dans les 4 langues : "Licenciement en
   Suisse" (droit du travail, CO art. 335-337c). Choisi comme pilote pour
@@ -99,3 +99,22 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
   (signal réel présent dès le premier article), schema FAQPage présent.
 - **Reste à faire** : rédiger les 49 sujets restants en français (par lots de
   10, voir tâche dédiée), puis traduire l'ensemble en DE/IT/EN.
+
+### 2026-07-30 | Lot 1 complet : articles 2 à 10 (FR)
+
+- 9 articles rédigés en français et intégrés à `blog_content.py` : heures
+  supplémentaires/salaire/vacances (CO art. 321c, 329a), autorité parentale
+  et garde (CC art. 296-301a), pension alimentaire (CC art. 285), procédure
+  de divorce (CC art. 111-115), partage du 2e pilier (CC art. 122-124b),
+  casier judiciaire (loi VOSTRA), ordonnance pénale (CPP art. 352-356),
+  résiliation du bail (CO art. 264-273), contestation d'augmentation de
+  loyer (CO art. 269-270b).
+- Lot 1 (articles 1 à 10) donc complet en français : 10/50 sujets rédigés,
+  tous rattachés à leur hub de domaine, maillage interne entre articles du
+  même domaine actif.
+- 57 tests passés (aucun em dash, aucun artefact Jinja, structure de données
+  valide, slugs uniques). Titres tous sous 60 caractères hors suffixe
+  " | Legatis".
+- Toutes les langues DE/IT/EN restent à faire (tâche dédiée #28), FR-only
+  pour l'instant conformément au plan par lots.
+- Prochaine étape : lot 2 (articles 11 à 20, à partir de la liste ci-dessus).
