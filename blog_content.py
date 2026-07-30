@@ -476,4 +476,322 @@ BLOG_ARTICLES = {
             ],
         },
     },
+    "defauts-construction-garantie-delais": {
+        "domaine_id": "droit_construction",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "defauts-construction-garantie-delais-reclamation",
+            "title": "Défauts de construction : garantie et délais",
+            "meta": "Vérification, avis des défauts, délais de prescription : les règles du Code des obligations sur la garantie pour défauts d'un ouvrage.",
+            "sections": [
+                {"heading": "La vérification de l'ouvrage", "paragraphs": [
+                    "Après la livraison d'un ouvrage, le maître doit en vérifier l'état aussitôt qu'il le peut d'après la marche habituelle des affaires, et signaler les défauts découverts à l'entrepreneur (art. 367 CO). Cette obligation de vérification s'applique surtout dans les rapports entre professionnels ; pour un maître d'ouvrage non professionnel, la jurisprudence se montre plus souple.",
+                ]},
+                {"heading": "L'avis des défauts", "paragraphs": [
+                    "Le défaut doit être signalé à l'entrepreneur sans délai dès sa découverte. Un avis tardif peut faire perdre au maître ses droits de garantie, l'ouvrage étant alors réputé accepté avec ce défaut. Les défauts qui ne se manifestent que plus tard doivent être signalés dès leur découverte, même après la réception de l'ouvrage.",
+                ]},
+                {"heading": "Les droits du maître en cas de défaut", "paragraphs": [
+                    "Selon l'art. 368 CO, le maître peut, selon la gravité du défaut, refuser l'ouvrage et demander des dommages-intérêts, exiger une réfection à la charge de l'entrepreneur, ou obtenir une réduction du prix proportionnelle à la moins-value. Le choix entre ces droits dépend de la gravité du défaut et des circonstances.",
+                ]},
+                {"heading": "Les délais de prescription", "paragraphs": [
+                    "Les droits de garantie du maître se prescrivent par deux ans dès la réception de l'ouvrage pour les constructions mobilières, et par cinq ans pour les défauts d'un ouvrage immobilier tel qu'un bâtiment (art. 371 CO, renvoyant à l'art. 210 CO). Un dol de l'entrepreneur prolonge ce délai selon les règles générales de la prescription en cas de dol.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je signaler un défaut de construction ?",
+                 "a": "Sans délai dès sa découverte (art. 367 CO). Un avis tardif risque de faire perdre au maître ses droits de garantie pour ce défaut."},
+                {"q": "Quel est le délai de prescription pour un défaut de bâtiment ?",
+                 "a": "Cinq ans dès la réception de l'ouvrage pour les constructions immobilières, contre deux ans pour les ouvrages mobiliers (art. 371 CO renvoyant à l'art. 210 CO)."},
+                {"q": "Puis-je exiger la réparation du défaut plutôt qu'une réduction de prix ?",
+                 "a": "Oui, l'art. 368 CO laisse en principe ce choix au maître selon la gravité du défaut : réfection à la charge de l'entrepreneur, réduction du prix, ou dans les cas graves refus de l'ouvrage avec dommages-intérêts."},
+                {"q": "Que se passe-t-il si je ne vérifie pas l'ouvrage à la livraison ?",
+                 "a": "L'ouvrage est présumé accepté tel quel pour les défauts qui auraient dû être découverts lors d'une vérification normale, sauf pour les défauts cachés qui ne se manifestent que plus tard et doivent alors être signalés dès leur découverte."},
+            ],
+        },
+    },
+    "hypotheque-legale-artisans-entrepreneurs": {
+        "domaine_id": "droit_construction",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "hypotheque-legale-artisans-entrepreneurs",
+            "title": "Hypothèque légale des artisans et entrepreneurs",
+            "meta": "Garantie légale pour les travaux de construction non payés, délai d'inscription au registre foncier : ce que prévoit le Code civil.",
+            "sections": [
+                {"heading": "À quoi sert l'hypothèque légale", "paragraphs": [
+                    "L'hypothèque légale des artisans et entrepreneurs (art. 837 ss CC) garantit le paiement des travaux de construction, de transformation ou de démolition effectués sur un bien-fonds. Elle protège l'entreprise qui a fourni des matériaux ou du travail contre le risque de non-paiement, en lui donnant un droit de gage sur l'immeuble lui-même, indépendamment de la solvabilité du maître de l'ouvrage.",
+                ]},
+                {"heading": "Les conditions d'inscription", "paragraphs": [
+                    "L'inscription au registre foncier suppose que les travaux aient effectivement été exécutés et que la créance ne soit pas contestée de manière manifestement infondée. Elle peut être requise même sans l'accord du propriétaire de l'immeuble, ce qui la distingue d'un gage immobilier conventionnel.",
+                ]},
+                {"heading": "Le délai d'inscription", "paragraphs": [
+                    "L'art. 839 al. 2 CC fixe un délai strict : l'inscription doit être requise au plus tard dans les quatre mois qui suivent l'achèvement des travaux. Passé ce délai, le droit à l'hypothèque légale s'éteint, même si la créance pour les travaux elle-même subsiste selon les règles ordinaires de la prescription.",
+                ]},
+                {"heading": "L'effet vis-à-vis des autres créanciers", "paragraphs": [
+                    "Une fois inscrite, l'hypothèque légale prime en principe les autres gages inscrits postérieurement, ce qui en fait un outil de garantie particulièrement efficace pour les entreprises de construction face au risque d'insolvabilité du maître d'ouvrage.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je requérir l'inscription de l'hypothèque légale ?",
+                 "a": "Au plus tard quatre mois après l'achèvement des travaux (art. 839 al. 2 CC). Ce délai est impératif et son dépassement fait perdre le droit à cette garantie."},
+                {"q": "Le propriétaire de l'immeuble doit-il donner son accord ?",
+                 "a": "Non, l'inscription peut être requise même sans l'accord du propriétaire, à condition que les travaux aient été exécutés et que la créance soit suffisamment établie."},
+                {"q": "L'hypothèque légale s'applique-t-elle à tous les types de travaux ?",
+                 "a": "Elle s'applique aux travaux de construction, transformation ou démolition d'un bâtiment ou d'autres ouvrages sur un bien-fonds, effectués par des artisans ou entrepreneurs au sens de l'art. 837 CC."},
+                {"q": "Que se passe-t-il si le délai de quatre mois est dépassé ?",
+                 "a": "Le droit à l'hypothèque légale s'éteint définitivement, mais la créance pour les travaux non payés subsiste et peut être poursuivie par les voies ordinaires (poursuite pour dettes, action en paiement)."},
+            ],
+        },
+    },
+    "reserve-hereditaire-quotite-disponible": {
+        "domaine_id": "droit_successions",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "reserve-hereditaire-quotite-disponible-2023",
+            "title": "Réserve héréditaire et quotité disponible depuis 2023",
+            "meta": "Réserves des héritiers, part disponible du défunt, changements de la révision du droit successoral entrée en vigueur en 2023.",
+            "sections": [
+                {"heading": "Le principe de la réserve héréditaire", "paragraphs": [
+                    "Le droit suisse protège certains héritiers proches par une réserve héréditaire : une part minimale de la succession qui leur revient et dont le défunt ne peut pas les priver, sauf exception légale telle que l'exhérédation pour justes motifs (art. 470 ss CC).",
+                ]},
+                {"heading": "Ce qui a changé au 1er janvier 2023", "paragraphs": [
+                    "La révision du droit des successions entrée en vigueur le 1er janvier 2023 a réduit les réserves héréditaires afin d'élargir la liberté de disposer du défunt. La réserve des descendants est passée des trois quarts à la moitié de leur droit légal, et la réserve des parents a été supprimée. La réserve du conjoint ou du partenaire enregistré reste fixée à la moitié de son droit légal.",
+                ]},
+                {"heading": "La quotité disponible", "paragraphs": [
+                    "La quotité disponible est la part de la succession dont le défunt peut librement disposer, par testament ou pacte successoral, en faveur de qui il souhaite : une autre personne, une fondation, ou un héritier légal au-delà de sa part réservataire. Avec la réduction des réserves en 2023, cette quotité disponible s'est mécaniquement élargie.",
+                ]},
+                {"heading": "L'action en réduction", "paragraphs": [
+                    "Un héritier réservataire dont la réserve a été entamée par des libéralités du défunt peut agir en réduction (art. 522 ss CC) pour faire ramener ces libéralités dans les limites de la quotité disponible. Cette action se prescrit par des délais spécifiques dès l'ouverture de la succession.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quels héritiers ont droit à une réserve héréditaire ?",
+                 "a": "Depuis 2023, les descendants et le conjoint ou partenaire enregistré survivant. La réserve des parents du défunt a été supprimée par la révision entrée en vigueur le 1er janvier 2023."},
+                {"q": "Quelle est la réserve des descendants depuis 2023 ?",
+                 "a": "La moitié de leur droit de succession légal, contre trois quarts avant la révision entrée en vigueur le 1er janvier 2023 (art. 471 CC)."},
+                {"q": "Puis-je déshériter complètement mon enfant ?",
+                 "a": "En principe non, sauf motif d'exhérédation reconnu par la loi (art. 477 CC), comme une infraction grave envers le défunt. En dehors de ces cas, la réserve héréditaire de l'enfant doit être respectée."},
+                {"q": "Que puis-je faire si ma réserve n'a pas été respectée ?",
+                 "a": "Vous pouvez intenter une action en réduction (art. 522 ss CC) pour faire ramener les libéralités excessives dans les limites de la quotité disponible, dans les délais de prescription applicables."},
+            ],
+        },
+    },
+    "rediger-testament-valable": {
+        "domaine_id": "droit_successions",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "rediger-testament-valable-droit-suisse",
+            "title": "Rédiger un testament valable en droit suisse",
+            "meta": "Testament olographe, testament public, formes légales et conditions de validité selon le Code civil.",
+            "sections": [
+                {"heading": "Les formes de testament reconnues", "paragraphs": [
+                    "Le droit suisse reconnaît principalement deux formes de testament : le testament olographe, rédigé entièrement à la main par le testateur, daté et signé par lui (art. 505 CC), et le testament public, dressé par un officier public avec le concours de deux témoins (art. 499 ss CC). Une troisième forme, le testament oral, n'est admise que dans des circonstances extraordinaires (art. 506 CC).",
+                ]},
+                {"heading": "Les conditions du testament olographe", "paragraphs": [
+                    "Pour être valable, le testament olographe doit être écrit intégralement de la main du testateur : un texte tapé à l'ordinateur puis simplement signé n'est pas valable, même si le contenu reflète fidèlement la volonté du défunt. Il doit indiquer le jour, le mois et l'année de sa rédaction, et porter la signature du testateur.",
+                ]},
+                {"heading": "La capacité de discernement", "paragraphs": [
+                    "Le testateur doit avoir l'exercice des droits civils, c'est-à-dire être capable de discernement au moment de la rédaction (art. 467 CC). Un testament rédigé par une personne durablement incapable de discernement peut être annulé par une action en nullité intentée par un héritier ou toute personne intéressée.",
+                ]},
+                {"heading": "La conservation et l'ouverture du testament", "paragraphs": [
+                    "Un testament peut être déposé auprès d'un office compétent ou conservé par le testateur lui-même. À son décès, le testament doit être remis à l'autorité compétente, qui procède à son ouverture et informe les héritiers et légataires de son contenu.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un testament tapé à l'ordinateur et signé est-il valable ?",
+                 "a": "Non, un testament olographe doit être écrit entièrement à la main (art. 505 CC). Un texte tapé à l'ordinateur n'est valable que sous la forme du testament public, dressé par un officier public."},
+                {"q": "Que doit contenir un testament olographe pour être valable ?",
+                 "a": "Il doit être écrit entièrement de la main du testateur, daté avec le jour, le mois et l'année, et signé par lui (art. 505 CC)."},
+                {"q": "Puis-je modifier mon testament après l'avoir rédigé ?",
+                 "a": "Oui, un testament peut être révoqué ou modifié à tout moment par le testateur tant qu'il conserve sa capacité de discernement, notamment en rédigeant un nouveau testament ou en détruisant l'ancien."},
+                {"q": "Où puis-je conserver mon testament en toute sécurité ?",
+                 "a": "Vous pouvez le conserver vous-même, le confier à une personne de confiance, ou le déposer auprès d'un office compétent (notaire ou autorité cantonale selon le canton), ce qui réduit le risque de perte ou de destruction."},
+            ],
+        },
+    },
+    "resilier-contrat-justes-motifs": {
+        "domaine_id": "droit_contrats",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "resilier-contrat-justes-motifs-suisse",
+            "title": "Résilier un contrat pour justes motifs",
+            "meta": "Résiliation immédiate d'un contrat de durée, conditions reconnues par la jurisprudence, effets sur les dommages-intérêts.",
+            "sections": [
+                {"heading": "Un principe général non codifié uniformément", "paragraphs": [
+                    "Le droit suisse des obligations ne contient pas de règle unique sur la résiliation pour justes motifs applicable à tous les contrats : certains contrats nommés prévoient une règle explicite, comme le contrat de travail (art. 337 CO) ou le mandat (art. 404 CO), tandis que pour d'autres contrats de durée, la jurisprudence du Tribunal fédéral a dégagé un principe général permettant une résiliation immédiate lorsque la poursuite du contrat devient insupportable pour une partie.",
+                ]},
+                {"heading": "Ce qui constitue un juste motif", "paragraphs": [
+                    "Un juste motif suppose généralement une violation grave des obligations contractuelles par l'autre partie, une rupture du lien de confiance essentiel au contrat, ou des circonstances rendant la poursuite de la relation contractuelle objectivement insupportable selon les règles de la bonne foi. L'appréciation se fait au cas par cas, en tenant compte de la nature du contrat et de la gravité des faits invoqués.",
+                ]},
+                {"heading": "Les conséquences d'une résiliation immédiate", "paragraphs": [
+                    "Une résiliation pour justes motifs met fin au contrat avec effet immédiat, sans respecter les délais de résiliation ordinaires. Si les justes motifs invoqués ne sont pas reconnus comme suffisants par un tribunal, la partie qui a résilié s'expose au paiement de dommages-intérêts pour résiliation injustifiée, calculés selon les règles propres au type de contrat concerné.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Tout contrat peut-il être résilié pour justes motifs ?",
+                 "a": "Les contrats de durée (bail, travail, mandat, société simple, etc.) s'y prêtent particulièrement. Pour les contrats sans règle légale explicite, la jurisprudence du Tribunal fédéral admet ce principe à des conditions strictes."},
+                {"q": "Que risque-t-on si les justes motifs invoqués ne sont pas reconnus ?",
+                 "a": "La résiliation immédiate peut être considérée comme injustifiée, exposant la partie qui l'a prononcée à des dommages-intérêts envers son cocontractant, selon les règles applicables au type de contrat en cause."},
+                {"q": "Faut-il notifier les justes motifs par écrit ?",
+                 "a": "La loi n'impose pas toujours une forme écrite selon le type de contrat, mais un écrit motivé est fortement recommandé pour pouvoir prouver la réalité et la gravité des motifs invoqués en cas de litige."},
+            ],
+        },
+    },
+    "clause-penale-dommages-interets": {
+        "domaine_id": "droit_contrats",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "clause-penale-dommages-interets-contractuels",
+            "title": "Clause pénale et dommages-intérêts contractuels",
+            "meta": "Fonction de la clause pénale, réduction judiciaire des peines excessives, articulation avec les dommages-intérêts selon le Code des obligations.",
+            "sections": [
+                {"heading": "La fonction de la clause pénale", "paragraphs": [
+                    "Une clause pénale (art. 160-163 CO) est une stipulation contractuelle par laquelle une partie s'engage à verser un montant déterminé en cas d'inexécution ou de mauvaise exécution du contrat. Elle dispense en principe le créancier de prouver l'existence et le montant d'un dommage effectif : le montant convenu est dû du seul fait de l'inexécution, sauf clause contraire.",
+                ]},
+                {"heading": "Le pouvoir de réduction du juge", "paragraphs": [
+                    "L'art. 163 al. 3 CO permet au juge de réduire une peine conventionnelle qu'il estime excessive, notamment lorsque le montant fixé est manifestement disproportionné par rapport à l'intérêt légitime du créancier ou au dommage réellement subi. Cette faculté protège la partie faible d'un contrat contre des clauses pénales abusives.",
+                ]},
+                {"heading": "Clause pénale et dommages-intérêts effectifs", "paragraphs": [
+                    "Sauf convention contraire, le créancier ne peut pas cumuler la peine conventionnelle et la réparation intégrale du dommage effectif au-delà du montant de la peine (art. 161 CO), sauf s'il prouve un dommage supérieur au montant convenu et que le contrat le lui permet expressément.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dois-je prouver un dommage pour obtenir le paiement d'une clause pénale ?",
+                 "a": "En principe non : le montant convenu est dû du seul fait de l'inexécution, sans devoir prouver l'existence ni le montant d'un dommage effectif, sauf clause contraire (art. 161 al. 1 CO)."},
+                {"q": "Un juge peut-il réduire une clause pénale trop élevée ?",
+                 "a": "Oui, l'art. 163 al. 3 CO permet au juge de réduire une peine conventionnelle qu'il estime excessive au regard des circonstances et de l'intérêt légitime du créancier."},
+                {"q": "Puis-je réclamer plus que le montant de la clause pénale si mon dommage réel est supérieur ?",
+                 "a": "En principe non, sauf si le contrat le prévoit expressément ou si vous prouvez un dommage supérieur et que la loi ou la convention vous permet de le réclamer en plus de la peine conventionnelle."},
+            ],
+        },
+    },
+    "creer-sarl-suisse": {
+        "domaine_id": "droit_societes",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "creer-sarl-suisse-capital-statuts-formalites",
+            "title": "Créer une Sàrl en Suisse : capital et formalités",
+            "meta": "Capital social minimum, rédaction des statuts, inscription au registre du commerce : les étapes pour créer une société à responsabilité limitée.",
+            "sections": [
+                {"heading": "Le capital social minimum", "paragraphs": [
+                    "La société à responsabilité limitée (Sàrl) est régie par les art. 772 ss CO. Elle exige un capital social d'au moins 20 000 francs, entièrement libéré au moment de la fondation, contrairement à la société anonyme où seule une part du capital doit être libérée initialement.",
+                ]},
+                {"heading": "Les statuts", "paragraphs": [
+                    "Les statuts doivent notamment indiquer la raison sociale et le siège de la société, son but, le montant du capital social et la valeur nominale de chaque part sociale, ainsi que la forme des publications de la société. Ils sont établis par acte authentique lors de la fondation.",
+                ]},
+                {"heading": "L'inscription au registre du commerce", "paragraphs": [
+                    "La société n'acquiert la personnalité juridique qu'avec son inscription au registre du commerce (art. 779 CO). L'inscription requiert notamment les statuts, la preuve du dépôt du capital social auprès d'une banque, et la désignation des personnes autorisées à représenter la société.",
+                ]},
+                {"heading": "La responsabilité des associés", "paragraphs": [
+                    "Les associés d'une Sàrl ne répondent en principe des dettes de la société que jusqu'à concurrence du capital social, sur les actifs de la société elle-même : leur patrimoine personnel n'est en principe pas engagé, sauf cas particuliers de responsabilité pour faute de gestion ou obligations statutaires de versements supplémentaires.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quel est le capital minimum pour créer une Sàrl ?",
+                 "a": "20 000 francs, entièrement libérés au moment de la fondation (art. 773 CO)."},
+                {"q": "À partir de quand une Sàrl existe-t-elle juridiquement ?",
+                 "a": "Dès son inscription au registre du commerce (art. 779 CO) ; avant cette inscription, elle n'a pas la personnalité juridique."},
+                {"q": "Les associés sont-ils personnellement responsables des dettes de la Sàrl ?",
+                 "a": "En principe non : leur responsabilité se limite au capital social apporté à la société, sauf cas particuliers de responsabilité pour faute de gestion ou obligations statutaires spécifiques."},
+                {"q": "Combien de personnes faut-il pour créer une Sàrl ?",
+                 "a": "Une seule personne physique ou morale suffit : la Sàrl peut être fondée et détenue par un associé unique."},
+            ],
+        },
+    },
+    "responsabilite-administrateurs-sa": {
+        "domaine_id": "droit_societes",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "responsabilite-administrateurs-societe-anonyme",
+            "title": "Responsabilité des administrateurs de société anonyme",
+            "meta": "Conditions de la responsabilité civile des administrateurs, devoir de diligence, action en responsabilité selon le Code des obligations.",
+            "sections": [
+                {"heading": "Le principe de la responsabilité", "paragraphs": [
+                    "Les art. 754-755 CO prévoient que les membres du conseil d'administration et toutes les personnes qui s'occupent de la gestion ou de la liquidation d'une société anonyme répondent envers la société, les actionnaires et les créanciers du dommage qu'ils leur causent en manquant intentionnellement ou par négligence à leurs devoirs.",
+                ]},
+                {"heading": "Les conditions de la responsabilité", "paragraphs": [
+                    "Une action en responsabilité suppose la réunion de quatre conditions cumulatives : un dommage, une violation d'un devoir légal ou statutaire (comme le devoir de diligence et de fidélité de l'art. 717 CO), une faute intentionnelle ou par négligence, et un lien de causalité entre la violation et le dommage.",
+                ]},
+                {"heading": "Le devoir de diligence des administrateurs", "paragraphs": [
+                    "L'art. 717 CO impose aux administrateurs d'exercer leurs attributions avec toute la diligence nécessaire et de veiller fidèlement aux intérêts de la société. Ce devoir s'apprécie selon la nature de la fonction occupée et les circonstances concrètes, y compris la taille et la complexité de la société.",
+                ]},
+                {"heading": "Qui peut agir en responsabilité", "paragraphs": [
+                    "La société elle-même, un actionnaire pour le dommage subi par la société, ou directement les créanciers en cas de faillite de la société peuvent intenter une action en responsabilité, selon des règles de légitimation propres à chaque situation (art. 756-757 CO).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un administrateur peut-il être tenu responsable pour une simple erreur de gestion ?",
+                 "a": "Oui, si cette erreur constitue une violation du devoir de diligence de l'art. 717 CO et cause un dommage, même sans intention de nuire : la négligence suffit à engager la responsabilité (art. 754 CO)."},
+                {"q": "Qui peut intenter une action en responsabilité contre un administrateur ?",
+                 "a": "La société, un actionnaire pour le dommage causé à la société, ou les créanciers directement en cas de faillite, selon les règles de légitimation des art. 756-757 CO."},
+                {"q": "Un administrateur peut-il limiter sa responsabilité par les statuts ?",
+                 "a": "La responsabilité envers la société, les actionnaires et les créanciers découlant des art. 754-755 CO est de nature impérative et ne peut pas être exclue à l'avance par les statuts ou une convention."},
+            ],
+        },
+    },
+    "retrait-permis-duree-infraction": {
+        "domaine_id": "droit_circulation",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "retrait-permis-conduire-duree-infraction",
+            "title": "Retrait de permis : durées selon la gravité",
+            "meta": "Infractions légères, moyennes et graves à la LCR, durées de retrait de permis, cas de récidive : ce que prévoit la loi sur la circulation routière.",
+            "sections": [
+                {"heading": "Les trois catégories d'infractions", "paragraphs": [
+                    "La loi sur la circulation routière distingue les infractions légères (art. 16a LCR), moyennement graves (art. 16b LCR) et graves (art. 16c LCR), selon le degré de mise en danger de la sécurité routière et la faute du conducteur. Cette classification détermine directement les conséquences administratives applicables.",
+                ]},
+                {"heading": "L'infraction légère", "paragraphs": [
+                    "Une infraction légère entraîne en principe un simple avertissement, sauf si le conducteur a fait l'objet d'un retrait de permis ou d'un avertissement au cours des deux années précédentes, auquel cas un retrait d'au moins un mois est prononcé (art. 16a LCR).",
+                ]},
+                {"heading": "L'infraction moyennement grave", "paragraphs": [
+                    "Elle entraîne un retrait de permis d'au moins un mois (art. 16b LCR). En cas de récidive dans les délais fixés par la loi, la durée minimale du retrait augmente progressivement.",
+                ]},
+                {"heading": "L'infraction grave", "paragraphs": [
+                    "Une infraction grave, telle que la conduite en état d'ébriété qualifiée ou un dépassement important de la vitesse autorisée, entraîne un retrait de permis d'au moins trois mois (art. 16c LCR). En cas de récidives répétées, la loi prévoit des durées minimales croissantes, pouvant aller jusqu'au retrait de sécurité pour une durée indéterminée.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quelle est la durée minimale de retrait pour une infraction grave ?",
+                 "a": "Trois mois au minimum (art. 16c LCR), pouvant être prolongée en cas de récidive dans les délais fixés par la loi."},
+                {"q": "Une infraction légère entraîne-t-elle toujours un retrait de permis ?",
+                 "a": "Non, elle entraîne en principe un simple avertissement, sauf récidive dans les deux années précédentes, auquel cas un retrait d'au moins un mois est prononcé (art. 16a LCR)."},
+                {"q": "Qui décide du retrait de permis ?",
+                 "a": "L'autorité administrative cantonale compétente en matière de circulation routière, sur la base du rapport de police et, le cas échéant, de la décision pénale relative aux mêmes faits."},
+                {"q": "Le retrait de permis est-il cumulé avec une sanction pénale ?",
+                 "a": "Oui, ce sont deux procédures distinctes : la sanction pénale (amende, peine pécuniaire) est prononcée par le ministère public ou le tribunal pénal, tandis que le retrait de permis est une mesure administrative prononcée séparément par l'autorité cantonale."},
+            ],
+        },
+    },
+    "accident-route-qui-paie-declaration": {
+        "domaine_id": "droit_circulation",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "accident-route-qui-paie-declaration-sinistre",
+            "title": "Accident de la route : qui paie et comment déclarer",
+            "meta": "Assurance responsabilité civile obligatoire, déclaration de sinistre, répartition des responsabilités : les règles applicables en cas d'accident.",
+            "sections": [
+                {"heading": "L'assurance responsabilité civile obligatoire", "paragraphs": [
+                    "Tout véhicule automobile circulant en Suisse doit être couvert par une assurance responsabilité civile (art. 63 LCR), qui indemnise les tiers lésés par ce véhicule, indépendamment de la solvabilité personnelle du détenteur ou du conducteur responsable.",
+                ]},
+                {"heading": "La responsabilité du détenteur", "paragraphs": [
+                    "L'art. 58 LCR pose une responsabilité causale du détenteur du véhicule pour les dommages causés par son usage, indépendamment d'une faute de sa part. Le détenteur ne peut se libérer qu'en prouvant que l'accident a été causé par force majeure, faute grave du lésé ou d'un tiers, sans faute de sa part ni défectuosité du véhicule.",
+                ]},
+                {"heading": "La déclaration du sinistre", "paragraphs": [
+                    "Après un accident, il convient de constater les faits (échange des coordonnées, constat amiable ou intervention de la police selon la gravité), puis de déclarer le sinistre sans délai à son assurance, laquelle transmet le dossier à l'assureur responsabilité civile du véhicule responsable si celui-ci est identifié.",
+                ]},
+                {"heading": "Les accidents avec véhicule non identifié ou non assuré", "paragraphs": [
+                    "Lorsque le véhicule responsable ne peut pas être identifié, ou n'était pas assuré, le Fonds national de garantie (art. 76 LCA) prend en charge l'indemnisation du lésé dans les limites fixées par la loi, afin d'éviter que la victime reste sans recours.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qui paie les dommages en cas d'accident de la route ?",
+                 "a": "En principe l'assureur responsabilité civile du véhicule reconnu responsable de l'accident, sur la base de la responsabilité causale du détenteur prévue par l'art. 58 LCR."},
+                {"q": "Que faire si le responsable de l'accident prend la fuite ?",
+                 "a": "Il faut avertir la police et déclarer le sinistre à son propre assureur. Si le véhicule responsable reste non identifié, le Fonds national de garantie peut indemniser le lésé dans les limites légales."},
+                {"q": "Dois-je toujours appeler la police après un accident ?",
+                 "a": "Ce n'est pas systématiquement obligatoire pour un accrochage mineur sans blessé, mais fortement recommandé dès qu'il y a un désaccord sur les responsabilités, des blessés, ou des dommages importants."},
+                {"q": "Le détenteur peut-il échapper à sa responsabilité ?",
+                 "a": "Seulement en prouvant que l'accident résulte d'un cas de force majeure, d'une faute grave du lésé ou d'un tiers, sans faute de sa part ni défectuosité du véhicule (art. 59 LCR)."},
+            ],
+        },
+    },
 }

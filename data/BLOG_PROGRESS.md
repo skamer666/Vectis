@@ -37,16 +37,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | 🟡 `ordonnance-penale-opposition` |
 | 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | 🟡 `resiliation-bail-delais-contestation` |
 | 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | 🟡 `contester-augmentation-loyer` |
-| 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | ⬜ |
-| 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | ⬜ |
-| 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | ⬜ |
-| 14 | Droit des successions | Rédiger un testament valable en droit suisse | CC art. 498-508 | ⬜ |
-| 15 | Droit des contrats | Résilier un contrat pour justes motifs | CO (règles générales) | ⬜ |
-| 16 | Droit des contrats | Clause pénale et dommages-intérêts contractuels | CO art. 160-163 | ⬜ |
-| 17 | Droit des sociétés | Créer une Sàrl en Suisse : capital, statuts, formalités | CO art. 772 ss | ⬜ |
-| 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | ⬜ |
-| 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | ⬜ |
-| 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | ⬜ |
+| 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | 🟡 `defauts-construction-garantie-delais` |
+| 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | 🟡 `hypotheque-legale-artisans-entrepreneurs` |
+| 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | 🟡 `reserve-hereditaire-quotite-disponible` |
+| 14 | Droit des successions | Rédiger un testament valable en droit suisse | CC art. 498-508 | 🟡 `rediger-testament-valable` |
+| 15 | Droit des contrats | Résilier un contrat pour justes motifs | CO (règles générales) | 🟡 `resilier-contrat-justes-motifs` |
+| 16 | Droit des contrats | Clause pénale et dommages-intérêts contractuels | CO art. 160-163 | 🟡 `clause-penale-dommages-interets` |
+| 17 | Droit des sociétés | Créer une Sàrl en Suisse : capital, statuts, formalités | CO art. 772 ss | 🟡 `creer-sarl-suisse` |
+| 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | 🟡 `responsabilite-administrateurs-sa` |
+| 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | 🟡 `retrait-permis-duree-infraction` |
+| 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | 🟡 `accident-route-qui-paie-declaration` |
 | 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | ⬜ |
 | 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | ⬜ |
 | 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | ⬜ |
@@ -118,3 +118,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 - Toutes les langues DE/IT/EN restent à faire (tâche dédiée #28), FR-only
   pour l'instant conformément au plan par lots.
 - Prochaine étape : lot 2 (articles 11 à 20, à partir de la liste ci-dessus).
+
+### 2026-07-30 | Lot 2 complet : articles 11 à 20 (FR)
+
+- 10 articles rédigés en français : défauts de construction (CO art. 367-371),
+  hypothèque légale des artisans (CC art. 837-841), réserve héréditaire post-
+  révision 2023 (CC art. 470-475), rédaction d'un testament (CC art. 498-508),
+  résiliation pour justes motifs (principe jurisprudentiel), clause pénale
+  (CO art. 160-163), création d'une Sàrl (CO art. 772 ss), responsabilité des
+  administrateurs de SA (CO art. 754-755), retrait de permis (LCR art. 16-16c),
+  accident de la route (LCR/LCA).
+- 20/50 sujets rédigés en français. 57 tests toujours au vert, aucun em dash,
+  aucun artefact Jinja, titres tous sous 60 caractères.
+- Prochaine étape : lot 3 (articles 21 à 30).
