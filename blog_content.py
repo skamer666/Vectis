@@ -1108,4 +1108,314 @@ BLOG_ARTICLES = {
             ],
         },
     },
+    "curatelle-quand-comment-prononcee": {
+        "domaine_id": "droit_protection_enfant_adulte",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "curatelle-quand-comment-elle-est-prononcee",
+            "title": "Curatelle : quand et comment elle est prononcée",
+            "meta": "Curatelle d'accompagnement, de représentation, de coopération ou de portée générale : les types de mesures prévues par le Code civil.",
+            "sections": [
+                {"heading": "Le principe de proportionnalité", "paragraphs": [
+                    "Une curatelle ne peut être instituée que si l'aide apportée par la famille, les proches ou les services publics ou privés ne suffit pas ou n'est pas envisageable, et que la personne concernée a besoin d'aide en raison d'une déficience mentale, de troubles psychiques ou d'un autre état de faiblesse (art. 390 CC). L'autorité de protection de l'adulte (APEA) doit choisir la mesure la moins incisive possible pour les intérêts de la personne concernée.",
+                ]},
+                {"heading": "Les différents types de curatelle", "paragraphs": [
+                    "Le Code civil distingue la curatelle d'accompagnement, la plus légère, où la personne concernée conserve l'exercice des droits civils et le curateur ne fait qu'apporter un soutien (art. 393 CC) ; la curatelle de représentation, où le curateur agit au nom de la personne pour certaines tâches définies (art. 394 CC) ; la curatelle de coopération, qui soumet certains actes à l'accord du curateur (art. 396 CC) ; et la curatelle de portée générale, la plus étendue, réservée aux cas de besoin d'aide durable et complet (art. 398 CC).",
+                ]},
+                {"heading": "La procédure devant l'APEA", "paragraphs": [
+                    "L'APEA du domicile de la personne concernée instruit la demande, qui peut émaner de la personne elle-même, d'un proche, ou être ouverte d'office sur signalement. La personne concernée est en principe entendue personnellement, et une expertise peut être ordonnée pour évaluer précisément son état et ses besoins.",
+                ]},
+                {"heading": "Le réexamen de la mesure", "paragraphs": [
+                    "Une curatelle n'est pas figée : elle doit être réexaminée périodiquement par l'APEA, et peut être levée dès que les conditions qui la justifiaient ont disparu, ou adaptée si les besoins de la personne concernée évoluent dans un sens ou dans l'autre.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Une curatelle prive-t-elle automatiquement la personne de tous ses droits ?",
+                 "a": "Non, cela dépend du type de curatelle prononcée : la curatelle d'accompagnement, la plus légère, n'entraîne aucune restriction des droits civils. Seule la curatelle de portée générale, réservée aux besoins les plus étendus, prive la personne de l'exercice des droits civils."},
+                {"q": "Qui peut demander l'ouverture d'une curatelle ?",
+                 "a": "La personne concernée elle-même, un proche, ou l'APEA peut agir d'office sur signalement d'un tiers (médecin, service social, voisin) si les conditions légales paraissent réunies."},
+                {"q": "Une curatelle peut-elle être levée ?",
+                 "a": "Oui, l'APEA doit réexaminer périodiquement la mesure et la lever dès que les conditions qui la justifiaient ont disparu, ou l'adapter si la situation de la personne concernée évolue."},
+            ],
+        },
+    },
+    "mandat-cause-inaptitude-anticiper": {
+        "domaine_id": "droit_protection_enfant_adulte",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "mandat-cause-inaptitude-anticiper-incapacite",
+            "title": "Mandat pour cause d'inaptitude : anticiper l'incapacité",
+            "meta": "Désigner à l'avance une personne de confiance pour gérer ses affaires en cas de perte de discernement, selon le Code civil.",
+            "sections": [
+                {"heading": "À quoi sert le mandat pour cause d'inaptitude", "paragraphs": [
+                    "Le mandat pour cause d'inaptitude (art. 360-369 CC) permet à toute personne capable de discernement de charger une ou plusieurs personnes physiques ou morales de s'occuper de ses affaires personnelles, de gérer son patrimoine et de la représenter juridiquement, pour le cas où elle deviendrait un jour incapable de discernement.",
+                ]},
+                {"heading": "La forme du mandat", "paragraphs": [
+                    "Le mandat doit être rédigé entièrement à la main, daté et signé par le mandant, ou fait par acte authentique devant notaire (art. 361 CC). Un document simplement tapé et signé ne remplit pas les conditions de forme et n'est pas valable, à moins de passer par la voie notariée.",
+                ]},
+                {"heading": "La validation par l'autorité de protection de l'adulte", "paragraphs": [
+                    "Lorsque l'incapacité de discernement du mandant survient effectivement, l'APEA vérifie que le mandat a été valablement constitué, que le mandataire est apte à remplir sa tâche, et procède à la validation du mandat, qui déploie alors ses effets. L'APEA peut, dans certains cas, exercer une surveillance sur l'exécution du mandat.",
+                ]},
+                {"heading": "L'articulation avec les directives anticipées", "paragraphs": [
+                    "Le mandat pour cause d'inaptitude porte sur la gestion des affaires personnelles et patrimoniales ; il se distingue des directives anticipées du patient, qui concernent spécifiquement les décisions médicales et les traitements souhaités ou refusés en cas d'incapacité de discernement, régies par des dispositions propres du Code civil.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le mandat pour cause d'inaptitude doit-il être écrit à la main ?",
+                 "a": "Oui, sauf s'il est fait par acte authentique devant notaire : un mandat manuscrit doit être rédigé entièrement à la main, daté et signé par le mandant (art. 361 CC)."},
+                {"q": "Quand le mandat prend-il effet ?",
+                 "a": "Seulement lorsque l'incapacité de discernement du mandant survient effectivement et que l'APEA a validé le mandat après avoir vérifié sa validité formelle et l'aptitude du mandataire désigné."},
+                {"q": "Le mandat pour cause d'inaptitude remplace-t-il les directives anticipées du patient ?",
+                 "a": "Non, ce sont deux instruments distincts et complémentaires : le mandat porte sur les affaires personnelles et patrimoniales, tandis que les directives anticipées concernent spécifiquement les décisions médicales."},
+            ],
+        },
+    },
+    "contester-decision-taxation-reclamation": {
+        "domaine_id": "droit_fiscal",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "contester-decision-taxation-reclamation-delais",
+            "title": "Contester une décision de taxation : réclamation",
+            "meta": "Délai de 30 jours, forme de la réclamation, recours ultérieur : la procédure pour contester une taxation selon la LIFD.",
+            "sections": [
+                {"heading": "La réclamation, première étape obligatoire", "paragraphs": [
+                    "Le contribuable qui conteste sa décision de taxation pour l'impôt fédéral direct doit d'abord déposer une réclamation écrite auprès de l'autorité de taxation, dans les 30 jours suivant la notification de la décision (art. 132 LIFD). La réclamation doit contenir des conclusions motivées et, si possible, les moyens de preuve à l'appui.",
+                ]},
+                {"heading": "Le contenu de la réclamation", "paragraphs": [
+                    "La réclamation doit indiquer précisément les points contestés de la taxation et les motifs pour lesquels le contribuable estime la décision erronée : éléments de revenu ou de fortune mal évalués, déductions refusées à tort, erreur de calcul, ou violation d'une règle de procédure.",
+                ]},
+                {"heading": "Le traitement de la réclamation", "paragraphs": [
+                    "L'autorité de taxation réexamine le dossier et peut confirmer, réduire ou même augmenter la taxation contestée (reformatio in pejus), sous réserve d'en informer le contribuable et de lui donner l'occasion de se déterminer avant une décision qui lui serait défavorable.",
+                ]},
+                {"heading": "Le recours ultérieur", "paragraphs": [
+                    "Si la décision sur réclamation ne satisfait pas le contribuable, il peut la porter devant la commission cantonale de recours en matière fiscale, puis, selon les cas, devant le tribunal cantonal et enfin le Tribunal fédéral, dans les délais et formes prévus par la procédure applicable à chaque instance.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je réclamer contre ma taxation ?",
+                 "a": "Dans les 30 jours suivant la notification de la décision de taxation, par une réclamation écrite et motivée adressée à l'autorité de taxation (art. 132 LIFD)."},
+                {"q": "La réclamation peut-elle aboutir à une taxation plus élevée ?",
+                 "a": "Oui, l'autorité de taxation peut en principe réexaminer l'ensemble du dossier et augmenter la taxation contestée, à condition d'en informer le contribuable et de lui donner l'occasion de se déterminer au préalable."},
+                {"q": "Que faire si la réclamation est rejetée ?",
+                 "a": "Vous pouvez porter la décision sur réclamation devant la commission cantonale de recours en matière fiscale, puis, selon les cas, devant les instances judiciaires supérieures compétentes."},
+            ],
+        },
+    },
+    "imposition-source-qui-concerne-fonctionnement": {
+        "domaine_id": "droit_fiscal",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "imposition-source-qui-concerne-fonctionnement",
+            "title": "Imposition à la source : qui est concerné",
+            "meta": "Travailleurs étrangers sans permis C, personnes domiciliées à l'étranger avec revenu suisse : le fonctionnement de l'impôt à la source.",
+            "sections": [
+                {"heading": "Qui est soumis à l'imposition à la source", "paragraphs": [
+                    "L'imposition à la source (art. 83 ss LIFD) s'applique principalement aux travailleurs étrangers domiciliés ou en séjour en Suisse qui ne sont pas titulaires d'une autorisation d'établissement (permis C), ainsi qu'à certaines personnes domiciliées à l'étranger qui perçoivent un revenu de source suisse, comme un salaire, une pension, ou certaines prestations.",
+                ]},
+                {"heading": "Le mécanisme du prélèvement", "paragraphs": [
+                    "L'impôt à la source est retenu directement par l'employeur sur le salaire, selon des barèmes fixés en fonction du revenu, de la situation familiale et du canton concerné, puis reversé à l'autorité fiscale cantonale. Ce mécanisme remplace, pour les personnes concernées, la procédure de taxation ordinaire par déclaration d'impôt.",
+                ]},
+                {"heading": "La taxation ordinaire ultérieure", "paragraphs": [
+                    "Certaines personnes imposées à la source peuvent demander, ou dans certains cas sont automatiquement soumises, à une taxation ordinaire ultérieure, notamment lorsque le revenu dépasse certains seuils ou pour faire valoir des déductions supplémentaires (frais professionnels effectifs, rachats de prévoyance) que le barème forfaitaire ne prend pas en compte.",
+                ]},
+                {"heading": "L'obtention du permis C et la fin de l'imposition à la source", "paragraphs": [
+                    "L'obtention d'une autorisation d'établissement (permis C) ou d'un mariage avec une personne de nationalité suisse ou titulaire d'un permis C met en principe fin à l'imposition à la source, la personne passant alors au régime de taxation ordinaire par déclaration.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qui est soumis à l'imposition à la source en Suisse ?",
+                 "a": "Principalement les travailleurs étrangers sans permis C domiciliés ou en séjour en Suisse, ainsi que certaines personnes domiciliées à l'étranger percevant un revenu de source suisse."},
+                {"q": "Puis-je déduire mes frais professionnels effectifs si je suis imposé à la source ?",
+                 "a": "Le barème forfaitaire intègre déjà certaines déductions standard ; pour faire valoir des frais effectifs supérieurs ou d'autres déductions spécifiques, il faut généralement demander une taxation ordinaire ultérieure dans les conditions prévues par la loi."},
+                {"q": "Que se passe-t-il quand j'obtiens le permis C ?",
+                 "a": "L'imposition à la source prend fin en principe, et vous passez au régime de taxation ordinaire par déclaration d'impôt comme les contribuables suisses."},
+            ],
+        },
+    },
+    "secret-bancaire-suisse-protection": {
+        "domaine_id": "droit_bancaire",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "secret-bancaire-suisse-ce-quil-protege",
+            "title": "Secret bancaire suisse : ce qu'il protège aujourd'hui",
+            "meta": "Portée actuelle du secret bancaire après l'échange automatique de renseignements, sanctions pénales : ce que prévoit la loi sur les banques.",
+            "sections": [
+                {"heading": "Le fondement légal", "paragraphs": [
+                    "Le secret bancaire suisse repose sur l'art. 47 de la loi sur les banques (LB), qui sanctionne pénalement la violation du secret professionnel par un employé, un organe ou un mandataire d'une banque. Il protège la confidentialité de la relation entre la banque et son client à l'égard des tiers privés et, sous réserve des exceptions légales, des autorités.",
+                ]},
+                {"heading": "Ce qui a changé avec l'échange automatique de renseignements", "paragraphs": [
+                    "Depuis 2017, la Suisse applique l'échange automatique de renseignements en matière fiscale (EAR) avec un nombre croissant de pays partenaires : les données de comptes bancaires des résidents fiscaux de ces pays sont transmises automatiquement aux autorités fiscales étrangères concernées, ce qui limite fortement la portée pratique du secret bancaire pour les questions fiscales transfrontalières avec ces États.",
+                ]},
+                {"heading": "Ce que le secret bancaire protège encore", "paragraphs": [
+                    "Le secret bancaire conserve toute sa portée à l'égard des tiers privés (curiosité d'un concurrent, d'un voisin, d'un membre de la famille non autorisé) et, pour les résidents suisses ou les résidents de pays non partenaires de l'EAR, il continue à limiter l'accès aux informations bancaires en dehors des procédures légales prévues (entraide judiciaire, procédure pénale, poursuite pour dettes).",
+                ]},
+                {"heading": "Les exceptions légales", "paragraphs": [
+                    "Le secret bancaire peut être levé dans le cadre d'une procédure pénale suisse, d'une demande d'entraide judiciaire internationale conforme aux traités applicables, d'une procédure de poursuite ou de faillite, ou encore avec le consentement exprès du client concerné.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le secret bancaire suisse existe-t-il encore ?",
+                 "a": "Oui, mais sa portée s'est réduite depuis l'introduction de l'échange automatique de renseignements fiscaux (EAR) en 2017 avec de nombreux pays partenaires. Il protège toujours la confidentialité vis-à-vis des tiers privés et dans les situations non couvertes par l'EAR."},
+                {"q": "Une banque peut-elle transmettre mes données à l'étranger sans mon accord ?",
+                 "a": "Dans le cadre de l'échange automatique de renseignements avec un pays partenaire, oui, cette transmission aux autorités fiscales de votre pays de résidence fiscale est automatique et ne dépend pas de votre consentement."},
+                {"q": "Que risque un employé de banque qui viole le secret bancaire ?",
+                 "a": "Des sanctions pénales prévues par l'art. 47 LB, qui peuvent inclure une peine privative de liberté ou une peine pécuniaire selon la gravité de la violation."},
+            ],
+        },
+    },
+    "litige-banque-ombudsman-recours": {
+        "domaine_id": "droit_bancaire",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "litige-avec-sa-banque-ombudsman-voies-recours",
+            "title": "Litige avec sa banque : ombudsman et recours",
+            "meta": "Médiation gratuite via l'Ombudsman des banques suisses, saisine du tribunal civil : les voies pour résoudre un litige bancaire.",
+            "sections": [
+                {"heading": "L'Ombudsman des banques suisses", "paragraphs": [
+                    "L'Ombudsman des banques suisses est un organisme de médiation neutre et indépendant, gratuit pour le client, qui traite les litiges entre un client et sa banque : frais contestés, exécution incorrecte d'un ordre, conseil en placement insatisfaisant, ou autres différends contractuels. Sa saisine ne nécessite pas d'avocat et constitue une étape rapide avant, ou en alternative à, une procédure judiciaire.",
+                ]},
+                {"heading": "La portée de la médiation", "paragraphs": [
+                    "L'Ombudsman formule une recommandation, non contraignante pour les parties : la banque n'est pas obligée de la suivre, et le client conserve dans tous les cas le droit de saisir la justice s'il n'est pas satisfait de l'issue de la médiation. La médiation interrompt en principe le délai de prescription de la créance pendant sa durée.",
+                ]},
+                {"heading": "Les autres voies de recours", "paragraphs": [
+                    "En parallèle ou après la médiation, le client peut déposer une plainte auprès de l'Autorité fédérale de surveillance des marchés financiers (FINMA), qui ne traite toutefois pas les litiges individuels mais peut intervenir en cas de manquements systémiques d'un établissement. La voie judiciaire ordinaire, devant le tribunal civil compétent, reste toujours ouverte pour trancher un litige de manière contraignante.",
+                ]},
+                {"heading": "Bien documenter le litige", "paragraphs": [
+                    "Avant toute démarche, il est utile de rassembler l'ensemble de la correspondance avec la banque, les relevés de compte concernés, et une chronologie précise des faits : ces éléments facilitent grandement le traitement du dossier, que ce soit par l'Ombudsman ou par un tribunal.",
+                ]},
+            ],
+            "faq": [
+                {"q": "La saisine de l'Ombudsman des banques suisses coûte-t-elle quelque chose ?",
+                 "a": "Non, elle est gratuite pour le client et ne nécessite pas l'assistance d'un avocat, ce qui en fait une première étape accessible avant d'envisager une procédure judiciaire."},
+                {"q": "La banque est-elle obligée de suivre la recommandation de l'Ombudsman ?",
+                 "a": "Non, la recommandation n'est pas contraignante. Si la banque ne la suit pas ou si le client n'est pas satisfait, la voie judiciaire ordinaire reste ouverte."},
+                {"q": "La FINMA peut-elle m'aider à résoudre mon litige individuel avec ma banque ?",
+                 "a": "Pas directement : la FINMA surveille le respect des règles prudentielles par les établissements mais ne tranche pas les litiges individuels entre un client et sa banque, contrairement à l'Ombudsman des banques suisses."},
+            ],
+        },
+    },
+    "erreur-medicale-faire-valoir-droits": {
+        "domaine_id": "droit_medical",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "erreur-medicale-comment-faire-valoir-ses-droits",
+            "title": "Erreur médicale : comment faire valoir ses droits",
+            "meta": "Responsabilité du médecin privé ou de l'hôpital public, preuve de la faute et du dommage : les bases légales en cas d'erreur médicale.",
+            "sections": [
+                {"heading": "Deux régimes de responsabilité selon le statut du soignant", "paragraphs": [
+                    "La base légale applicable dépend du cadre dans lequel les soins ont été prodigués : un médecin exerçant en pratique privée est lié à son patient par un contrat de mandat (art. 394 ss CO), et sa responsabilité relève des règles générales de la responsabilité contractuelle et de l'art. 41 CO. Un traitement dans un hôpital public relève en revanche généralement du droit cantonal de la responsabilité de l'État, dont les règles et délais diffèrent sensiblement du droit privé.",
+                ]},
+                {"heading": "Ce qu'il faut prouver", "paragraphs": [
+                    "Faire valoir une erreur médicale suppose de démontrer une violation des règles de l'art médical (une faute dans le diagnostic, le traitement, ou l'information du patient), un dommage effectif, et un lien de causalité entre cette violation et le dommage subi. La simple survenance d'une complication connue et statistiquement possible d'un traitement correctement exécuté ne constitue pas en soi une erreur médicale.",
+                ]},
+                {"heading": "Le rôle central de l'expertise médicale", "paragraphs": [
+                    "Ces litiges reposent presque toujours sur une expertise médicale indépendante, destinée à déterminer si les soins prodigués respectaient les règles de l'art en vigueur au moment des faits. Le patient peut demander une expertise judiciaire ou solliciter, selon le canton, l'intervention d'un organe cantonal de conciliation en matière médicale avant toute procédure judiciaire.",
+                ]},
+                {"heading": "Les délais à respecter", "paragraphs": [
+                    "Les délais de prescription et les procédures préalables (réclamation, conciliation) varient sensiblement selon que le litige relève du droit privé ou du droit cantonal de la responsabilité de l'État applicable à un établissement public : il est essentiel de vérifier rapidement le régime applicable à sa situation pour ne pas manquer un délai.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Les règles sont-elles les mêmes pour un médecin privé et un hôpital public ?",
+                 "a": "Non, un médecin privé relève des règles du contrat de mandat et de la responsabilité contractuelle du CO, tandis qu'un hôpital public relève généralement du droit cantonal de la responsabilité de l'État, avec des règles et délais propres à chaque canton."},
+                {"q": "Une complication connue d'un traitement est-elle automatiquement une erreur médicale ?",
+                 "a": "Non, la survenance d'une complication statistiquement possible d'un traitement correctement exécuté selon les règles de l'art ne constitue pas en soi une erreur médicale engageant la responsabilité du soignant."},
+                {"q": "Comment prouve-t-on une erreur médicale ?",
+                 "a": "Le plus souvent par une expertise médicale indépendante, destinée à déterminer si les soins prodigués respectaient les règles de l'art en vigueur au moment des faits, complétée par le dossier médical et les témoignages pertinents."},
+            ],
+        },
+    },
+    "consentement-eclaire-patient-droits": {
+        "domaine_id": "droit_medical",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "consentement-eclaire-patient-droits-obligations",
+            "title": "Consentement éclairé du patient : droits et devoirs",
+            "meta": "Obligation d'information du médecin, conséquences d'un consentement insuffisamment éclairé : les règles issues de la protection de la personnalité.",
+            "sections": [
+                {"heading": "Le fondement du consentement éclairé", "paragraphs": [
+                    "Toute atteinte à l'intégrité corporelle d'un patient, y compris un traitement médical nécessaire et correctement exécuté, constitue en principe une atteinte à la personnalité au sens de l'art. 28 CC, qui n'est licite que si le patient y a valablement consenti après avoir reçu une information suffisante, ou si un cas d'urgence le justifie exceptionnellement.",
+                ]},
+                {"heading": "L'étendue du devoir d'information du médecin", "paragraphs": [
+                    "Le médecin doit informer le patient sur le diagnostic, la nature et le but du traitement proposé, ses risques significatifs, ainsi que les alternatives thérapeutiques raisonnables, dans une mesure suffisante pour permettre au patient de prendre une décision libre et éclairée. L'étendue exacte de cette information dépend de la gravité de l'intervention et de son caractère plus ou moins nécessaire.",
+                ]},
+                {"heading": "Les conséquences d'un consentement insuffisamment éclairé", "paragraphs": [
+                    "Si un patient n'a pas reçu une information suffisante avant une intervention, celle-ci peut être considérée comme illicite même si elle a été exécutée sans faute technique, ce qui peut engager la responsabilité du soignant pour l'atteinte à la personnalité qui en résulte, indépendamment de toute erreur dans l'exécution technique du traitement.",
+                ]},
+                {"heading": "Le droit cantonal de la santé", "paragraphs": [
+                    "Chaque canton dispose en outre de sa propre loi sur la santé, qui précise souvent les droits du patient (accès au dossier médical, droit de refuser un traitement, droit à une seconde opinion) de manière complémentaire aux principes généraux du Code civil applicables sur tout le territoire suisse.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un médecin peut-il traiter un patient sans son consentement ?",
+                 "a": "En principe non, sauf cas d'urgence où le patient ne peut pas exprimer sa volonté et où l'intervention est nécessaire pour préserver sa vie ou sa santé, ou en présence de directives anticipées ou d'un représentant thérapeutique désigné."},
+                {"q": "Que se passe-t-il si je n'ai pas été suffisamment informé avant une opération ?",
+                 "a": "L'intervention peut être considérée comme illicite au regard de la protection de la personnalité, même sans faute technique, ce qui peut engager la responsabilité du soignant pour cette atteinte spécifique."},
+                {"q": "Les règles sur le consentement sont-elles identiques dans tous les cantons ?",
+                 "a": "Les principes généraux découlent du Code civil et s'appliquent partout en Suisse, mais chaque canton précise certains droits du patient dans sa propre loi cantonale sur la santé, qui peut varier d'un canton à l'autre."},
+            ],
+        },
+    },
+    "proteger-marque-suisse-depot-ipi": {
+        "domaine_id": "propriete_intellectuelle",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "proteger-marque-suisse-depot-ipi",
+            "title": "Protéger une marque en Suisse : le dépôt à l'IPI",
+            "meta": "Procédure de dépôt auprès de l'Institut fédéral de la propriété intellectuelle, durée de protection, opposition : ce que prévoit la LPM.",
+            "sections": [
+                {"heading": "Le dépôt auprès de l'IPI", "paragraphs": [
+                    "La protection d'une marque en Suisse s'obtient par son enregistrement auprès de l'Institut fédéral de la propriété intellectuelle (IPI), conformément à la loi sur la protection des marques (LPM). La demande doit préciser le signe à protéger et la liste des produits ou services concernés, classés selon la classification internationale de Nice.",
+                ]},
+                {"heading": "L'examen effectué par l'IPI", "paragraphs": [
+                    "L'IPI examine si la marque remplit les conditions formelles et absolues de protection (distinctivité suffisante, absence de caractère trompeur ou contraire à l'ordre public), mais ne vérifie en principe pas d'office l'existence de marques antérieures similaires ou identiques : cette vérification incombe au déposant lui-même, généralement au moyen d'une recherche d'antériorité préalable.",
+                ]},
+                {"heading": "La procédure d'opposition", "paragraphs": [
+                    "Une fois la marque enregistrée et publiée, le titulaire d'une marque antérieure peut former opposition dans un délai de trois mois à compter de la publication, en faisant valoir un risque de confusion entre les deux signes pour des produits ou services identiques ou similaires.",
+                ]},
+                {"heading": "La durée de protection", "paragraphs": [
+                    "La protection d'une marque suisse dure dix ans à compter du dépôt, et peut être renouvelée indéfiniment par périodes de dix ans moyennant le paiement des taxes de renouvellement, à condition que la marque continue d'être utilisée pour éviter le risque d'une radiation pour non-usage après un délai de carence de cinq ans.",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'IPI vérifie-t-il si ma marque entre en conflit avec une marque déjà déposée ?",
+                 "a": "Non, l'IPI n'effectue en principe pas d'examen d'office des marques antérieures : c'est au déposant de vérifier lui-même l'absence de conflit, généralement par une recherche d'antériorité préalable au dépôt."},
+                {"q": "Combien de temps dure la protection d'une marque suisse ?",
+                 "a": "Dix ans à compter du dépôt, renouvelable indéfiniment par périodes de dix ans moyennant le paiement des taxes de renouvellement."},
+                {"q": "Que se passe-t-il si je n'utilise pas ma marque ?",
+                 "a": "Une marque non utilisée pendant une période ininterrompue de cinq ans après l'échéance du délai de carence risque d'être radiée à la demande d'un tiers intéressé, sauf juste motif de non-usage."},
+            ],
+        },
+    },
+    "droit-auteur-duree-protection-exceptions": {
+        "domaine_id": "propriete_intellectuelle",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "droit-auteur-duree-protection-exceptions",
+            "title": "Droit d'auteur : durée de protection et exceptions",
+            "meta": "Protection automatique sans formalité, durée de 70 ans après la mort de l'auteur, usage privé et citation : les règles de la LDA.",
+            "sections": [
+                {"heading": "Une protection automatique", "paragraphs": [
+                    "Contrairement à une marque ou un brevet, le droit d'auteur naît automatiquement dès la création d'une œuvre présentant un caractère individuel, sans aucune formalité de dépôt ou d'enregistrement (loi sur le droit d'auteur, LDA). L'œuvre doit toutefois atteindre un seuil minimal d'originalité pour être protégée.",
+                ]},
+                {"heading": "La durée de protection", "paragraphs": [
+                    "En règle générale, le droit d'auteur protège une œuvre pendant 70 ans à compter du décès de l'auteur, ce qu'on appelle la règle post mortem auctoris. Des durées différentes peuvent s'appliquer à certaines catégories d'œuvres, comme les logiciels informatiques, soumis à des règles spécifiques de la LDA.",
+                ]},
+                {"heading": "Les principales exceptions", "paragraphs": [
+                    "La LDA prévoit des utilisations autorisées sans l'accord de l'auteur, notamment l'usage strictement privé dans le cercle des personnes étroitement liées, la citation à des fins d'illustration ou de discussion dans une mesure justifiée par le but poursuivi, et certains usages pédagogiques ou pour les personnes en situation de handicap, dans les limites fixées par la loi.",
+                ]},
+                {"heading": "Les droits moraux et patrimoniaux", "paragraphs": [
+                    "Le droit d'auteur comprend des droits patrimoniaux (reproduction, mise à disposition, adaptation de l'œuvre), qui peuvent être cédés ou faire l'objet d'une licence, et des droits moraux (droit à la paternité de l'œuvre, droit à son intégrité), qui restent en principe attachés à la personne de l'auteur et ne peuvent pas être cédés de la même manière.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dois-je déposer mon œuvre pour bénéficier du droit d'auteur ?",
+                 "a": "Non, le droit d'auteur naît automatiquement dès la création d'une œuvre présentant un caractère individuel, sans aucune formalité de dépôt ou d'enregistrement."},
+                {"q": "Combien de temps dure la protection d'une œuvre par le droit d'auteur ?",
+                 "a": "En règle générale 70 ans à compter du décès de l'auteur, avec des règles particulières pour certaines catégories d'œuvres comme les logiciels."},
+                {"q": "Puis-je citer un extrait d'une œuvre protégée sans autorisation ?",
+                 "a": "Oui, dans une mesure justifiée par le but d'illustration ou de discussion poursuivi, la citation est une exception reconnue par la LDA, à condition de respecter les usages en matière de citation (source, étendue raisonnable)."},
+            ],
+        },
+    },
 }

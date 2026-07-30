@@ -57,16 +57,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | 🟡 `responsabilite-detenteur-animal-proprietaire` |
 | 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | 🟡 `commandement-payer-opposition` |
 | 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | 🟡 `faillite-personnelle-procedure-consequences` |
-| 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | ⬜ |
-| 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | ⬜ |
-| 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | ⬜ |
-| 34 | Droit fiscal | Imposition à la source : qui est concerné et comment ça marche | LIFD art. 83-101 | ⬜ |
-| 35 | Droit bancaire | Secret bancaire suisse : ce qu'il protège encore aujourd'hui | LB | ⬜ |
-| 36 | Droit bancaire | Litige avec sa banque : ombudsman et voies de recours | Ombudsman des banques suisses | ⬜ |
-| 37 | Droit médical | Erreur médicale : comment faire valoir ses droits | CO art. 41 / droit cantonal | ⬜ |
-| 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | ⬜ |
-| 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | ⬜ |
-| 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | ⬜ |
+| 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | 🟡 `curatelle-quand-comment-prononcee` |
+| 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | 🟡 `mandat-cause-inaptitude-anticiper` |
+| 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | 🟡 `contester-decision-taxation-reclamation` |
+| 34 | Droit fiscal | Imposition à la source : qui est concerné et comment ça marche | LIFD art. 83-101 | 🟡 `imposition-source-qui-concerne-fonctionnement` |
+| 35 | Droit bancaire | Secret bancaire suisse : ce qu'il protège encore aujourd'hui | LB | 🟡 `secret-bancaire-suisse-protection` |
+| 36 | Droit bancaire | Litige avec sa banque : ombudsman et voies de recours | Ombudsman des banques suisses | 🟡 `litige-banque-ombudsman-recours` |
+| 37 | Droit médical | Erreur médicale : comment faire valoir ses droits | CO art. 41 / droit cantonal | 🟡 `erreur-medicale-faire-valoir-droits` |
+| 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | 🟡 `consentement-eclaire-patient-droits` |
+| 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | 🟡 `proteger-marque-suisse-depot-ipi` |
+| 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | 🟡 `droit-auteur-duree-protection-exceptions` |
 | 41 | Droit international privé | Reconnaissance d'un divorce prononcé à l'étranger | LDIP | ⬜ |
 | 42 | Droit international privé | Quel droit s'applique à un contrat international | LDIP | ⬜ |
 | 43 | Procédure civile | Conciliation obligatoire avant un procès civil | CPC art. 197-212 | ⬜ |
@@ -149,3 +149,20 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 - 30/50 sujets rédigés en français. 57 tests toujours au vert, aucun em
   dash, aucun artefact Jinja, titres tous sous 60 caractères.
 - Prochaine étape : lot 4 (articles 31 à 40).
+
+### 2026-07-30 | Lot 4 complet : articles 31 à 40 (FR)
+
+- 10 articles rédigés en français : curatelle (CC art. 390-398), mandat pour
+  cause d'inaptitude (CC art. 360-369), réclamation contre une taxation
+  (LIFD art. 132), imposition à la source (LIFD art. 83 ss), secret bancaire
+  et échange automatique de renseignements (LB art. 47), ombudsman des
+  banques suisses, erreur médicale (distinction médecin privé/hôpital
+  public), consentement éclairé (CC art. 27-28), dépôt de marque à l'IPI
+  (LPM), droit d'auteur (LDA, 70 ans post mortem auctoris).
+- Vigilance non-fabrication particulière sur le secret bancaire (portée
+  réelle après l'EAR, pas de discours nostalgique inexact) et sur la
+  responsabilité médicale (deux régimes distincts privé/public, formulé
+  sans trancher un délai de prescription unique qui n'existe pas en réalité).
+- 40/50 sujets rédigés en français. 57 tests toujours au vert, aucun em
+  dash, aucun artefact Jinja, titres tous sous 60 caractères.
+- Prochaine étape : lot 5, dernier lot (articles 41 à 50).
