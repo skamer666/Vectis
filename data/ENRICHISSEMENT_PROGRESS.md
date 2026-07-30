@@ -1465,3 +1465,24 @@ manquées. La tâche planifiée `vectis-tessin-scraping` n'a plus de raison de t
 (`mcp__scheduled-tasks__delete_scheduled_task`, id `vectis-tessin-scraping`) lors d'une prochaine
 session interactive, ou laissée tourner sans effet (chaque exécution future constatera
 `last_page_imported >= total_pages` et s'arrêtera sans rien committer, comme prévu par son prompt).
+
+## PAUSE DE LA COLLECTE DE DONNÉES (29/07/2026, décision de Greg)
+
+Greg a explicitement décidé de s'arrêter là pour la donnée pour l'instant : **aucune tâche
+planifiée ne doit relancer une collecte ou une extension de périmètre sans instruction
+explicite de sa part.** Concrètement, à ce stade :
+
+- `vectis-tessin-scraping` a été supprimée (import terminé, 902/907, 91/91 pages).
+- `vectis-enrichissement-cabinets` reste désactivée (file d'attente GE/VD épuisée, phase de
+  découverte des 11 autres cantons épuisée aussi — 154 cabinets rattachés, seuil 3+ avocats
+  atteint). **Ne pas la réactiver, ne pas baisser le seuil de 3 avocats, ne pas la rediriger
+  vers BE/VS ni vers les 6 cantons fermés (AG, JU, NE, SO, TG, ZG)** sans que Greg le demande
+  explicitement dans une conversation.
+- Toute future session qui reprend ce projet doit traiter l'état de données actuel (24/26
+  cantons actifs : GE + 23 génériques dont TI/BL/AR/SH ; BE et VS absents ; 6 cantons fermés
+  sans regroupement) comme un point d'arrêt stable, pas comme un chantier à reprendre
+  automatiquement.
+
+Si une nouvelle source de données apparaît (BE, VS, ou une piste pour les 6 cantons fermés),
+ou si Greg redemande explicitement de continuer l'enrichissement, cette pause peut être levée
+— mais l'initiative doit venir de lui.
