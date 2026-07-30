@@ -794,4 +794,318 @@ BLOG_ARTICLES = {
             ],
         },
     },
+    "recours-decision-administrative-delais": {
+        "domaine_id": "droit_administratif",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "recours-decision-administrative-delais-procedure",
+            "title": "Recours contre une décision administrative",
+            "meta": "Délai de recours de 30 jours, autorité compétente, effet suspensif : les règles de la procédure administrative fédérale et cantonale.",
+            "sections": [
+                {"heading": "Le principe : deux niveaux de règles", "paragraphs": [
+                    "La procédure de recours contre une décision d'une autorité fédérale est régie par la loi fédérale sur la procédure administrative (PA). Les décisions des autorités cantonales et communales relèvent en revanche des lois cantonales de procédure administrative, dont le contenu varie d'un canton à l'autre, même si les principes généraux (droit d'être entendu, délai de recours, motivation) sont similaires.",
+                ]},
+                {"heading": "Le délai de recours", "paragraphs": [
+                    "Au niveau fédéral, le délai de recours contre une décision est de 30 jours dès sa notification (art. 50 PA), sauf dispositions spéciales prévoyant un délai différent. Les délais cantonaux sont généralement proches de cette durée, mais peuvent différer : il faut impérativement vérifier le délai indiqué dans l'indication des voies de droit figurant au bas de la décision elle-même.",
+                ]},
+                {"heading": "La forme du recours", "paragraphs": [
+                    "Le recours doit en principe être adressé par écrit à l'autorité de recours désignée dans la décision, contenir des conclusions et une motivation, et être accompagné de la décision attaquée. Une décision qui ne mentionne pas correctement les voies de droit (autorité compétente, délai, forme) ne peut en principe pas causer de préjudice à son destinataire s'il agit dans un délai raisonnable malgré cette lacune.",
+                ]},
+                {"heading": "L'effet suspensif", "paragraphs": [
+                    "Un recours a en principe un effet suspensif, c'est-à-dire qu'il empêche l'exécution de la décision attaquée tant que l'autorité de recours n'a pas statué, sauf si la loi ou l'autorité qui a rendu la décision l'exclut expressément pour des motifs d'intérêt public ou d'urgence (art. 55 PA au niveau fédéral).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quel est le délai pour recourir contre une décision administrative fédérale ?",
+                 "a": "30 jours dès la notification de la décision (art. 50 PA), sauf disposition spéciale contraire. Le délai exact applicable à une décision cantonale ou communale doit être vérifié dans l'indication des voies de droit de la décision elle-même."},
+                {"q": "Le recours empêche-t-il l'exécution de la décision contestée ?",
+                 "a": "En principe oui, un recours a un effet suspensif, sauf si la loi ou l'autorité l'exclut expressément pour des motifs d'intérêt public ou d'urgence."},
+                {"q": "Que faire si la décision ne mentionne pas les voies de droit ?",
+                 "a": "L'absence ou l'inexactitude de l'indication des voies de droit ne doit en principe causer aucun préjudice à son destinataire, à condition qu'il agisse dans un délai raisonnable dès qu'il a connaissance de la possibilité de recourir."},
+                {"q": "Les règles de recours sont-elles les mêmes dans tous les cantons ?",
+                 "a": "Non, seules les décisions d'autorités fédérales relèvent de la loi fédérale sur la procédure administrative (PA) ; chaque canton dispose de sa propre loi de procédure administrative, avec des délais et modalités qui peuvent différer."},
+            ],
+        },
+    },
+    "marches-publics-soumissionnaires-evinces": {
+        "domaine_id": "droit_administratif",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "marches-publics-droits-soumissionnaires-evinces",
+            "title": "Marchés publics : droits des soumissionnaires évincés",
+            "meta": "Adjudication, recours contre l'attribution d'un marché public, délais courts : ce que prévoient l'AIMP et la loi fédérale sur les marchés publics.",
+            "sections": [
+                {"heading": "Le cadre légal", "paragraphs": [
+                    "Les marchés publics en Suisse sont régis, selon le niveau concerné, par la loi fédérale sur les marchés publics (LMP) pour la Confédération, et par l'Accord intercantonal sur les marchés publics (AIMP) et les lois cantonales d'application pour les cantons et communes. Ces règles visent notamment à garantir une concurrence transparente et non discriminatoire entre soumissionnaires.",
+                ]},
+                {"heading": "La décision d'adjudication", "paragraphs": [
+                    "L'attribution du marché à un soumissionnaire fait l'objet d'une décision d'adjudication, notifiée à tous les participants à la procédure. Cette décision doit indiquer les motifs essentiels de l'attribution et les voies de recours ouvertes aux soumissionnaires évincés.",
+                ]},
+                {"heading": "Le recours contre l'adjudication", "paragraphs": [
+                    "Un soumissionnaire évincé peut contester la décision d'adjudication devant l'autorité de recours compétente (tribunal cantonal ou fédéral selon le niveau du marché), généralement dans un délai particulièrement court, de l'ordre de dix à vingt jours selon la législation applicable : il est essentiel de vérifier le délai exact indiqué dans la décision elle-même sans attendre.",
+                ]},
+                {"heading": "Les motifs de recours usuels", "paragraphs": [
+                    "Les recours portent le plus souvent sur le non-respect des critères d'adjudication annoncés, une évaluation incohérente des offres, une exclusion injustifiée de la procédure, ou une violation des principes de transparence et d'égalité de traitement entre soumissionnaires.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai un soumissionnaire évincé peut-il recourir ?",
+                 "a": "Le délai est particulièrement court en matière de marchés publics, généralement de l'ordre de dix à vingt jours selon la législation applicable. Il faut impérativement vérifier le délai exact indiqué dans la décision d'adjudication notifiée."},
+                {"q": "Un marché public cantonal et un marché fédéral suivent-ils les mêmes règles ?",
+                 "a": "Non, un marché fédéral relève de la loi fédérale sur les marchés publics (LMP), tandis qu'un marché cantonal ou communal relève de l'Accord intercantonal sur les marchés publics (AIMP) et de la loi cantonale d'application, dont les modalités procédurales peuvent différer."},
+                {"q": "Sur quels motifs puis-je contester une adjudication ?",
+                 "a": "Notamment le non-respect des critères d'adjudication annoncés, une évaluation incohérente des offres, une exclusion injustifiée, ou une violation des principes de transparence et d'égalité de traitement entre soumissionnaires."},
+            ],
+        },
+    },
+    "permis-sejour-b-c-l-conditions": {
+        "domaine_id": "droit_etrangers",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "permis-sejour-b-c-l-conditions-differences",
+            "title": "Permis de séjour B, C, L : conditions et différences",
+            "meta": "Autorisation de courte durée, de séjour, d'établissement : les différents permis prévus par la loi sur les étrangers et l'intégration.",
+            "sections": [
+                {"heading": "Le permis L, autorisation de courte durée", "paragraphs": [
+                    "Le permis L est délivré pour un séjour d'une durée limitée, généralement liée à un contrat de travail de courte durée ou à un but spécifique et temporaire. Sa durée de validité est en principe limitée à une année, avec possibilité de prolongation dans certaines limites selon la loi sur les étrangers et l'intégration (LEI).",
+                ]},
+                {"heading": "Le permis B, autorisation de séjour", "paragraphs": [
+                    "Le permis B est délivré pour un séjour de plus longue durée, généralement dans le cadre d'une activité lucrative, d'études, ou d'un regroupement familial. Sa durée de validité initiale est en principe d'une année, renouvelable selon le maintien des conditions d'octroi, avec des règles différentes selon que le titulaire est ressortissant de l'UE/AELE ou d'un État tiers.",
+                ]},
+                {"heading": "Le permis C, autorisation d'établissement", "paragraphs": [
+                    "Le permis C confère un droit de séjour stable et à durée indéterminée, avec un accès en principe équivalent à celui des citoyens suisses pour la plupart des activités économiques. Il est en principe accordé après une période de séjour préalable ininterrompue en Suisse, dont la durée varie selon la nationalité du requérant et l'existence d'accords bilatéraux, sous réserve d'un examen de l'intégration.",
+                ]},
+                {"heading": "Le renouvellement et les conditions de maintien", "paragraphs": [
+                    "Le maintien d'un permis B ou L dépend du respect continu des conditions d'octroi (activité lucrative, moyens de subsistance suffisants, absence de motifs de révocation tels qu'une dépendance durable à l'aide sociale ou une atteinte grave à la sécurité et l'ordre publics). Un permis C peut également être révoqué dans des cas graves prévus par la loi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quelle est la différence principale entre le permis B et le permis C ?",
+                 "a": "Le permis B est une autorisation de séjour renouvelable, soumise au maintien des conditions d'octroi, tandis que le permis C est une autorisation d'établissement à durée indéterminée, offrant une plus grande stabilité et un accès en principe équivalent à celui des citoyens suisses pour la plupart des activités économiques."},
+                {"q": "Combien de temps faut-il pour obtenir un permis C ?",
+                 "a": "Cela dépend de la nationalité du requérant et des accords bilatéraux applicables : les durées de séjour préalable exigées varient sensiblement selon les situations. Il convient de vérifier sa situation précise auprès de l'autorité migratoire cantonale compétente."},
+                {"q": "Un permis L peut-il être transformé en permis B ?",
+                 "a": "Dans certains cas, oui, si les conditions d'octroi d'un permis B sont remplies avant l'échéance du permis L, mais cela n'est pas automatique et dépend de la situation individuelle et de la pratique de l'autorité migratoire cantonale."},
+            ],
+        },
+    },
+    "regroupement-familial-faire-venir-famille": {
+        "domaine_id": "droit_etrangers",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "regroupement-familial-faire-venir-sa-famille-suisse",
+            "title": "Regroupement familial : faire venir sa famille",
+            "meta": "Conditions du regroupement familial pour le conjoint et les enfants, délais légaux : ce que prévoit la loi sur les étrangers et l'intégration.",
+            "sections": [
+                {"heading": "Les personnes concernées", "paragraphs": [
+                    "Les art. 42 à 52 LEI règlent le regroupement familial pour le conjoint, le partenaire enregistré et les enfants célibataires de moins de 18 ans d'un ressortissant suisse, d'un titulaire d'une autorisation d'établissement (permis C) ou d'une autorisation de séjour (permis B), avec des conditions qui varient selon le statut du regroupant.",
+                ]},
+                {"heading": "Les conditions générales", "paragraphs": [
+                    "Le regroupement familial suppose en principe l'existence d'un logement approprié, l'absence de dépendance à l'aide sociale, et pour certaines catégories, le respect de délais légaux pour déposer la demande après l'octroi de l'autorisation du regroupant. Des exigences linguistiques peuvent également s'appliquer selon le statut concerné.",
+                ]},
+                {"heading": "Le délai pour déposer la demande", "paragraphs": [
+                    "La loi prévoit des délais dans lesquels la demande de regroupement familial doit être déposée après l'octroi de l'autorisation de séjour ou d'établissement du regroupant, ou après le mariage ou la naissance de l'enfant si ces événements sont postérieurs. Passé ces délais, le regroupement n'est possible qu'en présence de raisons familiales majeures reconnues par la loi.",
+                ]},
+                {"heading": "Le regroupement familial des citoyens de l'UE/AELE", "paragraphs": [
+                    "Les ressortissants de l'UE/AELE bénéficient de règles de regroupement familial plus favorables découlant de l'accord sur la libre circulation des personnes, avec un cercle de personnes pouvant être regroupées plus large que celui prévu par la LEI pour les ressortissants d'États tiers.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qui peut bénéficier du regroupement familial en Suisse ?",
+                 "a": "Le conjoint, le partenaire enregistré et les enfants célibataires de moins de 18 ans d'un ressortissant suisse ou d'un étranger titulaire d'une autorisation de séjour ou d'établissement, selon les conditions des art. 42 à 52 LEI."},
+                {"q": "Existe-t-il un délai pour demander le regroupement familial ?",
+                 "a": "Oui, la loi fixe des délais après l'octroi de l'autorisation du regroupant ou après le mariage ou la naissance de l'enfant. Passé ce délai, le regroupement n'est possible qu'en présence de raisons familiales majeures reconnues par la loi."},
+                {"q": "Les conditions sont-elles les mêmes pour un ressortissant de l'UE et d'un État tiers ?",
+                 "a": "Non, les ressortissants de l'UE/AELE bénéficient de règles plus favorables découlant de l'accord sur la libre circulation des personnes, avec un cercle de personnes regroupables plus large que celui prévu par la LEI pour les États tiers."},
+            ],
+        },
+    },
+    "assurance-perte-gain-maladie-carence": {
+        "domaine_id": "droit_assurances",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "assurance-perte-gain-maladie-delai-carence",
+            "title": "Assurance perte de gain maladie : droits et carence",
+            "meta": "Assurance facultative régie par la LCA, délai de carence, durée des prestations : ce qu'il faut savoir sur la perte de gain maladie.",
+            "sections": [
+                {"heading": "Une assurance de nature contractuelle", "paragraphs": [
+                    "Contrairement à l'assurance-maladie de base, l'assurance perte de gain en cas de maladie n'est en Suisse pas obligatoire pour les employés au niveau fédéral, sauf obligation prévue par une convention collective de travail ou un contrat individuel. Lorsqu'elle existe, elle relève le plus souvent de la loi fédérale sur le contrat d'assurance (LCA), ce qui la distingue des assurances sociales régies par la LPGA.",
+                ]},
+                {"heading": "Le délai de carence", "paragraphs": [
+                    "Le délai de carence est la période, définie par le contrat d'assurance, pendant laquelle aucune prestation n'est versée après le début de l'incapacité de travail. Sa durée varie selon les contrats, allant généralement de quelques jours à plusieurs semaines : il faut se référer aux conditions générales du contrat concerné pour connaître le délai applicable.",
+                ]},
+                {"heading": "La durée des prestations", "paragraphs": [
+                    "La durée pendant laquelle l'indemnité journalière est versée est également fixée par le contrat, le plus souvent limitée à une durée maximale de plusieurs mois à quelques années selon le produit d'assurance souscrit. Cette durée s'articule avec l'obligation de maintien du salaire par l'employeur prévue par l'art. 324a CO en l'absence d'une telle assurance.",
+                ]},
+                {"heading": "L'articulation avec l'obligation légale de l'employeur", "paragraphs": [
+                    "En l'absence d'assurance perte de gain maladie, l'employeur reste tenu de verser le salaire pendant un temps limité en cas d'empêchement de travailler sans faute du travailleur (art. 324a CO), la durée dépendant de l'ancienneté et variant selon les échelles cantonales usuelles (échelle bernoise, bâloise, ou zurichoise selon le canton).",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'assurance perte de gain maladie est-elle obligatoire ?",
+                 "a": "Elle n'est en principe pas obligatoire au niveau fédéral pour les employés, sauf si une convention collective de travail applicable ou le contrat de travail individuel le prévoit."},
+                {"q": "Qu'est-ce que le délai de carence ?",
+                 "a": "La période, fixée par le contrat d'assurance, pendant laquelle aucune indemnité n'est versée après le début de l'incapacité de travail. Sa durée dépend entièrement des conditions contractuelles souscrites."},
+                {"q": "Que se passe-t-il si mon employeur n'a pas souscrit d'assurance perte de gain ?",
+                 "a": "Il reste tenu, selon l'art. 324a CO, de verser le salaire pendant un temps limité en cas d'incapacité de travail sans faute du travailleur, la durée dépendant de l'ancienneté et de l'échelle cantonale applicable."},
+            ],
+        },
+    },
+    "contester-decision-assurance-invalidite": {
+        "domaine_id": "droit_assurances",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "contester-decision-assurance-invalidite",
+            "title": "Contester une décision de l'assurance invalidité",
+            "meta": "Opposition dans les 30 jours, recours devant le tribunal cantonal des assurances : la procédure pour contester une décision de l'AI.",
+            "sections": [
+                {"heading": "Le préavis et la décision", "paragraphs": [
+                    "L'office de l'assurance invalidité (AI) notifie généralement un projet de décision, permettant à l'assuré de faire valoir ses objections avant la décision définitive. Une fois la décision rendue, elle indique les voies de droit disponibles pour la contester.",
+                ]},
+                {"heading": "L'opposition", "paragraphs": [
+                    "L'assuré qui conteste une décision de l'AI peut former opposition par écrit dans les 30 jours suivant sa notification (art. 52 LPGA), en exposant les motifs de sa contestation. L'office AI réexamine alors le dossier et rend une décision sur opposition, qui peut confirmer, modifier ou annuler la décision initiale.",
+                ]},
+                {"heading": "Le recours devant le tribunal cantonal des assurances", "paragraphs": [
+                    "Si la décision sur opposition ne satisfait pas l'assuré, il peut la porter devant le tribunal cantonal des assurances compétent, dans un délai de 30 jours dès sa notification. Un recours ultérieur au Tribunal fédéral reste possible dans les conditions générales du recours en matière de droit public.",
+                ]},
+                {"heading": "L'importance des expertises médicales", "paragraphs": [
+                    "Les décisions de l'AI reposent très largement sur des expertises médicales. Contester une décision suppose souvent de discuter la valeur probante de ces expertises, éventuellement en produisant un avis médical contraire ou en sollicitant une contre-expertise, ce qui rend l'accompagnement par un avocat spécialisé particulièrement utile dans ces procédures.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai puis-je m'opposer à une décision de l'AI ?",
+                 "a": "Dans les 30 jours suivant la notification de la décision, par une opposition écrite et motivée adressée à l'office AI (art. 52 LPGA)."},
+                {"q": "Que se passe-t-il après une opposition ?",
+                 "a": "L'office AI réexamine le dossier et rend une décision sur opposition, qui peut confirmer, modifier ou annuler la décision initiale. Cette nouvelle décision peut ensuite être portée devant le tribunal cantonal des assurances."},
+                {"q": "Pourquoi les expertises médicales sont-elles si importantes dans ces procédures ?",
+                 "a": "Parce que les décisions de l'AI reposent très largement sur elles pour évaluer le taux d'invalidité et la capacité de travail résiduelle. Contester une décision suppose souvent de discuter la valeur probante de ces expertises."},
+            ],
+        },
+    },
+    "responsabilite-civile-indemnisation": {
+        "domaine_id": "droit_responsabilite_civile",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "responsabilite-civile-qui-est-responsable-indemnisation",
+            "title": "Responsabilité civile : qui paie et comment être indemnisé",
+            "meta": "Acte illicite, faute, lien de causalité et dommage : les conditions de la responsabilité civile selon le Code des obligations.",
+            "sections": [
+                {"heading": "Les conditions de la responsabilité pour faute", "paragraphs": [
+                    "L'art. 41 CO pose le principe général de la responsabilité civile pour acte illicite : celui qui cause un dommage à autrui de manière illicite, intentionnellement ou par négligence, est tenu de le réparer. Cette responsabilité suppose la réunion de quatre conditions cumulatives : un acte illicite, une faute, un dommage, et un lien de causalité entre l'acte et le dommage.",
+                ]},
+                {"heading": "Les responsabilités causales", "paragraphs": [
+                    "À côté de la responsabilité pour faute, le droit suisse connaît diverses responsabilités causales, où la faute n'a pas besoin d'être prouvée : responsabilité du détenteur de véhicule automobile (art. 58 LCR), du détenteur d'animal (art. 56 CO), du propriétaire d'ouvrage (art. 58 CO), ou encore la responsabilité du fait des produits.",
+                ]},
+                {"heading": "Le calcul du dommage", "paragraphs": [
+                    "Le dommage réparable comprend en principe le dommage matériel (frais médicaux, perte de gain, dommage ménager), le tort moral en cas d'atteinte grave à la personnalité, et dans certains cas un dommage de rente pour perte de capacité de gain future. Son évaluation précise dépend fortement des circonstances concrètes de chaque cas.",
+                ]},
+                {"heading": "La déclaration et la prescription", "paragraphs": [
+                    "Une créance en dommages-intérêts se prescrit en principe par trois ans à compter du jour où le lésé a eu connaissance du dommage et de la personne responsable, et dans tous les cas par vingt ans à compter du jour où le fait dommageable s'est produit (art. 60 CO), sous réserve de délais plus longs applicables en cas d'infraction pénale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dois-je prouver une faute pour obtenir réparation d'un dommage ?",
+                 "a": "Cela dépend du fondement juridique invoqué : la responsabilité pour faute de l'art. 41 CO exige de prouver une faute, tandis que les responsabilités causales (détenteur de véhicule, d'animal, propriétaire d'ouvrage) n'exigent en principe pas cette preuve."},
+                {"q": "Dans quel délai dois-je agir pour réclamer des dommages-intérêts ?",
+                 "a": "En principe dans les trois ans dès la connaissance du dommage et de la personne responsable, et au plus tard vingt ans après le fait dommageable (art. 60 CO), sous réserve de délais spécifiques en cas d'infraction pénale."},
+                {"q": "Le tort moral est-il toujours indemnisé en cas de dommage ?",
+                 "a": "Non, seulement en cas d'atteinte grave à la personnalité, appréciée selon les circonstances concrètes : gravité de l'atteinte, souffrances endurées, et autres éléments pertinents du cas d'espèce."},
+            ],
+        },
+    },
+    "responsabilite-detenteur-animal-proprietaire": {
+        "domaine_id": "droit_responsabilite_civile",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "responsabilite-detenteur-animal-proprietaire-immobilier",
+            "title": "Responsabilité du détenteur d'animal et du propriétaire",
+            "meta": "Responsabilité causale pour les dommages causés par un animal ou un défaut d'entretien d'un bâtiment, selon le Code des obligations.",
+            "sections": [
+                {"heading": "La responsabilité du détenteur d'animal", "paragraphs": [
+                    "L'art. 56 CO instaure une responsabilité causale du détenteur d'un animal pour le dommage que celui-ci cause, indépendamment d'une faute de sa part. Le détenteur ne peut se libérer qu'en prouvant qu'il a apporté tous les soins commandés par les circonstances pour prévenir le dommage, ou que le dommage se serait produit malgré cette diligence.",
+                ]},
+                {"heading": "La responsabilité du propriétaire d'ouvrage", "paragraphs": [
+                    "L'art. 58 CO prévoit une responsabilité causale du propriétaire d'un bâtiment ou d'un autre ouvrage pour le dommage résultant d'un défaut de construction ou d'un défaut d'entretien. Cette responsabilité vise notamment les accidents causés par un escalier mal entretenu, une façade qui se détache, ou une installation défectueuse.",
+                ]},
+                {"heading": "Le recours contre un tiers responsable", "paragraphs": [
+                    "Le propriétaire qui a indemnisé un lésé conserve en principe un droit de recours contre l'entrepreneur ou l'artisan dont les travaux défectueux sont à l'origine du dommage, selon les règles générales de la responsabilité contractuelle et les délais de prescription applicables à ce recours.",
+                ]},
+                {"heading": "L'importance de l'assurance responsabilité civile privée", "paragraphs": [
+                    "Ces responsabilités causales expliquent l'intérêt d'une assurance responsabilité civile privée pour tout détenteur d'animal ou propriétaire immobilier, qui couvre en principe les dommages causés à des tiers dans les limites et exclusions prévues par le contrat souscrit.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Suis-je responsable si mon chien mord quelqu'un même sans négligence de ma part ?",
+                 "a": "En principe oui : l'art. 56 CO instaure une responsabilité causale du détenteur d'animal, qui ne peut se libérer qu'en prouvant avoir apporté tous les soins commandés par les circonstances pour prévenir le dommage."},
+                {"q": "Qui est responsable si un escalier mal entretenu cause une chute ?",
+                 "a": "Le propriétaire du bâtiment, sur la base de l'art. 58 CO qui institue une responsabilité causale pour les dommages résultant d'un défaut de construction ou d'entretien de l'ouvrage."},
+                {"q": "Le propriétaire peut-il se retourner contre l'entrepreneur responsable du défaut ?",
+                 "a": "Oui, il conserve en principe un droit de recours contre l'entrepreneur ou l'artisan à l'origine du défaut, selon les règles de la responsabilité contractuelle et dans les délais de prescription applicables."},
+            ],
+        },
+    },
+    "commandement-payer-opposition": {
+        "domaine_id": "droit_poursuites_faillite",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "commandement-payer-comment-faire-opposition",
+            "title": "Commandement de payer : comment faire opposition",
+            "meta": "Délai de dix jours, forme de l'opposition, conséquences sur la poursuite : ce que prévoit la loi sur la poursuite pour dettes et la faillite.",
+            "sections": [
+                {"heading": "Ce qu'est un commandement de payer", "paragraphs": [
+                    "Le commandement de payer est l'acte par lequel l'office des poursuites notifie au débiteur, à la demande d'un créancier, une poursuite pour une somme d'argent déterminée (art. 69 ss LP). Il indique le montant réclamé, la cause de l'obligation, et informe le débiteur de son droit de faire opposition.",
+                ]},
+                {"heading": "Le délai et la forme de l'opposition", "paragraphs": [
+                    "Le débiteur qui conteste tout ou partie de la dette peut former opposition dans les dix jours suivant la notification du commandement de payer (art. 74 LP). L'opposition peut être faite verbalement à l'office des poursuites au moment de la notification, ou par écrit dans le délai, sans devoir être motivée.",
+                ]},
+                {"heading": "Les effets de l'opposition", "paragraphs": [
+                    "Une opposition valablement formée suspend la poursuite : le créancier ne peut pas continuer la procédure sans obtenir au préalable la mainlevée de l'opposition auprès du juge compétent, par une procédure de mainlevée provisoire ou définitive selon la nature de sa créance, ou par une action en reconnaissance de dette.",
+                ]},
+                {"heading": "Ne pas ignorer un commandement de payer", "paragraphs": [
+                    "Même une dette contestée à tort ou une poursuite abusive doit être traitée par une opposition dans le délai légal : l'absence d'opposition permet en principe au créancier de continuer la poursuite sans que le débiteur puisse encore faire valoir ses objections sur le fond de la créance à ce stade de la procédure.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je faire opposition à un commandement de payer ?",
+                 "a": "Dans les dix jours suivant sa notification (art. 74 LP), verbalement à l'office des poursuites ou par écrit, sans devoir motiver l'opposition."},
+                {"q": "Que se passe-t-il si je ne fais pas opposition ?",
+                 "a": "Le créancier peut en principe continuer la poursuite sans que vous puissiez encore contester la créance à ce stade de la procédure. Il est donc essentiel d'agir dans le délai même si vous estimez la poursuite infondée."},
+                {"q": "L'opposition met-elle fin définitivement à la poursuite ?",
+                 "a": "Non, elle la suspend : le créancier peut demander au juge la mainlevée de l'opposition, ou intenter une action en reconnaissance de dette, pour pouvoir continuer la poursuite."},
+                {"q": "Dois-je motiver mon opposition ?",
+                 "a": "Non, l'opposition n'a pas besoin d'être motivée pour être valable (art. 74 LP). Une simple déclaration d'opposition dans le délai suffit à suspendre la poursuite."},
+            ],
+        },
+    },
+    "faillite-personnelle-procedure-consequences": {
+        "domaine_id": "droit_poursuites_faillite",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "faillite-personnelle-procedure-consequences",
+            "title": "Faillite personnelle : procédure et conséquences",
+            "meta": "Ouverture de la faillite, effets sur le patrimoine du débiteur, liquidation par l'office des faillites : ce que prévoit la LP.",
+            "sections": [
+                {"heading": "Comment une faillite personnelle est ouverte", "paragraphs": [
+                    "La faillite d'une personne physique peut être prononcée à la suite d'une poursuite par voie de faillite, réservée à certaines catégories de débiteurs (notamment les personnes inscrites au registre du commerce), ou dans des cas particuliers prévus par la loi sur la poursuite pour dettes et la faillite (LP), sur décision du juge de la faillite (art. 171 ss LP).",
+                ]},
+                {"heading": "Les effets de l'ouverture de la faillite", "paragraphs": [
+                    "Dès l'ouverture de la faillite, le débiteur perd le droit de disposer de ses biens saisissables, qui sont dévolus à la masse en faillite gérée par l'office des faillites. Les poursuites individuelles en cours contre le débiteur sont suspendues au profit de la procédure collective de faillite.",
+                ]},
+                {"heading": "La liquidation", "paragraphs": [
+                    "L'office des faillites établit l'inventaire des biens du débiteur, procède à leur réalisation, et répartit le produit entre les créanciers selon l'ordre des classes de créanciers prévu par la loi (art. 219 LP), certaines créances comme les salaires ou les créances alimentaires bénéficiant d'un privilège de rang supérieur.",
+                ]},
+                {"heading": "L'acte de défaut de biens", "paragraphs": [
+                    "Lorsque le produit de la liquidation ne suffit pas à couvrir l'intégralité des créances, les créanciers non désintéressés reçoivent un acte de défaut de biens, qui atteste du montant impayé et leur permet, sous certaines conditions et dans certains délais, d'introduire une nouvelle poursuite si le débiteur revient à meilleure fortune.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Toute personne peut-elle faire l'objet d'une poursuite par voie de faillite ?",
+                 "a": "Non, la poursuite par voie de faillite est réservée à certaines catégories de débiteurs, notamment les personnes inscrites au registre du commerce ; les autres personnes physiques sont en principe poursuivies par voie de saisie."},
+                {"q": "Que se passe-t-il avec mes biens en cas de faillite personnelle ?",
+                 "a": "Vos biens saisissables sont dévolus à la masse en faillite, gérée par l'office des faillites, qui les réalise et en répartit le produit entre les créanciers selon l'ordre légal des classes de créanciers."},
+                {"q": "Qu'est-ce qu'un acte de défaut de biens ?",
+                 "a": "Le document délivré à un créancier lorsque le produit de la liquidation ne suffit pas à couvrir sa créance, attestant du montant impayé et pouvant permettre, sous conditions, une nouvelle poursuite si le débiteur revient à meilleure fortune."},
+            ],
+        },
+    },
 }

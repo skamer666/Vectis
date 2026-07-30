@@ -47,16 +47,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | 🟡 `responsabilite-administrateurs-sa` |
 | 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | 🟡 `retrait-permis-duree-infraction` |
 | 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | 🟡 `accident-route-qui-paie-declaration` |
-| 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | ⬜ |
-| 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | ⬜ |
-| 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | ⬜ |
-| 24 | Droit des étrangers | Regroupement familial : faire venir sa famille en Suisse | LEI art. 42-52 | ⬜ |
-| 25 | Droit des assurances | Assurance perte de gain maladie : droits et délai de carence | LCA | ⬜ |
-| 26 | Droit des assurances | Contester une décision de l'assurance invalidité | LPGA art. 52 | ⬜ |
-| 27 | Responsabilité civile | Qui est responsable et comment être indemnisé | CO art. 41 ss | ⬜ |
-| 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | ⬜ |
-| 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | ⬜ |
-| 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | ⬜ |
+| 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | 🟡 `recours-decision-administrative-delais` |
+| 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | 🟡 `marches-publics-soumissionnaires-evinces` |
+| 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | 🟡 `permis-sejour-b-c-l-conditions` |
+| 24 | Droit des étrangers | Regroupement familial : faire venir sa famille en Suisse | LEI art. 42-52 | 🟡 `regroupement-familial-faire-venir-famille` |
+| 25 | Droit des assurances | Assurance perte de gain maladie : droits et délai de carence | LCA | 🟡 `assurance-perte-gain-maladie-carence` |
+| 26 | Droit des assurances | Contester une décision de l'assurance invalidité | LPGA art. 52 | 🟡 `contester-decision-assurance-invalidite` |
+| 27 | Responsabilité civile | Qui est responsable et comment être indemnisé | CO art. 41 ss | 🟡 `responsabilite-civile-indemnisation` |
+| 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | 🟡 `responsabilite-detenteur-animal-proprietaire` |
+| 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | 🟡 `commandement-payer-opposition` |
+| 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | 🟡 `faillite-personnelle-procedure-consequences` |
 | 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | ⬜ |
 | 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | ⬜ |
 | 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | ⬜ |
@@ -131,3 +131,21 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 - 20/50 sujets rédigés en français. 57 tests toujours au vert, aucun em dash,
   aucun artefact Jinja, titres tous sous 60 caractères.
 - Prochaine étape : lot 3 (articles 21 à 30).
+
+### 2026-07-30 | Lot 3 complet : articles 21 à 30 (FR)
+
+- 10 articles rédigés en français : recours administratif (PA art. 50, 55),
+  marchés publics (AIMP/LMP), permis de séjour B/C/L (LEI), regroupement
+  familial (LEI art. 42-52), assurance perte de gain maladie (LCA, art. 324a
+  CO), contestation de décision AI (LPGA art. 52), responsabilité civile
+  générale (CO art. 41, 60), responsabilité du détenteur d'animal et du
+  propriétaire d'ouvrage (CO art. 56, 58), commandement de payer (LP art.
+  69-74), faillite personnelle (LP art. 171 ss).
+- Attention particulière portée à la non-fabrication sur les délais de
+  recours en marchés publics et sur les durées de séjour pour le permis C
+  (fortement variables selon nationalité/accords bilatéraux) : formulations
+  volontairement générales plutôt qu'un chiffre précis non garanti exact
+  dans tous les cas.
+- 30/50 sujets rédigés en français. 57 tests toujours au vert, aucun em
+  dash, aucun artefact Jinja, titres tous sous 60 caractères.
+- Prochaine étape : lot 4 (articles 31 à 40).
