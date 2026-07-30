@@ -419,7 +419,7 @@ def render(template_name, ctx):
 def gen_home():
     for lang in LANGS:
         path = home_path(lang)
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['site_name']} — {i18n.UI[lang]['tagline']}",
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['site_name']} | {i18n.UI[lang]['tagline']}",
                         i18n.UI[lang]["tagline"] + ". " + pt.canton_intro(lang, i18n.CANTONS["GE"][lang]["name"], CANTON_COUNTS["GE"]),
                         hreflang_for(home_path))
         ctx["intro_text"] = i18n.UI[lang]["tagline"] + "."
@@ -533,11 +533,11 @@ def gen_ge_avocats(start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = avocat_path("GE", row["_slug"], lang)
-            title = f"{nom} — {i18n.UI[lang]['firm'] if not row.get('etude') else row.get('etude')} | {i18n.UI[lang]['canton']} {canton_name}"
+            title = f"{nom} | {i18n.UI[lang]['firm'] if not row.get('etude') else row.get('etude')} | {i18n.UI[lang]['canton']} {canton_name}"
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=row.get("etude") or None,
                                            ville=row.get("ville") or None,
                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids])[:158]
-            ctx = base_ctx(lang, path, f"{nom} — {i18n.UI[lang]['site_name']}", desc,
+            ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
                             {lg: avocat_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
@@ -615,7 +615,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)[:158]
-            ctx = base_ctx(lang, path, f"{nom_etude} — {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
+            ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
                             {lg: etude_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
@@ -762,7 +762,7 @@ def gen_domain_hubs():
             dname = i18n.DOMAINES[did][lang]["name"]
             path = domaine_path(did, lang)
             desc = pt.domaine_intro(lang, dname)[:158]
-            ctx = base_ctx(lang, path, f"{dname} — {i18n.UI[lang]['find_a_lawyer']} | Legatis", desc,
+            ctx = base_ctx(lang, path, f"{dname} | {i18n.UI[lang]['find_a_lawyer']} | Legatis", desc,
                             {lg: domaine_path(did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["intro_text"] = pt.domaine_intro(lang, dname)
@@ -1136,7 +1136,7 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)[:158]
-            ctx = base_ctx(lang, path, f"{nom_etude} — {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
+            ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
                             {lg: etude_path(code, f["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
@@ -1233,7 +1233,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
                                            ville=row.get("ville") or None,
                                            fonction=row.get("fonction") or None)[:158]
-            ctx = base_ctx(lang, path, f"{nom} — {i18n.UI[lang]['site_name']}", desc,
+            ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
                             {lg: avocat_path(code, row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name

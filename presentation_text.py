@@ -137,28 +137,28 @@ def cross_fallback_text(lang, domaine_name, canton_name):
     if lang == "fr":
         return (f"Aucun avocat de {canton_name} n'a encore de spécialité renseignée pour "
                 f"{domaine_name.lower()} dans nos données. Voici l'ensemble des avocats inscrits au "
-                f"registre du canton — contactez-les directement pour vérifier leur domaine de "
+                f"registre du canton. Contactez-les directement pour vérifier leur domaine de "
                 f"compétence.")
     if lang == "de":
         return (f"Für {domaine_name} liegen im Kanton {canton_name} noch keine erfassten "
-                f"Fachgebietsangaben vor. Hier finden Sie das vollständige kantonale Register — bitte "
+                f"Fachgebietsangaben vor. Hier finden Sie das vollständige kantonale Register. Bitte "
                 f"fragen Sie direkt nach dem Fachgebiet.")
     if lang == "it":
         return (f"Per {domaine_name.lower()} non risultano ancora ambiti di competenza registrati nel "
-                f"Cantone {canton_name}. Ecco l'elenco completo del registro cantonale — vi invitiamo a "
+                f"Cantone {canton_name}. Ecco l'elenco completo del registro cantonale. Vi invitiamo a "
                 f"verificare direttamente l'ambito di competenza.")
     return (f"No lawyer in {canton_name} yet has a recorded specialty for {domaine_name.lower()} in our "
-            f"data. Here is the full cantonal register — please confirm their practice area directly.")
+            f"data. Here is the full cantonal register. Please confirm their practice area directly.")
 
 
 def cross_h1(lang, domaine_name, canton_name):
     if lang == "fr":
-        return f"{domaine_name} à {canton_name} — trouver un avocat"
+        return f"{domaine_name} à {canton_name} : trouver un avocat"
     if lang == "de":
-        return f"{domaine_name} in {canton_name} — Anwalt finden"
+        return f"{domaine_name} in {canton_name}: Anwalt finden"
     if lang == "it":
-        return f"{domaine_name} a {canton_name} — trova un avvocato"
-    return f"{domaine_name} in {canton_name} — find a lawyer"
+        return f"{domaine_name} a {canton_name}: trova un avvocato"
+    return f"{domaine_name} in {canton_name}: find a lawyer"
 
 
 def seniority_text(lang, year):

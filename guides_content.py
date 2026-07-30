@@ -15,14 +15,14 @@ GUIDES = {
             "sections": [
                 {"heading": "Vérifier l'inscription au registre cantonal", "paragraphs": [
                     "En Suisse, seuls les avocats inscrits à un registre cantonal peuvent représenter des clients devant les tribunaux civils et pénaux. Cette inscription, régie par la loi fédérale sur la libre circulation des avocats (LLCA), garantit que l'avocat est titulaire du brevet, qu'il est soumis à la surveillance de l'autorité cantonale et qu'il dispose d'une assurance responsabilité civile professionnelle.",
-                    "Un avocat inscrit dans un canton peut plaider dans toute la Suisse. L'inscription au registre est donc le premier critère à vérifier — c'est précisément la donnée de base que Legatis référence, canton par canton, à partir des registres officiels.",
+                    "Un avocat inscrit dans un canton peut plaider dans toute la Suisse. L'inscription au registre est donc le premier critère à vérifier. C'est précisément la donnée de base que Legatis référence, canton par canton, à partir des registres officiels.",
                 ]},
                 {"heading": "Le domaine de compétence avant tout", "paragraphs": [
-                    "Le droit suisse est vaste : un excellent avocat en droit des sociétés n'est pas nécessairement le bon choix pour un divorce. Cherchez un avocat qui traite régulièrement des affaires comparables à la vôtre — droit du travail, droit du bail, droit pénal, droit de la famille, etc.",
+                    "Le droit suisse est vaste : un excellent avocat en droit des sociétés n'est pas nécessairement le bon choix pour un divorce. Cherchez un avocat qui traite régulièrement des affaires comparables à la vôtre : droit du travail, droit du bail, droit pénal, droit de la famille, etc.",
                     "Certains avocats portent le titre d'« avocat spécialiste FSA », décerné par la Fédération Suisse des Avocats dans des domaines déterminés après une formation approfondie et une pratique attestée. Ce titre est un signal fiable de spécialisation, mais son absence ne signifie pas incompétence : beaucoup d'excellents praticiens n'ont simplement pas entrepris cette certification.",
                 ]},
                 {"heading": "Langue, proximité et relation de confiance", "paragraphs": [
-                    "La procédure se déroule dans la langue officielle du canton où siège le tribunal. Un avocat qui pratique cette langue — et qui peut vous expliquer le dossier dans la vôtre — est un atout concret. La proximité géographique compte aussi : un avocat local connaît les tribunaux, les usages et les délais du canton.",
+                    "La procédure se déroule dans la langue officielle du canton où siège le tribunal. Un avocat qui pratique cette langue (et qui peut vous expliquer le dossier dans la vôtre) est un atout concret. La proximité géographique compte aussi : un avocat local connaît les tribunaux, les usages et les délais du canton.",
                     "Enfin, la relation de confiance est déterminante. Un premier entretien permet de juger si l'avocat écoute, explique clairement votre situation juridique, vos chances de succès et sa méthode de facturation. N'hésitez pas à poser ces questions d'emblée : un avocat sérieux y répond volontiers.",
                 ]},
             ],
@@ -44,15 +44,15 @@ GUIDES = {
             "sections": [
                 {"heading": "Eintrag im kantonalen Anwaltsregister prüfen", "paragraphs": [
                     "In der Schweiz dürfen nur im kantonalen Anwaltsregister eingetragene Anwältinnen und Anwälte Parteien vor Zivil- und Strafgerichten vertreten. Der Registereintrag richtet sich nach dem Bundesgesetz über die Freizügigkeit der Anwältinnen und Anwälte (BGFA) und garantiert Anwaltspatent, kantonale Aufsicht und eine Berufshaftpflichtversicherung.",
-                    "Wer in einem Kanton eingetragen ist, darf in der ganzen Schweiz vor Gericht auftreten. Der Registereintrag ist somit das erste Kriterium — genau diese Grundlage erfasst Legatis Kanton für Kanton aus den offiziellen Registern.",
+                    "Wer in einem Kanton eingetragen ist, darf in der ganzen Schweiz vor Gericht auftreten. Der Registereintrag ist somit das erste Kriterium. Genau diese Grundlage erfasst Legatis Kanton für Kanton aus den offiziellen Registern.",
                 ]},
                 {"heading": "Das Fachgebiet ist entscheidend", "paragraphs": [
-                    "Das schweizerische Recht ist breit: Eine hervorragende Gesellschaftsrechtlerin ist nicht zwingend die richtige Wahl für eine Scheidung. Suchen Sie jemanden, der regelmässig Fälle wie Ihren bearbeitet — Arbeitsrecht, Mietrecht, Strafrecht, Familienrecht usw.",
-                    "Einige tragen den Titel «Fachanwältin/Fachanwalt SAV», den der Schweizerische Anwaltsverband nach vertiefter Weiterbildung und nachgewiesener Praxis in bestimmten Rechtsgebieten verleiht. Der Titel ist ein verlässliches Spezialisierungssignal — sein Fehlen bedeutet aber keine Inkompetenz.",
+                    "Das schweizerische Recht ist breit: Eine hervorragende Gesellschaftsrechtlerin ist nicht zwingend die richtige Wahl für eine Scheidung. Suchen Sie jemanden, der regelmässig Fälle wie Ihren bearbeitet: Arbeitsrecht, Mietrecht, Strafrecht, Familienrecht usw.",
+                    "Einige tragen den Titel «Fachanwältin/Fachanwalt SAV», den der Schweizerische Anwaltsverband nach vertiefter Weiterbildung und nachgewiesener Praxis in bestimmten Rechtsgebieten verleiht. Der Titel ist ein verlässliches Spezialisierungssignal. Sein Fehlen bedeutet aber keine Inkompetenz.",
                 ]},
                 {"heading": "Sprache, Nähe und Vertrauen", "paragraphs": [
                     "Das Verfahren wird in der Amtssprache des Gerichtskantons geführt. Eine Anwältin, die diese Sprache beherrscht und Ihnen den Fall in Ihrer Sprache erklären kann, ist ein konkreter Vorteil. Auch die örtliche Nähe zählt: Wer lokal praktiziert, kennt Gerichte, Gepflogenheiten und Fristen des Kantons.",
-                    "Entscheidend ist schliesslich das Vertrauensverhältnis. Ein Erstgespräch zeigt, ob die Anwältin zuhört, Ihre Rechtslage und Erfolgsaussichten klar erklärt und die Abrechnung transparent darlegt. Fragen Sie das ruhig direkt — seriöse Anwältinnen und Anwälte antworten gern.",
+                    "Entscheidend ist schliesslich das Vertrauensverhältnis. Ein Erstgespräch zeigt, ob die Anwältin zuhört, Ihre Rechtslage und Erfolgsaussichten klar erklärt und die Abrechnung transparent darlegt. Fragen Sie das ruhig direkt. Seriöse Anwältinnen und Anwälte antworten gern.",
                 ]},
             ],
             "faq": [
@@ -73,14 +73,14 @@ GUIDES = {
             "sections": [
                 {"heading": "Verificare l'iscrizione all'albo cantonale", "paragraphs": [
                     "In Svizzera solo gli avvocati iscritti a un albo cantonale possono rappresentare le parti davanti ai tribunali civili e penali. L'iscrizione, disciplinata dalla legge federale sulla libera circolazione degli avvocati (LLCA), garantisce il possesso della patente, la vigilanza dell'autorità cantonale e un'assicurazione di responsabilità civile professionale.",
-                    "Un avvocato iscritto in un cantone può patrocinare in tutta la Svizzera. L'iscrizione all'albo è dunque il primo criterio da verificare — ed è esattamente il dato di base che Legatis censisce, cantone per cantone, dagli albi ufficiali.",
+                    "Un avvocato iscritto in un cantone può patrocinare in tutta la Svizzera. L'iscrizione all'albo è dunque il primo criterio da verificare, ed è esattamente il dato di base che Legatis censisce, cantone per cantone, dagli albi ufficiali.",
                 ]},
                 {"heading": "Prima di tutto l'ambito di competenza", "paragraphs": [
-                    "Il diritto svizzero è vasto: un eccellente avvocato societario non è necessariamente la scelta giusta per un divorzio. Cercate chi tratta regolarmente casi simili al vostro — diritto del lavoro, diritto di locazione, diritto penale, diritto di famiglia, ecc.",
+                    "Il diritto svizzero è vasto: un eccellente avvocato societario non è necessariamente la scelta giusta per un divorzio. Cercate chi tratta regolarmente casi simili al vostro: diritto del lavoro, diritto di locazione, diritto penale, diritto di famiglia, ecc.",
                     "Alcuni portano il titolo di «avvocato specialista FSA», conferito dalla Federazione Svizzera degli Avvocati in ambiti determinati dopo una formazione approfondita e una pratica comprovata. È un segnale affidabile di specializzazione, ma la sua assenza non significa incompetenza.",
                 ]},
                 {"heading": "Lingua, vicinanza e fiducia", "paragraphs": [
-                    "La procedura si svolge nella lingua ufficiale del cantone del tribunale. Un avvocato che padroneggia quella lingua — e può spiegarvi il caso nella vostra — è un vantaggio concreto. Conta anche la vicinanza: chi esercita localmente conosce tribunali, prassi e termini del cantone.",
+                    "La procedura si svolge nella lingua ufficiale del cantone del tribunale. Un avvocato che padroneggia quella lingua (e può spiegarvi il caso nella vostra) è un vantaggio concreto. Conta anche la vicinanza: chi esercita localmente conosce tribunali, prassi e termini del cantone.",
                     "Infine è determinante il rapporto di fiducia. Un primo colloquio permette di capire se l'avvocato ascolta, spiega chiaramente la situazione giuridica, le probabilità di successo e le modalità di fatturazione. Ponete queste domande subito: un professionista serio risponde volentieri.",
                 ]},
             ],
@@ -102,14 +102,14 @@ GUIDES = {
             "sections": [
                 {"heading": "Check the cantonal bar registry", "paragraphs": [
                     "In Switzerland, only lawyers entered in a cantonal bar registry may represent clients before the civil and criminal courts. Registration is governed by the Federal Act on the Free Movement of Lawyers (BGFA/LLCA) and guarantees that the lawyer holds the bar licence, is supervised by the cantonal authority and carries professional liability insurance.",
-                    "A lawyer registered in one canton may appear before courts anywhere in Switzerland. Registry status is therefore the first thing to verify — and it is precisely the base data Legatis lists, canton by canton, from the official registers.",
+                    "A lawyer registered in one canton may appear before courts anywhere in Switzerland. Registry status is therefore the first thing to verify, and it is precisely the base data Legatis lists, canton by canton, from the official registers.",
                 ]},
                 {"heading": "Practice area comes first", "paragraphs": [
-                    "Swiss law is broad: an excellent corporate lawyer is not necessarily the right choice for a divorce. Look for someone who regularly handles cases like yours — employment law, tenancy law, criminal law, family law, and so on.",
+                    "Swiss law is broad: an excellent corporate lawyer is not necessarily the right choice for a divorce. Look for someone who regularly handles cases like yours: employment law, tenancy law, criminal law, family law, and so on.",
                     "Some lawyers hold the title of \"Certified Specialist SBA\" (avocat spécialiste FSA / Fachanwalt SAV), awarded by the Swiss Bar Association in defined fields after advanced training and proven practice. The title is a reliable signal of specialisation, though its absence does not imply incompetence.",
                 ]},
                 {"heading": "Language, proximity and trust", "paragraphs": [
-                    "Proceedings are conducted in the official language of the canton where the court sits. A lawyer who works in that language — and can explain your case in yours — is a concrete advantage. Local proximity also matters: a local practitioner knows the courts, customs and deadlines of the canton.",
+                    "Proceedings are conducted in the official language of the canton where the court sits. A lawyer who works in that language (and can explain your case in yours) is a concrete advantage. Local proximity also matters: a local practitioner knows the courts, customs and deadlines of the canton.",
                     "Finally, trust is decisive. A first meeting shows whether the lawyer listens, explains your legal position and prospects clearly, and is transparent about billing. Ask these questions upfront: a serious lawyer will answer them readily.",
                 ]},
             ],
@@ -133,7 +133,7 @@ GUIDES = {
             "sections": [
                 {"heading": "Pas de tarif unique : les facteurs qui comptent", "paragraphs": [
                     "Il n'existe pas de tarif horaire fédéral unique pour les avocats suisses. Les honoraires dépendent du canton, de l'expérience et de la spécialisation de l'avocat, de la complexité et de l'urgence de l'affaire, ainsi que de la valeur litigieuse. Plusieurs cantons connaissent des tarifs ou usages pour les dépens alloués en procédure, mais la facturation entre l'avocat et son client reste largement contractuelle.",
-                    "La règle d'or : demander dès le premier entretien comment l'avocat facture (taux horaire, forfait, ou combinaison), à quelle fréquence il rend compte des heures effectuées, et à combien il estime — même grossièrement — le coût total prévisible de votre affaire.",
+                    "La règle d'or : demander dès le premier entretien comment l'avocat facture (taux horaire, forfait, ou combinaison), à quelle fréquence il rend compte des heures effectuées, et à combien il estime (même grossièrement) le coût total prévisible de votre affaire.",
                 ]},
                 {"heading": "Provision, note d'honoraires et contestation", "paragraphs": [
                     "Il est usuel que l'avocat demande une provision, c'est-à-dire une avance sur honoraires, avant de commencer le travail. Les prestations sont ensuite décomptées au fur et à mesure. Vous avez droit à un décompte détaillé des opérations effectuées.",
@@ -164,14 +164,14 @@ GUIDES = {
             "sections": [
                 {"heading": "Kein Einheitstarif: diese Faktoren zählen", "paragraphs": [
                     "Es gibt keinen schweizweiten Einheits-Stundenansatz für Anwältinnen und Anwälte. Das Honorar hängt vom Kanton, von Erfahrung und Spezialisierung, von Komplexität und Dringlichkeit des Falls sowie vom Streitwert ab. Mehrere Kantone kennen Tarife für die Parteientschädigung im Prozess; die Abrechnung zwischen Anwalt und Klient bleibt aber weitgehend Vertragssache.",
-                    "Die goldene Regel: Fragen Sie schon im Erstgespräch, wie abgerechnet wird (Stundenansatz, Pauschale oder Kombination), wie oft über die geleisteten Stunden Rechenschaft abgelegt wird und wie hoch die Gesamtkosten voraussichtlich — auch grob — ausfallen dürften.",
+                    "Die goldene Regel: Fragen Sie schon im Erstgespräch, wie abgerechnet wird (Stundenansatz, Pauschale oder Kombination), wie oft über die geleisteten Stunden Rechenschaft abgelegt wird und wie hoch die Gesamtkosten voraussichtlich (auch grob) ausfallen dürften.",
                 ]},
                 {"heading": "Kostenvorschuss, Honorarnote und Beanstandung", "paragraphs": [
                     "Üblich ist ein Kostenvorschuss vor Arbeitsbeginn. Die Leistungen werden danach laufend abgerechnet. Sie haben Anspruch auf eine detaillierte Aufstellung der erbrachten Leistungen.",
                     "Bei Streit über eine Honorarnote bieten die meisten Kantone und Anwaltsverbände ein Moderations- oder Schlichtungsverfahren an, in dem eine unabhängige Stelle die Rechnung prüft.",
                 ]},
                 {"heading": "Erfolgshonorar: was zulässig ist", "paragraphs": [
-                    "Das schweizerische Recht verbietet das pactum de quota litis — die Vergütung ausschliesslich durch eine Beteiligung am Prozessergebnis. Zulässig ist unter bestimmten Voraussetzungen hingegen eine Erfolgsprämie zusätzlich zu einem Grundhonorar, das mindestens die Kosten des Anwalts deckt (pactum de palmario).",
+                    "Das schweizerische Recht verbietet das pactum de quota litis: die Vergütung ausschliesslich durch eine Beteiligung am Prozessergebnis. Zulässig ist unter bestimmten Voraussetzungen hingegen eine Erfolgsprämie zusätzlich zu einem Grundhonorar, das mindestens die Kosten des Anwalts deckt (pactum de palmario).",
                     "Denken Sie auch an die Rechtsschutzversicherung: Wurde sie vor dem Streitfall abgeschlossen, kann sie die Anwaltskosten je nach Police ganz oder teilweise übernehmen. Prüfen Sie Ihre Deckung, bevor Kosten entstehen.",
                 ]},
             ],
@@ -195,7 +195,7 @@ GUIDES = {
             "sections": [
                 {"heading": "Nessuna tariffa unica: i fattori che contano", "paragraphs": [
                     "Non esiste una tariffa oraria federale unica per gli avvocati svizzeri. L'onorario dipende dal cantone, dall'esperienza e specializzazione dell'avvocato, dalla complessità e urgenza del caso e dal valore litigioso. Diversi cantoni prevedono tariffe per le ripetibili processuali, ma la fatturazione tra avvocato e cliente resta in gran parte contrattuale.",
-                    "La regola d'oro: chiedere fin dal primo colloquio come l'avvocato fattura (tariffa oraria, forfait o combinazione), con quale frequenza rende conto delle ore svolte e a quanto stima — anche approssimativamente — il costo totale prevedibile.",
+                    "La regola d'oro: chiedere fin dal primo colloquio come l'avvocato fattura (tariffa oraria, forfait o combinazione), con quale frequenza rende conto delle ore svolte e a quanto stima (anche approssimativamente) il costo totale prevedibile.",
                 ]},
                 {"heading": "Anticipo, nota d'onorario e contestazione", "paragraphs": [
                     "È usuale che l'avvocato chieda un anticipo prima di iniziare il lavoro. Le prestazioni vengono poi conteggiate progressivamente. Avete diritto a un conteggio dettagliato delle operazioni svolte.",
@@ -226,14 +226,14 @@ GUIDES = {
             "sections": [
                 {"heading": "No single tariff: the factors that matter", "paragraphs": [
                     "There is no single federal hourly rate for Swiss lawyers. Fees depend on the canton, the lawyer's experience and specialisation, the complexity and urgency of the matter, and the amount in dispute. Several cantons have tariffs for court-awarded party costs, but billing between lawyer and client remains largely a matter of contract.",
-                    "The golden rule: ask at the first meeting how the lawyer bills (hourly rate, flat fee or a combination), how often they report hours worked, and what — even roughly — the total foreseeable cost of your matter is likely to be.",
+                    "The golden rule: ask at the first meeting how the lawyer bills (hourly rate, flat fee or a combination), how often they report hours worked, and what (even roughly) the total foreseeable cost of your matter is likely to be.",
                 ]},
                 {"heading": "Retainer, invoices and disputes", "paragraphs": [
-                    "It is customary for a Swiss lawyer to request a retainer — an advance on fees — before starting work. Services are then billed as the matter progresses, and you are entitled to a detailed statement of the work performed.",
+                    "It is customary for a Swiss lawyer to request a retainer (an advance on fees) before starting work. Services are then billed as the matter progresses, and you are entitled to a detailed statement of the work performed.",
                     "If you dispute an invoice, most cantons and bar associations offer a moderation or conciliation procedure through which an independent body reviews the bill.",
                 ]},
                 {"heading": "Success fees: what is allowed", "paragraphs": [
-                    "Swiss law prohibits the pactum de quota litis — an agreement under which the lawyer is paid exclusively through a share of the outcome. However, case law allows, under certain conditions, a success premium on top of a base fee that at least covers the lawyer's costs (pactum de palmario).",
+                    "Swiss law prohibits the pactum de quota litis: an agreement under which the lawyer is paid exclusively through a share of the outcome. However, case law allows, under certain conditions, a success premium on top of a base fee that at least covers the lawyer's costs (pactum de palmario).",
                     "Also consider legal expenses insurance: if taken out before the dispute arose, it may cover all or part of your lawyer's fees depending on the policy. Check your coverage before incurring costs.",
                 ]},
             ],
@@ -265,7 +265,7 @@ GUIDES = {
                     "Première condition, l'indigence : vos revenus et votre fortune, après déduction du minimum vital élargi, ne vous permettent pas d'assumer les frais du procès sans entamer les moyens nécessaires à votre entretien et à celui de votre famille. L'examen est concret et tient compte de votre situation réelle.",
                     "Seconde condition : la cause ne doit pas être dépourvue de chances de succès. Il ne s'agit pas de garantir la victoire, mais d'écarter les procédures qu'une personne raisonnable, plaidant à ses propres frais, ne mènerait pas. En matière pénale, la défense d'office est régie par l'art. 132 du Code de procédure pénale (CPP).",
                 ]},
-                {"heading": "Comment déposer la demande — et ce qu'il faut savoir", "paragraphs": [
+                {"heading": "Comment déposer la demande, et ce qu'il faut savoir", "paragraphs": [
                     "La demande s'adresse au tribunal saisi de la cause (ou compétent pour la trancher), en règle générale par écrit, avec les justificatifs de votre situation financière : revenus, charges, fortune, dettes. Elle peut être déposée avant ou pendant la procédure.",
                     "Attention : l'assistance judiciaire n'est pas définitivement acquise. Si vous revenez à meilleure fortune, le canton peut vous demander le remboursement des prestations avancées (art. 123 CPC). Elle ne couvre par ailleurs pas, en principe, les dépens dus à la partie adverse si vous perdez le procès.",
                 ]},
@@ -288,13 +288,13 @@ GUIDES = {
             "sections": [
                 {"heading": "Ein verfassungsmässiges Recht", "paragraphs": [
                     "Wer nicht über die erforderlichen Mittel verfügt, hat Anspruch auf unentgeltliche Rechtspflege, sofern das Rechtsbegehren nicht aussichtslos erscheint. Dieses Recht garantiert Art. 29 Abs. 3 der Bundesverfassung; im Zivilverfahren konkretisieren es die Art. 117 ff. der Zivilprozessordnung (ZPO).",
-                    "Die unentgeltliche Rechtspflege umfasst die Befreiung von Vorschüssen und Gerichtskosten sowie — wenn es zur Wahrung der Rechte notwendig ist — die Bestellung eines unentgeltlichen Rechtsbeistands, der vom Staat entschädigt wird.",
+                    "Die unentgeltliche Rechtspflege umfasst die Befreiung von Vorschüssen und Gerichtskosten sowie (wenn es zur Wahrung der Rechte notwendig ist) die Bestellung eines unentgeltlichen Rechtsbeistands, der vom Staat entschädigt wird.",
                 ]},
                 {"heading": "Die zwei Voraussetzungen: Mittellosigkeit und Erfolgsaussichten", "paragraphs": [
-                    "Erste Voraussetzung ist die Mittellosigkeit: Einkommen und Vermögen erlauben es Ihnen — nach Abzug des erweiterten Existenzminimums — nicht, die Prozesskosten zu tragen, ohne die für Sie und Ihre Familie nötigen Mittel anzugreifen. Die Prüfung erfolgt konkret anhand Ihrer tatsächlichen Verhältnisse.",
+                    "Erste Voraussetzung ist die Mittellosigkeit: Einkommen und Vermögen erlauben es Ihnen (nach Abzug des erweiterten Existenzminimums) nicht, die Prozesskosten zu tragen, ohne die für Sie und Ihre Familie nötigen Mittel anzugreifen. Die Prüfung erfolgt konkret anhand Ihrer tatsächlichen Verhältnisse.",
                     "Zweite Voraussetzung: Das Begehren darf nicht aussichtslos sein. Verlangt wird kein sicherer Sieg; ausgeschlossen werden Verfahren, die eine vernünftige Partei auf eigene Kosten nicht führen würde. Im Strafverfahren richtet sich die amtliche Verteidigung nach Art. 132 der Strafprozessordnung (StPO).",
                 ]},
-                {"heading": "So stellen Sie das Gesuch — und das sollten Sie wissen", "paragraphs": [
+                {"heading": "So stellen Sie das Gesuch, und das sollten Sie wissen", "paragraphs": [
                     "Das Gesuch ist beim mit der Sache befassten Gericht einzureichen, in der Regel schriftlich, mit Belegen zur finanziellen Situation: Einkommen, Auslagen, Vermögen, Schulden. Es kann vor oder während des Verfahrens gestellt werden.",
                     "Wichtig: Die unentgeltliche Rechtspflege ist nicht endgültig erworben. Gelangen Sie später zu besseren finanziellen Verhältnissen, kann der Kanton die Rückerstattung verlangen (Art. 123 ZPO). Sie deckt zudem grundsätzlich nicht die Parteientschädigung an die Gegenseite bei Prozessverlust.",
                 ]},
@@ -323,7 +323,7 @@ GUIDES = {
                     "Prima condizione, l'indigenza: reddito e patrimonio, dedotto il minimo vitale allargato, non permettono di sostenere le spese processuali senza intaccare i mezzi necessari al mantenimento proprio e della famiglia. L'esame è concreto e tiene conto della situazione reale.",
                     "Seconda condizione: la causa non deve essere priva di probabilità di successo. Non si esige la certezza della vittoria; si escludono le procedure che una persona ragionevole, a proprie spese, non intraprenderebbe. In materia penale, la difesa d'ufficio è retta dall'art. 132 del Codice di procedura penale (CPP).",
                 ]},
-                {"heading": "Come presentare la domanda — e cosa sapere", "paragraphs": [
+                {"heading": "Come presentare la domanda, e cosa sapere", "paragraphs": [
                     "La domanda va presentata al tribunale investito della causa, di regola per scritto, con i giustificativi della situazione finanziaria: redditi, oneri, patrimonio, debiti. Può essere presentata prima o durante la procedura.",
                     "Attenzione: il gratuito patrocinio non è acquisito definitivamente. Se tornate a miglior fortuna, il cantone può chiedervi il rimborso delle prestazioni anticipate (art. 123 CPC). Di regola non copre inoltre le ripetibili dovute alla controparte in caso di soccombenza.",
                 ]},
@@ -349,10 +349,10 @@ GUIDES = {
                     "Legal aid covers exemption from court advances and costs and, where necessary to protect the person's rights, the appointment of a court-appointed lawyer paid by the State.",
                 ]},
                 {"heading": "The two conditions: lack of means and prospects of success", "paragraphs": [
-                    "First condition — lack of means: your income and assets, after deduction of an extended subsistence minimum, do not allow you to bear the costs of the proceedings without touching the resources needed to support yourself and your family. The assessment is concrete and based on your actual situation.",
+                    "First condition, lack of means: your income and assets, after deduction of an extended subsistence minimum, do not allow you to bear the costs of the proceedings without touching the resources needed to support yourself and your family. The assessment is concrete and based on your actual situation.",
                     "Second condition: the case must not be devoid of prospects of success. This does not require certain victory; it excludes proceedings that a reasonable person paying their own way would not pursue. In criminal matters, court-appointed defence is governed by art. 132 of the Criminal Procedure Code (CrimPC).",
                 ]},
-                {"heading": "How to apply — and what to keep in mind", "paragraphs": [
+                {"heading": "How to apply, and what to keep in mind", "paragraphs": [
                     "The application is filed with the court dealing with the case, generally in writing, with full supporting evidence of your financial situation: income, expenses, assets, debts. It can be filed before or during proceedings.",
                     "Note that legal aid is not definitively acquired: if your financial situation later improves, the canton may claim reimbursement of the amounts advanced (art. 123 CPC). It also does not, as a rule, cover the party costs you may owe the opposing side if you lose.",
                 ]},
@@ -379,7 +379,7 @@ GUIDES = {
                     "Le titre d'« avocat spécialiste FSA » est décerné par la Fédération Suisse des Avocats (FSA), l'organisation faîtière de la profession. Il atteste qu'un avocat possède, dans un domaine déterminé du droit, une expérience pratique substantielle et une formation approfondie, validées selon les exigences de la FSA.",
                     "Les domaines de spécialisation couverts incluent notamment le droit du travail, le droit de la famille, le droit pénal, le droit de la construction et de l'immobilier, le droit des successions, le droit de la responsabilité civile et des assurances, ou encore le droit fiscal.",
                 ]},
-                {"heading": "Ce que le titre garantit — et ce qu'il ne dit pas", "paragraphs": [
+                {"heading": "Ce que le titre garantit, et ce qu'il ne dit pas", "paragraphs": [
                     "Le titre garantit un socle vérifié : un nombre significatif de dossiers traités dans le domaine, une formation spécialisée et un maintien à jour des connaissances. C'est un repère utile, en particulier pour des affaires complexes où la spécialisation fait la différence.",
                     "À l'inverse, l'absence du titre ne signifie pas qu'un avocat n'est pas spécialisé : de nombreux praticiens expérimentés concentrent de fait leur activité sur un ou deux domaines sans avoir entrepris la certification. Le titre est un signal positif fiable, pas un critère d'exclusion.",
                 ]},
@@ -402,7 +402,7 @@ GUIDES = {
                     "Den Titel «Fachanwältin/Fachanwalt SAV» verleiht der Schweizerische Anwaltsverband (SAV), die Dachorganisation des Berufsstands. Er bescheinigt in einem bestimmten Rechtsgebiet substanzielle praktische Erfahrung und eine vertiefte Weiterbildung, geprüft nach den Anforderungen des SAV.",
                     "Zu den abgedeckten Fachgebieten gehören namentlich Arbeitsrecht, Familienrecht, Strafrecht, Bau- und Immobilienrecht, Erbrecht, Haftpflicht- und Versicherungsrecht sowie Steuerrecht.",
                 ]},
-                {"heading": "Was der Titel garantiert — und was nicht", "paragraphs": [
+                {"heading": "Was der Titel garantiert, und was nicht", "paragraphs": [
                     "Der Titel garantiert einen geprüften Sockel: eine erhebliche Zahl bearbeiteter Fälle im Gebiet, eine spezialisierte Ausbildung und aktuell gehaltenes Wissen. Er ist ein nützlicher Anhaltspunkt, besonders bei komplexen Fällen, in denen Spezialisierung den Unterschied macht.",
                     "Umgekehrt bedeutet das Fehlen des Titels nicht, dass jemand nicht spezialisiert wäre: Viele erfahrene Praktikerinnen und Praktiker konzentrieren ihre Tätigkeit faktisch auf ein bis zwei Gebiete, ohne die Zertifizierung absolviert zu haben. Der Titel ist ein verlässliches positives Signal, kein Ausschlusskriterium.",
                 ]},
@@ -425,7 +425,7 @@ GUIDES = {
                     "Il titolo di «avvocato specialista FSA» è conferito dalla Federazione Svizzera degli Avvocati (FSA), l'organizzazione mantello della professione. Attesta, in un ambito determinato del diritto, un'esperienza pratica sostanziale e una formazione approfondita, verificate secondo i requisiti della FSA.",
                     "Gli ambiti di specializzazione coperti comprendono in particolare il diritto del lavoro, il diritto di famiglia, il diritto penale, il diritto della costruzione e immobiliare, il diritto successorio, la responsabilità civile e le assicurazioni, nonché il diritto fiscale.",
                 ]},
-                {"heading": "Cosa garantisce il titolo — e cosa non dice", "paragraphs": [
+                {"heading": "Cosa garantisce il titolo, e cosa non dice", "paragraphs": [
                     "Il titolo garantisce una base verificata: un numero significativo di casi trattati nell'ambito, una formazione specializzata e conoscenze aggiornate. È un riferimento utile, soprattutto nei casi complessi in cui la specializzazione fa la differenza.",
                     "Al contrario, l'assenza del titolo non significa che un avvocato non sia specializzato: molti professionisti esperti concentrano di fatto la loro attività su uno o due ambiti senza aver intrapreso la certificazione. Il titolo è un segnale positivo affidabile, non un criterio di esclusione.",
                 ]},
@@ -448,7 +448,7 @@ GUIDES = {
                     "The title of \"Certified Specialist SBA\" (avocat spécialiste FSA / Fachanwalt SAV) is awarded by the Swiss Bar Association (SBA), the umbrella organisation of the profession. It certifies that a lawyer has substantial practical experience and advanced training in a defined field of law, validated according to the SBA's requirements.",
                     "Covered specialisation fields notably include employment law, family law, criminal law, construction and real estate law, inheritance law, liability and insurance law, and tax law.",
                 ]},
-                {"heading": "What the title guarantees — and what it does not say", "paragraphs": [
+                {"heading": "What the title guarantees, and what it does not say", "paragraphs": [
                     "The title guarantees a verified foundation: a significant number of cases handled in the field, specialised training and up-to-date knowledge. It is a useful marker, especially for complex matters where specialisation makes the difference.",
                     "Conversely, the absence of the title does not mean a lawyer is not specialised: many experienced practitioners concentrate their work on one or two fields without having pursued certification. The title is a reliable positive signal, not an exclusion criterion.",
                 ]},
@@ -470,12 +470,12 @@ GUIDES = {
             "meta": "Documents à réunir, questions à poser, points à clarifier : comment tirer le meilleur parti d'un premier rendez-vous chez un avocat en Suisse.",
             "sections": [
                 {"heading": "Réunir les documents et poser la chronologie", "paragraphs": [
-                    "Avant le rendez-vous, rassemblez tous les documents liés à votre affaire : contrats, courriers et e-mails, décisions reçues, procès-verbaux, certificats, photos — même les pièces qui vous semblent défavorables. Un avocat conseille d'autant mieux qu'il a une vision complète, et le secret professionnel (art. 321 du Code pénal, art. 13 LLCA) protège tout ce que vous lui confiez.",
-                    "Préparez aussi une chronologie écrite des faits, d'une page si possible : dates, événements, personnes impliquées. C'est le document qui fait gagner le plus de temps — donc d'honoraires — lors du premier entretien.",
+                    "Avant le rendez-vous, rassemblez tous les documents liés à votre affaire : contrats, courriers et e-mails, décisions reçues, procès-verbaux, certificats, photos, même les pièces qui vous semblent défavorables. Un avocat conseille d'autant mieux qu'il a une vision complète, et le secret professionnel (art. 321 du Code pénal, art. 13 LLCA) protège tout ce que vous lui confiez.",
+                    "Préparez aussi une chronologie écrite des faits, d'une page si possible : dates, événements, personnes impliquées. C'est le document qui fait gagner le plus de temps (donc d'honoraires) lors du premier entretien.",
                 ]},
                 {"heading": "Les questions à poser d'emblée", "paragraphs": [
                     "Clarifiez trois points dès la première consultation : l'évaluation de votre situation (quels sont mes droits, mes risques, mes chances ?), la stratégie envisagée (négociation, procédure, médiation ?) et le coût (mode de facturation, provision demandée, estimation du budget total).",
-                    "Demandez aussi s'il existe des délais à respecter : en droit suisse, de nombreux droits se périment ou se prescrivent — délais pour contester un congé, agir en justice après une résiliation, faire opposition à une ordonnance pénale, etc. C'est souvent l'information la plus urgente d'un premier entretien.",
+                    "Demandez aussi s'il existe des délais à respecter : en droit suisse, de nombreux droits se périment ou se prescrivent : délais pour contester un congé, agir en justice après une résiliation, faire opposition à une ordonnance pénale, etc. C'est souvent l'information la plus urgente d'un premier entretien.",
                 ]},
                 {"heading": "Après l'entretien", "paragraphs": [
                     "Un avocat sérieux vous confirme généralement par écrit le mandat, son étendue et les conditions de facturation. Lisez ce document avant de le signer, et n'hésitez pas à demander des explications sur les points obscurs. Vous restez libre de ne pas donner suite ou de consulter un autre avocat pour un second avis.",
@@ -483,7 +483,7 @@ GUIDES = {
             ],
             "faq": [
                 {"q": "La première consultation est-elle payante ?",
-                 "a": "Cela dépend des cabinets : certains offrent un premier entretien bref, d'autres le facturent au tarif horaire ou à un forfait annoncé. Demandez-le explicitement lors de la prise de rendez-vous — un cabinet sérieux répond clairement."},
+                 "a": "Cela dépend des cabinets : certains offrent un premier entretien bref, d'autres le facturent au tarif horaire ou à un forfait annoncé. Demandez-le explicitement lors de la prise de rendez-vous. Un cabinet sérieux répond clairement."},
                 {"q": "Que dois-je apporter au premier rendez-vous ?",
                  "a": "Tous les documents liés à l'affaire (contrats, courriers, décisions, preuves), une pièce d'identité, et si possible une chronologie écrite des faits. Apportez aussi les pièces qui vous semblent défavorables : l'avocat doit tout connaître pour bien vous conseiller."},
                 {"q": "Ce que je dis à un avocat est-il confidentiel ?",
@@ -498,12 +498,12 @@ GUIDES = {
             "meta": "Unterlagen, Fragen, Kostenpunkte: So holen Sie in der Schweiz das Beste aus dem ersten Termin bei einer Anwältin oder einem Anwalt heraus.",
             "sections": [
                 {"heading": "Unterlagen sammeln und Chronologie erstellen", "paragraphs": [
-                    "Sammeln Sie vor dem Termin alle Unterlagen zu Ihrem Fall: Verträge, Briefe und E-Mails, erhaltene Entscheide, Protokolle, Zeugnisse, Fotos — auch Dokumente, die Ihnen ungünstig erscheinen. Je vollständiger das Bild, desto besser die Beratung; das Berufsgeheimnis (Art. 321 StGB, Art. 13 BGFA) schützt alles, was Sie anvertrauen.",
-                    "Erstellen Sie zudem eine schriftliche Chronologie der Ereignisse, wenn möglich auf einer Seite: Daten, Vorgänge, beteiligte Personen. Kein anderes Dokument spart im Erstgespräch mehr Zeit — und damit Honorar.",
+                    "Sammeln Sie vor dem Termin alle Unterlagen zu Ihrem Fall: Verträge, Briefe und E-Mails, erhaltene Entscheide, Protokolle, Zeugnisse, Fotos, auch Dokumente, die Ihnen ungünstig erscheinen. Je vollständiger das Bild, desto besser die Beratung; das Berufsgeheimnis (Art. 321 StGB, Art. 13 BGFA) schützt alles, was Sie anvertrauen.",
+                    "Erstellen Sie zudem eine schriftliche Chronologie der Ereignisse, wenn möglich auf einer Seite: Daten, Vorgänge, beteiligte Personen. Kein anderes Dokument spart im Erstgespräch mehr Zeit, und damit Honorar.",
                 ]},
                 {"heading": "Diese Fragen gehören ins Erstgespräch", "paragraphs": [
                     "Klären Sie drei Punkte von Anfang an: die Einschätzung Ihrer Lage (Rechte, Risiken, Erfolgsaussichten), die Strategie (Verhandlung, Prozess, Mediation?) und die Kosten (Abrechnungsart, Kostenvorschuss, geschätztes Gesamtbudget).",
-                    "Fragen Sie auch nach laufenden Fristen: Im schweizerischen Recht verwirken oder verjähren viele Ansprüche — Fristen zur Anfechtung einer Kündigung, für Klagen, für die Einsprache gegen einen Strafbefehl usw. Das ist oft die dringendste Information des ersten Gesprächs.",
+                    "Fragen Sie auch nach laufenden Fristen: Im schweizerischen Recht verwirken oder verjähren viele Ansprüche: Fristen zur Anfechtung einer Kündigung, für Klagen, für die Einsprache gegen einen Strafbefehl usw. Das ist oft die dringendste Information des ersten Gesprächs.",
                 ]},
                 {"heading": "Nach dem Gespräch", "paragraphs": [
                     "Eine seriöse Anwältin bestätigt Mandat, Umfang und Abrechnungskonditionen in der Regel schriftlich. Lesen Sie dieses Dokument vor der Unterschrift und fragen Sie bei Unklarheiten nach. Es steht Ihnen frei, nicht weiterzumachen oder für eine Zweitmeinung eine andere Kanzlei zu konsultieren.",
@@ -515,7 +515,7 @@ GUIDES = {
                 {"q": "Was soll ich zum ersten Termin mitbringen?",
                  "a": "Alle Unterlagen zum Fall (Verträge, Korrespondenz, Entscheide, Beweismittel), einen Ausweis und wenn möglich eine schriftliche Chronologie. Bringen Sie auch ungünstig erscheinende Dokumente mit: Nur wer alles kennt, berät richtig."},
                 {"q": "Ist das Gespräch mit einem Anwalt vertraulich?",
-                 "a": "Ja. Das Anwaltsgeheimnis ist durch Art. 321 StGB und Art. 13 BGFA geschützt. Es umfasst alles, was Sie der Anwältin im Rahmen ihrer Berufstätigkeit anvertrauen — auch wenn kein Mandat zustande kommt."},
+                 "a": "Ja. Das Anwaltsgeheimnis ist durch Art. 321 StGB und Art. 13 BGFA geschützt. Es umfasst alles, was Sie der Anwältin im Rahmen ihrer Berufstätigkeit anvertrauen, auch wenn kein Mandat zustande kommt."},
                 {"q": "Kann ich den Anwalt während des Verfahrens wechseln?",
                  "a": "Ja, jederzeit. Sie schulden das Honorar für die bereits geleistete Arbeit; die neue Anwältin übernimmt das Dossier, und die bisherige muss die Akten herausgeben."},
             ],
@@ -526,12 +526,12 @@ GUIDES = {
             "meta": "Documenti da riunire, domande da porre, punti da chiarire: come sfruttare al meglio il primo appuntamento da un avvocato in Svizzera.",
             "sections": [
                 {"heading": "Riunire i documenti e stendere la cronologia", "paragraphs": [
-                    "Prima dell'appuntamento, raccogliete tutti i documenti legati al caso: contratti, lettere ed e-mail, decisioni ricevute, verbali, certificati, foto — anche i documenti che vi sembrano sfavorevoli. L'avvocato consiglia tanto meglio quanto più completo è il quadro, e il segreto professionale (art. 321 del Codice penale, art. 13 LLCA) protegge tutto ciò che gli confidate.",
-                    "Preparate anche una cronologia scritta dei fatti, se possibile di una pagina: date, eventi, persone coinvolte. È il documento che fa risparmiare più tempo — e quindi onorari — nel primo colloquio.",
+                    "Prima dell'appuntamento, raccogliete tutti i documenti legati al caso: contratti, lettere ed e-mail, decisioni ricevute, verbali, certificati, foto, anche i documenti che vi sembrano sfavorevoli. L'avvocato consiglia tanto meglio quanto più completo è il quadro, e il segreto professionale (art. 321 del Codice penale, art. 13 LLCA) protegge tutto ciò che gli confidate.",
+                    "Preparate anche una cronologia scritta dei fatti, se possibile di una pagina: date, eventi, persone coinvolte. È il documento che fa risparmiare più tempo (e quindi onorari) nel primo colloquio.",
                 ]},
                 {"heading": "Le domande da porre subito", "paragraphs": [
                     "Chiarite tre punti fin dalla prima consulenza: la valutazione della situazione (diritti, rischi, probabilità di successo), la strategia prevista (trattativa, procedura, mediazione?) e i costi (modalità di fatturazione, anticipo richiesto, stima del budget totale).",
-                    "Chiedete anche se vi sono termini da rispettare: nel diritto svizzero molti diritti si estinguono o si prescrivono — termini per contestare una disdetta, per agire in giudizio, per fare opposizione a un decreto d'accusa, ecc. È spesso l'informazione più urgente del primo colloquio.",
+                    "Chiedete anche se vi sono termini da rispettare: nel diritto svizzero molti diritti si estinguono o si prescrivono: termini per contestare una disdetta, per agire in giudizio, per fare opposizione a un decreto d'accusa, ecc. È spesso l'informazione più urgente del primo colloquio.",
                 ]},
                 {"heading": "Dopo il colloquio", "paragraphs": [
                     "Un avvocato serio conferma di regola per scritto il mandato, la sua estensione e le condizioni di fatturazione. Leggete il documento prima di firmarlo e chiedete spiegazioni sui punti poco chiari. Restate liberi di non dare seguito o di consultare un altro avvocato per un secondo parere.",
@@ -554,12 +554,12 @@ GUIDES = {
             "meta": "Documents to gather, questions to ask, points to clarify: how to get the most out of a first meeting with a lawyer in Switzerland.",
             "sections": [
                 {"heading": "Gather documents and write a timeline", "paragraphs": [
-                    "Before the meeting, collect every document related to your matter: contracts, letters and e-mails, decisions received, minutes, certificates, photos — including documents that seem unfavourable to you. A lawyer advises best with the full picture, and professional secrecy (art. 321 of the Criminal Code, art. 13 BGFA/LLCA) protects everything you disclose.",
-                    "Also prepare a written timeline of events, ideally one page: dates, facts, people involved. No other document saves more time — and therefore fees — in a first meeting.",
+                    "Before the meeting, collect every document related to your matter: contracts, letters and e-mails, decisions received, minutes, certificates, photos, including documents that seem unfavourable to you. A lawyer advises best with the full picture, and professional secrecy (art. 321 of the Criminal Code, art. 13 BGFA/LLCA) protects everything you disclose.",
+                    "Also prepare a written timeline of events, ideally one page: dates, facts, people involved. No other document saves more time (and therefore fees) in a first meeting.",
                 ]},
                 {"heading": "Questions to ask upfront", "paragraphs": [
                     "Clarify three things at the first consultation: the assessment of your situation (rights, risks, prospects), the proposed strategy (negotiation, litigation, mediation?) and the cost (billing method, retainer requested, estimated total budget).",
-                    "Also ask about deadlines: under Swiss law many rights lapse or become time-barred — deadlines to challenge a termination, to file suit, to oppose a summary penalty order, and so on. This is often the most urgent information of a first meeting.",
+                    "Also ask about deadlines: under Swiss law many rights lapse or become time-barred: deadlines to challenge a termination, to file suit, to oppose a summary penalty order, and so on. This is often the most urgent information of a first meeting.",
                 ]},
                 {"heading": "After the meeting", "paragraphs": [
                     "A serious lawyer will generally confirm the mandate, its scope and billing terms in writing. Read that document before signing and ask about anything unclear. You remain free not to proceed, or to consult another lawyer for a second opinion.",
@@ -567,7 +567,7 @@ GUIDES = {
             ],
             "faq": [
                 {"q": "Is the first consultation free?",
-                 "a": "It depends on the firm: some offer a brief first meeting, others bill it at their hourly rate or an announced flat fee. Ask explicitly when booking the appointment — a serious firm will answer clearly."},
+                 "a": "It depends on the firm: some offer a brief first meeting, others bill it at their hourly rate or an announced flat fee. Ask explicitly when booking the appointment. A serious firm will answer clearly."},
                 {"q": "What should I bring to the first meeting?",
                  "a": "All documents related to the matter (contracts, correspondence, decisions, evidence), an identity document and, if possible, a written timeline of events. Bring unfavourable documents too: the lawyer needs the full picture to advise you properly."},
                 {"q": "Is what I tell a lawyer confidential?",

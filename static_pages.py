@@ -51,9 +51,9 @@ _PAGES = {
                     "Nous documentons ces règles ici plutôt que de simplement les appliquer en silence, "
                     "parce que la façon dont un fait est établi compte autant que le fait lui-même.",
                     "Une ancienneté ou une année de fondation n'est affichée que si elle est explicitement "
-                    "écrite dans le registre officiel ou sur le site du cabinet — jamais déduite d'une "
+                    "écrite dans le registre officiel ou sur le site du cabinet, jamais déduite d'une "
                     "formulation vague comme « depuis plus de 20 ans ». Un effectif d'équipe n'est affiché "
-                    "que s'il est annoncé en toutes lettres par le cabinet — jamais compté à partir du "
+                    "que s'il est annoncé en toutes lettres par le cabinet, jamais compté à partir du "
                     "nombre de profils listés sur une page « équipe », qui peut être partielle ou datée.",
                     "Quand une information vient du site web d'un cabinet plutôt que du registre officiel, "
                     "la fiche l'indique explicitement et mentionne la date à laquelle le site a été "
@@ -66,14 +66,14 @@ _PAGES = {
                     "partiellement.",
                     "Une fiche sans aucun signal réel (ni ancienneté, ni langue, ni domaine de compétence, "
                     "ni enrichissement vérifié) est automatiquement exclue des moteurs de recherche "
-                    "(balise « noindex ») jusqu'à ce qu'une donnée réelle soit disponible — nous préférons "
+                    "(balise « noindex ») jusqu'à ce qu'une donnée réelle soit disponible. Nous préférons "
                     "une fiche incomplète mais honnête à une fiche complétée artificiellement.",
                 )},
                 {"heading": "Indépendance", "paragraphs": _p(
                     "Aucun cabinet ni avocat ne peut payer pour être mieux classé, apparaître en premier, "
                     "ou faire modifier son texte de présentation dans un sens plus favorable. Le classement "
                     "au sein d'un canton ou d'une ville suit un ordre alphabétique ou le nombre de membres "
-                    "d'une étude — jamais un critère commercial. Aucun avis ni note n'est affiché sur les "
+                    "d'une étude, jamais un critère commercial. Aucun avis ni note n'est affiché sur les "
                     "fiches : nous n'en collectons pas, donc nous n'en inventons pas.",
                 )},
                 {"heading": "Fraîcheur des données", "paragraphs": _p(
@@ -103,7 +103,7 @@ _PAGES = {
                     "Legatis stützt sich auf die offiziellen Register der kantonalen Anwaltskammern und "
                     f"Justizbehörden, für die derzeit {len(COVERED_CANTONS_FR)} erfassten Kantone. Die Daten "
                     "werden automatisiert bereinigt (Dublettenentfernung, Adressnormalisierung, Ausschluss "
-                    "von Test- oder fehlerhaften Einträgen) — es werden keine Angaben erfunden oder "
+                    "von Test- oder fehlerhaften Einträgen). Es werden keine Angaben erfunden oder "
                     "geschätzt, die nicht in der Quelle vorhanden sind.",
                 )},
                 {"heading": "Erfasste Kantone", "paragraphs": _p(
@@ -119,9 +119,9 @@ _PAGES = {
                     "anzuwenden, weil die Art und Weise, wie ein Fakt belegt ist, ebenso zählt wie der Fakt "
                     "selbst.",
                     "Ein Gründungsjahr oder eine Berufserfahrung wird nur angezeigt, wenn sie ausdrücklich "
-                    "im offiziellen Register oder auf der Website der Kanzlei steht — nie abgeleitet aus "
+                    "im offiziellen Register oder auf der Website der Kanzlei steht, nie abgeleitet aus "
                     "einer vagen Formulierung wie «seit über 20 Jahren». Eine Teamgrösse wird nur "
-                    "angezeigt, wenn sie von der Kanzlei ausdrücklich genannt wird — nie aus der Anzahl der "
+                    "angezeigt, wenn sie von der Kanzlei ausdrücklich genannt wird, nie aus der Anzahl der "
                     "auf einer Team-Seite gelisteten Profile gezählt, die unvollständig oder veraltet sein "
                     "kann.",
                     "Stammt eine Angabe von der Website einer Kanzlei statt aus dem offiziellen Register, "
@@ -134,14 +134,14 @@ _PAGES = {
                     "teilweise genutzt zu werden.",
                     "Eine Seite ohne jedes reale Signal (weder Berufserfahrung noch Sprache, Fachgebiet "
                     "oder verifizierte Anreicherung) wird automatisch von Suchmaschinen ausgeschlossen "
-                    "(«noindex»-Tag), bis eine reale Angabe verfügbar ist — wir bevorzugen eine "
+                    "(«noindex»-Tag), bis eine reale Angabe verfügbar ist. Wir bevorzugen eine "
                     "unvollständige, aber ehrliche Seite gegenüber einer künstlich aufgefüllten.",
                 )},
                 {"heading": "Unabhängigkeit", "paragraphs": _p(
                     "Keine Kanzlei und keine Anwältin kann dafür bezahlen, besser platziert zu werden, "
                     "zuerst zu erscheinen, oder ihren Vorstellungstext in einem günstigeren Sinn ändern zu "
                     "lassen. Die Reihenfolge innerhalb eines Kantons oder einer Ortschaft folgt dem "
-                    "Alphabet oder der Anzahl der Kanzleimitglieder — nie einem kommerziellen Kriterium. "
+                    "Alphabet oder der Anzahl der Kanzleimitglieder, nie einem kommerziellen Kriterium. "
                     "Es werden keine Bewertungen oder Noten angezeigt: Wir erheben keine, also erfinden "
                     "wir keine.",
                 )},
@@ -151,7 +151,7 @@ _PAGES = {
                 )},
                 {"heading": "Bekannte Einschränkungen", "paragraphs": _p(
                     "Fachgebiete sind nur für einen Teil der Genfer Anwältinnen und Anwälte erfasst, für "
-                    "die übrigen 19 Kantone noch gar nicht — diese Angabe fehlt schlicht in den "
+                    "die übrigen 19 Kantone noch gar nicht. Diese Angabe fehlt schlicht in den "
                     "Ursprungsregistern. Wir arbeiten daran, sie aus zusätzlichen öffentlichen Quellen zu "
                     "ergänzen, statt sie zu schätzen.",
                 )},
@@ -183,9 +183,9 @@ _PAGES = {
                     "Documentiamo queste regole qui invece di applicarle semplicemente in silenzio, perché "
                     "il modo in cui un fatto viene stabilito conta quanto il fatto stesso.",
                     "Un'anzianità o un anno di fondazione è mostrato solo se scritto esplicitamente nel "
-                    "registro ufficiale o sul sito dello studio — mai dedotto da una formulazione vaga come "
+                    "registro ufficiale o sul sito dello studio, mai dedotto da una formulazione vaga come "
                     "«da oltre 20 anni». Un numero di collaboratori è mostrato solo se dichiarato "
-                    "espressamente dallo studio — mai contato dal numero di profili elencati in una pagina "
+                    "espressamente dallo studio, mai contato dal numero di profili elencati in una pagina "
                     "«team», che può essere parziale o non aggiornata.",
                     "Quando un'informazione proviene dal sito web di uno studio anziché dal registro "
                     "ufficiale, la scheda lo indica esplicitamente e menziona la data di consultazione del "
@@ -197,14 +197,14 @@ _PAGES = {
                     "parzialmente.",
                     "Una scheda priva di qualsiasi segnale reale (né anzianità, né lingua, né ambito di "
                     "competenza, né arricchimento verificato) viene automaticamente esclusa dai motori di "
-                    "ricerca (tag «noindex») finché non è disponibile un dato reale — preferiamo una scheda "
+                    "ricerca (tag «noindex») finché non è disponibile un dato reale. Preferiamo una scheda "
                     "incompleta ma onesta a una completata artificialmente.",
                 )},
                 {"heading": "Indipendenza", "paragraphs": _p(
                     "Nessuno studio o avvocato può pagare per essere classificato meglio, apparire per "
                     "primo, o far modificare il proprio testo di presentazione in senso più favorevole. "
                     "L'ordine all'interno di un cantone o di una città segue l'alfabeto o il numero di "
-                    "membri di uno studio — mai un criterio commerciale. Nessuna recensione o valutazione "
+                    "membri di uno studio, mai un criterio commerciale. Nessuna recensione o valutazione "
                     "è mostrata sulle schede: non le raccogliamo, quindi non le inventiamo.",
                 )},
                 {"heading": "Aggiornamento dei dati", "paragraphs": _p(
@@ -245,9 +245,9 @@ _PAGES = {
                     "document these rules here rather than simply applying them silently, because how a "
                     "fact is established matters as much as the fact itself.",
                     "A firm's seniority or founding year is only shown if explicitly written in the "
-                    "official register or on the firm's website — never inferred from a vague phrase like "
+                    "official register or on the firm's website, never inferred from a vague phrase like "
                     "\"for over 20 years\". A team size is only shown if explicitly stated by the firm "
-                    "itself — never counted from the number of profiles listed on a \"team\" page, which "
+                    "itself, never counted from the number of profiles listed on a \"team\" page, which "
                     "may be partial or outdated.",
                     "When a piece of information comes from a firm's website rather than the official "
                     "register, the listing says so explicitly and states the date the website was "
@@ -258,13 +258,13 @@ _PAGES = {
                     "excluded entirely from enrichment rather than used partially.",
                     "A listing with no real signal at all (no seniority, language, practice area, or "
                     "verified enrichment) is automatically excluded from search engines (\"noindex\" tag) "
-                    "until real data becomes available — we prefer an incomplete but honest listing over "
+                    "until real data becomes available. We prefer an incomplete but honest listing over "
                     "one artificially filled in.",
                 )},
                 {"heading": "Independence", "paragraphs": _p(
                     "No firm or lawyer can pay to rank higher, appear first, or have their presentation "
                     "text edited in a more favourable direction. Ordering within a canton or city follows "
-                    "the alphabet or firm size — never a commercial criterion. No reviews or ratings are "
+                    "the alphabet or firm size, never a commercial criterion. No reviews or ratings are "
                     "shown on listings: we don't collect any, so we don't invent any.",
                 )},
                 {"heading": "Data freshness", "paragraphs": _p(
@@ -273,7 +273,7 @@ _PAGES = {
                 )},
                 {"heading": "Known limitations", "paragraphs": _p(
                     "Practice areas are only recorded for a portion of Geneva lawyers, and not yet for the "
-                    "other 19 covered cantons — this information is simply absent from the source registers "
+                    "other 19 covered cantons. This information is simply absent from the source registers "
                     "as they stand. We are working to complete it from additional public sources rather "
                     "than estimating it.",
                 )},
@@ -295,7 +295,7 @@ _PAGES = {
             {"heading": "Notre indépendance", "paragraphs": _p(
                 "Pas de compte utilisateur, pas de classement payant, pas d'avis fabriqués. Un cabinet ne "
                 "peut pas payer pour être mieux placé ni pour faire modifier sa fiche dans un sens plus "
-                "favorable — voir le détail de nos règles éditoriales sur la page méthodologie. Legatis "
+                "favorable. Voir le détail de nos règles éditoriales sur la page méthodologie. Legatis "
                 "n'a pas vocation à générer des prospects payants pour les études référencées.",
             )},
             {"heading": "Où en est le projet", "paragraphs": _p(
@@ -318,7 +318,7 @@ _PAGES = {
             {"heading": "Unsere Unabhängigkeit", "paragraphs": _p(
                 "Kein Benutzerkonto, kein bezahltes Ranking, keine erfundenen Bewertungen. Eine Kanzlei "
                 "kann nicht dafür bezahlen, besser platziert zu werden oder ihren Eintrag in einem "
-                "günstigeren Sinn ändern zu lassen — Details zu unseren redaktionellen Regeln auf der "
+                "günstigeren Sinn ändern zu lassen. Details zu unseren redaktionellen Regeln auf der "
                 "Methodik-Seite. Legatis hat nicht zum Ziel, kostenpflichtige Leads für die erfassten "
                 "Kanzleien zu generieren.",
             )},
@@ -340,7 +340,7 @@ _PAGES = {
             {"heading": "La nostra indipendenza", "paragraphs": _p(
                 "Nessun account utente, nessuna classifica a pagamento, nessuna recensione inventata. Uno "
                 "studio non può pagare per essere posizionato meglio né per far modificare la propria "
-                "scheda in senso più favorevole — dettagli delle nostre regole editoriali sulla pagina "
+                "scheda in senso più favorevole. Dettagli delle nostre regole editoriali sulla pagina "
                 "metodologia. Legatis non ha lo scopo di generare contatti commerciali a pagamento per gli "
                 "studi censiti.",
             )},
@@ -361,7 +361,7 @@ _PAGES = {
             )},
             {"heading": "Our independence", "paragraphs": _p(
                 "No user accounts, no paid ranking, no fabricated reviews. A firm cannot pay to rank "
-                "higher or to have its listing edited in a more favourable direction — see our editorial "
+                "higher or to have its listing edited in a more favourable direction. See our editorial "
                 "rules on the methodology page. Legatis is not built to generate paid leads for the firms "
                 "it lists.",
             )},
@@ -387,7 +387,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "Für allgemeine Fragen, Presseanfragen oder Partnerschaften: contact@legatis.ch.",
                 "Um einen Fehler auf einer bestimmten Seite zu melden, nutzen Sie bitte die Seite "
-                "\u201eFehler melden\u201c \u2014 so k\u00f6nnen wir die Anfrage schneller bearbeiten.",
+                "\u201eFehler melden\u201c, so k\u00f6nnen wir die Anfrage schneller bearbeiten.",
             )},
         ]},
         "it": {"title": "Contatto", "sections": [
@@ -402,7 +402,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "For general questions, press or partnership enquiries: contact@legatis.ch.",
                 "To report an error on a specific listing, please use the \"Report a correction\" page "
-                "instead — it lets us handle the request faster.",
+                "instead, it lets us handle the request faster.",
             )},
         ]},
     },
@@ -495,13 +495,13 @@ _PAGES = {
             {"heading": "Votre fiche vous appartient", "paragraphs": _p(
                 "Chaque fiche avocat ou étude sur Legatis provient d'un registre cantonal officiel. Si "
                 "vous êtes la personne ou le cabinet concerné, vous pouvez à tout moment demander une "
-                "correction, un complément d'information, ou même le retrait de votre fiche — gratuitement "
+                "correction, un complément d'information, ou même le retrait de votre fiche, gratuitement "
                 "et sans justification à fournir au-delà de la preuve de votre identité professionnelle.",
             )},
             {"heading": "Le badge « Référencé sur Legatis »", "paragraphs": _p(
                 "Chaque fiche étude et avocat propose un badge et un code d'intégration prêts à copier, "
                 "avec un lien direct vers votre fiche. L'ajouter à votre site indique à vos clients que "
-                "votre inscription au barreau est vérifiable publiquement — et nous aide à faire connaître "
+                "votre inscription au barreau est vérifiable publiquement, et nous aide à faire connaître "
                 "un annuaire indépendant, sans classement payant.",
                 "Aucune inscription, aucun compte, aucun paiement n'est nécessaire pour utiliser ce badge : "
                 "il suffit de copier le code présent sur votre fiche.",
@@ -521,13 +521,13 @@ _PAGES = {
             {"heading": "Ihr Eintrag gehört Ihnen", "paragraphs": _p(
                 "Jeder Anwalts- oder Kanzleieintrag auf Legatis stammt aus einem offiziellen kantonalen "
                 "Register. Sind Sie die betroffene Person oder Kanzlei, können Sie jederzeit eine "
-                "Korrektur, eine Ergänzung oder sogar die Entfernung Ihres Eintrags verlangen — "
+                "Korrektur, eine Ergänzung oder sogar die Entfernung Ihres Eintrags verlangen, "
                 "kostenlos und ohne weitere Begründung als den Nachweis Ihrer beruflichen Identität.",
             )},
             {"heading": "Das Badge «Erfasst auf Legatis»", "paragraphs": _p(
                 "Jeder Kanzlei- und Anwaltseintrag bietet ein Badge samt fertigem Einbindungscode mit "
                 "direktem Link zu Ihrem Eintrag. Es auf Ihrer Website einzubinden zeigt Ihren Mandantinnen "
-                "und Mandanten, dass Ihre Zulassung öffentlich überprüfbar ist — und hilft, ein "
+                "und Mandanten, dass Ihre Zulassung öffentlich überprüfbar ist, und hilft, ein "
                 "unabhängiges Verzeichnis ohne bezahltes Ranking bekannter zu machen.",
                 "Für die Nutzung des Badges ist keine Anmeldung, kein Konto und keine Zahlung nötig: "
                 "kopieren Sie einfach den Code auf Ihrem Eintrag.",
@@ -548,14 +548,14 @@ _PAGES = {
             {"heading": "La vostra scheda vi appartiene", "paragraphs": _p(
                 "Ogni scheda avvocato o studio su Legatis proviene da un registro cantonale ufficiale. Se "
                 "siete la persona o lo studio interessato, potete in qualsiasi momento richiedere una "
-                "correzione, un'integrazione, o persino la rimozione della vostra scheda — gratuitamente e "
+                "correzione, un'integrazione, o persino la rimozione della vostra scheda, gratuitamente e "
                 "senza dover fornire giustificazioni oltre alla prova della vostra identità "
                 "professionale.",
             )},
             {"heading": "Il badge «Censito su Legatis»", "paragraphs": _p(
                 "Ogni scheda studio e avvocato propone un badge e un codice di integrazione pronti da "
                 "copiare, con un link diretto alla vostra scheda. Aggiungerlo al vostro sito indica ai "
-                "vostri clienti che la vostra iscrizione all'albo è verificabile pubblicamente — e ci aiuta "
+                "vostri clienti che la vostra iscrizione all'albo è verificabile pubblicamente, e ci aiuta "
                 "a far conoscere un elenco indipendente, senza classifiche a pagamento.",
                 "Non è necessaria alcuna registrazione, account o pagamento per usare questo badge: basta "
                 "copiare il codice presente sulla vostra scheda.",
@@ -575,13 +575,13 @@ _PAGES = {
             {"heading": "Your listing belongs to you", "paragraphs": _p(
                 "Every lawyer or firm listing on Legatis comes from an official cantonal register. If "
                 "you're the person or firm concerned, you can request a correction, an addition, or even "
-                "the removal of your listing at any time — free of charge and without needing to provide "
+                "the removal of your listing at any time, free of charge and without needing to provide "
                 "anything beyond proof of your professional identity.",
             )},
             {"heading": "The \"Listed on Legatis\" badge", "paragraphs": _p(
                 "Every firm and lawyer listing offers a ready-to-copy badge and embed code linking "
                 "directly to your listing. Adding it to your website tells your clients that your bar "
-                "registration is publicly verifiable — and helps spread the word about an independent "
+                "registration is publicly verifiable, and helps spread the word about an independent "
                 "directory with no paid ranking.",
                 "No sign-up, account, or payment is needed to use this badge: just copy the code shown on "
                 "your listing.",
