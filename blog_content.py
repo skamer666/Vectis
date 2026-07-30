@@ -26,9 +26,10 @@ Chaque entree de langue :
 BLOG_ARTICLES = {
     "licenciement-delais-conge-abusif": {
         "domaine_id": "droit_travail",
+        "published": "2026-07-30",
         "fr": {
             "slug": "licenciement-delais-preavis-conge-abusif",
-            "title": "Licenciement en Suisse : délais de préavis et protection contre le congé abusif",
+            "title": "Licenciement en Suisse : délais et congé abusif",
             "meta": "Délais de préavis légaux, licenciement abusif, protection en cas de maladie ou grossesse, résiliation immédiate : ce que prévoit le Code des obligations.",
             "sections": [
                 {"heading": "La liberté de résiliation et ses limites", "paragraphs": [
@@ -66,7 +67,7 @@ BLOG_ARTICLES = {
         },
         "de": {
             "slug": "kuendigung-fristen-missbraeuchliche-kuendigung",
-            "title": "Kündigung in der Schweiz: Kündigungsfristen und Schutz vor missbräuchlicher Kündigung",
+            "title": "Kündigung in der Schweiz: Fristen und Kündigungsschutz",
             "meta": "Gesetzliche Kündigungsfristen, missbräuchliche Kündigung, Schutz bei Krankheit oder Schwangerschaft, fristlose Kündigung: was das Obligationenrecht vorsieht.",
             "sections": [
                 {"heading": "Kündigungsfreiheit und ihre Grenzen", "paragraphs": [
@@ -104,7 +105,7 @@ BLOG_ARTICLES = {
         },
         "it": {
             "slug": "licenziamento-termini-disdetta-abusiva",
-            "title": "Licenziamento in Svizzera: termini di disdetta e protezione contro il licenziamento abusivo",
+            "title": "Licenziamento in Svizzera: termini e disdetta abusiva",
             "meta": "Termini di disdetta legali, licenziamento abusivo, protezione in caso di malattia o gravidanza, disdetta immediata: quanto previsto dal Codice delle obbligazioni.",
             "sections": [
                 {"heading": "La libertà di disdetta e i suoi limiti", "paragraphs": [
@@ -142,7 +143,7 @@ BLOG_ARTICLES = {
         },
         "en": {
             "slug": "termination-notice-periods-abusive-dismissal",
-            "title": "Termination of employment in Switzerland: notice periods and protection against abusive dismissal",
+            "title": "Dismissal in Switzerland: notice periods and unfair dismissal",
             "meta": "Statutory notice periods, abusive dismissal, protection during illness or pregnancy, immediate termination: what the Swiss Code of Obligations provides.",
             "sections": [
                 {"heading": "Freedom to terminate and its limits", "paragraphs": [

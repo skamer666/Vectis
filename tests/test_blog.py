@@ -18,6 +18,13 @@ def test_every_article_has_a_valid_domaine_id():
         assert article["domaine_id"] in i18n.DOMAINES, f"{bid}: domaine_id inconnu {article['domaine_id']!r}"
 
 
+def test_every_article_has_a_publication_date():
+    date_re = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+    for bid, article in blog_content.BLOG_ARTICLES.items():
+        assert "published" in article, f"{bid} sans date de publication"
+        assert date_re.match(article["published"]), f"{bid}: date non ISO {article['published']!r}"
+
+
 def test_every_article_has_at_least_french():
     for bid, article in blog_content.BLOG_ARTICLES.items():
         assert "fr" in article, f"{bid} n'a pas de version francaise"
@@ -27,7 +34,7 @@ def test_article_language_entries_have_required_fields():
     required = {"slug", "title", "meta", "sections", "faq"}
     for bid, article in blog_content.BLOG_ARTICLES.items():
         for lang, entry in article.items():
-            if lang == "domaine_id":
+            if lang not in i18n.LANGUAGES:
                 continue
             missing = required - entry.keys()
             assert not missing, f"{bid}/{lang}: champs manquants {missing}"
@@ -39,7 +46,7 @@ def test_slugs_are_unique_per_language():
     seen = {}
     for bid, article in blog_content.BLOG_ARTICLES.items():
         for lang, entry in article.items():
-            if lang == "domaine_id":
+            if lang not in i18n.LANGUAGES:
                 continue
             key = (lang, entry["slug"])
             assert key not in seen, f"slug dupliaue : {key} ({bid} et {seen.get(key)})"
@@ -49,7 +56,7 @@ def test_slugs_are_unique_per_language():
 def test_no_em_dash_in_blog_content():
     for bid, article in blog_content.BLOG_ARTICLES.items():
         for lang, entry in article.items():
-            if lang == "domaine_id":
+            if lang not in i18n.LANGUAGES:
                 continue
             for s in entry["sections"]:
                 for p in s["paragraphs"]:

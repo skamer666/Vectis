@@ -1634,14 +1634,24 @@ def gen_blog():
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (i18n.UI[lang]["blog_title"], blog_index_path(lang)),
                                   (a["title"], path)]
+            page_url = BASE_DOMAIN + path
             ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "BlogPosting",
+                "headline": a["title"], "description": a["meta"],
+                "url": page_url, "mainEntityOfPage": page_url,
+                "inLanguage": lang, "datePublished": article["published"],
+                "dateModified": article["published"],
+                "publisher": {"@type": "Organization", "name": "Legatis", "url": BASE_DOMAIN},
+                "about": dname,
+            }, ensure_ascii=False)
+            ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
                     {"@type": "Question", "name": item["q"],
                      "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
                     for item in a["faq"]
                 ],
-            }, ensure_ascii=False)
+            }, ensure_ascii=False)]
             write_page(path, render("blog_article.html", ctx))
 
 
