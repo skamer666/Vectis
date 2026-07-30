@@ -15,6 +15,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import i18n
 import guides_content
+import blog_content
 
 BASE_DOMAIN = "https://legatis.ch"
 LANGS = i18n.LANGUAGES
@@ -66,6 +67,14 @@ def guides_index_path(lang):
 
 def guide_path(gid, lang):
     return f"/{lang}/{seg('guides', lang)}/{guides_content.GUIDES[gid][lang]['slug']}/"
+
+
+def blog_index_path(lang):
+    return f"/{lang}/{seg('blog', lang)}/"
+
+
+def blog_article_path(bid, lang):
+    return f"/{lang}/{seg('blog', lang)}/{blog_content.BLOG_ARTICLES[bid][lang]['slug']}/"
 
 
 def home_path(lang):

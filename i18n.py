@@ -391,6 +391,9 @@ UI = {
         "badge_text": "Intégrez ce badge sur votre site pour indiquer que votre cabinet est référencé sur Legatis, l'annuaire indépendant des avocats suisses. Copiez le code ci-dessous.",
         "badge_alt": "Référencé sur Legatis",
         "claim_page_link": "En savoir plus sur la revendication de fiche",
+        "blog_title": "Blog juridique",
+        "blog_intro": "Des articles précis pour comprendre vos droits en Suisse, domaine de droit par domaine de droit.",
+        "all_blog_articles": "Tous les articles",
     },
     "de": {
         "site_name": "Legatis",
@@ -421,6 +424,9 @@ UI = {
         "badge_text": "Binden Sie dieses Badge auf Ihrer Website ein, um zu zeigen, dass Ihre Kanzlei auf Legatis, dem unabhängigen Verzeichnis der Schweizer Anwältinnen und Anwälte, erfasst ist. Kopieren Sie den Code unten.",
         "badge_alt": "Erfasst auf Legatis",
         "claim_page_link": "Mehr zur Beanspruchung eines Eintrags",
+        "blog_title": "Rechtsblog",
+        "blog_intro": "Präzise Artikel, um Ihre Rechte in der Schweiz zu verstehen, Rechtsgebiet für Rechtsgebiet.",
+        "all_blog_articles": "Alle Artikel",
     },
     "it": {
         "site_name": "Legatis",
@@ -452,6 +458,9 @@ UI = {
         "badge_text": "Integrate questo badge sul vostro sito per indicare che il vostro studio è censito su Legatis, l'elenco indipendente degli avvocati svizzeri. Copiate il codice qui sotto.",
         "badge_alt": "Censito su Legatis",
         "claim_page_link": "Scopri di più sulla rivendicazione di una scheda",
+        "blog_title": "Blog giuridico",
+        "blog_intro": "Articoli precisi per capire i vostri diritti in Svizzera, ambito del diritto per ambito del diritto.",
+        "all_blog_articles": "Tutti gli articoli",
     },
     "en": {
         "site_name": "Legatis",
@@ -481,6 +490,9 @@ UI = {
         "badge_text": "Add this badge to your website to show that your firm is listed on Legatis, the independent directory of Swiss lawyers. Copy the code below.",
         "badge_alt": "Listed on Legatis",
         "claim_page_link": "Learn more about claiming a listing",
+        "blog_title": "Legal blog",
+        "blog_intro": "Precise articles to understand your rights in Switzerland, one practice area at a time.",
+        "all_blog_articles": "All articles",
     },
 }
 
@@ -499,4 +511,5 @@ SEGMENTS = {
     "ville": {"fr": "ville", "de": "ort", "it": "citta", "en": "city"},
     "guides": {"fr": "guides", "de": "ratgeber", "it": "guide", "en": "guides"},
     "revendiquer": {"fr": "revendiquer-une-fiche", "de": "eintrag-beanspruchen", "it": "rivendicare-una-scheda", "en": "claim-a-listing"},
+    "blog": {"fr": "blog", "de": "blog", "it": "blog", "en": "blog"},
 }

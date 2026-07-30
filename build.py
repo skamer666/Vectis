@@ -19,10 +19,12 @@ import i18n
 import presentation_text as pt
 import static_pages as sp_content
 import guides_content
+import blog_content
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
+    blog_index_path, blog_article_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -106,6 +108,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "cantons_index_url": cantons_index_path(lang),
         "domaines_index_url": domaines_index_path(lang),
         "guides_index_url": guides_index_path(lang),
+        "blog_index_url": blog_index_path(lang),
         "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
         "badge_svg_url": badge_svg_url,
         "badge_alt": badge_alt,
@@ -1568,6 +1571,80 @@ def gen_guides():
             write_page(path, render("guide.html", ctx))
 
 
+# ---------------------------------------------------------------- blog
+
+BLOG_INDEX_INTRO = {
+    "fr": "Des articles précis, domaine de droit par domaine de droit, pour comprendre vos droits en Suisse. Sources légales citées, aucun chiffre inventé.",
+    "de": "Präzise Artikel, Rechtsgebiet für Rechtsgebiet, um Ihre Rechte in der Schweiz zu verstehen. Rechtsquellen werden zitiert, keine erfundenen Zahlen.",
+    "it": "Articoli precisi, ambito del diritto per ambito del diritto, per capire i vostri diritti in Svizzera. Fonti legali citate, nessuna cifra inventata.",
+    "en": "Precise articles, one practice area at a time, to help you understand your rights in Switzerland. Legal sources cited, no invented figures.",
+}
+
+
+def gen_blog():
+    """Blog juridique : contenu edite dans blog_content.BLOG_ARTICLES. Toutes
+    les langues ne sont pas forcement encore ecrites pour chaque article
+    (rediaction par lots) -- on ne genere que les langues presentes, sans
+    jamais planter sur une langue manquante."""
+    bids = list(blog_content.BLOG_ARTICLES.keys())
+
+    # index par langue : ne liste que les articles deja rediges dans cette langue
+    for lang in LANGS:
+        path = blog_index_path(lang)
+        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['blog_title']} | Legatis",
+                        i18n.UI[lang]["blog_intro"][:158], hreflang_for(blog_index_path))
+        ctx["intro_text"] = i18n.UI[lang]["blog_intro"]
+        ctx["articles"] = [
+            {"title": blog_content.BLOG_ARTICLES[b][lang]["title"],
+             "meta": blog_content.BLOG_ARTICLES[b][lang]["meta"],
+             "url": blog_article_path(b, lang),
+             "domaine_name": i18n.DOMAINES[blog_content.BLOG_ARTICLES[b]["domaine_id"]][lang]["name"]}
+            for b in bids if lang in blog_content.BLOG_ARTICLES[b]
+        ]
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                              (i18n.UI[lang]["blog_title"], path)]
+        write_page(path, render("blog_index.html", ctx))
+
+    # pages article : uniquement pour les langues deja rediges de cet article
+    for bid in bids:
+        article = blog_content.BLOG_ARTICLES[bid]
+        did = article["domaine_id"]
+        available_langs = [lg for lg in LANGS if lg in article]
+        article_hreflang = {lg: BASE_DOMAIN + blog_article_path(bid, lg) for lg in available_langs}
+        for lang in available_langs:
+            a = article[lang]
+            path = blog_article_path(bid, lang)
+            dname = i18n.DOMAINES[did][lang]["name"]
+            ctx = base_ctx(lang, path, f"{a['title']} | Legatis", a["meta"][:158], article_hreflang)
+            ctx["page_title"] = a["title"]
+            ctx["domaine_name"] = dname
+            ctx["sections"] = a["sections"]
+            ctx["faq"] = a["faq"]
+            same_domain_others = [
+                o for o in bids
+                if o != bid and lang in blog_content.BLOG_ARTICLES[o]
+                and blog_content.BLOG_ARTICLES[o]["domaine_id"] == did
+            ][:3]
+            ctx["related"] = (
+                [{"name": blog_content.BLOG_ARTICLES[o][lang]["title"], "url": blog_article_path(o, lang)}
+                 for o in same_domain_others]
+                + [{"name": dname, "url": domaine_path(did, lang)},
+                   {"name": i18n.UI[lang]["guides_title"], "url": guides_index_path(lang)}]
+            )
+            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                  (i18n.UI[lang]["blog_title"], blog_index_path(lang)),
+                                  (a["title"], path)]
+            ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in a["faq"]
+                ],
+            }, ensure_ascii=False)
+            write_page(path, render("blog_article.html", ctx))
+
+
 # ---------------------------------------------------------------- llms.txt
 
 def gen_llms_txt():
@@ -1844,6 +1921,7 @@ if __name__ == "__main__":
         gen_villes()
         gen_ville_domaines()
         gen_guides()
+        gen_blog()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
@@ -1903,6 +1981,7 @@ if __name__ == "__main__":
         gen_villes()
         gen_ville_domaines()
         gen_guides()
+        gen_blog()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()

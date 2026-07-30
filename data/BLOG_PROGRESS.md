@@ -1,0 +1,101 @@
+# Blog juridique — journal de bord et liste des 50 sujets
+
+Ce fichier est la mémoire du chantier "blog" entre deux sessions/lots de rédaction.
+À lire avant de reprendre la rédaction : contient la liste des 50 sujets validés
+par Greg le 30/07/2026, leur état (rédigé / à rédiger / traduit), et les décisions
+qui encadrent ce chantier.
+
+## Décisions actées le 30/07/2026 (ne pas redemander)
+
+- Section intégrée au site (`/blog/`), pas des documents livrés à part.
+- 4 langues (FR/DE/IT/EN), mais rédaction en français d'abord, par lots de 10,
+  traduction dans un second temps (voir tâche "Traduire les 50 articles").
+- Liste des 50 sujets validée telle quelle par Greg avant rédaction complète —
+  ne pas la modifier sans repasser par lui.
+- Même principe de non-fabrication que les guides existants : sources légales
+  citées explicitement (CO, CC, CP, CPC, CPP, LCR, LP, LEI, LDIP, LAT, etc.),
+  aucun chiffre inventé, contenu informatif général (pas un conseil juridique
+  individualisé).
+- 2 articles par domaine de droit, sur les 25 domaines déjà référencés par le
+  site (`i18n.DOMAINES`) — assure un maillage naturel avec les hubs domaines.
+- Format cible : 800-1200 mots par article, FAQ courte en fin d'article avec
+  schema markup FAQPage (même mécanisme que les guides).
+
+## Liste des 50 sujets (id technique = clé dans blog_content.BLOG_ARTICLES)
+
+Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encore rédigé
+
+| # | Domaine | Titre (FR) | Base légale | Statut |
+|---|---|---|---|---|
+| 1 | Droit du travail | Licenciement en Suisse : délais de préavis et protection contre le congé abusif | CO art. 335-337c | ✅ `licenciement-delais-conge-abusif` |
+| 2 | Droit du travail | Heures supplémentaires, salaire et vacances : vos droits selon le CO | CO art. 321c, 329a | ⬜ |
+| 3 | Droit de la famille | Autorité parentale et garde des enfants après une séparation | CC art. 296-301a | ⬜ |
+| 4 | Droit de la famille | Pension alimentaire : comment elle est calculée en Suisse | CC art. 285 | ⬜ |
+| 5 | Droit du divorce | Divorce en Suisse : procédure, délais et divorce par consentement mutuel | CC art. 111-114 | ⬜ |
+| 6 | Droit du divorce | Partage du 2e pilier en cas de divorce | CC art. 122-124 | ⬜ |
+| 7 | Droit pénal | Casier judiciaire suisse : inscription, consultation et radiation | Loi sur le casier judiciaire (VOSTRA) | ⬜ |
+| 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | ⬜ |
+| 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | ⬜ |
+| 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | ⬜ |
+| 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | ⬜ |
+| 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | ⬜ |
+| 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | ⬜ |
+| 14 | Droit des successions | Rédiger un testament valable en droit suisse | CC art. 498-508 | ⬜ |
+| 15 | Droit des contrats | Résilier un contrat pour justes motifs | CO (règles générales) | ⬜ |
+| 16 | Droit des contrats | Clause pénale et dommages-intérêts contractuels | CO art. 160-163 | ⬜ |
+| 17 | Droit des sociétés | Créer une Sàrl en Suisse : capital, statuts, formalités | CO art. 772 ss | ⬜ |
+| 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | ⬜ |
+| 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | ⬜ |
+| 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | ⬜ |
+| 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | ⬜ |
+| 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | ⬜ |
+| 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | ⬜ |
+| 24 | Droit des étrangers | Regroupement familial : faire venir sa famille en Suisse | LEI art. 42-52 | ⬜ |
+| 25 | Droit des assurances | Assurance perte de gain maladie : droits et délai de carence | LCA | ⬜ |
+| 26 | Droit des assurances | Contester une décision de l'assurance invalidité | LPGA art. 52 | ⬜ |
+| 27 | Responsabilité civile | Qui est responsable et comment être indemnisé | CO art. 41 ss | ⬜ |
+| 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | ⬜ |
+| 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | ⬜ |
+| 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | ⬜ |
+| 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | ⬜ |
+| 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | ⬜ |
+| 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | ⬜ |
+| 34 | Droit fiscal | Imposition à la source : qui est concerné et comment ça marche | LIFD art. 83-101 | ⬜ |
+| 35 | Droit bancaire | Secret bancaire suisse : ce qu'il protège encore aujourd'hui | LB | ⬜ |
+| 36 | Droit bancaire | Litige avec sa banque : ombudsman et voies de recours | Ombudsman des banques suisses | ⬜ |
+| 37 | Droit médical | Erreur médicale : comment faire valoir ses droits | CO art. 41 / droit cantonal | ⬜ |
+| 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | ⬜ |
+| 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | ⬜ |
+| 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | ⬜ |
+| 41 | Droit international privé | Reconnaissance d'un divorce prononcé à l'étranger | LDIP | ⬜ |
+| 42 | Droit international privé | Quel droit s'applique à un contrat international | LDIP | ⬜ |
+| 43 | Procédure civile | Conciliation obligatoire avant un procès civil | CPC art. 197-212 | ⬜ |
+| 44 | Procédure civile | Frais de justice et dépens : qui paie en cas de procès | CPC art. 95-111 | ⬜ |
+| 45 | Procédure pénale | Être entendu comme prévenu : vos droits pendant l'audition | CPP art. 157-158 | ⬜ |
+| 46 | Procédure pénale | Plainte pénale : délais et différence avec la dénonciation | CP art. 30-33 | ⬜ |
+| 47 | Médiation | Médiation familiale : quand et pourquoi y recourir | CPC art. 214-218 | ⬜ |
+| 48 | Médiation | Médiation commerciale : alternative au procès pour les entreprises | — | ⬜ |
+| 49 | Aménagement du territoire | Permis de construire : procédure et opposition des voisins | LAT / droit cantonal | ⬜ |
+| 50 | Aménagement du territoire | Zone à bâtir et hors zone à bâtir : ce que ça change pour un terrain | LAT | ⬜ |
+
+## Journal des sessions
+
+### 2026-07-30 — Lancement : architecture + article pilote
+
+- Architecture blog créée : `blog_content.py`, `gen_blog()` dans `build.py`,
+  templates `blog_index.html`/`blog_article.html`, segment URL "blog" et
+  chaînes UI (`blog_title`, `blog_intro`, `all_blog_articles`) ajoutés dans
+  `i18n.py`.
+- `gen_blog()` tolère les articles partiellement traduits (seules les langues
+  présentes dans `BLOG_ARTICLES[id]` sont générées) — permet une mise en ligne
+  progressive par lots sans bloquer sur la traduction.
+- 1 article pilote rédigé et vérifié dans les 4 langues : "Licenciement en
+  Suisse" (droit du travail, CO art. 335-337c). Choisi comme pilote pour
+  valider le format de bout en bout avant de lancer les 49 restants.
+- 6 nouveaux tests (`tests/test_blog.py`) : structure des données, unicité des
+  slugs, absence d'em dash, absence d'artefact Jinja dans les pages générées.
+  56 tests au total, tous au vert.
+- Build vérifié : pages FR/DE/IT/EN générées, hreflang correct, aucun noindex
+  (signal réel présent dès le premier article), schema FAQPage présent.
+- **Reste à faire** : rédiger les 49 sujets restants en français (par lots de
+  10, voir tâche dédiée), puis traduire l'ensemble en DE/IT/EN.

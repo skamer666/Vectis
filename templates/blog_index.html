@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <h1>{{ ui.blog_title }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+  </section>
+  <section class="section" style="padding-top:0;">
+    <div class="registry">
+      {% for a in articles %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div>
+          <div class="registry-name">{{ a.title }}</div>
+          <div class="registry-role">{{ a.meta }}</div>
+        </div>
+        <div class="registry-meta">{{ a.domaine_name }}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}
