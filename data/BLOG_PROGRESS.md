@@ -67,16 +67,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | 🟡 `consentement-eclaire-patient-droits` |
 | 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | 🟡 `proteger-marque-suisse-depot-ipi` |
 | 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | 🟡 `droit-auteur-duree-protection-exceptions` |
-| 41 | Droit international privé | Reconnaissance d'un divorce prononcé à l'étranger | LDIP | ⬜ |
-| 42 | Droit international privé | Quel droit s'applique à un contrat international | LDIP | ⬜ |
-| 43 | Procédure civile | Conciliation obligatoire avant un procès civil | CPC art. 197-212 | ⬜ |
-| 44 | Procédure civile | Frais de justice et dépens : qui paie en cas de procès | CPC art. 95-111 | ⬜ |
-| 45 | Procédure pénale | Être entendu comme prévenu : vos droits pendant l'audition | CPP art. 157-158 | ⬜ |
-| 46 | Procédure pénale | Plainte pénale : délais et différence avec la dénonciation | CP art. 30-33 | ⬜ |
-| 47 | Médiation | Médiation familiale : quand et pourquoi y recourir | CPC art. 214-218 | ⬜ |
-| 48 | Médiation | Médiation commerciale : alternative au procès pour les entreprises | n/a | ⬜ |
-| 49 | Aménagement du territoire | Permis de construire : procédure et opposition des voisins | LAT / droit cantonal | ⬜ |
-| 50 | Aménagement du territoire | Zone à bâtir et hors zone à bâtir : ce que ça change pour un terrain | LAT | ⬜ |
+| 41 | Droit international privé | Reconnaissance d'un divorce prononcé à l'étranger | LDIP | 🟡 `reconnaissance-divorce-etranger` |
+| 42 | Droit international privé | Quel droit s'applique à un contrat international | LDIP | 🟡 `droit-applicable-contrat-international` |
+| 43 | Procédure civile | Conciliation obligatoire avant un procès civil | CPC art. 197-212 | 🟡 `conciliation-obligatoire-avant-proces-civil` |
+| 44 | Procédure civile | Frais de justice et dépens : qui paie en cas de procès | CPC art. 95-111 | 🟡 `frais-justice-depens-qui-paie` |
+| 45 | Procédure pénale | Être entendu comme prévenu : vos droits pendant l'audition | CPP art. 157-158 | 🟡 `entendu-prevenu-droits-audition` |
+| 46 | Procédure pénale | Plainte pénale : délais et différence avec la dénonciation | CP art. 30-33 | 🟡 `plainte-penale-delais-difference-denonciation` |
+| 47 | Médiation | Médiation familiale : quand et pourquoi y recourir | CPC art. 214-218 | 🟡 `mediation-familiale-quand-pourquoi` |
+| 48 | Médiation | Médiation commerciale : alternative au procès pour les entreprises | n/a | 🟡 `mediation-commerciale-alternative-proces` |
+| 49 | Aménagement du territoire | Permis de construire : procédure et opposition des voisins | LAT / droit cantonal | 🟡 `permis-construire-procedure-opposition-voisins` |
+| 50 | Aménagement du territoire | Zone à bâtir et hors zone à bâtir : ce que ça change pour un terrain | LAT | 🟡 `zone-batir-hors-zone-consequences` |
 
 ## Journal des sessions
 
@@ -166,3 +166,30 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 - 40/50 sujets rédigés en français. 57 tests toujours au vert, aucun em
   dash, aucun artefact Jinja, titres tous sous 60 caractères.
 - Prochaine étape : lot 5, dernier lot (articles 41 à 50).
+
+### 2026-07-30 | Lot 5 complet : articles 41 à 50 (FR) — les 50 sujets rédigés en français
+
+- 10 derniers articles rédigés en français : reconnaissance d'un divorce
+  étranger (LDIP art. 25 ss, 65), droit applicable à un contrat international
+  (LDIP art. 116-117), conciliation civile obligatoire (CPC art. 197-198),
+  frais de justice et dépens (CPC art. 95, 106, 117 ss), droits du prévenu en
+  audition (CPP art. 158), plainte pénale (CP art. 30-33), médiation
+  familiale (CPC art. 214-218), médiation commerciale (pas de base légale
+  dédiée, signalé comme tel), permis de construire et opposition des voisins
+  (procédure essentiellement cantonale, signalé comme telle), zone à bâtir
+  et hors zone à bâtir (LAT art. 15, 24).
+- **Les 50 sujets validés par Greg le 30/07/2026 sont désormais tous rédigés
+  en français.** 50/50, tous rattachés à leur hub de domaine, maillage
+  interne actif entre articles du même domaine (paires 1-2, 3-4, 5-6, etc.).
+- 57 tests toujours au vert sur l'ensemble des 50 articles (structure de
+  données, unicité des slugs, absence d'em dash, absence d'artefact Jinja).
+  Titres tous sous 60 caractères hors suffixe " | Legatis".
+- Discipline non-fabrication maintenue sur l'ensemble du lot : formulations
+  volontairement générales dès qu'un chiffre ou un article de loi précis
+  n'était pas garanti exact dans tous les cas (délais de marchés publics,
+  durées de séjour pour le permis C, prescription en responsabilité médicale,
+  base légale de la médiation commerciale, procédure du permis de construire).
+- **Prochaine étape (tâche distincte, #28) : traduire les 50 articles en
+  DE/IT/EN.** Rédaction française terminée, ce chantier peut être considéré
+  comme un point d'arrêt stable si la traduction n'est pas lancée
+  immédiatement.

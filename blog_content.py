@@ -1418,4 +1418,314 @@ BLOG_ARTICLES = {
             ],
         },
     },
+    "reconnaissance-divorce-etranger": {
+        "domaine_id": "droit_international_prive",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "reconnaissance-divorce-prononce-etranger",
+            "title": "Reconnaissance d'un divorce prononcé à l'étranger",
+            "meta": "Conditions générales de reconnaissance des décisions étrangères, procédure et registre de l'état civil : ce que prévoit la LDIP.",
+            "sections": [
+                {"heading": "Le principe de la reconnaissance", "paragraphs": [
+                    "Une décision de divorce rendue à l'étranger n'a d'effet en Suisse que si elle y est reconnue, conformément à la loi fédérale sur le droit international privé (LDIP). Cette reconnaissance n'est en principe pas automatique dans tous les cas : elle peut nécessiter une démarche formelle, notamment lorsqu'une inscription au registre suisse de l'état civil est requise.",
+                ]},
+                {"heading": "Les conditions générales de reconnaissance", "paragraphs": [
+                    "La LDIP pose des conditions générales pour la reconnaissance d'une décision étrangère (art. 25 ss LDIP), notamment la compétence des autorités ou juridictions de l'État où la décision a été rendue selon les critères reconnus par le droit suisse, l'absence de recours ordinaire encore possible contre la décision dans cet État, et l'absence de motif de refus tel qu'une violation de l'ordre public suisse.",
+                ]},
+                {"heading": "Les règles particulières applicables au divorce", "paragraphs": [
+                    "L'art. 65 LDIP prévoit des règles spécifiques pour la reconnaissance des décisions étrangères de divorce ou de séparation de corps, en tenant notamment compte de la nationalité et du domicile des époux au moment de la procédure à l'étranger.",
+                ]},
+                {"heading": "La procédure pratique", "paragraphs": [
+                    "En pratique, la reconnaissance et la transcription d'un divorce étranger passent le plus souvent par l'autorité cantonale de surveillance de l'état civil du canton d'origine ou de domicile de la personne concernée, à laquelle il convient de soumettre la décision étrangère accompagnée des traductions et légalisations requises.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un divorce prononcé à l'étranger est-il automatiquement valable en Suisse ?",
+                 "a": "Pas nécessairement : sa reconnaissance dépend des conditions générales posées par la LDIP (compétence de l'autorité étrangère, absence de recours encore ouvert, respect de l'ordre public suisse), et peut nécessiter une démarche formelle auprès de l'autorité de l'état civil."},
+                {"q": "À qui dois-je m'adresser pour faire reconnaître mon divorce étranger ?",
+                 "a": "En général à l'autorité cantonale de surveillance de l'état civil du canton d'origine ou de domicile, à laquelle il faut soumettre la décision étrangère avec les traductions et légalisations requises."},
+                {"q": "Que se passe-t-il si mon divorce étranger n'est pas reconnu en Suisse ?",
+                 "a": "Le mariage reste en principe considéré comme non dissous pour les autorités suisses tant que la reconnaissance n'a pas été obtenue, ce qui peut avoir des conséquences importantes, notamment pour un remariage ou des questions patrimoniales."},
+            ],
+        },
+    },
+    "droit-applicable-contrat-international": {
+        "domaine_id": "droit_international_prive",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "quel-droit-applique-contrat-international",
+            "title": "Quel droit s'applique à un contrat international",
+            "meta": "Élection de droit par les parties, rattachement à la prestation caractéristique en l'absence de choix : les règles de la LDIP.",
+            "sections": [
+                {"heading": "La liberté de choix des parties", "paragraphs": [
+                    "L'art. 116 LDIP permet aux parties à un contrat international de choisir librement le droit applicable à leur relation contractuelle, que ce droit ait ou non un lien objectif avec le contrat. Ce choix peut être exprès ou résulter de façon certaine des dispositions du contrat ou des circonstances.",
+                ]},
+                {"heading": "Le rattachement en l'absence de choix", "paragraphs": [
+                    "À défaut de choix des parties, l'art. 117 LDIP soumet le contrat au droit de l'État avec lequel il présente les liens les plus étroits, présumés être ceux de l'État de résidence habituelle ou de l'établissement de la partie qui doit fournir la prestation caractéristique du contrat (par exemple le vendeur dans un contrat de vente, ou le prestataire dans un contrat de service).",
+                ]},
+                {"heading": "Les limites à la liberté de choix", "paragraphs": [
+                    "Cette liberté de choix n'est pas absolue : certaines dispositions impératives du droit suisse ou du droit d'un autre État peuvent s'appliquer malgré le choix des parties, notamment dans des domaines protégeant une partie considérée comme plus faible (contrats de consommation, contrats de travail), selon les règles spécifiques prévues par la LDIP pour ces catégories de contrats.",
+                ]},
+                {"heading": "Le for judiciaire", "paragraphs": [
+                    "Le droit applicable au contrat est une question distincte de celle du tribunal compétent en cas de litige : les parties peuvent, dans certaines limites, également convenir d'une clause d'élection de for, désignant les tribunaux compétents en cas de différend, indépendamment du droit matériel choisi pour régir le fond du contrat.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Les parties peuvent-elles choisir n'importe quel droit pour leur contrat international ?",
+                 "a": "En principe oui, l'art. 116 LDIP laisse une grande liberté de choix, même sans lien objectif entre le droit choisi et le contrat, sous réserve de certaines dispositions impératives protégeant une partie faible dans certains types de contrats."},
+                {"q": "Quel droit s'applique si le contrat ne prévoit aucune clause de choix ?",
+                 "a": "Le droit de l'État avec lequel le contrat présente les liens les plus étroits, présumé être celui de la partie qui fournit la prestation caractéristique du contrat, selon l'art. 117 LDIP."},
+                {"q": "Le choix du droit applicable détermine-t-il aussi le tribunal compétent ?",
+                 "a": "Non, ce sont deux questions distinctes : le droit applicable régit le fond du litige, tandis que la compétence judiciaire dépend de règles propres, éventuellement précisées par une clause d'élection de for distincte dans le contrat."},
+            ],
+        },
+    },
+    "conciliation-obligatoire-avant-proces-civil": {
+        "domaine_id": "procedure_civile",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "conciliation-obligatoire-avant-proces-civil",
+            "title": "Conciliation obligatoire avant un procès civil",
+            "meta": "Tentative de conciliation préalable, autorisation de procéder, exceptions légales : ce que prévoit le Code de procédure civile.",
+            "sections": [
+                {"heading": "Le principe de la conciliation préalable", "paragraphs": [
+                    "Pour la plupart des litiges civils, le CPC impose une tentative de conciliation devant l'autorité de conciliation compétente avant de pouvoir saisir le tribunal (art. 197 CPC). Cette étape vise à favoriser un règlement amiable du différend avant d'engager une procédure judiciaire souvent plus longue et coûteuse.",
+                ]},
+                {"heading": "Le déroulement de l'audience de conciliation", "paragraphs": [
+                    "L'audience de conciliation se déroule devant l'autorité de conciliation, en présence des parties, qui peuvent y être accompagnées d'un avocat. L'autorité tente de rapprocher les positions des parties et peut, dans certains cas et avec l'accord des parties, statuer elle-même sur le litige si sa valeur litigieuse ne dépasse pas un certain montant.",
+                ]},
+                {"heading": "L'autorisation de procéder", "paragraphs": [
+                    "Si aucun accord n'est trouvé, l'autorité de conciliation délivre une autorisation de procéder, qui permet au demandeur de porter le litige devant le tribunal compétent dans un délai fixé par la loi. Sans cette autorisation, une action portée directement devant le tribunal est en principe irrecevable.",
+                ]},
+                {"heading": "Les exceptions à l'obligation de conciliation", "paragraphs": [
+                    "L'art. 198 CPC prévoit des exceptions où la conciliation préalable n'est pas requise, notamment pour certaines procédures sommaires, certains litiges relevant d'une instance cantonale unique, ou lorsque les parties renoncent conjointement à la conciliation dans les litiges patrimoniaux d'une valeur litigieuse suffisamment élevée.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Puis-je saisir directement le tribunal sans passer par la conciliation ?",
+                 "a": "En principe non pour la plupart des litiges civils : une autorisation de procéder délivrée par l'autorité de conciliation est nécessaire, sauf dans les cas d'exception prévus par l'art. 198 CPC."},
+                {"q": "L'autorité de conciliation peut-elle rendre une décision sur le fond du litige ?",
+                 "a": "Dans certains cas, oui, avec l'accord des parties et si la valeur litigieuse ne dépasse pas le montant fixé par la loi, l'autorité de conciliation peut statuer elle-même plutôt que de renvoyer l'affaire devant le tribunal."},
+                {"q": "Que se passe-t-il si aucun accord n'est trouvé en conciliation ?",
+                 "a": "L'autorité de conciliation délivre une autorisation de procéder, qui permet de porter le litige devant le tribunal compétent dans le délai fixé par la loi."},
+            ],
+        },
+    },
+    "frais-justice-depens-qui-paie": {
+        "domaine_id": "procedure_civile",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "frais-justice-depens-qui-paie-proces",
+            "title": "Frais de justice et dépens : qui paie en cas de procès",
+            "meta": "Avance de frais, répartition selon l'issue du procès, assistance judiciaire : les règles du Code de procédure civile sur les frais.",
+            "sections": [
+                {"heading": "Les deux catégories de frais", "paragraphs": [
+                    "Le CPC distingue les frais judiciaires (émoluments du tribunal, frais d'expertise, de témoins) des dépens, qui correspondent aux frais d'avocat et autres débours nécessaires exposés par une partie pour défendre ses intérêts dans la procédure (art. 95 CPC).",
+                ]},
+                {"heading": "L'avance de frais", "paragraphs": [
+                    "Le tribunal peut exiger du demandeur une avance destinée à couvrir les frais judiciaires présumés, avant l'ouverture de la procédure sur le fond. À défaut de paiement de cette avance dans le délai imparti, la demande peut être déclarée irrecevable.",
+                ]},
+                {"heading": "La règle générale de répartition", "paragraphs": [
+                    "Selon l'art. 106 CPC, les frais sont en principe mis à la charge de la partie qui succombe. En cas de succès partiel de chaque partie, les frais sont répartis proportionnellement selon le sort de la cause. Le tribunal peut s'écarter de cette règle générale pour des motifs d'équité dans certaines situations.",
+                ]},
+                {"heading": "L'assistance judiciaire", "paragraphs": [
+                    "Une personne ne disposant pas de ressources suffisantes pour assumer les frais d'un procès sans porter atteinte au minimum vital nécessaire à son entretien peut demander l'assistance judiciaire (art. 117 ss CPC), qui peut couvrir tout ou partie des frais judiciaires et, si nécessaire, la désignation d'un avocat d'office, à condition que la cause ne paraisse pas dépourvue de toute chance de succès.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qui paie les frais si je perds mon procès ?",
+                 "a": "En principe la partie qui succombe supporte les frais judiciaires et les dépens de la partie adverse (art. 106 CPC), sous réserve d'une répartition proportionnelle en cas de succès partiel de chaque partie."},
+                {"q": "Puis-je obtenir une aide si je n'ai pas les moyens de payer les frais de justice ?",
+                 "a": "Oui, l'assistance judiciaire (art. 117 ss CPC) peut couvrir tout ou partie des frais judiciaires et la désignation d'un avocat d'office, à condition de ne pas disposer de ressources suffisantes et que la cause ne paraisse pas dépourvue de chance de succès."},
+                {"q": "Que se passe-t-il si je ne paie pas l'avance de frais demandée par le tribunal ?",
+                 "a": "Le tribunal peut, à défaut de paiement dans le délai imparti, déclarer la demande irrecevable sans examiner le fond du litige."},
+            ],
+        },
+    },
+    "entendu-prevenu-droits-audition": {
+        "domaine_id": "procedure_penale",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "etre-entendu-prevenu-droits-audition",
+            "title": "Être entendu comme prévenu : vos droits en audition",
+            "meta": "Information sur les charges, droit de se taire, droit à un avocat : les garanties prévues par le Code de procédure pénale lors d'une audition.",
+            "sections": [
+                {"heading": "Le droit d'être informé des charges", "paragraphs": [
+                    "Avant sa première audition, le prévenu doit être informé, dans une langue qu'il comprend, des faits qui lui sont reprochés et des infractions qui entrent en considération (art. 158 CPP). Cette information est une condition de validité de l'audition : à défaut, celle-ci ne peut en principe pas être exploitée contre le prévenu.",
+                ]},
+                {"heading": "Le droit de se taire", "paragraphs": [
+                    "Le prévenu doit également être informé qu'il a le droit de refuser de déposer et de collaborer, sans que son silence puisse être retenu contre lui. Ce droit s'applique dès le premier contact avec les autorités de poursuite pénale, indépendamment du stade de la procédure.",
+                ]},
+                {"heading": "Le droit à un avocat", "paragraphs": [
+                    "Le prévenu a le droit de faire appel à un avocat de son choix ou, s'il n'en a pas les moyens, de demander un défenseur d'office dans les cas de défense obligatoire prévus par la loi. Ce droit doit lui être signalé avant l'audition, et il peut en principe demander un report de courte durée pour organiser sa défense.",
+                ]},
+                {"heading": "Les conséquences d'une violation de ces droits", "paragraphs": [
+                    "Une audition menée en violation de ces droits fondamentaux (absence d'information sur les charges, absence d'information sur le droit de se taire ou de faire appel à un avocat) est en principe inexploitable comme moyen de preuve, ce qui peut avoir des conséquences importantes sur la suite de la procédure pénale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Suis-je obligé de répondre aux questions de la police ou du procureur ?",
+                 "a": "Non, vous avez le droit de vous taire à tout moment de la procédure, et ce silence ne peut pas être retenu contre vous (art. 158 CPP)."},
+                {"q": "Ai-je droit à un avocat dès la première audition ?",
+                 "a": "Oui, vous avez le droit de faire appel à un avocat de votre choix, ou de demander un défenseur d'office si vous n'en avez pas les moyens dans les cas de défense obligatoire prévus par la loi, et ce droit doit vous être signalé avant l'audition."},
+                {"q": "Que se passe-t-il si ces droits ne m'ont pas été signalés avant l'audition ?",
+                 "a": "L'audition menée en violation de ces garanties est en principe inexploitable comme moyen de preuve dans la procédure."},
+            ],
+        },
+    },
+    "plainte-penale-delais-difference-denonciation": {
+        "domaine_id": "procedure_penale",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "plainte-penale-delais-difference-denonciation",
+            "title": "Plainte pénale : délais et différence avec la dénonciation",
+            "meta": "Délai de trois mois pour porter plainte, infractions poursuivies sur plainte ou d'office : les distinctions posées par le Code pénal.",
+            "sections": [
+                {"heading": "Ce qu'est une plainte pénale", "paragraphs": [
+                    "La plainte pénale est la déclaration par laquelle le lésé exprime sa volonté que l'auteur d'une infraction soit poursuivi. Elle est indispensable pour certaines infractions, dites poursuivies sur plainte, que le ministère public ne peut instruire que si le lésé la dépose (art. 30 ss CP).",
+                ]},
+                {"heading": "Le délai pour porter plainte", "paragraphs": [
+                    "L'art. 31 CP fixe un délai de trois mois pour déposer plainte, à compter du jour où l'ayant droit a connu l'auteur de l'infraction. Ce délai est un délai de péremption : passé ce délai, le droit de porter plainte pour cette infraction s'éteint définitivement.",
+                ]},
+                {"heading": "La différence avec la dénonciation", "paragraphs": [
+                    "La dénonciation, contrairement à la plainte, peut être faite par n'importe quelle personne ayant connaissance d'une infraction, et concerne principalement les infractions poursuivies d'office, pour lesquelles le ministère public doit agir dès qu'il a connaissance des faits, sans qu'une manifestation de volonté du lésé soit nécessaire.",
+                ]},
+                {"heading": "Le retrait de la plainte", "paragraphs": [
+                    "Une plainte peut en principe être retirée tant qu'un jugement de première instance n'a pas été rendu, ce qui met fin à la poursuite pour l'infraction concernée, sauf accord contraire entre le plaignant et la personne visée par le retrait dans certains cas prévus par la loi (art. 33 CP).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Dans quel délai dois-je porter plainte ?",
+                 "a": "Dans les trois mois à compter du jour où vous avez connu l'auteur de l'infraction (art. 31 CP). Passé ce délai, le droit de porter plainte pour cette infraction s'éteint définitivement."},
+                {"q": "Quelle est la différence entre une plainte et une dénonciation ?",
+                 "a": "La plainte est réservée au lésé et nécessaire pour les infractions poursuivies sur plainte, tandis que la dénonciation peut être faite par n'importe qui et concerne surtout les infractions poursuivies d'office, pour lesquelles aucune manifestation de volonté du lésé n'est requise."},
+                {"q": "Puis-je retirer ma plainte après l'avoir déposée ?",
+                 "a": "Oui, en principe tant qu'un jugement de première instance n'a pas été rendu, ce qui met fin à la poursuite pour l'infraction concernée, sous réserve de règles particulières dans certains cas (art. 33 CP)."},
+            ],
+        },
+    },
+    "mediation-familiale-quand-pourquoi": {
+        "domaine_id": "mediation",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "mediation-familiale-quand-pourquoi-y-recourir",
+            "title": "Médiation familiale : quand et pourquoi y recourir",
+            "meta": "Résoudre un conflit familial hors du tribunal, rôle du médiateur, articulation avec la procédure judiciaire : ce que prévoit le CPC.",
+            "sections": [
+                {"heading": "Ce qu'est la médiation familiale", "paragraphs": [
+                    "La médiation familiale est un processus volontaire dans lequel un tiers neutre et impartial, le médiateur, aide les parties (couple en séparation, parents en désaccord sur la garde des enfants) à trouver elles-mêmes une solution à leur conflit, plutôt que de la faire trancher par un juge.",
+                ]},
+                {"heading": "Le rôle du tribunal", "paragraphs": [
+                    "Le CPC (art. 214-218) permet au tribunal saisi d'un litige familial de suggérer aux parties de recourir à la médiation, sans pouvoir toutefois les y contraindre : la médiation reste un processus fondé sur la volonté des parties d'y participer et de s'y engager de bonne foi.",
+                ]},
+                {"heading": "Les avantages de la médiation", "paragraphs": [
+                    "La médiation permet souvent de préserver la relation entre les parties, particulièrement importante lorsque des enfants sont concernés et que les parents devront continuer à collaborer après la séparation. Elle est en principe plus rapide et moins coûteuse qu'une procédure judiciaire contentieuse.",
+                ]},
+                {"heading": "L'homologation de l'accord", "paragraphs": [
+                    "Un accord trouvé en médiation portant sur des questions comme la garde des enfants ou la contribution d'entretien doit en principe être soumis au tribunal ou à l'autorité compétente pour être homologué et devenir juridiquement contraignant, le tribunal vérifiant que l'accord respecte le bien de l'enfant et l'ordre public.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le tribunal peut-il m'obliger à faire une médiation familiale ?",
+                 "a": "Non, la médiation reste un processus volontaire : le tribunal peut la suggérer (art. 214 ss CPC), mais ne peut pas contraindre les parties à y participer contre leur gré."},
+                {"q": "Un accord trouvé en médiation est-il juridiquement contraignant ?",
+                 "a": "Il le devient une fois homologué par le tribunal ou l'autorité compétente, qui vérifie notamment que l'accord respecte le bien de l'enfant s'il porte sur des questions parentales."},
+                {"q": "La médiation familiale convient-elle à toutes les situations ?",
+                 "a": "Non, elle suppose que les deux parties soient en mesure de dialoguer de bonne foi sur un pied d'égalité ; elle n'est en principe pas adaptée en présence de violences conjugales ou d'un déséquilibre de pouvoir important entre les parties."},
+            ],
+        },
+    },
+    "mediation-commerciale-alternative-proces": {
+        "domaine_id": "mediation",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "mediation-commerciale-alternative-proces-entreprises",
+            "title": "Médiation commerciale : alternative au procès",
+            "meta": "Résoudre un litige entre entreprises hors tribunal, confidentialité, rapidité : les avantages de la médiation commerciale en Suisse.",
+            "sections": [
+                {"heading": "Un mode de résolution volontaire", "paragraphs": [
+                    "Contrairement à la médiation familiale, la médiation commerciale entre entreprises ne fait pas l'objet d'un cadre légal spécifique dédié dans le CPC : elle repose principalement sur l'accord des parties de recourir à un médiateur, souvent prévu par une clause contractuelle de médiation, ou décidée d'un commun accord une fois le litige survenu.",
+                ]},
+                {"heading": "Les avantages pour les entreprises", "paragraphs": [
+                    "La médiation commerciale offre une confidentialité que la procédure judiciaire, en principe publique, ne garantit pas toujours, un contrôle des parties sur l'issue du litige plutôt qu'une décision imposée par un tiers, et une rapidité généralement supérieure à celle d'un procès civil, ce qui permet souvent de préserver une relation d'affaires que les parties souhaitent poursuivre.",
+                ]},
+                {"heading": "L'articulation avec l'arbitrage", "paragraphs": [
+                    "De nombreux contrats commerciaux, notamment internationaux, prévoient des clauses combinant médiation et arbitrage, la médiation intervenant comme tentative préalable de règlement amiable avant le recours, en cas d'échec, à une procédure d'arbitrage contraignante devant un tribunal arbitral.",
+                ]},
+                {"heading": "La force de l'accord trouvé", "paragraphs": [
+                    "Un accord trouvé en médiation commerciale prend en principe la forme d'un contrat de transaction entre les parties, dont le caractère contraignant repose sur les règles générales du droit des contrats, et non sur une homologation judiciaire systématique comme c'est parfois le cas en matière familiale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Une entreprise peut-elle être obligée de recourir à la médiation ?",
+                 "a": "En principe non, sauf si une clause contractuelle de médiation, librement acceptée au moment de la signature du contrat, prévoit cette étape préalable en cas de litige."},
+                {"q": "Un accord de médiation commerciale a-t-il la même force qu'un jugement ?",
+                 "a": "Il prend en principe la forme d'un contrat de transaction entre les parties, contraignant selon les règles générales du droit des contrats, mais ne bénéficie pas automatiquement de la force exécutoire d'un jugement sauf démarche complémentaire prévue par la loi."},
+                {"q": "Pourquoi combiner médiation et arbitrage dans un contrat commercial ?",
+                 "a": "Pour tenter d'abord un règlement amiable rapide et confidentiel par la médiation, tout en conservant, en cas d'échec, une procédure d'arbitrage contraignante permettant de trancher définitivement le litige sans passer par les tribunaux étatiques."},
+            ],
+        },
+    },
+    "permis-construire-procedure-opposition-voisins": {
+        "domaine_id": "droit_construction_amenagement",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "permis-construire-procedure-opposition-voisins",
+            "title": "Permis de construire : procédure et opposition",
+            "meta": "Dépôt de la demande, mise à l'enquête publique, droit d'opposition des voisins : la procédure prévue par le droit cantonal et la LAT.",
+            "sections": [
+                {"heading": "Une procédure essentiellement cantonale", "paragraphs": [
+                    "La procédure d'octroi du permis de construire relève principalement du droit cantonal et communal, la loi fédérale sur l'aménagement du territoire (LAT) posant surtout les principes généraux d'affectation du sol que les plans d'affectation cantonaux et communaux doivent respecter. Les délais et modalités précises varient donc sensiblement d'un canton à l'autre.",
+                ]},
+                {"heading": "La mise à l'enquête publique", "paragraphs": [
+                    "La plupart des projets de construction font l'objet d'une mise à l'enquête publique, généralement par publication officielle et affichage sur le terrain concerné, permettant aux tiers intéressés de prendre connaissance du projet et, le cas échéant, de faire opposition dans le délai fixé par le droit cantonal.",
+                ]},
+                {"heading": "Le droit d'opposition des voisins", "paragraphs": [
+                    "Un voisin peut faire opposition à un projet de construction s'il dispose de la qualité pour agir, généralement reconnue à toute personne directement touchée par le projet et ayant un intérêt digne de protection à sa modification ou son annulation, par exemple en raison d'une atteinte à l'ensoleillement, à la vue, ou d'un non-respect des règles de construction applicables (gabarit, distances aux limites).",
+                ]},
+                {"heading": "Les voies de recours", "paragraphs": [
+                    "Si l'opposition est écartée par l'autorité communale ou cantonale compétente, l'opposant peut en principe porter la décision devant l'instance de recours cantonale compétente en matière de construction, puis, selon les cas, devant le Tribunal fédéral pour les questions relevant du droit fédéral de l'aménagement du territoire.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Tout voisin peut-il s'opposer à un projet de construction ?",
+                 "a": "Non, il faut disposer de la qualité pour agir, généralement reconnue à toute personne directement touchée par le projet et ayant un intérêt digne de protection à sa modification ou son annulation."},
+                {"q": "Les règles de procédure sont-elles les mêmes dans tous les cantons ?",
+                 "a": "Non, la procédure d'octroi du permis de construire relève principalement du droit cantonal et communal, avec des délais et modalités qui varient sensiblement d'un canton à l'autre."},
+                {"q": "Que faire si mon opposition est rejetée ?",
+                 "a": "Vous pouvez en principe porter la décision devant l'instance de recours cantonale compétente en matière de construction, puis, selon les cas, devant le Tribunal fédéral pour les questions relevant du droit fédéral de l'aménagement du territoire."},
+            ],
+        },
+    },
+    "zone-batir-hors-zone-consequences": {
+        "domaine_id": "droit_construction_amenagement",
+        "published": "2026-07-30",
+        "fr": {
+            "slug": "zone-batir-hors-zone-batir-consequences-terrain",
+            "title": "Zone à bâtir et hors zone à bâtir : les différences",
+            "meta": "Constructibilité d'un terrain selon son affectation, dérogations pour les constructions hors zone à bâtir : les règles de la LAT.",
+            "sections": [
+                {"heading": "La zone à bâtir", "paragraphs": [
+                    "La LAT (art. 15) définit la zone à bâtir comme les terrains propres à la construction déjà largement bâtis, ou dont le besoin pour les quinze années à venir est démontré, et qui seront équipés dans ce délai. Un terrain classé en zone à bâtir peut en principe faire l'objet d'une construction conforme à l'affectation prévue par le plan de zone communal (habitat, activités, mixte).",
+                ]},
+                {"heading": "Le hors zone à bâtir", "paragraphs": [
+                    "Un terrain situé hors zone à bâtir (zone agricole, zone forestière, zone protégée) n'est en principe pas constructible, la LAT visant à limiter le mitage du territoire et à préserver les terres agricoles et les espaces naturels de constructions dispersées.",
+                ]},
+                {"heading": "Les dérogations possibles", "paragraphs": [
+                    "L'art. 24 LAT permet, à titre exceptionnel et à des conditions strictes, une autorisation dérogatoire pour des constructions hors zone à bâtir dont l'implantation est imposée par leur destination (comme certaines constructions agricoles) et qui ne s'opposent à aucun intérêt prépondérant. Ces dérogations sont interprétées restrictivement par les autorités et les tribunaux.",
+                ]},
+                {"heading": "L'impact sur la valeur et l'usage d'un terrain", "paragraphs": [
+                    "L'affectation d'un terrain (à bâtir ou non) a un impact déterminant sur sa valeur et les possibilités concrètes de l'utiliser : avant tout projet ou acquisition, il est essentiel de vérifier précisément le régime applicable auprès du service cantonal ou communal de l'aménagement du territoire, le plan de zone communal faisant foi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Puis-je construire sur un terrain classé hors zone à bâtir ?",
+                 "a": "En principe non, sauf dérogation exceptionnelle au sens de l'art. 24 LAT, réservée aux constructions dont l'implantation est imposée par leur destination et qui ne s'opposent à aucun intérêt prépondérant."},
+                {"q": "Comment savoir si mon terrain est en zone à bâtir ?",
+                 "a": "En consultant le plan de zone (plan d'affectation) de la commune où se situe le terrain, disponible auprès du service communal ou cantonal de l'aménagement du territoire."},
+                {"q": "Une zone à bâtir peut-elle être modifiée ultérieurement ?",
+                 "a": "Oui, les plans d'affectation peuvent être révisés par les autorités communales et cantonales compétentes, dans le respect des principes fédéraux de la LAT, ce qui peut faire évoluer le statut constructible d'un terrain avec le temps."},
+            ],
+        },
+    },
 }
