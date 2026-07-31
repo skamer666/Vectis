@@ -3574,6 +3574,87 @@ BLOG_ARTICLES = {
                  "a": "Oui, l'APEA doit réexaminer périodiquement la mesure et la lever dès que les conditions qui la justifiaient ont disparu, ou l'adapter si la situation de la personne concernée évolue."},
             ],
         },
+        "de": {
+            "slug": "beistandschaft-wann-wie-angeordnet",
+            "title": "Beistandschaft: wann und wie sie angeordnet wird",
+            "meta": "Begleitbeistandschaft, Vertretungsbeistandschaft, Mitwirkungs- oder umfassende Beistandschaft: die Massnahmen des Zivilgesetzbuchs.",
+            "sections": [
+                {"heading": "Der Grundsatz der Verhältnismässigkeit", "paragraphs": [
+                    "Eine Beistandschaft kann nur errichtet werden, wenn die Unterstützung durch die Familie, nahestehende Personen oder öffentliche oder private Dienste nicht ausreicht oder nicht in Frage kommt, und die betroffene Person aufgrund einer geistigen Behinderung, psychischer Störung oder eines anderen Schwächezustands Unterstützung benötigt (Art. 390 ZGB). Die Kindes- und Erwachsenenschutzbehörde (KESB) muss die am wenigsten einschneidende, den Interessen der betroffenen Person gerecht werdende Massnahme wählen.",
+                ]},
+                {"heading": "Die verschiedenen Arten der Beistandschaft", "paragraphs": [
+                    "Das Zivilgesetzbuch unterscheidet die Begleitbeistandschaft, die leichteste, bei der die betroffene Person die Ausübung der Handlungsfähigkeit behält und die Beiständin oder der Beistand lediglich Unterstützung leistet (Art. 393 ZGB); die Vertretungsbeistandschaft, bei der die Beiständin oder der Beistand im Namen der betroffenen Person für bestimmte festgelegte Aufgaben handelt (Art. 394 ZGB); die Mitwirkungsbeistandschaft, die bestimmte Handlungen der Zustimmung der Beiständin oder des Beistands unterstellt (Art. 396 ZGB); und die umfassende Beistandschaft, die weitestgehende, welche für dauerhaften und umfassenden Unterstützungsbedarf vorbehalten ist (Art. 398 ZGB).",
+                ]},
+                {"heading": "Das Verfahren vor der KESB", "paragraphs": [
+                    "Die KESB am Wohnsitz der betroffenen Person untersucht das Gesuch, das von der betroffenen Person selbst, einer nahestehenden Person stammen kann, oder von Amtes wegen aufgrund einer Meldung eröffnet werden kann. Die betroffene Person wird grundsätzlich persönlich angehört, und ein Gutachten kann angeordnet werden, um ihren Zustand und ihre Bedürfnisse genau zu beurteilen.",
+                ]},
+                {"heading": "Die Überprüfung der Massnahme", "paragraphs": [
+                    "Eine Beistandschaft ist nicht endgültig festgelegt: sie muss von der KESB periodisch überprüft werden und kann aufgehoben werden, sobald die Voraussetzungen, die sie rechtfertigten, weggefallen sind, oder angepasst werden, wenn sich die Bedürfnisse der betroffenen Person in die eine oder andere Richtung verändern.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entzieht eine Beistandschaft automatisch alle Rechte der betroffenen Person?",
+                 "a": "Nein, das hängt von der angeordneten Art der Beistandschaft ab: die Begleitbeistandschaft, die leichteste, führt zu keiner Einschränkung der Handlungsfähigkeit. Nur die umfassende Beistandschaft, die für den weitestgehenden Unterstützungsbedarf vorbehalten ist, entzieht der Person die Ausübung der Handlungsfähigkeit."},
+                {"q": "Wer kann die Errichtung einer Beistandschaft beantragen?",
+                 "a": "Die betroffene Person selbst, eine nahestehende Person, oder die KESB kann von Amtes wegen aufgrund einer Meldung eines Dritten (Ärztin, Arzt, Sozialdienst, Nachbarin, Nachbar) handeln, wenn die gesetzlichen Voraussetzungen erfüllt scheinen."},
+                {"q": "Kann eine Beistandschaft aufgehoben werden?",
+                 "a": "Ja, die KESB muss die Massnahme periodisch überprüfen und aufheben, sobald die Voraussetzungen, die sie rechtfertigten, weggefallen sind, oder sie anpassen, wenn sich die Situation der betroffenen Person verändert."},
+            ],
+        },
+        "it": {
+            "slug": "curatela-quando-come-viene-decisa",
+            "title": "Curatela: quando e come viene decisa",
+            "meta": "Curatela di accompagnamento, di rappresentanza, di cooperazione o generale: le misure previste dal Codice civile.",
+            "sections": [
+                {"heading": "Il principio di proporzionalità", "paragraphs": [
+                    "Una curatela può essere istituita solo se l'aiuto fornito dalla famiglia, da persone vicine o da servizi pubblici o privati non è sufficiente o non è ipotizzabile, e la persona interessata necessita di aiuto a causa di una disabilità mentale, di turbe psichiche o di un altro stato di debolezza (art. 390 CC). L'autorità di protezione degli adulti (APA) deve scegliere la misura meno incisiva possibile per gli interessi della persona interessata.",
+                ]},
+                {"heading": "I diversi tipi di curatela", "paragraphs": [
+                    "Il Codice civile distingue la curatela di accompagnamento, la più leggera, dove la persona interessata conserva l'esercizio dei diritti civili e il curatore si limita a fornire un sostegno (art. 393 CC); la curatela di rappresentanza, dove il curatore agisce a nome della persona per determinati compiti definiti (art. 394 CC); la curatela di cooperazione, che sottopone determinati atti al consenso del curatore (art. 396 CC); e la curatela generale, la più estesa, riservata ai casi di bisogno d'aiuto duraturo e completo (art. 398 CC).",
+                ]},
+                {"heading": "La procedura davanti all'APA", "paragraphs": [
+                    "L'APA del domicilio della persona interessata istruisce la domanda, che può provenire dalla persona stessa, da una persona vicina, o essere aperta d'ufficio su segnalazione. La persona interessata viene in linea di principio sentita personalmente, e può essere ordinata una perizia per valutare precisamente il suo stato e i suoi bisogni.",
+                ]},
+                {"heading": "Il riesame della misura", "paragraphs": [
+                    "Una curatela non è definitiva: deve essere riesaminata periodicamente dall'APA, e può essere revocata non appena le condizioni che la giustificavano sono venute meno, o adattata se i bisogni della persona interessata evolvono in un senso o nell'altro.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Una curatela priva automaticamente la persona di tutti i suoi diritti?",
+                 "a": "No, dipende dal tipo di curatela pronunciata: la curatela di accompagnamento, la più leggera, non comporta alcuna restrizione dei diritti civili. Solo la curatela generale, riservata ai bisogni più estesi, priva la persona dell'esercizio dei diritti civili."},
+                {"q": "Chi può chiedere l'istituzione di una curatela?",
+                 "a": "La persona interessata stessa, una persona vicina, o l'APA può agire d'ufficio su segnalazione di un terzo (medico, servizio sociale, vicino) se le condizioni legali sembrano riunite."},
+                {"q": "Una curatela può essere revocata?",
+                 "a": "Sì, l'APA deve riesaminare periodicamente la misura e revocarla non appena le condizioni che la giustificavano sono venute meno, o adattarla se la situazione della persona interessata evolve."},
+            ],
+        },
+        "en": {
+            "slug": "deputyship-when-how-ordered",
+            "title": "Deputyship: when and how it is ordered",
+            "meta": "Companionship, representative, co-management and general deputyship: the measures provided by the Civil Code.",
+            "sections": [
+                {"heading": "The principle of proportionality", "paragraphs": [
+                    "A deputyship can only be set up if support from family, close contacts, or public or private services is insufficient or not feasible, and the person concerned needs help due to a mental disability, psychiatric disorder, or another state of weakness (art. 390 CC). The adult protection authority must choose the least restrictive measure that serves the interests of the person concerned.",
+                ]},
+                {"heading": "The different types of deputyship", "paragraphs": [
+                    "The Civil Code distinguishes companionship deputyship, the lightest form, where the person concerned retains the exercise of civil rights and the deputy merely provides support (art. 393 CC); representative deputyship, where the deputy acts on the person's behalf for certain defined tasks (art. 394 CC); co-management deputyship, which subjects certain acts to the deputy's consent (art. 396 CC); and general deputyship, the most extensive, reserved for lasting and comprehensive needs for help (art. 398 CC).",
+                ]},
+                {"heading": "The procedure before the adult protection authority", "paragraphs": [
+                    "The adult protection authority of the domicile of the person concerned examines the request, which can come from the person themselves, a close contact, or be opened on its own initiative following a report. The person concerned is in principle heard in person, and an assessment can be ordered to precisely evaluate their condition and needs.",
+                ]},
+                {"heading": "Reviewing the measure", "paragraphs": [
+                    "A deputyship is not fixed forever: it must be periodically reviewed by the adult protection authority and lifted as soon as the conditions justifying it have disappeared, or adjusted if the needs of the person concerned change in one direction or another.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does a deputyship automatically strip the person of all their rights?",
+                 "a": "No, this depends on the type of deputyship ordered: companionship deputyship, the lightest form, involves no restriction of civil rights. Only general deputyship, reserved for the most extensive needs, deprives the person of the exercise of civil rights."},
+                {"q": "Who can request that a deputyship be set up?",
+                 "a": "The person concerned themselves, a close contact, or the adult protection authority can act on its own initiative following a report from a third party (doctor, social service, neighbour) if the legal conditions appear to be met."},
+                {"q": "Can a deputyship be lifted?",
+                 "a": "Yes, the adult protection authority must periodically review the measure and lift it as soon as the conditions justifying it have disappeared, or adjust it if the situation of the person concerned changes."},
+            ],
+        },
     },
     "mandat-cause-inaptitude-anticiper": {
         "domaine_id": "droit_protection_enfant_adulte",
@@ -3603,6 +3684,87 @@ BLOG_ARTICLES = {
                  "a": "Seulement lorsque l'incapacité de discernement du mandant survient effectivement et que l'APEA a validé le mandat après avoir vérifié sa validité formelle et l'aptitude du mandataire désigné."},
                 {"q": "Le mandat pour cause d'inaptitude remplace-t-il les directives anticipées du patient ?",
                  "a": "Non, ce sont deux instruments distincts et complémentaires : le mandat porte sur les affaires personnelles et patrimoniales, tandis que les directives anticipées concernent spécifiquement les décisions médicales."},
+            ],
+        },
+        "de": {
+            "slug": "vorsorgeauftrag-eigene-urteilsunfaehigkeit-vorsorgen",
+            "title": "Vorsorgeauftrag: der eigenen Urteilsunfähigkeit vorsorgen",
+            "meta": "Eine Vertrauensperson im Voraus bestimmen, um bei Verlust der Urteilsfähigkeit die eigenen Angelegenheiten zu regeln, gemäss Zivilgesetzbuch.",
+            "sections": [
+                {"heading": "Wozu der Vorsorgeauftrag dient", "paragraphs": [
+                    "Der Vorsorgeauftrag (Art. 360-369 ZGB) erlaubt jeder urteilsfähigen Person, eine oder mehrere natürliche oder juristische Personen zu beauftragen, sich um ihre persönlichen Angelegenheiten zu kümmern, ihr Vermögen zu verwalten und sie rechtlich zu vertreten, für den Fall, dass sie eines Tages urteilsunfähig werden sollte.",
+                ]},
+                {"heading": "Die Form des Auftrags", "paragraphs": [
+                    "Der Auftrag muss vollständig von Hand geschrieben, datiert und von der auftraggebenden Person unterschrieben werden, oder öffentlich beurkundet werden (Art. 361 ZGB). Ein blosser am Computer getippter und unterschriebener Text erfüllt die Formvoraussetzungen nicht und ist nicht gültig, ausser bei öffentlicher Beurkundung.",
+                ]},
+                {"heading": "Die Validierung durch die Erwachsenenschutzbehörde", "paragraphs": [
+                    "Tritt die Urteilsunfähigkeit der auftraggebenden Person tatsächlich ein, prüft die KESB, ob der Auftrag gültig errichtet wurde, ob die beauftragte Person zur Erfüllung ihrer Aufgabe geeignet ist, und validiert den Auftrag, der dann seine Wirkung entfaltet. Die KESB kann in bestimmten Fällen eine Aufsicht über die Ausführung des Auftrags ausüben.",
+                ]},
+                {"heading": "Das Verhältnis zur Patientenverfügung", "paragraphs": [
+                    "Der Vorsorgeauftrag betrifft die Verwaltung der persönlichen und vermögensrechtlichen Angelegenheiten; er unterscheidet sich von der Patientenverfügung, die sich speziell auf medizinische Entscheidungen und gewünschte oder abgelehnte Behandlungen bei Urteilsunfähigkeit bezieht, geregelt durch eigene Bestimmungen des Zivilgesetzbuchs.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Muss der Vorsorgeauftrag von Hand geschrieben werden?",
+                 "a": "Ja, ausser bei öffentlicher Beurkundung: ein eigenhändiger Vorsorgeauftrag muss vollständig von Hand geschrieben, datiert und von der auftraggebenden Person unterschrieben werden (Art. 361 ZGB)."},
+                {"q": "Wann tritt der Auftrag in Kraft?",
+                 "a": "Erst wenn die Urteilsunfähigkeit der auftraggebenden Person tatsächlich eintritt und die KESB den Auftrag validiert hat, nachdem sie dessen Gültigkeit und die Eignung der beauftragten Person geprüft hat."},
+                {"q": "Ersetzt der Vorsorgeauftrag die Patientenverfügung?",
+                 "a": "Nein, das sind zwei unterschiedliche und sich ergänzende Instrumente: der Auftrag betrifft die persönlichen und vermögensrechtlichen Angelegenheiten, während sich die Patientenverfügung speziell auf medizinische Entscheidungen bezieht."},
+            ],
+        },
+        "it": {
+            "slug": "mandato-precauzionale-anticipare-incapacita",
+            "title": "Mandato precauzionale: anticipare l'incapacità",
+            "meta": "Designare in anticipo una persona di fiducia per gestire i propri affari in caso di perdita del discernimento, secondo il Codice civile.",
+            "sections": [
+                {"heading": "A cosa serve il mandato precauzionale", "paragraphs": [
+                    "Il mandato precauzionale (art. 360-369 CC) permette a chiunque sia capace di discernimento di incaricare una o più persone fisiche o giuridiche di occuparsi dei propri affari personali, di gestire il proprio patrimonio e di rappresentarlo giuridicamente, nel caso in cui diventi un giorno incapace di discernimento.",
+                ]},
+                {"heading": "La forma del mandato", "paragraphs": [
+                    "Il mandato deve essere redatto interamente a mano, datato e firmato dal mandante, oppure fatto per atto pubblico davanti a notaio (art. 361 CC). Un documento semplicemente digitato e firmato non soddisfa le condizioni di forma e non è valido, salvo la via notarile.",
+                ]},
+                {"heading": "La validazione da parte dell'autorità di protezione degli adulti", "paragraphs": [
+                    "Quando l'incapacità di discernimento del mandante sopraggiunge effettivamente, l'APA verifica che il mandato sia stato validamente costituito, che il mandatario sia idoneo a svolgere il suo compito, e procede alla validazione del mandato, che allora dispiega i suoi effetti. L'APA può, in determinati casi, esercitare una sorveglianza sull'esecuzione del mandato.",
+                ]},
+                {"heading": "L'articolazione con le direttive del paziente", "paragraphs": [
+                    "Il mandato precauzionale riguarda la gestione degli affari personali e patrimoniali; si distingue dalle direttive anticipate del paziente, che concernono specificamente le decisioni mediche e i trattamenti desiderati o rifiutati in caso di incapacità di discernimento, disciplinate da disposizioni proprie del Codice civile.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il mandato precauzionale deve essere scritto a mano?",
+                 "a": "Sì, salvo se fatto per atto pubblico davanti a notaio: un mandato olografo deve essere redatto interamente a mano, datato e firmato dal mandante (art. 361 CC)."},
+                {"q": "Quando entra in vigore il mandato?",
+                 "a": "Solo quando l'incapacità di discernimento del mandante sopraggiunge effettivamente e l'APA ha validato il mandato dopo averne verificato la validità e l'idoneità del mandatario designato."},
+                {"q": "Il mandato precauzionale sostituisce le direttive anticipate del paziente?",
+                 "a": "No, sono due strumenti distinti e complementari: il mandato riguarda gli affari personali e patrimoniali, mentre le direttive anticipate concernono specificamente le decisioni mediche."},
+            ],
+        },
+        "en": {
+            "slug": "power-of-attorney-incapacity-planning-ahead",
+            "title": "Power of attorney for incapacity: planning ahead",
+            "meta": "Appointing a trusted person in advance to manage your affairs if you lose capacity of judgment, under the Civil Code.",
+            "sections": [
+                {"heading": "The purpose of the power of attorney for incapacity", "paragraphs": [
+                    "The power of attorney for incapacity (art. 360-369 CC) allows anyone with capacity of judgment to appoint one or more individuals or legal entities to take care of their personal affairs, manage their assets, and represent them legally, in case they should one day become incapable of judgment.",
+                ]},
+                {"heading": "The form of the power of attorney", "paragraphs": [
+                    "The document must be written entirely by hand, dated and signed by the person granting it, or drawn up by public deed (art. 361 CC). A merely typed and signed document does not meet the formal requirements and is not valid, except via the notarial route.",
+                ]},
+                {"heading": "Validation by the adult protection authority", "paragraphs": [
+                    "When the incapacity of judgment of the person who granted the power of attorney actually occurs, the adult protection authority checks that the document was validly drawn up, that the appointed person is suitable to carry out their task, and validates the power of attorney, which then takes effect. The authority can, in certain cases, exercise oversight over how the power of attorney is carried out.",
+                ]},
+                {"heading": "How it relates to patient directives", "paragraphs": [
+                    "The power of attorney for incapacity concerns the management of personal and financial affairs; it is distinct from advance patient directives, which specifically concern medical decisions and desired or refused treatments in the event of incapacity of judgment, governed by their own provisions of the Civil Code.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does the power of attorney for incapacity need to be handwritten?",
+                 "a": "Yes, unless drawn up by public deed: a handwritten power of attorney for incapacity must be written entirely by hand, dated and signed by the grantor (art. 361 CC)."},
+                {"q": "When does the power of attorney take effect?",
+                 "a": "Only when the grantor's incapacity of judgment actually occurs and the adult protection authority has validated the document after checking its validity and the suitability of the appointed person."},
+                {"q": "Does the power of attorney for incapacity replace advance patient directives?",
+                 "a": "No, these are two distinct, complementary instruments: the power of attorney concerns personal and financial affairs, while advance directives specifically concern medical decisions."},
             ],
         },
     },
@@ -3636,6 +3798,87 @@ BLOG_ARTICLES = {
                  "a": "Vous pouvez porter la décision sur réclamation devant la commission cantonale de recours en matière fiscale, puis, selon les cas, devant les instances judiciaires supérieures compétentes."},
             ],
         },
+        "de": {
+            "slug": "steuerveranlagung-anfechten-einsprache-fristen",
+            "title": "Steuerveranlagung anfechten: Einsprache und Fristen",
+            "meta": "30-tägige Frist, Form der Einsprache, weiteres Rechtsmittel: das Verfahren zur Anfechtung einer Veranlagung gemäss DBG.",
+            "sections": [
+                {"heading": "Die Einsprache, obligatorischer erster Schritt", "paragraphs": [
+                    "Die steuerpflichtige Person, die ihre Veranlagung für die direkte Bundessteuer anficht, muss zunächst eine schriftliche Einsprache bei der Veranlagungsbehörde einreichen, innert 30 Tagen nach Eröffnung der Verfügung (Art. 132 DBG). Die Einsprache muss begründete Anträge und, soweit möglich, die zur Untermauerung dienenden Beweismittel enthalten.",
+                ]},
+                {"heading": "Der Inhalt der Einsprache", "paragraphs": [
+                    "Die Einsprache muss genau angeben, welche Punkte der Veranlagung bestritten werden und aus welchen Gründen die steuerpflichtige Person die Verfügung für fehlerhaft hält: falsch bewertete Einkommens- oder Vermögenselemente, zu Unrecht verweigerte Abzüge, Rechenfehler, oder Verletzung einer Verfahrensregel.",
+                ]},
+                {"heading": "Die Behandlung der Einsprache", "paragraphs": [
+                    "Die Veranlagungsbehörde prüft das Dossier erneut und kann die angefochtene Veranlagung bestätigen, herabsetzen oder sogar erhöhen (reformatio in peius), unter Vorbehalt, die steuerpflichtige Person darüber zu informieren und ihr Gelegenheit zur Stellungnahme zu geben, bevor ein für sie ungünstiger Entscheid ergeht.",
+                ]},
+                {"heading": "Das weitere Rechtsmittel", "paragraphs": [
+                    "Befriedigt der Einspracheentscheid die steuerpflichtige Person nicht, kann sie ihn bei der kantonalen Steuerrekurskommission anfechten, danach je nach Fall beim kantonalen Verwaltungsgericht und schliesslich beim Bundesgericht, innert der für jede Instanz vorgesehenen Fristen und Formen.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich gegen meine Veranlagung Einsprache erheben?",
+                 "a": "Innert 30 Tagen nach Eröffnung der Veranlagungsverfügung, durch eine schriftliche und begründete Einsprache an die Veranlagungsbehörde (Art. 132 DBG)."},
+                {"q": "Kann die Einsprache zu einer höheren Veranlagung führen?",
+                 "a": "Ja, die Veranlagungsbehörde kann grundsätzlich das gesamte Dossier erneut prüfen und die angefochtene Veranlagung erhöhen, sofern sie die steuerpflichtige Person darüber informiert und ihr vorgängig Gelegenheit zur Stellungnahme gibt."},
+                {"q": "Was tun, wenn die Einsprache abgelehnt wird?",
+                 "a": "Sie können den Einspracheentscheid bei der zuständigen kantonalen Steuerrekurskommission anfechten, danach je nach Fall bei den zuständigen höheren Gerichtsinstanzen."},
+            ],
+        },
+        "it": {
+            "slug": "contestare-decisione-tassazione-reclamo-termini",
+            "title": "Contestare una decisione di tassazione: il reclamo",
+            "meta": "Termine di 30 giorni, forma del reclamo, ricorso successivo: la procedura per contestare una tassazione secondo la LIFD.",
+            "sections": [
+                {"heading": "Il reclamo, prima tappa obbligatoria", "paragraphs": [
+                    "Il contribuente che contesta la propria tassazione per l'imposta federale diretta deve prima presentare un reclamo scritto presso l'autorità di tassazione, entro 30 giorni dalla notifica della decisione (art. 132 LIFD). Il reclamo deve contenere conclusioni motivate e, se possibile, i mezzi di prova a sostegno.",
+                ]},
+                {"heading": "Il contenuto del reclamo", "paragraphs": [
+                    "Il reclamo deve indicare precisamente i punti contestati della tassazione e i motivi per cui il contribuente ritiene errata la decisione: elementi di reddito o di sostanza valutati male, deduzioni rifiutate a torto, errore di calcolo, o violazione di una regola procedurale.",
+                ]},
+                {"heading": "Il trattamento del reclamo", "paragraphs": [
+                    "L'autorità di tassazione riesamina l'incarto e può confermare, ridurre o persino aumentare la tassazione contestata (reformatio in pejus), con riserva di informarne il contribuente e di dargli l'occasione di determinarsi prima di una decisione a lui sfavorevole.",
+                ]},
+                {"heading": "Il ricorso successivo", "paragraphs": [
+                    "Se la decisione su reclamo non soddisfa il contribuente, questi può portarla davanti alla commissione cantonale di ricorso in materia fiscale, poi, secondo i casi, davanti al tribunale cantonale e infine al Tribunale federale, entro i termini e le forme previste per ciascuna istanza.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo reclamare contro la mia tassazione?",
+                 "a": "Entro 30 giorni dalla notifica della decisione di tassazione, tramite un reclamo scritto e motivato indirizzato all'autorità di tassazione (art. 132 LIFD)."},
+                {"q": "Il reclamo può portare a una tassazione più elevata?",
+                 "a": "Sì, l'autorità di tassazione può in linea di principio riesaminare l'intero incarto e aumentare la tassazione contestata, a condizione di informarne il contribuente e di dargli previamente l'occasione di determinarsi."},
+                {"q": "Cosa fare se il reclamo viene respinto?",
+                 "a": "Potete portare la decisione su reclamo davanti alla commissione cantonale di ricorso in materia fiscale, poi, secondo i casi, davanti alle istanze giudiziarie superiori competenti."},
+            ],
+        },
+        "en": {
+            "slug": "challenging-tax-assessment-objection-deadlines",
+            "title": "Challenging a tax assessment: filing an objection",
+            "meta": "30-day deadline, form of the objection, further appeal: the procedure for challenging a tax assessment under the DFTA.",
+            "sections": [
+                {"heading": "The objection, a mandatory first step", "paragraphs": [
+                    "A taxpayer who disputes their direct federal tax assessment must first file a written objection with the assessment authority, within 30 days of notification of the decision (art. 132 DFTA). The objection must contain reasoned submissions and, where possible, supporting evidence.",
+                ]},
+                {"heading": "The content of the objection", "paragraphs": [
+                    "The objection must precisely state the disputed points of the assessment and the reasons why the taxpayer considers the decision incorrect: income or wealth items wrongly assessed, deductions wrongly refused, a calculation error, or a breach of a procedural rule.",
+                ]},
+                {"heading": "How the objection is handled", "paragraphs": [
+                    "The assessment authority re-examines the file and can confirm, reduce or even increase the disputed assessment (reformatio in pejus), subject to informing the taxpayer and giving them the opportunity to comment before a decision unfavourable to them is issued.",
+                ]},
+                {"heading": "Further appeal", "paragraphs": [
+                    "If the decision on the objection does not satisfy the taxpayer, they can bring it before the cantonal tax appeals commission, then, depending on the case, before the cantonal administrative court and finally the Federal Supreme Court, within the deadlines and forms provided for each instance.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline must I object to my tax assessment?",
+                 "a": "Within 30 days of notification of the assessment decision, through a written and reasoned objection addressed to the assessment authority (art. 132 DFTA)."},
+                {"q": "Can an objection lead to a higher assessment?",
+                 "a": "Yes, the assessment authority can in principle re-examine the entire file and increase the disputed assessment, provided it informs the taxpayer and gives them the opportunity to comment beforehand."},
+                {"q": "What should I do if my objection is rejected?",
+                 "a": "You can bring the decision on the objection before the competent cantonal tax appeals commission, then, depending on the case, before the competent higher courts."},
+            ],
+        },
     },
     "imposition-source-qui-concerne-fonctionnement": {
         "domaine_id": "droit_fiscal",
@@ -3665,6 +3908,87 @@ BLOG_ARTICLES = {
                  "a": "Le barème forfaitaire intègre déjà certaines déductions standard ; pour faire valoir des frais effectifs supérieurs ou d'autres déductions spécifiques, il faut généralement demander une taxation ordinaire ultérieure dans les conditions prévues par la loi."},
                 {"q": "Que se passe-t-il quand j'obtiens le permis C ?",
                  "a": "L'imposition à la source prend fin en principe, et vous passez au régime de taxation ordinaire par déclaration d'impôt comme les contribuables suisses."},
+            ],
+        },
+        "de": {
+            "slug": "quellensteuer-wer-betroffen-funktionsweise",
+            "title": "Quellensteuer: wer betroffen ist und wie sie funktioniert",
+            "meta": "Ausländische Arbeitnehmende ohne Niederlassungsbewilligung, im Ausland wohnhafte Personen mit Schweizer Einkommen: die Funktionsweise der Quellensteuer.",
+            "sections": [
+                {"heading": "Wer der Quellensteuer unterliegt", "paragraphs": [
+                    "Die Quellensteuer (Art. 83 ff. DBG) betrifft hauptsächlich ausländische Arbeitnehmende mit Wohnsitz oder Aufenthalt in der Schweiz, die keine Niederlassungsbewilligung (Ausweis C) besitzen, sowie bestimmte im Ausland wohnhafte Personen, die Einkommen aus schweizerischer Quelle beziehen, wie einen Lohn, eine Rente, oder bestimmte Leistungen.",
+                ]},
+                {"heading": "Der Mechanismus des Steuerabzugs", "paragraphs": [
+                    "Die Quellensteuer wird direkt vom Arbeitgeber vom Lohn abgezogen, gemäss Tarifen, die nach Einkommen, familiärer Situation und betroffenem Kanton festgelegt werden, und anschliessend an die kantonale Steuerbehörde überwiesen. Dieser Mechanismus ersetzt für die betroffenen Personen das ordentliche Veranlagungsverfahren durch Steuererklärung.",
+                ]},
+                {"heading": "Die nachträgliche ordentliche Veranlagung", "paragraphs": [
+                    "Bestimmte quellenbesteuerte Personen können eine nachträgliche ordentliche Veranlagung beantragen, oder unterliegen dieser in bestimmten Fällen automatisch, namentlich wenn das Einkommen bestimmte Schwellen überschreitet oder um zusätzliche Abzüge geltend zu machen (tatsächliche Berufsauslagen, Vorsorgeeinkäufe), die der pauschale Tarif nicht berücksichtigt.",
+                ]},
+                {"heading": "Der Erhalt des Ausweises C und das Ende der Quellensteuer", "paragraphs": [
+                    "Der Erhalt einer Niederlassungsbewilligung (Ausweis C) oder eine Heirat mit einer Person schweizerischer Staatsangehörigkeit oder mit Ausweis C beendet grundsätzlich die Quellenbesteuerung, wobei die Person dann in das ordentliche Veranlagungsverfahren durch Steuererklärung wechselt.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wer unterliegt in der Schweiz der Quellensteuer?",
+                 "a": "Hauptsächlich ausländische Arbeitnehmende ohne Ausweis C mit Wohnsitz oder Aufenthalt in der Schweiz, sowie bestimmte im Ausland wohnhafte Personen mit Einkommen aus schweizerischer Quelle."},
+                {"q": "Kann ich meine tatsächlichen Berufsauslagen abziehen, wenn ich quellenbesteuert bin?",
+                 "a": "Der Pauschaltarif berücksichtigt bereits bestimmte Standardabzüge; um höhere tatsächliche Kosten oder andere spezifische Abzüge geltend zu machen, muss in der Regel eine nachträgliche ordentliche Veranlagung unter den gesetzlichen Voraussetzungen beantragt werden."},
+                {"q": "Was geschieht, wenn ich den Ausweis C erhalte?",
+                 "a": "Die Quellenbesteuerung endet grundsätzlich, und Sie wechseln in das ordentliche Veranlagungsverfahren durch Steuererklärung wie die schweizerischen Steuerpflichtigen."},
+            ],
+        },
+        "it": {
+            "slug": "imposta-alla-fonte-chi-interessato-funzionamento",
+            "title": "Imposta alla fonte: chi è interessato e come funziona",
+            "meta": "Lavoratori stranieri senza permesso C, persone domiciliate all'estero con reddito svizzero: il funzionamento dell'imposta alla fonte.",
+            "sections": [
+                {"heading": "Chi è soggetto all'imposta alla fonte", "paragraphs": [
+                    "L'imposta alla fonte (art. 83 segg. LIFD) riguarda principalmente i lavoratori stranieri domiciliati o dimoranti in Svizzera che non sono titolari di un permesso di domicilio (permesso C), nonché determinate persone domiciliate all'estero che percepiscono un reddito di fonte svizzera, come un salario, una rendita, o determinate prestazioni.",
+                ]},
+                {"heading": "Il meccanismo del prelievo", "paragraphs": [
+                    "L'imposta alla fonte viene trattenuta direttamente dal datore di lavoro sul salario, secondo tariffe fissate in funzione del reddito, della situazione familiare e del Cantone interessato, poi versata all'autorità fiscale cantonale. Questo meccanismo sostituisce, per le persone interessate, la procedura di tassazione ordinaria tramite dichiarazione d'imposta.",
+                ]},
+                {"heading": "La tassazione ordinaria ulteriore", "paragraphs": [
+                    "Determinate persone tassate alla fonte possono chiedere, o in certi casi sono automaticamente sottoposte, a una tassazione ordinaria ulteriore, in particolare quando il reddito supera determinate soglie o per far valere deduzioni supplementari (spese professionali effettive, riscatti di previdenza) che la tariffa forfettaria non prende in considerazione.",
+                ]},
+                {"heading": "L'ottenimento del permesso C e la fine dell'imposta alla fonte", "paragraphs": [
+                    "L'ottenimento di un permesso di domicilio (permesso C) o un matrimonio con una persona di nazionalità svizzera o titolare di un permesso C pone in linea di principio fine all'imposizione alla fonte, e la persona passa allora al regime di tassazione ordinaria tramite dichiarazione.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Chi è soggetto all'imposta alla fonte in Svizzera?",
+                 "a": "Principalmente i lavoratori stranieri senza permesso C domiciliati o dimoranti in Svizzera, nonché determinate persone domiciliate all'estero che percepiscono un reddito di fonte svizzera."},
+                {"q": "Posso dedurre le mie spese professionali effettive se sono tassato alla fonte?",
+                 "a": "La tariffa forfettaria integra già determinate deduzioni standard; per far valere spese effettive superiori o altre deduzioni specifiche, occorre generalmente chiedere una tassazione ordinaria ulteriore alle condizioni previste dalla legge."},
+                {"q": "Cosa succede quando ottengo il permesso C?",
+                 "a": "L'imposizione alla fonte cessa in linea di principio, e passate al regime di tassazione ordinaria tramite dichiarazione d'imposta come i contribuenti svizzeri."},
+            ],
+        },
+        "en": {
+            "slug": "withholding-tax-who-affected-how-it-works",
+            "title": "Withholding tax: who is affected and how it works",
+            "meta": "Foreign employees without a settlement permit, persons resident abroad with Swiss income: how withholding tax works.",
+            "sections": [
+                {"heading": "Who is subject to withholding tax", "paragraphs": [
+                    "Withholding tax (art. 83 ff. DFTA) mainly applies to foreign employees domiciled or residing in Switzerland who do not hold a settlement permit (permit C), as well as certain persons resident abroad who receive income from a Swiss source, such as a salary, pension, or certain benefits.",
+                ]},
+                {"heading": "How the deduction works", "paragraphs": [
+                    "Withholding tax is deducted directly by the employer from the salary, according to rates set based on income, family situation and the canton concerned, and then paid to the cantonal tax authority. This mechanism replaces, for the persons concerned, the ordinary assessment procedure by tax return.",
+                ]},
+                {"heading": "Subsequent ordinary assessment", "paragraphs": [
+                    "Certain persons taxed at source can request, or in certain cases are automatically subject to, a subsequent ordinary assessment, in particular when income exceeds certain thresholds or to claim additional deductions (actual professional expenses, pension buy-ins) that the flat-rate tariff does not take into account.",
+                ]},
+                {"heading": "Obtaining permit C and the end of withholding tax", "paragraphs": [
+                    "Obtaining a settlement permit (permit C) or marrying a Swiss national or a permit C holder in principle ends withholding taxation, and the person then moves to the ordinary assessment procedure by tax return.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Who is subject to withholding tax in Switzerland?",
+                 "a": "Mainly foreign employees without a permit C domiciled or residing in Switzerland, as well as certain persons resident abroad who receive income from a Swiss source."},
+                {"q": "Can I deduct my actual professional expenses if I am taxed at source?",
+                 "a": "The flat-rate tariff already includes certain standard deductions; to claim higher actual expenses or other specific deductions, a subsequent ordinary assessment generally needs to be requested under the conditions set by law."},
+                {"q": "What happens when I obtain permit C?",
+                 "a": "Withholding taxation in principle ends, and you move to the ordinary assessment procedure by tax return like Swiss taxpayers."},
             ],
         },
     },
@@ -3698,6 +4022,87 @@ BLOG_ARTICLES = {
                  "a": "Des sanctions pénales prévues par l'art. 47 LB, qui peuvent inclure une peine privative de liberté ou une peine pécuniaire selon la gravité de la violation."},
             ],
         },
+        "de": {
+            "slug": "bankgeheimnis-schweiz-was-es-heute-schuetzt",
+            "title": "Bankgeheimnis Schweiz: was es heute noch schützt",
+            "meta": "Tragweite des Bankgeheimnisses nach dem automatischen Informationsaustausch, strafrechtliche Sanktionen: was das Bankengesetz vorsieht.",
+            "sections": [
+                {"heading": "Die gesetzliche Grundlage", "paragraphs": [
+                    "Das schweizerische Bankgeheimnis stützt sich auf Art. 47 des Bankengesetzes (BankG), welcher die Verletzung der Berufsgeheimnispflicht durch eine Angestellte, einen Angestellten, ein Organ oder eine Beauftragte oder einen Beauftragten einer Bank strafrechtlich sanktioniert. Es schützt die Vertraulichkeit der Beziehung zwischen der Bank und ihrer Kundschaft gegenüber Dritten und, vorbehältlich gesetzlicher Ausnahmen, gegenüber Behörden.",
+                ]},
+                {"heading": "Was sich mit dem automatischen Informationsaustausch geändert hat", "paragraphs": [
+                    "Seit 2017 wendet die Schweiz den automatischen Informationsaustausch in Steuersachen (AIA) mit einer wachsenden Zahl von Partnerstaaten an: die Kontodaten von in diesen Ländern steuerlich ansässigen Personen werden automatisch an die betroffenen ausländischen Steuerbehörden übermittelt, was die praktische Tragweite des Bankgeheimnisses für grenzüberschreitende Steuerfragen mit diesen Staaten erheblich einschränkt.",
+                ]},
+                {"heading": "Was das Bankgeheimnis noch schützt", "paragraphs": [
+                    "Das Bankgeheimnis behält seine volle Tragweite gegenüber privaten Dritten (Neugier einer Konkurrentin oder eines Konkurrenten, einer Nachbarin oder eines Nachbarn, eines nicht befugten Familienmitglieds), und für in der Schweiz ansässige Personen oder Ansässige von Staaten, die nicht am AIA teilnehmen, beschränkt es weiterhin den Zugang zu Bankinformationen ausserhalb der gesetzlich vorgesehenen Verfahren (Rechtshilfe, Strafverfahren, Schuldbetreibung).",
+                ]},
+                {"heading": "Die gesetzlichen Ausnahmen", "paragraphs": [
+                    "Das Bankgeheimnis kann im Rahmen eines schweizerischen Strafverfahrens, eines mit den anwendbaren Staatsverträgen konformen internationalen Rechtshilfegesuchs, eines Betreibungs- oder Konkursverfahrens, oder mit ausdrücklicher Zustimmung der betroffenen Kundin oder des betroffenen Kunden aufgehoben werden.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Gibt es das Schweizer Bankgeheimnis noch?",
+                 "a": "Ja, aber seine Tragweite hat sich seit der Einführung des automatischen Informationsaustauschs in Steuersachen (AIA) 2017 mit zahlreichen Partnerstaaten verringert. Es schützt die Vertraulichkeit gegenüber Privaten und in nicht vom AIA erfassten Situationen weiterhin."},
+                {"q": "Kann eine Bank meine Daten ohne meine Zustimmung ins Ausland übermitteln?",
+                 "a": "Im Rahmen des automatischen Informationsaustauschs mit einem Partnerstaat ja, diese Übermittlung an die Steuerbehörden Ihres steuerlichen Wohnsitzstaates erfolgt automatisch und hängt nicht von Ihrer Zustimmung ab."},
+                {"q": "Was riskiert eine Bankangestellte oder ein Bankangestellter, die oder der das Bankgeheimnis verletzt?",
+                 "a": "Strafrechtliche Sanktionen gemäss Art. 47 BankG, die je nach Schwere der Verletzung eine Freiheitsstrafe oder eine Geldstrafe umfassen können."},
+            ],
+        },
+        "it": {
+            "slug": "segreto-bancario-svizzero-cosa-protegge-oggi",
+            "title": "Segreto bancario svizzero: cosa protegge oggi",
+            "meta": "Portata attuale del segreto bancario dopo lo scambio automatico di informazioni, sanzioni penali: quanto previsto dalla legge sulle banche.",
+            "sections": [
+                {"heading": "Il fondamento legale", "paragraphs": [
+                    "Il segreto bancario svizzero si fonda sull'art. 47 della legge sulle banche (LBCR), che sanziona penalmente la violazione del segreto professionale da parte di un dipendente, un organo o un mandatario di una banca. Protegge la confidenzialità della relazione tra la banca e il suo cliente nei confronti di terzi privati e, con riserva delle eccezioni legali, delle autorità.",
+                ]},
+                {"heading": "Cosa è cambiato con lo scambio automatico di informazioni", "paragraphs": [
+                    "Dal 2017 la Svizzera applica lo scambio automatico di informazioni in materia fiscale (SAI) con un numero crescente di Paesi partner: i dati dei conti bancari dei residenti fiscali di questi Paesi vengono trasmessi automaticamente alle autorità fiscali estere interessate, il che limita fortemente la portata pratica del segreto bancario per le questioni fiscali transfrontaliere con tali Stati.",
+                ]},
+                {"heading": "Cosa protegge ancora il segreto bancario", "paragraphs": [
+                    "Il segreto bancario conserva tutta la sua portata nei confronti dei terzi privati (curiosità di un concorrente, di un vicino, di un familiare non autorizzato) e, per i residenti svizzeri o i residenti di Paesi non partner del SAI, continua a limitare l'accesso alle informazioni bancarie al di fuori delle procedure legali previste (assistenza giudiziaria, procedura penale, esecuzione).",
+                ]},
+                {"heading": "Le eccezioni legali", "paragraphs": [
+                    "Il segreto bancario può essere revocato nell'ambito di una procedura penale svizzera, di una domanda di assistenza giudiziaria internazionale conforme ai trattati applicabili, di una procedura di esecuzione o di fallimento, oppure con il consenso espresso del cliente interessato.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il segreto bancario svizzero esiste ancora?",
+                 "a": "Sì, ma la sua portata si è ridotta dall'introduzione dello scambio automatico di informazioni fiscali (SAI) nel 2017 con numerosi Paesi partner. Protegge ancora la confidenzialità nei confronti dei terzi privati e nelle situazioni non coperte dal SAI."},
+                {"q": "Una banca può trasmettere i miei dati all'estero senza il mio accordo?",
+                 "a": "Nell'ambito dello scambio automatico di informazioni con un Paese partner, sì, questa trasmissione alle autorità fiscali del vostro Paese di residenza fiscale è automatica e non dipende dal vostro consenso."},
+                {"q": "Cosa rischia un dipendente di banca che viola il segreto bancario?",
+                 "a": "Sanzioni penali previste dall'art. 47 LBCR, che possono includere una pena detentiva o una pena pecuniaria secondo la gravità della violazione."},
+            ],
+        },
+        "en": {
+            "slug": "swiss-banking-secrecy-what-it-still-protects",
+            "title": "Swiss banking secrecy: what it still protects today",
+            "meta": "The current scope of banking secrecy after automatic information exchange, criminal sanctions: what the Banking Act provides.",
+            "sections": [
+                {"heading": "The legal basis", "paragraphs": [
+                    "Swiss banking secrecy rests on art. 47 of the Banking Act, which imposes criminal sanctions for breach of professional confidentiality by a bank employee, officer, or agent. It protects the confidentiality of the relationship between a bank and its client from private third parties and, subject to legal exceptions, from authorities.",
+                ]},
+                {"heading": "What changed with automatic information exchange", "paragraphs": [
+                    "Since 2017, Switzerland has applied automatic exchange of information (AEOI) in tax matters with a growing number of partner countries: bank account data of tax residents of these countries is automatically transmitted to the foreign tax authorities concerned, which greatly limits the practical scope of banking secrecy for cross-border tax matters with these states.",
+                ]},
+                {"heading": "What banking secrecy still protects", "paragraphs": [
+                    "Banking secrecy retains its full scope with respect to private third parties (a competitor's curiosity, a neighbour's, an unauthorised family member's) and, for Swiss residents or residents of countries not party to AEOI, it continues to limit access to banking information outside the legal procedures provided (mutual legal assistance, criminal proceedings, debt enforcement).",
+                ]},
+                {"heading": "Legal exceptions", "paragraphs": [
+                    "Banking secrecy can be lifted as part of Swiss criminal proceedings, an international mutual legal assistance request compliant with applicable treaties, debt enforcement or bankruptcy proceedings, or with the express consent of the client concerned.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does Swiss banking secrecy still exist?",
+                 "a": "Yes, but its scope has narrowed since the introduction of automatic exchange of tax information (AEOI) in 2017 with numerous partner countries. It still protects confidentiality with respect to private parties and in situations not covered by AEOI."},
+                {"q": "Can a bank transmit my data abroad without my consent?",
+                 "a": "Under automatic information exchange with a partner country, yes, this transmission to the tax authorities of your country of tax residence is automatic and does not depend on your consent."},
+                {"q": "What does a bank employee risk for breaching banking secrecy?",
+                 "a": "Criminal sanctions under art. 47 of the Banking Act, which can include a custodial sentence or a monetary penalty depending on the severity of the breach."},
+            ],
+        },
     },
     "litige-banque-ombudsman-recours": {
         "domaine_id": "droit_bancaire",
@@ -3727,6 +4132,87 @@ BLOG_ARTICLES = {
                  "a": "Non, la recommandation n'est pas contraignante. Si la banque ne la suit pas ou si le client n'est pas satisfait, la voie judiciaire ordinaire reste ouverte."},
                 {"q": "La FINMA peut-elle m'aider à résoudre mon litige individuel avec ma banque ?",
                  "a": "Pas directement : la FINMA surveille le respect des règles prudentielles par les établissements mais ne tranche pas les litiges individuels entre un client et sa banque, contrairement à l'Ombudsman des banques suisses."},
+            ],
+        },
+        "de": {
+            "slug": "streit-mit-bank-ombudsman-rechtsmittel",
+            "title": "Streit mit der Bank: Ombudsman und Rechtsmittel",
+            "meta": "Kostenlose Schlichtung durch den Bankenombudsman, Anrufung des Zivilgerichts: die Wege zur Lösung eines Bankenstreits.",
+            "sections": [
+                {"heading": "Der Schweizerische Bankenombudsman", "paragraphs": [
+                    "Der Schweizerische Bankenombudsman ist eine neutrale und unabhängige, für die Kundschaft kostenlose Schlichtungsstelle, die Streitigkeiten zwischen einer Kundin oder einem Kunden und ihrer oder seiner Bank behandelt: bestrittene Gebühren, fehlerhafte Auftragsausführung, unbefriedigende Anlageberatung, oder andere vertragliche Differenzen. Seine Anrufung erfordert keine Anwältin oder keinen Anwalt und stellt einen raschen Schritt vor oder anstelle eines Gerichtsverfahrens dar.",
+                ]},
+                {"heading": "Die Tragweite der Schlichtung", "paragraphs": [
+                    "Der Ombudsman formuliert eine Empfehlung, die für die Parteien nicht bindend ist: die Bank ist nicht verpflichtet, ihr zu folgen, und die Kundin oder der Kunde behält in jedem Fall das Recht, bei Unzufriedenheit mit dem Ausgang der Schlichtung den Rechtsweg zu beschreiten. Die Schlichtung unterbricht grundsätzlich während ihrer Dauer die Verjährung der Forderung.",
+                ]},
+                {"heading": "Die weiteren Rechtsmittel", "paragraphs": [
+                    "Parallel zur oder nach der Schlichtung kann die Kundin oder der Kunde eine Beschwerde bei der Eidgenössischen Finanzmarktaufsicht (FINMA) einreichen, welche jedoch keine individuellen Streitigkeiten behandelt, sondern bei systemischen Mängeln einer Bank eingreifen kann. Der ordentliche Rechtsweg vor dem zuständigen Zivilgericht bleibt stets offen, um eine Streitigkeit verbindlich zu entscheiden.",
+                ]},
+                {"heading": "Den Streit gut dokumentieren", "paragraphs": [
+                    "Vor jedem Schritt ist es nützlich, den gesamten Schriftverkehr mit der Bank, die betroffenen Kontoauszüge und eine genaue Chronologie der Tatsachen zusammenzustellen: diese Elemente erleichtern die Bearbeitung des Dossiers erheblich, ob durch den Ombudsman oder durch ein Gericht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kostet die Anrufung des Schweizerischen Bankenombudsman etwas?",
+                 "a": "Nein, sie ist für die Kundschaft kostenlos und erfordert keine anwaltliche Vertretung, was sie zu einem zugänglichen ersten Schritt vor einem allfälligen Gerichtsverfahren macht."},
+                {"q": "Ist die Bank verpflichtet, der Empfehlung des Ombudsman zu folgen?",
+                 "a": "Nein, die Empfehlung ist nicht bindend. Folgt die Bank ihr nicht oder ist die Kundin oder der Kunde unzufrieden, bleibt der ordentliche Rechtsweg offen."},
+                {"q": "Kann mir die FINMA bei der Lösung meines individuellen Streits mit meiner Bank helfen?",
+                 "a": "Nicht direkt: die FINMA überwacht die Einhaltung der aufsichtsrechtlichen Regeln durch die Institute, entscheidet aber keine individuellen Streitigkeiten zwischen einer Kundin oder einem Kunden und ihrer oder seiner Bank, im Gegensatz zum Schweizerischen Bankenombudsman."},
+            ],
+        },
+        "it": {
+            "slug": "controversia-banca-ombudsman-vie-ricorso",
+            "title": "Controversia con la banca: ombudsman e ricorsi",
+            "meta": "Mediazione gratuita tramite l'Ombudsman delle banche svizzere, adire il tribunale civile: le vie per risolvere una controversia bancaria.",
+            "sections": [
+                {"heading": "L'Ombudsman delle banche svizzere", "paragraphs": [
+                    "L'Ombudsman delle banche svizzere è un organismo di mediazione neutrale e indipendente, gratuito per il cliente, che tratta le controversie tra un cliente e la sua banca: spese contestate, esecuzione errata di un ordine, consulenza in investimenti insoddisfacente, o altre controversie contrattuali. La sua adizione non richiede un avvocato e costituisce una tappa rapida prima, o in alternativa a, una procedura giudiziaria.",
+                ]},
+                {"heading": "La portata della mediazione", "paragraphs": [
+                    "L'Ombudsman formula una raccomandazione, non vincolante per le parti: la banca non è obbligata a seguirla, e il cliente conserva in ogni caso il diritto di adire la giustizia se non è soddisfatto dell'esito della mediazione. La mediazione interrompe in linea di principio il termine di prescrizione del credito durante la sua durata.",
+                ]},
+                {"heading": "Le altre vie di ricorso", "paragraphs": [
+                    "Parallelamente o dopo la mediazione, il cliente può presentare un reclamo presso l'Autorità federale di vigilanza sui mercati finanziari (FINMA), che tuttavia non tratta le controversie individuali ma può intervenire in caso di carenze sistemiche di un istituto. La via giudiziaria ordinaria, davanti al tribunale civile competente, resta sempre aperta per decidere in modo vincolante una controversia.",
+                ]},
+                {"heading": "Documentare bene la controversia", "paragraphs": [
+                    "Prima di qualsiasi passo, è utile raccogliere l'insieme della corrispondenza con la banca, gli estratti conto interessati, e una cronologia precisa dei fatti: questi elementi facilitano notevolmente il trattamento dell'incarto, sia da parte dell'Ombudsman che di un tribunale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Adire l'Ombudsman delle banche svizzere costa qualcosa?",
+                 "a": "No, è gratuito per il cliente e non richiede l'assistenza di un avvocato, il che ne fa una prima tappa accessibile prima di considerare una procedura giudiziaria."},
+                {"q": "La banca è obbligata a seguire la raccomandazione dell'Ombudsman?",
+                 "a": "No, la raccomandazione non è vincolante. Se la banca non la segue o se il cliente non è soddisfatto, la via giudiziaria ordinaria resta aperta."},
+                {"q": "La FINMA può aiutarmi a risolvere la mia controversia individuale con la mia banca?",
+                 "a": "Non direttamente: la FINMA vigila sul rispetto delle regole prudenziali da parte degli istituti ma non decide le controversie individuali tra un cliente e la sua banca, a differenza dell'Ombudsman delle banche svizzere."},
+            ],
+        },
+        "en": {
+            "slug": "dispute-with-bank-ombudsman-legal-remedies",
+            "title": "Dispute with your bank: ombudsman and legal remedies",
+            "meta": "Free mediation through the Swiss Banking Ombudsman, going to civil court: the ways to resolve a dispute with your bank.",
+            "sections": [
+                {"heading": "The Swiss Banking Ombudsman", "paragraphs": [
+                    "The Swiss Banking Ombudsman is a neutral, independent mediation body, free of charge for the client, which handles disputes between a client and their bank: disputed fees, incorrect execution of an order, unsatisfactory investment advice, or other contractual disagreements. Approaching it does not require a lawyer and provides a quick step before, or as an alternative to, court proceedings.",
+                ]},
+                {"heading": "The scope of the mediation", "paragraphs": [
+                    "The Ombudsman issues a recommendation, which is not binding on the parties: the bank is not obliged to follow it, and the client in any case retains the right to go to court if they are not satisfied with the outcome of the mediation. Mediation in principle suspends the limitation period for the claim while it is ongoing.",
+                ]},
+                {"heading": "Other legal remedies", "paragraphs": [
+                    "In parallel with or after mediation, the client can file a complaint with the Swiss Financial Market Supervisory Authority (FINMA), which, however, does not handle individual disputes but can intervene in the event of systemic shortcomings at an institution. Ordinary court proceedings, before the competent civil court, always remain available to resolve a dispute in a binding way.",
+                ]},
+                {"heading": "Documenting the dispute well", "paragraphs": [
+                    "Before taking any steps, it is useful to gather all correspondence with the bank, the relevant account statements, and a precise timeline of events: these elements greatly facilitate handling the case, whether by the Ombudsman or by a court.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does approaching the Swiss Banking Ombudsman cost anything?",
+                 "a": "No, it is free for the client and does not require the assistance of a lawyer, making it an accessible first step before considering court proceedings."},
+                {"q": "Is the bank obliged to follow the Ombudsman's recommendation?",
+                 "a": "No, the recommendation is not binding. If the bank does not follow it, or if the client is not satisfied, ordinary court proceedings remain available."},
+                {"q": "Can FINMA help me resolve my individual dispute with my bank?",
+                 "a": "Not directly: FINMA supervises institutions' compliance with prudential rules but does not rule on individual disputes between a client and their bank, unlike the Swiss Banking Ombudsman."},
             ],
         },
     },
@@ -3760,6 +4246,87 @@ BLOG_ARTICLES = {
                  "a": "Le plus souvent par une expertise médicale indépendante, destinée à déterminer si les soins prodigués respectaient les règles de l'art en vigueur au moment des faits, complétée par le dossier médical et les témoignages pertinents."},
             ],
         },
+        "de": {
+            "slug": "arztfehler-rechte-geltend-machen",
+            "title": "Arztfehler: wie Sie Ihre Rechte geltend machen",
+            "meta": "Haftung der privaten Ärzteschaft oder des öffentlichen Spitals, Nachweis von Fehler und Schaden: die gesetzlichen Grundlagen bei einem Arztfehler.",
+            "sections": [
+                {"heading": "Zwei Haftungsregimes je nach Status der behandelnden Person", "paragraphs": [
+                    "Die anwendbare gesetzliche Grundlage hängt vom Rahmen ab, in dem die Behandlung erfolgte: eine in privater Praxis tätige Ärztin oder ein privater Arzt ist mit der Patientin oder dem Patienten durch einen Auftrag verbunden (Art. 394 ff. OR), und ihre oder seine Haftung richtet sich nach den allgemeinen Regeln der vertraglichen Haftung und Art. 41 OR. Eine Behandlung in einem öffentlichen Spital unterliegt hingegen grundsätzlich dem kantonalen Staatshaftungsrecht, dessen Regeln und Fristen erheblich vom Privatrecht abweichen.",
+                ]},
+                {"heading": "Was nachzuweisen ist", "paragraphs": [
+                    "Um einen Arztfehler geltend zu machen, müssen eine Verletzung der Regeln der ärztlichen Kunst (ein Fehler in Diagnose, Behandlung oder Aufklärung der Patientin oder des Patienten), ein tatsächlicher Schaden sowie ein Kausalzusammenhang zwischen dieser Verletzung und dem erlittenen Schaden nachgewiesen werden. Das blosse Eintreten einer bekannten und statistisch möglichen Komplikation einer korrekt durchgeführten Behandlung stellt für sich allein keinen Arztfehler dar.",
+                ]},
+                {"heading": "Die zentrale Rolle des medizinischen Gutachtens", "paragraphs": [
+                    "Diese Streitigkeiten stützen sich fast immer auf ein unabhängiges medizinisches Gutachten, das beurteilen soll, ob die erbrachte Behandlung den zum Zeitpunkt der Ereignisse geltenden Regeln der ärztlichen Kunst entsprach. Die Patientin oder der Patient kann ein gerichtliches Gutachten beantragen oder sich, je nach Kanton, an ein kantonales Schlichtungsorgan in medizinischen Angelegenheiten wenden, bevor ein Gerichtsverfahren eingeleitet wird.",
+                ]},
+                {"heading": "Die einzuhaltenden Fristen", "paragraphs": [
+                    "Die Verjährungsfristen und vorgängigen Verfahren (Reklamation, Schlichtung) variieren erheblich, je nachdem ob der Streit dem Privatrecht oder dem für ein öffentliches Spital anwendbaren kantonalen Staatshaftungsrecht untersteht: es ist unerlässlich, das auf die eigene Situation anwendbare Regime rasch zu prüfen, um keine Frist zu verpassen.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Gelten für eine private Ärztin oder einen privaten Arzt und ein öffentliches Spital dieselben Regeln?",
+                 "a": "Nein, eine private Ärztin oder ein privater Arzt untersteht den Regeln des Auftrags und der vertraglichen Haftung des OR, während ein öffentliches Spital grundsätzlich dem kantonalen Staatshaftungsrecht untersteht, mit Regeln und Fristen, die je nach Kanton eigen sind."},
+                {"q": "Ist eine bekannte Komplikation einer Behandlung automatisch ein Arztfehler?",
+                 "a": "Nein, das Eintreten einer statistisch möglichen Komplikation einer gemäss den Regeln der ärztlichen Kunst korrekt durchgeführten Behandlung stellt für sich allein keinen Arztfehler dar, der die Haftung der behandelnden Person begründet."},
+                {"q": "Wie beweist man einen Arztfehler?",
+                 "a": "Meist durch ein unabhängiges medizinisches Gutachten, das beurteilen soll, ob die erbrachte Behandlung den zum Zeitpunkt der Ereignisse geltenden Regeln der ärztlichen Kunst entsprach, ergänzt durch die Krankenakte und relevante Zeugenaussagen."},
+            ],
+        },
+        "it": {
+            "slug": "errore-medico-far-valere-diritti",
+            "title": "Errore medico: come far valere i propri diritti",
+            "meta": "Responsabilità del medico privato o dell'ospedale pubblico, prova della colpa e del danno: le basi legali in caso di errore medico.",
+            "sections": [
+                {"heading": "Due regimi di responsabilità secondo lo statuto del curante", "paragraphs": [
+                    "La base legale applicabile dipende dal contesto in cui sono state prestate le cure: un medico che esercita in libera professione è legato al paziente da un contratto di mandato (art. 394 segg. CO), e la sua responsabilità rientra nelle regole generali della responsabilità contrattuale e dell'art. 41 CO. Un trattamento in un ospedale pubblico rientra invece generalmente nel diritto cantonale della responsabilità dello Stato, le cui regole e termini differiscono sensibilmente dal diritto privato.",
+                ]},
+                {"heading": "Cosa occorre provare", "paragraphs": [
+                    "Far valere un errore medico presuppone di dimostrare una violazione delle regole dell'arte medica (un errore nella diagnosi, nel trattamento, o nell'informazione del paziente), un danno effettivo, e un nesso di causalità tra questa violazione e il danno subito. Il semplice sopraggiungere di una complicazione nota e statisticamente possibile di un trattamento correttamente eseguito non costituisce di per sé un errore medico.",
+                ]},
+                {"heading": "Il ruolo centrale della perizia medica", "paragraphs": [
+                    "Queste controversie si fondano quasi sempre su una perizia medica indipendente, destinata a determinare se le cure prestate rispettavano le regole dell'arte in vigore al momento dei fatti. Il paziente può chiedere una perizia giudiziaria o rivolgersi, a seconda del Cantone, a un organo cantonale di conciliazione in materia medica prima di qualsiasi procedura giudiziaria.",
+                ]},
+                {"heading": "I termini da rispettare", "paragraphs": [
+                    "I termini di prescrizione e le procedure preliminari (reclamo, conciliazione) variano sensibilmente a seconda che la controversia rientri nel diritto privato o nel diritto cantonale della responsabilità dello Stato applicabile a un istituto pubblico: è essenziale verificare rapidamente il regime applicabile alla propria situazione per non perdere un termine.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le regole sono le stesse per un medico privato e un ospedale pubblico?",
+                 "a": "No, un medico privato rientra nelle regole del contratto di mandato e della responsabilità contrattuale del CO, mentre un ospedale pubblico rientra generalmente nel diritto cantonale della responsabilità dello Stato, con regole e termini propri a ciascun Cantone."},
+                {"q": "Una complicazione nota di un trattamento è automaticamente un errore medico?",
+                 "a": "No, il sopraggiungere di una complicazione statisticamente possibile di un trattamento correttamente eseguito secondo le regole dell'arte non costituisce di per sé un errore medico che impegna la responsabilità del curante."},
+                {"q": "Come si prova un errore medico?",
+                 "a": "Il più delle volte mediante una perizia medica indipendente, destinata a determinare se le cure prestate rispettavano le regole dell'arte in vigore al momento dei fatti, integrata dalla cartella medica e dalle testimonianze pertinenti."},
+            ],
+        },
+        "en": {
+            "slug": "medical-error-asserting-your-rights",
+            "title": "Medical error: how to assert your rights",
+            "meta": "Liability of a private doctor or a public hospital, proving fault and damage: the legal basis in the event of a medical error.",
+            "sections": [
+                {"heading": "Two liability regimes depending on the caregiver's status", "paragraphs": [
+                    "The applicable legal basis depends on the setting in which care was provided: a doctor in private practice is bound to their patient by an agency contract (art. 394 ff. CO), and their liability falls under the general rules of contractual liability and art. 41 CO. Treatment at a public hospital, on the other hand, generally falls under cantonal state liability law, whose rules and deadlines differ significantly from private law.",
+                ]},
+                {"heading": "What needs to be proven", "paragraphs": [
+                    "Asserting a medical error requires demonstrating a breach of the rules of medical practice (an error in diagnosis, treatment, or patient information), actual damage, and a causal link between that breach and the damage suffered. The mere occurrence of a known, statistically possible complication of a correctly performed treatment does not in itself constitute a medical error.",
+                ]},
+                {"heading": "The central role of medical expert opinion", "paragraphs": [
+                    "These disputes almost always rely on an independent medical expert opinion, intended to determine whether the care provided complied with the rules of medical practice in force at the time. The patient can request a court-ordered expert opinion or, depending on the canton, approach a cantonal conciliation body for medical matters before any court proceedings.",
+                ]},
+                {"heading": "Deadlines to observe", "paragraphs": [
+                    "Limitation periods and preliminary procedures (complaint, conciliation) vary significantly depending on whether the dispute falls under private law or the cantonal state liability law applicable to a public institution: it is essential to quickly check which regime applies to your situation so as not to miss a deadline.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Are the rules the same for a private doctor and a public hospital?",
+                 "a": "No, a private doctor falls under the rules of agency and contractual liability under the CO, while a public hospital generally falls under cantonal state liability law, with rules and deadlines specific to each canton."},
+                {"q": "Is a known complication of a treatment automatically a medical error?",
+                 "a": "No, the occurrence of a statistically possible complication of a treatment correctly performed according to the rules of medical practice does not in itself constitute a medical error engaging the caregiver's liability."},
+                {"q": "How is a medical error proven?",
+                 "a": "Most often through an independent medical expert opinion, intended to determine whether the care provided complied with the rules of medical practice in force at the time, supplemented by the medical record and relevant witness testimony."},
+            ],
+        },
     },
     "consentement-eclaire-patient-droits": {
         "domaine_id": "droit_medical",
@@ -3789,6 +4356,87 @@ BLOG_ARTICLES = {
                  "a": "L'intervention peut être considérée comme illicite au regard de la protection de la personnalité, même sans faute technique, ce qui peut engager la responsabilité du soignant pour cette atteinte spécifique."},
                 {"q": "Les règles sur le consentement sont-elles identiques dans tous les cantons ?",
                  "a": "Les principes généraux découlent du Code civil et s'appliquent partout en Suisse, mais chaque canton précise certains droits du patient dans sa propre loi cantonale sur la santé, qui peut varier d'un canton à l'autre."},
+            ],
+        },
+        "de": {
+            "slug": "informierte-einwilligung-patient-rechte-pflichten",
+            "title": "Informierte Einwilligung: Rechte und Pflichten",
+            "meta": "Aufklärungspflicht der Ärzteschaft, Folgen einer unzureichend aufgeklärten Einwilligung: die Regeln aus dem Persönlichkeitsschutz.",
+            "sections": [
+                {"heading": "Die Grundlage der informierten Einwilligung", "paragraphs": [
+                    "Jeder Eingriff in die körperliche Integrität einer Patientin oder eines Patienten, einschliesslich einer notwendigen und korrekt durchgeführten medizinischen Behandlung, stellt grundsätzlich eine Persönlichkeitsverletzung im Sinne von Art. 28 ZGB dar, die nur rechtmässig ist, wenn die Patientin oder der Patient nach ausreichender Aufklärung gültig eingewilligt hat, oder wenn ein Notfall dies ausnahmsweise rechtfertigt.",
+                ]},
+                {"heading": "Der Umfang der ärztlichen Aufklärungspflicht", "paragraphs": [
+                    "Die Ärztin oder der Arzt muss die Patientin oder den Patienten über die Diagnose, Art und Zweck der vorgeschlagenen Behandlung, ihre wesentlichen Risiken sowie vernünftige therapeutische Alternativen aufklären, in einem Ausmass, das der Patientin oder dem Patienten eine freie und informierte Entscheidung ermöglicht. Der genaue Umfang dieser Aufklärung hängt von der Schwere des Eingriffs und seiner mehr oder weniger zwingenden Notwendigkeit ab.",
+                ]},
+                {"heading": "Die Folgen einer unzureichend aufgeklärten Einwilligung", "paragraphs": [
+                    "Hat eine Patientin oder ein Patient vor einem Eingriff keine ausreichende Aufklärung erhalten, kann dieser als widerrechtlich gelten, selbst wenn er technisch fehlerfrei durchgeführt wurde, was die Haftung der behandelnden Person für die daraus resultierende Persönlichkeitsverletzung begründen kann, unabhängig von einem allfälligen technischen Ausführungsfehler.",
+                ]},
+                {"heading": "Das kantonale Gesundheitsrecht", "paragraphs": [
+                    "Jeder Kanton verfügt zudem über sein eigenes Gesundheitsgesetz, das oft die Patientenrechte (Zugang zur Krankenakte, Recht auf Ablehnung einer Behandlung, Recht auf eine Zweitmeinung) ergänzend zu den auf dem gesamten Schweizer Gebiet geltenden allgemeinen Grundsätzen des Zivilgesetzbuchs präzisiert.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Darf eine Ärztin oder ein Arzt eine Patientin oder einen Patienten ohne deren Einwilligung behandeln?",
+                 "a": "Grundsätzlich nicht, ausser in einem Notfall, in dem die Patientin oder der Patient ihren oder seinen Willen nicht äussern kann und der Eingriff zur Erhaltung von Leben oder Gesundheit notwendig ist, oder bei Vorliegen von Patientenverfügungen oder einer bezeichneten therapeutischen Vertretungsperson."},
+                {"q": "Was geschieht, wenn ich vor einer Operation nicht ausreichend aufgeklärt wurde?",
+                 "a": "Der Eingriff kann trotz technischer Fehlerfreiheit als widerrechtlich im Hinblick auf den Persönlichkeitsschutz gelten, was die Haftung der behandelnden Person für diese besondere Verletzung begründen kann."},
+                {"q": "Sind die Regeln zur Einwilligung in allen Kantonen identisch?",
+                 "a": "Die allgemeinen Grundsätze ergeben sich aus dem Zivilgesetzbuch und gelten in der ganzen Schweiz, doch jeder Kanton präzisiert bestimmte Patientenrechte in seinem eigenen kantonalen Gesundheitsgesetz, das von Kanton zu Kanton variieren kann."},
+            ],
+        },
+        "it": {
+            "slug": "consenso-informato-paziente-diritti-obblighi",
+            "title": "Consenso informato del paziente: diritti e obblighi",
+            "meta": "Obbligo d'informazione del medico, conseguenze di un consenso insufficientemente informato: le regole derivanti dalla protezione della personalità.",
+            "sections": [
+                {"heading": "Il fondamento del consenso informato", "paragraphs": [
+                    "Qualsiasi lesione all'integrità corporale di un paziente, compreso un trattamento medico necessario e correttamente eseguito, costituisce in linea di principio una lesione della personalità ai sensi dell'art. 28 CC, lecita solo se il paziente vi ha validamente acconsentito dopo aver ricevuto un'informazione sufficiente, o se un caso di urgenza lo giustifica eccezionalmente.",
+                ]},
+                {"heading": "L'estensione dell'obbligo d'informazione del medico", "paragraphs": [
+                    "Il medico deve informare il paziente sulla diagnosi, la natura e lo scopo del trattamento proposto, i suoi rischi significativi, nonché le alternative terapeutiche ragionevoli, in misura sufficiente a permettere al paziente di prendere una decisione libera e informata. L'estensione esatta di questa informazione dipende dalla gravità dell'intervento e dal suo carattere più o meno necessario.",
+                ]},
+                {"heading": "Le conseguenze di un consenso insufficientemente informato", "paragraphs": [
+                    "Se un paziente non ha ricevuto un'informazione sufficiente prima di un intervento, questo può essere considerato illecito anche se eseguito senza errore tecnico, il che può impegnare la responsabilità del curante per la lesione della personalità che ne risulta, indipendentemente da qualsiasi errore nell'esecuzione tecnica del trattamento.",
+                ]},
+                {"heading": "Il diritto cantonale della sanità", "paragraphs": [
+                    "Ogni Cantone dispone inoltre di una propria legge sulla sanità, che spesso precisa i diritti del paziente (accesso alla cartella medica, diritto di rifiutare un trattamento, diritto a un secondo parere) in modo complementare ai principi generali del Codice civile applicabili su tutto il territorio svizzero.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un medico può curare un paziente senza il suo consenso?",
+                 "a": "In linea di principio no, salvo in caso di urgenza in cui il paziente non può esprimere la propria volontà e l'intervento è necessario per preservare la sua vita o la sua salute, o in presenza di direttive anticipate o di un rappresentante terapeutico designato."},
+                {"q": "Cosa succede se non sono stato sufficientemente informato prima di un'operazione?",
+                 "a": "L'intervento può essere considerato illecito rispetto alla protezione della personalità, anche senza errore tecnico, il che può impegnare la responsabilità del curante per questa specifica lesione."},
+                {"q": "Le regole sul consenso sono identiche in tutti i Cantoni?",
+                 "a": "I principi generali derivano dal Codice civile e si applicano in tutta la Svizzera, ma ogni Cantone precisa determinati diritti del paziente nella propria legge cantonale sulla sanità, che può variare da un Cantone all'altro."},
+            ],
+        },
+        "en": {
+            "slug": "informed-consent-patient-rights-obligations",
+            "title": "Informed consent: patient rights and duties",
+            "meta": "The doctor's duty to inform, consequences of insufficiently informed consent: the rules derived from the protection of personality.",
+            "sections": [
+                {"heading": "The basis of informed consent", "paragraphs": [
+                    "Any interference with a patient's physical integrity, including necessary and correctly performed medical treatment, in principle constitutes a violation of personality rights under art. 28 CC, which is only lawful if the patient has validly consented after receiving sufficient information, or if an emergency exceptionally justifies it.",
+                ]},
+                {"heading": "The scope of the doctor's duty to inform", "paragraphs": [
+                    "The doctor must inform the patient about the diagnosis, the nature and purpose of the proposed treatment, its significant risks, and reasonable therapeutic alternatives, to an extent sufficient to allow the patient to make a free and informed decision. The exact scope of this information depends on the severity of the procedure and how necessary it is.",
+                ]},
+                {"heading": "The consequences of insufficiently informed consent", "paragraphs": [
+                    "If a patient did not receive sufficient information before a procedure, it can be considered unlawful even if performed without technical error, which can engage the caregiver's liability for the resulting violation of personality rights, regardless of any error in the technical execution of the treatment.",
+                ]},
+                {"heading": "Cantonal health law", "paragraphs": [
+                    "Each canton also has its own health law, which often specifies patient rights (access to the medical record, right to refuse treatment, right to a second opinion) in addition to the general principles of the Civil Code applicable throughout Swiss territory.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can a doctor treat a patient without their consent?",
+                 "a": "In principle no, except in an emergency where the patient cannot express their wishes and the procedure is necessary to preserve their life or health, or in the presence of advance directives or a designated therapeutic representative."},
+                {"q": "What happens if I was not sufficiently informed before an operation?",
+                 "a": "The procedure can be considered unlawful with respect to the protection of personality, even without technical error, which can engage the caregiver's liability for this specific violation."},
+                {"q": "Are the rules on consent the same in every canton?",
+                 "a": "The general principles derive from the Civil Code and apply throughout Switzerland, but each canton specifies certain patient rights in its own cantonal health law, which can vary from canton to canton."},
             ],
         },
     },
@@ -3822,6 +4470,87 @@ BLOG_ARTICLES = {
                  "a": "Une marque non utilisée pendant une période ininterrompue de cinq ans après l'échéance du délai de carence risque d'être radiée à la demande d'un tiers intéressé, sauf juste motif de non-usage."},
             ],
         },
+        "de": {
+            "slug": "marke-schweiz-schuetzen-anmeldung-ige",
+            "title": "Eine Marke in der Schweiz schützen: Anmeldung beim IGE",
+            "meta": "Anmeldeverfahren beim Eidgenössischen Institut für Geistiges Eigentum, Schutzdauer, Widerspruch: was das Markenschutzgesetz vorsieht.",
+            "sections": [
+                {"heading": "Die Anmeldung beim IGE", "paragraphs": [
+                    "Der Markenschutz in der Schweiz wird durch die Eintragung beim Eidgenössischen Institut für Geistiges Eigentum (IGE) erlangt, gemäss dem Markenschutzgesetz (MSchG). Das Gesuch muss das zu schützende Zeichen sowie das Verzeichnis der betroffenen Waren oder Dienstleistungen, klassiert gemäss der internationalen Nizza-Klassifikation, angeben.",
+                ]},
+                {"heading": "Die vom IGE durchgeführte Prüfung", "paragraphs": [
+                    "Das IGE prüft, ob die Marke die formellen und absoluten Schutzvoraussetzungen erfüllt (ausreichende Unterscheidungskraft, kein täuschender oder gegen die öffentliche Ordnung verstossender Charakter), untersucht jedoch grundsätzlich nicht von Amtes wegen das Bestehen ähnlicher oder identischer älterer Marken: diese Prüfung obliegt der anmeldenden Person selbst, meist mittels einer vorgängigen Ähnlichkeitsrecherche.",
+                ]},
+                {"heading": "Das Widerspruchsverfahren", "paragraphs": [
+                    "Nach Eintragung und Publikation der Marke kann die Inhaberin oder der Inhaber einer älteren Marke innert einer Frist von drei Monaten ab Publikation Widerspruch erheben, unter Geltendmachung einer Verwechslungsgefahr zwischen den beiden Zeichen für identische oder ähnliche Waren oder Dienstleistungen.",
+                ]},
+                {"heading": "Die Schutzdauer", "paragraphs": [
+                    "Der Schutz einer schweizerischen Marke dauert zehn Jahre ab Hinterlegung und kann durch Zahlung der Verlängerungsgebühren unbegrenzt um jeweils zehn Jahre verlängert werden, sofern die Marke weiterhin gebraucht wird, um das Risiko einer Löschung wegen Nichtgebrauchs nach Ablauf einer fünfjährigen Karenzfrist zu vermeiden.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Prüft das IGE, ob meine Marke mit einer bereits eingetragenen Marke kollidiert?",
+                 "a": "Nein, das IGE führt grundsätzlich keine amtliche Prüfung älterer Marken durch: es obliegt der anmeldenden Person selbst, das Fehlen einer Kollision zu prüfen, meist durch eine vorgängige Ähnlichkeitsrecherche vor der Anmeldung."},
+                {"q": "Wie lange dauert der Schutz einer schweizerischen Marke?",
+                 "a": "Zehn Jahre ab Hinterlegung, unbegrenzt verlängerbar um jeweils zehn Jahre gegen Zahlung der Verlängerungsgebühren."},
+                {"q": "Was geschieht, wenn ich meine Marke nicht gebrauche?",
+                 "a": "Eine Marke, die während einer ununterbrochenen Frist von fünf Jahren nach Ablauf der Karenzfrist nicht gebraucht wird, riskiert auf Antrag eines interessierten Dritten gelöscht zu werden, ausser bei rechtfertigendem Grund für den Nichtgebrauch."},
+            ],
+        },
+        "it": {
+            "slug": "proteggere-marchio-svizzera-deposito-ipi",
+            "title": "Proteggere un marchio in Svizzera: il deposito all'IPI",
+            "meta": "Procedura di deposito presso l'Istituto federale della proprietà intellettuale, durata di protezione, opposizione: quanto previsto dalla LPM.",
+            "sections": [
+                {"heading": "Il deposito presso l'IPI", "paragraphs": [
+                    "La protezione di un marchio in Svizzera si ottiene tramite la sua registrazione presso l'Istituto federale della proprietà intellettuale (IPI), conformemente alla legge sulla protezione dei marchi (LPM). La domanda deve precisare il segno da proteggere e l'elenco dei prodotti o servizi interessati, classificati secondo la classificazione internazionale di Nizza.",
+                ]},
+                {"heading": "L'esame effettuato dall'IPI", "paragraphs": [
+                    "L'IPI esamina se il marchio soddisfa le condizioni formali e assolute di protezione (sufficiente carattere distintivo, assenza di carattere ingannevole o contrario all'ordine pubblico), ma non verifica in linea di principio d'ufficio l'esistenza di marchi anteriori simili o identici: questa verifica spetta al depositante stesso, generalmente mediante una ricerca di anteriorità preliminare.",
+                ]},
+                {"heading": "La procedura di opposizione", "paragraphs": [
+                    "Una volta registrato e pubblicato il marchio, il titolare di un marchio anteriore può fare opposizione entro un termine di tre mesi dalla pubblicazione, facendo valere un rischio di confusione tra i due segni per prodotti o servizi identici o simili.",
+                ]},
+                {"heading": "La durata di protezione", "paragraphs": [
+                    "La protezione di un marchio svizzero dura dieci anni dal deposito, e può essere rinnovata indefinitamente per periodi di dieci anni mediante il pagamento delle tasse di rinnovo, a condizione che il marchio continui ad essere utilizzato per evitare il rischio di una radiazione per mancato uso dopo un termine di carenza di cinque anni.",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'IPI verifica se il mio marchio entra in conflitto con un marchio già depositato?",
+                 "a": "No, l'IPI non effettua in linea di principio un esame d'ufficio dei marchi anteriori: spetta al depositante verificare da sé l'assenza di conflitto, generalmente tramite una ricerca di anteriorità preliminare al deposito."},
+                {"q": "Quanto dura la protezione di un marchio svizzero?",
+                 "a": "Dieci anni dal deposito, rinnovabile indefinitamente per periodi di dieci anni mediante il pagamento delle tasse di rinnovo."},
+                {"q": "Cosa succede se non utilizzo il mio marchio?",
+                 "a": "Un marchio non utilizzato per un periodo ininterrotto di cinque anni dopo lo scadere del termine di carenza rischia di essere radiato su richiesta di un terzo interessato, salvo giusto motivo di non uso."},
+            ],
+        },
+        "en": {
+            "slug": "protecting-trademark-switzerland-ipi-filing",
+            "title": "Protecting a trademark in Switzerland: filing with the IPI",
+            "meta": "Filing procedure with the Swiss Federal Institute of Intellectual Property, term of protection, opposition: what the Trademark Protection Act provides.",
+            "sections": [
+                {"heading": "Filing with the IPI", "paragraphs": [
+                    "Trademark protection in Switzerland is obtained by registering with the Swiss Federal Institute of Intellectual Property (IPI), under the Trademark Protection Act (TPA). The application must specify the sign to be protected and the list of goods or services concerned, classified according to the international Nice Classification.",
+                ]},
+                {"heading": "The examination carried out by the IPI", "paragraphs": [
+                    "The IPI examines whether the trademark meets the formal and absolute conditions for protection (sufficient distinctiveness, no deceptive character or conflict with public policy), but does not, in principle, examine ex officio the existence of similar or identical earlier trademarks: this check is up to the applicant themselves, usually through a prior availability search.",
+                ]},
+                {"heading": "The opposition procedure", "paragraphs": [
+                    "Once the trademark is registered and published, the holder of an earlier trademark can file an opposition within three months of publication, claiming a likelihood of confusion between the two signs for identical or similar goods or services.",
+                ]},
+                {"heading": "The term of protection", "paragraphs": [
+                    "Protection of a Swiss trademark lasts ten years from filing, and can be renewed indefinitely for ten-year periods upon payment of renewal fees, provided the trademark continues to be used to avoid the risk of cancellation for non-use after a five-year grace period.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does the IPI check whether my trademark conflicts with an already registered trademark?",
+                 "a": "No, the IPI does not, in principle, carry out an ex officio examination of earlier trademarks: it is up to the applicant to check for themselves that there is no conflict, usually through a prior availability search before filing."},
+                {"q": "How long does protection of a Swiss trademark last?",
+                 "a": "Ten years from filing, renewable indefinitely for ten-year periods upon payment of renewal fees."},
+                {"q": "What happens if I don't use my trademark?",
+                 "a": "A trademark not used for an uninterrupted period of five years after the grace period expires risks being cancelled at the request of an interested third party, unless there is good cause for non-use."},
+            ],
+        },
     },
     "droit-auteur-duree-protection-exceptions": {
         "domaine_id": "propriete_intellectuelle",
@@ -3851,6 +4580,87 @@ BLOG_ARTICLES = {
                  "a": "En règle générale 70 ans à compter du décès de l'auteur, avec des règles particulières pour certaines catégories d'œuvres comme les logiciels."},
                 {"q": "Puis-je citer un extrait d'une œuvre protégée sans autorisation ?",
                  "a": "Oui, dans une mesure justifiée par le but d'illustration ou de discussion poursuivi, la citation est une exception reconnue par la LDA, à condition de respecter les usages en matière de citation (source, étendue raisonnable)."},
+            ],
+        },
+        "de": {
+            "slug": "urheberrecht-schutzdauer-ausnahmen",
+            "title": "Urheberrecht: Schutzdauer und Ausnahmen",
+            "meta": "Automatischer Schutz ohne Formalität, Dauer von 70 Jahren nach dem Tod der Urheberin oder des Urhebers, Eigengebrauch und Zitat: die Regeln des URG.",
+            "sections": [
+                {"heading": "Ein automatischer Schutz", "paragraphs": [
+                    "Im Gegensatz zu einer Marke oder einem Patent entsteht das Urheberrecht automatisch mit der Schaffung eines Werks mit individuellem Charakter, ohne jegliche Anmeldung oder Registrierung (Urheberrechtsgesetz, URG). Das Werk muss jedoch eine Mindestschwelle an Originalität erreichen, um geschützt zu sein.",
+                ]},
+                {"heading": "Die Schutzdauer", "paragraphs": [
+                    "In der Regel schützt das Urheberrecht ein Werk während 70 Jahren nach dem Tod der Urheberin oder des Urhebers, was als Regel post mortem auctoris bezeichnet wird. Für bestimmte Werkkategorien, wie Computerprogramme, können abweichende Dauern gelten, die besonderen Bestimmungen des URG unterliegen.",
+                ]},
+                {"heading": "Die wichtigsten Ausnahmen", "paragraphs": [
+                    "Das URG sieht Nutzungen vor, die ohne Zustimmung der Urheberin oder des Urhebers zulässig sind, namentlich den Eigengebrauch im engen Kreis nahestehender Personen, das Zitat zu Illustrations- oder Diskussionszwecken in einem durch den verfolgten Zweck gerechtfertigten Ausmass, sowie bestimmte pädagogische Nutzungen oder Nutzungen zugunsten von Menschen mit Behinderung, innerhalb der gesetzlich festgelegten Grenzen.",
+                ]},
+                {"heading": "Persönlichkeits- und Vermögensrechte", "paragraphs": [
+                    "Das Urheberrecht umfasst Vermögensrechte (Vervielfältigung, Zugänglichmachung, Bearbeitung des Werks), die abgetreten oder lizenziert werden können, sowie Persönlichkeitsrechte (Anerkennung der Urheberschaft, Recht auf die Werkintegrität), die grundsätzlich an die Person der Urheberin oder des Urhebers gebunden bleiben und nicht auf dieselbe Weise abgetreten werden können.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Muss ich mein Werk anmelden, um vom Urheberrecht zu profitieren?",
+                 "a": "Nein, das Urheberrecht entsteht automatisch mit der Schaffung eines Werks mit individuellem Charakter, ohne jegliche Anmeldung oder Registrierung."},
+                {"q": "Wie lange dauert der Schutz eines Werks durch das Urheberrecht?",
+                 "a": "In der Regel 70 Jahre nach dem Tod der Urheberin oder des Urhebers, mit besonderen Regeln für bestimmte Werkkategorien wie Computerprogramme."},
+                {"q": "Darf ich einen Auszug aus einem geschützten Werk ohne Erlaubnis zitieren?",
+                 "a": "Ja, in einem durch den Illustrations- oder Diskussionszweck gerechtfertigten Ausmass ist das Zitat eine vom URG anerkannte Ausnahme, sofern die Gepflogenheiten des Zitierens (Quellenangabe, angemessener Umfang) eingehalten werden."},
+            ],
+        },
+        "it": {
+            "slug": "diritto-autore-durata-protezione-eccezioni",
+            "title": "Diritto d'autore: durata di protezione ed eccezioni",
+            "meta": "Protezione automatica senza formalità, durata di 70 anni dopo la morte dell'autore, uso privato e citazione: le regole della LDA.",
+            "sections": [
+                {"heading": "Una protezione automatica", "paragraphs": [
+                    "A differenza di un marchio o di un brevetto, il diritto d'autore nasce automaticamente dalla creazione di un'opera dal carattere individuale, senza alcuna formalità di deposito o registrazione (legge sul diritto d'autore, LDA). L'opera deve tuttavia raggiungere una soglia minima di originalità per essere protetta.",
+                ]},
+                {"heading": "La durata di protezione", "paragraphs": [
+                    "In generale, il diritto d'autore protegge un'opera per 70 anni dalla morte dell'autore, quanto viene chiamato la regola post mortem auctoris. Durate diverse possono applicarsi a determinate categorie di opere, come i programmi per computer, soggetti a regole specifiche della LDA.",
+                ]},
+                {"heading": "Le principali eccezioni", "paragraphs": [
+                    "La LDA prevede utilizzazioni consentite senza il consenso dell'autore, in particolare l'uso strettamente privato nella cerchia di persone strettamente legate, la citazione a scopo illustrativo o di discussione nella misura giustificata dallo scopo perseguito, e determinati usi pedagogici o a favore di persone con disabilità, nei limiti fissati dalla legge.",
+                ]},
+                {"heading": "I diritti morali e patrimoniali", "paragraphs": [
+                    "Il diritto d'autore comprende diritti patrimoniali (riproduzione, messa a disposizione, adattamento dell'opera), che possono essere ceduti o oggetto di licenza, e diritti morali (diritto alla paternità dell'opera, diritto alla sua integrità), che restano in linea di principio legati alla persona dell'autore e non possono essere ceduti allo stesso modo.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Devo depositare la mia opera per beneficiare del diritto d'autore?",
+                 "a": "No, il diritto d'autore nasce automaticamente dalla creazione di un'opera dal carattere individuale, senza alcuna formalità di deposito o registrazione."},
+                {"q": "Quanto dura la protezione di un'opera tramite il diritto d'autore?",
+                 "a": "In generale 70 anni dalla morte dell'autore, con regole particolari per determinate categorie di opere come i programmi per computer."},
+                {"q": "Posso citare un estratto di un'opera protetta senza autorizzazione?",
+                 "a": "Sì, nella misura giustificata dallo scopo illustrativo o di discussione perseguito, la citazione è un'eccezione riconosciuta dalla LDA, a condizione di rispettare gli usi in materia di citazione (fonte, estensione ragionevole)."},
+            ],
+        },
+        "en": {
+            "slug": "copyright-term-protection-exceptions",
+            "title": "Copyright: term of protection and exceptions",
+            "meta": "Automatic protection without formalities, 70-year term after the author's death, private use and quotation: the rules of the Copyright Act.",
+            "sections": [
+                {"heading": "Automatic protection", "paragraphs": [
+                    "Unlike a trademark or a patent, copyright arises automatically upon the creation of a work with individual character, without any filing or registration formality (Copyright Act). The work must, however, reach a minimum threshold of originality to be protected.",
+                ]},
+                {"heading": "The term of protection", "paragraphs": [
+                    "As a general rule, copyright protects a work for 70 years from the author's death, known as the post mortem auctoris rule. Different terms may apply to certain categories of works, such as computer programs, which are subject to specific provisions of the Copyright Act.",
+                ]},
+                {"heading": "The main exceptions", "paragraphs": [
+                    "The Copyright Act provides for uses permitted without the author's consent, in particular strictly private use within a circle of closely connected persons, quotation for illustration or discussion purposes to the extent justified by the purpose pursued, and certain educational uses or uses for the benefit of people with disabilities, within the limits set by law.",
+                ]},
+                {"heading": "Moral and economic rights", "paragraphs": [
+                    "Copyright includes economic rights (reproduction, making available, adaptation of the work), which can be assigned or licensed, and moral rights (right of attribution, right to the integrity of the work), which in principle remain attached to the author personally and cannot be assigned in the same way.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Do I need to register my work to benefit from copyright?",
+                 "a": "No, copyright arises automatically upon the creation of a work with individual character, without any filing or registration formality."},
+                {"q": "How long does copyright protection of a work last?",
+                 "a": "As a general rule 70 years from the author's death, with special rules for certain categories of works such as computer programs."},
+                {"q": "Can I quote an excerpt from a protected work without permission?",
+                 "a": "Yes, to the extent justified by the illustration or discussion purpose pursued, quotation is an exception recognised by the Copyright Act, provided the customary practices for quotation (source, reasonable extent) are respected."},
             ],
         },
     },

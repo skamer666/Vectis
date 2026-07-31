@@ -57,16 +57,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | ✅ `responsabilite-detenteur-animal-proprietaire` |
 | 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | ✅ `commandement-payer-opposition` |
 | 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | ✅ `faillite-personnelle-procedure-consequences` |
-| 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | 🟡 `curatelle-quand-comment-prononcee` |
-| 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | 🟡 `mandat-cause-inaptitude-anticiper` |
-| 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | 🟡 `contester-decision-taxation-reclamation` |
-| 34 | Droit fiscal | Imposition à la source : qui est concerné et comment ça marche | LIFD art. 83-101 | 🟡 `imposition-source-qui-concerne-fonctionnement` |
-| 35 | Droit bancaire | Secret bancaire suisse : ce qu'il protège encore aujourd'hui | LB | 🟡 `secret-bancaire-suisse-protection` |
-| 36 | Droit bancaire | Litige avec sa banque : ombudsman et voies de recours | Ombudsman des banques suisses | 🟡 `litige-banque-ombudsman-recours` |
-| 37 | Droit médical | Erreur médicale : comment faire valoir ses droits | CO art. 41 / droit cantonal | 🟡 `erreur-medicale-faire-valoir-droits` |
-| 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | 🟡 `consentement-eclaire-patient-droits` |
-| 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | 🟡 `proteger-marque-suisse-depot-ipi` |
-| 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | 🟡 `droit-auteur-duree-protection-exceptions` |
+| 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | ✅ `curatelle-quand-comment-prononcee` |
+| 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | ✅ `mandat-cause-inaptitude-anticiper` |
+| 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | ✅ `contester-decision-taxation-reclamation` |
+| 34 | Droit fiscal | Imposition à la source : qui est concerné et comment ça marche | LIFD art. 83-101 | ✅ `imposition-source-qui-concerne-fonctionnement` |
+| 35 | Droit bancaire | Secret bancaire suisse : ce qu'il protège encore aujourd'hui | LB | ✅ `secret-bancaire-suisse-protection` |
+| 36 | Droit bancaire | Litige avec sa banque : ombudsman et voies de recours | Ombudsman des banques suisses | ✅ `litige-banque-ombudsman-recours` |
+| 37 | Droit médical | Erreur médicale : comment faire valoir ses droits | CO art. 41 / droit cantonal | ✅ `erreur-medicale-faire-valoir-droits` |
+| 38 | Droit médical | Consentement éclairé du patient : droits et obligations du médecin | CC / droit cantonal de la santé | ✅ `consentement-eclaire-patient-droits` |
+| 39 | Propriété intellectuelle | Protéger une marque en Suisse : dépôt auprès de l'IPI | LPM | ✅ `proteger-marque-suisse-depot-ipi` |
+| 40 | Propriété intellectuelle | Droit d'auteur : durée de protection et exceptions | LDA | ✅ `droit-auteur-duree-protection-exceptions` |
 | 41 | Droit international privé | Reconnaissance d'un divorce prononcé à l'étranger | LDIP | 🟡 `reconnaissance-divorce-etranger` |
 | 42 | Droit international privé | Quel droit s'applique à un contrat international | LDIP | 🟡 `droit-applicable-contrat-international` |
 | 43 | Procédure civile | Conciliation obligatoire avant un procès civil | CPC art. 197-212 | 🟡 `conciliation-obligatoire-avant-proces-civil` |
@@ -239,3 +239,17 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
   DE/IT/EN au total (30 articles × 3 langues).
 - 30/50 articles traduits dans les 4 langues. Reste les lots 4 et 5 (20
   articles, soit 60 traductions).
+
+### 2026-07-30 | Traduction lot 4 (articles 31 à 40) en DE/IT/EN
+
+- Les 10 articles du lot 4 (protection de l'adulte, fiscal, bancaire,
+  médical, propriété intellectuelle) sont désormais traduits en DE/IT/EN.
+  Statut passé de 🟡 à ✅ pour ces 10 sujets.
+- Conventions supplémentaires : DBG (LIFD) et BankG (LB) en allemand ; LBCR
+  (LB) en italien, avec MSchG (LPM) et URG (LDA) en allemand, LPM et LDA
+  inchangés en italien (sigles latins identiques).
+- 57 tests toujours au vert, aucun em dash, aucun artefact Jinja. 120 pages
+  DE/IT/EN au total (40 articles × 3 langues).
+- 40/50 articles traduits dans les 4 langues. Reste le lot 5, dernier lot
+  (10 articles, soit 30 traductions) pour clore la traduction complète des
+  50 sujets.
