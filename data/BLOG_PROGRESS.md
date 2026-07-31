@@ -37,16 +37,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | ✅ `ordonnance-penale-opposition` |
 | 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | ✅ `resiliation-bail-delais-contestation` |
 | 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | ✅ `contester-augmentation-loyer` |
-| 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | 🟡 `defauts-construction-garantie-delais` |
-| 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | 🟡 `hypotheque-legale-artisans-entrepreneurs` |
-| 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | 🟡 `reserve-hereditaire-quotite-disponible` |
-| 14 | Droit des successions | Rédiger un testament valable en droit suisse | CC art. 498-508 | 🟡 `rediger-testament-valable` |
-| 15 | Droit des contrats | Résilier un contrat pour justes motifs | CO (règles générales) | 🟡 `resilier-contrat-justes-motifs` |
-| 16 | Droit des contrats | Clause pénale et dommages-intérêts contractuels | CO art. 160-163 | 🟡 `clause-penale-dommages-interets` |
-| 17 | Droit des sociétés | Créer une Sàrl en Suisse : capital, statuts, formalités | CO art. 772 ss | 🟡 `creer-sarl-suisse` |
-| 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | 🟡 `responsabilite-administrateurs-sa` |
-| 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | 🟡 `retrait-permis-duree-infraction` |
-| 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | 🟡 `accident-route-qui-paie-declaration` |
+| 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | ✅ `defauts-construction-garantie-delais` |
+| 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | ✅ `hypotheque-legale-artisans-entrepreneurs` |
+| 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | ✅ `reserve-hereditaire-quotite-disponible` |
+| 14 | Droit des successions | Rédiger un testament valable en droit suisse | CC art. 498-508 | ✅ `rediger-testament-valable` |
+| 15 | Droit des contrats | Résilier un contrat pour justes motifs | CO (règles générales) | ✅ `resilier-contrat-justes-motifs` |
+| 16 | Droit des contrats | Clause pénale et dommages-intérêts contractuels | CO art. 160-163 | ✅ `clause-penale-dommages-interets` |
+| 17 | Droit des sociétés | Créer une Sàrl en Suisse : capital, statuts, formalités | CO art. 772 ss | ✅ `creer-sarl-suisse` |
+| 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | ✅ `responsabilite-administrateurs-sa` |
+| 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | ✅ `retrait-permis-duree-infraction` |
+| 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | ✅ `accident-route-qui-paie-declaration` |
 | 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | 🟡 `recours-decision-administrative-delais` |
 | 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | 🟡 `marches-publics-soumissionnaires-evinces` |
 | 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | 🟡 `permis-sejour-b-c-l-conditions` |
@@ -209,3 +209,17 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 - 57 tests toujours au vert, aucun em dash, aucun artefact Jinja. 30 pages
   DE/IT/EN générées en plus des 50 FR (10 articles × 3 langues).
 - Reste 40 articles à traduire (lots 2 à 5).
+
+### 2026-07-30 | Traduction lot 2 (articles 11 à 20) en DE/IT/EN
+
+- Les 10 articles du lot 2 (construction, successions, contrats, sociétés,
+  circulation routière) sont désormais traduits en DE/IT/EN. Statut passé
+  de 🟡 à ✅ pour ces 10 sujets.
+- Convention affinée pour l'italien : LCR devient "LCStr" (Legge sulla
+  circolazione stradale), abréviation officielle italienne différente du
+  français, contrairement à CC/CO/CP/CPC/CPP qui restent identiques dans
+  les deux langues latines.
+- 57 tests toujours au vert, aucun em dash, aucun artefact Jinja. 60 pages
+  DE/IT/EN au total (20 articles × 3 langues).
+- 20/50 articles traduits dans les 4 langues. Reste les lots 3 à 5 (30
+  articles, soit 90 traductions).

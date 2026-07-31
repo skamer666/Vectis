@@ -1288,6 +1288,93 @@ BLOG_ARTICLES = {
                  "a": "L'ouvrage est présumé accepté tel quel pour les défauts qui auraient dû être découverts lors d'une vérification normale, sauf pour les défauts cachés qui ne se manifestent que plus tard et doivent alors être signalés dès leur découverte."},
             ],
         },
+        "de": {
+            "slug": "baumaengel-garantie-fristen",
+            "title": "Baumängel: Garantie und Rügefristen",
+            "meta": "Prüfung, Mängelrüge, Verjährungsfristen: die Regeln des Obligationenrechts zur Garantie für Mängel eines Werks.",
+            "sections": [
+                {"heading": "Die Prüfung des Werks", "paragraphs": [
+                    "Nach Ablieferung eines Werks muss der Besteller dessen Beschaffenheit prüfen, sobald es nach dem üblichen Geschäftsgang tunlich ist, und entdeckte Mängel dem Unternehmer anzeigen (Art. 367 OR). Diese Prüfungspflicht gilt vor allem im Verhältnis zwischen Fachleuten; bei einem nicht fachkundigen Besteller zeigt sich die Rechtsprechung grosszügiger.",
+                ]},
+                {"heading": "Die Mängelrüge", "paragraphs": [
+                    "Der Mangel muss dem Unternehmer unverzüglich nach seiner Entdeckung angezeigt werden. Eine verspätete Rüge kann dazu führen, dass der Besteller seine Garantierechte verliert, wobei das Werk dann mit diesem Mangel als genehmigt gilt. Mängel, die sich erst später zeigen, müssen bei ihrer Entdeckung angezeigt werden, auch nach der Abnahme des Werks.",
+                ]},
+                {"heading": "Die Rechte des Bestellers bei Mängeln", "paragraphs": [
+                    "Gemäss Art. 368 OR kann der Besteller, je nach Schwere des Mangels, das Werk ablehnen und Schadenersatz verlangen, eine unentgeltliche Nachbesserung durch den Unternehmer fordern, oder eine dem Minderwert entsprechende Preisminderung erhalten. Die Wahl zwischen diesen Rechten hängt von der Schwere des Mangels und den Umständen ab.",
+                ]},
+                {"heading": "Die Verjährungsfristen", "paragraphs": [
+                    "Die Garantierechte des Bestellers verjähren mit Ablauf von zwei Jahren nach der Abnahme des Werks bei beweglichen Bauwerken, und mit Ablauf von fünf Jahren bei Mängeln eines unbeweglichen Werks wie eines Gebäudes (Art. 371 OR i.V.m. Art. 210 OR). Eine arglistige Täuschung durch den Unternehmer verlängert diese Frist nach den allgemeinen Regeln der Verjährung bei Arglist.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich einen Baumangel rügen?",
+                 "a": "Unverzüglich nach dessen Entdeckung (Art. 367 OR). Eine verspätete Rüge riskiert, dass der Besteller seine Garantierechte für diesen Mangel verliert."},
+                {"q": "Wie lange ist die Verjährungsfrist für einen Mangel an einem Gebäude?",
+                 "a": "Fünf Jahre ab Abnahme des Werks bei unbeweglichen Bauwerken, gegenüber zwei Jahren bei beweglichen Werken (Art. 371 OR i.V.m. Art. 210 OR)."},
+                {"q": "Kann ich die Behebung des Mangels statt einer Preisminderung verlangen?",
+                 "a": "Ja, grundsätzlich hat der Besteller je nach Schwere des Mangels die Wahl: Nachbesserung auf Kosten des Unternehmers, Preisminderung, oder in schweren Fällen Ablehnung des Werks mit Schadenersatz (Art. 368 OR)."},
+                {"q": "Was geschieht, wenn ich das Werk bei der Ablieferung nicht prüfe?",
+                 "a": "Das Werk gilt für Mängel, die bei einer normalen Prüfung hätten entdeckt werden müssen, als genehmigt, ausser bei versteckten Mängeln, die sich erst später zeigen und dann bei ihrer Entdeckung angezeigt werden müssen."},
+            ],
+        },
+        "it": {
+            "slug": "difetti-costruzione-garanzia-termini-reclamo",
+            "title": "Difetti di costruzione: garanzia e termini",
+            "meta": "Verifica, avviso dei difetti, termini di prescrizione: le regole del Codice delle obbligazioni sulla garanzia per i difetti di un'opera.",
+            "sections": [
+                {"heading": "La verifica dell'opera", "paragraphs": [
+                    "Dopo la consegna di un'opera, il committente deve verificarne lo stato appena possibile secondo l'ordinario corso degli affari, e segnalare i difetti scoperti all'appaltatore (art. 367 CO). Questo obbligo di verifica si applica soprattutto nei rapporti tra professionisti; per un committente non professionista, la giurisprudenza si mostra più flessibile.",
+                ]},
+                {"heading": "L'avviso dei difetti", "paragraphs": [
+                    "Il difetto deve essere segnalato all'appaltatore senza indugio dopo la sua scoperta. Un avviso tardivo può far perdere al committente i suoi diritti di garanzia, considerandosi allora l'opera accettata con tale difetto. I difetti che si manifestano solo più tardi devono essere segnalati al momento della loro scoperta, anche dopo la consegna dell'opera.",
+                ]},
+                {"heading": "I diritti del committente in caso di difetto", "paragraphs": [
+                    "Secondo l'art. 368 CO, il committente può, a seconda della gravità del difetto, rifiutare l'opera e chiedere il risarcimento del danno, esigere una riparazione a carico dell'appaltatore, oppure ottenere una riduzione del prezzo proporzionale al minor valore. La scelta tra questi diritti dipende dalla gravità del difetto e dalle circostanze.",
+                ]},
+                {"heading": "I termini di prescrizione", "paragraphs": [
+                    "I diritti di garanzia del committente si prescrivono in due anni dalla consegna dell'opera per le costruzioni mobiliari, e in cinque anni per i difetti di un'opera immobiliare come un edificio (art. 371 CO in rinvio all'art. 210 CO). Un dolo dell'appaltatore prolunga questo termine secondo le regole generali della prescrizione in caso di dolo.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo segnalare un difetto di costruzione?",
+                 "a": "Senza indugio dopo la sua scoperta (art. 367 CO). Un avviso tardivo rischia di far perdere al committente i suoi diritti di garanzia per tale difetto."},
+                {"q": "Qual è il termine di prescrizione per un difetto di un edificio?",
+                 "a": "Cinque anni dalla consegna dell'opera per le costruzioni immobiliari, contro due anni per le opere mobiliari (art. 371 CO in rinvio all'art. 210 CO)."},
+                {"q": "Posso esigere la riparazione del difetto invece di una riduzione del prezzo?",
+                 "a": "Sì, in linea di principio questa scelta spetta al committente secondo la gravità del difetto: riparazione a carico dell'appaltatore, riduzione del prezzo, o nei casi gravi rifiuto dell'opera con risarcimento del danno (art. 368 CO)."},
+                {"q": "Cosa succede se non verifico l'opera alla consegna?",
+                 "a": "L'opera si presume accettata per i difetti che avrebbero dovuto essere scoperti con una verifica normale, salvo per i difetti occulti che si manifestano solo più tardi e devono allora essere segnalati al momento della loro scoperta."},
+            ],
+        },
+        "en": {
+            "slug": "construction-defects-warranty-deadlines",
+            "title": "Construction defects: warranty and deadlines",
+            "meta": "Inspection, notice of defects, limitation periods: the Code of Obligations rules on warranty for defects in a work.",
+            "sections": [
+                {"heading": "Inspecting the work", "paragraphs": [
+                    "After a work is delivered, the client must inspect its condition as soon as feasible under the ordinary course of business, and notify the contractor of any defects found (art. 367 CO). This inspection duty applies mainly between professionals; courts tend to be more lenient with non-professional clients.",
+                ]},
+                {"heading": "Notice of defects", "paragraphs": [
+                    "A defect must be reported to the contractor without delay upon discovery. Late notice can cause the client to lose their warranty rights, the work then being deemed accepted with that defect. Defects that only appear later must be reported as soon as discovered, even after the work has been accepted.",
+                ]},
+                {"heading": "The client's rights in case of defect", "paragraphs": [
+                    "Under art. 368 CO, depending on the severity of the defect, the client can refuse the work and claim damages, demand free rectification by the contractor, or obtain a price reduction proportional to the loss in value. The choice between these rights depends on the severity of the defect and the circumstances.",
+                ]},
+                {"heading": "Limitation periods", "paragraphs": [
+                    "The client's warranty rights are time-barred after two years from acceptance of the work for movable structures, and after five years for defects in an immovable work such as a building (art. 371 CO referring to art. 210 CO). Fraud by the contractor extends this period under the general rules on limitation in cases of fraud.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what time limit must I report a construction defect?",
+                 "a": "Without delay after discovering it (art. 367 CO). Late notice risks the client losing their warranty rights for that defect."},
+                {"q": "What is the limitation period for a defect in a building?",
+                 "a": "Five years from acceptance of the work for immovable structures, versus two years for movable works (art. 371 CO referring to art. 210 CO)."},
+                {"q": "Can I demand that the defect be fixed rather than a price reduction?",
+                 "a": "Yes, in principle this choice is up to the client depending on the severity of the defect: rectification at the contractor's expense, price reduction, or in serious cases refusal of the work with damages (art. 368 CO)."},
+                {"q": "What happens if I don't inspect the work upon delivery?",
+                 "a": "The work is presumed accepted for defects that should have been found on normal inspection, except for hidden defects that only appear later and must then be reported as soon as discovered."},
+            ],
+        },
     },
     "hypotheque-legale-artisans-entrepreneurs": {
         "domaine_id": "droit_construction",
@@ -1319,6 +1406,93 @@ BLOG_ARTICLES = {
                  "a": "Elle s'applique aux travaux de construction, transformation ou démolition d'un bâtiment ou d'autres ouvrages sur un bien-fonds, effectués par des artisans ou entrepreneurs au sens de l'art. 837 CC."},
                 {"q": "Que se passe-t-il si le délai de quatre mois est dépassé ?",
                  "a": "Le droit à l'hypothèque légale s'éteint définitivement, mais la créance pour les travaux non payés subsiste et peut être poursuivie par les voies ordinaires (poursuite pour dettes, action en paiement)."},
+            ],
+        },
+        "de": {
+            "slug": "bauhandwerkerpfandrecht-handwerker-unternehmer",
+            "title": "Bauhandwerkerpfandrecht der Handwerker und Unternehmer",
+            "meta": "Gesetzliches Pfandrecht für unbezahlte Bauarbeiten, Eintragungsfrist im Grundbuch: was das Zivilgesetzbuch vorsieht.",
+            "sections": [
+                {"heading": "Wozu das Bauhandwerkerpfandrecht dient", "paragraphs": [
+                    "Das Bauhandwerkerpfandrecht (Art. 837 ff. ZGB) sichert die Bezahlung von Bau-, Umbau- oder Abbrucharbeiten an einem Grundstück. Es schützt das Unternehmen, das Material oder Arbeit geliefert hat, gegen das Risiko der Nichtzahlung, indem es ihm ein Pfandrecht am Grundstück selbst einräumt, unabhängig von der Zahlungsfähigkeit des Bauherrn.",
+                ]},
+                {"heading": "Die Eintragungsvoraussetzungen", "paragraphs": [
+                    "Die Eintragung im Grundbuch setzt voraus, dass die Arbeiten tatsächlich ausgeführt wurden und die Forderung nicht offensichtlich unbegründet bestritten wird. Sie kann selbst ohne Zustimmung der Grundeigentümerin oder des Grundeigentümers verlangt werden, was sie von einem vertraglichen Grundpfandrecht unterscheidet.",
+                ]},
+                {"heading": "Die Eintragungsfrist", "paragraphs": [
+                    "Art. 839 Abs. 2 ZGB setzt eine strenge Frist: die Eintragung muss spätestens innert vier Monaten nach Vollendung der Arbeiten verlangt werden. Nach Ablauf dieser Frist erlischt der Anspruch auf das Bauhandwerkerpfandrecht, auch wenn die Forderung für die Arbeiten selbst nach den ordentlichen Verjährungsregeln fortbesteht.",
+                ]},
+                {"heading": "Die Wirkung gegenüber anderen Gläubigern", "paragraphs": [
+                    "Einmal eingetragen, geht das Bauhandwerkerpfandrecht grundsätzlich später eingetragenen Pfandrechten vor, was es zu einem besonders wirksamen Sicherungsinstrument für Bauunternehmen gegenüber dem Insolvenzrisiko des Bauherrn macht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich die Eintragung des Bauhandwerkerpfandrechts verlangen?",
+                 "a": "Spätestens vier Monate nach Vollendung der Arbeiten (Art. 839 Abs. 2 ZGB). Diese Frist ist zwingend, und ihre Überschreitung führt zum Verlust des Anspruchs auf diese Sicherheit."},
+                {"q": "Muss die Grundeigentümerin oder der Grundeigentümer zustimmen?",
+                 "a": "Nein, die Eintragung kann auch ohne Zustimmung verlangt werden, sofern die Arbeiten ausgeführt wurden und die Forderung hinreichend belegt ist."},
+                {"q": "Gilt das Bauhandwerkerpfandrecht für alle Arten von Arbeiten?",
+                 "a": "Es gilt für Bau-, Umbau- oder Abbrucharbeiten an einem Gebäude oder anderen Bauwerken auf einem Grundstück, ausgeführt durch Handwerker oder Unternehmer im Sinne von Art. 837 ZGB."},
+                {"q": "Was geschieht bei Überschreitung der Viermonatsfrist?",
+                 "a": "Der Anspruch auf das Bauhandwerkerpfandrecht erlischt endgültig, doch die Forderung für die unbezahlten Arbeiten bleibt bestehen und kann auf ordentlichem Weg geltend gemacht werden (Betreibung, Zahlungsklage)."},
+            ],
+        },
+        "it": {
+            "slug": "ipoteca-legale-artigiani-imprenditori",
+            "title": "Ipoteca legale degli artigiani e imprenditori",
+            "meta": "Garanzia legale per i lavori di costruzione non pagati, termine di iscrizione nel registro fondiario: quanto previsto dal Codice civile.",
+            "sections": [
+                {"heading": "A cosa serve l'ipoteca legale", "paragraphs": [
+                    "L'ipoteca legale degli artigiani e imprenditori (art. 837 segg. CC) garantisce il pagamento dei lavori di costruzione, trasformazione o demolizione eseguiti su un fondo. Protegge l'impresa che ha fornito materiali o lavoro contro il rischio di mancato pagamento, concedendole un diritto di pegno sull'immobile stesso, indipendentemente dalla solvibilità del committente.",
+                ]},
+                {"heading": "Le condizioni d'iscrizione", "paragraphs": [
+                    "L'iscrizione nel registro fondiario presuppone che i lavori siano stati effettivamente eseguiti e che il credito non sia manifestamente infondato. Può essere richiesta anche senza il consenso del proprietario dell'immobile, il che la distingue da un pegno immobiliare convenzionale.",
+                ]},
+                {"heading": "Il termine d'iscrizione", "paragraphs": [
+                    "L'art. 839 cpv. 2 CC fissa un termine rigoroso: l'iscrizione deve essere richiesta al più tardi entro quattro mesi dal compimento dei lavori. Trascorso questo termine, il diritto all'ipoteca legale si estingue, anche se il credito per i lavori stessi permane secondo le regole ordinarie della prescrizione.",
+                ]},
+                {"heading": "L'effetto verso gli altri creditori", "paragraphs": [
+                    "Una volta iscritta, l'ipoteca legale prevale in linea di principio sugli altri pegni iscritti successivamente, il che ne fa uno strumento di garanzia particolarmente efficace per le imprese di costruzione di fronte al rischio d'insolvenza del committente.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo richiedere l'iscrizione dell'ipoteca legale?",
+                 "a": "Al più tardi quattro mesi dopo il compimento dei lavori (art. 839 cpv. 2 CC). Questo termine è imperativo e il suo superamento fa perdere il diritto a questa garanzia."},
+                {"q": "Il proprietario dell'immobile deve dare il suo consenso?",
+                 "a": "No, l'iscrizione può essere richiesta anche senza il consenso del proprietario, a condizione che i lavori siano stati eseguiti e il credito sia sufficientemente comprovato."},
+                {"q": "L'ipoteca legale si applica a tutti i tipi di lavori?",
+                 "a": "Si applica ai lavori di costruzione, trasformazione o demolizione di un edificio o di altre opere su un fondo, eseguiti da artigiani o imprenditori ai sensi dell'art. 837 CC."},
+                {"q": "Cosa succede se il termine di quattro mesi è superato?",
+                 "a": "Il diritto all'ipoteca legale si estingue definitivamente, ma il credito per i lavori non pagati permane e può essere fatto valere per le vie ordinarie (esecuzione, azione di pagamento)."},
+            ],
+        },
+        "en": {
+            "slug": "statutory-lien-tradespeople-contractors",
+            "title": "Statutory lien of tradespeople and contractors",
+            "meta": "Statutory security for unpaid construction work, deadline to register with the land registry: what the Civil Code provides.",
+            "sections": [
+                {"heading": "The purpose of the statutory lien", "paragraphs": [
+                    "The statutory lien of tradespeople and contractors (art. 837 ff. CC) secures payment for construction, alteration or demolition work carried out on a plot of land. It protects the business that supplied materials or labour against the risk of non-payment, by granting it a lien on the property itself, regardless of the client's solvency.",
+                ]},
+                {"heading": "Conditions for registration", "paragraphs": [
+                    "Registration in the land registry requires that the work has actually been carried out and that the claim is not manifestly unfounded. It can be requested even without the property owner's consent, which distinguishes it from a conventional mortgage.",
+                ]},
+                {"heading": "The registration deadline", "paragraphs": [
+                    "Art. 839 para. 2 CC sets a strict deadline: registration must be requested at the latest within four months of completion of the work. After this period, the right to the statutory lien lapses, even though the claim for the work itself remains under the ordinary limitation rules.",
+                ]},
+                {"heading": "Effect against other creditors", "paragraphs": [
+                    "Once registered, the statutory lien in principle takes priority over other liens registered later, making it a particularly effective security tool for construction businesses facing the risk of a client's insolvency.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline must I request registration of the statutory lien?",
+                 "a": "At the latest four months after completion of the work (art. 839 para. 2 CC). This deadline is mandatory, and missing it means losing the right to this security."},
+                {"q": "Does the property owner need to consent?",
+                 "a": "No, registration can be requested even without the owner's consent, provided the work was carried out and the claim is sufficiently substantiated."},
+                {"q": "Does the statutory lien apply to all types of work?",
+                 "a": "It applies to construction, alteration or demolition work on a building or other structure on a plot of land, carried out by tradespeople or contractors within the meaning of art. 837 CC."},
+                {"q": "What happens if the four-month deadline is missed?",
+                 "a": "The right to the statutory lien lapses permanently, but the claim for unpaid work remains and can be pursued through ordinary means (debt collection, payment action)."},
             ],
         },
     },
@@ -1354,6 +1528,93 @@ BLOG_ARTICLES = {
                  "a": "Vous pouvez intenter une action en réduction (art. 522 ss CC) pour faire ramener les libéralités excessives dans les limites de la quotité disponible, dans les délais de prescription applicables."},
             ],
         },
+        "de": {
+            "slug": "pflichtteil-verfuegbare-quote-seit-2023",
+            "title": "Pflichtteil und verfügbare Quote seit 2023",
+            "meta": "Pflichtteile der Erben, verfügbarer Teil des Erblassers, Änderungen durch die 2023 in Kraft getretene Erbrechtsrevision.",
+            "sections": [
+                {"heading": "Der Grundsatz des Pflichtteils", "paragraphs": [
+                    "Das schweizerische Recht schützt bestimmte nahe Erben durch einen Pflichtteil: einen Mindestanteil am Nachlass, der ihnen zusteht und den der Erblasser ihnen nicht entziehen kann, ausser in gesetzlichen Ausnahmefällen wie der Enterbung aus wichtigen Gründen (Art. 470 ff. ZGB).",
+                ]},
+                {"heading": "Was sich am 1. Januar 2023 geändert hat", "paragraphs": [
+                    "Die am 1. Januar 2023 in Kraft getretene Revision des Erbrechts hat die Pflichtteile verkleinert, um die Verfügungsfreiheit des Erblassers zu erweitern. Der Pflichtteil der Nachkommen sank von drei Vierteln auf die Hälfte ihres gesetzlichen Erbanspruchs, und der Pflichtteil der Eltern wurde abgeschafft. Der Pflichtteil des überlebenden Ehegatten oder der eingetragenen Partnerin bzw. des eingetragenen Partners bleibt bei der Hälfte ihres gesetzlichen Anspruchs.",
+                ]},
+                {"heading": "Die verfügbare Quote", "paragraphs": [
+                    "Die verfügbare Quote ist der Teil des Nachlasses, über den der Erblasser frei verfügen kann, durch Testament oder Erbvertrag, zugunsten wer auch immer er möchte: eine andere Person, eine Stiftung, oder einen gesetzlichen Erben über seinen Pflichtteil hinaus. Mit der Verkleinerung der Pflichtteile 2023 hat sich diese verfügbare Quote automatisch vergrössert.",
+                ]},
+                {"heading": "Die Herabsetzungsklage", "paragraphs": [
+                    "Ein pflichtteilsgeschützter Erbe, dessen Pflichtteil durch Zuwendungen des Erblassers verletzt wurde, kann Herabsetzungsklage erheben (Art. 522 ff. ZGB), um diese Zuwendungen auf das Mass der verfügbaren Quote zurückzuführen. Diese Klage verjährt innert bestimmter Fristen ab Eröffnung des Erbgangs.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Welche Erben haben Anspruch auf einen Pflichtteil?",
+                 "a": "Seit 2023 die Nachkommen sowie der überlebende Ehegatte oder die eingetragene Partnerin bzw. der eingetragene Partner. Der Pflichtteil der Eltern des Erblassers wurde durch die am 1. Januar 2023 in Kraft getretene Revision abgeschafft."},
+                {"q": "Wie gross ist der Pflichtteil der Nachkommen seit 2023?",
+                 "a": "Die Hälfte ihres gesetzlichen Erbanspruchs, gegenüber drei Vierteln vor der am 1. Januar 2023 in Kraft getretenen Revision (Art. 471 ZGB)."},
+                {"q": "Kann ich mein Kind vollständig enterben?",
+                 "a": "Grundsätzlich nicht, ausser bei einem gesetzlich anerkannten Enterbungsgrund (Art. 477 ZGB), etwa einer schweren Straftat gegenüber dem Erblasser. Ausserhalb dieser Fälle muss der Pflichtteil des Kindes respektiert werden."},
+                {"q": "Was kann ich tun, wenn mein Pflichtteil nicht respektiert wurde?",
+                 "a": "Sie können Herabsetzungsklage erheben (Art. 522 ff. ZGB), um übermässige Zuwendungen auf das Mass der verfügbaren Quote zurückzuführen, innert der geltenden Verjährungsfristen."},
+            ],
+        },
+        "it": {
+            "slug": "legittima-quota-disponibile-2023",
+            "title": "Legittima e quota disponibile dal 2023",
+            "meta": "Riserve degli eredi, quota disponibile del defunto, cambiamenti della revisione del diritto successorio entrata in vigore nel 2023.",
+            "sections": [
+                {"heading": "Il principio della legittima", "paragraphs": [
+                    "Il diritto svizzero protegge determinati eredi stretti mediante una legittima: una quota minima della successione che spetta loro e di cui il defunto non può privarli, salvo eccezione legale come la diseredazione per motivi gravi (art. 470 segg. CC).",
+                ]},
+                {"heading": "Cosa è cambiato il 1° gennaio 2023", "paragraphs": [
+                    "La revisione del diritto successorio entrata in vigore il 1° gennaio 2023 ha ridotto le legittime per ampliare la libertà di disporre del defunto. La legittima dei discendenti è passata da tre quarti alla metà del loro diritto successorio legale, e la legittima dei genitori è stata soppressa. La legittima del coniuge o del partner registrato superstite resta fissata alla metà del suo diritto legale.",
+                ]},
+                {"heading": "La quota disponibile", "paragraphs": [
+                    "La quota disponibile è la parte della successione di cui il defunto può disporre liberamente, per testamento o contratto successorio, a favore di chi desidera: un'altra persona, una fondazione, o un erede legale oltre la sua quota legittima. Con la riduzione delle legittime nel 2023, questa quota disponibile si è meccanicamente ampliata.",
+                ]},
+                {"heading": "L'azione di riduzione", "paragraphs": [
+                    "Un erede legittimario la cui legittima è stata lesa da liberalità del defunto può promuovere un'azione di riduzione (art. 522 segg. CC) per far ricondurre tali liberalità entro i limiti della quota disponibile. Questa azione si prescrive entro termini specifici dall'apertura della successione.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Quali eredi hanno diritto a una legittima?",
+                 "a": "Dal 2023, i discendenti e il coniuge o partner registrato superstite. La legittima dei genitori del defunto è stata soppressa dalla revisione entrata in vigore il 1° gennaio 2023."},
+                {"q": "Qual è la legittima dei discendenti dal 2023?",
+                 "a": "La metà del loro diritto successorio legale, contro tre quarti prima della revisione entrata in vigore il 1° gennaio 2023 (art. 471 CC)."},
+                {"q": "Posso diseredare completamente mio figlio?",
+                 "a": "In linea di principio no, salvo un motivo di diseredazione riconosciuto dalla legge (art. 477 CC), come un reato grave verso il defunto. Al di fuori di questi casi, la legittima del figlio deve essere rispettata."},
+                {"q": "Cosa posso fare se la mia legittima non è stata rispettata?",
+                 "a": "Potete promuovere un'azione di riduzione (art. 522 segg. CC) per far ricondurre le liberalità eccessive entro i limiti della quota disponibile, entro i termini di prescrizione applicabili."},
+            ],
+        },
+        "en": {
+            "slug": "forced-heirship-disposable-portion-2023",
+            "title": "Forced heirship and disposable portion since 2023",
+            "meta": "Statutory reserves for heirs, the disposable portion of an estate, changes from the inheritance law reform in force since 2023.",
+            "sections": [
+                {"heading": "The principle of forced heirship", "paragraphs": [
+                    "Swiss law protects certain close heirs through a statutory reserve: a minimum share of the estate that belongs to them and which the deceased cannot take away, except in legal exceptions such as disinheritance for good cause (art. 470 ff. CC).",
+                ]},
+                {"heading": "What changed on 1 January 2023", "paragraphs": [
+                    "The inheritance law reform that entered into force on 1 January 2023 reduced statutory reserves to expand the deceased's freedom to dispose of their estate. The descendants' reserve dropped from three-quarters to half of their statutory inheritance share, and the parents' reserve was abolished. The surviving spouse's or registered partner's reserve remains at half of their statutory share.",
+                ]},
+                {"heading": "The disposable portion", "paragraphs": [
+                    "The disposable portion is the share of the estate the deceased may freely dispose of, by will or inheritance contract, in favour of whoever they wish: another person, a foundation, or a statutory heir beyond their reserved share. With the reduction of reserves in 2023, this disposable portion automatically expanded.",
+                ]},
+                {"heading": "The action for abatement", "paragraphs": [
+                    "A forced heir whose reserve has been infringed by gifts from the deceased can bring an action for abatement (art. 522 ff. CC) to bring those gifts back within the limits of the disposable portion. This action is time-barred within specific periods from the opening of the estate.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Which heirs are entitled to a statutory reserve?",
+                 "a": "Since 2023, descendants and the surviving spouse or registered partner. The parents' reserve was abolished by the reform that entered into force on 1 January 2023."},
+                {"q": "What is the descendants' reserve since 2023?",
+                 "a": "Half of their statutory inheritance share, down from three-quarters before the reform that entered into force on 1 January 2023 (art. 471 CC)."},
+                {"q": "Can I completely disinherit my child?",
+                 "a": "In principle no, except for a ground of disinheritance recognised by law (art. 477 CC), such as a serious offence against the deceased. Outside these cases, the child's statutory reserve must be respected."},
+                {"q": "What can I do if my reserve was not respected?",
+                 "a": "You can bring an action for abatement (art. 522 ff. CC) to bring excessive gifts back within the limits of the disposable portion, within the applicable limitation periods."},
+            ],
+        },
     },
     "rediger-testament-valable": {
         "domaine_id": "droit_successions",
@@ -1387,6 +1648,93 @@ BLOG_ARTICLES = {
                  "a": "Vous pouvez le conserver vous-même, le confier à une personne de confiance, ou le déposer auprès d'un office compétent (notaire ou autorité cantonale selon le canton), ce qui réduit le risque de perte ou de destruction."},
             ],
         },
+        "de": {
+            "slug": "gueltiges-testament-verfassen-schweizer-recht",
+            "title": "Ein gültiges Testament nach Schweizer Recht verfassen",
+            "meta": "Eigenhändiges Testament, öffentliches Testament, gesetzliche Formvorschriften gemäss Zivilgesetzbuch.",
+            "sections": [
+                {"heading": "Die anerkannten Testamentsformen", "paragraphs": [
+                    "Das schweizerische Recht kennt hauptsächlich zwei Testamentsformen: das eigenhändige Testament, das vollständig von Hand geschrieben, datiert und von der erblassenden Person unterzeichnet wird (Art. 505 ZGB), und das öffentliche Testament, das von einer Urkundsperson unter Mitwirkung zweier Zeuginnen oder Zeugen errichtet wird (Art. 499 ff. ZGB). Eine dritte Form, das mündliche Testament, ist nur unter ausserordentlichen Umständen zulässig (Art. 506 ZGB).",
+                ]},
+                {"heading": "Die Voraussetzungen des eigenhändigen Testaments", "paragraphs": [
+                    "Um gültig zu sein, muss das eigenhändige Testament vollständig von Hand der erblassenden Person geschrieben werden: ein am Computer getippter und lediglich unterschriebener Text ist nicht gültig, selbst wenn der Inhalt den Willen der verstorbenen Person getreu wiedergibt. Es muss Tag, Monat und Jahr der Errichtung angeben und die Unterschrift der erblassenden Person tragen.",
+                ]},
+                {"heading": "Die Urteilsfähigkeit", "paragraphs": [
+                    "Die erblassende Person muss handlungsfähig sein, das heisst im Zeitpunkt der Errichtung urteilsfähig (Art. 467 ZGB). Ein von einer dauernd urteilsunfähigen Person verfasstes Testament kann durch eine Ungültigkeitsklage einer Erbin, eines Erben oder jeder interessierten Person angefochten werden.",
+                ]},
+                {"heading": "Die Aufbewahrung und Eröffnung des Testaments", "paragraphs": [
+                    "Ein Testament kann bei einer zuständigen Stelle hinterlegt oder von der erblassenden Person selbst aufbewahrt werden. Bei ihrem Tod muss das Testament der zuständigen Behörde übergeben werden, welche es eröffnet und die Erbinnen und Erben sowie Vermächtnisnehmerinnen und Vermächtnisnehmer über seinen Inhalt informiert.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Ist ein am Computer getipptes und unterschriebenes Testament gültig?",
+                 "a": "Nein, ein eigenhändiges Testament muss vollständig von Hand geschrieben werden (Art. 505 ZGB). Ein am Computer getippter Text ist nur in der Form des öffentlichen Testaments gültig, errichtet von einer Urkundsperson."},
+                {"q": "Was muss ein eigenhändiges Testament enthalten, um gültig zu sein?",
+                 "a": "Es muss vollständig von Hand der erblassenden Person geschrieben, mit Tag, Monat und Jahr datiert und von ihr unterschrieben sein (Art. 505 ZGB)."},
+                {"q": "Kann ich mein Testament nach der Errichtung ändern?",
+                 "a": "Ja, ein Testament kann von der erblassenden Person jederzeit widerrufen oder geändert werden, solange sie urteilsfähig bleibt, namentlich durch Errichtung eines neuen Testaments oder Vernichtung des alten."},
+                {"q": "Wo kann ich mein Testament sicher aufbewahren?",
+                 "a": "Sie können es selbst aufbewahren, einer Vertrauensperson anvertrauen, oder bei einer zuständigen Stelle hinterlegen (Notariat oder kantonale Behörde je nach Kanton), was das Risiko eines Verlusts oder einer Vernichtung verringert."},
+            ],
+        },
+        "it": {
+            "slug": "redigere-testamento-valido-diritto-svizzero",
+            "title": "Redigere un testamento valido secondo il diritto svizzero",
+            "meta": "Testamento olografo, testamento pubblico, forme legali e condizioni di validità secondo il Codice civile.",
+            "sections": [
+                {"heading": "Le forme di testamento riconosciute", "paragraphs": [
+                    "Il diritto svizzero riconosce principalmente due forme di testamento: il testamento olografo, redatto interamente a mano dal testatore, datato e firmato da lui (art. 505 CC), e il testamento pubblico, allestito da un pubblico ufficiale con il concorso di due testimoni (art. 499 segg. CC). Una terza forma, il testamento orale, è ammessa solo in circostanze straordinarie (art. 506 CC).",
+                ]},
+                {"heading": "Le condizioni del testamento olografo", "paragraphs": [
+                    "Per essere valido, il testamento olografo deve essere scritto interamente a mano dal testatore: un testo digitato al computer e semplicemente firmato non è valido, anche se il contenuto riflette fedelmente la volontà del defunto. Deve indicare il giorno, il mese e l'anno della redazione, e recare la firma del testatore.",
+                ]},
+                {"heading": "La capacità di discernimento", "paragraphs": [
+                    "Il testatore deve avere l'esercizio dei diritti civili, ossia essere capace di discernimento al momento della redazione (art. 467 CC). Un testamento redatto da una persona durevolmente incapace di discernimento può essere annullato mediante un'azione di nullità promossa da un erede o da qualsiasi persona interessata.",
+                ]},
+                {"heading": "La conservazione e l'apertura del testamento", "paragraphs": [
+                    "Un testamento può essere depositato presso un ufficio competente o conservato dal testatore stesso. Alla sua morte, il testamento deve essere consegnato all'autorità competente, che procede alla sua apertura e informa gli eredi e i legatari del suo contenuto.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un testamento digitato al computer e firmato è valido?",
+                 "a": "No, un testamento olografo deve essere scritto interamente a mano (art. 505 CC). Un testo digitato al computer è valido solo nella forma del testamento pubblico, allestito da un pubblico ufficiale."},
+                {"q": "Cosa deve contenere un testamento olografo per essere valido?",
+                 "a": "Deve essere scritto interamente a mano dal testatore, datato con giorno, mese e anno, e firmato da lui (art. 505 CC)."},
+                {"q": "Posso modificare il mio testamento dopo averlo redatto?",
+                 "a": "Sì, un testamento può essere revocato o modificato in qualsiasi momento dal testatore finché conserva la capacità di discernimento, in particolare redigendo un nuovo testamento o distruggendo quello vecchio."},
+                {"q": "Dove posso conservare il mio testamento in sicurezza?",
+                 "a": "Potete conservarlo voi stessi, affidarlo a una persona di fiducia, o depositarlo presso un ufficio competente (notaio o autorità cantonale a seconda del Cantone), il che riduce il rischio di perdita o distruzione."},
+            ],
+        },
+        "en": {
+            "slug": "drafting-valid-will-swiss-law",
+            "title": "Drafting a valid will under Swiss law",
+            "meta": "Holographic will, public will, legal formalities and conditions of validity under the Civil Code.",
+            "sections": [
+                {"heading": "Recognised forms of will", "paragraphs": [
+                    "Swiss law mainly recognises two forms of will: the holographic will, written entirely by hand by the testator, dated and signed by them (art. 505 CC), and the public will, drawn up by a public official with the involvement of two witnesses (art. 499 ff. CC). A third form, the oral will, is only permitted in extraordinary circumstances (art. 506 CC).",
+                ]},
+                {"heading": "Requirements for a holographic will", "paragraphs": [
+                    "To be valid, a holographic will must be written entirely by the testator's own hand: a typed text that is merely signed is not valid, even if its content faithfully reflects the deceased's wishes. It must state the day, month and year it was drawn up, and bear the testator's signature.",
+                ]},
+                {"heading": "Capacity of judgment", "paragraphs": [
+                    "The testator must have full legal capacity, meaning capacity of judgment at the time the will is drawn up (art. 467 CC). A will drafted by a person who was permanently incapable of judgment can be challenged through an action for annulment brought by an heir or any interested person.",
+                ]},
+                {"heading": "Safekeeping and opening the will", "paragraphs": [
+                    "A will can be deposited with a competent office or kept by the testator themselves. On their death, the will must be handed to the competent authority, which opens it and informs the heirs and legatees of its contents.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Is a typed and signed will valid?",
+                 "a": "No, a holographic will must be written entirely by hand (art. 505 CC). A typed text is only valid in the form of a public will, drawn up by a public official."},
+                {"q": "What must a holographic will contain to be valid?",
+                 "a": "It must be written entirely by the testator's own hand, dated with the day, month and year, and signed by them (art. 505 CC)."},
+                {"q": "Can I change my will after drafting it?",
+                 "a": "Yes, a will can be revoked or amended at any time by the testator as long as they retain capacity of judgment, in particular by drafting a new will or destroying the old one."},
+                {"q": "Where can I safely keep my will?",
+                 "a": "You can keep it yourself, entrust it to a trusted person, or deposit it with a competent office (a notary or cantonal authority depending on the canton), which reduces the risk of loss or destruction."},
+            ],
+        },
     },
     "resilier-contrat-justes-motifs": {
         "domaine_id": "droit_contrats",
@@ -1415,6 +1763,78 @@ BLOG_ARTICLES = {
                  "a": "La loi n'impose pas toujours une forme écrite selon le type de contrat, mais un écrit motivé est fortement recommandé pour pouvoir prouver la réalité et la gravité des motifs invoqués en cas de litige."},
             ],
         },
+        "de": {
+            "slug": "vertrag-kuendigen-wichtige-gruende",
+            "title": "Einen Vertrag aus wichtigen Gründen kündigen",
+            "meta": "Fristlose Kündigung eines Dauervertrags, von der Rechtsprechung anerkannte Voraussetzungen, Folgen für Schadenersatz.",
+            "sections": [
+                {"heading": "Ein allgemeiner, nicht einheitlich kodifizierter Grundsatz", "paragraphs": [
+                    "Das schweizerische Obligationenrecht enthält keine für alle Verträge einheitliche Regel zur Kündigung aus wichtigen Gründen: bestimmte benannte Verträge sehen eine ausdrückliche Regel vor, wie der Arbeitsvertrag (Art. 337 OR) oder der Auftrag (Art. 404 OR), während für andere Dauerverträge die Rechtsprechung des Bundesgerichts einen allgemeinen Grundsatz entwickelt hat, der eine fristlose Kündigung erlaubt, wenn die Fortsetzung des Vertrags für eine Partei unzumutbar wird.",
+                ]},
+                {"heading": "Was einen wichtigen Grund darstellt", "paragraphs": [
+                    "Ein wichtiger Grund setzt in der Regel eine schwere Verletzung der vertraglichen Pflichten durch die andere Partei, einen Bruch des für den Vertrag wesentlichen Vertrauensverhältnisses, oder Umstände voraus, die die Fortsetzung der Vertragsbeziehung nach Treu und Glauben objektiv unzumutbar machen. Die Beurteilung erfolgt im Einzelfall, unter Berücksichtigung der Art des Vertrags und der Schwere der geltend gemachten Tatsachen.",
+                ]},
+                {"heading": "Die Folgen einer fristlosen Kündigung", "paragraphs": [
+                    "Eine Kündigung aus wichtigen Gründen beendet den Vertrag mit sofortiger Wirkung, ohne die ordentlichen Kündigungsfristen einzuhalten. Werden die geltend gemachten wichtigen Gründe von einem Gericht nicht als ausreichend anerkannt, setzt sich die kündigende Partei Schadenersatzforderungen wegen ungerechtfertigter Kündigung aus, berechnet nach den für die jeweilige Vertragsart geltenden Regeln.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann jeder Vertrag aus wichtigen Gründen gekündigt werden?",
+                 "a": "Dauerverträge (Miete, Arbeitsvertrag, Auftrag, einfache Gesellschaft usw.) eignen sich hierfür besonders. Bei Verträgen ohne ausdrückliche gesetzliche Regel anerkennt die Rechtsprechung des Bundesgerichts diesen Grundsatz unter strengen Voraussetzungen."},
+                {"q": "Was riskiert man, wenn die geltend gemachten wichtigen Gründe nicht anerkannt werden?",
+                 "a": "Die fristlose Kündigung kann als ungerechtfertigt gelten, was die kündigende Partei Schadenersatzforderungen der Vertragspartnerin oder des Vertragspartners nach den für die Vertragsart geltenden Regeln aussetzt."},
+                {"q": "Müssen die wichtigen Gründe schriftlich mitgeteilt werden?",
+                 "a": "Das Gesetz schreibt je nach Vertragsart nicht immer eine Schriftform vor, doch eine begründete schriftliche Mitteilung wird dringend empfohlen, um im Streitfall die Tatsächlichkeit und Schwere der geltend gemachten Gründe beweisen zu können."},
+            ],
+        },
+        "it": {
+            "slug": "disdire-contratto-motivi-gravi-svizzera",
+            "title": "Disdire un contratto per motivi gravi",
+            "meta": "Disdetta immediata di un contratto di durata, condizioni riconosciute dalla giurisprudenza, effetti sul risarcimento del danno.",
+            "sections": [
+                {"heading": "Un principio generale non codificato uniformemente", "paragraphs": [
+                    "Il diritto svizzero delle obbligazioni non contiene una regola unica sulla disdetta per motivi gravi applicabile a tutti i contratti: alcuni contratti nominati prevedono una regola esplicita, come il contratto di lavoro (art. 337 CO) o il mandato (art. 404 CO), mentre per altri contratti di durata la giurisprudenza del Tribunale federale ha sviluppato un principio generale che permette una disdetta immediata quando la continuazione del contratto diventa intollerabile per una parte.",
+                ]},
+                {"heading": "Cosa costituisce un motivo grave", "paragraphs": [
+                    "Un motivo grave presuppone generalmente una violazione grave degli obblighi contrattuali da parte dell'altra parte, una rottura del rapporto di fiducia essenziale al contratto, o circostanze che rendono la continuazione del rapporto contrattuale oggettivamente intollerabile secondo le regole della buona fede. La valutazione avviene caso per caso, tenendo conto della natura del contratto e della gravità dei fatti invocati.",
+                ]},
+                {"heading": "Le conseguenze di una disdetta immediata", "paragraphs": [
+                    "Una disdetta per motivi gravi pone fine al contratto con effetto immediato, senza rispettare i termini di disdetta ordinari. Se i motivi gravi invocati non sono riconosciuti sufficienti da un tribunale, la parte che ha disdetto si espone al pagamento di un risarcimento per disdetta ingiustificata, calcolato secondo le regole proprie al tipo di contratto in questione.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Ogni contratto può essere disdetto per motivi gravi?",
+                 "a": "I contratti di durata (locazione, lavoro, mandato, società semplice, ecc.) vi si prestano particolarmente. Per i contratti senza regola legale esplicita, la giurisprudenza del Tribunale federale ammette questo principio a condizioni rigorose."},
+                {"q": "Cosa si rischia se i motivi gravi invocati non sono riconosciuti?",
+                 "a": "La disdetta immediata può essere considerata ingiustificata, esponendo la parte che l'ha pronunciata a un risarcimento del danno verso la controparte, secondo le regole applicabili al tipo di contratto in questione."},
+                {"q": "I motivi gravi devono essere notificati per scritto?",
+                 "a": "La legge non impone sempre una forma scritta a seconda del tipo di contratto, ma uno scritto motivato è vivamente raccomandato per poter provare la realtà e la gravità dei motivi invocati in caso di controversia."},
+            ],
+        },
+        "en": {
+            "slug": "terminating-contract-good-cause-switzerland",
+            "title": "Terminating a contract for good cause",
+            "meta": "Immediate termination of an ongoing contract, conditions recognised by case law, effects on damages.",
+            "sections": [
+                {"heading": "A general, not uniformly codified principle", "paragraphs": [
+                    "Swiss contract law does not contain a single rule on termination for good cause applicable to all contracts: certain named contracts have an explicit rule, such as employment contracts (art. 337 CO) or agency contracts (art. 404 CO), while for other ongoing contracts, Federal Supreme Court case law has developed a general principle allowing immediate termination when continuing the contract becomes unbearable for a party.",
+                ]},
+                {"heading": "What constitutes good cause", "paragraphs": [
+                    "Good cause generally requires a serious breach of contractual obligations by the other party, a breakdown of the trust essential to the contract, or circumstances making the continuation of the contractual relationship objectively unbearable under the rules of good faith. The assessment is made case by case, taking into account the nature of the contract and the severity of the facts invoked.",
+                ]},
+                {"heading": "The consequences of immediate termination", "paragraphs": [
+                    "Termination for good cause ends the contract with immediate effect, without observing the ordinary notice periods. If the good cause invoked is not recognised as sufficient by a court, the terminating party is exposed to a claim for damages for unjustified termination, calculated according to the rules specific to the type of contract concerned.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can any contract be terminated for good cause?",
+                 "a": "Ongoing contracts (lease, employment, agency, simple partnership, etc.) lend themselves particularly well to this. For contracts without an explicit legal rule, Federal Supreme Court case law recognises this principle under strict conditions."},
+                {"q": "What is the risk if the good cause invoked is not recognised?",
+                 "a": "Immediate termination may be considered unjustified, exposing the terminating party to a claim for damages from the other party, according to the rules applicable to the type of contract concerned."},
+                {"q": "Does good cause need to be notified in writing?",
+                 "a": "The law does not always require a written form depending on the type of contract, but a reasoned written notice is strongly recommended to be able to prove the reality and severity of the grounds invoked in the event of a dispute."},
+            ],
+        },
     },
     "clause-penale-dommages-interets": {
         "domaine_id": "droit_contrats",
@@ -1441,6 +1861,78 @@ BLOG_ARTICLES = {
                  "a": "Oui, l'art. 163 al. 3 CO permet au juge de réduire une peine conventionnelle qu'il estime excessive au regard des circonstances et de l'intérêt légitime du créancier."},
                 {"q": "Puis-je réclamer plus que le montant de la clause pénale si mon dommage réel est supérieur ?",
                  "a": "En principe non, sauf si le contrat le prévoit expressément ou si vous prouvez un dommage supérieur et que la loi ou la convention vous permet de le réclamer en plus de la peine conventionnelle."},
+            ],
+        },
+        "de": {
+            "slug": "konventionalstrafe-schadenersatz-vertraglich",
+            "title": "Konventionalstrafe und vertraglicher Schadenersatz",
+            "meta": "Funktion der Konventionalstrafe, richterliche Herabsetzung übermässiger Strafen, Verhältnis zum tatsächlichen Schadenersatz gemäss Obligationenrecht.",
+            "sections": [
+                {"heading": "Die Funktion der Konventionalstrafe", "paragraphs": [
+                    "Eine Konventionalstrafe (Art. 160-163 OR) ist eine vertragliche Vereinbarung, wonach eine Partei bei Nichterfüllung oder mangelhafter Erfüllung des Vertrags einen bestimmten Betrag zu zahlen verspricht. Sie befreit die Gläubigerin oder den Gläubiger grundsätzlich davon, das Bestehen und die Höhe eines tatsächlichen Schadens zu beweisen: der vereinbarte Betrag ist allein aufgrund der Nichterfüllung geschuldet, ausser bei abweichender Klausel.",
+                ]},
+                {"heading": "Das richterliche Herabsetzungsrecht", "paragraphs": [
+                    "Art. 163 Abs. 3 OR erlaubt dem Gericht, eine als übermässig erachtete Konventionalstrafe herabzusetzen, namentlich wenn der festgelegte Betrag im Verhältnis zum berechtigten Interesse der Gläubigerin oder des Gläubigers oder zum tatsächlich erlittenen Schaden offensichtlich unverhältnismässig ist. Diese Befugnis schützt die schwächere Vertragspartei vor missbräuchlichen Konventionalstrafeklauseln.",
+                ]},
+                {"heading": "Konventionalstrafe und tatsächlicher Schadenersatz", "paragraphs": [
+                    "Mangels anderer Vereinbarung kann die Gläubigerin oder der Gläubiger die Konventionalstrafe und den vollen Ersatz des tatsächlichen Schadens nicht über den Betrag der Strafe hinaus kumulieren (Art. 161 OR), ausser wenn sie einen höheren Schaden als den vereinbarten Betrag nachweist und der Vertrag dies ausdrücklich erlaubt.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Muss ich einen Schaden nachweisen, um die Zahlung einer Konventionalstrafe zu erhalten?",
+                 "a": "Grundsätzlich nicht: der vereinbarte Betrag ist allein aufgrund der Nichterfüllung geschuldet, ohne dass das Bestehen oder die Höhe eines tatsächlichen Schadens nachgewiesen werden muss, ausser bei abweichender Klausel (Art. 161 Abs. 1 OR)."},
+                {"q": "Kann ein Gericht eine zu hohe Konventionalstrafe herabsetzen?",
+                 "a": "Ja, Art. 163 Abs. 3 OR erlaubt dem Gericht, eine als übermässig erachtete Konventionalstrafe angesichts der Umstände und des berechtigten Interesses der Gläubigerin oder des Gläubigers herabzusetzen."},
+                {"q": "Kann ich mehr verlangen als den Betrag der Konventionalstrafe, wenn mein tatsächlicher Schaden höher ist?",
+                 "a": "Grundsätzlich nicht, ausser der Vertrag sieht dies ausdrücklich vor oder Sie weisen einen höheren Schaden nach und das Gesetz oder die Vereinbarung erlaubt Ihnen, diesen zusätzlich zur Strafe geltend zu machen."},
+            ],
+        },
+        "it": {
+            "slug": "clausola-penale-risarcimento-danno-contrattuale",
+            "title": "Clausola penale e risarcimento del danno contrattuale",
+            "meta": "Funzione della clausola penale, riduzione giudiziale delle pene eccessive, articolazione con il risarcimento effettivo secondo il Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "La funzione della clausola penale", "paragraphs": [
+                    "Una clausola penale (art. 160-163 CO) è una pattuizione contrattuale con cui una parte s'impegna a versare un importo determinato in caso d'inadempimento o cattiva esecuzione del contratto. Dispensa in linea di principio il creditore dal provare l'esistenza e l'importo di un danno effettivo: l'importo convenuto è dovuto per il solo fatto dell'inadempimento, salvo clausola contraria.",
+                ]},
+                {"heading": "Il potere di riduzione del giudice", "paragraphs": [
+                    "L'art. 163 cpv. 3 CO permette al giudice di ridurre una pena convenzionale ritenuta eccessiva, in particolare quando l'importo fissato è manifestamente sproporzionato rispetto all'interesse legittimo del creditore o al danno effettivamente subito. Questa facoltà protegge la parte debole di un contratto contro clausole penali abusive.",
+                ]},
+                {"heading": "Clausola penale e risarcimento effettivo", "paragraphs": [
+                    "Salvo diversa pattuizione, il creditore non può cumulare la pena convenzionale e il risarcimento integrale del danno effettivo oltre l'importo della pena (art. 161 CO), salvo che provi un danno superiore all'importo convenuto e il contratto glielo permetta espressamente.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Devo provare un danno per ottenere il pagamento di una clausola penale?",
+                 "a": "In linea di principio no: l'importo convenuto è dovuto per il solo fatto dell'inadempimento, senza dover provare l'esistenza né l'importo di un danno effettivo, salvo clausola contraria (art. 161 cpv. 1 CO)."},
+                {"q": "Un giudice può ridurre una clausola penale troppo elevata?",
+                 "a": "Sì, l'art. 163 cpv. 3 CO permette al giudice di ridurre una pena convenzionale ritenuta eccessiva rispetto alle circostanze e all'interesse legittimo del creditore."},
+                {"q": "Posso reclamare più dell'importo della clausola penale se il mio danno reale è superiore?",
+                 "a": "In linea di principio no, salvo che il contratto lo preveda espressamente o proviate un danno superiore e la legge o la pattuizione vi permetta di reclamarlo in aggiunta alla pena."},
+            ],
+        },
+        "en": {
+            "slug": "penalty-clause-contractual-damages",
+            "title": "Penalty clause and contractual damages",
+            "meta": "The purpose of a penalty clause, judicial reduction of excessive penalties, its relationship with actual damages under the Code of Obligations.",
+            "sections": [
+                {"heading": "The purpose of a penalty clause", "paragraphs": [
+                    "A penalty clause (art. 160-163 CO) is a contractual provision under which a party undertakes to pay a set amount in the event of non-performance or defective performance of the contract. It in principle relieves the creditor of having to prove the existence and amount of actual loss: the agreed amount is owed by the mere fact of non-performance, unless otherwise agreed.",
+                ]},
+                {"heading": "The court's power of reduction", "paragraphs": [
+                    "Art. 163 para. 3 CO allows a court to reduce a contractual penalty it considers excessive, in particular where the amount set is manifestly disproportionate to the creditor's legitimate interest or to the loss actually suffered. This power protects the weaker party to a contract against abusive penalty clauses.",
+                ]},
+                {"heading": "Penalty clause and actual damages", "paragraphs": [
+                    "Unless otherwise agreed, the creditor cannot cumulate the contractual penalty with full compensation for actual loss beyond the amount of the penalty (art. 161 CO), unless they prove a loss greater than the agreed amount and the contract expressly allows it.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Do I need to prove loss to obtain payment of a penalty clause?",
+                 "a": "In principle no: the agreed amount is owed by the mere fact of non-performance, without having to prove the existence or amount of actual loss, unless otherwise agreed (art. 161 para. 1 CO)."},
+                {"q": "Can a court reduce a penalty clause that is too high?",
+                 "a": "Yes, art. 163 para. 3 CO allows a court to reduce a contractual penalty it considers excessive in light of the circumstances and the creditor's legitimate interest."},
+                {"q": "Can I claim more than the penalty clause amount if my actual loss is higher?",
+                 "a": "In principle no, unless the contract expressly provides for it or you prove a higher loss and the law or agreement allows you to claim it in addition to the penalty."},
             ],
         },
     },
@@ -1476,6 +1968,93 @@ BLOG_ARTICLES = {
                  "a": "Une seule personne physique ou morale suffit : la Sàrl peut être fondée et détenue par un associé unique."},
             ],
         },
+        "de": {
+            "slug": "gmbh-gruenden-schweiz-kapital-formalitaeten",
+            "title": "Eine GmbH in der Schweiz gründen: Kapital und Formalitäten",
+            "meta": "Mindeststammkapital, Statutenerrichtung, Handelsregistereintrag: die Schritte zur Gründung einer Gesellschaft mit beschränkter Haftung.",
+            "sections": [
+                {"heading": "Das Mindeststammkapital", "paragraphs": [
+                    "Die Gesellschaft mit beschränkter Haftung (GmbH) ist in Art. 772 ff. OR geregelt. Sie verlangt ein Stammkapital von mindestens 20'000 Franken, das im Zeitpunkt der Gründung vollständig einbezahlt sein muss, im Gegensatz zur Aktiengesellschaft, bei der zunächst nur ein Teil des Kapitals liberiert werden muss.",
+                ]},
+                {"heading": "Die Statuten", "paragraphs": [
+                    "Die Statuten müssen namentlich die Firma und den Sitz der Gesellschaft, ihren Zweck, die Höhe des Stammkapitals und den Nennwert jedes Stammanteils sowie die Form der Publikationen der Gesellschaft angeben. Sie werden bei der Gründung öffentlich beurkundet.",
+                ]},
+                {"heading": "Der Handelsregistereintrag", "paragraphs": [
+                    "Die Gesellschaft erlangt erst mit ihrer Eintragung im Handelsregister Rechtspersönlichkeit (Art. 779 OR). Die Eintragung setzt namentlich die Statuten, den Nachweis der Einzahlung des Stammkapitals bei einer Bank sowie die Bezeichnung der zur Vertretung der Gesellschaft befugten Personen voraus.",
+                ]},
+                {"heading": "Die Haftung der Gesellschafterinnen und Gesellschafter", "paragraphs": [
+                    "Die Gesellschafterinnen und Gesellschafter einer GmbH haften für die Schulden der Gesellschaft grundsätzlich nur bis zur Höhe des Stammkapitals, mit dem Vermögen der Gesellschaft selbst: ihr persönliches Vermögen ist grundsätzlich nicht betroffen, ausser in besonderen Fällen der Haftung wegen Sorgfaltspflichtverletzung oder statutarischer Nachschusspflichten.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wie hoch ist das Mindestkapital für die Gründung einer GmbH?",
+                 "a": "20'000 Franken, vollständig einbezahlt im Zeitpunkt der Gründung (Art. 773 OR)."},
+                {"q": "Ab wann existiert eine GmbH rechtlich?",
+                 "a": "Ab ihrer Eintragung im Handelsregister (Art. 779 OR); vor dieser Eintragung besitzt sie keine Rechtspersönlichkeit."},
+                {"q": "Haften die Gesellschafterinnen und Gesellschafter persönlich für die Schulden der GmbH?",
+                 "a": "Grundsätzlich nicht: ihre Haftung beschränkt sich auf das in die Gesellschaft eingebrachte Stammkapital, ausser in besonderen Fällen der Haftung wegen Sorgfaltspflichtverletzung oder besonderer statutarischer Verpflichtungen."},
+                {"q": "Wie viele Personen braucht es zur Gründung einer GmbH?",
+                 "a": "Eine einzige natürliche oder juristische Person genügt: die GmbH kann von einer einzigen Gesellschafterin oder einem einzigen Gesellschafter gegründet und gehalten werden."},
+            ],
+        },
+        "it": {
+            "slug": "creare-sagl-svizzera-capitale-statuti-formalita",
+            "title": "Creare una Sagl in Svizzera: capitale e formalità",
+            "meta": "Capitale sociale minimo, redazione degli statuti, iscrizione al registro di commercio: le tappe per creare una società a garanzia limitata.",
+            "sections": [
+                {"heading": "Il capitale sociale minimo", "paragraphs": [
+                    "La società a garanzia limitata (Sagl) è disciplinata dagli art. 772 segg. CO. Richiede un capitale sociale di almeno 20'000 franchi, interamente liberato al momento della costituzione, a differenza della società anonima dove solo una parte del capitale deve essere liberata inizialmente.",
+                ]},
+                {"heading": "Gli statuti", "paragraphs": [
+                    "Gli statuti devono in particolare indicare la ditta e la sede della società, il suo scopo, l'importo del capitale sociale e il valore nominale di ciascuna quota sociale, nonché la forma delle pubblicazioni della società. Sono redatti per atto pubblico al momento della costituzione.",
+                ]},
+                {"heading": "L'iscrizione al registro di commercio", "paragraphs": [
+                    "La società acquisisce la personalità giuridica solo con la sua iscrizione al registro di commercio (art. 779 CO). L'iscrizione richiede in particolare gli statuti, la prova del versamento del capitale sociale presso una banca, e la designazione delle persone autorizzate a rappresentare la società.",
+                ]},
+                {"heading": "La responsabilità dei soci", "paragraphs": [
+                    "I soci di una Sagl rispondono in linea di principio dei debiti della società solo fino a concorrenza del capitale sociale, sugli attivi della società stessa: il loro patrimonio personale non è in linea di principio coinvolto, salvo casi particolari di responsabilità per cattiva gestione o obblighi statutari di versamenti supplementari.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qual è il capitale minimo per creare una Sagl?",
+                 "a": "20'000 franchi, interamente liberati al momento della costituzione (art. 773 CO)."},
+                {"q": "Da quando esiste giuridicamente una Sagl?",
+                 "a": "Dalla sua iscrizione al registro di commercio (art. 779 CO); prima di tale iscrizione non ha personalità giuridica."},
+                {"q": "I soci sono personalmente responsabili dei debiti della Sagl?",
+                 "a": "In linea di principio no: la loro responsabilità si limita al capitale sociale conferito alla società, salvo casi particolari di responsabilità per cattiva gestione o obblighi statutari specifici."},
+                {"q": "Quante persone servono per creare una Sagl?",
+                 "a": "Una sola persona fisica o giuridica è sufficiente: la Sagl può essere fondata e detenuta da un socio unico."},
+            ],
+        },
+        "en": {
+            "slug": "forming-llc-switzerland-capital-formalities",
+            "title": "Forming an LLC in Switzerland: capital and formalities",
+            "meta": "Minimum share capital, drafting the articles of association, registration with the commercial register: the steps to form a limited liability company.",
+            "sections": [
+                {"heading": "The minimum share capital", "paragraphs": [
+                    "The limited liability company (GmbH/Sàrl) is governed by art. 772 ff. CO. It requires share capital of at least CHF 20,000, fully paid up at the time of formation, unlike a public limited company where only part of the capital must initially be paid in.",
+                ]},
+                {"heading": "The articles of association", "paragraphs": [
+                    "The articles must state, among other things, the company's name and registered office, its purpose, the amount of share capital and the nominal value of each share, and the form of the company's publications. They are drawn up by public deed at the time of formation.",
+                ]},
+                {"heading": "Registration with the commercial register", "paragraphs": [
+                    "The company only acquires legal personality upon its registration with the commercial register (art. 779 CO). Registration requires, among other things, the articles of association, proof that the share capital was deposited with a bank, and the designation of the persons authorised to represent the company.",
+                ]},
+                {"heading": "The shareholders' liability", "paragraphs": [
+                    "Shareholders of an LLC are in principle liable for the company's debts only up to the amount of the share capital, on the assets of the company itself: their personal assets are in principle not affected, except in specific cases of liability for mismanagement or statutory obligations to make additional payments.",
+                ]},
+            ],
+            "faq": [
+                {"q": "What is the minimum capital to form an LLC?",
+                 "a": "CHF 20,000, fully paid up at the time of formation (art. 773 CO)."},
+                {"q": "From when does an LLC legally exist?",
+                 "a": "From its registration with the commercial register (art. 779 CO); before that registration it has no legal personality."},
+                {"q": "Are shareholders personally liable for the LLC's debts?",
+                 "a": "In principle no: their liability is limited to the share capital contributed to the company, except in specific cases of liability for mismanagement or particular statutory obligations."},
+                {"q": "How many people are needed to form an LLC?",
+                 "a": "A single individual or legal entity is enough: the LLC can be formed and held by a sole shareholder."},
+            ],
+        },
     },
     "responsabilite-administrateurs-sa": {
         "domaine_id": "droit_societes",
@@ -1505,6 +2084,87 @@ BLOG_ARTICLES = {
                  "a": "La société, un actionnaire pour le dommage causé à la société, ou les créanciers directement en cas de faillite, selon les règles de légitimation des art. 756-757 CO."},
                 {"q": "Un administrateur peut-il limiter sa responsabilité par les statuts ?",
                  "a": "La responsabilité envers la société, les actionnaires et les créanciers découlant des art. 754-755 CO est de nature impérative et ne peut pas être exclue à l'avance par les statuts ou une convention."},
+            ],
+        },
+        "de": {
+            "slug": "haftung-verwaltungsrat-aktiengesellschaft",
+            "title": "Haftung der Verwaltungsräte einer Aktiengesellschaft",
+            "meta": "Voraussetzungen der zivilrechtlichen Haftung der Verwaltungsräte, Sorgfaltspflicht, Verantwortlichkeitsklage gemäss Obligationenrecht.",
+            "sections": [
+                {"heading": "Der Grundsatz der Haftung", "paragraphs": [
+                    "Art. 754-755 OR sehen vor, dass die Mitglieder des Verwaltungsrats und alle mit der Geschäftsführung oder Liquidation einer Aktiengesellschaft befassten Personen der Gesellschaft, den Aktionärinnen und Aktionären sowie den Gläubigerinnen und Gläubigern für den Schaden haften, den sie ihnen durch absichtliche oder fahrlässige Pflichtverletzung zufügen.",
+                ]},
+                {"heading": "Die Voraussetzungen der Haftung", "paragraphs": [
+                    "Eine Verantwortlichkeitsklage setzt vier kumulative Voraussetzungen voraus: einen Schaden, eine Verletzung einer gesetzlichen oder statutarischen Pflicht (wie die Sorgfalts- und Treuepflicht nach Art. 717 OR), ein absichtliches oder fahrlässiges Verschulden, sowie einen Kausalzusammenhang zwischen der Pflichtverletzung und dem Schaden.",
+                ]},
+                {"heading": "Die Sorgfaltspflicht der Verwaltungsräte", "paragraphs": [
+                    "Art. 717 OR verpflichtet die Mitglieder des Verwaltungsrats, ihre Aufgaben mit aller Sorgfalt zu erfüllen und die Interessen der Gesellschaft in guten Treuen zu wahren. Diese Pflicht bemisst sich nach der Art der ausgeübten Funktion und den konkreten Umständen, einschliesslich der Grösse und Komplexität der Gesellschaft.",
+                ]},
+                {"heading": "Wer eine Verantwortlichkeitsklage erheben kann", "paragraphs": [
+                    "Die Gesellschaft selbst, eine Aktionärin oder ein Aktionär für den der Gesellschaft zugefügten Schaden, oder direkt die Gläubigerinnen und Gläubiger im Falle des Konkurses der Gesellschaft können eine Verantwortlichkeitsklage erheben, nach besonderen Legitimationsregeln je nach Sachlage (Art. 756-757 OR).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann ein Verwaltungsratsmitglied für einen blossen Führungsfehler haftbar gemacht werden?",
+                 "a": "Ja, wenn dieser Fehler eine Verletzung der Sorgfaltspflicht nach Art. 717 OR darstellt und einen Schaden verursacht, auch ohne Schädigungsabsicht: bereits Fahrlässigkeit genügt, um die Haftung zu begründen (Art. 754 OR)."},
+                {"q": "Wer kann eine Verantwortlichkeitsklage gegen ein Verwaltungsratsmitglied erheben?",
+                 "a": "Die Gesellschaft, eine Aktionärin oder ein Aktionär für den der Gesellschaft zugefügten Schaden, oder die Gläubigerinnen und Gläubiger direkt im Konkursfall, nach den Legitimationsregeln der Art. 756-757 OR."},
+                {"q": "Kann ein Verwaltungsratsmitglied seine Haftung durch die Statuten beschränken?",
+                 "a": "Die Haftung gegenüber der Gesellschaft, den Aktionärinnen und Aktionären sowie den Gläubigerinnen und Gläubigern nach Art. 754-755 OR ist zwingender Natur und kann durch die Statuten oder eine Vereinbarung nicht im Voraus ausgeschlossen werden."},
+            ],
+        },
+        "it": {
+            "slug": "responsabilita-amministratori-societa-anonima",
+            "title": "Responsabilità degli amministratori di società anonima",
+            "meta": "Condizioni della responsabilità civile degli amministratori, dovere di diligenza, azione di responsabilità secondo il Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "Il principio della responsabilità", "paragraphs": [
+                    "Gli art. 754-755 CO prevedono che i membri del consiglio d'amministrazione e tutte le persone che si occupano della gestione o della liquidazione di una società anonima rispondono verso la società, gli azionisti e i creditori del danno che causano loro violando intenzionalmente o per negligenza i propri doveri.",
+                ]},
+                {"heading": "Le condizioni della responsabilità", "paragraphs": [
+                    "Un'azione di responsabilità presuppone la riunione di quattro condizioni cumulative: un danno, una violazione di un dovere legale o statutario (come il dovere di diligenza e fedeltà dell'art. 717 CO), una colpa intenzionale o per negligenza, e un nesso di causalità tra la violazione e il danno.",
+                ]},
+                {"heading": "Il dovere di diligenza degli amministratori", "paragraphs": [
+                    "L'art. 717 CO impone agli amministratori di adempiere i loro compiti con ogni diligenza necessaria e di tutelare con fedeltà gli interessi della società. Questo dovere si valuta secondo la natura della funzione occupata e le circostanze concrete, incluse le dimensioni e la complessità della società.",
+                ]},
+                {"heading": "Chi può agire in responsabilità", "paragraphs": [
+                    "La società stessa, un azionista per il danno subito dalla società, o direttamente i creditori in caso di fallimento della società possono promuovere un'azione di responsabilità, secondo regole di legittimazione proprie a ciascuna situazione (art. 756-757 CO).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un amministratore può essere ritenuto responsabile per un semplice errore di gestione?",
+                 "a": "Sì, se tale errore costituisce una violazione del dovere di diligenza dell'art. 717 CO e causa un danno, anche senza intenzione di nuocere: la negligenza è sufficiente per fondare la responsabilità (art. 754 CO)."},
+                {"q": "Chi può promuovere un'azione di responsabilità contro un amministratore?",
+                 "a": "La società, un azionista per il danno causato alla società, o i creditori direttamente in caso di fallimento, secondo le regole di legittimazione degli art. 756-757 CO."},
+                {"q": "Un amministratore può limitare la propria responsabilità tramite gli statuti?",
+                 "a": "La responsabilità verso la società, gli azionisti e i creditori derivante dagli art. 754-755 CO è di natura imperativa e non può essere esclusa in anticipo dagli statuti o da una convenzione."},
+            ],
+        },
+        "en": {
+            "slug": "liability-directors-public-limited-company",
+            "title": "Liability of directors of a public limited company",
+            "meta": "Conditions for civil liability of directors, duty of care, liability action under the Code of Obligations.",
+            "sections": [
+                {"heading": "The principle of liability", "paragraphs": [
+                    "Art. 754-755 CO provide that members of the board of directors and everyone involved in the management or liquidation of a public limited company are liable to the company, its shareholders and its creditors for damage caused by intentional or negligent breach of their duties.",
+                ]},
+                {"heading": "The conditions for liability", "paragraphs": [
+                    "A liability action requires four cumulative conditions: damage, a breach of a statutory or by-law duty (such as the duty of care and loyalty under art. 717 CO), intentional or negligent fault, and a causal link between the breach and the damage.",
+                ]},
+                {"heading": "Directors' duty of care", "paragraphs": [
+                    "Art. 717 CO requires directors to perform their duties with all due care and to safeguard the company's interests in good faith. This duty is assessed according to the nature of the role held and the specific circumstances, including the size and complexity of the company.",
+                ]},
+                {"heading": "Who can bring a liability action", "paragraphs": [
+                    "The company itself, a shareholder for damage suffered by the company, or creditors directly in the event of the company's bankruptcy can bring a liability action, according to standing rules specific to each situation (art. 756-757 CO).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can a director be held liable for a simple management error?",
+                 "a": "Yes, if that error constitutes a breach of the duty of care under art. 717 CO and causes damage, even without intent to harm: negligence is enough to establish liability (art. 754 CO)."},
+                {"q": "Who can bring a liability action against a director?",
+                 "a": "The company, a shareholder for damage caused to the company, or creditors directly in the event of bankruptcy, according to the standing rules of art. 756-757 CO."},
+                {"q": "Can a director limit their liability through the articles of association?",
+                 "a": "Liability to the company, shareholders and creditors under art. 754-755 CO is mandatory in nature and cannot be excluded in advance by the articles of association or an agreement."},
             ],
         },
     },
@@ -1540,6 +2200,93 @@ BLOG_ARTICLES = {
                  "a": "Oui, ce sont deux procédures distinctes : la sanction pénale (amende, peine pécuniaire) est prononcée par le ministère public ou le tribunal pénal, tandis que le retrait de permis est une mesure administrative prononcée séparément par l'autorité cantonale."},
             ],
         },
+        "de": {
+            "slug": "fuehrerausweisentzug-dauer-schwere-widerhandlung",
+            "title": "Führerausweisentzug: Dauer je nach Schwere",
+            "meta": "Leichte, mittelschwere und schwere Widerhandlungen gegen das SVG, Entzugsdauern, Rückfall: was das Strassenverkehrsgesetz vorsieht.",
+            "sections": [
+                {"heading": "Die drei Kategorien von Widerhandlungen", "paragraphs": [
+                    "Das Strassenverkehrsgesetz unterscheidet zwischen leichten (Art. 16a SVG), mittelschweren (Art. 16b SVG) und schweren (Art. 16c SVG) Widerhandlungen, je nach dem Grad der Gefährdung der Verkehrssicherheit und dem Verschulden der Lenkerin oder des Lenkers. Diese Einteilung bestimmt unmittelbar die anwendbaren verwaltungsrechtlichen Folgen.",
+                ]},
+                {"heading": "Die leichte Widerhandlung", "paragraphs": [
+                    "Eine leichte Widerhandlung führt grundsätzlich zu einer blossen Verwarnung, ausser wenn die betroffene Person in den vorangegangenen zwei Jahren bereits einen Ausweisentzug oder eine Verwarnung erhalten hat, in welchem Fall ein Entzug von mindestens einem Monat ausgesprochen wird (Art. 16a SVG).",
+                ]},
+                {"heading": "Die mittelschwere Widerhandlung", "paragraphs": [
+                    "Sie führt zu einem Führerausweisentzug von mindestens einem Monat (Art. 16b SVG). Bei Rückfall innerhalb der gesetzlich festgelegten Fristen erhöht sich die Mindestdauer des Entzugs progressiv.",
+                ]},
+                {"heading": "Die schwere Widerhandlung", "paragraphs": [
+                    "Eine schwere Widerhandlung, wie qualifizierte Trunkenheitsfahrt oder erhebliche Geschwindigkeitsüberschreitung, führt zu einem Führerausweisentzug von mindestens drei Monaten (Art. 16c SVG). Bei wiederholten Rückfällen sieht das Gesetz progressiv steigende Mindestdauern vor, die bis zum Sicherungsentzug auf unbestimmte Zeit reichen können.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wie lange ist die Mindestentzugsdauer bei einer schweren Widerhandlung?",
+                 "a": "Mindestens drei Monate (Art. 16c SVG), verlängerbar bei Rückfall innerhalb der gesetzlich festgelegten Fristen."},
+                {"q": "Führt eine leichte Widerhandlung immer zu einem Führerausweisentzug?",
+                 "a": "Nein, sie führt grundsätzlich zu einer blossen Verwarnung, ausser bei Rückfall innerhalb der vorangegangenen zwei Jahre, in welchem Fall ein Entzug von mindestens einem Monat ausgesprochen wird (Art. 16a SVG)."},
+                {"q": "Wer entscheidet über den Führerausweisentzug?",
+                 "a": "Die zuständige kantonale Verwaltungsbehörde für den Strassenverkehr, gestützt auf den Polizeirapport und gegebenenfalls den strafrechtlichen Entscheid zu denselben Tatsachen."},
+                {"q": "Wird der Führerausweisentzug mit einer strafrechtlichen Sanktion kumuliert?",
+                 "a": "Ja, es handelt sich um zwei getrennte Verfahren: die strafrechtliche Sanktion (Busse, Geldstrafe) wird von der Staatsanwaltschaft oder dem Strafgericht ausgesprochen, während der Führerausweisentzug eine separate verwaltungsrechtliche Massnahme der kantonalen Behörde ist."},
+            ],
+        },
+        "it": {
+            "slug": "revoca-licenza-durata-gravita-infrazione",
+            "title": "Revoca della licenza: durata secondo la gravità",
+            "meta": "Infrazioni lievi, medie e gravi alla LCStr, durate di revoca della licenza, casi di recidiva: quanto previsto dalla legge sulla circolazione stradale.",
+            "sections": [
+                {"heading": "Le tre categorie di infrazioni", "paragraphs": [
+                    "La legge sulla circolazione stradale distingue le infrazioni lievi (art. 16a LCStr), medie (art. 16b LCStr) e gravi (art. 16c LCStr), secondo il grado di messa in pericolo della sicurezza stradale e la colpa del conducente. Questa classificazione determina direttamente le conseguenze amministrative applicabili.",
+                ]},
+                {"heading": "L'infrazione lieve", "paragraphs": [
+                    "Un'infrazione lieve comporta in linea di principio un semplice avvertimento, salvo se il conducente ha già subito una revoca della licenza o un avvertimento nei due anni precedenti, nel qual caso viene pronunciata una revoca di almeno un mese (art. 16a LCStr).",
+                ]},
+                {"heading": "L'infrazione media", "paragraphs": [
+                    "Comporta una revoca della licenza di almeno un mese (art. 16b LCStr). In caso di recidiva entro i termini fissati dalla legge, la durata minima della revoca aumenta progressivamente.",
+                ]},
+                {"heading": "L'infrazione grave", "paragraphs": [
+                    "Un'infrazione grave, come la guida in stato di ebrietà qualificata o un notevole superamento della velocità consentita, comporta una revoca della licenza di almeno tre mesi (art. 16c LCStr). In caso di recidive ripetute, la legge prevede durate minime crescenti, che possono arrivare fino alla revoca a tempo indeterminato per motivi di sicurezza.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qual è la durata minima di revoca per un'infrazione grave?",
+                 "a": "Almeno tre mesi (art. 16c LCStr), prorogabile in caso di recidiva entro i termini fissati dalla legge."},
+                {"q": "Un'infrazione lieve comporta sempre una revoca della licenza?",
+                 "a": "No, comporta in linea di principio un semplice avvertimento, salvo recidiva nei due anni precedenti, nel qual caso viene pronunciata una revoca di almeno un mese (art. 16a LCStr)."},
+                {"q": "Chi decide sulla revoca della licenza?",
+                 "a": "L'autorità amministrativa cantonale competente in materia di circolazione stradale, sulla base del rapporto di polizia e, se del caso, della decisione penale relativa agli stessi fatti."},
+                {"q": "La revoca della licenza si cumula con una sanzione penale?",
+                 "a": "Sì, si tratta di due procedure distinte: la sanzione penale (multa, pena pecuniaria) è pronunciata dal pubblico ministero o dal tribunale penale, mentre la revoca della licenza è una misura amministrativa pronunciata separatamente dall'autorità cantonale."},
+            ],
+        },
+        "en": {
+            "slug": "driving-licence-withdrawal-duration-offence",
+            "title": "Driving licence withdrawal: duration by severity",
+            "meta": "Minor, medium and serious traffic offences, withdrawal periods, repeat offences: what the Road Traffic Act provides.",
+            "sections": [
+                {"heading": "Three categories of offence", "paragraphs": [
+                    "The Road Traffic Act distinguishes between minor (art. 16a LCR), medium (art. 16b LCR) and serious (art. 16c LCR) offences, according to the degree of danger to road safety and the driver's fault. This classification directly determines the applicable administrative consequences.",
+                ]},
+                {"heading": "The minor offence", "paragraphs": [
+                    "A minor offence in principle results in a simple warning, unless the driver has already had a licence withdrawn or received a warning in the previous two years, in which case a withdrawal of at least one month is ordered (art. 16a LCR).",
+                ]},
+                {"heading": "The medium offence", "paragraphs": [
+                    "It results in a licence withdrawal of at least one month (art. 16b LCR). In the event of a repeat offence within the periods set by law, the minimum withdrawal period increases progressively.",
+                ]},
+                {"heading": "The serious offence", "paragraphs": [
+                    "A serious offence, such as qualified drink-driving or a significant speeding violation, results in a licence withdrawal of at least three months (art. 16c LCR). In the event of repeated offences, the law provides for increasing minimum periods, which can go up to withdrawal for an indefinite period on safety grounds.",
+                ]},
+            ],
+            "faq": [
+                {"q": "What is the minimum withdrawal period for a serious offence?",
+                 "a": "At least three months (art. 16c LCR), which can be extended in the event of a repeat offence within the periods set by law."},
+                {"q": "Does a minor offence always lead to a licence withdrawal?",
+                 "a": "No, it in principle results in a simple warning, unless there was a repeat offence in the previous two years, in which case a withdrawal of at least one month is ordered (art. 16a LCR)."},
+                {"q": "Who decides on licence withdrawal?",
+                 "a": "The competent cantonal administrative authority for road traffic, based on the police report and, where applicable, the criminal decision relating to the same facts."},
+                {"q": "Is licence withdrawal combined with a criminal sanction?",
+                 "a": "Yes, these are two separate procedures: the criminal sanction (fine, monetary penalty) is imposed by the public prosecutor or criminal court, while licence withdrawal is a separate administrative measure imposed by the cantonal authority."},
+            ],
+        },
     },
     "accident-route-qui-paie-declaration": {
         "domaine_id": "droit_circulation",
@@ -1571,6 +2318,93 @@ BLOG_ARTICLES = {
                  "a": "Ce n'est pas systématiquement obligatoire pour un accrochage mineur sans blessé, mais fortement recommandé dès qu'il y a un désaccord sur les responsabilités, des blessés, ou des dommages importants."},
                 {"q": "Le détenteur peut-il échapper à sa responsabilité ?",
                  "a": "Seulement en prouvant que l'accident résulte d'un cas de force majeure, d'une faute grave du lésé ou d'un tiers, sans faute de sa part ni défectuosité du véhicule (art. 59 LCR)."},
+            ],
+        },
+        "de": {
+            "slug": "verkehrsunfall-wer-zahlt-schadenmeldung",
+            "title": "Verkehrsunfall: wer zahlt und wie melden",
+            "meta": "Obligatorische Haftpflichtversicherung, Schadenmeldung, Aufteilung der Verantwortlichkeiten: die geltenden Regeln bei einem Verkehrsunfall.",
+            "sections": [
+                {"heading": "Die obligatorische Haftpflichtversicherung", "paragraphs": [
+                    "Jedes in der Schweiz verkehrende Motorfahrzeug muss durch eine Haftpflichtversicherung gedeckt sein (Art. 63 SVG), welche geschädigte Dritte unabhängig von der persönlichen Zahlungsfähigkeit der halterin oder des Halters oder der verantwortlichen Lenkerin oder des verantwortlichen Lenkers entschädigt.",
+                ]},
+                {"heading": "Die Halterhaftung", "paragraphs": [
+                    "Art. 58 SVG statuiert eine Kausalhaftung der Halterin oder des Halters eines Fahrzeugs für die durch dessen Betrieb verursachten Schäden, unabhängig von einem Verschulden ihrerseits. Die Halterin oder der Halter kann sich nur befreien, indem sie oder er nachweist, dass der Unfall durch höhere Gewalt, grobes Verschulden der geschädigten Person oder eines Dritten verursacht wurde, ohne eigenes Verschulden und ohne Fahrzeugmangel.",
+                ]},
+                {"heading": "Die Schadenmeldung", "paragraphs": [
+                    "Nach einem Unfall gilt es, den Sachverhalt festzuhalten (Austausch der Kontaktdaten, europäischer Unfallbericht oder Polizeieinsatz je nach Schwere), und den Schaden unverzüglich der eigenen Versicherung zu melden, welche das Dossier an die Haftpflichtversicherung des verantwortlichen Fahrzeugs weiterleitet, sofern dieses identifiziert ist.",
+                ]},
+                {"heading": "Unfälle mit nicht identifiziertem oder nicht versichertem Fahrzeug", "paragraphs": [
+                    "Kann das verantwortliche Fahrzeug nicht identifiziert werden oder war es nicht versichert, übernimmt der Nationale Garantiefonds (Art. 76 VVG) die Entschädigung der geschädigten Person im gesetzlich vorgesehenen Rahmen, um zu verhindern, dass das Opfer ohne Regressmöglichkeit bleibt.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wer bezahlt die Schäden bei einem Verkehrsunfall?",
+                 "a": "Grundsätzlich die Haftpflichtversicherung des als verantwortlich anerkannten Fahrzeugs, gestützt auf die Kausalhaftung der Halterin oder des Halters nach Art. 58 SVG."},
+                {"q": "Was tun, wenn die verantwortliche Person nach dem Unfall flüchtet?",
+                 "a": "Es gilt, die Polizei zu benachrichtigen und den Schaden der eigenen Versicherung zu melden. Bleibt das verantwortliche Fahrzeug nicht identifiziert, kann der Nationale Garantiefonds die geschädigte Person im gesetzlichen Rahmen entschädigen."},
+                {"q": "Muss ich nach einem Unfall immer die Polizei rufen?",
+                 "a": "Dies ist bei einem geringfügigen Blechschaden ohne Verletzte nicht systematisch obligatorisch, wird jedoch dringend empfohlen, sobald Uneinigkeit über die Verantwortlichkeiten besteht, Verletzte zu beklagen sind oder erhebliche Schäden vorliegen."},
+                {"q": "Kann sich die Halterin oder der Halter der Haftung entziehen?",
+                 "a": "Nur durch den Nachweis, dass der Unfall auf höhere Gewalt, grobes Verschulden der geschädigten Person oder eines Dritten zurückzuführen ist, ohne eigenes Verschulden und ohne Fahrzeugmangel (Art. 59 SVG)."},
+            ],
+        },
+        "it": {
+            "slug": "incidente-stradale-chi-paga-denuncia-sinistro",
+            "title": "Incidente stradale: chi paga e come denunciare",
+            "meta": "Assicurazione di responsabilità civile obbligatoria, denuncia del sinistro, ripartizione delle responsabilità: le regole applicabili in caso di incidente.",
+            "sections": [
+                {"heading": "L'assicurazione di responsabilità civile obbligatoria", "paragraphs": [
+                    "Ogni veicolo a motore circolante in Svizzera deve essere coperto da un'assicurazione di responsabilità civile (art. 63 LCStr), che indennizza i terzi lesi da tale veicolo, indipendentemente dalla solvibilità personale del detentore o del conducente responsabile.",
+                ]},
+                {"heading": "La responsabilità del detentore", "paragraphs": [
+                    "L'art. 58 LCStr pone una responsabilità causale del detentore del veicolo per i danni causati dal suo utilizzo, indipendentemente da una sua colpa. Il detentore può liberarsi solo provando che l'incidente è stato causato da forza maggiore, colpa grave del leso o di un terzo, senza colpa da parte sua né difetto del veicolo.",
+                ]},
+                {"heading": "La denuncia del sinistro", "paragraphs": [
+                    "Dopo un incidente, occorre accertare i fatti (scambio dei dati, constatazione amichevole o intervento della polizia secondo la gravità), poi denunciare il sinistro senza indugio alla propria assicurazione, la quale trasmette l'incarto all'assicuratore di responsabilità civile del veicolo responsabile se questo è identificato.",
+                ]},
+                {"heading": "Gli incidenti con veicolo non identificato o non assicurato", "paragraphs": [
+                    "Quando il veicolo responsabile non può essere identificato, o non era assicurato, il Fondo nazionale di garanzia (art. 76 LCA) si assume l'indennizzo del leso nei limiti fissati dalla legge, per evitare che la vittima rimanga senza ricorso.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Chi paga i danni in caso di incidente stradale?",
+                 "a": "In linea di principio l'assicuratore di responsabilità civile del veicolo riconosciuto responsabile dell'incidente, sulla base della responsabilità causale del detentore prevista dall'art. 58 LCStr."},
+                {"q": "Cosa fare se il responsabile dell'incidente fugge?",
+                 "a": "Occorre avvisare la polizia e denunciare il sinistro alla propria assicurazione. Se il veicolo responsabile rimane non identificato, il Fondo nazionale di garanzia può indennizzare il leso entro i limiti legali."},
+                {"q": "Devo sempre chiamare la polizia dopo un incidente?",
+                 "a": "Non è sistematicamente obbligatorio per un tamponamento minore senza feriti, ma è fortemente raccomandato non appena vi è disaccordo sulle responsabilità, vi sono feriti, o i danni sono importanti."},
+                {"q": "Il detentore può sfuggire alla propria responsabilità?",
+                 "a": "Solo provando che l'incidente risulta da un caso di forza maggiore, da colpa grave del leso o di un terzo, senza colpa da parte sua né difetto del veicolo (art. 59 LCStr)."},
+            ],
+        },
+        "en": {
+            "slug": "road-accident-who-pays-reporting-claim",
+            "title": "Road accident: who pays and how to report it",
+            "meta": "Compulsory third-party liability insurance, reporting a claim, allocation of responsibility: the rules that apply after a road accident.",
+            "sections": [
+                {"heading": "Compulsory third-party liability insurance", "paragraphs": [
+                    "Every motor vehicle driven in Switzerland must be covered by third-party liability insurance (art. 63 LCR), which compensates third parties harmed by that vehicle, regardless of the personal solvency of the responsible keeper or driver.",
+                ]},
+                {"heading": "The keeper's liability", "paragraphs": [
+                    "Art. 58 LCR establishes strict liability for the vehicle's keeper for damage caused by its use, regardless of any fault on their part. The keeper can only be released from liability by proving that the accident was caused by force majeure, gross fault of the injured party or a third party, without any fault on their part and without any defect in the vehicle.",
+                ]},
+                {"heading": "Reporting the claim", "paragraphs": [
+                    "After an accident, the facts should be recorded (exchange of contact details, a friendly accident report, or police involvement depending on severity), then the claim should be reported without delay to your own insurer, who forwards the file to the responsible vehicle's liability insurer once it has been identified.",
+                ]},
+                {"heading": "Accidents with an unidentified or uninsured vehicle", "paragraphs": [
+                    "When the responsible vehicle cannot be identified, or was not insured, the National Guarantee Fund (art. 76 ICA) covers compensation for the injured party within the limits set by law, to prevent the victim from being left without recourse.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Who pays for damage in a road accident?",
+                 "a": "In principle the liability insurer of the vehicle found responsible for the accident, based on the keeper's strict liability under art. 58 LCR."},
+                {"q": "What should I do if the person responsible for the accident flees?",
+                 "a": "You should notify the police and report the claim to your own insurer. If the responsible vehicle remains unidentified, the National Guarantee Fund can compensate the injured party within the legal limits."},
+                {"q": "Do I always have to call the police after an accident?",
+                 "a": "This is not systematically mandatory for a minor collision without injuries, but it is strongly recommended as soon as there is disagreement over responsibility, injuries, or significant damage."},
+                {"q": "Can the keeper escape liability?",
+                 "a": "Only by proving that the accident resulted from force majeure, gross fault of the injured party or a third party, without any fault on their part and without any defect in the vehicle (art. 59 LCR)."},
             ],
         },
     },
