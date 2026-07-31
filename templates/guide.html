@@ -11,6 +11,8 @@
     {% for para in s.paragraphs %}<p class="lede" style="font-size:1rem;">{{ para }}</p>{% endfor %}
     {% endfor %}
 
+    {% if calculator_html %}{{ calculator_html | safe }}{% endif %}
+
     {% if faq %}
     <h2 style="margin-top:var(--space-xl);">{{ ui.faq_title }}</h2>
     {% for item in faq %}

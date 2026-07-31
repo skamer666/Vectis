@@ -20,6 +20,7 @@ import presentation_text as pt
 import static_pages as sp_content
 import guides_content
 import blog_content
+import calc_widget
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
@@ -1571,6 +1572,7 @@ def gen_guides():
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
             ctx["faq"] = g["faq"]
+            ctx["calculator_html"] = calc_widget.CALCULATOR_HTML[lang] if gid == "assistance-judiciaire" else None
             ctx["related"] = (
                 [{"name": guides_content.GUIDES[o][lang]["title"], "url": guide_path(o, lang)}
                  for o in gids if o != gid]

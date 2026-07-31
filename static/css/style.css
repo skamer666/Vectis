@@ -212,6 +212,26 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
 .cta-btn.is-primary{ background:var(--accent-600); border-color:var(--accent-600); color:#fff; }
 .cta-btn.is-primary:hover{ background:var(--accent-700); border-color:var(--accent-700); color:#fff; }
 
+/* -- simulateur assistance juridique -- */
+.calc-box{
+  border:1px solid var(--border-strong); border-radius:var(--radius-md);
+  padding:var(--space-xl); margin:var(--space-xl) 0; background:var(--surface-card);
+}
+.calc-disclaimer{ font-size:0.86rem; color:var(--text-secondary); margin-bottom:var(--space-lg); }
+.calc-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:var(--space-lg); margin-bottom:var(--space-lg); }
+.calc-field{ display:flex; flex-direction:column; gap:6px; font-size:0.88rem; color:var(--text-primary); font-weight:500; }
+.calc-field select, .calc-field input{
+  font-family:var(--font-body); font-size:0.95rem; padding:9px 10px; border:1px solid var(--border-strong);
+  border-radius:6px; background:var(--surface-page); color:var(--text-primary);
+}
+.calc-field select:focus, .calc-field input:focus{ outline:none; border-color:var(--accent-500); }
+.calc-result{ margin-top:var(--space-lg); padding:var(--space-lg); border-radius:6px; font-size:0.92rem; }
+.calc-result.is-eligible{ background:oklch(96% 0.04 155); border:1px solid var(--success-600); color:var(--ink-950); }
+.calc-result.is-not-eligible{ background:var(--accent-50); border:1px solid var(--accent-500); color:var(--ink-950); }
+.calc-result p{ margin:4px 0; }
+.calc-footnote{ font-size:0.82rem; color:var(--text-secondary); margin-top:var(--space-sm) !important; }
+.calc-source{ font-size:0.78rem; color:var(--text-muted); margin-top:var(--space-lg); }
+
 /* -- grille cantons/domaines (grille reelle, pas des cartes a icones) -- */
 .index-grid{
   display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
