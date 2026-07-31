@@ -212,6 +212,93 @@ BLOG_ARTICLES = {
                  "a": "Oui, c'est en principe à lui de les fixer, mais il doit tenir compte de vos souhaits dans la mesure compatible avec le fonctionnement de l'entreprise (art. 329c al. 2 CO) et vous les annoncer suffisamment à l'avance."},
             ],
         },
+        "de": {
+            "slug": "ueberstunden-lohn-ferien-schweiz",
+            "title": "Überstunden, Lohn und Ferien in der Schweiz",
+            "meta": "Vergütung von Überstunden, Lohnzahlung, gesetzliche Mindestferien: was das Obligationenrecht vorsieht.",
+            "sections": [
+                {"heading": "Überstunden", "paragraphs": [
+                    "Art. 321c OR verpflichtet die Arbeitnehmerin oder den Arbeitnehmer, Überstunden zu leisten, soweit sie ihr oder ihm zugemutet werden können und sie nach Treu und Glauben zu leisten sind. Überstunden, die die vereinbarte oder übliche Arbeitszeit überschreiten, unterscheiden sich von der Überzeit im Sinne des Arbeitsgesetzes, welche die Überschreitung der gesetzlichen Höchstarbeitszeit betrifft und eigenen Regeln folgt.",
+                    "Ohne schriftliche Vereinbarung gleicht der Arbeitgeber Überstunden mit Freizeit von gleicher Dauer aus, mit Zustimmung der Arbeitnehmerin oder des Arbeitnehmers und innert angemessener Frist. Ohne Ausgleich sind sie mit einem Zuschlag von mindestens 25 Prozent zu entschädigen (Art. 321c Abs. 3 OR). Ein schriftlicher Vertrag, ein Normalarbeitsvertrag oder ein Gesamtarbeitsvertrag können eine andere Regelung vorsehen, einschliesslich des Ausschlusses jeglichen Zuschlags für bestimmte Personalkategorien.",
+                ]},
+                {"heading": "Die Lohnzahlung", "paragraphs": [
+                    "Der Lohn ist geschuldet, sobald die vereinbarte Arbeit geleistet wurde; mangels anderer Vereinbarung oder Übung wird er am Ende jedes Monats ausbezahlt (Art. 323 Abs. 1 OR). Der Arbeitgeber darf den Lohn nicht als Sicherheit zurückbehalten, sofern ein Gesamtarbeitsvertrag nichts anderes vorsieht, und jede Verrechnung mit einer Forderung gegenüber der Arbeitnehmerin oder dem Arbeitnehmer ist gesetzlich stark eingeschränkt, soweit dies das Existenzminimum beeinträchtigen würde.",
+                ]},
+                {"heading": "Die gesetzliche Mindestdauer der Ferien", "paragraphs": [
+                    "Art. 329a OR garantiert mindestens vier Wochen Ferien pro Dienstjahr, und fünf Wochen bis zum vollendeten 20. Altersjahr. Dieses Minimum ist zwingend: ein Vertrag darf auch mit Zustimmung der Arbeitnehmerin oder des Arbeitnehmers nicht weniger vorsehen.",
+                    "Ferien dürfen während der Dauer des Arbeitsverhältnisses nicht durch eine Geldleistung ersetzt werden (Art. 329d Abs. 2 OR). Eine Ausnahme besteht bei sehr unregelmässiger Arbeit auf Abruf oder Teilzeitarbeit, wo eine Ferienentschädigung in den Stundenlohn eingerechnet werden kann, sofern sie auf jeder Lohnabrechnung klar gesondert ausgewiesen wird.",
+                    "Der Arbeitgeber legt den Ferienzeitpunkt fest und berücksichtigt dabei die Wünsche der Arbeitnehmerin oder des Arbeitnehmers, soweit dies mit den Interessen des Betriebs vereinbar ist (Art. 329c Abs. 2 OR), und muss sie rechtzeitig genug ankündigen, damit sich die Arbeitnehmerin oder der Arbeitnehmer organisieren kann.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann mein Arbeitgeber mir Überstunden auferlegen?",
+                 "a": "In gewissem Umfang ja: Art. 321c OR verpflichtet die Arbeitnehmerin oder den Arbeitnehmer dazu, soweit dies nach Treu und Glauben zumutbar ist. Es handelt sich nicht um eine unbegrenzte Pflicht; die übliche Arbeitsbelastung, die Gesundheit und das Privatleben der Arbeitnehmerin oder des Arbeitnehmers sind zu berücksichtigen."},
+                {"q": "Kann ich mir nicht bezogene Ferien auszahlen lassen, statt sie zu beziehen?",
+                 "a": "Nein, nicht solange das Arbeitsverhältnis fortbesteht: Art. 329d Abs. 2 OR verbietet den Ersatz von Ferien durch eine Geldleistung. Erst am Ende des Arbeitsverhältnisses werden nicht bezogene Ferien in Geld entschädigt."},
+                {"q": "Wie werden Überstunden entschädigt?",
+                 "a": "Vorrangig durch Freizeit von gleicher Dauer, oder durch Auszahlung mit einem Zuschlag von mindestens 25 Prozent, wenn kein Ausgleich vereinbart ist, sofern kein schriftlicher Vertrag etwas anderes vorsieht (Art. 321c Abs. 3 OR)."},
+                {"q": "Kann mein Arbeitgeber den Zeitpunkt meiner Ferien bestimmen?",
+                 "a": "Ja, grundsätzlich obliegt es ihm, diesen festzulegen, doch muss er dabei Ihre Wünsche soweit mit dem Betriebsablauf vereinbar berücksichtigen (Art. 329c Abs. 2 OR) und Ihnen die Ferien rechtzeitig genug ankündigen."},
+            ],
+        },
+        "it": {
+            "slug": "straordinari-salario-vacanze-svizzera",
+            "title": "Straordinari, salario e vacanze in Svizzera",
+            "meta": "Retribuzione delle ore straordinarie, pagamento del salario, durata minima delle vacanze: quanto previsto dal Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "Le ore di lavoro straordinario", "paragraphs": [
+                    "L'art. 321c CO obbliga il lavoratore a prestare lavoro straordinario nella misura in cui può assumerlo e le regole della buona fede permettono di esigerlo da lui. Queste ore, che superano l'orario convenuto o usuale, si distinguono dal lavoro supplementare ai sensi della legge sul lavoro, che riguarda il superamento della durata massima legale della settimana lavorativa e segue regole proprie.",
+                    "Salvo accordo scritto contrario, il datore di lavoro compensa le ore straordinarie con un congedo di durata corrispondente, con il consenso del lavoratore ed entro un termine adeguato. In mancanza di compensazione, deve pagarle con un supplemento salariale di almeno il 25% (art. 321c cpv. 3 CO). Un contratto scritto, un contratto normale di lavoro o un contratto collettivo possono prevedere un'altra soluzione, incluso l'esclusione di qualsiasi supplemento per determinate categorie di personale.",
+                ]},
+                {"heading": "Il pagamento del salario", "paragraphs": [
+                    "Il salario è dovuto non appena il lavoro convenuto è stato fornito; salvo diverso accordo o uso, viene versato alla fine di ogni mese (art. 323 cpv. 1 CO). Il datore di lavoro non può trattenere il salario a titolo di garanzia, salvo disposizione contraria di un contratto collettivo, e qualsiasi compensazione con un credito verso il lavoratore è rigorosamente limitata dalla legge quando ciò pregiudicherebbe il minimo vitale.",
+                ]},
+                {"heading": "La durata minima delle vacanze", "paragraphs": [
+                    "L'art. 329a CO garantisce almeno quattro settimane di vacanza per anno di servizio, e cinque settimane fino al compimento del 20esimo anno di età. Questo minimo è imperativo: un contratto non può prevedere di meno, anche con il consenso del lavoratore.",
+                    "Le vacanze non possono essere sostituite da una prestazione in denaro finché dura il rapporto di lavoro (art. 329d cpv. 2 CO). Un'eccezione esiste per il lavoro su chiamata o a tempo parziale molto irregolare, dove un'indennità per vacanze può essere integrata nel salario orario, a condizione di essere chiaramente indicata separatamente su ogni conteggio salariale.",
+                    "Il datore di lavoro fissa la data delle vacanze tenendo conto dei desideri del lavoratore nella misura compatibile con gli interessi dell'azienda (art. 329c cpv. 2 CO), e deve annunciarle con sufficiente anticipo per permettere al lavoratore di organizzarsi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il mio datore di lavoro può impormi ore straordinarie?",
+                 "a": "In una certa misura sì: l'art. 321c CO obbliga il lavoratore a prestarle se ciò può ragionevolmente essere richiesto secondo le regole della buona fede. Non si tratta di un obbligo illimitato; il carico di lavoro abituale, la salute e la vita privata del lavoratore entrano in considerazione."},
+                {"q": "Posso farmi pagare le vacanze non godute invece di prenderle?",
+                 "a": "No, non finché il contratto di lavoro prosegue: l'art. 329d cpv. 2 CO vieta di sostituire le vacanze con una prestazione in denaro. Solo alla fine del rapporto di lavoro, se le vacanze non hanno potuto essere godute, vengono indennizzate in denaro."},
+                {"q": "Come vengono retribuite le ore straordinarie?",
+                 "a": "Prioritariamente con un congedo di durata corrispondente, oppure con un pagamento maggiorato di almeno il 25% se non è convenuta alcuna compensazione, salvo accordo scritto contrario (art. 321c cpv. 3 CO)."},
+                {"q": "Il mio datore di lavoro può impormi le date delle mie vacanze?",
+                 "a": "Sì, in linea di principio spetta a lui fissarle, ma deve tenere conto dei vostri desideri nella misura compatibile con il funzionamento dell'azienda (art. 329c cpv. 2 CO) e comunicarvele con sufficiente anticipo."},
+            ],
+        },
+        "en": {
+            "slug": "overtime-salary-vacation-switzerland",
+            "title": "Overtime, salary and vacation in Switzerland",
+            "meta": "Overtime compensation, salary payment rules, minimum vacation entitlement: what the Swiss Code of Obligations provides.",
+            "sections": [
+                {"heading": "Overtime work", "paragraphs": [
+                    "Art. 321c CO requires an employee to perform overtime work to the extent it can reasonably be expected of them and good faith requires it. Overtime, which exceeds the agreed or usual working hours, is distinct from excess hours under the Labour Act, which concerns exceeding the statutory maximum weekly working time and follows its own rules.",
+                    "Unless otherwise agreed in writing, the employer compensates overtime with time off of equal length, with the employee's consent and within a reasonable period. Failing compensation, it must be paid with a supplement of at least 25% (art. 321c para. 3 CO). A written contract, standard employment contract, or collective agreement may provide for a different arrangement, including excluding any supplement for certain categories of staff.",
+                ]},
+                {"heading": "Salary payment", "paragraphs": [
+                    "Salary is owed as soon as the agreed work has been performed; unless otherwise agreed or customary, it is paid at the end of each month (art. 323 para. 1 CO). The employer may not withhold salary as security, unless a collective agreement provides otherwise, and any offsetting against a claim owed by the employee is strictly limited by law where it would affect the subsistence minimum.",
+                ]},
+                {"heading": "Minimum vacation entitlement", "paragraphs": [
+                    "Art. 329a CO guarantees at least four weeks of vacation per year of service, and five weeks until the age of 20. This minimum is mandatory: a contract may not provide for less, even with the employee's consent.",
+                    "Vacation may not be replaced by a cash payment while the employment relationship continues (art. 329d para. 2 CO). An exception exists for on-call work or highly irregular part-time work, where a vacation allowance may be built into the hourly wage, provided it is clearly shown separately on each pay slip.",
+                    "The employer sets the vacation dates, taking the employee's wishes into account to the extent compatible with the interests of the business (art. 329c para. 2 CO), and must announce them with enough advance notice for the employee to make arrangements.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can my employer require me to work overtime?",
+                 "a": "To some extent, yes: art. 321c CO requires the employee to do so if it can reasonably be expected of them in good faith. It is not an unlimited obligation; the employee's usual workload, health and private life must be taken into account."},
+                {"q": "Can I get paid for unused vacation instead of taking it?",
+                 "a": "No, not while the employment relationship continues: art. 329d para. 2 CO prohibits replacing vacation with a cash payment. Only at the end of the employment relationship, if vacation could not be taken, is it compensated in cash."},
+                {"q": "How is overtime compensated?",
+                 "a": "Primarily by time off of equal length, or by payment with a supplement of at least 25% if no compensation is agreed, unless a written contract provides otherwise (art. 321c para. 3 CO)."},
+                {"q": "Can my employer set the dates of my vacation?",
+                 "a": "Yes, this is in principle up to them, but they must take your wishes into account to the extent compatible with the operation of the business (art. 329c para. 2 CO) and give you enough advance notice."},
+            ],
+        },
     },
     "autorite-parentale-garde-enfants": {
         "domaine_id": "droit_famille",
@@ -244,6 +331,96 @@ BLOG_ARTICLES = {
                  "a": "En l'absence d'accord, l'un des parents peut saisir l'autorité de protection de l'enfant, qui peut prendre les mesures nécessaires dans l'intérêt de l'enfant, y compris limiter l'autorité parentale conjointe si le désaccord persistant nuit à l'enfant."},
                 {"q": "L'enfant peut-il donner son avis sur la garde ?",
                  "a": "Oui, l'enfant capable de discernement est entendu personnellement, en principe par le juge ou par une personne qu'il délègue, et son avis est pris en compte en fonction de son âge et de sa maturité."},
+            ],
+        },
+        "de": {
+            "slug": "elterliche-sorge-obhut-kinder-trennung",
+            "title": "Elterliche Sorge und Obhut nach einer Trennung",
+            "meta": "Gemeinsame elterliche Sorge, alleinige oder alternierende Obhut, persönlicher Verkehr: die Regeln des Zivilgesetzbuchs nach einer Trennung.",
+            "sections": [
+                {"heading": "Die gemeinsame elterliche Sorge, seit 2014 die Regel", "paragraphs": [
+                    "Seit der 2014 in Kraft getretenen Revision des Rechts der elterlichen Sorge ist die gemeinsame elterliche Sorge der Grundsatz: Vater und Mutter üben die elterliche Sorge gemeinsam aus, unabhängig davon, ob sie verheiratet, getrennt oder nie verheiratet waren (Art. 296 Abs. 2 ZGB). Eine alleinige Zuteilung an einen Elternteil bleibt möglich, jedoch nur wenn dies zur Wahrung des Kindeswohls erforderlich ist.",
+                    "Die elterliche Sorge betrifft wichtige Entscheidungen über das Kind: Wohnort, Ausbildung, bedeutende medizinische Fragen, Religion. Sie ist nicht mit der Obhut zu verwechseln, welche die konkrete Organisation des Alltags betrifft.",
+                ]},
+                {"heading": "Alleinige oder alternierende Obhut", "paragraphs": [
+                    "Die Obhut kann einem Elternteil allein zugeteilt werden, mit einem Besuchsrecht für den anderen, oder als alternierende Obhut zwischen beiden Wohnsitzen organisiert werden. Das Gericht oder die Kindesschutzbehörde entscheidet nach dem Kindeswohl, unter Berücksichtigung von Stabilität, Verfügbarkeit jedes Elternteils, ihrer Fähigkeit zur Zusammenarbeit und, je nach Alter, der Meinung des Kindes selbst.",
+                ]},
+                {"heading": "Das Recht auf persönlichen Verkehr", "paragraphs": [
+                    "Der Elternteil ohne Obhut hat Anspruch auf angemessenen persönlichen Verkehr mit dem Kind (Art. 273 ZGB), ein Recht, das auch dem Kind selbst zusteht, nicht nur dem Elternteil. Dieses Recht kann eingeschränkt oder ausgesetzt werden, wenn die Ausübung des persönlichen Verkehrs die Entwicklung des Kindes gefährdet.",
+                ]},
+                {"heading": "Der Umzug mit dem Kind", "paragraphs": [
+                    "Bei gemeinsamer elterlicher Sorge muss der Elternteil, der mit dem Kind umziehen möchte, die Zustimmung des anderen Elternteils einholen oder eine Entscheidung des Gerichts oder der Kindesschutzbehörde erwirken, wenn der Umzug erhebliche Auswirkungen auf die Ausübung der elterlichen Sorge oder auf den persönlichen Verkehr hat (Art. 301a ZGB).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Bedeutet gemeinsame elterliche Sorge eine hälftig geteilte Obhut?",
+                 "a": "Nein. Die gemeinsame elterliche Sorge betrifft das Mitspracherecht bei wichtigen Fragen; sie führt nicht automatisch zu einer alternierenden Obhut. Die Obhut kann auch bei gemeinsamer elterlicher Sorge einem Elternteil allein zustehen."},
+                {"q": "Kann ich mit meinem Kind ohne Zustimmung des anderen Elternteils umziehen?",
+                 "a": "Wenn der Umzug erhebliche Auswirkungen auf die Ausübung der gemeinsamen elterlichen Sorge oder auf den persönlichen Verkehr hat, verlangt Art. 301a ZGB die Zustimmung des anderen sorgeberechtigten Elternteils, oder andernfalls eine Entscheidung des Gerichts oder der Kindesschutzbehörde."},
+                {"q": "Was geschieht, wenn sich die Eltern bei einer wichtigen Frage nicht einigen?",
+                 "a": "Bei fehlender Einigung kann ein Elternteil die Kindesschutzbehörde anrufen, welche die im Interesse des Kindes nötigen Massnahmen treffen kann, einschliesslich einer Einschränkung der gemeinsamen elterlichen Sorge, wenn die anhaltende Uneinigkeit dem Kind schadet."},
+                {"q": "Kann das Kind seine Meinung zur Obhut äussern?",
+                 "a": "Ja, das urteilsfähige Kind wird persönlich angehört, in der Regel durch das Gericht oder eine von ihm beauftragte Person, und seine Meinung wird je nach Alter und Reife berücksichtigt."},
+            ],
+        },
+        "it": {
+            "slug": "autorita-parentale-custodia-figli-separazione",
+            "title": "Autorità parentale e custodia dei figli dopo la separazione",
+            "meta": "Autorità parentale congiunta, custodia esclusiva o alternata, diritto alle relazioni personali: le regole del Codice civile dopo una separazione.",
+            "sections": [
+                {"heading": "L'autorità parentale congiunta, la regola dal 2014", "paragraphs": [
+                    "Dalla revisione del diritto dell'autorità parentale entrata in vigore nel 2014, l'autorità parentale congiunta è il principio: il padre e la madre esercitano in comune l'autorità parentale, siano essi sposati, separati o mai stati sposati (art. 296 cpv. 2 CC). Un'attribuzione esclusiva a un solo genitore resta possibile, ma solo se il bene del figlio lo esige.",
+                    "L'autorità parentale riguarda le decisioni importanti concernenti il figlio: luogo di residenza, formazione, questioni mediche significative, religione. Non va confusa con la custodia, che concerne l'organizzazione concreta della quotidianità.",
+                ]},
+                {"heading": "Custodia esclusiva o custodia alternata", "paragraphs": [
+                    "La custodia può essere affidata a un solo genitore, con un diritto di visita per l'altro, oppure organizzata in custodia alternata tra i due domicili. Il tribunale o l'autorità di protezione dei minori decide secondo il bene del figlio, tenendo conto della stabilità, della disponibilità di ciascun genitore, della loro capacità di collaborare e, a seconda dell'età, dell'opinione del figlio stesso.",
+                ]},
+                {"heading": "Il diritto alle relazioni personali", "paragraphs": [
+                    "Il genitore che non ha la custodia ha diritto a relazioni personali adeguate con il figlio (art. 273 CC), un diritto che spetta anche al figlio stesso, non solo al genitore. Questo diritto può essere limitato o sospeso dall'autorità se l'esercizio delle relazioni personali compromette lo sviluppo del figlio.",
+                ]},
+                {"heading": "Il trasferimento di domicilio con il figlio", "paragraphs": [
+                    "In caso di autorità parentale congiunta, il genitore che desidera trasferirsi con il figlio deve ottenere il consenso dell'altro genitore, oppure una decisione del giudice o dell'autorità di protezione dei minori, se il trasferimento ha un impatto significativo sull'esercizio dell'autorità parentale o sulle relazioni personali (art. 301a CC).",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'autorità parentale congiunta significa una custodia condivisa in parti uguali?",
+                 "a": "No. L'autorità parentale congiunta riguarda il diritto di codecisione per le questioni importanti; non implica automaticamente una custodia alternata. La custodia può restare esclusiva a un genitore anche quando l'autorità parentale è congiunta."},
+                {"q": "Posso trasferirmi con mio figlio senza il consenso dell'altro genitore?",
+                 "a": "Se il trasferimento ha un impatto significativo sull'esercizio dell'autorità parentale congiunta o sulle relazioni personali, l'art. 301a CC esige il consenso dell'altro genitore titolare dell'autorità parentale, o in mancanza una decisione del giudice o dell'autorità di protezione dei minori."},
+                {"q": "Cosa succede se i genitori non si accordano su una questione importante?",
+                 "a": "In assenza di accordo, uno dei genitori può adire l'autorità di protezione dei minori, che può adottare le misure necessarie nell'interesse del figlio, incluso limitare l'autorità parentale congiunta se il disaccordo persistente nuoce al figlio."},
+                {"q": "Il figlio può esprimere la propria opinione sulla custodia?",
+                 "a": "Sì, il figlio capace di discernimento viene sentito personalmente, di regola dal giudice o da una persona da lui incaricata, e la sua opinione è presa in considerazione in funzione della sua età e maturità."},
+            ],
+        },
+        "en": {
+            "slug": "parental-authority-custody-children-separation",
+            "title": "Parental authority and child custody after separation",
+            "meta": "Joint parental authority, sole or alternating custody, right to personal relations: the Civil Code rules that apply after a separation.",
+            "sections": [
+                {"heading": "Joint parental authority, the rule since 2014", "paragraphs": [
+                    "Since the revision of parental authority law that entered into force in 2014, joint parental authority is the principle: the father and mother exercise parental authority together, whether married, separated, or never married (art. 296 para. 2 CC). Sole allocation to one parent remains possible, but only where the child's best interests require it.",
+                    "Parental authority covers important decisions about the child: place of residence, education, significant medical questions, religion. It should not be confused with custody, which concerns the day-to-day organisation of the child's life.",
+                ]},
+                {"heading": "Sole or alternating custody", "paragraphs": [
+                    "Custody can be granted to one parent alone, with a right of visitation for the other, or organised as alternating custody between the two households. The court or the child protection authority decides based on the child's best interests, taking into account stability, each parent's availability, their ability to cooperate, and, depending on age, the child's own views.",
+                ]},
+                {"heading": "The right to personal relations", "paragraphs": [
+                    "The parent without custody has a right to appropriate personal relations with the child (art. 273 CC), a right that also belongs to the child, not only to the parent. This right may be restricted or suspended by the authority if exercising personal relations would jeopardise the child's development.",
+                ]},
+                {"heading": "Moving with the child", "paragraphs": [
+                    "Under joint parental authority, a parent who wishes to move with the child must obtain the other parent's consent, or a court or child protection authority decision, if the move significantly affects the exercise of parental authority or personal relations (art. 301a CC).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does joint parental authority mean equally shared custody?",
+                 "a": "No. Joint parental authority concerns the right to co-decide important matters; it does not automatically mean alternating custody. Custody can remain sole to one parent even where parental authority is joint."},
+                {"q": "Can I move with my child without the other parent's consent?",
+                 "a": "If the move significantly affects the exercise of joint parental authority or personal relations, art. 301a CC requires the other parent's consent, or otherwise a court or child protection authority decision."},
+                {"q": "What happens if the parents cannot agree on an important matter?",
+                 "a": "Failing agreement, either parent may approach the child protection authority, which can take the necessary measures in the child's interest, including limiting joint parental authority if persistent disagreement harms the child."},
+                {"q": "Can the child give their opinion on custody?",
+                 "a": "Yes, a child capable of judgment is heard personally, usually by the court or a person it appoints, and their opinion is taken into account according to their age and maturity."},
             ],
         },
     },
@@ -279,6 +456,93 @@ BLOG_ARTICLES = {
                  "a": "Introduite en 2017, elle couvre les frais de subsistance du parent qui s'occupe personnellement de l'enfant lorsque cette prise en charge l'empêche de travailler à plein temps (art. 285 al. 2 CC), en plus des frais directs de l'enfant."},
             ],
         },
+        "de": {
+            "slug": "unterhaltsbeitrag-berechnung-schweiz",
+            "title": "Unterhaltsbeitrag: wie er in der Schweiz berechnet wird",
+            "meta": "Kindesunterhalt, Betreuungsunterhalt, Berechnungsmethode des Bundesgerichts: die gesetzlichen Grundlagen des Unterhaltsbeitrags.",
+            "sections": [
+                {"heading": "Die Unterhaltspflicht der Eltern", "paragraphs": [
+                    "Art. 276 ZGB legt den Grundsatz fest: Vater und Mutter haben, ein jeder nach seinen Kräften, für den Unterhalt des Kindes aufzukommen, namentlich durch Geld, Pflege und Erziehung. Diese Pflicht besteht unabhängig vom Zivilstand der Eltern und dauert nach einer Trennung oder Scheidung fort.",
+                ]},
+                {"heading": "Was der Unterhaltsbeitrag abdeckt", "paragraphs": [
+                    "Der Kindesunterhaltsbeitrag (Art. 285 ZGB) deckt die direkten Kosten für Unterhalt und Erziehung des Kindes: Ernährung, Wohnen, Gesundheit, Ausbildung. Seit 2017 kann er auch einen Betreuungsunterhalt umfassen (Art. 285 Abs. 2 ZGB), der die Lebenshaltungskosten des Elternteils deckt, der das Kind persönlich betreut und deshalb nicht vollzeitlich erwerbstätig sein kann.",
+                ]},
+                {"heading": "Die Berechnungsmethode", "paragraphs": [
+                    "Das Bundesgericht hat 2020 die Berechnungsmethode für Unterhaltsbeiträge schweizweit vereinheitlicht: eine zweistufige Methode, die zunächst das betreibungsrechtliche Existenzminimum jeder Partei ermittelt und anschliessend den verfügbaren Überschuss nach präzisen Regeln unter den Familienmitgliedern verteilt. Diese Methode ersetzt die zuvor abweichenden kantonalen Ansätze und bezweckt eine grössere Vorhersehbarkeit.",
+                ]},
+                {"heading": "Anpassung und Nichtzahlung", "paragraphs": [
+                    "Ein durch Urteil oder Vereinbarung festgelegter Unterhaltsbeitrag kann angepasst werden, wenn sich die finanziellen oder persönlichen Verhältnisse einer Partei erheblich und dauerhaft ändern. Bei Nichtzahlung kann der berechtigte Elternteil Inkassohilfe bei der zuständigen kantonalen Stelle beantragen und eine Betreibung einleiten.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Bis zu welchem Alter ist der Unterhaltsbeitrag geschuldet?",
+                 "a": "Grundsätzlich bis zur Volljährigkeit des Kindes, und darüber hinaus, falls das Kind zu diesem Zeitpunkt noch keine angemessene Ausbildung abgeschlossen hat, im Rahmen dessen, was den Eltern zugemutet werden kann (Art. 277 ZGB)."},
+                {"q": "Kann der Unterhaltsbeitrag angepasst werden?",
+                 "a": "Ja, wenn sich die finanziellen oder persönlichen Verhältnisse eines Elternteils oder des Kindes erheblich und dauerhaft ändern, kann jeder Elternteil beim Gericht eine Anpassung des festgelegten Betrags beantragen."},
+                {"q": "Was tun, wenn der andere Elternteil den Unterhaltsbeitrag nicht zahlt?",
+                 "a": "Sie können Inkassohilfe bei der zuständigen kantonalen Stelle beantragen, die beim Schuldner vorstellig werden kann, und bei Scheitern der gütlichen Bemühungen eine Betreibung einleiten."},
+                {"q": "Was ist der Betreuungsunterhalt?",
+                 "a": "Der 2017 eingeführte Betreuungsunterhalt deckt die Lebenshaltungskosten des Elternteils, der das Kind persönlich betreut, wenn diese Betreuung ihn an einer Vollzeiterwerbstätigkeit hindert (Art. 285 Abs. 2 ZGB), zusätzlich zu den direkten Kosten des Kindes."},
+            ],
+        },
+        "it": {
+            "slug": "contributo-mantenimento-calcolo-svizzera",
+            "title": "Contributo di mantenimento: come si calcola in Svizzera",
+            "meta": "Mantenimento del figlio, contributo di presa a carico, metodo di calcolo del Tribunale federale: le basi legali del contributo di mantenimento.",
+            "sections": [
+                {"heading": "L'obbligo di mantenimento dei genitori", "paragraphs": [
+                    "L'art. 276 CC pone il principio: il padre e la madre devono provvedere al mantenimento del figlio, segnatamente con prestazioni pecuniarie, cure e educazione, proporzionalmente alle loro risorse. Questo obbligo esiste indipendentemente dallo stato civile dei genitori e prosegue dopo una separazione o un divorzio.",
+                ]},
+                {"heading": "Cosa copre il contributo di mantenimento", "paragraphs": [
+                    "Il contributo di mantenimento del figlio (art. 285 CC) copre le spese dirette legate al suo mantenimento e alla sua educazione: alimentazione, alloggio, salute, formazione. Dal 2017 può includere anche un contributo di presa a carico (art. 285 cpv. 2 CC), destinato a coprire le spese di sostentamento del genitore che si occupa personalmente del figlio quando ciò gli impedisce di esercitare un'attività lucrativa a tempo pieno.",
+                ]},
+                {"heading": "Il metodo di calcolo", "paragraphs": [
+                    "Nel 2020 il Tribunale federale ha uniformato a livello nazionale il metodo di calcolo dei contributi di mantenimento: un metodo in due tappe che determina dapprima il minimo vitale del diritto esecutivo di ciascuna parte, poi ripartisce l'eccedenza disponibile tra i membri della famiglia secondo regole precise. Questo metodo sostituisce gli approcci cantonali in precedenza divergenti e mira a una maggiore prevedibilità.",
+                ]},
+                {"heading": "Revisione e mancato pagamento", "paragraphs": [
+                    "Un contributo di mantenimento fissato per sentenza o convenzione può essere rivisto se la situazione finanziaria o personale di una delle parti cambia in modo importante e duraturo. In caso di mancato pagamento, il genitore creditore può chiedere l'aiuto all'incasso presso il servizio cantonale competente e avviare un'esecuzione.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Fino a che età è dovuto il contributo di mantenimento?",
+                 "a": "In linea di principio fino alla maggiore età del figlio, e oltre se il figlio non ha ancora concluso una formazione appropriata a quel momento, nei limiti di quanto può ragionevolmente essere richiesto ai genitori (art. 277 CC)."},
+                {"q": "Il contributo di mantenimento può essere rivisto?",
+                 "a": "Sì, se la situazione finanziaria o personale di un genitore o del figlio cambia in modo importante e duraturo, l'uno o l'altro genitore può chiedere al tribunale di adeguare l'importo fissato."},
+                {"q": "Cosa fare se l'altro genitore non paga il contributo?",
+                 "a": "Potete chiedere l'aiuto all'incasso presso il servizio cantonale competente, che può intervenire presso il debitore, e avviare un'esecuzione in caso di fallimento delle pratiche amichevoli."},
+                {"q": "Cos'è il contributo di presa a carico?",
+                 "a": "Introdotto nel 2017, copre le spese di sostentamento del genitore che si occupa personalmente del figlio quando questa presa a carico gli impedisce di lavorare a tempo pieno (art. 285 cpv. 2 CC), in aggiunta alle spese dirette del figlio."},
+            ],
+        },
+        "en": {
+            "slug": "child-maintenance-calculation-switzerland",
+            "title": "Child maintenance: how it is calculated in Switzerland",
+            "meta": "Child maintenance, care contribution, the Federal Supreme Court's calculation method: the legal basis for maintenance payments.",
+            "sections": [
+                {"heading": "The parents' duty of maintenance", "paragraphs": [
+                    "Art. 276 CC sets out the principle: the father and mother must provide for the maintenance of the child, in particular through money, care and upbringing, in proportion to their means. This duty exists regardless of the parents' marital status and continues after a separation or divorce.",
+                ]},
+                {"heading": "What the maintenance contribution covers", "paragraphs": [
+                    "The child maintenance contribution (art. 285 CC) covers the direct costs of the child's upkeep and education: food, housing, health, education. Since 2017 it may also include a care contribution (art. 285 para. 2 CC), intended to cover the subsistence costs of the parent who personally cares for the child when this prevents them from working full time.",
+                ]},
+                {"heading": "The calculation method", "paragraphs": [
+                    "In 2020 the Federal Supreme Court standardised the method for calculating maintenance contributions nationwide: a two-step method that first determines each party's subsistence minimum under debt enforcement law, then distributes the available surplus among family members according to precise rules. This method replaces the previously divergent cantonal approaches and aims for greater predictability.",
+                ]},
+                {"heading": "Revision and non-payment", "paragraphs": [
+                    "A maintenance contribution set by judgment or agreement can be revised if a party's financial or personal circumstances change significantly and lastingly. In the event of non-payment, the entitled parent can request collection assistance from the competent cantonal service and initiate debt collection proceedings.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Until what age is child maintenance owed?",
+                 "a": "In principle until the child reaches the age of majority, and beyond if the child has not yet completed an appropriate education at that point, within the limits of what can reasonably be required of the parents (art. 277 CC)."},
+                {"q": "Can the maintenance contribution be revised?",
+                 "a": "Yes, if a parent's or the child's financial or personal circumstances change significantly and lastingly, either parent can ask the court to adjust the amount set."},
+                {"q": "What can I do if the other parent does not pay maintenance?",
+                 "a": "You can request collection assistance from the competent cantonal service, which can approach the debtor, and initiate debt collection proceedings if amicable efforts fail."},
+                {"q": "What is the care contribution?",
+                 "a": "Introduced in 2017, it covers the subsistence costs of the parent who personally cares for the child when this prevents them from working full time (art. 285 para. 2 CC), in addition to the child's direct costs."},
+            ],
+        },
     },
     "divorce-procedure-delais": {
         "domaine_id": "droit_divorce",
@@ -310,6 +574,93 @@ BLOG_ARTICLES = {
                  "a": "Cela dépend fortement du degré d'accord entre les époux et de la charge du tribunal saisi : un divorce sur requête commune avec accord complet peut aboutir en quelques mois, tandis qu'une procédure contentieuse peut durer plusieurs années."},
                 {"q": "Qu'est-ce que le divorce par consentement mutuel ?",
                  "a": "C'est le nom courant du divorce sur requête commune avec accord complet sur les effets du divorce (art. 111 CC) : les époux soumettent au tribunal une convention réglant tous les points, que le tribunal ratifie s'il la juge conforme au bien des parties et des enfants."},
+            ],
+        },
+        "de": {
+            "slug": "scheidung-schweiz-verfahren-fristen",
+            "title": "Scheidung in der Schweiz: Verfahren und Fristen",
+            "meta": "Scheidung auf gemeinsames Begehren, Scheidung nach zweijähriger Trennung, Zerrüttung: die im Zivilgesetzbuch vorgesehenen Wege.",
+            "sections": [
+                {"heading": "Die Scheidung auf gemeinsames Begehren", "paragraphs": [
+                    "Sind sich beide Ehegatten über die Scheidung einig, können sie ein gemeinsames Begehren einreichen (Art. 111-112 ZGB). Besteht Einigkeit auch über die Scheidungsfolgen (Unterhalt, Vermögen, Vorsorge, Kinder), wird das Verfahren vereinfacht. Fehlt eine vollständige Einigung, kann jeder Ehegatte zu den strittigen Punkten Anträge stellen, worüber das Gericht zusammen mit der Scheidung entscheidet.",
+                ]},
+                {"heading": "Die Scheidung nach Aufhebung des gemeinsamen Haushalts", "paragraphs": [
+                    "Wünscht nur ein Ehegatte die Scheidung, erlaubt ihm Art. 114 ZGB, die Scheidung nach einer zweijährigen Trennung zu verlangen. Diese Frist beginnt mit der Aufhebung der Haushaltsgemeinschaft, sei es durch einen physischen Auszug oder durch eine von der Rechtsprechung anerkannte Trennung innerhalb derselben Wohnung unter bestimmten Umständen.",
+                ]},
+                {"heading": "Die Scheidung wegen Unzumutbarkeit", "paragraphs": [
+                    "Ausnahmsweise erlaubt Art. 115 ZGB, die Scheidung vor Ablauf der zweijährigen Frist zu verlangen, wenn die Fortsetzung der Ehe aus schwerwiegenden Gründen, die nicht dem Kläger zuzurechnen sind, unzumutbar ist, etwa bei schweren ehelichen Gewalttaten.",
+                ]},
+                {"heading": "Der Ablauf des Verfahrens", "paragraphs": [
+                    "Das Verfahren findet vor dem Zivilgericht am Wohnsitz eines der Ehegatten statt. Es regelt zusammen mit dem Scheidungsurteil die Nebenfolgen: Unterhalt zwischen den Ehegatten, güterrechtliche Auseinandersetzung, Teilung der beruflichen Vorsorge, sowie das Schicksal der Kinder (elterliche Sorge, Obhut, Unterhaltsbeitrag).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann man ohne Zustimmung des Ehepartners geschieden werden?",
+                 "a": "Ja, nach einer zweijährigen Trennung (Art. 114 ZGB) kann ein Ehegatte die Scheidung auch ohne Zustimmung des anderen verlangen. Vor Ablauf dieser Frist ist dies nur ausnahmsweise wegen Unzumutbarkeit möglich (Art. 115 ZGB)."},
+                {"q": "Muss man zwingend einen Anwalt für die Scheidung beiziehen?",
+                 "a": "Nein, die Vertretung durch einen Anwalt ist im Zivilrecht in der Schweiz nicht obligatorisch. Sie wird jedoch dringend empfohlen, sobald komplexe vermögensrechtliche oder elterliche Fragen auf dem Spiel stehen."},
+                {"q": "Wie lange dauert ein Scheidungsverfahren in der Schweiz?",
+                 "a": "Dies hängt stark vom Grad der Einigkeit zwischen den Ehegatten und von der Belastung des angerufenen Gerichts ab: eine Scheidung auf gemeinsames Begehren mit vollständiger Einigung kann in wenigen Monaten abgeschlossen sein, während ein strittiges Verfahren mehrere Jahre dauern kann."},
+                {"q": "Was ist die Scheidung im gegenseitigen Einvernehmen?",
+                 "a": "So wird die Scheidung auf gemeinsames Begehren mit vollständiger Einigung über die Scheidungsfolgen bezeichnet (Art. 111 ZGB): die Ehegatten legen dem Gericht eine Vereinbarung vor, welche sämtliche Punkte regelt und die das Gericht genehmigt, sofern sie dem Wohl der Parteien und der Kinder entspricht."},
+            ],
+        },
+        "it": {
+            "slug": "divorzio-svizzera-procedura-termini",
+            "title": "Divorzio in Svizzera: procedura e termini",
+            "meta": "Divorzio su richiesta comune, divorzio dopo due anni di separazione, rottura del vincolo coniugale: le vie previste dal Codice civile.",
+            "sections": [
+                {"heading": "Il divorzio su richiesta comune", "paragraphs": [
+                    "Quando entrambi i coniugi sono d'accordo di divorziare, possono presentare una richiesta comune (art. 111-112 CC). Se l'accordo riguarda anche gli effetti del divorzio (mantenimento, beni, previdenza, figli), la procedura è semplificata. In mancanza di un accordo completo, ciascun coniuge può far valere le proprie conclusioni sui punti controversi, e il tribunale decide su tali punti pronunciando al contempo il divorzio.",
+                ]},
+                {"heading": "Il divorzio dopo la sospensione della vita comune", "paragraphs": [
+                    "Se solo uno dei coniugi desidera divorziare, l'art. 114 CC gli permette di chiedere il divorzio dopo una separazione di due anni. Questo termine decorre dalla cessazione della vita comune, che risulti da un allontanamento fisico o da una separazione all'interno della stessa abitazione riconosciuta dalla giurisprudenza in determinate circostanze.",
+                ]},
+                {"heading": "Il divorzio per rottura del vincolo coniugale", "paragraphs": [
+                    "A titolo eccezionale, l'art. 115 CC permette di chiedere il divorzio prima dello scadere del termine di due anni, se la continuazione del matrimonio è intollerabile per motivi gravi non imputabili al richiedente, per esempio violenze coniugali gravi.",
+                ]},
+                {"heading": "Lo svolgimento della procedura", "paragraphs": [
+                    "La procedura si svolge davanti al tribunale civile del domicilio di uno dei coniugi. Essa regola, insieme alla pronuncia del divorzio, gli effetti accessori: mantenimento tra coniugi, liquidazione del regime dei beni, divisione della previdenza professionale e la sorte dei figli (autorità parentale, custodia, contributo di mantenimento).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Si può divorziare senza il consenso del coniuge?",
+                 "a": "Sì, dopo una separazione di due anni (art. 114 CC), un coniuge può chiedere il divorzio anche senza il consenso dell'altro. Prima di questo termine, ciò è possibile solo eccezionalmente per rottura del vincolo coniugale (art. 115 CC)."},
+                {"q": "Bisogna obbligatoriamente rivolgersi a un avvocato per divorziare?",
+                 "a": "No, la rappresentanza da parte di un avvocato non è obbligatoria in materia civile in Svizzera. È tuttavia vivamente raccomandata non appena sono in gioco questioni patrimoniali o genitoriali complesse."},
+                {"q": "Quanto dura una procedura di divorzio in Svizzera?",
+                 "a": "Ciò dipende fortemente dal grado di accordo tra i coniugi e dal carico di lavoro del tribunale adito: un divorzio su richiesta comune con accordo completo può concludersi in pochi mesi, mentre una procedura contenziosa può durare diversi anni."},
+                {"q": "Cos'è il divorzio consensuale?",
+                 "a": "È il nome comune del divorzio su richiesta comune con accordo completo sugli effetti del divorzio (art. 111 CC): i coniugi sottopongono al tribunale una convenzione che regola tutti i punti, che il tribunale omologa se la ritiene conforme al bene delle parti e dei figli."},
+            ],
+        },
+        "en": {
+            "slug": "divorce-switzerland-procedure-deadlines",
+            "title": "Divorce in Switzerland: procedure and deadlines",
+            "meta": "Divorce by joint request, divorce after two years of separation, irretrievable breakdown: the paths provided by the Civil Code.",
+            "sections": [
+                {"heading": "Divorce by joint request", "paragraphs": [
+                    "When both spouses agree to divorce, they can file a joint request (art. 111-112 CC). If they also agree on the effects of the divorce (maintenance, property, pension, children), the procedure is simplified. Absent full agreement, each spouse can put forward their own conclusions on the disputed points, and the court rules on those points while pronouncing the divorce.",
+                ]},
+                {"heading": "Divorce after suspension of the joint household", "paragraphs": [
+                    "If only one spouse wishes to divorce, art. 114 CC allows them to request divorce after a two-year separation. This period runs from the cessation of the joint household, whether through physical departure or, under certain circumstances recognised by case law, separation within the same home.",
+                ]},
+                {"heading": "Divorce due to irretrievable breakdown", "paragraphs": [
+                    "Exceptionally, art. 115 CC allows a request for divorce before the two-year period has elapsed, if continuing the marriage would be unbearable for serious reasons not attributable to the applicant, for example serious domestic violence.",
+                ]},
+                {"heading": "How the procedure unfolds", "paragraphs": [
+                    "The procedure takes place before the civil court of either spouse's domicile. Alongside the divorce judgment, it settles the ancillary effects: maintenance between spouses, division of marital property, division of occupational pension assets, and arrangements for the children (parental authority, custody, maintenance contribution).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can you divorce without your spouse's consent?",
+                 "a": "Yes, after a two-year separation (art. 114 CC), a spouse can request divorce even without the other's consent. Before that period elapses, this is only possible exceptionally due to irretrievable breakdown (art. 115 CC)."},
+                {"q": "Is a lawyer mandatory to get divorced?",
+                 "a": "No, representation by a lawyer is not mandatory in civil matters in Switzerland. It is, however, strongly recommended as soon as complex financial or parental questions are at stake."},
+                {"q": "How long does a divorce procedure take in Switzerland?",
+                 "a": "This depends heavily on how much the spouses agree and on the workload of the court seized: a joint-request divorce with full agreement can conclude within a few months, while a contested procedure can take several years."},
+                {"q": "What is divorce by mutual consent?",
+                 "a": "This is the common name for divorce by joint request with full agreement on the effects of the divorce (art. 111 CC): the spouses submit an agreement to the court covering all points, which the court approves if it finds it consistent with the interests of the parties and any children."},
             ],
         },
     },
@@ -345,6 +696,93 @@ BLOG_ARTICLES = {
                  "a": "Le 3e pilier lié (3a) et le 3e pilier libre (3b) ne relèvent pas du partage de la prévoyance professionnelle de l'art. 122 CC ; ils sont en principe traités dans le cadre de la liquidation du régime matrimonial, selon le régime matrimonial applicable."},
             ],
         },
+        "de": {
+            "slug": "teilung-zweite-saeule-scheidung",
+            "title": "Teilung der beruflichen Vorsorge bei Scheidung",
+            "meta": "Hälftige Teilung der beruflichen Vorsorge, Sonderfälle, mögliche Abweichungen: was das Zivilgesetzbuch bei einer Scheidung vorsieht.",
+            "sections": [
+                {"heading": "Der Grundsatz der hälftigen Teilung", "paragraphs": [
+                    "Die während der Ehe bis zur Einleitung des Scheidungsverfahrens von beiden Ehegatten angesparten Guthaben der beruflichen Vorsorge (2. Säule) werden grundsätzlich hälftig zwischen ihnen geteilt (Art. 122 ZGB). Diese Teilung soll den Vorsorgenachteil ausgleichen, den häufig der Ehegatte erleidet, der seine Erwerbstätigkeit zugunsten des Haushalts oder der Kinder reduziert oder aufgegeben hat.",
+                ]},
+                {"heading": "Wenn ein Ehegatte bereits eine Rente bezieht", "paragraphs": [
+                    "Bezieht ein Ehegatte im Zeitpunkt der Scheidung bereits eine Altersrente oder eine Invalidenrente, ist eine klassische Teilung des Vorsorgeguthabens nicht mehr möglich: das Gesetz sieht dann eine Teilung der Rente selbst vor, in Form einer lebenslänglichen Rente zugunsten des berechtigten Ehegatten (Art. 124a ZGB).",
+                ]},
+                {"heading": "Abweichungen von der hälftigen Teilung", "paragraphs": [
+                    "Das Gericht kann aus wichtigen Gründen von der hälftigen Teilung abweichen, namentlich wenn diese Teilung angesichts der jeweiligen Vorsorgebedürfnisse der Ehegatten offensichtlich unbillig wäre, etwa bei einem grossen Altersunterschied oder infolge der güterrechtlichen Auseinandersetzung (Art. 124b ZGB).",
+                ]},
+                {"heading": "Der Vollzug der Teilung", "paragraphs": [
+                    "Das Gericht übermittelt das Dossier den betroffenen Vorsorgeeinrichtungen, welche die Überweisung der Beträge vornehmen. Ist ein Ehegatte keiner Vorsorgeeinrichtung angeschlossen oder ist die direkte Überweisung nicht möglich, tritt die Stiftung Auffangeinrichtung BVG ein, um die überwiesenen Beträge entgegenzunehmen und zu verwalten.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Ist die Teilung der 2. Säule bei Scheidung automatisch?",
+                 "a": "Ja, sofern keine gegenteilige, vom Gericht genehmigte Vereinbarung der Ehegatten oder ein Sonderfall (Ruhestand, Invalidität) vorliegt: die hälftige Teilung des während der Ehe angesparten Guthabens ist der gesetzliche Grundsatz (Art. 122 ZGB)."},
+                {"q": "Was geschieht, wenn ein Ehegatte bereits im Ruhestand ist?",
+                 "a": "Eine klassische Teilung des Guthabens ist nicht mehr möglich; das Gesetz sieht dann eine Teilung der Alters- oder Invalidenrente selbst vor, die dem berechtigten Ehegatten in Form einer lebenslänglichen Rente ausbezahlt wird (Art. 124a ZGB)."},
+                {"q": "Kann man auf die Teilung der 2. Säule verzichten?",
+                 "a": "Die Ehegatten können in einer Scheidungsfolgenvereinbarung eine abweichende Teilung vereinbaren oder teilweise darauf verzichten, sofern für beide eine angemessene Alters- und Invalidenvorsorge gewährleistet bleibt, was das Gericht vor Genehmigung der Vereinbarung prüft."},
+                {"q": "Wird auch die 3. Säule bei einer Scheidung geteilt?",
+                 "a": "Die gebundene 3. Säule (3a) und die freie 3. Säule (3b) fallen nicht unter die Teilung der beruflichen Vorsorge nach Art. 122 ZGB; sie werden grundsätzlich im Rahmen der güterrechtlichen Auseinandersetzung behandelt, je nach anwendbarem Güterstand."},
+            ],
+        },
+        "it": {
+            "slug": "divisione-secondo-pilastro-divorzio",
+            "title": "Divisione del secondo pilastro in caso di divorzio",
+            "meta": "Divisione paritetica della previdenza professionale, casi particolari, deroghe possibili: quanto previsto dal Codice civile in caso di divorzio.",
+            "sections": [
+                {"heading": "Il principio della divisione paritetica", "paragraphs": [
+                    "Gli averi di previdenza professionale (2° pilastro) accumulati da entrambi i coniugi durante il matrimonio fino all'avvio della procedura di divorzio sono in linea di principio divisi a metà tra loro (art. 122 CC). Questa divisione mira a compensare lo svantaggio previdenziale che spesso subisce il coniuge che ha ridotto o cessato la propria attività lucrativa per dedicarsi alla famiglia o ai figli.",
+                ]},
+                {"heading": "Quando uno dei coniugi è già in pensione o invalido", "paragraphs": [
+                    "Se uno dei coniugi percepisce già una rendita di vecchiaia o una rendita d'invalidità al momento del divorzio, una divisione classica dell'avere di previdenza non è più possibile: la legge prevede allora una divisione della rendita stessa, sotto forma di una rendita vitalizia versata al coniuge creditore (art. 124a CC).",
+                ]},
+                {"heading": "Le deroghe alla divisione paritetica", "paragraphs": [
+                    "Il tribunale può derogare alla divisione paritetica per motivi validi, in particolare se questa divisione è manifestamente iniqua rispetto ai bisogni previdenziali rispettivi dei coniugi, per esempio a causa di una grande differenza d'età o della liquidazione del regime dei beni (art. 124b CC).",
+                ]},
+                {"heading": "L'esecuzione della divisione", "paragraphs": [
+                    "Il tribunale trasmette l'incarto agli istituti di previdenza interessati, che procedono al trasferimento degli importi. Se uno dei coniugi non è affiliato ad alcun istituto di previdenza o se il trasferimento diretto non è possibile, interviene la Fondazione istituto collettore LPP per ricevere e gestire gli importi trasferiti.",
+                ]},
+            ],
+            "faq": [
+                {"q": "La divisione del 2° pilastro è automatica in caso di divorzio?",
+                 "a": "Sì, salvo accordo contrario dei coniugi validato dal tribunale o situazione particolare (pensionamento, invalidità): la divisione paritetica dell'avere accumulato durante il matrimonio è il principio legale (art. 122 CC)."},
+                {"q": "Cosa succede se uno dei coniugi è già in pensione?",
+                 "a": "Una divisione classica dell'avere non è più possibile; la legge prevede allora una divisione della rendita di vecchiaia o d'invalidità stessa, versata al coniuge creditore sotto forma di rendita vitalizia (art. 124a CC)."},
+                {"q": "Si può rinunciare alla divisione del 2° pilastro?",
+                 "a": "I coniugi possono convenire una divisione diversa o rinunciarvi parzialmente in una convenzione sugli effetti del divorzio, a condizione che rimanga garantita per entrambi una previdenza per la vecchiaia e l'invalidità adeguata, cosa che il tribunale verifica prima di omologare la convenzione."},
+                {"q": "Anche il 3° pilastro viene diviso in caso di divorzio?",
+                 "a": "Il 3° pilastro vincolato (3a) e il 3° pilastro libero (3b) non rientrano nella divisione della previdenza professionale dell'art. 122 CC; sono in linea di principio trattati nell'ambito della liquidazione del regime dei beni, secondo il regime applicabile."},
+            ],
+        },
+        "en": {
+            "slug": "division-second-pillar-divorce",
+            "title": "Division of occupational pension assets in divorce",
+            "meta": "Equal division of occupational pension assets, special cases, possible deviations: what the Civil Code provides in the event of divorce.",
+            "sections": [
+                {"heading": "The principle of equal division", "paragraphs": [
+                    "Occupational pension assets (2nd pillar) accumulated by both spouses during the marriage up to the start of divorce proceedings are in principle divided equally between them (art. 122 CC). This division aims to offset the pension disadvantage often suffered by the spouse who reduced or gave up gainful employment to devote themselves to the household or children.",
+                ]},
+                {"heading": "When a spouse is already retired or disabled", "paragraphs": [
+                    "If a spouse already receives an old-age or disability pension at the time of divorce, a conventional division of the pension assets is no longer possible: the law then provides for a division of the pension itself, in the form of a lifelong pension paid to the entitled spouse (art. 124a CC).",
+                ]},
+                {"heading": "Deviations from equal division", "paragraphs": [
+                    "The court may deviate from equal division for good cause, in particular where such division would be manifestly inequitable given the spouses' respective pension needs, for example due to a large age gap or as a result of the division of marital property (art. 124b CC).",
+                ]},
+                {"heading": "Carrying out the division", "paragraphs": [
+                    "The court forwards the file to the pension funds concerned, which carry out the transfer of the amounts. If a spouse is not affiliated with any pension fund, or if direct transfer is not possible, the Substitute Occupational Benefit Institution steps in to receive and manage the transferred amounts.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Is the division of the 2nd pillar automatic in a divorce?",
+                 "a": "Yes, unless the spouses agree otherwise and the court approves it, or a special situation applies (retirement, disability): equal division of the assets accumulated during the marriage is the statutory principle (art. 122 CC)."},
+                {"q": "What happens if a spouse is already retired?",
+                 "a": "A conventional division of the assets is no longer possible; the law then provides for a division of the old-age or disability pension itself, paid to the entitled spouse as a lifelong pension (art. 124a CC)."},
+                {"q": "Can spouses waive the division of the 2nd pillar?",
+                 "a": "Spouses can agree on a different division or partially waive it in an agreement on the effects of divorce, provided adequate old-age and disability provision remains guaranteed for both, which the court checks before approving the agreement."},
+                {"q": "Is the 3rd pillar also divided in a divorce?",
+                 "a": "Tied 3rd pillar assets (3a) and unrestricted 3rd pillar assets (3b) do not fall under the division of occupational pension assets in art. 122 CC; they are in principle dealt with as part of the division of marital property, depending on the matrimonial property regime that applies."},
+            ],
+        },
     },
     "casier-judiciaire-suisse": {
         "domaine_id": "droit_penal",
@@ -373,6 +811,84 @@ BLOG_ARTICLES = {
                  "a": "Non, cet extrait est plus restreint que celui destiné aux autorités : certaines inscriptions, notamment les sanctions les plus légères ou anciennes, n'y figurent pas ou plus, selon les règles fixées par la loi sur le casier judiciaire."},
                 {"q": "Combien de temps une condamnation reste-t-elle inscrite ?",
                  "a": "La durée dépend de la gravité de la peine prononcée : plus la sanction est lourde, plus le délai avant radiation est long. Pour connaître le délai applicable à une situation précise, il faut se référer à la loi fédérale sur le casier judiciaire ou consulter un avocat."},
+            ],
+        },
+        "de": {
+            "slug": "strafregister-schweiz-eintrag-loeschung",
+            "title": "Strafregister Schweiz: Eintrag und Löschung",
+            "meta": "Was im Strafregister erscheint, Unterschied zwischen Privatauszug und Behördenauszug, wie Einträge gelöscht werden.",
+            "sections": [
+                {"heading": "Was im Strafregister erscheint", "paragraphs": [
+                    "Das schweizerische Strafregister, geführt auf Bundesebene im Informationssystem VOSTRA, erfasst die gegen eine Person ausgesprochenen Strafurteile: Freiheitsstrafen, Geldstrafen, gemeinnützige Arbeit, sowie bestimmte Entscheide zuständiger Verwaltungsbehörden im Strafbereich.",
+                ]},
+                {"heading": "Zwei Arten von Auszügen", "paragraphs": [
+                    "Der Privatauszug, den jede Person für sich selbst verlangen kann, ist eingeschränkter als der vollständige Auszug, der den Strafverfolgungsbehörden und bestimmten gesetzlich ermächtigten Verwaltungsbehörden vorbehalten ist. Ein Arbeitgeber kann daher nicht direkt Einsicht ins Strafregister verlangen: er kann lediglich vom Bewerber oder der Angestellten verlangen, selbst den Privatauszug vorzulegen.",
+                ]},
+                {"heading": "Die Löschung von Einträgen", "paragraphs": [
+                    "Einträge bleiben nicht unbegrenzt im Strafregister: das Gesetz sieht Löschungsfristen vor, die von der Schwere der ausgesprochenen Strafe abhängen, wobei leichtere Sanktionen schneller gelöscht werden als längere Freiheitsstrafen. Ein gelöschter Eintrag erscheint nicht mehr, auch nicht im Behördenauszug, ausser in den gesetzlich vorgesehenen Ausnahmen.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wie erhalte ich einen Auszug aus meinem Strafregister?",
+                 "a": "Der Antrag erfolgt online beim Bundesamt für Justiz, gegen Vorlage eines Ausweises und Zahlung einer Gebühr. Der Auszug wird per Post an die registrierte Wohnadresse geschickt."},
+                {"q": "Kann ein Arbeitgeber mein Strafregister ohne meine Zustimmung einsehen?",
+                 "a": "Nein. Nur gesetzlich ermächtigte Behörden haben direkten Zugriff auf VOSTRA. Ein Arbeitgeber kann lediglich vom Bewerber verlangen, ihm selbst seinen Privatauszug vorzulegen."},
+                {"q": "Erscheinen alle strafrechtlichen Verurteilungen im Privatauszug?",
+                 "a": "Nein, dieser Auszug ist eingeschränkter als jener für Behörden: bestimmte Einträge, insbesondere leichtere oder ältere Sanktionen, erscheinen dort nicht oder nicht mehr, gemäss den Regeln des Strafregistergesetzes."},
+                {"q": "Wie lange bleibt eine Verurteilung eingetragen?",
+                 "a": "Die Dauer hängt von der Schwere der ausgesprochenen Strafe ab: je härter die Sanktion, desto länger die Frist bis zur Löschung. Für die im Einzelfall geltende Frist ist das Strafregistergesetz massgebend, oder man wendet sich an eine Anwältin oder einen Anwalt."},
+            ],
+        },
+        "it": {
+            "slug": "casellario-giudiziale-svizzero-iscrizione-radiazione",
+            "title": "Casellario giudiziale svizzero: iscrizione e radiazione",
+            "meta": "Cosa figura nel casellario giudiziale, differenza tra estratto per privati ed estratto per autorità, e come vengono radiate le iscrizioni.",
+            "sections": [
+                {"heading": "Cosa figura nel casellario giudiziale", "paragraphs": [
+                    "Il casellario giudiziale svizzero, gestito a livello federale nel sistema d'informazione VOSTRA, registra le sentenze penali pronunciate contro una persona: pene detentive, pene pecuniarie, lavoro di pubblica utilità, nonché determinate decisioni di autorità amministrative competenti in materia penale.",
+                ]},
+                {"heading": "Due tipi di estratti", "paragraphs": [
+                    "L'estratto destinato a un privato, che ognuno può richiedere per sé stesso, è più limitato rispetto all'estratto completo riservato alle autorità di perseguimento penale e a determinate autorità amministrative autorizzate dalla legge. Un datore di lavoro non può quindi esigere di consultare direttamente il casellario giudiziale: può solo chiedere al candidato o al dipendente di produrre lui stesso il proprio estratto per privati.",
+                ]},
+                {"heading": "La radiazione delle iscrizioni", "paragraphs": [
+                    "Le iscrizioni non restano indefinitamente nel casellario giudiziale: la legge prevede termini di radiazione che dipendono dalla gravità della pena pronunciata, con le sanzioni più lievi radiate più rapidamente rispetto alle pene detentive di lunga durata. Una volta radiata, un'iscrizione non appare più, nemmeno nell'estratto destinato alle autorità, salvo eccezioni previste dalla legge.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Come si ottiene un estratto del proprio casellario giudiziale?",
+                 "a": "La richiesta si fa online presso l'Ufficio federale di giustizia, mediante un documento d'identità e il pagamento di un emolumento. L'estratto viene inviato per posta all'indirizzo di domicilio registrato."},
+                {"q": "Un datore di lavoro può consultare il mio casellario giudiziale senza il mio accordo?",
+                 "a": "No. Solo le autorità autorizzate dalla legge hanno un accesso diretto al sistema VOSTRA. Un datore di lavoro può solo chiedere al candidato di consegnargli personalmente il proprio estratto per privati."},
+                {"q": "Tutte le condanne penali figurano nell'estratto per privati?",
+                 "a": "No, questo estratto è più limitato rispetto a quello destinato alle autorità: alcune iscrizioni, in particolare le sanzioni più lievi o meno recenti, non vi figurano o non vi figurano più, secondo le regole fissate dalla legge sul casellario giudiziale."},
+                {"q": "Per quanto tempo resta iscritta una condanna?",
+                 "a": "La durata dipende dalla gravità della pena pronunciata: più severa è la sanzione, più lungo è il termine prima della radiazione. Per conoscere il termine applicabile a una situazione precisa, occorre fare riferimento alla legge federale sul casellario giudiziale o consultare un avvocato."},
+            ],
+        },
+        "en": {
+            "slug": "swiss-criminal-record-entry-removal",
+            "title": "Swiss criminal record: entries and removal",
+            "meta": "What appears on the criminal record, the difference between a private and an authorities' extract, and how entries are removed.",
+            "sections": [
+                {"heading": "What appears on the criminal record", "paragraphs": [
+                    "The Swiss criminal record, managed at federal level in the VOSTRA information system, lists the criminal judgments issued against a person: custodial sentences, monetary penalties, community work, and certain decisions of administrative authorities competent in criminal matters.",
+                ]},
+                {"heading": "Two types of extracts", "paragraphs": [
+                    "The extract available to a private individual, which anyone can request for themselves, is more limited than the full extract reserved for criminal prosecution authorities and certain administrative authorities authorised by law. An employer therefore cannot demand direct access to the criminal record: they can only ask a candidate or employee to produce their own private extract.",
+                ]},
+                {"heading": "Removal of entries", "paragraphs": [
+                    "Entries do not remain on the criminal record indefinitely: the law sets removal periods that depend on the severity of the sentence imposed, with lighter sanctions removed more quickly than long custodial sentences. Once removed, an entry no longer appears, even on the extract intended for authorities, subject to exceptions provided by law.",
+                ]},
+            ],
+            "faq": [
+                {"q": "How do I obtain an extract of my criminal record?",
+                 "a": "The request is made online with the Federal Office of Justice, with proof of identity and payment of a fee. The extract is sent by post to the registered home address."},
+                {"q": "Can an employer check my criminal record without my consent?",
+                 "a": "No. Only authorities authorised by law have direct access to VOSTRA. An employer can only ask a candidate to provide their own private extract."},
+                {"q": "Do all criminal convictions appear on the private extract?",
+                 "a": "No, this extract is more limited than the one for authorities: certain entries, particularly lighter or older sanctions, do not appear or no longer appear on it, according to the rules set by the criminal records law."},
+                {"q": "How long does a conviction remain on record?",
+                 "a": "The duration depends on the severity of the sentence imposed: the heavier the sanction, the longer the period before removal. To find the period applicable to a specific situation, refer to the federal law on criminal records or consult a lawyer."},
             ],
         },
     },
@@ -406,6 +922,93 @@ BLOG_ARTICLES = {
                  "a": "En principe oui, sauf si elle porte uniquement sur la quotité de la peine (le montant ou la durée de la sanction), auquel cas une opposition non motivée suffit selon l'art. 354 CPP."},
                 {"q": "Une ordonnance pénale figure-t-elle au casier judiciaire ?",
                  "a": "Si elle entre en force et que la sanction prononcée relève des cas soumis à inscription selon la loi sur le casier judiciaire, oui : une ordonnance pénale a les mêmes effets qu'un jugement pénal ordinaire."},
+            ],
+        },
+        "de": {
+            "slug": "strafbefehl-was-tun-einsprache",
+            "title": "Strafbefehl: was tun, wenn Sie einen erhalten",
+            "meta": "Einsprachefrist, Begründung, Folgen fehlender Einsprache: was Sie gemäss Strafprozessordnung zum Strafbefehl wissen müssen.",
+            "sections": [
+                {"heading": "Was ist ein Strafbefehl", "paragraphs": [
+                    "Der Strafbefehl (Art. 352 StPO) ist ein Entscheid der Staatsanwaltschaft ohne gerichtliche Verhandlung, für Straftaten begrenzter Schwere. Er setzt voraus, dass die beschuldigte Person angehört wurde oder Gelegenheit dazu hatte, dass der Sachverhalt geklärt ist und die Sanktion die gesetzlichen Grenzen nicht übersteigt (insbesondere höchstens sechs Monate Freiheitsstrafe, gegebenenfalls verbunden mit einer Geldstrafe oder Busse).",
+                ]},
+                {"heading": "Einsprache erheben", "paragraphs": [
+                    "Die beschuldigte Person, oder jede andere direkt betroffene Person, kann gegen den Strafbefehl innert zehn Tagen schriftlich Einsprache bei der ausstellenden Staatsanwaltschaft erheben (Art. 354 StPO). Die Einsprache muss grundsätzlich begründet werden, ausser sie betrifft nur das Strafmass, in welchem Fall eine blosse Erklärung genügt.",
+                ]},
+                {"heading": "Die Folgen einer gültigen Einsprache", "paragraphs": [
+                    "Ist die Einsprache zulässig, erhebt die Staatsanwaltschaft die zur Beurteilung nötigen Beweise. Sie kann anschliessend am Strafbefehl festhalten, das Verfahren einstellen, einen neuen Strafbefehl erlassen oder bei fortbestehender Uneinigkeit Anklage vor dem erstinstanzlichen Gericht erheben (Art. 355-356 StPO).",
+                ]},
+                {"heading": "Was geschieht ohne Einsprache", "paragraphs": [
+                    "Wird innert der zehntägigen Frist keine Einsprache erhoben, wird der Strafbefehl zu einem rechtskräftigen Urteil, mit denselben Wirkungen wie eine von einem Gericht ausgesprochene Verurteilung, einschliesslich gegebenenfalls des Eintrags ins Strafregister.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich gegen einen Strafbefehl Einsprache erheben?",
+                 "a": "Innert zehn Tagen nach dessen Zustellung, schriftlich, bei der ausstellenden Staatsanwaltschaft (Art. 354 StPO)."},
+                {"q": "Was geschieht, wenn ich keine Einsprache erhebe?",
+                 "a": "Der Strafbefehl wird zu einem endgültigen und vollstreckbaren Urteil, mit denselben Wirkungen wie eine von einem Gericht ausgesprochene Verurteilung, einschliesslich des Eintrags ins Strafregister, falls die Sanktion dies vorsieht."},
+                {"q": "Muss die Einsprache begründet werden?",
+                 "a": "Grundsätzlich ja, ausser sie betrifft nur das Strafmass (Höhe oder Dauer der Sanktion), in welchem Fall eine unbegründete Einsprache gemäss Art. 354 StPO genügt."},
+                {"q": "Wird ein Strafbefehl im Strafregister eingetragen?",
+                 "a": "Wenn er rechtskräftig wird und die ausgesprochene Sanktion unter die eintragungspflichtigen Fälle gemäss dem Strafregistergesetz fällt, ja: ein Strafbefehl hat dieselben Wirkungen wie ein ordentliches Strafurteil."},
+            ],
+        },
+        "it": {
+            "slug": "decreto-accusa-cosa-fare-opposizione",
+            "title": "Decreto d'accusa: cosa fare se ne ricevete uno",
+            "meta": "Termine di opposizione, motivazione, conseguenze della mancata opposizione: quanto occorre sapere sul decreto d'accusa secondo il Codice di procedura penale.",
+            "sections": [
+                {"heading": "Cos'è un decreto d'accusa", "paragraphs": [
+                    "Il decreto d'accusa (art. 352 CPP) è una decisione emessa dal pubblico ministero senza dibattimento davanti a un tribunale, per reati di gravità limitata. Presuppone che l'imputato sia stato sentito o abbia avuto la possibilità di esprimersi, che i fatti siano accertati e che la sanzione non superi i limiti fissati dalla legge (in particolare al massimo sei mesi di pena detentiva, eventualmente combinata con una pena pecuniaria o una multa).",
+                ]},
+                {"heading": "Fare opposizione", "paragraphs": [
+                    "L'imputato, o qualsiasi altra persona direttamente toccata dal decreto, può fare opposizione per scritto entro dieci giorni presso il pubblico ministero che l'ha emesso (art. 354 CPP). L'opposizione deve in linea di principio essere motivata, salvo se riguarda unicamente la commisurazione della pena, nel qual caso è sufficiente una semplice dichiarazione.",
+                ]},
+                {"heading": "Le conseguenze di un'opposizione valida", "paragraphs": [
+                    "Se l'opposizione è ricevibile, il pubblico ministero assume le prove necessarie per deciderne. Può quindi confermare il decreto d'accusa, abbandonare il procedimento, emettere un nuovo decreto d'accusa, o promuovere l'accusa davanti al tribunale di primo grado se il disaccordo persiste (art. 355-356 CPP).",
+                ]},
+                {"heading": "Cosa succede in assenza di opposizione", "paragraphs": [
+                    "Se nessuna opposizione è formata entro il termine di dieci giorni, il decreto d'accusa diventa una sentenza passata in giudicato, con gli stessi effetti di una condanna penale pronunciata da un tribunale, inclusa l'eventuale iscrizione nel casellario giudiziale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo fare opposizione a un decreto d'accusa?",
+                 "a": "Entro dieci giorni dalla notifica, per scritto, presso il pubblico ministero che l'ha emesso (art. 354 CPP)."},
+                {"q": "Cosa succede se non faccio opposizione?",
+                 "a": "Il decreto d'accusa diventa una sentenza definitiva ed esecutiva, con gli stessi effetti di una condanna pronunciata da un tribunale, inclusa l'iscrizione nel casellario giudiziale se la sanzione lo prevede."},
+                {"q": "L'opposizione deve essere motivata?",
+                 "a": "In linea di principio sì, salvo se riguarda unicamente la commisurazione della pena (l'importo o la durata della sanzione), nel qual caso un'opposizione non motivata è sufficiente secondo l'art. 354 CPP."},
+                {"q": "Un decreto d'accusa figura nel casellario giudiziale?",
+                 "a": "Se passa in giudicato e la sanzione pronunciata rientra nei casi soggetti a iscrizione secondo la legge sul casellario giudiziale, sì: un decreto d'accusa ha gli stessi effetti di una sentenza penale ordinaria."},
+            ],
+        },
+        "en": {
+            "slug": "summary-penalty-order-what-to-do-objection",
+            "title": "Summary penalty order: what to do if you receive one",
+            "meta": "Time limit to object, reasoning requirements, consequences of not objecting: what to know about the summary penalty order under Swiss criminal procedure.",
+            "sections": [
+                {"heading": "What is a summary penalty order", "paragraphs": [
+                    "The summary penalty order (art. 352 CPP) is a decision issued by the public prosecutor without a court hearing, for offences of limited severity. It requires that the accused has been heard or given the opportunity to be heard, that the facts are established, and that the sanction does not exceed the limits set by law (in particular a custodial sentence of at most six months, possibly combined with a monetary penalty or fine).",
+                ]},
+                {"heading": "Filing an objection", "paragraphs": [
+                    "The accused, or any other person directly affected by the order, can file a written objection within ten days with the public prosecutor's office that issued it (art. 354 CPP). The objection must in principle be reasoned, unless it concerns only the amount of the sentence, in which case a simple statement suffices.",
+                ]},
+                {"heading": "What happens after a valid objection", "paragraphs": [
+                    "If the objection is admissible, the public prosecutor gathers the evidence needed to rule on it. It can then uphold the summary penalty order, dismiss the case, issue a new summary penalty order, or bring the charge before the court of first instance if the disagreement persists (art. 355-356 CPP).",
+                ]},
+                {"heading": "What happens without an objection", "paragraphs": [
+                    "If no objection is filed within the ten-day period, the summary penalty order becomes a final judgment, with the same effects as a conviction handed down by a court, including entry on the criminal record where applicable.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what time limit must I object to a summary penalty order?",
+                 "a": "Within ten days of its notification, in writing, with the public prosecutor's office that issued it (art. 354 CPP)."},
+                {"q": "What happens if I don't object?",
+                 "a": "The summary penalty order becomes a final and enforceable judgment, with the same effects as a conviction handed down by a court, including entry on the criminal record if the sanction provides for it."},
+                {"q": "Does the objection need to be reasoned?",
+                 "a": "In principle yes, unless it concerns only the amount of the sentence, in which case an unreasoned objection is sufficient under art. 354 CPP."},
+                {"q": "Does a summary penalty order appear on the criminal record?",
+                 "a": "If it becomes final and the sanction imposed falls within the cases subject to registration under the criminal records law, yes: a summary penalty order has the same effects as an ordinary criminal judgment."},
             ],
         },
     },
@@ -442,6 +1045,96 @@ BLOG_ARTICLES = {
                  "a": "Dans les 30 jours suivant la réception du congé, en saisissant l'autorité de conciliation compétente (art. 273 CO)."},
             ],
         },
+        "de": {
+            "slug": "kuendigung-mietvertrag-fristen-anfechtung",
+            "title": "Kündigung des Mietvertrags: Fristen und Anfechtung",
+            "meta": "Amtliches Formular, Kündigungsfristen, missbräuchliche Kündigung und Anfechtungsfrist: die Regeln des Obligationenrechts zur Mietkündigung.",
+            "sections": [
+                {"heading": "Die Form der Kündigung", "paragraphs": [
+                    "Die Kündigung eines Miet- oder Pachtverhältnisses über Wohn- oder Geschäftsräume muss schriftlich erfolgen und, seitens der Vermieterschaft, mittels eines vom Kanton genehmigten amtlichen Formulars (Art. 266l OR). Eine Kündigung, die diese Form nicht einhält, ist nichtig und unwirksam.",
+                ]},
+                {"heading": "Fristen und Termine", "paragraphs": [
+                    "Mangels anderer Vereinbarung kann ein Wohnraummietvertrag mit einer Frist von mindestens drei Monaten auf den nächsten ortsüblichen Termin gekündigt werden (Art. 266c OR). Für Geschäfts- oder Fahrnismieten gelten andere Fristen und Termine gemäss Art. 266a-266e OR.",
+                    "Die Mieterschaft kann den Mietvertrag auch vorzeitig kündigen, wenn sie eine zumutbare Ersatzmieterin oder einen zumutbaren Ersatzmieter stellt, die oder der zahlungsfähig ist und bereit ist, den Vertrag zu gleichen Bedingungen zu übernehmen (Art. 264 OR).",
+                ]},
+                {"heading": "Die missbräuchliche Kündigung", "paragraphs": [
+                    "Eine Kündigung kann angefochten werden, wenn sie gegen Treu und Glauben verstösst (Art. 271-271a OR), namentlich wenn sie ausgesprochen wird, weil die Mieterschaft nach Treu und Glauben Ansprüche aus dem Mietverhältnis geltend gemacht hat, während eines Schlichtungs- oder Gerichtsverfahrens über das Mietverhältnis oder innert drei Jahren nach Abschluss eines solchen Verfahrens, falls die Vermieterschaft im Wesentlichen obsiegt hat, vorbehältlich gesetzlicher Ausnahmen.",
+                ]},
+                {"heading": "Eine Kündigung anfechten", "paragraphs": [
+                    "Die Mieterschaft, die ihre Kündigung für missbräuchlich hält, muss innert 30 Tagen nach deren Erhalt die Schlichtungsbehörde anrufen (Art. 273 OR). Nach Ablauf dieser Frist kann die Kündigung aus diesem Grund nicht mehr angefochten werden.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Muss meine Vermieterin oder mein Vermieter die Kündigung begründen?",
+                 "a": "Nein, das Gesetz verlangt für eine ordentliche Kündigung keinen Grund. Die Kündigung kann jedoch für nichtig erklärt werden, wenn sie unter Umständen erfolgt, die gegen Treu und Glauben gemäss Art. 271-271a OR verstossen."},
+                {"q": "Was tun, wenn ich eine Kündigung ohne amtliches Formular erhalte?",
+                 "a": "Eine Kündigung der Vermieterschaft ohne das vom Kanton genehmigte amtliche Formular ist nichtig (Art. 266l OR): sie gilt als nie ausgesprochen, ohne dass es nötig wäre, sie vor der Schlichtungsbehörde anzufechten."},
+                {"q": "Kann ich meinen Mietvertrag vor Ablauf der vertraglichen Frist kündigen?",
+                 "a": "Ja, sofern ich eine zahlungsfähige Ersatzmieterin oder einen zahlungsfähigen Ersatzmieter stelle, die oder der bereit ist, den Vertrag zu gleichen Bedingungen zu übernehmen und für die Vermieterschaft zumutbar ist (Art. 264 OR)."},
+                {"q": "Innert welcher Frist muss ich eine Kündigung anfechten, die ich für missbräuchlich halte?",
+                 "a": "Innert 30 Tagen nach Erhalt der Kündigung, durch Anrufung der zuständigen Schlichtungsbehörde (Art. 273 OR)."},
+            ],
+        },
+        "it": {
+            "slug": "disdetta-locazione-termini-formulario-contestazione",
+            "title": "Disdetta della locazione: termini e contestazione",
+            "meta": "Formulario ufficiale, termini di preavviso, disdetta abusiva e termine di contestazione: le regole del Codice delle obbligazioni sulla disdetta.",
+            "sections": [
+                {"heading": "La forma della disdetta", "paragraphs": [
+                    "La disdetta di una locazione riguardante locali d'abitazione o commerciali deve avvenire per scritto e, da parte del locatore, mediante un modulo ufficiale approvato dal Cantone (art. 266l CO). Una disdetta che non rispetta questa forma è nulla e priva di effetto.",
+                ]},
+                {"heading": "I termini e le scadenze", "paragraphs": [
+                    "Salvo diverso accordo, una locazione d'abitazione può essere disdetta con un preavviso di almeno tre mesi per la prossima scadenza fissata dall'uso locale (art. 266c CO). I termini e le scadenze applicabili alle locazioni commerciali o mobiliari sono diversi e fissati dagli art. 266a-266e CO.",
+                    "Il conduttore può anche disdire la locazione anticipatamente, prima della scadenza contrattuale, se presenta un conduttore sostitutivo solvibile e pronto a riprendere la locazione alle stesse condizioni (art. 264 CO).",
+                ]},
+                {"heading": "La disdetta abusiva", "paragraphs": [
+                    "Una disdetta può essere annullata se contraria alle regole della buona fede (art. 271-271a CO), in particolare quando è data perché il conduttore ha fatto valere in buona fede pretese derivanti dalla locazione, durante una procedura di conciliazione o giudiziaria relativa alla locazione, o entro i tre anni successivi alla fine di tale procedura se il locatore ha ottenuto ragione in misura essenziale, salvo eccezioni previste dalla legge.",
+                ]},
+                {"heading": "Contestare una disdetta", "paragraphs": [
+                    "Il conduttore che ritiene la propria disdetta abusiva deve adire l'autorità di conciliazione entro 30 giorni dal ricevimento (art. 273 CO). Trascorso questo termine, la disdetta non può più essere contestata per questo motivo.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il mio locatore deve giustificare la disdetta della mia locazione?",
+                 "a": "No, la legge non richiede un motivo per una disdetta ordinaria. La disdetta può tuttavia essere annullata se data in circostanze contrarie alla buona fede previste dagli art. 271-271a CO."},
+                {"q": "Cosa fare se ricevo una disdetta senza il modulo ufficiale?",
+                 "a": "Una disdetta data dal locatore senza il modulo ufficiale approvato dal Cantone è nulla (art. 266l CO): è considerata come mai data, senza nemmeno la necessità di contestarla davanti all'autorità di conciliazione."},
+                {"q": "Posso disdire la mia locazione prima della scadenza contrattuale?",
+                 "a": "Sì, a condizione di presentare un conduttore sostitutivo solvibile, pronto a riprendere la locazione alle stesse condizioni e accettabile per il locatore (art. 264 CO)."},
+                {"q": "Entro quale termine devo contestare una disdetta che ritengo abusiva?",
+                 "a": "Entro 30 giorni dal ricevimento della disdetta, adendo l'autorità di conciliazione competente (art. 273 CO)."},
+            ],
+        },
+        "en": {
+            "slug": "terminating-lease-deadlines-challenge",
+            "title": "Terminating a lease: deadlines and challenging notice",
+            "meta": "Official form, notice periods, abusive termination and time limit to challenge: the Code of Obligations rules on ending a lease.",
+            "sections": [
+                {"heading": "The form of the termination notice", "paragraphs": [
+                    "Terminating a lease of residential or commercial premises must be done in writing and, on the landlord's side, using an official form approved by the canton (art. 266l CO). Notice that does not comply with this form is null and void.",
+                ]},
+                {"heading": "Notice periods and dates", "paragraphs": [
+                    "Unless otherwise agreed, a residential lease can be terminated with at least three months' notice for the next date fixed by local custom (art. 266c CO). The notice periods and dates applicable to commercial or movable-property leases differ and are set by art. 266a-266e CO.",
+                    "A tenant can also terminate the lease early, before the contractual expiry date, by presenting a solvent replacement tenant ready to take over the lease on the same terms (art. 264 CO).",
+                ]},
+                {"heading": "Abusive termination", "paragraphs": [
+                    "Notice can be annulled if it contravenes the rules of good faith (art. 271-271a CO), in particular when given because the tenant has, in good faith, asserted claims arising from the lease, during a conciliation or court procedure relating to the lease, or within three years of the end of such a procedure if the landlord largely prevailed, subject to exceptions provided by law.",
+                ]},
+                {"heading": "Challenging notice", "paragraphs": [
+                    "A tenant who considers their notice abusive must approach the conciliation authority within 30 days of receiving it (art. 273 CO). After this period, the notice can no longer be challenged on this ground.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does my landlord have to justify terminating my lease?",
+                 "a": "No, the law does not require a reason for ordinary termination. Notice can, however, be annulled if given in circumstances contrary to good faith under art. 271-271a CO."},
+                {"q": "What should I do if I receive notice without the official form?",
+                 "a": "Notice given by a landlord without the official form approved by the canton is null and void (art. 266l CO): it is deemed never to have been given, without even needing to challenge it before the conciliation authority."},
+                {"q": "Can I terminate my lease before the contractual expiry date?",
+                 "a": "Yes, provided I present a solvent replacement tenant, ready to take over the lease on the same terms and acceptable to the landlord (art. 264 CO)."},
+                {"q": "Within what time limit must I challenge notice I consider abusive?",
+                 "a": "Within 30 days of receiving the notice, by approaching the competent conciliation authority (art. 273 CO)."},
+            ],
+        },
     },
     "contester-augmentation-loyer": {
         "domaine_id": "droit_bail",
@@ -473,6 +1166,93 @@ BLOG_ARTICLES = {
                  "a": "Dans les 30 jours suivant la réception de l'avis de majoration, en saisissant l'autorité de conciliation compétente (art. 270b CO)."},
                 {"q": "Une baisse du taux hypothécaire de référence me donne-t-elle droit à une baisse de loyer ?",
                  "a": "Si votre loyer avait été fixé ou augmenté en tenant compte d'un taux hypothécaire de référence plus élevé, une baisse de ce taux peut justifier une demande de baisse de loyer auprès du bailleur, éventuellement portée devant l'autorité de conciliation en cas de refus."},
+            ],
+        },
+        "de": {
+            "slug": "mietzinserhoehung-anfechten-schweiz",
+            "title": "Eine Mietzinserhöhung anfechten",
+            "meta": "Amtliches Formular, anerkannte Erhöhungsgründe, Anfechtungsfrist: wie eine Mietzinserhöhung gemäss Obligationenrecht angefochten wird.",
+            "sections": [
+                {"heading": "Der Grundsatz des missbräuchlichen Mietzinses", "paragraphs": [
+                    "Art. 269 OR legt den Grundsatz fest: Mietzinse sind missbräuchlich, wenn damit ein übersetzter Ertrag aus der Mietsache erzielt wird oder wenn sie auf einem offensichtlich übersetzten Kaufpreis beruhen. Auf dieser Grundlage kann die Mieterschaft eine Mietzinserhöhung anfechten.",
+                ]},
+                {"heading": "Die Form der Erhöhungsanzeige", "paragraphs": [
+                    "Jede Mietzinserhöhung muss mittels eines vom Kanton genehmigten amtlichen Formulars angezeigt werden, unter Angabe der Erhöhungsgründe (Art. 269d OR), mindestens zehn Tage vor Beginn der Kündigungsfrist und auf den nächstmöglichen Kündigungstermin. Eine Anzeige, die diese Form nicht einhält, ist nichtig.",
+                ]},
+                {"heading": "Die üblichen Erhöhungsgründe", "paragraphs": [
+                    "Mietzinserhöhungen werden meist mit der Anpassung an den hypothekarischen Referenzzinssatz, gestiegenen Nebenkosten oder Unterhaltskosten, zusätzlichen von der Vermieterschaft erbrachten Leistungen oder, bei indexierten Mietverträgen, mit der Entwicklung des Landesindexes der Konsumentenpreise begründet. Eine Erhöhung kann auch mit der Anpassung an die orts- oder quartierüblichen Mietzinse gerechtfertigt werden.",
+                ]},
+                {"heading": "Die Erhöhung anfechten", "paragraphs": [
+                    "Die Mieterschaft, die die Erhöhung für ungerechtfertigt hält, kann innert 30 Tagen nach Erhalt der Erhöhungsanzeige die Schlichtungsbehörde anrufen (Art. 270b OR). Es obliegt grundsätzlich der Vermieterschaft, nachzuweisen, dass die Erhöhung auf einem der gesetzlich anerkannten Gründe beruht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann meine Vermieterin oder mein Vermieter den Mietzins beliebig erhöhen?",
+                 "a": "Nein, jede Erhöhung muss auf einem gesetzlich anerkannten Grund beruhen (Anpassung an den Referenzzinssatz, gestiegene Nebenkosten, zusätzliche Leistungen usw.) und in der gesetzlich vorgeschriebenen Form angezeigt werden."},
+                {"q": "Welches Dokument muss ich bei einer Mietzinserhöhung erhalten?",
+                 "a": "Das vom Kanton genehmigte amtliche Formular, mit Angabe des neuen Mietzinses und der Erhöhungsgründe (Art. 269d OR). Ohne dieses Dokument ist die Erhöhung nichtig."},
+                {"q": "Innert welcher Frist kann ich eine Mietzinserhöhung anfechten?",
+                 "a": "Innert 30 Tagen nach Erhalt der Erhöhungsanzeige, durch Anrufung der zuständigen Schlichtungsbehörde (Art. 270b OR)."},
+                {"q": "Gibt mir ein sinkender hypothekarischer Referenzzinssatz Anspruch auf eine Mietzinssenkung?",
+                 "a": "Wurde Ihr Mietzins unter Berücksichtigung eines höheren Referenzzinssatzes festgelegt oder erhöht, kann eine Senkung dieses Satzes ein Herabsetzungsbegehren bei der Vermieterschaft rechtfertigen, das bei Ablehnung gegebenenfalls vor die Schlichtungsbehörde gebracht werden kann."},
+            ],
+        },
+        "it": {
+            "slug": "contestare-aumento-pigione-svizzera",
+            "title": "Contestare un aumento della pigione",
+            "meta": "Formulario ufficiale, motivi di aumento ammessi, termine di contestazione: come contestare un aumento della pigione secondo il Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "Il principio della pigione abusiva", "paragraphs": [
+                    "L'art. 269 CO pone il principio: le pigioni sono abusive quando permettono al locatore di ottenere una resa eccessiva della cosa locata, o risultano da un prezzo d'acquisto manifestamente esagerato. È su questa base che il conduttore può contestare un aumento di pigione.",
+                ]},
+                {"heading": "La forma dell'avviso di aumento", "paragraphs": [
+                    "Ogni aumento di pigione deve essere notificato mediante un modulo ufficiale approvato dal Cantone, indicando i motivi dell'aumento (art. 269d CO), almeno dieci giorni prima dell'inizio del termine di disdetta e per la prossima scadenza di disdetta possibile. Un avviso che non rispetta questa forma è nullo.",
+                ]},
+                {"heading": "I motivi usuali di aumento", "paragraphs": [
+                    "Gli aumenti di pigione sono il più delle volte giustificati dall'adeguamento al tasso ipotecario di riferimento, dall'aumento delle spese accessorie o dei costi di manutenzione, da prestazioni supplementari fornite dal locatore, o, per le locazioni indicizzate, dall'evoluzione dell'indice svizzero dei prezzi al consumo. Un aumento può anche essere giustificato dall'adeguamento alle pigioni usuali del quartiere.",
+                ]},
+                {"heading": "Contestare l'aumento", "paragraphs": [
+                    "Il conduttore che ritiene l'aumento ingiustificato può adire l'autorità di conciliazione entro 30 giorni dal ricevimento dell'avviso di aumento (art. 270b CO). Spetta in linea di principio al locatore dimostrare che l'aumento si fonda su uno dei motivi riconosciuti dalla legge.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il mio locatore può aumentare la pigione come vuole?",
+                 "a": "No, ogni aumento deve fondarsi su un motivo riconosciuto dalla legge (adeguamento al tasso di riferimento, aumento delle spese, prestazioni supplementari, ecc.) ed essere notificato nelle forme legali."},
+                {"q": "Quale documento devo ricevere in caso di aumento della pigione?",
+                 "a": "Il modulo ufficiale approvato dal Cantone, indicante la nuova pigione e i motivi dell'aumento (art. 269d CO). Senza questo documento, l'aumento è nullo."},
+                {"q": "Entro quale termine posso contestare un aumento della pigione?",
+                 "a": "Entro 30 giorni dal ricevimento dell'avviso di aumento, adendo l'autorità di conciliazione competente (art. 270b CO)."},
+                {"q": "Una diminuzione del tasso ipotecario di riferimento mi dà diritto a una diminuzione della pigione?",
+                 "a": "Se la vostra pigione era stata fissata o aumentata tenendo conto di un tasso ipotecario di riferimento più elevato, una diminuzione di questo tasso può giustificare una richiesta di diminuzione della pigione presso il locatore, eventualmente portata davanti all'autorità di conciliazione in caso di rifiuto."},
+            ],
+        },
+        "en": {
+            "slug": "challenging-rent-increase-switzerland",
+            "title": "Challenging a rent increase",
+            "meta": "Official form, accepted grounds for increase, time limit to challenge: how to challenge a rent increase under the Code of Obligations.",
+            "sections": [
+                {"heading": "The principle of an abusive rent", "paragraphs": [
+                    "Art. 269 CO sets out the principle: rents are abusive when they allow the landlord to obtain an excessive return on the leased property, or result from a manifestly excessive purchase price. It is on this basis that a tenant can challenge a rent increase.",
+                ]},
+                {"heading": "The form of the increase notice", "paragraphs": [
+                    "Any rent increase must be notified using an official form approved by the canton, stating the grounds for the increase (art. 269d CO), at least ten days before the start of the notice period and effective on the next possible termination date. A notice that does not comply with this form is null and void.",
+                ]},
+                {"heading": "Common grounds for increase", "paragraphs": [
+                    "Rent increases are most often justified by adjustment to the reference mortgage rate, an increase in ancillary costs or maintenance costs, additional services provided by the landlord, or, for index-linked leases, changes in the Swiss consumer price index. An increase can also be justified by adjustment to the usual rents in the neighbourhood.",
+                ]},
+                {"heading": "Challenging the increase", "paragraphs": [
+                    "A tenant who considers the increase unjustified can approach the conciliation authority within 30 days of receiving the increase notice (art. 270b CO). It is in principle up to the landlord to show that the increase is based on one of the grounds recognised by law.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can my landlord raise my rent as they please?",
+                 "a": "No, any increase must be based on a ground recognised by law (adjustment to the reference rate, higher costs, additional services, etc.) and be notified in the legally required form."},
+                {"q": "What document should I receive when my rent is increased?",
+                 "a": "The official form approved by the canton, stating the new rent and the grounds for the increase (art. 269d CO). Without this document, the increase is null and void."},
+                {"q": "Within what time limit can I challenge a rent increase?",
+                 "a": "Within 30 days of receiving the increase notice, by approaching the competent conciliation authority (art. 270b CO)."},
+                {"q": "Does a drop in the reference mortgage rate entitle me to a rent reduction?",
+                 "a": "If your rent was set or increased taking into account a higher reference mortgage rate, a drop in that rate can justify a request for a rent reduction to your landlord, which can be brought before the conciliation authority if refused."},
             ],
         },
     },

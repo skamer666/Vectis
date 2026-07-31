@@ -28,15 +28,15 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | # | Domaine | Titre (FR) | Base légale | Statut |
 |---|---|---|---|---|
 | 1 | Droit du travail | Licenciement en Suisse : délais de préavis et protection contre le congé abusif | CO art. 335-337c | ✅ `licenciement-delais-conge-abusif` |
-| 2 | Droit du travail | Heures supplémentaires, salaire et vacances : vos droits selon le CO | CO art. 321c, 329a | 🟡 `heures-supplementaires-salaire-vacances` |
-| 3 | Droit de la famille | Autorité parentale et garde des enfants après une séparation | CC art. 296-301a | 🟡 `autorite-parentale-garde-enfants` |
-| 4 | Droit de la famille | Pension alimentaire : comment elle est calculée en Suisse | CC art. 285 | 🟡 `pension-alimentaire-calcul` |
-| 5 | Droit du divorce | Divorce en Suisse : procédure, délais et divorce par consentement mutuel | CC art. 111-114 | 🟡 `divorce-procedure-delais` |
-| 6 | Droit du divorce | Partage du 2e pilier en cas de divorce | CC art. 122-124 | 🟡 `partage-deuxieme-pilier-divorce` |
-| 7 | Droit pénal | Casier judiciaire suisse : inscription, consultation et radiation | Loi sur le casier judiciaire (VOSTRA) | 🟡 `casier-judiciaire-suisse` |
-| 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | 🟡 `ordonnance-penale-opposition` |
-| 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | 🟡 `resiliation-bail-delais-contestation` |
-| 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | 🟡 `contester-augmentation-loyer` |
+| 2 | Droit du travail | Heures supplémentaires, salaire et vacances : vos droits selon le CO | CO art. 321c, 329a | ✅ `heures-supplementaires-salaire-vacances` |
+| 3 | Droit de la famille | Autorité parentale et garde des enfants après une séparation | CC art. 296-301a | ✅ `autorite-parentale-garde-enfants` |
+| 4 | Droit de la famille | Pension alimentaire : comment elle est calculée en Suisse | CC art. 285 | ✅ `pension-alimentaire-calcul` |
+| 5 | Droit du divorce | Divorce en Suisse : procédure, délais et divorce par consentement mutuel | CC art. 111-114 | ✅ `divorce-procedure-delais` |
+| 6 | Droit du divorce | Partage du 2e pilier en cas de divorce | CC art. 122-124 | ✅ `partage-deuxieme-pilier-divorce` |
+| 7 | Droit pénal | Casier judiciaire suisse : inscription, consultation et radiation | Loi sur le casier judiciaire (VOSTRA) | ✅ `casier-judiciaire-suisse` |
+| 8 | Droit pénal | Ordonnance pénale : que faire si vous en recevez une | CPP art. 352-356 | ✅ `ordonnance-penale-opposition` |
+| 9 | Droit du bail | Résiliation du bail : délais, formulaire officiel et contestation | CO art. 266-273 | ✅ `resiliation-bail-delais-contestation` |
+| 10 | Droit du bail | Contester une augmentation de loyer | CO art. 269-270e | ✅ `contester-augmentation-loyer` |
 | 11 | Droit de la construction | Défauts de construction : garantie et délais de réclamation | CO art. 367-371 | 🟡 `defauts-construction-garantie-delais` |
 | 12 | Droit de la construction | Hypothèque légale des artisans et entrepreneurs | CC art. 837-841 | 🟡 `hypotheque-legale-artisans-entrepreneurs` |
 | 13 | Droit des successions | Réserve héréditaire et quotité disponible depuis la révision de 2023 | CC art. 470-475 | 🟡 `reserve-hereditaire-quotite-disponible` |
@@ -193,3 +193,19 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
   DE/IT/EN.** Rédaction française terminée, ce chantier peut être considéré
   comme un point d'arrêt stable si la traduction n'est pas lancée
   immédiatement.
+
+### 2026-07-30 | Traduction lot 1 (articles 1 à 10) en DE/IT/EN
+
+- Les 10 articles du lot 1 (droit du travail, famille, divorce, pénal, bail)
+  sont désormais traduits dans les 4 langues du site (FR/DE/IT/EN). Statut
+  passé de 🟡 à ✅ pour ces 10 sujets.
+- Convention de citation légale établie et appliquée : allemand utilise les
+  abréviations officielles (OR, ZGB, StGB, StPO) ; italien et anglais
+  conservent les abréviations latines (CC, CO, CP, CPC, CPP), cohérent avec
+  l'article pilote déjà en ligne.
+- Un oubli d'accents allemands (ue/oe/ae au lieu de ü/ö/ä) a été détecté et
+  corrigé avant la fusion finale : toujours vérifier les Umlaute allemands
+  avant de committer.
+- 57 tests toujours au vert, aucun em dash, aucun artefact Jinja. 30 pages
+  DE/IT/EN générées en plus des 50 FR (10 articles × 3 langues).
+- Reste 40 articles à traduire (lots 2 à 5).
