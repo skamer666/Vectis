@@ -202,6 +202,16 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
 .tag:hover{ border-color:var(--accent-500); color:var(--accent-600); }
 .tag.is-accent{ background:var(--accent-50); border-color:var(--accent-100); color:var(--accent-700); }
 
+/* -- boutons d'action (contact/appel/site) -- */
+.cta-row{ display:flex; flex-wrap:wrap; gap:var(--space-sm); margin:var(--space-md) 0; }
+.cta-btn{
+  display:inline-block; padding:9px 18px; font-size:0.88rem; font-weight:600;
+  border:1px solid var(--border-strong); border-radius:6px; text-decoration:none; color:var(--text-secondary);
+}
+.cta-btn:hover{ border-color:var(--accent-500); color:var(--accent-600); }
+.cta-btn.is-primary{ background:var(--accent-600); border-color:var(--accent-600); color:#fff; }
+.cta-btn.is-primary:hover{ background:var(--accent-700); border-color:var(--accent-700); color:#fff; }
+
 /* -- grille cantons/domaines (grille reelle, pas des cartes a icones) -- */
 .index-grid{
   display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr));

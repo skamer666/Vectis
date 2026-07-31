@@ -27,6 +27,14 @@
     {% if etude %}<tr><td>{{ ui.firm }}</td><td>{% if etude_url %}<a href="{{ etude_url }}">{{ etude }}</a>{% else %}{{ etude }}{% endif %}</td></tr>{% endif %}
   </table>
 
+  {% if telephone or email or site_web %}
+  <div class="cta-row">
+    {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
+    {% if email %}<a class="cta-btn{% if not telephone %} is-primary{% endif %}" href="mailto:{{ email }}">{{ ui.email }}</a>{% endif %}
+    {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
+  </div>
+  {% endif %}
+
   <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.9rem;">
     <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
   </p>

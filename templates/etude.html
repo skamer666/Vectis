@@ -13,6 +13,13 @@
   {% if insight_text %}<p class="presentation" style="font-size:0.95rem;">{{ insight_text }}</p>{% endif %}
   {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
 
+  {% if telephone or site_web %}
+  <div class="cta-row">
+    {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
+    {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
+  </div>
+  {% endif %}
+
   <p class="claim-notice" style="font-size:0.9rem;">
     <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
   </p>
@@ -29,7 +36,7 @@
           <div class="registry-name">{{ a.nom }}</div>
           {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
         </div>
-        <div class="registry-firm">{{ a.fonction }}</div>
+        <div class="registry-firm"></div>
         <div class="registry-city"></div>
       </a>
       {% else %}
@@ -38,7 +45,7 @@
           <div class="registry-name">{{ a.nom }}</div>
           {% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
         </div>
-        <div class="registry-firm">{{ a.fonction }}</div>
+        <div class="registry-firm"></div>
         <div class="registry-city"></div>
       </div>
       {% endif %}

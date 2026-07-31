@@ -525,6 +525,20 @@ for _r in GE_INDIVIDUALS:
         GE_BY_DOMAINE.setdefault(_did, []).append(_r)
 
 
+def primary_phone(raw):
+    """Le champ telephone du registre GE (avocats et etudes) concatene parfois
+    deux numeros sans separateur (tel + fax) -- ex. "022 818 50 52 022 310 93 88".
+    Ne garde que le premier numero pour les liens tel: et les donnees structurees.
+    Ne touche pas aux formats a un seul numero (avec ou sans +41/parentheses)."""
+    raw = (raw or "").strip()
+    if not raw:
+        return ""
+    tokens = raw.split()
+    if len(tokens) >= 8 and len(tokens) % 4 == 0 and all(t.isdigit() for t in tokens):
+        return " ".join(tokens[:len(tokens) // 2])
+    return raw
+
+
 def gen_ge_avocats(start=0, count=None, rows=None):
     canton_name_fr = i18n.CANTONS["GE"]["fr"]["name"]
     subset = rows if rows is not None else (GE_INDIVIDUALS[start:start + count] if count else GE_INDIVIDUALS[start:])
@@ -550,7 +564,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             ctx["adresse"] = row.get("adresse") or ""
             ctx["npa"] = row.get("npa") or ""
             ctx["ville"] = row.get("ville") or ""
-            ctx["telephone"] = row.get("telephone") or ""
+            ctx["telephone"] = primary_phone(row.get("telephone"))
             ctx["email"] = row.get("email") or ""
             ctx["site_web"] = row.get("site_web") or ""
             ctx["site_web_href"] = row.get("site_web") or "#"
@@ -575,7 +589,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
-                "telephone": row.get("telephone", ""), "email": row.get("email", ""),
+                "telephone": primary_phone(row.get("telephone")), "email": row.get("email", ""),
                 "areaServed": canton_name,
             }
             if _raw_langues:
@@ -625,13 +639,16 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             ctx["adresse"] = row.get("adresse", "")
             ctx["npa"] = row.get("npa", "")
             ctx["ville"] = row.get("ville", "")
+            ctx["telephone"] = primary_phone(row.get("telephone"))
+            ctx["site_web"] = _site_url or ""
+            ctx["site_web_href"] = _site_url or "#"
             ctx["presentation"] = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)
             ctx["members_title"] = (
                 {"fr": "Avocats de l'étude", "de": "Anwältinnen und Anwälte der Kanzlei",
                  "it": "Avvocati dello studio", "en": "Lawyers at this firm"}[lang])
             if matched:
                 ctx["membres"] = [
-                    {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "fonction": m.get("fonction", ""),
+                    {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""),
                      "url": avocat_path("GE", m["_slug"], lang)}
                     for m in sorted(matched, key=lambda m: m["nom_complet"])
                 ]
@@ -643,7 +660,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                         fallback_members.append({"nom": mm.group(1).title(), "fonction": mm.group(2)})
                     else:
                         fallback_members.append({"nom": mtxt.title(), "fonction": ""})
-                ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"], "fonction": m["fonction"],
+                ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"],
                                     "url": None} for m in fallback_members]
             _domaine_names = [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids]
             if not _domaine_names and _web:
@@ -676,7 +693,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
-                "telephone": row.get("telephone", ""),
+                "telephone": primary_phone(row.get("telephone")),
             }
             if _team_langues:
                 _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
@@ -1146,12 +1163,15 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
             ctx["adresse"] = adresse
             ctx["npa"] = npa
             ctx["ville"] = ville
+            ctx["telephone"] = telephone
+            ctx["site_web"] = _site_url or ""
+            ctx["site_web_href"] = _site_url or "#"
             ctx["presentation"] = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)
             ctx["members_title"] = (
                 {"fr": "Avocats de l'étude", "de": "Anwältinnen und Anwälte der Kanzlei",
                  "it": "Avvocati dello studio", "en": "Lawyers at this firm"}[lang])
             ctx["membres"] = [
-                {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "fonction": m.get("fonction", ""),
+                {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""),
                  "url": avocat_path(code, m["_slug"], lang)}
                 for m in members
             ]

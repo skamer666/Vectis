@@ -394,6 +394,7 @@ UI = {
         "blog_title": "Blog juridique",
         "blog_intro": "Des articles précis pour comprendre vos droits en Suisse, domaine de droit par domaine de droit.",
         "all_blog_articles": "Tous les articles",
+        "call_now": "Appeler", "visit_site_cta": "Visiter le site",
     },
     "de": {
         "site_name": "Legatis",
@@ -427,6 +428,7 @@ UI = {
         "blog_title": "Rechtsblog",
         "blog_intro": "Präzise Artikel, um Ihre Rechte in der Schweiz zu verstehen, Rechtsgebiet für Rechtsgebiet.",
         "all_blog_articles": "Alle Artikel",
+        "call_now": "Anrufen", "visit_site_cta": "Website besuchen",
     },
     "it": {
         "site_name": "Legatis",
@@ -461,6 +463,7 @@ UI = {
         "blog_title": "Blog giuridico",
         "blog_intro": "Articoli precisi per capire i vostri diritti in Svizzera, ambito del diritto per ambito del diritto.",
         "all_blog_articles": "Tutti gli articoli",
+        "call_now": "Chiama", "visit_site_cta": "Visita il sito",
     },
     "en": {
         "site_name": "Legatis",
@@ -493,6 +496,7 @@ UI = {
         "blog_title": "Legal blog",
         "blog_intro": "Precise articles to understand your rights in Switzerland, one practice area at a time.",
         "all_blog_articles": "All articles",
+        "call_now": "Call", "visit_site_cta": "Visit website",
     },
 }
 
