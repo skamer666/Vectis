@@ -2440,6 +2440,93 @@ BLOG_ARTICLES = {
                  "a": "Non, seules les décisions d'autorités fédérales relèvent de la loi fédérale sur la procédure administrative (PA) ; chaque canton dispose de sa propre loi de procédure administrative, avec des délais et modalités qui peuvent différer."},
             ],
         },
+        "de": {
+            "slug": "beschwerde-verwaltungsentscheid-fristen-verfahren",
+            "title": "Beschwerde gegen einen Verwaltungsentscheid",
+            "meta": "30-tägige Beschwerdefrist, zuständige Behörde, aufschiebende Wirkung: die Regeln des Bundes- und kantonalen Verwaltungsverfahrensrechts.",
+            "sections": [
+                {"heading": "Der Grundsatz: zwei Regelungsebenen", "paragraphs": [
+                    "Das Beschwerdeverfahren gegen einen Entscheid einer Bundesbehörde richtet sich nach dem Bundesgesetz über das Verwaltungsverfahren (VwVG). Entscheide kantonaler und kommunaler Behörden unterliegen hingegen den kantonalen Verwaltungsverfahrensgesetzen, deren Inhalt von Kanton zu Kanton variiert, auch wenn die allgemeinen Grundsätze (rechtliches Gehör, Beschwerdefrist, Begründungspflicht) ähnlich sind.",
+                ]},
+                {"heading": "Die Beschwerdefrist", "paragraphs": [
+                    "Auf Bundesebene beträgt die Beschwerdefrist gegen einen Entscheid 30 Tage ab dessen Eröffnung (Art. 50 VwVG), vorbehältlich besonderer Bestimmungen mit abweichender Frist. Die kantonalen Fristen liegen meist in ähnlicher Grössenordnung, können jedoch abweichen: es ist unerlässlich, die im Rechtsmittelbelehrung des Entscheids selbst angegebene Frist zu prüfen.",
+                ]},
+                {"heading": "Die Form der Beschwerde", "paragraphs": [
+                    "Die Beschwerde muss grundsätzlich schriftlich an die im Entscheid bezeichnete Beschwerdeinstanz gerichtet werden, Anträge und eine Begründung enthalten und mit dem angefochtenen Entscheid versehen sein. Ein Entscheid, der die Rechtsmittelbelehrung (zuständige Behörde, Frist, Form) fehlerhaft angibt, darf der oder dem Betroffenen grundsätzlich keinen Nachteil bringen, sofern sie oder er innert angemessener Frist trotz dieser Lücke handelt.",
+                ]},
+                {"heading": "Die aufschiebende Wirkung", "paragraphs": [
+                    "Eine Beschwerde hat grundsätzlich aufschiebende Wirkung, das heisst, sie hindert den Vollzug des angefochtenen Entscheids, solange die Beschwerdeinstanz nicht entschieden hat, ausser wenn das Gesetz oder die verfügende Behörde diese Wirkung aus Gründen des öffentlichen Interesses oder der Dringlichkeit ausdrücklich ausschliesst (Art. 55 VwVG auf Bundesebene).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wie lange habe ich Zeit, um gegen einen Bundesverwaltungsentscheid Beschwerde zu erheben?",
+                 "a": "30 Tage ab Eröffnung des Entscheids (Art. 50 VwVG), vorbehältlich abweichender besonderer Bestimmungen. Die genaue Frist für einen kantonalen oder kommunalen Entscheid muss anhand der Rechtsmittelbelehrung des Entscheids selbst geprüft werden."},
+                {"q": "Verhindert die Beschwerde den Vollzug des angefochtenen Entscheids?",
+                 "a": "Grundsätzlich ja, eine Beschwerde hat aufschiebende Wirkung, ausser das Gesetz oder die Behörde schliesst diese aus Gründen des öffentlichen Interesses oder der Dringlichkeit ausdrücklich aus."},
+                {"q": "Was tun, wenn der Entscheid keine Rechtsmittelbelehrung enthält?",
+                 "a": "Das Fehlen oder die Unrichtigkeit der Rechtsmittelbelehrung darf der oder dem Betroffenen grundsätzlich keinen Nachteil bringen, sofern sie oder er innert angemessener Frist handelt, sobald sie oder er von der Beschwerdemöglichkeit Kenntnis erlangt."},
+                {"q": "Gelten in allen Kantonen dieselben Beschwerderegeln?",
+                 "a": "Nein, nur Entscheide von Bundesbehörden unterliegen dem Bundesgesetz über das Verwaltungsverfahren (VwVG); jeder Kanton verfügt über sein eigenes Verwaltungsverfahrensgesetz, mit Fristen und Modalitäten, die abweichen können."},
+            ],
+        },
+        "it": {
+            "slug": "ricorso-decisione-amministrativa-termini-procedura",
+            "title": "Ricorso contro una decisione amministrativa",
+            "meta": "Termine di ricorso di 30 giorni, autorità competente, effetto sospensivo: le regole della procedura amministrativa federale e cantonale.",
+            "sections": [
+                {"heading": "Il principio: due livelli di regole", "paragraphs": [
+                    "La procedura di ricorso contro una decisione di un'autorità federale è disciplinata dalla legge federale sulla procedura amministrativa (PA). Le decisioni delle autorità cantonali e comunali rientrano invece nelle leggi cantonali di procedura amministrativa, il cui contenuto varia da Cantone a Cantone, anche se i principi generali (diritto di essere sentiti, termine di ricorso, motivazione) sono simili.",
+                ]},
+                {"heading": "Il termine di ricorso", "paragraphs": [
+                    "A livello federale, il termine di ricorso contro una decisione è di 30 giorni dalla sua notifica (art. 50 PA), salvo disposizioni speciali che prevedano un termine diverso. I termini cantonali sono generalmente vicini a questa durata, ma possono differire: occorre verificare imperativamente il termine indicato nell'indicazione dei rimedi giuridici che figura in calce alla decisione stessa.",
+                ]},
+                {"heading": "La forma del ricorso", "paragraphs": [
+                    "Il ricorso deve in linea di principio essere indirizzato per scritto all'autorità di ricorso designata nella decisione, contenere conclusioni e una motivazione, ed essere accompagnato dalla decisione impugnata. Una decisione che non menziona correttamente i rimedi giuridici (autorità competente, termine, forma) non deve in linea di principio recare pregiudizio al suo destinatario se questi agisce entro un termine ragionevole nonostante tale lacuna.",
+                ]},
+                {"heading": "L'effetto sospensivo", "paragraphs": [
+                    "Un ricorso ha in linea di principio effetto sospensivo, ossia impedisce l'esecuzione della decisione impugnata finché l'autorità di ricorso non si è pronunciata, salvo se la legge o l'autorità che ha emesso la decisione lo esclude espressamente per motivi di interesse pubblico o urgenza (art. 55 PA a livello federale).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qual è il termine per ricorrere contro una decisione amministrativa federale?",
+                 "a": "30 giorni dalla notifica della decisione (art. 50 PA), salvo disposizione speciale contraria. Il termine esatto applicabile a una decisione cantonale o comunale va verificato nell'indicazione dei rimedi giuridici della decisione stessa."},
+                {"q": "Il ricorso impedisce l'esecuzione della decisione contestata?",
+                 "a": "In linea di principio sì, un ricorso ha effetto sospensivo, salvo che la legge o l'autorità lo escluda espressamente per motivi di interesse pubblico o urgenza."},
+                {"q": "Cosa fare se la decisione non menziona i rimedi giuridici?",
+                 "a": "L'assenza o l'inesattezza dell'indicazione dei rimedi giuridici non deve in linea di principio recare pregiudizio al destinatario, a condizione che agisca entro un termine ragionevole non appena viene a conoscenza della possibilità di ricorrere."},
+                {"q": "Le regole di ricorso sono le stesse in tutti i Cantoni?",
+                 "a": "No, solo le decisioni delle autorità federali rientrano nella legge federale sulla procedura amministrativa (PA); ogni Cantone dispone di una propria legge di procedura amministrativa, con termini e modalità che possono differire."},
+            ],
+        },
+        "en": {
+            "slug": "appeal-administrative-decision-deadlines-procedure",
+            "title": "Appealing an administrative decision",
+            "meta": "30-day appeal deadline, competent authority, suspensive effect: the rules of federal and cantonal administrative procedure.",
+            "sections": [
+                {"heading": "The principle: two levels of rules", "paragraphs": [
+                    "The procedure for appealing a decision of a federal authority is governed by the federal Administrative Procedure Act (PA). Decisions of cantonal and municipal authorities, on the other hand, fall under cantonal administrative procedure laws, the content of which varies from canton to canton, even though the general principles (right to be heard, appeal deadline, reasoning) are similar.",
+                ]},
+                {"heading": "The appeal deadline", "paragraphs": [
+                    "At federal level, the deadline to appeal a decision is 30 days from its notification (art. 50 PA), subject to special provisions setting a different deadline. Cantonal deadlines are generally close to this duration, but may differ: it is essential to check the deadline stated in the notice of legal remedies at the bottom of the decision itself.",
+                ]},
+                {"heading": "The form of the appeal", "paragraphs": [
+                    "The appeal must in principle be addressed in writing to the appeal authority designated in the decision, contain submissions and reasoning, and be accompanied by the contested decision. A decision that incorrectly states the legal remedies (competent authority, deadline, form) should in principle cause no prejudice to its recipient if they act within a reasonable time despite this gap.",
+                ]},
+                {"heading": "Suspensive effect", "paragraphs": [
+                    "An appeal in principle has suspensive effect, meaning it prevents enforcement of the contested decision until the appeal authority has ruled, unless the law or the authority that issued the decision expressly excludes this for reasons of public interest or urgency (art. 55 PA at federal level).",
+                ]},
+            ],
+            "faq": [
+                {"q": "What is the deadline to appeal a federal administrative decision?",
+                 "a": "30 days from notification of the decision (art. 50 PA), subject to a contrary special provision. The exact deadline applicable to a cantonal or municipal decision must be checked in the notice of legal remedies in the decision itself."},
+                {"q": "Does an appeal prevent enforcement of the contested decision?",
+                 "a": "In principle yes, an appeal has suspensive effect, unless the law or the authority expressly excludes it for reasons of public interest or urgency."},
+                {"q": "What should I do if the decision does not state the legal remedies?",
+                 "a": "The absence or inaccuracy of the notice of legal remedies should in principle cause no prejudice to the recipient, provided they act within a reasonable time as soon as they become aware of the possibility of appealing."},
+                {"q": "Are the appeal rules the same in every canton?",
+                 "a": "No, only decisions of federal authorities fall under the federal Administrative Procedure Act (PA); each canton has its own administrative procedure law, with deadlines and procedures that may differ."},
+            ],
+        },
     },
     "marches-publics-soumissionnaires-evinces": {
         "domaine_id": "droit_administratif",
@@ -2469,6 +2556,87 @@ BLOG_ARTICLES = {
                  "a": "Non, un marché fédéral relève de la loi fédérale sur les marchés publics (LMP), tandis qu'un marché cantonal ou communal relève de l'Accord intercantonal sur les marchés publics (AIMP) et de la loi cantonale d'application, dont les modalités procédurales peuvent différer."},
                 {"q": "Sur quels motifs puis-je contester une adjudication ?",
                  "a": "Notamment le non-respect des critères d'adjudication annoncés, une évaluation incohérente des offres, une exclusion injustifiée, ou une violation des principes de transparence et d'égalité de traitement entre soumissionnaires."},
+            ],
+        },
+        "de": {
+            "slug": "oeffentliches-beschaffungswesen-rechte-abgewiesene-anbieter",
+            "title": "Öffentliches Beschaffungswesen: Rechte abgewiesener Anbieter",
+            "meta": "Zuschlagsverfügung, Beschwerde gegen die Vergabe eines öffentlichen Auftrags, kurze Fristen: was das interkantonale und Bundesrecht vorsehen.",
+            "sections": [
+                {"heading": "Der rechtliche Rahmen", "paragraphs": [
+                    "Das öffentliche Beschaffungswesen in der Schweiz richtet sich, je nach Ebene, nach dem Bundesgesetz über das öffentliche Beschaffungswesen (BöB) für den Bund und nach der Interkantonalen Vereinbarung über das öffentliche Beschaffungswesen (IVöB) sowie den kantonalen Ausführungsgesetzen für Kantone und Gemeinden. Diese Regeln bezwecken namentlich einen transparenten und diskriminierungsfreien Wettbewerb zwischen den Anbietenden.",
+                ]},
+                {"heading": "Die Zuschlagsverfügung", "paragraphs": [
+                    "Die Vergabe des Auftrags an eine anbietende Person erfolgt durch eine Zuschlagsverfügung, die allen am Verfahren Beteiligten eröffnet wird. Diese Verfügung muss die wesentlichen Gründe des Zuschlags sowie die den abgewiesenen Anbietenden offenstehenden Rechtsmittel angeben.",
+                ]},
+                {"heading": "Die Beschwerde gegen den Zuschlag", "paragraphs": [
+                    "Eine abgewiesene anbietende Person kann die Zuschlagsverfügung bei der zuständigen Beschwerdeinstanz (kantonales oder Bundesgericht je nach Ebene des Auftrags) anfechten, in der Regel innert einer besonders kurzen Frist von etwa zehn bis zwanzig Tagen je nach anwendbarem Recht: es ist unerlässlich, die in der Verfügung selbst angegebene genaue Frist unverzüglich zu prüfen.",
+                ]},
+                {"heading": "Die üblichen Beschwerdegründe", "paragraphs": [
+                    "Beschwerden betreffen meist die Nichteinhaltung der angekündigten Zuschlagskriterien, eine widersprüchliche Bewertung der Angebote, einen ungerechtfertigten Ausschluss vom Verfahren, oder eine Verletzung der Grundsätze der Transparenz und der Gleichbehandlung der Anbietenden.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist kann eine abgewiesene anbietende Person Beschwerde erheben?",
+                 "a": "Die Frist ist im öffentlichen Beschaffungswesen besonders kurz, in der Regel etwa zehn bis zwanzig Tage je nach anwendbarem Recht. Es ist unerlässlich, die genaue in der eröffneten Zuschlagsverfügung angegebene Frist zu prüfen."},
+                {"q": "Unterliegen ein kantonaler und ein Bundesauftrag denselben Regeln?",
+                 "a": "Nein, ein Bundesauftrag richtet sich nach dem Bundesgesetz über das öffentliche Beschaffungswesen (BöB), während ein kantonaler oder kommunaler Auftrag der Interkantonalen Vereinbarung über das öffentliche Beschaffungswesen (IVöB) und dem kantonalen Ausführungsgesetz unterliegt, deren Verfahrensmodalitäten abweichen können."},
+                {"q": "Aus welchen Gründen kann ich einen Zuschlag anfechten?",
+                 "a": "Namentlich wegen Nichteinhaltung der angekündigten Zuschlagskriterien, widersprüchlicher Bewertung der Angebote, ungerechtfertigtem Ausschluss, oder Verletzung der Grundsätze der Transparenz und Gleichbehandlung der Anbietenden."},
+            ],
+        },
+        "it": {
+            "slug": "appalti-pubblici-diritti-offerenti-esclusi",
+            "title": "Appalti pubblici: diritti degli offerenti esclusi",
+            "meta": "Decisione di aggiudicazione, ricorso contro l'attribuzione di un appalto pubblico, termini brevi: quanto previsto dal diritto intercantonale e federale.",
+            "sections": [
+                {"heading": "Il quadro legale", "paragraphs": [
+                    "Gli appalti pubblici in Svizzera sono disciplinati, a seconda del livello, dalla legge federale sugli appalti pubblici per la Confederazione, e dal Concordato intercantonale sugli appalti pubblici e dalle leggi cantonali di applicazione per i Cantoni e i Comuni. Queste regole mirano in particolare a garantire una concorrenza trasparente e non discriminatoria tra gli offerenti.",
+                ]},
+                {"heading": "La decisione di aggiudicazione", "paragraphs": [
+                    "L'attribuzione dell'appalto a un offerente è oggetto di una decisione di aggiudicazione, notificata a tutti i partecipanti alla procedura. Questa decisione deve indicare i motivi essenziali dell'attribuzione e le vie di ricorso aperte agli offerenti esclusi.",
+                ]},
+                {"heading": "Il ricorso contro l'aggiudicazione", "paragraphs": [
+                    "Un offerente escluso può contestare la decisione di aggiudicazione davanti all'autorità di ricorso competente (tribunale cantonale o federale a seconda del livello dell'appalto), generalmente entro un termine particolarmente breve, dell'ordine di dieci-venti giorni a seconda della legislazione applicabile: è essenziale verificare senza indugio il termine esatto indicato nella decisione stessa.",
+                ]},
+                {"heading": "I motivi di ricorso usuali", "paragraphs": [
+                    "I ricorsi riguardano più spesso il mancato rispetto dei criteri di aggiudicazione annunciati, una valutazione incoerente delle offerte, un'esclusione ingiustificata dalla procedura, o una violazione dei principi di trasparenza e parità di trattamento tra offerenti.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine un offerente escluso può ricorrere?",
+                 "a": "Il termine è particolarmente breve in materia di appalti pubblici, generalmente dell'ordine di dieci-venti giorni a seconda della legislazione applicabile. È essenziale verificare il termine esatto indicato nella decisione di aggiudicazione notificata."},
+                {"q": "Un appalto cantonale e un appalto federale seguono le stesse regole?",
+                 "a": "No, un appalto federale rientra nella legge federale sugli appalti pubblici, mentre un appalto cantonale o comunale rientra nel Concordato intercantonale sugli appalti pubblici e nella legge cantonale di applicazione, le cui modalità procedurali possono differire."},
+                {"q": "Su quali motivi posso contestare un'aggiudicazione?",
+                 "a": "In particolare il mancato rispetto dei criteri di aggiudicazione annunciati, una valutazione incoerente delle offerte, un'esclusione ingiustificata, o una violazione dei principi di trasparenza e parità di trattamento tra offerenti."},
+            ],
+        },
+        "en": {
+            "slug": "public-procurement-rights-unsuccessful-bidders",
+            "title": "Public procurement: rights of unsuccessful bidders",
+            "meta": "Award decision, appeal against a public contract award, short deadlines: what intercantonal and federal law provide.",
+            "sections": [
+                {"heading": "The legal framework", "paragraphs": [
+                    "Public procurement in Switzerland is governed, depending on the level, by the federal Public Procurement Act for the Confederation, and by the Intercantonal Agreement on Public Procurement and cantonal implementing laws for cantons and municipalities. These rules aim in particular to ensure transparent, non-discriminatory competition among bidders.",
+                ]},
+                {"heading": "The award decision", "paragraphs": [
+                    "The award of a contract to a bidder is the subject of an award decision, notified to all participants in the procedure. This decision must state the essential grounds for the award and the legal remedies available to unsuccessful bidders.",
+                ]},
+                {"heading": "Appealing the award", "paragraphs": [
+                    "An unsuccessful bidder can challenge the award decision before the competent appeal authority (cantonal or federal court depending on the level of the contract), generally within a particularly short deadline, on the order of ten to twenty days depending on the applicable legislation: it is essential to check the exact deadline stated in the decision itself without delay.",
+                ]},
+                {"heading": "Common grounds for appeal", "paragraphs": [
+                    "Appeals most often concern failure to comply with the announced award criteria, inconsistent evaluation of bids, unjustified exclusion from the procedure, or a violation of the principles of transparency and equal treatment of bidders.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline can an unsuccessful bidder appeal?",
+                 "a": "The deadline is particularly short in public procurement matters, generally on the order of ten to twenty days depending on the applicable legislation. It is essential to check the exact deadline stated in the notified award decision."},
+                {"q": "Do a cantonal contract and a federal contract follow the same rules?",
+                 "a": "No, a federal contract falls under the federal Public Procurement Act, while a cantonal or municipal contract falls under the Intercantonal Agreement on Public Procurement and the cantonal implementing law, whose procedural details may differ."},
+                {"q": "On what grounds can I challenge an award?",
+                 "a": "In particular failure to comply with the announced award criteria, inconsistent evaluation of bids, unjustified exclusion, or a violation of the principles of transparency and equal treatment of bidders."},
             ],
         },
     },
@@ -2502,6 +2670,87 @@ BLOG_ARTICLES = {
                  "a": "Dans certains cas, oui, si les conditions d'octroi d'un permis B sont remplies avant l'échéance du permis L, mais cela n'est pas automatique et dépend de la situation individuelle et de la pratique de l'autorité migratoire cantonale."},
             ],
         },
+        "de": {
+            "slug": "aufenthaltsbewilligung-b-c-l-voraussetzungen-unterschiede",
+            "title": "Aufenthaltsbewilligung B, C, L: Voraussetzungen",
+            "meta": "Kurzaufenthaltsbewilligung, Aufenthaltsbewilligung, Niederlassungsbewilligung: die verschiedenen im Ausländer- und Integrationsgesetz vorgesehenen Bewilligungen.",
+            "sections": [
+                {"heading": "Der Ausweis L, die Kurzaufenthaltsbewilligung", "paragraphs": [
+                    "Der Ausweis L wird für einen befristeten Aufenthalt erteilt, meist im Zusammenhang mit einem befristeten Arbeitsvertrag oder einem spezifischen, vorübergehenden Zweck. Seine Gültigkeitsdauer ist grundsätzlich auf ein Jahr beschränkt, mit Verlängerungsmöglichkeit innerhalb bestimmter Grenzen gemäss dem Ausländer- und Integrationsgesetz (AIG).",
+                ]},
+                {"heading": "Der Ausweis B, die Aufenthaltsbewilligung", "paragraphs": [
+                    "Der Ausweis B wird für einen längeren Aufenthalt erteilt, meist im Rahmen einer Erwerbstätigkeit, eines Studiums, oder eines Familiennachzugs. Seine anfängliche Gültigkeitsdauer beträgt grundsätzlich ein Jahr, erneuerbar je nach Fortbestand der Erteilungsvoraussetzungen, mit unterschiedlichen Regeln, je nachdem ob die Inhaberin oder der Inhaber Staatsangehörige oder Staatsangehöriger eines EU/EFTA-Staates oder eines Drittstaates ist.",
+                ]},
+                {"heading": "Der Ausweis C, die Niederlassungsbewilligung", "paragraphs": [
+                    "Der Ausweis C verleiht ein stabiles und unbefristetes Aufenthaltsrecht, mit einem Zugang zu den meisten Erwerbstätigkeiten, der grundsätzlich jenem der Schweizer Staatsangehörigen entspricht. Er wird grundsätzlich nach einer vorangehenden ununterbrochenen Aufenthaltsdauer in der Schweiz erteilt, deren Länge je nach Staatsangehörigkeit der Gesuchstellerin oder des Gesuchstellers und dem Bestehen bilateraler Abkommen variiert, vorbehältlich einer Integrationsprüfung.",
+                ]},
+                {"heading": "Die Erneuerung und die Aufrechterhaltungsvoraussetzungen", "paragraphs": [
+                    "Die Aufrechterhaltung eines Ausweises B oder L hängt von der fortlaufenden Einhaltung der Erteilungsvoraussetzungen ab (Erwerbstätigkeit, ausreichende Mittel, Fehlen von Widerrufsgründen wie dauerhafte Sozialhilfeabhängigkeit oder schwere Gefährdung der Sicherheit und öffentlichen Ordnung). Auch ein Ausweis C kann in gesetzlich vorgesehenen schwerwiegenden Fällen widerrufen werden.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Was ist der Hauptunterschied zwischen Ausweis B und Ausweis C?",
+                 "a": "Der Ausweis B ist eine erneuerbare Aufenthaltsbewilligung, die an die fortlaufende Einhaltung der Erteilungsvoraussetzungen gebunden ist, während der Ausweis C eine unbefristete Niederlassungsbewilligung ist, die mehr Stabilität und einen grundsätzlich den Schweizer Staatsangehörigen gleichgestellten Zugang zu den meisten Erwerbstätigkeiten bietet."},
+                {"q": "Wie lange dauert es, um den Ausweis C zu erhalten?",
+                 "a": "Dies hängt von der Staatsangehörigkeit der Gesuchstellerin oder des Gesuchstellers und den anwendbaren bilateralen Abkommen ab: die erforderlichen vorangehenden Aufenthaltsdauern variieren erheblich je nach Situation. Es empfiehlt sich, die genaue Situation bei der zuständigen kantonalen Migrationsbehörde zu prüfen."},
+                {"q": "Kann ein Ausweis L in einen Ausweis B umgewandelt werden?",
+                 "a": "In bestimmten Fällen ja, wenn die Erteilungsvoraussetzungen für einen Ausweis B vor Ablauf des Ausweises L erfüllt sind, doch dies erfolgt nicht automatisch und hängt von der individuellen Situation und der Praxis der zuständigen kantonalen Migrationsbehörde ab."},
+            ],
+        },
+        "it": {
+            "slug": "permesso-soggiorno-b-c-l-condizioni-differenze",
+            "title": "Permesso di soggiorno B, C, L: condizioni",
+            "meta": "Permesso di dimora di breve durata, permesso di dimora annuale, permesso di domicilio: i diversi permessi previsti dalla legge sugli stranieri e la loro integrazione.",
+            "sections": [
+                {"heading": "Il permesso L, dimora di breve durata", "paragraphs": [
+                    "Il permesso L viene rilasciato per un soggiorno di durata limitata, generalmente legato a un contratto di lavoro di breve durata o a uno scopo specifico e temporaneo. La sua durata di validità è in linea di principio limitata a un anno, con possibilità di proroga entro determinati limiti secondo la legge federale sugli stranieri e la loro integrazione (LStrI).",
+                ]},
+                {"heading": "Il permesso B, dimora annuale", "paragraphs": [
+                    "Il permesso B viene rilasciato per un soggiorno di più lunga durata, generalmente nell'ambito di un'attività lucrativa, di studi, o di un ricongiungimento familiare. La sua durata di validità iniziale è in linea di principio di un anno, rinnovabile secondo il mantenimento delle condizioni di rilascio, con regole diverse a seconda che il titolare sia cittadino UE/AELS o di uno Stato terzo.",
+                ]},
+                {"heading": "Il permesso C, domicilio", "paragraphs": [
+                    "Il permesso C conferisce un diritto di soggiorno stabile e a tempo indeterminato, con un accesso in linea di principio equivalente a quello dei cittadini svizzeri per la maggior parte delle attività economiche. È in linea di principio concesso dopo un periodo di soggiorno preliminare ininterrotto in Svizzera, la cui durata varia secondo la nazionalità del richiedente e l'esistenza di accordi bilaterali, con riserva di un esame dell'integrazione.",
+                ]},
+                {"heading": "Il rinnovo e le condizioni di mantenimento", "paragraphs": [
+                    "Il mantenimento di un permesso B o L dipende dal rispetto continuo delle condizioni di rilascio (attività lucrativa, mezzi di sussistenza sufficienti, assenza di motivi di revoca come una dipendenza duratura dall'aiuto sociale o una minaccia grave alla sicurezza e all'ordine pubblici). Anche un permesso C può essere revocato in casi gravi previsti dalla legge.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qual è la differenza principale tra il permesso B e il permesso C?",
+                 "a": "Il permesso B è un'autorizzazione di soggiorno rinnovabile, soggetta al mantenimento delle condizioni di rilascio, mentre il permesso C è un'autorizzazione di domicilio a tempo indeterminato, che offre maggiore stabilità e un accesso in linea di principio equivalente a quello dei cittadini svizzeri per la maggior parte delle attività economiche."},
+                {"q": "Quanto tempo occorre per ottenere il permesso C?",
+                 "a": "Ciò dipende dalla nazionalità del richiedente e dagli accordi bilaterali applicabili: le durate di soggiorno preliminare richieste variano notevolmente a seconda delle situazioni. Conviene verificare la propria situazione precisa presso l'autorità cantonale della migrazione competente."},
+                {"q": "Un permesso L può essere trasformato in permesso B?",
+                 "a": "In alcuni casi sì, se le condizioni di rilascio di un permesso B sono soddisfatte prima della scadenza del permesso L, ma ciò non è automatico e dipende dalla situazione individuale e dalla prassi dell'autorità cantonale della migrazione."},
+            ],
+        },
+        "en": {
+            "slug": "residence-permit-b-c-l-conditions-differences",
+            "title": "Residence permits B, C, L: conditions and differences",
+            "meta": "Short-term residence permit, residence permit, settlement permit: the different permits provided by the Foreign Nationals and Integration Act.",
+            "sections": [
+                {"heading": "Permit L, short-term residence", "paragraphs": [
+                    "Permit L is issued for a limited period of residence, usually linked to a short-term employment contract or a specific, temporary purpose. Its validity is in principle limited to one year, with the possibility of extension within certain limits under the Foreign Nationals and Integration Act (FNIA).",
+                ]},
+                {"heading": "Permit B, residence permit", "paragraphs": [
+                    "Permit B is issued for a longer stay, usually as part of gainful employment, studies, or family reunification. Its initial validity is in principle one year, renewable subject to the continued fulfilment of the conditions for issue, with different rules depending on whether the holder is a national of an EU/EFTA state or a third country.",
+                ]},
+                {"heading": "Permit C, settlement permit", "paragraphs": [
+                    "Permit C confers a stable, indefinite right of residence, with access in principle equivalent to that of Swiss nationals for most economic activities. It is in principle granted after a prior uninterrupted period of residence in Switzerland, the length of which varies according to the applicant's nationality and the existence of bilateral agreements, subject to an integration assessment.",
+                ]},
+                {"heading": "Renewal and conditions for maintaining the permit", "paragraphs": [
+                    "Maintaining a permit B or L depends on the continued fulfilment of the conditions for issue (gainful employment, sufficient means, absence of grounds for revocation such as lasting dependence on social assistance or a serious threat to security and public order). A permit C can also be revoked in serious cases provided by law.",
+                ]},
+            ],
+            "faq": [
+                {"q": "What is the main difference between permit B and permit C?",
+                 "a": "Permit B is a renewable residence permit, subject to the continued fulfilment of the conditions for issue, while permit C is an indefinite settlement permit, offering greater stability and access in principle equivalent to that of Swiss nationals for most economic activities."},
+                {"q": "How long does it take to obtain permit C?",
+                 "a": "This depends on the applicant's nationality and the applicable bilateral agreements: the required prior periods of residence vary considerably depending on the situation. It is advisable to check your specific situation with the competent cantonal migration authority."},
+                {"q": "Can a permit L be converted into a permit B?",
+                 "a": "In certain cases yes, if the conditions for issuing a permit B are met before the permit L expires, but this is not automatic and depends on the individual situation and the practice of the competent cantonal migration authority."},
+            ],
+        },
     },
     "regroupement-familial-faire-venir-famille": {
         "domaine_id": "droit_etrangers",
@@ -2531,6 +2780,87 @@ BLOG_ARTICLES = {
                  "a": "Oui, la loi fixe des délais après l'octroi de l'autorisation du regroupant ou après le mariage ou la naissance de l'enfant. Passé ce délai, le regroupement n'est possible qu'en présence de raisons familiales majeures reconnues par la loi."},
                 {"q": "Les conditions sont-elles les mêmes pour un ressortissant de l'UE et d'un État tiers ?",
                  "a": "Non, les ressortissants de l'UE/AELE bénéficient de règles plus favorables découlant de l'accord sur la libre circulation des personnes, avec un cercle de personnes regroupables plus large que celui prévu par la LEI pour les États tiers."},
+            ],
+        },
+        "de": {
+            "slug": "familiennachzug-familie-schweiz-nachholen",
+            "title": "Familiennachzug: die Familie in die Schweiz holen",
+            "meta": "Voraussetzungen des Familiennachzugs für Ehepartner und Kinder, gesetzliche Fristen: was das Ausländer- und Integrationsgesetz vorsieht.",
+            "sections": [
+                {"heading": "Die betroffenen Personen", "paragraphs": [
+                    "Art. 42-52 AIG regeln den Familiennachzug für die Ehegattin oder den Ehegatten, die eingetragene Partnerin oder den eingetragenen Partner sowie ledige Kinder unter 18 Jahren einer Schweizer Staatsangehörigen oder eines Schweizer Staatsangehörigen, einer Inhaberin oder eines Inhabers einer Niederlassungsbewilligung (Ausweis C) oder einer Aufenthaltsbewilligung (Ausweis B), mit Voraussetzungen, die je nach Status der nachziehenden Person variieren.",
+                ]},
+                {"heading": "Die allgemeinen Voraussetzungen", "paragraphs": [
+                    "Der Familiennachzug setzt grundsätzlich eine angemessene Wohnung, das Fehlen einer Sozialhilfeabhängigkeit sowie für bestimmte Kategorien die Einhaltung gesetzlicher Fristen für die Gesuchseinreichung nach Erteilung der Bewilligung der nachziehenden Person voraus. Je nach betroffenem Status können auch sprachliche Anforderungen gelten.",
+                ]},
+                {"heading": "Die Frist zur Gesuchseinreichung", "paragraphs": [
+                    "Das Gesetz sieht Fristen vor, innerhalb derer das Familiennachzugsgesuch nach Erteilung der Aufenthalts- oder Niederlassungsbewilligung der nachziehenden Person eingereicht werden muss, oder nach der Heirat oder Geburt des Kindes, falls diese Ereignisse später eintreten. Nach Ablauf dieser Fristen ist der Familiennachzug nur noch bei Vorliegen wichtiger familiärer Gründe gemäss Gesetz möglich.",
+                ]},
+                {"heading": "Der Familiennachzug für EU/EFTA-Staatsangehörige", "paragraphs": [
+                    "Staatsangehörige der EU/EFTA profitieren von günstigeren Familiennachzugsregeln, die sich aus dem Freizügigkeitsabkommen ergeben, mit einem grösseren Kreis nachzugsberechtigter Personen als jenem, den das AIG für Staatsangehörige von Drittstaaten vorsieht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wer kann in der Schweiz vom Familiennachzug profitieren?",
+                 "a": "Die Ehegattin oder der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner sowie ledige Kinder unter 18 Jahren einer Schweizer Staatsangehörigen oder eines Schweizer Staatsangehörigen oder einer ausländischen Person mit Aufenthalts- oder Niederlassungsbewilligung, gemäss den Voraussetzungen der Art. 42-52 AIG."},
+                {"q": "Gibt es eine Frist zur Beantragung des Familiennachzugs?",
+                 "a": "Ja, das Gesetz setzt Fristen nach Erteilung der Bewilligung der nachziehenden Person oder nach der Heirat oder Geburt des Kindes. Nach Ablauf dieser Frist ist der Nachzug nur bei Vorliegen wichtiger familiärer Gründe gemäss Gesetz möglich."},
+                {"q": "Gelten für EU-Staatsangehörige und Drittstaatsangehörige dieselben Voraussetzungen?",
+                 "a": "Nein, EU/EFTA-Staatsangehörige profitieren von günstigeren Regeln aus dem Freizügigkeitsabkommen, mit einem grösseren Kreis nachzugsberechtigter Personen als jenem, den das AIG für Drittstaaten vorsieht."},
+            ],
+        },
+        "it": {
+            "slug": "ricongiungimento-familiare-far-venire-famiglia-svizzera",
+            "title": "Ricongiungimento familiare: far venire la famiglia",
+            "meta": "Condizioni del ricongiungimento familiare per il coniuge e i figli, termini legali: quanto previsto dalla legge sugli stranieri e la loro integrazione.",
+            "sections": [
+                {"heading": "Le persone interessate", "paragraphs": [
+                    "Gli art. 42-52 LStrI disciplinano il ricongiungimento familiare per il coniuge, il partner registrato e i figli celibi o nubili di meno di 18 anni di un cittadino svizzero, di un titolare di un permesso di domicilio (permesso C) o di un permesso di dimora (permesso B), con condizioni che variano secondo lo status della persona che chiede il ricongiungimento.",
+                ]},
+                {"heading": "Le condizioni generali", "paragraphs": [
+                    "Il ricongiungimento familiare presuppone in linea di principio l'esistenza di un alloggio adeguato, l'assenza di dipendenza dall'aiuto sociale, e per determinate categorie, il rispetto di termini legali per presentare la domanda dopo il rilascio dell'autorizzazione della persona che chiede il ricongiungimento. Possono applicarsi anche requisiti linguistici a seconda dello status interessato.",
+                ]},
+                {"heading": "Il termine per presentare la domanda", "paragraphs": [
+                    "La legge prevede termini entro i quali la domanda di ricongiungimento familiare deve essere presentata dopo il rilascio dell'autorizzazione di soggiorno o di domicilio della persona che chiede il ricongiungimento, o dopo il matrimonio o la nascita del figlio se questi eventi sono posteriori. Trascorsi questi termini, il ricongiungimento è possibile solo in presenza di gravi motivi familiari riconosciuti dalla legge.",
+                ]},
+                {"heading": "Il ricongiungimento familiare dei cittadini UE/AELS", "paragraphs": [
+                    "I cittadini dell'UE/AELS beneficiano di regole di ricongiungimento familiare più favorevoli derivanti dall'accordo sulla libera circolazione delle persone, con una cerchia di persone ricongiungibili più ampia di quella prevista dalla LStrI per i cittadini di Stati terzi.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Chi può beneficiare del ricongiungimento familiare in Svizzera?",
+                 "a": "Il coniuge, il partner registrato e i figli celibi o nubili di meno di 18 anni di un cittadino svizzero o di uno straniero titolare di un permesso di dimora o di domicilio, secondo le condizioni degli art. 42-52 LStrI."},
+                {"q": "Esiste un termine per chiedere il ricongiungimento familiare?",
+                 "a": "Sì, la legge fissa termini dopo il rilascio dell'autorizzazione della persona che chiede il ricongiungimento o dopo il matrimonio o la nascita del figlio. Trascorso questo termine, il ricongiungimento è possibile solo in presenza di gravi motivi familiari riconosciuti dalla legge."},
+                {"q": "Le condizioni sono le stesse per un cittadino UE e uno di uno Stato terzo?",
+                 "a": "No, i cittadini dell'UE/AELS beneficiano di regole più favorevoli derivanti dall'accordo sulla libera circolazione delle persone, con una cerchia di persone ricongiungibili più ampia di quella prevista dalla LStrI per gli Stati terzi."},
+            ],
+        },
+        "en": {
+            "slug": "family-reunification-bringing-family-switzerland",
+            "title": "Family reunification: bringing your family to Switzerland",
+            "meta": "Conditions for family reunification of a spouse and children, statutory deadlines: what the Foreign Nationals and Integration Act provides.",
+            "sections": [
+                {"heading": "Who is covered", "paragraphs": [
+                    "Art. 42-52 FNIA govern family reunification for the spouse, registered partner, and unmarried children under 18 of a Swiss national, a holder of a settlement permit (permit C), or a holder of a residence permit (permit B), with conditions that vary according to the status of the sponsoring person.",
+                ]},
+                {"heading": "The general conditions", "paragraphs": [
+                    "Family reunification in principle requires suitable housing, no dependence on social assistance, and for certain categories, compliance with statutory deadlines for filing the application after the sponsor's permit is issued. Language requirements may also apply depending on the status concerned.",
+                ]},
+                {"heading": "The deadline to file the application", "paragraphs": [
+                    "The law sets deadlines within which the family reunification application must be filed after the sponsor's residence or settlement permit is issued, or after the marriage or birth of the child if these events occur later. After these deadlines, reunification is only possible where important family reasons recognised by law exist.",
+                ]},
+                {"heading": "Family reunification for EU/EFTA nationals", "paragraphs": [
+                    "EU/EFTA nationals benefit from more favourable family reunification rules arising from the agreement on the free movement of persons, with a broader circle of persons eligible for reunification than that provided for third-country nationals under the FNIA.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Who can benefit from family reunification in Switzerland?",
+                 "a": "The spouse, registered partner, and unmarried children under 18 of a Swiss national or of a foreign national holding a residence or settlement permit, under the conditions of art. 42-52 FNIA."},
+                {"q": "Is there a deadline to apply for family reunification?",
+                 "a": "Yes, the law sets deadlines after the sponsor's permit is issued or after the marriage or birth of the child. After this deadline, reunification is only possible where important family reasons recognised by law exist."},
+                {"q": "Are the conditions the same for an EU national and a third-country national?",
+                 "a": "No, EU/EFTA nationals benefit from more favourable rules arising from the agreement on the free movement of persons, with a broader circle of persons eligible for reunification than that provided for third countries under the FNIA."},
             ],
         },
     },
@@ -2564,6 +2894,87 @@ BLOG_ARTICLES = {
                  "a": "Il reste tenu, selon l'art. 324a CO, de verser le salaire pendant un temps limité en cas d'incapacité de travail sans faute du travailleur, la durée dépendant de l'ancienneté et de l'échelle cantonale applicable."},
             ],
         },
+        "de": {
+            "slug": "krankentaggeldversicherung-rechte-wartefrist",
+            "title": "Krankentaggeldversicherung: Rechte und Wartefrist",
+            "meta": "Fakultative, dem VVG unterstehende Versicherung, Wartefrist, Leistungsdauer: was Sie zum Krankentaggeld wissen müssen.",
+            "sections": [
+                {"heading": "Eine Versicherung vertraglicher Natur", "paragraphs": [
+                    "Im Gegensatz zur obligatorischen Krankenpflegeversicherung ist die Krankentaggeldversicherung in der Schweiz für Arbeitnehmende auf Bundesebene nicht obligatorisch, ausser eine anwendbare Gesamtarbeitsvertrag oder der Einzelarbeitsvertrag sieht dies vor. Sofern sie besteht, untersteht sie meist dem Bundesgesetz über den Versicherungsvertrag (VVG), was sie von den durch das ATSG geregelten Sozialversicherungen unterscheidet.",
+                ]},
+                {"heading": "Die Wartefrist", "paragraphs": [
+                    "Die Wartefrist ist der im Versicherungsvertrag festgelegte Zeitraum, während dem nach Beginn der Arbeitsunfähigkeit keine Leistung ausgerichtet wird. Ihre Dauer variiert je nach Vertrag, in der Regel von wenigen Tagen bis mehreren Wochen: massgebend sind die allgemeinen Vertragsbedingungen des jeweiligen Vertrags.",
+                ]},
+                {"heading": "Die Leistungsdauer", "paragraphs": [
+                    "Die Dauer, während der das Taggeld ausgerichtet wird, wird ebenfalls durch den Vertrag festgelegt, meist begrenzt auf eine Höchstdauer von mehreren Monaten bis wenigen Jahren je nach abgeschlossenem Versicherungsprodukt. Diese Dauer steht im Zusammenhang mit der gesetzlichen Lohnfortzahlungspflicht des Arbeitgebers, falls keine solche Versicherung besteht (Art. 324a OR).",
+                ]},
+                {"heading": "Das Zusammenspiel mit der gesetzlichen Pflicht des Arbeitgebers", "paragraphs": [
+                    "Ohne Krankentaggeldversicherung bleibt der Arbeitgeber verpflichtet, den Lohn während begrenzter Zeit bei unverschuldeter Arbeitsverhinderung weiterzuzahlen (Art. 324a OR), wobei die Dauer von der Dienstdauer abhängt und je nach den üblichen kantonalen Skalen (Berner, Basler oder Zürcher Skala je nach Kanton) variiert.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Ist die Krankentaggeldversicherung obligatorisch?",
+                 "a": "Sie ist auf Bundesebene für Arbeitnehmende grundsätzlich nicht obligatorisch, ausser ein anwendbarer Gesamtarbeitsvertrag oder der Einzelarbeitsvertrag sieht dies vor."},
+                {"q": "Was ist die Wartefrist?",
+                 "a": "Der im Versicherungsvertrag festgelegte Zeitraum, während dem nach Beginn der Arbeitsunfähigkeit keine Entschädigung ausgerichtet wird. Ihre Dauer hängt vollständig von den abgeschlossenen Vertragsbedingungen ab."},
+                {"q": "Was geschieht, wenn mein Arbeitgeber keine Krankentaggeldversicherung abgeschlossen hat?",
+                 "a": "Er bleibt gemäss Art. 324a OR verpflichtet, den Lohn während begrenzter Zeit bei unverschuldeter Arbeitsunfähigkeit weiterzuzahlen, wobei die Dauer von der Dienstdauer und der anwendbaren kantonalen Skala abhängt."},
+            ],
+        },
+        "it": {
+            "slug": "assicurazione-indennita-perdita-guadagno-malattia-termine-attesa",
+            "title": "Assicurazione perdita di guadagno malattia: diritti e attesa",
+            "meta": "Assicurazione facoltativa disciplinata dalla LCA, termine di attesa, durata delle prestazioni: quanto occorre sapere sull'indennità di malattia.",
+            "sections": [
+                {"heading": "Un'assicurazione di natura contrattuale", "paragraphs": [
+                    "A differenza dell'assicurazione malattia di base, l'assicurazione d'indennità giornaliera in caso di malattia non è in Svizzera obbligatoria per i dipendenti a livello federale, salvo obbligo previsto da un contratto collettivo di lavoro o da un contratto individuale. Quando esiste, rientra il più delle volte nella legge federale sul contratto d'assicurazione (LCA), il che la distingue dalle assicurazioni sociali disciplinate dalla LPGA.",
+                ]},
+                {"heading": "Il termine di attesa", "paragraphs": [
+                    "Il termine di attesa è il periodo, definito dal contratto d'assicurazione, durante il quale nessuna prestazione viene versata dopo l'inizio dell'incapacità lavorativa. La sua durata varia a seconda dei contratti, generalmente da alcuni giorni a diverse settimane: occorre riferirsi alle condizioni generali del contratto interessato per conoscere il termine applicabile.",
+                ]},
+                {"heading": "La durata delle prestazioni", "paragraphs": [
+                    "La durata durante la quale l'indennità giornaliera viene versata è anch'essa fissata dal contratto, il più delle volte limitata a una durata massima di diversi mesi fino a qualche anno a seconda del prodotto assicurativo sottoscritto. Questa durata si articola con l'obbligo di mantenimento del salario da parte del datore di lavoro previsto dall'art. 324a CO in assenza di tale assicurazione.",
+                ]},
+                {"heading": "L'articolazione con l'obbligo legale del datore di lavoro", "paragraphs": [
+                    "In assenza di assicurazione d'indennità giornaliera per malattia, il datore di lavoro resta tenuto a versare il salario per un tempo limitato in caso di impedimento al lavoro senza colpa del lavoratore (art. 324a CO), con una durata che dipende dall'anzianità e varia secondo le scale cantonali usuali.",
+                ]},
+            ],
+            "faq": [
+                {"q": "L'assicurazione d'indennità per perdita di guadagno malattia è obbligatoria?",
+                 "a": "In linea di principio non è obbligatoria a livello federale per i dipendenti, salvo se un contratto collettivo di lavoro applicabile o il contratto di lavoro individuale lo prevede."},
+                {"q": "Cos'è il termine di attesa?",
+                 "a": "Il periodo, fissato dal contratto d'assicurazione, durante il quale nessuna indennità viene versata dopo l'inizio dell'incapacità lavorativa. La sua durata dipende interamente dalle condizioni contrattuali sottoscritte."},
+                {"q": "Cosa succede se il mio datore di lavoro non ha sottoscritto un'assicurazione d'indennità giornaliera?",
+                 "a": "Resta tenuto, secondo l'art. 324a CO, a versare il salario per un tempo limitato in caso di incapacità lavorativa senza colpa del lavoratore, con una durata che dipende dall'anzianità e dalla scala cantonale applicabile."},
+            ],
+        },
+        "en": {
+            "slug": "sickness-daily-allowance-insurance-waiting-period",
+            "title": "Sickness daily allowance insurance: rights and waiting period",
+            "meta": "Optional insurance governed by the ICA, waiting period, duration of benefits: what to know about sickness daily allowance insurance.",
+            "sections": [
+                {"heading": "An insurance of a contractual nature", "paragraphs": [
+                    "Unlike basic health insurance, sickness daily allowance insurance is not mandatory for employees at federal level in Switzerland, unless required by an applicable collective bargaining agreement or an individual employment contract. Where it exists, it most often falls under the federal Insurance Contract Act (ICA), which distinguishes it from social insurance governed by the ATSG.",
+                ]},
+                {"heading": "The waiting period", "paragraphs": [
+                    "The waiting period is the time, defined by the insurance contract, during which no benefit is paid after the start of incapacity for work. Its duration varies from contract to contract, generally from a few days to several weeks: the general terms and conditions of the specific contract must be checked to find the applicable period.",
+                ]},
+                {"heading": "The duration of benefits", "paragraphs": [
+                    "The period during which the daily allowance is paid is also set by the contract, most often limited to a maximum period of several months up to a few years depending on the insurance product taken out. This period interacts with the employer's statutory duty to continue paying salary under art. 324a CO in the absence of such insurance.",
+                ]},
+                {"heading": "Interaction with the employer's statutory duty", "paragraphs": [
+                    "In the absence of sickness daily allowance insurance, the employer remains obliged to pay salary for a limited time in the event of incapacity for work through no fault of the employee (art. 324a CO), with the duration depending on seniority and varying according to the usual cantonal scales.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Is sickness daily allowance insurance mandatory?",
+                 "a": "It is in principle not mandatory at federal level for employees, unless an applicable collective bargaining agreement or the individual employment contract requires it."},
+                {"q": "What is the waiting period?",
+                 "a": "The period, set by the insurance contract, during which no allowance is paid after the start of incapacity for work. Its duration depends entirely on the contractual terms taken out."},
+                {"q": "What happens if my employer has not taken out sickness daily allowance insurance?",
+                 "a": "They remain obliged, under art. 324a CO, to pay salary for a limited time in the event of incapacity for work through no fault of the employee, with the duration depending on seniority and the applicable cantonal scale."},
+            ],
+        },
     },
     "contester-decision-assurance-invalidite": {
         "domaine_id": "droit_assurances",
@@ -2593,6 +3004,87 @@ BLOG_ARTICLES = {
                  "a": "L'office AI réexamine le dossier et rend une décision sur opposition, qui peut confirmer, modifier ou annuler la décision initiale. Cette nouvelle décision peut ensuite être portée devant le tribunal cantonal des assurances."},
                 {"q": "Pourquoi les expertises médicales sont-elles si importantes dans ces procédures ?",
                  "a": "Parce que les décisions de l'AI reposent très largement sur elles pour évaluer le taux d'invalidité et la capacité de travail résiduelle. Contester une décision suppose souvent de discuter la valeur probante de ces expertises."},
+            ],
+        },
+        "de": {
+            "slug": "iv-entscheid-anfechten",
+            "title": "Einen Entscheid der Invalidenversicherung anfechten",
+            "meta": "Einsprache innert 30 Tagen, Beschwerde beim kantonalen Versicherungsgericht: das Verfahren zur Anfechtung eines IV-Entscheids.",
+            "sections": [
+                {"heading": "Der Vorbescheid und die Verfügung", "paragraphs": [
+                    "Die IV-Stelle stellt in der Regel einen Vorbescheid zu, der es der versicherten Person erlaubt, vor dem endgültigen Entscheid ihre Einwände geltend zu machen. Ist die Verfügung einmal erlassen, gibt sie die zu ihrer Anfechtung verfügbaren Rechtsmittel an.",
+                ]},
+                {"heading": "Die Einsprache", "paragraphs": [
+                    "Die versicherte Person, die einen IV-Entscheid anficht, kann innert 30 Tagen nach dessen Eröffnung schriftlich Einsprache erheben (Art. 52 ATSG), unter Darlegung der Gründe ihrer Beanstandung. Die IV-Stelle prüft das Dossier daraufhin erneut und erlässt einen Einspracheentscheid, der die ursprüngliche Verfügung bestätigen, ändern oder aufheben kann.",
+                ]},
+                {"heading": "Die Beschwerde beim kantonalen Versicherungsgericht", "paragraphs": [
+                    "Befriedigt der Einspracheentscheid die versicherte Person nicht, kann sie ihn beim zuständigen kantonalen Versicherungsgericht anfechten, innert einer Frist von 30 Tagen ab dessen Eröffnung. Eine spätere Beschwerde ans Bundesgericht bleibt unter den allgemeinen Voraussetzungen der Beschwerde in öffentlich-rechtlichen Angelegenheiten möglich.",
+                ]},
+                {"heading": "Die Bedeutung medizinischer Gutachten", "paragraphs": [
+                    "IV-Entscheide stützen sich sehr weitgehend auf medizinische Gutachten. Einen Entscheid anzufechten bedeutet häufig, den Beweiswert dieser Gutachten zu diskutieren, gegebenenfalls durch Vorlage einer gegenteiligen ärztlichen Stellungnahme oder durch Beantragung eines Gegengutachtens, weshalb die Begleitung durch eine spezialisierte Anwältin oder einen spezialisierten Anwalt in diesen Verfahren besonders nützlich ist.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist kann ich gegen einen IV-Entscheid Einsprache erheben?",
+                 "a": "Innert 30 Tagen nach dessen Eröffnung, durch eine schriftliche und begründete Einsprache an die IV-Stelle (Art. 52 ATSG)."},
+                {"q": "Was geschieht nach einer Einsprache?",
+                 "a": "Die IV-Stelle prüft das Dossier erneut und erlässt einen Einspracheentscheid, der die ursprüngliche Verfügung bestätigen, ändern oder aufheben kann. Dieser neue Entscheid kann anschliessend beim kantonalen Versicherungsgericht angefochten werden."},
+                {"q": "Warum sind medizinische Gutachten in diesen Verfahren so wichtig?",
+                 "a": "Weil sich IV-Entscheide sehr weitgehend darauf stützen, um den Invaliditätsgrad und die verbleibende Arbeitsfähigkeit zu beurteilen. Einen Entscheid anzufechten bedeutet häufig, den Beweiswert dieser Gutachten zu diskutieren."},
+            ],
+        },
+        "it": {
+            "slug": "contestare-decisione-assicurazione-invalidita",
+            "title": "Contestare una decisione dell'assicurazione invalidità",
+            "meta": "Opposizione entro 30 giorni, ricorso davanti al tribunale cantonale delle assicurazioni: la procedura per contestare una decisione dell'AI.",
+            "sections": [
+                {"heading": "Il preavviso e la decisione", "paragraphs": [
+                    "L'ufficio dell'assicurazione invalidità (AI) notifica generalmente un progetto di decisione, permettendo all'assicurato di far valere le proprie obiezioni prima della decisione definitiva. Una volta emessa la decisione, essa indica le vie di diritto disponibili per contestarla.",
+                ]},
+                {"heading": "L'opposizione", "paragraphs": [
+                    "L'assicurato che contesta una decisione dell'AI può fare opposizione per scritto entro 30 giorni dalla notifica (art. 52 LPGA), esponendo i motivi della propria contestazione. L'ufficio AI riesamina allora l'incarto ed emette una decisione su opposizione, che può confermare, modificare o annullare la decisione iniziale.",
+                ]},
+                {"heading": "Il ricorso davanti al tribunale cantonale delle assicurazioni", "paragraphs": [
+                    "Se la decisione su opposizione non soddisfa l'assicurato, questi può portarla davanti al tribunale cantonale delle assicurazioni competente, entro un termine di 30 giorni dalla sua notifica. Un ricorso successivo al Tribunale federale resta possibile alle condizioni generali del ricorso in materia di diritto pubblico.",
+                ]},
+                {"heading": "L'importanza delle perizie mediche", "paragraphs": [
+                    "Le decisioni dell'AI si fondano molto largamente su perizie mediche. Contestare una decisione significa spesso discutere il valore probatorio di tali perizie, eventualmente producendo un parere medico contrario o richiedendo una controperizia, il che rende particolarmente utile l'assistenza di un avvocato specializzato in queste procedure.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine posso oppormi a una decisione dell'AI?",
+                 "a": "Entro 30 giorni dalla notifica della decisione, tramite un'opposizione scritta e motivata indirizzata all'ufficio AI (art. 52 LPGA)."},
+                {"q": "Cosa succede dopo un'opposizione?",
+                 "a": "L'ufficio AI riesamina l'incarto ed emette una decisione su opposizione, che può confermare, modificare o annullare la decisione iniziale. Questa nuova decisione può quindi essere portata davanti al tribunale cantonale delle assicurazioni."},
+                {"q": "Perché le perizie mediche sono così importanti in queste procedure?",
+                 "a": "Perché le decisioni dell'AI si fondano molto largamente su di esse per valutare il grado d'invalidità e la capacità lavorativa residua. Contestare una decisione significa spesso discutere il valore probatorio di tali perizie."},
+            ],
+        },
+        "en": {
+            "slug": "challenging-disability-insurance-decision",
+            "title": "Challenging a disability insurance decision",
+            "meta": "Objection within 30 days, appeal to the cantonal insurance court: the procedure for challenging a disability insurance decision.",
+            "sections": [
+                {"heading": "The draft decision and the final decision", "paragraphs": [
+                    "The disability insurance (IV/AI) office generally issues a draft decision, allowing the insured person to raise objections before the final decision. Once the decision has been issued, it states the legal remedies available to challenge it.",
+                ]},
+                {"heading": "The objection", "paragraphs": [
+                    "An insured person who disputes a disability insurance decision can file a written objection within 30 days of its notification (art. 52 ATSG/LPGA), setting out the grounds for their objection. The disability insurance office then re-examines the file and issues a decision on the objection, which can confirm, amend, or annul the initial decision.",
+                ]},
+                {"heading": "Appeal to the cantonal insurance court", "paragraphs": [
+                    "If the decision on the objection does not satisfy the insured person, they can bring it before the competent cantonal insurance court, within a 30-day period from its notification. A further appeal to the Federal Supreme Court remains possible under the general conditions for appeals in public law matters.",
+                ]},
+                {"heading": "The importance of medical expert opinions", "paragraphs": [
+                    "Disability insurance decisions rely very heavily on medical expert opinions. Challenging a decision often means disputing the probative value of these opinions, possibly by submitting a contrary medical opinion or requesting a counter-assessment, which makes assistance from a specialised lawyer particularly useful in these proceedings.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline can I object to a disability insurance decision?",
+                 "a": "Within 30 days of notification of the decision, through a written and reasoned objection addressed to the disability insurance office (art. 52 ATSG/LPGA)."},
+                {"q": "What happens after an objection?",
+                 "a": "The disability insurance office re-examines the file and issues a decision on the objection, which can confirm, amend, or annul the initial decision. This new decision can then be brought before the cantonal insurance court."},
+                {"q": "Why are medical expert opinions so important in these proceedings?",
+                 "a": "Because disability insurance decisions rely very heavily on them to assess the degree of disability and remaining working capacity. Challenging a decision often means disputing the probative value of these opinions."},
             ],
         },
     },
@@ -2626,6 +3118,87 @@ BLOG_ARTICLES = {
                  "a": "Non, seulement en cas d'atteinte grave à la personnalité, appréciée selon les circonstances concrètes : gravité de l'atteinte, souffrances endurées, et autres éléments pertinents du cas d'espèce."},
             ],
         },
+        "de": {
+            "slug": "zivilhaftung-wer-haftet-entschaedigung",
+            "title": "Zivilhaftung: wer haftet und wie man entschädigt wird",
+            "meta": "Widerrechtliche Handlung, Verschulden, Kausalzusammenhang und Schaden: die Voraussetzungen der Zivilhaftung gemäss Obligationenrecht.",
+            "sections": [
+                {"heading": "Die Voraussetzungen der Verschuldenshaftung", "paragraphs": [
+                    "Art. 41 OR stellt den allgemeinen Grundsatz der Zivilhaftung für widerrechtliche Handlung auf: wer einem anderen widerrechtlich, absichtlich oder fahrlässig, Schaden zufügt, wird ihm zum Ersatz verpflichtet. Diese Haftung setzt vier kumulative Voraussetzungen voraus: eine widerrechtliche Handlung, ein Verschulden, einen Schaden und einen Kausalzusammenhang zwischen der Handlung und dem Schaden.",
+                ]},
+                {"heading": "Die Kausalhaftungen", "paragraphs": [
+                    "Neben der Verschuldenshaftung kennt das schweizerische Recht verschiedene Kausalhaftungen, bei denen kein Verschulden nachgewiesen werden muss: Haftung der Halterin oder des Halters eines Motorfahrzeugs (Art. 58 SVG), der Tierhalterin oder des Tierhalters (Art. 56 OR), der Werkeigentümerin oder des Werkeigentümers (Art. 58 OR), oder auch die Produktehaftung.",
+                ]},
+                {"heading": "Die Berechnung des Schadens", "paragraphs": [
+                    "Der ersatzfähige Schaden umfasst grundsätzlich den materiellen Schaden (Heilungskosten, Erwerbsausfall, Haushaltsschaden), die Genugtuung bei schwerer Persönlichkeitsverletzung sowie in bestimmten Fällen einen Rentenschaden für künftigen Erwerbsausfall. Seine genaue Bewertung hängt stark von den konkreten Umständen jedes einzelnen Falles ab.",
+                ]},
+                {"heading": "Die Geltendmachung und Verjährung", "paragraphs": [
+                    "Eine Schadenersatzforderung verjährt grundsätzlich mit Ablauf von drei Jahren ab dem Tag, an dem die geschädigte Person Kenntnis vom Schaden und von der ersatzpflichtigen Person erlangt hat, und in jedem Fall mit Ablauf von zwanzig Jahren ab dem Tag der schädigenden Handlung (Art. 60 OR), vorbehältlich längerer Fristen bei einer strafbaren Handlung.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Muss ich ein Verschulden nachweisen, um einen Schaden ersetzt zu erhalten?",
+                 "a": "Das hängt von der geltend gemachten Rechtsgrundlage ab: die Verschuldenshaftung nach Art. 41 OR verlangt den Nachweis eines Verschuldens, während die Kausalhaftungen (Halterin/Halter eines Fahrzeugs, Tierhalterin/Tierhalter, Werkeigentümerin/Werkeigentümer) diesen Nachweis grundsätzlich nicht verlangen."},
+                {"q": "Innert welcher Frist muss ich Schadenersatz geltend machen?",
+                 "a": "Grundsätzlich innert drei Jahren ab Kenntnis des Schadens und der ersatzpflichtigen Person, und spätestens zwanzig Jahre nach der schädigenden Handlung (Art. 60 OR), vorbehältlich besonderer Fristen bei einer strafbaren Handlung."},
+                {"q": "Wird die Genugtuung bei jedem Schaden immer ausgerichtet?",
+                 "a": "Nein, nur bei schwerer Persönlichkeitsverletzung, beurteilt nach den konkreten Umständen: Schwere der Verletzung, erlittene Leiden und weitere relevante Elemente des Einzelfalls."},
+            ],
+        },
+        "it": {
+            "slug": "responsabilita-civile-chi-e-responsabile-indennizzo",
+            "title": "Responsabilità civile: chi paga e come farsi risarcire",
+            "meta": "Atto illecito, colpa, nesso di causalità e danno: le condizioni della responsabilità civile secondo il Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "Le condizioni della responsabilità per colpa", "paragraphs": [
+                    "L'art. 41 CO pone il principio generale della responsabilità civile per atto illecito: chiunque cagiona ad altri un danno illecitamente, intenzionalmente o per negligenza, è tenuto a risarcirlo. Questa responsabilità presuppone la riunione di quattro condizioni cumulative: un atto illecito, una colpa, un danno, e un nesso di causalità tra l'atto e il danno.",
+                ]},
+                {"heading": "Le responsabilità causali", "paragraphs": [
+                    "Accanto alla responsabilità per colpa, il diritto svizzero conosce diverse responsabilità causali, dove la colpa non deve essere provata: responsabilità del detentore di veicolo a motore (art. 58 LCStr), del detentore di animali (art. 56 CO), del proprietario dell'opera (art. 58 CO), o ancora la responsabilità per i prodotti.",
+                ]},
+                {"heading": "Il calcolo del danno", "paragraphs": [
+                    "Il danno risarcibile comprende in linea di principio il danno materiale (spese mediche, perdita di guadagno, danno economico domestico), la riparazione morale in caso di grave lesione della personalità, e in determinati casi un danno di rendita per perdita futura della capacità di guadagno. La sua valutazione precisa dipende fortemente dalle circostanze concrete di ogni caso.",
+                ]},
+                {"heading": "La rivendicazione e la prescrizione", "paragraphs": [
+                    "Un credito per risarcimento del danno si prescrive in linea di principio in tre anni dal giorno in cui il leso ha avuto conoscenza del danno e della persona responsabile, e in ogni caso in venti anni dal giorno in cui si è verificato il fatto dannoso (art. 60 CO), con riserva di termini più lunghi applicabili in caso di reato penale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Devo provare una colpa per ottenere il risarcimento di un danno?",
+                 "a": "Ciò dipende dal fondamento giuridico invocato: la responsabilità per colpa dell'art. 41 CO esige di provare una colpa, mentre le responsabilità causali (detentore di veicolo, di animali, proprietario dell'opera) in linea di principio non esigono questa prova."},
+                {"q": "Entro quale termine devo agire per reclamare un risarcimento del danno?",
+                 "a": "In linea di principio entro tre anni dalla conoscenza del danno e della persona responsabile, e al più tardi venti anni dopo il fatto dannoso (art. 60 CO), con riserva di termini specifici in caso di reato penale."},
+                {"q": "La riparazione morale viene sempre indennizzata in caso di danno?",
+                 "a": "No, solo in caso di grave lesione della personalità, valutata secondo le circostanze concrete: gravità della lesione, sofferenze patite e altri elementi pertinenti del caso specifico."},
+            ],
+        },
+        "en": {
+            "slug": "civil-liability-who-is-liable-compensation",
+            "title": "Civil liability: who is liable and how to get compensated",
+            "meta": "Unlawful act, fault, causal link and damage: the conditions for civil liability under the Code of Obligations.",
+            "sections": [
+                {"heading": "The conditions for fault-based liability", "paragraphs": [
+                    "Art. 41 CO sets out the general principle of civil liability for an unlawful act: a person who unlawfully causes damage to another, whether intentionally or through negligence, is liable to make good the loss. This liability requires four cumulative conditions: an unlawful act, fault, damage, and a causal link between the act and the damage.",
+                ]},
+                {"heading": "Strict liability", "paragraphs": [
+                    "Alongside fault-based liability, Swiss law recognises various forms of strict liability, where fault does not need to be proven: liability of a motor vehicle keeper (art. 58 LCR), of an animal keeper (art. 56 CO), of a building owner (art. 58 CO), or product liability.",
+                ]},
+                {"heading": "Calculating the damage", "paragraphs": [
+                    "Recoverable damage in principle includes material loss (medical expenses, loss of earnings, loss related to household work), moral compensation in the event of a serious personality violation, and in certain cases loss of future earning capacity as a pension-type loss. Its precise assessment depends heavily on the specific circumstances of each case.",
+                ]},
+                {"heading": "Bringing a claim and limitation", "paragraphs": [
+                    "A claim for damages is in principle time-barred after three years from the day the injured party became aware of the damage and the liable person, and in any case after twenty years from the day of the harmful act (art. 60 CO), subject to longer periods applicable in the event of a criminal offence.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Do I need to prove fault to be compensated for damage?",
+                 "a": "This depends on the legal basis invoked: fault-based liability under art. 41 CO requires proof of fault, while strict liability (vehicle keeper, animal keeper, building owner) in principle does not require this proof."},
+                {"q": "Within what deadline must I claim damages?",
+                 "a": "In principle within three years from becoming aware of the damage and the liable person, and at the latest twenty years after the harmful act (art. 60 CO), subject to specific periods in the event of a criminal offence."},
+                {"q": "Is moral compensation always awarded for damage?",
+                 "a": "No, only in the event of a serious personality violation, assessed according to the specific circumstances: severity of the violation, suffering endured, and other relevant elements of the specific case."},
+            ],
+        },
     },
     "responsabilite-detenteur-animal-proprietaire": {
         "domaine_id": "droit_responsabilite_civile",
@@ -2655,6 +3228,87 @@ BLOG_ARTICLES = {
                  "a": "Le propriétaire du bâtiment, sur la base de l'art. 58 CO qui institue une responsabilité causale pour les dommages résultant d'un défaut de construction ou d'entretien de l'ouvrage."},
                 {"q": "Le propriétaire peut-il se retourner contre l'entrepreneur responsable du défaut ?",
                  "a": "Oui, il conserve en principe un droit de recours contre l'entrepreneur ou l'artisan à l'origine du défaut, selon les règles de la responsabilité contractuelle et dans les délais de prescription applicables."},
+            ],
+        },
+        "de": {
+            "slug": "haftung-tierhalter-grundeigentuemer",
+            "title": "Haftung von Tierhaltern und Grundeigentümern",
+            "meta": "Kausalhaftung für Schäden durch ein Tier oder mangelhafte Unterhaltung eines Gebäudes gemäss Obligationenrecht.",
+            "sections": [
+                {"heading": "Die Haftung der Tierhalterin oder des Tierhalters", "paragraphs": [
+                    "Art. 56 OR statuiert eine Kausalhaftung der Tierhalterin oder des Tierhalters für den durch das Tier verursachten Schaden, unabhängig von einem Verschulden ihrerseits. Die Halterin oder der Halter kann sich nur befreien, indem sie oder er nachweist, alle nach den Umständen gebotene Sorgfalt in der Verwahrung und Beaufsichtigung des Tieres angewendet zu haben, oder dass der Schaden auch bei Anwendung dieser Sorgfalt eingetreten wäre.",
+                ]},
+                {"heading": "Die Werkeigentümerhaftung", "paragraphs": [
+                    "Art. 58 OR sieht eine Kausalhaftung der Eigentümerin oder des Eigentümers eines Gebäudes oder eines anderen Werkes für den Schaden vor, der aus einem fehlerhaften Bau oder mangelhafter Unterhaltung entsteht. Diese Haftung betrifft namentlich Unfälle, die durch eine schlecht unterhaltene Treppe, eine sich lösende Fassade oder eine defekte Anlage verursacht werden.",
+                ]},
+                {"heading": "Der Rückgriff auf eine dritte Person", "paragraphs": [
+                    "Die Eigentümerin oder der Eigentümer, die oder der eine geschädigte Person entschädigt hat, behält grundsätzlich ein Rückgriffsrecht gegen die Unternehmerin oder den Unternehmer oder die Handwerkerin oder den Handwerker, deren mangelhafte Arbeiten die Ursache des Schadens sind, nach den allgemeinen Regeln der vertraglichen Haftung und den für diesen Rückgriff geltenden Verjährungsfristen.",
+                ]},
+                {"heading": "Die Bedeutung der privaten Haftpflichtversicherung", "paragraphs": [
+                    "Diese Kausalhaftungen erklären das Interesse einer privaten Haftpflichtversicherung für jede Tierhalterin, jeden Tierhalter oder jede Grundeigentümerschaft, welche grundsätzlich die Dritten zugefügten Schäden im Rahmen der im abgeschlossenen Vertrag vorgesehenen Grenzen und Ausschlüsse deckt.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Hafte ich, wenn mein Hund jemanden beisst, auch ohne Nachlässigkeit meinerseits?",
+                 "a": "Grundsätzlich ja: Art. 56 OR statuiert eine Kausalhaftung der Tierhalterin oder des Tierhalters, die sich nur befreien kann, indem sie nachweist, alle nach den Umständen gebotene Sorgfalt zur Verhinderung des Schadens angewendet zu haben."},
+                {"q": "Wer haftet, wenn eine mangelhaft unterhaltene Treppe einen Sturz verursacht?",
+                 "a": "Die Eigentümerin oder der Eigentümer des Gebäudes, gestützt auf Art. 58 OR, der eine Kausalhaftung für Schäden aus fehlerhaftem Bau oder mangelhafter Unterhaltung des Werks vorsieht."},
+                {"q": "Kann sich die Eigentümerschaft an die für den Mangel verantwortliche Unternehmerin oder den verantwortlichen Unternehmer wenden?",
+                 "a": "Ja, sie behält grundsätzlich ein Rückgriffsrecht gegen die Unternehmerin oder den Unternehmer oder die Handwerkerin oder den Handwerker, die oder der den Mangel verursacht hat, nach den Regeln der vertraglichen Haftung und innerhalb der geltenden Verjährungsfristen."},
+            ],
+        },
+        "it": {
+            "slug": "responsabilita-detentore-animale-proprietario-immobiliare",
+            "title": "Responsabilità del detentore di animali e del proprietario",
+            "meta": "Responsabilità causale per i danni causati da un animale o da un difetto di manutenzione di un edificio, secondo il Codice delle obbligazioni.",
+            "sections": [
+                {"heading": "La responsabilità del detentore di animali", "paragraphs": [
+                    "L'art. 56 CO istituisce una responsabilità causale del detentore di un animale per il danno che questo cagiona, indipendentemente da una sua colpa. Il detentore può liberarsi solo provando di aver usato tutta la diligenza richiesta dalle circostanze per prevenire il danno, o che il danno si sarebbe verificato ugualmente nonostante tale diligenza.",
+                ]},
+                {"heading": "La responsabilità del proprietario dell'opera", "paragraphs": [
+                    "L'art. 58 CO prevede una responsabilità causale del proprietario di un edificio o di un'altra opera per il danno risultante da un difetto di costruzione o di manutenzione. Questa responsabilità riguarda in particolare gli incidenti causati da una scala mal tenuta, una facciata che si stacca, o un impianto difettoso.",
+                ]},
+                {"heading": "Il regresso contro un terzo responsabile", "paragraphs": [
+                    "Il proprietario che ha indennizzato un leso conserva in linea di principio un diritto di regresso contro l'appaltatore o l'artigiano i cui lavori difettosi sono all'origine del danno, secondo le regole generali della responsabilità contrattuale e i termini di prescrizione applicabili a tale regresso.",
+                ]},
+                {"heading": "L'importanza dell'assicurazione di responsabilità civile privata", "paragraphs": [
+                    "Queste responsabilità causali spiegano l'interesse di un'assicurazione di responsabilità civile privata per ogni detentore di animali o proprietario immobiliare, che copre in linea di principio i danni causati a terzi entro i limiti e le esclusioni previste dal contratto sottoscritto.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Sono responsabile se il mio cane morde qualcuno anche senza negligenza da parte mia?",
+                 "a": "In linea di principio sì: l'art. 56 CO istituisce una responsabilità causale del detentore di animali, che può liberarsi solo provando di aver usato tutta la diligenza richiesta dalle circostanze per prevenire il danno."},
+                {"q": "Chi è responsabile se una scala mal tenuta causa una caduta?",
+                 "a": "Il proprietario dell'edificio, sulla base dell'art. 58 CO che istituisce una responsabilità causale per i danni risultanti da un difetto di costruzione o di manutenzione dell'opera."},
+                {"q": "Il proprietario può rivalersi contro l'appaltatore responsabile del difetto?",
+                 "a": "Sì, conserva in linea di principio un diritto di regresso contro l'appaltatore o l'artigiano all'origine del difetto, secondo le regole della responsabilità contrattuale ed entro i termini di prescrizione applicabili."},
+            ],
+        },
+        "en": {
+            "slug": "liability-animal-keeper-property-owner",
+            "title": "Liability of an animal keeper and a property owner",
+            "meta": "Strict liability for damage caused by an animal or a defect in maintaining a building, under the Code of Obligations.",
+            "sections": [
+                {"heading": "The animal keeper's liability", "paragraphs": [
+                    "Art. 56 CO establishes strict liability for an animal's keeper for damage the animal causes, regardless of any fault on their part. The keeper can only be released from liability by proving they exercised all the care required by the circumstances to prevent the damage, or that the damage would have occurred even with such care.",
+                ]},
+                {"heading": "The building owner's liability", "paragraphs": [
+                    "Art. 58 CO establishes strict liability for the owner of a building or other structure for damage resulting from a defect in its construction or maintenance. This liability covers, in particular, accidents caused by a poorly maintained staircase, a facade coming loose, or a defective installation.",
+                ]},
+                {"heading": "Recourse against a liable third party", "paragraphs": [
+                    "An owner who has compensated an injured party in principle retains a right of recourse against the contractor or tradesperson whose defective work caused the damage, under the general rules of contractual liability and the limitation periods applicable to that recourse.",
+                ]},
+                {"heading": "The importance of private liability insurance", "paragraphs": [
+                    "This strict liability explains the value of private liability insurance for any animal keeper or property owner, which in principle covers damage caused to third parties within the limits and exclusions provided by the policy taken out.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Am I liable if my dog bites someone even without negligence on my part?",
+                 "a": "In principle yes: art. 56 CO establishes strict liability for an animal's keeper, who can only be released from liability by proving they exercised all the care required by the circumstances to prevent the damage."},
+                {"q": "Who is liable if a poorly maintained staircase causes a fall?",
+                 "a": "The building's owner, based on art. 58 CO, which establishes strict liability for damage resulting from a defect in the construction or maintenance of the structure."},
+                {"q": "Can the owner recover from the contractor responsible for the defect?",
+                 "a": "Yes, they in principle retain a right of recourse against the contractor or tradesperson responsible for the defect, under the rules of contractual liability and within the applicable limitation periods."},
             ],
         },
     },
@@ -2690,6 +3344,93 @@ BLOG_ARTICLES = {
                  "a": "Non, l'opposition n'a pas besoin d'être motivée pour être valable (art. 74 LP). Une simple déclaration d'opposition dans le délai suffit à suspendre la poursuite."},
             ],
         },
+        "de": {
+            "slug": "zahlungsbefehl-rechtsvorschlag-erheben",
+            "title": "Zahlungsbefehl: wie Rechtsvorschlag erhoben wird",
+            "meta": "Frist von zehn Tagen, Form des Rechtsvorschlags, Folgen für die Betreibung: was das Bundesgesetz über Schuldbetreibung und Konkurs vorsieht.",
+            "sections": [
+                {"heading": "Was ein Zahlungsbefehl ist", "paragraphs": [
+                    "Der Zahlungsbefehl ist der Akt, mit dem das Betreibungsamt der Schuldnerin oder dem Schuldner auf Verlangen einer Gläubigerin oder eines Gläubigers eine Betreibung für einen bestimmten Geldbetrag zustellt (Art. 69 ff. SchKG). Er gibt den geforderten Betrag und den Forderungsgrund an und informiert die Schuldnerin oder den Schuldner über ihr oder sein Recht, Rechtsvorschlag zu erheben.",
+                ]},
+                {"heading": "Die Frist und die Form des Rechtsvorschlags", "paragraphs": [
+                    "Die Schuldnerin oder der Schuldner, die oder der die Schuld ganz oder teilweise bestreitet, kann innert zehn Tagen nach Zustellung des Zahlungsbefehls Rechtsvorschlag erheben (Art. 74 SchKG). Der Rechtsvorschlag kann mündlich beim Betreibungsamt im Zeitpunkt der Zustellung erklärt werden oder schriftlich innert der Frist erfolgen, ohne begründet werden zu müssen.",
+                ]},
+                {"heading": "Die Wirkungen des Rechtsvorschlags", "paragraphs": [
+                    "Ein gültig erhobener Rechtsvorschlag hemmt die Betreibung: die Gläubigerin oder der Gläubiger kann das Verfahren nicht fortsetzen, ohne vorgängig die Aufhebung des Rechtsvorschlags beim zuständigen Gericht zu erwirken, durch ein Verfahren der provisorischen oder definitiven Rechtsöffnung je nach Art ihrer oder seiner Forderung, oder durch eine Forderungsklage.",
+                ]},
+                {"heading": "Einen Zahlungsbefehl nicht ignorieren", "paragraphs": [
+                    "Selbst eine zu Unrecht bestrittene Schuld oder eine missbräuchliche Betreibung muss durch einen fristgerechten Rechtsvorschlag behandelt werden: das Fehlen eines Rechtsvorschlags erlaubt der Gläubigerin oder dem Gläubiger grundsätzlich, die Betreibung fortzusetzen, ohne dass die Schuldnerin oder der Schuldner ihre oder seine Einwände gegen die Forderung in diesem Verfahrensstadium noch geltend machen könnte.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich gegen einen Zahlungsbefehl Rechtsvorschlag erheben?",
+                 "a": "Innert zehn Tagen nach dessen Zustellung (Art. 74 SchKG), mündlich beim Betreibungsamt oder schriftlich, ohne den Rechtsvorschlag begründen zu müssen."},
+                {"q": "Was geschieht, wenn ich keinen Rechtsvorschlag erhebe?",
+                 "a": "Die Gläubigerin oder der Gläubiger kann die Betreibung grundsätzlich fortsetzen, ohne dass Sie die Forderung in diesem Verfahrensstadium noch bestreiten können. Es ist daher unerlässlich, innert Frist zu handeln, selbst wenn Sie die Betreibung für unbegründet halten."},
+                {"q": "Beendet der Rechtsvorschlag die Betreibung endgültig?",
+                 "a": "Nein, er hemmt sie: die Gläubigerin oder der Gläubiger kann beim Gericht die Aufhebung des Rechtsvorschlags verlangen, oder eine Forderungsklage erheben, um die Betreibung fortsetzen zu können."},
+                {"q": "Muss ich meinen Rechtsvorschlag begründen?",
+                 "a": "Nein, der Rechtsvorschlag muss nicht begründet werden, um gültig zu sein (Art. 74 SchKG). Eine blosse Rechtsvorschlagserklärung innert Frist genügt, um die Betreibung zu hemmen."},
+            ],
+        },
+        "it": {
+            "slug": "precetto-esecutivo-come-fare-opposizione",
+            "title": "Precetto esecutivo: come fare opposizione",
+            "meta": "Termine di dieci giorni, forma dell'opposizione, conseguenze sull'esecuzione: quanto previsto dalla legge sull'esecuzione e sul fallimento.",
+            "sections": [
+                {"heading": "Cos'è un precetto esecutivo", "paragraphs": [
+                    "Il precetto esecutivo è l'atto con cui l'ufficio d'esecuzione notifica al debitore, su richiesta di un creditore, un'esecuzione per una somma di denaro determinata (art. 69 segg. LEF). Indica l'importo richiesto, la causa dell'obbligazione, e informa il debitore del suo diritto di fare opposizione.",
+                ]},
+                {"heading": "Il termine e la forma dell'opposizione", "paragraphs": [
+                    "Il debitore che contesta in tutto o in parte il debito può fare opposizione entro dieci giorni dalla notifica del precetto esecutivo (art. 74 LEF). L'opposizione può essere fatta verbalmente all'ufficio d'esecuzione al momento della notifica, o per scritto entro il termine, senza dover essere motivata.",
+                ]},
+                {"heading": "Gli effetti dell'opposizione", "paragraphs": [
+                    "Un'opposizione validamente formata sospende l'esecuzione: il creditore non può proseguire la procedura senza ottenere preliminarmente il rigetto dell'opposizione presso il giudice competente, tramite una procedura di rigetto provvisorio o definitivo secondo la natura del suo credito, o tramite un'azione di riconoscimento del debito.",
+                ]},
+                {"heading": "Non ignorare un precetto esecutivo", "paragraphs": [
+                    "Anche un debito contestato a torto o un'esecuzione abusiva deve essere trattato con un'opposizione entro il termine legale: l'assenza di opposizione permette in linea di principio al creditore di proseguire l'esecuzione senza che il debitore possa più far valere le proprie obiezioni sul merito del credito in questa fase della procedura.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo fare opposizione a un precetto esecutivo?",
+                 "a": "Entro dieci giorni dalla sua notifica (art. 74 LEF), verbalmente all'ufficio d'esecuzione o per scritto, senza dover motivare l'opposizione."},
+                {"q": "Cosa succede se non faccio opposizione?",
+                 "a": "Il creditore può in linea di principio proseguire l'esecuzione senza che possiate più contestare il credito in questa fase della procedura. È quindi essenziale agire entro il termine anche se ritenete l'esecuzione infondata."},
+                {"q": "L'opposizione pone fine definitivamente all'esecuzione?",
+                 "a": "No, la sospende: il creditore può chiedere al giudice il rigetto dell'opposizione, o promuovere un'azione di riconoscimento del debito, per poter proseguire l'esecuzione."},
+                {"q": "Devo motivare la mia opposizione?",
+                 "a": "No, l'opposizione non deve essere motivata per essere valida (art. 74 LEF). Una semplice dichiarazione di opposizione entro il termine è sufficiente per sospendere l'esecuzione."},
+            ],
+        },
+        "en": {
+            "slug": "payment-order-how-to-object",
+            "title": "Payment order: how to file an objection",
+            "meta": "Ten-day deadline, form of the objection, effect on debt collection: what the Federal Debt Enforcement and Bankruptcy Act provides.",
+            "sections": [
+                {"heading": "What a payment order is", "paragraphs": [
+                    "The payment order is the act by which the debt collection office notifies the debtor, at the request of a creditor, of debt collection proceedings for a specific sum of money (art. 69 ff. DEBA). It states the amount claimed, the cause of the obligation, and informs the debtor of their right to object.",
+                ]},
+                {"heading": "The deadline and form of the objection", "paragraphs": [
+                    "A debtor who disputes all or part of the debt can file an objection within ten days of notification of the payment order (art. 74 DEBA). The objection can be made verbally to the debt collection office at the time of notification, or in writing within the deadline, without needing to be reasoned.",
+                ]},
+                {"heading": "The effects of the objection", "paragraphs": [
+                    "A validly filed objection suspends the debt collection proceedings: the creditor cannot continue the procedure without first obtaining the setting aside of the objection from the competent court, through provisional or definitive set-aside proceedings depending on the nature of their claim, or through an action for acknowledgment of debt.",
+                ]},
+                {"heading": "Do not ignore a payment order", "paragraphs": [
+                    "Even a wrongly disputed debt or abusive debt collection must be dealt with by filing an objection within the legal deadline: the absence of an objection in principle allows the creditor to continue the proceedings without the debtor being able to raise objections on the merits of the claim at this stage of the procedure.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline must I object to a payment order?",
+                 "a": "Within ten days of its notification (art. 74 DEBA), verbally to the debt collection office or in writing, without needing to give reasons for the objection."},
+                {"q": "What happens if I don't object?",
+                 "a": "The creditor can in principle continue the debt collection proceedings without you being able to dispute the claim at this stage of the procedure. It is therefore essential to act within the deadline even if you consider the proceedings unfounded."},
+                {"q": "Does the objection permanently end the debt collection proceedings?",
+                 "a": "No, it suspends them: the creditor can ask the court to set the objection aside, or bring an action for acknowledgment of debt, to be able to continue the proceedings."},
+                {"q": "Do I need to give reasons for my objection?",
+                 "a": "No, the objection does not need to be reasoned to be valid (art. 74 DEBA). A simple declaration of objection within the deadline is enough to suspend the proceedings."},
+            ],
+        },
     },
     "faillite-personnelle-procedure-consequences": {
         "domaine_id": "droit_poursuites_faillite",
@@ -2719,6 +3460,87 @@ BLOG_ARTICLES = {
                  "a": "Vos biens saisissables sont dévolus à la masse en faillite, gérée par l'office des faillites, qui les réalise et en répartit le produit entre les créanciers selon l'ordre légal des classes de créanciers."},
                 {"q": "Qu'est-ce qu'un acte de défaut de biens ?",
                  "a": "Le document délivré à un créancier lorsque le produit de la liquidation ne suffit pas à couvrir sa créance, attestant du montant impayé et pouvant permettre, sous conditions, une nouvelle poursuite si le débiteur revient à meilleure fortune."},
+            ],
+        },
+        "de": {
+            "slug": "privatkonkurs-verfahren-folgen",
+            "title": "Privatkonkurs: Verfahren und Folgen",
+            "meta": "Eröffnung des Konkurses, Auswirkungen auf das Vermögen der Schuldnerin oder des Schuldners, Liquidation durch das Konkursamt: was das SchKG vorsieht.",
+            "sections": [
+                {"heading": "Wie ein Privatkonkurs eröffnet wird", "paragraphs": [
+                    "Der Konkurs einer natürlichen Person kann infolge einer Betreibung auf Konkurs eröffnet werden, die bestimmten Schuldnerkategorien vorbehalten ist (namentlich im Handelsregister eingetragenen Personen), oder in besonderen, im Bundesgesetz über Schuldbetreibung und Konkurs (SchKG) vorgesehenen Fällen, auf Entscheid des Konkursrichters oder der Konkursrichterin (Art. 171 ff. SchKG).",
+                ]},
+                {"heading": "Die Wirkungen der Konkurseröffnung", "paragraphs": [
+                    "Mit der Konkurseröffnung verliert die Schuldnerin oder der Schuldner das Verfügungsrecht über ihr oder sein pfändbares Vermögen, das der vom Konkursamt verwalteten Konkursmasse zufällt. Laufende Einzelbetreibungen gegen die Schuldnerin oder den Schuldner werden zugunsten des Konkursverfahrens sistiert.",
+                ]},
+                {"heading": "Die Liquidation", "paragraphs": [
+                    "Das Konkursamt erstellt das Inventar des Vermögens der Schuldnerin oder des Schuldners, nimmt dessen Verwertung vor und verteilt den Erlös unter den Gläubigerinnen und Gläubigern gemäss der gesetzlich vorgesehenen Rangordnung der Gläubigerklassen (Art. 219 SchKG), wobei bestimmte Forderungen wie Löhne oder Unterhaltsforderungen von einem privilegierten Rang profitieren.",
+                ]},
+                {"heading": "Der Verlustschein", "paragraphs": [
+                    "Reicht der Erlös der Liquidation nicht aus, um sämtliche Forderungen zu decken, erhalten die nicht befriedigten Gläubigerinnen und Gläubiger einen Verlustschein, der den unbezahlten Betrag bescheinigt und ihnen unter bestimmten Voraussetzungen und Fristen erlaubt, eine neue Betreibung einzuleiten, falls die Schuldnerin oder der Schuldner wieder zu besseren wirtschaftlichen Verhältnissen kommt.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann jede Person Gegenstand einer Betreibung auf Konkurs sein?",
+                 "a": "Nein, die Betreibung auf Konkurs ist bestimmten Schuldnerkategorien vorbehalten, namentlich im Handelsregister eingetragenen Personen; die übrigen natürlichen Personen werden grundsätzlich auf dem Weg der Pfändung betrieben."},
+                {"q": "Was geschieht mit meinem Vermögen bei einem Privatkonkurs?",
+                 "a": "Ihr pfändbares Vermögen fällt der vom Konkursamt verwalteten Konkursmasse zu, welche es verwertet und den Erlös unter den Gläubigerinnen und Gläubigern gemäss der gesetzlichen Rangordnung der Gläubigerklassen verteilt."},
+                {"q": "Was ist ein Verlustschein?",
+                 "a": "Das Dokument, das einer Gläubigerin oder einem Gläubiger ausgestellt wird, wenn der Erlös der Liquidation nicht ausreicht, um ihre oder seine Forderung zu decken; es bescheinigt den unbezahlten Betrag und kann unter bestimmten Voraussetzungen eine neue Betreibung ermöglichen, falls die Schuldnerin oder der Schuldner wieder zu besseren wirtschaftlichen Verhältnissen kommt."},
+            ],
+        },
+        "it": {
+            "slug": "fallimento-personale-procedura-conseguenze",
+            "title": "Fallimento personale: procedura e conseguenze",
+            "meta": "Apertura del fallimento, effetti sul patrimonio del debitore, liquidazione da parte dell'ufficio dei fallimenti: quanto previsto dalla LEF.",
+            "sections": [
+                {"heading": "Come viene aperto un fallimento personale", "paragraphs": [
+                    "Il fallimento di una persona fisica può essere pronunciato a seguito di un'esecuzione in via di fallimento, riservata a determinate categorie di debitori (in particolare le persone iscritte al registro di commercio), o in casi particolari previsti dalla legge federale sull'esecuzione e sul fallimento (LEF), su decisione del giudice del fallimento (art. 171 segg. LEF).",
+                ]},
+                {"heading": "Gli effetti dell'apertura del fallimento", "paragraphs": [
+                    "Con l'apertura del fallimento, il debitore perde il diritto di disporre dei suoi beni pignorabili, che vengono devoluti alla massa fallimentare gestita dall'ufficio dei fallimenti. Le esecuzioni individuali in corso contro il debitore vengono sospese a favore della procedura collettiva di fallimento.",
+                ]},
+                {"heading": "La liquidazione", "paragraphs": [
+                    "L'ufficio dei fallimenti redige l'inventario dei beni del debitore, procede alla loro realizzazione, e ripartisce il ricavato tra i creditori secondo l'ordine delle classi di creditori previsto dalla legge (art. 219 LEF), con alcuni crediti come i salari o i crediti alimentari che beneficiano di un rango privilegiato.",
+                ]},
+                {"heading": "L'attestato di carenza di beni", "paragraphs": [
+                    "Quando il ricavato della liquidazione non basta a coprire l'integralità dei crediti, i creditori non soddisfatti ricevono un attestato di carenza di beni, che attesta l'importo non pagato e permette loro, a determinate condizioni e entro determinati termini, di avviare una nuova esecuzione se il debitore torna a miglior fortuna.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Chiunque può essere oggetto di un'esecuzione in via di fallimento?",
+                 "a": "No, l'esecuzione in via di fallimento è riservata a determinate categorie di debitori, in particolare le persone iscritte al registro di commercio; le altre persone fisiche sono in linea di principio escusse per via di pignoramento."},
+                {"q": "Cosa succede ai miei beni in caso di fallimento personale?",
+                 "a": "I vostri beni pignorabili vengono devoluti alla massa fallimentare, gestita dall'ufficio dei fallimenti, che li realizza e ne ripartisce il ricavato tra i creditori secondo l'ordine legale delle classi di creditori."},
+                {"q": "Cos'è un attestato di carenza di beni?",
+                 "a": "Il documento rilasciato a un creditore quando il ricavato della liquidazione non basta a coprire il suo credito, che attesta l'importo non pagato e può permettere, a determinate condizioni, una nuova esecuzione se il debitore torna a miglior fortuna."},
+            ],
+        },
+        "en": {
+            "slug": "personal-bankruptcy-procedure-consequences",
+            "title": "Personal bankruptcy: procedure and consequences",
+            "meta": "Opening of bankruptcy, effects on the debtor's assets, liquidation by the bankruptcy office: what the Debt Enforcement and Bankruptcy Act provides.",
+            "sections": [
+                {"heading": "How personal bankruptcy is opened", "paragraphs": [
+                    "The bankruptcy of an individual can be declared following bankruptcy proceedings, reserved for certain categories of debtors (in particular persons registered with the commercial register), or in special cases provided for by the Debt Enforcement and Bankruptcy Act (DEBA), by decision of the bankruptcy judge (art. 171 ff. DEBA).",
+                ]},
+                {"heading": "The effects of opening bankruptcy", "paragraphs": [
+                    "Upon the opening of bankruptcy, the debtor loses the right to dispose of their seizable assets, which are transferred to the bankruptcy estate managed by the bankruptcy office. Individual debt collection proceedings against the debtor already underway are suspended in favour of the collective bankruptcy procedure.",
+                ]},
+                {"heading": "Liquidation", "paragraphs": [
+                    "The bankruptcy office draws up an inventory of the debtor's assets, sells them, and distributes the proceeds among creditors according to the order of creditor classes set by law (art. 219 DEBA), with certain claims such as wages or maintenance claims benefiting from a privileged rank.",
+                ]},
+                {"heading": "The certificate of unpaid debt", "paragraphs": [
+                    "When the proceeds of liquidation are insufficient to cover all claims in full, unpaid creditors receive a certificate of unpaid debt, which certifies the unpaid amount and allows them, under certain conditions and time limits, to initiate new debt collection proceedings if the debtor's financial situation improves.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can anyone be subject to bankruptcy proceedings?",
+                 "a": "No, bankruptcy proceedings are reserved for certain categories of debtors, in particular persons registered with the commercial register; other individuals are in principle subject to seizure proceedings instead."},
+                {"q": "What happens to my assets in personal bankruptcy?",
+                 "a": "Your seizable assets are transferred to the bankruptcy estate, managed by the bankruptcy office, which sells them and distributes the proceeds among creditors according to the legal order of creditor classes."},
+                {"q": "What is a certificate of unpaid debt?",
+                 "a": "The document issued to a creditor when the proceeds of liquidation are insufficient to cover their claim, certifying the unpaid amount and allowing, under certain conditions, new debt collection proceedings if the debtor's financial situation improves."},
             ],
         },
     },

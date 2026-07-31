@@ -47,16 +47,16 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
 | 18 | Droit des sociétés | Responsabilité des administrateurs de société anonyme | CO art. 754-755 | ✅ `responsabilite-administrateurs-sa` |
 | 19 | Droit de la circulation routière | Retrait de permis : durées selon la gravité de l'infraction | LCR art. 16-16c | ✅ `retrait-permis-duree-infraction` |
 | 20 | Droit de la circulation routière | Accident de la route : qui paie et comment déclarer le sinistre | LCR / LCA | ✅ `accident-route-qui-paie-declaration` |
-| 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | 🟡 `recours-decision-administrative-delais` |
-| 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | 🟡 `marches-publics-soumissionnaires-evinces` |
-| 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | 🟡 `permis-sejour-b-c-l-conditions` |
-| 24 | Droit des étrangers | Regroupement familial : faire venir sa famille en Suisse | LEI art. 42-52 | 🟡 `regroupement-familial-faire-venir-famille` |
-| 25 | Droit des assurances | Assurance perte de gain maladie : droits et délai de carence | LCA | 🟡 `assurance-perte-gain-maladie-carence` |
-| 26 | Droit des assurances | Contester une décision de l'assurance invalidité | LPGA art. 52 | 🟡 `contester-decision-assurance-invalidite` |
-| 27 | Responsabilité civile | Qui est responsable et comment être indemnisé | CO art. 41 ss | 🟡 `responsabilite-civile-indemnisation` |
-| 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | 🟡 `responsabilite-detenteur-animal-proprietaire` |
-| 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | 🟡 `commandement-payer-opposition` |
-| 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | 🟡 `faillite-personnelle-procedure-consequences` |
+| 21 | Droit administratif | Recours contre une décision administrative : délais et procédure | PA / lois cantonales | ✅ `recours-decision-administrative-delais` |
+| 22 | Droit administratif | Marchés publics : droits des soumissionnaires évincés | AIMP / LMP | ✅ `marches-publics-soumissionnaires-evinces` |
+| 23 | Droit des étrangers | Permis de séjour B, C, L : conditions et différences | LEI | ✅ `permis-sejour-b-c-l-conditions` |
+| 24 | Droit des étrangers | Regroupement familial : faire venir sa famille en Suisse | LEI art. 42-52 | ✅ `regroupement-familial-faire-venir-famille` |
+| 25 | Droit des assurances | Assurance perte de gain maladie : droits et délai de carence | LCA | ✅ `assurance-perte-gain-maladie-carence` |
+| 26 | Droit des assurances | Contester une décision de l'assurance invalidité | LPGA art. 52 | ✅ `contester-decision-assurance-invalidite` |
+| 27 | Responsabilité civile | Qui est responsable et comment être indemnisé | CO art. 41 ss | ✅ `responsabilite-civile-indemnisation` |
+| 28 | Responsabilité civile | Responsabilité du détenteur d'animal et du propriétaire immobilier | CO art. 56, 58 | ✅ `responsabilite-detenteur-animal-proprietaire` |
+| 29 | Poursuites et faillite | Commandement de payer : comment faire opposition | LP art. 69-74 | ✅ `commandement-payer-opposition` |
+| 30 | Poursuites et faillite | Faillite personnelle : procédure et conséquences | LP art. 171 ss | ✅ `faillite-personnelle-procedure-consequences` |
 | 31 | Protection de l'enfant et de l'adulte | Curatelle : quand et comment elle est prononcée | CC art. 390-398 | 🟡 `curatelle-quand-comment-prononcee` |
 | 32 | Protection de l'enfant et de l'adulte | Mandat pour cause d'inaptitude : anticiper sa propre incapacité | CC art. 360-369 | 🟡 `mandat-cause-inaptitude-anticiper` |
 | 33 | Droit fiscal | Contester une décision de taxation : réclamation et délais | LIFD art. 132 | 🟡 `contester-decision-taxation-reclamation` |
@@ -223,3 +223,19 @@ Statut : ✅ rédigé FR+DE+IT+EN · 🟡 rédigé FR seulement · ⬜ pas encor
   DE/IT/EN au total (20 articles × 3 langues).
 - 20/50 articles traduits dans les 4 langues. Reste les lots 3 à 5 (30
   articles, soit 90 traductions).
+
+### 2026-07-30 | Traduction lot 3 (articles 21 à 30) en DE/IT/EN
+
+- Les 10 articles du lot 3 (administratif, étrangers, assurances,
+  responsabilité civile, poursuites/faillite) sont désormais traduits en
+  DE/IT/EN. Statut passé de 🟡 à ✅ pour ces 10 sujets.
+- Conventions supplémentaires établies : AIG (LEI), VwVG (PA), IVöB/BöB
+  (AIMP/LMP), VVG (LCA), ATSG (LPGA), SchKG (LP) en allemand ; LStrI (LEI),
+  LEF (LP) en italien avec les autres lois gardant leur sigle latin (PA,
+  LCA, LPGA).
+- 2 titres dépassaient le seuil de 65 caractères (un allemand à 75, un
+  italien à 68) : raccourcis avant la fusion finale sans perte de sens.
+- 57 tests toujours au vert, aucun em dash, aucun artefact Jinja. 90 pages
+  DE/IT/EN au total (30 articles × 3 langues).
+- 30/50 articles traduits dans les 4 langues. Reste les lots 4 et 5 (20
+  articles, soit 60 traductions).
