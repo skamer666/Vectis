@@ -4694,6 +4694,87 @@ BLOG_ARTICLES = {
                  "a": "Le mariage reste en principe considéré comme non dissous pour les autorités suisses tant que la reconnaissance n'a pas été obtenue, ce qui peut avoir des conséquences importantes, notamment pour un remariage ou des questions patrimoniales."},
             ],
         },
+        "de": {
+            "slug": "anerkennung-scheidung-ausland-ausgesprochen",
+            "title": "Anerkennung einer im Ausland ausgesprochenen Scheidung",
+            "meta": "Allgemeine Anerkennungsvoraussetzungen für ausländische Entscheide, Verfahren und Zivilstandsregister: was das IPRG vorsieht.",
+            "sections": [
+                {"heading": "Der Grundsatz der Anerkennung", "paragraphs": [
+                    "Ein im Ausland ergangener Scheidungsentscheid entfaltet in der Schweiz nur Wirkung, wenn er dort anerkannt wird, gemäss dem Bundesgesetz über das Internationale Privatrecht (IPRG). Diese Anerkennung erfolgt nicht in allen Fällen automatisch: sie kann einen förmlichen Schritt erfordern, namentlich wenn eine Eintragung im schweizerischen Zivilstandsregister nötig ist.",
+                ]},
+                {"heading": "Die allgemeinen Anerkennungsvoraussetzungen", "paragraphs": [
+                    "Das IPRG stellt allgemeine Voraussetzungen für die Anerkennung eines ausländischen Entscheids auf (Art. 25 ff. IPRG), namentlich die Zuständigkeit der Behörden oder Gerichte des Staates, in dem der Entscheid ergangen ist, gemäss den vom schweizerischen Recht anerkannten Kriterien, das Fehlen eines dort noch möglichen ordentlichen Rechtsmittels, sowie das Fehlen eines Ablehnungsgrundes wie einer Verletzung des schweizerischen Ordre public.",
+                ]},
+                {"heading": "Die auf die Scheidung anwendbaren besonderen Regeln", "paragraphs": [
+                    "Art. 65 IPRG sieht besondere Regeln für die Anerkennung ausländischer Scheidungs- oder Trennungsentscheide vor, wobei namentlich die Staatsangehörigkeit und der Wohnsitz der Ehegatten zum Zeitpunkt des Verfahrens im Ausland berücksichtigt werden.",
+                ]},
+                {"heading": "Das praktische Verfahren", "paragraphs": [
+                    "In der Praxis erfolgen die Anerkennung und Eintragung einer ausländischen Scheidung meist über die kantonale Zivilstandsaufsichtsbehörde des Heimat- oder Wohnsitzkantons der betroffenen Person, welcher der ausländische Entscheid samt den erforderlichen Übersetzungen und Beglaubigungen einzureichen ist.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Ist eine im Ausland ausgesprochene Scheidung automatisch in der Schweiz gültig?",
+                 "a": "Nicht zwingend: ihre Anerkennung hängt von den allgemeinen Voraussetzungen des IPRG ab (Zuständigkeit der ausländischen Behörde, Fehlen eines noch offenen Rechtsmittels, Einhaltung des schweizerischen Ordre public) und kann einen förmlichen Schritt bei der Zivilstandsbehörde erfordern."},
+                {"q": "An wen muss ich mich wenden, um meine ausländische Scheidung anerkennen zu lassen?",
+                 "a": "In der Regel an die kantonale Zivilstandsaufsichtsbehörde des Heimat- oder Wohnsitzkantons, der der ausländische Entscheid samt den erforderlichen Übersetzungen und Beglaubigungen einzureichen ist."},
+                {"q": "Was geschieht, wenn meine ausländische Scheidung in der Schweiz nicht anerkannt wird?",
+                 "a": "Die Ehe gilt für die schweizerischen Behörden grundsätzlich weiterhin als nicht aufgelöst, solange die Anerkennung nicht erfolgt ist, was erhebliche Folgen haben kann, namentlich für eine Wiederverheiratung oder vermögensrechtliche Fragen."},
+            ],
+        },
+        "it": {
+            "slug": "riconoscimento-divorzio-pronunciato-estero",
+            "title": "Riconoscimento di un divorzio pronunciato all'estero",
+            "meta": "Condizioni generali di riconoscimento delle decisioni straniere, procedura e registro dello stato civile: quanto previsto dalla LDIP.",
+            "sections": [
+                {"heading": "Il principio del riconoscimento", "paragraphs": [
+                    "Una decisione di divorzio pronunciata all'estero non ha effetto in Svizzera se non vi viene riconosciuta, conformemente alla legge federale sul diritto internazionale privato (LDIP). Questo riconoscimento non è in linea di principio automatico in tutti i casi: può richiedere una procedura formale, in particolare quando è necessaria un'iscrizione nel registro svizzero dello stato civile.",
+                ]},
+                {"heading": "Le condizioni generali di riconoscimento", "paragraphs": [
+                    "La LDIP pone condizioni generali per il riconoscimento di una decisione straniera (art. 25 segg. LDIP), in particolare la competenza delle autorità o giurisdizioni dello Stato in cui la decisione è stata resa secondo i criteri riconosciuti dal diritto svizzero, l'assenza di un rimedio ordinario ancora possibile contro la decisione in tale Stato, e l'assenza di un motivo di rifiuto come una violazione dell'ordine pubblico svizzero.",
+                ]},
+                {"heading": "Le regole particolari applicabili al divorzio", "paragraphs": [
+                    "L'art. 65 LDIP prevede regole specifiche per il riconoscimento delle decisioni straniere di divorzio o separazione, tenendo conto in particolare della nazionalità e del domicilio dei coniugi al momento della procedura all'estero.",
+                ]},
+                {"heading": "La procedura pratica", "paragraphs": [
+                    "In pratica, il riconoscimento e la trascrizione di un divorzio straniero avvengono il più delle volte tramite l'autorità cantonale di vigilanza sullo stato civile del Cantone d'origine o di domicilio della persona interessata, alla quale va sottoposta la decisione straniera accompagnata dalle traduzioni e legalizzazioni richieste.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un divorzio pronunciato all'estero è automaticamente valido in Svizzera?",
+                 "a": "Non necessariamente: il suo riconoscimento dipende dalle condizioni generali poste dalla LDIP (competenza dell'autorità straniera, assenza di rimedio ancora possibile, rispetto dell'ordine pubblico svizzero), e può richiedere una procedura formale presso l'autorità dello stato civile."},
+                {"q": "A chi devo rivolgermi per far riconoscere il mio divorzio straniero?",
+                 "a": "Generalmente all'autorità cantonale di vigilanza sullo stato civile del Cantone d'origine o di domicilio, alla quale va sottoposta la decisione straniera con le traduzioni e legalizzazioni richieste."},
+                {"q": "Cosa succede se il mio divorzio straniero non viene riconosciuto in Svizzera?",
+                 "a": "Il matrimonio resta in linea di principio considerato non sciolto per le autorità svizzere finché il riconoscimento non è stato ottenuto, il che può avere conseguenze importanti, in particolare per un nuovo matrimonio o questioni patrimoniali."},
+            ],
+        },
+        "en": {
+            "slug": "recognition-divorce-granted-abroad",
+            "title": "Recognition of a divorce granted abroad",
+            "meta": "General conditions for recognising foreign decisions, procedure and civil registry: what the Federal Act on Private International Law provides.",
+            "sections": [
+                {"heading": "The principle of recognition", "paragraphs": [
+                    "A divorce decision issued abroad has no effect in Switzerland unless it is recognised there, under the Federal Act on Private International Law (PILA). This recognition is not automatic in all cases: it may require a formal procedure, in particular when an entry in the Swiss civil registry is required.",
+                ]},
+                {"heading": "The general conditions for recognition", "paragraphs": [
+                    "The PILA sets general conditions for recognising a foreign decision (art. 25 ff. PILA), in particular the competence of the authorities or courts of the state where the decision was issued according to criteria recognised by Swiss law, the absence of an ordinary remedy still available against the decision in that state, and the absence of a ground for refusal such as a violation of Swiss public policy.",
+                ]},
+                {"heading": "Special rules applicable to divorce", "paragraphs": [
+                    "Art. 65 PILA provides specific rules for recognising foreign divorce or legal separation decisions, taking into account in particular the nationality and domicile of the spouses at the time of the proceedings abroad.",
+                ]},
+                {"heading": "The practical procedure", "paragraphs": [
+                    "In practice, recognition and registration of a foreign divorce most often go through the cantonal civil registry supervisory authority of the person's canton of origin or domicile, to which the foreign decision must be submitted along with the required translations and legalisations.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Is a divorce granted abroad automatically valid in Switzerland?",
+                 "a": "Not necessarily: its recognition depends on the general conditions set by the PILA (competence of the foreign authority, absence of a remedy still available, compliance with Swiss public policy), and may require a formal procedure with the civil registry authority."},
+                {"q": "Who should I approach to have my foreign divorce recognised?",
+                 "a": "Generally the cantonal civil registry supervisory authority of the canton of origin or domicile, to which the foreign decision must be submitted with the required translations and legalisations."},
+                {"q": "What happens if my foreign divorce is not recognised in Switzerland?",
+                 "a": "The marriage is in principle still considered undissolved by the Swiss authorities until recognition has been obtained, which can have significant consequences, particularly for remarriage or financial matters."},
+            ],
+        },
     },
     "droit-applicable-contrat-international": {
         "domaine_id": "droit_international_prive",
@@ -4723,6 +4804,87 @@ BLOG_ARTICLES = {
                  "a": "Le droit de l'État avec lequel le contrat présente les liens les plus étroits, présumé être celui de la partie qui fournit la prestation caractéristique du contrat, selon l'art. 117 LDIP."},
                 {"q": "Le choix du droit applicable détermine-t-il aussi le tribunal compétent ?",
                  "a": "Non, ce sont deux questions distinctes : le droit applicable régit le fond du litige, tandis que la compétence judiciaire dépend de règles propres, éventuellement précisées par une clause d'élection de for distincte dans le contrat."},
+            ],
+        },
+        "de": {
+            "slug": "anwendbares-recht-internationaler-vertrag",
+            "title": "Welches Recht auf einen internationalen Vertrag anwendbar ist",
+            "meta": "Rechtswahl durch die Parteien, Anknüpfung an die charakteristische Leistung mangels Wahl: die Regeln des IPRG.",
+            "sections": [
+                {"heading": "Die Wahlfreiheit der Parteien", "paragraphs": [
+                    "Art. 116 IPRG erlaubt den Parteien eines internationalen Vertrags, das auf ihre Vertragsbeziehung anwendbare Recht frei zu wählen, unabhängig davon, ob dieses Recht einen objektiven Bezug zum Vertrag aufweist oder nicht. Diese Wahl kann ausdrücklich erfolgen oder sich eindeutig aus den Vertragsbestimmungen oder den Umständen ergeben.",
+                ]},
+                {"heading": "Die Anknüpfung mangels Wahl", "paragraphs": [
+                    "Mangels Rechtswahl durch die Parteien unterstellt Art. 117 IPRG den Vertrag dem Recht des Staates, mit dem er am engsten zusammenhängt, wobei vermutet wird, dass dies das Recht des Staates des gewöhnlichen Aufenthalts oder der Niederlassung der Partei ist, welche die für den Vertrag charakteristische Leistung erbringen muss (etwa die Verkäuferin oder der Verkäufer bei einem Kaufvertrag, oder die Dienstleisterin oder der Dienstleister bei einem Dienstleistungsvertrag).",
+                ]},
+                {"heading": "Die Grenzen der Wahlfreiheit", "paragraphs": [
+                    "Diese Wahlfreiheit ist nicht unbeschränkt: bestimmte zwingende Bestimmungen des schweizerischen Rechts oder des Rechts eines anderen Staates können trotz der Rechtswahl der Parteien Anwendung finden, namentlich in Bereichen, die eine als schwächer geltende Partei schützen (Konsumentenverträge, Arbeitsverträge), gemäss den vom IPRG für diese Vertragskategorien vorgesehenen besonderen Regeln.",
+                ]},
+                {"heading": "Der Gerichtsstand", "paragraphs": [
+                    "Das auf den Vertrag anwendbare Recht ist eine von der Frage des im Streitfall zuständigen Gerichts getrennte Frage: die Parteien können innerhalb bestimmter Grenzen auch eine Gerichtsstandsklausel vereinbaren, welche die im Streitfall zuständigen Gerichte bezeichnet, unabhängig vom für den Vertragsinhalt gewählten materiellen Recht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Können die Parteien für ihren internationalen Vertrag ein beliebiges Recht wählen?",
+                 "a": "Grundsätzlich ja, Art. 116 IPRG lässt eine grosse Wahlfreiheit zu, selbst ohne objektiven Bezug zwischen dem gewählten Recht und dem Vertrag, vorbehältlich bestimmter zwingender Bestimmungen zum Schutz einer schwächeren Partei bei bestimmten Vertragsarten."},
+                {"q": "Welches Recht gilt, wenn der Vertrag keine Rechtswahlklausel enthält?",
+                 "a": "Das Recht des Staates, mit dem der Vertrag am engsten zusammenhängt, vermutungsweise jenes der Partei, welche die charakteristische Leistung des Vertrags erbringt, gemäss Art. 117 IPRG."},
+                {"q": "Bestimmt die Wahl des anwendbaren Rechts auch das zuständige Gericht?",
+                 "a": "Nein, das sind zwei getrennte Fragen: das anwendbare Recht regelt den Inhalt des Streits, während die gerichtliche Zuständigkeit eigenen Regeln folgt, gegebenenfalls präzisiert durch eine gesonderte Gerichtsstandsklausel im Vertrag."},
+            ],
+        },
+        "it": {
+            "slug": "diritto-applicabile-contratto-internazionale",
+            "title": "Quale diritto si applica a un contratto internazionale",
+            "meta": "Scelta del diritto da parte delle parti, collegamento alla prestazione caratteristica in assenza di scelta: le regole della LDIP.",
+            "sections": [
+                {"heading": "La libertà di scelta delle parti", "paragraphs": [
+                    "L'art. 116 LDIP permette alle parti di un contratto internazionale di scegliere liberamente il diritto applicabile al loro rapporto contrattuale, che tale diritto abbia o meno un legame oggettivo con il contratto. Questa scelta può essere espressa o risultare in modo certo dalle disposizioni del contratto o dalle circostanze.",
+                ]},
+                {"heading": "Il collegamento in assenza di scelta", "paragraphs": [
+                    "In mancanza di scelta delle parti, l'art. 117 LDIP sottopone il contratto al diritto dello Stato con cui presenta il legame più stretto, presunto essere quello dello Stato di residenza abituale o di stabilimento della parte che deve fornire la prestazione caratteristica del contratto (per esempio il venditore in un contratto di vendita, o il prestatore in un contratto di servizio).",
+                ]},
+                {"heading": "I limiti alla libertà di scelta", "paragraphs": [
+                    "Questa libertà di scelta non è assoluta: determinate disposizioni imperative del diritto svizzero o del diritto di un altro Stato possono applicarsi nonostante la scelta delle parti, in particolare in ambiti che proteggono una parte considerata più debole (contratti di consumo, contratti di lavoro), secondo le regole specifiche previste dalla LDIP per queste categorie di contratti.",
+                ]},
+                {"heading": "Il foro giudiziario", "paragraphs": [
+                    "Il diritto applicabile al contratto è una questione distinta da quella del tribunale competente in caso di controversia: le parti possono, entro certi limiti, convenire anche una clausola di elezione del foro, designando i tribunali competenti in caso di controversia, indipendentemente dal diritto materiale scelto per disciplinare il contenuto del contratto.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le parti possono scegliere qualsiasi diritto per il loro contratto internazionale?",
+                 "a": "In linea di principio sì, l'art. 116 LDIP lascia un'ampia libertà di scelta, anche senza legame oggettivo tra il diritto scelto e il contratto, con riserva di determinate disposizioni imperative a protezione di una parte debole in certi tipi di contratti."},
+                {"q": "Quale diritto si applica se il contratto non prevede alcuna clausola di scelta?",
+                 "a": "Il diritto dello Stato con cui il contratto presenta il legame più stretto, presunto essere quello della parte che fornisce la prestazione caratteristica del contratto, secondo l'art. 117 LDIP."},
+                {"q": "La scelta del diritto applicabile determina anche il tribunale competente?",
+                 "a": "No, sono due questioni distinte: il diritto applicabile disciplina il merito della controversia, mentre la competenza giudiziaria dipende da regole proprie, eventualmente precisate da una clausola di elezione del foro distinta nel contratto."},
+            ],
+        },
+        "en": {
+            "slug": "law-applicable-international-contract",
+            "title": "Which law applies to an international contract",
+            "meta": "Choice of law by the parties, connection to the characteristic performance absent a choice: the rules of the Private International Law Act.",
+            "sections": [
+                {"heading": "The parties' freedom of choice", "paragraphs": [
+                    "Art. 116 PILA allows parties to an international contract to freely choose the law applicable to their contractual relationship, whether or not that law has an objective connection to the contract. This choice can be express or result clearly from the terms of the contract or the circumstances.",
+                ]},
+                {"heading": "Connection absent a choice", "paragraphs": [
+                    "Absent a choice by the parties, art. 117 PILA subjects the contract to the law of the state with which it has the closest connection, presumed to be that of the habitual residence or place of business of the party who must provide the performance characteristic of the contract (for example, the seller in a sales contract, or the service provider in a service contract).",
+                ]},
+                {"heading": "Limits on freedom of choice", "paragraphs": [
+                    "This freedom of choice is not unlimited: certain mandatory provisions of Swiss law or the law of another state may apply despite the parties' choice, particularly in areas protecting a party considered weaker (consumer contracts, employment contracts), according to the specific rules the PILA provides for these categories of contract.",
+                ]},
+                {"heading": "The forum", "paragraphs": [
+                    "The law applicable to the contract is a separate question from that of the court with jurisdiction in the event of a dispute: the parties can, within certain limits, also agree on a choice-of-forum clause, designating the courts with jurisdiction in the event of a dispute, independently of the substantive law chosen to govern the content of the contract.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can the parties choose any law for their international contract?",
+                 "a": "In principle yes, art. 116 PILA allows broad freedom of choice, even without an objective connection between the chosen law and the contract, subject to certain mandatory provisions protecting a weaker party in certain types of contracts."},
+                {"q": "What law applies if the contract contains no choice-of-law clause?",
+                 "a": "The law of the state with which the contract has the closest connection, presumed to be that of the party providing the performance characteristic of the contract, under art. 117 PILA."},
+                {"q": "Does the choice of applicable law also determine the competent court?",
+                 "a": "No, these are two separate questions: the applicable law governs the substance of the dispute, while court jurisdiction depends on its own rules, possibly specified by a separate choice-of-forum clause in the contract."},
             ],
         },
     },
@@ -4756,6 +4918,87 @@ BLOG_ARTICLES = {
                  "a": "L'autorité de conciliation délivre une autorisation de procéder, qui permet de porter le litige devant le tribunal compétent dans le délai fixé par la loi."},
             ],
         },
+        "de": {
+            "slug": "obligatorisches-schlichtungsverfahren-vor-zivilprozess",
+            "title": "Obligatorisches Schlichtungsverfahren vor einem Zivilprozess",
+            "meta": "Vorgängiger Schlichtungsversuch, Klagebewilligung, gesetzliche Ausnahmen: was die Zivilprozessordnung vorsieht.",
+            "sections": [
+                {"heading": "Der Grundsatz der vorgängigen Schlichtung", "paragraphs": [
+                    "Für die meisten Zivilstreitigkeiten schreibt die ZPO einen Schlichtungsversuch vor der zuständigen Schlichtungsbehörde vor, bevor das Gericht angerufen werden kann (Art. 197 ZPO). Dieser Schritt soll eine gütliche Beilegung der Streitigkeit fördern, bevor ein oft längeres und kostspieligeres Gerichtsverfahren eingeleitet wird.",
+                ]},
+                {"heading": "Der Ablauf der Schlichtungsverhandlung", "paragraphs": [
+                    "Die Schlichtungsverhandlung findet vor der Schlichtungsbehörde in Anwesenheit der Parteien statt, die dabei von einer Anwältin oder einem Anwalt begleitet werden können. Die Behörde versucht, die Positionen der Parteien anzunähern, und kann in bestimmten Fällen mit Zustimmung der Parteien selbst über die Streitigkeit entscheiden, sofern deren Streitwert einen bestimmten Betrag nicht übersteigt.",
+                ]},
+                {"heading": "Die Klagebewilligung", "paragraphs": [
+                    "Kommt keine Einigung zustande, stellt die Schlichtungsbehörde eine Klagebewilligung aus, welche der klagenden Partei erlaubt, die Streitigkeit innert der gesetzlich vorgesehenen Frist beim zuständigen Gericht anhängig zu machen. Ohne diese Bewilligung ist eine direkt beim Gericht eingereichte Klage grundsätzlich unzulässig.",
+                ]},
+                {"heading": "Die Ausnahmen von der Schlichtungspflicht", "paragraphs": [
+                    "Art. 198 ZPO sieht Ausnahmen vor, bei denen die vorgängige Schlichtung nicht erforderlich ist, namentlich für bestimmte summarische Verfahren, bestimmte Streitigkeiten, die einer einzigen kantonalen Instanz unterliegen, oder wenn die Parteien bei vermögensrechtlichen Streitigkeiten mit ausreichend hohem Streitwert gemeinsam auf die Schlichtung verzichten.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann ich direkt das Gericht anrufen, ohne den Schlichtungsweg zu durchlaufen?",
+                 "a": "Grundsätzlich nicht bei den meisten Zivilstreitigkeiten: eine von der Schlichtungsbehörde ausgestellte Klagebewilligung ist erforderlich, ausser in den Ausnahmefällen gemäss Art. 198 ZPO."},
+                {"q": "Kann die Schlichtungsbehörde einen Entscheid in der Sache selbst fällen?",
+                 "a": "In bestimmten Fällen ja, mit Zustimmung der Parteien und sofern der Streitwert den gesetzlich festgelegten Betrag nicht übersteigt, kann die Schlichtungsbehörde selbst entscheiden, statt die Sache ans Gericht zu verweisen."},
+                {"q": "Was geschieht, wenn in der Schlichtung keine Einigung erzielt wird?",
+                 "a": "Die Schlichtungsbehörde stellt eine Klagebewilligung aus, welche erlaubt, die Streitigkeit innert der gesetzlichen Frist beim zuständigen Gericht anhängig zu machen."},
+            ],
+        },
+        "it": {
+            "slug": "conciliazione-obbligatoria-prima-processo-civile",
+            "title": "Conciliazione obbligatoria prima di un processo civile",
+            "meta": "Tentativo di conciliazione preliminare, autorizzazione ad agire, eccezioni legali: quanto previsto dal Codice di procedura civile.",
+            "sections": [
+                {"heading": "Il principio della conciliazione preliminare", "paragraphs": [
+                    "Per la maggior parte delle controversie civili, il CPC impone un tentativo di conciliazione davanti all'autorità di conciliazione competente prima di poter adire il tribunale (art. 197 CPC). Questa tappa mira a favorire una composizione amichevole della controversia prima di avviare una procedura giudiziaria spesso più lunga e costosa.",
+                ]},
+                {"heading": "Lo svolgimento dell'udienza di conciliazione", "paragraphs": [
+                    "L'udienza di conciliazione si svolge davanti all'autorità di conciliazione, in presenza delle parti, che possono esservi accompagnate da un avvocato. L'autorità tenta di avvicinare le posizioni delle parti e può, in determinati casi e con l'accordo delle parti, decidere essa stessa sulla controversia se il suo valore litigioso non supera un determinato importo.",
+                ]},
+                {"heading": "L'autorizzazione ad agire", "paragraphs": [
+                    "Se non si raggiunge alcun accordo, l'autorità di conciliazione rilascia un'autorizzazione ad agire, che permette all'attore di portare la controversia davanti al tribunale competente entro un termine fissato dalla legge. Senza questa autorizzazione, un'azione promossa direttamente davanti al tribunale è in linea di principio irricevibile.",
+                ]},
+                {"heading": "Le eccezioni all'obbligo di conciliazione", "paragraphs": [
+                    "L'art. 198 CPC prevede eccezioni in cui la conciliazione preliminare non è richiesta, in particolare per determinate procedure sommarie, determinate controversie soggette a un'istanza cantonale unica, o quando le parti rinunciano congiuntamente alla conciliazione nelle controversie patrimoniali di valore litigioso sufficientemente elevato.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Posso adire direttamente il tribunale senza passare dalla conciliazione?",
+                 "a": "In linea di principio no per la maggior parte delle controversie civili: è necessaria un'autorizzazione ad agire rilasciata dall'autorità di conciliazione, salvo nei casi di eccezione previsti dall'art. 198 CPC."},
+                {"q": "L'autorità di conciliazione può emettere una decisione sul merito della controversia?",
+                 "a": "In determinati casi sì, con l'accordo delle parti e se il valore litigioso non supera l'importo fissato dalla legge, l'autorità di conciliazione può decidere essa stessa invece di rinviare la causa al tribunale."},
+                {"q": "Cosa succede se non si raggiunge alcun accordo in conciliazione?",
+                 "a": "L'autorità di conciliazione rilascia un'autorizzazione ad agire, che permette di portare la controversia davanti al tribunale competente entro il termine fissato dalla legge."},
+            ],
+        },
+        "en": {
+            "slug": "mandatory-conciliation-before-civil-lawsuit",
+            "title": "Mandatory conciliation before a civil lawsuit",
+            "meta": "Prior conciliation attempt, authorisation to proceed, statutory exceptions: what the Code of Civil Procedure provides.",
+            "sections": [
+                {"heading": "The principle of prior conciliation", "paragraphs": [
+                    "For most civil disputes, the CCP requires a conciliation attempt before the competent conciliation authority before the court can be approached (art. 197 CCP). This step aims to encourage an amicable settlement of the dispute before initiating often longer and more costly court proceedings.",
+                ]},
+                {"heading": "How the conciliation hearing unfolds", "paragraphs": [
+                    "The conciliation hearing takes place before the conciliation authority, with the parties present, who may be accompanied by a lawyer. The authority tries to bring the parties' positions closer together and, in certain cases and with the parties' agreement, can rule on the dispute itself if its amount in dispute does not exceed a certain threshold.",
+                ]},
+                {"heading": "Authorisation to proceed", "paragraphs": [
+                    "If no agreement is reached, the conciliation authority issues an authorisation to proceed, which allows the plaintiff to bring the dispute before the competent court within the deadline set by law. Without this authorisation, an action filed directly with the court is in principle inadmissible.",
+                ]},
+                {"heading": "Exceptions to the conciliation requirement", "paragraphs": [
+                    "Art. 198 CCP provides exceptions where prior conciliation is not required, in particular for certain summary proceedings, certain disputes subject to a single cantonal instance, or when the parties jointly waive conciliation in property disputes with a sufficiently high amount in dispute.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can I go directly to court without going through conciliation?",
+                 "a": "In principle no for most civil disputes: an authorisation to proceed issued by the conciliation authority is required, except in the exceptional cases provided by art. 198 CCP."},
+                {"q": "Can the conciliation authority rule on the substance of the dispute itself?",
+                 "a": "In certain cases yes, with the parties' agreement and if the amount in dispute does not exceed the threshold set by law, the conciliation authority can rule itself rather than referring the matter to court."},
+                {"q": "What happens if no agreement is reached in conciliation?",
+                 "a": "The conciliation authority issues an authorisation to proceed, which allows the dispute to be brought before the competent court within the deadline set by law."},
+            ],
+        },
     },
     "frais-justice-depens-qui-paie": {
         "domaine_id": "procedure_civile",
@@ -4785,6 +5028,87 @@ BLOG_ARTICLES = {
                  "a": "Oui, l'assistance judiciaire (art. 117 ss CPC) peut couvrir tout ou partie des frais judiciaires et la désignation d'un avocat d'office, à condition de ne pas disposer de ressources suffisantes et que la cause ne paraisse pas dépourvue de chance de succès."},
                 {"q": "Que se passe-t-il si je ne paie pas l'avance de frais demandée par le tribunal ?",
                  "a": "Le tribunal peut, à défaut de paiement dans le délai imparti, déclarer la demande irrecevable sans examiner le fond du litige."},
+            ],
+        },
+        "de": {
+            "slug": "gerichtskosten-parteientschaedigung-wer-zahlt",
+            "title": "Gerichtskosten und Parteientschädigung: wer zahlt",
+            "meta": "Kostenvorschuss, Verteilung je nach Verfahrensausgang, unentgeltliche Rechtspflege: die Regeln der Zivilprozessordnung zu den Kosten.",
+            "sections": [
+                {"heading": "Die zwei Kostenkategorien", "paragraphs": [
+                    "Die ZPO unterscheidet die Gerichtskosten (Gebühren des Gerichts, Kosten für Gutachten, Zeuginnen und Zeugen) von der Parteientschädigung, welche den Anwaltskosten und anderen notwendigen Auslagen entspricht, die eine Partei zur Wahrung ihrer Interessen im Verfahren aufgewendet hat (Art. 95 ZPO).",
+                ]},
+                {"heading": "Der Kostenvorschuss", "paragraphs": [
+                    "Das Gericht kann von der klagenden Partei einen Vorschuss zur Deckung der voraussichtlichen Gerichtskosten verlangen, vor Eröffnung des Verfahrens in der Sache. Wird dieser Vorschuss nicht innert der gesetzten Frist geleistet, kann die Klage für unzulässig erklärt werden.",
+                ]},
+                {"heading": "Die allgemeine Verteilungsregel", "paragraphs": [
+                    "Gemäss Art. 106 ZPO werden die Kosten grundsätzlich der unterliegenden Partei auferlegt. Bei teilweisem Obsiegen jeder Partei werden die Kosten anteilsmässig nach Ausgang der Sache verteilt. Das Gericht kann aus Billigkeitsgründen in bestimmten Situationen von dieser allgemeinen Regel abweichen.",
+                ]},
+                {"heading": "Die unentgeltliche Rechtspflege", "paragraphs": [
+                    "Eine Person, die nicht über ausreichende Mittel verfügt, um die Kosten eines Prozesses zu tragen, ohne das für ihren Unterhalt notwendige Existenzminimum zu beeinträchtigen, kann unentgeltliche Rechtspflege beantragen (Art. 117 ff. ZPO), welche die Gerichtskosten ganz oder teilweise decken kann und nötigenfalls die Bestellung einer unentgeltlichen Rechtsvertretung, sofern die Sache nicht als aussichtslos erscheint.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Wer trägt die Kosten, wenn ich meinen Prozess verliere?",
+                 "a": "Grundsätzlich trägt die unterliegende Partei die Gerichtskosten und die Parteientschädigung der Gegenpartei (Art. 106 ZPO), unter Vorbehalt einer anteilsmässigen Verteilung bei teilweisem Obsiegen jeder Partei."},
+                {"q": "Kann ich Hilfe erhalten, wenn ich nicht über die Mittel verfüge, um die Gerichtskosten zu bezahlen?",
+                 "a": "Ja, die unentgeltliche Rechtspflege (Art. 117 ff. ZPO) kann die Gerichtskosten ganz oder teilweise decken und die Bestellung einer unentgeltlichen Rechtsvertretung ermöglichen, sofern Sie nicht über ausreichende Mittel verfügen und die Sache nicht aussichtslos erscheint."},
+                {"q": "Was geschieht, wenn ich den vom Gericht verlangten Kostenvorschuss nicht bezahle?",
+                 "a": "Das Gericht kann die Klage bei Nichtzahlung innert der gesetzten Frist für unzulässig erklären, ohne die Sache zu prüfen."},
+            ],
+        },
+        "it": {
+            "slug": "spese-giudiziarie-ripetibili-chi-paga",
+            "title": "Spese giudiziarie e ripetibili: chi paga nel processo",
+            "meta": "Anticipo delle spese, ripartizione secondo l'esito del processo, assistenza giudiziaria: le regole del Codice di procedura civile sulle spese.",
+            "sections": [
+                {"heading": "Le due categorie di spese", "paragraphs": [
+                    "Il CPC distingue le spese giudiziarie (emolumenti del tribunale, spese per perizie, testimoni) dalle ripetibili, che corrispondono alle spese legali e ad altri esborsi necessari sostenuti da una parte per difendere i propri interessi nella procedura (art. 95 CPC).",
+                ]},
+                {"heading": "L'anticipo delle spese", "paragraphs": [
+                    "Il tribunale può esigere dall'attore un anticipo destinato a coprire le spese giudiziarie presunte, prima dell'apertura della procedura sul merito. In mancanza del pagamento di tale anticipo entro il termine impartito, la domanda può essere dichiarata irricevibile.",
+                ]},
+                {"heading": "La regola generale di ripartizione", "paragraphs": [
+                    "Secondo l'art. 106 CPC, le spese sono in linea di principio poste a carico della parte soccombente. In caso di vittoria parziale di ciascuna parte, le spese sono ripartite proporzionalmente secondo l'esito della causa. Il tribunale può discostarsi da questa regola generale per motivi di equità in determinate situazioni.",
+                ]},
+                {"heading": "L'assistenza giudiziaria", "paragraphs": [
+                    "Una persona che non dispone di risorse sufficienti per sostenere le spese di un processo senza pregiudicare il minimo vitale necessario al proprio sostentamento può chiedere l'assistenza giudiziaria (art. 117 segg. CPC), che può coprire in tutto o in parte le spese giudiziarie e, se necessario, la designazione di un avvocato d'ufficio, a condizione che la causa non appaia priva di ogni possibilità di successo.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Chi paga le spese se perdo il mio processo?",
+                 "a": "In linea di principio la parte soccombente sostiene le spese giudiziarie e le ripetibili della controparte (art. 106 CPC), con riserva di una ripartizione proporzionale in caso di vittoria parziale di ciascuna parte."},
+                {"q": "Posso ottenere un aiuto se non ho i mezzi per pagare le spese di giustizia?",
+                 "a": "Sì, l'assistenza giudiziaria (art. 117 segg. CPC) può coprire in tutto o in parte le spese giudiziarie e permettere la designazione di un avvocato d'ufficio, a condizione di non disporre di risorse sufficienti e che la causa non appaia priva di possibilità di successo."},
+                {"q": "Cosa succede se non pago l'anticipo delle spese richiesto dal tribunale?",
+                 "a": "Il tribunale può, in mancanza di pagamento entro il termine impartito, dichiarare la domanda irricevibile senza esaminare il merito della controversia."},
+            ],
+        },
+        "en": {
+            "slug": "court-costs-legal-fees-who-pays",
+            "title": "Court costs and legal fees: who pays in a lawsuit",
+            "meta": "Advance payment of costs, allocation based on the outcome, legal aid: the Code of Civil Procedure rules on costs.",
+            "sections": [
+                {"heading": "The two categories of costs", "paragraphs": [
+                    "The CCP distinguishes court costs (court fees, expert and witness costs) from party compensation, which corresponds to legal fees and other necessary expenses incurred by a party to defend their interests in the proceedings (art. 95 CCP).",
+                ]},
+                {"heading": "The advance payment of costs", "paragraphs": [
+                    "The court can require the plaintiff to make an advance payment to cover the estimated court costs, before opening proceedings on the merits. If this advance is not paid within the deadline set, the claim can be declared inadmissible.",
+                ]},
+                {"heading": "The general allocation rule", "paragraphs": [
+                    "Under art. 106 CCP, costs are in principle borne by the losing party. Where each party partially prevails, costs are allocated proportionally according to the outcome of the case. The court can deviate from this general rule on equitable grounds in certain situations.",
+                ]},
+                {"heading": "Legal aid", "paragraphs": [
+                    "A person who does not have sufficient means to bear the costs of a lawsuit without affecting the subsistence minimum necessary for their support can apply for legal aid (art. 117 ff. CCP), which can cover all or part of the court costs and, if necessary, the appointment of a court-appointed lawyer, provided the case does not appear devoid of any chance of success.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Who pays the costs if I lose my lawsuit?",
+                 "a": "In principle the losing party bears the court costs and the other party's legal fees (art. 106 CCP), subject to proportional allocation where each party partially prevails."},
+                {"q": "Can I get help if I don't have the means to pay court costs?",
+                 "a": "Yes, legal aid (art. 117 ff. CCP) can cover all or part of the court costs and allow for the appointment of a court-appointed lawyer, provided you lack sufficient means and the case does not appear devoid of any chance of success."},
+                {"q": "What happens if I don't pay the advance on costs requested by the court?",
+                 "a": "The court can, if payment is not made within the deadline set, declare the claim inadmissible without examining the merits of the dispute."},
             ],
         },
     },
@@ -4818,6 +5142,87 @@ BLOG_ARTICLES = {
                  "a": "L'audition menée en violation de ces garanties est en principe inexploitable comme moyen de preuve dans la procédure."},
             ],
         },
+        "de": {
+            "slug": "einvernahme-beschuldigte-rechte-befragung",
+            "title": "Als beschuldigte Person einvernommen: Ihre Rechte",
+            "meta": "Information über den Tatvorwurf, Aussageverweigerungsrecht, Recht auf eine Verteidigung: die Garantien der Strafprozessordnung bei einer Einvernahme.",
+            "sections": [
+                {"heading": "Das Recht auf Information über den Tatvorwurf", "paragraphs": [
+                    "Vor ihrer ersten Einvernahme muss die beschuldigte Person in einer ihr verständlichen Sprache über den ihr vorgeworfenen Sachverhalt und die in Betracht kommenden Straftatbestände informiert werden (Art. 158 StPO). Diese Information ist eine Gültigkeitsvoraussetzung der Einvernahme: fehlt sie, kann diese grundsätzlich nicht gegen die beschuldigte Person verwertet werden.",
+                ]},
+                {"heading": "Das Aussageverweigerungsrecht", "paragraphs": [
+                    "Die beschuldigte Person muss zudem darüber informiert werden, dass sie die Aussage und die Mitwirkung verweigern darf, ohne dass ihr Schweigen gegen sie verwendet werden kann. Dieses Recht gilt vom ersten Kontakt mit den Strafverfolgungsbehörden an, unabhängig vom Verfahrensstadium.",
+                ]},
+                {"heading": "Das Recht auf eine Verteidigung", "paragraphs": [
+                    "Die beschuldigte Person hat das Recht, eine Anwältin oder einen Anwalt ihrer Wahl beizuziehen oder, wenn sie nicht über die nötigen Mittel verfügt, in den Fällen der notwendigen Verteidigung eine amtliche Verteidigung zu verlangen. Dieses Recht muss ihr vor der Einvernahme mitgeteilt werden, und sie kann grundsätzlich eine kurze Verschiebung verlangen, um ihre Verteidigung zu organisieren.",
+                ]},
+                {"heading": "Die Folgen einer Verletzung dieser Rechte", "paragraphs": [
+                    "Eine unter Verletzung dieser Grundrechte durchgeführte Einvernahme (fehlende Information über den Tatvorwurf, fehlende Information über das Aussageverweigerungsrecht oder das Recht auf eine Anwältin oder einen Anwalt) ist grundsätzlich als Beweismittel unverwertbar, was erhebliche Folgen für den weiteren Verlauf des Strafverfahrens haben kann.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Bin ich verpflichtet, die Fragen der Polizei oder der Staatsanwaltschaft zu beantworten?",
+                 "a": "Nein, Sie haben zu jedem Zeitpunkt des Verfahrens das Recht zu schweigen, und dieses Schweigen darf nicht gegen Sie verwendet werden (Art. 158 StPO)."},
+                {"q": "Habe ich bereits bei der ersten Einvernahme Anspruch auf eine Anwältin oder einen Anwalt?",
+                 "a": "Ja, Sie haben das Recht, eine Anwältin oder einen Anwalt Ihrer Wahl beizuziehen, oder eine amtliche Verteidigung zu verlangen, wenn Sie nicht über die nötigen Mittel verfügen, in den Fällen der notwendigen Verteidigung, und dieses Recht muss Ihnen vor der Einvernahme mitgeteilt werden."},
+                {"q": "Was geschieht, wenn mir diese Rechte vor der Einvernahme nicht mitgeteilt wurden?",
+                 "a": "Die unter Verletzung dieser Garantien durchgeführte Einvernahme ist grundsätzlich als Beweismittel im Verfahren unverwertbar."},
+            ],
+        },
+        "it": {
+            "slug": "essere-sentito-imputato-diritti-interrogatorio",
+            "title": "Essere sentito come imputato: i vostri diritti",
+            "meta": "Informazione sui capi d'accusa, diritto al silenzio, diritto a un difensore: le garanzie previste dal Codice di procedura penale durante l'interrogatorio.",
+            "sections": [
+                {"heading": "Il diritto ad essere informato dei capi d'accusa", "paragraphs": [
+                    "Prima del primo interrogatorio, l'imputato deve essere informato, in una lingua che comprende, dei fatti che gli vengono rimproverati e dei reati che entrano in considerazione (art. 158 CPP). Questa informazione è una condizione di validità dell'interrogatorio: in sua mancanza, questo non può in linea di principio essere utilizzato contro l'imputato.",
+                ]},
+                {"heading": "Il diritto al silenzio", "paragraphs": [
+                    "L'imputato deve inoltre essere informato del suo diritto di rifiutare di deporre e di collaborare, senza che il suo silenzio possa essere ritenuto contro di lui. Questo diritto si applica dal primo contatto con le autorità di perseguimento penale, indipendentemente dallo stadio della procedura.",
+                ]},
+                {"heading": "Il diritto a un difensore", "paragraphs": [
+                    "L'imputato ha il diritto di fare appello a un avvocato di sua scelta o, se non ne ha i mezzi, di chiedere un difensore d'ufficio nei casi di difesa obbligatoria previsti dalla legge. Questo diritto deve essergli segnalato prima dell'interrogatorio, e può in linea di principio chiedere un breve rinvio per organizzare la propria difesa.",
+                ]},
+                {"heading": "Le conseguenze di una violazione di questi diritti", "paragraphs": [
+                    "Un interrogatorio condotto in violazione di questi diritti fondamentali (assenza di informazione sui capi d'accusa, assenza di informazione sul diritto al silenzio o sul diritto a un avvocato) è in linea di principio inutilizzabile come mezzo di prova, il che può avere conseguenze importanti sul seguito della procedura penale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Sono obbligato a rispondere alle domande della polizia o del pubblico ministero?",
+                 "a": "No, avete il diritto di tacere in qualsiasi momento della procedura, e questo silenzio non può essere ritenuto contro di voi (art. 158 CPP)."},
+                {"q": "Ho diritto a un avvocato già dal primo interrogatorio?",
+                 "a": "Sì, avete il diritto di fare appello a un avvocato di vostra scelta, o di chiedere un difensore d'ufficio se non ne avete i mezzi nei casi di difesa obbligatoria previsti dalla legge, e questo diritto deve esservi segnalato prima dell'interrogatorio."},
+                {"q": "Cosa succede se questi diritti non mi sono stati segnalati prima dell'interrogatorio?",
+                 "a": "L'interrogatorio condotto in violazione di queste garanzie è in linea di principio inutilizzabile come mezzo di prova nella procedura."},
+            ],
+        },
+        "en": {
+            "slug": "being-heard-accused-rights-interrogation",
+            "title": "Being questioned as the accused: your rights",
+            "meta": "Information on the charges, right to remain silent, right to a defence lawyer: the guarantees under the Code of Criminal Procedure during questioning.",
+            "sections": [
+                {"heading": "The right to be informed of the charges", "paragraphs": [
+                    "Before their first interview, the accused must be informed, in a language they understand, of the facts alleged against them and the offences under consideration (art. 158 CCP). This information is a condition for the validity of the interview: without it, the interview in principle cannot be used against the accused.",
+                ]},
+                {"heading": "The right to remain silent", "paragraphs": [
+                    "The accused must also be informed of their right to refuse to make a statement and to cooperate, without their silence being held against them. This right applies from the first contact with the criminal prosecution authorities, regardless of the stage of the proceedings.",
+                ]},
+                {"heading": "The right to a defence lawyer", "paragraphs": [
+                    "The accused has the right to call on a lawyer of their choice or, if they lack the means, to request a court-appointed defence lawyer in the cases of mandatory defence provided by law. This right must be pointed out to them before questioning, and they can in principle request a short postponement to organise their defence.",
+                ]},
+                {"heading": "The consequences of a violation of these rights", "paragraphs": [
+                    "An interview conducted in violation of these fundamental rights (no information on the charges, no information on the right to remain silent or the right to a lawyer) is in principle inadmissible as evidence, which can have significant consequences for the rest of the criminal proceedings.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Am I required to answer questions from the police or the public prosecutor?",
+                 "a": "No, you have the right to remain silent at any stage of the proceedings, and this silence cannot be held against you (art. 158 CCP)."},
+                {"q": "Am I entitled to a lawyer from the first interview?",
+                 "a": "Yes, you have the right to call on a lawyer of your choice, or to request a court-appointed defence lawyer if you lack the means in cases of mandatory defence provided by law, and this right must be pointed out to you before questioning."},
+                {"q": "What happens if these rights were not pointed out to me before questioning?",
+                 "a": "An interview conducted in violation of these guarantees is in principle inadmissible as evidence in the proceedings."},
+            ],
+        },
     },
     "plainte-penale-delais-difference-denonciation": {
         "domaine_id": "procedure_penale",
@@ -4847,6 +5252,87 @@ BLOG_ARTICLES = {
                  "a": "La plainte est réservée au lésé et nécessaire pour les infractions poursuivies sur plainte, tandis que la dénonciation peut être faite par n'importe qui et concerne surtout les infractions poursuivies d'office, pour lesquelles aucune manifestation de volonté du lésé n'est requise."},
                 {"q": "Puis-je retirer ma plainte après l'avoir déposée ?",
                  "a": "Oui, en principe tant qu'un jugement de première instance n'a pas été rendu, ce qui met fin à la poursuite pour l'infraction concernée, sous réserve de règles particulières dans certains cas (art. 33 CP)."},
+            ],
+        },
+        "de": {
+            "slug": "strafantrag-fristen-unterschied-anzeige",
+            "title": "Strafantrag: Fristen und Unterschied zur Strafanzeige",
+            "meta": "Dreimonatige Antragsfrist, Offizial- und Antragsdelikte: die vom Strafgesetzbuch vorgesehenen Unterscheidungen.",
+            "sections": [
+                {"heading": "Was ein Strafantrag ist", "paragraphs": [
+                    "Der Strafantrag ist die Erklärung, mit der die geschädigte Person ihren Willen zum Ausdruck bringt, dass die Täterin oder der Täter einer Straftat verfolgt wird. Er ist für bestimmte Straftaten, sogenannte Antragsdelikte, unerlässlich, welche die Staatsanwaltschaft nur untersuchen kann, wenn die geschädigte Person ihn stellt (Art. 30 ff. StGB).",
+                ]},
+                {"heading": "Die Frist zur Stellung des Strafantrags", "paragraphs": [
+                    "Art. 31 StGB setzt eine Frist von drei Monaten für die Stellung des Strafantrags, ab dem Tag, an dem die antragsberechtigte Person von der Täterin oder dem Täter Kenntnis erhalten hat. Diese Frist ist eine Verwirkungsfrist: nach ihrem Ablauf erlischt das Antragsrecht für diese Straftat endgültig.",
+                ]},
+                {"heading": "Der Unterschied zur Strafanzeige", "paragraphs": [
+                    "Die Strafanzeige kann im Gegensatz zum Strafantrag von jeder Person erstattet werden, die von einer Straftat Kenntnis hat, und betrifft hauptsächlich Offizialdelikte, für welche die Staatsanwaltschaft handeln muss, sobald sie vom Sachverhalt Kenntnis erlangt, ohne dass eine Willensäusserung der geschädigten Person erforderlich wäre.",
+                ]},
+                {"heading": "Der Rückzug des Strafantrags", "paragraphs": [
+                    "Ein Strafantrag kann grundsätzlich zurückgezogen werden, solange kein erstinstanzliches Urteil ergangen ist, was die Verfolgung der betreffenden Straftat beendet, vorbehältlich einer gegenteiligen Vereinbarung zwischen der antragstellenden Person und der vom Rückzug betroffenen Person in bestimmten gesetzlich vorgesehenen Fällen (Art. 33 StGB).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Innert welcher Frist muss ich Strafantrag stellen?",
+                 "a": "Innert drei Monaten ab dem Tag, an dem Sie von der Täterin oder dem Täter Kenntnis erhalten haben (Art. 31 StGB). Nach Ablauf dieser Frist erlischt das Antragsrecht für diese Straftat endgültig."},
+                {"q": "Was ist der Unterschied zwischen einem Strafantrag und einer Strafanzeige?",
+                 "a": "Der Strafantrag ist der geschädigten Person vorbehalten und für Antragsdelikte erforderlich, während die Strafanzeige von jeder Person erstattet werden kann und hauptsächlich Offizialdelikte betrifft, für welche keine Willensäusserung der geschädigten Person erforderlich ist."},
+                {"q": "Kann ich meinen Strafantrag nach dessen Stellung zurückziehen?",
+                 "a": "Ja, grundsätzlich solange kein erstinstanzliches Urteil ergangen ist, was die Verfolgung der betreffenden Straftat beendet, vorbehältlich besonderer Regeln in bestimmten Fällen (Art. 33 StGB)."},
+            ],
+        },
+        "it": {
+            "slug": "querela-penale-termini-differenza-denuncia",
+            "title": "Querela penale: termini e differenza con la denuncia",
+            "meta": "Termine di tre mesi per sporgere querela, reati perseguibili d'ufficio o a querela: le distinzioni poste dal Codice penale.",
+            "sections": [
+                {"heading": "Cos'è la querela penale", "paragraphs": [
+                    "La querela penale è la dichiarazione con cui il leso esprime la propria volontà che l'autore di un reato sia perseguito. È indispensabile per determinati reati, detti perseguibili a querela, che il pubblico ministero può istruire solo se il leso la sporge (art. 30 segg. CP).",
+                ]},
+                {"heading": "Il termine per sporgere querela", "paragraphs": [
+                    "L'art. 31 CP fissa un termine di tre mesi per sporgere querela, a decorrere dal giorno in cui l'avente diritto ha conosciuto l'autore del reato. Questo termine è un termine di perenzione: trascorso tale termine, il diritto di querela per tale reato si estingue definitivamente.",
+                ]},
+                {"heading": "La differenza con la denuncia", "paragraphs": [
+                    "La denuncia, a differenza della querela, può essere fatta da qualsiasi persona a conoscenza di un reato, e riguarda principalmente i reati perseguibili d'ufficio, per i quali il pubblico ministero deve agire non appena viene a conoscenza dei fatti, senza che sia necessaria una manifestazione di volontà del leso.",
+                ]},
+                {"heading": "Il ritiro della querela", "paragraphs": [
+                    "Una querela può in linea di principio essere ritirata finché non è stata resa una sentenza di primo grado, il che pone fine al perseguimento del reato in questione, salvo accordo contrario tra il querelante e la persona interessata dal ritiro in determinati casi previsti dalla legge (art. 33 CP).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Entro quale termine devo sporgere querela?",
+                 "a": "Entro tre mesi dal giorno in cui avete conosciuto l'autore del reato (art. 31 CP). Trascorso questo termine, il diritto di querela per tale reato si estingue definitivamente."},
+                {"q": "Qual è la differenza tra una querela e una denuncia?",
+                 "a": "La querela è riservata al leso ed è necessaria per i reati perseguibili a querela, mentre la denuncia può essere fatta da chiunque e riguarda principalmente i reati perseguibili d'ufficio, per i quali non è richiesta alcuna manifestazione di volontà del leso."},
+                {"q": "Posso ritirare la mia querela dopo averla sporta?",
+                 "a": "Sì, in linea di principio finché non è stata resa una sentenza di primo grado, il che pone fine al perseguimento del reato in questione, salvo regole particolari in determinati casi (art. 33 CP)."},
+            ],
+        },
+        "en": {
+            "slug": "criminal-complaint-deadlines-difference-report",
+            "title": "Criminal complaint: deadlines and difference from a report",
+            "meta": "Three-month deadline to file a complaint, offences prosecuted ex officio or on complaint: the distinctions set by the Criminal Code.",
+            "sections": [
+                {"heading": "What a criminal complaint is", "paragraphs": [
+                    "A criminal complaint is the declaration by which the injured party expresses their wish that the perpetrator of an offence be prosecuted. It is essential for certain offences, known as offences prosecuted on complaint, which the public prosecutor can only investigate if the injured party files it (art. 30 ff. CC/PC).",
+                ]},
+                {"heading": "The deadline to file a complaint", "paragraphs": [
+                    "Art. 31 CC/PC sets a three-month deadline to file a complaint, from the day the entitled person became aware of the perpetrator. This is a forfeiture deadline: once it has passed, the right to file a complaint for that offence is permanently extinguished.",
+                ]},
+                {"heading": "The difference from a report", "paragraphs": [
+                    "A report, unlike a complaint, can be made by anyone aware of an offence, and mainly concerns offences prosecuted ex officio, for which the public prosecutor must act as soon as it becomes aware of the facts, without any expression of will from the injured party being necessary.",
+                ]},
+                {"heading": "Withdrawing a complaint", "paragraphs": [
+                    "A complaint can in principle be withdrawn as long as no first-instance judgment has been issued, which ends prosecution for the offence concerned, subject to a contrary agreement between the complainant and the person affected by the withdrawal in certain cases provided by law (art. 33 CC/PC).",
+                ]},
+            ],
+            "faq": [
+                {"q": "Within what deadline must I file a criminal complaint?",
+                 "a": "Within three months from the day you became aware of the perpetrator (art. 31 CC/PC). Once this deadline has passed, the right to file a complaint for that offence is permanently extinguished."},
+                {"q": "What is the difference between a complaint and a report?",
+                 "a": "A complaint is reserved to the injured party and is necessary for offences prosecuted on complaint, while a report can be made by anyone and mainly concerns offences prosecuted ex officio, for which no expression of will from the injured party is required."},
+                {"q": "Can I withdraw my complaint after filing it?",
+                 "a": "Yes, in principle as long as no first-instance judgment has been issued, which ends prosecution for the offence concerned, subject to specific rules in certain cases (art. 33 CC/PC)."},
             ],
         },
     },
@@ -4880,6 +5366,87 @@ BLOG_ARTICLES = {
                  "a": "Non, elle suppose que les deux parties soient en mesure de dialoguer de bonne foi sur un pied d'égalité ; elle n'est en principe pas adaptée en présence de violences conjugales ou d'un déséquilibre de pouvoir important entre les parties."},
             ],
         },
+        "de": {
+            "slug": "familienmediation-wann-warum-nutzen",
+            "title": "Familienmediation: wann und warum sie nutzen",
+            "meta": "Einen Familienkonflikt ausserhalb des Gerichts lösen, Rolle der Mediatorin oder des Mediators, Verhältnis zum Gerichtsverfahren gemäss ZPO.",
+            "sections": [
+                {"heading": "Was Familienmediation ist", "paragraphs": [
+                    "Die Familienmediation ist ein freiwilliger Prozess, bei dem eine neutrale und unparteiische dritte Person, die Mediatorin oder der Mediator, den Parteien (sich trennendes Paar, uneinige Eltern bezüglich der Kinderbetreuung) hilft, selbst eine Lösung für ihren Konflikt zu finden, statt sie von einer Richterin oder einem Richter entscheiden zu lassen.",
+                ]},
+                {"heading": "Die Rolle des Gerichts", "paragraphs": [
+                    "Die ZPO (Art. 214-218) erlaubt dem mit einer Familienstreitigkeit befassten Gericht, den Parteien die Mediation vorzuschlagen, ohne sie jedoch dazu zwingen zu können: die Mediation bleibt ein Prozess, der auf dem Willen der Parteien beruht, daran teilzunehmen und sich nach Treu und Glauben darauf einzulassen.",
+                ]},
+                {"heading": "Die Vorteile der Mediation", "paragraphs": [
+                    "Die Mediation erlaubt es häufig, die Beziehung zwischen den Parteien zu wahren, was besonders wichtig ist, wenn Kinder betroffen sind und die Eltern auch nach der Trennung weiter zusammenarbeiten müssen. Sie ist grundsätzlich rascher und kostengünstiger als ein streitiges Gerichtsverfahren.",
+                ]},
+                {"heading": "Die Homologation der Vereinbarung", "paragraphs": [
+                    "Eine in der Mediation erzielte Vereinbarung über Fragen wie die Kinderbetreuung oder den Unterhaltsbeitrag muss grundsätzlich dem Gericht oder der zuständigen Behörde zur Genehmigung vorgelegt werden, um rechtlich verbindlich zu werden, wobei das Gericht prüft, ob die Vereinbarung dem Kindeswohl und der öffentlichen Ordnung entspricht.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann mich das Gericht zu einer Familienmediation zwingen?",
+                 "a": "Nein, die Mediation bleibt ein freiwilliger Prozess: das Gericht kann sie vorschlagen (Art. 214 ff. ZPO), die Parteien aber nicht gegen ihren Willen dazu verpflichten."},
+                {"q": "Ist eine in der Mediation erzielte Vereinbarung rechtlich verbindlich?",
+                 "a": "Sie wird es nach der Homologation durch das Gericht oder die zuständige Behörde, welche namentlich prüft, ob die Vereinbarung dem Kindeswohl entspricht, sofern sie elterliche Fragen betrifft."},
+                {"q": "Eignet sich die Familienmediation für alle Situationen?",
+                 "a": "Nein, sie setzt voraus, dass beide Parteien nach Treu und Glauben auf gleicher Augenhöhe miteinander sprechen können; sie ist grundsätzlich nicht geeignet bei häuslicher Gewalt oder einem erheblichen Machtungleichgewicht zwischen den Parteien."},
+            ],
+        },
+        "it": {
+            "slug": "mediazione-familiare-quando-perche-ricorrere",
+            "title": "Mediazione familiare: quando e perché ricorrervi",
+            "meta": "Risolvere un conflitto familiare fuori dal tribunale, ruolo del mediatore, articolazione con la procedura giudiziaria secondo il CPC.",
+            "sections": [
+                {"heading": "Cos'è la mediazione familiare", "paragraphs": [
+                    "La mediazione familiare è un processo volontario in cui un terzo neutrale e imparziale, il mediatore, aiuta le parti (coppia in separazione, genitori in disaccordo sulla custodia dei figli) a trovare esse stesse una soluzione al loro conflitto, piuttosto che farla decidere da un giudice.",
+                ]},
+                {"heading": "Il ruolo del tribunale", "paragraphs": [
+                    "Il CPC (art. 214-218) permette al tribunale adito con una controversia familiare di suggerire alle parti di ricorrere alla mediazione, senza tuttavia poterle costringere: la mediazione resta un processo fondato sulla volontà delle parti di parteciparvi e di impegnarvisi in buona fede.",
+                ]},
+                {"heading": "I vantaggi della mediazione", "paragraphs": [
+                    "La mediazione permette spesso di preservare la relazione tra le parti, particolarmente importante quando sono coinvolti dei figli e i genitori dovranno continuare a collaborare dopo la separazione. È in linea di principio più rapida e meno costosa di una procedura giudiziaria contenziosa.",
+                ]},
+                {"heading": "L'omologazione dell'accordo", "paragraphs": [
+                    "Un accordo trovato in mediazione riguardante questioni come la custodia dei figli o il contributo di mantenimento deve in linea di principio essere sottoposto al tribunale o all'autorità competente per essere omologato e diventare giuridicamente vincolante, con il tribunale che verifica che l'accordo rispetti il bene del figlio e l'ordine pubblico.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il tribunale può obbligarmi a fare una mediazione familiare?",
+                 "a": "No, la mediazione resta un processo volontario: il tribunale può suggerirla (art. 214 segg. CPC), ma non può costringere le parti a parteciparvi contro la loro volontà."},
+                {"q": "Un accordo trovato in mediazione è giuridicamente vincolante?",
+                 "a": "Lo diventa una volta omologato dal tribunale o dall'autorità competente, che verifica in particolare che l'accordo rispetti il bene del figlio se riguarda questioni genitoriali."},
+                {"q": "La mediazione familiare è adatta a tutte le situazioni?",
+                 "a": "No, presuppone che entrambe le parti siano in grado di dialogare in buona fede su un piano di parità; non è in linea di principio adatta in presenza di violenza domestica o di un notevole squilibrio di potere tra le parti."},
+            ],
+        },
+        "en": {
+            "slug": "family-mediation-when-why-use-it",
+            "title": "Family mediation: when and why to use it",
+            "meta": "Resolving a family conflict outside court, the mediator's role, its relationship with court proceedings under the Code of Civil Procedure.",
+            "sections": [
+                {"heading": "What family mediation is", "paragraphs": [
+                    "Family mediation is a voluntary process in which a neutral, impartial third party, the mediator, helps the parties (a separating couple, parents disagreeing over child custody) find a solution to their conflict themselves, rather than having it decided by a judge.",
+                ]},
+                {"heading": "The court's role", "paragraphs": [
+                    "The CCP (art. 214-218) allows a court dealing with a family dispute to suggest mediation to the parties, without being able to compel them to do so: mediation remains a process based on the parties' willingness to take part and engage in it in good faith.",
+                ]},
+                {"heading": "The benefits of mediation", "paragraphs": [
+                    "Mediation often helps preserve the relationship between the parties, which is particularly important when children are involved and the parents will need to keep cooperating after the separation. It is in principle faster and less costly than contested court proceedings.",
+                ]},
+                {"heading": "Approval of the agreement", "paragraphs": [
+                    "An agreement reached through mediation on matters such as child custody or maintenance must in principle be submitted to the court or the competent authority for approval to become legally binding, with the court checking that the agreement respects the child's best interests and public policy.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can the court force me into family mediation?",
+                 "a": "No, mediation remains a voluntary process: the court can suggest it (art. 214 ff. CCP), but cannot compel the parties to take part against their will."},
+                {"q": "Is an agreement reached through mediation legally binding?",
+                 "a": "It becomes so once approved by the court or the competent authority, which checks in particular that the agreement respects the child's best interests if it concerns parental matters."},
+                {"q": "Is family mediation suitable for every situation?",
+                 "a": "No, it requires both parties to be able to discuss matters in good faith on an equal footing; it is in principle not suitable in the presence of domestic violence or a significant power imbalance between the parties."},
+            ],
+        },
     },
     "mediation-commerciale-alternative-proces": {
         "domaine_id": "mediation",
@@ -4909,6 +5476,87 @@ BLOG_ARTICLES = {
                  "a": "Il prend en principe la forme d'un contrat de transaction entre les parties, contraignant selon les règles générales du droit des contrats, mais ne bénéficie pas automatiquement de la force exécutoire d'un jugement sauf démarche complémentaire prévue par la loi."},
                 {"q": "Pourquoi combiner médiation et arbitrage dans un contrat commercial ?",
                  "a": "Pour tenter d'abord un règlement amiable rapide et confidentiel par la médiation, tout en conservant, en cas d'échec, une procédure d'arbitrage contraignante permettant de trancher définitivement le litige sans passer par les tribunaux étatiques."},
+            ],
+        },
+        "de": {
+            "slug": "wirtschaftsmediation-alternative-zum-prozess",
+            "title": "Wirtschaftsmediation: Alternative zum Prozess",
+            "meta": "Eine Streitigkeit zwischen Unternehmen ausserhalb des Gerichts lösen, Vertraulichkeit, Schnelligkeit: die Vorteile der Wirtschaftsmediation in der Schweiz.",
+            "sections": [
+                {"heading": "Ein freiwilliges Streitbeilegungsmittel", "paragraphs": [
+                    "Im Gegensatz zur Familienmediation ist die Wirtschaftsmediation zwischen Unternehmen nicht Gegenstand eines besonderen gesetzlichen Rahmens in der ZPO: sie beruht hauptsächlich auf der Vereinbarung der Parteien, eine Mediatorin oder einen Mediator beizuziehen, häufig vorgesehen durch eine vertragliche Mediationsklausel, oder gemeinsam beschlossen, sobald der Streit entstanden ist.",
+                ]},
+                {"heading": "Die Vorteile für Unternehmen", "paragraphs": [
+                    "Die Wirtschaftsmediation bietet eine Vertraulichkeit, die das grundsätzlich öffentliche Gerichtsverfahren nicht immer gewährleistet, eine Kontrolle der Parteien über den Ausgang des Streits statt eines von einer dritten Person auferlegten Entscheids, sowie eine im Allgemeinen höhere Schnelligkeit als bei einem Zivilprozess, was es häufig erlaubt, eine Geschäftsbeziehung zu erhalten, welche die Parteien fortsetzen möchten.",
+                ]},
+                {"heading": "Das Zusammenspiel mit der Schiedsgerichtsbarkeit", "paragraphs": [
+                    "Zahlreiche Wirtschaftsverträge, insbesondere internationale, sehen Klauseln vor, welche Mediation und Schiedsgerichtsbarkeit kombinieren, wobei die Mediation als vorgängiger Versuch einer gütlichen Streitbeilegung dient, bevor bei Scheitern auf ein verbindliches Schiedsverfahren vor einem Schiedsgericht zurückgegriffen wird.",
+                ]},
+                {"heading": "Die Verbindlichkeit der erzielten Vereinbarung", "paragraphs": [
+                    "Eine in der Wirtschaftsmediation erzielte Vereinbarung nimmt grundsätzlich die Form eines Vergleichsvertrags zwischen den Parteien an, dessen Verbindlichkeit sich aus den allgemeinen Regeln des Vertragsrechts ergibt, und nicht aus einer systematischen gerichtlichen Homologation wie dies teilweise im Familienrecht der Fall ist.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann ein Unternehmen zur Mediation gezwungen werden?",
+                 "a": "Grundsätzlich nicht, ausser eine vertragliche Mediationsklausel, die bei Vertragsabschluss frei akzeptiert wurde, sieht diesen vorgängigen Schritt bei einer Streitigkeit vor."},
+                {"q": "Hat eine wirtschaftsmediative Vereinbarung dieselbe Kraft wie ein Urteil?",
+                 "a": "Sie nimmt grundsätzlich die Form eines Vergleichsvertrags zwischen den Parteien an, verbindlich nach den allgemeinen Regeln des Vertragsrechts, geniesst aber nicht automatisch die Vollstreckbarkeit eines Urteils, ausser bei einem zusätzlichen, gesetzlich vorgesehenen Schritt."},
+                {"q": "Warum Mediation und Schiedsgerichtsbarkeit in einem Wirtschaftsvertrag kombinieren?",
+                 "a": "Um zunächst eine rasche und vertrauliche gütliche Einigung durch Mediation zu versuchen, wobei bei Scheitern ein verbindliches Schiedsverfahren erhalten bleibt, das erlaubt, den Streit endgültig zu entscheiden, ohne die staatlichen Gerichte anzurufen."},
+            ],
+        },
+        "it": {
+            "slug": "mediazione-commerciale-alternativa-processo",
+            "title": "Mediazione commerciale: alternativa al processo",
+            "meta": "Risolvere una controversia tra imprese fuori dal tribunale, confidenzialità, rapidità: i vantaggi della mediazione commerciale in Svizzera.",
+            "sections": [
+                {"heading": "Un modo di risoluzione volontario", "paragraphs": [
+                    "A differenza della mediazione familiare, la mediazione commerciale tra imprese non è oggetto di un quadro legale specifico dedicato nel CPC: si fonda principalmente sull'accordo delle parti di ricorrere a un mediatore, spesso previsto da una clausola contrattuale di mediazione, o deciso di comune accordo una volta sorta la controversia.",
+                ]},
+                {"heading": "I vantaggi per le imprese", "paragraphs": [
+                    "La mediazione commerciale offre una confidenzialità che la procedura giudiziaria, in linea di principio pubblica, non garantisce sempre, un controllo delle parti sull'esito della controversia piuttosto che una decisione imposta da un terzo, e una rapidità generalmente superiore a quella di un processo civile, il che permette spesso di preservare un rapporto d'affari che le parti desiderano proseguire.",
+                ]},
+                {"heading": "L'articolazione con l'arbitrato", "paragraphs": [
+                    "Numerosi contratti commerciali, in particolare internazionali, prevedono clausole che combinano mediazione e arbitrato, con la mediazione che interviene come tentativo preliminare di composizione amichevole prima del ricorso, in caso di fallimento, a una procedura arbitrale vincolante davanti a un tribunale arbitrale.",
+                ]},
+                {"heading": "La forza dell'accordo trovato", "paragraphs": [
+                    "Un accordo trovato in mediazione commerciale assume in linea di principio la forma di un contratto di transazione tra le parti, il cui carattere vincolante si fonda sulle regole generali del diritto dei contratti, e non su un'omologazione giudiziaria sistematica come talvolta avviene in materia familiare.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Un'impresa può essere obbligata a ricorrere alla mediazione?",
+                 "a": "In linea di principio no, salvo se una clausola contrattuale di mediazione, liberamente accettata al momento della firma del contratto, prevede questa tappa preliminare in caso di controversia."},
+                {"q": "Un accordo di mediazione commerciale ha la stessa forza di una sentenza?",
+                 "a": "Assume in linea di principio la forma di un contratto di transazione tra le parti, vincolante secondo le regole generali del diritto dei contratti, ma non beneficia automaticamente della forza esecutiva di una sentenza salvo un passo supplementare previsto dalla legge."},
+                {"q": "Perché combinare mediazione e arbitrato in un contratto commerciale?",
+                 "a": "Per tentare dapprima una composizione amichevole rapida e confidenziale tramite la mediazione, conservando, in caso di fallimento, una procedura arbitrale vincolante che permette di decidere definitivamente la controversia senza passare dai tribunali statali."},
+            ],
+        },
+        "en": {
+            "slug": "commercial-mediation-alternative-litigation",
+            "title": "Commercial mediation: an alternative to litigation",
+            "meta": "Resolving a business dispute outside court, confidentiality, speed: the benefits of commercial mediation in Switzerland.",
+            "sections": [
+                {"heading": "A voluntary means of resolution", "paragraphs": [
+                    "Unlike family mediation, commercial mediation between businesses is not the subject of a dedicated legal framework in the CCP: it mainly relies on the parties' agreement to use a mediator, often provided for by a contractual mediation clause, or decided jointly once the dispute has arisen.",
+                ]},
+                {"heading": "The benefits for businesses", "paragraphs": [
+                    "Commercial mediation offers a confidentiality that court proceedings, in principle public, do not always guarantee, control by the parties over the outcome of the dispute rather than a decision imposed by a third party, and generally greater speed than civil litigation, which often makes it possible to preserve a business relationship the parties wish to continue.",
+                ]},
+                {"heading": "How it interacts with arbitration", "paragraphs": [
+                    "Many commercial contracts, particularly international ones, provide for clauses combining mediation and arbitration, with mediation acting as a preliminary attempt at amicable settlement before resorting, if it fails, to binding arbitration proceedings before an arbitral tribunal.",
+                ]},
+                {"heading": "The binding force of the agreement reached", "paragraphs": [
+                    "An agreement reached through commercial mediation in principle takes the form of a settlement contract between the parties, whose binding nature rests on the general rules of contract law, and not on systematic court approval as is sometimes the case in family matters.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can a business be forced to use mediation?",
+                 "a": "In principle no, unless a contractual mediation clause, freely accepted when the contract was signed, provides for this preliminary step in the event of a dispute."},
+                {"q": "Does a commercial mediation agreement have the same force as a judgment?",
+                 "a": "It in principle takes the form of a settlement contract between the parties, binding under the general rules of contract law, but does not automatically benefit from the enforceability of a judgment unless an additional step provided by law is taken."},
+                {"q": "Why combine mediation and arbitration in a commercial contract?",
+                 "a": "To first attempt a quick, confidential amicable settlement through mediation, while retaining, if it fails, binding arbitration proceedings that make it possible to finally resolve the dispute without going through the state courts."},
             ],
         },
     },
@@ -4942,6 +5590,87 @@ BLOG_ARTICLES = {
                  "a": "Vous pouvez en principe porter la décision devant l'instance de recours cantonale compétente en matière de construction, puis, selon les cas, devant le Tribunal fédéral pour les questions relevant du droit fédéral de l'aménagement du territoire."},
             ],
         },
+        "de": {
+            "slug": "baubewilligung-verfahren-einsprache-nachbarn",
+            "title": "Baubewilligung: Verfahren und Einsprache",
+            "meta": "Gesuchseinreichung, öffentliche Auflage, Einspracherecht der Nachbarschaft: das vom kantonalen Recht und RPG vorgesehene Verfahren.",
+            "sections": [
+                {"heading": "Ein hauptsächlich kantonales Verfahren", "paragraphs": [
+                    "Das Verfahren zur Erteilung der Baubewilligung fällt hauptsächlich in den Bereich des kantonalen und kommunalen Rechts, wobei das Bundesgesetz über die Raumplanung (RPG) vor allem die allgemeinen Grundsätze der Bodennutzung festlegt, welche die kantonalen und kommunalen Nutzungspläne einhalten müssen. Die genauen Fristen und Modalitäten variieren daher erheblich von Kanton zu Kanton.",
+                ]},
+                {"heading": "Die öffentliche Auflage", "paragraphs": [
+                    "Die meisten Bauvorhaben werden öffentlich aufgelegt, in der Regel durch amtliche Publikation und Anschlag auf dem betroffenen Grundstück, was interessierten Dritten erlaubt, vom Vorhaben Kenntnis zu nehmen und gegebenenfalls innert der vom kantonalen Recht festgelegten Frist Einsprache zu erheben.",
+                ]},
+                {"heading": "Das Einspracherecht der Nachbarschaft", "paragraphs": [
+                    "Eine Nachbarin oder ein Nachbar kann gegen ein Bauvorhaben Einsprache erheben, sofern sie oder er über die Beschwerdelegitimation verfügt, in der Regel anerkannt für jede vom Vorhaben unmittelbar betroffene Person mit einem schutzwürdigen Interesse an dessen Änderung oder Aufhebung, etwa wegen einer Beeinträchtigung der Besonnung, der Aussicht, oder der Nichteinhaltung der anwendbaren Bauvorschriften (Gebäudehöhe, Grenzabstände).",
+                ]},
+                {"heading": "Die Rechtsmittel", "paragraphs": [
+                    "Wird die Einsprache von der zuständigen kommunalen oder kantonalen Behörde abgewiesen, kann die einsprechende Person den Entscheid grundsätzlich bei der zuständigen kantonalen Baurekursinstanz anfechten, danach je nach Fall beim Bundesgericht für Fragen des Bundesraumplanungsrechts.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Kann jede Nachbarin oder jeder Nachbar gegen ein Bauvorhaben Einsprache erheben?",
+                 "a": "Nein, es braucht die Beschwerdelegitimation, in der Regel anerkannt für jede vom Vorhaben unmittelbar betroffene Person mit einem schutzwürdigen Interesse an dessen Änderung oder Aufhebung."},
+                {"q": "Sind die Verfahrensregeln in allen Kantonen gleich?",
+                 "a": "Nein, das Verfahren zur Erteilung der Baubewilligung fällt hauptsächlich in den Bereich des kantonalen und kommunalen Rechts, mit Fristen und Modalitäten, die von Kanton zu Kanton erheblich variieren."},
+                {"q": "Was tun, wenn meine Einsprache abgewiesen wird?",
+                 "a": "Sie können den Entscheid grundsätzlich bei der zuständigen kantonalen Baurekursinstanz anfechten, danach je nach Fall beim Bundesgericht für Fragen des Bundesraumplanungsrechts."},
+            ],
+        },
+        "it": {
+            "slug": "licenza-edilizia-procedura-opposizione-vicini",
+            "title": "Licenza edilizia: procedura e opposizione",
+            "meta": "Presentazione della domanda, pubblicazione, diritto di opposizione dei vicini: la procedura prevista dal diritto cantonale e dalla LPT.",
+            "sections": [
+                {"heading": "Una procedura essenzialmente cantonale", "paragraphs": [
+                    "La procedura di rilascio della licenza edilizia rientra principalmente nel diritto cantonale e comunale, mentre la legge federale sulla pianificazione del territorio (LPT) pone soprattutto i principi generali di destinazione del suolo che i piani di utilizzazione cantonali e comunali devono rispettare. I termini e le modalità precise variano quindi sensibilmente da un Cantone all'altro.",
+                ]},
+                {"heading": "La pubblicazione", "paragraphs": [
+                    "La maggior parte dei progetti di costruzione è oggetto di pubblicazione, generalmente tramite pubblicazione ufficiale e affissione sul terreno interessato, che permette ai terzi interessati di prendere conoscenza del progetto e, se del caso, di fare opposizione entro il termine fissato dal diritto cantonale.",
+                ]},
+                {"heading": "Il diritto di opposizione dei vicini", "paragraphs": [
+                    "Un vicino può fare opposizione a un progetto di costruzione se dispone della legittimazione ad agire, generalmente riconosciuta a qualsiasi persona direttamente toccata dal progetto e avente un interesse degno di protezione alla sua modifica o al suo annullamento, per esempio a causa di un pregiudizio all'irraggiamento solare, alla vista, o del mancato rispetto delle norme edilizie applicabili (altezza, distanze dai confini).",
+                ]},
+                {"heading": "Le vie di ricorso", "paragraphs": [
+                    "Se l'opposizione viene respinta dall'autorità comunale o cantonale competente, l'opponente può in linea di principio portare la decisione davanti all'istanza di ricorso cantonale competente in materia edilizia, poi, secondo i casi, davanti al Tribunale federale per le questioni rientranti nel diritto federale della pianificazione del territorio.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Qualsiasi vicino può opporsi a un progetto di costruzione?",
+                 "a": "No, occorre disporre della legittimazione ad agire, generalmente riconosciuta a qualsiasi persona direttamente toccata dal progetto e avente un interesse degno di protezione alla sua modifica o al suo annullamento."},
+                {"q": "Le regole procedurali sono le stesse in tutti i Cantoni?",
+                 "a": "No, la procedura di rilascio della licenza edilizia rientra principalmente nel diritto cantonale e comunale, con termini e modalità che variano sensibilmente da un Cantone all'altro."},
+                {"q": "Cosa fare se la mia opposizione viene respinta?",
+                 "a": "Potete in linea di principio portare la decisione davanti all'istanza di ricorso cantonale competente in materia edilizia, poi, secondo i casi, davanti al Tribunale federale per le questioni rientranti nel diritto federale della pianificazione del territorio."},
+            ],
+        },
+        "en": {
+            "slug": "building-permit-procedure-neighbour-opposition",
+            "title": "Building permits: procedure and opposition",
+            "meta": "Filing the application, public notice, neighbours' right to object: the procedure under cantonal law and the Spatial Planning Act.",
+            "sections": [
+                {"heading": "A mainly cantonal procedure", "paragraphs": [
+                    "The procedure for granting a building permit mainly falls under cantonal and municipal law, with the federal Spatial Planning Act (SPA) primarily setting the general principles of land use that cantonal and municipal zoning plans must comply with. The precise deadlines and procedures therefore vary considerably from canton to canton.",
+                ]},
+                {"heading": "Public notice", "paragraphs": [
+                    "Most construction projects are subject to public notice, generally through official publication and posting on the site concerned, allowing interested third parties to learn of the project and, where applicable, to file an objection within the deadline set by cantonal law.",
+                ]},
+                {"heading": "Neighbours' right to object", "paragraphs": [
+                    "A neighbour can object to a construction project if they have standing, generally recognised for any person directly affected by the project with a legitimate interest in its modification or cancellation, for example due to an impact on sunlight, views, or non-compliance with applicable building regulations (height, setback distances).",
+                ]},
+                {"heading": "Legal remedies", "paragraphs": [
+                    "If the objection is dismissed by the competent municipal or cantonal authority, the objector can in principle bring the decision before the competent cantonal building appeals body, then, depending on the case, before the Federal Supreme Court for matters falling under federal spatial planning law.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can any neighbour object to a construction project?",
+                 "a": "No, standing is required, generally recognised for any person directly affected by the project with a legitimate interest in its modification or cancellation."},
+                {"q": "Are the procedural rules the same in every canton?",
+                 "a": "No, the procedure for granting a building permit mainly falls under cantonal and municipal law, with deadlines and procedures that vary considerably from canton to canton."},
+                {"q": "What should I do if my objection is dismissed?",
+                 "a": "You can in principle bring the decision before the competent cantonal building appeals body, then, depending on the case, before the Federal Supreme Court for matters falling under federal spatial planning law."},
+            ],
+        },
     },
     "zone-batir-hors-zone-consequences": {
         "domaine_id": "droit_construction_amenagement",
@@ -4971,6 +5700,87 @@ BLOG_ARTICLES = {
                  "a": "En consultant le plan de zone (plan d'affectation) de la commune où se situe le terrain, disponible auprès du service communal ou cantonal de l'aménagement du territoire."},
                 {"q": "Une zone à bâtir peut-elle être modifiée ultérieurement ?",
                  "a": "Oui, les plans d'affectation peuvent être révisés par les autorités communales et cantonales compétentes, dans le respect des principes fédéraux de la LAT, ce qui peut faire évoluer le statut constructible d'un terrain avec le temps."},
+            ],
+        },
+        "de": {
+            "slug": "bauzone-ausserhalb-bauzone-unterschiede",
+            "title": "Bauzone und Nichtbauzone: die Unterschiede",
+            "meta": "Baumöglichkeiten eines Grundstücks je nach Zonenzugehörigkeit, Ausnahmebewilligungen ausserhalb der Bauzone: die Regeln des RPG.",
+            "sections": [
+                {"heading": "Die Bauzone", "paragraphs": [
+                    "Das RPG (Art. 15) definiert die Bauzone als Land, das sich für die Überbauung eignet und weitgehend überbaut ist, oder dessen Bedarf für die nächsten fünfzehn Jahre nachgewiesen ist und das innerhalb dieser Frist erschlossen wird. Ein in der Bauzone gelegenes Grundstück kann grundsätzlich mit einer dem kommunalen Zonenplan entsprechenden Nutzung überbaut werden (Wohnen, Gewerbe, Mischnutzung).",
+                ]},
+                {"heading": "Die Nichtbauzone", "paragraphs": [
+                    "Ein ausserhalb der Bauzone gelegenes Grundstück (Landwirtschaftszone, Waldzone, Schutzzone) ist grundsätzlich nicht überbaubar, wobei das RPG die Zersiedelung des Gebiets begrenzen und die landwirtschaftlichen Flächen sowie natürlichen Räume vor verstreuten Bauten schützen soll.",
+                ]},
+                {"heading": "Die möglichen Ausnahmebewilligungen", "paragraphs": [
+                    "Art. 24 RPG erlaubt ausnahmsweise und unter strengen Voraussetzungen eine Ausnahmebewilligung für Bauten ausserhalb der Bauzone, deren Standort durch ihren Zweck bedingt ist (wie bestimmte landwirtschaftliche Bauten) und die keinen überwiegenden Interessen entgegenstehen. Diese Ausnahmen werden von den Behörden und Gerichten restriktiv ausgelegt.",
+                ]},
+                {"heading": "Die Auswirkung auf Wert und Nutzung eines Grundstücks", "paragraphs": [
+                    "Die Zuordnung eines Grundstücks (zur Bauzone oder nicht) hat einen entscheidenden Einfluss auf seinen Wert und die konkreten Nutzungsmöglichkeiten: vor jedem Vorhaben oder Erwerb ist es unerlässlich, das anwendbare Regime genau bei der kantonalen oder kommunalen Raumplanungsstelle zu prüfen, wobei der kommunale Zonenplan massgebend ist.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Darf ich auf einem als Nichtbauzone eingestuften Grundstück bauen?",
+                 "a": "Grundsätzlich nicht, ausser bei einer ausnahmsweisen Bewilligung gemäss Art. 24 RPG, vorbehalten für Bauten, deren Standort durch ihren Zweck bedingt ist und die keinen überwiegenden Interessen entgegenstehen."},
+                {"q": "Wie erfahre ich, ob mein Grundstück in der Bauzone liegt?",
+                 "a": "Durch Konsultation des Zonenplans (Nutzungsplans) der Gemeinde, in der sich das Grundstück befindet, erhältlich bei der kommunalen oder kantonalen Raumplanungsstelle."},
+                {"q": "Kann eine Bauzone später geändert werden?",
+                 "a": "Ja, die Nutzungspläne können von den zuständigen kommunalen und kantonalen Behörden im Rahmen der bundesrechtlichen Grundsätze des RPG revidiert werden, was den Baustatus eines Grundstücks im Laufe der Zeit verändern kann."},
+            ],
+        },
+        "it": {
+            "slug": "zona-edificabile-fuori-zona-conseguenze-terreno",
+            "title": "Zona edificabile e fuori zona: le differenze",
+            "meta": "Edificabilità di un terreno secondo la sua destinazione, deroghe per le costruzioni fuori zona edificabile: le regole della LPT.",
+            "sections": [
+                {"heading": "La zona edificabile", "paragraphs": [
+                    "La LPT (art. 15) definisce la zona edificabile come i terreni adatti all'edificazione già ampiamente edificati, o il cui bisogno per i prossimi quindici anni è dimostrato, e che saranno urbanizzati entro tale termine. Un terreno classificato in zona edificabile può in linea di principio essere oggetto di una costruzione conforme alla destinazione prevista dal piano di zona comunale (abitativo, attività, misto).",
+                ]},
+                {"heading": "Il fuori zona edificabile", "paragraphs": [
+                    "Un terreno situato fuori zona edificabile (zona agricola, zona forestale, zona protetta) non è in linea di principio edificabile, poiché la LPT mira a limitare la dispersione insediativa e a preservare i terreni agricoli e gli spazi naturali da costruzioni disperse.",
+                ]},
+                {"heading": "Le deroghe possibili", "paragraphs": [
+                    "L'art. 24 LPT permette, a titolo eccezionale e a condizioni rigorose, un'autorizzazione derogatoria per costruzioni fuori zona edificabile la cui ubicazione è imposta dalla loro destinazione (come determinate costruzioni agricole) e che non si oppongono ad alcun interesse preponderante. Queste deroghe sono interpretate restrittivamente dalle autorità e dai tribunali.",
+                ]},
+                {"heading": "L'impatto sul valore e sull'uso di un terreno", "paragraphs": [
+                    "La destinazione di un terreno (edificabile o meno) ha un impatto determinante sul suo valore e sulle possibilità concrete di utilizzarlo: prima di qualsiasi progetto o acquisto, è essenziale verificare precisamente il regime applicabile presso il servizio cantonale o comunale della pianificazione del territorio, facendo fede il piano di zona comunale.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Posso costruire su un terreno classificato fuori zona edificabile?",
+                 "a": "In linea di principio no, salvo deroga eccezionale ai sensi dell'art. 24 LPT, riservata alle costruzioni la cui ubicazione è imposta dalla loro destinazione e che non si oppongono ad alcun interesse preponderante."},
+                {"q": "Come posso sapere se il mio terreno è in zona edificabile?",
+                 "a": "Consultando il piano di zona (piano di utilizzazione) del Comune in cui si trova il terreno, disponibile presso il servizio comunale o cantonale della pianificazione del territorio."},
+                {"q": "Una zona edificabile può essere modificata successivamente?",
+                 "a": "Sì, i piani di utilizzazione possono essere rivisti dalle autorità comunali e cantonali competenti, nel rispetto dei principi federali della LPT, il che può far evolvere lo statuto edificabile di un terreno nel tempo."},
+            ],
+        },
+        "en": {
+            "slug": "building-zone-outside-building-zone-consequences",
+            "title": "Building zone and non-building zone: the differences",
+            "meta": "Whether a plot can be built on depending on its zoning, exceptions for construction outside the building zone: the Spatial Planning Act rules.",
+            "sections": [
+                {"heading": "The building zone", "paragraphs": [
+                    "The Spatial Planning Act (art. 15) defines the building zone as land suitable for construction that is already largely built up, or whose need for the next fifteen years is demonstrated, and which will be serviced within that period. A plot classified in the building zone can in principle be built on in accordance with the use provided for by the municipal zoning plan (residential, business, mixed).",
+                ]},
+                {"heading": "Outside the building zone", "paragraphs": [
+                    "A plot located outside the building zone (agricultural zone, forest zone, protected zone) is in principle not buildable, as the Spatial Planning Act aims to limit urban sprawl and preserve agricultural land and natural areas from scattered construction.",
+                ]},
+                {"heading": "Possible exceptions", "paragraphs": [
+                    "Art. 24 SPA exceptionally allows, under strict conditions, an exceptional authorisation for construction outside the building zone whose location is required by its purpose (such as certain agricultural buildings) and which does not conflict with any overriding interest. These exceptions are interpreted restrictively by authorities and courts.",
+                ]},
+                {"heading": "The impact on the value and use of a plot", "paragraphs": [
+                    "A plot's zoning (buildable or not) has a decisive impact on its value and the concrete possibilities for using it: before any project or purchase, it is essential to precisely check the applicable regime with the cantonal or municipal spatial planning department, with the municipal zoning plan being authoritative.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Can I build on a plot classified outside the building zone?",
+                 "a": "In principle no, except for an exceptional authorisation under art. 24 SPA, reserved for construction whose location is required by its purpose and which does not conflict with any overriding interest."},
+                {"q": "How do I find out if my plot is in the building zone?",
+                 "a": "By consulting the zoning plan of the municipality where the plot is located, available from the municipal or cantonal spatial planning department."},
+                {"q": "Can a building zone be changed later?",
+                 "a": "Yes, zoning plans can be revised by the competent municipal and cantonal authorities, in compliance with the federal principles of the Spatial Planning Act, which can change a plot's buildable status over time."},
             ],
         },
     },
