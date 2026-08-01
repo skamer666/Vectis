@@ -1,18 +1,44 @@
-"""Simulateur d'eligibilite a l'assistance juridique -- Geneve et Lucerne.
+"""Simulateur d'eligibilite a l'assistance juridique -- Geneve, Lucerne, Grisons.
 
 Principe de non-fabrication applique strictement : chaque chiffre utilise ici
-est cite et date. Seuls deux cantons sont couverts, parce que ce sont les deux
-seuls pour lesquels une source officielle publique donne un pourcentage de
-majoration FIXE et verifiable a la lecture directe du texte (pas une synthese
-IA de recherche web, qui s'est averee peu fiable sur ce point precis -- deux
-sources concurrentes se sont contredites sur le pourcentage lucernois avant
-verification). Pour les 21 autres cantons actifs du site, la recherche menee
-(Zurich, Vaud, Argovie, Tessin, Saint-Gall, Grisons) montre que la majoration
-est soit fixee au cas par cas par le juge (ex. Zurich, le Tribunal federal
-n'imposant aucun taux contraignant), soit non publiee sur le web public (elle
-existe dans la jurisprudence cantonale mais n'est accessible que via des
-bases de donnees juridiques payantes). Plutot que d'inventer ou d'extrapoler
-un chiffre, ces cantons restent hors du simulateur.
+est cite et date, lu integralement dans sa source primaire (jamais accepte
+sur la seule foi d'une synthese IA de recherche web, qui s'est averee peu
+fiable a plusieurs reprises sur ce sujet precis -- des sources concurrentes
+se sont contredites sur le pourcentage lucernois, puis sur celui d'Argovie,
+avant verification directe du texte). Seuls trois cantons sont couverts,
+parce que ce sont les seuls pour lesquels une decision de justice ou un texte
+officiel donne un pourcentage de majoration FIXE, applique a un cas concret,
+et non presente comme approximatif.
+
+Recherche menee (jurisprudence cantonale gratuite via entscheidsuche.ch, en
+plus des sources reglementaires) sur Zurich, Vaud, Argovie, Tessin,
+Saint-Gall et les Grisons :
+- Zurich : un arret de l'Obergericht (VO150084-O, 24.06.2015) montre un calcul
+  au cas par cas (72,3% d'un montant de reference etranger pour un requerant
+  vivant a l'etranger), sans taux general applicable -- confirme l'absence de
+  pourcentage fixe deja identifiee.
+- Vaud : un arret de la Chambre des recours civile (HC/2021/124, 03.02.2021)
+  cite explicitement un pourcentage "de l'ordre de 25%" (ATF 124 I 1) mais
+  applique en pratique 30% dans le cas juge -- le texte lui-meme presente ce
+  chiffre comme approximatif et laisse a l'appreciation du juge, ce qui ne
+  satisfait pas le critere de precision retenu ici.
+- Argovie : un arret de l'Obergericht (ZSU.2022.37, 04.04.2022) mentionne bien
+  un "Zuschlag" de 15 a 30%, mais il s'agit d'un supplement sur l'indemnite de
+  l'avocat d'office (tarif des avocats), pas de la majoration du minimum
+  vital du requerant -- deux notions distinctes portant le meme nom, source
+  probable de la confusion relevee dans une synthese de recherche web.
+- Tessin : le canton publie une table officielle du minimum vital (identique
+  a celle de Geneve/Lucerne/Grisons, impots exclus) mais aucune decision
+  trouvee n'applique explicitement une majoration fixe a ce montant dans le
+  contexte specifique du gratuito patrocinio (le concept voisin de "minimo
+  esistenziale accresciuto" a 120% releve du droit de la famille) -- piste
+  non fermee, a reprendre si une decision plus directe est trouvee.
+- Saint-Gall : un document officiel probablement pertinent existe mais son
+  URL, trop longue, provoque une erreur technique du navigateur utilise ici ;
+  reste non lu.
+
+Pour ces cantons, plutot que d'inventer ou d'extrapoler un chiffre, ils
+restent hors du simulateur.
 
 Sources par canton :
 
@@ -54,6 +80,20 @@ LUCERNE
   ne les ajoute donc pas pour Lucerne (pas de fabrication d'une regle non
   confirmee).
 
+GRISONS (GRAUBUENDEN)
+- Ordonnance ("Verfuegung") du Kantonsgericht de Grisons du 26 janvier 2023
+  (ZK2 22 56), rendue en matiere d'assistance judiciaire (unentgeltliche
+  Rechtspflege, art. 117 CPC), qui applique et calcule explicitement : un
+  montant de base identique a Geneve et Lucerne (CHF 1'200.- pour une
+  personne seule, citant KGer GR KSK 09 39 du 18.08.2009), majore d'un
+  supplement de 20% du montant de base (CHF 240.- dans le cas traite),
+  en citant une jurisprudence constante et anterieure du meme tribunal
+  (KGer GR ZK1 14 112 du 05.01.2015, consid. 5a/aa ; PKG 2003 Nr. 13,
+  consid. 3-5). Les impots sont ajoutes au calcul, mais seulement s'il est
+  demontre qu'ils ont ete effectivement payes et le seront durant la
+  procedure (meme condition que la pratique genevoise) -- contrairement a
+  Lucerne, qui les exclut par principe.
+
 Volontairement absent de ce simulateur, pour les deux cantons : un seuil
 chiffre pour la fortune (aucune source officielle ne fixe de montant fixe --
 evaluee au cas par cas) et les chances de succes de la cause (art. 117 al. 1
@@ -66,6 +106,7 @@ import json
 CANTONS = {
     "GE": {"majoration_pct": 20, "includes_impots": True},
     "LU": {"majoration_pct": 20, "includes_impots": False},
+    "GR": {"majoration_pct": 20, "includes_impots": True},
 }
 
 _JS_TEMPLATE = """
@@ -162,8 +203,10 @@ STRINGS = {
         "canton_label": "Canton concerné par la procédure",
         "canton_ge": "Genève",
         "canton_lu": "Lucerne",
+        "canton_gr": "Grisons",
         "heading_GE": "Simulateur d'éligibilité à l'assistance juridique (canton de Genève)",
         "heading_LU": "Simulateur d'éligibilité à l'assistance judiciaire (canton de Lucerne)",
+        "heading_GR": "Simulateur d'éligibilité à l'assistance judiciaire (canton des Grisons)",
         "disclaimer_GE": "Ce calcul ne s'applique qu'aux procédures dans le canton de Genève. "
                        "Changez de canton ci-dessus si votre procédure se déroule ailleurs. Le "
                        "résultat est une estimation indicative, pas une décision : le greffe de "
@@ -175,9 +218,15 @@ STRINGS = {
                        "votre procédure se déroule ailleurs. Le résultat est une estimation "
                        "indicative, pas une décision : le tribunal examine aussi votre fortune et "
                        "les chances de succès de votre cause, deux conditions non calculées ici.",
-        "unsupported_canton_note": "Seuls Genève et Lucerne disposent d'un pourcentage de "
-                       "majoration officiellement publié et vérifiable. Pour les autres cantons, "
-                       "consultez le tribunal compétent : chaque canton applique son propre barème.",
+        "disclaimer_GR": "Ce calcul ne s'applique qu'aux procédures dans le canton des "
+                       "Grisons. Changez de canton ci-dessus si votre procédure se déroule "
+                       "ailleurs. Le résultat est une estimation indicative, pas une "
+                       "décision : le tribunal examine aussi votre fortune et les chances de "
+                       "succès de votre cause, deux conditions non calculées ici.",
+        "unsupported_canton_note": "Seuls Genève, Lucerne et les Grisons disposent d'un pourcentage "
+                       "de majoration officiellement publié et vérifiable. Pour les autres "
+                       "cantons, consultez le tribunal compétent : chaque canton applique son "
+                       "propre barème.",
         "situation": "Votre situation familiale",
         "opt_seul": "Vous vivez seul·e, sans enfant à charge",
         "opt_mono": "Vous êtes seul·e avec un ou plusieurs enfants à charge (famille monoparentale)",
@@ -217,13 +266,24 @@ STRINGS = {
                    "calcul, conformément à cette même source. Cette estimation ne remplace pas "
                    "l'examen du dossier par le tribunal et ne tient compte ni de votre fortune, "
                    "ni des chances de succès de votre cause.",
+        "source_GR": "Basé sur une ordonnance du Tribunal cantonal des Grisons du 26 "
+                   "janvier 2023 (ZK2 22 56), rendue en matière d'assistance judiciaire, qui "
+                   "applique un montant de base identique à Genève (CHF 1'200.- pour une "
+                   "personne seule, citant KGer GR KSK 09 39 du 18.08.2009), majoré de 20 % "
+                   "selon une jurisprudence constante (KGer GR ZK1 14 112 du 05.01.2015 ; "
+                   "PKG 2003 Nr. 13). Les impôts ne sont ajoutés que s'ils sont effectivement "
+                   "payés. Cette estimation ne remplace pas l'examen du dossier par le "
+                   "tribunal et ne tient compte ni de votre fortune, ni des chances de succès "
+                   "de votre cause.",
     },
     "de": {
         "canton_label": "Kanton des Verfahrens",
         "canton_ge": "Genf",
         "canton_lu": "Luzern",
+        "canton_gr": "Graubünden",
         "heading_GE": "Simulator: Anspruch auf unentgeltliche Rechtspflege (Kanton Genf)",
         "heading_LU": "Simulator: Anspruch auf unentgeltliche Rechtspflege (Kanton Luzern)",
+        "heading_GR": "Simulator: Anspruch auf unentgeltliche Rechtspflege (Kanton Graubünden)",
         "disclaimer_GE": "Diese Berechnung gilt nur für Verfahren im Kanton Genf. Wählen Sie oben "
                        "einen anderen Kanton, falls Ihr Verfahren anderswo stattfindet. Das "
                        "Ergebnis ist eine unverbindliche Schätzung, keine Entscheidung: Die "
@@ -235,7 +295,12 @@ STRINGS = {
                        "Kanton, falls Ihr Verfahren anderswo stattfindet. Das Ergebnis ist eine "
                        "unverbindliche Schätzung, keine Entscheidung: Das Gericht prüft zusätzlich "
                        "Ihr Vermögen und die Erfolgsaussichten Ihrer Sache.",
-        "unsupported_canton_note": "Nur Genf und Luzern verfügen über einen offiziell "
+        "disclaimer_GR": "Diese Berechnung gilt nur für Verfahren im Kanton Graubünden. "
+                       "Wählen Sie oben einen anderen Kanton, falls Ihr Verfahren anderswo "
+                       "stattfindet. Das Ergebnis ist eine unverbindliche Schätzung, keine "
+                       "Entscheidung: Das Gericht prüft zusätzlich Ihr Vermögen und die "
+                       "Erfolgsaussichten Ihrer Sache.",
+        "unsupported_canton_note": "Nur Genf, Luzern und Graubünden verfügen über einen offiziell "
                        "publizierten und nachprüfbaren Zuschlagssatz. Für andere Kantone wenden "
                        "Sie sich an das zuständige Gericht: jeder Kanton wendet einen eigenen "
                        "Ansatz an.",
@@ -280,13 +345,24 @@ STRINGS = {
                   "Berechnung enthalten. Diese Schätzung ersetzt nicht die Prüfung durch das "
                   "Gericht und berücksichtigt weder Ihr Vermögen noch die Erfolgsaussichten Ihrer "
                   "Sache.",
+        "source_GR": "Grundlage: Verfügung des Kantonsgerichts Graubünden vom 26. Januar "
+                  "2023 (ZK2 22 56) betreffend unentgeltliche Rechtspflege, die einen "
+                  "Grundbetrag anwendet, der mit Genf identisch ist (CHF 1'200.- für eine "
+                  "alleinstehende Person, unter Verweis auf KGer GR KSK 09 39 vom 18.08.2009), "
+                  "erhöht um 20 % gemäss ständiger Rechtsprechung (KGer GR ZK1 14 112 vom "
+                  "05.01.2015; PKG 2003 Nr. 13). Steuern werden nur berücksichtigt, wenn sie "
+                  "tatsächlich bezahlt werden. Diese Schätzung ersetzt nicht die Prüfung "
+                  "durch das Gericht und berücksichtigt weder Ihr Vermögen noch die "
+                  "Erfolgsaussichten Ihrer Sache.",
     },
     "it": {
         "canton_label": "Cantone della procedura",
         "canton_ge": "Ginevra",
         "canton_lu": "Lucerna",
+        "canton_gr": "Grigioni",
         "heading_GE": "Simulatore: diritto al gratuito patrocinio (Cantone di Ginevra)",
         "heading_LU": "Simulatore: diritto al gratuito patrocinio (Cantone di Lucerna)",
+        "heading_GR": "Simulatore: diritto al gratuito patrocinio (Cantone dei Grigioni)",
         "disclaimer_GE": "Questo calcolo vale solo per le procedure nel Cantone di Ginevra. "
                        "Cambiate cantone qui sopra se la vostra procedura si svolge altrove. Il "
                        "risultato è una stima indicativa, non una decisione: la cancelleria "
@@ -298,8 +374,13 @@ STRINGS = {
                        "procedura si svolge altrove. Il risultato è una stima indicativa, non una "
                        "decisione: il tribunale esamina anche il vostro patrimonio e le "
                        "probabilità di successo della causa.",
-        "unsupported_canton_note": "Solo Ginevra e Lucerna dispongono di una percentuale di "
-                       "maggiorazione pubblicata ufficialmente e verificabile. Per gli altri "
+        "disclaimer_GR": "Questo calcolo vale solo per le procedure nel Cantone dei "
+                       "Grigioni. Cambiate cantone qui sopra se la vostra procedura si "
+                       "svolge altrove. Il risultato è una stima indicativa, non una "
+                       "decisione: il tribunale esamina anche il vostro patrimonio e le "
+                       "probabilità di successo della causa.",
+        "unsupported_canton_note": "Solo Ginevra, Lucerna e i Grigioni dispongono di una percentuale "
+                       "di maggiorazione pubblicata ufficialmente e verificabile. Per gli altri "
                        "cantoni, rivolgetevi al tribunale competente: ogni cantone applica il "
                        "proprio barème.",
         "situation": "La vostra situazione familiare",
@@ -343,13 +424,23 @@ STRINGS = {
                   "calcolo, in base alla stessa fonte. Questa stima non sostituisce l'esame del "
                   "tribunale e non tiene conto del patrimonio né delle probabilità di successo "
                   "della causa.",
+        "source_GR": "Basato su un'ordinanza del Tribunale cantonale dei Grigioni del 26 "
+                  "gennaio 2023 (ZK2 22 56), in materia di assistenza giudiziaria gratuita, "
+                  "che applica un importo di base identico a Ginevra (CHF 1'200.- per una "
+                  "persona sola, citando KGer GR KSK 09 39 del 18.08.2009), maggiorato del "
+                  "20% secondo giurisprudenza costante (KGer GR ZK1 14 112 del 05.01.2015; "
+                  "PKG 2003 Nr. 13). Le imposte sono conteggiate solo se effettivamente "
+                  "pagate. Questa stima non sostituisce l'esame del tribunale e non tiene "
+                  "conto del patrimonio né delle probabilità di successo della causa.",
     },
     "en": {
         "canton_label": "Canton where the case is handled",
         "canton_ge": "Geneva",
         "canton_lu": "Lucerne",
+        "canton_gr": "Graubünden",
         "heading_GE": "Legal aid eligibility estimator (Canton of Geneva)",
         "heading_LU": "Legal aid eligibility estimator (Canton of Lucerne)",
+        "heading_GR": "Legal aid eligibility estimator (Canton of Graubünden)",
         "disclaimer_GE": "This calculation only applies to proceedings in the Canton of Geneva. "
                        "Switch canton above if your case is elsewhere. The result is an "
                        "indicative estimate, not a decision: the legal aid registry also assesses "
@@ -360,9 +451,13 @@ STRINGS = {
                        "according to the official source used). Switch canton above if your case "
                        "is elsewhere. The result is an indicative estimate, not a decision: the "
                        "court also assesses your assets and the prospects of success of your case.",
-        "unsupported_canton_note": "Only Geneva and Lucerne have an officially published, "
-                       "verifiable surcharge percentage. For other cantons, contact the competent "
-                       "court: each canton applies its own scale.",
+        "disclaimer_GR": "This calculation only applies to proceedings in the Canton of "
+                       "Graubünden. Switch canton above if your case is elsewhere. The "
+                       "result is an indicative estimate, not a decision: the court also "
+                       "assesses your assets and the prospects of success of your case.",
+        "unsupported_canton_note": "Only Geneva, Lucerne and Graubünden have an officially "
+                       "published, verifiable surcharge percentage. For other cantons, contact "
+                       "the competent court: each canton applies its own scale.",
         "situation": "Your family situation",
         "opt_seul": "You live alone, with no dependent children",
         "opt_mono": "You are a single parent with one or more dependent children",
@@ -405,6 +500,13 @@ STRINGS = {
                   "this calculation, per the same source. This estimate does not replace the "
                   "court's review and does not account for your assets or the prospects of "
                   "success of your case.",
+        "source_GR": "Based on: a ruling of the Graubünden Cantonal Court of 26 January "
+                  "2023 (ZK2 22 56) on legal aid, applying a base amount identical to "
+                  "Geneva's (CHF 1,200 for a single person, citing KGer GR KSK 09 39 of "
+                  "18.08.2009), increased by 20% per settled case law (KGer GR ZK1 14 112 of "
+                  "05.01.2015; PKG 2003 No. 13). Taxes are only counted if actually paid. "
+                  "This estimate does not replace the court's review and does not account "
+                  "for your assets or the prospects of success of your case.",
     },
 }
 
@@ -423,6 +525,7 @@ def widget_html(lang):
       <select id="calc-aj-canton">
         <option value="GE">{s['canton_ge']}</option>
         <option value="LU">{s['canton_lu']}</option>
+        <option value="GR">{s['canton_gr']}</option>
       </select>
     </label>
     <label class="calc-field">{s['situation']}
