@@ -1,0 +1,571 @@
+{
+  "confirmed": [
+    {
+      "canton": "Tessin",
+      "code": "TI",
+      "rate": 0,
+      "decision_count": 3,
+      "decisions": [
+        {
+          "court": "Tribunale d'appello TI (1ère Camera civile)",
+          "docket": "11.2016.23",
+          "date": "29.12.2016",
+          "quote": "In realtà la prassi ticinese – come quella di altri Cantoni – non riconosce maggiorazioni siffatte (che possono variare dallo 0 al 30%).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ti_gerichte_11.2016.23"
+        },
+        {
+          "court": "Tribunale d'appello TI (Camera dei ricorsi penali)",
+          "docket": "60.2010.124",
+          "date": "05.07.2010",
+          "quote": "Calcul du fabbisogno minimo strictement limité au montant de base LEF et aux postes de charges réelles documentées, sans aucun supplément en pourcentage.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ti_gerichte_60.2010.124"
+        }
+      ],
+      "note": "Seul canton suisse où la jurisprudence affirme explicitement l'absence de toute majoration du minimum vital pour l'assistance judiciaire, confirmée par la table officielle du minimo di esistenza du pouvoir judiciaire tessinois qui ne prévoit aucun supplément forfaitaire, contrairement aux autres cantons."
+    },
+    {
+      "canton": "Bâle-Campagne",
+      "code": "BL",
+      "rate": 15,
+      "decision_count": 14,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Basel-Landschaft",
+          "docket": "410 15 158",
+          "date": "07.07.2015",
+          "quote": "erweiterte den Grundbedarf der Kläger um einen Zuschlag von je 15 %",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bl_gerichte_410_2015_158"
+        },
+        {
+          "court": "Kantonsgericht Basel-Landschaft",
+          "docket": "410/17/313",
+          "date": "08.09.2017",
+          "quote": "Grundbetrag 1'000.00 / Zuschlag 15% 150.00",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bl_gerichte_410_17_313"
+        },
+        {
+          "court": "Kantonsgericht Basel-Landschaft (tribunal des assurances sociales)",
+          "docket": "725 2015 188",
+          "date": "2015",
+          "quote": "Application du même taux de 15% hors chambre civile, devant le tribunal des assurances sociales.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bl_gerichte_725_2015_188"
+        }
+      ],
+      "note": "14 décisions indépendantes identifiées au total (2012-2021), le corpus le plus riche de l'étude avec Bâle-Ville. Nuance signalée : une lignée distincte 2013-2015 appliquait 25-50% mais uniquement pour le calcul du remboursement de l'AJ après coup (pas l'octroi initial), lignée abandonnée depuis 2021."
+    },
+    {
+      "canton": "Bâle-Ville",
+      "code": "BS",
+      "rate": 15,
+      "decision_count": 11,
+      "decisions": [
+        {
+          "court": "Appellationsgericht Basel-Stadt",
+          "docket": "BEZ.2015.63",
+          "date": "30.12.2015",
+          "quote": "Ein erweitertes Existenzminimum wurde seitens der Vorinstanz mit einem Zuschlag von 15% auf den monatlichen Grundbetrag gewährt.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bs_appellationsgericht_BEZ.2015.63"
+        },
+        {
+          "court": "Appellationsgericht Basel-Stadt",
+          "docket": "BEZ.2018.40",
+          "date": "15.06.2018",
+          "quote": "Zuschlag von 15 % zu erhöhen, um den Bedarf nicht auf das absolute Minimum zu beschränken.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bs_appellationsgericht_BEZ.2018.40"
+        },
+        {
+          "court": "Appellationsgericht Basel-Stadt",
+          "docket": "VD.2022.138",
+          "date": "14.10.2022",
+          "quote": "Zuschlag von 15 % zu erhöhen (vgl. AGE ZB.2016.39 vom 20. Juli 2017 E. 7.1.3).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bs_appellationsgericht_VD.2022.138"
+        },
+        {
+          "court": "Appellationsgericht Basel-Stadt",
+          "docket": "KR.2025.2",
+          "date": "02.10.2025",
+          "quote": "Zuschlag von 15 % [CHF 382.80].",
+          "url": "https://mcp.opencaselaw.ch/entscheid/bs_appellationsgericht_KR.2025.2"
+        }
+      ],
+      "note": "11 décisions indépendantes identifiées (2015-2025), formant une chaîne de précédents ininterrompue sur 10 ans (ZB.2016.39 → ZB.2020.6 → BEZ.2018.40 → BEZ.2018.24 → VD.2018.76 → VD.2022.138 → ZB.2022.11 → KR.2025.2), le corpus le plus dense de toute l'étude."
+    },
+    {
+      "canton": "Genève",
+      "code": "GE",
+      "rate": 25,
+      "decision_count": 11,
+      "decisions": [
+        {
+          "court": "Cour de justice GE (Chambre pénale de recours)",
+          "docket": "ACPR/88/2022",
+          "date": "09.02.2022",
+          "quote": "La majoration de 20% du montant de base [...] est admise dans le calcul du minimum vital en matière d'assistance juridique.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ge_gerichte_ACPR_88_2022"
+        },
+        {
+          "court": "Cour de justice GE (Chambre pénale de recours)",
+          "docket": "ACPR/317/2022",
+          "date": "04.05.2022",
+          "quote": "Une majoration de 20% de ce forfait est admise en matière d'assistance juridique.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ge_gerichte_P_3660_2021"
+        },
+        {
+          "court": "Cour de justice GE (Chambre pénale de recours)",
+          "docket": "ACPR/552/2025",
+          "date": "05.05.2025",
+          "quote": "Pour établir les dépenses du requérant, il convient de se fonder sur son minimum vital du droit des poursuites, augmenté de 25% (arrêt du Tribunal fédéral 1B_383/2017 du 23 novembre 2017 consid. 2).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ge_gerichte_ACPR_552_2025"
+        }
+      ],
+      "note": "CAS PARTICULIER, documenté comme une pratique évolutive plutôt qu'un taux fixe unique (à l'instar de la Thurgovie) : 5 décisions indépendantes de la Chambre pénale de recours appliquent 20% entre 2020 et 2022, mais 6 décisions plus récentes (2022-2025), dont la plus récente lue intégralement, appliquent 25% en se fondant sur un arrêt du Tribunal fédéral. Aucune directive ou arrêt de principe formalisant ce changement n'a été identifié : les deux lignées se chevauchent en 2022 sans cutover officiel. Comptabilisé ici sous 25% (la pratique la plus récente et la mieux motivée en droit), mais les deux taux sont documentés pour transparence."
+    },
+    {
+      "canton": "Lucerne",
+      "code": "LU",
+      "rate": 20,
+      "decision_count": 6,
+      "decisions": [
+        {
+          "court": "Obergericht Luzern",
+          "docket": "OG 1999 29",
+          "date": "22.09.1999",
+          "quote": "Weisung betreffend unentgeltliche Rechtspflege : Zuschlag initial de 15%.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/lu_gerichte_OG_1999_29"
+        },
+        {
+          "court": "Obergericht Luzern",
+          "docket": "JK 02 68",
+          "date": "17.06.2003",
+          "quote": "Erhöhung des Zuschlages auf den Grundbetrag [...] von 15 % auf 20 % (Praxisänderung).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/lu_gerichte_JK_02_68"
+        },
+        {
+          "court": "Obergericht Luzern",
+          "docket": "3C 15 24",
+          "date": "28.01.2016",
+          "quote": "Application confirmée du Zuschlag de 20% sur le Grundbetrag pour l'unentgeltliche Rechtspflege.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/lu_gerichte_3C_15_24"
+        },
+        {
+          "court": "Obergericht Luzern",
+          "docket": "1C 23 22",
+          "date": "29.08.2023",
+          "quote": "Application la plus récente confirmant le Zuschlag de 20%.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/lu_gerichte_1C_23_22"
+        }
+      ],
+      "note": "6 décisions indépendantes au total (1999-2023). Évolution historique documentée : 15% jusqu'en 1999, 20% depuis la Praxisänderung de 2003, confirmé sans interruption depuis (dernière application identifiée en 2023)."
+    },
+    {
+      "canton": "Grisons",
+      "code": "GR",
+      "rate": 20,
+      "decision_count": 13,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Graubünden",
+          "docket": "ZB 2003 31",
+          "date": "03.11.2003",
+          "quote": "Zuschlag de 20% sur le Grundbetrag, jurisprudence constante depuis au moins 2003.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/gr_gerichte_ZB_2003_31"
+        },
+        {
+          "court": "Kantonsgericht Graubünden",
+          "docket": "ZK1 2011 6",
+          "date": "16.05.2011",
+          "quote": "Zuschlag um einen Zuschlag von 20% zu erweitern.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/gr_gerichte_ZK1_2011_6"
+        },
+        {
+          "court": "Kantonsgericht Graubünden",
+          "docket": "ZR1 2025 11",
+          "date": "2025",
+          "quote": "Application la plus récente identifiée confirmant le Zuschlag de 20%.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/gr_gerichte_ZR1_2025_11"
+        }
+      ],
+      "note": "13 décisions indépendantes identifiées (2003-2026), comblant le corpus sur plus de 20 ans. Une décision isolée (ZK2 2019 66, 17.03.2020) applique un taux de 25% plutôt que 20%, signalée comme anomalie sans base légale distincte apparente, 1 cas sur 14 décisions examinées."
+    },
+    {
+      "canton": "Soleure",
+      "code": "SO",
+      "rate": 20,
+      "decision_count": 6,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Solothurn",
+          "docket": "ZKREK.2010.36",
+          "date": "25.03.2010",
+          "quote": "ein zivilprozessualer Zuschlag von CHF 240.00 (20%).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/so_gerichte_ZKREK.2010.36"
+        },
+        {
+          "court": "Obergericht Solothurn",
+          "docket": "ZKBES.2017.146",
+          "date": "28.11.2017",
+          "quote": "Der zivilprozessuale Zuschlag von 20% macht dementsprechend CHF 240.00 aus.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/so_gerichte_ZKBES.2017.146"
+        }
+      ],
+      "note": "6 décisions au total avec pourcentage explicite (2010-2021), critère méthodologique strict appliqué : 7 décisions supplémentaires avaient un calcul implicitement cohérent avec 20% mais sans le pourcentage écrit en toutes lettres, écartées par prudence."
+    },
+    {
+      "canton": "Jura",
+      "code": "JU",
+      "rate": 25,
+      "decision_count": 10,
+      "decisions": [
+        {
+          "court": "Tribunal cantonal JU (Cour civile)",
+          "docket": "CC 86-89/2013",
+          "date": "24.01.2014",
+          "quote": "Application du minimum vital majoré de 25%, antérieure à la formalisation par circulaire.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ju_gerichte_CC%2086-89_2013"
+        },
+        {
+          "court": "Tribunal cantonal JU (Cour civile)",
+          "docket": "CIV 2025 1026",
+          "date": "03.11.2025",
+          "quote": "le minimum vital du droit des poursuites augmenté de 25% (ATF 124 I 1, consid. 2c).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ju_gerichte_CIV%202025%201026"
+        },
+        {
+          "court": "Tribunal cantonal JU (Cour administrative)",
+          "docket": "ADM 2025 157",
+          "date": "20.01.2026",
+          "quote": "minimum vital de droit des poursuites pour une personne seule majoré de 25 %, citant la Circulaire n° 14 du 30 septembre 2015 du Tribunal cantonal relative à l'octroi de l'assistance judiciaire.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ju_gerichte_ADM%202025%20157"
+        }
+      ],
+      "note": "10 décisions indépendantes identifiées (2013-2026, Cour civile et Cour administrative), adossées à une directive officielle du Tribunal cantonal (Circulaire n° 14 du 30.09.2015). Deux décisions antérieures à cette circulaire (2013-2014) montrent que la pratique des 25% était déjà constante avant sa formalisation écrite. Aucune contradiction trouvée."
+    },
+    {
+      "canton": "Schwyz",
+      "code": "SZ",
+      "rate": 30,
+      "decision_count": 6,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Schwyz",
+          "docket": "ZK2 2021 10",
+          "date": "05.05.2021",
+          "quote": "der Zuschlag im Kanton Schwyz gemäss Richtlinien der Gerichtspräsidentenkonferenz des Kantons Schwyz für die Offizialverteidigung und die unentgeltliche Rechtsvertretung vom 3. November 2003 max. 30% beträgt.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/sz_gerichte_ZK2%202021%2010"
+        },
+        {
+          "court": "Gericht SZ",
+          "docket": "BEK 2021 33",
+          "date": "04.06.2021",
+          "quote": "Zuschlag von 30 Prozent auf dem Grundbetrag von Fr. 360.00.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/sz_gerichte_BEK%202021%2033"
+        }
+      ],
+      "note": "Adossé à une directive officielle nommée (Richtlinien der Gerichtspräsidentenkonferenz, 03.11.2003). 6 décisions indépendantes identifiées au total (2019-2022) ; corpus jugé proche de l'épuisement après ~200 décisions passées en revue. Deux anomalies contextuelles signalées (une application discrétionnaire à 20% pour un cas particulier, un rejet de 30% dans un contexte de remise de frais pénaux différent du calcul AJ), aucune ne contredisant le taux dans le cadre de l'octroi initial de l'AJ."
+    },
+    {
+      "canton": "Argovie",
+      "code": "AG",
+      "rate": 25,
+      "decision_count": 10,
+      "decisions": [
+        {
+          "court": "Obergericht Aargau",
+          "docket": "AGVE 2002 15",
+          "date": "05.05.2002",
+          "quote": "Zuschlag von 25% auf dem betreibungsrechtlichen Grundbetrag.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ag_gerichte_AGVE_2002_15"
+        },
+        {
+          "court": "Obergericht Aargau",
+          "docket": "ZSU.2022.9",
+          "date": "08.11.2022",
+          "quote": "Zuschlag von 25% auf dem Grundbetrag Fr. 300.00 (sur Fr. 1'200.00).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ag_zivilgericht_ZSU.2022.9"
+        },
+        {
+          "court": "Zivilgericht Argovie",
+          "docket": "XBE.2022.47",
+          "date": "23.11.2022",
+          "quote": "25 % des Grundbetrags (AGVE 2002 Nr. 15 S. 65 ff.).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ag_zivilgericht_XBE.2022.47"
+        }
+      ],
+      "note": "10 décisions indépendantes identifiées (2002-2026), couvrant trois instances (Zivilgericht, Strafgericht, Verwaltungsgericht). Une décision (ZOR.2023.6) qualifie explicitement le taux de « stetige Praxis des Obergerichts » (pratique constante du tribunal cantonal). Aucune contradiction trouvée."
+    },
+    {
+      "canton": "Fribourg",
+      "code": "FR",
+      "rate": 25,
+      "decision_count": 13,
+      "decisions": [
+        {
+          "court": "Tribunal cantonal FR",
+          "docket": "101 2021 258",
+          "date": "29.11.2021",
+          "quote": "l'augmentation usuelle de 25% du minimum d'existence lorsqu'il s'agit de statuer sur l'assistance judiciaire.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/fr_gerichte_101_2021_258"
+        },
+        {
+          "court": "Tribunal cantonal FR",
+          "docket": "502 2021 176",
+          "date": "25.10.2021",
+          "quote": "le minimum vital de base doit bien être majoré de 25 % selon la jurisprudence relative à l'assistance judiciaire.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/fr_gerichte_502_2021_176"
+        },
+        {
+          "court": "Tribunal cantonal FR",
+          "docket": "502 2022 147",
+          "date": "19.08.2022",
+          "quote": "le minimum vital du droit des poursuites, majoré de 25%, à hauteur de CHF 1'687.50.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/fr_gerichte_502_2022_147"
+        }
+      ],
+      "note": "13 décisions indépendantes identifiées (2013-2025). Trajectoire historique documentée : deux décisions de 2015 (102 2014 195 et 502 2015 252) appliquaient encore 20%, présenté comme la « jurisprudence fribourgeoise constante » de l'époque ; toutes les décisions à partir de 2018 confirment 25%, alignées sur les arrêts fédéraux 4A_432/2016 et 5A_328/2016. Basculement de pratique daté et sourcé plutôt qu'une simple photographie statique."
+    },
+    {
+      "canton": "Berne",
+      "code": "BE",
+      "rate": 30,
+      "decision_count": 12,
+      "decisions": [
+        {
+          "court": "Regionalgericht Bern (Zivil- und Strafgericht)",
+          "docket": "ZK 2020 545",
+          "date": "09.02.2021",
+          "quote": "[Ausgaben] bereits durch den um 30% erhöhten betreibungsrechtlichen Grundbetrag abgedeckt.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/be_zivilstraf_ZK_2020_545"
+        },
+        {
+          "court": "Verwaltungsgericht du canton de Berne",
+          "docket": "100.2024.304U",
+          "date": "12.12.2025",
+          "quote": "prozessualer Zwangsbedarf [...] Grundbetrag von Fr. 1'200.--, prozessualer Zuschlag von Fr. 360.-- (soit 30%).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/be_verwaltungsgericht_100_2024_304"
+        }
+      ],
+      "note": "12 décisions indépendantes identifiées (2013-2025), couvrant à la fois l'Obergericht/Regionalgericht (civil) et le Verwaltungsgericht (administratif), deux instances différentes appliquant le même taux, ce qui renforce la preuve d'une pratique cantonale constante plutôt qu'un cas isolé."
+    },
+    {
+      "canton": "Zoug",
+      "code": "ZG",
+      "rate": 20,
+      "decision_count": 7,
+      "decisions": [
+        {
+          "court": "Obergericht Zug",
+          "docket": "BZ 2022 27",
+          "date": "12.05.2022",
+          "quote": "Wird dieser Grundbetrag praxisgemäss um 20% erhöht.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/zg_obergericht_BZ_2022_27"
+        },
+        {
+          "court": "Obergericht Zug",
+          "docket": "BZ 2023 17",
+          "date": "23.05.2023",
+          "quote": "Wird dieser Grundbetrag praxisgemäss um 20 % erhöht, resultiert [...] ein Grundbetrag von CHF 1'020.00 (CHF 850.00 + CHF 170.00 [Zuschlag 20 %]).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/zg_obergericht_BZ_2023_17"
+        },
+        {
+          "court": "Obergericht Zug",
+          "docket": "BZ 2025 19",
+          "date": "01.07.2025",
+          "quote": "Existenzminimum CHF 3'589.70 (Grundbetrag [plus 20 % Zuschlag]: CHF 1'440.00...).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/zg_obergericht_BZ_2025_19"
+        }
+      ],
+      "note": "7 décisions indépendantes identifiées (2022-2025), toutes formulées comme pratique constante (\"praxisgemäss\"). Aucune contradiction trouvée."
+    },
+    {
+      "canton": "Saint-Gall",
+      "code": "SG",
+      "rate": 30,
+      "decision_count": 2,
+      "decisions": [
+        {
+          "court": "Kantonsgericht St. Gallen",
+          "docket": "Richtlinien zur unentgeltlichen Rechtspflege",
+          "date": "05.2011",
+          "quote": "ein um 30% erhöhter betreibungsrechtlicher Grundbetrag.",
+          "url": "https://www.sg.ch/content/dam/sgch/recht/gerichte/weisungen_kreisschreiben_reglemente/kantonsgericht/Richtlinien%20zur%20unentgeltliche%20Rechtspflege%20im%20Zivilprozess%20und%20f%C3%BCr%20die%20Privatkl%C3%A4gerschaft%20im%20Strafprozess%20(Stand%2005-2011).pdf"
+        },
+        {
+          "court": "Kantonsgericht St. Gallen",
+          "docket": "VZ.2007.31",
+          "date": "21.08.2007",
+          "quote": "Auch in quantitativer Hinsicht ist ein strengerer Massstab anzulegen als bei der Gewährung der unentgeltlichen Prozessführung, wo ein Zuschlag von 30% zum Grundbetrag berücksichtigt wird.",
+          "url": "https://publikationen.sg.ch/rechtsprechung-gerichte-detail/4083/"
+        }
+      ],
+      "note": "Directive officielle du tribunal cantonal (2011), confirmée par une décision de justice qui applique concrètement ce taux (2007, antérieure à la directive elle-même). Corpus judiciaire jugé quasi épuisé au-delà de ces deux sources (la plupart des décisions publiées du Kantonsgericht SG sur l'AJ sont des arrêts de principe qui ne rechiffrent pas le calcul, non contesté en pratique)."
+    },
+    {
+      "canton": "Nidwald",
+      "code": "NW",
+      "rate": 20,
+      "decision_count": 1,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Nidwalden",
+          "docket": "formulaire officiel \"Unentgeltliche Rechtspflege\"",
+          "date": "20.06.2024",
+          "quote": "Total Grundbeträge (inkl. Zuschlag von 20%) : CHF 1'200 (personne seule), CHF 1'350 (famille monoparentale), CHF 1'700 (couple).",
+          "url": "https://www.nw.ch/_docn/386608/Unentgeltliche_Rechtspflege_ab_20.06.2024.pdf"
+        }
+      ],
+      "note": "Formulaire officiel du tribunal cantonal, seule source disponible mais de nature générale (applicable à tous les cas, pas un dossier isolé). Recherche exhaustive (~20 décisions candidates ouvertes en texte intégral) sans trouver de décision de justice individuelle appliquant ce taux, corpus judiciaire publié très mince pour ce petit canton, la directive elle-même ne datant que de 2024."
+    },
+    {
+      "canton": "Valais",
+      "code": "VS",
+      "rate": 25,
+      "decision_count": 4,
+      "decisions": [
+        {
+          "court": "Tribunal cantonal VS (Cour pénale I)",
+          "docket": "P2 23 43",
+          "date": "31.07.2023",
+          "quote": "il convient de se fonder sur le minimum vital du droit des poursuites augmenté de 25% (cf. ATF 124 I 1 consid. 2c).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/vs_gerichte_P2%2023%2043"
+        },
+        {
+          "court": "Tribunal cantonal VS (Cour civile I)",
+          "docket": "C2 22 2",
+          "date": "09.02.2022",
+          "quote": "eu égard à la base mensuelle du minimum d'existence - 1200 fr. -, augmenté de 25 %, les besoins de l'intéressé se montaient ainsi à 3108 fr. 20.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/vs_gerichte_C2%2022%202"
+        },
+        {
+          "court": "Tribunal cantonal VS (Cour civile I)",
+          "docket": "C2 25 37",
+          "date": "12.05.2025",
+          "quote": "il peut ainsi couvrir son minimum vital du droit des poursuites majoré de 25 % (1500 fr.).",
+          "url": "https://mcp.opencaselaw.ch/entscheid/vs_gerichte_C2%2025%2037"
+        }
+      ],
+      "note": "4 décisions indépendantes identifiées (2022-2025), deux chambres différentes du Tribunal cantonal (civile et pénale) concordantes."
+    },
+    {
+      "canton": "Appenzell Rhodes-Intérieures",
+      "code": "AI",
+      "rate": 30,
+      "decision_count": 2,
+      "decisions": [
+        {
+          "court": "Kantonsgericht Appenzell Innerrhoden",
+          "docket": "ke-5-2026",
+          "date": "28.04.2026",
+          "quote": "Zur Berechnung des prozessualen Zwangsbedarfs wird der Grundbetrag um 30% erhöht.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ai_gerichte_ke-5-2026"
+        },
+        {
+          "court": "Canton d'Appenzell Rhodes-Intérieures (site officiel)",
+          "docket": "page \"Unentgeltliche Rechtspflege\"",
+          "date": "consultée le 03.08.2026",
+          "quote": "Zur Berechnung des prozessualen Zwangsbedarfs wird der Grundbetrag um 30% erhöht.",
+          "url": "https://www.ai.ch/themen/staat-und-recht/unentgeltliche-rechtspflege"
+        }
+      ],
+      "note": "Upgradé de « source unique » à « confirmé » : la décision de justice est corroborée mot pour mot par une déclaration générale de pratique publiée sur le site officiel du canton, qui n'est pas liée à un dossier particulier, ce qui satisfait le critère de confirmation par directive/déclaration officielle générale. Recherche exhaustive (~240 décisions appenzelloises relues au total sur deux passes) sans trouver de deuxième décision de justice, le corpus judiciaire de ce très petit canton étant structurellement limité."
+    },
+    {
+      "canton": "Uri",
+      "code": "UR",
+      "rate": 20,
+      "decision_count": 2,
+      "decisions": [
+        {
+          "court": "Obergericht Uri",
+          "docket": "OG VP 23 5",
+          "date": "16.06.2023",
+          "quote": "Hinzuzurechnen ist der verwaltungsprozessuale Zuschlag im Umfang von 20 Prozent des monatlichen Grundbetrages.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ur_gerichte_2023_OG%20VP%2023%205_Unentgeltiche%20Rechtspflege"
+        },
+        {
+          "court": "Obergericht Uri (Präsidium Zivilrechtliche Abteilung)",
+          "docket": "2026_OG ZP 26 2",
+          "date": "10.04.2026",
+          "quote": "Zivilprozessualer Zuschlag 20 % CHF 310.00.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ur_gerichte_2026_OG%20ZP%2026%202"
+        }
+      ],
+      "note": "Upgradé de « source unique » à « confirmé » : deuxième décision indépendante trouvée (juge différent, dossier différent, trois ans d'écart). Une piste plus ancienne (1996, Obergerichtspräsidium OGP-Z-3/96) reste non vérifiable en texte intégral (seul le regeste est disponible) et n'est donc pas comptée."
+    }
+  ],
+  "single_source": [
+    {
+      "canton": "Thurgovie",
+      "code": "TG",
+      "rate": 25,
+      "decision_count": 1,
+      "decisions": [
+        {
+          "court": "Obergericht Thurgau",
+          "docket": "RBOG 2018 Nr. 6",
+          "date": "30.05.2018",
+          "quote": "Zuschlag von 25% auf dem Grundbetrag bei der Berechnung des prozessualen Notbedarfs.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/tg_obergericht_RBOG_2018_Nr._06"
+        }
+      ],
+      "single_source_note": "Recherche exhaustive sur deux passes (les deux corpus tg_gerichte et tg_obergericht, plus de 3600 décisions au total, une dizaine de formulations de requête) sans trouver de deuxième décision civile. Divergence importante déjà documentée : le Verwaltungsgericht thurgovien applique une pratique constante et opposée pour la voie administrative (0% de supplément, TVR 2009 Nr. 7 confirmé par TVR 2024 Nr. 12). Le 25% ne vaut donc que pour la voie civile (art. 117 CPC)."
+    },
+    {
+      "canton": "Obwald",
+      "code": "OW",
+      "rate": 20,
+      "decision_count": 1,
+      "decisions": [
+        {
+          "court": "Obergerichtskommission Obwalden",
+          "docket": "AbR 2006/07 Nr. 1",
+          "date": "07.02.2007",
+          "quote": "rechtfertigt es sich, künftig von einem Zuschlag von 20 % auf dem Grundbetrag auszugehen. Der vorinstanzliche Entscheid, der von einem Zuschlag von 15 % ausging, ist entsprechend zu korrigieren.",
+          "url": "https://mcp.opencaselaw.ch/entscheid/ow_gerichte_AbR%202006_07%20Nr.%201"
+        }
+      ],
+      "single_source_note": "CORRECTION IMPORTANTE : la fourchette \"10-15%\" antérieurement documentée pour ce canton était l'ancienne pratique, EXPRESSÉMENT ABROGÉE par cette décision de 2007 (Praxisänderung explicite, comparant les pratiques cantonales de LU/NW/UR/ZG à 20% et SZ/BE à 30%, et corrigeant l'instance inférieure qui appliquait encore 15%). Le taux actuellement en vigueur est donc 20% flat sur le Grundbetrag. Recherche exhaustive de décisions postérieures à 2007 : aucune trouvée, ni pour confirmer ni pour contredire ce taux, corpus judiciaire réellement épuisé pour ce très petit canton, mais aucune décision contraire en 19 ans."
+    }
+  ],
+  "discretionary": [
+    {
+      "canton": "Zurich",
+      "code": "ZH",
+      "range": "15-30%",
+      "source": "Obergericht/Sozialversicherungsgericht ZH : ~20 décisions avec pourcentage concret identifiées (2012-2025). RU140012 (07.05.2014, \"Zuschlag von 15-30[%]\") ; PC140029 (20.10.2014, 25%) ; RT170136 (29.08.2017, 15% minimum) ; PC200016 (10.06.2020, 25%) ; RZ200006 (16.09.2020, 20%, fourchette 10-30% citée) ; PC240031 (11.02.2025, formule \"un supplément de 25% est habituellement accordé\").",
+      "note": "Le canton le plus peuplé de Suisse laisse le pourcentage à l'appréciation du juge au cas par cas, mais avec un mode statistique clair à 20% (9 décisions sur ~20 examinées), suivi de 25% (5-6 décisions, présenté comme \"la règle habituelle\" dans la décision la plus récente identifiée, 2025)."
+    },
+    {
+      "canton": "Vaud",
+      "code": "VD",
+      "range": "20-30%, taux dominant actuel 25%",
+      "source": "12 décisions AJ identifiées (2009-2024) : HC/2009/269 (18.08.2009, principe fédéral à 20%, aujourd'hui daté) ; Pron/2012/208 (29.08.2012, 25% appliqué) ; Arrêt 2017/61 (12.01.2017, 30% appliqué) ; HC/2021/135 (10.03.2021, 30%) ; HC/2024/404 (16.05.2024, 25% appliqué) ; HC/2024/690 (27.08.2024, 25% appliqué).",
+      "note": "La fourchette 20-30% reste correcte dans l'absolu (les deux bornes sont attestées par des applications concrètes), mais 25% est clairement le taux dominant dans la jurisprudence vaudoise depuis 2012. Un arrêt du Tribunal fédéral cité par la Cour d'appel civile VD (4A_432/2016, lu intégralement) invalide explicitement 20% comme insuffisant : \"le juge de l'assistance judiciaire doit appliquer une majoration de 25%\"."
+    },
+    {
+      "canton": "Glaris",
+      "code": "GL",
+      "range": "20-25%",
+      "source": "Obergericht Glarus, OG.2015.00010 (13.05.2016, assistance judiciaire d'une partie plaignante, art. 136 CPP) : \"Notbedarf (um 20%-25% erhöhter Grundbedarf...)\". Verwaltungsgericht Glarus, VG.2020.00020 (14.05.2020, contentieux administratif AI) : \"Dieser Grundbedarf ist praxisgemäss um 20 % zu erhöhen\".",
+      "note": "Deux décisions indépendantes désormais, devant deux juridictions différentes (Obergericht pénal et Verwaltungsgericht administratif). La borne basse (20%) est confirmée comme pratique constante (\"praxisgemäss\") par le Verwaltungsgericht ; la borne haute (25%) ne provient que d'une seule mention. Recherche exhaustive (~250 décisions glaronnaises passées en revue) sans trouver de directive officielle chiffrée."
+    },
+    {
+      "canton": "Neuchâtel",
+      "code": "NE",
+      "range": "0-25%, pratique non automatique",
+      "source": "Autorité de recours en matière civile NE, ARMC.2020.56 (08.12.2020) : application concrète de 25% (\"un montant de 850 francs, qu'il a ensuite majoré de 25%\", non contesté). Cour d'appel civile NE, CACIV.2020.47 (16.10.2020, deux mois plus tôt) : \"le minimum vital de base [...] n'a pas à être systématiquement majoré de 25 %, même si un tel élargissement est pratiqué dans certains cantons\".",
+      "note": "Reclassé de « source unique confirmée à 25% » vers « pratique discrétionnaire » suite à la découverte d'une deuxième décision qui contredit le caractère automatique de la majoration plutôt que de le confirmer. Le tribunal neuchâtelois semble se réserver la possibilité d'appliquer ou non un supplément selon les circonstances, avec 25% comme référence quand il est appliqué. Recherche exhaustive (~250 décisions sur les 10'740 du corpus neuchâtelois) sans trouver de troisième décision clarifiant la règle."
+    }
+  ],
+  "excluded": [
+    {
+      "canton": "Schaffhouse",
+      "code": "SH",
+      "reason": "Recherche exhaustive sur trois passes (dont l'exploration de ~50 décisions supplémentaires de l'Obergericht et une tentative d'élargissement aux décisions de première instance) sans succès. Les liens PDF originaux vers obergerichtsentscheide.sh.ch pour les deux décisions les plus prometteuses (40/2002/34, 40/2005/2) ne sont plus accessibles (site restructuré), et OpenCaseLaw n'a conservé que les métadonnées, pas le texte intégral."
+    },
+    {
+      "canton": "Appenzell Rhodes-Extérieures",
+      "code": "AR",
+      "reason": "Recherche exhaustive sur trois passes (~55 décisions supplémentaires passées en revue dans cette dernière poussée). Les décisions trouvées mentionnant un \"Zuschlag\" concernent soit des frais de repas professionnels, soit le tarif d'avocat pour mesures provisionnelles (10-40%), aucune ne porte sur le calcul du minimum vital pour l'AJ elle-même. Le formulaire officiel du greffe cantonal ne détaille pas ce calcul."
+    }
+  ]
+}

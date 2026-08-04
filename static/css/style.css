@@ -371,3 +371,99 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   .press-band-inner{ flex-direction:column; align-items:flex-start; }
   .press-band-cta{ width:100%; text-align:center; }
 }
+
+
+/* -- page dediee etude AJ (interactive) -- */
+.study-hero{ padding-bottom:var(--space-xl); }
+.study-cover-caption{ font-size:0.85rem; color:var(--text-muted); font-style:italic; margin-top:-8px; }
+
+.study-nav{
+  display:flex; flex-wrap:wrap; gap:var(--space-md);
+  padding-block:var(--space-lg);
+  border-bottom:1px solid var(--border-strong);
+  position:sticky; top:0; background:var(--surface-page); z-index:5;
+  overflow-x:auto;
+}
+.study-nav a{
+  flex-shrink:0; font-size:0.82rem; font-weight:600; text-decoration:none;
+  color:var(--text-secondary); padding:6px 12px; border-radius:100px; border:1px solid var(--border-strong);
+  white-space:nowrap;
+}
+.study-nav a:hover{ color:var(--accent-600); border-color:var(--accent-500); }
+
+.study-digest{ background:var(--paper-50); border-radius:12px; padding:var(--space-2xl); }
+.digest-list{ margin:0 0 var(--space-lg); padding-left:1.3em; }
+.digest-list li{ margin-bottom:var(--space-sm); color:var(--text-secondary); line-height:1.6; }
+.digest-contact{ font-size:0.85rem; color:var(--text-muted); font-style:italic; margin:0; }
+
+.study-prose p{ font-size:1rem; }
+.study-intro{ font-size:1rem; color:var(--text-secondary); max-width:70ch; margin-bottom:var(--space-xl); }
+
+/* -- graphique en barres CSS -- */
+.rate-chart{ display:flex; flex-direction:column; gap:var(--space-md); }
+.rate-chart-row{
+  display:grid; grid-template-columns:1fr; row-gap:4px; align-items:center;
+}
+.rate-chart-label{ font-size:0.88rem; color:var(--text-primary); font-weight:500; }
+.rate-chart-code{ color:var(--text-muted); font-weight:400; }
+.rate-chart-track{
+  background:var(--paper-200); border-radius:6px; height:14px; overflow:hidden;
+}
+.rate-chart-bar{ height:100%; border-radius:6px; transition:width 0.3s ease; }
+.rate-chart-value{ font-size:0.8rem; font-weight:600; color:var(--text-secondary); text-align:right; }
+
+/* -- cartes canton (details/summary) -- */
+.canton-list{ display:flex; flex-direction:column; gap:var(--space-md); }
+.canton-card{
+  border:1px solid var(--border-strong); border-radius:10px; padding:var(--space-lg) var(--space-xl);
+  background:var(--surface-card);
+}
+.canton-card.is-muted{ background:var(--paper-50); }
+.canton-card summary{
+  cursor:pointer; display:flex; flex-wrap:wrap; align-items:center; gap:var(--space-md);
+  list-style:none; font-weight:500;
+}
+.canton-card summary::-webkit-details-marker{ display:none; }
+.canton-card-head{
+  display:flex; flex-wrap:wrap; align-items:center; gap:var(--space-md);
+}
+.canton-card-name{ font-family:var(--font-display); font-size:1.05rem; color:var(--ink-950); }
+.canton-card-code{ color:var(--text-muted); font-family:var(--font-body); font-size:0.85rem; }
+.canton-rate-badge{
+  display:inline-block; padding:3px 12px; border-radius:100px; color:#fff;
+  font-weight:700; font-size:0.85rem;
+}
+.canton-rate-badge.is-muted{ background:var(--ink-500); }
+.canton-rate-badge.is-range{ background:var(--ink-700); font-weight:600; }
+.canton-card-count{ font-size:0.82rem; color:var(--text-muted); }
+.canton-card-toggle{
+  margin-left:auto; font-size:0.78rem; color:var(--accent-600); font-weight:600;
+}
+.tag.is-warn{ background:var(--accent-50); border-color:var(--accent-100); color:var(--accent-700); font-weight:600; }
+.canton-card-body{ margin-top:var(--space-lg); padding-top:var(--space-lg); border-top:1px solid var(--border); }
+.canton-card-body.is-open{ margin-top:var(--space-md); padding-top:0; border-top:none; }
+.canton-note{ font-size:0.9rem; color:var(--text-muted); font-style:italic; margin-bottom:var(--space-sm); }
+.decision-item{ margin-bottom:var(--space-lg); }
+.decision-meta{ font-size:0.82rem; font-weight:600; color:var(--text-secondary); margin-bottom:2px; }
+.decision-quote{ font-size:0.92rem; color:var(--text-primary); margin-bottom:4px; }
+.decision-link{
+  font-size:0.78rem; color:var(--accent-600); text-decoration:none; word-break:break-all;
+}
+.decision-link:hover{ text-decoration:underline; }
+
+/* -- tableau simulation -- */
+.case-table-wrap{ overflow-x:auto; margin-bottom:var(--space-xl); }
+.case-table{ border-collapse:collapse; width:100%; min-width:560px; }
+.case-table th, .case-table td{
+  padding:10px 14px; text-align:center; border:1px solid var(--border-strong); font-size:0.88rem;
+}
+.case-table th{ background:var(--ink-950); color:#fff; font-weight:600; }
+.case-table td:first-child, .case-table th:first-child{ text-align:left; }
+.case-table tbody tr:nth-child(even){ background:var(--paper-50); }
+
+.study-note-pdf{ font-size:0.9rem; color:var(--text-secondary); }
+
+@media (max-width:760px){
+  .canton-card-toggle{ margin-left:0; }
+  .rate-chart-value{ text-align:left; }
+}

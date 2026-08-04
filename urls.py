@@ -89,6 +89,10 @@ def domaines_index_path(lang):
     return f"/{lang}/{seg('domaines', lang)}/"
 
 
+def etude_aj_path(lang):
+    return f"/{lang}/{seg('etude-aj', lang)}/"
+
+
 def static_path(lang, depth):
     return "../" * depth + "static/"
 

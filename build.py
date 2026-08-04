@@ -21,11 +21,12 @@ import static_pages as sp_content
 import guides_content
 import blog_content
 import calc_widget
+import aj_study_content as aj
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
-    blog_index_path, blog_article_path,
+    blog_index_path, blog_article_path, etude_aj_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -459,7 +460,7 @@ def gen_home():
         ctx["domaines"] = [
             {"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in i18n.DOMAINES
         ]
-        ctx["press_pdf_url"] = f"{BASE_DOMAIN}/static/downloads/etude-aj-cantons-{lang}.pdf"
+        ctx["etude_aj_url"] = etude_aj_path(lang)
         write_page(path, render("home.html", ctx))
 
 
@@ -1604,6 +1605,32 @@ BLOG_INDEX_INTRO = {
 }
 
 
+def gen_etude_aj():
+    """Page dediee interactive de l'etude comparative AJ (taux de majoration
+    du minimum vital selon le canton). Contenu factuel dans
+    data/aj_study/data.json (jamais modifie ici), traductions dans
+    data/aj_study/i18n.json, mis en forme par aj_study_content.page_context()."""
+    for lang in LANGS:
+        path = etude_aj_path(lang)
+        pc = aj.page_context(lang)
+        title = pc["t"]["title"]
+        meta_desc = pc["t"]["meta_description"]
+        ctx = base_ctx(lang, path, f"{title} | Legatis", meta_desc[:158], hreflang_for(etude_aj_path))
+        ctx.update(pc)
+        ctx["pdf_url"] = f"/static/downloads/etude-aj-cantons-{lang}.pdf"
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (title, path)]
+        ctx["schema"] = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": title,
+            "description": meta_desc,
+            "inLanguage": lang,
+            "url": BASE_DOMAIN + path,
+            "publisher": {"@type": "Organization", "name": "Legatis", "url": BASE_DOMAIN},
+        }, ensure_ascii=False)
+        write_page(path, render("etude_aj.html", ctx))
+
+
 def gen_blog():
     """Blog juridique : contenu edite dans blog_content.BLOG_ARTICLES. Toutes
     les langues ne sont pas forcement encore ecrites pour chaque article
@@ -1955,6 +1982,7 @@ if __name__ == "__main__":
         gen_ville_domaines()
         gen_guides()
         gen_blog()
+        gen_etude_aj()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
@@ -2015,6 +2043,7 @@ if __name__ == "__main__":
         gen_ville_domaines()
         gen_guides()
         gen_blog()
+        gen_etude_aj()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()

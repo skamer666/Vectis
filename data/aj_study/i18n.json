@@ -1,0 +1,738 @@
+{
+ "strings": {
+  "fr": {
+   "kicker": "ÉTUDE COMPARATIVE · LEGATIS · DOCUMENT DESTINÉ À LA PRESSE",
+   "title": "Le prix cantonal de la pauvreté",
+   "subtitle": "D'aucune majoration à 30% : comment 26 cantons suisses calculent différemment qui est « assez pauvre » pour obtenir l'assistance judiciaire",
+   "cover_caption_tpl": "Étude fondée exclusivement sur des décisions de justice et directives officielles primaires ({n}+ décisions lues intégralement), vérifiées individuellement, avec sources vérifiables ci-jointes",
+   "cover_footer": "Legatis · annuaire des avocats suisses · Août 2026",
+   "digest_kicker": "L'ESSENTIEL EN 30 SECONDES",
+   "digest_1": "Pour obtenir un avocat payé par l'État, un tribunal suisse doit d'abord juger qu'on est \"assez pauvre\". Ce calcul applique un supplément en pourcentage au minimum vital de base, et ce pourcentage varie du tout au tout selon le canton.",
+   "digest_2_tpl": "Sur 26 cantons, {n} ont un taux confirmé par au moins deux décisions de justice indépendantes (ou une directive officielle générale), allant de 0% au Tessin (aucune majoration) à 30% (Schwyz, Berne, Saint-Gall, Appenzell Rhodes-Intérieures).",
+   "digest_3": "Pour une personne seule (minimum vital de base CHF 1'200.-/mois), l'écart va de CHF 0.- (Tessin) à CHF 360.- reconnus chaque mois selon le canton, soit jusqu'à CHF 4'320.- par an.",
+   "digest_4_tpl": "{ns} cantons ont un taux basé sur une seule décision identifiée à ce jour (Thurgovie 25%, Obwald 20%) : une indication, pas une pratique confirmée avec la même certitude. {nd} cantons (Zurich, Vaud, Glaris, Neuchâtel) laissent le taux à l'appréciation du juge, sans pourcentage fixe unique. {ne} cantons (Schaffhouse, Appenzell Rhodes-Extérieures) n'ont fourni aucune source exploitable malgré une recherche systématique en plusieurs passes.",
+   "digest_5_tpl": "Aucun chiffre de cette étude n'est estimé, et aucun taux n'est retenu comme confirmé sur la base d'une décision isolée : chaque taux \"confirmé\" cité repose sur au moins deux décisions indépendantes ou une directive officielle générale, soit {n}+ décisions ont été lues intégralement au total pour cette étude.",
+   "digest_contact": "Contact et étude complète disponible en annexe de ce document.",
+   "toc_title": "Sommaire",
+   "toc_entries_tpl": [
+    "Synthèse",
+    "Le cadre juridique fédéral",
+    "Méthodologie",
+    "Vue d'ensemble : les {n} taux confirmés",
+    "Les {n} cantons au taux confirmé, en détail",
+    "{ns_word} cantons à source unique (indication, non confirmée)",
+    "{nd_word} cantons à pratique discrétionnaire documentée",
+    "Cantons sans donnée exploitable",
+    "Étude de cas chiffrée : cinq profils de taux",
+    "Conclusion",
+    "Annexe : citations complètes et liens de vérification"
+   ],
+   "h_synth": "Synthèse",
+   "synth_p1": "Pour obtenir l'assistance judiciaire (la prise en charge des frais de justice et d'avocat pour les personnes qui n'ont pas les moyens de payer), un tribunal suisse doit d'abord établir si le requérant est « indigent » au sens de l'article 117 du Code de procédure civile. Ce calcul repose sur une notion commune à toute la Suisse, le « minimum vital » (Grundbetrag), mais chaque canton lui applique un supplément forfaitaire propre : un pourcentage qui augmente ce minimum pour tenir compte des besoins procéduraux du plaideur, ou, dans un cas, n'applique aucun supplément du tout.",
+   "synth_p2_tpl": "Cette étude a recherché et vérifié, décision de justice par décision de justice, le taux appliqué dans chacun des 26 cantons suisses, avec un critère de confirmation volontairement strict : un taux n'est retenu comme \"confirmé\" que s'il repose sur au moins deux décisions de justice indépendantes, ou sur une directive officielle générale (applicable à tous les cas, pas seulement à celui jugé). Plus de {n} décisions ont été lues intégralement au cours de cette recherche. Le résultat : sur les {nc} cantons remplissant ce critère, l'écart va de 0% (Tessin, qui n'applique explicitement aucune majoration) à 30% (Schwyz, Berne, Saint-Gall, Appenzell Rhodes-Intérieures), pour un seul et même concept juridique fédéral. {ns} cantons supplémentaires (Thurgovie, Obwald) n'ont qu'une seule décision identifiée à ce stade : ils sont documentés séparément, comme une indication et non comme un taux confirmé.",
+   "synth_p3": "Concrètement, pour une personne seule dont le minimum vital de base s'élève à CHF 1'200.- par mois (montant utilisé de façon récurrente dans les décisions consultées), le supplément à ajouter à ses charges reconnues varie ainsi :",
+   "synth_b1": "CHF 0.- au Tessin (0%, aucune majoration reconnue)",
+   "synth_b2": "CHF 180.- par mois à Bâle-Campagne ou à Bâle-Ville (15%)",
+   "synth_b3": "CHF 360.- par mois à Schwyz, dans le canton de Berne, à Saint-Gall ou en Appenzell Rhodes-Intérieures (30%)",
+   "synth_p4": "Un écart de CHF 360.- par mois, soit CHF 4'320.- par an, dans le seuil retenu pour juger qu'une personne peut ou non payer elle-même un avocat, uniquement selon son canton de résidence, à situation financière strictement identique.",
+   "synth_p5_tpl": "Cette étude documente également, séparément des taux confirmés, les {ns} cantons pour lesquels une seule décision a pu être trouvée malgré une recherche répétée (Thurgovie, Obwald), les {nd} cantons où la pratique reste ouvertement discrétionnaire ou insuffisamment établie par une jurisprudence répétée (Zurich, Vaud, Glaris, Neuchâtel), ainsi que les {ne} cantons pour lesquels aucune source exploitable n'a été trouvée malgré une recherche ciblée en plusieurs passes (Schaffhouse, Appenzell Rhodes-Extérieures).",
+   "h_cadre": "Le cadre juridique fédéral",
+   "cadre_p1": "L'article 117 du Code de procédure civile (CPC), en vigueur depuis 2011 dans toute la Suisse, pose un principe unique : toute personne qui ne dispose pas des ressources suffisantes a droit à l'assistance judiciaire, à condition que sa cause ne paraisse pas dépourvue de chances de succès. Ce principe découle lui-même de l'article 29, alinéa 3, de la Constitution fédérale, qui garantit un droit constitutionnel à l'assistance judiciaire gratuite.",
+   "cadre_p2": "Mais ni la Constitution ni le CPC ne fixent de méthode de calcul unique pour déterminer ce qu'est un revenu \"insuffisant\". Cette question a été laissée à la pratique judiciaire, et chaque tribunal cantonal (voire chaque juge) applique sa propre jurisprudence pour convertir le minimum vital de base, calculé selon des directives elles-mêmes harmonisées au niveau suisse (Conférence des préposés aux poursuites et faillites), en un seuil d'indigence pour l'assistance judiciaire. C'est ce supplément d'appréciation, et lui seul, qui varie de zéro à 30% selon le canton documenté dans cette étude.",
+   "cadre_p3": "Cette disparité n'est, en l'état de cette recherche, pas juridiquement établie comme une violation du principe d'égalité de traitement (article 8 de la Constitution) : le fédéralisme suisse tolère depuis toujours des différences de pratique cantonale dans l'application du droit fédéral, notamment en matière de procédure civile. Cette étude ne prend pas position sur ce point ; elle documente un fait jusqu'ici peu quantifié, pour que la question puisse être posée avec des chiffres vérifiés.",
+   "h_method": "Méthodologie",
+   "method_p1": "Principe directeur : aucune donnée n'est avancée sans une décision de justice ou une directive officielle lue intégralement et citée avec sa référence exacte (tribunal, numéro de dossier, date, considérant ou page). Aucune moyenne, estimation ou extrapolation n'est présentée comme un fait établi ; les taux non confirmés sont explicitement identifiés comme tels.",
+   "method_p2": "Critère de confirmation : une décision de justice isolée peut être un exemple ponctuel plutôt que la preuve d'une pratique cantonale constante. C'est pourquoi un taux n'est classé \"confirmé\" dans cette étude que s'il repose sur au moins deux décisions de justice indépendantes (dossiers différents, si possible à des dates différentes ou devant des instances différentes), ou sur une directive officielle générale du pouvoir judiciaire cantonal (circulaire, règlement, formulaire de calcul du greffe) applicable à tous les cas et non à un seul dossier. Les cantons pour lesquels une seule décision a pu être identifiée malgré une recherche répétée sont documentés séparément, comme une indication et non comme un fait établi.",
+   "method_p3_tpl": "Ampleur de la recherche : plus de {n} décisions ont été lues intégralement au cours de cette étude, avec un objectif d'environ dix décisions indépendantes par canton. Pour les cantons au corpus judiciaire limité (petits cantons, faible volume de décisions publiées en ligne), cet objectif n'a pas toujours pu être atteint malgré une recherche systématique élargie aux décisions de première instance, aux autres types de juridiction (administrative, pénale) et aux déclarations générales de pratique publiées par les autorités cantonales elles-mêmes ; la limite atteinte est alors documentée explicitement plutôt que comblée par une approximation.",
+   "method_p4": "Source des décisions : la base de données OpenCaseLaw (plus d'un million de décisions indexées, tribunaux fédéraux, cantonaux et autorités de régulation), interrogée canton par canton avec des requêtes en allemand, français et italien selon la langue officielle de chaque canton. Chaque décision retenue a été relue intégralement (texte complet, et non un simple résumé) avant d'être citée.",
+   "method_p5": "Contrôle croisé : chaque candidat retenu a fait l'objet d'une vérification indépendante, soit la confirmation que le passage cité soutient bien l'affirmation avancée et non un concept juridique voisin mais distinct. Plusieurs pistes ont ainsi été rencontrées puis écartées en cours de recherche car sans rapport avec le calcul de l'indigence pour l'assistance judiciaire : un tarif d'indemnisation d'avocat, une majoration fiscale, une majoration liée au retour à meilleure fortune après faillite, des frais de repas professionnels.",
+   "method_p6": "Transparence sur les divergences : lorsque la recherche a révélé une pratique cantonale évolutive ou contradictoire plutôt qu'un taux fixe unique (Genève, Thurgovie, Neuchâtel notamment), cette étude documente les deux lignées plutôt que de n'en retenir arbitrairement qu'une seule.",
+   "method_p7": "Vérifiabilité : chaque taux confirmé est accompagné, en annexe, d'un lien direct vers une sélection représentative des décisions sources, permettant à toute rédaction de vérifier elle-même la citation avant publication.",
+   "method_p8": "Limite assumée : cette étude ne prétend pas avoir couvert l'intégralité de la jurisprudence de chaque canton. Elle documente ce qui a pu être vérifié par une recherche systématique et rigoureuse, et signale explicitement les cantons pour lesquels aucune source exploitable n'a été identifiée plutôt que de laisser un vide silencieux.",
+   "h_chart_tpl": "Vue d'ensemble : les {n} taux confirmés",
+   "h_table_tpl": "Les {n} cantons au taux confirmé, en détail",
+   "table_intro": "Classés du taux le plus bas au plus élevé. La colonne \"Décisions\" indique le nombre total de décisions indépendantes identifiées et lues intégralement pour ce canton ; la citation affichée est la plus représentative, la liste complète figure en annexe avec liens de vérification.",
+   "col_canton": "Canton",
+   "col_rate": "Taux",
+   "col_decisions": "Décisions",
+   "col_source": "Source principale (voir annexe pour la liste complète)",
+   "h_single_tpl": "{n} cantons à source unique (indication, non confirmée)",
+   "single_intro": "Pour ces cantons, une seule décision a pu être identifiée malgré une recherche répétée avec des angles différents, y compris un élargissement aux décisions de première instance et aux autres types de juridiction. Une décision isolée peut être un exemple ponctuel plutôt que la preuve d'une pratique constante : ces taux sont donc présentés comme une indication, pas comme un fait confirmé au même niveau de certitude que les cantons de la section précédente.",
+   "h_disc_tpl": "{n} cantons à pratique discrétionnaire documentée",
+   "disc_intro": "Ces cantons n'appliquent pas de taux fixe unique : le pourcentage est laissé à l'appréciation du juge, ou la jurisprudence disponible est trop contradictoire pour dégager une règle ferme, dans une fourchette documentée par les décisions consultées.",
+   "disc_range_label": "fourchette observée",
+   "h_excl": "Cantons sans donnée exploitable",
+   "excl_intro": "Par souci de transparence, cette étude documente aussi ses limites : les cantons pour lesquels aucune décision exploitable n'a été trouvée malgré plusieurs passes de recherche successives.",
+   "h_case": "Étude de cas chiffrée : cinq profils de taux",
+   "case_intro": "Le tableau ci-dessous applique les cinq taux confirmés (au sens strict défini en méthodologie) à trois profils de ménage, en utilisant les montants de base du minimum vital tels qu'ils apparaissent de façon répétée dans les décisions consultées à travers plusieurs cantons (dérivés des directives de la Conférence des préposés aux poursuites et faillites de Suisse).",
+   "case_reading": "Lecture : pour un couple (minimum vital de base CHF 1'700.-), le supplément reconnu va de CHF 0.- (Tessin) à CHF 510.- (Schwyz, Berne, Saint-Gall, Appenzell Rhodes-Intérieures), soit un écart de CHF 510.- par mois, CHF 6'120.- par an, dans le calcul du seuil d'indigence, à situation financière strictement identique selon le seul canton de résidence.",
+   "case_concrete": "Concrètement : deux ménages ayant strictement le même revenu et les mêmes charges réelles peuvent recevoir une réponse différente à leur demande d'assistance judiciaire selon qu'ils vivent au Tessin ou dans le canton de Berne, le second ayant droit à un montant de charges reconnues nettement supérieur chaque mois dans le calcul de ses besoins, ce qui réduit d'autant son \"excédent\" apparent et facilite l'accès à l'assistance judiciaire.",
+   "profile_single": "Personne seule",
+   "profile_mono": "Famille monoparentale (1 enfant)",
+   "profile_couple": "Couple",
+   "h_conclusion": "Conclusion",
+   "conclusion_p1_tpl": "Le droit fédéral (article 117 CPC) pose un principe commun à toute la Suisse : nul ne doit être privé d'accès à la justice faute de moyens. Mais la mécanique concrète qui définit qui est « assez pauvre » pour en bénéficier reste, pour la part du calcul examinée dans cette étude, fragmentée entre 26 pratiques cantonales, dont {n} seulement ont pu être établies avec certitude à ce stade (au moins deux sources indépendantes chacune), avec un écart qui va de l'absence totale de majoration à un supplément de 30% entre les deux extrêmes confirmés.",
+   "conclusion_p2": "Cette étude ne prétend pas trancher si cette diversité est justifiée par des différences de coût de la vie cantonales, ou si elle constitue une inégalité de traitement problématique au regard du principe d'égalité devant la loi. Elle vise à documenter, sur la base de sources vérifiées et d'une recherche particulièrement approfondie, une réalité peu connue du grand public, et à fournir aux journalistes, chercheurs et praticiens du droit une base factuelle solide pour l'examiner plus avant.",
+   "h_annex": "Annexe : citations complètes et liens de vérification",
+   "annex_intro": "Sélection représentative des décisions et directives citées dans cette étude pour chaque canton (le nombre total de décisions identifiées est indiqué dans le tableau comparatif), avec la référence exacte, le passage retenu, et un lien direct vers la source pour vérification indépendante.",
+   "h_annex_single": "Cantons à source unique (indication non confirmée)",
+   "annex_single_intro": "Ces citations sont fournies pour transparence et vérification, mais ne remplissent pas le critère de confirmation à deux sources retenu pour le reste de cette étude (voir méthodologie).",
+   "verify_label": "Vérifier la source : ",
+   "single_source_tag": " (source unique)"
+  },
+  "de": {
+   "kicker": "VERGLEICHSSTUDIE · LEGATIS · FÜR DIE PRESSE BESTIMMTES DOKUMENT",
+   "title": "Der kantonale Preis der Armut",
+   "subtitle": "Von keinem Zuschlag bis zu 30%: Wie 26 Schweizer Kantone unterschiedlich berechnen, wer «arm genug» ist, um unentgeltliche Rechtspflege zu erhalten",
+   "cover_caption_tpl": "Studie ausschliesslich gestützt auf Gerichtsentscheide und offizielle Weisungen im Original ({n}+ vollständig gelesene Entscheide), einzeln überprüft, mit beigefügten überprüfbaren Quellen",
+   "cover_footer": "Legatis · Verzeichnis der Schweizer Anwältinnen und Anwälte · August 2026",
+   "digest_kicker": "DAS WICHTIGSTE IN 30 SEKUNDEN",
+   "digest_1": "Um einen vom Staat bezahlten Anwalt zu erhalten, muss ein Schweizer Gericht zunächst feststellen, dass jemand «arm genug» ist. Diese Berechnung wendet einen prozentualen Zuschlag auf das Existenzminimum an, und dieser Prozentsatz variiert je nach Kanton völlig unterschiedlich.",
+   "digest_2_tpl": "Von 26 Kantonen haben {n} einen durch mindestens zwei unabhängige Gerichtsentscheide (oder eine allgemeine offizielle Weisung) bestätigten Satz, der von 0% im Tessin (kein Zuschlag) bis 30% (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden) reicht.",
+   "digest_3": "Für eine allein lebende Person (Existenzminimum von CHF 1'200.-/Monat) reicht die Spanne von CHF 0.- (Tessin) bis CHF 360.- monatlich anerkannt, je nach Kanton, das heisst bis zu CHF 4'320.- pro Jahr.",
+   "digest_4_tpl": "{ns} Kantone stützen sich auf nur einen bislang identifizierten Entscheid (Thurgau 25%, Obwalden 20%): ein Hinweis, keine mit derselben Sicherheit bestätigte Praxis. {nd} Kantone (Zürich, Waadt, Glarus, Neuenburg) überlassen den Satz dem richterlichen Ermessen, ohne einen einheitlichen festen Prozentsatz. {ne} Kantone (Schaffhausen, Appenzell Ausserrhoden) lieferten trotz systematischer, mehrfacher Recherche keine verwertbare Quelle.",
+   "digest_5_tpl": "Keine Zahl dieser Studie ist geschätzt, und kein Satz gilt aufgrund eines Einzelentscheids als bestätigt: Jeder als «bestätigt» bezeichnete Satz stützt sich auf mindestens zwei unabhängige Entscheide oder eine allgemeine offizielle Weisung; für diese Studie wurden insgesamt über {n} Entscheide vollständig gelesen.",
+   "digest_contact": "Kontakt und vollständige Studie im Anhang dieses Dokuments verfügbar.",
+   "toc_title": "Inhaltsverzeichnis",
+   "toc_entries_tpl": [
+    "Zusammenfassung",
+    "Der bundesrechtliche Rahmen",
+    "Methodik",
+    "Übersicht: die {n} bestätigten Sätze",
+    "Die {n} Kantone mit bestätigtem Satz, im Detail",
+    "{ns_word} Kantone mit Einzelquelle (Hinweis, nicht bestätigt)",
+    "{nd_word} Kantone mit dokumentierter Ermessenspraxis",
+    "Kantone ohne verwertbare Daten",
+    "Berechnetes Fallbeispiel: fünf Satzprofile",
+    "Schlussfolgerung",
+    "Anhang: vollständige Zitate und Überprüfungslinks"
+   ],
+   "h_synth": "Zusammenfassung",
+   "synth_p1": "Um unentgeltliche Rechtspflege zu erhalten (die Übernahme der Gerichts- und Anwaltskosten für Personen ohne ausreichende Mittel), muss ein Schweizer Gericht zunächst feststellen, ob die gesuchstellende Person im Sinne von Artikel 117 der Zivilprozessordnung «bedürftig» ist. Diese Berechnung beruht auf einem gesamtschweizerisch einheitlichen Begriff, dem «Existenzminimum» (Grundbetrag), doch jeder Kanton wendet darauf einen eigenen pauschalen Zuschlag an: einen Prozentsatz, der dieses Minimum erhöht, um den prozessualen Bedürfnissen der Partei Rechnung zu tragen, oder, in einem Fall, gar keinen Zuschlag anwendet.",
+   "synth_p2_tpl": "Diese Studie hat den in jedem der 26 Schweizer Kantone angewandten Satz Entscheid für Entscheid recherchiert und überprüft, mit einem bewusst strengen Bestätigungskriterium: Ein Satz gilt nur dann als «bestätigt», wenn er auf mindestens zwei unabhängigen Gerichtsentscheiden oder auf einer allgemeinen offiziellen Weisung beruht (anwendbar auf alle Fälle, nicht nur auf den beurteilten). Im Verlauf dieser Recherche wurden über {n} Entscheide vollständig gelesen. Das Ergebnis: Bei den {nc} Kantonen, die dieses Kriterium erfüllen, reicht die Spanne von 0% (Tessin, das ausdrücklich keinen Zuschlag anwendet) bis 30% (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden), für ein und dasselbe bundesrechtliche Rechtskonzept. {ns} weitere Kantone (Thurgau, Obwalden) verfügen bislang nur über einen identifizierten Entscheid: Sie werden separat dokumentiert, als Hinweis und nicht als bestätigter Satz.",
+   "synth_p3": "Konkret variiert für eine allein lebende Person mit einem monatlichen Existenzminimum von CHF 1'200.- (ein in den konsultierten Entscheiden wiederkehrend verwendeter Betrag) der zu ihren anerkannten Auslagen hinzuzurechnende Zuschlag wie folgt:",
+   "synth_b1": "CHF 0.- im Tessin (0%, kein anerkannter Zuschlag)",
+   "synth_b2": "CHF 180.- pro Monat in Basel-Landschaft oder Basel-Stadt (15%)",
+   "synth_b3": "CHF 360.- pro Monat in Schwyz, im Kanton Bern, in St. Gallen oder in Appenzell Innerrhoden (30%)",
+   "synth_p4": "Ein Unterschied von CHF 360.- pro Monat, das heisst CHF 4'320.- pro Jahr, bei der Schwelle, die darüber entscheidet, ob eine Person einen Anwalt selbst bezahlen kann oder nicht, einzig abhängig vom Wohnkanton, bei sonst identischer finanzieller Situation.",
+   "synth_p5_tpl": "Diese Studie dokumentiert ausserdem, getrennt von den bestätigten Sätzen, die {ns} Kantone, für die trotz wiederholter Recherche nur ein Entscheid gefunden werden konnte (Thurgau, Obwalden), die {nd} Kantone, in denen die Praxis offen dem Ermessen überlassen bleibt oder durch wiederholte Rechtsprechung nicht ausreichend belegt ist (Zürich, Waadt, Glarus, Neuenburg), sowie die {ne} Kantone, für die trotz gezielter, mehrfacher Recherche keine verwertbare Quelle gefunden wurde (Schaffhausen, Appenzell Ausserrhoden).",
+   "h_cadre": "Der bundesrechtliche Rahmen",
+   "cadre_p1": "Artikel 117 der Zivilprozessordnung (ZPO), seit 2011 gesamtschweizerisch in Kraft, legt einen einheitlichen Grundsatz fest: Jede Person, die nicht über ausreichende Mittel verfügt, hat Anspruch auf unentgeltliche Rechtspflege, sofern ihre Sache nicht als aussichtslos erscheint. Dieser Grundsatz ergibt sich seinerseits aus Artikel 29 Absatz 3 der Bundesverfassung, der einen verfassungsmässigen Anspruch auf unentgeltliche Rechtspflege gewährleistet.",
+   "cadre_p2": "Doch weder die Verfassung noch die ZPO legen eine einheitliche Berechnungsmethode dafür fest, was als «unzureichendes» Einkommen gilt. Diese Frage wurde der gerichtlichen Praxis überlassen, und jedes kantonale Gericht (mitunter jeder Richter) wendet seine eigene Rechtsprechung an, um das gesamtschweizerisch nach einheitlichen Richtlinien berechnete Existenzminimum (Konferenz der Betreibungs- und Konkursbeamten) in eine Bedürftigkeitsschwelle für die unentgeltliche Rechtspflege umzurechnen. Es ist dieser Ermessenszuschlag, und nur er, der in dieser Studie je nach Kanton von null bis 30% variiert.",
+   "cadre_p3": "Diese Ungleichheit ist nach dem Stand dieser Recherche rechtlich nicht als Verstoss gegen den Grundsatz der Rechtsgleichheit (Artikel 8 der Bundesverfassung) erwiesen: Der schweizerische Föderalismus toleriert seit jeher unterschiedliche kantonale Praxen bei der Anwendung von Bundesrecht, namentlich im Zivilprozessrecht. Diese Studie nimmt hierzu keine Stellung; sie dokumentiert einen bislang wenig quantifizierten Sachverhalt, damit die Frage anhand überprüfter Zahlen gestellt werden kann.",
+   "h_method": "Methodik",
+   "method_p1": "Leitprinzip: Keine Angabe wird ohne einen vollständig gelesenen und mit exakter Referenz (Gericht, Aktenzeichen, Datum, Erwägung oder Seite) zitierten Gerichtsentscheid oder eine offizielle Weisung gemacht. Kein Durchschnitt, keine Schätzung und keine Hochrechnung wird als feststehende Tatsache dargestellt; nicht bestätigte Sätze werden ausdrücklich als solche gekennzeichnet.",
+   "method_p2": "Bestätigungskriterium: Ein einzelner Gerichtsentscheid kann ein punktuelles Beispiel statt ein Beweis für eine konstante kantonale Praxis sein. Deshalb gilt ein Satz in dieser Studie nur dann als «bestätigt», wenn er auf mindestens zwei unabhängigen Gerichtsentscheiden beruht (unterschiedliche Dossiers, nach Möglichkeit mit unterschiedlichem Datum oder vor unterschiedlichen Instanzen), oder auf einer allgemeinen offiziellen Weisung der kantonalen Justiz (Rundschreiben, Reglement, Berechnungsformular der Kanzlei), die auf alle Fälle und nicht nur auf ein einzelnes Dossier anwendbar ist. Kantone, für die trotz wiederholter Recherche nur ein Entscheid identifiziert werden konnte, werden separat dokumentiert, als Hinweis und nicht als feststehende Tatsache.",
+   "method_p3_tpl": "Umfang der Recherche: Im Verlauf dieser Studie wurden über {n} Entscheide vollständig gelesen, mit dem Ziel von rund zehn unabhängigen Entscheiden pro Kanton. Bei Kantonen mit begrenztem Rechtsprechungsbestand (kleine Kantone, geringes Volumen online publizierter Entscheide) konnte dieses Ziel trotz systematischer, auf erstinstanzliche Entscheide, andere Gerichtsbarkeiten (Verwaltung, Strafrecht) und von den kantonalen Behörden selbst veröffentlichte allgemeine Praxiserklärungen erweiterter Recherche nicht immer erreicht werden; die erreichte Grenze wird dann ausdrücklich dokumentiert, statt durch eine Annäherung überbrückt zu werden.",
+   "method_p4": "Quelle der Entscheide: die Datenbank OpenCaseLaw (über eine Million indexierte Entscheide von Bundes-, Kantons- und Aufsichtsbehörden), kantonsweise abgefragt mit Anfragen auf Deutsch, Französisch und Italienisch je nach Amtssprache des jeweiligen Kantons. Jeder berücksichtigte Entscheid wurde vor der Zitierung vollständig gelesen (vollständiger Text, keine blosse Zusammenfassung).",
+   "method_p5": "Gegenprüfung: Jeder berücksichtigte Kandidat wurde unabhängig überprüft, das heisst es wurde bestätigt, dass die zitierte Textstelle die vorgebrachte Aussage tatsächlich stützt und nicht ein verwandtes, aber eigenständiges Rechtskonzept betrifft. Mehrere Spuren wurden im Verlauf der Recherche gefunden und wieder verworfen, weil sie mit der Berechnung der Bedürftigkeit für die unentgeltliche Rechtspflege nichts zu tun hatten: ein Anwaltsentschädigungstarif, ein steuerlicher Zuschlag, ein Zuschlag im Zusammenhang mit dem Wiedererlangen von Vermögen nach einem Konkurs, berufliche Verpflegungskosten.",
+   "method_p6": "Transparenz bei Abweichungen: Wo die Recherche eine sich wandelnde oder widersprüchliche kantonale Praxis statt eines einheitlichen festen Satzes ergab (namentlich Genf, Thurgau, Neuenburg), dokumentiert diese Studie beide Linien, statt willkürlich nur eine davon zu berücksichtigen.",
+   "method_p7": "Überprüfbarkeit: Jeder bestätigte Satz wird im Anhang mit einem direkten Link zu einer repräsentativen Auswahl der Quellenentscheide versehen, damit jede Redaktion das Zitat vor der Veröffentlichung selbst überprüfen kann.",
+   "method_p8": "Anerkannte Grenze: Diese Studie erhebt nicht den Anspruch, die gesamte Rechtsprechung jedes Kantons erfasst zu haben. Sie dokumentiert, was durch eine systematische und rigorose Recherche überprüft werden konnte, und weist ausdrücklich auf Kantone hin, für die keine verwertbare Quelle identifiziert wurde, statt eine stille Lücke zu hinterlassen.",
+   "h_chart_tpl": "Übersicht: die {n} bestätigten Sätze",
+   "h_table_tpl": "Die {n} Kantone mit bestätigtem Satz, im Detail",
+   "table_intro": "Sortiert vom niedrigsten zum höchsten Satz. Die Spalte «Entscheide» gibt die Gesamtzahl der für diesen Kanton identifizierten und vollständig gelesenen unabhängigen Entscheide an; das angezeigte Zitat ist das repräsentativste, die vollständige Liste findet sich im Anhang mit Überprüfungslinks.",
+   "col_canton": "Kanton",
+   "col_rate": "Satz",
+   "col_decisions": "Entscheide",
+   "col_source": "Hauptquelle (vollständige Liste siehe Anhang)",
+   "h_single_tpl": "{n} Kantone mit Einzelquelle (Hinweis, nicht bestätigt)",
+   "single_intro": "Für diese Kantone konnte trotz wiederholter Recherche mit unterschiedlichen Ansätzen, einschliesslich einer Ausweitung auf erstinstanzliche Entscheide und andere Gerichtsbarkeiten, nur ein Entscheid identifiziert werden. Ein einzelner Entscheid kann ein punktuelles Beispiel statt ein Beweis für eine konstante Praxis sein: Diese Sätze werden daher als Hinweis dargestellt, nicht als mit demselben Grad an Sicherheit bestätigte Tatsache wie die Kantone des vorangegangenen Abschnitts.",
+   "h_disc_tpl": "{n} Kantone mit dokumentierter Ermessenspraxis",
+   "disc_intro": "Diese Kantone wenden keinen einheitlichen festen Satz an: Der Prozentsatz wird dem richterlichen Ermessen überlassen, oder die verfügbare Rechtsprechung ist zu widersprüchlich, um eine feste Regel abzuleiten, innerhalb einer durch die konsultierten Entscheide dokumentierten Bandbreite.",
+   "disc_range_label": "beobachtete Bandbreite",
+   "h_excl": "Kantone ohne verwertbare Daten",
+   "excl_intro": "Aus Transparenzgründen dokumentiert diese Studie auch ihre Grenzen: die Kantone, für die trotz mehrerer aufeinanderfolgender Rechercherunden kein verwertbarer Entscheid gefunden wurde.",
+   "h_case": "Berechnetes Fallbeispiel: fünf Satzprofile",
+   "case_intro": "Die nachstehende Tabelle wendet die fünf bestätigten Sätze (im strengen, in der Methodik definierten Sinn) auf drei Haushaltsprofile an, unter Verwendung der Grundbeträge des Existenzminimums, wie sie wiederholt in den kantonsübergreifend konsultierten Entscheiden erscheinen (abgeleitet aus den Richtlinien der Konferenz der Betreibungs- und Konkursbeamten der Schweiz).",
+   "case_reading": "Lesehilfe: Für ein Ehepaar (Existenzminimum von CHF 1'700.-) reicht der anerkannte Zuschlag von CHF 0.- (Tessin) bis CHF 510.- (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden), das heisst ein Unterschied von CHF 510.- pro Monat, CHF 6'120.- pro Jahr, bei der Berechnung der Bedürftigkeitsschwelle, bei sonst identischer finanzieller Situation, einzig abhängig vom Wohnkanton.",
+   "case_concrete": "Konkret: Zwei Haushalte mit exakt demselben Einkommen und denselben tatsächlichen Auslagen können auf ihr Gesuch um unentgeltliche Rechtspflege eine unterschiedliche Antwort erhalten, je nachdem, ob sie im Tessin oder im Kanton Bern leben; Letzterer hat Anspruch auf einen deutlich höheren monatlich anerkannten Auslagenbetrag bei der Bedarfsberechnung, was seinen scheinbaren «Überschuss» entsprechend verringert und den Zugang zur unentgeltlichen Rechtspflege erleichtert.",
+   "profile_single": "Allein lebende Person",
+   "profile_mono": "Alleinerziehende Familie (1 Kind)",
+   "profile_couple": "Ehepaar",
+   "h_conclusion": "Schlussfolgerung",
+   "conclusion_p1_tpl": "Das Bundesrecht (Artikel 117 ZPO) legt einen für die ganze Schweiz gemeinsamen Grundsatz fest: Niemand darf mangels Mitteln vom Zugang zur Justiz ausgeschlossen werden. Doch der konkrete Mechanismus, der bestimmt, wer «arm genug» ist, um davon zu profitieren, bleibt, jedenfalls für den in dieser Studie untersuchten Teil der Berechnung, zwischen 26 kantonalen Praxen fragmentiert, von denen bislang erst {n} mit Sicherheit ermittelt werden konnten (jeweils mindestens zwei unabhängige Quellen), mit einer Spanne, die von keinerlei Zuschlag bis zu einem Zuschlag von 30% zwischen den beiden bestätigten Extremen reicht.",
+   "conclusion_p2": "Diese Studie erhebt nicht den Anspruch zu entscheiden, ob diese Vielfalt durch kantonale Unterschiede bei den Lebenshaltungskosten gerechtfertigt ist oder eine im Hinblick auf den Grundsatz der Rechtsgleichheit problematische Ungleichbehandlung darstellt. Sie soll auf der Grundlage überprüfter Quellen und einer besonders eingehenden Recherche eine der breiten Öffentlichkeit wenig bekannte Realität dokumentieren und Journalistinnen und Journalisten, Forschenden sowie Rechtspraktikern eine solide Tatsachengrundlage für eine weitergehende Untersuchung liefern.",
+   "h_annex": "Anhang: vollständige Zitate und Überprüfungslinks",
+   "annex_intro": "Repräsentative Auswahl der in dieser Studie für jeden Kanton zitierten Entscheide und Weisungen (die Gesamtzahl der identifizierten Entscheide ist in der Vergleichstabelle angegeben), mit exakter Referenz, zitierter Textstelle und einem direkten Link zur Quelle zur unabhängigen Überprüfung.",
+   "h_annex_single": "Kantone mit Einzelquelle (nicht bestätigter Hinweis)",
+   "annex_single_intro": "Diese Zitate werden aus Gründen der Transparenz und Überprüfbarkeit bereitgestellt, erfüllen jedoch nicht das für den Rest dieser Studie geltende Zwei-Quellen-Bestätigungskriterium (siehe Methodik).",
+   "verify_label": "Quelle überprüfen: ",
+   "single_source_tag": " (Einzelquelle)"
+  },
+  "it": {
+   "kicker": "STUDIO COMPARATIVO · LEGATIS · DOCUMENTO DESTINATO ALLA STAMPA",
+   "title": "Il prezzo cantonale della povertà",
+   "subtitle": "Da nessuna maggiorazione al 30%: come 26 Cantoni svizzeri calcolano in modo diverso chi è \"abbastanza povero\" per ottenere il gratuito patrocinio",
+   "cover_caption_tpl": "Studio basato esclusivamente su decisioni giudiziarie e direttive ufficiali primarie ({n}+ decisioni lette integralmente), verificate singolarmente, con fonti verificabili allegate",
+   "cover_footer": "Legatis · elenco degli avvocati svizzeri · Agosto 2026",
+   "digest_kicker": "L'ESSENZIALE IN 30 SECONDI",
+   "digest_1": "Per ottenere un avvocato pagato dallo Stato, un tribunale svizzero deve prima stabilire che una persona è \"abbastanza povera\". Questo calcolo applica un supplemento percentuale al minimo vitale di base, e questa percentuale varia radicalmente da un Cantone all'altro.",
+   "digest_2_tpl": "Su 26 Cantoni, {n} hanno un tasso confermato da almeno due decisioni giudiziarie indipendenti (o una direttiva ufficiale generale), che vanno dallo 0% in Ticino (nessuna maggiorazione) al 30% (Svitto, Berna, San Gallo, Appenzello Interno).",
+   "digest_3": "Per una persona sola (minimo vitale di base CHF 1'200.-/mese), lo scarto va da CHF 0.- (Ticino) a CHF 360.- riconosciuti ogni mese a seconda del Cantone, ovvero fino a CHF 4'320.- all'anno.",
+   "digest_4_tpl": "{ns} Cantoni hanno un tasso basato su una sola decisione individuata finora (Turgovia 25%, Obvaldo 20%): un'indicazione, non una prassi confermata con la stessa certezza. {nd} Cantoni (Zurigo, Vaud, Glarona, Neuchâtel) lasciano il tasso all'apprezzamento del giudice, senza una percentuale fissa unica. {ne} Cantoni (Sciaffusa, Appenzello Esterno) non hanno fornito alcuna fonte utilizzabile nonostante una ricerca sistematica in più fasi.",
+   "digest_5_tpl": "Nessuna cifra di questo studio è stimata, e nessun tasso è considerato confermato sulla base di una decisione isolata: ogni tasso \"confermato\" citato si basa su almeno due decisioni indipendenti o una direttiva ufficiale generale; oltre {n} decisioni sono state lette integralmente in totale per questo studio.",
+   "digest_contact": "Contatto e studio completo disponibili in allegato a questo documento.",
+   "toc_title": "Sommario",
+   "toc_entries_tpl": [
+    "Sintesi",
+    "Il quadro giuridico federale",
+    "Metodologia",
+    "Panoramica: i {n} tassi confermati",
+    "I {n} Cantoni con tasso confermato, nel dettaglio",
+    "{ns_word} Cantoni a fonte unica (indicazione, non confermata)",
+    "{nd_word} Cantoni a prassi discrezionale documentata",
+    "Cantoni senza dati utilizzabili",
+    "Caso di studio numerico: cinque profili di tasso",
+    "Conclusione",
+    "Allegato: citazioni complete e link di verifica"
+   ],
+   "h_synth": "Sintesi",
+   "synth_p1": "Per ottenere il gratuito patrocinio (l'assunzione delle spese giudiziarie e legali per le persone prive di mezzi sufficienti), un tribunale svizzero deve prima stabilire se il richiedente è \"indigente\" ai sensi dell'articolo 117 del Codice di procedura civile. Questo calcolo si basa su una nozione comune a tutta la Svizzera, il \"minimo vitale\" (Grundbetrag), ma ogni Cantone vi applica un proprio supplemento forfettario: una percentuale che aumenta questo minimo per tener conto delle esigenze processuali della parte, oppure, in un caso, non applica alcun supplemento.",
+   "synth_p2_tpl": "Questo studio ha ricercato e verificato, decisione per decisione, il tasso applicato in ciascuno dei 26 Cantoni svizzeri, con un criterio di conferma volutamente rigoroso: un tasso è considerato \"confermato\" solo se si basa su almeno due decisioni giudiziarie indipendenti, oppure su una direttiva ufficiale generale (applicabile a tutti i casi, non solo a quello giudicato). Oltre {n} decisioni sono state lette integralmente nel corso di questa ricerca. Il risultato: sui {nc} Cantoni che soddisfano questo criterio, lo scarto va dallo 0% (Ticino, che non applica esplicitamente alcuna maggiorazione) al 30% (Svitto, Berna, San Gallo, Appenzello Interno), per un solo e medesimo concetto giuridico federale. {ns} Cantoni supplementari (Turgovia, Obvaldo) dispongono finora di una sola decisione individuata: sono documentati separatamente, come indicazione e non come tasso confermato.",
+   "synth_p3": "Concretamente, per una persona sola il cui minimo vitale di base ammonta a CHF 1'200.- al mese (importo utilizzato in modo ricorrente nelle decisioni consultate), il supplemento da aggiungere alle sue spese riconosciute varia come segue:",
+   "synth_b1": "CHF 0.- in Ticino (0%, nessuna maggiorazione riconosciuta)",
+   "synth_b2": "CHF 180.- al mese a Basilea Campagna o Basilea Città (15%)",
+   "synth_b3": "CHF 360.- al mese a Svitto, nel Cantone di Berna, a San Gallo o in Appenzello Interno (30%)",
+   "synth_p4": "Uno scarto di CHF 360.- al mese, ossia CHF 4'320.- all'anno, nella soglia utilizzata per giudicare se una persona possa o meno pagare da sé un avvocato, unicamente in base al proprio Cantone di residenza, a parità di situazione finanziaria.",
+   "synth_p5_tpl": "Questo studio documenta inoltre, separatamente dai tassi confermati, i {ns} Cantoni per i quali è stata trovata una sola decisione nonostante una ricerca ripetuta (Turgovia, Obvaldo), i {nd} Cantoni in cui la prassi resta apertamente discrezionale o non sufficientemente stabilita da una giurisprudenza ripetuta (Zurigo, Vaud, Glarona, Neuchâtel), nonché i {ne} Cantoni per i quali non è stata trovata alcuna fonte utilizzabile nonostante una ricerca mirata in più fasi (Sciaffusa, Appenzello Esterno).",
+   "h_cadre": "Il quadro giuridico federale",
+   "cadre_p1": "L'articolo 117 del Codice di procedura civile (CPC), in vigore dal 2011 in tutta la Svizzera, pone un principio unico: chiunque non disponga di risorse sufficienti ha diritto al gratuito patrocinio, a condizione che la sua causa non appaia priva di probabilità di successo. Questo principio discende a sua volta dall'articolo 29 capoverso 3 della Costituzione federale, che garantisce un diritto costituzionale al gratuito patrocinio.",
+   "cadre_p2": "Ma né la Costituzione né il CPC fissano un metodo di calcolo unico per determinare cosa sia un reddito \"insufficiente\". Questa questione è stata lasciata alla prassi giudiziaria, e ogni tribunale cantonale (talvolta ogni giudice) applica una propria giurisprudenza per convertire il minimo vitale di base, calcolato secondo direttive esse stesse armonizzate a livello svizzero (Conferenza dei preposti agli uffici di esecuzione e fallimenti), in una soglia di indigenza per il gratuito patrocinio. È questo supplemento discrezionale, e soltanto esso, che varia da zero al 30% a seconda del Cantone documentato in questo studio.",
+   "cadre_p3": "Allo stato attuale di questa ricerca, tale disparità non è giuridicamente accertata come una violazione del principio di parità di trattamento (articolo 8 della Costituzione): il federalismo svizzero tollera da sempre differenze di prassi cantonale nell'applicazione del diritto federale, in particolare in materia di procedura civile. Questo studio non prende posizione su questo punto; documenta un fatto finora poco quantificato, affinché la questione possa essere posta con cifre verificate.",
+   "h_method": "Metodologia",
+   "method_p1": "Principio guida: nessun dato viene avanzato senza una decisione giudiziaria o una direttiva ufficiale letta integralmente e citata con il suo riferimento esatto (tribunale, numero di incarto, data, considerando o pagina). Nessuna media, stima o estrapolazione è presentata come un fatto accertato; i tassi non confermati sono esplicitamente identificati come tali.",
+   "method_p2": "Criterio di conferma: una decisione giudiziaria isolata può essere un esempio puntuale piuttosto che la prova di una prassi cantonale costante. Per questo motivo un tasso è classificato come \"confermato\" in questo studio solo se si basa su almeno due decisioni giudiziarie indipendenti (incarti diversi, se possibile con date diverse o dinanzi a istanze diverse), oppure su una direttiva ufficiale generale del potere giudiziario cantonale (circolare, regolamento, modulo di calcolo della cancelleria) applicabile a tutti i casi e non a un singolo incarto. I Cantoni per i quali è stata individuata una sola decisione nonostante una ricerca ripetuta sono documentati separatamente, come indicazione e non come fatto accertato.",
+   "method_p3_tpl": "Ampiezza della ricerca: oltre {n} decisioni sono state lette integralmente nel corso di questo studio, con un obiettivo di circa dieci decisioni indipendenti per Cantone. Per i Cantoni con un corpus giurisprudenziale limitato (piccoli Cantoni, basso volume di decisioni pubblicate online), questo obiettivo non ha sempre potuto essere raggiunto nonostante una ricerca sistematica estesa alle decisioni di primo grado, ad altri tipi di giurisdizione (amministrativa, penale) e alle dichiarazioni generali di prassi pubblicate dalle stesse autorità cantonali; il limite raggiunto viene allora documentato esplicitamente piuttosto che colmato con un'approssimazione.",
+   "method_p4": "Fonte delle decisioni: la banca dati OpenCaseLaw (oltre un milione di decisioni indicizzate, tribunali federali, cantonali e autorità di vigilanza), interrogata Cantone per Cantone con richieste in tedesco, francese e italiano a seconda della lingua ufficiale di ciascun Cantone. Ogni decisione presa in considerazione è stata riletta integralmente (testo completo, non un semplice riassunto) prima di essere citata.",
+   "method_p5": "Controllo incrociato: ogni candidato individuato è stato oggetto di una verifica indipendente, ossia la conferma che il passaggio citato sostenga effettivamente l'affermazione avanzata e non un concetto giuridico affine ma distinto. Diverse piste sono state così incontrate e poi scartate nel corso della ricerca perché estranee al calcolo dell'indigenza per il gratuito patrocinio: una tariffa di indennizzo per avvocati, una maggiorazione fiscale, una maggiorazione legata al ritorno a miglior fortuna dopo un fallimento, spese di pasto professionali.",
+   "method_p6": "Trasparenza sulle divergenze: laddove la ricerca ha rivelato una prassi cantonale evolutiva o contraddittoria piuttosto che un tasso fisso unico (in particolare Ginevra, Turgovia, Neuchâtel), questo studio documenta entrambi i filoni piuttosto che considerarne arbitrariamente uno solo.",
+   "method_p7": "Verificabilità: ogni tasso confermato è accompagnato, in allegato, da un link diretto a una selezione rappresentativa delle decisioni fonte, che consente a qualsiasi redazione di verificare autonomamente la citazione prima della pubblicazione.",
+   "method_p8": "Limite riconosciuto: questo studio non pretende di aver coperto l'intera giurisprudenza di ciascun Cantone. Documenta ciò che ha potuto essere verificato tramite una ricerca sistematica e rigorosa, e segnala esplicitamente i Cantoni per i quali non è stata individuata alcuna fonte utilizzabile, anziché lasciare un vuoto silenzioso.",
+   "h_chart_tpl": "Panoramica: i {n} tassi confermati",
+   "h_table_tpl": "I {n} Cantoni con tasso confermato, nel dettaglio",
+   "table_intro": "Classificati dal tasso più basso al più alto. La colonna \"Decisioni\" indica il numero totale di decisioni indipendenti individuate e lette integralmente per questo Cantone; la citazione mostrata è la più rappresentativa, l'elenco completo figura in allegato con link di verifica.",
+   "col_canton": "Cantone",
+   "col_rate": "Tasso",
+   "col_decisions": "Decisioni",
+   "col_source": "Fonte principale (vedi allegato per l'elenco completo)",
+   "h_single_tpl": "{n} Cantoni a fonte unica (indicazione, non confermata)",
+   "single_intro": "Per questi Cantoni è stata individuata una sola decisione nonostante una ricerca ripetuta con angolazioni diverse, incluso un ampliamento alle decisioni di primo grado e ad altri tipi di giurisdizione. Una decisione isolata può essere un esempio puntuale piuttosto che la prova di una prassi costante: questi tassi sono quindi presentati come un'indicazione, non come un fatto confermato allo stesso livello di certezza dei Cantoni della sezione precedente.",
+   "h_disc_tpl": "{n} Cantoni a prassi discrezionale documentata",
+   "disc_intro": "Questi Cantoni non applicano un tasso fisso unico: la percentuale è lasciata all'apprezzamento del giudice, oppure la giurisprudenza disponibile è troppo contraddittoria per individuare una regola ferma, entro una forcella documentata dalle decisioni consultate.",
+   "disc_range_label": "forcella osservata",
+   "h_excl": "Cantoni senza dati utilizzabili",
+   "excl_intro": "Per trasparenza, questo studio documenta anche i propri limiti: i Cantoni per i quali non è stata trovata alcuna decisione utilizzabile nonostante più passaggi di ricerca successivi.",
+   "h_case": "Caso di studio numerico: cinque profili di tasso",
+   "case_intro": "La tabella seguente applica i cinque tassi confermati (nel senso rigoroso definito nella metodologia) a tre profili familiari, utilizzando gli importi di base del minimo vitale così come compaiono ripetutamente nelle decisioni consultate in diversi Cantoni (derivati dalle direttive della Conferenza dei preposti agli uffici di esecuzione e fallimenti della Svizzera).",
+   "case_reading": "Lettura: per una coppia (minimo vitale di base CHF 1'700.-), il supplemento riconosciuto va da CHF 0.- (Ticino) a CHF 510.- (Svitto, Berna, San Gallo, Appenzello Interno), ossia uno scarto di CHF 510.- al mese, CHF 6'120.- all'anno, nel calcolo della soglia di indigenza, a parità di situazione finanziaria e in base al solo Cantone di residenza.",
+   "case_concrete": "Concretamente: due nuclei familiari con esattamente lo stesso reddito e le stesse spese effettive possono ricevere una risposta diversa alla loro domanda di gratuito patrocinio a seconda che vivano in Ticino o nel Cantone di Berna, quest'ultimo avendo diritto a un importo di spese riconosciute nettamente superiore ogni mese nel calcolo dei suoi bisogni, il che riduce di conseguenza la sua \"eccedenza\" apparente e facilita l'accesso al gratuito patrocinio.",
+   "profile_single": "Persona sola",
+   "profile_mono": "Famiglia monoparentale (1 figlio)",
+   "profile_couple": "Coppia",
+   "h_conclusion": "Conclusione",
+   "conclusion_p1_tpl": "Il diritto federale (articolo 117 CPC) pone un principio comune a tutta la Svizzera: nessuno deve essere privato dell'accesso alla giustizia per mancanza di mezzi. Ma il meccanismo concreto che definisce chi è \"abbastanza povero\" per beneficiarne resta, per la parte del calcolo esaminata in questo studio, frammentato tra 26 prassi cantonali, di cui solo {n} hanno potuto essere accertate con certezza a questo stadio (almeno due fonti indipendenti ciascuna), con uno scarto che va dall'assenza totale di maggiorazione a un supplemento del 30% tra i due estremi confermati.",
+   "conclusion_p2": "Questo studio non pretende di stabilire se questa diversità sia giustificata da differenze nel costo della vita cantonale, o se costituisca una disparità di trattamento problematica rispetto al principio di uguaglianza davanti alla legge. Si propone di documentare, sulla base di fonti verificate e di una ricerca particolarmente approfondita, una realtà poco conosciuta dal grande pubblico, e di fornire a giornalisti, ricercatori e professionisti del diritto una solida base fattuale per approfondirla ulteriormente.",
+   "h_annex": "Allegato: citazioni complete e link di verifica",
+   "annex_intro": "Selezione rappresentativa delle decisioni e direttive citate in questo studio per ciascun Cantone (il numero totale di decisioni individuate è indicato nella tabella comparativa), con riferimento esatto, passaggio citato e link diretto alla fonte per la verifica indipendente.",
+   "h_annex_single": "Cantoni a fonte unica (indicazione non confermata)",
+   "annex_single_intro": "Queste citazioni sono fornite per trasparenza e verificabilità, ma non soddisfano il criterio di conferma a due fonti adottato per il resto di questo studio (vedi metodologia).",
+   "verify_label": "Verificare la fonte: ",
+   "single_source_tag": " (fonte unica)"
+  },
+  "en": {
+   "kicker": "COMPARATIVE STUDY · LEGATIS · DOCUMENT INTENDED FOR THE PRESS",
+   "title": "The Cantonal Price of Poverty",
+   "subtitle": "From no surcharge to 30%: how 26 Swiss cantons calculate differently who is \"poor enough\" to receive legal aid",
+   "cover_caption_tpl": "Study based exclusively on primary court decisions and official directives ({n}+ decisions read in full), individually verified, with verifiable sources attached",
+   "cover_footer": "Legatis · directory of Swiss lawyers · August 2026",
+   "digest_kicker": "THE ESSENTIALS IN 30 SECONDS",
+   "digest_1": "To obtain a state-funded lawyer, a Swiss court must first determine that someone is \"poor enough\". This calculation applies a percentage surcharge to the basic minimum subsistence level, and this percentage varies enormously from canton to canton.",
+   "digest_2_tpl": "Of the 26 cantons, {n} have a rate confirmed by at least two independent court decisions (or a general official directive), ranging from 0% in Ticino (no surcharge) to 30% (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden).",
+   "digest_3": "For a single person (basic subsistence minimum of CHF 1,200/month), the gap runs from CHF 0 (Ticino) to CHF 360 recognized each month depending on the canton, i.e. up to CHF 4,320 per year.",
+   "digest_4_tpl": "{ns} cantons have a rate based on only one decision identified so far (Thurgau 25%, Obwalden 20%): an indication, not a practice confirmed with the same certainty. {nd} cantons (Zurich, Vaud, Glarus, Neuchâtel) leave the rate to the judge's discretion, with no single fixed percentage. {ne} cantons (Schaffhausen, Appenzell Ausserrhoden) provided no usable source despite systematic, multi-pass research.",
+   "digest_5_tpl": "No figure in this study is an estimate, and no rate is treated as confirmed on the basis of an isolated decision: every \"confirmed\" rate cited rests on at least two independent decisions or a general official directive; over {n} decisions were read in full for this study.",
+   "digest_contact": "Contact details and the full study are available in the annex to this document.",
+   "toc_title": "Table of Contents",
+   "toc_entries_tpl": [
+    "Summary",
+    "The federal legal framework",
+    "Methodology",
+    "Overview: the {n} confirmed rates",
+    "The {n} cantons with a confirmed rate, in detail",
+    "{ns_word} cantons with a single source (indication, not confirmed)",
+    "{nd_word} cantons with documented discretionary practice",
+    "Cantons with no usable data",
+    "Numerical case study: five rate profiles",
+    "Conclusion",
+    "Annex: full citations and verification links"
+   ],
+   "h_synth": "Summary",
+   "synth_p1": "To obtain legal aid (the assumption of court and lawyer's fees for people without sufficient means), a Swiss court must first determine whether the applicant is \"indigent\" within the meaning of Article 117 of the Civil Procedure Code. This calculation rests on a concept common to the whole of Switzerland, the \"basic subsistence minimum\" (Grundbetrag), but each canton applies its own flat-rate surcharge to it: a percentage that increases this minimum to account for the litigant's procedural needs, or, in one case, applies no surcharge at all.",
+   "synth_p2_tpl": "This study researched and verified, decision by decision, the rate applied in each of the 26 Swiss cantons, using a deliberately strict confirmation criterion: a rate is treated as \"confirmed\" only if it rests on at least two independent court decisions, or on a general official directive (applicable to all cases, not just the one judged). Over {n} decisions were read in full over the course of this research. The result: among the {nc} cantons meeting this criterion, the range runs from 0% (Ticino, which explicitly applies no surcharge) to 30% (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden), for one and the same federal legal concept. {ns} further cantons (Thurgau, Obwalden) have only one decision identified so far: they are documented separately, as an indication rather than a confirmed rate.",
+   "synth_p3": "Concretely, for a single person whose basic subsistence minimum stands at CHF 1,200 per month (a figure used recurrently in the decisions reviewed), the surcharge added to their recognized expenses varies as follows:",
+   "synth_b1": "CHF 0 in Ticino (0%, no surcharge recognized)",
+   "synth_b2": "CHF 180 per month in Basel-Landschaft or Basel-Stadt (15%)",
+   "synth_b3": "CHF 360 per month in Schwyz, the canton of Bern, St. Gallen, or Appenzell Innerrhoden (30%)",
+   "synth_p4": "A gap of CHF 360 per month, or CHF 4,320 per year, in the threshold used to determine whether a person can pay for a lawyer themselves, based solely on their canton of residence, with an otherwise strictly identical financial situation.",
+   "synth_p5_tpl": "This study also documents, separately from the confirmed rates, the {ns} cantons for which only one decision could be found despite repeated research (Thurgau, Obwalden), the {nd} cantons where practice remains openly discretionary or is not sufficiently established by repeated case law (Zurich, Vaud, Glarus, Neuchâtel), as well as the {ne} cantons for which no usable source was found despite targeted, multi-pass research (Schaffhausen, Appenzell Ausserrhoden).",
+   "h_cadre": "The federal legal framework",
+   "cadre_p1": "Article 117 of the Civil Procedure Code (CPC), in force throughout Switzerland since 2011, sets out a single principle: anyone who lacks sufficient resources is entitled to legal aid, provided their case does not appear devoid of any chance of success. This principle itself derives from Article 29, paragraph 3, of the Federal Constitution, which guarantees a constitutional right to free legal aid.",
+   "cadre_p2": "But neither the Constitution nor the CPC sets out a single calculation method for determining what counts as \"insufficient\" income. This question has been left to judicial practice, and each cantonal court (sometimes each judge) applies its own case law to convert the basic subsistence minimum, calculated according to guidelines that are themselves harmonized at the Swiss level (Conference of Debt Enforcement and Bankruptcy Officials), into an indigence threshold for legal aid. It is this discretionary surcharge, and this alone, that varies from zero to 30% depending on the canton documented in this study.",
+   "cadre_p3": "As things currently stand in this research, this disparity has not been legally established as a violation of the principle of equal treatment (Article 8 of the Constitution): Swiss federalism has always tolerated differences in cantonal practice in the application of federal law, particularly in civil procedure. This study takes no position on this point; it documents a fact that has so far been little quantified, so that the question can be raised on the basis of verified figures.",
+   "h_method": "Methodology",
+   "method_p1": "Guiding principle: no data is put forward without a court decision or official directive read in full and cited with its exact reference (court, case number, date, ground, or page). No average, estimate, or extrapolation is presented as an established fact; unconfirmed rates are explicitly identified as such.",
+   "method_p2": "Confirmation criterion: a single court decision may be a one-off example rather than proof of a settled cantonal practice. This is why a rate is classified as \"confirmed\" in this study only if it rests on at least two independent court decisions (different case files, if possible with different dates or before different courts), or on a general official directive of the cantonal judiciary (circular, regulation, registry calculation form) applicable to all cases and not just a single file. Cantons for which only one decision could be identified despite repeated research are documented separately, as an indication rather than an established fact.",
+   "method_p3_tpl": "Scope of the research: over {n} decisions were read in full over the course of this study, with a target of around ten independent decisions per canton. For cantons with a limited body of case law (small cantons, low volume of decisions published online), this target could not always be reached despite systematic research extended to first-instance decisions, other types of jurisdiction (administrative, criminal), and general statements of practice published by the cantonal authorities themselves; the limit reached is then explicitly documented rather than papered over with an approximation.",
+   "method_p4": "Source of the decisions: the OpenCaseLaw database (over one million indexed decisions from federal, cantonal, and regulatory authorities), queried canton by canton with searches in German, French, and Italian depending on each canton's official language. Every decision retained was read in full (complete text, not a mere summary) before being cited.",
+   "method_p5": "Cross-checking: every candidate retained underwent independent verification, confirming that the cited passage genuinely supports the claim advanced rather than a related but distinct legal concept. Several leads were encountered and then discarded during the research because they had nothing to do with calculating indigence for legal aid: a lawyer compensation tariff, a tax surcharge, a surcharge linked to a return to better fortune after bankruptcy, professional meal expenses.",
+   "method_p6": "Transparency on divergences: where the research revealed an evolving or contradictory cantonal practice rather than a single fixed rate (notably Geneva, Thurgau, Neuchâtel), this study documents both lines rather than arbitrarily selecting only one.",
+   "method_p7": "Verifiability: every confirmed rate is accompanied, in the annex, by a direct link to a representative selection of the source decisions, allowing any newsroom to verify the citation itself before publication.",
+   "method_p8": "Acknowledged limitation: this study does not claim to have covered the entirety of each canton's case law. It documents what could be verified through systematic and rigorous research, and explicitly flags cantons for which no usable source was identified rather than leaving a silent gap.",
+   "h_chart_tpl": "Overview: the {n} confirmed rates",
+   "h_table_tpl": "The {n} cantons with a confirmed rate, in detail",
+   "table_intro": "Ranked from lowest to highest rate. The \"Decisions\" column indicates the total number of independent decisions identified and read in full for that canton; the citation shown is the most representative one, with the full list available in the annex along with verification links.",
+   "col_canton": "Canton",
+   "col_rate": "Rate",
+   "col_decisions": "Decisions",
+   "col_source": "Main source (see annex for full list)",
+   "h_single_tpl": "{n} cantons with a single source (indication, not confirmed)",
+   "single_intro": "For these cantons, only one decision could be identified despite repeated research from different angles, including broadening the search to first-instance decisions and other types of jurisdiction. A single decision may be a one-off example rather than proof of a settled practice: these rates are therefore presented as an indication, not as a fact confirmed to the same degree of certainty as the cantons in the previous section.",
+   "h_disc_tpl": "{n} cantons with documented discretionary practice",
+   "disc_intro": "These cantons do not apply a single fixed rate: the percentage is left to the judge's discretion, or the available case law is too contradictory to establish a firm rule, within a range documented by the decisions reviewed.",
+   "disc_range_label": "observed range",
+   "h_excl": "Cantons with no usable data",
+   "excl_intro": "For the sake of transparency, this study also documents its own limitations: the cantons for which no usable decision was found despite several successive rounds of research.",
+   "h_case": "Numerical case study: five rate profiles",
+   "case_intro": "The table below applies the five confirmed rates (in the strict sense defined in the methodology) to three household profiles, using the basic subsistence-minimum amounts as they repeatedly appear in the decisions reviewed across several cantons (derived from the guidelines of the Swiss Conference of Debt Enforcement and Bankruptcy Officials).",
+   "case_reading": "Reading example: for a couple (basic subsistence minimum of CHF 1,700), the recognized surcharge ranges from CHF 0 (Ticino) to CHF 510 (Schwyz, Bern, St. Gallen, Appenzell Innerrhoden), a gap of CHF 510 per month, CHF 6,120 per year, in calculating the indigence threshold, with an otherwise strictly identical financial situation, based solely on canton of residence.",
+   "case_concrete": "In concrete terms: two households with exactly the same income and the same actual expenses may receive a different response to their legal aid application depending on whether they live in Ticino or in the canton of Bern, with the latter entitled to a markedly higher amount of recognized expenses each month when calculating their needs, which correspondingly reduces their apparent \"surplus\" and makes access to legal aid easier.",
+   "profile_single": "Single person",
+   "profile_mono": "Single-parent family (1 child)",
+   "profile_couple": "Couple",
+   "h_conclusion": "Conclusion",
+   "conclusion_p1_tpl": "Federal law (Article 117 CPC) sets out a principle common to the whole of Switzerland: no one should be denied access to justice for lack of means. Yet the concrete mechanism that defines who is \"poor enough\" to benefit from it remains, for the portion of the calculation examined in this study, fragmented across 26 cantonal practices, of which only {n} could be established with certainty at this stage (each with at least two independent sources), with a range running from no surcharge at all to a 30% surcharge between the two confirmed extremes.",
+   "conclusion_p2": "This study does not claim to settle whether this diversity is justified by differences in cantonal cost of living, or whether it constitutes a problematic inequality of treatment with regard to the principle of equality before the law. It aims to document, on the basis of verified sources and particularly thorough research, a reality little known to the general public, and to provide journalists, researchers, and legal practitioners with a solid factual basis for examining it further.",
+   "h_annex": "Annex: full citations and verification links",
+   "annex_intro": "A representative selection of the decisions and directives cited in this study for each canton (the total number of decisions identified is indicated in the comparative table), with the exact reference, the passage cited, and a direct link to the source for independent verification.",
+   "h_annex_single": "Cantons with a single source (unconfirmed indication)",
+   "annex_single_intro": "These citations are provided for transparency and verifiability, but do not meet the two-source confirmation criterion applied to the rest of this study (see methodology).",
+   "verify_label": "Verify the source: ",
+   "single_source_tag": " (single source)"
+  }
+ },
+ "notes": {
+  "TI": {
+   "note": {
+    "fr": "Seul canton suisse où la jurisprudence affirme explicitement l'absence de toute majoration du minimum vital pour l'assistance judiciaire, confirmée par la table officielle du minimo di esistenza du pouvoir judiciaire tessinois qui ne prévoit aucun supplément forfaitaire, contrairement aux autres cantons.",
+    "de": "Einziger Schweizer Kanton, in dem die Rechtsprechung ausdrücklich bestätigt, dass auf das Existenzminimum bei der unentgeltlichen Rechtspflege keinerlei Zuschlag erhoben wird, was durch die offizielle Tabelle des Tessiner Gerichtswesens zum minimo di esistenza bestätigt wird, die im Gegensatz zu den übrigen Kantonen keinen pauschalen Zuschlag vorsieht.",
+    "it": "Unico Cantone svizzero in cui la giurisprudenza afferma esplicitamente l'assenza di qualsiasi maggiorazione del minimo vitale per il gratuito patrocinio, confermata dalla tabella ufficiale del minimo di esistenza del potere giudiziario ticinese, che non prevede alcun supplemento forfettario, a differenza degli altri Cantoni.",
+    "en": "The only Swiss canton where case law explicitly confirms that no surcharge whatsoever is applied to the basic minimum for legal aid purposes, confirmed by the official minimo di esistenza table used by the Ticino judiciary, which provides for no flat-rate surcharge, unlike every other canton."
+   }
+  },
+  "BL": {
+   "note": {
+    "fr": "14 décisions indépendantes identifiées au total (2012-2021), le corpus le plus riche de l'étude avec Bâle-Ville. Nuance signalée : une lignée distincte 2013-2015 appliquait 25-50% mais uniquement pour le calcul du remboursement de l'AJ après coup (pas l'octroi initial), lignée abandonnée depuis 2021.",
+    "de": "Insgesamt 14 unabhängige Entscheide identifiziert (2012-2021), zusammen mit Basel-Stadt der umfangreichste Bestand dieser Studie. Wichtige Präzisierung: Eine eigenständige Rechtsprechungslinie von 2013-2015 wandte 25-50% an, allerdings nur bei der nachträglichen Rückforderungsberechnung (nicht bei der ursprünglichen Bewilligung); diese Linie wurde seit 2021 aufgegeben.",
+    "it": "In totale 14 decisioni indipendenti individuate (2012-2021), il corpus più ricco dello studio insieme a Basilea Città. Precisazione importante: un filone distinto del periodo 2013-2015 applicava il 25-50%, ma unicamente per il calcolo del rimborso successivo del gratuito patrocinio (non per la concessione iniziale); filone abbandonato dal 2021.",
+    "en": "14 independent decisions identified in total (2012-2021), the richest body of case law in this study alongside Basel-Stadt. Important nuance: a separate line of decisions from 2013-2015 applied 25-50%, but only for calculating subsequent reimbursement of legal aid (not the initial grant); this line was abandoned from 2021 onward."
+   }
+  },
+  "BS": {
+   "note": {
+    "fr": "11 décisions indépendantes identifiées (2015-2025), formant une chaîne de précédents ininterrompue sur 10 ans (ZB.2016.39 → ZB.2020.6 → BEZ.2018.40 → BEZ.2018.24 → VD.2018.76 → VD.2022.138 → ZB.2022.11 → KR.2025.2), le corpus le plus dense de toute l'étude.",
+    "de": "11 unabhängige Entscheide identifiziert (2015-2025), die eine über 10 Jahre ununterbrochene Präjudizienkette bilden (ZB.2016.39 → ZB.2020.6 → BEZ.2018.40 → BEZ.2018.24 → VD.2018.76 → VD.2022.138 → ZB.2022.11 → KR.2025.2), der dichteste Bestand der gesamten Studie.",
+    "it": "11 decisioni indipendenti individuate (2015-2025), che formano una catena di precedenti ininterrotta su 10 anni (ZB.2016.39 → ZB.2020.6 → BEZ.2018.40 → BEZ.2018.24 → VD.2018.76 → VD.2022.138 → ZB.2022.11 → KR.2025.2), il corpus più denso dell'intero studio.",
+    "en": "11 independent decisions identified (2015-2025), forming an unbroken chain of precedent over 10 years (ZB.2016.39 → ZB.2020.6 → BEZ.2018.40 → BEZ.2018.24 → VD.2018.76 → VD.2022.138 → ZB.2022.11 → KR.2025.2), the densest body of case law in the entire study."
+   }
+  },
+  "GE": {
+   "note": {
+    "fr": "CAS PARTICULIER, documenté comme une pratique évolutive plutôt qu'un taux fixe unique (à l'instar de la Thurgovie) : 5 décisions indépendantes de la Chambre pénale de recours appliquent 20% entre 2020 et 2022, mais 6 décisions plus récentes (2022-2025), dont la plus récente lue intégralement, appliquent 25% en se fondant sur un arrêt du Tribunal fédéral. Aucune directive ou arrêt de principe formalisant ce changement n'a été identifié : les deux lignées se chevauchent en 2022 sans cutover officiel. Comptabilisé ici sous 25% (la pratique la plus récente et la mieux motivée en droit), mais les deux taux sont documentés pour transparence.",
+    "de": "SONDERFALL, dokumentiert als sich wandelnde Praxis statt als einheitlicher fester Satz (wie im Fall Thurgau): 5 unabhängige Entscheide der Strafrechtlichen Beschwerdekammer wenden zwischen 2020 und 2022 20% an, doch 6 neuere Entscheide (2022-2025), darunter der jüngste vollständig gelesene, wenden gestützt auf einen Bundesgerichtsentscheid 25% an. Es wurde keine Richtlinie oder Grundsatzentscheidung gefunden, die diesen Wechsel formalisiert: Die beiden Linien überschneiden sich 2022 ohne offiziellen Umstellungszeitpunkt. Hier unter 25% verbucht (die jüngere und rechtlich besser begründete Praxis), doch beide Sätze werden aus Transparenzgründen dokumentiert.",
+    "it": "CASO PARTICOLARE, documentato come prassi evolutiva piuttosto che come tasso fisso unico (analogamente a Turgovia): 5 decisioni indipendenti della Camera penale dei ricorsi applicano il 20% tra il 2020 e il 2022, ma 6 decisioni più recenti (2022-2025), tra cui l'ultima letta integralmente, applicano il 25% basandosi su una sentenza del Tribunale federale. Non è stata individuata alcuna direttiva o sentenza di principio che formalizzi questo cambiamento: i due filoni si sovrappongono nel 2022 senza un passaggio ufficiale. Qui contabilizzato al 25% (la prassi più recente e meglio motivata in diritto), ma entrambi i tassi sono documentati per trasparenza.",
+    "en": "SPECIAL CASE, documented as an evolving practice rather than a single fixed rate (as with Thurgau): 5 independent decisions of the Criminal Appeals Chamber applied 20% between 2020 and 2022, but 6 more recent decisions (2022-2025), including the most recent one read in full, apply 25% based on a Federal Supreme Court ruling. No directive or landmark ruling formalizing this shift was identified: the two lines overlap in 2022 with no official cutover. Counted here under 25% (the more recent and better legally reasoned practice), but both rates are documented for transparency."
+   }
+  },
+  "LU": {
+   "note": {
+    "fr": "6 décisions indépendantes au total (1999-2023). Évolution historique documentée : 15% jusqu'en 1999, 20% depuis la Praxisänderung de 2003, confirmé sans interruption depuis (dernière application identifiée en 2023).",
+    "de": "Insgesamt 6 unabhängige Entscheide (1999-2023). Dokumentierte historische Entwicklung: 15% bis 1999, 20% seit der Praxisänderung von 2003, seither ununterbrochen bestätigt (letzte identifizierte Anwendung 2023).",
+    "it": "In totale 6 decisioni indipendenti (1999-2023). Evoluzione storica documentata: 15% fino al 1999, 20% dal cambiamento di prassi del 2003, confermato ininterrottamente da allora (ultima applicazione individuata nel 2023).",
+    "en": "6 independent decisions in total (1999-2023). Documented historical evolution: 15% until 1999, 20% since the 2003 change of practice (Praxisänderung), confirmed without interruption since then (most recent application identified in 2023)."
+   }
+  },
+  "GR": {
+   "note": {
+    "fr": "13 décisions indépendantes identifiées (2003-2026), comblant le corpus sur plus de 20 ans. Une décision isolée (ZK2 2019 66, 17.03.2020) applique un taux de 25% plutôt que 20%, signalée comme anomalie sans base légale distincte apparente, 1 cas sur 14 décisions examinées.",
+    "de": "13 unabhängige Entscheide identifiziert (2003-2026), die den Bestand über mehr als 20 Jahre abdecken. Ein einzelner Entscheid (ZK2 2019 66, 17.03.2020) wendet einen Satz von 25% statt 20% an, als Anomalie ohne erkennbare eigene Rechtsgrundlage vermerkt, 1 Fall von 14 geprüften Entscheiden.",
+    "it": "13 decisioni indipendenti individuate (2003-2026), che coprono il corpus su oltre 20 anni. Una decisione isolata (ZK2 2019 66, 17.03.2020) applica un tasso del 25% anziché del 20%, segnalata come anomalia priva di una base legale distinta apparente, 1 caso su 14 decisioni esaminate.",
+    "en": "13 independent decisions identified (2003-2026), covering the body of case law over more than 20 years. One isolated decision (ZK2 2019 66, 17.03.2020) applies a rate of 25% rather than 20%, flagged as an anomaly with no apparent distinct legal basis, 1 case out of 14 decisions examined."
+   }
+  },
+  "SO": {
+   "note": {
+    "fr": "6 décisions au total avec pourcentage explicite (2010-2021), critère méthodologique strict appliqué : 7 décisions supplémentaires avaient un calcul implicitement cohérent avec 20% mais sans le pourcentage écrit en toutes lettres, écartées par prudence.",
+    "de": "Insgesamt 6 Entscheide mit ausdrücklichem Prozentsatz (2010-2021), strenges methodisches Kriterium angewendet: 7 weitere Entscheide wiesen eine implizit mit 20% übereinstimmende Berechnung auf, jedoch ohne den ausgeschriebenen Prozentsatz, und wurden aus Vorsicht nicht berücksichtigt.",
+    "it": "In totale 6 decisioni con percentuale esplicita (2010-2021), criterio metodologico rigoroso applicato: altre 7 decisioni presentavano un calcolo implicitamente coerente con il 20% ma senza la percentuale scritta per esteso, escluse per prudenza.",
+    "en": "6 decisions in total with an explicit percentage (2010-2021), a strict methodological criterion was applied: 7 further decisions had a calculation implicitly consistent with 20% but without the percentage spelled out, and were excluded as a precaution."
+   }
+  },
+  "JU": {
+   "note": {
+    "fr": "10 décisions indépendantes identifiées (2013-2026, Cour civile et Cour administrative), adossées à une directive officielle du Tribunal cantonal (Circulaire n° 14 du 30.09.2015). Deux décisions antérieures à cette circulaire (2013-2014) montrent que la pratique des 25% était déjà constante avant sa formalisation écrite. Aucune contradiction trouvée.",
+    "de": "10 unabhängige Entscheide identifiziert (2013-2026, Zivilgericht und Verwaltungsgericht), gestützt auf eine offizielle Weisung des Kantonsgerichts (Rundschreiben Nr. 14 vom 30.09.2015). Zwei Entscheide vor diesem Rundschreiben (2013-2014) zeigen, dass die Praxis der 25% bereits vor ihrer schriftlichen Formalisierung konstant war. Kein Widerspruch gefunden.",
+    "it": "10 decisioni indipendenti individuate (2013-2026, Corte civile e Corte amministrativa), sostenute da una direttiva ufficiale del Tribunale cantonale (Circolare n. 14 del 30.09.2015). Due decisioni anteriori a questa circolare (2013-2014) mostrano che la prassi del 25% era già costante prima della sua formalizzazione scritta. Nessuna contraddizione riscontrata.",
+    "en": "10 independent decisions identified (2013-2026, Civil Court and Administrative Court), backed by an official directive of the Cantonal Court (Circular No. 14 of 30.09.2015). Two decisions predating this circular (2013-2014) show that the 25% practice was already constant before it was formalized in writing. No contradiction found."
+   }
+  },
+  "SZ": {
+   "note": {
+    "fr": "Adossé à une directive officielle nommée (Richtlinien der Gerichtspräsidentenkonferenz, 03.11.2003). 6 décisions indépendantes identifiées au total (2019-2022) ; corpus jugé proche de l'épuisement après ~200 décisions passées en revue. Deux anomalies contextuelles signalées (une application discrétionnaire à 20% pour un cas particulier, un rejet de 30% dans un contexte de remise de frais pénaux différent du calcul AJ), aucune ne contredisant le taux dans le cadre de l'octroi initial de l'AJ.",
+    "de": "Gestützt auf eine namentlich bekannte offizielle Richtlinie (Richtlinien der Gerichtspräsidentenkonferenz vom 03.11.2003). Insgesamt 6 unabhängige Entscheide identifiziert (2019-2022); der Bestand gilt nach Durchsicht von rund 200 Entscheiden als nahezu ausgeschöpft. Zwei kontextuelle Abweichungen vermerkt (eine Ermessensanwendung von 20% in einem Einzelfall, eine Ablehnung von 30% im Kontext eines vom AJ-Berechnungsverfahren abweichenden Erlasses von Strafkosten), keine davon widerspricht dem Satz im Rahmen der ursprünglichen Bewilligung der unentgeltlichen Rechtspflege.",
+    "it": "Sostenuto da una direttiva ufficiale nominata (Richtlinien der Gerichtspräsidentenkonferenz, 03.11.2003). In totale 6 decisioni indipendenti individuate (2019-2022); corpus ritenuto prossimo all'esaurimento dopo la revisione di circa 200 decisioni. Segnalate due anomalie contestuali (un'applicazione discrezionale al 20% per un caso particolare, un rigetto del 30% in un contesto di condono delle spese penali diverso dal calcolo del gratuito patrocinio), nessuna delle quali contraddice il tasso nell'ambito della concessione iniziale del gratuito patrocinio.",
+    "en": "Backed by a named official directive (Richtlinien der Gerichtspräsidentenkonferenz, 03.11.2003). 6 independent decisions identified in total (2019-2022); the body of case law is considered close to exhausted after reviewing around 200 decisions. Two contextual anomalies noted (a discretionary application of 20% in one particular case, a rejection of 30% in a context of remission of criminal costs distinct from the legal aid calculation), neither of which contradicts the rate within the context of the initial grant of legal aid."
+   }
+  },
+  "AG": {
+   "note": {
+    "fr": "10 décisions indépendantes identifiées (2002-2026), couvrant trois instances (Zivilgericht, Strafgericht, Verwaltungsgericht). Une décision (ZOR.2023.6) qualifie explicitement le taux de « stetige Praxis des Obergerichts » (pratique constante du tribunal cantonal). Aucune contradiction trouvée.",
+    "de": "10 unabhängige Entscheide identifiziert (2002-2026), die drei Instanzen abdecken (Zivilgericht, Strafgericht, Verwaltungsgericht). Ein Entscheid (ZOR.2023.6) bezeichnet den Satz ausdrücklich als «stetige Praxis des Obergerichts». Kein Widerspruch gefunden.",
+    "it": "10 decisioni indipendenti individuate (2002-2026), che coprono tre istanze (Tribunale civile, Tribunale penale, Tribunale amministrativo). Una decisione (ZOR.2023.6) qualifica esplicitamente il tasso come «stetige Praxis des Obergerichts» (prassi costante del tribunale cantonale). Nessuna contraddizione riscontrata.",
+    "en": "10 independent decisions identified (2002-2026), covering three courts (Civil Court, Criminal Court, Administrative Court). One decision (ZOR.2023.6) explicitly describes the rate as \"stetige Praxis des Obergerichts\" (the cantonal court's consistent practice). No contradiction found."
+   }
+  },
+  "FR": {
+   "note": {
+    "fr": "13 décisions indépendantes identifiées (2013-2025). Trajectoire historique documentée : deux décisions de 2015 (102 2014 195 et 502 2015 252) appliquaient encore 20%, présenté comme la « jurisprudence fribourgeoise constante » de l'époque ; toutes les décisions à partir de 2018 confirment 25%, alignées sur les arrêts fédéraux 4A_432/2016 et 5A_328/2016. Basculement de pratique daté et sourcé plutôt qu'une simple photographie statique.",
+    "de": "13 unabhängige Entscheide identifiziert (2013-2025). Dokumentierter historischer Verlauf: Zwei Entscheide von 2015 (102 2014 195 und 502 2015 252) wandten damals noch 20% an, dargestellt als die zu jener Zeit «ständige freiburgische Rechtsprechung»; alle Entscheide ab 2018 bestätigen 25%, ausgerichtet an den Bundesgerichtsurteilen 4A_432/2016 und 5A_328/2016. Ein datierter und belegter Praxiswechsel statt einer blossen Momentaufnahme.",
+    "it": "13 decisioni indipendenti individuate (2013-2025). Traiettoria storica documentata: due decisioni del 2015 (102 2014 195 e 502 2015 252) applicavano ancora il 20%, presentato come la «giurisprudenza friburghese costante» dell'epoca; tutte le decisioni a partire dal 2018 confermano il 25%, allineate alle sentenze federali 4A_432/2016 e 5A_328/2016. Cambiamento di prassi datato e documentato, non una semplice fotografia statica.",
+    "en": "13 independent decisions identified (2013-2025). Documented historical trajectory: two decisions from 2015 (102 2014 195 and 502 2015 252) still applied 20%, described at the time as \"settled Fribourg case law\"; every decision from 2018 onward confirms 25%, aligned with Federal Supreme Court rulings 4A_432/2016 and 5A_328/2016. A dated and sourced shift in practice rather than a mere static snapshot."
+   }
+  },
+  "BE": {
+   "note": {
+    "fr": "12 décisions indépendantes identifiées (2013-2025), couvrant à la fois l'Obergericht/Regionalgericht (civil) et le Verwaltungsgericht (administratif), deux instances différentes appliquant le même taux, ce qui renforce la preuve d'une pratique cantonale constante plutôt qu'un cas isolé.",
+    "de": "12 unabhängige Entscheide identifiziert (2013-2025), die sowohl das Obergericht/Regionalgericht (Zivilrecht) als auch das Verwaltungsgericht (Verwaltungsrecht) abdecken, zwei unterschiedliche Instanzen, die denselben Satz anwenden, was den Nachweis einer konstanten kantonalen Praxis statt eines Einzelfalls verstärkt.",
+    "it": "12 decisioni indipendenti individuate (2013-2025), che coprono sia l'Obergericht/Regionalgericht (civile) sia il Verwaltungsgericht (amministrativo), due istanze diverse che applicano lo stesso tasso, il che rafforza la prova di una prassi cantonale costante piuttosto che di un caso isolato.",
+    "en": "12 independent decisions identified (2013-2025), covering both the Obergericht/Regionalgericht (civil) and the Verwaltungsgericht (administrative), two different courts applying the same rate, which strengthens the evidence of a constant cantonal practice rather than an isolated case."
+   }
+  },
+  "ZG": {
+   "note": {
+    "fr": "7 décisions indépendantes identifiées (2022-2025), toutes formulées comme pratique constante (\"praxisgemäss\"). Aucune contradiction trouvée.",
+    "de": "7 unabhängige Entscheide identifiziert (2022-2025), alle als ständige Praxis («praxisgemäss») formuliert. Kein Widerspruch gefunden.",
+    "it": "7 decisioni indipendenti individuate (2022-2025), tutte formulate come prassi costante («praxisgemäss»). Nessuna contraddizione riscontrata.",
+    "en": "7 independent decisions identified (2022-2025), all worded as settled practice (\"praxisgemäss\"). No contradiction found."
+   }
+  },
+  "SG": {
+   "note": {
+    "fr": "Directive officielle du tribunal cantonal (2011), confirmée par une décision de justice qui applique concrètement ce taux (2007, antérieure à la directive elle-même). Corpus judiciaire jugé quasi épuisé au-delà de ces deux sources (la plupart des décisions publiées du Kantonsgericht SG sur l'AJ sont des arrêts de principe qui ne rechiffrent pas le calcul, non contesté en pratique).",
+    "de": "Offizielle Weisung des Kantonsgerichts (2011), bestätigt durch einen Gerichtsentscheid, der diesen Satz konkret anwendet (2007, älter als die Weisung selbst). Der Bestand an Rechtsprechung gilt über diese beiden Quellen hinaus als nahezu ausgeschöpft (die meisten publizierten Entscheide des Kantonsgerichts SG zur unentgeltlichen Rechtspflege sind Grundsatzentscheide, die die Berechnung nicht neu beziffern, da sie in der Praxis unbestritten ist).",
+    "it": "Direttiva ufficiale del tribunale cantonale (2011), confermata da una decisione giudiziaria che applica concretamente questo tasso (2007, anteriore alla direttiva stessa). Il corpus giurisprudenziale è ritenuto pressoché esaurito oltre queste due fonti (la maggior parte delle decisioni pubblicate del Kantonsgericht SG sul gratuito patrocinio sono sentenze di principio che non ricalcolano l'importo, non contestato nella prassi).",
+    "en": "Official directive of the cantonal court (2011), confirmed by a court decision that concretely applies this rate (2007, predating the directive itself). The body of case law is considered nearly exhausted beyond these two sources (most published Kantonsgericht SG decisions on legal aid are landmark rulings that do not recompute the calculation, since it is uncontested in practice)."
+   }
+  },
+  "NW": {
+   "note": {
+    "fr": "Formulaire officiel du tribunal cantonal, seule source disponible mais de nature générale (applicable à tous les cas, pas un dossier isolé). Recherche exhaustive (~20 décisions candidates ouvertes en texte intégral) sans trouver de décision de justice individuelle appliquant ce taux, corpus judiciaire publié très mince pour ce petit canton, la directive elle-même ne datant que de 2024.",
+    "de": "Offizielles Formular des Kantonsgerichts, einzige verfügbare Quelle, jedoch allgemeiner Natur (auf alle Fälle anwendbar, nicht auf einen Einzelfall bezogen). Erschöpfende Recherche (~20 Kandidatenentscheide vollständig gesichtet) ohne Fund eines Einzelentscheids, der diesen Satz anwendet; sehr dünner veröffentlichter Rechtsprechungsbestand für diesen kleinen Kanton, die Weisung selbst stammt erst aus dem Jahr 2024.",
+    "it": "Modulo ufficiale del tribunale cantonale, unica fonte disponibile ma di natura generale (applicabile a tutti i casi, non a un fascicolo isolato). Ricerca esaustiva (circa 20 decisioni candidate esaminate in testo integrale) senza trovare una decisione giudiziaria individuale che applichi questo tasso, corpus giurisprudenziale pubblicato molto esiguo per questo piccolo Cantone, la direttiva stessa risale solo al 2024.",
+    "en": "Official form of the cantonal court, the only available source but of a general nature (applicable to all cases, not a single file). Exhaustive research (~20 candidate decisions opened in full text) found no individual court decision applying this rate; the published body of case law for this small canton is very thin, and the directive itself dates only from 2024."
+   }
+  },
+  "VS": {
+   "note": {
+    "fr": "4 décisions indépendantes identifiées (2022-2025), deux chambres différentes du Tribunal cantonal (civile et pénale) concordantes.",
+    "de": "4 unabhängige Entscheide identifiziert (2022-2025), zwei verschiedene Kammern des Kantonsgerichts (Zivil- und Strafkammer) übereinstimmend.",
+    "it": "4 decisioni indipendenti individuate (2022-2025), due diverse camere del Tribunale cantonale (civile e penale) concordanti.",
+    "en": "4 independent decisions identified (2022-2025), two different chambers of the Cantonal Court (civil and criminal) in agreement."
+   }
+  },
+  "AI": {
+   "note": {
+    "fr": "Upgradé de « source unique » à « confirmé » : la décision de justice est corroborée mot pour mot par une déclaration générale de pratique publiée sur le site officiel du canton, qui n'est pas liée à un dossier particulier, ce qui satisfait le critère de confirmation par directive/déclaration officielle générale. Recherche exhaustive (~240 décisions appenzelloises relues au total sur deux passes) sans trouver de deuxième décision de justice, le corpus judiciaire de ce très petit canton étant structurellement limité.",
+    "de": "Von «Einzelquelle» auf «bestätigt» hochgestuft: Der Gerichtsentscheid wird wortgleich durch eine allgemeine Praxiserklärung auf der offiziellen Website des Kantons bestätigt, die nicht an einen bestimmten Einzelfall gebunden ist, was das Bestätigungskriterium einer Weisung/allgemeinen offiziellen Erklärung erfüllt. Erschöpfende Recherche (insgesamt rund 240 gesichtete Appenzeller Entscheide in zwei Durchgängen) ohne Fund eines zweiten Gerichtsentscheids; der Rechtsprechungsbestand dieses sehr kleinen Kantons ist strukturell begrenzt.",
+    "it": "Promosso da «fonte unica» a «confermato»: la decisione giudiziaria è corroborata parola per parola da una dichiarazione generale di prassi pubblicata sul sito ufficiale del Cantone, non legata a un fascicolo particolare, il che soddisfa il criterio di conferma tramite direttiva/dichiarazione ufficiale generale. Ricerca esaustiva (circa 240 decisioni appenzellesi riesaminate in totale su due passaggi) senza trovare una seconda decisione giudiziaria, il corpus giurisprudenziale di questo piccolissimo Cantone essendo strutturalmente limitato.",
+    "en": "Upgraded from \"single source\" to \"confirmed\": the court decision is corroborated word for word by a general statement of practice published on the canton's official website, which is not tied to a particular case, satisfying the confirmation criterion of an official directive/general statement. Exhaustive research (around 240 Appenzell decisions reviewed in total across two passes) found no second court decision, as the body of case law for this very small canton is structurally limited."
+   }
+  },
+  "UR": {
+   "note": {
+    "fr": "Upgradé de « source unique » à « confirmé » : deuxième décision indépendante trouvée (juge différent, dossier différent, trois ans d'écart). Une piste plus ancienne (1996, Obergerichtspräsidium OGP-Z-3/96) reste non vérifiable en texte intégral (seul le regeste est disponible) et n'est donc pas comptée.",
+    "de": "Von «Einzelquelle» auf «bestätigt» hochgestuft: zweiter unabhängiger Entscheid gefunden (anderer Richter, anderes Dossier, drei Jahre Abstand). Ein älterer Hinweis (1996, Obergerichtspräsidium OGP-Z-3/96) bleibt im Volltext nicht überprüfbar (nur das Regest ist verfügbar) und wird daher nicht mitgezählt.",
+    "it": "Promosso da «fonte unica» a «confermato»: trovata una seconda decisione indipendente (giudice diverso, fascicolo diverso, a tre anni di distanza). Una traccia più antica (1996, Obergerichtspräsidium OGP-Z-3/96) resta non verificabile in testo integrale (è disponibile solo il regesto) e non viene pertanto conteggiata.",
+    "en": "Upgraded from \"single source\" to \"confirmed\": a second independent decision was found (different judge, different case file, three years apart). An older lead (1996, Obergerichtspräsidium OGP-Z-3/96) remains unverifiable in full text (only the headnote is available) and is therefore not counted."
+   }
+  },
+  "TG": {
+   "single_source_note": {
+    "fr": "Recherche exhaustive sur deux passes (les deux corpus tg_gerichte et tg_obergericht, plus de 3600 décisions au total, une dizaine de formulations de requête) sans trouver de deuxième décision civile. Divergence importante déjà documentée : le Verwaltungsgericht thurgovien applique une pratique constante et opposée pour la voie administrative (0% de supplément, TVR 2009 Nr. 7 confirmé par TVR 2024 Nr. 12). Le 25% ne vaut donc que pour la voie civile (art. 117 CPC).",
+    "de": "Erschöpfende Recherche in zwei Durchgängen (die beiden Bestände tg_gerichte und tg_obergericht, insgesamt über 3600 Entscheide, rund zehn Suchformulierungen) ohne Fund eines zweiten zivilrechtlichen Entscheids. Bereits dokumentierte wichtige Divergenz: Das thurgauische Verwaltungsgericht wendet für den Verwaltungsweg eine konstante und gegenteilige Praxis an (0% Zuschlag, TVR 2009 Nr. 7 bestätigt durch TVR 2024 Nr. 12). Die 25% gelten somit nur für den Zivilweg (Art. 117 ZPO).",
+    "it": "Ricerca esaustiva su due passaggi (i due corpus tg_gerichte e tg_obergericht, oltre 3600 decisioni in totale, una decina di formulazioni di ricerca) senza trovare una seconda decisione civile. Divergenza importante già documentata: il Verwaltungsgericht turgoviese applica una prassi costante e opposta per la via amministrativa (0% di supplemento, TVR 2009 n. 7 confermato da TVR 2024 n. 12). Il 25% vale quindi solo per la via civile (art. 117 CPC).",
+    "en": "Exhaustive research across two passes (both the tg_gerichte and tg_obergericht databases, over 3,600 decisions in total, around ten different search formulations) found no second civil decision. An important divergence already documented: the Thurgau Administrative Court applies a constant and opposite practice for administrative-law cases (0% surcharge, TVR 2009 No. 7 confirmed by TVR 2024 No. 12). The 25% therefore applies only to the civil-law track (Art. 117 CPC)."
+   }
+  },
+  "OW": {
+   "single_source_note": {
+    "fr": "CORRECTION IMPORTANTE : la fourchette \"10-15%\" antérieurement documentée pour ce canton était l'ancienne pratique, EXPRESSÉMENT ABROGÉE par cette décision de 2007 (Praxisänderung explicite, comparant les pratiques cantonales de LU/NW/UR/ZG à 20% et SZ/BE à 30%, et corrigeant l'instance inférieure qui appliquait encore 15%). Le taux actuellement en vigueur est donc 20% flat sur le Grundbetrag. Recherche exhaustive de décisions postérieures à 2007 : aucune trouvée, ni pour confirmer ni pour contredire ce taux, corpus judiciaire réellement épuisé pour ce très petit canton, mais aucune décision contraire en 19 ans.",
+    "de": "WICHTIGE KORREKTUR: Die zuvor für diesen Kanton dokumentierte Bandbreite von \"10-15%\" war die alte Praxis, AUSDRÜCKLICH AUFGEHOBEN durch diesen Entscheid von 2007 (ausdrückliche Praxisänderung, die die kantonalen Praxen von LU/NW/UR/ZG mit 20% und SZ/BE mit 30% vergleicht und die Vorinstanz korrigiert, die noch 15% anwendete). Der aktuell geltende Satz beträgt somit 20% flat auf dem Grundbetrag. Erschöpfende Suche nach Entscheiden nach 2007: keine gefunden, weder zur Bestätigung noch zum Widerspruch dieses Satzes; der Rechtsprechungsbestand für diesen sehr kleinen Kanton ist tatsächlich ausgeschöpft, jedoch kein gegenteiliger Entscheid in 19 Jahren.",
+    "it": "CORREZIONE IMPORTANTE: la forcella \"10-15%\" precedentemente documentata per questo Cantone era la vecchia prassi, ESPRESSAMENTE ABROGATA da questa decisione del 2007 (cambiamento di prassi esplicito, che confronta le prassi cantonali di LU/NW/UR/ZG al 20% e di SZ/BE al 30%, correggendo l'istanza inferiore che applicava ancora il 15%). Il tasso attualmente in vigore è quindi il 20% fisso sul Grundbetrag. Ricerca esaustiva di decisioni successive al 2007: nessuna trovata, né a conferma né a contraddizione di questo tasso; corpus giurisprudenziale effettivamente esaurito per questo piccolissimo Cantone, ma nessuna decisione contraria in 19 anni.",
+    "en": "IMPORTANT CORRECTION: the \"10-15%\" range previously documented for this canton was the old practice, EXPRESSLY REPEALED by this 2007 decision (an explicit change of practice comparing the cantonal practices of LU/NW/UR/ZG at 20% and SZ/BE at 30%, and correcting the lower court, which still applied 15%). The rate currently in force is therefore a flat 20% on the Grundbetrag. Exhaustive search for decisions after 2007: none found, either confirming or contradicting this rate; the body of case law is genuinely exhausted for this very small canton, but no contrary decision in 19 years."
+   }
+  },
+  "ZH": {
+   "source": {
+    "fr": "Obergericht/Sozialversicherungsgericht ZH : ~20 décisions avec pourcentage concret identifiées (2012-2025). RU140012 (07.05.2014, \"Zuschlag von 15-30[%]\") ; PC140029 (20.10.2014, 25%) ; RT170136 (29.08.2017, 15% minimum) ; PC200016 (10.06.2020, 25%) ; RZ200006 (16.09.2020, 20%, fourchette 10-30% citée) ; PC240031 (11.02.2025, formule \"un supplément de 25% est habituellement accordé\").",
+    "de": "Obergericht/Sozialversicherungsgericht ZH: ~20 Entscheide mit konkretem Prozentsatz identifiziert (2012-2025). RU140012 (07.05.2014, «Zuschlag von 15-30[%]»); PC140029 (20.10.2014, 25%); RT170136 (29.08.2017, mindestens 15%); PC200016 (10.06.2020, 25%); RZ200006 (16.09.2020, 20%, zitierte Bandbreite 10-30%); PC240031 (11.02.2025, Formulierung «in der Regel wird ein Zuschlag von 25% gewährt»).",
+    "it": "Obergericht/Sozialversicherungsgericht ZH: circa 20 decisioni con percentuale concreta individuate (2012-2025). RU140012 (07.05.2014, «Zuschlag von 15-30[%]»); PC140029 (20.10.2014, 25%); RT170136 (29.08.2017, minimo 15%); PC200016 (10.06.2020, 25%); RZ200006 (16.09.2020, 20%, forcella 10-30% citata); PC240031 (11.02.2025, formula «di norma viene concesso un supplemento del 25%»).",
+    "en": "Obergericht/Sozialversicherungsgericht ZH: ~20 decisions with a concrete percentage identified (2012-2025). RU140012 (07.05.2014, \"Zuschlag von 15-30[%]\"); PC140029 (20.10.2014, 25%); RT170136 (29.08.2017, 15% minimum); PC200016 (10.06.2020, 25%); RZ200006 (16.09.2020, 20%, 10-30% range cited); PC240031 (11.02.2025, wording \"a 25% surcharge is usually granted\")."
+   },
+   "note": {
+    "fr": "Le canton le plus peuplé de Suisse laisse le pourcentage à l'appréciation du juge au cas par cas, mais avec un mode statistique clair à 20% (9 décisions sur ~20 examinées), suivi de 25% (5-6 décisions, présenté comme \"la règle habituelle\" dans la décision la plus récente identifiée, 2025).",
+    "de": "Der bevölkerungsreichste Kanton der Schweiz überlässt den Prozentsatz dem richterlichen Ermessen im Einzelfall, mit einem statistisch klaren Modus bei 20% (9 von rund 20 geprüften Entscheiden), gefolgt von 25% (5-6 Entscheide, im jüngsten identifizierten Entscheid von 2025 als «die übliche Regel» bezeichnet).",
+    "it": "Il Cantone più popoloso della Svizzera lascia la percentuale all'apprezzamento del giudice caso per caso, ma con una moda statistica chiara al 20% (9 decisioni su circa 20 esaminate), seguita dal 25% (5-6 decisioni, presentato come \"la regola abituale\" nella decisione più recente individuata, del 2025).",
+    "en": "Switzerland's most populous canton leaves the percentage to the judge's discretion on a case-by-case basis, but with a clear statistical mode of 20% (9 out of ~20 decisions examined), followed by 25% (5-6 decisions, described as \"the usual rule\" in the most recently identified decision, from 2025)."
+   }
+  },
+  "VD": {
+   "source": {
+    "fr": "12 décisions AJ identifiées (2009-2024) : HC/2009/269 (18.08.2009, principe fédéral à 20%, aujourd'hui daté) ; Pron/2012/208 (29.08.2012, 25% appliqué) ; Arrêt 2017/61 (12.01.2017, 30% appliqué) ; HC/2021/135 (10.03.2021, 30%) ; HC/2024/404 (16.05.2024, 25% appliqué) ; HC/2024/690 (27.08.2024, 25% appliqué).",
+    "de": "12 identifizierte AJ-Entscheide (2009-2024): HC/2009/269 (18.08.2009, bundesrechtlicher Grundsatz von 20%, heute überholt); Pron/2012/208 (29.08.2012, 25% angewandt); Arrêt 2017/61 (12.01.2017, 30% angewandt); HC/2021/135 (10.03.2021, 30%); HC/2024/404 (16.05.2024, 25% angewandt); HC/2024/690 (27.08.2024, 25% angewandt).",
+    "it": "12 decisioni sul gratuito patrocinio individuate (2009-2024): HC/2009/269 (18.08.2009, principio federale al 20%, oggi superato); Pron/2012/208 (29.08.2012, 25% applicato); Arrêt 2017/61 (12.01.2017, 30% applicato); HC/2021/135 (10.03.2021, 30%); HC/2024/404 (16.05.2024, 25% applicato); HC/2024/690 (27.08.2024, 25% applicato).",
+    "en": "12 legal-aid decisions identified (2009-2024): HC/2009/269 (18.08.2009, federal-law principle of 20%, now outdated); Pron/2012/208 (29.08.2012, 25% applied); Arrêt 2017/61 (12.01.2017, 30% applied); HC/2021/135 (10.03.2021, 30%); HC/2024/404 (16.05.2024, 25% applied); HC/2024/690 (27.08.2024, 25% applied)."
+   },
+   "note": {
+    "fr": "La fourchette 20-30% reste correcte dans l'absolu (les deux bornes sont attestées par des applications concrètes), mais 25% est clairement le taux dominant dans la jurisprudence vaudoise depuis 2012. Un arrêt du Tribunal fédéral cité par la Cour d'appel civile VD (4A_432/2016, lu intégralement) invalide explicitement 20% comme insuffisant : \"le juge de l'assistance judiciaire doit appliquer une majoration de 25%\".",
+    "de": "Die Bandbreite von 20-30% bleibt an sich korrekt (beide Grenzwerte sind durch konkrete Anwendungen belegt), doch 25% ist seit 2012 klar der vorherrschende Satz in der waadtländischen Rechtsprechung. Ein vom Waadtländer Zivilberufungsgericht zitiertes Bundesgerichtsurteil (4A_432/2016, vollständig gelesen) erklärt 20% ausdrücklich als ungenügend: «der für die unentgeltliche Rechtspflege zuständige Richter hat einen Zuschlag von 25% anzuwenden».",
+    "it": "La forcella 20-30% resta corretta in assoluto (entrambi i limiti sono attestati da applicazioni concrete), ma il 25% è chiaramente il tasso dominante nella giurisprudenza vodese dal 2012. Una sentenza del Tribunale federale citata dalla Corte d'appello civile VD (4A_432/2016, letta integralmente) invalida esplicitamente il 20% come insufficiente: \"il giudice del gratuito patrocinio deve applicare una maggiorazione del 25%\".",
+    "en": "The 20-30% range remains accurate in the abstract (both bounds are attested by concrete applications), but 25% has clearly been the dominant rate in Vaud case law since 2012. A Federal Supreme Court ruling cited by the Vaud Civil Court of Appeal (4A_432/2016, read in full) explicitly finds 20% insufficient: \"the legal aid judge must apply a 25% surcharge\"."
+   }
+  },
+  "GL": {
+   "source": {
+    "fr": "Obergericht Glarus, OG.2015.00010 (13.05.2016, assistance judiciaire d'une partie plaignante, art. 136 CPP) : \"Notbedarf (um 20%-25% erhöhter Grundbedarf...)\". Verwaltungsgericht Glarus, VG.2020.00020 (14.05.2020, contentieux administratif AI) : \"Dieser Grundbedarf ist praxisgemäss um 20 % zu erhöhen\".",
+    "de": "Obergericht Glarus, OG.2015.00010 (13.05.2016, unentgeltliche Rechtspflege einer Privatklägerschaft, Art. 136 StPO): «Notbedarf (um 20%-25% erhöhter Grundbedarf...)». Verwaltungsgericht Glarus, VG.2020.00020 (14.05.2020, IV-Verwaltungsstreitigkeit): «Dieser Grundbedarf ist praxisgemäss um 20 % zu erhöhen».",
+    "it": "Obergericht Glarus, OG.2015.00010 (13.05.2016, gratuito patrocinio di una parte accusatrice, art. 136 CPP): \"Notbedarf (um 20%-25% erhöhter Grundbedarf...)\". Verwaltungsgericht Glarus, VG.2020.00020 (14.05.2020, contenzioso amministrativo AI): \"Dieser Grundbedarf ist praxisgemäss um 20 % zu erhöhen\".",
+    "en": "Obergericht Glarus, OG.2015.00010 (13.05.2016, legal aid for a private plaintiff, Art. 136 CrimPC): \"Notbedarf (basic amount increased by 20%-25%...)\". Verwaltungsgericht Glarus, VG.2020.00020 (14.05.2020, disability-insurance administrative dispute): \"this basic amount is, as a matter of settled practice, to be increased by 20%\"."
+   },
+   "note": {
+    "fr": "Deux décisions indépendantes désormais, devant deux juridictions différentes (Obergericht pénal et Verwaltungsgericht administratif). La borne basse (20%) est confirmée comme pratique constante (\"praxisgemäss\") par le Verwaltungsgericht ; la borne haute (25%) ne provient que d'une seule mention. Recherche exhaustive (~250 décisions glaronnaises passées en revue) sans trouver de directive officielle chiffrée.",
+    "de": "Nunmehr zwei unabhängige Entscheide, vor zwei verschiedenen Instanzen (strafrechtliches Obergericht und Verwaltungsgericht). Der untere Wert (20%) wird vom Verwaltungsgericht als ständige Praxis («praxisgemäss») bestätigt; der obere Wert (25%) stammt nur aus einer einzigen Erwähnung. Erschöpfende Recherche (rund 250 glarnerische Entscheide gesichtet) ohne Fund einer bezifferten offiziellen Weisung.",
+    "it": "Ora due decisioni indipendenti, dinanzi a due giurisdizioni diverse (Obergericht penale e Verwaltungsgericht amministrativo). Il limite inferiore (20%) è confermato come prassi costante («praxisgemäss») dal Verwaltungsgericht; il limite superiore (25%) proviene da una sola menzione. Ricerca esaustiva (circa 250 decisioni glaronesi esaminate) senza trovare una direttiva ufficiale con cifre.",
+    "en": "Now two independent decisions, before two different courts (the criminal Obergericht and the administrative Verwaltungsgericht). The lower bound (20%) is confirmed as settled practice (\"praxisgemäss\") by the Verwaltungsgericht; the upper bound (25%) comes from only a single mention. Exhaustive research (~250 Glarus decisions reviewed) found no official directive with figures."
+   }
+  },
+  "NE": {
+   "source": {
+    "fr": "Autorité de recours en matière civile NE, ARMC.2020.56 (08.12.2020) : application concrète de 25% (\"un montant de 850 francs, qu'il a ensuite majoré de 25%\", non contesté). Cour d'appel civile NE, CACIV.2020.47 (16.10.2020, deux mois plus tôt) : \"le minimum vital de base [...] n'a pas à être systématiquement majoré de 25 %, même si un tel élargissement est pratiqué dans certains cantons\".",
+    "de": "Autorité de recours en matière civile NE, ARMC.2020.56 (08.12.2020): konkrete Anwendung von 25% («einen Betrag von 850 Franken, den er anschliessend um 25% erhöhte», unbestritten). Cour d'appel civile NE, CACIV.2020.47 (16.10.2020, zwei Monate zuvor): «das betreibungsrechtliche Existenzminimum [...] muss nicht systematisch um 25 % erhöht werden, auch wenn eine solche Erweiterung in gewissen Kantonen praktiziert wird».",
+    "it": "Autorité de recours en matière civile NE, ARMC.2020.56 (08.12.2020): applicazione concreta del 25% (\"un importo di 850 franchi, che ha poi maggiorato del 25%\", non contestato). Cour d'appel civile NE, CACIV.2020.47 (16.10.2020, due mesi prima): \"il minimo vitale di base [...] non deve essere sistematicamente maggiorato del 25%, anche se un simile ampliamento è praticato in alcuni Cantoni\".",
+    "en": "Autorité de recours en matière civile NE, ARMC.2020.56 (08.12.2020): concrete application of 25% (\"an amount of 850 francs, which it then increased by 25%\", uncontested). Cour d'appel civile NE, CACIV.2020.47 (16.10.2020, two months earlier): \"the basic minimum [...] does not have to be systematically increased by 25%, even though such an increase is applied in certain cantons\"."
+   },
+   "note": {
+    "fr": "Reclassé de « source unique confirmée à 25% » vers « pratique discrétionnaire » suite à la découverte d'une deuxième décision qui contredit le caractère automatique de la majoration plutôt que de le confirmer. Le tribunal neuchâtelois semble se réserver la possibilité d'appliquer ou non un supplément selon les circonstances, avec 25% comme référence quand il est appliqué. Recherche exhaustive (~250 décisions sur les 10'740 du corpus neuchâtelois) sans trouver de troisième décision clarifiant la règle.",
+    "de": "Umklassiert von «bestätigter Einzelquelle bei 25%» zu «Ermessenspraxis» nach dem Fund eines zweiten Entscheids, der den automatischen Charakter des Zuschlags eher widerlegt als bestätigt. Das Neuenburger Gericht scheint sich vorzubehalten, je nach den Umständen einen Zuschlag anzuwenden oder nicht, wobei 25% als Referenzwert dient, wenn er angewandt wird. Erschöpfende Recherche (rund 250 von 10'740 Entscheiden des Neuenburger Bestands) ohne Fund eines dritten, die Regel klärenden Entscheids.",
+    "it": "Riclassificato da «fonte unica confermata al 25%» a «prassi discrezionale» dopo il ritrovamento di una seconda decisione che contraddice il carattere automatico della maggiorazione anziché confermarlo. Il tribunale neocastellano sembra riservarsi la possibilità di applicare o meno un supplemento a seconda delle circostanze, con il 25% come riferimento quando viene applicato. Ricerca esaustiva (circa 250 decisioni sulle 10'740 del corpus neocastellano) senza trovare una terza decisione che chiarisca la regola.",
+    "en": "Reclassified from \"single source confirmed at 25%\" to \"discretionary practice\" after the discovery of a second decision that contradicts, rather than confirms, the automatic nature of the surcharge. The Neuchâtel court appears to reserve the possibility of applying a surcharge or not depending on the circumstances, with 25% as the reference figure when it is applied. Exhaustive research (~250 of the 10,740 decisions in the Neuchâtel body of case law) found no third decision clarifying the rule."
+   }
+  },
+  "SH": {
+   "reason": {
+    "fr": "Recherche exhaustive sur trois passes (dont l'exploration de ~50 décisions supplémentaires de l'Obergericht et une tentative d'élargissement aux décisions de première instance) sans succès. Les liens PDF originaux vers obergerichtsentscheide.sh.ch pour les deux décisions les plus prometteuses (40/2002/34, 40/2005/2) ne sont plus accessibles (site restructuré), et OpenCaseLaw n'a conservé que les métadonnées, pas le texte intégral.",
+    "de": "Erschöpfende Recherche in drei Durchgängen (darunter die Durchsicht von rund 50 zusätzlichen Entscheiden des Obergerichts und ein Versuch der Ausweitung auf erstinstanzliche Entscheide) ohne Erfolg. Die ursprünglichen PDF-Links zu obergerichtsentscheide.sh.ch für die beiden vielversprechendsten Entscheide (40/2002/34, 40/2005/2) sind nicht mehr erreichbar (Website umstrukturiert), und OpenCaseLaw hat nur die Metadaten, nicht den Volltext, gespeichert.",
+    "it": "Ricerca esaustiva su tre passaggi (tra cui l'esame di circa 50 decisioni supplementari dell'Obergericht e un tentativo di ampliamento alle decisioni di primo grado) senza successo. I link PDF originali verso obergerichtsentscheide.sh.ch per le due decisioni più promettenti (40/2002/34, 40/2005/2) non sono più accessibili (sito ristrutturato), e OpenCaseLaw ha conservato solo i metadati, non il testo integrale.",
+    "en": "Exhaustive research across three passes (including reviewing ~50 additional Obergericht decisions and an attempt to broaden the search to first-instance decisions) without success. The original PDF links to obergerichtsentscheide.sh.ch for the two most promising decisions (40/2002/34, 40/2005/2) are no longer accessible (the site was restructured), and OpenCaseLaw retained only the metadata, not the full text."
+   }
+  },
+  "AR": {
+   "reason": {
+    "fr": "Recherche exhaustive sur trois passes (~55 décisions supplémentaires passées en revue dans cette dernière poussée). Les décisions trouvées mentionnant un \"Zuschlag\" concernent soit des frais de repas professionnels, soit le tarif d'avocat pour mesures provisionnelles (10-40%), aucune ne porte sur le calcul du minimum vital pour l'AJ elle-même. Le formulaire officiel du greffe cantonal ne détaille pas ce calcul.",
+    "de": "Erschöpfende Recherche in drei Durchgängen (rund 55 zusätzliche Entscheide in diesem letzten Durchgang gesichtet). Die gefundenen Entscheide mit Erwähnung eines «Zuschlags» betreffen entweder berufliche Verpflegungskosten oder den Anwaltstarif für vorsorgliche Massnahmen (10-40%), keiner betrifft die Berechnung des Existenzminimums für die unentgeltliche Rechtspflege selbst. Das offizielle Formular der Kantonsgerichtskanzlei enthält keine Details zu dieser Berechnung.",
+    "it": "Ricerca esaustiva su tre passaggi (circa 55 decisioni supplementari esaminate in quest'ultima ricerca). Le decisioni trovate che menzionano uno «Zuschlag» riguardano o le spese di pasto professionali, o la tariffa d'avvocato per le misure provvisionali (10-40%), nessuna riguarda il calcolo del minimo vitale per il gratuito patrocinio in sé. Il modulo ufficiale della cancelleria cantonale non dettaglia questo calcolo.",
+    "en": "Exhaustive research across three passes (~55 additional decisions reviewed in this latest search). The decisions found mentioning a \"Zuschlag\" relate either to professional meal expenses or to the lawyer's fee schedule for interim measures (10-40%), none concerning the calculation of the basic minimum for legal aid itself. The cantonal registry's official form does not detail this calculation."
+   }
+  }
+ },
+ "cantonNames": {
+  "TI": {
+   "fr": "Tessin",
+   "de": "Tessin",
+   "it": "Ticino",
+   "en": "Ticino"
+  },
+  "BL": {
+   "fr": "Bâle-Campagne",
+   "de": "Basel-Landschaft",
+   "it": "Basilea Campagna",
+   "en": "Basel-Landschaft"
+  },
+  "BS": {
+   "fr": "Bâle-Ville",
+   "de": "Basel-Stadt",
+   "it": "Basilea Città",
+   "en": "Basel-Stadt"
+  },
+  "GE": {
+   "fr": "Genève",
+   "de": "Genf",
+   "it": "Ginevra",
+   "en": "Geneva"
+  },
+  "LU": {
+   "fr": "Lucerne",
+   "de": "Luzern",
+   "it": "Lucerna",
+   "en": "Lucerne"
+  },
+  "GR": {
+   "fr": "Grisons",
+   "de": "Graubünden",
+   "it": "Grigioni",
+   "en": "Graubünden"
+  },
+  "SO": {
+   "fr": "Soleure",
+   "de": "Solothurn",
+   "it": "Soletta",
+   "en": "Solothurn"
+  },
+  "JU": {
+   "fr": "Jura",
+   "de": "Jura",
+   "it": "Giura",
+   "en": "Jura"
+  },
+  "SZ": {
+   "fr": "Schwyz",
+   "de": "Schwyz",
+   "it": "Svitto",
+   "en": "Schwyz"
+  },
+  "AG": {
+   "fr": "Argovie",
+   "de": "Aargau",
+   "it": "Argovia",
+   "en": "Aargau"
+  },
+  "FR": {
+   "fr": "Fribourg",
+   "de": "Freiburg",
+   "it": "Friburgo",
+   "en": "Fribourg"
+  },
+  "BE": {
+   "fr": "Berne",
+   "de": "Bern",
+   "it": "Berna",
+   "en": "Bern"
+  },
+  "ZG": {
+   "fr": "Zoug",
+   "de": "Zug",
+   "it": "Zugo",
+   "en": "Zug"
+  },
+  "SG": {
+   "fr": "Saint-Gall",
+   "de": "St. Gallen",
+   "it": "San Gallo",
+   "en": "St. Gallen"
+  },
+  "NW": {
+   "fr": "Nidwald",
+   "de": "Nidwalden",
+   "it": "Nidvaldo",
+   "en": "Nidwalden"
+  },
+  "VS": {
+   "fr": "Valais",
+   "de": "Wallis",
+   "it": "Vallese",
+   "en": "Valais"
+  },
+  "AI": {
+   "fr": "Appenzell Rhodes-Intérieures",
+   "de": "Appenzell Innerrhoden",
+   "it": "Appenzello Interno",
+   "en": "Appenzell Innerrhoden"
+  },
+  "UR": {
+   "fr": "Uri",
+   "de": "Uri",
+   "it": "Uri",
+   "en": "Uri"
+  },
+  "TG": {
+   "fr": "Thurgovie",
+   "de": "Thurgau",
+   "it": "Turgovia",
+   "en": "Thurgau"
+  },
+  "OW": {
+   "fr": "Obwald",
+   "de": "Obwalden",
+   "it": "Obvaldo",
+   "en": "Obwalden"
+  },
+  "ZH": {
+   "fr": "Zurich",
+   "de": "Zürich",
+   "it": "Zurigo",
+   "en": "Zurich"
+  },
+  "VD": {
+   "fr": "Vaud",
+   "de": "Waadt",
+   "it": "Vaud",
+   "en": "Vaud"
+  },
+  "GL": {
+   "fr": "Glaris",
+   "de": "Glarus",
+   "it": "Glarona",
+   "en": "Glarus"
+  },
+  "NE": {
+   "fr": "Neuchâtel",
+   "de": "Neuenburg",
+   "it": "Neuchâtel",
+   "en": "Neuchâtel"
+  },
+  "SH": {
+   "fr": "Schaffhouse",
+   "de": "Schaffhausen",
+   "it": "Sciaffusa",
+   "en": "Schaffhausen"
+  },
+  "AR": {
+   "fr": "Appenzell Rhodes-Extérieures",
+   "de": "Appenzell Ausserrhoden",
+   "it": "Appenzello Esterno",
+   "en": "Appenzell Ausserrhoden"
+  }
+ },
+ "law": {
+  "fr": {
+   "cpc": "CPC",
+   "cst": "Cst.",
+   "lp": "droit des poursuites"
+  },
+  "de": {
+   "cpc": "ZPO",
+   "cst": "BV",
+   "lp": "Betreibungsrecht"
+  },
+  "it": {
+   "cpc": "CPC",
+   "cst": "Cost.",
+   "lp": "diritto esecutivo"
+  },
+  "en": {
+   "cpc": "CPC",
+   "cst": "Cst.",
+   "lp": "debt-enforcement law"
+  }
+ }
+}

@@ -398,7 +398,7 @@ UI = {
         "press_study_kicker": "Étude exclusive Legatis",
         "press_study_title": "Le prix cantonal de la pauvreté",
         "press_study_desc": "D'aucune majoration à 30% : comment 26 cantons suisses calculent différemment qui est « assez pauvre » pour obtenir l'assistance judiciaire.",
-        "press_study_cta": "Télécharger l'étude (PDF)",
+        "press_study_cta": "Découvrir l'étude",
         "press_study_meta": "16 pages, 135+ décisions de justice vérifiées",
     },
     "de": {
@@ -437,7 +437,7 @@ UI = {
         "press_study_kicker": "Exklusive Legatis-Studie",
         "press_study_title": "Der kantonale Preis der Armut",
         "press_study_desc": "Von keinem Zuschlag bis zu 30%: Wie 26 Schweizer Kantone unterschiedlich berechnen, wer «arm genug» ist, um unentgeltliche Rechtspflege zu erhalten.",
-        "press_study_cta": "Studie herunterladen (PDF)",
+        "press_study_cta": "Studie entdecken",
         "press_study_meta": "16 Seiten, über 135 überprüfte Gerichtsentscheide",
     },
     "it": {
@@ -477,7 +477,7 @@ UI = {
         "press_study_kicker": "Studio esclusivo Legatis",
         "press_study_title": "Il prezzo cantonale della povertà",
         "press_study_desc": "Da nessuna maggiorazione al 30%: come 26 Cantoni svizzeri calcolano in modo diverso chi è \"abbastanza povero\" per ottenere il gratuito patrocinio.",
-        "press_study_cta": "Scarica lo studio (PDF)",
+        "press_study_cta": "Scopri lo studio",
         "press_study_meta": "16 pagine, oltre 135 decisioni giudiziarie verificate",
     },
     "en": {
@@ -515,7 +515,7 @@ UI = {
         "press_study_kicker": "Exclusive Legatis study",
         "press_study_title": "The Cantonal Price of Poverty",
         "press_study_desc": "From no surcharge to 30%: how 26 Swiss cantons calculate differently who is \"poor enough\" to receive legal aid.",
-        "press_study_cta": "Download the study (PDF)",
+        "press_study_cta": "Explore the study",
         "press_study_meta": "16 pages, 135+ verified court decisions",
     },
 }
@@ -536,4 +536,5 @@ SEGMENTS = {
     "guides": {"fr": "guides", "de": "ratgeber", "it": "guide", "en": "guides"},
     "revendiquer": {"fr": "revendiquer-une-fiche", "de": "eintrag-beanspruchen", "it": "rivendicare-una-scheda", "en": "claim-a-listing"},
     "blog": {"fr": "blog", "de": "blog", "it": "blog", "en": "blog"},
+    "etude-aj": {"fr": "etude-assistance-judiciaire", "de": "studie-unentgeltliche-rechtspflege", "it": "studio-gratuito-patrocinio", "en": "legal-aid-study"},
 }

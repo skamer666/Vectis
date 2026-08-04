@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero study-hero">
+    <div class="hero-eyebrow">{{ t.kicker }}</div>
+    <h1 style="max-width:22ch;">{{ t.title }}</h1>
+    <p class="lede">{{ t.subtitle }}</p>
+    <p class="study-cover-caption">{{ t.cover_caption }}</p>
+    <div class="cta-row">
+      <a class="cta-btn is-primary" href="{{ pdf_url }}">{{ t.download_pdf }}</a>
+    </div>
+  </section>
+
+  <nav class="study-nav" aria-label="Sommaire">
+    <a href="#essentiel">{{ t.nav_essentials }}</a>
+    <a href="#vue-ensemble">{{ t.nav_chart }}</a>
+    <a href="#confirmes">{{ t.nav_confirmed }}</a>
+    <a href="#source-unique">{{ t.nav_single }}</a>
+    <a href="#discretionnaire">{{ t.nav_disc }}</a>
+    <a href="#sans-donnee">{{ t.nav_excl }}</a>
+    <a href="#simulation">{{ t.nav_case }}</a>
+    <a href="#methodologie">{{ t.nav_method }}</a>
+    <a href="#sources">{{ t.nav_annex }}</a>
+  </nav>
+
+  <section class="section study-digest" id="essentiel">
+    <div class="section-head"><h2>{{ t.digest_kicker }}</h2></div>
+    <ul class="digest-list">
+      <li>{{ t.digest_1 }}</li>
+      <li>{{ t.digest_2 }}</li>
+      <li>{{ t.digest_3 }}</li>
+      <li>{{ t.digest_4 }}</li>
+      <li>{{ t.digest_5 }}</li>
+    </ul>
+    <p class="digest-contact">{{ t.digest_contact }}</p>
+  </section>
+
+  <section class="section" id="synthese">
+    <div class="section-head"><h2>{{ t.h_synth }}</h2></div>
+    <div class="study-prose">
+      <p>{{ t.synth_p1 }}</p>
+      <p>{{ t.synth_p2 }}</p>
+      <p>{{ t.synth_p3 }}</p>
+      <ul>
+        <li>{{ t.synth_b1 }}</li>
+        <li>{{ t.synth_b2 }}</li>
+        <li>{{ t.synth_b3 }}</li>
+      </ul>
+      <p>{{ t.synth_p4 }}</p>
+      <p>{{ t.synth_p5 }}</p>
+    </div>
+  </section>
+
+  <section class="section" id="cadre">
+    <div class="section-head"><h2>{{ t.h_cadre }}</h2></div>
+    <div class="study-prose">
+      <p>{{ t.cadre_p1 }}</p>
+      <p>{{ t.cadre_p2 }}</p>
+      <p>{{ t.cadre_p3 }}</p>
+    </div>
+  </section>
+
+  <section class="section" id="vue-ensemble">
+    <div class="section-head"><h2>{{ t.h_chart }}</h2></div>
+    <div class="rate-chart">
+      {% for c in confirmed %}
+      <div class="rate-chart-row">
+        <div class="rate-chart-label">{{ c.name }} <span class="rate-chart-code">{{ c.code }}</span></div>
+        <div class="rate-chart-track">
+          <div class="rate-chart-bar" style="width:{{ (c.rate / chart_max * 100) | round(1) }}%; background:{{ c.color }};"></div>
+        </div>
+        <div class="rate-chart-value">{{ c.rate }}%</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" id="confirmes">
+    <div class="section-head"><h2>{{ t.h_table }}</h2></div>
+    <p class="study-intro">{{ t.table_intro }}</p>
+    <div class="canton-list">
+      {% for c in confirmed %}
+      <details class="canton-card">
+        <summary>
+          <span class="canton-card-name">{{ c.name }} <span class="canton-card-code">({{ c.code }})</span></span>
+          <span class="canton-rate-badge" style="background:{{ c.color }};">{{ c.rate }}%</span>
+          <span class="canton-card-count">{{ c.decision_count }} {{ t.decisions_word if c.decision_count != 1 else t.decision_word }}</span>
+          <span class="canton-card-toggle">{{ t.expand_hint }}</span>
+        </summary>
+        <div class="canton-card-body">
+          {% if c.note %}<p class="canton-note">{{ c.note }}</p>{% endif %}
+          {% for d in c.decisions %}
+          <div class="decision-item">
+            <p class="decision-meta">{{ d.court }}, {{ d.docket }}, {{ d.date }}</p>
+            <p class="decision-quote">&laquo;&nbsp;{{ d.quote }}&nbsp;&raquo;</p>
+            <a class="decision-link" href="{{ d.url }}" target="_blank" rel="noopener">{{ t.verify_label }} {{ d.url }}</a>
+          </div>
+          {% endfor %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" id="source-unique">
+    <div class="section-head"><h2>{{ t.h_single }}</h2></div>
+    <p class="study-intro">{{ t.single_intro }}</p>
+    <div class="canton-list">
+      {% for c in single_source %}
+      <details class="canton-card is-muted">
+        <summary>
+          <span class="canton-card-name">{{ c.name }} <span class="canton-card-code">({{ c.code }})</span></span>
+          <span class="canton-rate-badge is-muted">{{ c.rate }}%</span>
+          <span class="tag is-warn">{{ t.single_source_tag }}</span>
+          <span class="canton-card-toggle">{{ t.expand_hint }}</span>
+        </summary>
+        <div class="canton-card-body">
+          {% for d in c.decisions %}
+          <div class="decision-item">
+            <p class="decision-meta">{{ d.court }}, {{ d.docket }}, {{ d.date }}</p>
+            <p class="decision-quote">&laquo;&nbsp;{{ d.quote }}&nbsp;&raquo;</p>
+            <a class="decision-link" href="{{ d.url }}" target="_blank" rel="noopener">{{ t.verify_label }} {{ d.url }}</a>
+          </div>
+          {% endfor %}
+          {% if c.note %}<p class="canton-note">{{ c.note }}</p>{% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" id="discretionnaire">
+    <div class="section-head"><h2>{{ t.h_disc }}</h2></div>
+    <p class="study-intro">{{ t.disc_intro }}</p>
+    <div class="canton-list">
+      {% for d in discretionary %}
+      <div class="canton-card is-static">
+        <div class="canton-card-head">
+          <span class="canton-card-name">{{ d.name }} <span class="canton-card-code">({{ d.code }})</span></span>
+          <span class="canton-rate-badge is-range">{{ t.disc_range_label }} : {{ d.range }}</span>
+        </div>
+        <div class="canton-card-body is-open">
+          {% if d.source %}<p class="decision-meta">{{ d.source }}</p>{% endif %}
+          {% if d.note %}<p class="canton-note">{{ d.note }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" id="sans-donnee">
+    <div class="section-head"><h2>{{ t.h_excl }}</h2></div>
+    <p class="study-intro">{{ t.excl_intro }}</p>
+    <div class="canton-list">
+      {% for e in excluded %}
+      <div class="canton-card is-static">
+        <div class="canton-card-head">
+          <span class="canton-card-name">{{ e.name }} <span class="canton-card-code">({{ e.code }})</span></span>
+        </div>
+        <div class="canton-card-body is-open">
+          <p class="canton-note">{{ e.reason }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section" id="simulation">
+    <div class="section-head"><h2>{{ t.h_case }}</h2></div>
+    <p class="study-intro">{{ t.case_intro }}</p>
+    <div class="case-table-wrap">
+      <table class="case-table">
+        <thead>
+          <tr>
+            <th>{{ t.profile_col_head }}</th>
+            {% for g in rate_groups %}<th>{{ g.rate }}%</th>{% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in profiles %}
+          <tr>
+            <td>{{ row.label }} (CHF {{ row.base_fmt }}.-)</td>
+            {% for a in row.amounts %}<td>+ CHF {{ a.amount_fmt }}.-</td>{% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div class="study-prose">
+      <p>{{ t.case_reading }}</p>
+      <p>{{ t.case_concrete }}</p>
+    </div>
+  </section>
+
+  <section class="section" id="methodologie">
+    <div class="section-head"><h2>{{ t.h_method }}</h2></div>
+    <div class="study-prose">
+      <p>{{ t.method_p1 }}</p>
+      <p>{{ t.method_p2 }}</p>
+      <p>{{ t.method_p3 }}</p>
+      <p>{{ t.method_p4 }}</p>
+      <p>{{ t.method_p5 }}</p>
+      <p>{{ t.method_p6 }}</p>
+      <p>{{ t.method_p7 }}</p>
+      <p>{{ t.method_p8 }}</p>
+    </div>
+  </section>
+
+  <section class="section" id="conclusion-etude">
+    <div class="section-head"><h2>{{ t.h_conclusion }}</h2></div>
+    <div class="study-prose">
+      <p>{{ t.conclusion_p1 }}</p>
+      <p>{{ t.conclusion_p2 }}</p>
+    </div>
+  </section>
+
+  <section class="section" id="sources">
+    <div class="section-head"><h2>{{ t.h_annex }}</h2></div>
+    <p class="study-intro">{{ t.annex_intro }}</p>
+    <p class="study-note-pdf">{{ t.pdf_note }}</p>
+    <div class="cta-row">
+      <a class="cta-btn is-primary" href="{{ pdf_url }}">{{ t.download_pdf }}</a>
+    </div>
+  </section>
+</div>
+{% endblock %}
