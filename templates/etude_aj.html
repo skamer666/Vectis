@@ -80,7 +80,7 @@
     <p class="study-intro">{{ t.table_intro }}</p>
     <div class="canton-list">
       {% for c in confirmed %}
-      <details class="canton-card">
+      <details class="canton-card" id="canton-{{ c.code }}">
         <summary>
           <span class="canton-card-name">{{ c.name }} <span class="canton-card-code">({{ c.code }})</span></span>
           <span class="canton-rate-badge" style="background:{{ c.color }};">{{ c.rate }}%</span>
@@ -107,7 +107,7 @@
     <p class="study-intro">{{ t.single_intro }}</p>
     <div class="canton-list">
       {% for c in single_source %}
-      <details class="canton-card is-muted">
+      <details class="canton-card is-muted" id="canton-{{ c.code }}">
         <summary>
           <span class="canton-card-name">{{ c.name }} <span class="canton-card-code">({{ c.code }})</span></span>
           <span class="canton-rate-badge is-muted">{{ c.rate }}%</span>
