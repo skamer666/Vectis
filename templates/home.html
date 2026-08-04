@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="press-band">
+  <div class="container press-band-inner">
+    <div class="press-band-text">
+      <div class="press-band-kicker">{{ ui.press_study_kicker }}</div>
+      <h2 class="press-band-title">{{ ui.press_study_title }}</h2>
+      <p class="press-band-desc">{{ ui.press_study_desc }}</p>
+      <div class="press-band-meta">{{ ui.press_study_meta }}</div>
+    </div>
+    <a class="press-band-cta" href="{{ press_pdf_url }}">{{ ui.press_study_cta }}</a>
+  </div>
+</div>
 <div class="container">
   <section class="hero">
     <div class="hero-eyebrow">{{ ui.site_name }} | Suisse</div>

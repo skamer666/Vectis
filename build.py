@@ -459,6 +459,7 @@ def gen_home():
         ctx["domaines"] = [
             {"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in i18n.DOMAINES
         ]
+        ctx["press_pdf_url"] = f"{BASE_DOMAIN}/static/downloads/etude-aj-cantons-{lang}.pdf"
         write_page(path, render("home.html", ctx))
 
 

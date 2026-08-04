@@ -395,6 +395,11 @@ UI = {
         "blog_intro": "Des articles précis pour comprendre vos droits en Suisse, domaine de droit par domaine de droit.",
         "all_blog_articles": "Tous les articles",
         "call_now": "Appeler", "visit_site_cta": "Visiter le site",
+        "press_study_kicker": "Étude exclusive Legatis",
+        "press_study_title": "Le prix cantonal de la pauvreté",
+        "press_study_desc": "D'aucune majoration à 30% : comment 26 cantons suisses calculent différemment qui est « assez pauvre » pour obtenir l'assistance judiciaire.",
+        "press_study_cta": "Télécharger l'étude (PDF)",
+        "press_study_meta": "16 pages, 135+ décisions de justice vérifiées",
     },
     "de": {
         "site_name": "Legatis",
@@ -429,6 +434,11 @@ UI = {
         "blog_intro": "Präzise Artikel, um Ihre Rechte in der Schweiz zu verstehen, Rechtsgebiet für Rechtsgebiet.",
         "all_blog_articles": "Alle Artikel",
         "call_now": "Anrufen", "visit_site_cta": "Website besuchen",
+        "press_study_kicker": "Exklusive Legatis-Studie",
+        "press_study_title": "Der kantonale Preis der Armut",
+        "press_study_desc": "Von keinem Zuschlag bis zu 30%: Wie 26 Schweizer Kantone unterschiedlich berechnen, wer «arm genug» ist, um unentgeltliche Rechtspflege zu erhalten.",
+        "press_study_cta": "Studie herunterladen (PDF)",
+        "press_study_meta": "16 Seiten, über 135 überprüfte Gerichtsentscheide",
     },
     "it": {
         "site_name": "Legatis",
@@ -464,6 +474,11 @@ UI = {
         "blog_intro": "Articoli precisi per capire i vostri diritti in Svizzera, ambito del diritto per ambito del diritto.",
         "all_blog_articles": "Tutti gli articoli",
         "call_now": "Chiama", "visit_site_cta": "Visita il sito",
+        "press_study_kicker": "Studio esclusivo Legatis",
+        "press_study_title": "Il prezzo cantonale della povertà",
+        "press_study_desc": "Da nessuna maggiorazione al 30%: come 26 Cantoni svizzeri calcolano in modo diverso chi è \"abbastanza povero\" per ottenere il gratuito patrocinio.",
+        "press_study_cta": "Scarica lo studio (PDF)",
+        "press_study_meta": "16 pagine, oltre 135 decisioni giudiziarie verificate",
     },
     "en": {
         "site_name": "Legatis",
@@ -497,6 +512,11 @@ UI = {
         "blog_intro": "Precise articles to understand your rights in Switzerland, one practice area at a time.",
         "all_blog_articles": "All articles",
         "call_now": "Call", "visit_site_cta": "Visit website",
+        "press_study_kicker": "Exclusive Legatis study",
+        "press_study_title": "The Cantonal Price of Poverty",
+        "press_study_desc": "From no surcharge to 30%: how 26 Swiss cantons calculate differently who is \"poor enough\" to receive legal aid.",
+        "press_study_cta": "Download the study (PDF)",
+        "press_study_meta": "16 pages, 135+ verified court decisions",
     },
 }
 

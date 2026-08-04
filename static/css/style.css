@@ -332,3 +332,42 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   .footer-grid{ grid-template-columns:1fr 1fr; }
   .badge-box{ flex-direction:column; }
 }
+
+/* -- bandeau presse (etude AJ) -- */
+.press-band{
+  background:var(--ink-950);
+  color:var(--paper-0);
+  border-bottom:3px solid var(--accent-600);
+}
+.press-band-inner{
+  display:flex; align-items:center; justify-content:space-between; gap:var(--space-2xl);
+  padding-block:var(--space-2xl);
+  flex-wrap:wrap;
+}
+.press-band-text{ max-width:62ch; }
+.press-band-kicker{
+  font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;
+  color:oklch(78% 0.12 75); margin-bottom:var(--space-sm);
+}
+.press-band-title{
+  font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:#fff;
+  margin:0 0 var(--space-sm) 0; line-height:1.25;
+}
+.press-band-desc{
+  font-size:0.95rem; color:var(--paper-200); margin:0 0 var(--space-sm) 0; line-height:1.55;
+}
+.press-band-meta{
+  font-size:0.78rem; color:var(--paper-300); font-weight:500; letter-spacing:0.01em;
+}
+.press-band-cta{
+  display:inline-block; flex-shrink:0; white-space:nowrap;
+  background:var(--accent-600); color:#fff; text-decoration:none;
+  font-weight:600; font-size:0.92rem; padding:14px 28px; border-radius:6px;
+  border:1px solid var(--accent-600);
+}
+.press-band-cta:hover{ background:var(--accent-500); border-color:var(--accent-500); }
+
+@media (max-width:760px){
+  .press-band-inner{ flex-direction:column; align-items:flex-start; }
+  .press-band-cta{ width:100%; text-align:center; }
+}
