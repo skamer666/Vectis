@@ -91,8 +91,11 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   gap:var(--space-xl);
 }
 .brand{
-  display:flex; align-items:baseline; gap:var(--space-sm);
+  display:flex; align-items:center; gap:var(--space-sm);
   text-decoration:none;
+}
+.brand-icon{
+  width:28px; height:28px; flex:none; color:var(--ink-950);
 }
 .brand-mark{
   font-family:var(--font-display); font-weight:700; font-size:1.5rem;
