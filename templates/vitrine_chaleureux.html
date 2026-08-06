@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <div class="vc-hero">
+    {% if photo_url %}<img class="vc-hero-photo" src="{{ photo_url }}" alt="{{ nom_complet }}" loading="lazy">{% endif %}
+    <div>
+      <div class="vc-hero-kicker">{{ ui.bar_admission }} &middot; {{ canton_name }}</div>
+      <h1>{{ nom_complet }}</h1>
+      {% if accroche %}<p class="vc-hero-tagline">{{ accroche }}</p>{% endif %}
+      <p class="profile-sub" style="margin-top:var(--space-sm);">
+        {% if ville %}{{ ville }}{% endif %}{% if langues %} &middot; {{ langues | join(", ") }}{% endif %}
+      </p>
+    </div>
+  </div>
+
+  <div class="vc-body">
+    {% if telephone or email or site_web %}
+    <div class="cta-row">
+      {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
+      {% if email %}<a class="cta-btn{% if not telephone %} is-primary{% endif %}" href="mailto:{{ email }}">{{ ui.email }}</a>{% endif %}
+      {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if bio %}<p class="presentation">{{ bio }}</p>{% endif %}
+    {% if citation %}<p class="vc-quote">&laquo;&nbsp;{{ citation }}&nbsp;&raquo;</p>{% endif %}
+
+    {% if specialites %}
+    <section class="section" style="padding-block:var(--space-xl);">
+      <h2 style="margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>
+      <div class="tag-list">
+        {% for d in specialites %}<a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>{% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if distinctions %}
+    <section class="section" style="padding-block:var(--space-xl);">
+      <h2 style="margin-bottom:var(--space-lg);">{{ ui.distinctions_title }}</h2>
+      <ul class="vitrine-distinctions">
+        {% for d in distinctions %}<li>{{ d }}</li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if linkedin %}<p><a href="{{ linkedin }}" rel="nofollow noopener" target="_blank">LinkedIn</a></p>{% endif %}
+
+    {% include "_badge_box.html" %}
+
+    <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.85rem; color:var(--text-muted);">
+      {{ ui.vitrine_registry_note }} <a href="{{ registry_url }}">{{ ui.vitrine_registry_link }}</a>
+    </p>
+  </div>
+</div>
+{% endblock %}

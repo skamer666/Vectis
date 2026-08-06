@@ -22,11 +22,12 @@ import guides_content
 import blog_content
 import calc_widget
 import aj_study_content as aj
+import vitrine_content
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
-    blog_index_path, blog_article_path, etude_aj_path,
+    blog_index_path, blog_article_path, etude_aj_path, vitrine_request_path, vitrine_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -1631,6 +1632,123 @@ def gen_etude_aj():
         write_page(path, render("etude_aj.html", ctx))
 
 
+
+VITRINE_SPECIALITES_ORDER = list(i18n.DOMAINES.keys())
+
+
+def gen_vitrine_request():
+    """Page publique du formulaire de demande de vitrine avocat."""
+    for lang in LANGS:
+        path = vitrine_request_path(lang)
+        f = vitrine_content.FORM[lang]
+        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(vitrine_request_path))
+        ctx["f"] = f
+        ctx["search_index_url"] = f"/search-index-{lang}.json"
+        ctx["template_options"] = [
+            {"id": tid, "label": vitrine_content.TEMPLATES[tid][lang]["label"], "desc": vitrine_content.TEMPLATES[tid][lang]["desc"]}
+            for tid in vitrine_content.TEMPLATE_ORDER
+        ]
+        ctx["accent_options"] = [
+            {"id": aid, "label": label[lang]} for aid, label in vitrine_content.ACCENT_COLORS.items()
+        ]
+        ctx["specialites_options"] = [
+            {"id": did, "name": i18n.DOMAINES[did][lang]["name"]} for did in VITRINE_SPECIALITES_ORDER
+        ]
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
+        write_page(path, render("vitrine_demande.html", ctx))
+
+
+ACCENT_CSS_VARS = {"bordeaux": "var(--accent-600)", "encre": "var(--ink-950)"}
+
+
+def _load_vitrine_submissions(subdir):
+    out = []
+    d = os.path.join(DATA_DIR, "vitrines", subdir)
+    if not os.path.isdir(d):
+        return out
+    for fname in sorted(os.listdir(d)):
+        if not fname.endswith(".json"):
+            continue
+        with open(os.path.join(d, fname), encoding="utf-8") as fh:
+            try:
+                out.append(json.load(fh))
+            except json.JSONDecodeError:
+                continue
+    return out
+
+
+def _vitrine_page_ctx(sub, lang):
+    locked = sub.get("locked", {})
+    free = sub.get("free", {})
+    canton_code = locked.get("canton") or (sub.get("registry_match") or {}).get("code")
+    canton_name = i18n.CANTONS.get(canton_code, {}).get(lang, {}).get("name", locked.get("canton_name", ""))
+    specialites = [
+        {"id": did, "name": i18n.DOMAINES[did][lang]["name"], "url": domaine_path(did, lang)}
+        for did in (free.get("specialites") or []) if did in i18n.DOMAINES
+    ]
+    photo_filename = free.get("photo_filename")
+    return {
+        "nom_complet": locked.get("nom_complet", ""),
+        "canton_name": canton_name,
+        "ville": locked.get("ville", ""),
+        "langues": locked.get("langues", []),
+        "photo_url": f"/static/vitrines/photos/{photo_filename}" if photo_filename else None,
+        "accroche": free.get("accroche"),
+        "bio": free.get("bio"),
+        "citation": free.get("citation"),
+        "specialites": specialites,
+        "distinctions": free.get("distinctions") or [],
+        "site_web": free.get("site_web"),
+        "site_web_href": free.get("site_web"),
+        "linkedin": free.get("linkedin"),
+        "telephone": sub.get("contact_phone"),
+        "email": sub.get("contact_email"),
+        "registry_url": avocat_path(canton_code, (sub.get("registry_match") or {}).get("slug", ""), lang) if canton_code else None,
+    }
+
+
+def gen_vitrines():
+    """Genere les pages vitrine publiques pour chaque demande approuvee
+    (data/vitrines/approved/*.json), dans les 4 langues. Voir
+    data/vitrines/README.md pour le cycle de vie complet."""
+    for sub in _load_vitrine_submissions("approved"):
+        slug = sub.get("slug")
+        if not slug:
+            continue
+        template = sub.get("template") if sub.get("template") in vitrine_content.TEMPLATE_ORDER else "prestige"
+        for lang in LANGS:
+            path = vitrine_path(slug, lang)
+            pctx = _vitrine_page_ctx(sub, lang)
+            title = f"{pctx['nom_complet']} | Legatis"
+            desc = (pctx.get("accroche") or pctx.get("bio") or "")[:158]
+            ctx = base_ctx(lang, path, title, desc, {lg: vitrine_path(slug, lg) for lg in LANGS})
+            ctx.update(pctx)
+            ctx["noindex"] = False
+            write_page(path, render(f"vitrine_{template}.html", ctx))
+
+
+def gen_vitrine_review():
+    """Page interne (noindex) listant les demandes en attente, pour
+    validation visuelle par Greg avant deplacement pending -> approved."""
+    pending = _load_vitrine_submissions("pending")
+    lang = "fr"
+    path = "/interne/vitrines-en-attente/"
+    ctx = base_ctx(lang, path, "Vitrines en attente | Legatis (interne)", "Page interne de revision.", {})
+    ctx["noindex"] = True
+    ctx["pending"] = []
+    for sub in pending:
+        pctx = _vitrine_page_ctx(sub, lang)
+        ctx["pending"].append({
+            "slug": sub.get("slug"),
+            "submitted_at": sub.get("submitted_at"),
+            "template": sub.get("template"),
+            "contact_email": sub.get("contact_email"),
+            "registry_verified": (sub.get("registry_match") or {}).get("verified", False),
+            **pctx,
+        })
+    write_page(path, render("vitrine_review.html", ctx))
+
+
 def gen_blog():
     """Blog juridique : contenu edite dans blog_content.BLOG_ARTICLES. Toutes
     les langues ne sont pas forcement encore ecrites pour chaque article
@@ -1916,6 +2034,7 @@ def gen_robots():
         "User-agent: *\n"
         "Allow: /\n"
         "Disallow: /search-index-*.json\n"
+        "Disallow: /interne/\n"
         "\n"
         f"Sitemap: {BASE_DOMAIN}/sitemap.xml\n"
     )
@@ -1932,6 +2051,7 @@ def gen_search():
                 "etude": r.get("etude", ""),
                 "ville": r.get("ville", ""),
                 "url": avocat_path("GE", r["_slug"], lang),
+                "type": "avocat", "code": "GE", "slug": r["_slug"],
             })
         for r in GE_FIRMS:
             index.append({
@@ -1947,6 +2067,7 @@ def gen_search():
                     "etude": r.get("etude", ""),
                     "ville": r.get("ville", ""),
                     "url": avocat_path(code, r["_slug"], lang),
+                    "type": "avocat", "code": code, "slug": r["_slug"],
                 })
             for f in data["firms"]:
                 index.append({
@@ -1983,6 +2104,9 @@ if __name__ == "__main__":
         gen_guides()
         gen_blog()
         gen_etude_aj()
+        gen_vitrine_request()
+        gen_vitrines()
+        gen_vitrine_review()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
@@ -2044,6 +2168,9 @@ if __name__ == "__main__":
         gen_guides()
         gen_blog()
         gen_etude_aj()
+        gen_vitrine_request()
+        gen_vitrines()
+        gen_vitrine_review()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()

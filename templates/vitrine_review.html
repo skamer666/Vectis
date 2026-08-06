@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">Interne</div>
+    <h1>Vitrines en attente ({{ pending | length }})</h1>
+    <p class="lede">Page non indexee. Pour publier une demande : deplacer le fichier JSON de
+      <code>data/vitrines/pending/</code> vers <code>data/vitrines/approved/</code>, puis rebuild.</p>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    {% if not pending %}
+    <p>Aucune demande en attente.</p>
+    {% endif %}
+    {% for p in pending %}
+    <div class="canton-card" style="margin-bottom:var(--space-lg);">
+      <div class="canton-card-head">
+        <span class="canton-card-name">{{ p.nom_complet }} <span class="canton-card-code">({{ p.ville }})</span></span>
+        <span class="tag is-accent">{{ p.template }}</span>
+        {% if p.registry_verified %}<span class="tag">registre verifie</span>{% else %}<span class="tag is-warn">a verifier manuellement</span>{% endif %}
+      </div>
+      <div class="canton-card-body is-open">
+        <p class="decision-meta">Soumis le {{ p.submitted_at }} &middot; contact : {{ p.contact_email }} &middot; slug : {{ p.slug }}</p>
+        {% if p.photo_url %}<img src="{{ p.photo_url }}" alt="" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin:8px 0;">{% endif %}
+        {% if p.accroche %}<p><em>{{ p.accroche }}</em></p>{% endif %}
+        {% if p.bio %}<p>{{ p.bio }}</p>{% endif %}
+        {% if p.citation %}<p class="canton-note">&laquo; {{ p.citation }} &raquo;</p>{% endif %}
+        {% if p.specialites %}<p>Specialites : {% for s in p.specialites %}{{ s.name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+        {% if p.site_web %}<p>Site : <a href="{{ p.site_web }}" target="_blank" rel="noopener">{{ p.site_web }}</a></p>{% endif %}
+        {% if p.registry_url %}<p><a href="{{ p.registry_url }}">Voir la fiche registre correspondante</a></p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

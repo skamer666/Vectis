@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ ui.vitrine_request_cta }}</div>
+    <h1>{{ f.title }}</h1>
+    <p class="lede">{{ f.intro }}</p>
+  </section>
+
+  <section class="section vitrine-form-section" style="padding-top:0; max-width:70ch;">
+    <form id="vitrine-form" novalidate>
+
+      <div class="vform-block">
+        <h2>{{ f.step1_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step1_help }}</p>
+        <input type="text" id="vf-search" class="vform-search-input" placeholder="{{ f.step1_search_placeholder }}" autocomplete="off">
+        <div id="vf-search-results" class="vform-search-results"></div>
+        <div id="vf-selected" class="vform-selected" hidden>
+          <span>{{ f.step1_selected }} <strong id="vf-selected-name"></strong> (<span id="vf-selected-ville"></span>)</span>
+          <button type="button" id="vf-change-btn" class="cta-btn">{{ f.step1_change }}</button>
+        </div>
+        <p class="calc-source">{{ f.step1_not_found }}</p>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step2_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step2_help }}</p>
+        <div class="vform-template-grid">
+          {% for t in template_options %}
+          <label class="vform-template-card">
+            <input type="radio" name="template" value="{{ t.id }}" {% if loop.first %}checked{% endif %}>
+            <span class="vform-template-name">{{ t.label }}</span>
+            <span class="vform-template-desc">{{ t.desc }}</span>
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step3_title }}</h2>
+        <div class="calc-grid">
+          <label class="calc-field">{{ f.field_photo }}
+            <input type="file" id="vf-photo" accept="image/jpeg,image/png" required>
+            <span class="calc-disclaimer" style="margin:4px 0 0;">{{ f.field_photo_help }}</span>
+          </label>
+          <label class="calc-field">{{ f.field_accroche }}
+            <input type="text" id="vf-accroche" maxlength="140" placeholder="{{ f.field_accroche_placeholder }}">
+          </label>
+          <label class="calc-field">{{ f.field_bio }}
+            <textarea id="vf-bio" rows="5" maxlength="2000" placeholder="{{ f.field_bio_placeholder }}"></textarea>
+          </label>
+          <label class="calc-field">{{ f.field_citation }}
+            <input type="text" id="vf-citation" maxlength="200">
+          </label>
+          <label class="calc-field">{{ f.field_specialites }}
+            <div class="vform-checkbox-grid" id="vf-specialites">
+              {% for d in specialites_options %}
+              <label class="vform-checkbox"><input type="checkbox" name="specialites" value="{{ d.id }}"> {{ d.name }}</label>
+              {% endfor %}
+            </div>
+          </label>
+          <label class="calc-field">{{ f.field_distinctions }}
+            <textarea id="vf-distinctions" rows="3"></textarea>
+          </label>
+          <label class="calc-field">{{ f.field_site_web }}
+            <input type="url" id="vf-site-web" placeholder="https://">
+          </label>
+          <label class="calc-field">{{ f.field_linkedin }}
+            <input type="url" id="vf-linkedin" placeholder="https://www.linkedin.com/in/...">
+          </label>
+          <label class="calc-field">{{ f.field_accent }}
+            <select id="vf-accent">
+              {% for a in accent_options %}<option value="{{ a.id }}">{{ a.label }}</option>{% endfor %}
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step4_title }}</h2>
+        <div class="calc-grid">
+          <label class="calc-field">{{ f.field_contact_email }}
+            <input type="email" id="vf-email" required>
+          </label>
+          <label class="calc-field">{{ f.field_contact_phone }}
+            <input type="tel" id="vf-phone">
+          </label>
+        </div>
+      </div>
+
+      <label class="vform-consent">
+        <input type="checkbox" id="vf-consent">
+        {{ f.consent }}
+      </label>
+
+      <div id="vf-error" class="vform-error" hidden></div>
+
+      <button type="submit" class="cta-btn is-primary" id="vf-submit">{{ f.submit }}</button>
+
+      <div id="vf-success" class="vform-success" hidden>
+        <strong>{{ f.success_title }}</strong>
+        <p>{{ f.success_text }}</p>
+      </div>
+    </form>
+  </section>
+</div>
+
+<script>
+(function() {
+  var STR = {{ f | tojson }};
+  var searchIndexUrl = {{ search_index_url | tojson }};
+  var submitUrl = "/api/vitrine-submit";
+  var lang = {{ lang | tojson }};
+
+  var searchInput = document.getElementById('vf-search');
+  var searchResults = document.getElementById('vf-search-results');
+  var selectedBox = document.getElementById('vf-selected');
+  var selectedName = document.getElementById('vf-selected-name');
+  var selectedVille = document.getElementById('vf-selected-ville');
+  var changeBtn = document.getElementById('vf-change-btn');
+  var form = document.getElementById('vitrine-form');
+  var errorBox = document.getElementById('vf-error');
+  var submitBtn = document.getElementById('vf-submit');
+  var successBox = document.getElementById('vf-success');
+
+  var index = null;
+  var selectedMatch = null;
+
+  function normalize(s) {
+    return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  fetch(searchIndexUrl).then(function(r) { return r.json(); }).then(function(json) {
+    index = json.filter(function(item) { return item.type === 'avocat'; });
+  });
+
+  function renderResults(query) {
+    searchResults.innerHTML = '';
+    if (!index || !query) return;
+    var q = normalize(query);
+    var matches = index.filter(function(item) { return normalize(item.nom).indexOf(q) !== -1; }).slice(0, 8);
+    matches.forEach(function(item) {
+      var row = document.createElement('div');
+      row.className = 'vform-search-row';
+      row.textContent = item.nom + ' - ' + (item.ville || '') + ' (' + item.code + ')';
+      row.addEventListener('click', function() {
+        selectedMatch = item;
+        selectedName.textContent = item.nom;
+        selectedVille.textContent = item.ville || '';
+        selectedBox.hidden = false;
+        searchInput.value = '';
+        searchResults.innerHTML = '';
+        searchInput.hidden = true;
+      });
+      searchResults.appendChild(row);
+    });
+  }
+
+  searchInput.addEventListener('input', function() { renderResults(searchInput.value); });
+  changeBtn.addEventListener('click', function() {
+    selectedMatch = null;
+    selectedBox.hidden = true;
+    searchInput.hidden = false;
+    searchInput.focus();
+  });
+
+  function fileToBase64(file) {
+    return new Promise(function(resolve, reject) {
+      var reader = new FileReader();
+      reader.onload = function() { resolve(reader.result); };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorBox.hidden = true;
+
+    if (!selectedMatch) { showError(STR.error_missing_match); return; }
+    var photoInput = document.getElementById('vf-photo');
+    if (!photoInput.files || !photoInput.files[0]) { showError(STR.error_missing_photo); return; }
+    if (!document.getElementById('vf-consent').checked) { showError(STR.error_missing_consent); return; }
+
+    var templateChoice = form.querySelector('input[name="template"]:checked').value;
+    var specialites = Array.prototype.slice.call(form.querySelectorAll('input[name="specialites"]:checked')).map(function(el) { return el.value; });
+    var distinctions = (document.getElementById('vf-distinctions').value || '').split('\n').map(function(s) { return s.trim(); }).filter(Boolean);
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = STR.submitting;
+
+    fileToBase64(photoInput.files[0]).then(function(photoDataUrl) {
+      var payload = {
+        lang: lang,
+        registry_match: selectedMatch,
+        template: templateChoice,
+        accroche: document.getElementById('vf-accroche').value,
+        bio: document.getElementById('vf-bio').value,
+        citation: document.getElementById('vf-citation').value,
+        specialites: specialites,
+        distinctions: distinctions,
+        site_web: document.getElementById('vf-site-web').value,
+        linkedin: document.getElementById('vf-linkedin').value,
+        accent_color: document.getElementById('vf-accent').value,
+        contact_email: document.getElementById('vf-email').value,
+        contact_phone: document.getElementById('vf-phone').value,
+        photo_data_url: photoDataUrl,
+        photo_filename: photoInput.files[0].name,
+      };
+      return fetch(submitUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+    }).then(function(r) {
+      if (!r.ok) throw new Error('submit failed');
+      form.hidden = true;
+      successBox.hidden = false;
+    }).catch(function() {
+      showError(STR.error_generic);
+      submitBtn.disabled = false;
+      submitBtn.textContent = STR.submit;
+    });
+  });
+})();
+</script>
+{% endblock %}

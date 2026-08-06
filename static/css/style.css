@@ -467,3 +467,112 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   .canton-card-toggle{ margin-left:0; }
   .rate-chart-value{ text-align:left; }
 }
+
+/* -- vitrines avocat (pages personnelles, demande via formulaire) -- */
+.vitrine-badge-request{
+  display:inline-block; font-size:0.72rem; font-weight:700; letter-spacing:0.06em;
+  text-transform:uppercase; color:var(--accent-600); margin-bottom:var(--space-sm);
+}
+
+/* Template "prestige" : hero sombre, formel, symetrique */
+.vp-hero{
+  background:var(--ink-950); color:var(--paper-0);
+  padding-block:var(--space-4xl); text-align:center;
+}
+.vp-hero-photo{
+  width:148px; height:148px; border-radius:50%; object-fit:cover;
+  border:3px solid oklch(78% 0.12 75); margin:0 auto var(--space-xl);
+  display:block;
+}
+.vp-hero-kicker{
+  font-size:0.75rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
+  color:oklch(78% 0.12 75); margin-bottom:var(--space-md);
+}
+.vp-hero h1{ color:#fff; max-width:none; font-size:clamp(1.8rem,1.4rem + 1.6vw,2.8rem); }
+.vp-hero-tagline{ color:var(--paper-200); font-size:1.1rem; font-style:italic; max-width:44ch; margin:var(--space-md) auto 0; }
+.vp-hero-meta{ color:var(--paper-300); font-size:0.88rem; margin-top:var(--space-lg); }
+.vp-body{ max-width:68ch; margin-inline:auto; padding-block:var(--space-3xl); text-align:left; }
+.vp-quote{
+  font-family:var(--font-display); font-size:1.3rem; font-style:italic; color:var(--ink-950);
+  text-align:center; max-width:52ch; margin:var(--space-2xl) auto; line-height:1.5;
+  border-top:1px solid var(--border-strong); border-bottom:1px solid var(--border-strong);
+  padding-block:var(--space-xl);
+}
+
+/* Template "moderne" : minimaliste, asymetrique, beaucoup de blanc */
+.vm-hero{
+  display:grid; grid-template-columns:1fr 1.4fr; gap:var(--space-3xl); align-items:center;
+  padding-block:var(--space-4xl); border-bottom:1px solid var(--border-strong);
+}
+.vm-hero-photo{ width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:4px; }
+.vm-hero-kicker{ font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent-600); margin-bottom:var(--space-md); }
+.vm-hero h1{ max-width:none; font-size:clamp(2rem,1.5rem + 2vw,3.2rem); }
+.vm-hero-tagline{ font-size:1.05rem; color:var(--text-secondary); margin-top:var(--space-md); }
+.vm-body{ max-width:66ch; padding-block:var(--space-2xl); }
+.vm-quote{
+  font-size:1.1rem; color:var(--accent-700); border-left:3px solid var(--accent-600);
+  padding-left:var(--space-lg); margin:var(--space-xl) 0; font-style:italic;
+}
+@media (max-width:760px){ .vm-hero{ grid-template-columns:1fr; } }
+
+/* Template "chaleureux" : chaud, humain, arrondi */
+.vc-hero{
+  background:var(--paper-100); border-radius:20px; padding:var(--space-3xl);
+  display:flex; gap:var(--space-2xl); align-items:center; flex-wrap:wrap; margin-block:var(--space-2xl);
+}
+.vc-hero-photo{ width:160px; height:160px; border-radius:24px; object-fit:cover; flex-shrink:0; }
+.vc-hero-kicker{ font-size:0.75rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent-600); margin-bottom:var(--space-sm); }
+.vc-hero h1{ max-width:none; }
+.vc-hero-tagline{ font-size:1.05rem; color:var(--text-secondary); margin-top:var(--space-sm); }
+.vc-body{ max-width:66ch; margin-inline:auto; padding-block:var(--space-2xl); }
+.vc-quote{
+  background:var(--accent-50); border-radius:16px; padding:var(--space-xl);
+  font-style:italic; color:var(--accent-700); font-size:1.05rem; margin:var(--space-xl) 0;
+}
+
+.vitrine-distinctions{ list-style:none; margin:var(--space-lg) 0; padding:0; }
+.vitrine-distinctions li{
+  padding:8px 0; border-bottom:1px solid var(--border); font-size:0.92rem; color:var(--text-secondary);
+}
+.vitrine-distinctions li::before{ content:"\2726  "; color:var(--accent-600); }
+
+/* -- formulaire de demande de vitrine -- */
+.vform-block{ margin-block:var(--space-2xl); padding-top:var(--space-xl); border-top:1px solid var(--border-strong); }
+.vform-block:first-child{ border-top:none; padding-top:0; }
+.vform-block h2{ margin-bottom:var(--space-sm); }
+.vform-search-input{
+  width:100%; box-sizing:border-box; padding:12px 14px; font-size:1rem; font-family:var(--font-body);
+  border:1px solid var(--border-strong); border-radius:6px; margin-top:var(--space-sm);
+}
+.vform-search-results{ margin-top:4px; }
+.vform-search-row{
+  padding:10px 14px; border:1px solid var(--border); border-top:none; cursor:pointer; font-size:0.92rem;
+}
+.vform-search-row:first-child{ border-top:1px solid var(--border); border-radius:6px 6px 0 0; }
+.vform-search-row:last-child{ border-radius:0 0 6px 6px; }
+.vform-search-row:hover{ background:var(--paper-50); }
+.vform-selected{
+  display:flex; align-items:center; justify-content:space-between; gap:var(--space-md);
+  padding:12px 16px; background:var(--accent-50); border:1px solid var(--accent-100); border-radius:6px;
+  margin-top:var(--space-sm); font-size:0.92rem;
+}
+.vform-template-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:var(--space-md); margin-top:var(--space-md); }
+.vform-template-card{
+  display:flex; flex-direction:column; gap:4px; padding:var(--space-lg); border:2px solid var(--border-strong);
+  border-radius:8px; cursor:pointer; position:relative;
+}
+.vform-template-card input{ position:absolute; top:12px; right:12px; }
+.vform-template-card:has(input:checked){ border-color:var(--accent-600); background:var(--accent-50); }
+.vform-template-name{ font-family:var(--font-display); font-weight:600; font-size:1.05rem; }
+.vform-template-desc{ font-size:0.85rem; color:var(--text-muted); }
+.vform-checkbox-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:8px; margin-top:6px; }
+.vform-checkbox{ display:flex; align-items:center; gap:6px; font-size:0.88rem; font-weight:400; }
+.vform-consent{ display:flex; align-items:flex-start; gap:10px; font-size:0.88rem; color:var(--text-secondary); margin:var(--space-xl) 0; }
+.vform-error{
+  background:oklch(95% 0.05 25); border:1px solid oklch(75% 0.15 25); color:oklch(35% 0.15 25);
+  padding:12px 16px; border-radius:6px; margin-bottom:var(--space-lg); font-size:0.9rem;
+}
+.vform-success{
+  background:var(--accent-50); border:1px solid var(--accent-100); border-radius:8px;
+  padding:var(--space-xl); margin-top:var(--space-lg);
+}
