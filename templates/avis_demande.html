@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ ui.avis_title if ui.avis_title else f.title }}</div>
+    <h1>{{ f.title }}</h1>
+    <p class="lede">{{ f.intro }}</p>
+  </section>
+
+  <section class="section vitrine-form-section" style="padding-top:0; max-width:70ch;">
+    <form id="avis-form" novalidate>
+
+      <div class="vform-block">
+        <h2>{{ f.step1_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step1_help }}</p>
+        <input type="text" id="af-search" class="vform-search-input" placeholder="{{ f.step1_search_placeholder }}" autocomplete="off">
+        <div id="af-search-results" class="vform-search-results"></div>
+        <div id="af-selected" class="vform-selected" hidden>
+          <span>{{ f.step1_selected }} <strong id="af-selected-name"></strong> (<span id="af-selected-ville"></span>)</span>
+          <button type="button" id="af-change-btn" class="cta-btn">{{ f.step1_change }}</button>
+        </div>
+        <p class="calc-source">{{ f.step1_not_found }}</p>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step2_title }}</h2>
+        <label class="calc-field" style="border:none; padding:0;">{{ f.field_rating }}
+          <div class="star-rating" role="radiogroup" aria-label="{{ f.field_rating }}">
+            <input type="radio" id="af-star5" name="rating" value="5"><label for="af-star5" title="5">★</label>
+            <input type="radio" id="af-star4" name="rating" value="4"><label for="af-star4" title="4">★</label>
+            <input type="radio" id="af-star3" name="rating" value="3"><label for="af-star3" title="3">★</label>
+            <input type="radio" id="af-star2" name="rating" value="2"><label for="af-star2" title="2">★</label>
+            <input type="radio" id="af-star1" name="rating" value="1"><label for="af-star1" title="1">★</label>
+          </div>
+        </label>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step3_title }}</h2>
+        <div class="calc-grid">
+          <label class="calc-field">{{ f.field_title }}
+            <input type="text" id="af-title" maxlength="140" placeholder="{{ f.field_title_placeholder }}">
+          </label>
+          <label class="calc-field">{{ f.field_body }}
+            <textarea id="af-body" rows="6" maxlength="3000" placeholder="{{ f.field_body_placeholder }}"></textarea>
+          </label>
+          <label class="calc-field">{{ f.field_reviewer_name }}
+            <input type="text" id="af-reviewer-name" maxlength="100" placeholder="{{ f.field_reviewer_name_placeholder }}">
+          </label>
+        </div>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ f.step4_title }}</h2>
+        <div class="calc-grid">
+          <label class="calc-field">{{ f.field_contact_email }}
+            <input type="email" id="af-email" required>
+          </label>
+        </div>
+      </div>
+
+      <input type="text" id="af-hp" name="website" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" aria-hidden="true">
+
+      <label class="vform-consent">
+        <input type="checkbox" id="af-consent">
+        {{ f.consent }}
+      </label>
+
+      <div id="af-error" class="vform-error" hidden></div>
+
+      <button type="submit" class="cta-btn is-primary" id="af-submit">{{ f.submit }}</button>
+
+      <div id="af-success" class="vform-success" hidden>
+        <strong>{{ f.success_title }}</strong>
+        <p>{{ f.success_text }}</p>
+      </div>
+    </form>
+  </section>
+</div>
+
+<script>
+(function() {
+  var STR = {{ f | tojson }};
+  var searchIndexUrl = {{ search_index_url | tojson }};
+  var submitUrl = "/api/review-submit";
+  var lang = {{ lang | tojson }};
+
+  var searchInput = document.getElementById('af-search');
+  var searchResults = document.getElementById('af-search-results');
+  var selectedBox = document.getElementById('af-selected');
+  var selectedName = document.getElementById('af-selected-name');
+  var selectedVille = document.getElementById('af-selected-ville');
+  var changeBtn = document.getElementById('af-change-btn');
+  var form = document.getElementById('avis-form');
+  var errorBox = document.getElementById('af-error');
+  var submitBtn = document.getElementById('af-submit');
+  var successBox = document.getElementById('af-success');
+
+  var index = null;
+  var selectedMatch = null;
+
+  function normalize(s) {
+    return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  fetch(searchIndexUrl).then(function(r) { return r.json(); }).then(function(json) {
+    index = json.filter(function(item) { return item.type === 'avocat'; });
+  });
+
+  function renderResults(query) {
+    searchResults.innerHTML = '';
+    if (!index || !query) return;
+    var q = normalize(query);
+    var matches = index.filter(function(item) { return normalize(item.nom).indexOf(q) !== -1; }).slice(0, 8);
+    matches.forEach(function(item) {
+      var row = document.createElement('div');
+      row.className = 'vform-search-row';
+      row.textContent = item.nom + ' - ' + (item.ville || '') + ' (' + item.code + ')';
+      row.addEventListener('click', function() {
+        selectedMatch = item;
+        selectedName.textContent = item.nom;
+        selectedVille.textContent = item.ville || '';
+        selectedBox.hidden = false;
+        searchInput.value = '';
+        searchResults.innerHTML = '';
+        searchInput.hidden = true;
+      });
+      searchResults.appendChild(row);
+    });
+  }
+
+  searchInput.addEventListener('input', function() { renderResults(searchInput.value); });
+  changeBtn.addEventListener('click', function() {
+    selectedMatch = null;
+    selectedBox.hidden = true;
+    searchInput.hidden = false;
+    searchInput.focus();
+  });
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.hidden = false;
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorBox.hidden = true;
+
+    if (!selectedMatch) { showError(STR.error_missing_match); return; }
+    var ratingEl = form.querySelector('input[name="rating"]:checked');
+    if (!ratingEl) { showError(STR.error_missing_rating); return; }
+    var body = document.getElementById('af-body').value.trim();
+    if (!body) { showError(STR.error_missing_body); return; }
+    if (!document.getElementById('af-consent').checked) { showError(STR.error_missing_consent); return; }
+
+    var payload = {
+      lang: lang,
+      registry_match: selectedMatch,
+      rating: parseInt(ratingEl.value, 10),
+      title: document.getElementById('af-title').value,
+      body: body,
+      reviewer_name: document.getElementById('af-reviewer-name').value,
+      contact_email: document.getElementById('af-email').value,
+      website: document.getElementById('af-hp').value,
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = STR.submitting;
+
+    fetch(submitUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    }).then(function(r) {
+      if (!r.ok) throw new Error('submit failed');
+      form.hidden = true;
+      successBox.hidden = false;
+    }).catch(function() {
+      showError(STR.error_generic);
+      submitBtn.disabled = false;
+      submitBtn.textContent = STR.submit;
+    });
+  });
+})();
+</script>
+{% endblock %}

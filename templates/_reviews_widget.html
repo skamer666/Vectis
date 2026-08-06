@@ -1,0 +1,71 @@
+{% if supabase_url %}
+<section class="reviews-widget" id="reviews-widget" data-canton="{{ review_canton_code }}" data-slug="{{ review_avocat_slug }}">
+  <div class="section-head">
+    <h2>{{ rw.heading }}</h2>
+    <a class="cta-btn" href="{{ avis_request_url }}">{{ rw.cta }}</a>
+  </div>
+  <div id="reviews-summary" class="reviews-summary" hidden>
+    <span class="stars" id="reviews-avg-stars"></span>
+    <span id="reviews-count-text"></span>
+  </div>
+  <div id="reviews-list">
+    <p class="calc-disclaimer">{{ rw.loading }}</p>
+  </div>
+</section>
+<script>
+(function() {
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+  var STR = {{ rw | tojson }};
+  var widget = document.getElementById('reviews-widget');
+  var canton = widget.dataset.canton;
+  var slug = widget.dataset.slug;
+  var listEl = document.getElementById('reviews-list');
+  var summaryEl = document.getElementById('reviews-summary');
+  var avgStarsEl = document.getElementById('reviews-avg-stars');
+  var countTextEl = document.getElementById('reviews-count-text');
+
+  function starString(n) {
+    var full = Math.round(n);
+    return '★★★★★☆☆☆☆☆'.slice(5 - full, 10 - full);
+  }
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+
+  var url = SUPABASE_URL + '/rest/v1/reviews?canton_code=eq.' + encodeURIComponent(canton) +
+    '&avocat_slug=eq.' + encodeURIComponent(slug) + '&status=eq.approved' +
+    '&select=rating,title,body,reviewer_name,created_at&order=created_at.desc';
+
+  fetch(url, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY } })
+    .then(function(r) { return r.json(); })
+    .then(function(reviews) {
+      if (!Array.isArray(reviews) || reviews.length === 0) {
+        listEl.innerHTML = '<p class="calc-disclaimer">' + escapeHtml(STR.empty) + '</p>';
+        return;
+      }
+      var avg = reviews.reduce(function(s, r) { return s + r.rating; }, 0) / reviews.length;
+      avgStarsEl.textContent = starString(avg);
+      countTextEl.textContent = avg.toFixed(1) + ' - ' + reviews.length + ' ' + (reviews.length === 1 ? STR.based_on_one : STR.based_on_many);
+      summaryEl.hidden = false;
+
+      listEl.innerHTML = reviews.map(function(r) {
+        var name = escapeHtml(r.reviewer_name || STR.anonymous);
+        var date = r.created_at ? new Date(r.created_at).toLocaleDateString() : '';
+        var title = r.title ? '<h4>' + escapeHtml(r.title) + '</h4>' : '';
+        return '<div class="review-card">' +
+          '<div class="stars">' + starString(r.rating) + '</div>' +
+          title +
+          '<p>' + escapeHtml(r.body) + '</p>' +
+          '<p class="review-meta">' + name + (date ? ' - ' + date : '') + '</p>' +
+          '</div>';
+      }).join('');
+    })
+    .catch(function() {
+      listEl.innerHTML = '';
+    });
+})();
+</script>
+{% endif %}

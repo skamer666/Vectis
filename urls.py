@@ -101,6 +101,10 @@ def vitrine_path(slug, lang):
     return f"/{lang}/{seg('vitrine', lang)}/{slug}/"
 
 
+def avis_request_path(lang):
+    return f"/{lang}/{seg('avis-demande', lang)}/"
+
+
 def static_path(lang, depth):
     return "../" * depth + "static/"
 

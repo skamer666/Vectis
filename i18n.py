@@ -543,4 +543,5 @@ SEGMENTS = {
     "etude-aj": {"fr": "etude-assistance-judiciaire", "de": "studie-unentgeltliche-rechtspflege", "it": "studio-gratuito-patrocinio", "en": "legal-aid-study"},
     "vitrine-demande": {"fr": "vitrine-avocat", "de": "anwalt-vitrine", "it": "vetrina-avvocato", "en": "lawyer-showcase"},
     "vitrine": {"fr": "vitrine", "de": "vitrine", "it": "vetrina", "en": "showcase"},
+    "avis-demande": {"fr": "avis-avocat", "de": "anwalt-bewertung", "it": "recensione-avvocato", "en": "lawyer-review"},
 }

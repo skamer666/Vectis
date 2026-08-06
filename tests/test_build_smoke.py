@@ -73,6 +73,36 @@ def test_gen_indexnow_key_writes_expected_file(tmp_path, monkeypatch):
     assert key_file.read_text(encoding="utf-8").strip() == build.INDEXNOW_KEY
 
 
+def test_avis_request_page_renders_without_jinja_artifacts(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
+    build.gen_avis_request()
+    html = (tmp_path / "fr" / "avis-avocat" / "index.html").read_text(encoding="utf-8")
+    assert "{{" not in html and "{%" not in html and "Undefined" not in html
+    assert "Laisser un avis" in html
+
+
+def test_reviews_widget_hidden_when_supabase_not_configured(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
+    monkeypatch.setattr(build.supabase_config, "SUPABASE_URL", "")
+    build.gen_ge_avocats(0, 1)
+    files = list((tmp_path / "fr" / "avocats" / "geneve" / "avocat").glob("*/index.html"))
+    assert files
+    html = files[0].read_text(encoding="utf-8")
+    assert "reviews-widget" not in html
+
+
+def test_reviews_widget_shown_when_supabase_configured(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
+    monkeypatch.setattr(build.supabase_config, "SUPABASE_URL", "https://fake.supabase.co")
+    monkeypatch.setattr(build.supabase_config, "SUPABASE_ANON_KEY", "fake-key")
+    build.gen_ge_avocats(0, 1)
+    files = list((tmp_path / "fr" / "avocats" / "geneve" / "avocat").glob("*/index.html"))
+    assert files
+    html = files[0].read_text(encoding="utf-8")
+    assert "reviews-widget" in html
+    assert 'data-canton="GE"' in html
+
+
 def test_guides_have_matching_faq_schema_structure():
     """Chaque guide doit avoir au moins une question, et chaque FAQ doit
     avoir une question et une reponse non vides, dans les 4 langues."""

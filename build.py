@@ -23,11 +23,14 @@ import blog_content
 import calc_widget
 import aj_study_content as aj
 import vitrine_content
+import review_content
+import supabase_config
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
     blog_index_path, blog_article_path, etude_aj_path, vitrine_request_path, vitrine_path,
+    avis_request_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -114,6 +117,10 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "blog_index_url": blog_index_path(lang),
         "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
         "vitrine_request_url": vitrine_request_path(lang),
+        "avis_request_url": avis_request_path(lang),
+        "supabase_url": supabase_config.SUPABASE_URL,
+        "supabase_anon_key": supabase_config.SUPABASE_ANON_KEY,
+        "rw": review_content.WIDGET[lang],
         "badge_svg_url": badge_svg_url,
         "badge_alt": badge_alt,
         "badge_embed_code": badge_embed_code,
@@ -563,6 +570,8 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                             {lg: avocat_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
+            ctx["review_canton_code"] = "GE"
+            ctx["review_avocat_slug"] = row["_slug"]
             ctx["role_or_titre"] = row.get("fonction") or ""
             ctx["etude"] = row.get("etude") or ""
             ctx["etude_url"] = etude_path("GE", firm_row["_slug"], lang) if firm_row else None
@@ -1265,6 +1274,8 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                             {lg: avocat_path(code, row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
+            ctx["review_canton_code"] = code
+            ctx["review_avocat_slug"] = row["_slug"]
             ctx["role_or_titre"] = row.get("fonction") or ""
             ctx["etude"] = etude_name
             ctx["etude_url"] = etude_path(code, firm_row["_slug"], lang) if firm_row else None
@@ -1657,6 +1668,18 @@ def gen_vitrine_request():
         ]
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
         write_page(path, render("vitrine_demande.html", ctx))
+
+
+def gen_avis_request():
+    """Page publique du formulaire de depot d'avis."""
+    for lang in LANGS:
+        path = avis_request_path(lang)
+        f = review_content.FORM[lang]
+        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(avis_request_path))
+        ctx["f"] = f
+        ctx["search_index_url"] = f"/search-index-{lang}.json"
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
+        write_page(path, render("avis_demande.html", ctx))
 
 
 ACCENT_CSS_VARS = {"bordeaux": "var(--accent-600)", "encre": "var(--ink-950)"}
@@ -2108,6 +2131,7 @@ if __name__ == "__main__":
         gen_vitrine_request()
         gen_vitrines()
         gen_vitrine_review()
+        gen_avis_request()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
@@ -2172,6 +2196,7 @@ if __name__ == "__main__":
         gen_vitrine_request()
         gen_vitrines()
         gen_vitrine_review()
+        gen_avis_request()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
