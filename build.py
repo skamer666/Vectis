@@ -113,6 +113,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "guides_index_url": guides_index_path(lang),
         "blog_index_url": blog_index_path(lang),
         "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
+        "vitrine_request_url": vitrine_request_path(lang),
         "badge_svg_url": badge_svg_url,
         "badge_alt": badge_alt,
         "badge_embed_code": badge_embed_code,

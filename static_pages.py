@@ -511,6 +511,13 @@ _PAGES = {
                 "suit l'alphabet ou le nombre de membres d'une étude, jamais un critère commercial (voir "
                 "notre page méthodologie). Nous ne vendons pas de mise en avant.",
             )},
+            {"heading": "Une vitrine personnelle gratuite", "paragraphs": _p(
+                "Vous pouvez aussi demander une page personnelle plus complète (photo, présentation, "
+                "spécialités mises en avant), hébergée sur Legatis, que vous pouvez mettre en avant sur "
+                "votre fiche Google Business Profile ou votre propre site. Gratuit, sans engagement, "
+                "chaque demande est vérifiée avant publication. Le lien du formulaire figure sur chaque "
+                "fiche avocat, à côté du badge.",
+            )},
             {"heading": "Comment procéder", "paragraphs": _p(
                 "Écrivez-nous à contact@legatis.ch avec l'URL de votre fiche et la nature de votre demande "
                 "(correction, complément, retrait). Nous vérifions et traitons chaque demande "
