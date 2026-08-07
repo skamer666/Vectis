@@ -7,10 +7,15 @@
 //
 // Variables d'environnement requises (a definir dans Vercel, jamais dans le
 // code) :
-//   SUPABASE_URL               -- URL du projet (ex. https://xxxx.supabase.co)
-//   SUPABASE_SERVICE_ROLE_KEY  -- cle secrete service_role (contourne RLS
-//                                  pour permettre l'insertion depuis le
+//   SUPABASE_SERVICE_ROLE_KEY  -- cle secrete service_role/secret (contourne
+//                                  RLS pour permettre l'insertion depuis le
 //                                  serveur ; jamais exposee cote client)
+//
+// L'URL du projet n'est pas un secret (elle est deja publique dans
+// supabase_config.py, utilisee cote client par le widget d'avis) : elle est
+// donc codee en dur ci-dessous plutot que de dependre d'une deuxieme
+// variable d'environnement Vercel qu'on pourrait oublier de renseigner.
+const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
 const MAX_BODY_LEN = 3000;
 const MAX_TITLE_LEN = 140;
@@ -38,7 +43,7 @@ module.exports = async function handler(req, res) {
     res.status(405).json({ error: "method_not_allowed" });
     return;
   }
-  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
+  if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
     return;
   }
@@ -107,7 +112,7 @@ module.exports = async function handler(req, res) {
   };
 
   try {
-    const resp = await fetch(`${process.env.SUPABASE_URL}/rest/v1/reviews`, {
+    const resp = await fetch(`${SUPABASE_URL}/rest/v1/reviews`, {
       method: "POST",
       headers: {
         apikey: process.env.SUPABASE_SERVICE_ROLE_KEY,
