@@ -3,7 +3,7 @@
    Texte:  Public Sans (concu pour les services numeriques publics)
    Palette: encre bleu-noir + papier chaud + accent bordeaux sourd */
 
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap'
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 /* Garantit que [hidden] l'emporte toujours, meme si une regle plus loin dans
