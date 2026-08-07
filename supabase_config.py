@@ -19,3 +19,4 @@ activer la fonctionnalite au prochain build.
 
 SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co"
 SUPABASE_ANON_KEY = "sb_publishable_6ea4cRTyW51Fk3h9ud9ibw_ffYFHdr2"
+# force redeploy: SUPABASE_SERVICE_ROLE_KEY env var
