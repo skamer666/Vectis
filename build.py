@@ -11,6 +11,7 @@ import re
 import sys
 import unicodedata
 from collections import Counter
+from urllib.parse import quote as _url_quote
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -1666,6 +1667,14 @@ def gen_vitrine_request():
         ]
         ctx["accent_ramps"] = ACCENT_RAMPS
         ctx["preview_urls"] = {tid: vitrine_preview_path(tid, lang) for tid in vitrine_content.TEMPLATE_ORDER}
+        ctx["photo_frame_options"] = [
+            {"id": pid, "label": vitrine_content.PHOTO_FRAMES[pid][lang]}
+            for pid in vitrine_content.PHOTO_FRAME_ORDER
+        ]
+        ctx["font_style_options"] = [
+            {"id": fid, "label": vitrine_content.FONT_STYLES[fid][lang]}
+            for fid in vitrine_content.FONT_STYLE_ORDER
+        ]
         ctx["specialites_options"] = [
             {"id": did, "name": i18n.DOMAINES[did][lang]["name"]} for did in VITRINE_SPECIALITES_ORDER
         ]
@@ -1696,6 +1705,40 @@ ACCENT_RAMPS = {
 def accent_style(accent_color):
     ramp = ACCENT_RAMPS.get(accent_color, ACCENT_RAMPS["bordeaux"])
     return "".join(f"--accent-{k}:{v};" for k, v in ramp.items())
+
+
+_YOUTUBE_RE = re.compile(r"(?:youtube\.com/watch\?v=|youtube\.com/shorts/|youtu\.be/)([\w-]{6,})")
+_VIMEO_RE = re.compile(r"vimeo\.com/(\d+)")
+
+
+def to_embed_url(video_url):
+    """Convertit un lien YouTube/Vimeo grand public en URL embarquable.
+    Retourne None pour tout ce qui n'est pas reconnu (jamais d'iframe
+    pointant vers un domaine arbitraire non verifie)."""
+    if not video_url:
+        return None
+    m = _YOUTUBE_RE.search(video_url)
+    if m:
+        return f"https://www.youtube-nocookie.com/embed/{m.group(1)}"
+    m = _VIMEO_RE.search(video_url)
+    if m:
+        return f"https://player.vimeo.com/video/{m.group(1)}"
+    return None
+
+
+def maps_search_url(adresse):
+    if not adresse:
+        return None
+    return f"https://www.google.com/maps/search/?api=1&query={_url_quote(adresse)}"
+
+
+def whatsapp_href(whatsapp):
+    if not whatsapp:
+        return None
+    digits = re.sub(r"[^0-9]", "", whatsapp)
+    if not digits:
+        return None
+    return f"https://wa.me/{digits}"
 
 
 def _load_vitrine_submissions(subdir):
@@ -1745,6 +1788,17 @@ def _vitrine_page_ctx(sub, lang):
         "registry_url": avocat_path(canton_code, (sub.get("registry_match") or {}).get("slug", ""), lang) if canton_code else None,
         "accent_color": free.get("accent_color") or "bordeaux",
         "accent_style": accent_style(free.get("accent_color") or "bordeaux"),
+        "photo_frame": free.get("photo_frame") or "cercle",
+        "style_titres": free.get("style_titres") or "classique",
+        "adresse": free.get("adresse"),
+        "maps_url": maps_search_url(free.get("adresse")),
+        "horaires": free.get("horaires"),
+        "whatsapp": free.get("whatsapp"),
+        "whatsapp_href": whatsapp_href(free.get("whatsapp")),
+        "rdv_url": free.get("rdv_url"),
+        "video_url": free.get("video_url"),
+        "video_embed_url": to_embed_url(free.get("video_url")),
+        "galerie": [u for u in (free.get("galerie") or []) if isinstance(u, str) and u.startswith(("http://", "https://"))][:4],
     }
 
 
@@ -1775,6 +1829,14 @@ def gen_vitrine_previews():
                     "specialites": sample["specialites_sample"],
                     "distinctions": sample["distinctions"],
                     "accent_color": "bordeaux",
+                    "photo_frame": "cercle",
+                    "style_titres": "classique",
+                    "adresse": sample.get("adresse"),
+                    "horaires": sample.get("horaires"),
+                    "whatsapp": sample.get("whatsapp"),
+                    "rdv_url": sample.get("rdv_url"),
+                    "video_url": sample.get("video_url"),
+                    "galerie": sample.get("galerie") or [],
                 },
                 "contact_phone": "",
                 "contact_email": "",

@@ -38,6 +38,29 @@
             </label>
             {% endfor %}
           </div>
+
+          <div class="calc-grid" style="margin-top:var(--space-lg);">
+            <label class="calc-field">{{ f.field_photo_frame }}
+              <div class="vform-choice-row" id="vf-photo-frame-row">
+                {% for pf in photo_frame_options %}
+                <label class="vform-choice-pill">
+                  <input type="radio" name="photo_frame" value="{{ pf.id }}" {% if loop.first %}checked{% endif %}>
+                  {{ pf.label }}
+                </label>
+                {% endfor %}
+              </div>
+            </label>
+            <label class="calc-field">{{ f.field_style_titres }}
+              <div class="vform-choice-row" id="vf-style-titres-row">
+                {% for fs in font_style_options %}
+                <label class="vform-choice-pill">
+                  <input type="radio" name="style_titres" value="{{ fs.id }}" {% if loop.first %}checked{% endif %}>
+                  {{ fs.label }}
+                </label>
+                {% endfor %}
+              </div>
+            </label>
+          </div>
         </div>
 
         <div class="vform-block">
@@ -100,6 +123,31 @@
 
         <div class="vform-block">
           <h2><span class="vform-step-badge">4</span>{{ f.step4_title }}</h2>
+          <p class="calc-disclaimer">{{ f.step4_help }}</p>
+          <div class="calc-grid">
+            <label class="calc-field">{{ f.field_adresse }}
+              <input type="text" id="vf-adresse" maxlength="200" placeholder="{{ f.field_adresse_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_horaires }}
+              <input type="text" id="vf-horaires" maxlength="150" placeholder="{{ f.field_horaires_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_whatsapp }}
+              <input type="tel" id="vf-whatsapp" placeholder="{{ f.field_whatsapp_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_rdv_url }}
+              <input type="url" id="vf-rdv-url" placeholder="{{ f.field_rdv_url_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_video_url }}
+              <input type="url" id="vf-video-url" placeholder="{{ f.field_video_url_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_galerie }}
+              <textarea id="vf-galerie" rows="3" placeholder="{{ f.field_galerie_placeholder }}"></textarea>
+            </label>
+          </div>
+        </div>
+
+        <div class="vform-block">
+          <h2><span class="vform-step-badge">5</span>{{ f.step5_title }}</h2>
           <div class="calc-grid">
             <label class="calc-field">{{ f.field_contact_email }}
               <input type="email" id="vf-email" required>
@@ -169,6 +217,28 @@
     var d = document.createElement('div');
     d.textContent = s || '';
     return d.innerHTML;
+  }
+
+  // -- equivalents JS des aides Python (build.to_embed_url / maps_search_url
+  // / whatsapp_href) : meme logique, pour que l'apercu live corresponde
+  // exactement a ce que le build produira une fois la demande approuvee.
+  function toEmbedUrl(url) {
+    if (!url) return null;
+    var yt = url.match(/(?:youtube\.com\/watch\?v=|youtube\.com\/shorts\/|youtu\.be\/)([\w-]{6,})/);
+    if (yt) return 'https://www.youtube-nocookie.com/embed/' + yt[1];
+    var vm = url.match(/vimeo\.com\/(\d+)/);
+    if (vm) return 'https://player.vimeo.com/video/' + vm[1];
+    return null;
+  }
+  function mapsUrl(adresse) {
+    if (!adresse) return null;
+    return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(adresse);
+  }
+  function waHref(whatsapp) {
+    if (!whatsapp) return null;
+    var digits = whatsapp.replace(/[^0-9]/g, '');
+    if (!digits) return null;
+    return 'https://wa.me/' + digits;
   }
 
   fetch(searchIndexUrl).then(function(r) { return r.json(); }).then(function(json) {
@@ -269,16 +339,77 @@
         scope.style.setProperty('--accent-' + k, ramp[k]);
       });
     }
+
+    // -- cadre de la photo --
+    var frameId = form.querySelector('input[name="photo_frame"]:checked').value;
+    var photoEl2 = doc.querySelector('[data-field="photo"]');
+    if (photoEl2) {
+      photoEl2.className = photoEl2.className.replace(/\bcadre-[a-z-]+\b/g, '').trim();
+      photoEl2.classList.add('cadre-' + frameId);
+    }
+
+    // -- style des titres --
+    var fontId = form.querySelector('input[name="style_titres"]:checked').value;
+    if (scope) scope.setAttribute('data-font', fontId);
+
+    // -- informations pratiques : adresse, horaires, whatsapp, rdv --
+    var adresseVal = document.getElementById('vf-adresse').value;
+    var horairesVal = document.getElementById('vf-horaires').value;
+    var whatsappVal = document.getElementById('vf-whatsapp').value;
+    var rdvVal = document.getElementById('vf-rdv-url').value;
+    setField(doc, 'adresse', adresseVal, !!adresseVal);
+    var adresseRow = doc.querySelector('[data-field="adresse-row"]');
+    if (adresseRow) adresseRow.hidden = !adresseVal;
+    var mapsLink = doc.querySelector('[data-field="maps-link"]');
+    if (mapsLink) { var mu = mapsUrl(adresseVal); if (mu) mapsLink.href = mu; }
+    setField(doc, 'horaires', horairesVal, !!horairesVal);
+    var horairesRow = doc.querySelector('[data-field="horaires-row"]');
+    if (horairesRow) horairesRow.hidden = !horairesVal;
+    var waLink = doc.querySelector('[data-field="whatsapp-link"]');
+    if (waLink) { var wh = waHref(whatsappVal); if (wh) waLink.href = wh; waLink.hidden = !wh; }
+    var rdvLink = doc.querySelector('[data-field="rdv-link"]');
+    if (rdvLink) { if (rdvVal) rdvLink.href = rdvVal; rdvLink.hidden = !rdvVal; }
+    var practicalSection = doc.querySelector('[data-field="practical-section"]');
+    if (practicalSection) practicalSection.hidden = !(adresseVal || horairesVal || whatsappVal || rdvVal);
+
+    // -- video de presentation --
+    var videoVal = document.getElementById('vf-video-url').value;
+    var embedUrl = toEmbedUrl(videoVal);
+    var videoSection = doc.querySelector('[data-field="video-section"]');
+    var videoEl = doc.querySelector('[data-field="video"]');
+    if (videoSection) videoSection.hidden = !embedUrl;
+    if (videoEl && embedUrl) videoEl.src = embedUrl;
+
+    // -- galerie photos (URLs, une par ligne) --
+    var galerieLines = (document.getElementById('vf-galerie').value || '').split('\n')
+      .map(function(s) { return s.trim(); })
+      .filter(function(s) { return /^https?:\/\//.test(s); })
+      .slice(0, 4);
+    var galerieWrap = doc.querySelector('[data-field="galerie"]');
+    var galerieSection = doc.querySelector('[data-field="galerie-section"]');
+    if (galerieWrap) {
+      galerieWrap.innerHTML = galerieLines.map(function(u) {
+        return '<img src="' + escapeHtml(u) + '" alt="" loading="lazy">';
+      }).join('');
+    }
+    if (galerieSection) galerieSection.hidden = galerieLines.length === 0;
   }
 
   previewFrame.addEventListener('load', syncPreview);
-  ['vf-role-titre', 'vf-accroche', 'vf-bio', 'vf-citation', 'vf-distinctions', 'vf-linkedin', 'vf-instagram'].forEach(function(id) {
+  ['vf-role-titre', 'vf-accroche', 'vf-bio', 'vf-citation', 'vf-distinctions', 'vf-linkedin', 'vf-instagram',
+   'vf-adresse', 'vf-horaires', 'vf-whatsapp', 'vf-rdv-url', 'vf-video-url', 'vf-galerie'].forEach(function(id) {
     document.getElementById(id).addEventListener('input', syncPreview);
   });
   form.querySelectorAll('input[name="specialites"]').forEach(function(el) {
     el.addEventListener('change', syncPreview);
   });
   form.querySelectorAll('input[name="accent"]').forEach(function(el) {
+    el.addEventListener('change', syncPreview);
+  });
+  form.querySelectorAll('input[name="photo_frame"]').forEach(function(el) {
+    el.addEventListener('change', syncPreview);
+  });
+  form.querySelectorAll('input[name="style_titres"]').forEach(function(el) {
     el.addEventListener('change', syncPreview);
   });
   form.querySelectorAll('input[name="template"]').forEach(function(el) {
@@ -326,8 +457,14 @@
 
     var templateChoice = form.querySelector('input[name="template"]:checked').value;
     var accentChoice = form.querySelector('input[name="accent"]:checked').value;
+    var frameChoice = form.querySelector('input[name="photo_frame"]:checked').value;
+    var fontChoice = form.querySelector('input[name="style_titres"]:checked').value;
     var specialites = Array.prototype.slice.call(form.querySelectorAll('input[name="specialites"]:checked')).map(function(el) { return el.value; });
     var distinctions = (document.getElementById('vf-distinctions').value || '').split('\n').map(function(s) { return s.trim(); }).filter(Boolean);
+    var galerie = (document.getElementById('vf-galerie').value || '').split('\n')
+      .map(function(s) { return s.trim(); })
+      .filter(function(s) { return /^https?:\/\//.test(s); })
+      .slice(0, 4);
 
     submitBtn.disabled = true;
     submitBtn.textContent = STR.submitting;
@@ -347,6 +484,14 @@
         linkedin: document.getElementById('vf-linkedin').value,
         instagram: document.getElementById('vf-instagram').value,
         accent_color: accentChoice,
+        photo_frame: frameChoice,
+        style_titres: fontChoice,
+        adresse: document.getElementById('vf-adresse').value,
+        horaires: document.getElementById('vf-horaires').value,
+        whatsapp: document.getElementById('vf-whatsapp').value,
+        rdv_url: document.getElementById('vf-rdv-url').value,
+        video_url: document.getElementById('vf-video-url').value,
+        galerie: galerie,
         contact_email: document.getElementById('vf-email').value,
         contact_phone: document.getElementById('vf-phone').value,
         photo_data_url: photoDataUrlFull,

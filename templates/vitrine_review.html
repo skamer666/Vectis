@@ -21,12 +21,21 @@
       </div>
       <div class="canton-card-body is-open">
         <p class="decision-meta">Soumis le {{ p.submitted_at }} &middot; contact : {{ p.contact_email }} &middot; slug : {{ p.slug }}</p>
-        {% if p.photo_url %}<img src="{{ p.photo_url }}" alt="" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin:8px 0;">{% endif %}
+        {% if p.photo_url %}<img src="{{ p.photo_url }}" alt="" class="cadre-{{ p.photo_frame or 'cercle' }}" style="width:80px;height:80px;object-fit:cover;margin:8px 0;">{% endif %}
+        <p class="decision-meta">Cadre : {{ p.photo_frame or 'cercle' }} &middot; Police : {{ p.style_titres or 'classique' }}</p>
+        {% if p.role_titre %}<p><strong>{{ p.role_titre }}</strong></p>{% endif %}
         {% if p.accroche %}<p><em>{{ p.accroche }}</em></p>{% endif %}
         {% if p.bio %}<p>{{ p.bio }}</p>{% endif %}
         {% if p.citation %}<p class="canton-note">&laquo; {{ p.citation }} &raquo;</p>{% endif %}
         {% if p.specialites %}<p>Specialites : {% for s in p.specialites %}{{ s.name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+        {% if p.distinctions %}<p>Distinctions : {{ p.distinctions | join(", ") }}</p>{% endif %}
         {% if p.site_web %}<p>Site : <a href="{{ p.site_web }}" target="_blank" rel="noopener">{{ p.site_web }}</a></p>{% endif %}
+        {% if p.adresse %}<p>Adresse : {{ p.adresse }}</p>{% endif %}
+        {% if p.horaires %}<p>Horaires : {{ p.horaires }}</p>{% endif %}
+        {% if p.whatsapp %}<p>WhatsApp : {{ p.whatsapp }}</p>{% endif %}
+        {% if p.rdv_url %}<p>RDV : <a href="{{ p.rdv_url }}" target="_blank" rel="noopener">{{ p.rdv_url }}</a></p>{% endif %}
+        {% if p.video_url %}<p>Video : <a href="{{ p.video_url }}" target="_blank" rel="noopener">{{ p.video_url }}</a>{% if not p.video_embed_url %} <span class="tag is-warn">lien non reconnu (YouTube/Vimeo uniquement)</span>{% endif %}</p>{% endif %}
+        {% if p.galerie %}<p>Galerie : {{ p.galerie | length }} photo(s)</p>{% endif %}
         {% if p.registry_url %}<p><a href="{{ p.registry_url }}">Voir la fiche registre correspondante</a></p>{% endif %}
       </div>
     </div>

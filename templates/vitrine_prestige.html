@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="vitrine-scope" style="{{ accent_style }}">
+<div class="vitrine-scope" style="{{ accent_style }}" data-font="{{ style_titres or 'classique' }}">
 <div class="vp-hero">
   <div class="container">
-    <img class="vp-hero-photo" data-field="photo" src="{{ photo_url or '' }}" alt="{{ nom_complet }}" loading="lazy" {% if not photo_url %}hidden{% endif %}>
+    <img class="vp-hero-photo cadre-{{ photo_frame or 'cercle' }}" data-field="photo" src="{{ photo_url or '' }}" alt="{{ nom_complet }}" loading="lazy" {% if not photo_url %}hidden{% endif %}>
     <div class="vp-hero-kicker">{{ ui.bar_admission }} &middot; {{ canton_name }}</div>
     <h1 data-field="nom_complet">{{ nom_complet }}</h1>
     <p class="vp-hero-role" data-field="role_titre" {% if not role_titre %}hidden{% endif %}>{{ role_titre }}</p>
@@ -27,6 +27,34 @@
   </div>
   {% endif %}
 
+  {% if adresse or horaires or whatsapp or rdv_url %}
+  <div class="vitrine-practical-card" data-field="practical-section" {% if not (adresse or horaires or whatsapp or rdv_url) %}hidden{% endif %}>
+    <h2>{{ ui.vitrine_practical_info_title }}</h2>
+    <div class="vitrine-practical-row" data-field="adresse-row" {% if not adresse %}hidden{% endif %}>
+      <span data-field="adresse">{{ adresse }}</span>
+      {% if maps_url %}<a href="{{ maps_url }}" rel="nofollow noopener" target="_blank" data-field="maps-link">{{ ui.vitrine_get_directions }}</a>{% endif %}
+    </div>
+    <div class="vitrine-practical-row" data-field="horaires-row" {% if not horaires %}hidden{% endif %}>
+      <span data-field="horaires">{{ horaires }}</span>
+    </div>
+    <div class="vitrine-practical-actions">
+      {% if whatsapp_href %}<a class="cta-btn" href="{{ whatsapp_href }}" rel="nofollow noopener" target="_blank" data-field="whatsapp-link" {% if not whatsapp %}hidden{% endif %}>{{ ui.vitrine_whatsapp_cta }}</a>{% endif %}
+      {% if rdv_url %}<a class="cta-btn is-primary" href="{{ rdv_url }}" rel="nofollow noopener" target="_blank" data-field="rdv-link" {% if not rdv_url %}hidden{% endif %}>{{ ui.vitrine_book_appointment }}</a>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="vitrine-video-wrap" data-field="video-section" {% if not video_embed_url %}hidden{% endif %}>
+    <iframe data-field="video" src="{{ video_embed_url or '' }}" title="{{ ui.vitrine_video_title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <section class="section" data-field="galerie-section" style="padding-block:var(--space-xl);" {% if not galerie %}hidden{% endif %}>
+    <h2 style="margin-bottom:var(--space-lg);">{{ ui.vitrine_gallery_title }}</h2>
+    <div class="vitrine-gallery" data-field="galerie">
+      {% for g in galerie %}<img src="{{ g }}" alt="" loading="lazy">{% endfor %}
+    </div>
+  </section>
+
   <section class="section" data-field="specialites-section" style="padding-block:var(--space-xl);" {% if not specialites %}hidden{% endif %}>
     <h2 style="text-align:center; margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>
     <div class="tag-list" data-field="specialites" style="justify-content:center;">
@@ -47,7 +75,6 @@
     {% if instagram %}<a href="{{ instagram }}" rel="nofollow noopener" target="_blank">Instagram</a>{% endif %}
   </p>
 
-  {% include "_badge_box.html" %}
 
   <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.85rem; text-align:center; color:var(--text-muted);">
     {{ ui.vitrine_registry_note }} <a href="{{ registry_url }}">{{ ui.vitrine_registry_link }}</a>

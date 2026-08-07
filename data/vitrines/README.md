@@ -54,7 +54,15 @@ identifiant unique (nom-prenom-canton, genere par le formulaire).
     "linkedin": "https://www.linkedin.com/in/...",
     "instagram": "https://www.instagram.com/... (optionnel)",
     "accent_color": "bordeaux",
-    "distinctions": ["Mention Meilleurs Avocats 2025"]
+    "distinctions": ["Mention Meilleurs Avocats 2025"],
+    "photo_frame": "cercle | carre-arrondi | plein-cadre",
+    "style_titres": "classique | elegant | contemporain",
+    "adresse": "12 rue du Rhone, 1204 Geneve (optionnel)",
+    "horaires": "Lu-Ve 8h30-18h00, sur rendez-vous (optionnel)",
+    "whatsapp": "+41 79 000 00 00 (optionnel)",
+    "rdv_url": "https://calendly.com/... (optionnel)",
+    "video_url": "https://www.youtube.com/watch?v=... (optionnel, YouTube/Vimeo uniquement)",
+    "galerie": ["https://... (optionnel, jusqu'a 4 URLs d'images deja hebergees ailleurs)"]
   },
 
   "contact_email": "avocat@exemple-cabinet.ch",

@@ -3,7 +3,8 @@
    Texte:  Public Sans (concu pour les services numeriques publics)
    Palette: encre bleu-noir + papier chaud + accent bordeaux sourd */
 
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap'
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 /* Garantit que [hidden] l'emporte toujours, meme si une regle plus loin dans
    la feuille fixe display: flex/grid/etc sur le meme element (bug rencontre
@@ -488,7 +489,7 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   padding-block:var(--space-4xl); text-align:center;
 }
 .vp-hero-photo{
-  width:148px; height:148px; border-radius:50%; object-fit:cover;
+  width:148px; height:148px; object-fit:cover;
   border:3px solid oklch(78% 0.12 75); margin:0 auto var(--space-xl);
   display:block;
 }
@@ -512,7 +513,7 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   display:grid; grid-template-columns:1fr 1.4fr; gap:var(--space-3xl); align-items:center;
   padding-block:var(--space-4xl); border-bottom:1px solid var(--border-strong);
 }
-.vm-hero-photo{ width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:4px; }
+.vm-hero-photo{ width:100%; aspect-ratio:4/5; object-fit:cover; }
 .vm-hero-kicker{ font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent-600); margin-bottom:var(--space-md); }
 .vm-hero h1{ max-width:none; font-size:clamp(2rem,1.5rem + 2vw,3.2rem); }
 .vm-hero-tagline{ font-size:1.05rem; color:var(--text-secondary); margin-top:var(--space-md); }
@@ -533,7 +534,7 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   background:var(--paper-100); border-radius:20px; padding:var(--space-3xl);
   display:flex; gap:var(--space-2xl); align-items:center; flex-wrap:wrap; margin-block:var(--space-2xl);
 }
-.vc-hero-photo{ width:160px; height:160px; border-radius:24px; object-fit:cover; flex-shrink:0; }
+.vc-hero-photo{ width:160px; height:160px; object-fit:cover; flex-shrink:0; }
 .vc-hero-kicker{ font-size:0.75rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent-600); margin-bottom:var(--space-sm); }
 .vc-hero h1{ max-width:none; }
 .vc-hero-tagline{ font-size:1.05rem; color:var(--text-secondary); margin-top:var(--space-sm); }
@@ -672,3 +673,66 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   margin-right:8px; flex-shrink:0;
 }
 .vform-block h2{ display:flex; align-items:center; }
+
+
+/* -- vitrine : styles de titres (personnalisation typographique) -- */
+.vitrine-scope[data-font="elegant"]{ --font-display:'Playfair Display', Georgia, serif; }
+.vitrine-scope[data-font="elegant"] h1{ font-style:italic; font-weight:700; }
+.vitrine-scope[data-font="contemporain"]{ --font-display:'Space Grotesk', var(--font-body); }
+.vitrine-scope[data-font="contemporain"] h1{ letter-spacing:-0.01em; font-weight:700; }
+
+/* -- vitrine : cadre de la photo (personnalisation visuelle) -- */
+.vp-hero-photo.cadre-cercle{ border-radius:50%; }
+.vp-hero-photo.cadre-carre-arrondi{ border-radius:20px; }
+.vp-hero-photo.cadre-plein-cadre{
+  border-radius:0; box-shadow:0 0 0 6px var(--accent-100), 0 0 0 7px var(--accent-600);
+}
+.vc-hero-photo.cadre-cercle{ border-radius:50%; }
+.vc-hero-photo.cadre-carre-arrondi{ border-radius:24px; }
+.vc-hero-photo.cadre-plein-cadre{
+  border-radius:0; box-shadow:0 0 0 6px var(--paper-0), 0 0 0 7px var(--accent-600);
+}
+.vm-hero-photo.cadre-cercle{ border-radius:28px; }
+.vm-hero-photo.cadre-carre-arrondi{ border-radius:4px; }
+.vm-hero-photo.cadre-plein-cadre{
+  border-radius:0; box-shadow:0 0 0 6px var(--paper-0), 0 0 0 7px var(--accent-600);
+}
+
+/* -- vitrine : informations pratiques (adresse, horaires, whatsapp, rdv) -- */
+.vitrine-practical-card{
+  background:var(--paper-50); border:1px solid var(--border-strong); border-radius:var(--radius-md);
+  padding:var(--space-xl); margin:var(--space-2xl) 0;
+}
+.vitrine-practical-card h2{ margin-bottom:var(--space-md); font-size:1.15rem; }
+.vitrine-practical-row{
+  display:flex; align-items:baseline; justify-content:space-between; gap:var(--space-md);
+  padding-block:6px; font-size:0.92rem; color:var(--text-secondary); flex-wrap:wrap;
+}
+.vitrine-practical-row a{ font-weight:600; white-space:nowrap; }
+.vitrine-practical-actions{ display:flex; gap:var(--space-sm); flex-wrap:wrap; margin-top:var(--space-md); }
+
+/* -- vitrine : video de presentation -- */
+.vitrine-video-wrap{
+  position:relative; width:100%; padding-top:56.25%; margin:var(--space-2xl) 0;
+  border-radius:var(--radius-md); overflow:hidden; background:var(--ink-950);
+}
+.vitrine-video-wrap iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+
+/* -- vitrine : galerie photos -- */
+.vitrine-gallery{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:var(--space-sm);
+}
+.vitrine-gallery img{
+  width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px; display:block;
+}
+
+/* -- formulaire vitrine : selecteurs cadre / police (etape 2) -- */
+.vform-choice-row{ display:flex; gap:10px; margin-top:8px; flex-wrap:wrap; }
+.vform-choice-pill{
+  cursor:pointer; padding:8px 14px; border:1.5px solid var(--border-strong); border-radius:999px;
+  font-size:0.85rem; font-weight:600; color:var(--text-secondary); transition:all .15s ease;
+}
+.vform-choice-pill input{ position:absolute; opacity:0; pointer-events:none; }
+.vform-choice-pill:has(input:checked){
+  border-color:var(--accent-600); background:var(--accent-50); color:var(--accent-700);
+}

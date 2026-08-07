@@ -13,9 +13,19 @@
 
 const ALLOWED_TEMPLATES = ["prestige", "moderne", "chaleureux"];
 const ALLOWED_ACCENTS = ["bordeaux", "encre", "sapin", "ardoise"];
+const ALLOWED_FRAMES = ["cercle", "carre-arrondi", "plein-cadre"];
+const ALLOWED_FONTS = ["classique", "elegant", "contemporain"];
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
 const MAX_PHOTO_BYTES = 2 * 1024 * 1024;
 const MAX_FIELD_LEN = 3000;
+
+function isHttpUrl(s) {
+  return typeof s === "string" && /^https?:\/\//.test(s);
+}
+
+function isVideoUrl(s) {
+  return typeof s === "string" && /^https?:\/\/(www\.)?(youtube\.com|youtu\.be|vimeo\.com)\//.test(s);
+}
 
 function slugify(text) {
   return (text || "")
@@ -123,6 +133,13 @@ module.exports = async function handler(req, res) {
 
   const specialites = Array.isArray(body.specialites) ? body.specialites.slice(0, 20).map((s) => truncate(s, 60)) : [];
   const distinctions = Array.isArray(body.distinctions) ? body.distinctions.slice(0, 15).map((s) => truncate(s, 200)) : [];
+  const galerie = Array.isArray(body.galerie)
+    ? body.galerie.filter(isHttpUrl).slice(0, 4).map((s) => truncate(s, 500))
+    : [];
+  const photoFrame = ALLOWED_FRAMES.includes(body.photo_frame) ? body.photo_frame : "cercle";
+  const styleTitres = ALLOWED_FONTS.includes(body.style_titres) ? body.style_titres : "classique";
+  const videoUrl = isVideoUrl(body.video_url) ? truncate(body.video_url, 300) : "";
+  const rdvUrl = isHttpUrl(body.rdv_url) ? truncate(body.rdv_url, 300) : "";
 
   const photoDataUrl = body.photo_data_url;
   if (!photoDataUrl || typeof photoDataUrl !== "string" || !photoDataUrl.startsWith("data:image/")) {
@@ -167,6 +184,14 @@ module.exports = async function handler(req, res) {
       instagram: truncate(body.instagram, 300),
       accent_color: accentColor,
       distinctions,
+      photo_frame: photoFrame,
+      style_titres: styleTitres,
+      adresse: truncate(body.adresse, 200),
+      horaires: truncate(body.horaires, 150),
+      whatsapp: truncate(body.whatsapp, 60),
+      rdv_url: rdvUrl,
+      video_url: videoUrl,
+      galerie,
     },
     contact_email: body.contact_email,
     contact_phone: truncate(body.contact_phone, 60),
