@@ -12,14 +12,26 @@
   </div>
 </div>
 <div class="container">
-  <section class="hero">
-    <div class="hero-eyebrow">{{ ui.site_name }} | Suisse</div>
-    <h1>{{ ui.tagline }}</h1>
-    <p class="lede">{{ intro_text }}</p>
-    <form class="search-box" action="{{ search_url }}" method="get">
-      <input type="text" name="q" placeholder="{{ ui.search_placeholder }}">
-      <button type="submit">{{ ui.search_button }}</button>
-    </form>
+  <section class="hero hero-split">
+    <div class="hero-main">
+      <div class="hero-eyebrow">{{ ui.site_name }} &middot; Suisse</div>
+      <h1>{{ ui.tagline }}</h1>
+      <p class="lede">{{ intro_text }}</p>
+      <form class="search-box" action="{{ search_url }}" method="get">
+        <input type="text" name="q" placeholder="{{ ui.search_placeholder }}">
+        <button type="submit">{{ ui.search_button }}</button>
+      </form>
+    </div>
+    <aside class="hero-toc">
+      <div class="hero-toc-label">{{ ui.site_name }}</div>
+      <ul>
+        <li><a href="{{ cantons_index_url }}"><span class="hero-toc-num">01</span>{{ ui.all_cantons }}</a></li>
+        <li><a href="{{ domaines_index_url }}"><span class="hero-toc-num">02</span>{{ ui.all_practice_areas }}</a></li>
+        <li><a href="{{ guides_index_url }}"><span class="hero-toc-num">03</span>{{ ui.guides_title }}</a></li>
+        <li><a href="{{ blog_index_url }}"><span class="hero-toc-num">04</span>{{ ui.blog_title }}</a></li>
+        <li><a href="{{ etude_aj_url }}"><span class="hero-toc-num">05</span>{{ ui.press_study_kicker }}</a></li>
+      </ul>
+    </aside>
   </section>
 
   <section class="stat-strip">
@@ -31,7 +43,7 @@
 
   <section class="section">
     <div class="section-head">
-      <h2>{{ ui.all_cantons }}</h2>
+      <h2><span class="section-number">01</span>{{ ui.all_cantons }}</h2>
       <a href="{{ cantons_index_url }}">{{ ui.all_cantons }} &rarr;</a>
     </div>
     <div class="index-grid">
@@ -46,7 +58,7 @@
 
   <section class="section">
     <div class="section-head">
-      <h2>{{ ui.all_practice_areas }}</h2>
+      <h2><span class="section-number">02</span>{{ ui.all_practice_areas }}</h2>
       <a href="{{ domaines_index_url }}">{{ ui.all_practice_areas }} &rarr;</a>
     </div>
     <div class="tag-list">

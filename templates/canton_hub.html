@@ -9,7 +9,7 @@
   </section>
 
   <section class="section" style="padding-top:0;">
-    <div class="section-head"><h2>{{ ui.all_practice_areas }}</h2></div>
+    <div class="section-head"><h2><span class="section-number">01</span>{{ ui.all_practice_areas }}</h2></div>
     <div class="tag-list">
       {% for d in domaines %}
       <a class="tag {% if d.has_data %}is-accent{% endif %}" href="{{ d.url }}">{{ d.name }}</a>
@@ -19,7 +19,7 @@
 
   {% if villes %}
   <section class="section" style="padding-top:0;">
-    <div class="section-head"><h2>{{ ui.cities_in_canton }}</h2></div>
+    <div class="section-head"><h2><span class="section-number">02</span>{{ ui.cities_in_canton }}</h2></div>
     <div class="tag-list">
       {% for v in villes %}
       <a class="tag is-accent" href="{{ v.url }}">{{ v.name }} ({{ v.count }})</a>
@@ -30,7 +30,7 @@
 
   <section class="section">
     <div class="section-head">
-      <h2>{{ stats_label }}</h2>
+      <h2><span class="section-number">03</span>{{ stats_label }}</h2>
     </div>
     <div class="registry">
       {% for a in registry %}

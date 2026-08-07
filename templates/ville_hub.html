@@ -9,7 +9,7 @@
 
   {% if domaines %}
   <section class="section" style="padding-top:0;">
-    <div class="section-head"><h2>{{ ui.all_practice_areas }}</h2></div>
+    <div class="section-head"><h2><span class="section-number">01</span>{{ ui.all_practice_areas }}</h2></div>
     <div class="tag-list">
       {% for d in domaines %}
       <a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>
@@ -20,7 +20,7 @@
 
   <section class="section" {% if not domaines %}style="padding-top:0;"{% endif %}>
     <div class="section-head">
-      <h2>{{ stats_label }}</h2>
+      <h2><span class="section-number">02</span>{{ stats_label }}</h2>
     </div>
     <div class="registry">
       {% for a in registry %}
