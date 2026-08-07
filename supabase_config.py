@@ -17,5 +17,5 @@ ci-dessous (visibles dans Supabase -> Project Settings -> API) suffit a
 activer la fonctionnalite au prochain build.
 """
 
-SUPABASE_URL = ""
-SUPABASE_ANON_KEY = ""
+SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co"
+SUPABASE_ANON_KEY = "sb_publishable_6ea4cRTyW51Fk3h9ud9ibw_ffYFHdr2"
