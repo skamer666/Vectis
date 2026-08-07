@@ -736,3 +736,11 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
 .vform-choice-pill:has(input:checked){
   border-color:var(--accent-600); background:var(--accent-50); color:var(--accent-700);
 }
+
+/* -- notice discrete "creer sa vitrine" sur les fiches registre classiques -- */
+.vitrine-cta-notice{
+  display:flex; align-items:center; gap:var(--space-md); flex-wrap:wrap;
+  margin:var(--space-lg) 0; padding:var(--space-md) var(--space-lg);
+  background:var(--paper-50); border:1px solid var(--border-strong); border-radius:var(--radius-md);
+  font-size:0.9rem; color:var(--text-secondary);
+}
