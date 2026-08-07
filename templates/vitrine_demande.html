@@ -1,108 +1,138 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+<div class="container" style="max-width:none;">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg); max-width:70ch;">
     <div class="hero-eyebrow">{{ ui.vitrine_request_cta }}</div>
     <h1>{{ f.title }}</h1>
     <p class="lede">{{ f.intro }}</p>
   </section>
 
-  <section class="section vitrine-form-section" style="padding-top:0; max-width:70ch;">
-    <form id="vitrine-form" novalidate>
+  <div class="vform-layout">
+    <section class="section vitrine-form-section" style="padding-top:0;">
+      <form id="vitrine-form" novalidate>
 
-      <div class="vform-block">
-        <h2>{{ f.step1_title }}</h2>
-        <p class="calc-disclaimer">{{ f.step1_help }}</p>
-        <input type="text" id="vf-search" class="vform-search-input" placeholder="{{ f.step1_search_placeholder }}" autocomplete="off">
-        <div id="vf-search-results" class="vform-search-results"></div>
-        <div id="vf-selected" class="vform-selected" hidden>
-          <span>{{ f.step1_selected }} <strong id="vf-selected-name"></strong> (<span id="vf-selected-ville"></span>)</span>
-          <button type="button" id="vf-change-btn" class="cta-btn">{{ f.step1_change }}</button>
+        <div class="vform-block">
+          <h2><span class="vform-step-badge">1</span>{{ f.step1_title }}</h2>
+          <p class="calc-disclaimer">{{ f.step1_help }}</p>
+          <input type="text" id="vf-search" class="vform-search-input" placeholder="{{ f.step1_search_placeholder }}" autocomplete="off">
+          <div id="vf-search-results" class="vform-search-results"></div>
+          <div id="vf-selected" class="vform-selected" hidden>
+            <span>{{ f.step1_selected }} <strong id="vf-selected-name"></strong> (<span id="vf-selected-ville"></span>)</span>
+            <button type="button" id="vf-change-btn" class="cta-btn">{{ f.step1_change }}</button>
+          </div>
+          <p class="calc-source">{{ f.step1_not_found }}</p>
         </div>
-        <p class="calc-source">{{ f.step1_not_found }}</p>
-      </div>
 
-      <div class="vform-block">
-        <h2>{{ f.step2_title }}</h2>
-        <p class="calc-disclaimer">{{ f.step2_help }}</p>
-        <div class="vform-template-grid">
-          {% for t in template_options %}
-          <label class="vform-template-card">
-            <input type="radio" name="template" value="{{ t.id }}" {% if loop.first %}checked{% endif %}>
-            <span class="vform-template-name">{{ t.label }}</span>
-            <span class="vform-template-desc">{{ t.desc }}</span>
-          </label>
-          {% endfor %}
+        <div class="vform-block">
+          <h2><span class="vform-step-badge">2</span>{{ f.step2_title }}</h2>
+          <p class="calc-disclaimer">{{ f.step2_help }}</p>
+          <div class="vform-template-grid">
+            {% for t in template_options %}
+            <label class="vform-template-card">
+              <div class="vform-template-thumb">
+                <iframe src="{{ preview_urls[t.id] }}" tabindex="-1" aria-hidden="true" loading="lazy"></iframe>
+              </div>
+              <input type="radio" name="template" value="{{ t.id }}" data-preview-url="{{ preview_urls[t.id] }}" {% if loop.first %}checked{% endif %}>
+              <span class="vform-template-name">{{ t.label }}</span>
+              <span class="vform-template-desc">{{ t.desc }}</span>
+            </label>
+            {% endfor %}
+          </div>
         </div>
-      </div>
 
-      <div class="vform-block">
-        <h2>{{ f.step3_title }}</h2>
-        <div class="calc-grid">
-          <label class="calc-field">{{ f.field_photo }}
-            <input type="file" id="vf-photo" accept="image/jpeg,image/png" required>
-            <span class="calc-disclaimer" style="margin:4px 0 0;">{{ f.field_photo_help }}</span>
-          </label>
-          <label class="calc-field">{{ f.field_accroche }}
-            <input type="text" id="vf-accroche" maxlength="140" placeholder="{{ f.field_accroche_placeholder }}">
-          </label>
-          <label class="calc-field">{{ f.field_bio }}
-            <textarea id="vf-bio" rows="5" maxlength="2000" placeholder="{{ f.field_bio_placeholder }}"></textarea>
-          </label>
-          <label class="calc-field">{{ f.field_citation }}
-            <input type="text" id="vf-citation" maxlength="200">
-          </label>
-          <label class="calc-field">{{ f.field_specialites }}
-            <div class="vform-checkbox-grid" id="vf-specialites">
-              {% for d in specialites_options %}
-              <label class="vform-checkbox"><input type="checkbox" name="specialites" value="{{ d.id }}"> {{ d.name }}</label>
-              {% endfor %}
-            </div>
-          </label>
-          <label class="calc-field">{{ f.field_distinctions }}
-            <textarea id="vf-distinctions" rows="3"></textarea>
-          </label>
-          <label class="calc-field">{{ f.field_site_web }}
-            <input type="url" id="vf-site-web" placeholder="https://">
-          </label>
-          <label class="calc-field">{{ f.field_linkedin }}
-            <input type="url" id="vf-linkedin" placeholder="https://www.linkedin.com/in/...">
-          </label>
-          <label class="calc-field">{{ f.field_accent }}
-            <select id="vf-accent">
-              {% for a in accent_options %}<option value="{{ a.id }}">{{ a.label }}</option>{% endfor %}
-            </select>
-          </label>
+        <div class="vform-block">
+          <h2><span class="vform-step-badge">3</span>{{ f.step3_title }}</h2>
+          <div class="calc-grid">
+            <label class="calc-field">{{ f.field_photo }}
+              <div class="vform-photo-upload">
+                <img class="vform-photo-upload-preview" id="vf-photo-preview" hidden>
+                <label class="cta-btn is-primary" style="cursor:pointer;">
+                  <span id="vf-photo-btn-text">{{ f.field_photo }}</span>
+                  <input type="file" id="vf-photo" accept="image/jpeg,image/png" required>
+                </label>
+                <span class="vform-photo-upload-text">{{ f.field_photo_help }}</span>
+              </div>
+            </label>
+            <label class="calc-field">{{ f.field_role_titre }}
+              <input type="text" id="vf-role-titre" maxlength="150" placeholder="{{ f.field_role_titre_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_accroche }}
+              <input type="text" id="vf-accroche" maxlength="140" placeholder="{{ f.field_accroche_placeholder }}">
+            </label>
+            <label class="calc-field">{{ f.field_bio }}
+              <textarea id="vf-bio" rows="5" maxlength="2000" placeholder="{{ f.field_bio_placeholder }}"></textarea>
+            </label>
+            <label class="calc-field">{{ f.field_citation }}
+              <input type="text" id="vf-citation" maxlength="200">
+            </label>
+            <label class="calc-field">{{ f.field_specialites }}
+              <div class="vform-checkbox-grid" id="vf-specialites">
+                {% for d in specialites_options %}
+                <label class="vform-checkbox"><input type="checkbox" name="specialites" value="{{ d.id }}" data-name="{{ d.name }}"> {{ d.name }}</label>
+                {% endfor %}
+              </div>
+            </label>
+            <label class="calc-field">{{ f.field_distinctions }}
+              <textarea id="vf-distinctions" rows="3"></textarea>
+            </label>
+            <label class="calc-field">{{ f.field_site_web }}
+              <input type="url" id="vf-site-web" placeholder="https://">
+            </label>
+            <label class="calc-field">{{ f.field_linkedin }}
+              <input type="url" id="vf-linkedin" placeholder="https://www.linkedin.com/in/...">
+            </label>
+            <label class="calc-field">{{ f.field_instagram }}
+              <input type="url" id="vf-instagram" placeholder="https://www.instagram.com/...">
+            </label>
+            <label class="calc-field">{{ f.field_accent }}
+              <div class="vform-color-row">
+                {% for a in accent_options %}
+                <label class="vform-color-swatch" title="{{ a.label }}">
+                  <input type="radio" name="accent" value="{{ a.id }}" {% if loop.first %}checked{% endif %}>
+                  <span class="vform-color-dot" style="--swatch-color:{{ a.ramp['600'] }};"></span>
+                  <span class="vform-color-name">{{ a.label }}</span>
+                </label>
+                {% endfor %}
+              </div>
+            </label>
+          </div>
         </div>
-      </div>
 
-      <div class="vform-block">
-        <h2>{{ f.step4_title }}</h2>
-        <div class="calc-grid">
-          <label class="calc-field">{{ f.field_contact_email }}
-            <input type="email" id="vf-email" required>
-          </label>
-          <label class="calc-field">{{ f.field_contact_phone }}
-            <input type="tel" id="vf-phone">
-          </label>
+        <div class="vform-block">
+          <h2><span class="vform-step-badge">4</span>{{ f.step4_title }}</h2>
+          <div class="calc-grid">
+            <label class="calc-field">{{ f.field_contact_email }}
+              <input type="email" id="vf-email" required>
+            </label>
+            <label class="calc-field">{{ f.field_contact_phone }}
+              <input type="tel" id="vf-phone">
+            </label>
+          </div>
         </div>
+
+        <label class="vform-consent">
+          <input type="checkbox" id="vf-consent">
+          {{ f.consent }}
+        </label>
+
+        <div id="vf-error" class="vform-error" hidden></div>
+
+        <button type="submit" class="cta-btn is-primary" id="vf-submit">{{ f.submit }}</button>
+
+        <div id="vf-success" class="vform-success" hidden>
+          <strong>{{ f.success_title }}</strong>
+          <p>{{ f.success_text }}</p>
+        </div>
+      </form>
+    </section>
+
+    <aside class="vform-preview-panel">
+      <div class="vform-preview-label"><span>{{ f.step2_title }}</span></div>
+      <div class="vform-preview-frame-wrap">
+        <iframe id="vf-preview-frame" src="{{ preview_urls[template_options[0].id] }}" title="Apercu"></iframe>
       </div>
-
-      <label class="vform-consent">
-        <input type="checkbox" id="vf-consent">
-        {{ f.consent }}
-      </label>
-
-      <div id="vf-error" class="vform-error" hidden></div>
-
-      <button type="submit" class="cta-btn is-primary" id="vf-submit">{{ f.submit }}</button>
-
-      <div id="vf-success" class="vform-success" hidden>
-        <strong>{{ f.success_title }}</strong>
-        <p>{{ f.success_text }}</p>
-      </div>
-    </form>
-  </section>
+    </aside>
+  </div>
 </div>
 
 <script>
@@ -111,6 +141,8 @@
   var searchIndexUrl = {{ search_index_url | tojson }};
   var submitUrl = "/api/vitrine-submit";
   var lang = {{ lang | tojson }};
+  var ACCENT_RAMPS = {{ accent_ramps | tojson }};
+  var previewUrls = {{ preview_urls | tojson }};
 
   var searchInput = document.getElementById('vf-search');
   var searchResults = document.getElementById('vf-search-results');
@@ -122,12 +154,21 @@
   var errorBox = document.getElementById('vf-error');
   var submitBtn = document.getElementById('vf-submit');
   var successBox = document.getElementById('vf-success');
+  var previewFrame = document.getElementById('vf-preview-frame');
+  var photoPreview = document.getElementById('vf-photo-preview');
+  var photoBtnText = document.getElementById('vf-photo-btn-text');
 
   var index = null;
   var selectedMatch = null;
+  var photoDataUrl = null;
 
   function normalize(s) {
     return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
   }
 
   fetch(searchIndexUrl).then(function(r) { return r.json(); }).then(function(json) {
@@ -151,6 +192,7 @@
         searchInput.value = '';
         searchResults.innerHTML = '';
         searchInput.hidden = true;
+        syncPreview();
       });
       searchResults.appendChild(row);
     });
@@ -162,6 +204,102 @@
     selectedBox.hidden = true;
     searchInput.hidden = false;
     searchInput.focus();
+  });
+
+  // -- apercu live : synchronise les champs du formulaire dans le DOM de
+  // l'iframe (meme origine -> contentDocument accessible directement).
+  function setField(doc, name, value, show) {
+    var el = doc.querySelector('[data-field="' + name + '"]');
+    if (!el) return;
+    if (value !== undefined) el.textContent = value;
+    if (show !== undefined) el.hidden = !show;
+  }
+
+  function syncPreview() {
+    var doc = previewFrame.contentDocument;
+    if (!doc || !doc.body) return;
+
+    if (selectedMatch) setField(doc, 'nom_complet', selectedMatch.nom);
+
+    var roleVal = document.getElementById('vf-role-titre').value;
+    setField(doc, 'role_titre', roleVal, !!roleVal);
+    var accrocheVal = document.getElementById('vf-accroche').value;
+    setField(doc, 'accroche', accrocheVal, !!accrocheVal);
+    var bioVal = document.getElementById('vf-bio').value;
+    setField(doc, 'bio', bioVal, !!bioVal);
+    var citationVal = document.getElementById('vf-citation').value;
+    setField(doc, 'citation', citationVal, !!citationVal);
+
+    if (photoDataUrl) {
+      var photoEl = doc.querySelector('[data-field="photo"]');
+      if (photoEl) { photoEl.src = photoDataUrl; photoEl.hidden = false; }
+    }
+
+    var checkedSpecs = Array.prototype.slice.call(form.querySelectorAll('input[name="specialites"]:checked'));
+    var specWrap = doc.querySelector('[data-field="specialites"]');
+    var specSection = doc.querySelector('[data-field="specialites-section"]');
+    if (specWrap) {
+      specWrap.innerHTML = checkedSpecs.map(function(el) {
+        return '<span class="tag is-accent">' + escapeHtml(el.dataset.name) + '</span>';
+      }).join('');
+    }
+    if (specSection) specSection.hidden = checkedSpecs.length === 0;
+
+    var distLines = (document.getElementById('vf-distinctions').value || '').split('\n').map(function(s) { return s.trim(); }).filter(Boolean);
+    var distWrap = doc.querySelector('[data-field="distinctions"]');
+    var distSection = doc.querySelector('[data-field="distinctions-section"]');
+    if (distWrap) distWrap.innerHTML = distLines.map(function(l) { return '<li>' + escapeHtml(l) + '</li>'; }).join('');
+    if (distSection) distSection.hidden = distLines.length === 0;
+
+    var socialWrap = doc.querySelector('[data-field="social-links"]');
+    if (socialWrap) {
+      var linkedinVal = document.getElementById('vf-linkedin').value;
+      var instaVal = document.getElementById('vf-instagram').value;
+      var parts = [];
+      if (linkedinVal) parts.push('<a href="#">LinkedIn</a>');
+      if (instaVal) parts.push('<a href="#">Instagram</a>');
+      socialWrap.innerHTML = parts.join(' &middot; ');
+    }
+
+    var accentId = form.querySelector('input[name="accent"]:checked').value;
+    var ramp = ACCENT_RAMPS[accentId];
+    var scope = doc.querySelector('.vitrine-scope');
+    if (scope && ramp) {
+      Object.keys(ramp).forEach(function(k) {
+        scope.style.setProperty('--accent-' + k, ramp[k]);
+      });
+    }
+  }
+
+  previewFrame.addEventListener('load', syncPreview);
+  ['vf-role-titre', 'vf-accroche', 'vf-bio', 'vf-citation', 'vf-distinctions', 'vf-linkedin', 'vf-instagram'].forEach(function(id) {
+    document.getElementById(id).addEventListener('input', syncPreview);
+  });
+  form.querySelectorAll('input[name="specialites"]').forEach(function(el) {
+    el.addEventListener('change', syncPreview);
+  });
+  form.querySelectorAll('input[name="accent"]').forEach(function(el) {
+    el.addEventListener('change', syncPreview);
+  });
+  form.querySelectorAll('input[name="template"]').forEach(function(el) {
+    el.addEventListener('change', function() {
+      previewFrame.src = el.dataset.previewUrl;
+    });
+  });
+
+  var photoInput = document.getElementById('vf-photo');
+  photoInput.addEventListener('change', function() {
+    var file = photoInput.files && photoInput.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function() {
+      photoDataUrl = reader.result;
+      photoPreview.src = photoDataUrl;
+      photoPreview.hidden = false;
+      photoBtnText.textContent = file.name;
+      syncPreview();
+    };
+    reader.readAsDataURL(file);
   });
 
   function fileToBase64(file) {
@@ -183,22 +321,23 @@
     errorBox.hidden = true;
 
     if (!selectedMatch) { showError(STR.error_missing_match); return; }
-    var photoInput = document.getElementById('vf-photo');
     if (!photoInput.files || !photoInput.files[0]) { showError(STR.error_missing_photo); return; }
     if (!document.getElementById('vf-consent').checked) { showError(STR.error_missing_consent); return; }
 
     var templateChoice = form.querySelector('input[name="template"]:checked').value;
+    var accentChoice = form.querySelector('input[name="accent"]:checked').value;
     var specialites = Array.prototype.slice.call(form.querySelectorAll('input[name="specialites"]:checked')).map(function(el) { return el.value; });
     var distinctions = (document.getElementById('vf-distinctions').value || '').split('\n').map(function(s) { return s.trim(); }).filter(Boolean);
 
     submitBtn.disabled = true;
     submitBtn.textContent = STR.submitting;
 
-    fileToBase64(photoInput.files[0]).then(function(photoDataUrl) {
+    fileToBase64(photoInput.files[0]).then(function(photoDataUrlFull) {
       var payload = {
         lang: lang,
         registry_match: selectedMatch,
         template: templateChoice,
+        role_titre: document.getElementById('vf-role-titre').value,
         accroche: document.getElementById('vf-accroche').value,
         bio: document.getElementById('vf-bio').value,
         citation: document.getElementById('vf-citation').value,
@@ -206,10 +345,11 @@
         distinctions: distinctions,
         site_web: document.getElementById('vf-site-web').value,
         linkedin: document.getElementById('vf-linkedin').value,
-        accent_color: document.getElementById('vf-accent').value,
+        instagram: document.getElementById('vf-instagram').value,
+        accent_color: accentChoice,
         contact_email: document.getElementById('vf-email').value,
         contact_phone: document.getElementById('vf-phone').value,
-        photo_data_url: photoDataUrl,
+        photo_data_url: photoDataUrlFull,
         photo_filename: photoInput.files[0].name,
       };
       return fetch(submitUrl, {

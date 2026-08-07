@@ -30,7 +30,7 @@ from urls import (
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
     blog_index_path, blog_article_path, etude_aj_path, vitrine_request_path, vitrine_path,
-    avis_request_path,
+    avis_request_path, vitrine_preview_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -1661,8 +1661,11 @@ def gen_vitrine_request():
             for tid in vitrine_content.TEMPLATE_ORDER
         ]
         ctx["accent_options"] = [
-            {"id": aid, "label": label[lang]} for aid, label in vitrine_content.ACCENT_COLORS.items()
+            {"id": aid, "label": vitrine_content.ACCENT_COLORS[aid][lang], "ramp": ACCENT_RAMPS[aid]}
+            for aid in vitrine_content.ACCENT_ORDER
         ]
+        ctx["accent_ramps"] = ACCENT_RAMPS
+        ctx["preview_urls"] = {tid: vitrine_preview_path(tid, lang) for tid in vitrine_content.TEMPLATE_ORDER}
         ctx["specialites_options"] = [
             {"id": did, "name": i18n.DOMAINES[did][lang]["name"]} for did in VITRINE_SPECIALITES_ORDER
         ]
@@ -1682,7 +1685,17 @@ def gen_avis_request():
         write_page(path, render("avis_demande.html", ctx))
 
 
-ACCENT_CSS_VARS = {"bordeaux": "var(--accent-600)", "encre": "var(--ink-950)"}
+ACCENT_RAMPS = {
+    "bordeaux": {"700": "oklch(30% 0.09 22)", "600": "oklch(38% 0.11 22)", "500": "oklch(45% 0.13 22)", "100": "oklch(92% 0.03 22)", "50": "oklch(96% 0.018 22)"},
+    "encre": {"700": "oklch(30% 0.09 258)", "600": "oklch(38% 0.11 258)", "500": "oklch(45% 0.13 258)", "100": "oklch(92% 0.03 258)", "50": "oklch(96% 0.018 258)"},
+    "sapin": {"700": "oklch(30% 0.09 150)", "600": "oklch(38% 0.11 150)", "500": "oklch(45% 0.13 150)", "100": "oklch(92% 0.03 150)", "50": "oklch(96% 0.018 150)"},
+    "ardoise": {"700": "oklch(30% 0.09 210)", "600": "oklch(38% 0.11 210)", "500": "oklch(45% 0.13 210)", "100": "oklch(92% 0.03 210)", "50": "oklch(96% 0.018 210)"},
+}
+
+
+def accent_style(accent_color):
+    ramp = ACCENT_RAMPS.get(accent_color, ACCENT_RAMPS["bordeaux"])
+    return "".join(f"--accent-{k}:{v};" for k, v in ramp.items())
 
 
 def _load_vitrine_submissions(subdir):
@@ -1717,6 +1730,7 @@ def _vitrine_page_ctx(sub, lang):
         "ville": locked.get("ville", ""),
         "langues": locked.get("langues", []),
         "photo_url": f"/static/vitrines/photos/{photo_filename}" if photo_filename else None,
+        "role_titre": free.get("role_titre"),
         "accroche": free.get("accroche"),
         "bio": free.get("bio"),
         "citation": free.get("citation"),
@@ -1725,10 +1739,53 @@ def _vitrine_page_ctx(sub, lang):
         "site_web": free.get("site_web"),
         "site_web_href": free.get("site_web"),
         "linkedin": free.get("linkedin"),
+        "instagram": free.get("instagram"),
         "telephone": sub.get("contact_phone"),
         "email": sub.get("contact_email"),
         "registry_url": avocat_path(canton_code, (sub.get("registry_match") or {}).get("slug", ""), lang) if canton_code else None,
+        "accent_color": free.get("accent_color") or "bordeaux",
+        "accent_style": accent_style(free.get("accent_color") or "bordeaux"),
     }
+
+
+def gen_vitrine_previews():
+    """Pages de demonstration (donnees fictives) pour chacun des 3
+    templates, dans les 4 langues -- servent de base a l'apercu live en
+    iframe du formulaire de demande (templates/vitrine_demande.html) : le JS
+    de la page formulaire ecrit directement dans le DOM de ces pages via
+    contentDocument (meme origine), en synchronisant les champs au fur et a
+    mesure de la saisie. Pages noindex, exclues du sitemap."""
+    for template in vitrine_content.TEMPLATE_ORDER:
+        for lang in LANGS:
+            sample = vitrine_content.PREVIEW_SAMPLE[lang]
+            fake_sub = {
+                "registry_match": {"slug": ""},
+                "locked": {
+                    "nom_complet": sample["nom_complet"],
+                    "canton": "GE",
+                    "canton_name": sample["canton_name"],
+                    "ville": sample["ville"],
+                    "langues": sample["langues"],
+                },
+                "free": {
+                    "role_titre": sample["role_titre"],
+                    "accroche": sample["accroche"],
+                    "bio": sample["bio"],
+                    "citation": sample["citation"],
+                    "specialites": sample["specialites_sample"],
+                    "distinctions": sample["distinctions"],
+                    "accent_color": "bordeaux",
+                },
+                "contact_phone": "",
+                "contact_email": "",
+            }
+            path = vitrine_preview_path(template, lang)
+            pctx = _vitrine_page_ctx(fake_sub, lang)
+            ctx = base_ctx(lang, path, f"Apercu {template} | Legatis", "Page de demonstration.", {})
+            ctx.update(pctx)
+            ctx["noindex"] = True
+            ctx["registry_url"] = "#"
+            write_page(path, render(f"vitrine_{template}.html", ctx))
 
 
 def gen_vitrines():
@@ -2129,6 +2186,7 @@ if __name__ == "__main__":
         gen_blog()
         gen_etude_aj()
         gen_vitrine_request()
+        gen_vitrine_previews()
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()
@@ -2194,6 +2252,7 @@ if __name__ == "__main__":
         gen_blog()
         gen_etude_aj()
         gen_vitrine_request()
+        gen_vitrine_previews()
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()

@@ -73,6 +73,29 @@ def test_gen_indexnow_key_writes_expected_file(tmp_path, monkeypatch):
     assert key_file.read_text(encoding="utf-8").strip() == build.INDEXNOW_KEY
 
 
+def test_vitrine_previews_render_for_all_templates_without_jinja_artifacts(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
+    build.gen_vitrine_previews()
+    import vitrine_content
+    for template in vitrine_content.TEMPLATE_ORDER:
+        html = (tmp_path / "fr" / "vitrine-preview" / template / "index.html").read_text(encoding="utf-8")
+        assert "{{" not in html and "{%" not in html and "Undefined" not in html
+        assert 'data-field="nom_complet"' in html
+        assert "Camille Fontaine" in html
+
+
+def test_vitrine_request_form_embeds_accent_ramps_and_preview_urls(tmp_path, monkeypatch):
+    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
+    build.gen_vitrine_previews()
+    build.gen_vitrine_request()
+    html = (tmp_path / "fr" / "vitrine-avocat" / "index.html").read_text(encoding="utf-8")
+    assert "{{" not in html and "{%" not in html and "Undefined" not in html
+    assert "ACCENT_RAMPS" in html
+    assert "/fr/vitrine-preview/prestige/" in html
+    assert 'id="vf-role-titre"' in html
+    assert 'id="vf-instagram"' in html
+
+
 def test_avis_request_page_renders_without_jinja_artifacts(tmp_path, monkeypatch):
     monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
     build.gen_avis_request()

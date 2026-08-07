@@ -45,14 +45,15 @@ identifiant unique (nom-prenom-canton, genere par le formulaire).
 
   "free": {
     "photo_filename": "prenom-nom-geneve.jpg",
+    "role_titre": "Avocate associee, specialiste FSA en droit du travail (optionnel)",
     "accroche": "Une phrase d'accroche courte, choisie par l'avocat.",
     "bio": "Texte de presentation libre, redige par l'avocat lui-meme.",
     "citation": "Une citation ou philosophie professionnelle (optionnel).",
     "specialites": ["droit-famille", "droit-travail"],
     "site_web": "https://exemple-cabinet.ch",
     "linkedin": "https://www.linkedin.com/in/...",
+    "instagram": "https://www.instagram.com/... (optionnel)",
     "accent_color": "bordeaux",
-    "sections_actives": ["citation", "distinctions"],
     "distinctions": ["Mention Meilleurs Avocats 2025"]
   },
 

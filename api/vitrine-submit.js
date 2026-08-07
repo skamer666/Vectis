@@ -12,7 +12,7 @@
 //   GITHUB_BRANCH      -- "main" (optionnel, defaut "main")
 
 const ALLOWED_TEMPLATES = ["prestige", "moderne", "chaleureux"];
-const ALLOWED_ACCENTS = ["bordeaux", "encre"];
+const ALLOWED_ACCENTS = ["bordeaux", "encre", "sapin", "ardoise"];
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
 const MAX_PHOTO_BYTES = 2 * 1024 * 1024;
 const MAX_FIELD_LEN = 3000;
@@ -157,12 +157,14 @@ module.exports = async function handler(req, res) {
     locked: { nom_complet: nom, canton: code, ville },
     free: {
       photo_filename: photoFilename,
+      role_titre: truncate(body.role_titre, 150),
       accroche: truncate(body.accroche, 200),
       bio: truncate(body.bio, MAX_FIELD_LEN),
       citation: truncate(body.citation, 300),
       specialites,
       site_web: truncate(body.site_web, 300),
       linkedin: truncate(body.linkedin, 300),
+      instagram: truncate(body.instagram, 300),
       accent_color: accentColor,
       distinctions,
     },

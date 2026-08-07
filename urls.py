@@ -105,6 +105,10 @@ def avis_request_path(lang):
     return f"/{lang}/{seg('avis-demande', lang)}/"
 
 
+def vitrine_preview_path(template, lang):
+    return f"/{lang}/vitrine-preview/{template}/"
+
+
 def static_path(lang, depth):
     return "../" * depth + "static/"
 

@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="vitrine-scope" style="{{ accent_style }}">
 <div class="vp-hero">
   <div class="container">
-    {% if photo_url %}<img class="vp-hero-photo" src="{{ photo_url }}" alt="{{ nom_complet }}" loading="lazy">{% endif %}
+    <img class="vp-hero-photo" data-field="photo" src="{{ photo_url or '' }}" alt="{{ nom_complet }}" loading="lazy" {% if not photo_url %}hidden{% endif %}>
     <div class="vp-hero-kicker">{{ ui.bar_admission }} &middot; {{ canton_name }}</div>
-    <h1>{{ nom_complet }}</h1>
-    {% if accroche %}<p class="vp-hero-tagline">{{ accroche }}</p>{% endif %}
+    <h1 data-field="nom_complet">{{ nom_complet }}</h1>
+    <p class="vp-hero-role" data-field="role_titre" {% if not role_titre %}hidden{% endif %}>{{ role_titre }}</p>
+    <p class="vp-hero-tagline" data-field="accroche" {% if not accroche %}hidden{% endif %}>{{ accroche }}</p>
     <p class="vp-hero-meta">
       {% if ville %}{{ ville }}{% endif %}{% if langues %} &middot; {{ langues | join(", ") }}{% endif %}
     </p>
@@ -13,9 +15,9 @@
 </div>
 
 <div class="container vp-body">
-  {% if bio %}<p class="presentation">{{ bio }}</p>{% endif %}
+  <p class="presentation" data-field="bio" {% if not bio %}hidden{% endif %}>{{ bio }}</p>
 
-  {% if citation %}<p class="vp-quote">&laquo;&nbsp;{{ citation }}&nbsp;&raquo;</p>{% endif %}
+  <p class="vp-quote" data-field="citation" {% if not citation %}hidden{% endif %}>&laquo;&nbsp;{{ citation }}&nbsp;&raquo;</p>
 
   {% if telephone or email or site_web %}
   <div class="cta-row" style="justify-content:center;">
@@ -25,32 +27,31 @@
   </div>
   {% endif %}
 
-  {% if specialites %}
-  <section class="section" style="padding-block:var(--space-xl);">
+  <section class="section" data-field="specialites-section" style="padding-block:var(--space-xl);" {% if not specialites %}hidden{% endif %}>
     <h2 style="text-align:center; margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>
-    <div class="tag-list" style="justify-content:center;">
+    <div class="tag-list" data-field="specialites" style="justify-content:center;">
       {% for d in specialites %}<a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>{% endfor %}
     </div>
   </section>
-  {% endif %}
 
-  {% if distinctions %}
-  <section class="section" style="padding-block:var(--space-xl);">
+  <section class="section" data-field="distinctions-section" style="padding-block:var(--space-xl);" {% if not distinctions %}hidden{% endif %}>
     <h2 style="text-align:center; margin-bottom:var(--space-lg);">{{ ui.distinctions_title }}</h2>
-    <ul class="vitrine-distinctions">
+    <ul class="vitrine-distinctions" data-field="distinctions">
       {% for d in distinctions %}<li>{{ d }}</li>{% endfor %}
     </ul>
   </section>
-  {% endif %}
 
-  {% if linkedin %}
-  <p style="text-align:center;"><a href="{{ linkedin }}" rel="nofollow noopener" target="_blank">LinkedIn</a></p>
-  {% endif %}
+  <p style="text-align:center;" data-field="social-links">
+    {% if linkedin %}<a href="{{ linkedin }}" rel="nofollow noopener" target="_blank">LinkedIn</a>{% endif %}
+    {% if linkedin and instagram %} &middot; {% endif %}
+    {% if instagram %}<a href="{{ instagram }}" rel="nofollow noopener" target="_blank">Instagram</a>{% endif %}
+  </p>
 
   {% include "_badge_box.html" %}
 
   <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.85rem; text-align:center; color:var(--text-muted);">
     {{ ui.vitrine_registry_note }} <a href="{{ registry_url }}">{{ ui.vitrine_registry_link }}</a>
   </p>
+</div>
 </div>
 {% endblock %}
