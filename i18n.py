@@ -364,7 +364,7 @@ UI = {
     "fr": {
         "site_name": "Legatis",
         "tagline": "L'annuaire de référence des avocats en Suisse",
-        "search_placeholder": "Chercher un avocat, une étude, un domaine…", "search_button": "Rechercher", "search_results_for": "Résultats pour", "no_results": "Aucun résultat pour cette recherche.", "search_title": "Recherche", "members_short": "avocat(e)s",
+        "search_placeholder": "Chercher un avocat, une étude, un domaine…", "search_button": "Rechercher", "filter_cantons_placeholder": "Rechercher un canton…", "filter_registry_placeholder": "Filtrer par nom ou ville…", "contact_card_label": "Prendre contact", "search_results_for": "Résultats pour", "no_results": "Aucun résultat pour cette recherche.", "search_title": "Recherche", "members_short": "avocat(e)s",
         "address": "Adresse", "phone": "Téléphone", "email": "Email",
         "website": "Site internet", "firm": "Étude", "canton": "Canton",
         "practice_areas": "Domaines de compétence",
@@ -406,7 +406,7 @@ UI = {
     "de": {
         "site_name": "Legatis",
         "tagline": "Das Referenzverzeichnis der Anwältinnen und Anwälte in der Schweiz",
-        "search_placeholder": "Anwalt, Kanzlei oder Rechtsgebiet suchen…", "search_button": "Suchen", "search_results_for": "Ergebnisse für", "no_results": "Keine Ergebnisse für diese Suche.", "search_title": "Suche", "members_short": "Anwälte",
+        "search_placeholder": "Anwalt, Kanzlei oder Rechtsgebiet suchen…", "search_button": "Suchen", "filter_cantons_placeholder": "Kanton suchen…", "filter_registry_placeholder": "Nach Name oder Stadt filtern…", "contact_card_label": "Kontakt aufnehmen", "search_results_for": "Ergebnisse für", "no_results": "Keine Ergebnisse für diese Suche.", "search_title": "Suche", "members_short": "Anwälte",
         "address": "Adresse", "phone": "Telefon", "email": "E-Mail",
         "website": "Webseite", "firm": "Kanzlei", "canton": "Kanton",
         "practice_areas": "Fachgebiete",
@@ -447,7 +447,7 @@ UI = {
     "it": {
         "site_name": "Legatis",
         "tagline": "L'elenco di riferimento degli avvocati in Svizzera",
-        "search_placeholder": "Cerca un avvocato, uno studio, un ambito…", "search_button": "Cerca", "search_results_for": "Risultati per", "no_results": "Nessun risultato per questa ricerca.", "search_title": "Ricerca", "members_short": "avvocati",
+        "search_placeholder": "Cerca un avvocato, uno studio, un ambito…", "search_button": "Cerca", "filter_cantons_placeholder": "Cerca un cantone…", "filter_registry_placeholder": "Filtra per nome o città…", "contact_card_label": "Contattare", "search_results_for": "Risultati per", "no_results": "Nessun risultato per questa ricerca.", "search_title": "Ricerca", "members_short": "avvocati",
         "address": "Indirizzo", "phone": "Telefono", "email": "E-mail",
         "website": "Sito web", "firm": "Studio legale", "canton": "Cantone",
         "practice_areas": "Ambiti di competenza",
@@ -489,7 +489,7 @@ UI = {
     "en": {
         "site_name": "Legatis",
         "tagline": "Switzerland's reference directory of lawyers",
-        "search_placeholder": "Search for a lawyer, firm, or practice area…", "search_button": "Search", "search_results_for": "Results for", "no_results": "No results for this search.", "search_title": "Search", "members_short": "lawyers",
+        "search_placeholder": "Search for a lawyer, firm, or practice area…", "search_button": "Search", "filter_cantons_placeholder": "Search a canton…", "filter_registry_placeholder": "Filter by name or city…", "contact_card_label": "Get in touch", "search_results_for": "Results for", "no_results": "No results for this search.", "search_title": "Search", "members_short": "lawyers",
         "address": "Address", "phone": "Phone", "email": "Email",
         "website": "Website", "firm": "Firm", "canton": "Canton",
         "practice_areas": "Practice areas", "bar_admission": "Bar admission", "languages_spoken": "Languages spoken",

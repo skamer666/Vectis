@@ -1,24 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <div class="profile-head">
+  <div class="profile-head" data-reveal>
     <div>
       <div class="hero-eyebrow">{{ ui.firm }} | {{ canton_name }}</div>
       <h1 class="profile-title">{{ nom_etude }}</h1>
       {% if adresse %}<p class="profile-sub">{{ adresse }}{% if npa or ville %}, {{ npa }} {{ ville }}{% endif %}</p>{% endif %}
     </div>
+    {% if telephone or site_web %}
+    <aside class="profile-contact-card">
+      <div class="profile-contact-label">{{ ui.contact_card_label }}</div>
+      <div class="cta-row">
+        {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
+        {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
+      </div>
+    </aside>
+    {% endif %}
   </div>
 
-  {% if presentation %}<p class="presentation">{{ presentation }}</p>{% endif %}
+  {% if presentation %}<p class="presentation" data-reveal>{{ presentation }}</p>{% endif %}
   {% if insight_text %}<p class="presentation" style="font-size:0.95rem;">{{ insight_text }}</p>{% endif %}
   {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
-
-  {% if telephone or site_web %}
-  <div class="cta-row">
-    {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
-    {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
-  </div>
-  {% endif %}
 
   <p class="claim-notice" style="font-size:0.9rem;">
     <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
@@ -31,7 +33,7 @@
 
 
 
-  <section class="section">
+  <section class="section" data-reveal>
     <div class="section-head"><h2>{{ members_title }}</h2></div>
     <div class="registry">
       {% for a in membres %}

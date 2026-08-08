@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);" data-reveal>
     <div class="hero-eyebrow">{{ domaine_name }} | {{ canton_name }}</div>
     <h1>{{ h1 }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
-  <section class="section" style="padding-top:0;">
+  <section class="section" style="padding-top:0;" data-reveal>
     <div class="section-head"><h2>{{ list_title }}</h2></div>
     {% if avocats %}
     <div class="registry">

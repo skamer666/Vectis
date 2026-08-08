@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <div class="profile-head">
+  <div class="profile-head" data-reveal>
     <div>
       <div class="hero-eyebrow">{{ ui.canton }} | {{ canton_name }}</div>
       <h1 class="profile-title">{{ nom }}</h1>
@@ -11,29 +11,31 @@
       {% if seniority_text %}<p class="profile-sub" style="margin-top:4px;">{{ seniority_text }}</p>{% endif %}
       {% if langues %}<p class="profile-sub">{{ ui.languages_spoken }}: {{ langues | join(", ") }}</p>{% endif %}
     </div>
+    {% if telephone or email or site_web %}
+    <aside class="profile-contact-card">
+      <div class="profile-contact-label">{{ ui.contact_card_label }}</div>
+      <div class="cta-row">
+        {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
+        {% if email %}<a class="cta-btn{% if not telephone %} is-primary{% endif %}" href="mailto:{{ email }}">{{ ui.email }}</a>{% endif %}
+        {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
+      </div>
+    </aside>
+    {% endif %}
   </div>
 
   {% if presentation %}
-  <p class="presentation">{{ presentation }}</p>
+  <p class="presentation" data-reveal>{{ presentation }}</p>
   {% endif %}
   {% if insight_text %}<p class="presentation" style="font-size:0.95rem;">{{ insight_text }}</p>{% endif %}
   {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
 
-  <table class="info-table">
+  <table class="info-table" data-reveal>
     {% if adresse %}<tr><td>{{ ui.address }}</td><td>{{ adresse }}{% if npa or ville %}<br>{{ npa }} {{ ville }}{% endif %}</td></tr>{% endif %}
     {% if telephone %}<tr><td>{{ ui.phone }}</td><td>{{ telephone }}</td></tr>{% endif %}
     {% if email %}<tr><td>{{ ui.email }}</td><td><a href="mailto:{{ email }}">{{ email }}</a></td></tr>{% endif %}
     {% if site_web %}<tr><td>{{ ui.website }}</td><td><a href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ site_web }}</a></td></tr>{% endif %}
     {% if etude %}<tr><td>{{ ui.firm }}</td><td>{% if etude_url %}<a href="{{ etude_url }}">{{ etude }}</a>{% else %}{{ etude }}{% endif %}</td></tr>{% endif %}
   </table>
-
-  {% if telephone or email or site_web %}
-  <div class="cta-row">
-    {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
-    {% if email %}<a class="cta-btn{% if not telephone %} is-primary{% endif %}" href="mailto:{{ email }}">{{ ui.email }}</a>{% endif %}
-    {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
-  </div>
-  {% endif %}
 
   <p class="claim-notice" style="margin-top:var(--space-lg); font-size:0.9rem;">
     <a href="{{ correction_url }}">{{ ui.claim_listing }}</a>
@@ -49,7 +51,7 @@
   {% include "_reviews_widget.html" %}
 
   {% if domaines %}
-  <section class="section" style="padding-block:var(--space-xl);">
+  <section class="section" style="padding-block:var(--space-xl);" data-reveal>
     <h2 style="margin-bottom:var(--space-lg);">{{ ui.practice_areas }}</h2>
     <div class="tag-list">
       {% for d in domaines %}<a class="tag is-accent" href="{{ d.url }}">{{ d.name }}</a>{% endfor %}
@@ -57,7 +59,7 @@
   </section>
   {% endif %}
 
-  <section class="section">
+  <section class="section" data-reveal>
     <div class="section-head"><h2>{{ nearby_title }}</h2></div>
     <div class="registry">
       {% for a in nearby %}

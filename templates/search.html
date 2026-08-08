@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);" data-reveal>
     <div class="hero-eyebrow">{{ ui.search_title }}</div>
     <h1>{{ ui.search_title }}</h1>
     <form class="search-box" id="search-form" onsubmit="return false;">
@@ -23,9 +23,26 @@
   var resultsForText = {{ ui.search_results_for | tojson }};
   var indexUrl = {{ search_index_url | tojson }};
   var data = null;
+  var debounceTimer = null;
 
   function normalize(s) {
     return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+
+  function highlight(text, query) {
+    var safe = escapeHtml(text);
+    if (!query) return safe;
+    var normText = normalize(text);
+    var normQuery = normalize(query);
+    var idx = normText.indexOf(normQuery);
+    if (idx === -1) return safe;
+    return escapeHtml(text.slice(0, idx)) + '<mark>' + escapeHtml(text.slice(idx, idx + query.length)) + '</mark>' + escapeHtml(text.slice(idx + query.length));
   }
 
   function render(query) {
@@ -40,14 +57,24 @@
     if (!q) { status.textContent = ''; return; }
     status.textContent = resultsForText + ' « ' + query + ' » (' + matches.length + ')';
     if (matches.length === 0) { status.textContent = noResultsText; return; }
-    matches.slice(0, 100).forEach(function(item) {
+    matches.slice(0, 100).forEach(function(item, i) {
       var a = document.createElement('a');
       a.className = 'registry-row';
       a.href = item.url;
-      a.innerHTML = '<div><div class="registry-name">' + item.nom + '</div></div>' +
-        '<div class="registry-firm">' + (item.etude || '') + '</div>' +
-        '<div class="registry-city">' + (item.ville || '') + '</div>';
+      a.style.opacity = '0';
+      a.style.transform = 'translateY(8px)';
+      a.style.transition = 'opacity .35s cubic-bezier(0.16,1,0.3,1), transform .35s cubic-bezier(0.16,1,0.3,1)';
+      a.style.transitionDelay = Math.min(i * 0.02, 0.3) + 's';
+      a.innerHTML = '<div><div class="registry-name">' + highlight(item.nom, query) + '</div></div>' +
+        '<div class="registry-firm">' + highlight(item.etude || '', query) + '</div>' +
+        '<div class="registry-city">' + highlight(item.ville || '', query) + '</div>';
       results.appendChild(a);
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          a.style.opacity = '1';
+          a.style.transform = 'translateY(0)';
+        });
+      });
     });
   }
 
@@ -60,7 +87,12 @@
     render(input.value);
   });
 
-  input.addEventListener('input', function() { render(input.value); });
+  input.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    var v = input.value;
+    debounceTimer = setTimeout(function() { render(v); }, 80);
+  });
+  input.focus();
 })();
 </script>
 {% endblock %}

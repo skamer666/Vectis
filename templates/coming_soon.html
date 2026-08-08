@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);" data-reveal>
     <div class="hero-eyebrow">{{ ui.canton }}</div>
     <h1>{{ canton_name }}</h1>
   </section>
-  <div class="notice">
+  <div class="notice" data-reveal>
     <h2>{{ ui.coming_soon }}</h2>
     <p>{{ ui.coming_soon_text }}</p>
   </div>

@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);" data-reveal>
     <div class="hero-eyebrow">{{ canton_name }}</div>
     <h1>{{ ui.find_a_lawyer_near }} {{ ville_name }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
 
   {% if domaines %}
-  <section class="section" style="padding-top:0;">
+  <section class="section" style="padding-top:0;" data-reveal>
     <div class="section-head"><h2><span class="section-number">01</span>{{ ui.all_practice_areas }}</h2></div>
     <div class="tag-list">
       {% for d in domaines %}
@@ -18,9 +18,14 @@
   </section>
   {% endif %}
 
-  <section class="section" {% if not domaines %}style="padding-top:0;"{% endif %}>
+  <section class="section" {% if not domaines %}style="padding-top:0;"{% endif %} data-reveal>
     <div class="section-head">
       <h2><span class="section-number">02</span>{{ stats_label }}</h2>
+    </div>
+    <div class="filter-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+      <input type="text" data-filter-input data-filter-item=".registry-row" placeholder="{{ ui.filter_registry_placeholder }}" autocomplete="off">
+      <div class="filter-box-count"></div>
     </div>
     <div class="registry">
       {% for a in registry %}

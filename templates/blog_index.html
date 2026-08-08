@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
-  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);" data-reveal>
     <h1>{{ ui.blog_title }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
-  <section class="section" style="padding-top:0;">
+  <section class="section" style="padding-top:0;" data-reveal>
     <div class="registry">
       {% for a in articles %}
       <a class="registry-row" href="{{ a.url }}">

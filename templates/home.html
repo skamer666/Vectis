@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="press-band">
+<div class="press-band" data-reveal>
   <div class="container press-band-inner">
     <div class="press-band-text">
       <div class="press-band-kicker">{{ ui.press_study_kicker }}</div>
@@ -13,7 +13,7 @@
 </div>
 <div class="container">
   <section class="hero hero-split">
-    <div class="hero-main">
+    <div class="hero-main" data-reveal>
       <div class="hero-eyebrow">{{ ui.site_name }} &middot; Suisse</div>
       <h1>{{ ui.tagline }}</h1>
       <p class="lede">{{ intro_text }}</p>
@@ -22,7 +22,7 @@
         <button type="submit">{{ ui.search_button }}</button>
       </form>
     </div>
-    <aside class="hero-toc">
+    <aside class="hero-toc" data-reveal style="--reveal-delay:.12s;">
       <div class="hero-toc-label">{{ ui.site_name }}</div>
       <ul>
         <li><a href="{{ cantons_index_url }}"><span class="hero-toc-num">01</span>{{ ui.all_cantons }}</a></li>
@@ -34,21 +34,26 @@
     </aside>
   </section>
 
-  <section class="stat-strip">
+  <section class="stat-strip" data-reveal>
     <div class="stat"><div class="stat-value">{{ stats.total_avocats }}</div><div class="stat-label">{{ ui.lawyers_in_canton }}</div></div>
     <div class="stat"><div class="stat-value">{{ stats.total_cantons }}</div><div class="stat-label">{{ ui.all_cantons }}</div></div>
     <div class="stat"><div class="stat-value">{{ stats.total_etudes }}</div><div class="stat-label">{{ ui.firm }}s</div></div>
     <div class="stat"><div class="stat-value">{{ stats.total_domaines }}</div><div class="stat-label">{{ ui.all_practice_areas }}</div></div>
   </section>
 
-  <section class="section">
+  <section class="section" data-reveal>
     <div class="section-head">
       <h2><span class="section-number">01</span>{{ ui.all_cantons }}</h2>
       <a href="{{ cantons_index_url }}">{{ ui.all_cantons }} &rarr;</a>
     </div>
-    <div class="index-grid">
+    <div class="filter-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+      <input type="text" data-filter-input data-filter-item=".index-cell" data-filter-field=".name" placeholder="{{ ui.filter_cantons_placeholder }}" autocomplete="off">
+      <div class="filter-box-count"></div>
+    </div>
+    <div class="index-grid" data-reveal-group="cantons">
       {% for c in cantons %}
-      <a class="index-cell" href="{{ c.url }}">
+      <a class="index-cell" href="{{ c.url }}" data-reveal style="--reveal-delay:0s;">
         <div class="name">{{ c.name }}</div>
         <div class="count">{{ c.count }} {{ ui.lawyers_in_canton }}</div>
       </a>
@@ -56,7 +61,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" data-reveal>
     <div class="section-head">
       <h2><span class="section-number">02</span>{{ ui.all_practice_areas }}</h2>
       <a href="{{ domaines_index_url }}">{{ ui.all_practice_areas }} &rarr;</a>
