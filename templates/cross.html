@@ -6,7 +6,9 @@
     <h1>{{ h1 }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
-  <section class="section" style="padding-top:0;" data-reveal>
+  <!-- Pas de data-reveal ici : liste .registry potentiellement longue,
+       meme raison que canton_hub.html (voir commentaire la-bas). -->
+  <section class="section" style="padding-top:0;">
     <div class="section-head"><h2>{{ list_title }}</h2></div>
     {% if avocats %}
     <div class="registry">

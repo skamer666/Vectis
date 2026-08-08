@@ -5,7 +5,9 @@
     <h1>{{ ui.blog_title }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
-  <section class="section" style="padding-top:0;" data-reveal>
+  <!-- Pas de data-reveal ici : liste .registry potentiellement longue
+       (100 articles), meme raison que canton_hub.html. -->
+  <section class="section" style="padding-top:0;">
     <div class="registry">
       {% for a in articles %}
       <a class="registry-row" href="{{ a.url }}">

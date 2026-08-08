@@ -28,7 +28,13 @@
   </section>
   {% endif %}
 
-  <section class="section" data-reveal>
+  <!-- Pas de data-reveal sur cette section : sur un canton avec beaucoup
+       d'avocats (Geneve : ~1200), la liste .registry peut depasser
+       10 000px de haut. Le seuil de l'IntersectionObserver (8% de la
+       hauteur de l'element) ne peut alors jamais etre atteint sur un
+       ecran mobile (souvent <700px de haut) -> la section restait
+       invisible (opacity:0) en permanence, meme apres defilement. -->
+  <section class="section">
     <div class="section-head">
       <h2><span class="section-number">03</span>{{ stats_label }}</h2>
     </div>

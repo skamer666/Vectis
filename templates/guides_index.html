@@ -5,7 +5,9 @@
     <h1>{{ ui.guides_title }}</h1>
     <p class="lede">{{ intro_text }}</p>
   </section>
-  <section class="section" style="padding-top:0;" data-reveal>
+  <!-- Pas de data-reveal ici : liste .registry potentiellement longue,
+       meme raison que canton_hub.html. -->
+  <section class="section" style="padding-top:0;">
     <div class="registry">
       {% for g in guides %}
       <a class="registry-row" href="{{ g.url }}">
