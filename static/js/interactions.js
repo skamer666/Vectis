@@ -250,6 +250,16 @@
     };
   }
 
+  /* Cache les listes favoris/comparateur UNE SEULE FOIS avant de decorer les
+     lignes du registre, plutot que de relire+re-parser le localStorage pour
+     chaque ligne. Sur les gros listings (ex: Geneve, ~1200 avocats), relire
+     le localStorage a chaque ligne (jusqu'a ~2400 lectures synchrones)
+     bloquait perceptiblement le thread principal au chargement, en
+     particulier sur mobile -- au point de donner l'impression que la page
+     ne chargeait pas. */
+  var initialFavCache = readStore(STORAGE_FAV);
+  var initialCmpCache = readStore(STORAGE_CMP);
+
   function enhanceRegistryRow(row) {
     if (!row || row.dataset.legatisEnhanced) return;
     var entry = buildEntryFromRow(row);
@@ -262,7 +272,7 @@
     favBtn.className = 'fav-btn';
     favBtn.setAttribute('aria-label', t('favorite_add', 'Favoris'));
     favBtn.innerHTML = ICON_HEART;
-    if (findIndexByUrl(readStore(STORAGE_FAV), entry.url) !== -1) {
+    if (findIndexByUrl(initialFavCache, entry.url) !== -1) {
       favBtn.classList.add('is-active');
       favBtn.innerHTML = ICON_HEART_FILLED;
     }
@@ -278,7 +288,7 @@
     cmpBtn.className = 'compare-btn';
     cmpBtn.setAttribute('aria-label', t('compare_add', 'Comparer'));
     cmpBtn.innerHTML = ICON_SCALE;
-    if (findIndexByUrl(readStore(STORAGE_CMP), entry.url) !== -1) {
+    if (findIndexByUrl(initialCmpCache, entry.url) !== -1) {
       cmpBtn.classList.add('is-active'); cmpBtn.innerHTML = ICON_CHECK;
     }
     cmpBtn.addEventListener('click', function (e) {
@@ -294,7 +304,24 @@
   }
   window.legatisEnhanceRow = enhanceRegistryRow;
 
-  document.querySelectorAll('.registry-row').forEach(enhanceRegistryRow);
+  /* Decoration des lignes par lots (via requestAnimationFrame quand
+     disponible) pour ne pas geler le thread principal sur les tres longs
+     listings : le navigateur peut peindre/repondre aux interactions entre
+     deux lots plutot que de traiter les ~1200 lignes de Geneve d'un bloc. */
+  (function enhanceAllRegistryRows() {
+    var rows = document.querySelectorAll('.registry-row');
+    var BATCH_SIZE = 40;
+    var i = 0;
+    function processBatch() {
+      var end = Math.min(i + BATCH_SIZE, rows.length);
+      for (; i < end; i++) enhanceRegistryRow(rows[i]);
+      if (i < rows.length) {
+        if ('requestAnimationFrame' in window) requestAnimationFrame(processBatch);
+        else setTimeout(processBatch, 0);
+      }
+    }
+    processBatch();
+  })();
 
   /* -- boutons profil (fiche avocat / etude) --
      NB: le bouton comparer partage la classe .profile-fav-btn pour le style
