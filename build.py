@@ -1448,6 +1448,7 @@ for _c in list(i18n.CANTONS.values()) + list(i18n.CANTONS_A_VENIR.values()):
 _EPONYMOUS_NORMS.update({"basel", "bale", "basilea", "geneve 3", "st. gallen", "saint gall"})
 
 CITY_MIN_LAWYERS = 3
+EPONYMOUS_CITY_COUNTS = {}
 
 
 def city_display(ville):
@@ -1458,22 +1459,29 @@ def build_city_data():
     """Regroupe les avocats par ville (nom postal nettoye) pour chaque canton.
     Seules les villes non eponymes du canton et comptant au moins
     CITY_MIN_LAWYERS avocats donnent lieu a une page (anti-thin-content :
-    on ne genere pas de coquilles vides, plutot que de les generer en noindex)."""
+    on ne genere pas de coquilles vides, plutot que de les generer en noindex).
+    Alimente aussi EPONYMOUS_CITY_COUNTS : le nombre d'avocats dont la ville
+    correspond au nom du canton lui-meme (ex. "Geneve" dans le canton GE),
+    utilise pour proposer un lien vers la page canton dans la liste des
+    villes plutot que de simplement l'omettre (voir canton_villes_links)."""
     out = {}
     pools = {"GE": GE_INDIVIDUALS}
     for code, data in CANTON_DATA.items():
         pools[code] = data["individuals"]
     for code, individuals in pools.items():
         groups = {}
+        eponymous_count = 0
         for r in individuals:
             disp = city_display(r.get("ville", ""))
             if not disp:
                 continue
             key = norm(disp)
             if key in _EPONYMOUS_NORMS:
+                eponymous_count += 1
                 continue
             g = groups.setdefault(key, {"name": disp, "members": []})
             g["members"].append(r)
+        EPONYMOUS_CITY_COUNTS[code] = eponymous_count
         cities = [g for g in groups.values() if len(g["members"]) >= CITY_MIN_LAWYERS]
         cities.sort(key=lambda g: -len(g["members"]))
         seen_slugs = {}
@@ -1632,11 +1640,26 @@ def gen_ville_domaines():
 
 
 def canton_villes_links(code, lang):
-    """Liens vers les pages villes d'un canton (maillage interne du hub canton)."""
-    return [
+    """Liens vers les pages villes d'un canton (maillage interne du hub canton).
+    Ajoute en tete un lien vers la page canton elle-meme au nom de la ville
+    eponyme (ex. "Geneve" pour le canton GE) : cette ville n'a pas de page
+    dediee (contenu dupliquerait la page canton, voir _EPONYMOUS_NORMS),
+    mais l'omettre completement de la liste des villes est deroutant --
+    on preferait pouvoir "choisir Geneve-ville" alors que ce choix existe
+    deja, c'est simplement la page canton elle-meme."""
+    links = []
+    eponymous_count = EPONYMOUS_CITY_COUNTS.get(code, 0)
+    if eponymous_count:
+        links.append({
+            "name": i18n.CANTONS[code][lang]["name"],
+            "url": canton_path(code, lang),
+            "count": eponymous_count,
+        })
+    links.extend(
         {"name": c["name"], "url": ville_path(code, c["slug"], lang), "count": c["count"]}
         for c in CITY_DATA.get(code, [])
-    ]
+    )
+    return links
 
 
 # ---------------------------------------------------------------- guides

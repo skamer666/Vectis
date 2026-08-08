@@ -510,7 +510,8 @@
     var usedFields = fieldDefs.filter(function (f) {
       return list.some(function (e) { return e[f.key]; });
     });
-    var html = '<table class="compare-table"><thead><tr><th></th>';
+    var html = '<p class="compare-data-notice">' + t('compare_data_notice', 'Comparatif basé sur les informations publiques disponibles à ce jour : certaines données ne sont pas encore renseignées pour tous les profils.') + '</p>';
+    html += '<table class="compare-table"><thead><tr><th></th>';
     list.forEach(function (entry) {
       html += '<th class="compare-col-head"><a href="' + entry.url + '" style="color:inherit; text-decoration:none;">' + escapeHtmlGlobal(entry.nom) + '</a></th>';
     });

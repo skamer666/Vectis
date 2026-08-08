@@ -1018,6 +1018,11 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
   padding:var(--space-xl); border-bottom:1px solid var(--border-strong);
 }
 .compare-modal-body{ overflow:auto; padding:var(--space-xl); }
+.compare-data-notice{
+  font-size:0.82rem; color:var(--text-muted); margin:0 0 var(--space-lg);
+  padding:var(--space-sm) var(--space-md); background:var(--surface-50, oklch(97% 0.01 90));
+  border-left:2px solid var(--accent-500); border-radius:0 4px 4px 0;
+}
 .compare-table{ width:100%; border-collapse:collapse; min-width:480px; }
 .compare-table th, .compare-table td{
   padding:12px 14px; border-bottom:1px solid var(--border); text-align:left; vertical-align:top;
