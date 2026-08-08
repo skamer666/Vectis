@@ -41,6 +41,38 @@
     <div class="stat"><div class="stat-value">{{ stats.total_domaines }}</div><div class="stat-label">{{ ui.all_practice_areas }}</div></div>
   </section>
 
+  <section class="wizard" data-reveal id="wizard">
+    <div class="wizard-head">
+      <div class="hero-eyebrow" style="margin-bottom:0;">{{ ui.wizard_title }}</div>
+    </div>
+    <form class="wizard-form" id="wizard-form">
+      <div class="wizard-step">
+        <span class="wizard-step-num">1</span>
+        <label class="wizard-label" for="wizard-canton">{{ ui.wizard_canton_label }}</label>
+        <select id="wizard-canton" required>
+          <option value="" disabled selected>{{ ui.wizard_canton_placeholder }}</option>
+          {% for c in cantons %}
+          <option value="{{ c.code }}">{{ c.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="wizard-step">
+        <span class="wizard-step-num">2</span>
+        <label class="wizard-label" for="wizard-domaine">{{ ui.wizard_domaine_label }}</label>
+        <select id="wizard-domaine" required>
+          <option value="" disabled selected>{{ ui.wizard_domaine_placeholder }}</option>
+          {% for d in domaines %}
+          <option value="{{ d.id }}">{{ d.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <button type="submit" class="cta-btn is-primary wizard-submit">{{ ui.wizard_submit }} &rarr;</button>
+    </form>
+  </section>
+  <script>
+    window.__legatisCrossMatrix = {{ cross_url_matrix | tojson }};
+  </script>
+
   <section class="section" data-reveal>
     <div class="section-head">
       <h2><span class="section-number">01</span>{{ ui.all_cantons }}</h2>

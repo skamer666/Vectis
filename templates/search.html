@@ -69,6 +69,7 @@
         '<div class="registry-firm">' + highlight(item.etude || '', query) + '</div>' +
         '<div class="registry-city">' + highlight(item.ville || '', query) + '</div>';
       results.appendChild(a);
+      if (window.legatisEnhanceRow) window.legatisEnhanceRow(a);
       requestAnimationFrame(function() {
         requestAnimationFrame(function() {
           a.style.opacity = '1';

@@ -11,16 +11,32 @@
       {% if seniority_text %}<p class="profile-sub" style="margin-top:4px;">{{ seniority_text }}</p>{% endif %}
       {% if langues %}<p class="profile-sub">{{ ui.languages_spoken }}: {{ langues | join(", ") }}</p>{% endif %}
     </div>
-    {% if telephone or email or site_web %}
+    {% set entry_data = {"url": canonical_url, "nom": nom, "etude": etude or "", "ville": ville or "", "canton_name": canton_name or "", "role_or_titre": role_or_titre or "", "langues": (langues | join(", ")) if langues else "", "seniority_text": seniority_text or ""} %}
     <aside class="profile-contact-card">
       <div class="profile-contact-label">{{ ui.contact_card_label }}</div>
+      {% if telephone or email or site_web %}
       <div class="cta-row">
         {% if telephone %}<a class="cta-btn is-primary" href="tel:{{ telephone }}">{{ ui.call_now }}</a>{% endif %}
         {% if email %}<a class="cta-btn{% if not telephone %} is-primary{% endif %}" href="mailto:{{ email }}">{{ ui.email }}</a>{% endif %}
         {% if site_web %}<a class="cta-btn" href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ ui.visit_site_cta }}</a>{% endif %}
       </div>
+      {% endif %}
+      <div class="fav-compare-row">
+        <button type="button" class="profile-fav-btn" data-entry='{{ entry_data | tojson }}'><span class="profile-fav-btn-label">{{ ui.favorite_add }}</span></button>
+        <button type="button" class="profile-fav-btn profile-compare-btn" data-entry='{{ entry_data | tojson }}'><span class="profile-fav-btn-label">{{ ui.compare_add }}</span></button>
+      </div>
     </aside>
-    {% endif %}
+  </div>
+
+  <div class="lead-capture" data-reveal>
+    <div class="lead-capture-title">{{ ui.lead_capture_title }}</div>
+    <p class="lead-capture-text">{{ ui.lead_capture_text }}</p>
+    <form class="lead-capture-form">
+      <input type="text" class="lead-capture-hp" name="website" tabindex="-1" autocomplete="off">
+      <input type="email" name="email" placeholder="{{ ui.lead_capture_placeholder }}" required autocomplete="email">
+      <button type="submit">{{ ui.lead_capture_submit }}</button>
+    </form>
+    <p class="lead-capture-msg"></p>
   </div>
 
   {% if presentation %}

@@ -464,12 +464,15 @@ def gen_home():
             "total_domaines": len(i18n.DOMAINES),
         }
         ctx["cantons"] = [
-            {"name": i18n.CANTONS[c][lang]["name"], "url": canton_path(c, lang), "count": CANTON_COUNTS.get(c, 0)}
+            {"code": c, "name": i18n.CANTONS[c][lang]["name"], "url": canton_path(c, lang), "count": CANTON_COUNTS.get(c, 0)}
             for c in i18n.CANTONS
         ]
         ctx["domaines"] = [
-            {"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in i18n.DOMAINES
+            {"id": d, "name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in i18n.DOMAINES
         ]
+        ctx["cross_url_matrix"] = {
+            c: {d: cross_path(c, d, lang) for d in i18n.DOMAINES} for c in i18n.CANTONS
+        }
         ctx["etude_aj_url"] = etude_aj_path(lang)
         write_page(path, render("home.html", ctx))
 

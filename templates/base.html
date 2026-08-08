@@ -114,6 +114,11 @@
     <span>Suisse | FR / DE / IT / EN</span>
   </div>
 </footer>
+<script>
+  window.__legatisI18N = {{ ui | tojson }};
+  window.__legatisLang = {{ lang | tojson }};
+  window.__legatisCanonical = {{ canonical_url | tojson }};
+</script>
 <script src="{{ asset_prefix }}static/js/interactions.js" defer></script>
 </body>
 </html>

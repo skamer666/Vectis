@@ -51,3 +51,34 @@ create policy "public read approved reviews"
 -- Aucune policy d'insertion / mise a jour / suppression publique : tous les
 -- ecrits passent par api/review-submit.js avec la service_role key (qui
 -- contourne RLS), jamais directement depuis le navigateur avec la clef anon.
+
+
+-- ============================================================================
+-- Schema pour la capture d'email (lead magnet discret sur les fiches
+-- avocat/etude). A executer dans le meme projet Supabase que `reviews`,
+-- toujours via Supabase -> SQL Editor. Cote client (api/lead-capture.js)
+-- utilise la meme SUPABASE_SERVICE_ROLE_KEY que review-submit.js.
+--
+-- Aucun envoi d'email automatique n'est effectue par ce script ni par
+-- l'API : les leads s'accumulent dans cette table, a consulter/exporter
+-- depuis Supabase -> Table Editor -> leads, ou a brancher plus tard sur
+-- un outil d'emailing/automatisation (Zapier, Make, webhook Supabase...).
+-- ============================================================================
+
+create table if not exists leads (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  status text not null default 'pending' check (status in ('pending', 'sent', 'ignored')),
+  email text not null,
+  page_url text not null,
+  page_title text,
+  lang text not null default 'fr'
+);
+
+create index if not exists leads_created_idx on leads (created_at desc);
+
+alter table leads enable row level security;
+
+-- Aucune policy de lecture/ecriture publique : tous les acces passent par
+-- api/lead-capture.js (insertion, service_role key) ou par Greg directement
+-- dans le Table Editor Supabase (lecture, cle du compte proprietaire).
