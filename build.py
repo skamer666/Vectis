@@ -531,6 +531,17 @@ def gen_home():
         ctx["cross_url_matrix"] = {
             c: {d: cross_path(c, d, lang) for d in i18n.DOMAINES} for c in i18n.CANTONS
         }
+        # Domaines reellement pourvus d'avocats par canton, pour filtrer le
+        # selecteur "domaine" du wizard une fois le canton choisi. Seul GE
+        # dispose aujourd'hui d'un champ "domaines" (specialites FSA) par
+        # avocat dans la source de donnees -> seul GE peut etre filtre sur
+        # des donnees reelles. Pour les autres cantons (pas encore de donnee
+        # de specialite par avocat), on garde tous les domaines disponibles
+        # plutot que de vider le selecteur, ce qui casserait le wizard.
+        ctx["cross_available_domains"] = {
+            c: (sorted(GE_BY_DOMAINE.keys()) if c == "GE" else list(i18n.DOMAINES.keys()))
+            for c in i18n.CANTONS
+        }
         ctx["etude_aj_url"] = etude_aj_path(lang)
         write_page(path, render("home.html", ctx))
 

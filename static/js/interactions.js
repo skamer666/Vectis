@@ -146,6 +146,36 @@
   /* -- selecteur guide (page d'accueil) -- */
   var wizardForm = document.getElementById('wizard-form');
   if (wizardForm) {
+    var wizardCantonSelect = document.getElementById('wizard-canton');
+    var wizardDomaineSelect = document.getElementById('wizard-domaine');
+    var cantonDomainsMap = window.__legatisCantonDomains || {};
+
+    /* Filtre les options du selecteur "specialite" selon les domaines
+       reellement disponibles pour le canton choisi (n'affiche que les
+       specialites ayant des avocats dans ce canton, quand cette donnee
+       existe). Les options non disponibles sont masquees plutot que
+       supprimees, pour pouvoir les restaurer si le canton change a nouveau. */
+    function filterWizardDomaines() {
+      if (!wizardDomaineSelect) return;
+      var canton = wizardCantonSelect.value;
+      var available = canton && cantonDomainsMap[canton] ? cantonDomainsMap[canton] : null;
+      var options = wizardDomaineSelect.querySelectorAll('option[value]:not([value=""])');
+      var currentValueStillAvailable = false;
+      options.forEach(function (opt) {
+        var isAvailable = !available || available.indexOf(opt.value) !== -1;
+        opt.hidden = !isAvailable;
+        opt.disabled = !isAvailable;
+        if (isAvailable && opt.value === wizardDomaineSelect.value) currentValueStillAvailable = true;
+      });
+      if (!currentValueStillAvailable) {
+        wizardDomaineSelect.value = '';
+      }
+    }
+    if (wizardCantonSelect) {
+      wizardCantonSelect.addEventListener('change', filterWizardDomaines);
+      filterWizardDomaines();
+    }
+
     wizardForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var canton = document.getElementById('wizard-canton').value;
