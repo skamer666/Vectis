@@ -266,8 +266,12 @@
 
   document.querySelectorAll('.registry-row').forEach(enhanceRegistryRow);
 
-  /* -- boutons profil (fiche avocat / etude) -- */
-  document.querySelectorAll('.profile-fav-btn').forEach(function (btn) {
+  /* -- boutons profil (fiche avocat / etude) --
+     NB: le bouton comparer partage la classe .profile-fav-btn pour le style
+     (voir templates/avocat.html et etude.html : class="profile-fav-btn
+     profile-compare-btn"). On exclut donc .profile-compare-btn ici, sinon
+     un clic sur "Comparer" declenchait AUSSI toggleFavorite en silence. */
+  document.querySelectorAll('.profile-fav-btn:not(.profile-compare-btn)').forEach(function (btn) {
     var entry;
     try { entry = JSON.parse(btn.getAttribute('data-entry') || '{}'); } catch (e) { entry = {}; }
     if (!entry.url) entry.url = window.__legatisCanonical || window.location.href;
@@ -495,7 +499,7 @@
         cb.innerHTML = isCmp ? ICON_CHECK : ICON_SCALE;
       }
     });
-    document.querySelectorAll('.profile-fav-btn').forEach(function (btn) {
+    document.querySelectorAll('.profile-fav-btn:not(.profile-compare-btn)').forEach(function (btn) {
       var entry; try { entry = JSON.parse(btn.getAttribute('data-entry') || '{}'); } catch (e) { entry = {}; }
       var active = findIndexByUrl(favList, entry.url || window.__legatisCanonical) !== -1;
       btn.classList.toggle('is-active', active);
