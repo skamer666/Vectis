@@ -11,8 +11,10 @@
    qui reagit au defilement, barre de lecture, retour en haut.
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,700;1,500;1,700&family=Bricolage+Grotesque:wght@500;600;700&display=swap');
+/* Polices chargees via <link rel="stylesheet"> dans <head> (base.html), pas
+   en @import CSS : un @import ajoute un aller-retour serie bloquant le rendu
+   (HTML -> CSS -> CSS des polices -> fichiers de police), ce qui degrade le
+   LCP. Voir <link rel="preconnect"> + <link rel="stylesheet"> dans base.html. */
 
 [hidden]{ display:none !important; }
 

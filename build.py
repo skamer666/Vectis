@@ -46,6 +46,51 @@ if not os.path.isdir(DATA_DIR):
 env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), autoescape=True)
 
 
+def load_review_aggregates():
+    """Recupere les avis approuves depuis Supabase pour enrichir le schema
+    Attorney (AggregateRating -> etoiles dans les resultats de recherche).
+    Best effort : si Supabase n'est pas configure/joignable ou si la table
+    n'existe pas encore, retourne un dict vide sans jamais faire echouer le
+    build (SEO en plus, jamais un point de defaillance)."""
+    if not supabase_config.SUPABASE_URL:
+        return {}
+    import urllib.request
+    import urllib.error
+    url = (f"{supabase_config.SUPABASE_URL}/rest/v1/reviews"
+           "?status=eq.approved&select=canton_code,avocat_slug,rating")
+    req = urllib.request.Request(url, headers={
+        "apikey": supabase_config.SUPABASE_ANON_KEY,
+        "Authorization": f"Bearer {supabase_config.SUPABASE_ANON_KEY}",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            rows = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"Avis Supabase non recuperes pour AggregateRating (ignore) : {e}", file=sys.stderr)
+        return {}
+    agg = {}
+    for r in rows if isinstance(rows, list) else []:
+        key = (r.get("canton_code"), r.get("avocat_slug"))
+        if key[0] and key[1] and isinstance(r.get("rating"), (int, float)):
+            agg.setdefault(key, []).append(r["rating"])
+    return {k: {"avg": round(sum(v) / len(v), 1), "count": len(v)} for k, v in agg.items() if v}
+
+
+REVIEW_AGGREGATES = load_review_aggregates()
+if REVIEW_AGGREGATES:
+    print(f"{len(REVIEW_AGGREGATES)} fiche(s) avec avis approuves (AggregateRating).", file=sys.stderr)
+
+
+def attorney_rating_schema(canton_code, slug):
+    agg = REVIEW_AGGREGATES.get((canton_code, slug))
+    if not agg:
+        return None
+    return {
+        "@type": "AggregateRating", "ratingValue": agg["avg"],
+        "reviewCount": agg["count"], "bestRating": 5, "worstRating": 1,
+    }
+
+
 def slugify(text):
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
     text = text.lower()
@@ -125,6 +170,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "badge_svg_url": badge_svg_url,
         "badge_alt": badge_alt,
         "badge_embed_code": badge_embed_code,
+        "og_image": f"{BASE_DOMAIN}/static/img/og-default-{lang}.png",
         "methodology_url": f"/{lang}/{seg('methodologie', lang)}/",
         "about_url": f"/{lang}/{seg('a-propos', lang)}/",
         "contact_url": f"/{lang}/{seg('contact', lang)}/",
@@ -425,6 +471,18 @@ def render(template_name, ctx):
         extra.append(json.dumps({
             "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items,
         }, ensure_ascii=False))
+    reg = ctx.get("registry")
+    if reg:
+        list_items = [
+            {"@type": "ListItem", "position": i + 1, "name": r.get("nom", ""),
+             "url": r["url"] if r["url"].startswith("http") else BASE_DOMAIN + r["url"]}
+            for i, r in enumerate(reg[:60]) if r.get("url") and r.get("nom")
+        ]
+        if list_items:
+            extra.append(json.dumps({
+                "@context": "https://schema.org", "@type": "ItemList",
+                "itemListElement": list_items, "numberOfItems": len(reg),
+            }, ensure_ascii=False))
     ctx["extra_schema"] = extra
     return env.get_template(template_name).render(**ctx)
 
@@ -571,7 +629,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                                            ville=row.get("ville") or None,
                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids])[:158]
             ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
-                            {lg: avocat_path("GE", row["_slug"], lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + avocat_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
             ctx["review_canton_code"] = "GE"
@@ -604,12 +662,18 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                                   (canton_name, canton_path("GE", lang)), (nom, path)]
             _schema = {
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
+                "url": BASE_DOMAIN + path,
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
                 "telephone": primary_phone(row.get("telephone")), "email": row.get("email", ""),
                 "areaServed": canton_name,
             }
+            if row.get("site_web"):
+                _schema["sameAs"] = [row["site_web"]]
+            _rating = attorney_rating_schema("GE", row["_slug"])
+            if _rating:
+                _schema["aggregateRating"] = _rating
             if _raw_langues:
                 _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
                              "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
@@ -651,7 +715,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             path = etude_path("GE", row["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)[:158]
             ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
-                            {lg: etude_path("GE", row["_slug"], lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + etude_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
             ctx["adresse"] = row.get("adresse", "")
@@ -708,11 +772,14 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                                   (canton_name, canton_path("GE", lang)), (nom_etude, path)]
             _schema = {
                 "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
+                "url": BASE_DOMAIN + path,
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
                 "telephone": primary_phone(row.get("telephone")),
             }
+            if _site_url:
+                _schema["sameAs"] = [_site_url]
             if _team_langues:
                 _lang_map = {"français": "fr", "allemand": "de", "italien": "it", "anglais": "en",
                              "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
@@ -770,7 +837,7 @@ def gen_canton_hub_ge():
         path = canton_path("GE", lang)
         desc = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])[:158]
         ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
-                        {lg: canton_path("GE", lg) for lg in LANGS})
+                        {lg: BASE_DOMAIN + canton_path("GE", lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
         _tc_name, _tc_n = top_city(GE_INDIVIDUALS)
@@ -801,7 +868,7 @@ def gen_domain_hubs():
             path = domaine_path(did, lang)
             desc = pt.domaine_intro(lang, dname)[:158]
             ctx = base_ctx(lang, path, f"{dname} | {i18n.UI[lang]['find_a_lawyer']} | Legatis", desc,
-                            {lg: domaine_path(did, lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + domaine_path(did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["intro_text"] = pt.domaine_intro(lang, dname)
             ctx["cantons"] = [
@@ -822,7 +889,7 @@ def gen_cross_ge():
             path = cross_path("GE", did, lang)
             desc = pt.cross_intro(lang, dname, canton_name)[:158]
             ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
-                            {lg: cross_path("GE", did, lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + cross_path("GE", did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["canton_name"] = canton_name
             ctx["h1"] = pt.cross_h1(lang, dname, canton_name)
@@ -1103,7 +1170,7 @@ def gen_canton_hub(code):
         path = canton_path(code, lang)
         desc = pt.canton_intro(lang, canton_name, n_total)[:158]
         ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
-                        {lg: canton_path(code, lg) for lg in LANGS})
+                        {lg: BASE_DOMAIN + canton_path(code, lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, n_total)
         ctx["insight_text"] = canton_insight(lang, _tc_name, _tc_n, n_total, len(data["solo"]))
@@ -1133,7 +1200,7 @@ def gen_canton_cross(code):
             path = cross_path(code, did, lang)
             desc = pt.cross_intro(lang, dname, canton_name)[:158]
             ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
-                            {lg: cross_path(code, did, lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + cross_path(code, did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["canton_name"] = canton_name
             ctx["h1"] = pt.cross_h1(lang, dname, canton_name)
@@ -1175,7 +1242,7 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
             path = etude_path(code, f["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)[:158]
             ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
-                            {lg: etude_path(code, f["_slug"], lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + etude_path(code, f["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
             ctx["adresse"] = adresse
@@ -1239,9 +1306,11 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                                   (canton_name, canton_path(code, lang)), (nom_etude, path)]
             ctx["schema"] = json.dumps({
                 "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
+                "url": BASE_DOMAIN + path,
                 "address": {"@type": "PostalAddress", "streetAddress": adresse,
                              "postalCode": npa, "addressLocality": ville, "addressCountry": "CH"},
                 "telephone": telephone,
+                **({"sameAs": [_site_url]} if _site_url else {}),
             }, ensure_ascii=False)
             write_page(path, render("etude.html", ctx))
 
@@ -1275,7 +1344,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                                            ville=row.get("ville") or None,
                                            fonction=row.get("fonction") or None)[:158]
             ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
-                            {lg: avocat_path(code, row["_slug"], lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + avocat_path(code, row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
             ctx["review_canton_code"] = code
@@ -1338,11 +1407,15 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                                   (canton_name, canton_path(code, lang)), (nom, path)]
             ctx["schema"] = json.dumps({
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
+                "url": BASE_DOMAIN + path,
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
                 "telephone": row.get("telephone", ""), "email": row.get("email", ""),
                 "areaServed": canton_name,
+                **({"sameAs": [row["site_web"]]} if row.get("site_web") else {}),
+                **({"aggregateRating": attorney_rating_schema(code, row["_slug"])}
+                   if attorney_rating_schema(code, row["_slug"]) else {}),
             }, ensure_ascii=False)
             write_page(path, render("avocat.html", ctx))
 
@@ -1489,7 +1562,7 @@ def gen_villes():
                 intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
                 title = f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | Legatis"
                 ctx = base_ctx(lang, path, title, intro[:158],
-                                {lg: ville_path(code, city["slug"], lg) for lg in LANGS})
+                                {lg: BASE_DOMAIN + ville_path(code, city["slug"], lg) for lg in LANGS})
                 ctx["ville_name"] = city["name"]
                 ctx["canton_name"] = canton_name
                 ctx["intro_text"] = intro
@@ -1527,7 +1600,7 @@ def gen_ville_domaines():
                     path = ville_domaine_path(code, city["slug"], did, lang)
                     desc = pt.cross_intro(lang, dname, city["name"])[:158]
                     ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {city['name']} | Legatis", desc,
-                                    {lg: ville_domaine_path(code, city["slug"], did, lg) for lg in LANGS})
+                                    {lg: BASE_DOMAIN + ville_domaine_path(code, city["slug"], did, lg) for lg in LANGS})
                     ctx["domaine_name"] = dname
                     ctx["canton_name"] = canton_name
                     ctx["h1"] = pt.cross_h1(lang, dname, city["name"])
@@ -1587,7 +1660,7 @@ def gen_guides():
             g = guides_content.GUIDES[gid][lang]
             path = guide_path(gid, lang)
             ctx = base_ctx(lang, path, f"{g['title']} | Legatis", g["meta"][:158],
-                            {lg: guide_path(gid, lg) for lg in LANGS})
+                            {lg: BASE_DOMAIN + guide_path(gid, lg) for lg in LANGS})
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
             ctx["faq"] = g["faq"]
@@ -2048,25 +2121,31 @@ def gen_static_pages():
 def gen_sitemaps():
     today = datetime.date.today().isoformat()
     by_lang = {lg: [] for lg in LANGS}
+    hreflang_re = re.compile(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">')
     for lg in LANGS:
         lang_dir = os.path.join(DIST_DIR, lg)
         for dirpath, _dirnames, filenames in os.walk(lang_dir):
             if "index.html" in filenames:
                 fpath = os.path.join(dirpath, "index.html")
                 with open(fpath, encoding="utf-8") as f:
-                    head = f.read(2500)
+                    head = f.read(3500)
                 if 'name="robots" content="noindex' in head:
                     continue
                 rel = os.path.relpath(dirpath, DIST_DIR).replace(os.sep, "/")
-                by_lang[lg].append("/" + rel + "/")
+                alternates = hreflang_re.findall(head)
+                by_lang[lg].append(("/" + rel + "/", alternates))
     sitemap_files = []
     for lg in LANGS:
         urls = by_lang[lg]
         fname = f"sitemap-{lg}.xml"
         xml = ['<?xml version="1.0" encoding="UTF-8"?>',
-               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-        for p in urls:
-            xml.append(f"  <url><loc>{BASE_DOMAIN}{p}</loc><lastmod>{today}</lastmod></url>")
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+               'xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+        for p, alternates in urls:
+            xml.append(f'  <url><loc>{BASE_DOMAIN}{p}</loc><lastmod>{today}</lastmod>')
+            for hl, href in alternates:
+                xml.append(f'    <xhtml:link rel="alternate" hreflang="{hl}" href="{href}"/>')
+            xml.append('  </url>')
         xml.append("</urlset>")
         with open(os.path.join(DIST_DIR, fname), "w", encoding="utf-8") as f:
             f.write("\n".join(xml))
@@ -2078,7 +2157,7 @@ def gen_sitemaps():
     idx.append("</sitemapindex>")
     with open(os.path.join(DIST_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(idx))
-    print(f"sitemap.xml + {len(sitemap_files)} sous-sitemaps ({sum(len(v) for v in by_lang.values())} URLs)", file=sys.stderr)
+    print(f"sitemap.xml + {len(sitemap_files)} sous-sitemaps ({sum(len(v) for v in by_lang.values())} URLs, hreflang inclus)", file=sys.stderr)
 
 
 # ---------------------------------------------------------------- IndexNow
