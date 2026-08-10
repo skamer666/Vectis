@@ -122,15 +122,19 @@ def domaine_intro(lang, domaine_name):
 def cross_intro(lang, domaine_name, canton_name):
     if lang == "fr":
         return (f"Liste des avocats inscrits au registre du canton de {canton_name} ayant indiqué "
-                f"{domaine_name.lower()} parmi leurs domaines de compétence.")
+                f"{domaine_name.lower()} parmi leurs domaines de compétence, avec étude, ville et "
+                f"coordonnées de contact pour chaque fiche.")
     if lang == "de":
         return (f"Liste der im Register des Kantons {canton_name} eingetragenen Anwältinnen und "
-                f"Anwälte mit dem angegebenen Fachgebiet {domaine_name}.")
+                f"Anwälte mit dem angegebenen Fachgebiet {domaine_name}, jeweils mit Kanzlei, Ort "
+                f"und Kontaktangaben.")
     if lang == "it":
         return (f"Elenco degli avvocati iscritti al registro del Cantone {canton_name} che indicano "
-                f"{domaine_name.lower()} tra i propri ambiti di competenza.")
+                f"{domaine_name.lower()} tra i propri ambiti di competenza, con studio, città e "
+                f"contatti per ciascuna scheda.")
     return (f"List of lawyers registered in the canton of {canton_name} who list "
-            f"{domaine_name.lower()} among their practice areas.")
+            f"{domaine_name.lower()} among their practice areas, each with firm, city and contact "
+            f"details.")
 
 
 def cross_fallback_text(lang, domaine_name, canton_name):

@@ -17,6 +17,14 @@ from jinja2 import Environment, FileSystemLoader
 
 sys.path.insert(0, os.path.dirname(__file__))
 import i18n
+
+# Mots courts reutilises pour allonger les title tags (SEO) sans fabriquer
+# de donnee : ce sont de simples traductions de mots deja utilises ailleurs
+# sur le site (avocats/Anwaelte/avvocati/lawyers, Suisse/Schweiz/Svizzera/
+# Switzerland), jamais une statistique inventee.
+LAWYER_WORD = {"fr": "avocats", "de": "Anwälte", "it": "avvocati", "en": "lawyers"}
+COUNTRY_NAME = {"fr": "Suisse", "de": "Schweiz", "it": "Svizzera", "en": "Switzerland"}
+COUNTRY_PREP = {"fr": "en", "de": "in der", "it": "in", "en": "in"}
 import presentation_text as pt
 import static_pages as sp_content
 import guides_content
@@ -635,11 +643,11 @@ def gen_ge_avocats(start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = avocat_path("GE", row["_slug"], lang)
-            title = f"{nom} | {i18n.UI[lang]['firm'] if not row.get('etude') else row.get('etude')} | {i18n.UI[lang]['canton']} {canton_name}"
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=row.get("etude") or None,
                                            ville=row.get("ville") or None,
                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids])[:158]
-            ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
+            title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis"
+            ctx = base_ctx(lang, path, title, desc,
                             {lg: BASE_DOMAIN + avocat_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
@@ -725,7 +733,10 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)[:158]
-            ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
+            _ville = row.get("ville") or ""
+            _loc = f"{_ville}, {canton_name}" if _ville and _ville.lower() != canton_name.lower() else canton_name
+            _title = f"{nom_etude} | {i18n.UI[lang]['firm']} {i18n.UI[lang]['in']} {_loc} | Legatis"
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + etude_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
@@ -847,7 +858,9 @@ def gen_canton_hub_ge():
         canton_name = i18n.CANTONS["GE"][lang]["name"]
         path = canton_path("GE", lang)
         desc = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])[:158]
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
+        _title = (f"{canton_name} : {i18n.UI[lang]['find_a_lawyer']} | "
+                  f"{CANTON_COUNTS['GE']} {LAWYER_WORD[lang]} | Legatis")
+        ctx = base_ctx(lang, path, _title, desc,
                         {lg: BASE_DOMAIN + canton_path("GE", lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
@@ -878,7 +891,9 @@ def gen_domain_hubs():
             dname = i18n.DOMAINES[did][lang]["name"]
             path = domaine_path(did, lang)
             desc = pt.domaine_intro(lang, dname)[:158]
-            ctx = base_ctx(lang, path, f"{dname} | {i18n.UI[lang]['find_a_lawyer']} | Legatis", desc,
+            _title = (f"{dname} | {i18n.UI[lang]['find_a_lawyer']} {COUNTRY_PREP[lang]} "
+                      f"{COUNTRY_NAME[lang]} | Legatis")
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + domaine_path(did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["intro_text"] = pt.domaine_intro(lang, dname)
@@ -899,7 +914,9 @@ def gen_cross_ge():
             dname = i18n.DOMAINES[did][lang]["name"]
             path = cross_path("GE", did, lang)
             desc = pt.cross_intro(lang, dname, canton_name)[:158]
-            ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
+            _title = (f"{dname} {i18n.UI[lang]['in']} {canton_name} | "
+                      f"{i18n.UI[lang]['find_a_lawyer']} | Legatis")
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + cross_path("GE", did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["canton_name"] = canton_name
@@ -1180,7 +1197,9 @@ def gen_canton_hub(code):
         canton_name = i18n.CANTONS[code][lang]["name"]
         path = canton_path(code, lang)
         desc = pt.canton_intro(lang, canton_name, n_total)[:158]
-        ctx = base_ctx(lang, path, f"{i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis", desc,
+        _title = (f"{canton_name} : {i18n.UI[lang]['find_a_lawyer']} | "
+                  f"{n_total} {LAWYER_WORD[lang]} | Legatis")
+        ctx = base_ctx(lang, path, _title, desc,
                         {lg: BASE_DOMAIN + canton_path(code, lg) for lg in LANGS})
         ctx["canton_name"] = canton_name
         ctx["intro_text"] = pt.canton_intro(lang, canton_name, n_total)
@@ -1210,7 +1229,9 @@ def gen_canton_cross(code):
             dname = i18n.DOMAINES[did][lang]["name"]
             path = cross_path(code, did, lang)
             desc = pt.cross_intro(lang, dname, canton_name)[:158]
-            ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {canton_name} | Legatis", desc,
+            _title = (f"{dname} {i18n.UI[lang]['in']} {canton_name} | "
+                      f"{i18n.UI[lang]['find_a_lawyer']} | Legatis")
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + cross_path(code, did, lg) for lg in LANGS})
             ctx["domaine_name"] = dname
             ctx["canton_name"] = canton_name
@@ -1252,7 +1273,9 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
             desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)[:158]
-            ctx = base_ctx(lang, path, f"{nom_etude} | {i18n.UI[lang]['firm']} {canton_name} | Legatis", desc,
+            _loc = f"{ville}, {canton_name}" if ville and ville.lower() != canton_name.lower() else canton_name
+            _title = f"{nom_etude} | {i18n.UI[lang]['firm']} {i18n.UI[lang]['in']} {_loc} | Legatis"
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + etude_path(code, f["_slug"], lg) for lg in LANGS})
             ctx["nom_etude"] = nom_etude
             ctx["canton_name"] = canton_name
@@ -1354,7 +1377,8 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
                                            ville=row.get("ville") or None,
                                            fonction=row.get("fonction") or None)[:158]
-            ctx = base_ctx(lang, path, f"{nom} | {i18n.UI[lang]['site_name']}", desc,
+            _title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis"
+            ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + avocat_path(code, row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
@@ -1579,7 +1603,8 @@ def gen_villes():
                 path = ville_path(code, city["slug"], lang)
                 registry, n_firms = _city_registry(code, city, lang)
                 intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
-                title = f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | Legatis"
+                title = (f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | "
+                         f"{city['count']} {LAWYER_WORD[lang]} | Legatis")
                 ctx = base_ctx(lang, path, title, intro[:158],
                                 {lg: BASE_DOMAIN + ville_path(code, city["slug"], lg) for lg in LANGS})
                 ctx["ville_name"] = city["name"]
