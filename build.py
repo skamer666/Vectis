@@ -1732,7 +1732,7 @@ def gen_guides():
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
             ctx["faq"] = g["faq"]
-                        ctx["calculator_html"] = GUIDE_CALCULATORS[gid][lang] if gid in GUIDE_CALCULATORS else None
+            ctx["calculator_html"] = GUIDE_CALCULATORS[gid][lang] if gid in GUIDE_CALCULATORS else None
             ctx["related"] = (
                 [{"name": guides_content.GUIDES[o][lang]["title"], "url": guide_path(o, lang)}
                  for o in gids if o != gid]
