@@ -46,7 +46,7 @@
   {% if web_source_note %}<p class="profile-sub" style="font-size:0.8rem;">{{ web_source_note }}</p>{% endif %}
 
   <table class="info-table" data-reveal>
-    {% if adresse %}<tr><td>{{ ui.address }}</td><td>{{ adresse }}{% if npa or ville %}<br>{{ npa }} {{ ville }}{% endif %}</td></tr>{% endif %}
+    {% if adresse %}<tr><td>{{ ui.address }}</td><td>{{ adresse }}{% if npa or ville %}<br>{{ npa }} {% if ville_url %}<a href="{{ ville_url }}">{{ ville }}</a>{% else %}{{ ville }}{% endif %}{% endif %}</td></tr>{% endif %}
     {% if telephone %}<tr><td>{{ ui.phone }}</td><td>{{ telephone }}</td></tr>{% endif %}
     {% if email %}<tr><td>{{ ui.email }}</td><td><a href="mailto:{{ email }}">{{ email }}</a></td></tr>{% endif %}
     {% if site_web %}<tr><td>{{ ui.website }}</td><td><a href="{{ site_web_href }}" rel="nofollow noopener" target="_blank">{{ site_web }}</a></td></tr>{% endif %}
