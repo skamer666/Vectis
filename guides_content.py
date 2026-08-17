@@ -577,4 +577,286 @@ GUIDES = {
             ],
         },
     },
+    "calcul-prescription": {
+        "fr": {
+            "slug": "calcul-delai-prescription",
+            "title": "Calculateur de délai de prescription en Suisse",
+            "meta": "Outil gratuit pour estimer un délai de prescription civile ou pénale en Suisse (art. 60, 127, 128 CO et art. 97 CP), avec les bases légales citées.",
+            "sections": [
+                {"heading": "À quoi sert ce calculateur", "paragraphs": [
+                    "La prescription éteint le droit d'agir en justice une fois un certain délai écoulé depuis un événement déterminé. Ce délai varie fortement selon le type de créance ou d'infraction : 10 ans pour une créance contractuelle ordinaire, 5 ans pour des prestations périodiques comme un loyer ou un salaire, ou un régime à deux délais pour un dommage résultant d'un acte illicite.",
+                    "En matière pénale, le délai dépend de la peine maximale encourue pour l'infraction, de 3 ans pour une contravention à 30 ans pour un crime passible d'une peine privative de liberté à vie.",
+                ]},
+                {"heading": "Ce que le calculateur ne couvre pas", "paragraphs": [
+                    "Le résultat est une estimation à partir des délais de base. Il ne tient pas compte des causes de suspension (par exemple pendant une procédure en cours) ni d'interruption de la prescription civile (art. 134 à 138 CO), qui peuvent reporter l'échéance réelle.",
+                    "Un délai de prescription qui approche est une situation où le temps compte : en cas de doute, mieux vaut consulter un avocat rapidement plutôt que de se fier uniquement à cette estimation.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Que se passe-t-il si une créance est prescrite ?",
+                 "a": "Le débiteur peut refuser de payer en invoquant la prescription, mais celle-ci doit être soulevée activement : un tribunal ne l'examine pas d'office. Une dette prescrite reste une obligation naturelle qui peut être payée volontairement."},
+                {"q": "La prescription pénale peut-elle être interrompue ?",
+                 "a": "Non, depuis la révision entrée en vigueur en 2014, les délais de l'art. 97 CP sont absolus : ils ne sont plus interrompus par des actes de procédure et continuent à courir jusqu'à leur terme."},
+                {"q": "Quelle est la différence entre le délai relatif et le délai absolu pour un acte illicite ?",
+                 "a": "Le délai relatif (3 ans) court dès que vous connaissez le dommage et son auteur. Le délai absolu (20 ans) court dès l'acte lui-même, indépendamment de la connaissance. La créance est prescrite dès que le premier des deux délais est atteint."},
+            ],
+        },
+        "de": {
+            "slug": "verjaehrung-berechnen",
+            "title": "Verjährungsrechner für die Schweiz",
+            "meta": "Kostenloses Tool zur Schätzung einer zivil- oder strafrechtlichen Verjährungsfrist in der Schweiz (Art. 60, 127, 128 OR und Art. 97 StGB), mit zitierten Rechtsgrundlagen.",
+            "sections": [
+                {"heading": "Wozu dieser Rechner dient", "paragraphs": [
+                    "Die Verjährung lässt das Klagerecht nach Ablauf einer bestimmten Frist seit einem massgebenden Ereignis untergehen. Diese Frist unterscheidet sich stark je nach Art der Forderung oder Straftat: 10 Jahre für eine gewöhnliche vertragliche Forderung, 5 Jahre für periodische Leistungen wie Miete oder Lohn, oder eine Zweifristenregelung für einen Schaden aus unerlaubter Handlung.",
+                    "Im Strafrecht hängt die Frist von der für die Straftat angedrohten Höchststrafe ab, von 3 Jahren für eine Übertretung bis 30 Jahre für ein mit lebenslänglicher Freiheitsstrafe bedrohtes Verbrechen.",
+                ]},
+                {"heading": "Was der Rechner nicht abdeckt", "paragraphs": [
+                    "Das Ergebnis ist eine Schätzung anhand der Grundfristen. Hemmungsgründe (zum Beispiel während eines laufenden Verfahrens) und Unterbrechungsgründe der zivilrechtlichen Verjährung (Art. 134 bis 138 OR) werden nicht berücksichtigt und können den tatsächlichen Endtermin verschieben.",
+                    "Bei einer nahenden Verjährungsfrist zählt jede Woche: im Zweifelsfall sollte rasch eine Anwältin oder ein Anwalt konsultiert werden, statt sich allein auf diese Schätzung zu verlassen.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Was geschieht, wenn eine Forderung verjährt ist?",
+                 "a": "Die Schuldnerin oder der Schuldner kann die Zahlung unter Berufung auf die Verjährung verweigern; diese muss aber aktiv geltend gemacht werden, ein Gericht prüft sie nicht von Amtes wegen. Eine verjährte Schuld bleibt eine natürliche Verbindlichkeit, die freiwillig beglichen werden kann."},
+                {"q": "Kann die strafrechtliche Verjährung unterbrochen werden?",
+                 "a": "Nein. Seit der 2014 in Kraft getretenen Revision sind die Fristen von Art. 97 StGB absolut: Sie werden durch Verfahrenshandlungen nicht mehr unterbrochen und laufen bis zu ihrem Ende weiter."},
+                {"q": "Was unterscheidet die relative von der absoluten Frist bei unerlaubter Handlung?",
+                 "a": "Die relative Frist (3 Jahre) beginnt mit der Kenntnis von Schaden und Schädiger. Die absolute Frist (20 Jahre) beginnt mit der Handlung selbst, unabhängig von der Kenntnis. Die Forderung verjährt, sobald die frühere der beiden Fristen erreicht ist."},
+            ],
+        },
+        "it": {
+            "slug": "calcolo-prescrizione",
+            "title": "Calcolatore del termine di prescrizione in Svizzera",
+            "meta": "Strumento gratuito per stimare un termine di prescrizione civile o penale in Svizzera (art. 60, 127, 128 CO e art. 97 CP), con le basi legali citate.",
+            "sections": [
+                {"heading": "A cosa serve questo calcolatore", "paragraphs": [
+                    "La prescrizione estingue il diritto di agire in giudizio una volta trascorso un determinato termine da un evento specifico. Questo termine varia molto a seconda del tipo di credito o di reato: 10 anni per un credito contrattuale ordinario, 5 anni per prestazioni periodiche come una pigione o un salario, oppure un regime a due termini per un danno derivante da atto illecito.",
+                    "In materia penale, il termine dipende dalla pena massima comminata per il reato, da 3 anni per una contravvenzione a 30 anni per un crimine punibile con la pena detentiva a vita.",
+                ]},
+                {"heading": "Cosa non copre questo calcolatore", "paragraphs": [
+                    "Il risultato è una stima basata sui termini di base. Non tiene conto delle cause di sospensione (per esempio durante una procedura in corso) né di interruzione della prescrizione civile (art. 134 a 138 CO), che possono spostare la scadenza reale.",
+                    "Un termine di prescrizione che si avvicina è una situazione in cui il tempo conta: in caso di dubbio, è meglio consultare rapidamente un avvocato piuttosto che affidarsi solo a questa stima.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Cosa succede se un credito è prescritto?",
+                 "a": "Il debitore può rifiutarsi di pagare invocando la prescrizione, ma questa deve essere sollevata attivamente: un tribunale non la esamina d'ufficio. Un debito prescritto rimane un'obbligazione naturale che può essere pagata volontariamente."},
+                {"q": "La prescrizione penale può essere interrotta?",
+                 "a": "No. Dalla revisione in vigore dal 2014, i termini dell'art. 97 CP sono assoluti: non sono più interrotti da atti procedurali e continuano a decorrere fino al loro termine."},
+                {"q": "Qual è la differenza tra il termine relativo e quello assoluto per un atto illecito?",
+                 "a": "Il termine relativo (3 anni) decorre dalla conoscenza del danno e del suo autore. Il termine assoluto (20 anni) decorre dall'atto stesso, indipendentemente dalla conoscenza. Il credito è prescritto non appena è raggiunto il primo dei due termini."},
+            ],
+        },
+        "en": {
+            "slug": "prescription-calculator",
+            "title": "Statute of limitations calculator for Switzerland",
+            "meta": "Free tool to estimate a civil or criminal limitation period in Switzerland (art. 60, 127, 128 CO and art. 97 Criminal Code), with the legal basis cited.",
+            "sections": [
+                {"heading": "What this calculator is for", "paragraphs": [
+                    "Limitation extinguishes the right to sue once a set period has elapsed since a defining event. That period varies significantly depending on the type of claim or offence: 10 years for an ordinary contractual claim, 5 years for periodic performances such as rent or wages, or a two-tier regime for damage arising from an unlawful act.",
+                    "In criminal matters, the period depends on the maximum penalty incurred for the offence, from 3 years for a minor offence up to 30 years for a crime punishable by life imprisonment.",
+                ]},
+                {"heading": "What this calculator does not cover", "paragraphs": [
+                    "The result is an estimate based on the basic statutory periods. It does not account for causes of suspension (for example during ongoing proceedings) or interruption of civil limitation (art. 134 to 138 CO), which can push back the actual deadline.",
+                    "An approaching limitation deadline is a situation where time matters: if in doubt, it is best to consult a lawyer promptly rather than relying solely on this estimate.",
+                ]},
+            ],
+            "faq": [
+                {"q": "What happens if a claim is time-barred?",
+                 "a": "The debtor may refuse to pay by invoking limitation, but this must be actively raised; a court does not examine it on its own initiative. A time-barred debt remains a natural obligation that can still be paid voluntarily."},
+                {"q": "Can criminal limitation be interrupted?",
+                 "a": "No. Since the revision in force since 2014, the periods under art. 97 of the Criminal Code are absolute: they are no longer interrupted by procedural acts and keep running until they expire."},
+                {"q": "What is the difference between the relative and absolute deadline for an unlawful act?",
+                 "a": "The relative deadline (3 years) starts running once you know of the loss and the liable person. The absolute deadline (20 years) starts running from the act itself, regardless of knowledge. The claim becomes time-barred as soon as whichever deadline comes first is reached."},
+            ],
+        },
+    },
+    "calcul-delai-procedure": {
+        "fr": {
+            "slug": "calcul-delai-recours",
+            "title": "Calculateur de délai de recours ou de procédure en Suisse",
+            "meta": "Outil gratuit pour calculer l'échéance d'un délai de procédure civile en Suisse, en tenant compte des féries judiciaires (art. 142 et 145 CPC).",
+            "sections": [
+                {"heading": "Comment ce calculateur fonctionne", "paragraphs": [
+                    "En procédure civile suisse, un délai fixé en jours commence à courir le lendemain de la communication qui le déclenche (art. 142 al. 1 CPC). Si son dernier jour tombe un samedi, un dimanche ou un jour férié reconnu, il est reporté au premier jour ouvrable suivant (art. 142 al. 3 CPC).",
+                    "Trois périodes de féries judiciaires suspendent en plus le cours des délais en procédure ordinaire (art. 145 CPC) : la semaine avant et après Pâques, la mi-juillet à la mi-août, et les fêtes de fin d'année. Ce calculateur applique ces deux règles automatiquement.",
+                ]},
+                {"heading": "Limites à connaître", "paragraphs": [
+                    "Seuls le week-end et le 1er août (seul jour férié reconnu au niveau fédéral) sont vérifiés automatiquement. Les jours fériés propres au canton ou à la commune du siège du tribunal ne sont pas inclus et doivent être vérifiés séparément auprès du tribunal concerné.",
+                    "Ce calculateur ne remplace pas une vérification par un professionnel avant un acte de procédure important : manquer un délai de recours est en principe définitif.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Les féries judiciaires s'appliquent-elles à toutes les procédures ?",
+                 "a": "Non. L'art. 145 al. 2 CPC exclut la procédure de conciliation et la procédure sommaire, qui continuent pendant les féries. Sélectionnez le bon type de procédure dans le calculateur."},
+                {"q": "Les féries judiciaires civiles sont-elles les mêmes que les féries des poursuites ?",
+                 "a": "Non, ce sont deux régimes distincts avec des dates différentes : les féries de poursuite relèvent de l'art. 56 LP et ne sont pas couvertes par ce calculateur."},
+                {"q": "Que se passe-t-il si je manque un délai de recours ?",
+                 "a": "En principe, l'acte devient irrecevable et la décision entre en force. Une restitution de délai n'est possible que dans des cas exceptionnels (art. 148 CPC), en cas d'empêchement non fautif."},
+            ],
+        },
+        "de": {
+            "slug": "rechtsmittelfrist-berechnen",
+            "title": "Rechtsmittel- und Verfahrensfristenrechner für die Schweiz",
+            "meta": "Kostenloses Tool zur Berechnung des Endes einer zivilprozessualen Frist in der Schweiz unter Berücksichtigung der Gerichtsferien (Art. 142 und 145 ZPO).",
+            "sections": [
+                {"heading": "So funktioniert dieser Rechner", "paragraphs": [
+                    "Im schweizerischen Zivilprozess beginnt eine in Tagen bemessene Frist am Tag nach der auslösenden Mitteilung zu laufen (Art. 142 Abs. 1 ZPO). Fällt der letzte Tag auf einen Samstag, Sonntag oder einen anerkannten Feiertag, wird die Frist auf den nächsten Werktag verschoben (Art. 142 Abs. 3 ZPO).",
+                    "Zusätzlich unterbrechen drei Gerichtsferien-Perioden den Fristenlauf im ordentlichen Verfahren (Art. 145 ZPO): die Woche vor und nach Ostern, Mitte Juli bis Mitte August, und die Weihnachtszeit. Dieser Rechner wendet beide Regeln automatisch an.",
+                ]},
+                {"heading": "Grenzen, die Sie kennen sollten", "paragraphs": [
+                    "Automatisch geprüft werden nur das Wochenende und der 1. August, der einzige eidgenössisch anerkannte Feiertag. Kantonale oder kommunale Feiertage am Gerichtssitz sind nicht enthalten und müssen separat beim betreffenden Gericht abgeklärt werden.",
+                    "Dieser Rechner ersetzt keine fachliche Prüfung vor einer wichtigen Verfahrenshandlung: eine verpasste Rechtsmittelfrist ist grundsätzlich endgültig.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Gelten die Gerichtsferien für alle Verfahren?",
+                 "a": "Nein. Art. 145 Abs. 2 ZPO schliesst das Schlichtungsverfahren und das summarische Verfahren aus, die während der Gerichtsferien weiterlaufen. Wählen Sie die richtige Verfahrensart im Rechner."},
+                {"q": "Sind die zivilrechtlichen Gerichtsferien dasselbe wie die Betreibungsferien?",
+                 "a": "Nein, das sind zwei getrennte Regelungen mit unterschiedlichen Daten: Die Betreibungsferien richten sich nach Art. 56 SchKG und werden von diesem Rechner nicht abgedeckt."},
+                {"q": "Was passiert, wenn ich eine Rechtsmittelfrist verpasse?",
+                 "a": "Grundsätzlich wird die Eingabe unzulässig und der Entscheid erwächst in Rechtskraft. Eine Wiederherstellung der Frist ist nur in Ausnahmefällen möglich (Art. 148 ZPO), bei unverschuldeter Verhinderung."},
+            ],
+        },
+        "it": {
+            "slug": "calcolo-termine-ricorso",
+            "title": "Calcolatore del termine di ricorso o procedurale per la Svizzera",
+            "meta": "Strumento gratuito per calcolare la scadenza di un termine procedurale civile in Svizzera, tenendo conto della sospensione feriale (art. 142 e 145 CPC).",
+            "sections": [
+                {"heading": "Come funziona questo calcolatore", "paragraphs": [
+                    "Nella procedura civile svizzera, un termine fissato in giorni decorre dal giorno successivo alla comunicazione che lo fa scattare (art. 142 cpv. 1 CPC). Se l'ultimo giorno cade di sabato, domenica o in un giorno festivo riconosciuto, il termine è prorogato al primo giorno feriale seguente (art. 142 cpv. 3 CPC).",
+                    "Inoltre, tre periodi di sospensione feriale interrompono il decorso dei termini nella procedura ordinaria (art. 145 CPC): la settimana prima e dopo Pasqua, da metà luglio a metà agosto, e le festività di fine anno. Questo calcolatore applica automaticamente entrambe le regole.",
+                ]},
+                {"heading": "Limiti da conoscere", "paragraphs": [
+                    "Vengono verificati automaticamente solo il fine settimana e il 1° agosto, unico giorno festivo riconosciuto a livello federale. I giorni festivi cantonali o comunali della sede del tribunale non sono inclusi e devono essere verificati separatamente presso il tribunale competente.",
+                    "Questo calcolatore non sostituisce una verifica professionale prima di un atto procedurale importante: la perdita di un termine di ricorso è in linea di principio definitiva.",
+                ]},
+            ],
+            "faq": [
+                {"q": "La sospensione feriale si applica a tutte le procedure?",
+                 "a": "No. L'art. 145 cpv. 2 CPC esclude la procedura di conciliazione e la procedura sommaria, che proseguono durante la sospensione feriale. Selezionate il tipo di procedura corretto nel calcolatore."},
+                {"q": "La sospensione feriale civile coincide con quella dell'esecuzione?",
+                 "a": "No, sono due regimi distinti con date diverse: la sospensione feriale dell'esecuzione è retta dall'art. 56 LEF e non è coperta da questo calcolatore."},
+                {"q": "Cosa succede se perdo un termine di ricorso?",
+                 "a": "In linea di principio l'atto diventa irricevibile e la decisione passa in giudicato. Una restituzione del termine è possibile solo in casi eccezionali (art. 148 CPC), in caso di impedimento senza colpa."},
+            ],
+        },
+        "en": {
+            "slug": "appeal-deadline-calculator",
+            "title": "Appeal and procedural deadline calculator for Switzerland",
+            "meta": "Free tool to calculate the deadline for a Swiss civil procedure time limit, accounting for court recess periods (art. 142 and 145 CPC).",
+            "sections": [
+                {"heading": "How this calculator works", "paragraphs": [
+                    "Under Swiss civil procedure, a deadline set in days starts running the day after the notice that triggers it (art. 142 para. 1 CPC). If its last day falls on a Saturday, Sunday or a recognised public holiday, it is postponed to the next business day (art. 142 para. 3 CPC).",
+                    "Three court recess periods additionally suspend deadlines in ordinary proceedings (art. 145 CPC): the week before and after Easter, mid-July to mid-August, and the year-end holidays. This calculator applies both rules automatically.",
+                ]},
+                {"heading": "Limits to be aware of", "paragraphs": [
+                    "Only weekends and 1 August (the only public holiday recognised at federal level) are checked automatically. Public holidays specific to the canton or municipality where the court sits are not included and must be checked separately with the relevant court.",
+                    "This calculator does not replace a professional check before any significant procedural step: missing an appeal deadline is generally final.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Do court recess periods apply to every type of proceedings?",
+                 "a": "No. Art. 145 para. 2 CPC excludes conciliation proceedings and summary proceedings, which continue during recess periods. Select the correct type of proceedings in the calculator."},
+                {"q": "Are civil court recess periods the same as debt enforcement recess periods?",
+                 "a": "No, these are two separate regimes with different dates: debt enforcement recess periods are governed by art. 56 DEBA and are not covered by this calculator."},
+                {"q": "What happens if I miss an appeal deadline?",
+                 "a": "As a rule, the submission becomes inadmissible and the decision becomes final. Restoring a deadline is only possible in exceptional cases (art. 148 CPC), where the failure was not the party's fault."},
+            ],
+        },
+    },
+    "calcul-interets-moratoires": {
+        "fr": {
+            "slug": "calcul-interets-moratoires",
+            "title": "Calculateur d'intérêts moratoires en Suisse",
+            "meta": "Outil gratuit pour calculer des intérêts moratoires au taux légal de 5% l'an ou à un taux conventionnel (art. 104 CO).",
+            "sections": [
+                {"heading": "Le principe de l'intérêt moratoire", "paragraphs": [
+                    "Lorsqu'un débiteur est en retard dans le paiement d'une somme d'argent, le créancier a droit à un intérêt moratoire, même sans avoir subi de dommage. À défaut d'un taux convenu entre les parties, la loi fixe ce taux à 5% l'an (art. 104 al. 1 CO).",
+                    "L'intérêt commence à courir dès que le débiteur est en demeure : soit le lendemain d'une échéance fixée au contrat, soit le lendemain d'une sommation (mise en demeure) si aucune échéance n'avait été convenue (art. 102 CO).",
+                ]},
+                {"heading": "Comment ce calculateur compte les jours", "paragraphs": [
+                    "Le calcul se fait au prorata du nombre exact de jours entre la date de départ et la date de fin, sur une base de 365 jours par an. C'est une méthode indicative et courante ; un décompte définitif entre parties ou devant un tribunal peut retenir une convention légèrement différente.",
+                    "Un taux conventionnel plus élevé que 5% est possible s'il a été convenu entre les parties, dans les limites de l'interdiction de l'usure. Vous pouvez le saisir directement dans le champ prévu.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Le taux de 5% s'applique-t-il toujours ?",
+                 "a": "C'est le taux légal supplétif, applicable sauf accord contraire entre les parties ou disposition légale spéciale prévoyant un autre taux."},
+                {"q": "Faut-il un dommage pour réclamer des intérêts moratoires ?",
+                 "a": "Non. L'intérêt moratoire est dû du seul fait du retard dans le paiement d'une somme d'argent, sans que le créancier ait à prouver un dommage."},
+                {"q": "Comment fixer la date de départ des intérêts si le contrat ne prévoit pas d'échéance ?",
+                 "a": "Il faut mettre le débiteur en demeure, généralement par une sommation écrite. Les intérêts courent en principe dès le lendemain de cette sommation (art. 102 CO)."},
+            ],
+        },
+        "de": {
+            "slug": "verzugszins-berechnen",
+            "title": "Verzugszinsrechner für die Schweiz",
+            "meta": "Kostenloses Tool zur Berechnung von Verzugszinsen zum gesetzlichen Satz von 5% pro Jahr oder zu einem vereinbarten Satz (Art. 104 OR).",
+            "sections": [
+                {"heading": "Das Prinzip des Verzugszinses", "paragraphs": [
+                    "Gerät eine Schuldnerin oder ein Schuldner mit der Zahlung eines Geldbetrags in Verzug, hat die Gläubigerin oder der Gläubiger Anspruch auf Verzugszins, auch ohne einen Schaden nachzuweisen. Fehlt eine zwischen den Parteien vereinbarte Zinshöhe, setzt das Gesetz diesen Satz auf 5% pro Jahr fest (Art. 104 Abs. 1 OR).",
+                    "Der Zins beginnt zu laufen, sobald sich die Schuldnerin oder der Schuldner in Verzug befindet: entweder am Tag nach einer vertraglich vereinbarten Fälligkeit, oder am Tag nach einer Mahnung, falls keine Fälligkeit vereinbart wurde (Art. 102 OR).",
+                ]},
+                {"heading": "Wie dieser Rechner die Tage zählt", "paragraphs": [
+                    "Die Berechnung erfolgt taggenau zwischen Start- und Enddatum, auf Basis von 365 Tagen pro Jahr. Dies ist eine gängige, indikative Methode; eine endgültige Abrechnung zwischen Parteien oder vor Gericht kann eine leicht andere Konvention zugrunde legen.",
+                    "Ein höherer vereinbarter Zinssatz als 5% ist möglich, sofern er zwischen den Parteien vereinbart wurde, innerhalb der Grenzen des Wuchers. Sie können ihn direkt im vorgesehenen Feld eingeben.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Gilt der Satz von 5% immer?",
+                 "a": "Es handelt sich um den gesetzlichen Auffangsatz, anwendbar sofern die Parteien nichts anderes vereinbart haben oder eine besondere gesetzliche Bestimmung einen anderen Satz vorsieht."},
+                {"q": "Braucht es einen Schaden, um Verzugszinsen zu verlangen?",
+                 "a": "Nein. Der Verzugszins ist allein wegen des Zahlungsverzugs geschuldet, ohne dass die Gläubigerin oder der Gläubiger einen Schaden nachweisen muss."},
+                {"q": "Wie bestimme ich den Beginn des Zinslaufs, wenn der Vertrag keine Fälligkeit vorsieht?",
+                 "a": "Die Schuldnerin oder der Schuldner muss gemahnt werden, in der Regel schriftlich. Die Zinsen laufen grundsätzlich ab dem Tag nach dieser Mahnung (Art. 102 OR)."},
+            ],
+        },
+        "it": {
+            "slug": "calcolo-interessi-moratori",
+            "title": "Calcolatore degli interessi moratori per la Svizzera",
+            "meta": "Strumento gratuito per calcolare gli interessi moratori al tasso legale del 5% annuo o a un tasso convenzionale (art. 104 CO).",
+            "sections": [
+                {"heading": "Il principio dell'interesse moratorio", "paragraphs": [
+                    "Quando un debitore è in ritardo nel pagamento di una somma di denaro, il creditore ha diritto a un interesse moratorio, anche senza aver subito un danno. In mancanza di un tasso convenuto tra le parti, la legge fissa questo tasso al 5% annuo (art. 104 cpv. 1 CO).",
+                    "L'interesse inizia a decorrere non appena il debitore è in mora: il giorno successivo a una scadenza fissata contrattualmente, oppure il giorno successivo a una diffida se non era stata convenuta alcuna scadenza (art. 102 CO).",
+                ]},
+                {"heading": "Come questo calcolatore conta i giorni", "paragraphs": [
+                    "Il calcolo è effettuato in proporzione al numero esatto di giorni tra la data di inizio e la data di fine, su base di 365 giorni all'anno. È un metodo indicativo e comune; un conteggio definitivo tra le parti o davanti a un tribunale può adottare una convenzione leggermente diversa.",
+                    "Un tasso convenzionale superiore al 5% è possibile se è stato concordato tra le parti, entro i limiti del divieto di usura. Potete inserirlo direttamente nel campo previsto.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Il tasso del 5% si applica sempre?",
+                 "a": "È il tasso legale suppletivo, applicabile salvo accordo contrario tra le parti o disposizione legale speciale che preveda un tasso diverso."},
+                {"q": "Serve un danno per richiedere interessi moratori?",
+                 "a": "No. L'interesse moratorio è dovuto per il solo fatto del ritardo nel pagamento di una somma di denaro, senza che il creditore debba provare un danno."},
+                {"q": "Come si stabilisce la data di inizio degli interessi se il contratto non prevede una scadenza?",
+                 "a": "Occorre costituire in mora il debitore, generalmente con una diffida scritta. Gli interessi decorrono in linea di principio dal giorno successivo a tale diffida (art. 102 CO)."},
+            ],
+        },
+        "en": {
+            "slug": "late-payment-interest-calculator",
+            "title": "Late payment interest calculator for Switzerland",
+            "meta": "Free tool to calculate late payment interest at the statutory rate of 5% per year or an agreed rate (art. 104 CO).",
+            "sections": [
+                {"heading": "The principle of late payment interest", "paragraphs": [
+                    "When a debtor is late in paying a sum of money, the creditor is entitled to late payment interest, even without having suffered any loss. Absent a rate agreed between the parties, the law sets this rate at 5% per year (art. 104 para. 1 CO).",
+                    "Interest starts accruing once the debtor is in default: either the day after a due date set in the contract, or the day after formal notice (mise en demeure) if no due date had been agreed (art. 102 CO).",
+                ]},
+                {"heading": "How this calculator counts days", "paragraphs": [
+                    "The calculation is prorated to the exact number of days between the start and end dates, on a 365-day-per-year basis. This is a common, indicative method; a final settlement between parties or before a court may use a slightly different convention.",
+                    "An agreed rate higher than 5% is possible if agreed between the parties, within the limits of the prohibition on usury. You can enter it directly in the field provided.",
+                ]},
+            ],
+            "faq": [
+                {"q": "Does the 5% rate always apply?",
+                 "a": "It is the statutory default rate, applicable unless the parties have agreed otherwise or a special legal provision sets a different rate."},
+                {"q": "Do I need to prove a loss to claim late payment interest?",
+                 "a": "No. Late payment interest is owed simply because of the delay in paying a sum of money, without the creditor having to prove any loss."},
+                {"q": "How do I determine the start date for interest if the contract sets no due date?",
+                 "a": "The debtor must be put in default, usually via written formal notice. Interest generally starts running the day after that notice (art. 102 CO)."},
+            ],
+        },
+    },
 }
