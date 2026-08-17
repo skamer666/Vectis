@@ -42,5 +42,23 @@
       {% endfor %}
     </div>
   </section>
+
+  {% if faq %}
+  <section class="section" data-reveal>
+    <div class="section-head"><h2><span class="section-number">03</span>{{ ui.faq_title }}</h2></div>
+    {% for item in faq %}
+    <h3 style="margin-top:var(--space-lg);">{{ item.q }}</h3>
+    <p class="lede" style="font-size:1rem;">{{ item.a }}</p>
+    {% endfor %}
+    {% if related %}
+    <h3 style="margin-top:var(--space-lg);">{{ ui.related_pages }}</h3>
+    <div class="tag-list">
+      {% for r in related %}
+      <a class="tag" href="{{ r.url }}">{{ r.name }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
 </div>
 {% endblock %}
