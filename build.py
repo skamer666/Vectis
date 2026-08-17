@@ -30,6 +30,7 @@ import static_pages as sp_content
 import guides_content
 import blog_content
 import calc_widget
+import legal_tools_widgets
 import aj_study_content as aj
 import vitrine_content
 import review_content
@@ -1697,6 +1698,14 @@ GUIDES_INDEX_INTRO = {
 }
 
 
+GUIDE_CALCULATORS = {
+    "assistance-judiciaire": calc_widget.CALCULATOR_HTML,
+    "calcul-prescription": legal_tools_widgets.PRESCRIPTION_HTML,
+    "calcul-delai-procedure": legal_tools_widgets.DELAI_HTML,
+    "calcul-interets-moratoires": legal_tools_widgets.INTERETS_HTML,
+}
+
+
 def gen_guides():
     gids = list(guides_content.GUIDES.keys())
     for lang in LANGS:
@@ -1723,7 +1732,7 @@ def gen_guides():
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
             ctx["faq"] = g["faq"]
-            ctx["calculator_html"] = calc_widget.CALCULATOR_HTML[lang] if gid == "assistance-judiciaire" else None
+                        ctx["calculator_html"] = GUIDE_CALCULATORS[gid][lang] if gid in GUIDE_CALCULATORS else None
             ctx["related"] = (
                 [{"name": guides_content.GUIDES[o][lang]["title"], "url": guide_path(o, lang)}
                  for o in gids if o != gid]
