@@ -5,7 +5,7 @@
     <div>
       <div class="hero-eyebrow">{{ ui.firm }} | {{ canton_name }}</div>
       <h1 class="profile-title">{{ nom_etude }}</h1>
-      {% if adresse %}<p class="profile-sub">{{ adresse }}{% if npa or ville %}, {{ npa }} {{ ville }}{% endif %}</p>{% endif %}
+      {% if adresse %}<p class="profile-sub">{{ adresse }}{% if npa or ville %}, {{ npa }} {% if ville_url %}<a href="{{ ville_url }}">{{ ville }}</a>{% else %}{{ ville }}{% endif %}{% endif %}</p>{% endif %}
     </div>
     {% set entry_data = {"url": canonical_url, "nom": nom_etude, "etude": "", "ville": ville or "", "canton_name": canton_name or ""} %}
     <aside class="profile-contact-card">
