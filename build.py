@@ -678,8 +678,13 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             _raw_langues = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
             ctx["langues"] = pt.translate_langues(_raw_langues, lang)
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("brevet_date"))
-            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
-                                  (canton_name, canton_path("GE", lang)), (nom, path)]
+            _city_link = city_link_for("GE", row.get("ville"), lang)
+            ctx["ville_url"] = _city_link[1] if _city_link else None
+            _bc = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (canton_name, canton_path("GE", lang))]
+            if _city_link:
+                _bc.append(_city_link)
+            _bc.append((nom, path))
+            ctx["breadcrumb"] = _bc
             _schema = {
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
                 "url": BASE_DOMAIN + path,
@@ -791,8 +796,13 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                     "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
                     "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
                 }[lang]
-            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
-                                  (canton_name, canton_path("GE", lang)), (nom_etude, path)]
+            _city_link = city_link_for("GE", row.get("ville"), lang)
+            ctx["ville_url"] = _city_link[1] if _city_link else None
+            _bc = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (canton_name, canton_path("GE", lang))]
+            if _city_link:
+                _bc.append(_city_link)
+            _bc.append((nom_etude, path))
+            ctx["breadcrumb"] = _bc
             _schema = {
                 "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
                 "url": BASE_DOMAIN + path,
@@ -1337,8 +1347,13 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                     "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
                     "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
                 }[lang]
-            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
-                                  (canton_name, canton_path(code, lang)), (nom_etude, path)]
+            _city_link = city_link_for(code, ville, lang)
+            ctx["ville_url"] = _city_link[1] if _city_link else None
+            _bc = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (canton_name, canton_path(code, lang))]
+            if _city_link:
+                _bc.append(_city_link)
+            _bc.append((nom_etude, path))
+            ctx["breadcrumb"] = _bc
             ctx["schema"] = json.dumps({
                 "@context": "https://schema.org", "@type": "LegalService", "name": nom_etude,
                 "url": BASE_DOMAIN + path,
@@ -1439,8 +1454,13 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             # ni enrichissement web) au-dela du nom/adresse -- se retire tout seul des qu'une
             # donnee reelle arrive (meme mecanisme que les fiches etude).
             ctx["noindex"] = not (ctx["seniority_text"] or ctx["langues"] or ctx["domaines"] or ctx["insight_text"])
-            ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
-                                  (canton_name, canton_path(code, lang)), (nom, path)]
+            _city_link = city_link_for(code, row.get("ville"), lang)
+            ctx["ville_url"] = _city_link[1] if _city_link else None
+            _bc = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (canton_name, canton_path(code, lang))]
+            if _city_link:
+                _bc.append(_city_link)
+            _bc.append((nom, path))
+            ctx["breadcrumb"] = _bc
             ctx["schema"] = json.dumps({
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
                 "url": BASE_DOMAIN + path,
@@ -1526,6 +1546,28 @@ print(f"Pages villes : {sum(len(v) for v in CITY_DATA.values())} villes retenues
       f"(seuil {CITY_MIN_LAWYERS} avocats) dans {len(CITY_DATA)} cantons.", file=sys.stderr)
 
 
+CITY_SLUG_BY_NORM = {
+    code: {norm(c["name"]): c for c in cities}
+    for code, cities in CITY_DATA.items()
+}
+
+
+def city_link_for(code, ville_raw, lang):
+    """Retourne (nom_affiche, url) vers la page ville si une page existe pour
+    cette ville dans ce canton (seuil CITY_MIN_LAWYERS respecte, ville non
+    eponyme du canton -- voir build_city_data), sinon None. Utilise pour
+    inserer un niveau "ville" dans le breadcrumb des fiches avocat/etude et
+    lier leur champ ville vers le hub ville correspondant (maillage interne :
+    jusque-la aucune fiche avocat/etude ne renvoyait vers sa page ville)."""
+    disp = city_display(ville_raw or "")
+    if not disp:
+        return None
+    c = CITY_SLUG_BY_NORM.get(code, {}).get(norm(disp))
+    if not c:
+        return None
+    return c["name"], ville_path(code, c["slug"], lang)
+
+
 def ville_intro(lang, ville, canton_name, n_avocats, n_etudes):
     if lang == "fr":
         base = (f"{n_avocats} avocats sont référencés à {ville}, dans le canton de {canton_name}, "
@@ -1550,6 +1592,49 @@ def ville_intro(lang, ville, canton_name, n_avocats, n_etudes):
     if n_etudes:
         base += f" They practise in {n_etudes} firms recorded in this locality."
     return base
+
+
+def ville_faq(lang, ville, canton_name, n_avocats, n_etudes):
+    """FAQ courte pour les pages ville : uniquement des chiffres deja reels
+    (n_avocats, n_etudes) et le meme principe de verification que le reste du
+    site (registre cantonal officiel, aucune donnee inventee). Sert a la fois
+    de contenu unique par ville (les pages ville n'ont sinon qu'un seul
+    paragraphe d'intro) et de schema.org FAQPage."""
+    if lang == "fr":
+        a1 = f"{n_avocats} avocats sont référencés à {ville} sur la base du registre cantonal officiel de {canton_name}."
+        if n_etudes:
+            a1 += f" Ils exercent au sein de {n_etudes} études ou cabinets recensés dans cette localité."
+        return [
+            {"q": f"Combien d'avocats sont référencés à {ville} ?", "a": a1},
+            {"q": "Ces avocats sont-ils vérifiés ?",
+             "a": f"Oui. Chaque avocat référencé par Legatis à {ville} est inscrit au registre cantonal officiel des avocats du canton de {canton_name}, seule source utilisée pour construire cette liste."},
+        ]
+    if lang == "de":
+        a1 = f"{n_avocats} Anwältinnen und Anwälte sind in {ville} auf Grundlage des offiziellen kantonalen Anwaltsregisters von {canton_name} erfasst."
+        if n_etudes:
+            a1 += f" Sie sind in {n_etudes} an diesem Ort erfassten Kanzleien tätig."
+        return [
+            {"q": f"Wie viele Anwältinnen und Anwälte sind in {ville} erfasst?", "a": a1},
+            {"q": "Sind diese Anwältinnen und Anwälte überprüft?",
+             "a": f"Ja. Jede von Legatis in {ville} aufgeführte Anwältin bzw. jeder Anwalt ist im offiziellen kantonalen Anwaltsregister des Kantons {canton_name} eingetragen, der einzigen für diese Liste verwendeten Quelle."},
+        ]
+    if lang == "it":
+        a1 = f"{n_avocats} avvocati sono registrati a {ville} sulla base dell'albo cantonale ufficiale del cantone {canton_name}."
+        if n_etudes:
+            a1 += f" Esercitano in {n_etudes} studi legali censiti in questa località."
+        return [
+            {"q": f"Quanti avvocati sono registrati a {ville}?", "a": a1},
+            {"q": "Questi avvocati sono verificati?",
+             "a": f"Sì. Ogni avvocato indicato da Legatis a {ville} è iscritto all'albo cantonale ufficiale degli avvocati del cantone {canton_name}, unica fonte utilizzata per costruire questo elenco."},
+        ]
+    a1 = f"{n_avocats} lawyers are listed in {ville}, based on the official cantonal bar registry of {canton_name}."
+    if n_etudes:
+        a1 += f" They practise in {n_etudes} firms recorded in this locality."
+    return [
+        {"q": f"How many lawyers are listed in {ville}?", "a": a1},
+        {"q": "Are these lawyers verified?",
+         "a": f"Yes. Every lawyer Legatis lists in {ville} is registered with the official cantonal bar registry of {canton_name}, the only source used to build this list."},
+    ]
 
 
 def _city_registry(code, city, lang):
@@ -1626,6 +1711,27 @@ def gen_villes():
                 ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                       (canton_name, canton_path(code, lang)),
                                       (city["name"], path)]
+                # FAQ courte + schema FAQPage : seul contenu unique par ville au-dela
+                # du paragraphe d'intro (voir ville_faq -- chiffres reels uniquement).
+                ctx["faq"] = ville_faq(lang, city["name"], canton_name, city["count"], n_firms)
+                ctx["schema"] = json.dumps({
+                    "@context": "https://schema.org", "@type": "FAQPage",
+                    "mainEntity": [
+                        {"@type": "Question", "name": item["q"],
+                         "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                        for item in ctx["faq"]
+                    ],
+                }, ensure_ascii=False)
+                # Maillage interne vers des pages deja existantes et pertinentes
+                # (guides + etude AJ) : les pages ville n'avaient jusque-la aucun
+                # lien sortant vers le contenu editorial du site.
+                ctx["related"] = [
+                    {"name": guides_content.GUIDES["choisir-avocat"][lang]["title"],
+                     "url": guide_path("choisir-avocat", lang)},
+                    {"name": guides_content.GUIDES["cout-avocat"][lang]["title"],
+                     "url": guide_path("cout-avocat", lang)},
+                    {"name": i18n.UI[lang]["press_study_title"], "url": etude_aj_path(lang)},
+                ]
                 write_page(path, render("ville_hub.html", ctx))
 
 
