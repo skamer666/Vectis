@@ -378,29 +378,29 @@ _PAGES = {
         "fr": {"title": "Contact", "sections": [
             {"heading": None, "paragraphs": _p(
                 "Pour toute question générale, demande de presse ou de partenariat : "
-                "contact@legatis.ch.",
+                "gregoiregiuliano@hotmail.com.",
                 "Pour signaler une erreur sur une fiche précise, utilisez plutôt la page « Signaler une "
                 "correction », qui nous permet de traiter la demande plus rapidement.",
             )},
         ]},
         "de": {"title": "Kontakt", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Für allgemeine Fragen, Presseanfragen oder Partnerschaften: contact@legatis.ch.",
+                "Für allgemeine Fragen, Presseanfragen oder Partnerschaften: gregoiregiuliano@hotmail.com.",
                 "Um einen Fehler auf einer bestimmten Seite zu melden, nutzen Sie bitte die Seite "
-                "\u201eFehler melden\u201c, so k\u00f6nnen wir die Anfrage schneller bearbeiten.",
+                "„Fehler melden“, so können wir die Anfrage schneller bearbeiten.",
             )},
         ]},
         "it": {"title": "Contatto", "sections": [
             {"heading": None, "paragraphs": _p(
                 "Per qualsiasi domanda generale, richiesta stampa o di partnership: "
-                "contact@legatis.ch.",
+                "gregoiregiuliano@hotmail.com.",
                 "Per segnalare un errore su una scheda specifica, utilizzate invece la pagina "
                 "«Segnala una correzione», che ci permette di gestire la richiesta più rapidamente.",
             )},
         ]},
         "en": {"title": "Contact", "sections": [
             {"heading": None, "paragraphs": _p(
-                "For general questions, press or partnership enquiries: contact@legatis.ch.",
+                "For general questions, press or partnership enquiries: gregoiregiuliano@hotmail.com.",
                 "To report an error on a specific listing, please use the \"Report a correction\" page "
                 "instead, it lets us handle the request faster.",
             )},
@@ -464,7 +464,7 @@ _PAGES = {
                 "Geschäftsadresse, Telefon, E-Mail) stammen aus den offiziellen öffentlichen "
                 "Anwaltsregistern und betreffen die Berufsausübung, nicht das Privatleben.",
                 "Betroffene Personen können eine Korrektur beantragen oder ihre Rechte über die Seite "
-                "\u201eFehler melden\u201c geltend machen.",
+                "„Fehler melden“ geltend machen.",
             )},
         ]},
         "it": {"title": "Privacy", "sections": [
@@ -519,7 +519,7 @@ _PAGES = {
                 "fiche avocat, à côté du badge.",
             )},
             {"heading": "Comment procéder", "paragraphs": _p(
-                "Écrivez-nous à contact@legatis.ch avec l'URL de votre fiche et la nature de votre demande "
+                "Écrivez-nous à gregoiregiuliano@hotmail.com avec l'URL de votre fiche et la nature de votre demande "
                 "(correction, complément, retrait). Nous vérifions et traitons chaque demande "
                 "individuellement.",
             )},
@@ -546,7 +546,7 @@ _PAGES = {
                 "Hervorhebung.",
             )},
             {"heading": "So gehen Sie vor", "paragraphs": _p(
-                "Schreiben Sie uns an contact@legatis.ch mit der URL Ihres Eintrags und der Art Ihres "
+                "Schreiben Sie uns an gregoiregiuliano@hotmail.com mit der URL Ihres Eintrags und der Art Ihres "
                 "Anliegens (Korrektur, Ergänzung, Entfernung). Wir prüfen und bearbeiten jede Anfrage "
                 "einzeln.",
             )},
@@ -573,7 +573,7 @@ _PAGES = {
                 "la nostra pagina metodologia). Non vendiamo posizionamenti in evidenza.",
             )},
             {"heading": "Come procedere", "paragraphs": _p(
-                "Scriveteci a contact@legatis.ch con l'URL della vostra scheda e la natura della richiesta "
+                "Scriveteci a gregoiregiuliano@hotmail.com con l'URL della vostra scheda e la natura della richiesta "
                 "(correzione, integrazione, rimozione). Verifichiamo e trattiamo ogni richiesta "
                 "individualmente.",
             )},
@@ -599,7 +599,7 @@ _PAGES = {
                 "not sell featured placement.",
             )},
             {"heading": "How to proceed", "paragraphs": _p(
-                "Write to us at contact@legatis.ch with your listing's URL and the nature of your request "
+                "Write to us at gregoiregiuliano@hotmail.com with your listing's URL and the nature of your request "
                 "(correction, addition, removal). We review and handle every request individually.",
             )},
         ]},
@@ -609,7 +609,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "Une information est inexacte ou obsolète sur une fiche ? Vous êtes avocat·e ou "
                 "responsable d'étude et cette fiche vous concerne ?",
-                "Écrivez-nous à contact@legatis.ch en précisant l'URL de la fiche concernée et la "
+                "Écrivez-nous à gregoiregiuliano@hotmail.com en précisant l'URL de la fiche concernée et la "
                 "correction à apporter (adresse, téléphone, e-mail, domaines de compétence, etc.). Nous "
                 "vérifions et mettons à jour la fiche dans les meilleurs délais.",
             )},
@@ -618,7 +618,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "Ist eine Angabe auf einer Seite falsch oder veraltet? Sind Sie Anwältin, Anwalt oder "
                 "Kanzleiverantwortliche·r und diese Seite betrifft Sie?",
-                "Schreiben Sie uns an contact@legatis.ch mit der URL der betreffenden Seite und der "
+                "Schreiben Sie uns an gregoiregiuliano@hotmail.com mit der URL der betreffenden Seite und der "
                 "gewünschten Korrektur (Adresse, Telefon, E-Mail, Fachgebiete usw.). Wir prüfen die Angabe "
                 "und aktualisieren die Seite so schnell wie möglich.",
             )},
@@ -627,7 +627,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "Un'informazione è imprecisa o obsoleta su una scheda? Siete un avvocato o un responsabile "
                 "di studio e questa scheda vi riguarda?",
-                "Scriveteci a contact@legatis.ch indicando l'URL della scheda interessata e la correzione "
+                "Scriveteci a gregoiregiuliano@hotmail.com indicando l'URL della scheda interessata e la correzione "
                 "da apportare (indirizzo, telefono, e-mail, ambiti di competenza, ecc.). Verifichiamo e "
                 "aggiorniamo la scheda il prima possibile.",
             )},
@@ -636,7 +636,7 @@ _PAGES = {
             {"heading": None, "paragraphs": _p(
                 "Is some information inaccurate or outdated on a listing? Are you a lawyer or firm "
                 "administrator and this listing concerns you?",
-                "Write to us at contact@legatis.ch with the URL of the listing and the correction needed "
+                "Write to us at gregoiregiuliano@hotmail.com with the URL of the listing and the correction needed "
                 "(address, phone, email, practice areas, etc.). We verify and update the listing as soon "
                 "as possible.",
             )},
