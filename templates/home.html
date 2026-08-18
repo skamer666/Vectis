@@ -34,6 +34,37 @@
     </aside>
   </section>
 
+  <div class="monzo-cards" data-reveal>
+    <a class="monzo-card monzo-card-photo" href="{{ cantons_index_url }}" style="background-image:url('{{ asset_prefix }}static/img/home/geneva-skyline.jpg');">
+      <span class="monzo-card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div class="monzo-card-body">
+        <div class="monzo-card-title">{{ ui.all_cantons }}</div>
+        <div class="monzo-card-desc">{{ stats.total_cantons }} {{ ui.all_cantons|lower }} &middot; {{ stats.total_avocats }} {{ ui.lawyers_in_canton }}</div>
+      </div>
+    </a>
+    <a class="monzo-card monzo-card-coral" href="{{ domaines_index_url }}">
+      <span class="monzo-card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div class="monzo-card-body">
+        <div class="monzo-card-title">{{ ui.all_practice_areas }}</div>
+        <div class="monzo-card-desc">{{ stats.total_domaines }} {{ ui.all_practice_areas|lower }}</div>
+      </div>
+    </a>
+    <a class="monzo-card monzo-card-photo" href="{{ search_url }}" style="background-image:url('{{ asset_prefix }}static/img/home/lawyer-handshake.jpg');">
+      <span class="monzo-card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div class="monzo-card-body">
+        <div class="monzo-card-title">{{ ui.firm }}s</div>
+        <div class="monzo-card-desc">{{ stats.total_etudes }} {{ ui.firm }}s</div>
+      </div>
+    </a>
+    <a class="monzo-card monzo-card-ink" href="{{ guides_index_url }}">
+      <span class="monzo-card-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 17L17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div class="monzo-card-body">
+        <div class="monzo-card-title">{{ ui.guides_title }}</div>
+        <div class="monzo-card-desc">{{ ui.blog_title }} &middot; {{ ui.press_study_kicker }}</div>
+      </div>
+    </a>
+  </div>
+
   <section class="stat-strip" data-reveal>
     <div class="stat"><div class="stat-value">{{ stats.total_avocats }}</div><div class="stat-label">{{ ui.lawyers_in_canton }}</div></div>
     <div class="stat"><div class="stat-value">{{ stats.total_cantons }}</div><div class="stat-label">{{ ui.all_cantons }}</div></div>
