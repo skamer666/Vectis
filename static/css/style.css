@@ -259,14 +259,10 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 }
 .masthead-nav a:hover{ color:var(--ink-950); background:var(--paper-100); }
 
-.masthead-actions{ display:flex; align-items:center; gap:var(--space-md); flex-wrap:wrap; justify-content:flex-end; }
-.masthead-cta{ padding:11px 18px; font-size:0.82rem; white-space:nowrap; }
-
 @media (max-width:760px){
   .masthead-utility{ font-size:0.66rem; }
   .masthead-utility .container{ flex-wrap:wrap; row-gap:2px; }
   .masthead-top{ flex-wrap:wrap; row-gap:10px; }
-  .masthead-cta{ display:none; }
   .masthead-nav{ flex-wrap:wrap; gap:2px; }
 }
 
@@ -1103,10 +1099,3 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 }
 .monzo-card:hover .monzo-card-arrow{ background:#fff; color:var(--ink-950); transform:rotate(45deg); }
 .monzo-card-arrow svg{ width:16px; height:16px; }
-
-.vitrine-cta-notice{
-  display:flex; align-items:center; gap:var(--space-md); flex-wrap:wrap;
-  margin:var(--space-lg) 0; padding:var(--space-md) var(--space-lg);
-  background:var(--paper-50); border:1px solid var(--border-strong); border-radius:var(--radius-md);
-  font-size:0.9rem; color:var(--text-secondary);
-}
