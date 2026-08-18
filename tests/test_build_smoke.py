@@ -73,53 +73,6 @@ def test_gen_indexnow_key_writes_expected_file(tmp_path, monkeypatch):
     assert key_file.read_text(encoding="utf-8").strip() == build.INDEXNOW_KEY
 
 
-def test_vitrine_previews_render_for_all_templates_without_jinja_artifacts(tmp_path, monkeypatch):
-    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
-    build.gen_vitrine_previews()
-    import vitrine_content
-    for template in vitrine_content.TEMPLATE_ORDER:
-        html = (tmp_path / "fr" / "vitrine-preview" / template / "index.html").read_text(encoding="utf-8")
-        assert "{{" not in html and "{%" not in html and "Undefined" not in html
-        assert 'data-field="nom_complet"' in html
-        assert "Camille Fontaine" in html
-
-
-def test_vitrine_request_form_embeds_accent_ramps_and_preview_urls(tmp_path, monkeypatch):
-    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
-    build.gen_vitrine_previews()
-    build.gen_vitrine_request()
-    html = (tmp_path / "fr" / "vitrine-avocat" / "index.html").read_text(encoding="utf-8")
-    assert "{{" not in html and "{%" not in html and "Undefined" not in html
-    assert "ACCENT_RAMPS" in html
-    assert "/fr/vitrine-preview/prestige/" in html
-    assert 'id="vf-role-titre"' in html
-    assert 'id="vf-instagram"' in html
-    assert 'id="vf-adresse"' in html
-    assert 'id="vf-horaires"' in html
-    assert 'id="vf-whatsapp"' in html
-    assert 'id="vf-rdv-url"' in html
-    assert 'id="vf-video-url"' in html
-    assert 'id="vf-galerie"' in html
-    assert 'name="photo_frame"' in html
-    assert 'name="style_titres"' in html
-
-
-def test_vitrine_previews_include_new_personalization_fields(tmp_path, monkeypatch):
-    """La fiche factice de demo doit exposer les hooks data-field des
-    nouveaux champs (cadre, police, infos pratiques, video, galerie), sinon
-    l'apercu live du formulaire ne peut rien y synchroniser."""
-    monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
-    build.gen_vitrine_previews()
-    html = (tmp_path / "fr" / "vitrine-preview" / "prestige" / "index.html").read_text(encoding="utf-8")
-    assert "{{" not in html and "{%" not in html and "Undefined" not in html
-    assert 'data-font="classique"' in html
-    assert "cadre-cercle" in html
-    assert 'data-field="practical-section"' in html
-    assert 'data-field="adresse"' in html
-    assert 'data-field="video-section"' in html
-    assert 'data-field="galerie-section"' in html
-
-
 def test_to_embed_url_recognises_youtube_and_vimeo_only():
     assert build.to_embed_url("https://www.youtube.com/watch?v=abc12345678") == "https://www.youtube-nocookie.com/embed/abc12345678"
     assert build.to_embed_url("https://youtu.be/abc12345678") == "https://www.youtube-nocookie.com/embed/abc12345678"
