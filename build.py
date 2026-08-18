@@ -39,8 +39,8 @@ from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
-    blog_index_path, blog_article_path, etude_aj_path, vitrine_request_path, vitrine_path,
-    avis_request_path, vitrine_preview_path,
+    blog_index_path, blog_article_path, etude_aj_path, vitrine_path,
+    avis_request_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -171,7 +171,6 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "guides_index_url": guides_index_path(lang),
         "blog_index_url": blog_index_path(lang),
         "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
-        "vitrine_request_url": vitrine_request_path(lang),
         "avis_request_url": avis_request_path(lang),
         "supabase_url": supabase_config.SUPABASE_URL,
         "supabase_anon_key": supabase_config.SUPABASE_ANON_KEY,
@@ -1899,39 +1898,6 @@ def gen_etude_aj():
 VITRINE_SPECIALITES_ORDER = list(i18n.DOMAINES.keys())
 
 
-def gen_vitrine_request():
-    """Page publique du formulaire de demande de vitrine avocat."""
-    for lang in LANGS:
-        path = vitrine_request_path(lang)
-        f = vitrine_content.FORM[lang]
-        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(vitrine_request_path))
-        ctx["f"] = f
-        ctx["search_index_url"] = f"/search-index-{lang}.json"
-        ctx["template_options"] = [
-            {"id": tid, "label": vitrine_content.TEMPLATES[tid][lang]["label"], "desc": vitrine_content.TEMPLATES[tid][lang]["desc"]}
-            for tid in vitrine_content.TEMPLATE_ORDER
-        ]
-        ctx["accent_options"] = [
-            {"id": aid, "label": vitrine_content.ACCENT_COLORS[aid][lang], "ramp": ACCENT_RAMPS[aid]}
-            for aid in vitrine_content.ACCENT_ORDER
-        ]
-        ctx["accent_ramps"] = ACCENT_RAMPS
-        ctx["preview_urls"] = {tid: vitrine_preview_path(tid, lang) for tid in vitrine_content.TEMPLATE_ORDER}
-        ctx["photo_frame_options"] = [
-            {"id": pid, "label": vitrine_content.PHOTO_FRAMES[pid][lang]}
-            for pid in vitrine_content.PHOTO_FRAME_ORDER
-        ]
-        ctx["font_style_options"] = [
-            {"id": fid, "label": vitrine_content.FONT_STYLES[fid][lang]}
-            for fid in vitrine_content.FONT_STYLE_ORDER
-        ]
-        ctx["specialites_options"] = [
-            {"id": did, "name": i18n.DOMAINES[did][lang]["name"]} for did in VITRINE_SPECIALITES_ORDER
-        ]
-        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
-        write_page(path, render("vitrine_demande.html", ctx))
-
-
 def gen_avis_request():
     """Page publique du formulaire de depot d'avis."""
     for lang in LANGS:
@@ -2050,54 +2016,6 @@ def _vitrine_page_ctx(sub, lang):
         "video_embed_url": to_embed_url(free.get("video_url")),
         "galerie": [u for u in (free.get("galerie") or []) if isinstance(u, str) and u.startswith(("http://", "https://"))][:4],
     }
-
-
-def gen_vitrine_previews():
-    """Pages de demonstration (donnees fictives) pour chacun des 3
-    templates, dans les 4 langues -- servent de base a l'apercu live en
-    iframe du formulaire de demande (templates/vitrine_demande.html) : le JS
-    de la page formulaire ecrit directement dans le DOM de ces pages via
-    contentDocument (meme origine), en synchronisant les champs au fur et a
-    mesure de la saisie. Pages noindex, exclues du sitemap."""
-    for template in vitrine_content.TEMPLATE_ORDER:
-        for lang in LANGS:
-            sample = vitrine_content.PREVIEW_SAMPLE[lang]
-            fake_sub = {
-                "registry_match": {"slug": ""},
-                "locked": {
-                    "nom_complet": sample["nom_complet"],
-                    "canton": "GE",
-                    "canton_name": sample["canton_name"],
-                    "ville": sample["ville"],
-                    "langues": sample["langues"],
-                },
-                "free": {
-                    "role_titre": sample["role_titre"],
-                    "accroche": sample["accroche"],
-                    "bio": sample["bio"],
-                    "citation": sample["citation"],
-                    "specialites": sample["specialites_sample"],
-                    "distinctions": sample["distinctions"],
-                    "accent_color": "bordeaux",
-                    "photo_frame": "cercle",
-                    "style_titres": "classique",
-                    "adresse": sample.get("adresse"),
-                    "horaires": sample.get("horaires"),
-                    "whatsapp": sample.get("whatsapp"),
-                    "rdv_url": sample.get("rdv_url"),
-                    "video_url": sample.get("video_url"),
-                    "galerie": sample.get("galerie") or [],
-                },
-                "contact_phone": "",
-                "contact_email": "",
-            }
-            path = vitrine_preview_path(template, lang)
-            pctx = _vitrine_page_ctx(fake_sub, lang)
-            ctx = base_ctx(lang, path, f"Apercu {template} | Legatis", "Page de demonstration.", {})
-            ctx.update(pctx)
-            ctx["noindex"] = True
-            ctx["registry_url"] = "#"
-            write_page(path, render(f"vitrine_{template}.html", ctx))
 
 
 def gen_vitrines():
@@ -2503,8 +2421,6 @@ if __name__ == "__main__":
         gen_guides()
         gen_blog()
         gen_etude_aj()
-        gen_vitrine_request()
-        gen_vitrine_previews()
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()
@@ -2569,8 +2485,6 @@ if __name__ == "__main__":
         gen_guides()
         gen_blog()
         gen_etude_aj()
-        gen_vitrine_request()
-        gen_vitrine_previews()
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()

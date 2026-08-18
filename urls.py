@@ -93,20 +93,12 @@ def etude_aj_path(lang):
     return f"/{lang}/{seg('etude-aj', lang)}/"
 
 
-def vitrine_request_path(lang):
-    return f"/{lang}/{seg('vitrine-demande', lang)}/"
-
-
 def vitrine_path(slug, lang):
     return f"/{lang}/{seg('vitrine', lang)}/{slug}/"
 
 
 def avis_request_path(lang):
     return f"/{lang}/{seg('avis-demande', lang)}/"
-
-
-def vitrine_preview_path(template, lang):
-    return f"/{lang}/vitrine-preview/{template}/"
 
 
 def static_path(lang, depth):
