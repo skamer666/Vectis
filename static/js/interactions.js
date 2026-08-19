@@ -194,6 +194,7 @@
   var I18N = window.__legatisI18N || {};
   var STORAGE_FAV = 'legatis:favorites';
   var STORAGE_CMP = 'legatis:compare';
+  var STORAGE_CMP_DATE = 'legatis:compare:date';
   var CMP_MAX = 3;
 
   var ICON_HEART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.6s-7.2-4.4-9.6-8.8C.8 8.4 2.2 5 5.6 5c2 0 3.4 1.2 4.6 2.7C11.4 6.2 12.8 5 14.8 5c3.4 0 4.8 3.4 3.2 6.8-2.4 4.4-9.6 8.8-9.6 8.8z"/></svg>';
@@ -215,6 +216,27 @@
     for (var i = 0; i < list.length; i++) { if (list[i].url === url) return i; }
     return -1;
   }
+
+  /* Le comparatif ne doit pas survivre d'un jour a l'autre : contrairement
+     aux favoris (persistance voulue), la selection de comparaison est une
+     session de travail ponctuelle. On horodate chaque ecriture avec la date
+     du jour ; si au chargement de la page la date stockee ne correspond pas
+     a aujourd'hui, on vide silencieusement la liste avant qu'elle ne soit
+     lue/affichee. */
+  function todayStamp() {
+    var d = new Date();
+    return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate();
+  }
+  function pruneStaleCompare() {
+    try {
+      var today = todayStamp();
+      if (localStorage.getItem(STORAGE_CMP_DATE) !== today) {
+        localStorage.removeItem(STORAGE_CMP);
+        localStorage.setItem(STORAGE_CMP_DATE, today);
+      }
+    } catch (e) {}
+  }
+  pruneStaleCompare();
 
   function toggleFavorite(entry) {
     var list = readStore(STORAGE_FAV);
