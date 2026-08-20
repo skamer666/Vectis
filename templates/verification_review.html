@@ -4,15 +4,18 @@
   {% include "_admin_nav.html" %}
   <section class="hero" style="padding-block:var(--space-xl) var(--space-lg);">
     <h1>Vérifications d'identité en attente</h1>
-    <p class="lede">Page interne (non indexée). Toutes les actions ci-dessous passent par des points d'accès protégés par jeton administrateur -- rien n'est lisible via la clé publique du site.</p>
+    <p class="lede">Page interne (non indexée). Toutes les actions ci-dessous passent par des points d'accès protégés par un vrai compte administrateur -- rien n'est lisible via la clé publique du site.</p>
   </section>
 
   <section class="section" style="padding-top:0; max-width:80ch;">
     <div id="vr-auth" class="calc-grid">
-      <label class="calc-field">Jeton administrateur
-        <input type="password" id="vr-token" autocomplete="off">
+      <label class="calc-field">Email admin
+        <input type="email" id="vr-email" autocomplete="username">
       </label>
-      <button type="button" class="cta-btn is-primary" id="vr-load">Charger les demandes</button>
+      <label class="calc-field">Mot de passe
+        <input type="password" id="vr-password" autocomplete="current-password">
+      </label>
+      <button type="button" class="cta-btn is-primary" id="vr-load">Se connecter et charger</button>
     </div>
     <div id="vr-error" class="vform-error" hidden></div>
     <div id="vr-list"></div>
@@ -28,17 +31,56 @@
 
 <script>
 (function() {
-  var tokenInput = document.getElementById('vr-token');
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+
+  var emailInput = document.getElementById('vr-email');
+  var passwordInput = document.getElementById('vr-password');
   var loadBtn = document.getElementById('vr-load');
   var listEl = document.getElementById('vr-list');
   var errorEl = document.getElementById('vr-error');
 
-  var saved = sessionStorage.getItem('legatis:admin-token');
-  if (saved) tokenInput.value = saved;
+  // Jeton administrateur remplace par un vrai compte (Supabase Auth), au
+  // meme principe que la connexion avocat (voir templates/connexion.html) :
+  // le mot de passe ne transite jamais vers nos propres fonctions
+  // serverless, seul le jeton d'acces obtenu de Supabase leur est envoye
+  // ensuite (Authorization: Bearer ...), et chacune le revalide aupres de
+  // Supabase avant de repondre (voir checkAdminAuth dans _verification-lib.js).
+  var adminJwt = sessionStorage.getItem('legatis:admin-jwt');
 
   function showError(msg) {
     errorEl.textContent = msg;
     errorEl.hidden = false;
+  }
+
+  function signIn() {
+    errorEl.hidden = true;
+    loadBtn.disabled = true;
+    var originalLabel = loadBtn.textContent;
+    loadBtn.textContent = 'Connexion...';
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { apikey: SUPABASE_ANON_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: emailInput.value.trim(), password: passwordInput.value }),
+    }).then(function(r) {
+      return r.json().then(function(data) { return { ok: r.ok, data: data }; });
+    }).then(function(result) {
+      loadBtn.disabled = false;
+      loadBtn.textContent = originalLabel;
+      if (!result.ok || !result.data.access_token) {
+        showError('Email ou mot de passe incorrect.');
+        return;
+      }
+      adminJwt = result.data.access_token;
+      sessionStorage.setItem('legatis:admin-jwt', adminJwt);
+      passwordInput.value = '';
+      load();
+      loadProfiles();
+    }).catch(function() {
+      loadBtn.disabled = false;
+      loadBtn.textContent = originalLabel;
+      showError('Erreur de connexion. Réessayez.');
+    });
   }
 
   function escapeHtml(s) {
@@ -95,7 +137,7 @@
   function decide(id, decision, wrap) {
     fetch('/api/verification-decide', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-admin-token': tokenInput.value },
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminJwt },
       body: JSON.stringify({ id: id, decision: decision }),
     }).then(function(r) {
       if (!r.ok) throw new Error('decide failed');
@@ -108,15 +150,13 @@
   function load() {
     errorEl.hidden = true;
     listEl.innerHTML = 'Chargement...';
-    var token = tokenInput.value;
     fetch('/api/verification-list', {
-      headers: { 'x-admin-token': token },
+      headers: { 'Authorization': 'Bearer ' + adminJwt },
     }).then(function(r) {
       if (r.status === 401) throw new Error('unauthorized');
       if (!r.ok) throw new Error('list failed');
       return r.json();
     }).then(function(data) {
-      sessionStorage.setItem('legatis:admin-token', token);
       listEl.innerHTML = '';
       if (!data.requests || !data.requests.length) {
         listEl.textContent = 'Aucune demande en attente.';
@@ -125,12 +165,13 @@
       data.requests.forEach(function(row) { listEl.appendChild(renderRow(row)); });
     }).catch(function(err) {
       listEl.innerHTML = '';
-      showError(err.message === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+      if (err.message === 'unauthorized') sessionStorage.removeItem('legatis:admin-jwt');
+      showError(err.message === 'unauthorized' ? 'Session expirée ou compte non autorisé, reconnectez-vous.' : 'Erreur de chargement.');
     });
   }
 
-  loadBtn.addEventListener('click', load);
-  if (saved) load();
+  loadBtn.addEventListener('click', signIn);
+  if (adminJwt) { load(); loadProfiles(); }
 
   // -- Profils en attente (lawyer_profile_submissions) -----------------
   var prListEl = document.getElementById('pr-list');
@@ -181,7 +222,7 @@
   function prDecide(id, decision, wrap) {
     fetch('/api/profile-decide', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-admin-token': tokenInput.value },
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + adminJwt },
       body: JSON.stringify({ id: id, decision: decision }),
     }).then(function(r) {
       if (!r.ok) throw new Error('decide failed');
@@ -194,9 +235,8 @@
   function loadProfiles() {
     prErrorEl.hidden = true;
     prListEl.innerHTML = 'Chargement...';
-    var token = tokenInput.value;
     fetch('/api/profile-list', {
-      headers: { 'x-admin-token': token },
+      headers: { 'Authorization': 'Bearer ' + adminJwt },
     }).then(function(r) {
       if (r.status === 401) throw new Error('unauthorized');
       if (!r.ok) throw new Error('list failed');
@@ -210,12 +250,10 @@
       data.submissions.forEach(function(row) { prListEl.appendChild(renderProfileRow(row)); });
     }).catch(function(err) {
       prListEl.innerHTML = '';
-      prShowError(err.message === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+      if (err.message === 'unauthorized') sessionStorage.removeItem('legatis:admin-jwt');
+      prShowError(err.message === 'unauthorized' ? 'Session expirée ou compte non autorisé, reconnectez-vous.' : 'Erreur de chargement.');
     });
   }
-
-  loadBtn.addEventListener('click', loadProfiles);
-  if (saved) loadProfiles();
 })();
 </script>
 {% endblock %}

@@ -9,8 +9,11 @@
 
   <section class="section" style="padding-top:0; max-width:90ch;">
     <div id="ad-auth" class="calc-grid">
-      <label class="calc-field">Jeton administrateur
-        <input type="password" id="ad-token" autocomplete="off">
+      <label class="calc-field">Email admin
+        <input type="email" id="ad-email" autocomplete="username">
+      </label>
+      <label class="calc-field">Mot de passe
+        <input type="password" id="ad-password" autocomplete="current-password">
       </label>
       <label class="calc-field">Période
         <select id="ad-days">
@@ -19,7 +22,7 @@
           <option value="90">90 derniers jours</option>
         </select>
       </label>
-      <button type="button" class="cta-btn is-primary" id="ad-load">Charger</button>
+      <button type="button" class="cta-btn is-primary" id="ad-load">Se connecter et charger</button>
     </div>
     <div id="ad-error" class="vform-error" hidden></div>
     <p id="ad-truncated" class="calc-source" hidden>Volume élevé : les statistiques ci-dessous sont calculées sur un échantillon plafonné (les plus récents), pas sur la totalité de la période.</p>
@@ -53,15 +56,21 @@
 
 <script>
 (function() {
-  var tokenInput = document.getElementById('ad-token');
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+
+  var emailInput = document.getElementById('ad-email');
+  var passwordInput = document.getElementById('ad-password');
   var daysSelect = document.getElementById('ad-days');
   var loadBtn = document.getElementById('ad-load');
   var errorEl = document.getElementById('ad-error');
   var truncatedEl = document.getElementById('ad-truncated');
   var resultsEl = document.getElementById('ad-results');
 
-  var saved = sessionStorage.getItem('legatis:admin-token');
-  if (saved) tokenInput.value = saved;
+  // Meme principe que verification_review.html : vrai compte (Supabase
+  // Auth) plutot qu'un jeton partage -- voir checkAdminAuth dans
+  // _verification-lib.js.
+  var adminJwt = sessionStorage.getItem('legatis:admin-jwt');
 
   function showError(msg) {
     errorEl.textContent = msg;
@@ -98,24 +107,23 @@
     container.innerHTML = html;
   }
 
-  function load() {
-    var token = tokenInput.value.trim();
-    if (!token) { showError('Jeton requis.'); return; }
-    sessionStorage.setItem('legatis:admin-token', token);
+  function fetchSummary() {
     errorEl.hidden = true;
     resultsEl.hidden = true;
     loadBtn.disabled = true;
+    var originalLabel = loadBtn.textContent;
     loadBtn.textContent = 'Chargement...';
 
     fetch('/api/analytics-summary?days=' + encodeURIComponent(daysSelect.value), {
-      headers: { 'x-admin-token': token },
+      headers: { 'Authorization': 'Bearer ' + adminJwt },
     }).then(function(r) {
       return r.json().then(function(data) { return { ok: r.ok, data: data }; });
     }).then(function(result) {
       loadBtn.disabled = false;
-      loadBtn.textContent = 'Charger';
+      loadBtn.textContent = originalLabel;
       if (!result.ok) {
-        showError(result.data && result.data.error === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+        if (result.data && result.data.error === 'unauthorized') sessionStorage.removeItem('legatis:admin-jwt');
+        showError(result.data && result.data.error === 'unauthorized' ? 'Session expirée ou compte non autorisé, reconnectez-vous.' : 'Erreur de chargement.');
         return;
       }
       var d = result.data;
@@ -134,13 +142,43 @@
       resultsEl.hidden = false;
     }).catch(function() {
       loadBtn.disabled = false;
-      loadBtn.textContent = 'Charger';
+      loadBtn.textContent = originalLabel;
       showError('Erreur de chargement.');
     });
   }
 
-  loadBtn.addEventListener('click', load);
-  if (saved) load();
+  function ensureAuthThenLoad() {
+    if (adminJwt) { fetchSummary(); return; }
+    errorEl.hidden = true;
+    loadBtn.disabled = true;
+    var originalLabel = loadBtn.textContent;
+    loadBtn.textContent = 'Connexion...';
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { apikey: SUPABASE_ANON_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: emailInput.value.trim(), password: passwordInput.value }),
+    }).then(function(r) {
+      return r.json().then(function(data) { return { ok: r.ok, data: data }; });
+    }).then(function(result) {
+      loadBtn.disabled = false;
+      loadBtn.textContent = originalLabel;
+      if (!result.ok || !result.data.access_token) {
+        showError('Email ou mot de passe incorrect.');
+        return;
+      }
+      adminJwt = result.data.access_token;
+      sessionStorage.setItem('legatis:admin-jwt', adminJwt);
+      passwordInput.value = '';
+      fetchSummary();
+    }).catch(function() {
+      loadBtn.disabled = false;
+      loadBtn.textContent = originalLabel;
+      showError('Erreur de connexion. Réessayez.');
+    });
+  }
+
+  loadBtn.addEventListener('click', ensureAuthThenLoad);
+  if (adminJwt) fetchSummary();
 })();
 </script>
 {% endblock %}
