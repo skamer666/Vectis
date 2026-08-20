@@ -1,0 +1,495 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ f.title }}</div>
+    <h1>{{ f.title }}</h1>
+    <p class="lede">{{ f.intro }}</p>
+  </section>
+
+  <section class="section vitrine-form-section" style="padding-top:0; max-width:70ch;">
+    <form id="vf-form" novalidate>
+
+      <div class="vform-block">
+        <h2>{{ f.step1_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step1_help }}</p>
+        <input type="text" id="vf-search" class="vform-search-input" placeholder="{{ f.step1_search_placeholder }}" autocomplete="off">
+        <div id="vf-search-results" class="vform-search-results"></div>
+        <div id="vf-selected" class="vform-selected" hidden>
+          <span>{{ f.step1_selected }} <strong id="vf-selected-name"></strong> (<span id="vf-selected-ville"></span>)</span>
+          <button type="button" id="vf-change-btn" class="cta-btn">{{ f.step1_change }}</button>
+        </div>
+        <p class="calc-source">{{ f.step1_not_found }}</p>
+      </div>
+
+      <div class="vform-block" id="vf-step2" hidden>
+        <h2>{{ f.step_account_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step_account_intro }}</p>
+
+        <div class="calc-grid">
+          <label class="calc-field">{{ f.field_account_email }}
+            <input type="email" id="vf-account-email" autocomplete="email">
+            <span class="calc-source">{{ f.field_account_email_help }}</span>
+          </label>
+          <label class="calc-field">{{ f.field_password }}
+            <input type="password" id="vf-password" autocomplete="new-password" minlength="8">
+            <span class="calc-source">{{ f.field_password_help }}</span>
+          </label>
+          <label class="calc-field">{{ f.field_password_confirm }}
+            <input type="password" id="vf-password-confirm" autocomplete="new-password" minlength="8">
+          </label>
+        </div>
+
+        <label class="vform-consent">
+          <input type="checkbox" id="vf-consent-marketing-cb">
+          {{ f.consent_marketing }}
+        </label>
+      </div>
+
+      <div class="vform-block" id="vf-step3" hidden>
+        <h2>{{ f.step_method_title }}</h2>
+        <p class="calc-disclaimer">{{ f.step_method_help }}</p>
+
+        <div class="vform-method-list">
+          <label class="vform-method-option" id="vf-method-email-option" hidden>
+            <input type="radio" name="vf-method" value="email">
+            <span><strong>{{ f.method_option_email }}</strong><br>{{ f.method_option_email_desc }}</span>
+          </label>
+          <label class="vform-method-option" id="vf-method-phone-option" hidden>
+            <input type="radio" name="vf-method" value="phone">
+            <span><strong>{{ f.method_option_phone }}</strong><br>{{ f.method_option_phone_desc }}</span>
+          </label>
+          <label class="vform-method-option" id="vf-method-document-option">
+            <input type="radio" name="vf-method" value="document">
+            <span><strong>{{ f.method_option_document }}</strong><br>{{ f.method_option_document_desc }}</span>
+          </label>
+        </div>
+
+        <div class="calc-grid">
+          <label class="calc-field" id="vf-field-note" hidden>{{ f.field_contact_note }}
+            <input type="text" id="vf-note" maxlength="300" placeholder="{{ f.field_contact_note_placeholder }}">
+          </label>
+
+          <label class="calc-field" id="vf-field-document" hidden>{{ f.field_document }}
+            <input type="file" id="vf-document" accept=".jpg,.jpeg,.png,.pdf,image/jpeg,image/png,application/pdf">
+            <span class="calc-source">{{ f.field_document_help }}</span>
+          </label>
+
+          <label class="calc-field" id="vf-field-selfie" hidden>{{ f.field_selfie }}
+            <input type="file" id="vf-selfie" accept=".jpg,.jpeg,.png,image/jpeg,image/png">
+            <span class="calc-source">{{ f.field_selfie_help }}</span>
+          </label>
+        </div>
+
+        <input type="text" id="vf-hp" name="website" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" aria-hidden="true">
+
+        <label class="vform-consent">
+          <input type="checkbox" id="vf-consent-account-cb">
+          {{ f.consent_account }}
+        </label>
+        <label class="vform-consent" id="vf-consent-document" hidden>
+          <input type="checkbox" id="vf-consent-document-cb">
+          {{ f.consent_document }}
+        </label>
+
+        <div id="vf-error" class="vform-error" hidden></div>
+
+        <button type="submit" class="cta-btn is-primary" id="vf-submit">{{ f.submit_document }}</button>
+      </div>
+
+      <div id="vf-offer" class="website-offer" hidden>
+        <div class="website-offer-eyebrow">{{ offer.eyebrow }}</div>
+        <h2>{{ offer.title }}</h2>
+        <p class="lede">{{ offer.hook }}</p>
+        <h3>{{ offer.why_title }}</h3>
+        <p>{{ offer.why_text }}</p>
+        <h3>{{ offer.points_title }}</h3>
+        <div class="website-offer-points">
+          <div class="website-offer-point">
+            <strong>{{ offer.point_1_title }}</strong>
+            <p>{{ offer.point_1_text }}</p>
+          </div>
+          <div class="website-offer-point">
+            <strong>{{ offer.point_2_title }}</strong>
+            <p>{{ offer.point_2_text }}</p>
+          </div>
+          <div class="website-offer-point">
+            <strong>{{ offer.point_3_title }}</strong>
+            <p>{{ offer.point_3_text }}</p>
+          </div>
+        </div>
+        <p class="calc-disclaimer">{{ offer.decline_note }}</p>
+        <div class="website-offer-actions">
+          <button type="button" class="cta-btn is-primary" id="vf-offer-accept">{{ offer.cta_accept }}</button>
+          <button type="button" class="cta-btn" id="vf-offer-decline">{{ offer.cta_decline }}</button>
+        </div>
+      </div>
+
+      <div id="vf-contract" class="website-offer-contract" hidden>
+        <h2>{{ offer.contract_title }}</h2>
+        <p class="calc-disclaimer">{{ offer.contract_intro }}</p>
+        <div class="contract-scrollbox" id="vf-contract-scrollbox">
+          <h3>{{ contract.title }}</h3>
+          <p class="contract-parties">{{ contract.parties_label }}</p>
+          {% for p in contract.preamble %}<p>{{ p }}</p>{% endfor %}
+          {% for art in contract.articles %}
+          <h4>{{ art.heading }}</h4>
+          {% for p in art.paragraphs %}<p>{{ p }}</p>{% endfor %}
+          {% endfor %}
+          <p class="contract-end-marker" id="vf-contract-end">{{ offer.contract_reached_end }}</p>
+        </div>
+        <p class="calc-source" id="vf-contract-scroll-hint">{{ offer.contract_scroll_hint }}</p>
+        <label class="vform-consent">
+          <input type="checkbox" id="vf-contract-checkbox" disabled>
+          {{ offer.contract_checkbox }}
+        </label>
+        <div id="vf-contract-error" class="vform-error" hidden></div>
+        <div class="website-offer-actions">
+          <button type="button" class="cta-btn is-primary" id="vf-contract-accept" disabled>{{ offer.contract_accept }}</button>
+          <button type="button" class="cta-btn" id="vf-contract-decline">{{ offer.contract_decline }}</button>
+          <button type="button" class="cta-btn" id="vf-contract-back">{{ offer.back_to_form }}</button>
+        </div>
+      </div>
+
+      <div id="vf-success" class="vform-success" hidden>
+        <strong id="vf-success-title"></strong>
+        <p id="vf-success-text"></p>
+        <p id="vf-offer-note" class="calc-source"></p>
+      </div>
+    </form>
+  </section>
+</div>
+
+<script>
+(function() {
+  var STR = {{ f | tojson }};
+  var OFFER_STR = {{ offer | tojson }};
+  var CONTRACT_VERSION = {{ contract_version | tojson }};
+  var searchIndexUrl = {{ search_index_url | tojson }};
+  var verificationIndexUrl = {{ verification_index_url | tojson }};
+  var submitUrl = "/api/verification-request";
+  var offerDecisionUrl = "/api/website-offer-decision";
+  var lang = {{ lang | tojson }};
+  var MAX_FILE_BYTES = 8 * 1024 * 1024;
+
+  var searchInput = document.getElementById('vf-search');
+  var searchResults = document.getElementById('vf-search-results');
+  var selectedBox = document.getElementById('vf-selected');
+  var selectedName = document.getElementById('vf-selected-name');
+  var selectedVille = document.getElementById('vf-selected-ville');
+  var changeBtn = document.getElementById('vf-change-btn');
+  var form = document.getElementById('vf-form');
+  var step2 = document.getElementById('vf-step2');
+  var step3 = document.getElementById('vf-step3');
+  var errorBox = document.getElementById('vf-error');
+  var submitBtn = document.getElementById('vf-submit');
+  var successBox = document.getElementById('vf-success');
+  var successTitle = document.getElementById('vf-success-title');
+  var successText = document.getElementById('vf-success-text');
+  var offerNote = document.getElementById('vf-offer-note');
+
+  var offerBox = document.getElementById('vf-offer');
+  var offerAcceptBtn = document.getElementById('vf-offer-accept');
+  var offerDeclineBtn = document.getElementById('vf-offer-decline');
+  var contractBox = document.getElementById('vf-contract');
+  var contractScrollbox = document.getElementById('vf-contract-scrollbox');
+  var contractScrollHint = document.getElementById('vf-contract-scroll-hint');
+  var contractCheckbox = document.getElementById('vf-contract-checkbox');
+  var contractError = document.getElementById('vf-contract-error');
+  var contractAcceptBtn = document.getElementById('vf-contract-accept');
+  var contractDeclineBtn = document.getElementById('vf-contract-decline');
+  var contractBackBtn = document.getElementById('vf-contract-back');
+
+  var pendingRequestId = null;
+  var pendingSuccessTitle = '';
+  var pendingSuccessText = '';
+  var contractScrolledToEnd = false;
+
+  function showSuccess(note) {
+    offerBox.hidden = true;
+    contractBox.hidden = true;
+    successTitle.textContent = pendingSuccessTitle;
+    successText.textContent = pendingSuccessText;
+    offerNote.textContent = note || '';
+    successBox.hidden = false;
+  }
+
+  function postOfferDecision(interested) {
+    if (window.legatisTrack) window.legatisTrack('website_offer_decision', { interested: !!interested });
+    if (!pendingRequestId) return Promise.resolve();
+    var payload = { id: pendingRequestId, interested: !!interested };
+    if (interested) payload.contract_version = CONTRACT_VERSION;
+    return fetch(offerDecisionUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    }).catch(function() { /* la demande de verification reste valide meme si ceci echoue */ });
+  }
+
+  offerAcceptBtn.addEventListener('click', function() {
+    offerBox.hidden = true;
+    contractBox.hidden = false;
+    contractScrollbox.scrollTop = 0;
+    checkContractScrollPosition();
+    contractBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  offerDeclineBtn.addEventListener('click', function() {
+    postOfferDecision(false).then(function() { showSuccess(OFFER_STR.recorded_decline_note); });
+  });
+
+  function checkContractScrollPosition() {
+    var reached = contractScrollbox.scrollTop + contractScrollbox.clientHeight >= contractScrollbox.scrollHeight - 24;
+    if (reached && !contractScrolledToEnd) {
+      contractScrolledToEnd = true;
+      contractCheckbox.disabled = false;
+      contractScrollHint.hidden = true;
+    }
+  }
+
+  contractScrollbox.addEventListener('scroll', checkContractScrollPosition);
+
+  contractCheckbox.addEventListener('change', function() {
+    contractAcceptBtn.disabled = !(contractScrolledToEnd && contractCheckbox.checked);
+  });
+
+  contractAcceptBtn.addEventListener('click', function() {
+    contractError.hidden = true;
+    if (!contractScrolledToEnd) { contractError.textContent = OFFER_STR.contract_error_not_scrolled; contractError.hidden = false; return; }
+    if (!contractCheckbox.checked) { contractError.textContent = OFFER_STR.contract_error_not_checked; contractError.hidden = false; return; }
+    contractAcceptBtn.disabled = true;
+    postOfferDecision(true).then(function() { showSuccess(OFFER_STR.recorded_accept_note); });
+  });
+
+  contractDeclineBtn.addEventListener('click', function() {
+    postOfferDecision(false).then(function() { showSuccess(OFFER_STR.recorded_decline_note); });
+  });
+
+  contractBackBtn.addEventListener('click', function() {
+    // Retour a l'ecran d'offre sans enregistrer de decision -- l'avocat
+    // peut relire l'accroche avant de se decider.
+    contractBox.hidden = true;
+    offerBox.hidden = false;
+    offerBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  var methodEmailOption = document.getElementById('vf-method-email-option');
+  var methodPhoneOption = document.getElementById('vf-method-phone-option');
+  var fieldNote = document.getElementById('vf-field-note');
+  var fieldDocument = document.getElementById('vf-field-document');
+  var fieldSelfie = document.getElementById('vf-field-selfie');
+  var consentDocument = document.getElementById('vf-consent-document');
+  var methodRadios = document.getElementsByName('vf-method');
+
+  var searchIndex = null;
+  var verificationIndex = null;
+  var selectedMatch = null;
+  var currentFlags = { e: false, p: false };
+
+  function normalize(s) {
+    return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  Promise.all([
+    fetch(searchIndexUrl).then(function(r) { return r.json(); }),
+    fetch(verificationIndexUrl).then(function(r) { return r.json(); })
+  ]).then(function(results) {
+    searchIndex = results[0].filter(function(item) { return item.type === 'avocat'; });
+    verificationIndex = {};
+    results[1].forEach(function(item) {
+      verificationIndex[item.c + '/' + item.s] = { e: !!item.e, p: !!item.p };
+    });
+  });
+
+  function renderResults(query) {
+    searchResults.innerHTML = '';
+    if (!searchIndex || !query) return;
+    var q = normalize(query);
+    var matches = searchIndex.filter(function(item) { return normalize(item.nom).indexOf(q) !== -1; }).slice(0, 8);
+    matches.forEach(function(item) {
+      var row = document.createElement('div');
+      row.className = 'vform-search-row';
+      row.textContent = item.nom + ' - ' + (item.ville || '') + ' (' + item.code + ')';
+      row.addEventListener('click', function() {
+        selectedMatch = item;
+        selectedName.textContent = item.nom;
+        selectedVille.textContent = item.ville || '';
+        selectedBox.hidden = false;
+        searchInput.value = '';
+        searchResults.innerHTML = '';
+        searchInput.hidden = true;
+        showAccountStepForSelection();
+      });
+      searchResults.appendChild(row);
+    });
+  }
+
+  function showAccountStepForSelection() {
+    step2.hidden = false;
+    successBox.hidden = true;
+    form.hidden = false;
+    currentFlags = (verificationIndex && verificationIndex[selectedMatch.code + '/' + selectedMatch.slug]) || { e: false, p: false };
+    methodEmailOption.hidden = !currentFlags.e;
+    methodPhoneOption.hidden = !currentFlags.p;
+    step3.hidden = false;
+    var defaultMethod = currentFlags.e ? 'email' : (currentFlags.p ? 'phone' : 'document');
+    setMethod(defaultMethod);
+  }
+
+  function setMethod(method) {
+    for (var i = 0; i < methodRadios.length; i++) {
+      methodRadios[i].checked = methodRadios[i].value === method;
+    }
+    fieldNote.hidden = method !== 'phone';
+    fieldDocument.hidden = method !== 'document';
+    fieldSelfie.hidden = method !== 'document';
+    consentDocument.hidden = method !== 'document';
+    submitBtn.textContent = method === 'email' ? STR.submit_email : (method === 'phone' ? STR.submit_phone : STR.submit_document);
+  }
+
+  function currentMethod() {
+    for (var i = 0; i < methodRadios.length; i++) {
+      if (methodRadios[i].checked) return methodRadios[i].value;
+    }
+    return 'document';
+  }
+
+  for (var mi = 0; mi < methodRadios.length; mi++) {
+    methodRadios[mi].addEventListener('change', function() { setMethod(currentMethod()); });
+  }
+
+  searchInput.addEventListener('input', function() { renderResults(searchInput.value); });
+  changeBtn.addEventListener('click', function() {
+    selectedMatch = null;
+    selectedBox.hidden = true;
+    searchInput.hidden = false;
+    searchInput.focus();
+    step2.hidden = true;
+    step3.hidden = true;
+  });
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.hidden = false;
+  }
+
+  function fileToBase64(file) {
+    return new Promise(function(resolve, reject) {
+      var reader = new FileReader();
+      reader.onload = function() { resolve(String(reader.result).split(',').pop()); };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function isEmail(s) {
+    return typeof s === 'string' && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorBox.hidden = true;
+
+    if (!selectedMatch) { showError(STR.error_missing_match); return; }
+
+    var method = currentMethod();
+    var accountEmail = document.getElementById('vf-account-email').value.trim();
+    var password = document.getElementById('vf-password').value;
+    var passwordConfirm = document.getElementById('vf-password-confirm').value;
+
+    if (!accountEmail) { showError(STR.error_missing_account_email); return; }
+    if (!isEmail(accountEmail)) { showError(STR.error_invalid_account_email); return; }
+    if (password.length < 8) { showError(STR.error_password_too_short); return; }
+    if (password !== passwordConfirm) { showError(STR.error_password_mismatch); return; }
+    if (!document.getElementById('vf-consent-account-cb').checked) { showError(STR.error_missing_consent); return; }
+
+    var payload = {
+      lang: lang,
+      registry_match: selectedMatch,
+      method: method,
+      account_email: accountEmail,
+      password: password,
+      marketing_consent: document.getElementById('vf-consent-marketing-cb').checked,
+      website: document.getElementById('vf-hp').value,
+    };
+
+    var pending = Promise.resolve();
+
+    if (method === 'phone') {
+      payload.note = document.getElementById('vf-note').value;
+    } else if (method === 'document') {
+      if (!document.getElementById('vf-consent-document-cb').checked) { showError(STR.error_missing_consent); return; }
+      var docFile = document.getElementById('vf-document').files[0];
+      var selfieFile = document.getElementById('vf-selfie').files[0];
+      if (!docFile) { showError(STR.error_missing_document); return; }
+      if (!selfieFile) { showError(STR.error_missing_selfie); return; }
+      if (docFile.size > MAX_FILE_BYTES || selfieFile.size > MAX_FILE_BYTES) { showError(STR.error_file_too_large); return; }
+      pending = Promise.all([fileToBase64(docFile), fileToBase64(selfieFile)]).then(function(b64) {
+        payload.document_base64 = b64[0];
+        payload.document_mime = docFile.type;
+        payload.selfie_base64 = b64[1];
+        payload.selfie_mime = selfieFile.type;
+      });
+    }
+
+    submitBtn.disabled = true;
+    var originalLabel = submitBtn.textContent;
+    submitBtn.textContent = STR.submitting;
+
+    pending.then(function() {
+      return fetch(submitUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+    }).then(function(r) {
+      return r.json().then(function(data) { return { ok: r.ok, data: data }; });
+    }).then(function(result) {
+      if (!result.ok) {
+        var err = result.data && result.data.error;
+        var messages = {
+          email_already_registered: STR.error_email_already_registered,
+          email_mismatch: STR.error_email_mismatch,
+          method_unavailable: STR.error_method_unavailable,
+          invalid_account_email: STR.error_invalid_account_email,
+          password_too_short: STR.error_password_too_short,
+        };
+        showError(messages[err] || STR.error_generic);
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalLabel;
+        return;
+      }
+      form.hidden = true;
+      // On se fie au palier renvoye par le serveur (source de verite),
+      // jamais a la supposition affichee cote client avant soumission.
+      var finalMethod = (result.data && result.data.method) || method;
+      if (finalMethod === 'email') {
+        pendingSuccessTitle = STR.success_email_title;
+        pendingSuccessText = STR.success_email_text;
+      } else if (finalMethod === 'phone') {
+        pendingSuccessTitle = STR.success_phone_title;
+        pendingSuccessText = STR.success_phone_text;
+      } else {
+        pendingSuccessTitle = STR.success_document_title;
+        pendingSuccessText = STR.success_document_text;
+      }
+      pendingRequestId = (result.data && result.data.id) || null;
+      if (window.legatisTrack) window.legatisTrack('verification_submit', { method: finalMethod });
+      // Juste apres la creation du compte (avant que Greg ne valide
+      // l'identite) : on presente l'offre "site web gratuit" avant
+      // d'afficher le message de succes final.
+      if (pendingRequestId) {
+        offerBox.hidden = false;
+        offerBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        showSuccess('');
+      }
+    }).catch(function() {
+      showError(STR.error_generic);
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalLabel;
+    });
+  });
+})();
+</script>
+{% endblock %}

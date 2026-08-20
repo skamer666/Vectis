@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg); max-width:60ch;">
+    <div class="hero-eyebrow">{{ c.title }}</div>
+    <h1 id="vc-title">{{ c.ok_title }}</h1>
+    <p class="lede" id="vc-text">{{ c.ok_text }}</p>
+    <p id="vc-login-link" hidden><a class="cta-btn is-primary" href="{{ connexion_url }}">{{ c.login_link }}</a></p>
+    <p><a class="cta-btn" href="{{ verification_request_url }}" id="vc-back">{{ c.back_link }}</a></p>
+  </section>
+</div>
+
+<script>
+(function() {
+  var C = {{ c | tojson }};
+  var params = new URLSearchParams(window.location.search);
+  var status = params.get('status');
+  var titleEl = document.getElementById('vc-title');
+  var textEl = document.getElementById('vc-text');
+  if (status === 'expired') {
+    titleEl.textContent = C.expired_title;
+    textEl.textContent = C.expired_text;
+  } else if (status === 'error') {
+    titleEl.textContent = C.error_title;
+    textEl.textContent = C.error_text;
+  } else {
+    titleEl.textContent = C.ok_title;
+    textEl.textContent = C.ok_text;
+    // Le compte (pre-cree des la demande, voir verification-request.js) est
+    // deja active a ce stade par api/verification-confirm.js -- il suffit
+    // de proposer la connexion, plus besoin d'une etape de creation.
+    document.getElementById('vc-login-link').hidden = false;
+  }
+})();
+</script>
+{% endblock %}

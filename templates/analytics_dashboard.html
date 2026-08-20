@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  {% include "_admin_nav.html" %}
+  <section class="hero" style="padding-block:var(--space-xl) var(--space-lg);">
+    <h1>Analytics</h1>
+    <p class="lede">Page interne (non indexée). Statistiques agrégées, calculées côté serveur à partir des événements collectés par static/js/analytics.js -- aucune donnée individuelle (IP, identité) n'est jamais affichée ici, uniquement des compteurs.</p>
+  </section>
+
+  <section class="section" style="padding-top:0; max-width:90ch;">
+    <div id="ad-auth" class="calc-grid">
+      <label class="calc-field">Jeton administrateur
+        <input type="password" id="ad-token" autocomplete="off">
+      </label>
+      <label class="calc-field">Période
+        <select id="ad-days">
+          <option value="7">7 derniers jours</option>
+          <option value="30" selected>30 derniers jours</option>
+          <option value="90">90 derniers jours</option>
+        </select>
+      </label>
+      <button type="button" class="cta-btn is-primary" id="ad-load">Charger</button>
+    </div>
+    <div id="ad-error" class="vform-error" hidden></div>
+    <p id="ad-truncated" class="calc-source" hidden>Volume élevé : les statistiques ci-dessous sont calculées sur un échantillon plafonné (les plus récents), pas sur la totalité de la période.</p>
+
+    <div id="ad-results" hidden>
+      <div class="analytics-stats-grid">
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-pageviews"></span><span class="analytics-stat-label">Pages vues</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-sessions"></span><span class="analytics-stat-label">Sessions uniques</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-visitors"></span><span class="analytics-stat-label">Visiteurs uniques (anonymes)</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-returning"></span><span class="analytics-stat-label">Taux de visiteurs revenus</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-bounce"></span><span class="analytics-stat-label">Taux de rebond (approx.)</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-duration"></span><span class="analytics-stat-label">Temps moyen sur page</span></div>
+        <div class="analytics-stat-card"><span class="analytics-stat-value" id="ad-scroll"></span><span class="analytics-stat-label">Défilement moyen</span></div>
+      </div>
+
+      <h2 style="margin-top:var(--space-2xl);">Pages les plus vues</h2>
+      <div id="ad-top-pages"></div>
+
+      <h2 style="margin-top:var(--space-2xl);">Provenance (referrers externes)</h2>
+      <div id="ad-top-referrers"></div>
+
+      <h2 style="margin-top:var(--space-2xl);">Appareils</h2>
+      <div id="ad-devices"></div>
+
+      <h2 style="margin-top:var(--space-2xl);">Événements par type</h2>
+      <p class="lede" style="font-size:0.9rem;">Inclut les interactions suivies au-delà de la simple page vue : soumission du formulaire de contact (lead_submit), ajout aux favoris/comparatif, soumission de vérification d'identité, réponse à l'offre de site gratuit, etc.</p>
+      <div id="ad-events"></div>
+    </div>
+  </section>
+</div>
+
+<script>
+(function() {
+  var tokenInput = document.getElementById('ad-token');
+  var daysSelect = document.getElementById('ad-days');
+  var loadBtn = document.getElementById('ad-load');
+  var errorEl = document.getElementById('ad-error');
+  var truncatedEl = document.getElementById('ad-truncated');
+  var resultsEl = document.getElementById('ad-results');
+
+  var saved = sessionStorage.getItem('legatis:admin-token');
+  if (saved) tokenInput.value = saved;
+
+  function showError(msg) {
+    errorEl.textContent = msg;
+    errorEl.hidden = false;
+  }
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+
+  function pct(x) {
+    return x === null || x === undefined ? '—' : Math.round(x * 100) + ' %';
+  }
+
+  function seconds(x) {
+    if (x === null || x === undefined) return '—';
+    var r = Math.round(x);
+    if (r < 60) return r + ' s';
+    return Math.floor(r / 60) + ' min ' + (r % 60) + ' s';
+  }
+
+  function renderTable(container, rows, labelHeader) {
+    if (!rows || !rows.length) {
+      container.innerHTML = '<p class="lede" style="font-size:0.9rem;">Aucune donnée sur cette période.</p>';
+      return;
+    }
+    var html = '<div class="registry">';
+    rows.forEach(function(r) {
+      html += '<div class="registry-row"><div class="registry-name">' + escapeHtml(r.key) + '</div><div class="registry-city">' + escapeHtml(r.count) + '</div></div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  function load() {
+    var token = tokenInput.value.trim();
+    if (!token) { showError('Jeton requis.'); return; }
+    sessionStorage.setItem('legatis:admin-token', token);
+    errorEl.hidden = true;
+    resultsEl.hidden = true;
+    loadBtn.disabled = true;
+    loadBtn.textContent = 'Chargement...';
+
+    fetch('/api/analytics-summary?days=' + encodeURIComponent(daysSelect.value), {
+      headers: { 'x-admin-token': token },
+    }).then(function(r) {
+      return r.json().then(function(data) { return { ok: r.ok, data: data }; });
+    }).then(function(result) {
+      loadBtn.disabled = false;
+      loadBtn.textContent = 'Charger';
+      if (!result.ok) {
+        showError(result.data && result.data.error === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+        return;
+      }
+      var d = result.data;
+      truncatedEl.hidden = !d.truncated;
+      document.getElementById('ad-pageviews').textContent = d.pageviews;
+      document.getElementById('ad-sessions').textContent = d.unique_sessions;
+      document.getElementById('ad-visitors').textContent = d.unique_visitors;
+      document.getElementById('ad-returning').textContent = pct(d.returning_visitor_rate);
+      document.getElementById('ad-bounce').textContent = pct(d.bounce_rate);
+      document.getElementById('ad-duration').textContent = seconds(d.avg_duration_seconds);
+      document.getElementById('ad-scroll').textContent = d.avg_scroll_depth === null ? '—' : Math.round(d.avg_scroll_depth) + ' %';
+      renderTable(document.getElementById('ad-top-pages'), d.top_pages);
+      renderTable(document.getElementById('ad-top-referrers'), d.top_referrers);
+      renderTable(document.getElementById('ad-devices'), d.device_breakdown);
+      renderTable(document.getElementById('ad-events'), d.events_by_type);
+      resultsEl.hidden = false;
+    }).catch(function() {
+      loadBtn.disabled = false;
+      loadBtn.textContent = 'Charger';
+      showError('Erreur de chargement.');
+    });
+  }
+
+  loadBtn.addEventListener('click', load);
+  if (saved) load();
+})();
+</script>
+{% endblock %}

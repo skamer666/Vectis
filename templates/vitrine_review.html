@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="container">
+  {% include "_admin_nav.html" %}
   <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
     <div class="hero-eyebrow">Interne</div>
     <h1>Vitrines en attente ({{ pending | length }})</h1>

@@ -56,11 +56,14 @@
       <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29" fill="var(--paper-0)" stroke="currentColor" stroke-width="2.4"/><line x1="24" y1="50" x2="35" y2="24" stroke="currentColor" stroke-width="5.6" stroke-linecap="round"/><circle cx="38.5" cy="17.5" r="4.6" fill="var(--accent-600)"/></svg>
       <span class="brand-mark">Legat<em>i</em>s</span>
     </a>
-    <nav class="lang-switch" aria-label="Langue">
-      {% for hl_lang in ['fr','de','it','en'] %}
-      <a href="{{ nav_hreflang.get(hl_lang, home_url) }}" {% if hl_lang == lang %}aria-current="true"{% endif %}>{{ hl_lang }}</a>
-      {% endfor %}
-    </nav>
+    <div class="masthead-top-right">
+      <a class="cta-btn is-primary masthead-cta" href="{{ connexion_url }}">{{ ui.lawyer_account_cta }}</a>
+      <nav class="lang-switch" aria-label="Langue">
+        {% for hl_lang in ['fr','de','it','en'] %}
+        <a href="{{ nav_hreflang.get(hl_lang, home_url) }}" {% if hl_lang == lang %}aria-current="true"{% endif %}>{{ hl_lang }}</a>
+        {% endfor %}
+      </nav>
+    </div>
   </div>
   <div class="container masthead-nav">
     <a href="{{ cantons_index_url }}">{{ ui.all_cantons }}</a>
@@ -129,5 +132,6 @@
   window.__legatisCanonical = {{ canonical_url | tojson }};
 </script>
 <script src="{{ asset_prefix }}static/js/interactions.js" defer></script>
+<script src="{{ asset_prefix }}static/js/analytics.js" defer></script>
 </body>
 </html>

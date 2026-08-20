@@ -1,0 +1,221 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  {% include "_admin_nav.html" %}
+  <section class="hero" style="padding-block:var(--space-xl) var(--space-lg);">
+    <h1>Vérifications d'identité en attente</h1>
+    <p class="lede">Page interne (non indexée). Toutes les actions ci-dessous passent par des points d'accès protégés par jeton administrateur -- rien n'est lisible via la clé publique du site.</p>
+  </section>
+
+  <section class="section" style="padding-top:0; max-width:80ch;">
+    <div id="vr-auth" class="calc-grid">
+      <label class="calc-field">Jeton administrateur
+        <input type="password" id="vr-token" autocomplete="off">
+      </label>
+      <button type="button" class="cta-btn is-primary" id="vr-load">Charger les demandes</button>
+    </div>
+    <div id="vr-error" class="vform-error" hidden></div>
+    <div id="vr-list"></div>
+  </section>
+
+  <section class="section" style="padding-top:0; max-width:80ch;">
+    <h2>Profils en attente</h2>
+    <p class="lede" style="font-size:0.95rem;">Soumissions de contenu complémentaire (bio, photo, coordonnées affichées) envoyées par des avocats connectés, en attente de publication.</p>
+    <div id="pr-error" class="vform-error" hidden></div>
+    <div id="pr-list"></div>
+  </section>
+</div>
+
+<script>
+(function() {
+  var tokenInput = document.getElementById('vr-token');
+  var loadBtn = document.getElementById('vr-load');
+  var listEl = document.getElementById('vr-list');
+  var errorEl = document.getElementById('vr-error');
+
+  var saved = sessionStorage.getItem('legatis:admin-token');
+  if (saved) tokenInput.value = saved;
+
+  function showError(msg) {
+    errorEl.textContent = msg;
+    errorEl.hidden = false;
+  }
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+
+  function renderRow(row) {
+    var wrap = document.createElement('div');
+    wrap.className = 'registry-row';
+    wrap.style.flexDirection = 'column';
+    wrap.style.alignItems = 'flex-start';
+    wrap.style.gap = 'var(--space-xs)';
+    wrap.dataset.id = row.id;
+
+    var html = '<strong>' + escapeHtml(row.nom_complet) + '</strong> — ' + escapeHtml(row.canton) +
+      ' — <a href="' + escapeHtml(row.url) + '" target="_blank" rel="noopener">voir la fiche</a>' +
+      '<br>Palier : <strong>' + escapeHtml(row.method) + '</strong> — soumis le ' + escapeHtml(row.created_at);
+
+    if (row.method === 'phone') {
+      html += '<br>Numéro à appeler : <a href="tel:' + escapeHtml(row.telephone || '') + '">' + escapeHtml(row.telephone || '(inconnu)') + '</a>';
+      if (row.contact_note) html += '<br>Disponibilités indiquées : ' + escapeHtml(row.contact_note);
+    }
+    if (row.account_email) html += '<br>Email du compte (sera activé si validé) : ' + escapeHtml(row.account_email);
+    if (row.free_website_interest === true) html += '<br>Intéressé(e) par le site web gratuit (contrat accepté)';
+    else if (row.free_website_interest === false) html += '<br>Site web gratuit : décliné';
+    if (row.method === 'document') {
+      if (row.document_signed_url) html += '<br><a href="' + escapeHtml(row.document_signed_url) + '" target="_blank" rel="noopener">Voir la carte / le brevet</a> (lien valable quelques minutes)';
+      if (row.selfie_signed_url) html += '<br><a href="' + escapeHtml(row.selfie_signed_url) + '" target="_blank" rel="noopener">Voir le selfie</a> (lien valable quelques minutes)';
+    }
+
+    wrap.innerHTML = html;
+
+    var actions = document.createElement('div');
+    var approveBtn = document.createElement('button');
+    approveBtn.type = 'button';
+    approveBtn.className = 'cta-btn is-primary';
+    approveBtn.textContent = 'Valider';
+    approveBtn.addEventListener('click', function() { decide(row.id, 'approved', wrap); });
+
+    var rejectBtn = document.createElement('button');
+    rejectBtn.type = 'button';
+    rejectBtn.className = 'cta-btn';
+    rejectBtn.textContent = 'Refuser';
+    rejectBtn.addEventListener('click', function() { decide(row.id, 'rejected', wrap); });
+
+    actions.appendChild(approveBtn);
+    actions.appendChild(rejectBtn);
+    wrap.appendChild(actions);
+    return wrap;
+  }
+
+  function decide(id, decision, wrap) {
+    fetch('/api/verification-decide', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': tokenInput.value },
+      body: JSON.stringify({ id: id, decision: decision }),
+    }).then(function(r) {
+      if (!r.ok) throw new Error('decide failed');
+      wrap.remove();
+    }).catch(function() {
+      showError('Échec de la décision pour cette demande. Réessayez.');
+    });
+  }
+
+  function load() {
+    errorEl.hidden = true;
+    listEl.innerHTML = 'Chargement...';
+    var token = tokenInput.value;
+    fetch('/api/verification-list', {
+      headers: { 'x-admin-token': token },
+    }).then(function(r) {
+      if (r.status === 401) throw new Error('unauthorized');
+      if (!r.ok) throw new Error('list failed');
+      return r.json();
+    }).then(function(data) {
+      sessionStorage.setItem('legatis:admin-token', token);
+      listEl.innerHTML = '';
+      if (!data.requests || !data.requests.length) {
+        listEl.textContent = 'Aucune demande en attente.';
+        return;
+      }
+      data.requests.forEach(function(row) { listEl.appendChild(renderRow(row)); });
+    }).catch(function(err) {
+      listEl.innerHTML = '';
+      showError(err.message === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+    });
+  }
+
+  loadBtn.addEventListener('click', load);
+  if (saved) load();
+
+  // -- Profils en attente (lawyer_profile_submissions) -----------------
+  var prListEl = document.getElementById('pr-list');
+  var prErrorEl = document.getElementById('pr-error');
+
+  function prShowError(msg) {
+    prErrorEl.textContent = msg;
+    prErrorEl.hidden = false;
+  }
+
+  function renderProfileRow(row) {
+    var wrap = document.createElement('div');
+    wrap.className = 'registry-row';
+    wrap.style.flexDirection = 'column';
+    wrap.style.alignItems = 'flex-start';
+    wrap.style.gap = 'var(--space-xs)';
+    wrap.dataset.id = row.id;
+
+    var html = '<strong>' + escapeHtml(row.canton) + ' / ' + escapeHtml(row.avocat_slug) + '</strong> — soumis le ' + escapeHtml(row.submitted_at);
+    if (row.photo_url) html += '<br><img src="' + escapeHtml(row.photo_url) + '" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:var(--radius-sm);">';
+    if (row.bio) html += '<br>Bio : ' + escapeHtml(row.bio);
+    if (row.display_email) html += '<br>Email affiché : ' + escapeHtml(row.display_email);
+    if (row.display_telephone) html += '<br>Téléphone affiché : ' + escapeHtml(row.display_telephone);
+    if (row.links && row.links.website) html += '<br>Site : ' + escapeHtml(row.links.website);
+    if (row.links && row.links.linkedin) html += '<br>LinkedIn : ' + escapeHtml(row.links.linkedin);
+
+    wrap.innerHTML = html;
+
+    var actions = document.createElement('div');
+    var approveBtn = document.createElement('button');
+    approveBtn.type = 'button';
+    approveBtn.className = 'cta-btn is-primary';
+    approveBtn.textContent = 'Valider';
+    approveBtn.addEventListener('click', function() { prDecide(row.id, 'approved', wrap); });
+
+    var rejectBtn = document.createElement('button');
+    rejectBtn.type = 'button';
+    rejectBtn.className = 'cta-btn';
+    rejectBtn.textContent = 'Refuser';
+    rejectBtn.addEventListener('click', function() { prDecide(row.id, 'rejected', wrap); });
+
+    actions.appendChild(approveBtn);
+    actions.appendChild(rejectBtn);
+    wrap.appendChild(actions);
+    return wrap;
+  }
+
+  function prDecide(id, decision, wrap) {
+    fetch('/api/profile-decide', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-admin-token': tokenInput.value },
+      body: JSON.stringify({ id: id, decision: decision }),
+    }).then(function(r) {
+      if (!r.ok) throw new Error('decide failed');
+      wrap.remove();
+    }).catch(function() {
+      prShowError('Échec de la décision pour cette soumission. Réessayez.');
+    });
+  }
+
+  function loadProfiles() {
+    prErrorEl.hidden = true;
+    prListEl.innerHTML = 'Chargement...';
+    var token = tokenInput.value;
+    fetch('/api/profile-list', {
+      headers: { 'x-admin-token': token },
+    }).then(function(r) {
+      if (r.status === 401) throw new Error('unauthorized');
+      if (!r.ok) throw new Error('list failed');
+      return r.json();
+    }).then(function(data) {
+      prListEl.innerHTML = '';
+      if (!data.submissions || !data.submissions.length) {
+        prListEl.textContent = 'Aucune soumission en attente.';
+        return;
+      }
+      data.submissions.forEach(function(row) { prListEl.appendChild(renderProfileRow(row)); });
+    }).catch(function(err) {
+      prListEl.innerHTML = '';
+      prShowError(err.message === 'unauthorized' ? 'Jeton invalide.' : 'Erreur de chargement.');
+    });
+  }
+
+  loadBtn.addEventListener('click', loadProfiles);
+  if (saved) loadProfiles();
+})();
+</script>
+{% endblock %}

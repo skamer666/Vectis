@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ l.title }}</div>
+    <h1>{{ l.title }}</h1>
+    <p class="lede">{{ l.intro }}</p>
+  </section>
+
+  <section class="section vitrine-form-section" style="padding-top:0; max-width:50ch;">
+    <form id="lg-form" novalidate>
+      <div class="calc-grid">
+        <label class="calc-field">{{ l.field_email }}
+          <input type="email" id="lg-email" autocomplete="username">
+        </label>
+        <label class="calc-field">{{ l.field_password }}
+          <input type="password" id="lg-password" autocomplete="current-password">
+        </label>
+      </div>
+
+      <div id="lg-error" class="vform-error" hidden></div>
+
+      <button type="submit" class="cta-btn is-primary" id="lg-submit">{{ l.submit }}</button>
+
+      <p class="calc-source" style="margin-top:var(--space-md);">
+        <a href="#" id="lg-forgot-link">{{ l.forgot_password_link }}</a>
+      </p>
+      <p class="calc-source">
+        {{ l.no_account_hint }}
+        <a href="{{ verification_request_url }}">{{ l.no_account_link }}</a>
+      </p>
+    </form>
+
+    <div id="lg-forgot-box" class="vform-block" hidden>
+      <h2>{{ l.forgot_password_title }}</h2>
+      <p class="calc-disclaimer">{{ l.forgot_password_intro }}</p>
+      <div class="calc-grid">
+        <label class="calc-field">{{ l.field_email }}
+          <input type="email" id="lg-forgot-email" autocomplete="username">
+        </label>
+      </div>
+      <button type="button" class="cta-btn is-primary" id="lg-forgot-submit">{{ l.forgot_password_submit }}</button>
+      <p class="calc-source"><a href="#" id="lg-forgot-back">{{ l.forgot_password_back }}</a></p>
+      <div id="lg-forgot-success" class="vform-success" hidden><p>{{ l.forgot_password_success }}</p></div>
+    </div>
+  </section>
+</div>
+
+<script>
+(function() {
+  var STR = {{ l | tojson }};
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+  var profilUrl = {{ mon_profil_url | tojson }};
+
+  var form = document.getElementById('lg-form');
+  var errorBox = document.getElementById('lg-error');
+  var submitBtn = document.getElementById('lg-submit');
+  var forgotLink = document.getElementById('lg-forgot-link');
+  var forgotBox = document.getElementById('lg-forgot-box');
+  var forgotBack = document.getElementById('lg-forgot-back');
+  var forgotSubmit = document.getElementById('lg-forgot-submit');
+  var forgotSuccess = document.getElementById('lg-forgot-success');
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.hidden = false;
+  }
+
+  // Si une session valide existe deja, inutile de repasser par le formulaire.
+  try {
+    var existing = JSON.parse(localStorage.getItem('legatis:lawyer-session') || 'null');
+    if (existing && existing.access_token && existing.expires_at > Date.now()) {
+      window.location.href = profilUrl;
+    }
+  } catch (e) { /* session locale corrompue -- on ignore, on reste sur la page */ }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorBox.hidden = true;
+    var email = document.getElementById('lg-email').value.trim();
+    var password = document.getElementById('lg-password').value;
+
+    submitBtn.disabled = true;
+    var originalLabel = submitBtn.textContent;
+    submitBtn.textContent = STR.submitting;
+
+    fetch(SUPABASE_URL + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: { apikey: SUPABASE_ANON_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, password: password }),
+    }).then(function(r) {
+      return r.json().then(function(data) { return { ok: r.ok, data: data }; });
+    }).then(function(result) {
+      if (!result.ok || !result.data.access_token) {
+        showError(STR.error_invalid_credentials);
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalLabel;
+        return;
+      }
+      var session = {
+        access_token: result.data.access_token,
+        refresh_token: result.data.refresh_token,
+        expires_at: Date.now() + (result.data.expires_in || 3600) * 1000,
+      };
+      localStorage.setItem('legatis:lawyer-session', JSON.stringify(session));
+      window.location.href = profilUrl;
+    }).catch(function() {
+      showError(STR.error_generic);
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalLabel;
+    });
+  });
+
+  forgotLink.addEventListener('click', function(e) {
+    e.preventDefault();
+    form.hidden = true;
+    forgotBox.hidden = false;
+  });
+  forgotBack.addEventListener('click', function(e) {
+    e.preventDefault();
+    forgotBox.hidden = true;
+    forgotSuccess.hidden = true;
+    form.hidden = false;
+  });
+  forgotSubmit.addEventListener('click', function() {
+    var email = document.getElementById('lg-forgot-email').value.trim();
+    if (!email) return;
+    forgotSubmit.disabled = true;
+    fetch(SUPABASE_URL + '/auth/v1/recover', {
+      method: 'POST',
+      headers: { apikey: SUPABASE_ANON_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email }),
+    }).catch(function() { /* on affiche le meme message generique quoi qu'il arrive, cf. STR.forgot_password_success */ })
+      .then(function() {
+        forgotSuccess.hidden = false;
+        forgotSubmit.disabled = false;
+      });
+  });
+})();
+</script>
+{% endblock %}

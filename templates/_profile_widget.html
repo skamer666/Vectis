@@ -1,0 +1,57 @@
+{% if supabase_url %}
+<section class="lawyer-profile-widget" id="lawyer-profile-widget" data-canton="{{ review_canton_code }}" data-slug="{{ review_avocat_slug }}" hidden>
+  <div id="lpw-photo-wrap"></div>
+  <p id="lpw-bio" class="presentation"></p>
+  <table class="info-table" id="lpw-extra-table"></table>
+</section>
+<script>
+(function() {
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+  var widget = document.getElementById('lawyer-profile-widget');
+  var canton = widget.dataset.canton;
+  var slug = widget.dataset.slug;
+  if (!canton || !slug) return;
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+
+  var url = SUPABASE_URL + '/rest/v1/lawyer_profile_submissions?canton=eq.' + encodeURIComponent(canton) +
+    '&avocat_slug=eq.' + encodeURIComponent(slug) + '&status=eq.approved' +
+    '&select=bio,photo_path,display_email,display_telephone,links,submitted_at&order=submitted_at.desc&limit=1';
+
+  fetch(url, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY } })
+    .then(function(r) { return r.json(); })
+    .then(function(rows) {
+      if (!Array.isArray(rows) || !rows.length) return;
+      var row = rows[0];
+      var hasContent = row.bio || row.photo_path || row.display_email || row.display_telephone || (row.links && (row.links.website || row.links.linkedin));
+      if (!hasContent) return;
+
+      if (row.photo_path) {
+        var img = document.createElement('img');
+        img.src = SUPABASE_URL + '/storage/v1/object/public/lawyer-photos/' + row.photo_path;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.className = 'lawyer-profile-photo';
+        document.getElementById('lpw-photo-wrap').appendChild(img);
+      }
+      if (row.bio) {
+        document.getElementById('lpw-bio').textContent = row.bio;
+      }
+      var extra = '';
+      if (row.display_email) extra += '<tr><td>Email</td><td><a href="mailto:' + escapeHtml(row.display_email) + '">' + escapeHtml(row.display_email) + '</a></td></tr>';
+      if (row.display_telephone) extra += '<tr><td>Tel</td><td><a href="tel:' + escapeHtml(row.display_telephone) + '">' + escapeHtml(row.display_telephone) + '</a></td></tr>';
+      if (row.links && row.links.website) extra += '<tr><td>Web</td><td><a href="' + escapeHtml(row.links.website) + '" rel="nofollow noopener" target="_blank">' + escapeHtml(row.links.website) + '</a></td></tr>';
+      if (row.links && row.links.linkedin) extra += '<tr><td>LinkedIn</td><td><a href="' + escapeHtml(row.links.linkedin) + '" rel="nofollow noopener" target="_blank">' + escapeHtml(row.links.linkedin) + '</a></td></tr>';
+      document.getElementById('lpw-extra-table').innerHTML = extra;
+
+      widget.hidden = false;
+    })
+    .catch(function() { /* widget reste masque en cas d'erreur -- pas de contenu par defaut a afficher */ });
+})();
+</script>
+{% endif %}

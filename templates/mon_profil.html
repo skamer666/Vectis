@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);">
+    <div class="hero-eyebrow">{{ p.title }}</div>
+    <h1>{{ p.title }}</h1>
+    <p class="lede">{{ p.intro }}</p>
+  </section>
+
+  <section class="section vitrine-form-section" style="padding-top:0; max-width:70ch;">
+    <div id="mp-loading" class="calc-disclaimer">{{ p.loading }}</div>
+
+    <div id="mp-not-logged-in" class="vform-error" hidden>
+      {{ p.not_logged_in }}
+      <a href="{{ connexion_url }}">{{ p.login_link }}</a>
+    </div>
+
+    <div id="mp-content" hidden>
+      <div class="vform-block">
+        <h2>{{ p.section_registry_title }}</h2>
+        <p class="calc-disclaimer">{{ p.section_registry_note }}</p>
+        <table class="info-table">
+          <tr><td>{{ ui.canton }}</td><td id="mp-canton"></td></tr>
+          <tr><td>{{ ui.email }}</td><td id="mp-registry-name"></td></tr>
+          <tr><td>{{ ui.view_profile }}</td><td><a id="mp-registry-link" href="#" target="_blank" rel="noopener"></a></td></tr>
+        </table>
+      </div>
+
+      <div class="vform-block">
+        <h2>{{ p.status_title }}</h2>
+        <p id="mp-status" class="calc-disclaimer"></p>
+      </div>
+
+      <form id="mp-form" class="vform-block">
+        <h2>{{ p.section_edit_title }}</h2>
+        <div class="calc-grid">
+          <label class="calc-field">{{ p.field_bio }}
+            <textarea id="mp-bio" rows="6" maxlength="3000"></textarea>
+            <span class="calc-source">{{ p.field_bio_help }}</span>
+          </label>
+          <label class="calc-field">{{ p.field_photo }}
+            <input type="file" id="mp-photo" accept=".jpg,.jpeg,.png,image/jpeg,image/png">
+            <span class="calc-source">{{ p.field_photo_help }}</span>
+          </label>
+          <label class="calc-field">{{ p.field_display_email }}
+            <input type="email" id="mp-display-email">
+            <span class="calc-source">{{ p.field_display_email_help }}</span>
+          </label>
+          <label class="calc-field">{{ p.field_display_telephone }}
+            <input type="text" id="mp-display-telephone">
+          </label>
+          <label class="calc-field">{{ p.field_link_website }}
+            <input type="url" id="mp-link-website" placeholder="https://...">
+          </label>
+          <label class="calc-field">{{ p.field_link_linkedin }}
+            <input type="url" id="mp-link-linkedin" placeholder="https://linkedin.com/in/...">
+          </label>
+        </div>
+
+        <div id="mp-error" class="vform-error" hidden></div>
+        <div id="mp-success" class="vform-success" hidden><p>{{ p.success_submitted }}</p></div>
+
+        <button type="submit" class="cta-btn is-primary" id="mp-submit">{{ p.submit }}</button>
+      </form>
+
+      <p class="calc-source"><a href="#" id="mp-logout">{{ p.logout }}</a></p>
+    </div>
+  </section>
+</div>
+
+<script>
+(function() {
+  var STR = {{ p | tojson }};
+  var SUPABASE_URL = {{ supabase_url | tojson }};
+  var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
+  var connexionUrl = {{ connexion_url | tojson }};
+  var MAX_PHOTO_BYTES = 5 * 1024 * 1024;
+
+  var loadingEl = document.getElementById('mp-loading');
+  var notLoggedInEl = document.getElementById('mp-not-logged-in');
+  var contentEl = document.getElementById('mp-content');
+  var form = document.getElementById('mp-form');
+  var errorBox = document.getElementById('mp-error');
+  var successBox = document.getElementById('mp-success');
+  var submitBtn = document.getElementById('mp-submit');
+  var statusEl = document.getElementById('mp-status');
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.hidden = false;
+  }
+  function isEmail(s) {
+    return !s || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+  }
+
+  function getSession() {
+    try {
+      return JSON.parse(localStorage.getItem('legatis:lawyer-session') || 'null');
+    } catch (e) {
+      return null;
+    }
+  }
+  function saveSession(session) {
+    localStorage.setItem('legatis:lawyer-session', JSON.stringify(session));
+  }
+  function clearSession() {
+    localStorage.removeItem('legatis:lawyer-session');
+  }
+
+  function refreshSession(session) {
+    return fetch(SUPABASE_URL + '/auth/v1/token?grant_type=refresh_token', {
+      method: 'POST',
+      headers: { apikey: SUPABASE_ANON_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ refresh_token: session.refresh_token }),
+    }).then(function(r) {
+      if (!r.ok) throw new Error('refresh_failed');
+      return r.json();
+    }).then(function(data) {
+      var newSession = {
+        access_token: data.access_token,
+        refresh_token: data.refresh_token,
+        expires_at: Date.now() + (data.expires_in || 3600) * 1000,
+      };
+      saveSession(newSession);
+      return newSession;
+    });
+  }
+
+  function ensureSession() {
+    var session = getSession();
+    if (!session || !session.access_token) return Promise.reject(new Error('no_session'));
+    if (session.expires_at > Date.now() + 30000) return Promise.resolve(session);
+    return refreshSession(session);
+  }
+
+  function authedFetch(session, path, options) {
+    options = options || {};
+    options.headers = Object.assign({
+      apikey: SUPABASE_ANON_KEY,
+      Authorization: 'Bearer ' + session.access_token,
+    }, options.headers || {});
+    return fetch(SUPABASE_URL + path, options);
+  }
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : String(s);
+    return d.innerHTML;
+  }
+
+  var currentAccount = null;
+  var currentUserId = null;
+
+  ensureSession().then(function(session) {
+    return authedFetch(session, '/auth/v1/user').then(function(r) {
+      if (!r.ok) throw new Error('user_fetch_failed');
+      return r.json();
+    }).then(function(user) {
+      currentUserId = user.id;
+      return authedFetch(session, '/rest/v1/lawyer_accounts?select=canton,avocat_slug,avocat_nom,avocat_url&user_id=eq.' + encodeURIComponent(user.id));
+    }).then(function(r) { return r.json(); }).then(function(accounts) {
+      if (!accounts || !accounts.length) throw new Error('no_account');
+      currentAccount = accounts[0];
+      document.getElementById('mp-canton').textContent = currentAccount.canton;
+      document.getElementById('mp-registry-name').textContent = currentAccount.avocat_nom;
+      var link = document.getElementById('mp-registry-link');
+      link.href = currentAccount.avocat_url;
+      link.textContent = currentAccount.avocat_nom;
+
+      return authedFetch(session, '/rest/v1/lawyer_profile_submissions?select=status,bio,display_email,display_telephone,links,submitted_at&user_id=eq.' + encodeURIComponent(currentUserId) + '&order=submitted_at.desc&limit=1');
+    }).then(function(r) { return r.json(); }).then(function(rows) {
+      var latest = rows && rows[0];
+      if (latest) {
+        var label = latest.status === 'approved' ? STR.status_approved : (latest.status === 'rejected' ? STR.status_rejected : STR.status_pending);
+        statusEl.textContent = label;
+        document.getElementById('mp-bio').value = latest.bio || '';
+        document.getElementById('mp-display-email').value = latest.display_email || '';
+        document.getElementById('mp-display-telephone').value = latest.display_telephone || '';
+        var links = latest.links || {};
+        document.getElementById('mp-link-website').value = links.website || '';
+        document.getElementById('mp-link-linkedin').value = links.linkedin || '';
+      } else {
+        statusEl.textContent = STR.status_none;
+      }
+      loadingEl.hidden = true;
+      contentEl.hidden = false;
+    });
+  }).catch(function() {
+    loadingEl.hidden = true;
+    notLoggedInEl.hidden = false;
+  });
+
+  document.getElementById('mp-logout').addEventListener('click', function(e) {
+    e.preventDefault();
+    clearSession();
+    window.location.href = connexionUrl;
+  });
+
+  function fileToBuffer(file) {
+    return file.arrayBuffer ? file.arrayBuffer() : new Promise(function(resolve, reject) {
+      var reader = new FileReader();
+      reader.onload = function() { resolve(reader.result); };
+      reader.onerror = reject;
+      reader.readAsArrayBuffer(file);
+    });
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    errorBox.hidden = true;
+    successBox.hidden = true;
+
+    var bio = document.getElementById('mp-bio').value.trim();
+    var displayEmail = document.getElementById('mp-display-email').value.trim();
+    var displayTelephone = document.getElementById('mp-display-telephone').value.trim();
+    var website = document.getElementById('mp-link-website').value.trim();
+    var linkedin = document.getElementById('mp-link-linkedin').value.trim();
+    var photoFile = document.getElementById('mp-photo').files[0];
+
+    if (bio.length > 3000) { showError(STR.error_bio_too_long); return; }
+    if (!isEmail(displayEmail)) { showError(STR.error_invalid_email); return; }
+    if (photoFile) {
+      if (photoFile.size > MAX_PHOTO_BYTES) { showError(STR.error_photo_too_large); return; }
+      if (['image/jpeg', 'image/png'].indexOf(photoFile.type) === -1) { showError(STR.error_invalid_photo_type); return; }
+    }
+
+    submitBtn.disabled = true;
+    var originalLabel = submitBtn.textContent;
+    submitBtn.textContent = STR.submitting;
+
+    ensureSession().then(function(session) {
+      var photoPathPromise = Promise.resolve(null);
+      if (photoFile) {
+        var ext = photoFile.type === 'image/png' ? 'png' : 'jpg';
+        var photoPath = currentUserId + '/photo.' + ext;
+        photoPathPromise = fileToBuffer(photoFile).then(function(buffer) {
+          return authedFetch(session, '/storage/v1/object/lawyer-photos/' + photoPath, {
+            method: 'POST',
+            headers: { 'Content-Type': photoFile.type, 'x-upsert': 'true' },
+            body: buffer,
+          }).then(function(r) {
+            if (!r.ok) throw new Error('photo_upload_failed');
+            return photoPath;
+          });
+        });
+      }
+
+      return photoPathPromise.then(function(photoPath) {
+        var payload = {
+          user_id: currentUserId,
+          canton: currentAccount.canton,
+          avocat_slug: currentAccount.avocat_slug,
+          bio: bio || null,
+          display_email: displayEmail || null,
+          display_telephone: displayTelephone || null,
+          links: (website || linkedin) ? { website: website || null, linkedin: linkedin || null } : null,
+        };
+        if (photoPath) payload.photo_path = photoPath;
+
+        return authedFetch(session, '/rest/v1/lawyer_profile_submissions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+          body: JSON.stringify(payload),
+        });
+      });
+    }).then(function(r) {
+      if (!r.ok) throw new Error('submit_failed');
+      successBox.hidden = false;
+      statusEl.textContent = STR.status_pending;
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalLabel;
+    }).catch(function() {
+      showError(STR.error_generic);
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalLabel;
+    });
+  });
+})();
+</script>
+{% endblock %}
