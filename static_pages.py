@@ -447,46 +447,94 @@ _PAGES = {
     "confidentialite": {
         "fr": {"title": "Confidentialité", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis ne demande la création d'aucun compte et ne collecte pas de données personnelles "
-                "au-delà des informations techniques standard de navigation.",
+                "La création d'un compte n'est nécessaire que pour les avocats souhaitant revendiquer et "
+                "gérer leur propre fiche (adresse e-mail professionnelle et mot de passe, vérifiés avant "
+                "activation) ; elle n'est jamais demandée aux visiteurs qui consultent l'annuaire ou "
+                "recherchent un avocat.",
                 "Les données personnelles affichées sur les fiches (nom, étude, adresse professionnelle, "
                 "téléphone, e-mail) proviennent des registres publics officiels des avocats et concernent "
                 "l'exercice de leur profession, pas leur vie privée.",
                 "Toute personne concernée peut demander une correction ou faire valoir ses droits via la "
                 "page « Signaler une correction ».",
             )},
+            {"heading": "Statistiques de fréquentation", "paragraphs": _p(
+                "Legatis mesure de façon agrégée la fréquentation du site (pages consultées, temps passé, "
+                "provenance) au moyen d'un outil interne, sans recourir à Google Analytics ni à aucun "
+                "service publicitaire tiers.",
+                "Cette mesure ne repose sur aucun cookie et ne conserve jamais d'adresse IP. Un identifiant "
+                "aléatoire, généré et stocké uniquement dans le navigateur (jamais transmis à un tiers, "
+                "jamais relié à un nom, un e-mail ou un compte), permet uniquement de calculer des "
+                "compteurs globaux tels que le taux de visiteurs revenus un autre jour ; aucune page interne "
+                "de Legatis n'affiche de statistiques individuelles par visiteur.",
+            )},
         ]},
         "de": {"title": "Datenschutz", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis verlangt keine Kontoerstellung und erhebt keine personenbezogenen Daten über die "
-                "üblichen technischen Standard-Nutzungsdaten hinaus.",
+                "Eine Kontoerstellung ist nur für Anwältinnen und Anwälte erforderlich, die ihr eigenes "
+                "Profil beanspruchen und verwalten möchten (berufliche E-Mail-Adresse und Passwort, vor "
+                "Aktivierung überprüft); sie wird von Besucherinnen und Besuchern, die das Verzeichnis "
+                "durchsuchen, nie verlangt.",
                 "Die auf den Profilen angezeigten personenbezogenen Daten (Name, Kanzlei, "
                 "Geschäftsadresse, Telefon, E-Mail) stammen aus den offiziellen öffentlichen "
                 "Anwaltsregistern und betreffen die Berufsausübung, nicht das Privatleben.",
                 "Betroffene Personen können eine Korrektur beantragen oder ihre Rechte über die Seite "
                 "„Fehler melden“ geltend machen.",
             )},
+            {"heading": "Nutzungsstatistiken", "paragraphs": _p(
+                "Legatis misst die Besucherzahlen der Website in aggregierter Form (aufgerufene Seiten, "
+                "Verweildauer, Herkunft) mit einem internen Werkzeug, ohne Google Analytics oder einen "
+                "anderen Werbedienst eines Drittanbieters zu verwenden.",
+                "Diese Messung basiert auf keinem Cookie und speichert niemals eine IP-Adresse. Eine "
+                "zufällige, nur im Browser gespeicherte Kennung (nie an Dritte übermittelt, nie mit einem "
+                "Namen, einer E-Mail-Adresse oder einem Konto verknüpft) dient ausschliesslich der "
+                "Berechnung globaler Kennzahlen wie dem Anteil der an einem anderen Tag wiederkehrenden "
+                "Besucherinnen und Besucher; keine interne Seite von Legatis zeigt individuelle "
+                "Besucherstatistiken an.",
+            )},
         ]},
         "it": {"title": "Privacy", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis non richiede la creazione di alcun account e non raccoglie dati personali oltre "
-                "alle informazioni tecniche standard di navigazione.",
+                "La creazione di un account è necessaria solo per gli avvocati che desiderano rivendicare e "
+                "gestire la propria scheda (indirizzo e-mail professionale e password, verificati prima "
+                "dell'attivazione); non viene mai richiesta ai visitatori che consultano l'elenco o cercano "
+                "un avvocato.",
                 "I dati personali visualizzati nelle schede (nome, studio, indirizzo professionale, "
                 "telefono, e-mail) provengono dai registri pubblici ufficiali degli avvocati e riguardano "
                 "l'esercizio della professione, non la vita privata.",
                 "Chiunque sia interessato può richiedere una correzione o far valere i propri diritti "
                 "tramite la pagina «Segnala una correzione».",
             )},
+            {"heading": "Statistiche di frequentazione", "paragraphs": _p(
+                "Legatis misura in forma aggregata la frequentazione del sito (pagine consultate, tempo "
+                "trascorso, provenienza) tramite uno strumento interno, senza ricorrere a Google Analytics "
+                "né ad alcun servizio pubblicitario di terzi.",
+                "Questa misurazione non si basa su alcun cookie e non conserva mai indirizzi IP. Un "
+                "identificativo casuale, generato e conservato unicamente nel browser (mai trasmesso a "
+                "terzi, mai collegato a un nome, un'e-mail o un account), serve unicamente a calcolare "
+                "contatori globali come la percentuale di visitatori tornati in un altro giorno; nessuna "
+                "pagina interna di Legatis mostra statistiche individuali per visitatore.",
+            )},
         ]},
         "en": {"title": "Privacy", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis does not require any account creation and does not collect personal data beyond "
-                "standard technical browsing information.",
+                "Creating an account is only required for lawyers who wish to claim and manage their own "
+                "listing (professional email address and password, verified before activation); it is "
+                "never required of visitors browsing the directory or searching for a lawyer.",
                 "The personal data shown on listings (name, firm, professional address, phone, email) "
                 "comes from official public lawyer registers and relates to the exercise of their "
                 "profession, not their private life.",
                 "Anyone concerned can request a correction or exercise their rights via the \"Report a "
                 "correction\" page.",
+            )},
+            {"heading": "Usage statistics", "paragraphs": _p(
+                "Legatis measures site traffic in aggregate form (pages viewed, time spent, referral "
+                "source) using an in-house tool, without relying on Google Analytics or any third-party "
+                "advertising service.",
+                "This measurement does not rely on any cookie and never stores an IP address. A random "
+                "identifier, generated and stored only in the browser (never transmitted to a third party, "
+                "never linked to a name, email, or account), is used solely to compute aggregate counters "
+                "such as the share of visitors who return on a different day; no internal Legatis page "
+                "displays per-visitor statistics.",
             )},
         ]},
     },

@@ -101,6 +101,22 @@ def avis_request_path(lang):
     return f"/{lang}/{seg('avis-demande', lang)}/"
 
 
+def verification_request_path(lang):
+    return f"/{lang}/{seg('verification-demande', lang)}/"
+
+
+def verification_confirmee_path(lang):
+    return f"/{lang}/{seg('verification-confirmee', lang)}/"
+
+
+def connexion_path(lang):
+    return f"/{lang}/{seg('connexion', lang)}/"
+
+
+def mon_profil_path(lang):
+    return f"/{lang}/{seg('mon-profil', lang)}/"
+
+
 def static_path(lang, depth):
     return "../" * depth + "static/"
 

@@ -34,13 +34,17 @@ import legal_tools_widgets
 import aj_study_content as aj
 import vitrine_content
 import review_content
+import verification_content
+import website_offer_content
+import account_content
 import supabase_config
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
     etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
     blog_index_path, blog_article_path, etude_aj_path, vitrine_path,
-    avis_request_path,
+    avis_request_path, verification_request_path, verification_confirmee_path,
+    connexion_path, mon_profil_path,
 )
 
 SITE_ROOT = os.path.dirname(__file__)
@@ -172,6 +176,9 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
         "blog_index_url": blog_index_path(lang),
         "claim_page_url": f"/{lang}/{seg('revendiquer', lang)}/",
         "avis_request_url": avis_request_path(lang),
+        "verification_request_url": verification_request_path(lang),
+        "connexion_url": connexion_path(lang),
+        "mon_profil_url": mon_profil_path(lang),
         "supabase_url": supabase_config.SUPABASE_URL,
         "supabase_anon_key": supabase_config.SUPABASE_ANON_KEY,
         "rw": review_content.WIDGET[lang],
@@ -1898,6 +1905,151 @@ def gen_etude_aj():
 VITRINE_SPECIALITES_ORDER = list(i18n.DOMAINES.keys())
 
 
+def gen_verification_contacts():
+    """Genere deux artefacts a partir des memes donnees de registre officiel
+    deja chargees en memoire (GE_INDIVIDUALS + CANTON_DATA) pour le systeme
+    de verification d'identite (revendication de fiche) :
+
+    - data/verification_contacts.json : JAMAIS copie dans dist/, jamais
+      public. Email + telephone reels par cle "{canton}/{slug}", lu
+      uniquement cote serveur par api/verification-request.js pour decider
+      QUEL palier de la cascade de verification s'applique (email connu >
+      telephone connu > document+selfie) et pour connaitre la vraie
+      destination du lien/appel. Le client ne peut jamais influencer ce choix
+      -- il n'a acces qu'a des booleens (voir plus bas), jamais aux valeurs.
+
+    - dist/verification-index.json : public, mais ne contient QUE des
+      booleens has_email/has_phone par fiche, jamais les valeurs elles-memes
+      (meme si email/telephone sont deja affiches individuellement sur
+      chaque fiche avocat -- on evite volontairement d'agreger ces valeurs
+      dans un seul fichier propice au scraping en masse). Utilise cote
+      client sur /verifier-mon-identite/ pour afficher immediatement le bon
+      texte d'etape sans attendre l'aller-retour serveur ; le serveur
+      revalide de toute facon tout a la soumission."""
+    contacts = {}
+    public_index = []
+
+    def _add(code, slug, email, telephone):
+        key = f"{code}/{slug}"
+        email = (email or "").strip()
+        telephone = (telephone or "").strip()
+        contacts[key] = {"email": email or None, "telephone": telephone or None}
+        public_index.append({"c": code, "s": slug, "e": bool(email), "p": bool(telephone)})
+
+    for r in GE_INDIVIDUALS:
+        _add("GE", r["_slug"], r.get("email"), r.get("telephone"))
+    for code, data in CANTON_DATA.items():
+        for r in data["individuals"]:
+            _add(code, r["_slug"], r.get("email"), r.get("telephone"))
+
+    with open(os.path.join(DATA_DIR, "verification_contacts.json"), "w", encoding="utf-8") as f:
+        json.dump(contacts, f, ensure_ascii=False)
+
+    with open(os.path.join(DIST_DIR, "verification-index.json"), "w", encoding="utf-8") as f:
+        json.dump(public_index, f, ensure_ascii=False)
+
+
+def gen_verification_request():
+    """Page publique du formulaire de verification d'identite. La cascade
+    (email/telephone/document) est decidee cote serveur dans
+    api/verification-request.js -- cette page ne fait qu'afficher, pour
+    chaque cas, le texte prepare dans verification_content.FORM."""
+    for lang in LANGS:
+        path = verification_request_path(lang)
+        f = verification_content.FORM[lang]
+        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(verification_request_path))
+        ctx["f"] = f
+        ctx["search_index_url"] = f"/search-index-{lang}.json"
+        ctx["verification_index_url"] = "/verification-index.json"
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
+        # Offre "site web gratuit" + contrat, presentee juste apres la
+        # creation du compte (avant validation de l'identite) -- voir
+        # website_offer_content.py et api/website-offer-decision.js.
+        ctx["offer"] = website_offer_content.OFFER[lang]
+        ctx["contract"] = website_offer_content.CONTRACT[lang]
+        ctx["contract_version"] = website_offer_content.CONTRACT_VERSION
+        write_page(path, render("verification_demande.html", ctx))
+
+
+def gen_verification_confirmee():
+    """Page statique de destination du lien de confirmation envoye par email
+    (palier 1 de la cascade). Le resultat reel (ok/expire/invalide) est
+    determine par api/verification-confirm.js AVANT la redirection ici (voir
+    le parametre ?status= dans l'URL) ; cette page ne fait qu'afficher le
+    texte correspondant en JS, sans jamais elle-meme decider quoi que ce
+    soit cote serveur."""
+    for lang in LANGS:
+        path = verification_confirmee_path(lang)
+        c = verification_content.CONFIRM[lang]
+        ctx = base_ctx(lang, path, f"{c['title']} | Legatis", c["ok_text"][:158], hreflang_for(verification_confirmee_path))
+        ctx["c"] = c
+        ctx["verification_request_url"] = verification_request_path(lang)
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (c["title"], path)]
+        write_page(path, render("verification_confirmee.html", ctx))
+
+
+def gen_verification_review():
+    """Page interne (noindex) de revision des demandes de verification
+    d'identite en attente (paliers telephone/document). Contrairement a
+    gen_vitrine_review() (qui lit des fichiers JSON commit dans le depot),
+    cette page ne contient aucune donnee en dur : elle affiche un simple
+    formulaire d'acces (jeton admin) et recupere la liste + agit via
+    api/verification-list.js / api/verification-decide.js, cote client,
+    apres authentification par jeton. Aucune donnee sensible ne transite
+    par le build Python ni n'est jamais committee dans le depot (public)."""
+    lang = "fr"
+    path = "/interne/verification-avocats/"
+    ctx = base_ctx(lang, path, "Verifications en attente | Legatis (interne)", "Page interne de revision.", {})
+    ctx["noindex"] = True
+    ctx["admin_nav_active"] = "verification"
+    write_page(path, render("verification_review.html", ctx))
+
+
+def gen_analytics_dashboard():
+    """Page interne (noindex) de consultation des statistiques d'analytics
+    "maison" -- voir supabase_schema.sql (table analytics_events),
+    api/track.js (collecte), api/analytics-summary.js (agregation, protegee
+    par jeton admin) et static/js/analytics.js (collecte cote client sur
+    toutes les pages). Meme principe que gen_verification_review() : aucune
+    donnee en dur, tout est recupere cote client apres authentification par
+    jeton."""
+    lang = "fr"
+    path = "/interne/analytics/"
+    ctx = base_ctx(lang, path, "Analytics | Legatis (interne)", "Page interne de statistiques.", {})
+    ctx["noindex"] = True
+    ctx["admin_nav_active"] = "analytics"
+    write_page(path, render("analytics_dashboard.html", ctx))
+
+
+def gen_connexion():
+    """Page de connexion avocat (email + mot de passe classique, via
+    Supabase Auth). Requetes REST directes vers /auth/v1/token, sans SDK
+    supabase-js, comme le reste du site."""
+    for lang in LANGS:
+        path = connexion_path(lang)
+        l = account_content.LOGIN[lang]
+        ctx = base_ctx(lang, path, f"{l['title']} | Legatis", l["intro"][:158], hreflang_for(connexion_path))
+        ctx["l"] = l
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (l["title"], path)]
+        write_page(path, render("connexion.html", ctx))
+
+
+def gen_mon_profil():
+    """Tableau de bord de l'avocat connecte : donnees du registre en lecture
+    seule + formulaire de soumission du contenu complementaire (bio, photo,
+    coordonnees affichees, liens), moderees ensuite via
+    api/profile-list.js / api/profile-decide.js. Page personnelle,
+    non indexee."""
+    for lang in LANGS:
+        path = mon_profil_path(lang)
+        p = account_content.PROFILE[lang]
+        ctx = base_ctx(lang, path, f"{p['title']} | Legatis", p["intro"][:158], hreflang_for(mon_profil_path))
+        ctx["p"] = p
+        ctx["noindex"] = True
+        ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (p["title"], path)]
+        write_page(path, render("mon_profil.html", ctx))
+
+
 def gen_avis_request():
     """Page publique du formulaire de depot d'avis."""
     for lang in LANGS:
@@ -2046,6 +2198,7 @@ def gen_vitrine_review():
     path = "/interne/vitrines-en-attente/"
     ctx = base_ctx(lang, path, "Vitrines en attente | Legatis (interne)", "Page interne de revision.", {})
     ctx["noindex"] = True
+    ctx["admin_nav_active"] = "vitrines"
     ctx["pending"] = []
     for sub in pending:
         pctx = _vitrine_page_ctx(sub, lang)
@@ -2424,6 +2577,13 @@ if __name__ == "__main__":
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()
+        gen_verification_contacts()
+        gen_verification_request()
+        gen_verification_confirmee()
+        gen_verification_review()
+        gen_analytics_dashboard()
+        gen_connexion()
+        gen_mon_profil()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
@@ -2488,6 +2648,13 @@ if __name__ == "__main__":
         gen_vitrines()
         gen_vitrine_review()
         gen_avis_request()
+        gen_verification_contacts()
+        gen_verification_request()
+        gen_verification_confirmee()
+        gen_verification_review()
+        gen_analytics_dashboard()
+        gen_connexion()
+        gen_mon_profil()
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
