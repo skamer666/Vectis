@@ -395,6 +395,18 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
   border-radius:var(--radius-sm);
   text-decoration:none; color:inherit;
   transition:background-color .2s var(--ease-out), transform .2s var(--ease-out);
+  /* Le registre du canton de Geneve rend ~4000 lignes dans le DOM (annuaire
+     complet, filtre cote client via data-filter-input, cf. canton_hub.html) --
+     sans ca, le navigateur fait le layout/paint des 4000 lignes des le
+     chargement, ce qui ralentit le TTI et penalise le taux de rebond mobile.
+     content-visibility:auto laisse le navigateur sauter ce travail pour les
+     lignes hors-ecran (rendues seulement en approchant du viewport) sans rien
+     changer au DOM ni au filtre JS existant -- gain net sur les grandes
+     pages (Geneve), effet neutre sur les petites (autres cantons, favoris).
+     contain-intrinsic-size = estimation de hauteur pour eviter un saut de
+     scrollbar avant le premier rendu de chaque ligne. */
+  content-visibility:auto;
+  contain-intrinsic-size:auto 76px;
 }
 .registry-row:hover{ background:var(--paper-50); transform:translateX(3px); }
 .registry-name{ font-family:var(--font-display); font-size:1.12rem; font-weight:700; color:var(--ink-950); }
