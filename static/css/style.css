@@ -236,6 +236,14 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .brand-mark em{
   font-style:normal; color:var(--ink-950);
 }
+/* Dans le footer, le fond est sombre et le "Legatis" passe en blanc (style
+   inline sur .brand-mark) -- mais la regle .brand-mark em ci-dessus, plus
+   specifique, forcait quand meme le "i" en ink-950 (quasi noir), le rendant
+   invisible sur fond sombre. On le repasse dans l'accent de marque, lisible
+   sur fond fonce. */
+.site-footer .brand-mark em{
+  color:var(--accent-500);
+}
 .masthead-top-right{
   display:flex; align-items:center; gap:var(--space-md); flex-wrap:wrap; justify-content:flex-end;
 }
@@ -266,8 +274,14 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .masthead-nav a:hover{ color:var(--ink-950); background:var(--paper-100); }
 
 @media (max-width:760px){
-  .masthead-utility{ font-size:0.66rem; }
-  .masthead-utility .container{ flex-wrap:wrap; row-gap:2px; }
+  /* La barre utilitaire (accroche + "FR . DE . IT . EN") est purement
+     decorative -- le vrai selecteur de langue interactif (.lang-switch)
+     est juste en dessous. En allemand l'accroche est nettement plus longue
+     (~68 caracteres contre ~47 en francais) et repassait sur 2 lignes sur
+     mobile, gonflant la hauteur du header et cassant la mise en page.
+     On la masque simplement sur mobile : header plus compact, dans toutes
+     les langues, sans perte d'info (l'accroche reapparait dans le hero). */
+  .masthead-utility{ display:none; }
   .masthead-top{ flex-wrap:wrap; row-gap:10px; }
   .masthead-top-right{ width:100%; justify-content:space-between; }
   .masthead-nav{ flex-wrap:wrap; gap:2px; }
