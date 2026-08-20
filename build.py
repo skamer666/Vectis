@@ -624,6 +624,30 @@ for _r in GE_INDIVIDUALS:
     for _did in domaines_for_lawyer(_r):
         GE_BY_DOMAINE.setdefault(_did, []).append(_r)
 
+# Fiche de test dediee au compte avocat de demonstration (voir demande de
+# Greg le 20/08/2026) -- ajoutee ICI, apres SOLO_LAWYERS/BY_CITY/GE_BY_DOMAINE/
+# CANTON_COUNTS/MEMBERS_BY_FIRM_NORM (tous deja calcules ci-dessus a partir de
+# GE_INDIVIDUALS), afin qu'elle n'apparaisse JAMAIS dans l'annuaire visible
+# (ge_registry), les suggestions "pres de chez vous" (BY_CITY) ni les
+# compteurs affiches publiquement. Elle reste en revanche presente dans
+# GE_INDIVIDUALS pour les etapes qui en ont reellement besoin et qui relisent
+# GE_INDIVIDUALS a l'execution (pas a l'import) : sa propre fiche (gen_ge_avocats,
+# forcee noindex plus bas), data/verification_contacts.json et
+# search-index-{lang}.json (gen_verification_contacts/gen_search) -- c'est ce
+# qui permet de la retrouver via "Trouvez votre fiche" sur /verifier-mon-identite/
+# pour tester le parcours de creation de compte sans jamais toucher a une
+# vraie fiche de professionnel. Aucun email/telephone connu => seule la voie
+# "document" est proposee. A retirer (une seule ligne) le jour ou ce compte de
+# test n'est plus necessaire.
+GE_INDIVIDUALS.append({
+    "nom_complet": "Compte Test Legatis", "fonction": "Avocat", "etude": "",
+    "adresse": "Rue de Test 1", "npa": "1200", "ville": "Genève", "telephone": "",
+    "canton": "GE", "email": "", "site_web": "", "domaines": "", "langues": "Français",
+    "brevet_date": "2020", "brevet_pays": "Suisse", "source_email": "test-fixture",
+    "_slug": "compte-test-legatis",
+})
+TEST_LAWYER_SLUG = "compte-test-legatis"
+
 
 def primary_phone(raw):
     """Le champ telephone du registre GE (avocats et etudes) concatene parfois
@@ -656,6 +680,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis"
             ctx = base_ctx(lang, path, title, desc,
                             {lg: BASE_DOMAIN + avocat_path("GE", row["_slug"], lg) for lg in LANGS})
+            ctx["noindex"] = (row["_slug"] == TEST_LAWYER_SLUG)
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
             ctx["review_canton_code"] = "GE"
