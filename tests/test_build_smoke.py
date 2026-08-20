@@ -181,19 +181,20 @@ def test_verification_review_page_is_noindex(tmp_path, monkeypatch):
     assert 'name="robots" content="noindex' in html
     assert "/api/verification-list" in html
     assert "/api/verification-decide" in html
+    assert 'id="vr-email"' in html and 'id="vr-password"' in html
 
 
 def test_analytics_dashboard_page_is_noindex(tmp_path, monkeypatch):
     """Page interne de consultation des statistiques d'analytics maison --
-    meme principe de protection par jeton que verification_review.html,
-    aucune donnee en dur cote build."""
+    meme principe de protection par vrai compte admin (Supabase Auth) que
+    verification_review.html, aucune donnee en dur cote build."""
     monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
     build.gen_analytics_dashboard()
     html = (tmp_path / "interne" / "analytics" / "index.html").read_text(encoding="utf-8")
     assert "{{" not in html and "{%" not in html and "Undefined" not in html
     assert 'name="robots" content="noindex' in html
     assert "/api/analytics-summary" in html
-    assert 'id="ad-token"' in html
+    assert 'id="ad-email"' in html and 'id="ad-password"' in html
 
 
 def test_internal_pages_cross_link_via_admin_nav(tmp_path, monkeypatch):
