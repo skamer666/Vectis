@@ -16,7 +16,7 @@ module.exports = async function handler(req, res) {
     res.status(405).json({ error: "method_not_allowed" });
     return;
   }
-  if (!lib.checkAdminToken(req)) {
+  if (!(await lib.checkAdminAuth(req))) {
     res.status(401).json({ error: "unauthorized" });
     return;
   }

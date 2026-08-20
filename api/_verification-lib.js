@@ -168,6 +168,53 @@ function checkAdminToken(req) {
   return !!expected && !!given && safeEqual(String(given), String(expected));
 }
 
+// -- Connexion admin (vrai compte, remplace le jeton partage) --------------
+//
+// Demande de Greg le 20/08/2026 : le panneau admin (pages /interne/*) doit
+// se deverrouiller avec un vrai compte (email + mot de passe), pas un jeton
+// unique copie-colle. On reutilise Supabase Auth exactement comme pour les
+// comptes avocat (voir templates/connexion.html) plutot que d'inventer un
+// systeme separe : le client se connecte cote client avec la cle anon
+// (POST {SUPABASE_URL}/auth/v1/token?grant_type=password), recupere un
+// access_token, et l'envoie ensuite en "Authorization: Bearer <token>" sur
+// chaque appel admin. Ici, cote serveur, on ne fait JAMAIS confiance au
+// contenu du token sans le revalider aupres de Supabase (GET /auth/v1/user
+// avec ce token) -- ca confirme a la fois que le token est authentique et
+// n'est pas expire/revoque, et ca renvoie l'email associe. On accepte
+// ensuite uniquement les emails listes dans ADMIN_EMAILS (liste blanche
+// separee par des virgules) : avoir un compte Supabase Auth valide ne
+// suffit pas a etre admin, seuls des comptes explicitement autorises le
+// sont (ex: un avocat qui active son propre compte ne doit jamais pouvoir
+// se servir de son token pour acceder au panneau admin).
+async function checkAdminAuth(req) {
+  const authHeader = req.headers["authorization"] || "";
+  const match = /^Bearer\s+(.+)$/i.exec(authHeader);
+  if (!match) return false;
+  const token = match[1].trim();
+  if (!token) return false;
+
+  const adminEmails = String(process.env.ADMIN_EMAILS || "")
+    .split(",")
+    .map((e) => e.trim().toLowerCase())
+    .filter(Boolean);
+  if (!adminEmails.length) return false;
+
+  try {
+    const resp = await fetch(`${SUPABASE_URL}/auth/v1/user`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        apikey: process.env.SUPABASE_SERVICE_ROLE_KEY,
+      },
+    });
+    if (!resp.ok) return false;
+    const user = await resp.json();
+    const email = String(user && user.email ? user.email : "").toLowerCase();
+    return !!email && adminEmails.includes(email);
+  } catch (e) {
+    return false;
+  }
+}
+
 // -- Comptes avocat : creation "en attente" au moment de la demande --------
 //
 // Le mot de passe est desormais choisi des la demande de verification (voir
@@ -240,6 +287,7 @@ module.exports = {
   hashToken,
   safeEqual,
   checkAdminToken,
+  checkAdminAuth,
   sendEmail,
   adminCreateUser,
   adminConfirmUser,
