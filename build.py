@@ -649,6 +649,20 @@ GE_INDIVIDUALS.append({
 TEST_LAWYER_SLUG = "compte-test-legatis"
 
 
+def clean_city_for_title(ville):
+    """Garde-fou pour le <title> des fiches avocat (fix CTR : afficher la ville
+    plutot que le canton dans le titre, mot-cle local le plus utile en resultat
+    de recherche). Quelques lignes source ont, au lieu d'un nom de ville simple,
+    une adresse postale complete/etrangere dans le champ ville (code postal,
+    pays, parentheses -- ex: "Montreal (Quebec) H4Z 1B7 CANADA"). Un tel titre
+    a l'air casse/spam en resultat Google -- on retombe alors sur le nom du
+    canton (comportement d'avant ce fix), jamais sur une valeur brute suspecte."""
+    v = (ville or "").strip()
+    if not v or len(v) > 28 or "(" in v or ")" in v or any(ch.isdigit() for ch in v):
+        return None
+    return v
+
+
 def primary_phone(raw):
     """Le champ telephone du registre GE (avocats et etudes) concatene parfois
     deux numeros sans separateur (tel + fax) -- ex. "022 818 50 52 022 310 93 88".
@@ -674,10 +688,21 @@ def gen_ge_avocats(start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = avocat_path("GE", row["_slug"], lang)
+            # Signaux reels calcules ici (avant desc/title/presentation) pour
+            # differencier les fiches sans domaines de competence renseignes
+            # (title = ville plutot que canton -> mot-cle local le plus utile
+            # dans le titre ; langues/anciennete injectees dans la description
+            # quand domaines est vide -- voir presentation_text.lawyer_presentation).
+            _raw_langues = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+            _langues_for_lang = pt.translate_langues(_raw_langues, lang)
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=row.get("etude") or None,
                                            ville=row.get("ville") or None,
-                                           domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids])[:158]
-            title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis"
+                                           domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
+                                           fonction=row.get("fonction") or None,
+                                           langues=_langues_for_lang,
+                                           seniority_year=row.get("brevet_date"))[:158]
+            _title_place = clean_city_for_title(row.get("ville")) or canton_name
+            title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {_title_place} | Legatis"
             ctx = base_ctx(lang, path, title, desc,
                             {lg: BASE_DOMAIN + avocat_path("GE", row["_slug"], lg) for lg in LANGS})
             ctx["noindex"] = (row["_slug"] == TEST_LAWYER_SLUG)
@@ -706,8 +731,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                  "etude": r.get("etude", ""), "ville": r.get("ville", "")}
                 for r in same_city
             ]
-            _raw_langues = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
-            ctx["langues"] = pt.translate_langues(_raw_langues, lang)
+            ctx["langues"] = _langues_for_lang
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("brevet_date"))
             _city_link = city_link_for("GE", row.get("ville"), lang)
             ctx["ville_url"] = _city_link[1] if _city_link else None
@@ -1421,10 +1445,20 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = avocat_path(code, row["_slug"], lang)
+            # Signaux reels calcules ici (avant desc/title) pour differencier les
+            # fiches sans domaines (quasi toutes hors GE, cf. ctx["domaines"] = []
+            # plus bas) : title = ville plutot que canton, langues/anciennete
+            # injectees dans la description quand disponibles -- voir
+            # presentation_text.lawyer_presentation.
+            _langues_raw = [x.strip() for x in (row.get("langues_raw") or "").split(",") if x.strip()]
+            _langues_for_lang = [translate_lang_name(x, lang) for x in _langues_raw]
             desc = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
                                            ville=row.get("ville") or None,
-                                           fonction=row.get("fonction") or None)[:158]
-            _title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {canton_name} | Legatis"
+                                           fonction=row.get("fonction") or None,
+                                           langues=_langues_for_lang,
+                                           seniority_year=row.get("annee_admission"))[:158]
+            _title_place = clean_city_for_title(row.get("ville")) or canton_name
+            _title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {_title_place} | Legatis"
             ctx = base_ctx(lang, path, _title, desc,
                             {lg: BASE_DOMAIN + avocat_path(code, row["_slug"], lg) for lg in LANGS})
             ctx["nom"] = nom
@@ -1453,9 +1487,9 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             ]
             # Langues parlees : pour l'instant seul Schaffhouse fournit ce champ
             # (langues_raw, allemand source) -- traduction sure (noms de langues,
-            # pas de jargon) vers la langue de la page courante.
-            _langues_raw = [x.strip() for x in (row.get("langues_raw") or "").split(",") if x.strip()]
-            ctx["langues"] = [translate_lang_name(x, lang) for x in _langues_raw]
+            # pas de jargon) vers la langue de la page courante. Deja calcule
+            # plus haut (_langues_for_lang) pour la description meta, reutilise ici.
+            ctx["langues"] = _langues_for_lang
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("annee_admission"))
             _domaine_names = []
             if _web:

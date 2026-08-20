@@ -9,8 +9,16 @@ neutres) plutot que de deviner le genre a partir du prenom.
 """
 
 
-def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines=None, fonction=None):
+def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines=None, fonction=None,
+                         langues=None, seniority_year=None):
+    """langues et seniority_year sont deux signaux reels supplementaires (deja
+    presents en base, jamais devines) utilises pour differencier les fiches qui
+    n'ont pas de domaines de competence renseignes (majorite des fiches hors
+    GE) -- sans quoi leur description ne varie que par le nom, ce qui nuit au
+    CTR (Google reecrit/masque des snippets trop proches d'une fiche a l'autre)."""
     domaines = domaines or []
+    langues = langues or []
+    seniority_txt = seniority_text(lang, seniority_year) if seniority_year else ""
     if lang == "fr":
         s = f"Me {nom} figure au registre des avocats du canton de {canton_name}"
         if etude:
@@ -22,6 +30,10 @@ def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines
             s += f" Statut au registre : {fonction}."
         if domaines:
             s += f" Domaines de compétence indiqués : {', '.join(domaines)}."
+        elif langues:
+            s += f" Langues parlées : {', '.join(langues)}."
+        if seniority_txt:
+            s += f" {seniority_txt}."
         return s
     if lang == "de":
         s = f"{nom} ist im Anwaltsregister des Kantons {canton_name} eingetragen"
@@ -32,6 +44,10 @@ def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines
         s += "."
         if domaines:
             s += f" Angegebene Fachgebiete: {', '.join(domaines)}."
+        elif langues:
+            s += f" Gesprochene Sprachen: {', '.join(langues)}."
+        if seniority_txt:
+            s += f" {seniority_txt}."
         return s
     if lang == "it":
         s = f"{nom} figura nel registro degli avvocati del Cantone {canton_name}"
@@ -42,6 +58,10 @@ def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines
         s += "."
         if domaines:
             s += f" Ambiti di competenza indicati: {', '.join(domaines)}."
+        elif langues:
+            s += f" Lingue parlate: {', '.join(langues)}."
+        if seniority_txt:
+            s += f" {seniority_txt}."
         return s
     # en
     s = f"{nom} is listed in the register of lawyers of the canton of {canton_name}"
@@ -52,6 +72,10 @@ def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines
     s += "."
     if domaines:
         s += f" Listed practice areas: {', '.join(domaines)}."
+    elif langues:
+        s += f" Languages spoken: {', '.join(langues)}."
+    if seniority_txt:
+        s += f" {seniority_txt}."
     return s
 
 
