@@ -360,6 +360,7 @@
       var active = toggleFavorite(entry);
       btn.classList.toggle('is-active', active);
       updateProfileFavLabel(btn);
+      if (active && window.legatisTrack) window.legatisTrack('favorite_add', { url: entry.url });
     });
   });
   function updateProfileFavLabel(btn) {
@@ -379,6 +380,7 @@
       if (res.blocked) return;
       btn.classList.toggle('is-active', res.active);
       updateProfileCmpLabel(btn);
+      if (res.active && window.legatisTrack) window.legatisTrack('compare_add', { url: entry.url });
     });
   });
   function updateProfileCmpLabel(btn) {
@@ -626,6 +628,7 @@
       }).then(function () {
         if (msgEl) { msgEl.textContent = t('lead_capture_success', 'Merci !'); msgEl.className = 'lead-capture-msg is-success'; }
         form.reset();
+        if (window.legatisTrack) window.legatisTrack('lead_submit', {});
       }).catch(function () {
         if (msgEl) { msgEl.textContent = t('lead_capture_error', 'Erreur, réessayez.'); msgEl.className = 'lead-capture-msg is-error'; }
       }).finally(function () {
