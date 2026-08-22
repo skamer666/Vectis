@@ -391,6 +391,8 @@ GUIDES = {
                  "a": "Oui. Beaucoup d'avocats expérimentés concentrent leur pratique sur quelques domaines sans avoir entrepris la certification. Le titre est un signal positif fiable, mais son absence n'est pas un critère d'exclusion."},
                 {"q": "Comment savoir si un avocat est spécialiste FSA ?",
                  "a": "Le titre figure généralement sur le site du cabinet et dans les communications de l'avocat. En cas de doute, la FSA et les ordres cantonaux peuvent confirmer la titularité du titre."},
+                {"q": "Quels domaines de spécialisation le titre FSA couvre-t-il ?",
+                 "a": "Notamment le droit du travail, le droit de la famille, le droit pénal, le droit de la construction et de l'immobilier, le droit des successions, la responsabilité civile et les assurances, ou le droit fiscal."},
             ],
         },
         "de": {
@@ -414,6 +416,8 @@ GUIDES = {
                  "a": "Ja. Viele erfahrene Anwältinnen und Anwälte konzentrieren ihre Praxis auf wenige Gebiete, ohne die Zertifizierung absolviert zu haben. Der Titel ist ein verlässliches positives Signal, sein Fehlen aber kein Ausschlusskriterium."},
                 {"q": "Wie erkenne ich, ob jemand Fachanwalt SAV ist?",
                  "a": "Der Titel wird üblicherweise auf der Kanzlei-Website und in der Kommunikation geführt. Im Zweifel können der SAV und die kantonalen Anwaltsverbände die Titelträgerschaft bestätigen."},
+                {"q": "Welche Fachgebiete deckt der Titel Fachanwalt SAV ab?",
+                 "a": "Namentlich Arbeitsrecht, Familienrecht, Strafrecht, Bau- und Immobilienrecht, Erbrecht, Haftpflicht- und Versicherungsrecht sowie Steuerrecht."},
             ],
         },
         "it": {
@@ -437,6 +441,8 @@ GUIDES = {
                  "a": "Sì. Molti avvocati esperti concentrano la loro pratica su pochi ambiti senza aver intrapreso la certificazione. Il titolo è un segnale positivo affidabile, ma la sua assenza non è un criterio di esclusione."},
                 {"q": "Come so se un avvocato è specialista FSA?",
                  "a": "Il titolo figura di regola sul sito dello studio e nelle comunicazioni dell'avvocato. In caso di dubbio, la FSA e gli ordini cantonali possono confermarne la titolarità."},
+                {"q": "Quali ambiti di specializzazione copre il titolo FSA?",
+                 "a": "In particolare il diritto del lavoro, il diritto di famiglia, il diritto penale, il diritto della costruzione e immobiliare, il diritto successorio, la responsabilità civile e le assicurazioni, nonché il diritto fiscale."},
             ],
         },
         "en": {
@@ -460,6 +466,8 @@ GUIDES = {
                  "a": "Yes. Many experienced lawyers concentrate their practice on a few fields without pursuing certification. The title is a reliable positive signal, but its absence is not an exclusion criterion."},
                 {"q": "How do I know whether a lawyer is a Certified Specialist SBA?",
                  "a": "The title usually appears on the firm's website and in the lawyer's communications. In case of doubt, the SBA and the cantonal bar associations can confirm it."},
+                {"q": "Which fields of specialisation does the Certified Specialist SBA title cover?",
+                 "a": "Notably employment law, family law, criminal law, construction and real estate law, inheritance law, liability and insurance law, and tax law."},
             ],
         },
     },
@@ -599,6 +607,8 @@ GUIDES = {
                  "a": "Non, depuis la révision entrée en vigueur en 2014, les délais de l'art. 97 CP sont absolus : ils ne sont plus interrompus par des actes de procédure et continuent à courir jusqu'à leur terme."},
                 {"q": "Quelle est la différence entre le délai relatif et le délai absolu pour un acte illicite ?",
                  "a": "Le délai relatif (3 ans) court dès que vous connaissez le dommage et son auteur. Le délai absolu (20 ans) court dès l'acte lui-même, indépendamment de la connaissance. La créance est prescrite dès que le premier des deux délais est atteint."},
+                {"q": "Le délai de 10 ans s'applique-t-il à toutes les créances contractuelles ?",
+                 "a": "Non. C'est le délai ordinaire (art. 127 CO), mais les prestations périodiques comme un loyer ou un salaire se prescrivent par 5 ans (art. 128 CO)."},
             ],
         },
         "de": {
@@ -622,6 +632,8 @@ GUIDES = {
                  "a": "Nein. Seit der 2014 in Kraft getretenen Revision sind die Fristen von Art. 97 StGB absolut: Sie werden durch Verfahrenshandlungen nicht mehr unterbrochen und laufen bis zu ihrem Ende weiter."},
                 {"q": "Was unterscheidet die relative von der absoluten Frist bei unerlaubter Handlung?",
                  "a": "Die relative Frist (3 Jahre) beginnt mit der Kenntnis von Schaden und Schädiger. Die absolute Frist (20 Jahre) beginnt mit der Handlung selbst, unabhängig von der Kenntnis. Die Forderung verjährt, sobald die frühere der beiden Fristen erreicht ist."},
+                {"q": "Gilt die Frist von 10 Jahren für alle vertraglichen Forderungen?",
+                 "a": "Nein. Das ist die ordentliche Frist (Art. 127 OR); periodische Leistungen wie Miete oder Lohn verjähren dagegen bereits nach 5 Jahren (Art. 128 OR)."},
             ],
         },
         "it": {
@@ -645,6 +657,8 @@ GUIDES = {
                  "a": "No. Dalla revisione in vigore dal 2014, i termini dell'art. 97 CP sono assoluti: non sono più interrotti da atti procedurali e continuano a decorrere fino al loro termine."},
                 {"q": "Qual è la differenza tra il termine relativo e quello assoluto per un atto illecito?",
                  "a": "Il termine relativo (3 anni) decorre dalla conoscenza del danno e del suo autore. Il termine assoluto (20 anni) decorre dall'atto stesso, indipendentemente dalla conoscenza. Il credito è prescritto non appena è raggiunto il primo dei due termini."},
+                {"q": "Il termine di 10 anni si applica a tutti i crediti contrattuali?",
+                 "a": "No. È il termine ordinario (art. 127 CO); le prestazioni periodiche come una pigione o un salario si prescrivono invece in 5 anni (art. 128 CO)."},
             ],
         },
         "en": {
@@ -668,6 +682,8 @@ GUIDES = {
                  "a": "No. Since the revision in force since 2014, the periods under art. 97 of the Criminal Code are absolute: they are no longer interrupted by procedural acts and keep running until they expire."},
                 {"q": "What is the difference between the relative and absolute deadline for an unlawful act?",
                  "a": "The relative deadline (3 years) starts running once you know of the loss and the liable person. The absolute deadline (20 years) starts running from the act itself, regardless of knowledge. The claim becomes time-barred as soon as whichever deadline comes first is reached."},
+                {"q": "Does the 10-year period apply to all contractual claims?",
+                 "a": "No. That is the ordinary period (art. 127 CO); periodic performances such as rent or wages become time-barred after 5 years instead (art. 128 CO)."},
             ],
         },
     },
@@ -693,6 +709,8 @@ GUIDES = {
                  "a": "Non, ce sont deux régimes distincts avec des dates différentes : les féries de poursuite relèvent de l'art. 56 LP et ne sont pas couvertes par ce calculateur."},
                 {"q": "Que se passe-t-il si je manque un délai de recours ?",
                  "a": "En principe, l'acte devient irrecevable et la décision entre en force. Une restitution de délai n'est possible que dans des cas exceptionnels (art. 148 CPC), en cas d'empêchement non fautif."},
+                {"q": "Quelles sont exactement les trois périodes de féries judiciaires ?",
+                 "a": "Du 7e jour avant Pâques au 7e jour après Pâques inclus, du 15 juillet au 15 août inclus, et du 18 décembre au 2 janvier inclus (art. 145 al. 1 CPC)."},
             ],
         },
         "de": {
@@ -716,6 +734,8 @@ GUIDES = {
                  "a": "Nein, das sind zwei getrennte Regelungen mit unterschiedlichen Daten: Die Betreibungsferien richten sich nach Art. 56 SchKG und werden von diesem Rechner nicht abgedeckt."},
                 {"q": "Was passiert, wenn ich eine Rechtsmittelfrist verpasse?",
                  "a": "Grundsätzlich wird die Eingabe unzulässig und der Entscheid erwächst in Rechtskraft. Eine Wiederherstellung der Frist ist nur in Ausnahmefällen möglich (Art. 148 ZPO), bei unverschuldeter Verhinderung."},
+                {"q": "Welches sind die drei Gerichtsferien-Perioden genau?",
+                 "a": "Vom 7. Tag vor Ostern bis zum 7. Tag nach Ostern, vom 15. Juli bis 15. August, und vom 18. Dezember bis 2. Januar (Art. 145 Abs. 1 ZPO)."},
             ],
         },
         "it": {
@@ -739,6 +759,8 @@ GUIDES = {
                  "a": "No, sono due regimi distinti con date diverse: la sospensione feriale dell'esecuzione è retta dall'art. 56 LEF e non è coperta da questo calcolatore."},
                 {"q": "Cosa succede se perdo un termine di ricorso?",
                  "a": "In linea di principio l'atto diventa irricevibile e la decisione passa in giudicato. Una restituzione del termine è possibile solo in casi eccezionali (art. 148 CPC), in caso di impedimento senza colpa."},
+                {"q": "Quali sono esattamente i tre periodi di sospensione feriale?",
+                 "a": "Dal 7° giorno prima di Pasqua al 7° giorno dopo Pasqua, dal 15 luglio al 15 agosto, e dal 18 dicembre al 2 gennaio (art. 145 cpv. 1 CPC)."},
             ],
         },
         "en": {
@@ -762,6 +784,8 @@ GUIDES = {
                  "a": "No, these are two separate regimes with different dates: debt enforcement recess periods are governed by art. 56 DEBA and are not covered by this calculator."},
                 {"q": "What happens if I miss an appeal deadline?",
                  "a": "As a rule, the submission becomes inadmissible and the decision becomes final. Restoring a deadline is only possible in exceptional cases (art. 148 CPC), where the failure was not the party's fault."},
+                {"q": "What exactly are the three court recess periods?",
+                 "a": "From the 7th day before Easter to the 7th day after Easter, from 15 July to 15 August, and from 18 December to 2 January (art. 145 para. 1 CPC)."},
             ],
         },
     },
@@ -787,6 +811,8 @@ GUIDES = {
                  "a": "Non. L'intérêt moratoire est dû du seul fait du retard dans le paiement d'une somme d'argent, sans que le créancier ait à prouver un dommage."},
                 {"q": "Comment fixer la date de départ des intérêts si le contrat ne prévoit pas d'échéance ?",
                  "a": "Il faut mettre le débiteur en demeure, généralement par une sommation écrite. Les intérêts courent en principe dès le lendemain de cette sommation (art. 102 CO)."},
+                {"q": "À partir de quand les intérêts commencent-ils à courir si le contrat fixe une échéance ?",
+                 "a": "Dès le lendemain de cette échéance contractuelle ; s'il n'y a pas d'échéance fixée, dès le lendemain d'une sommation (mise en demeure) adressée au débiteur (art. 102 CO)."},
             ],
         },
         "de": {
@@ -810,6 +836,8 @@ GUIDES = {
                  "a": "Nein. Der Verzugszins ist allein wegen des Zahlungsverzugs geschuldet, ohne dass die Gläubigerin oder der Gläubiger einen Schaden nachweisen muss."},
                 {"q": "Wie bestimme ich den Beginn des Zinslaufs, wenn der Vertrag keine Fälligkeit vorsieht?",
                  "a": "Die Schuldnerin oder der Schuldner muss gemahnt werden, in der Regel schriftlich. Die Zinsen laufen grundsätzlich ab dem Tag nach dieser Mahnung (Art. 102 OR)."},
+                {"q": "Ab wann laufen die Zinsen, wenn der Vertrag eine Fälligkeit vorsieht?",
+                 "a": "Ab dem Tag nach dieser vertraglichen Fälligkeit; ist keine Fälligkeit vereinbart, ab dem Tag nach einer an die Schuldnerin oder den Schuldner gerichteten Mahnung (Art. 102 OR)."},
             ],
         },
         "it": {
@@ -833,6 +861,8 @@ GUIDES = {
                  "a": "No. L'interesse moratorio è dovuto per il solo fatto del ritardo nel pagamento di una somma di denaro, senza che il creditore debba provare un danno."},
                 {"q": "Come si stabilisce la data di inizio degli interessi se il contratto non prevede una scadenza?",
                  "a": "Occorre costituire in mora il debitore, generalmente con una diffida scritta. Gli interessi decorrono in linea di principio dal giorno successivo a tale diffida (art. 102 CO)."},
+                {"q": "Da quando decorrono gli interessi se il contratto fissa una scadenza?",
+                 "a": "Dal giorno successivo a tale scadenza contrattuale; in assenza di una scadenza fissata, dal giorno successivo a una diffida inviata al debitore (art. 102 CO)."},
             ],
         },
         "en": {
@@ -856,6 +886,8 @@ GUIDES = {
                  "a": "No. Late payment interest is owed simply because of the delay in paying a sum of money, without the creditor having to prove any loss."},
                 {"q": "How do I determine the start date for interest if the contract sets no due date?",
                  "a": "The debtor must be put in default, usually via written formal notice. Interest generally starts running the day after that notice (art. 102 CO)."},
+                {"q": "From when does interest start running if the contract sets a due date?",
+                 "a": "From the day after that contractual due date; if no due date was agreed, from the day after formal notice sent to the debtor (art. 102 CO)."},
             ],
         },
     },

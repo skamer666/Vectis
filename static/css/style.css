@@ -305,7 +305,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 }
 .hero-eyebrow{
   font-size:0.8rem; font-weight:700; letter-spacing:0.02em;
-  color:var(--accent-600); margin-bottom:var(--space-md);
+  color:var(--accent-700); margin-bottom:var(--space-md);
   display:flex; align-items:center; gap:10px;
 }
 .hero-eyebrow::before{ content:""; display:inline-block; width:22px; height:3px; border-radius:2px; background:var(--accent-600); }
@@ -564,7 +564,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
   display:grid; grid-template-columns:1.4fr repeat(3,1fr); gap:var(--space-2xl);
   padding-bottom:var(--space-2xl); border-bottom:1px solid var(--ink-700);
 }
-.footer-grid h4{
+.footer-grid .footer-heading{
   font-size:0.76rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--paper-300);
   margin:0 0 var(--space-md); font-weight:700;
 }
@@ -605,7 +605,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 /* -- bandeau presse (etude AJ) -- */
 .press-band{
   position:relative;
-  background:var(--accent-600);
+  background:var(--accent-700);
   color:#fff;
   border-bottom:none;
   overflow:hidden;
@@ -619,7 +619,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .press-band-text{ max-width:62ch; }
 .press-band-kicker{
   font-size:0.74rem; font-weight:800; letter-spacing:0.06em; text-transform:uppercase;
-  color:#fff; opacity:0.85; margin-bottom:var(--space-sm);
+  color:#fff; opacity:0.92; margin-bottom:var(--space-sm);
 }
 .press-band-title{
   font-family:var(--font-display); font-size:1.65rem; font-weight:800; color:#fff;
@@ -629,7 +629,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
   font-size:0.96rem; color:#fff; opacity:0.92; margin:0 0 var(--space-sm) 0; line-height:1.6;
 }
 .press-band-meta{
-  font-size:0.78rem; color:#fff; opacity:0.8; font-weight:600; letter-spacing:0.02em;
+  font-size:0.78rem; color:#fff; opacity:0.92; font-weight:600; letter-spacing:0.02em;
   font-variant-numeric:tabular-nums;
 }
 .press-band-cta{
