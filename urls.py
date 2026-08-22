@@ -17,7 +17,12 @@ import i18n
 import guides_content
 import blog_content
 
-BASE_DOMAIN = "https://legatis.ch"
+# www est le domaine effectivement servi par Vercel (l'apex legatis.ch redirige
+# vers www.legatis.ch en production) -- canonical/hreflang/sitemap doivent
+# pointer vers l'URL qui repond reellement 200, sans quoi Google recoit des
+# signaux de canonicalisation contradictoires (canonical sur une URL qui ne
+# sert jamais de contenu directement, cf. audit SEO du 2026-08-22).
+BASE_DOMAIN = "https://www.legatis.ch"
 LANGS = i18n.LANGUAGES
 
 

@@ -17,7 +17,10 @@ import sys
 import urllib.request
 
 INDEXNOW_KEY = "7f3a9c14e8b5426a9d2f6c1e0a7b8d3f"
-HOST = "legatis.ch"
+# Doit correspondre au host des URLs soumises (voir urls.BASE_DOMAIN) : IndexNow
+# rejette une soumission dont le champ "host" ne correspond pas au host reel
+# des URLs de urlList.
+HOST = "www.legatis.ch"
 KEY_LOCATION = f"https://{HOST}/{INDEXNOW_KEY}.txt"
 ENDPOINT = "https://api.indexnow.org/indexnow"
 
