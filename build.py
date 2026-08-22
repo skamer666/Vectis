@@ -2434,7 +2434,13 @@ def gen_sitemaps():
             if "index.html" in filenames:
                 fpath = os.path.join(dirpath, "index.html")
                 with open(fpath, encoding="utf-8") as f:
-                    head = f.read(3500)
+                    # Le <head> peut largement depasser une taille fixe (jusqu'a
+                    # ~14 Ko sur les pages avec schema ItemList, cf. audit SEO du
+                    # 2026-08-22 -- une lecture tronquee a 3500 octets a deja
+                    # rate la balise noindex de ~35000 pages et gonfle le
+                    # sitemap en consequence). On lit le fichier entier : le cout
+                    # est negligeable au regard du reste du build.
+                    head = f.read()
                 if 'name="robots" content="noindex' in head:
                     continue
                 rel = os.path.relpath(dirpath, DIST_DIR).replace(os.sep, "/")
