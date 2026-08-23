@@ -332,6 +332,18 @@ def site_domain(url):
 WEB_ENRICHMENT = load_web_enrichment()
 OTHER_CANTON_ENRICHMENT = load_other_canton_enrichment()
 
+
+def web_practice_areas(web, lang):
+    """Domaines de competence scrapes sur le site du cabinet, dans la langue
+    demandee. practice_areas_de/it sont des traductions (voir
+    practice_areas_translation_note dans le JSON) de practice_areas_fr (ou
+    _en a defaut) -- le scraper lui-meme n'a jamais extrait de version DE/IT.
+    Sans ceci, seules les pages FR/EN avaient ce signal, ce qui noindexait a
+    tort des fiches en DE/IT (cf. audit SEO du 2026-08-23)."""
+    if not web:
+        return []
+    return web.get(f"practice_areas_{lang}") or []
+
 GE_INDIVIDUALS = load_ge_individuals()
 for _r in GE_INDIVIDUALS:
     _r["ville"] = clean_ville(_r.get("ville", ""), _r.get("npa", ""))
@@ -793,6 +805,16 @@ def gen_ge_etudes(start=0, count=None, rows=None):
         _oldest_year = min(_years) if _years else None
         _site_url = next((m.get("site_web") for m in matched if m.get("site_web")), "")
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
+        # Noindex decide une seule fois pour les 4 langues (jamais indexee dans
+        # une langue et pas dans une autre) : voir commentaire complet plus bas.
+        _any_lang_lacks_signal = False
+        for _lg in LANGS:
+            _dn = [i18n.DOMAINES[d][_lg]["name"] for d in _team_domaine_ids] or web_practice_areas(_web, _lg)
+            if not pt.firm_insight(_lg, pt.translate_langues(_team_langues, _lg), _dn, _oldest_year,
+                                    founding_year=(_web or {}).get("founding_year"),
+                                    team_size_n=(_web or {}).get("team_size_n")):
+                _any_lang_lacks_signal = True
+                break
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
@@ -831,11 +853,8 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                 ctx["membres"] = [{"nom": m["nom"], "role": m["fonction"],
                                     "url": None} for m in fallback_members]
             _domaine_names = [i18n.DOMAINES[d][lang]["name"] for d in _team_domaine_ids]
-            if not _domaine_names and _web:
-                if lang == "fr" and _web.get("practice_areas_fr"):
-                    _domaine_names = _web["practice_areas_fr"]
-                elif lang == "en" and _web.get("practice_areas_en"):
-                    _domaine_names = _web["practice_areas_en"]
+            if not _domaine_names:
+                _domaine_names = web_practice_areas(_web, lang)
             ctx["insight_text"] = pt.firm_insight(
                 lang, pt.translate_langues(_team_langues, lang), _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
@@ -845,7 +864,10 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             # liste de membres (ni annee de fondation, ni taille d'equipe, ni langues, ni
             # domaines de competence). Se retire tout seul au prochain build des qu'une
             # donnee reelle arrive (registre ou enrichissement web) -- rien a faire a la main.
-            ctx["noindex"] = not ctx["insight_text"]
+            # Decide une seule fois pour les 4 langues (_any_lang_lacks_signal calcule
+            # plus haut) : jamais indexee dans une langue et noindex dans une autre pour
+            # la meme fiche (cf. retour utilisateur du 2026-08-23).
+            ctx["noindex"] = _any_lang_lacks_signal
             ctx["web_source_note"] = None
             if _web:
                 ctx["web_source_note"] = {
@@ -1339,6 +1361,30 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         if not _web:
             _web = f.get("_name_web")
+        _sh_langues_raw, _seen_shl = [], set()
+        _sh_domaines_raw, _seen_shd = [], set()
+        for m in members:
+            for x in (m.get("langues_raw") or "").split(","):
+                x = x.strip()
+                if x and x not in _seen_shl:
+                    _seen_shl.add(x)
+                    _sh_langues_raw.append(x)
+            for x in (m.get("domaines_raw") or "").split(","):
+                x = x.strip()
+                if x and x not in _seen_shd:
+                    _seen_shd.add(x)
+                    _sh_domaines_raw.append(x)
+        # Noindex decide une seule fois pour les 4 langues : voir commentaire
+        # complet plus bas (meme principe que gen_ge_etudes).
+        _any_lang_lacks_signal = False
+        for _lg in LANGS:
+            _dn = web_practice_areas(_web, _lg) or (_sh_domaines_raw if _lg == "de" else [])
+            _ln = [translate_lang_name(x, _lg) for x in _sh_langues_raw]
+            if not pt.firm_insight(_lg, _ln, _dn, _oldest_year,
+                                    founding_year=(_web or {}).get("founding_year"),
+                                    team_size_n=(_web or {}).get("team_size_n")):
+                _any_lang_lacks_signal = True
+                break
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
@@ -1364,40 +1410,21 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                  "url": avocat_path(code, m["_slug"], lang)}
                 for m in members
             ]
-            _domaine_names = []
-            if _web:
-                if lang == "fr" and _web.get("practice_areas_fr"):
-                    _domaine_names = _web["practice_areas_fr"]
-                elif lang == "en" and _web.get("practice_areas_en"):
-                    _domaine_names = _web["practice_areas_en"]
             # Langues/domaines tels que fournis par le registre de Schaffhouse
-            # (seul canton avec ces champs pour l'instant) -- agreges sur tous
-            # les membres de l'etude, dedupliques. Domaines = jargon juridique
-            # non traduit (page DE uniquement) ; langues = noms simples, traduits.
-            _sh_langues, _seen_l = [], set()
-            for m in members:
-                for x in (m.get("langues_raw") or "").split(","):
-                    x = x.strip()
-                    if x and x not in _seen_l:
-                        _seen_l.add(x)
-                        _sh_langues.append(x)
-            _langues_names = [translate_lang_name(x, lang) for x in _sh_langues]
-            if lang == "de" and not _domaine_names:
-                _sh_domaines, _seen_d = [], set()
-                for m in members:
-                    for x in (m.get("domaines_raw") or "").split(","):
-                        x = x.strip()
-                        if x and x not in _seen_d:
-                            _seen_d.add(x)
-                            _sh_domaines.append(x)
-                _domaine_names = _sh_domaines
+            # (seul canton avec ces champs pour l'instant), agreges sur tous les
+            # membres de l'etude (_sh_langues_raw/_sh_domaines_raw, calcules plus
+            # haut). Domaines = jargon juridique non traduit (page DE uniquement,
+            # risque de contresens) ; langues = noms simples, traduits.
+            _domaine_names = web_practice_areas(_web, lang) or (_sh_domaines_raw if lang == "de" else [])
+            _langues_names = [translate_lang_name(x, lang) for x in _sh_langues_raw]
             ctx["insight_text"] = pt.firm_insight(
                 lang, _langues_names, _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
             )
             # Noindex automatique : voir commentaire equivalent dans gen_ge_etudes.
-            ctx["noindex"] = not ctx["insight_text"]
+            # Decide une seule fois pour les 4 langues (_any_lang_lacks_signal).
+            ctx["noindex"] = _any_lang_lacks_signal
             ctx["web_source_note"] = None
             if _web:
                 ctx["web_source_note"] = {
@@ -1446,6 +1473,23 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         if not _web and firm_row:
             _web = firm_row.get("_name_web")
+        # Noindex decide une seule fois pour les 4 langues (jamais indexee dans
+        # une langue et pas dans une autre pour la meme fiche) : voir commentaire
+        # complet plus bas.
+        _langues_raw_pass = [x.strip() for x in (row.get("langues_raw") or "").split(",") if x.strip()]
+        _any_lang_lacks_signal = False
+        for _lg in LANGS:
+            _ln = [translate_lang_name(x, _lg) for x in _langues_raw_pass]
+            _dn = web_practice_areas(_web, _lg)
+            if not _dn and _lg == "de" and row.get("domaines_raw"):
+                _dn = [x.strip() for x in row["domaines_raw"].split(",") if x.strip()]
+            _seniority = pt.seniority_text(_lg, row.get("annee_admission"))
+            _insight = pt.firm_insight(_lg, _ln, _dn, None,
+                                        founding_year=(_web or {}).get("founding_year"),
+                                        team_size_n=(_web or {}).get("team_size_n")) if (_web or _dn or _ln) else ""
+            if not (_seniority or _ln or _insight):
+                _any_lang_lacks_signal = True
+                break
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = avocat_path(code, row["_slug"], lang)
@@ -1495,13 +1539,8 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             # plus haut (_langues_for_lang) pour la description meta, reutilise ici.
             ctx["langues"] = _langues_for_lang
             ctx["seniority_text"] = pt.seniority_text(lang, row.get("annee_admission"))
-            _domaine_names = []
-            if _web:
-                if lang == "fr" and _web.get("practice_areas_fr"):
-                    _domaine_names = _web["practice_areas_fr"]
-                elif lang == "en" and _web.get("practice_areas_en"):
-                    _domaine_names = _web["practice_areas_en"]
-            elif lang == "de" and row.get("domaines_raw"):
+            _domaine_names = web_practice_areas(_web, lang)
+            if not _domaine_names and lang == "de" and row.get("domaines_raw"):
                 # Domaines de competence tels que formules par le registre de
                 # Schaffhouse -- jargon juridique specifique, on ne traduit pas
                 # (risque de contresens) : affiche uniquement sur la page DE.
@@ -1521,8 +1560,9 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 }[lang]
             # Noindex automatique : aucun signal reel (ni anciennete, ni langue, ni domaine,
             # ni enrichissement web) au-dela du nom/adresse -- se retire tout seul des qu'une
-            # donnee reelle arrive (meme mecanisme que les fiches etude).
-            ctx["noindex"] = not (ctx["seniority_text"] or ctx["langues"] or ctx["domaines"] or ctx["insight_text"])
+            # donnee reelle arrive (meme mecanisme que les fiches etude). Decide une seule
+            # fois pour les 4 langues (_any_lang_lacks_signal, calcule plus haut).
+            ctx["noindex"] = _any_lang_lacks_signal
             _city_link = city_link_for(code, row.get("ville"), lang)
             ctx["ville_url"] = _city_link[1] if _city_link else None
             _bc = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (canton_name, canton_path(code, lang))]
