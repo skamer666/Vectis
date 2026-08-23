@@ -154,6 +154,7 @@
       <div id="vf-success" class="vform-success" hidden>
         <strong id="vf-success-title"></strong>
         <p id="vf-success-text"></p>
+        <p id="vf-success-spam-note" class="vf-spam-note" hidden></p>
         <p id="vf-offer-note" class="calc-source"></p>
       </div>
     </form>
@@ -186,6 +187,7 @@
   var successBox = document.getElementById('vf-success');
   var successTitle = document.getElementById('vf-success-title');
   var successText = document.getElementById('vf-success-text');
+  var successSpamNote = document.getElementById('vf-success-spam-note');
   var offerNote = document.getElementById('vf-offer-note');
 
   var offerBox = document.getElementById('vf-offer');
@@ -203,6 +205,7 @@
   var pendingRequestId = null;
   var pendingSuccessTitle = '';
   var pendingSuccessText = '';
+  var pendingSuccessSpamNote = '';
   var contractScrolledToEnd = false;
 
   function showSuccess(note) {
@@ -210,6 +213,13 @@
     contractBox.hidden = true;
     successTitle.textContent = pendingSuccessTitle;
     successText.textContent = pendingSuccessText;
+    if (pendingSuccessSpamNote) {
+      successSpamNote.textContent = pendingSuccessSpamNote;
+      successSpamNote.hidden = false;
+    } else {
+      successSpamNote.textContent = '';
+      successSpamNote.hidden = true;
+    }
     offerNote.textContent = note || '';
     successBox.hidden = false;
   }
@@ -466,12 +476,15 @@
       if (finalMethod === 'email') {
         pendingSuccessTitle = STR.success_email_title;
         pendingSuccessText = STR.success_email_text;
+        pendingSuccessSpamNote = STR.success_email_spam_note;
       } else if (finalMethod === 'phone') {
         pendingSuccessTitle = STR.success_phone_title;
         pendingSuccessText = STR.success_phone_text;
+        pendingSuccessSpamNote = '';
       } else {
         pendingSuccessTitle = STR.success_document_title;
         pendingSuccessText = STR.success_document_text;
+        pendingSuccessSpamNote = '';
       }
       pendingRequestId = (result.data && result.data.id) || null;
       if (window.legatisTrack) window.legatisTrack('verification_submit', { method: finalMethod });
