@@ -72,6 +72,20 @@ async function supabaseSelect(table, query) {
   return resp.json();
 }
 
+// `query` doit inclure le(s) filtre(s) (ex. "id=eq.<uuid>") -- pas de DELETE
+// sans filtre expose ici, pour rendre un appel accidentellement non filtre
+// impossible a exprimer avec cette fonction.
+async function supabaseDelete(table, query) {
+  const resp = await fetch(`${SUPABASE_URL}/rest/v1/${table}?${query}`, {
+    method: "DELETE",
+    headers: serviceHeaders({ Prefer: "return=minimal" }),
+  });
+  if (!resp.ok) {
+    const text = await resp.text();
+    throw new Error(`Supabase delete failed: ${resp.status} ${text.slice(0, 300)}`);
+  }
+}
+
 async function storageUpload(objectPath, buffer, mime) {
   const resp = await fetch(`${SUPABASE_URL}/storage/v1/object/${BUCKET}/${objectPath}`, {
     method: "POST",
@@ -84,10 +98,14 @@ async function storageUpload(objectPath, buffer, mime) {
   }
 }
 
-async function storageDelete(objectPaths) {
+// `bucket` optionnel (par defaut BUCKET = "verification-documents") : garde
+// la compatibilite avec les appels existants (documents/selfies) tout en
+// permettant de nettoyer d'autres buckets prives/publics (ex. "lawyer-photos"
+// depuis api/reset-test-account.js).
+async function storageDelete(objectPaths, bucket) {
   const paths = objectPaths.filter(Boolean);
   if (!paths.length) return;
-  const resp = await fetch(`${SUPABASE_URL}/storage/v1/object/${BUCKET}`, {
+  const resp = await fetch(`${SUPABASE_URL}/storage/v1/object/${bucket || BUCKET}`, {
     method: "DELETE",
     headers: serviceHeaders({ "Content-Type": "application/json" }),
     body: JSON.stringify({ prefixes: paths }),
@@ -280,6 +298,7 @@ module.exports = {
   supabaseInsert,
   supabasePatch,
   supabaseSelect,
+  supabaseDelete,
   storageUpload,
   storageDelete,
   storageSignedUrl,

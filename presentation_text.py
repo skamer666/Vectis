@@ -9,6 +9,21 @@ neutres) plutot que de deviner le genre a partir du prenom.
 """
 
 
+def smart_truncate(text, limit=158):
+    """Coupe `text` a `limit` caracteres sans jamais couper un mot en deux.
+    Sans quoi une meta description generee a partir d'un texte plus long
+    finit sur un mot tronque (ex. "...seront pu" au lieu de "...seront
+    publiees") -- visible tel quel dans le snippet Google. Ajoute une
+    ellipse uniquement quand une troncature a reellement eu lieu."""
+    if text is None or len(text) <= limit:
+        return text
+    cut = text[:limit]
+    last_space = cut.rfind(" ")
+    if last_space > 0:
+        cut = cut[:last_space]
+    return cut.rstrip(" ,;:.-") + "…"
+
+
 def lawyer_presentation(lang, nom, canton_name, etude=None, ville=None, domaines=None, fonction=None,
                          langues=None, seniority_year=None):
     """langues et seniority_year sont deux signaux reels supplementaires (deja
@@ -158,6 +173,29 @@ def cross_intro(lang, domaine_name, canton_name):
                 f"contatti per ciascuna scheda.")
     return (f"List of lawyers registered in the canton of {canton_name} who list "
             f"{domaine_name.lower()} among their practice areas, each with firm, city and contact "
+            f"details.")
+
+
+def ville_cross_intro(lang, domaine_name, canton_name, ville_name):
+    """Variante de cross_intro() pour les pages ville x domaine : {ville_name}
+    est une commune, jamais un canton -- contrairement a cross_intro(), qui
+    suppose que son 3e argument est le nom du canton lui-meme. Reutiliser
+    cross_intro() ici en lui passant la ville produirait "canton de {ville}",
+    ce qui est factuellement faux (ex. Carouge, Petit-Lancy ne sont pas des
+    cantons mais des communes genevoises)."""
+    if lang == "fr":
+        return (f"Liste des avocats de {ville_name}, dans le canton de {canton_name}, ayant indiqué "
+                f"{domaine_name.lower()} parmi leurs domaines de compétence, avec étude et "
+                f"coordonnées de contact pour chaque fiche.")
+    if lang == "de":
+        return (f"Liste der Anwältinnen und Anwälte in {ville_name} (Kanton {canton_name}) mit dem "
+                f"angegebenen Fachgebiet {domaine_name}, jeweils mit Kanzlei und Kontaktangaben.")
+    if lang == "it":
+        return (f"Elenco degli avvocati di {ville_name}, nel Cantone {canton_name}, che indicano "
+                f"{domaine_name.lower()} tra i propri ambiti di competenza, con studio e contatti "
+                f"per ciascuna scheda.")
+    return (f"List of lawyers in {ville_name}, canton of {canton_name}, who list "
+            f"{domaine_name.lower()} among their practice areas, each with firm and contact "
             f"details.")
 
 

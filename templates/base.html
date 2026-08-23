@@ -12,18 +12,16 @@
 <link rel="alternate" hreflang="x-default" href="{{ hreflang.get('fr', canonical_url) }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Polices Google chargees en non-bloquant (preload + bascule en stylesheet
-     au onload) : les deux <link rel="stylesheet"> directs precedents
-     bloquaient le premier rendu sur CHAQUE page du site le temps d'un aller-
-     retour vers fonts.googleapis.com. font-display=swap (deja dans l'URL)
-     garanti un texte visible immediatement avec la police systeme, remplacee
-     par la police finale des qu'elle arrive -- pas de flash de texte invisible.
-     <noscript> garde le comportement bloquant classique si JS est desactive. -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,700;1,500;1,700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<!-- Polices Google en non-bloquant (preload + bascule au onload), <noscript>
+     en secours si JS desactive. display=optional (pas swap, cf. audit
+     PageSpeed du 2026-08-22, CLS labo 0.221) : evite le reflow du swap vers
+     la police finale -- police systeme gardee si le fichier n'est pas deja
+     en cache, jamais de bascule differee. Detail/tradeoff : voir le commit. -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,700;1,500;1,700&display=optional" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,700;1,500;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,700;1,500;1,700&display=optional">
 </noscript>
 <link rel="stylesheet" href="{{ asset_prefix }}static/css/style.css">
 <link rel="icon" href="{{ asset_prefix }}static/favicon.svg" type="image/svg+xml">

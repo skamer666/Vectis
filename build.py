@@ -164,7 +164,7 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
     return {
         "lang": lang,
         "title": title,
-        "meta_description": description,
+        "meta_description": pt.smart_truncate(description, 158),
         "canonical_url": BASE_DOMAIN + path,
         "hreflang": hreflang,
         "nav_hreflang": {lg: (u[len(BASE_DOMAIN):] if u.startswith(BASE_DOMAIN) else u) for lg, u in hreflang.items()},
@@ -636,13 +636,16 @@ for _r in GE_INDIVIDUALS:
 # search-index-{lang}.json (gen_verification_contacts/gen_search) -- c'est ce
 # qui permet de la retrouver via "Trouvez votre fiche" sur /verifier-mon-identite/
 # pour tester le parcours de creation de compte sans jamais toucher a une
-# vraie fiche de professionnel. Aucun email/telephone connu => seule la voie
-# "document" est proposee. A retirer (une seule ligne) le jour ou ce compte de
-# test n'est plus necessaire.
+# vraie fiche de professionnel. Email/telephone = ceux de Greg (memes valeurs
+# que gregoiregiuliano@hotmail.com utilise ailleurs comme contact reel) : les
+# 3 paliers de verification (email, telephone, document) sont donc tous
+# testables -- le lien de confirmation email et l'appel du palier telephone
+# arrivent chez lui. A retirer (une seule ligne) le jour ou ce compte de test
+# n'est plus necessaire.
 GE_INDIVIDUALS.append({
     "nom_complet": "Compte Test Legatis", "fonction": "Avocat", "etude": "",
-    "adresse": "Rue de Test 1", "npa": "1200", "ville": "Genève", "telephone": "",
-    "canton": "GE", "email": "", "site_web": "", "domaines": "", "langues": "Français",
+    "adresse": "Rue de Test 1", "npa": "1200", "ville": "Genève", "telephone": "+32 493 33 28 62",
+    "canton": "GE", "email": "gregoiregiuliano@hotmail.com", "site_web": "", "domaines": "", "langues": "Français",
     "brevet_date": "2020", "brevet_pays": "Suisse", "source_email": "test-fixture",
     "_slug": "compte-test-legatis",
 })
@@ -700,7 +703,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
                                            fonction=row.get("fonction") or None,
                                            langues=_langues_for_lang,
-                                           seniority_year=row.get("brevet_date"))[:158]
+                                           seniority_year=row.get("brevet_date"))
             _title_place = clean_city_for_title(row.get("ville")) or canton_name
             title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {_title_place} | Legatis"
             ctx = base_ctx(lang, path, title, desc,
@@ -793,7 +796,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = etude_path("GE", row["_slug"], lang)
-            desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)[:158]
+            desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=row.get("ville"), n_membres=n)
             _ville = row.get("ville") or ""
             _loc = f"{_ville}, {canton_name}" if _ville and _ville.lower() != canton_name.lower() else canton_name
             _title = f"{nom_etude} | {i18n.UI[lang]['firm']} {i18n.UI[lang]['in']} {_loc} | Legatis"
@@ -923,7 +926,7 @@ def gen_canton_hub_ge():
     for lang in LANGS:
         canton_name = i18n.CANTONS["GE"][lang]["name"]
         path = canton_path("GE", lang)
-        desc = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])[:158]
+        desc = pt.canton_intro(lang, canton_name, CANTON_COUNTS["GE"])
         _title = (f"{canton_name} : {i18n.UI[lang]['find_a_lawyer']} | "
                   f"{CANTON_COUNTS['GE']} {LAWYER_WORD[lang]} | Legatis")
         ctx = base_ctx(lang, path, _title, desc,
@@ -956,7 +959,7 @@ def gen_domain_hubs():
         for lang in LANGS:
             dname = i18n.DOMAINES[did][lang]["name"]
             path = domaine_path(did, lang)
-            desc = pt.domaine_intro(lang, dname)[:158]
+            desc = pt.domaine_intro(lang, dname)
             _title = (f"{dname} | {i18n.UI[lang]['find_a_lawyer']} {COUNTRY_PREP[lang]} "
                       f"{COUNTRY_NAME[lang]} | Legatis")
             ctx = base_ctx(lang, path, _title, desc,
@@ -979,7 +982,7 @@ def gen_cross_ge():
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             dname = i18n.DOMAINES[did][lang]["name"]
             path = cross_path("GE", did, lang)
-            desc = pt.cross_intro(lang, dname, canton_name)[:158]
+            desc = pt.cross_intro(lang, dname, canton_name)
             _title = (f"{dname} {i18n.UI[lang]['in']} {canton_name} | "
                       f"{i18n.UI[lang]['find_a_lawyer']} | Legatis")
             ctx = base_ctx(lang, path, _title, desc,
@@ -993,6 +996,7 @@ def gen_cross_ge():
                  "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
                 for r in matches
             ]
+            ctx["registry"] = ctx["avocats"]
             ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
             ctx["no_specialty_text"] = pt.cross_fallback_text(lang, dname, canton_name)
             ctx["fallback_avocats"] = fallback_by_lang[lang]
@@ -1262,7 +1266,7 @@ def gen_canton_hub(code):
     for lang in LANGS:
         canton_name = i18n.CANTONS[code][lang]["name"]
         path = canton_path(code, lang)
-        desc = pt.canton_intro(lang, canton_name, n_total)[:158]
+        desc = pt.canton_intro(lang, canton_name, n_total)
         _title = (f"{canton_name} : {i18n.UI[lang]['find_a_lawyer']} | "
                   f"{n_total} {LAWYER_WORD[lang]} | Legatis")
         ctx = base_ctx(lang, path, _title, desc,
@@ -1294,7 +1298,7 @@ def gen_canton_cross(code):
             canton_name = i18n.CANTONS[code][lang]["name"]
             dname = i18n.DOMAINES[did][lang]["name"]
             path = cross_path(code, did, lang)
-            desc = pt.cross_intro(lang, dname, canton_name)[:158]
+            desc = pt.cross_intro(lang, dname, canton_name)
             _title = (f"{dname} {i18n.UI[lang]['in']} {canton_name} | "
                       f"{i18n.UI[lang]['find_a_lawyer']} | Legatis")
             ctx = base_ctx(lang, path, _title, desc,
@@ -1338,7 +1342,7 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
         for lang in LANGS:
             canton_name = i18n.CANTONS[code][lang]["name"]
             path = etude_path(code, f["_slug"], lang)
-            desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)[:158]
+            desc = pt.firm_presentation(lang, nom_etude, canton_name, ville=ville, n_membres=n)
             _loc = f"{ville}, {canton_name}" if ville and ville.lower() != canton_name.lower() else canton_name
             _title = f"{nom_etude} | {i18n.UI[lang]['firm']} {i18n.UI[lang]['in']} {_loc} | Legatis"
             ctx = base_ctx(lang, path, _title, desc,
@@ -1456,7 +1460,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                                            ville=row.get("ville") or None,
                                            fonction=row.get("fonction") or None,
                                            langues=_langues_for_lang,
-                                           seniority_year=row.get("annee_admission"))[:158]
+                                           seniority_year=row.get("annee_admission"))
             _title_place = clean_city_for_title(row.get("ville")) or canton_name
             _title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {_title_place} | Legatis"
             ctx = base_ctx(lang, path, _title, desc,
@@ -1756,7 +1760,7 @@ def gen_villes():
                 intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
                 title = (f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | "
                          f"{city['count']} {LAWYER_WORD[lang]} | Legatis")
-                ctx = base_ctx(lang, path, title, intro[:158],
+                ctx = base_ctx(lang, path, title, intro,
                                 {lg: BASE_DOMAIN + ville_path(code, city["slug"], lg) for lg in LANGS})
                 ctx["ville_name"] = city["name"]
                 ctx["canton_name"] = canton_name
@@ -1814,18 +1818,19 @@ def gen_ville_domaines():
                     canton_name = i18n.CANTONS[code][lang]["name"]
                     dname = i18n.DOMAINES[did][lang]["name"]
                     path = ville_domaine_path(code, city["slug"], did, lang)
-                    desc = pt.cross_intro(lang, dname, city["name"])[:158]
+                    desc = pt.ville_cross_intro(lang, dname, canton_name, city["name"])
                     ctx = base_ctx(lang, path, f"{dname} {i18n.UI[lang]['in']} {city['name']} | Legatis", desc,
                                     {lg: BASE_DOMAIN + ville_domaine_path(code, city["slug"], did, lg) for lg in LANGS})
                     ctx["domaine_name"] = dname
                     ctx["canton_name"] = canton_name
                     ctx["h1"] = pt.cross_h1(lang, dname, city["name"])
-                    ctx["intro_text"] = pt.cross_intro(lang, dname, city["name"])
+                    ctx["intro_text"] = pt.ville_cross_intro(lang, dname, canton_name, city["name"])
                     ctx["avocats"] = [
                         {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
                          "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
                         for r in matches
                     ]
+                    ctx["registry"] = ctx["avocats"]
                     ctx["list_title"] = i18n.UI[lang]["all_practice_areas"]
                     ctx["no_specialty_text"] = ""
                     ctx["fallback_avocats"] = []
@@ -1882,7 +1887,7 @@ def gen_guides():
     for lang in LANGS:
         path = guides_index_path(lang)
         ctx = base_ctx(lang, path, f"{i18n.UI[lang]['guides_title']} | Legatis",
-                        GUIDES_INDEX_INTRO[lang][:158], hreflang_for(guides_index_path))
+                        GUIDES_INDEX_INTRO[lang], hreflang_for(guides_index_path))
         ctx["intro_text"] = GUIDES_INDEX_INTRO[lang]
         ctx["guides"] = [
             {"title": guides_content.GUIDES[g][lang]["title"],
@@ -1898,7 +1903,7 @@ def gen_guides():
         for lang in LANGS:
             g = guides_content.GUIDES[gid][lang]
             path = guide_path(gid, lang)
-            ctx = base_ctx(lang, path, f"{g['title']} | Legatis", g["meta"][:158],
+            ctx = base_ctx(lang, path, f"{g['title']} | Legatis", g["meta"],
                             {lg: BASE_DOMAIN + guide_path(gid, lg) for lg in LANGS})
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
@@ -1944,7 +1949,7 @@ def gen_etude_aj():
         pc = aj.page_context(lang)
         title = pc["t"]["title"]
         meta_desc = pc["t"]["meta_description"]
-        ctx = base_ctx(lang, path, f"{title} | Legatis", meta_desc[:158], hreflang_for(etude_aj_path))
+        ctx = base_ctx(lang, path, f"{title} | Legatis", meta_desc, hreflang_for(etude_aj_path))
         ctx.update(pc)
         ctx["pdf_url"] = f"/static/downloads/etude-aj-cantons-{lang}.pdf"
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (title, path)]
@@ -2016,7 +2021,7 @@ def gen_verification_request():
     for lang in LANGS:
         path = verification_request_path(lang)
         f = verification_content.FORM[lang]
-        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(verification_request_path))
+        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"], hreflang_for(verification_request_path))
         ctx["f"] = f
         ctx["search_index_url"] = f"/search-index-{lang}.json"
         ctx["verification_index_url"] = "/verification-index.json"
@@ -2040,7 +2045,7 @@ def gen_verification_confirmee():
     for lang in LANGS:
         path = verification_confirmee_path(lang)
         c = verification_content.CONFIRM[lang]
-        ctx = base_ctx(lang, path, f"{c['title']} | Legatis", c["ok_text"][:158], hreflang_for(verification_confirmee_path))
+        ctx = base_ctx(lang, path, f"{c['title']} | Legatis", c["ok_text"], hreflang_for(verification_confirmee_path))
         ctx["c"] = c
         ctx["verification_request_url"] = verification_request_path(lang)
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (c["title"], path)]
@@ -2087,7 +2092,7 @@ def gen_connexion():
     for lang in LANGS:
         path = connexion_path(lang)
         l = account_content.LOGIN[lang]
-        ctx = base_ctx(lang, path, f"{l['title']} | Legatis", l["intro"][:158], hreflang_for(connexion_path))
+        ctx = base_ctx(lang, path, f"{l['title']} | Legatis", l["intro"], hreflang_for(connexion_path))
         ctx["l"] = l
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (l["title"], path)]
         write_page(path, render("connexion.html", ctx))
@@ -2102,7 +2107,7 @@ def gen_mon_profil():
     for lang in LANGS:
         path = mon_profil_path(lang)
         p = account_content.PROFILE[lang]
-        ctx = base_ctx(lang, path, f"{p['title']} | Legatis", p["intro"][:158], hreflang_for(mon_profil_path))
+        ctx = base_ctx(lang, path, f"{p['title']} | Legatis", p["intro"], hreflang_for(mon_profil_path))
         ctx["p"] = p
         ctx["noindex"] = True
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (p["title"], path)]
@@ -2114,7 +2119,7 @@ def gen_avis_request():
     for lang in LANGS:
         path = avis_request_path(lang)
         f = review_content.FORM[lang]
-        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"][:158], hreflang_for(avis_request_path))
+        ctx = base_ctx(lang, path, f"{f['title']} | Legatis", f["intro"], hreflang_for(avis_request_path))
         ctx["f"] = f
         ctx["search_index_url"] = f"/search-index-{lang}.json"
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
@@ -2242,7 +2247,7 @@ def gen_vitrines():
             path = vitrine_path(slug, lang)
             pctx = _vitrine_page_ctx(sub, lang)
             title = f"{pctx['nom_complet']} | Legatis"
-            desc = (pctx.get("accroche") or pctx.get("bio") or "")[:158]
+            desc = pctx.get("accroche") or pctx.get("bio") or ""
             ctx = base_ctx(lang, path, title, desc, {lg: vitrine_path(slug, lg) for lg in LANGS})
             ctx.update(pctx)
             ctx["noindex"] = False
@@ -2283,7 +2288,7 @@ def gen_blog():
     for lang in LANGS:
         path = blog_index_path(lang)
         ctx = base_ctx(lang, path, f"{i18n.UI[lang]['blog_title']} | Legatis",
-                        i18n.UI[lang]["blog_intro"][:158], hreflang_for(blog_index_path))
+                        i18n.UI[lang]["blog_intro"], hreflang_for(blog_index_path))
         ctx["intro_text"] = i18n.UI[lang]["blog_intro"]
         ctx["articles"] = [
             {"title": blog_content.BLOG_ARTICLES[b][lang]["title"],
@@ -2306,7 +2311,7 @@ def gen_blog():
             a = article[lang]
             path = blog_article_path(bid, lang)
             dname = i18n.DOMAINES[did][lang]["name"]
-            ctx = base_ctx(lang, path, f"{a['title']} | Legatis", a["meta"][:158], article_hreflang)
+            ctx = base_ctx(lang, path, f"{a['title']} | Legatis", a["meta"], article_hreflang)
             ctx["page_title"] = a["title"]
             ctx["domaine_name"] = dname
             ctx["sections"] = a["sections"]
@@ -2413,7 +2418,7 @@ def gen_static_pages():
         for lang in LANGS:
             content = sp_content.get_page(page_id, lang)
             path = f"/{lang}/{seg(page_id, lang)}/"
-            desc = (content["sections"][0]["paragraphs"][0])[:158]
+            desc = content["sections"][0]["paragraphs"][0]
             ctx = base_ctx(lang, path, f"{content['title']} | Legatis", desc,
                             {lg: f"/{lg}/{seg(page_id, lg)}/" for lg in LANGS})
             ctx["page_title"] = content["title"]
@@ -2432,7 +2437,13 @@ def gen_sitemaps():
             if "index.html" in filenames:
                 fpath = os.path.join(dirpath, "index.html")
                 with open(fpath, encoding="utf-8") as f:
-                    head = f.read(3500)
+                    # Le <head> peut largement depasser une taille fixe (jusqu'a
+                    # ~14 Ko sur les pages avec schema ItemList, cf. audit SEO du
+                    # 2026-08-22 -- une lecture tronquee a 3500 octets a deja
+                    # rate la balise noindex de ~35000 pages et gonfle le
+                    # sitemap en consequence). On lit le fichier entier : le cout
+                    # est negligeable au regard du reste du build.
+                    head = f.read()
                 if 'name="robots" content="noindex' in head:
                     continue
                 rel = os.path.relpath(dirpath, DIST_DIR).replace(os.sep, "/")
