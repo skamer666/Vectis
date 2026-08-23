@@ -38,6 +38,23 @@ const EMAIL_SUBJECTS = {
   en: "Your identity is confirmed on Legatis",
 };
 
+// Personnalise avec le nom de l'avocat/etude (row.avocat_nom) et traduit
+// reellement le corps du message dans les 4 langues -- avant ce correctif,
+// seul le sujet etait traduit, le corps restait toujours en francais quel
+// que soit lang (bug decouvert lors de la revue du 2026-08-23).
+function approvalEmailBody(lang, nom, loginLink) {
+  if (lang === "de") {
+    return `Guten Tag ${nom}\n\nIhre Identität wurde bestätigt: Ihr Legatis-Konto ist ab sofort aktiv.\n\nSie können sich jetzt mit dem von Ihnen gewählten Passwort anmelden:\n${loginLink}\n\nFreundliche Grüsse\nDas Legatis-Team`;
+  }
+  if (lang === "it") {
+    return `Gentile ${nom}\n\nLa vostra identità è stata confermata: il vostro account Legatis è ora attivo.\n\nPotete accedere fin da subito con la password che avete scelto:\n${loginLink}\n\nCordiali saluti\nIl team Legatis`;
+  }
+  if (lang === "en") {
+    return `Hello ${nom}\n\nYour identity has been confirmed: your Legatis account is now active.\n\nYou can log in right away with the password you chose:\n${loginLink}\n\nBest regards,\nThe Legatis team`;
+  }
+  return `Bonjour ${nom}\n\nVotre identité a été confirmée : votre compte Legatis est désormais actif.\n\nVous pouvez vous connecter dès maintenant avec le mot de passe que vous avez choisi :\n${loginLink}\n\nCordialement,\nL'équipe Legatis`;
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ error: "method_not_allowed" });
@@ -107,7 +124,7 @@ module.exports = async function handler(req, res) {
       const seg = LOGIN_SEGMENTS[lang] || LOGIN_SEGMENTS.fr;
       const loginLink = `${BASE_DOMAIN}/${lang}/${seg}/`;
       const subject = EMAIL_SUBJECTS[lang] || EMAIL_SUBJECTS.fr;
-      const emailBody = `${subject}. Vous pouvez vous connecter des maintenant avec le mot de passe que vous avez choisi : ${loginLink}`;
+      const emailBody = approvalEmailBody(lang, row.avocat_nom || "", loginLink);
       const sent = await lib.sendEmail(row.account_email, subject, emailBody);
       patch.email_sent = !!sent;
     } else {

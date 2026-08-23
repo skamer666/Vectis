@@ -41,6 +41,10 @@
 //   RESEND_FROM_EMAIL          -- optionnelle, defaut ci-dessous. Doit être
 //                                  un domaine verifie sur Resend pour que
 //                                  l'envoi reussisse reellement.
+//
+// Notification admin : chaque demande (quel que soit le palier) envoie aussi
+// un email a ADMIN_NOTIFY_EMAIL (Greg) via notifyAdminNewRequest() -- best
+// effort comme tout envoi d'email ici, ne bloque jamais la demande.
 
 const lib = require("./_verification-lib");
 
@@ -50,6 +54,31 @@ const MAX_FILE_BYTES = 8 * 1024 * 1024;
 const TOKEN_TTL_HOURS = 48;
 const MIN_PASSWORD_LENGTH = 8;
 const BASE_DOMAIN = "https://legatis.ch";
+
+// Adresse perso de Greg (voir aussi account_content.py error_generic) --
+// notifiee sur CHAQUE demande de verification, quel que soit le palier, pour
+// qu'il ne depende pas de consulter /interne/verification-avocats/ a
+// intervalles reguliers pour savoir qu'une demande est arrivee. Palier email
+// = deja auto-traite si l'avocat clique le lien (rien a faire, note dans le
+// mail) ; phone/document = attend une action de sa part.
+const ADMIN_NOTIFY_EMAIL = "gregoiregiuliano@hotmail.com";
+const ADMIN_URL = `${BASE_DOMAIN}/interne/verification-avocats/`;
+const METHOD_LABELS_FR = { email: "email (auto-validé si le lien est cliqué)", phone: "téléphone (à rappeler)", document: "document (à examiner)" };
+
+function notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail, telephone, note }) {
+  const subject = `Nouvelle demande de vérification — ${avocatNom} (${canton})`;
+  let body = `Palier : ${METHOD_LABELS_FR[method] || method}\nFiche : ${BASE_DOMAIN}${avocatUrl}\nEmail du compte : ${accountEmail}`;
+  if (method === "phone") {
+    body += `\nNuméro à appeler (déjà publié sur la fiche) : ${telephone || "(inconnu)"}`;
+    if (note) body += `\nDisponibilités indiquées : ${note}`;
+  }
+  body += `\n\nÀ traiter sur ${ADMIN_URL}`;
+  // Best-effort, comme tous les envois d'email de ce depot (voir sendEmail) :
+  // ne doit jamais faire echouer la demande elle-meme si Resend est absent
+  // ou en erreur -- la ligne verification_requests reste de toute facon
+  // consultable sur la page interne.
+  return lib.sendEmail(ADMIN_NOTIFY_EMAIL, subject, body).catch(function () { return false; });
+}
 
 function truncate(s, n) {
   return (typeof s === "string" ? s.trim() : "").slice(0, n);
@@ -63,18 +92,21 @@ function normalizeEmail(s) {
   return (s || "").trim().toLowerCase();
 }
 
-function sendVerificationEmail(toEmail, link, lang) {
+function sendVerificationEmail(toEmail, nom, link, lang) {
   const subjects = {
     fr: "Confirmez votre identité sur Legatis",
     de: "Bestätigen Sie Ihre Identität auf Legatis",
     it: "Confermate la vostra identità su Legatis",
     en: "Confirm your identity on Legatis",
   };
+  // Personnalise (nom de l'avocat/etude) et explique en une phrase POURQUOI
+  // ce mail arrive, avant le lien -- un lien nu sans contexte ni signature
+  // ressemble a du phishing, surtout pour un premier contact avec Legatis.
   const bodies = {
-    fr: `Cliquez sur ce lien pour confirmer votre identité et activer votre compte (valable ${TOKEN_TTL_HOURS}h) : ${link}`,
-    de: `Klicken Sie auf diesen Link, um Ihre Identität zu bestätigen und Ihr Konto zu aktivieren (gültig ${TOKEN_TTL_HOURS}h): ${link}`,
-    it: `Cliccate su questo link per confermare la vostra identità e attivare il vostro account (valido ${TOKEN_TTL_HOURS}h): ${link}`,
-    en: `Click this link to confirm your identity and activate your account (valid ${TOKEN_TTL_HOURS}h): ${link}`,
+    fr: `Bonjour ${nom}\n\nVous avez demandé à créer votre compte Legatis pour votre fiche sur l'annuaire. Cliquez sur ce lien pour confirmer votre identité et activer votre compte (valable ${TOKEN_TTL_HOURS}h) :\n${link}\n\nSi vous n'êtes pas à l'origine de cette demande, ignorez simplement cet email.\n\nCordialement,\nL'équipe Legatis`,
+    de: `Guten Tag ${nom}\n\nSie haben beantragt, Ihr Legatis-Konto für Ihren Eintrag im Verzeichnis zu erstellen. Klicken Sie auf diesen Link, um Ihre Identität zu bestätigen und Ihr Konto zu aktivieren (gültig ${TOKEN_TTL_HOURS}h):\n${link}\n\nFalls Sie diese Anfrage nicht gestellt haben, ignorieren Sie diese E-Mail einfach.\n\nFreundliche Grüsse\nDas Legatis-Team`,
+    it: `Gentile ${nom}\n\nAvete richiesto di creare il vostro account Legatis per la vostra scheda sull'annuario. Cliccate su questo link per confermare la vostra identità e attivare il vostro account (valido ${TOKEN_TTL_HOURS}h):\n${link}\n\nSe non siete voi all'origine di questa richiesta, ignorate semplicemente questa email.\n\nCordiali saluti\nIl team Legatis`,
+    en: `Hello ${nom}\n\nYou requested to create your Legatis account for your directory listing. Click this link to confirm your identity and activate your account (valid ${TOKEN_TTL_HOURS}h):\n${link}\n\nIf you didn't make this request, simply ignore this email.\n\nBest regards,\nThe Legatis team`,
   };
   return lib.sendEmail(toEmail, subjects[lang] || subjects.fr, bodies[lang] || bodies.fr);
 }
@@ -216,19 +248,22 @@ module.exports = async function handler(req, res) {
         token_expires_at: expiresAt,
       });
       const link = `${BASE_DOMAIN}/api/verification-confirm?rid=${inserted.id}&token=${rawToken}&lang=${lang}`;
-      const sent = await sendVerificationEmail(accountEmail, link, lang);
+      const sent = await sendVerificationEmail(accountEmail, avocatNom, link, lang);
       if (sent) {
         await lib.supabasePatch("verification_requests", inserted.id, { email_sent: true });
       }
+      await notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail });
       res.status(200).json({ ok: true, method: "email", id: inserted.id });
       return;
     }
 
     if (method === "phone") {
+      const contactNote = truncate(body.note, 300) || null;
       const insertedPhone = await lib.supabaseInsert("verification_requests", {
         ...baseRow,
-        contact_note: truncate(body.note, 300) || null,
+        contact_note: contactNote,
       });
+      await notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail, telephone: known.telephone, note: contactNote });
       res.status(200).json({ ok: true, method: "phone", id: insertedPhone.id });
       return;
     }
@@ -270,6 +305,7 @@ module.exports = async function handler(req, res) {
       selfie_path: selfiePath,
     });
 
+    await notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail });
     res.status(200).json({ ok: true, method: "document", id: inserted.id });
   } catch (err) {
     // La ligne verification_requests n'a pas pu etre ecrite correctement :
