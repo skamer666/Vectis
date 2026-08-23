@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Legatis — systeme de design "neobanque suisse", inspire de Monzo.com
+   Legatis - systeme de design "neobanque suisse", inspire de Monzo.com
    Titres : Bricolage Grotesque, tres gras, tres serre (grand corail/encre)
    Texte  : Public Sans (lisibilite, neutre)
    Palette: corail vif (#ff4f40, signature Monzo) + encre marine profonde
             + blanc quasi pur. Un seul accent fort utilise avec parcimonie
-            (cartes, kickers, hover) plutot que partout — restraint plutot
+            (cartes, kickers, hover) plutot que partout - restraint plutot
             que saturation. Coins tres arrondis, boutons pilule, grandes
             cartes photo/couleur pleine largeur façon carrousel produits.
             Zero filet dore, zero lettrine, zero texture decorative.
@@ -20,21 +20,21 @@
 [hidden]{ display:none !important; }
 
 :root{
-  /* encre marine — proche du "Ink" Monzo (#091723) */
+  /* encre marine - proche du "Ink" Monzo (#091723) */
   --ink-950: oklch(19% 0.03 253);
   --ink-900: oklch(23% 0.032 253);
   --ink-800: oklch(29% 0.032 253);
   --ink-700: oklch(38% 0.03 253);
   --ink-500: oklch(52% 0.024 253);
 
-  /* papier — blanc quasi pur, plus froid que l'ivoire d'avant */
+  /* papier - blanc quasi pur, plus froid que l'ivoire d'avant */
   --paper-0:  oklch(100% 0 0);
   --paper-50: oklch(97.3% 0.004 250);
   --paper-100:oklch(94.5% 0.006 250);
   --paper-200:oklch(89% 0.008 250);
   --paper-300:oklch(78% 0.01 250);
 
-  /* corail vif — signature Monzo (#ff4f40), accent primaire unique */
+  /* corail vif - signature Monzo (#ff4f40), accent primaire unique */
   --accent-700: oklch(52% 0.19 29);
   --accent-600: oklch(63% 0.21 29);
   --accent-500: oklch(70% 0.19 29);
@@ -42,7 +42,7 @@
   --accent-100: oklch(93% 0.045 27);
   --accent-50:  oklch(97% 0.02 27);
 
-  /* accent secondaire — gris-ardoise neutre, tres discret (plus de dore) */
+  /* accent secondaire - gris-ardoise neutre, tres discret (plus de dore) */
   --brass-800: oklch(32% 0.02 245);
   --brass-600: oklch(52% 0.018 245);
   --brass-400: oklch(68% 0.014 245);
@@ -196,7 +196,7 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
 mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; border-radius:2px; }
 
 /* ==========================================================================
-   Masthead — reagit au defilement (compact + ombre)
+   Masthead - reagit au defilement (compact + ombre)
    ========================================================================== */
 .masthead-utility{
   background:var(--paper-50); color:var(--text-muted);
@@ -297,7 +297,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .breadcrumb .sep{ margin-inline:var(--space-xs); color:var(--border-strong); }
 
 /* ==========================================================================
-   Hero — composition editoriale, sceau typographique en filigrane
+   Hero - composition editoriale, sceau typographique en filigrane
    ========================================================================== */
 .hero{
   padding-block:var(--space-4xl) var(--space-3xl);
@@ -1125,7 +1125,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 }
 
 /* ==========================================================================
-   Carrousel de cartes accueil — inspire de la rangee "Current accounts /
+   Carrousel de cartes accueil - inspire de la rangee "Current accounts /
    Savings / Credit / Investments" de Monzo.com : grandes cartes tres
    arrondies, melange photo + aplat corail + aplat encre, titre en gros,
    petit bouton fleche rond en haut a droite.

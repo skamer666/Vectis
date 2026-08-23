@@ -84,11 +84,11 @@
   }
 
   function pct(x) {
-    return x === null || x === undefined ? '—' : Math.round(x * 100) + ' %';
+    return x === null || x === undefined ? '-' : Math.round(x * 100) + ' %';
   }
 
   function seconds(x) {
-    if (x === null || x === undefined) return '—';
+    if (x === null || x === undefined) return '-';
     var r = Math.round(x);
     if (r < 60) return r + ' s';
     return Math.floor(r / 60) + ' min ' + (r % 60) + ' s';
@@ -134,7 +134,7 @@
       document.getElementById('ad-returning').textContent = pct(d.returning_visitor_rate);
       document.getElementById('ad-bounce').textContent = pct(d.bounce_rate);
       document.getElementById('ad-duration').textContent = seconds(d.avg_duration_seconds);
-      document.getElementById('ad-scroll').textContent = d.avg_scroll_depth === null ? '—' : Math.round(d.avg_scroll_depth) + ' %';
+      document.getElementById('ad-scroll').textContent = d.avg_scroll_depth === null ? '-' : Math.round(d.avg_scroll_depth) + ' %';
       renderTable(document.getElementById('ad-top-pages'), d.top_pages);
       renderTable(document.getElementById('ad-top-referrers'), d.top_referrers);
       renderTable(document.getElementById('ad-devices'), d.device_breakdown);

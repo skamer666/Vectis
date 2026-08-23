@@ -2053,6 +2053,24 @@ def gen_verification_contacts():
         json.dump(public_index, f, ensure_ascii=False)
 
 
+def gen_contract_export():
+    """Export du contrat "site web gratuit" (website_offer_content.CONTRACT)
+    en JSON, JAMAIS copie dans dist/ (comme verification_contacts.json
+    ci-dessus) -- lu uniquement cote serveur par
+    api/website-offer-decision.js pour composer l'email envoye au Client
+    quand il accepte le contrat (voir demande de Gregoire Giuliano du
+    2026-08-23 : le Client doit recevoir une copie du contrat qu'il vient
+    d'accepter). CONTRACT_VERSION est inclus pour que l'email envoye
+    corresponde toujours exactement a la version acceptee, meme si le texte
+    du contrat evolue ensuite."""
+    payload = {
+        "contract_version": website_offer_content.CONTRACT_VERSION,
+        "contract": website_offer_content.CONTRACT,
+    }
+    with open(os.path.join(DATA_DIR, "contract_content.json"), "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False)
+
+
 def gen_verification_request():
     """Page publique du formulaire de verification d'identite. La cascade
     (email/telephone/document) est decidee cote serveur dans
@@ -2151,6 +2169,13 @@ def gen_mon_profil():
         ctx["p"] = p
         ctx["noindex"] = True
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (p["title"], path)]
+        # Bouton "Demander un site gratuit ?" pour l'avocat deja connecte qui
+        # n'avait pas pris l'offre a la creation de son compte (ou veut la
+        # redemander) -- voir api/lawyer-website-offer.js. Meme contenu
+        # d'offre/contrat que verification_demande.html (website_offer_content.py).
+        ctx["offer"] = website_offer_content.OFFER[lang]
+        ctx["contract"] = website_offer_content.CONTRACT[lang]
+        ctx["contract_version"] = website_offer_content.CONTRACT_VERSION
         write_page(path, render("mon_profil.html", ctx))
 
 
@@ -2688,6 +2713,7 @@ if __name__ == "__main__":
         gen_vitrine_review()
         gen_avis_request()
         gen_verification_contacts()
+        gen_contract_export()
         gen_verification_request()
         gen_verification_confirmee()
         gen_verification_review()
@@ -2759,6 +2785,7 @@ if __name__ == "__main__":
         gen_vitrine_review()
         gen_avis_request()
         gen_verification_contacts()
+        gen_contract_export()
         gen_verification_request()
         gen_verification_confirmee()
         gen_verification_review()

@@ -27,6 +27,18 @@
 // free_website_* d'une ligne encore 'pending' -- jamais le statut de la
 // demande de verification elle-meme, jamais les autres colonnes.
 //
+// Quand interested=true (demande de Gregoire Giuliano du 2026-08-23) :
+// en plus d'enregistrer l'acceptation en base (deja horodatee et tracee
+// avec la version du contrat), on envoie deux emails best-effort (ne
+// bloquent jamais la reponse, ne font jamais echouer la demande si Resend
+// est absent ou en erreur) :
+//   - au Client : une copie complete du contrat qu'il vient d'accepter,
+//     dans sa langue (voir data/contract_content.json, genere par
+//     gen_contract_export() dans build.py a partir de
+//     website_offer_content.CONTRACT) ;
+//   - a Greg (ADMIN_NOTIFY_EMAIL) : notification qu'un avocat veut le site
+//     gratuit, avec le lien vers sa fiche.
+//
 // IMPORTANT (non-juridique) : voir l'avertissement en tete de
 // website_offer_content.py -- ce contrat est un premier jet a faire
 // relire par un avocat suisse avant toute utilisation reelle.
@@ -78,7 +90,7 @@ module.exports = async function handler(req, res) {
   try {
     const rows = await lib.supabaseSelect(
       "verification_requests",
-      `id=eq.${encodeURIComponent(id)}&select=id,status,free_website_interest`
+      `id=eq.${encodeURIComponent(id)}&select=id,status,free_website_interest,lang,canton,avocat_nom,avocat_url,account_email`
     );
     const row = rows[0];
     if (!row) {
@@ -101,6 +113,32 @@ module.exports = async function handler(req, res) {
     await lib.supabasePatch("verification_requests", id, patch);
 
     res.status(200).json({ ok: true });
+
+    // Best-effort, apres la reponse : n'a jamais fait attendre le client ni
+    // fait echouer l'enregistrement de sa decision si Resend est absent ou
+    // en erreur (voir sendEmail dans _verification-lib.js). La reponse HTTP
+    // est deja partie (res.status(200) ci-dessus) : ce bloc ne doit plus
+    // jamais toucher `res`, meme en cas d'erreur synchrone (ex. fichier
+    // contract_content.json manquant), sous peine de crash
+    // ERR_HTTP_HEADERS_SENT -- d'ou son propre try/catch, distinct de celui
+    // qui entoure l'enregistrement de la decision.
+    if (interested) {
+      try {
+        const lang = row.lang || "fr";
+        Promise.all([
+          lib.sendContractToClient(row.account_email, row.avocat_nom || "", lang),
+          lib.notifyAdminFreeWebsiteInterest({
+            eventLabel: "acceptée à la création du compte",
+            avocatNom: row.avocat_nom || "",
+            canton: row.canton || "",
+            avocatUrl: row.avocat_url || "",
+            accountEmail: row.account_email || "",
+          }),
+        ]).catch(function () {});
+      } catch (e) {
+        // ignore -- best-effort, voir commentaire ci-dessus.
+      }
+    }
   } catch (err) {
     res.status(502).json({ error: "decision_failed", detail: String(err.message || err) });
   }

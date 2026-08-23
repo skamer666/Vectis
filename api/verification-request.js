@@ -76,7 +76,7 @@ function escapeHtml(s) {
 }
 
 function notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail, telephone, note }) {
-  const subject = `Nouvelle demande de vérification — ${avocatNom} (${canton})`;
+  const subject = `Nouvelle demande de vérification - ${avocatNom} (${canton})`;
   const ficheUrl = `${BASE_DOMAIN}${avocatUrl}`;
   let body = `Palier : ${METHOD_LABELS_FR[method] || method}\nFiche : ${ficheUrl}\nEmail du compte : ${accountEmail}`;
   let html = `<p>Palier : ${escapeHtml(METHOD_LABELS_FR[method] || method)}</p><p>Fiche : <a href="${ficheUrl}">${escapeHtml(ficheUrl)}</a></p><p>Email du compte : ${escapeHtml(accountEmail)}</p>`;

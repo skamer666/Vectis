@@ -335,6 +335,42 @@ create policy "public read lawyer photos"
 
 
 -- ============================================================================
+-- Journal des demandes d'offre "site web gratuit" faites APRES la creation
+-- du compte, depuis l'espace avocat /mon-profil/ une fois l'identite deja
+-- confirmee (bouton "Demander un site gratuit ?", voir
+-- api/lawyer-website-offer.js et templates/mon_profil.html). Distinct de
+-- verification_requests.free_website_* qui couvre le cas ou l'offre est
+-- acceptee AVANT la confirmation d'identite, au moment de la creation du
+-- compte (voir api/website-offer-decision.js) -- ce sont deux moments
+-- differents du parcours, donc deux journaux differents, mais le meme
+-- contrat (website_offer_content.CONTRACT) et le meme couple d'emails
+-- (copie du contrat au Client + notification a Greg, voir
+-- sendContractToClient / notifyAdminFreeWebsiteInterest dans
+-- _verification-lib.js).
+create table if not exists website_offer_requests (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  canton text not null,
+  avocat_slug text not null,
+  avocat_nom text not null,
+  avocat_url text not null,
+  account_email text not null,
+  lang text not null default 'fr',
+  contract_version text not null
+);
+
+create index if not exists website_offer_requests_user_idx on website_offer_requests (user_id, created_at desc);
+
+alter table website_offer_requests enable row level security;
+
+-- Aucune policy anon/authenticated, meme principe que verification_requests :
+-- seule la service_role key (api/lawyer-website-offer.js, qui revalide
+-- l'identite de l'avocat aupres de Supabase avant d'ecrire) peut lire ou
+-- ecrire cette table.
+
+
+-- ============================================================================
 -- Schema pour l'analytics "maison" (respectueuse de la vie privee), voir
 -- api/track.js (ecriture), api/analytics-summary.js (lecture agregee,
 -- protegee par jeton admin) et static/js/analytics.js (collecte cote

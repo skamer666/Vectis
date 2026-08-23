@@ -105,9 +105,9 @@
     wrap.style.gap = 'var(--space-xs)';
     wrap.dataset.id = row.id;
 
-    var html = '<strong>' + escapeHtml(row.nom_complet) + '</strong> — ' + escapeHtml(row.canton) +
-      ' — <a href="' + escapeHtml(row.url) + '" target="_blank" rel="noopener">voir la fiche</a>' +
-      '<br>Palier : <strong>' + escapeHtml(row.method) + '</strong> — soumis le ' + escapeHtml(row.created_at);
+    var html = '<strong>' + escapeHtml(row.nom_complet) + '</strong> - ' + escapeHtml(row.canton) +
+      ' - <a href="' + escapeHtml(row.url) + '" target="_blank" rel="noopener">voir la fiche</a>' +
+      '<br>Palier : <strong>' + escapeHtml(row.method) + '</strong> - soumis le ' + escapeHtml(row.created_at);
 
     if (row.method === 'phone') {
       html += '<br>Numéro à appeler : <a href="tel:' + escapeHtml(row.telephone || '') + '">' + escapeHtml(row.telephone || '(inconnu)') + '</a>';
@@ -198,7 +198,7 @@
     wrap.style.gap = 'var(--space-xs)';
     wrap.dataset.id = row.id;
 
-    var html = '<strong>' + escapeHtml(row.canton) + ' / ' + escapeHtml(row.avocat_slug) + '</strong> — soumis le ' + escapeHtml(row.submitted_at);
+    var html = '<strong>' + escapeHtml(row.canton) + ' / ' + escapeHtml(row.avocat_slug) + '</strong> - soumis le ' + escapeHtml(row.submitted_at);
     if (row.photo_url) html += '<br><img src="' + escapeHtml(row.photo_url) + '" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:var(--radius-sm);">';
     if (row.bio) html += '<br>Bio : ' + escapeHtml(row.bio);
     if (row.display_email) html += '<br>Email affiché : ' + escapeHtml(row.display_email);

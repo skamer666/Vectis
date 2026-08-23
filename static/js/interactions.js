@@ -1,4 +1,4 @@
-/* Legatis — couche d'interactivite partagee (reveal, header, compteurs, filtres) */
+/* Legatis - couche d'interactivite partagee (reveal, header, compteurs, filtres) */
 (function () {
   'use strict';
 
@@ -188,7 +188,7 @@
   }
 
   /* ======================================================================
-     Favoris + Comparateur — stockage local, boutons injectes, barres
+     Favoris + Comparateur - stockage local, boutons injectes, barres
      flottantes, panneau lateral / modal de comparaison
      ====================================================================== */
   var I18N = window.__legatisI18N || {};
@@ -544,7 +544,7 @@
       if (!f.label) return;
       html += '<tr><td>' + escapeHtmlGlobal(f.label) + '</td>';
       list.forEach(function (entry) {
-        html += '<td>' + escapeHtmlGlobal(entry[f.key] || '—') + '</td>';
+        html += '<td>' + escapeHtmlGlobal(entry[f.key] || '-') + '</td>';
       });
       html += '</tr>';
     });
@@ -599,7 +599,7 @@
   refreshCompareBar();
 
   /* ======================================================================
-     Capture email discrete (lead magnet) — envoie vers /api/lead-capture
+     Capture email discrete (lead magnet) - envoie vers /api/lead-capture
      ====================================================================== */
   document.querySelectorAll('.lead-capture-form').forEach(function (form) {
     var msgEl = form.parentElement.querySelector('.lead-capture-msg');

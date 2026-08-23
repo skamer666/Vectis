@@ -158,11 +158,12 @@ def test_verification_request_page_contract_has_23_full_articles(tmp_path, monke
     build.gen_verification_request()
     html = (tmp_path / "fr" / "verifier-mon-identite" / "index.html").read_text(encoding="utf-8")
     for n in range(1, 24):
-        assert f"Article {n} —" in html
+        assert f"Article {n} -" in html
     assert "Article 24" not in html
     assert "gratuit" in html.lower()
     assert "backlink" in html.lower()
     assert "leads" in html.lower()
+    assert "—" not in html, "em dash trouve sur la page de verification (bannis du site)"
 
 
 def test_verification_confirmee_page_renders_without_jinja_artifacts(tmp_path, monkeypatch):

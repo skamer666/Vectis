@@ -31,6 +31,51 @@
         <p id="mp-status" class="calc-disclaimer"></p>
       </div>
 
+      <div class="vform-block">
+        <h2>{{ p.free_website_title }}</h2>
+        <p class="calc-disclaimer">{{ p.free_website_intro }}</p>
+        <button type="button" class="cta-btn is-primary" id="mp-offer-cta">{{ p.free_website_cta }}</button>
+
+        <div id="mp-offer" class="website-offer" hidden>
+          <div class="website-offer-eyebrow">{{ offer.eyebrow }}</div>
+          <h3>{{ offer.title }}</h3>
+          <p class="lede">{{ offer.hook }}</p>
+          <p class="calc-disclaimer">{{ offer.decline_note }}</p>
+          <div class="website-offer-actions">
+            <button type="button" class="cta-btn is-primary" id="mp-offer-accept">{{ offer.cta_accept }}</button>
+            <button type="button" class="cta-btn" id="mp-offer-decline">{{ offer.cta_decline }}</button>
+          </div>
+        </div>
+
+        <div id="mp-contract" class="website-offer-contract" hidden>
+          <h3>{{ offer.contract_title }}</h3>
+          <p class="calc-disclaimer">{{ offer.contract_intro }}</p>
+          <div class="contract-scrollbox" id="mp-contract-scrollbox">
+            <h3>{{ contract.title }}</h3>
+            <p class="contract-parties">{{ contract.parties_label }}</p>
+            {% for para in contract.preamble %}<p>{{ para }}</p>{% endfor %}
+            {% for art in contract.articles %}
+            <h4>{{ art.heading }}</h4>
+            {% for para in art.paragraphs %}<p>{{ para }}</p>{% endfor %}
+            {% endfor %}
+            <p class="contract-end-marker" id="mp-contract-end">{{ offer.contract_reached_end }}</p>
+          </div>
+          <p class="calc-source" id="mp-contract-scroll-hint">{{ offer.contract_scroll_hint }}</p>
+          <label class="vform-consent">
+            <input type="checkbox" id="mp-contract-checkbox" disabled>
+            {{ offer.contract_checkbox }}
+          </label>
+          <div id="mp-contract-error" class="vform-error" hidden></div>
+          <div class="website-offer-actions">
+            <button type="button" class="cta-btn is-primary" id="mp-contract-accept" disabled>{{ offer.contract_accept }}</button>
+            <button type="button" class="cta-btn" id="mp-contract-back">{{ offer.back_to_form }}</button>
+          </div>
+        </div>
+
+        <div id="mp-offer-success" class="vform-success" hidden><p>{{ p.free_website_success }}</p></div>
+        <div id="mp-offer-error" class="vform-error" hidden></div>
+      </div>
+
       <form id="mp-form" class="vform-block">
         <h2>{{ p.section_edit_title }}</h2>
         <div class="calc-grid">
@@ -71,6 +116,9 @@
 <script>
 (function() {
   var STR = {{ p | tojson }};
+  var OFFER_STR = {{ offer | tojson }};
+  var CONTRACT_VERSION = {{ contract_version | tojson }};
+  var lang = {{ lang | tojson }};
   var SUPABASE_URL = {{ supabase_url | tojson }};
   var SUPABASE_ANON_KEY = {{ supabase_anon_key | tojson }};
   var connexionUrl = {{ connexion_url | tojson }};
@@ -194,6 +242,93 @@
     e.preventDefault();
     clearSession();
     window.location.href = connexionUrl;
+  });
+
+  // -- Offre "site web gratuit" depuis l'espace avocat deja connecte --------
+  // Meme parcours (ecran d'offre puis contrat a faire defiler jusqu'au bout
+  // avant de pouvoir l'accepter) que templates/verification_demande.html au
+  // moment de la creation du compte, pour l'avocat qui n'avait pas pris
+  // l'offre a ce moment-la (ou veut la redemander). Poste vers
+  // /api/lawyer-website-offer (et non directement Supabase) car cet appel
+  // doit declencher l'envoi des emails cote serveur (copie du contrat au
+  // Client + notification a Greg) -- voir _verification-lib.js.
+  var offerCtaBtn = document.getElementById('mp-offer-cta');
+  var offerBox = document.getElementById('mp-offer');
+  var offerAcceptBtn = document.getElementById('mp-offer-accept');
+  var offerDeclineBtn = document.getElementById('mp-offer-decline');
+  var offerContractBox = document.getElementById('mp-contract');
+  var offerContractScrollbox = document.getElementById('mp-contract-scrollbox');
+  var offerContractScrollHint = document.getElementById('mp-contract-scroll-hint');
+  var offerContractCheckbox = document.getElementById('mp-contract-checkbox');
+  var offerContractError = document.getElementById('mp-contract-error');
+  var offerContractAcceptBtn = document.getElementById('mp-contract-accept');
+  var offerContractBackBtn = document.getElementById('mp-contract-back');
+  var offerSuccessBox = document.getElementById('mp-offer-success');
+  var offerErrorBox = document.getElementById('mp-offer-error');
+  var offerContractScrolledToEnd = false;
+
+  offerCtaBtn.addEventListener('click', function() {
+    offerCtaBtn.hidden = true;
+    offerBox.hidden = false;
+    offerBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  offerDeclineBtn.addEventListener('click', function() {
+    offerBox.hidden = true;
+    offerCtaBtn.hidden = false;
+  });
+
+  offerAcceptBtn.addEventListener('click', function() {
+    offerBox.hidden = true;
+    offerContractBox.hidden = false;
+    offerContractScrollbox.scrollTop = 0;
+    checkOfferContractScrollPosition();
+    offerContractBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  function checkOfferContractScrollPosition() {
+    var reached = offerContractScrollbox.scrollTop + offerContractScrollbox.clientHeight >= offerContractScrollbox.scrollHeight - 24;
+    if (reached && !offerContractScrolledToEnd) {
+      offerContractScrolledToEnd = true;
+      offerContractCheckbox.disabled = false;
+      offerContractScrollHint.hidden = true;
+    }
+  }
+  offerContractScrollbox.addEventListener('scroll', checkOfferContractScrollPosition);
+
+  offerContractCheckbox.addEventListener('change', function() {
+    offerContractAcceptBtn.disabled = !(offerContractScrolledToEnd && offerContractCheckbox.checked);
+  });
+
+  offerContractBackBtn.addEventListener('click', function() {
+    offerContractBox.hidden = true;
+    offerBox.hidden = false;
+    offerBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  offerContractAcceptBtn.addEventListener('click', function() {
+    offerContractError.hidden = true;
+    if (!offerContractScrolledToEnd || !offerContractCheckbox.checked) {
+      offerContractError.textContent = OFFER_STR.contract_error_not_checked;
+      offerContractError.hidden = false;
+      return;
+    }
+    offerContractAcceptBtn.disabled = true;
+    ensureSession().then(function(session) {
+      return fetch('/api/lawyer-website-offer', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + session.access_token },
+        body: JSON.stringify({ contract_version: CONTRACT_VERSION, lang: lang }),
+      });
+    }).then(function(r) {
+      if (!r.ok) throw new Error('offer_request_failed');
+      offerContractBox.hidden = true;
+      offerSuccessBox.hidden = false;
+    }).catch(function() {
+      offerErrorBox.textContent = STR.free_website_error;
+      offerErrorBox.hidden = false;
+      offerContractAcceptBtn.disabled = false;
+    });
   });
 
   function fileToBuffer(file) {
