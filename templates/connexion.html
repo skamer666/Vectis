@@ -25,11 +25,12 @@
       <p class="calc-source" style="margin-top:var(--space-md);">
         <a href="#" id="lg-forgot-link">{{ l.forgot_password_link }}</a>
       </p>
-      <p class="calc-source">
-        {{ l.no_account_hint }}
-        <a href="{{ verification_request_url }}">{{ l.no_account_link }}</a>
-      </p>
     </form>
+
+    <div class="login-cta-card">
+      <p>{{ l.no_account_hint }}</p>
+      <a href="{{ verification_request_url }}" class="cta-btn is-primary">{{ l.no_account_link }}</a>
+    </div>
 
     <div id="lg-forgot-box" class="vform-block" hidden>
       <h2>{{ l.forgot_password_title }}</h2>

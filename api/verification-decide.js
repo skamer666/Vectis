@@ -55,6 +55,33 @@ function approvalEmailBody(lang, nom, loginLink) {
   return `Bonjour ${nom}\n\nVotre identité a été confirmée : votre compte Legatis est désormais actif.\n\nVous pouvez vous connecter dès maintenant avec le mot de passe que vous avez choisi :\n${loginLink}\n\nCordialement,\nL'équipe Legatis`;
 }
 
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+
+// Meme contenu que approvalEmailBody mais en HTML, avec un vrai bouton
+// <a href> -- sans ca, le lien de connexion apparait comme du texte brut
+// non cliquable dans la plupart des clients mail (voir sendVerificationEmail
+// dans verification-request.js pour le meme correctif sur le mail initial).
+function approvalEmailHtml(lang, nom, loginLink) {
+  const btnStyle = "display:inline-block;padding:12px 24px;background:#111;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;";
+  const safeName = escapeHtml(nom);
+  const safeLink = escapeHtml(loginLink);
+  const ctaLabels = { fr: "Se connecter", de: "Anmelden", it: "Accedere", en: "Log in" };
+  if (lang === "de") {
+    return `<p>Guten Tag ${safeName}</p><p>Ihre Identität wurde bestätigt: Ihr Legatis-Konto ist ab sofort aktiv.</p><p><a href="${loginLink}" style="${btnStyle}">${ctaLabels.de}</a></p><p>Oder kopieren Sie diesen Link in Ihren Browser: <a href="${loginLink}">${safeLink}</a></p><p>Freundliche Grüsse<br>Das Legatis-Team</p>`;
+  }
+  if (lang === "it") {
+    return `<p>Gentile ${safeName}</p><p>La vostra identità è stata confermata: il vostro account Legatis è ora attivo.</p><p><a href="${loginLink}" style="${btnStyle}">${ctaLabels.it}</a></p><p>Oppure copiate questo link nel vostro browser: <a href="${loginLink}">${safeLink}</a></p><p>Cordiali saluti<br>Il team Legatis</p>`;
+  }
+  if (lang === "en") {
+    return `<p>Hello ${safeName}</p><p>Your identity has been confirmed: your Legatis account is now active.</p><p><a href="${loginLink}" style="${btnStyle}">${ctaLabels.en}</a></p><p>Or copy this link into your browser: <a href="${loginLink}">${safeLink}</a></p><p>Best regards,<br>The Legatis team</p>`;
+  }
+  return `<p>Bonjour ${safeName}</p><p>Votre identité a été confirmée : votre compte Legatis est désormais actif.</p><p><a href="${loginLink}" style="${btnStyle}">${ctaLabels.fr}</a></p><p>Ou copiez ce lien dans votre navigateur : <a href="${loginLink}">${safeLink}</a></p><p>Cordialement,<br>L'équipe Legatis</p>`;
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ error: "method_not_allowed" });
@@ -125,7 +152,8 @@ module.exports = async function handler(req, res) {
       const loginLink = `${BASE_DOMAIN}/${lang}/${seg}/`;
       const subject = EMAIL_SUBJECTS[lang] || EMAIL_SUBJECTS.fr;
       const emailBody = approvalEmailBody(lang, row.avocat_nom || "", loginLink);
-      const sent = await lib.sendEmail(row.account_email, subject, emailBody);
+      const emailHtml = approvalEmailHtml(lang, row.avocat_nom || "", loginLink);
+      const sent = await lib.sendEmail(row.account_email, subject, emailBody, emailHtml);
       patch.email_sent = !!sent;
     } else {
       // Refuse : le compte pre-cree n'a jamais ete actif, on le supprime

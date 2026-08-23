@@ -65,19 +65,36 @@ const ADMIN_NOTIFY_EMAIL = "gregoiregiuliano@hotmail.com";
 const ADMIN_URL = `${BASE_DOMAIN}/interne/verification-avocats/`;
 const METHOD_LABELS_FR = { email: "email (auto-validé si le lien est cliqué)", phone: "téléphone (à rappeler)", document: "document (à examiner)" };
 
+// Toutes les valeurs interpolees dans les corps HTML ci-dessous (nom,
+// numero, notes libres...) viennent du registre officiel ou d'un champ
+// texte saisi par le demandeur -- jamais garanties exemptes de caracteres
+// HTML. echappees systematiquement avant insertion dans un corps HTML.
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+  });
+}
+
 function notifyAdminNewRequest({ method, avocatNom, canton, avocatUrl, accountEmail, telephone, note }) {
   const subject = `Nouvelle demande de vérification — ${avocatNom} (${canton})`;
-  let body = `Palier : ${METHOD_LABELS_FR[method] || method}\nFiche : ${BASE_DOMAIN}${avocatUrl}\nEmail du compte : ${accountEmail}`;
+  const ficheUrl = `${BASE_DOMAIN}${avocatUrl}`;
+  let body = `Palier : ${METHOD_LABELS_FR[method] || method}\nFiche : ${ficheUrl}\nEmail du compte : ${accountEmail}`;
+  let html = `<p>Palier : ${escapeHtml(METHOD_LABELS_FR[method] || method)}</p><p>Fiche : <a href="${ficheUrl}">${escapeHtml(ficheUrl)}</a></p><p>Email du compte : ${escapeHtml(accountEmail)}</p>`;
   if (method === "phone") {
     body += `\nNuméro à appeler (déjà publié sur la fiche) : ${telephone || "(inconnu)"}`;
-    if (note) body += `\nDisponibilités indiquées : ${note}`;
+    html += `<p>Numéro à appeler (déjà publié sur la fiche) : ${escapeHtml(telephone || "(inconnu)")}</p>`;
+    if (note) {
+      body += `\nDisponibilités indiquées : ${note}`;
+      html += `<p>Disponibilités indiquées : ${escapeHtml(note)}</p>`;
+    }
   }
   body += `\n\nÀ traiter sur ${ADMIN_URL}`;
+  html += `<p>À traiter sur <a href="${ADMIN_URL}">${escapeHtml(ADMIN_URL)}</a></p>`;
   // Best-effort, comme tous les envois d'email de ce depot (voir sendEmail) :
   // ne doit jamais faire echouer la demande elle-meme si Resend est absent
   // ou en erreur -- la ligne verification_requests reste de toute facon
   // consultable sur la page interne.
-  return lib.sendEmail(ADMIN_NOTIFY_EMAIL, subject, body).catch(function () { return false; });
+  return lib.sendEmail(ADMIN_NOTIFY_EMAIL, subject, body, html).catch(function () { return false; });
 }
 
 function truncate(s, n) {
@@ -108,7 +125,21 @@ function sendVerificationEmail(toEmail, nom, link, lang) {
     it: `Gentile ${nom}\n\nAvete richiesto di creare il vostro account Legatis per la vostra scheda sull'annuario. Cliccate su questo link per confermare la vostra identità e attivare il vostro account (valido ${TOKEN_TTL_HOURS}h):\n${link}\n\nSe non siete voi all'origine di questa richiesta, ignorate semplicemente questa email.\n\nCordiali saluti\nIl team Legatis`,
     en: `Hello ${nom}\n\nYou requested to create your Legatis account for your directory listing. Click this link to confirm your identity and activate your account (valid ${TOKEN_TTL_HOURS}h):\n${link}\n\nIf you didn't make this request, simply ignore this email.\n\nBest regards,\nThe Legatis team`,
   };
-  return lib.sendEmail(toEmail, subjects[lang] || subjects.fr, bodies[lang] || bodies.fr);
+  // Version HTML avec un vrai bouton <a href> -- la version texte seule
+  // (bodies ci-dessus) fait apparaitre le lien comme du texte brut non
+  // cliquable dans la plupart des clients mail. Le lien est aussi repete
+  // en clair sous le bouton pour les clients qui n'affichent pas le HTML.
+  const btnStyle = "display:inline-block;padding:12px 24px;background:#111;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;";
+  const safeName = escapeHtml(nom);
+  const safeLink = escapeHtml(link);
+  const ctaLabels = { fr: "Confirmer mon identité", de: "Identität bestätigen", it: "Confermare la mia identità", en: "Confirm my identity" };
+  const htmlBodies = {
+    fr: `<p>Bonjour ${safeName}</p><p>Vous avez demandé à créer votre compte Legatis pour votre fiche sur l'annuaire. Cliquez sur le bouton ci-dessous pour confirmer votre identité et activer votre compte (valable ${TOKEN_TTL_HOURS}h) :</p><p><a href="${link}" style="${btnStyle}">${ctaLabels.fr}</a></p><p>Ou copiez ce lien dans votre navigateur : <a href="${link}">${safeLink}</a></p><p>Si vous n'êtes pas à l'origine de cette demande, ignorez simplement cet email.</p><p>Cordialement,<br>L'équipe Legatis</p>`,
+    de: `<p>Guten Tag ${safeName}</p><p>Sie haben beantragt, Ihr Legatis-Konto für Ihren Eintrag im Verzeichnis zu erstellen. Klicken Sie auf die Schaltfläche unten, um Ihre Identität zu bestätigen und Ihr Konto zu aktivieren (gültig ${TOKEN_TTL_HOURS}h):</p><p><a href="${link}" style="${btnStyle}">${ctaLabels.de}</a></p><p>Oder kopieren Sie diesen Link in Ihren Browser: <a href="${link}">${safeLink}</a></p><p>Falls Sie diese Anfrage nicht gestellt haben, ignorieren Sie diese E-Mail einfach.</p><p>Freundliche Grüsse<br>Das Legatis-Team</p>`,
+    it: `<p>Gentile ${safeName}</p><p>Avete richiesto di creare il vostro account Legatis per la vostra scheda sull'annuario. Cliccate sul pulsante qui sotto per confermare la vostra identità e attivare il vostro account (valido ${TOKEN_TTL_HOURS}h):</p><p><a href="${link}" style="${btnStyle}">${ctaLabels.it}</a></p><p>Oppure copiate questo link nel vostro browser: <a href="${link}">${safeLink}</a></p><p>Se non siete voi all'origine di questa richiesta, ignorate semplicemente questa email.</p><p>Cordiali saluti<br>Il team Legatis</p>`,
+    en: `<p>Hello ${safeName}</p><p>You requested to create your Legatis account for your directory listing. Click the button below to confirm your identity and activate your account (valid ${TOKEN_TTL_HOURS}h):</p><p><a href="${link}" style="${btnStyle}">${ctaLabels.en}</a></p><p>Or copy this link into your browser: <a href="${link}">${safeLink}</a></p><p>If you didn't make this request, simply ignore this email.</p><p>Best regards,<br>The Legatis team</p>`,
+  };
+  return lib.sendEmail(toEmail, subjects[lang] || subjects.fr, bodies[lang] || bodies.fr, htmlBodies[lang] || htmlBodies.fr);
 }
 
 module.exports = async function handler(req, res) {

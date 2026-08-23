@@ -160,19 +160,28 @@ const DEFAULT_FROM = "Legatis <verification@legatis.ch>";
 // (verification-request.js) et pour le lien de creation de compte
 // (verification-decide.js, verification-confirm.js indirectement via la
 // page de confirmation).
-async function sendEmail(toEmail, subject, text) {
+//
+// `html` est optionnel : sans lui, Resend n'envoie que la version texte, et
+// certains clients mail affichent alors l'URL comme du texte brut au lieu
+// d'un vrai lien cliquable. Des que le message contient un lien (lien de
+// confirmation, lien de connexion...), l'appelant doit fournir `html` avec
+// un <a href> reel -- `text` reste toujours envoye en parallele comme
+// version de repli pour les clients qui l'exigent.
+async function sendEmail(toEmail, subject, text, html) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey || !toEmail) return false;
   try {
+    const payload = {
+      from: process.env.RESEND_FROM_EMAIL || DEFAULT_FROM,
+      to: [toEmail],
+      subject,
+      text,
+    };
+    if (html) payload.html = html;
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        from: process.env.RESEND_FROM_EMAIL || DEFAULT_FROM,
-        to: [toEmail],
-        subject,
-        text,
-      }),
+      body: JSON.stringify(payload),
     });
     return resp.ok;
   } catch (e) {

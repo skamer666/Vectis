@@ -470,6 +470,8 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .calc-result p{ margin:4px 0; }
 .calc-footnote{ font-size:0.82rem; color:var(--text-secondary); margin-top:var(--space-sm) !important; }
 .calc-source{ font-size:0.78rem; color:var(--text-muted); margin-top:var(--space-lg); }
+.login-cta-card{ background:var(--accent-50); border:1px solid var(--accent-100); border-radius:var(--radius-md); padding:var(--space-xl); margin-top:var(--space-xl); text-align:center; }
+.login-cta-card p{ margin:0 0 var(--space-md); font-weight:600; font-size:1rem; }
 
 /* -- grille cantons/domaines : cartes rondes façon Monzo, pas un tableau -- */
 .index-grid{
