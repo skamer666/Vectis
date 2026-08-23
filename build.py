@@ -636,13 +636,16 @@ for _r in GE_INDIVIDUALS:
 # search-index-{lang}.json (gen_verification_contacts/gen_search) -- c'est ce
 # qui permet de la retrouver via "Trouvez votre fiche" sur /verifier-mon-identite/
 # pour tester le parcours de creation de compte sans jamais toucher a une
-# vraie fiche de professionnel. Aucun email/telephone connu => seule la voie
-# "document" est proposee. A retirer (une seule ligne) le jour ou ce compte de
-# test n'est plus necessaire.
+# vraie fiche de professionnel. Email/telephone = ceux de Greg (memes valeurs
+# que gregoiregiuliano@hotmail.com utilise ailleurs comme contact reel) : les
+# 3 paliers de verification (email, telephone, document) sont donc tous
+# testables -- le lien de confirmation email et l'appel du palier telephone
+# arrivent chez lui. A retirer (une seule ligne) le jour ou ce compte de test
+# n'est plus necessaire.
 GE_INDIVIDUALS.append({
     "nom_complet": "Compte Test Legatis", "fonction": "Avocat", "etude": "",
-    "adresse": "Rue de Test 1", "npa": "1200", "ville": "Genève", "telephone": "",
-    "canton": "GE", "email": "", "site_web": "", "domaines": "", "langues": "Français",
+    "adresse": "Rue de Test 1", "npa": "1200", "ville": "Genève", "telephone": "+32 493 33 28 62",
+    "canton": "GE", "email": "gregoiregiuliano@hotmail.com", "site_web": "", "domaines": "", "langues": "Français",
     "brevet_date": "2020", "brevet_pays": "Suisse", "source_email": "test-fixture",
     "_slug": "compte-test-legatis",
 })
