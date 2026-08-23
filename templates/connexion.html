@@ -93,7 +93,17 @@
       return r.json().then(function(data) { return { ok: r.ok, data: data }; });
     }).then(function(result) {
       if (!result.ok || !result.data.access_token) {
-        showError(STR.error_invalid_credentials);
+        // Compte deja cree (des la demande de verification) mais encore
+        // bloque (email_confirm=false) tant que Greg n'a pas confirme
+        // l'identite (palier telephone/document) ou que le lien de
+        // confirmation email n'a pas ete clique -- Supabase renvoie ca comme
+        // un echec d'authentification comme un autre, jamais un statut a
+        // part. On distingue ce cas pour ne pas laisser croire a un mot de
+        // passe incorrect alors que la verification est simplement encore en
+        // cours (peut prendre plusieurs jours, cf. verification_content.py).
+        var d = result.data || {};
+        var pending = /not.?confirmed/i.test(d.error_code || '') || /not.?confirmed/i.test(d.error_description || d.msg || d.message || '');
+        showError(pending ? STR.error_pending_verification : STR.error_invalid_credentials);
         submitBtn.disabled = false;
         submitBtn.textContent = originalLabel;
         return;
