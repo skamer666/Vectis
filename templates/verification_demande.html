@@ -96,7 +96,13 @@
 
         <button type="submit" class="cta-btn is-primary" id="vf-submit">{{ f.submit_document }}</button>
       </div>
+    </form>
 
+    <!-- Hors du <form> : le JS masque le formulaire entier (form.hidden)
+         juste apres soumission, ce qui masquerait aussi ces blocs s'ils
+         etaient encore des descendants du form ([hidden] est display:none
+         sur l'element lui-meme mais un parent masque emporte tous ses
+         enfants avec lui, quel que soit leur propre attribut hidden). -->
       <div id="vf-offer" class="website-offer" hidden>
         <div class="website-offer-eyebrow">{{ offer.eyebrow }}</div>
         <h2>{{ offer.title }}</h2>
@@ -157,7 +163,6 @@
         <p id="vf-success-spam-note" class="vf-spam-note" hidden></p>
         <p id="vf-offer-note" class="calc-source"></p>
       </div>
-    </form>
   </section>
 </div>
 
