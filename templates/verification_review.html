@@ -27,6 +27,14 @@
     <div id="pr-error" class="vform-error" hidden></div>
     <div id="pr-list"></div>
   </section>
+
+  <section class="section" style="padding-top:0; max-width:80ch;">
+    <h2>Compte de test</h2>
+    <p class="lede" style="font-size:0.95rem;">Réinitialise la fiche « Compte Test Legatis » (Genève) : supprime toute demande de vérification, tout compte de connexion et toute soumission de profil qui lui sont liés -- pour rejouer le parcours complet depuis « Vérifier mon identité » comme si ce compte n'avait jamais servi.</p>
+    <button type="button" class="cta-btn" id="rt-reset">Réinitialiser le compte de test</button>
+    <div id="rt-error" class="vform-error" hidden></div>
+    <div id="rt-result" hidden></div>
+  </section>
 </div>
 
 <script>
@@ -254,6 +262,43 @@
       prShowError(err.message === 'unauthorized' ? 'Session expirée ou compte non autorisé, reconnectez-vous.' : 'Erreur de chargement.');
     });
   }
+
+  // -- Compte de test (reset) -------------------------------------------
+  var rtBtn = document.getElementById('rt-reset');
+  var rtErrorEl = document.getElementById('rt-error');
+  var rtResultEl = document.getElementById('rt-result');
+
+  rtBtn.addEventListener('click', function() {
+    if (!adminJwt) { showError('Connectez-vous d\'abord.'); return; }
+    if (!window.confirm('Supprimer toute demande de vérification, tout compte de connexion et toute soumission de profil liés au Compte Test Legatis (GE) ? Action irréversible.')) return;
+
+    rtErrorEl.hidden = true;
+    rtResultEl.hidden = true;
+    rtBtn.disabled = true;
+    var originalLabel = rtBtn.textContent;
+    rtBtn.textContent = 'Réinitialisation...';
+
+    fetch('/api/reset-test-account', {
+      method: 'POST',
+      headers: { Authorization: 'Bearer ' + adminJwt },
+    }).then(function(r) {
+      if (r.status === 401) throw new Error('unauthorized');
+      if (!r.ok) throw new Error('reset failed');
+      return r.json();
+    }).then(function(data) {
+      rtResultEl.hidden = false;
+      rtResultEl.textContent = 'Compte de test réinitialisé : ' + data.deleted.verification_requests +
+        ' demande(s) de vérification, ' + data.deleted.auth_users + ' compte(s) de connexion et ' +
+        data.deleted.profile_submissions + ' soumission(s) de profil supprimés.';
+    }).catch(function(err) {
+      if (err.message === 'unauthorized') sessionStorage.removeItem('legatis:admin-jwt');
+      rtErrorEl.hidden = false;
+      rtErrorEl.textContent = err.message === 'unauthorized' ? 'Session expirée ou compte non autorisé, reconnectez-vous.' : 'Échec de la réinitialisation. Réessayez.';
+    }).then(function() {
+      rtBtn.disabled = false;
+      rtBtn.textContent = originalLabel;
+    });
+  });
 })();
 </script>
 {% endblock %}
