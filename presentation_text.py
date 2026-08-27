@@ -347,3 +347,306 @@ def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_
     if oldest_txt:
         parts.append(oldest_txt)
     return " ".join(parts)
+
+
+def lawyer_faq(lang, nom, canton_name, ville=None, domaines=None, langues=None,
+                seniority_text=None, telephone=None, email=None, etude=None,
+                review_avg=None, review_count=None):
+    """FAQ personnalisee par fiche avocat individuelle, meme principe que
+    ville_faq() dans build.py : uniquement des faits deja reels en base
+    (registre cantonal officiel, enrichissement web deja verifie
+    manuellement, avis approuves) -- jamais invente ni complete par defaut.
+    Chaque question n'apparait que si la donnee correspondante existe
+    reellement pour CETTE fiche : deux fiches peuvent donc avoir un nombre
+    different de questions. Sert a la fois de contenu unique par fiche
+    (au-dela de la courte presentation) et de schema.org FAQPage, pense pour
+    etre facilement extrait/cite par les moteurs de recherche generatifs
+    (AI Overviews, ChatGPT, Perplexity...) -- demande de Gregoire Giuliano
+    du 2026-08-23."""
+    domaines = domaines or []
+    langues = langues or []
+    items = []
+    if lang == "fr":
+        items.append({
+            "q": f"{nom} est-il/elle un avocat vérifié ?",
+            "a": f"Oui. {nom} est inscrit·e au registre officiel des avocats du canton de {canton_name}, seule source utilisée pour construire cette fiche.",
+        })
+        if domaines:
+            items.append({
+                "q": f"Quels domaines de compétence pratique {nom} ?",
+                "a": f"Domaines de compétence indiqués pour {nom} : {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Quelles langues parle {nom} ?",
+                "a": f"{nom} parle : {', '.join(langues)}.",
+            })
+        if seniority_text:
+            items.append({
+                "q": f"Depuis quand {nom} est-il/elle inscrit·e au barreau ?",
+                "a": f"{seniority_text}, selon le registre officiel du canton de {canton_name}.",
+            })
+        if telephone or email:
+            bits = []
+            if telephone:
+                bits.append(f"par téléphone au {telephone}")
+            if email:
+                bits.append(f"par email à {email}")
+            a = f"Vous pouvez contacter {nom} " + " ou ".join(bits) + "."
+            if etude:
+                a += f" {nom} exerce au sein de l'étude {etude}."
+            items.append({"q": f"Comment contacter {nom} ?", "a": a})
+        if review_count:
+            items.append({
+                "q": f"Que disent les avis publiés sur {nom} ?",
+                "a": f"{nom} a reçu une note moyenne de {review_avg}/5 sur la base de {review_count} avis publiés sur Legatis.",
+            })
+        return items
+    if lang == "de":
+        items.append({
+            "q": f"Ist {nom} eine geprüfte Anwältin bzw. ein geprüfter Anwalt?",
+            "a": f"Ja. {nom} ist im offiziellen Anwaltsregister des Kantons {canton_name} eingetragen, der einzigen für diesen Eintrag verwendeten Quelle.",
+        })
+        if domaines:
+            items.append({
+                "q": f"In welchen Fachgebieten ist {nom} tätig?",
+                "a": f"Für {nom} angegebene Fachgebiete: {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Welche Sprachen spricht {nom}?",
+                "a": f"{nom} spricht: {', '.join(langues)}.",
+            })
+        if seniority_text:
+            items.append({
+                "q": f"Seit wann ist {nom} im Anwaltsregister eingetragen?",
+                "a": f"{seniority_text}, gemäss dem offiziellen Register des Kantons {canton_name}.",
+            })
+        if telephone or email:
+            bits = []
+            if telephone:
+                bits.append(f"telefonisch unter {telephone}")
+            if email:
+                bits.append(f"per E-Mail an {email}")
+            a = f"Sie können {nom} " + " oder ".join(bits) + " kontaktieren."
+            if etude:
+                a += f" {nom} ist bei {etude} tätig."
+            items.append({"q": f"Wie kann man {nom} kontaktieren?", "a": a})
+        if review_count:
+            items.append({
+                "q": f"Was sagen die Bewertungen zu {nom}?",
+                "a": f"{nom} erhielt eine durchschnittliche Bewertung von {review_avg}/5, basierend auf {review_count} auf Legatis veröffentlichten Bewertungen.",
+            })
+        return items
+    if lang == "it":
+        items.append({
+            "q": f"{nom} è un avvocato verificato?",
+            "a": f"Sì. {nom} è iscritto/a all'albo ufficiale degli avvocati del Cantone {canton_name}, unica fonte utilizzata per costruire questa scheda.",
+        })
+        if domaines:
+            items.append({
+                "q": f"In quali ambiti di competenza esercita {nom} ?",
+                "a": f"Ambiti di competenza indicati per {nom}: {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Quali lingue parla {nom} ?",
+                "a": f"{nom} parla: {', '.join(langues)}.",
+            })
+        if seniority_text:
+            items.append({
+                "q": f"Da quando {nom} è iscritto/a all'albo?",
+                "a": f"{seniority_text}, secondo il registro ufficiale del Cantone {canton_name}.",
+            })
+        if telephone or email:
+            bits = []
+            if telephone:
+                bits.append(f"telefonicamente al {telephone}")
+            if email:
+                bits.append(f"via email a {email}")
+            a = f"Potete contattare {nom} " + " oppure ".join(bits) + "."
+            if etude:
+                a += f" {nom} esercita presso lo studio {etude}."
+            items.append({"q": f"Come contattare {nom} ?", "a": a})
+        if review_count:
+            items.append({
+                "q": f"Cosa dicono le recensioni su {nom} ?",
+                "a": f"{nom} ha ricevuto una valutazione media di {review_avg}/5 sulla base di {review_count} recensioni pubblicate su Legatis.",
+            })
+        return items
+    # en
+    items.append({
+        "q": f"Is {nom} a verified lawyer?",
+        "a": f"Yes. {nom} is registered with the official register of lawyers of the canton of {canton_name}, the only source used to build this listing.",
+    })
+    if domaines:
+        items.append({
+            "q": f"What practice areas does {nom} cover?",
+            "a": f"Listed practice areas for {nom}: {', '.join(domaines)}.",
+        })
+    if langues:
+        items.append({
+            "q": f"What languages does {nom} speak?",
+            "a": f"{nom} speaks: {', '.join(langues)}.",
+        })
+    if seniority_text:
+        items.append({
+            "q": f"Since when has {nom} been registered with the bar?",
+            "a": f"{seniority_text}, according to the official register of the canton of {canton_name}.",
+        })
+    if telephone or email:
+        bits = []
+        if telephone:
+            bits.append(f"by phone at {telephone}")
+        if email:
+            bits.append(f"by email at {email}")
+        a = f"You can contact {nom} " + " or ".join(bits) + "."
+        if etude:
+            a += f" {nom} practises at {etude}."
+        items.append({"q": f"How to contact {nom}?", "a": a})
+    if review_count:
+        items.append({
+            "q": f"What do reviews say about {nom}?",
+            "a": f"{nom} received an average rating of {review_avg}/5 based on {review_count} reviews published on Legatis.",
+        })
+    return items
+
+
+def firm_faq(lang, nom_etude, canton_name, ville=None, n_membres=0, founding_year=None,
+             domaines=None, langues=None, telephone=None):
+    """Meme principe que lawyer_faq() ci-dessus, pour les fiches etude/cabinet."""
+    domaines = domaines or []
+    langues = langues or []
+    items = []
+    if lang == "fr":
+        items.append({
+            "q": f"{nom_etude} est-elle une étude vérifiée ?",
+            "a": f"Oui. {nom_etude} est enregistrée dans le registre officiel des avocats du canton de {canton_name}, seule source utilisée pour construire cette fiche.",
+        })
+        if n_membres:
+            items.append({
+                "q": f"Combien d'avocats travaillent chez {nom_etude} ?",
+                "a": f"{n_membres} avocat(e)s de {nom_etude} figurent au registre Legatis.",
+            })
+        if founding_year:
+            import datetime
+            n = datetime.date.today().year - founding_year
+            items.append({
+                "q": f"Depuis quand {nom_etude} existe-t-elle ?",
+                "a": f"{nom_etude} a été fondée en {founding_year}" + (f", soit {n} ans d'existence." if n > 0 else "."),
+            })
+        if domaines:
+            items.append({
+                "q": f"Quels domaines de compétence couvre {nom_etude} ?",
+                "a": f"Domaines de compétence indiqués par les membres de {nom_etude} : {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Quelles langues sont parlées chez {nom_etude} ?",
+                "a": f"Langues parlées par les membres de {nom_etude} : {', '.join(langues)}.",
+            })
+        if telephone:
+            items.append({
+                "q": f"Comment contacter {nom_etude} ?",
+                "a": f"Vous pouvez contacter {nom_etude} par téléphone au {telephone}.",
+            })
+        return items
+    if lang == "de":
+        items.append({
+            "q": f"Ist {nom_etude} eine geprüfte Kanzlei?",
+            "a": f"Ja. {nom_etude} ist im offiziellen Anwaltsregister des Kantons {canton_name} eingetragen, der einzigen für diesen Eintrag verwendeten Quelle.",
+        })
+        if n_membres:
+            items.append({
+                "q": f"Wie viele Anwältinnen und Anwälte arbeiten bei {nom_etude}?",
+                "a": f"{n_membres} Anwältinnen und Anwälte von {nom_etude} sind im Legatis-Register erfasst.",
+            })
+        if founding_year:
+            import datetime
+            n = datetime.date.today().year - founding_year
+            items.append({
+                "q": f"Seit wann besteht {nom_etude}?",
+                "a": f"{nom_etude} wurde {founding_year} gegründet" + (f", also seit {n} Jahren." if n > 0 else "."),
+            })
+        if domaines:
+            items.append({
+                "q": f"Welche Fachgebiete deckt {nom_etude} ab?",
+                "a": f"Von den Mitgliedern von {nom_etude} angegebene Fachgebiete: {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Welche Sprachen werden bei {nom_etude} gesprochen?",
+                "a": f"Von den Mitgliedern von {nom_etude} gesprochene Sprachen: {', '.join(langues)}.",
+            })
+        if telephone:
+            items.append({
+                "q": f"Wie kann man {nom_etude} kontaktieren?",
+                "a": f"Sie können {nom_etude} telefonisch unter {telephone} kontaktieren.",
+            })
+        return items
+    if lang == "it":
+        items.append({
+            "q": f"{nom_etude} è uno studio verificato?",
+            "a": f"Sì. {nom_etude} è registrato nell'albo ufficiale degli avvocati del Cantone {canton_name}, unica fonte utilizzata per costruire questa scheda.",
+        })
+        if n_membres:
+            items.append({
+                "q": f"Quanti avvocati lavorano presso {nom_etude} ?",
+                "a": f"{n_membres} avvocati di {nom_etude} figurano nel registro Legatis.",
+            })
+        if founding_year:
+            import datetime
+            n = datetime.date.today().year - founding_year
+            items.append({
+                "q": f"Da quando esiste {nom_etude} ?",
+                "a": f"{nom_etude} è stato fondato nel {founding_year}" + (f", ovvero {n} anni di attività." if n > 0 else "."),
+            })
+        if domaines:
+            items.append({
+                "q": f"Quali ambiti di competenza copre {nom_etude} ?",
+                "a": f"Ambiti di competenza indicati dai membri di {nom_etude}: {', '.join(domaines)}.",
+            })
+        if langues:
+            items.append({
+                "q": f"Quali lingue si parlano presso {nom_etude} ?",
+                "a": f"Lingue parlate dai membri di {nom_etude}: {', '.join(langues)}.",
+            })
+        if telephone:
+            items.append({
+                "q": f"Come contattare {nom_etude} ?",
+                "a": f"Potete contattare {nom_etude} telefonicamente al {telephone}.",
+            })
+        return items
+    # en
+    items.append({
+        "q": f"Is {nom_etude} a verified firm?",
+        "a": f"Yes. {nom_etude} is registered with the official register of lawyers of the canton of {canton_name}, the only source used to build this listing.",
+    })
+    if n_membres:
+        items.append({
+            "q": f"How many lawyers work at {nom_etude}?",
+            "a": f"{n_membres} lawyers from {nom_etude} are listed on Legatis.",
+        })
+    if founding_year:
+        import datetime
+        n = datetime.date.today().year - founding_year
+        items.append({
+            "q": f"Since when has {nom_etude} existed?",
+            "a": f"{nom_etude} was founded in {founding_year}" + (f", {n} years of activity." if n > 0 else "."),
+        })
+    if domaines:
+        items.append({
+            "q": f"What practice areas does {nom_etude} cover?",
+            "a": f"Practice areas indicated by {nom_etude}'s members: {', '.join(domaines)}.",
+        })
+    if langues:
+        items.append({
+            "q": f"What languages are spoken at {nom_etude}?",
+            "a": f"Languages spoken by {nom_etude}'s members: {', '.join(langues)}.",
+        })
+    if telephone:
+        items.append({
+            "q": f"How to contact {nom_etude}?",
+            "a": f"You can contact {nom_etude} by phone at {telephone}.",
+        })
+    return items

@@ -776,6 +776,25 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                 _codes = [_lang_map.get(l.lower()) for l in _raw_langues]
                 _schema["knowsLanguage"] = [c for c in _codes if c] or _raw_langues
             ctx["schema"] = json.dumps(_schema, ensure_ascii=False)
+            # FAQ personnalisee (contenu unique par fiche + schema FAQPage) :
+            # voir pt.lawyer_faq(), meme principe de verite que ville_faq()
+            # (jamais invente, chaque question conditionnee a une donnee reelle).
+            ctx["faq"] = pt.lawyer_faq(
+                lang, nom, canton_name, ville=row.get("ville") or None,
+                domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
+                langues=_langues_for_lang, seniority_text=ctx["seniority_text"],
+                telephone=ctx["telephone"] or None, email=ctx["email"] or None,
+                etude=row.get("etude") or None,
+                review_avg=(_rating or {}).get("ratingValue"), review_count=(_rating or {}).get("reviewCount"),
+            )
+            ctx["extra_schema"] = [json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in ctx["faq"]
+                ],
+            }, ensure_ascii=False)]
             write_page(path, render("avocat.html", ctx))
 
 
@@ -900,6 +919,23 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                 _codes = [_lang_map.get(l.lower()) for l in _team_langues]
                 _schema["knowsLanguage"] = [c for c in _codes if c] or _team_langues
             ctx["schema"] = json.dumps(_schema, ensure_ascii=False)
+            # FAQ personnalisee (contenu unique par fiche + schema FAQPage) :
+            # voir pt.firm_faq(), meme principe de verite que ville_faq()
+            # (jamais invente, chaque question conditionnee a une donnee reelle).
+            ctx["faq"] = pt.firm_faq(
+                lang, nom_etude, canton_name, ville=row.get("ville") or None, n_membres=n,
+                founding_year=(_web or {}).get("founding_year"),
+                domaines=_domaine_names, langues=pt.translate_langues(_team_langues, lang),
+                telephone=ctx["telephone"] or None,
+            )
+            ctx["extra_schema"] = [json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in ctx["faq"]
+                ],
+            }, ensure_ascii=False)]
             write_page(path, render("etude.html", ctx))
 
 
@@ -1448,6 +1484,23 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                 "telephone": telephone,
                 **({"sameAs": [_site_url]} if _site_url else {}),
             }, ensure_ascii=False)
+            # FAQ personnalisee (contenu unique par fiche + schema FAQPage) :
+            # voir pt.firm_faq(), meme principe de verite que ville_faq()
+            # (jamais invente, chaque question conditionnee a une donnee reelle).
+            ctx["faq"] = pt.firm_faq(
+                lang, nom_etude, canton_name, ville=ville or None, n_membres=n,
+                founding_year=(_web or {}).get("founding_year"),
+                domaines=_domaine_names, langues=_langues_names,
+                telephone=telephone or None,
+            )
+            ctx["extra_schema"] = [json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in ctx["faq"]
+                ],
+            }, ensure_ascii=False)]
             write_page(path, render("etude.html", ctx))
 
 
@@ -1570,6 +1623,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 _bc.append(_city_link)
             _bc.append((nom, path))
             ctx["breadcrumb"] = _bc
+            _rating = attorney_rating_schema(code, row["_slug"])
             ctx["schema"] = json.dumps({
                 "@context": "https://schema.org", "@type": "Attorney", "name": nom,
                 "url": BASE_DOMAIN + path,
@@ -1579,9 +1633,26 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 "telephone": row.get("telephone", ""), "email": row.get("email", ""),
                 "areaServed": canton_name,
                 **({"sameAs": [row["site_web"]]} if row.get("site_web") else {}),
-                **({"aggregateRating": attorney_rating_schema(code, row["_slug"])}
-                   if attorney_rating_schema(code, row["_slug"]) else {}),
+                **({"aggregateRating": _rating} if _rating else {}),
             }, ensure_ascii=False)
+            # FAQ personnalisee (contenu unique par fiche + schema FAQPage) :
+            # voir pt.lawyer_faq(), meme principe de verite que ville_faq()
+            # (jamais invente, chaque question conditionnee a une donnee reelle).
+            ctx["faq"] = pt.lawyer_faq(
+                lang, nom, canton_name, ville=row.get("ville") or None,
+                domaines=_domaine_names, langues=ctx["langues"], seniority_text=ctx["seniority_text"],
+                telephone=ctx["telephone"] or None, email=ctx["email"] or None,
+                etude=etude_name or None,
+                review_avg=(_rating or {}).get("ratingValue"), review_count=(_rating or {}).get("reviewCount"),
+            )
+            ctx["extra_schema"] = [json.dumps({
+                "@context": "https://schema.org", "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": item["q"],
+                     "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
+                    for item in ctx["faq"]
+                ],
+            }, ensure_ascii=False)]
             write_page(path, render("avocat.html", ctx))
 
 
