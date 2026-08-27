@@ -1990,6 +1990,16 @@ GUIDE_CALCULATORS = {
     "calcul-prescription": legal_tools_widgets.PRESCRIPTION_HTML,
     "calcul-delai-procedure": legal_tools_widgets.DELAI_HTML,
     "calcul-interets-moratoires": legal_tools_widgets.INTERETS_HTML,
+    "calcul-amende-vitesse": legal_tools_widgets.AMENDE_HTML,
+    "resiliation-bail": legal_tools_widgets.RESILIATION_BAIL_HTML,
+    "estimation-pension-alimentaire": legal_tools_widgets.PENSION_HTML,
+    "calcul-frais-poursuite": legal_tools_widgets.FRAIS_POURSUITE_HTML,
+    "demande-sous-location": legal_tools_widgets.SOUS_LOCATION_HTML,
+    "calcul-reserve-hereditaire": legal_tools_widgets.RESERVE_HEREDITAIRE_HTML,
+    "calcul-delai-conge-bail": legal_tools_widgets.DELAI_CONGE_HTML,
+    "mise-en-demeure": legal_tools_widgets.MISE_EN_DEMEURE_HTML,
+    "calcul-delai-licenciement": legal_tools_widgets.DELAI_LICENCIEMENT_HTML,
+    "calcul-delai-recours-administratif": legal_tools_widgets.DELAI_RECOURS_HTML,
 }
 
 

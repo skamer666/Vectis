@@ -467,6 +467,7 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 .calc-result{ margin-top:var(--space-lg); padding:var(--space-lg); border-radius:var(--radius-sm); font-size:0.92rem; }
 .calc-result.is-eligible{ background:oklch(96% 0.04 155); border:1px solid var(--success-600); color:var(--ink-950); }
 .calc-result.is-not-eligible{ background:var(--accent-50); border:1px solid var(--accent-500); color:var(--ink-950); }
+.calc-result.is-severe{ background:oklch(95% 0.05 25); border:1px solid oklch(75% 0.15 25); color:var(--ink-950); }
 .calc-result p{ margin:4px 0; }
 .calc-footnote{ font-size:0.82rem; color:var(--text-secondary); margin-top:var(--space-sm) !important; }
 .calc-source{ font-size:0.78rem; color:var(--text-muted); margin-top:var(--space-lg); }
