@@ -10,7 +10,7 @@
 // Aucune agregation SQL cote Supabase (pas de fonction/RPC dediee) : on
 // recupere les lignes brutes de la fenetre demandee (plafonnees a
 // MAX_ROWS, voir plus bas) et on agrege en JS ici, dans le meme esprit que
-// verification-list.js. Simple a lire/maintenir, largement suffisant pour
+// admin-list.js. Simple a lire/maintenir, largement suffisant pour
 // le volume de trafic de ce site ; a revisiter (vue materialisee /
 // fonction Postgres) si le plafond commence a etre atteint regulierement.
 

@@ -28,7 +28,7 @@
 // defaut sur le formulaire, distincte du consentement d'identite/creation
 // de compte (qui reste obligatoire). Stockee ici (marketing_consent) puis
 // recopiee sur la ligne lawyer_accounts au moment de l'activation du
-// compte (verification-confirm.js / verification-decide.js) -- c'est cette
+// compte (verification-confirm.js / admin-decide.js kind=verification) -- c'est cette
 // derniere qui fait foi une fois le compte actif.
 //
 // Variables d'environnement requises (Vercel, jamais dans le code) :

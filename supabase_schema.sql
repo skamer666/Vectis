@@ -103,7 +103,7 @@ alter table leads enable row level security;
 --     account_email doit correspondre exactement, verifie cote serveur.
 --   - palier telephone -> Greg rappelle manuellement le numero deja publie
 --     sur la fiche (jamais un numero saisi par le demandeur), puis valide
---     depuis /interne/verification-avocats/ (api/verification-decide.js).
+--     depuis /interne/verification-avocats/ (api/admin-decide.js (kind=verification)).
 --   - palier document -> carte de legitimation d'avocat (ou brevet) +
 --     selfie, stockes dans le bucket prive verification-documents,
 --     examines manuellement par Greg puis SUPPRIMES IMMEDIATEMENT apres la
@@ -114,7 +114,7 @@ alter table leads enable row level security;
 -- confiance reel (email : doit matcher l'adresse deja publiee ; telephone :
 -- doit exister deja ; document : toujours disponible).
 -- En cas de refus (palier telephone/document), le compte pre-cree est
--- SUPPRIME (api/verification-decide.js) pour liberer l'adresse email.
+-- SUPPRIME (api/admin-decide.js (kind=verification)) pour liberer l'adresse email.
 --
 -- Securite : RLS activee, AUCUNE policy pour anon/authenticated (ni lecture,
 -- ni ecriture). Seule la service_role key (jamais exposee cote client, lue
@@ -142,7 +142,7 @@ create table if not exists verification_requests (
   -- Consentement FACULTATIF (case decochee par defaut cote formulaire) pour
   -- recevoir d'autres emails Legatis que ceux lies a la creation/activation
   -- du compte. Recopie sur lawyer_accounts au moment de l'activation -- voir
-  -- api/verification-confirm.js / api/verification-decide.js.
+  -- api/verification-confirm.js / api/admin-decide.js (kind=verification).
   marketing_consent boolean not null default false,
   contact_note text,
   document_path text,
@@ -154,14 +154,14 @@ create table if not exists verification_requests (
   decided_by text,
   -- Offre "site web gratuit" presentee juste apres la creation du compte
   -- (avant validation de l'identite) -- voir website_offer_content.py et
-  -- api/website-offer-decision.js. null tant que l'avocat n'a pas encore
+  -- api/website-offer.js (flow=signup). null tant que l'avocat n'a pas encore
   -- repondu a l'offre (ce qui reste possible : rien ne bloque la demande de
   -- verification elle-meme si l'offre est ignoree cote client). true/false
   -- une fois qu'il a explicitement accepte ou refuse.
   free_website_interest boolean,
   -- Horodatage + version du contrat au moment de l'acceptation electronique
   -- (case cochee + defilement complet obligatoire côté client, revérifié
-  -- cote serveur par la version attendue -- voir api/website-offer-decision.js).
+  -- cote serveur par la version attendue -- voir api/website-offer.js (flow=signup)).
   -- Reste null si l'offre a ete refusee ou jamais presentee.
   free_website_contract_accepted_at timestamptz,
   free_website_contract_version text
@@ -191,8 +191,8 @@ on conflict (id) do nothing;
 -- bucket prive sans policy storage.objects n'est accessible ni en lecture
 -- ni en ecriture via la clef anon/authenticated, seulement via la
 -- service_role key cote serveur (upload dans verification-request.js,
--- generation d'URL signee temporaire dans verification-list.js, suppression
--- immediate dans verification-decide.js).
+-- generation d'URL signee temporaire dans admin-list.js (kind=verification),
+-- suppression immediate dans admin-decide.js (kind=verification)).
 
 
 -- ============================================================================
@@ -206,7 +206,7 @@ on conflict (id) do nothing;
 -- (email_confirm=false) tant que l'identite n'est pas confirmee. Le lien
 -- auth.users <-> fiche du registre (table lawyer_accounts) n'est cree
 -- qu'A CE MOMENT LA, par api/verification-confirm.js (palier email) ou
--- api/verification-decide.js (palier telephone/document) avec la
+-- api/admin-decide.js (kind=verification) (palier telephone/document) avec la
 -- service_role key, jamais un choix laisse au client -- sinon n'importe qui
 -- pourrait s'inscrire en se pretendant n'importe quel avocat du registre.
 --
@@ -247,8 +247,8 @@ create policy "self read lawyer account"
 -- Aucune policy d'insertion/mise a jour/suppression, meme pour le
 -- proprietaire : ce lien identite <-> fiche est etabli une fois, au moment
 -- de la confirmation d'identite (service_role, verification-confirm.js /
--- verification-decide.js), et n'a jamais vocation a changer depuis le
--- navigateur.
+-- admin-decide.js kind=verification), et n'a jamais vocation a changer
+-- depuis le navigateur.
 
 
 create table if not exists lawyer_profile_submissions (
@@ -338,10 +338,10 @@ create policy "public read lawyer photos"
 -- Journal des demandes d'offre "site web gratuit" faites APRES la creation
 -- du compte, depuis l'espace avocat /mon-profil/ une fois l'identite deja
 -- confirmee (bouton "Demander un site gratuit ?", voir
--- api/lawyer-website-offer.js et templates/mon_profil.html). Distinct de
+-- api/website-offer.js (flow=profile) et templates/mon_profil.html). Distinct de
 -- verification_requests.free_website_* qui couvre le cas ou l'offre est
 -- acceptee AVANT la confirmation d'identite, au moment de la creation du
--- compte (voir api/website-offer-decision.js) -- ce sont deux moments
+-- compte (voir api/website-offer.js (flow=signup)) -- ce sont deux moments
 -- differents du parcours, donc deux journaux differents, mais le meme
 -- contrat (website_offer_content.CONTRACT) et le meme couple d'emails
 -- (copie du contrat au Client + notification a Greg, voir
@@ -365,7 +365,7 @@ create index if not exists website_offer_requests_user_idx on website_offer_requ
 alter table website_offer_requests enable row level security;
 
 -- Aucune policy anon/authenticated, meme principe que verification_requests :
--- seule la service_role key (api/lawyer-website-offer.js, qui revalide
+-- seule la service_role key (api/website-offer.js (flow=profile), qui revalide
 -- l'identite de l'avocat aupres de Supabase avant d'ecrire) peut lire ou
 -- ecrire cette table.
 

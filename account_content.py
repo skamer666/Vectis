@@ -7,7 +7,7 @@ Rappel de la chaine complete : le compte (email + mot de passe) est cree
 des la demande de verification d'identite elle-meme -- voir
 verification_content.py (formulaire) / api/verification-request.js
 (pre-creation bloquee) / api/verification-confirm.js et
-api/verification-decide.js (activation a la confirmation). Il n'y a donc
+api/admin-decide.js (kind=verification, activation a la confirmation). Il n'y a donc
 plus de page separee de "creation de compte" apres coup : une fois
 l'identite confirmee, l'avocat se connecte directement avec le mot de passe
 deja choisi. La page de connexion utilise Supabase Auth (email + mot de

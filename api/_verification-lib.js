@@ -26,7 +26,7 @@ function loadContacts() {
 
 // data/contract_content.json : genere par build.py (gen_contract_export())
 // a partir de website_offer_content.CONTRACT -- utilise par
-// website-offer-decision.js pour envoyer au Client une copie du contrat
+// website-offer.js pour envoyer au Client une copie du contrat
 // "site web gratuit" qu'il vient d'accepter.
 let _contractContent = null;
 function loadContractContent() {
@@ -170,8 +170,8 @@ const DEFAULT_FROM = "Legatis <verification@legatis.ch>";
 // jamais dans le code), la fonction retourne simplement false -- aucune
 // exception, rien ne casse. Utilise pour le lien de confirmation email
 // (verification-request.js) et pour le lien de creation de compte
-// (verification-decide.js, verification-confirm.js indirectement via la
-// page de confirmation).
+// (admin-decide.js kind=verification, verification-confirm.js indirectement
+// via la page de confirmation).
 //
 // `html` est optionnel : sans lui, Resend n'envoie que la version texte, et
 // certains clients mail affichent alors l'URL comme du texte brut au lieu
@@ -270,7 +270,7 @@ async function checkAdminAuth(req) {
 // (lawyer_accounts.user_id) -- voir supabase_schema.sql. Renvoie la ligne
 // lawyer_accounts (canton, avocat_slug, avocat_nom, avocat_url) + l'email du
 // compte, ou null si le token est invalide ou si l'utilisateur n'a pas
-// (encore) de compte avocat actif. Utilise par api/lawyer-website-offer.js.
+// (encore) de compte avocat actif. Utilise par api/website-offer.js (flow=profile).
 async function getLawyerAccount(req) {
   const user = await getAuthUser(req);
   if (!user) return null;
@@ -295,8 +295,8 @@ async function getLawyerAccount(req) {
 // bascule qui fait office de "creation reelle" du compte, uniquement au
 // moment ou l'identite est confirmee (lien email clique, ou decision de
 // Greg) -- voir adminConfirmUser ci-dessous, appelee depuis
-// verification-confirm.js et verification-decide.js. Si la demande est
-// refusee, adminDeleteUser libere l'adresse pour une nouvelle tentative.
+// verification-confirm.js et admin-decide.js (kind=verification). Si la
+// demande est refusee, adminDeleteUser libere l'adresse pour une nouvelle tentative.
 
 async function adminCreateUser(email, password) {
   const resp = await fetch(`${SUPABASE_URL}/auth/v1/admin/users`, {
@@ -341,10 +341,10 @@ async function adminDeleteUser(userId) {
 }
 
 // -- Offre "site web gratuit" : email du contrat au Client + notification a
-// Greg -- partages entre website-offer-decision.js (acceptation juste apres
-// la creation du compte) et lawyer-website-offer.js (demande depuis l'espace
-// avocat une fois connecte, voir templates/mon_profil.html) pour ne jamais
-// dupliquer le texte de ces emails dans 4 langues a deux endroits.
+// Greg -- partages entre les deux flux de website-offer.js (flow=signup :
+// acceptation juste apres la creation du compte ; flow=profile : demande
+// depuis l'espace avocat une fois connecte, voir templates/mon_profil.html)
+// pour ne jamais dupliquer le texte de ces emails dans 4 langues a deux endroits.
 
 const SITE_BASE_DOMAIN = "https://legatis.ch";
 const ADMIN_NOTIFY_EMAIL = "gregoiregiuliano@hotmail.com";

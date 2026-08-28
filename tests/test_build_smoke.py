@@ -145,7 +145,7 @@ def test_verification_request_page_offers_free_website_after_signup(tmp_path, mo
     assert '<input type="checkbox" id="vf-contract-checkbox" disabled>' in html
     assert 'id="vf-contract-accept" disabled' in html
     assert "Et si Legatis vous offrait votre site internet" in html
-    assert "/api/website-offer-decision" in html
+    assert "/api/website-offer" in html
 
 
 def test_verification_request_page_contract_has_23_full_articles(tmp_path, monkeypatch):
@@ -180,8 +180,8 @@ def test_verification_review_page_is_noindex(tmp_path, monkeypatch):
     html = (tmp_path / "interne" / "verification-avocats" / "index.html").read_text(encoding="utf-8")
     assert "{{" not in html and "{%" not in html and "Undefined" not in html
     assert 'name="robots" content="noindex' in html
-    assert "/api/verification-list" in html
-    assert "/api/verification-decide" in html
+    assert "/api/admin-list?kind=verification" in html
+    assert "/api/admin-decide" in html
     assert 'id="vr-email"' in html and 'id="vr-password"' in html
 
 
@@ -285,8 +285,8 @@ def test_verification_review_lists_profile_moderation_endpoints(tmp_path, monkey
     monkeypatch.setattr(build, "DIST_DIR", str(tmp_path))
     build.gen_verification_review()
     html = (tmp_path / "interne" / "verification-avocats" / "index.html").read_text(encoding="utf-8")
-    assert "/api/profile-list" in html
-    assert "/api/profile-decide" in html
+    assert "/api/admin-list?kind=profile" in html
+    assert "/api/admin-decide" in html
 
 
 def test_verification_contacts_json_never_shipped_to_dist(tmp_path, monkeypatch):

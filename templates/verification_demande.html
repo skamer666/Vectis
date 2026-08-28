@@ -174,7 +174,7 @@
   var searchIndexUrl = {{ search_index_url | tojson }};
   var verificationIndexUrl = {{ verification_index_url | tojson }};
   var submitUrl = "/api/verification-request";
-  var offerDecisionUrl = "/api/website-offer-decision";
+  var offerDecisionUrl = "/api/website-offer";
   var lang = {{ lang | tojson }};
   var MAX_FILE_BYTES = 8 * 1024 * 1024;
 
@@ -232,7 +232,7 @@
   function postOfferDecision(interested) {
     if (window.legatisTrack) window.legatisTrack('website_offer_decision', { interested: !!interested });
     if (!pendingRequestId) return Promise.resolve();
-    var payload = { id: pendingRequestId, interested: !!interested };
+    var payload = { flow: 'signup', id: pendingRequestId, interested: !!interested };
     if (interested) payload.contract_version = CONTRACT_VERSION;
     return fetch(offerDecisionUrl, {
       method: 'POST',

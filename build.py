@@ -2138,7 +2138,7 @@ def gen_contract_export():
     """Export du contrat "site web gratuit" (website_offer_content.CONTRACT)
     en JSON, JAMAIS copie dans dist/ (comme verification_contacts.json
     ci-dessus) -- lu uniquement cote serveur par
-    api/website-offer-decision.js pour composer l'email envoye au Client
+    api/website-offer.js pour composer l'email envoye au Client
     quand il accepte le contrat (voir demande de Gregoire Giuliano du
     2026-08-23 : le Client doit recevoir une copie du contrat qu'il vient
     d'accepter). CONTRACT_VERSION est inclus pour que l'email envoye
@@ -2167,7 +2167,7 @@ def gen_verification_request():
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (f["title"], path)]
         # Offre "site web gratuit" + contrat, presentee juste apres la
         # creation du compte (avant validation de l'identite) -- voir
-        # website_offer_content.py et api/website-offer-decision.js.
+        # website_offer_content.py et api/website-offer.js (flow=signup).
         ctx["offer"] = website_offer_content.OFFER[lang]
         ctx["contract"] = website_offer_content.CONTRACT[lang]
         ctx["contract_version"] = website_offer_content.CONTRACT_VERSION
@@ -2197,8 +2197,8 @@ def gen_verification_review():
     gen_vitrine_review() (qui lit des fichiers JSON commit dans le depot),
     cette page ne contient aucune donnee en dur : elle affiche un simple
     formulaire d'acces (jeton admin) et recupere la liste + agit via
-    api/verification-list.js / api/verification-decide.js, cote client,
-    apres authentification par jeton. Aucune donnee sensible ne transite
+    api/admin-list.js / api/admin-decide.js (kind=verification|profile),
+    cote client, apres authentification par jeton. Aucune donnee sensible ne transite
     par le build Python ni n'est jamais committee dans le depot (public)."""
     lang = "fr"
     path = "/interne/verification-avocats/"
@@ -2241,7 +2241,7 @@ def gen_mon_profil():
     """Tableau de bord de l'avocat connecte : donnees du registre en lecture
     seule + formulaire de soumission du contenu complementaire (bio, photo,
     coordonnees affichees, liens), moderees ensuite via
-    api/profile-list.js / api/profile-decide.js. Page personnelle,
+    api/admin-list.js / api/admin-decide.js (kind=profile). Page personnelle,
     non indexee."""
     for lang in LANGS:
         path = mon_profil_path(lang)
@@ -2252,7 +2252,7 @@ def gen_mon_profil():
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (p["title"], path)]
         # Bouton "Demander un site gratuit ?" pour l'avocat deja connecte qui
         # n'avait pas pris l'offre a la creation de son compte (ou veut la
-        # redemander) -- voir api/lawyer-website-offer.js. Meme contenu
+        # redemander) -- voir api/website-offer.js (flow=profile). Meme contenu
         # d'offre/contrat que verification_demande.html (website_offer_content.py).
         ctx["offer"] = website_offer_content.OFFER[lang]
         ctx["contract"] = website_offer_content.CONTRACT[lang]

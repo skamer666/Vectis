@@ -249,9 +249,9 @@
   // avant de pouvoir l'accepter) que templates/verification_demande.html au
   // moment de la creation du compte, pour l'avocat qui n'avait pas pris
   // l'offre a ce moment-la (ou veut la redemander). Poste vers
-  // /api/lawyer-website-offer (et non directement Supabase) car cet appel
-  // doit declencher l'envoi des emails cote serveur (copie du contrat au
-  // Client + notification a Greg) -- voir _verification-lib.js.
+  // /api/website-offer (flow=profile, et non directement Supabase) car cet
+  // appel doit declencher l'envoi des emails cote serveur (copie du contrat
+  // au Client + notification a Greg) -- voir _verification-lib.js.
   var offerCtaBtn = document.getElementById('mp-offer-cta');
   var offerBox = document.getElementById('mp-offer');
   var offerAcceptBtn = document.getElementById('mp-offer-accept');
@@ -315,10 +315,10 @@
     }
     offerContractAcceptBtn.disabled = true;
     ensureSession().then(function(session) {
-      return fetch('/api/lawyer-website-offer', {
+      return fetch('/api/website-offer', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + session.access_token },
-        body: JSON.stringify({ contract_version: CONTRACT_VERSION, lang: lang }),
+        body: JSON.stringify({ flow: 'profile', contract_version: CONTRACT_VERSION, lang: lang }),
       });
     }).then(function(r) {
       if (!r.ok) throw new Error('offer_request_failed');
