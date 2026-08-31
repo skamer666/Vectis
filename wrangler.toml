@@ -1,0 +1,15 @@
+# Configuration Cloudflare Pages (projet "legatis" / "vectis-repo").
+# Voir CLOUDFLARE_MIGRATION.md a la racine du depot pour le guide de
+# migration complet (creation du projet, variables d'environnement, DNS).
+#
+# compatibility_flags = ["nodejs_compat"] est CRITIQUE : sans lui,
+# process.env, Buffer et node:crypto (utilises par functions/api/*.js, portes
+# depuis les fonctions Vercel d'origine) ne fonctionnent pas dans le runtime
+# Workers. Avec compatibility_date >= 2025-04-01, ce flag suffit a lui seul a
+# peupler process.env depuis les variables d'environnement / secrets du
+# projet Pages (pas besoin du flag separe nodejs_compat_populate_process_env,
+# automatique a partir de cette date).
+name = "legatis"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-08-31"
+compatibility_flags = ["nodejs_compat"]

@@ -2728,6 +2728,59 @@ def gen_robots():
         f.write(content)
 
 
+def gen_cloudflare_files():
+    # Equivalent Cloudflare Pages de la section "headers"/"redirects" de
+    # vercel.json (voir CLOUDFLARE_MIGRATION.md) : Cloudflare Pages ne lit pas
+    # vercel.json, il lit deux fichiers texte places a la racine de
+    # DIST_DIR/dist (l'outputDirectory) au moment du deploiement -- _headers
+    # et _redirects. Generes ici, comme robots.txt/sitemap.xml juste
+    # au-dessus, pour rester a jour a CHAQUE build (jamais una copie
+    # statique qui pourrait diverger de vercel.json).
+    #
+    # Cloudflare fusionne les headers de toutes les regles qui matchent une
+    # requete donnee (une meme regle "Cache-Control" plus specifique prime
+    # sur une regle plus generale pour ce meme nom d'en-tete) -- la meme
+    # page peut donc recevoir a la fois les en-tetes de securite de "/*" ET
+    # le Cache-Control de "/fr/*", exactement comme les 4 blocs "headers" de
+    # vercel.json se cumulaient deja pour une meme URL.
+    headers_content = (
+        "/*\n"
+        "  X-Content-Type-Options: nosniff\n"
+        "  X-Frame-Options: DENY\n"
+        "  Referrer-Policy: strict-origin-when-cross-origin\n"
+        "  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()\n"
+        "  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.supabase.co; frame-src 'self' https://www.youtube-nocookie.com https://player.vimeo.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'\n"
+        "\n"
+        "/*.html\n"
+        "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"
+        "\n"
+        "/fr/*\n"
+        "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"
+        "\n"
+        "/de/*\n"
+        "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"
+        "\n"
+        "/it/*\n"
+        "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"
+        "\n"
+        "/en/*\n"
+        "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"
+        "\n"
+        "/static/*\n"
+        "  Cache-Control: public, max-age=3600, stale-while-revalidate=604800\n"
+    )
+    with open(os.path.join(DIST_DIR, "_headers"), "w", encoding="utf-8") as f:
+        f.write(headers_content)
+
+    # 301 (permanent) et non 307/302 : voir le commit "Corrige les problemes
+    # SEO releves par l'audit" (redirection "/" -> "/fr/" deliberement
+    # permanente pour que Google consolide le signal sur /fr/, pas une
+    # redirection provisoire).
+    redirects_content = "/ /fr/ 301\n"
+    with open(os.path.join(DIST_DIR, "_redirects"), "w", encoding="utf-8") as f:
+        f.write(redirects_content)
+
+
 def gen_search():
     for lang in LANGS:
         index = []
@@ -2878,4 +2931,5 @@ if __name__ == "__main__":
         gen_search()
         gen_sitemaps()
         gen_robots()
+        gen_cloudflare_files()
     print(f"{len(URLS_GENERATED)} pages generees dans {DIST_DIR}", file=sys.stderr)
