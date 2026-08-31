@@ -1,4 +1,16 @@
-# Migration Vercel -> Cloudflare Pages
+# Migration Vercel -> Cloudflare
+
+**Mise a jour du 31.08.2026, apres le premier vrai deploiement.** Le titre
+d'origine de ce document ("Cloudflare Pages") s'est revele inexact : malgre
+le chemin suivi dans le dashboard ("Workers & Pages -> Create -> Pages ->
+Connect to Git"), la ressource creee est un vrai **Worker** (visible sous
+`/workers/services/view/legatis/...`), pas un projet Cloudflare Pages
+classique. `wrangler pages deploy` echoue avec "The Pages project legatis
+does not exist". Le dossier `functions/api/*.js` reste ecrit selon la
+convention Pages Functions (aucune reecriture necessaire), mais il est
+desormais compile en un script Worker unique via la commande officielle
+`wrangler pages functions build`, prevue pour exactement ce cas de figure.
+Voir "Ce qui a change dans le code" et l'etape 1 ci-dessous pour le detail.
 
 Contexte : le plan Hobby Vercel a ete depasse plusieurs fois cet aout (quota
 edge requests le 21-24/08, puis limite de 12 fonctions serverless le 23-28/08
@@ -19,16 +31,25 @@ etape, volontairement separee et non automatique).
   Cloudflare Pages Functions. `api/*.js` n'est PAS supprime -- les deux
   cohabitent, seul `api/` est lu par Vercel et seul `functions/` est lu par
   Cloudflare, aucun conflit.
-- `wrangler.toml` (nouveau) : declare `nodejs_compat` (necessaire pour que
+- `wrangler.toml` : declare `nodejs_compat` (necessaire pour que
   `process.env`, `Buffer` et `node:crypto` fonctionnent dans les fonctions
-  portees) et `pages_build_output_dir = "dist"`.
+  portees), `main = "dist/_worker.js/index.js"` (script Worker compile, voir
+  ci-dessous) et `[assets] directory = "dist"` (le site statique). PAS
+  `pages_build_output_dir` (reserve aux vrais projets Pages, absent ici).
 - `build.py` : ajoute `gen_cloudflare_files()`, appelee juste apres
-  `gen_robots()` dans le pipeline complet. Genere `dist/_headers` et
-  `dist/_redirects`, l'equivalent Cloudflare Pages des sections
-  `headers`/`redirects` de `vercel.json` (Cloudflare ne lit pas
-  `vercel.json`). Verifie ligne a ligne contre `vercel.json` -- memes
-  en-tetes de securite, meme CSP, mêmes regles de cache, meme redirection
-  permanente `/` -> `/fr/`.
+  `gen_robots()` dans le pipeline complet. Genere `dist/_headers`,
+  `dist/_redirects` (equivalent Cloudflare des sections `headers`/
+  `redirects` de `vercel.json`, verifie ligne a ligne -- memes en-tetes de
+  securite, meme CSP, memes regles de cache, meme redirection permanente
+  `/` -> `/fr/`) et `dist/.assetsignore` (exclut `_worker.js/` du service
+  de fichiers statiques, sinon Cloudflare tenterait de servir le bundle JS
+  compile comme une page web).
+- Commande de build Cloudflare (a saisir dans le dashboard, voir etape 1) :
+  `python3 build.py all` genere le site + `data/*.json`, PUIS
+  `npx wrangler pages functions build --outdir=dist/_worker.js/` compile
+  `functions/api/*.js` en un unique script Worker (`dist/_worker.js/index.js`,
+  pointe par `main` dans `wrangler.toml`) -- pont officiel documente par
+  Cloudflare pour deployer des Pages Functions comme Worker.
 
 ## Pourquoi le portage n'est pas une simple recopie
 
@@ -46,36 +67,50 @@ et la lecture des fichiers JSON generes par `build.py`
 import statique plutot qu'une lecture disque (les Workers Cloudflare n'ont
 aucun systeme de fichiers a l'execution, meme avec `nodejs_compat`).
 
-**Verification deja faite depuis cette session** (sans compte Cloudflare) :
-`python3 build.py all` a ete execute en local -- `dist/_headers`,
-`dist/_redirects`, `data/verification_contacts.json` et
-`data/contract_content.json` sont bien generes. Les 12 fichiers de
-`functions/api/` ont ensuite ete passes dans `esbuild --bundle` (le meme
-bundler qu'utilise Cloudflare en interne) : les 12 bundlent sans la moindre
-erreur, imports JSON compris. C'est une forte indication que l'import
-statique fonctionnera reellement sur Cloudflare, mais ce n'est PAS une
-certitude absolue : Cloudflare pourrait en theorie bundler `functions/` avant
-la fin de `buildCommand` (aucune documentation Cloudflare consultee ne
-tranche explicitement ce point, malgre plusieurs recherches). **C'est le
-point n°1 a verifier sur le premier deploiement preview** (voir plus bas) --
-si ca casse, ce sera un echec de build EXPLICITE ("module not found"), pas un
-bug silencieux, et un plan de repli est documente en bas de ce fichier.
+**Verification deja faite** (en local, avec le vrai `wrangler` CLI --
+version 4.127.1, identique a celle utilisee par le build Cloudflare reel) :
+`python3 build.py all` puis `npx wrangler pages functions build
+--outdir=dist/_worker.js/` executes l'un apres l'autre -- compilation
+reussie ("Compiled Worker successfully"), `dist/_worker.js/index.js` genere
+(~1.1 Mo). Verification faite sur la taille et le contenu du bundle que
+`verification_contacts.json` (950 Ko) est bien inline dedans -- l'import
+statique fonctionne reellement, ce n'est plus une hypothese. Seuls
+avertissements attendus et sans consequence : `wrangler` signale que
+`node:crypto`/`node:buffer` necessitent `nodejs_compat` a l'execution --
+deja declare dans `wrangler.toml`.
 
 ## Etapes cote compte Cloudflare (a faire par Greg)
 
-### 1. Creer le projet Pages
+Le projet "legatis" existe deja (cree via Workers & Pages -> Create -> Pages
+-> Connect to Git -> `skamer666/Vectis`), mais c'est un Worker, pas un projet
+Pages classique -- voir la mise a jour en tete de ce document. Les etapes
+ci-dessous corrigent sa configuration en consequence.
 
-Dashboard Cloudflare -> Workers & Pages -> Create -> Pages -> Connect to Git
--> selectionner `skamer666/Vectis`.
+### 1. Build command / Deploy command (Settings -> Builds)
 
-Build settings :
-- Framework preset : None
-- Build command : `python3 -m pip install -r requirements.txt --break-system-packages 2>/dev/null || python3 -m pip install -r requirements.txt; python3 build.py all`
-- Build output directory : `dist`
+- **Build command** :
+  ```
+  python3 -m pip install -r requirements.txt --break-system-packages 2>/dev/null || python3 -m pip install -r requirements.txt; python3 build.py all && npx wrangler pages functions build --outdir=dist/_worker.js/
+  ```
+  (la seconde commande compile `functions/api/*.js` en un script Worker,
+  voir plus haut -- sans elle, aucune fonction api/* n'est deployee).
+- **Deploy command** : `npx wrangler deploy` (la valeur par defaut -- si
+  elle a ete changee en `wrangler pages deploy` a un essai precedent, la
+  remettre a `wrangler deploy` : "legatis" est un Worker, pas un projet
+  Pages, `wrangler pages deploy` echoue avec "The Pages project legatis
+  does not exist").
 
-### 2. Variables d'environnement / secrets
+### 2. Permissions du jeton de build
 
-Settings -> Environment variables, pour l'environnement Production (et
+Settings -> Builds -> API token (ou la variable `CLOUDFLARE_API_TOKEN` sous
+Build variables and secrets selon la configuration) : le jeton utilise doit
+avoir la permission **Account -> Workers Scripts -> Edit** (c'est un Worker
+qui est deploye, pas un projet Pages -- **Cloudflare Pages: Edit** n'est pas
+necessaire pour ce chemin, meme si l'avoir en plus ne gene pas).
+
+### 3. Variables d'environnement / secrets
+
+Settings -> Variables and Secrets, pour l'environnement Production (et
 Preview si vous voulez tester les endpoints API sur les previews) :
 
 | Nom | Requis | Valeur |
@@ -88,19 +123,22 @@ Preview si vous voulez tester les endpoints API sur les previews) :
 Toutes marquees "secret" (chiffrees), pas juste "variable", memes valeurs
 que dans Vercel -> Settings -> Environment Variables.
 
-### 3. Compatibility flags
+### 4. Compatibility flags
 
 `wrangler.toml` declare deja `nodejs_compat` + `compatibility_date`. Par
-securite, verifiez aussi Settings -> Functions -> Compatibility flags dans le
-dashboard Cloudflare : si `nodejs_compat` n'y apparait pas automatiquement
-apres le premier deploiement, l'ajouter manuellement pour Production ET
-Preview (sinon `process.env`/`Buffer`/`node:crypto` ne fonctionnent pas et
-toutes les fonctions api/* echouent en 500).
+securite, verifiez aussi Settings -> Runtime (ou Compatibility flags selon
+l'emplacement exact dans l'UI Worker) : si `nodejs_compat` n'y apparait pas
+automatiquement apres le premier deploiement reussi, l'ajouter manuellement
+(sinon `process.env`/`Buffer`/`node:crypto` ne fonctionnent pas et toutes
+les fonctions api/* echouent en 500).
 
-### 4. Premier deploiement (preview, PAS le domaine final)
+### 5. Premier deploiement (preview, PAS le domaine final)
 
-Une fois le projet cree, Cloudflare deploie automatiquement sur une URL du
-type `vectis-repo.pages.dev`. **Ne touchez pas encore au DNS de legatis.ch.**
+Une fois la configuration ci-dessus corrigee, declenchez un nouveau
+deploiement (pousser un commit, ou "Create deployment" -- pas "Retry" sur un
+ancien deploiement en echec, qui peut rejouer une config perimee). Cloudflare
+deploie sur une URL du type `legatis.<compte>.workers.dev` ou une preview
+URL. **Ne touchez pas encore au DNS de legatis.ch.**
 
 Verifications a faire sur cette URL preview, dans l'ordre :
 
@@ -108,9 +146,8 @@ Verifications a faire sur cette URL preview, dans l'ordre :
 2. `/api/verification-request` -- LE POINT CRITIQUE : remplir le formulaire
    sur `/fr/verifier-mon-identite/` avec un vrai email publie (ou utiliser le
    compte de test GE + `/api/reset-test-account` pour rejouer le parcours).
-   Si ca repond `{"error":"contacts_unavailable"}` ou une 500, c'est le
-   signal que l'import statique de `verification_contacts.json` n'a pas
-   fonctionne -- voir "Plan de repli" ci-dessous avant d'aller plus loin.
+   Si ca repond `{"error":"contacts_unavailable"}` ou une 500, voir "Plan de
+   repli" ci-dessous.
 3. `/interne/verification-avocats/` avec un compte admin (email dans
    `ADMIN_EMAILS`) -- verifie `checkAdminAuth` et donc `process.env` cote
    Cloudflare.
@@ -122,12 +159,11 @@ Verifications a faire sur cette URL preview, dans l'ordre :
    sous `/static/`.
 6. Verifier que `/` redirige bien en 301 vers `/fr/`.
 
-### 5. DNS -- uniquement une fois tout verifie ci-dessus
+### 6. DNS -- uniquement une fois tout verifie ci-dessus
 
-Cloudflare Pages -> Custom domains -> ajouter `legatis.ch` et `www.legatis.ch`.
-Si le domaine est deja sur Cloudflare (nameservers), l'ajout cree/ajuste les
-enregistrements DNS automatiquement. Sinon, suivre les enregistrements CNAME
-que Cloudflare propose.
+Le Worker -> Settings -> Domains & Routes -> Add -> Custom domain ->
+`legatis.ch` et `www.legatis.ch`. Si le domaine est deja sur Cloudflare
+(nameservers), l'ajout cree/ajuste les enregistrements DNS automatiquement.
 
 Recommandation : garder le projet Vercel intact (ne pas le supprimer) le
 temps de confirmer que Cloudflare tient la charge -- le DNS peut etre

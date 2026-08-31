@@ -1,15 +1,43 @@
-# Configuration Cloudflare Pages (projet "legatis" / "vectis-repo").
-# Voir CLOUDFLARE_MIGRATION.md a la racine du depot pour le guide de
-# migration complet (creation du projet, variables d'environnement, DNS).
+# Configuration Cloudflare Worker (ressource "legatis" -- voir CLOUDFLARE_MIGRATION.md
+# a la racine du depot pour le guide de migration complet).
 #
-# compatibility_flags = ["nodejs_compat"] est CRITIQUE : sans lui,
+# IMPORTANT (decouvert lors du premier deploiement reel, 31.08.2026) : malgre
+# le nom "Workers & Pages" et le chemin "Create -> Pages -> Connect to Git"
+# suivi a la creation, la ressource creee dans le dashboard Cloudflare est un
+# vrai WORKER (visible sous /workers/services/view/legatis/...), PAS un
+# projet Cloudflare Pages classique. `wrangler pages deploy` echoue avec
+# "The Pages project legatis does not exist" -- il faut deployer avec
+# `wrangler deploy` (la commande normale pour un Worker) et fournir un point
+# d'entree Worker (`main`) + un binding d'assets statiques, pas
+# `pages_build_output_dir` (qui n'existe que pour un vrai projet Pages).
+#
+# functions/api/*.js reste ecrit selon la convention Cloudflare Pages
+# Functions (fichiers, onRequest, context.env) -- inchange. La commande
+# `wrangler pages functions build --outdir=dist/_worker.js/` (executee dans
+# la commande de build du projet, voir CLOUDFLARE_MIGRATION.md) compile ces
+# fonctions en un unique script Worker classique, sans reecrire leur logique
+# -- c'est le pont officiel documente par Cloudflare pour ce cas de figure
+# (Pages Functions + assets statiques deployes comme Worker). Verifie en
+# local avec `npx wrangler pages functions build` : compile sans erreur,
+# import statique des JSON generes par build.py bien inline dans le bundle.
+#
+# main pointe vers le script compile ; [assets] sert le reste de dist/ (le
+# site statique de 73000+ pages) via le binding ASSETS -- .assetsignore
+# (genere par gen_cloudflare_files() dans build.py) exclut _worker.js/ de
+# l'upload en tant qu'asset statique.
+#
+# compatibility_flags = ["nodejs_compat"] reste CRITIQUE : sans lui,
 # process.env, Buffer et node:crypto (utilises par functions/api/*.js, portes
 # depuis les fonctions Vercel d'origine) ne fonctionnent pas dans le runtime
 # Workers. Avec compatibility_date >= 2025-04-01, ce flag suffit a lui seul a
 # peupler process.env depuis les variables d'environnement / secrets du
-# projet Pages (pas besoin du flag separe nodejs_compat_populate_process_env,
+# Worker (pas besoin du flag separe nodejs_compat_populate_process_env,
 # automatique a partir de cette date).
 name = "legatis"
-pages_build_output_dir = "dist"
+main = "dist/_worker.js/index.js"
 compatibility_date = "2026-08-31"
 compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "dist"
+binding = "ASSETS"

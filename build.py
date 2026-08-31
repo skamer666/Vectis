@@ -2780,6 +2780,15 @@ def gen_cloudflare_files():
     with open(os.path.join(DIST_DIR, "_redirects"), "w", encoding="utf-8") as f:
         f.write(redirects_content)
 
+    # .assetsignore : exclut le script Worker compile (voir la commande
+    # `wrangler pages functions build --outdir=dist/_worker.js/` dans le
+    # build Cloudflare, cf. CLOUDFLARE_MIGRATION.md et wrangler.toml) de
+    # l'upload en tant qu'asset statique -- sinon Cloudflare tenterait de
+    # servir _worker.js/index.js (>1 Mo de JS bundle) comme une page comme
+    # une autre.
+    with open(os.path.join(DIST_DIR, ".assetsignore"), "w", encoding="utf-8") as f:
+        f.write("_worker.js\n")
+
 
 def gen_search():
     for lang in LANGS:
