@@ -28,6 +28,12 @@
       {% endfor %}
     </div>
     {% endif %}
+
+    <div style="margin-top:var(--space-xl);">
+      <p class="profile-sub" style="margin-bottom:8px;">{{ ui.preferred_source_text }}</p>
+      <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+      <div google-add-preferred-source-btn data-lang="{{ lang }}"></div>
+    </div>
   </section>
 </div>
 {% endblock %}
