@@ -85,6 +85,12 @@ async function handler(req, res) {
     page_url: truncate(body.page_url, MAX_URL_LEN),
     page_title: truncate(body.page_title, MAX_TITLE_LEN),
     lang: lang,
+    // Case a cocher facultative et decochee par defaut sur le formulaire :
+    // voir supabase_schema.sql pour le detail du consentement. Le cron de
+    // relance (api/send-review-reminders.js) tourne cote Vercel uniquement
+    // (pas de tache planifiee cote Cloudflare dans ce projet) mais lit la
+    // meme table Supabase, quel que soit l'hebergeur qui a recu ce POST.
+    review_reminder_consent: body.review_reminder_consent === true,
   };
 
   try {

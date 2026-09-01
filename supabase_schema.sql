@@ -492,3 +492,23 @@ $$;
 revoke execute on function check_rate_limit(text, int, int) from public;
 revoke execute on function check_rate_limit(text, int, int) from anon;
 revoke execute on function check_rate_limit(text, int, int) from authenticated;
+
+
+-- ============================================================================
+-- Consentement de relance avis sur les leads (formulaire "recevoir cette
+-- selection par email", api/lead-capture.js). Ajoute suite a une discussion
+-- avec Gregoire Giuliano (01.09.2026) sur comment faire grossir le volume
+-- d'avis publies : plutot que de reutiliser sans consentement les emails
+-- collectes pour un autre usage (recapitulatif de page), une case a cocher
+-- FACULTATIVE et decochee par defaut a ete ajoutee au formulaire, dediee a
+-- cet usage precis ("je veux bien etre recontacte pour donner mon avis").
+-- Seuls les leads ayant explicitement coche cette case sont relances, une
+-- seule fois, par api/send-review-reminders.js (cron quotidien Vercel, voir
+-- vercel.json) -- jamais les leads existants avant cet ajout (consent absent
+-- = colonne a sa valeur par defaut false, jamais relances).
+alter table leads add column if not exists review_reminder_consent boolean not null default false;
+alter table leads add column if not exists review_reminder_sent_at timestamptz;
+
+create index if not exists leads_review_reminder_idx
+  on leads (review_reminder_consent, review_reminder_sent_at)
+  where review_reminder_consent = true and review_reminder_sent_at is null;

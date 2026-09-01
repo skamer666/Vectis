@@ -610,6 +610,7 @@
       if (hp && hp.value) { return; } // honeypot
       var email = emailInput.value.trim();
       if (!email || email.indexOf('@') === -1) return;
+      var reviewConsent = form.querySelector('.lead-capture-review-consent');
       var btn = form.querySelector('button');
       btn.disabled = true;
       fetch('/api/lead-capture', {
@@ -620,7 +621,8 @@
           page_url: window.__legatisCanonical || window.location.href,
           page_title: document.title,
           lang: window.__legatisLang || 'fr',
-          website: hp ? hp.value : ''
+          website: hp ? hp.value : '',
+          review_reminder_consent: !!(reviewConsent && reviewConsent.checked)
         })
       }).then(function (r) {
         if (!r.ok) throw new Error('bad_response');

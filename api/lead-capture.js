@@ -82,6 +82,10 @@ module.exports = async function handler(req, res) {
     page_url: truncate(body.page_url, MAX_URL_LEN),
     page_title: truncate(body.page_title, MAX_TITLE_LEN),
     lang: lang,
+    // Case a cocher facultative et decochee par defaut sur le formulaire :
+    // voir supabase_schema.sql pour le detail du consentement et
+    // send-review-reminders.js pour l'utilisation de ce champ.
+    review_reminder_consent: body.review_reminder_consent === true,
   };
 
   try {
