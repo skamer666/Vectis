@@ -4,6 +4,7 @@
   <section class="hero" style="padding-block:var(--space-2xl) var(--space-lg);" data-reveal>
     <div class="hero-eyebrow">{{ ui.guides_title }}</div>
     <h1>{{ page_title }}</h1>
+    {% if reviewed_by %}<p style="opacity:0.6;font-size:0.9rem;">{{ reviewed_by }}</p>{% endif %}
   </section>
   <section class="section" style="padding-top:0; max-width:70ch;" data-reveal>
     {% for s in sections %}

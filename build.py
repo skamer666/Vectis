@@ -2029,6 +2029,7 @@ def gen_guides():
             ctx["page_title"] = g["title"]
             ctx["sections"] = g["sections"]
             ctx["faq"] = g["faq"]
+            ctx["reviewed_by"] = reviewed_by_text(lang)
             ctx["calculator_html"] = GUIDE_CALCULATORS[gid][lang] if gid in GUIDE_CALCULATORS else None
             ctx["related"] = (
                 [{"name": guides_content.GUIDES[o][lang]["title"], "url": guide_path(o, lang)}
@@ -2039,18 +2040,43 @@ def gen_guides():
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (i18n.UI[lang]["guides_title"], guides_index_path(lang)),
                                   (g["title"], path)]
+            page_url = BASE_DOMAIN + path
             ctx["schema"] = json.dumps({
+                "@context": "https://schema.org", "@type": "Article",
+                "headline": g["title"], "description": g["meta"],
+                "url": page_url, "mainEntityOfPage": page_url,
+                "inLanguage": lang,
+                "author": author_schema(lang),
+                "publisher": {"@type": "Organization", "name": "Legatis", "url": BASE_DOMAIN},
+            }, ensure_ascii=False)
+            ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
                     {"@type": "Question", "name": item["q"],
                      "acceptedAnswer": {"@type": "Answer", "text": item["a"]}}
                     for item in g["faq"]
                 ],
-            }, ensure_ascii=False)
+            }, ensure_ascii=False)]
             write_page(path, render("guide.html", ctx))
 
 
 # ---------------------------------------------------------------- blog
+
+# Attribution E-E-A-T pour le contenu editorial (blog + guides) : relu par
+# Gregoire Giuliano, juriste et operateur de Legatis. Un seul relecteur reel,
+# jamais un nom invente -- si un jour d'autres juristes relisent du contenu,
+# etendre cette structure plutot que la dupliquer par article.
+AUTHOR_NAME = "Grégoire Giuliano"
+AUTHOR_TITLE = {"fr": "juriste", "de": "Jurist", "it": "giurista", "en": "legal expert"}
+
+
+def reviewed_by_text(lang):
+    return f"{i18n.UI[lang]['reviewed_by']} {AUTHOR_NAME}, {AUTHOR_TITLE[lang]}"
+
+
+def author_schema(lang):
+    return {"@type": "Person", "name": AUTHOR_NAME, "jobTitle": AUTHOR_TITLE[lang]}
+
 
 BLOG_INDEX_INTRO = {
     "fr": "Des articles précis, domaine de droit par domaine de droit, pour comprendre vos droits en Suisse. Sources légales citées, aucun chiffre inventé.",
@@ -2462,6 +2488,7 @@ def gen_blog():
             ctx["domaine_name"] = dname
             ctx["sections"] = a["sections"]
             ctx["faq"] = a["faq"]
+            ctx["reviewed_by"] = reviewed_by_text(lang)
             same_domain_others = [
                 o for o in bids
                 if o != bid and lang in blog_content.BLOG_ARTICLES[o]
@@ -2483,6 +2510,7 @@ def gen_blog():
                 "url": page_url, "mainEntityOfPage": page_url,
                 "inLanguage": lang, "datePublished": article["published"],
                 "dateModified": article["published"],
+                "author": author_schema(lang),
                 "publisher": {"@type": "Organization", "name": "Legatis", "url": BASE_DOMAIN},
                 "about": dname,
             }, ensure_ascii=False)
