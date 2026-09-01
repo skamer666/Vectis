@@ -724,19 +724,38 @@ def gen_ge_avocats(start=0, count=None, rows=None):
         firm_row = FIRM_BY_NORM.get(norm(row.get("etude", "")))
         domaine_ids = domaines_for_lawyer(row)
         same_city = [r for r in BY_CITY.get(row["ville"], []) if r["_slug"] != row["_slug"]][:6]
-        # Noindex automatique si aucun signal reel au-dela du nom/adresse (memes
-        # criteres que gen_canton_avocats pour les 25 autres cantons, voir
-        # commentaire complet la-bas) : jusqu'ici seul GE en etait depourvu, alors
-        # que c'est le canton avec le plus de fiches (2896) -- 799 d'entre elles
-        # (28%) n'ont ni domaine, ni date de brevet, ni langue renseignes et
-        # etaient donc indexees sans aucun contenu differenciant. Le telephone/
-        # etude seuls ne comptent pas comme signal ici non plus, par coherence
-        # avec les autres cantons (un numero de contact n'est pas un contenu).
-        _any_lang_lacks_signal = not (
-            domaine_ids
-            or (row.get("brevet_date") or "").strip()
-            or [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
-        )
+        # Collegues de la meme etude (pour insight_text/web_source_note ET pour
+        # la section "Autres avocats de cette etude" plus bas) : source
+        # MEMBERS_BY_FIRM_NORM, la meme que gen_ge_etudes utilise deja pour la
+        # fiche cabinet -- jusqu'ici jamais reutilisee sur la fiche individuelle,
+        # qui ratait donc a la fois l'enrichissement web du cabinet (fondation,
+        # taille d'equipe) et le lien vers ses collegues.
+        _firm_members = MEMBERS_BY_FIRM_NORM.get(norm(row.get("etude") or ""), [])
+        _site_url = row.get("site_web") or next((m.get("site_web") for m in _firm_members if m.get("site_web")), "")
+        _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
+        _raw_langues_check = [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+        # Noindex automatique si aucun signal reel au-dela du nom/adresse -- memes
+        # criteres que gen_canton_avocats pour les 25 autres cantons (domaine,
+        # ancienneté, langue, OU enrichissement web du cabinet -- ce dernier
+        # etait absent du calcul avant ce commit, ce qui pouvait noindexer a tort
+        # une fiche dont le seul signal reel etait la fondation/taille de son
+        # cabinet). Jusqu'ici seul GE etait depourvu de ce garde-fou, alors que
+        # c'est le canton avec le plus de fiches (2896) -- 799 d'entre elles
+        # (28%) n'avaient ni domaine, ni date de brevet, ni langue et etaient
+        # pourtant indexees sans aucun contenu differenciant. Le telephone/etude
+        # seuls ne comptent pas comme signal, par coherence avec les autres
+        # cantons (un numero de contact n'est pas un contenu).
+        _any_lang_lacks_signal = False
+        for _lg in LANGS:
+            _ln = pt.translate_langues(_raw_langues_check, _lg)
+            _dn = [i18n.DOMAINES[d][_lg]["name"] for d in domaine_ids] or web_practice_areas(_web, _lg)
+            _seniority = pt.seniority_text(_lg, row.get("brevet_date"))
+            _insight = pt.firm_insight(_lg, _ln, _dn, None,
+                                        founding_year=(_web or {}).get("founding_year"),
+                                        team_size_n=(_web or {}).get("team_size_n")) if (_web or _dn or _ln) else ""
+            if not (_seniority or _ln or _insight):
+                _any_lang_lacks_signal = True
+                break
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = avocat_path("GE", row["_slug"], lang)
@@ -777,6 +796,29 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
                                                            fonction=row.get("fonction") or None)
             ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in domaine_ids]
+            _domaine_names_web = [i18n.DOMAINES[d][lang]["name"] for d in domaine_ids] or web_practice_areas(_web, lang)
+            ctx["insight_text"] = pt.firm_insight(
+                lang, _langues_for_lang, _domaine_names_web, None,
+                founding_year=(_web or {}).get("founding_year"),
+                team_size_n=(_web or {}).get("team_size_n"),
+            ) if (_web or _domaine_names_web or _langues_for_lang) else ""
+            ctx["web_source_note"] = None
+            if _web:
+                ctx["web_source_note"] = {
+                    "fr": f"Certaines informations ci-dessus proviennent du site officiel du cabinet, consulté le {_web['fetched_date']}.",
+                    "de": f"Einige der obigen Angaben stammen von der offiziellen Website der Kanzlei, abgerufen am {_web['fetched_date']}.",
+                    "it": f"Alcune informazioni sopra riportate provengono dal sito ufficiale dello studio, consultato il {_web['fetched_date']}.",
+                    "en": f"Some information above comes from the firm's official website, accessed on {_web['fetched_date']}.",
+                }[lang]
+            ctx["colleagues_title"] = {
+                "fr": "Autres avocats de cette étude", "de": "Weitere Anwältinnen und Anwälte dieser Kanzlei",
+                "it": "Altri avvocati di questo studio", "en": "Other lawyers at this firm",
+            }[lang]
+            ctx["colleagues"] = [
+                {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "url": avocat_path("GE", m["_slug"], lang)}
+                for m in sorted(_firm_members, key=lambda m: m["nom_complet"])
+                if m["_slug"] != row["_slug"]
+            ][:12]
             ctx["nearby_title"] = f"{i18n.UI[lang]['find_a_lawyer_near']} {row.get('ville','')}" if lang != "de" else f"Weitere Anwältinnen und Anwälte in {row.get('ville','')}"
             ctx["nearby"] = [
                 {"nom": r["nom_complet"].title(), "url": avocat_path("GE", r["_slug"], lang),
@@ -1620,6 +1662,15 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                                                            ville=row.get("ville") or None,
                                                            fonction=row.get("fonction") or None)
             ctx["domaines"] = []
+            ctx["colleagues_title"] = {
+                "fr": "Autres avocats de cette étude", "de": "Weitere Anwältinnen und Anwälte dieser Kanzlei",
+                "it": "Altri avvocati di questo studio", "en": "Other lawyers at this firm",
+            }[lang]
+            ctx["colleagues"] = [
+                {"nom": m["nom_complet"].title(), "role": m.get("fonction", ""), "url": avocat_path(code, m["_slug"], lang)}
+                for m in sorted(firm_row["members"], key=lambda m: m["nom_complet"])
+                if m["_slug"] != row["_slug"]
+            ][:12] if firm_row else []
             ctx["nearby_title"] = f"{i18n.UI[lang]['find_a_lawyer_near']} {row.get('ville','')}" if lang != "de" else f"Weitere Anwältinnen und Anwälte in {row.get('ville','')}"
             ctx["nearby"] = [
                 {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),

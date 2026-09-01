@@ -88,6 +88,19 @@
   </section>
   {% endif %}
 
+  {% if colleagues %}
+  <section class="section" data-reveal>
+    <div class="section-head"><h2>{{ colleagues_title }}</h2></div>
+    <div class="registry">
+      {% for a in colleagues %}
+      <a class="registry-row" href="{{ a.url }}">
+        <div><div class="registry-name">{{ a.nom }}</div>{% if a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <section class="section" data-reveal>
     <div class="section-head"><h2>{{ nearby_title }}</h2></div>
     <div class="registry">
