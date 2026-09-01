@@ -80,5 +80,14 @@
     {% endfor %}
   </section>
   {% endif %}
+
+  {% if related %}
+  <section class="section" style="padding-top:0;" data-reveal>
+    <h2 style="margin-bottom:var(--space-lg);">{{ ui.related_pages }}</h2>
+    <div class="tag-list">
+      {% for r in related %}<a class="tag" href="{{ r.url }}">{{ r.name }}</a>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 </div>
 {% endblock %}

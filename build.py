@@ -966,6 +966,7 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                 domaines=_domaine_names, langues=pt.translate_langues(_team_langues, lang),
                 telephone=ctx["telephone"] or None,
             )
+            ctx["related"] = lawyer_related_links(lang, _team_domaine_ids)
             ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
@@ -1531,6 +1532,7 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                 domaines=_domaine_names, langues=_langues_names,
                 telephone=telephone or None,
             )
+            ctx["related"] = lawyer_related_links(lang)
             ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
