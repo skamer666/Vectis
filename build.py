@@ -627,6 +627,30 @@ def domaines_for_lawyer(row):
     return list(dict.fromkeys(out))
 
 
+def lawyer_related_links(lang, domaine_ids=None):
+    """Maillage interne pour une fiche avocat individuelle, absent jusqu'ici
+    (seules les pages ville/blog/guide en avaient un). Deux niveaux :
+    - si le domaine de competence est connu (aujourd'hui : GE uniquement, cf.
+      domaines_for_lawyer), jusqu'a 2 articles de blog du meme domaine ;
+    - dans tous les cas, les deux guides evergreen les plus pertinents au
+      moment ou un visiteur regarde une fiche avocat precise (choisir son
+      avocat, combien ca coute) -- meme principe que gen_villes()."""
+    links = []
+    if domaine_ids:
+        matches = [
+            bid for bid in blog_content.BLOG_ARTICLES
+            if blog_content.BLOG_ARTICLES[bid]["domaine_id"] in domaine_ids
+            and lang in blog_content.BLOG_ARTICLES[bid]
+        ][:2]
+        links += [{"name": blog_content.BLOG_ARTICLES[b][lang]["title"], "url": blog_article_path(b, lang)}
+                  for b in matches]
+    links += [
+        {"name": guides_content.GUIDES["choisir-avocat"][lang]["title"], "url": guide_path("choisir-avocat", lang)},
+        {"name": guides_content.GUIDES["cout-avocat"][lang]["title"], "url": guide_path("cout-avocat", lang)},
+    ]
+    return links
+
+
 BY_CITY = {}
 for _r in GE_INDIVIDUALS:
     BY_CITY.setdefault(_r["ville"], []).append(_r)
@@ -800,6 +824,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                 etude=row.get("etude") or None,
                 review_avg=(_rating or {}).get("ratingValue"), review_count=(_rating or {}).get("reviewCount"),
             )
+            ctx["related"] = lawyer_related_links(lang, domaine_ids)
             ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
@@ -1658,6 +1683,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 etude=etude_name or None,
                 review_avg=(_rating or {}).get("ratingValue"), review_count=(_rating or {}).get("reviewCount"),
             )
+            ctx["related"] = lawyer_related_links(lang)
             ctx["extra_schema"] = [json.dumps({
                 "@context": "https://schema.org", "@type": "FAQPage",
                 "mainEntity": [
