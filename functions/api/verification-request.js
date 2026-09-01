@@ -53,6 +53,7 @@
 // Node/Vercel, aucun changement de comportement.
 import { wrapVercelHandler } from "./_shim.js";
 import * as lib from "./_verification-lib.js";
+import { checkRateLimit } from "./_rate-limit.js";
 import { Buffer } from "node:buffer";
 
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
@@ -164,6 +165,13 @@ async function handler(req, res) {
   }
   if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
+    return;
+  }
+
+  // 5 demandes / 15 min par IP : cree un compte + envoie des emails, action
+  // rare pour un utilisateur legitime.
+  if (!(await checkRateLimit(req, "verification-request", 5, 900))) {
+    res.status(429).json({ error: "rate_limited" });
     return;
   }
 

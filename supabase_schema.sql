@@ -421,3 +421,74 @@ alter table analytics_events enable row level security;
 -- api/track.js (insertion, service_role key) et la lecture agregee par
 -- api/analytics-summary.js (jeton admin, meme principe que
 -- /interne/verification-avocats/), jamais par le client directement.
+
+
+-- ============================================================================
+-- Rate limiting minimal pour les endpoints publics les plus exposes au
+-- spam/abus : verification-request (creation de compte + emails),
+-- lead-capture, review-submit, track. Ajoute suite a un audit de securite
+-- (demande de Gregoire Giuliano, 31.08.2026) qui a releve l'absence de toute
+-- protection anti-abus au-dela d'un champ honeypot sur ces 4 endpoints.
+--
+-- Implemente via une fonction Postgres atomique plutot qu'un compteur en
+-- memoire cote serverless : un compteur en memoire ne survit pas a un
+-- redemarrage/eviction d'instance (Vercel) ou d'isolate Worker (Cloudflare),
+-- et n'est de toute facon pas partage entre les multiples instances qui
+-- traitent des requetes en parallele -- un attaquant determine passerait au
+-- travers en quelques requetes. La fonction Postgres, elle, est atomique
+-- (une seule ecriture UPSERT) et partagee par construction : une seule base,
+-- quel que soit l'hebergeur (fonctionne identiquement sur api/*.js Vercel et
+-- functions/api/*.js Cloudflare, voir api/_rate-limit.js).
+--
+-- Fenetre glissante simplifiee : une ligne par (endpoint, IP), reinitialisee
+-- des que la fenetre expire. Suffisant pour dissuader un script naif ou un
+-- bot -- pas une protection DDoS de niveau reseau (ca, c'est le role de
+-- Cloudflare une fois le DNS bascule).
+create table if not exists rate_limits (
+  key text primary key,
+  count integer not null default 1,
+  window_start timestamptz not null default now()
+);
+
+alter table rate_limits enable row level security;
+-- Aucune policy : ni lecture ni ecriture directe via anon/authenticated,
+-- uniquement via check_rate_limit() (security definer) ci-dessous.
+
+create or replace function check_rate_limit(p_key text, p_max int, p_window_seconds int)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_count int;
+begin
+  insert into rate_limits (key, count, window_start)
+  values (p_key, 1, now())
+  on conflict (key) do update set
+    count = case
+      when rate_limits.window_start < now() - (p_window_seconds || ' seconds')::interval
+        then 1
+      else rate_limits.count + 1
+    end,
+    window_start = case
+      when rate_limits.window_start < now() - (p_window_seconds || ' seconds')::interval
+        then now()
+      else rate_limits.window_start
+    end
+  returning count into v_count;
+
+  return v_count <= p_max;
+end;
+$$;
+
+-- La fonction est SECURITY DEFINER (s'execute avec les privileges de son
+-- proprietaire, contourne RLS pour ecrire dans rate_limits) : on retire
+-- explicitement le droit de l'appeler directement via anon/authenticated
+-- (l'appel legitime passe par service_role depuis les fonctions serverless,
+-- qui l'a de toute facon deja via son role) -- purement une precaution de
+-- surface, l'impact d'un appel anon serait de toute facon limite a fausser
+-- son propre compteur, jamais un acces a une autre table.
+revoke execute on function check_rate_limit(text, int, int) from public;
+revoke execute on function check_rate_limit(text, int, int) from anon;
+revoke execute on function check_rate_limit(text, int, int) from authenticated;

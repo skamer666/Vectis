@@ -47,6 +47,7 @@
 // effort comme tout envoi d'email ici, ne bloque jamais la demande.
 
 const lib = require("./_verification-lib");
+const { checkRateLimit } = require("./_rate-limit");
 
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
 const ALLOWED_METHODS = ["email", "phone", "document"];
@@ -157,6 +158,13 @@ module.exports = async function handler(req, res) {
   }
   if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
+    return;
+  }
+
+  // 5 demandes / 15 min par IP : cree un compte + envoie des emails, action
+  // rare pour un utilisateur legitime.
+  if (!(await checkRateLimit(req, "verification-request", 5, 900))) {
+    res.status(429).json({ error: "rate_limited" });
     return;
   }
 

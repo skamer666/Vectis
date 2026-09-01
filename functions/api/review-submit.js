@@ -17,6 +17,7 @@
 //
 // Portage Cloudflare Pages Functions : voir CLOUDFLARE_MIGRATION.md.
 import { wrapVercelHandler } from "./_shim.js";
+import { checkRateLimit } from "./_rate-limit.js";
 
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
@@ -48,6 +49,12 @@ async function handler(req, res) {
   }
   if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
+    return;
+  }
+
+  // 5 avis / heure par IP.
+  if (!(await checkRateLimit(req, "review-submit", 5, 3600))) {
+    res.status(429).json({ error: "rate_limited" });
     return;
   }
 

@@ -19,6 +19,8 @@
 //
 // Variable d'environnement requise (Vercel) :
 //   SUPABASE_SERVICE_ROLE_KEY -- identique aux autres endpoints du depot.
+const { checkRateLimit } = require("./_rate-limit");
+
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
 const ALLOWED_EVENT_TYPES = [
@@ -62,6 +64,16 @@ module.exports = async function handler(req, res) {
     // Ne casse jamais la navigation : l'analytics est un a-cote, pas un
     // service critique. On repond simplement "pas configure" sans bruit.
     res.status(200).json({ ok: false, reason: "not_configured" });
+    return;
+  }
+
+  // 300 evenements / 10 min par IP : seuil volontairement large (un vrai
+  // visiteur actif peut declencher beaucoup d'evenements -- pageview, fin de
+  // page, clics -- en naviguant plusieurs fiches), juste pour couper un
+  // flood/DoS applicatif evident. Meme philosophie que ci-dessus : jamais
+  // d'erreur visible cote client, on repond 200 en silence.
+  if (!(await checkRateLimit(req, "track", 300, 600))) {
+    res.status(200).json({ ok: false, reason: "rate_limited" });
     return;
   }
 

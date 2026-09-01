@@ -15,6 +15,8 @@
 // supabase_config.py, utilisee cote client par le widget d'avis) : elle est
 // donc codee en dur ci-dessous plutot que de dependre d'une deuxieme
 // variable d'environnement Vercel qu'on pourrait oublier de renseigner.
+const { checkRateLimit } = require("./_rate-limit");
+
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
 const MAX_BODY_LEN = 3000;
@@ -45,6 +47,12 @@ module.exports = async function handler(req, res) {
   }
   if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
+    return;
+  }
+
+  // 5 avis / heure par IP.
+  if (!(await checkRateLimit(req, "review-submit", 5, 3600))) {
+    res.status(429).json({ error: "rate_limited" });
     return;
   }
 

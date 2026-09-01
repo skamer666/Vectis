@@ -10,6 +10,8 @@
 // Variables d'environnement requises (Vercel) :
 //   SUPABASE_SERVICE_ROLE_KEY  -- identique a celle utilisee par
 //                                  review-submit.js (cle secrete service_role)
+const { checkRateLimit } = require("./_rate-limit");
+
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
 const MAX_URL_LEN = 500;
@@ -39,6 +41,12 @@ module.exports = async function handler(req, res) {
   }
   if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
     res.status(500).json({ error: "server_not_configured" });
+    return;
+  }
+
+  // 10 demandes / 15 min par IP.
+  if (!(await checkRateLimit(req, "lead-capture", 10, 900))) {
+    res.status(429).json({ error: "rate_limited" });
     return;
   }
 
