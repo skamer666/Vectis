@@ -1,5 +1,32 @@
 # Migration Vercel -> Cloudflare
 
+**Mise a jour du 01.09.2026 : migration terminee, Vercel completement
+arrete.** Le DNS de legatis.ch pointe sur Cloudflare depuis le 31.08.2026
+(voir la mise a jour precedente), et Gregoire Giuliano a confirme le
+01.09.2026 vouloir arreter Vercel completement plutot que de le garder comme
+filet de secours. En consequence :
+- `api/*.js`, `vercel.json` et le compte/projet Vercel n'ont plus de role
+  actif -- `api/*.js` a ete supprime de ce depot (voir le commit du
+  01.09.2026), `functions/api/*.js` (Cloudflare) est desormais la seule
+  version qui existe.
+- Le cron quotidien de relance avis, qui tournait sur Vercel Cron
+  (`api/send-review-reminders.js` + `crons` dans `vercel.json`, tous deux
+  supprimes), tourne desormais sur un Cron Trigger Cloudflare natif. Ca a
+  demande un ajout que Pages Functions ne sait pas produire tout seul (un
+  gestionnaire `scheduled`, distinct du gestionnaire `fetch` genere par
+  `wrangler pages functions build`) : voir `worker-entry.js` a la racine du
+  depot (nouveau point d'entree du Worker, remplace la reference directe a
+  `dist/_worker.js/index.js` dans `wrangler.toml`) et
+  `functions/api/_scheduled-review-reminders.js` (logique du cron, portage
+  Cloudflare de l'ancien `api/send-review-reminders.js`). Aucune verification
+  de jeton necessaire ici (contrairement a la version Vercel) : un Cron
+  Trigger ne peut pas etre appele depuis une URL publique.
+- Aucun changement cote dashboard Cloudflare (build command, deploy command,
+  variables d'environnement) : `wrangler deploy` lit `main` dans
+  `wrangler.toml`, quel que soit ce vers quoi il pointe. Seul ajout reel :
+  le Cron Trigger doit apparaitre automatiquement dans Workers & Pages ->
+  legatis -> Triggers apres le prochain deploiement (a verifier par Greg).
+
 **Mise a jour du 31.08.2026, apres le premier vrai deploiement.** Le titre
 d'origine de ce document ("Cloudflare Pages") s'est revele inexact : malgre
 le chemin suivi dans le dashboard ("Workers & Pages -> Create -> Pages ->
@@ -33,9 +60,11 @@ etape, volontairement separee et non automatique).
   Cloudflare, aucun conflit.
 - `wrangler.toml` : declare `nodejs_compat` (necessaire pour que
   `process.env`, `Buffer` et `node:crypto` fonctionnent dans les fonctions
-  portees), `main = "dist/_worker.js/index.js"` (script Worker compile, voir
-  ci-dessous) et `[assets] directory = "dist"` (le site statique). PAS
-  `pages_build_output_dir` (reserve aux vrais projets Pages, absent ici).
+  portees), `main = "worker-entry.js"` (wrapper statique du depot qui importe
+  le script Worker compile, voir ci-dessous et la mise a jour du 01.09.2026),
+  `[triggers] crons` (cron de relance avis) et `[assets] directory = "dist"`
+  (le site statique). PAS `pages_build_output_dir` (reserve aux vrais projets
+  Pages, absent ici).
 - `build.py` : ajoute `gen_cloudflare_files()`, appelee juste apres
   `gen_robots()` dans le pipeline complet. Genere `dist/_headers`,
   `dist/_redirects` (equivalent Cloudflare des sections `headers`/

@@ -21,10 +21,14 @@
 # local avec `npx wrangler pages functions build` : compile sans erreur,
 # import statique des JSON generes par build.py bien inline dans le bundle.
 #
-# main pointe vers le script compile ; [assets] sert le reste de dist/ (le
-# site statique de 73000+ pages) via le binding ASSETS -- .assetsignore
-# (genere par gen_cloudflare_files() dans build.py) exclut _worker.js/ de
-# l'upload en tant qu'asset statique.
+# main pointe vers worker-entry.js (fichier statique du depot, PAS genere) :
+# il importe dist/_worker.js/index.js (le script compile par
+# `wrangler pages functions build`, regenere a chaque build) et y ajoute un
+# gestionnaire "scheduled" que Pages Functions ne sait pas produire tout
+# seul -- voir le commentaire en tete de worker-entry.js pour le detail.
+# [assets] sert le reste de dist/ (le site statique de 73000+ pages) via le
+# binding ASSETS -- .assetsignore (genere par gen_cloudflare_files() dans
+# build.py) exclut _worker.js/ de l'upload en tant qu'asset statique.
 #
 # compatibility_flags = ["nodejs_compat"] reste CRITIQUE : sans lui,
 # process.env, Buffer et node:crypto (utilises par functions/api/*.js, portes
@@ -33,10 +37,17 @@
 # peupler process.env depuis les variables d'environnement / secrets du
 # Worker (pas besoin du flag separe nodejs_compat_populate_process_env,
 # automatique a partir de cette date).
+#
+# [triggers] : cron quotidien du gestionnaire "scheduled" (relance avis, voir
+# worker-entry.js) -- ajoute suite a l'arret complet de Vercel (01.09.2026),
+# qui portait ce cron auparavant (vercel.json, desormais supprime).
 name = "legatis"
-main = "dist/_worker.js/index.js"
+main = "worker-entry.js"
 compatibility_date = "2026-08-31"
 compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["0 8 * * *"]
 
 [assets]
 directory = "dist"
