@@ -700,6 +700,19 @@ def gen_ge_avocats(start=0, count=None, rows=None):
         firm_row = FIRM_BY_NORM.get(norm(row.get("etude", "")))
         domaine_ids = domaines_for_lawyer(row)
         same_city = [r for r in BY_CITY.get(row["ville"], []) if r["_slug"] != row["_slug"]][:6]
+        # Noindex automatique si aucun signal reel au-dela du nom/adresse (memes
+        # criteres que gen_canton_avocats pour les 25 autres cantons, voir
+        # commentaire complet la-bas) : jusqu'ici seul GE en etait depourvu, alors
+        # que c'est le canton avec le plus de fiches (2896) -- 799 d'entre elles
+        # (28%) n'ont ni domaine, ni date de brevet, ni langue renseignes et
+        # etaient donc indexees sans aucun contenu differenciant. Le telephone/
+        # etude seuls ne comptent pas comme signal ici non plus, par coherence
+        # avec les autres cantons (un numero de contact n'est pas un contenu).
+        _any_lang_lacks_signal = not (
+            domaine_ids
+            or (row.get("brevet_date") or "").strip()
+            or [l.strip() for l in (row.get("langues") or "").split(";") if l.strip()]
+        )
         for lang in LANGS:
             canton_name = i18n.CANTONS["GE"][lang]["name"]
             path = avocat_path("GE", row["_slug"], lang)
@@ -720,7 +733,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             title = f"{nom} | {i18n.UI[lang]['find_a_lawyer_near']} {_title_place} | Legatis"
             ctx = base_ctx(lang, path, title, desc,
                             {lg: BASE_DOMAIN + avocat_path("GE", row["_slug"], lg) for lg in LANGS})
-            ctx["noindex"] = (row["_slug"] == TEST_LAWYER_SLUG)
+            ctx["noindex"] = _any_lang_lacks_signal or (row["_slug"] == TEST_LAWYER_SLUG)
             ctx["nom"] = nom
             ctx["canton_name"] = canton_name
             ctx["review_canton_code"] = "GE"
