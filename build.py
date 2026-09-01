@@ -2869,7 +2869,7 @@ def gen_cloudflare_files():
         "  X-Frame-Options: DENY\n"
         "  Referrer-Policy: strict-origin-when-cross-origin\n"
         "  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()\n"
-        "  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://news.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.supabase.co https://news.google.com https://www.google.com; frame-src 'self' https://www.youtube-nocookie.com https://player.vimeo.com https://www.google.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'\n"
+        "  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://*.supabase.co; frame-src 'self' https://www.youtube-nocookie.com https://player.vimeo.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'\n"
         "\n"
         "/*.html\n"
         "  Cache-Control: public, max-age=300, s-maxage=3600, stale-while-revalidate=86400\n"

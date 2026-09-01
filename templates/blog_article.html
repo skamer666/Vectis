@@ -29,10 +29,9 @@
     </div>
     {% endif %}
 
-    <div style="margin-top:var(--space-xl);">
-      <p class="profile-sub" style="margin-bottom:8px;">{{ ui.preferred_source_text }}</p>
-      <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
-      <div google-add-preferred-source-btn data-lang="{{ lang }}"></div>
+    <div class="lead-capture" style="margin-top:var(--space-xl);">
+      <div class="lead-capture-title">{{ ui.preferred_source_text }}</div>
+      <a class="cta-btn is-primary" href="https://www.google.com/preferences/source?q=www.legatis.ch" target="_blank" rel="noopener">{{ ui.preferred_source_cta }}</a>
     </div>
   </section>
 </div>
