@@ -409,53 +409,158 @@ _PAGES = {
     "mentions-legales": {
         "fr": {"title": "Mentions légales", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis est actuellement en phase de pré-lancement. Les mentions légales complètes "
-                "(raison sociale, adresse du siège, responsable de la publication) seront publiées ici "
-                "avant la mise en production définitive sur legatis.ch.",
-                "Les données publiées proviennent des registres officiels cantonaux des avocats (voir la "
-                "page méthodologie) et sont republiées à titre d'information publique.",
+                "Legatis est édité par Grégoire Giuliano, à titre individuel. Le site n'est à ce jour "
+                "rattaché à aucune structure juridique enregistrée (pas de raison de commerce inscrite au "
+                "registre du commerce, pas de numéro IDE) ; cette page sera mise à jour dès qu'une telle "
+                "structure existera.",
+                "Contact : gregoiregiuliano@hotmail.com",
+            )},
+            {"heading": "Hébergement", "paragraphs": _p(
+                "Le site est hébergé par Cloudflare, Inc. (San Francisco, États-Unis) au moyen de son offre "
+                "Workers. La base de données et l'authentification sont hébergées par Supabase Inc., sur "
+                "des serveurs situés dans l'Union européenne (Irlande). Les emails transactionnels sont "
+                "envoyés via Resend.",
+            )},
+            {"heading": "Contenu du site", "paragraphs": _p(
+                "Les données publiées sur les fiches avocats et études proviennent des registres cantonaux "
+                "officiels des avocats (voir la page méthodologie) et sont republiées à titre d'information "
+                "publique.",
+                "Les articles de blog et guides pratiques s'appuient sur les textes de loi suisses en "
+                "vigueur (Code des obligations, Code civil, Code de procédure civile et pénale, etc.). Ils "
+                "ont une valeur informative générale et ne constituent pas un conseil juridique personnalisé "
+                ": pour une situation particulière, consultez un avocat inscrit sur l'un des registres "
+                "référencés par Legatis.",
+            )},
+            {"heading": "Propriété intellectuelle", "paragraphs": _p(
+                "Le contenu éditorial propre à Legatis (articles, guides, outils) peut être cité avec "
+                "attribution et lien vers la page d'origine ; toute reproduction intégrale nécessite un "
+                "accord préalable.",
             )},
         ]},
         "de": {"title": "Impressum", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis befindet sich derzeit in der Vorlaunch-Phase. Das vollständige Impressum "
-                "(Firmenname, Sitz, presserechtlich Verantwortliche Person) wird hier vor dem endgültigen "
-                "Launch unter legatis.ch veröffentlicht.",
-                "Die veröffentlichten Daten stammen aus den offiziellen kantonalen Anwaltsregistern (siehe "
-                "Methodik-Seite) und werden als öffentliche Information weiterveröffentlicht.",
+                "Legatis wird von Grégoire Giuliano in eigenem Namen betrieben. Die Website ist derzeit "
+                "keiner eingetragenen juristischen Struktur zugeordnet (keine Eintragung im Handelsregister, "
+                "keine UID-Nummer); diese Seite wird aktualisiert, sobald eine solche Struktur besteht.",
+                "Kontakt: gregoiregiuliano@hotmail.com",
+            )},
+            {"heading": "Hosting", "paragraphs": _p(
+                "Die Website wird von Cloudflare, Inc. (San Francisco, USA) über deren Workers-Angebot "
+                "gehostet. Datenbank und Authentifizierung werden von Supabase Inc. auf Servern in der "
+                "Europäischen Union (Irland) gehostet. Transaktions-E-Mails werden über Resend versendet.",
+            )},
+            {"heading": "Inhalt der Website", "paragraphs": _p(
+                "Die auf den Anwalts- und Kanzleiprofilen veröffentlichten Daten stammen aus den offiziellen "
+                "kantonalen Anwaltsregistern (siehe Methodik-Seite) und werden als öffentliche Information "
+                "weiterveröffentlicht.",
+                "Die Blogartikel und praktischen Ratgeber stützen sich auf geltendes Schweizer Recht "
+                "(Obligationenrecht, Zivilgesetzbuch, Zivil- und Strafprozessordnung usw.). Sie haben "
+                "allgemeinen informativen Wert und stellen keine individuelle Rechtsberatung dar: Wenden Sie "
+                "sich für Ihre persönliche Situation an eine Anwältin oder einen Anwalt, die bzw. der in "
+                "einem der von Legatis referenzierten Register eingetragen ist.",
+            )},
+            {"heading": "Geistiges Eigentum", "paragraphs": _p(
+                "Die redaktionellen Inhalte von Legatis (Artikel, Ratgeber, Tools) dürfen mit Quellenangabe "
+                "und Link zur Originalseite zitiert werden; eine vollständige Vervielfältigung bedarf einer "
+                "vorherigen Zustimmung.",
             )},
         ]},
         "it": {"title": "Note legali", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis è attualmente in fase di pre-lancio. Le note legali complete (ragione sociale, "
-                "sede legale, responsabile della pubblicazione) saranno pubblicate qui prima del lancio "
-                "definitivo su legatis.ch.",
-                "I dati pubblicati provengono dai registri ufficiali cantonali degli avvocati (vedi la "
-                "pagina metodologia) e sono ripubblicati a titolo di informazione pubblica.",
+                "Legatis è gestito da Grégoire Giuliano, a titolo individuale. Il sito non è ad oggi "
+                "collegato ad alcuna struttura giuridica registrata (nessuna iscrizione al registro di "
+                "commercio, nessun numero IDI); questa pagina sarà aggiornata non appena tale struttura "
+                "esisterà.",
+                "Contatto: gregoiregiuliano@hotmail.com",
+            )},
+            {"heading": "Hosting", "paragraphs": _p(
+                "Il sito è ospitato da Cloudflare, Inc. (San Francisco, Stati Uniti) tramite la sua offerta "
+                "Workers. Il database e l'autenticazione sono ospitati da Supabase Inc., su server situati "
+                "nell'Unione Europea (Irlanda). Le email transazionali sono inviate tramite Resend.",
+            )},
+            {"heading": "Contenuto del sito", "paragraphs": _p(
+                "I dati pubblicati sulle schede di avvocati e studi provengono dai registri cantonali "
+                "ufficiali degli avvocati (vedi la pagina metodologia) e sono ripubblicati a titolo di "
+                "informazione pubblica.",
+                "Gli articoli del blog e le guide pratiche si basano sui testi di legge svizzeri in vigore "
+                "(Codice delle obbligazioni, Codice civile, Codice di procedura civile e penale, ecc.). Hanno "
+                "un valore informativo generale e non costituiscono una consulenza legale personalizzata: "
+                "per una situazione particolare, consultate un avvocato iscritto in uno dei registri "
+                "referenziati da Legatis.",
+            )},
+            {"heading": "Proprietà intellettuale", "paragraphs": _p(
+                "I contenuti editoriali propri di Legatis (articoli, guide, strumenti) possono essere citati "
+                "con attribuzione e link alla pagina originale; qualsiasi riproduzione integrale richiede "
+                "un accordo preventivo.",
             )},
         ]},
         "en": {"title": "Legal notice", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Legatis is currently in a pre-launch phase. Full legal notice details (company name, "
-                "registered address, publication manager) will be published here before the final launch "
-                "on legatis.ch.",
-                "The published data comes from official cantonal lawyer registers (see the methodology "
-                "page) and is republished as public information.",
+                "Legatis is published by Grégoire Giuliano, in an individual capacity. The site is not "
+                "currently attached to any registered legal entity (no registration with the commercial "
+                "register, no business identification number); this page will be updated once such a "
+                "structure exists.",
+                "Contact: gregoiregiuliano@hotmail.com",
+            )},
+            {"heading": "Hosting", "paragraphs": _p(
+                "The site is hosted by Cloudflare, Inc. (San Francisco, USA) via its Workers offering. The "
+                "database and authentication are hosted by Supabase Inc., on servers located in the "
+                "European Union (Ireland). Transactional emails are sent via Resend.",
+            )},
+            {"heading": "Site content", "paragraphs": _p(
+                "The data published on lawyer and firm listings comes from official cantonal lawyer "
+                "registers (see the methodology page) and is republished as public information.",
+                "The blog articles and practical guides are based on Swiss law currently in force (Code of "
+                "Obligations, Civil Code, Civil and Criminal Procedure Codes, etc.). They provide general "
+                "informational value and do not constitute personalised legal advice: for your specific "
+                "situation, consult a lawyer registered in one of the registers Legatis references.",
+            )},
+            {"heading": "Intellectual property", "paragraphs": _p(
+                "Legatis's own editorial content (articles, guides, tools) may be quoted with attribution "
+                "and a link to the original page; any full reproduction requires prior agreement.",
             )},
         ]},
     },
     "confidentialite": {
         "fr": {"title": "Confidentialité", "sections": [
             {"heading": None, "paragraphs": _p(
-                "La création d'un compte n'est nécessaire que pour les avocats souhaitant revendiquer et "
-                "gérer leur propre fiche (adresse e-mail professionnelle et mot de passe, vérifiés avant "
-                "activation) ; elle n'est jamais demandée aux visiteurs qui consultent l'annuaire ou "
-                "recherchent un avocat.",
+                "Consulter l'annuaire, rechercher un avocat, lire les articles et guides, ou utiliser les "
+                "outils gratuits ne nécessite jamais de compte ni de donnée personnelle.",
                 "Les données personnelles affichées sur les fiches (nom, étude, adresse professionnelle, "
                 "téléphone, e-mail) proviennent des registres publics officiels des avocats et concernent "
-                "l'exercice de leur profession, pas leur vie privée.",
-                "Toute personne concernée peut demander une correction ou faire valoir ses droits via la "
-                "page « Signaler une correction ».",
+                "l'exercice de leur profession, pas leur vie privée. Toute personne concernée peut demander "
+                "une correction, un complément ou le retrait de sa fiche via la page « Signaler une "
+                "correction ».",
+                "Le responsable du traitement des données décrites ci-dessous est Grégoire Giuliano (voir "
+                "mentions légales). Contact : gregoiregiuliano@hotmail.com.",
+            )},
+            {"heading": "Compte avocat et vérification d'identité", "paragraphs": _p(
+                "La création d'un compte n'est nécessaire que pour les avocats souhaitant revendiquer et "
+                "gérer leur propre fiche : elle demande une adresse e-mail professionnelle et un mot de "
+                "passe, vérifiés avant activation.",
+                "Selon le palier de vérification choisi, confirmer son identité peut nécessiter l'envoi "
+                "d'une pièce d'identité et d'un selfie. Ces documents sont stockés dans un espace privé, "
+                "utilisés uniquement pour cette vérification, et supprimés immédiatement après la décision "
+                "(compte activé ou refusé) — ils ne sont jamais conservés au-delà, quelle que soit l'issue.",
+            )},
+            {"heading": "Consentements (emails, avis)", "paragraphs": _p(
+                "Deux cases à cocher facultatives et décochées par défaut existent sur le site : recevoir "
+                "des emails Legatis (actualités, conseils) lors de la création d'un compte avocat, et être "
+                "recontacté pour laisser un avis après avoir consulté une fiche. Aucune des deux n'est "
+                "jamais cochée automatiquement.",
+                "Pour chaque consentement donné, ainsi que pour l'acceptation du contrat de l'offre « site "
+                "web gratuit » (proposée uniquement aux avocats ayant déjà un compte vérifié), nous "
+                "conservons l'horodatage et l'adresse IP au moment de l'action, en plus de l'identité ou de "
+                "l'adresse email associée — cela sert uniquement de preuve que le consentement a bien été "
+                "donné, jamais à un autre usage. Vous pouvez retirer votre consentement à tout moment en "
+                "nous écrivant.",
+            )},
+            {"heading": "Avis et demandes de contact", "paragraphs": _p(
+                "Les avis publiés sur les fiches sont soumis par leurs auteurs (nom optionnel, email requis "
+                "mais jamais publié) et modérés avant publication. Une demande de recevoir une sélection de "
+                "fiches par email (formulaire présent sur les fiches à forte intention) enregistre "
+                "l'adresse email fournie, utilisée uniquement pour cet envoi et, en cas de consentement "
+                "explicite, pour une relance ultérieure (voir ci-dessus).",
             )},
             {"heading": "Statistiques de fréquentation", "paragraphs": _p(
                 "Legatis mesure de façon agrégée la fréquentation du site (pages consultées, temps passé, "
@@ -466,19 +571,69 @@ _PAGES = {
                 "jamais relié à un nom, un e-mail ou un compte), permet uniquement de calculer des "
                 "compteurs globaux tels que le taux de visiteurs revenus un autre jour ; aucune page interne "
                 "de Legatis n'affiche de statistiques individuelles par visiteur.",
+                "Un système distinct et purement technique de limitation de débit (anti-abus, contre le "
+                "spam sur les formulaires publics) conserve une adresse IP de façon très brève (quelques "
+                "minutes), sans lien avec les statistiques ci-dessus ni avec un profil individuel.",
+            )},
+            {"heading": "Cookies et stockage local", "paragraphs": _p(
+                "Legatis n'utilise aucun cookie de suivi ni service publicitaire tiers. Certaines "
+                "fonctionnalités (favoris, comparatif d'avocats, session d'un avocat connecté) utilisent le "
+                "stockage local de votre navigateur (localStorage) : ces données restent sur votre appareil, "
+                "ne sont jamais transmises à un tiers, et sont accessibles uniquement par vous. Vous pouvez "
+                "les effacer à tout moment via les réglages de votre navigateur.",
+            )},
+            {"heading": "Sous-traitants", "paragraphs": _p(
+                "Pour fonctionner, Legatis fait appel aux prestataires suivants, chacun agissant comme "
+                "sous-traitant : Supabase Inc. pour la base de données et l'authentification, hébergées "
+                "dans l'Union européenne (Irlande) ; Resend pour l'envoi des emails transactionnels ; "
+                "Cloudflare, Inc. pour l'hébergement et la diffusion du site.",
+            )},
+            {"heading": "Vos droits", "paragraphs": _p(
+                "Vous pouvez demander l'accès, la rectification ou la suppression des données vous "
+                "concernant, ou retirer un consentement donné, en écrivant à gregoiregiuliano@hotmail.com.",
             )},
         ]},
         "de": {"title": "Datenschutz", "sections": [
             {"heading": None, "paragraphs": _p(
+                "Das Verzeichnis zu durchsuchen, eine Anwältin oder einen Anwalt zu suchen, Artikel und "
+                "Ratgeber zu lesen oder die kostenlosen Tools zu nutzen, erfordert nie ein Konto oder "
+                "personenbezogene Daten.",
+                "Die auf den Profilen angezeigten personenbezogenen Daten (Name, Kanzlei, Geschäftsadresse, "
+                "Telefon, E-Mail) stammen aus den offiziellen öffentlichen Anwaltsregistern und betreffen "
+                "die Berufsausübung, nicht das Privatleben. Betroffene Personen können eine Korrektur, eine "
+                "Ergänzung oder die Entfernung ihres Eintrags über die Seite „Fehler melden“ beantragen.",
+                "Verantwortlich für die unten beschriebene Datenverarbeitung ist Grégoire Giuliano (siehe "
+                "Impressum). Kontakt: gregoiregiuliano@hotmail.com.",
+            )},
+            {"heading": "Anwaltskonto und Identitätsprüfung", "paragraphs": _p(
                 "Eine Kontoerstellung ist nur für Anwältinnen und Anwälte erforderlich, die ihr eigenes "
-                "Profil beanspruchen und verwalten möchten (berufliche E-Mail-Adresse und Passwort, vor "
-                "Aktivierung überprüft); sie wird von Besucherinnen und Besuchern, die das Verzeichnis "
-                "durchsuchen, nie verlangt.",
-                "Die auf den Profilen angezeigten personenbezogenen Daten (Name, Kanzlei, "
-                "Geschäftsadresse, Telefon, E-Mail) stammen aus den offiziellen öffentlichen "
-                "Anwaltsregistern und betreffen die Berufsausübung, nicht das Privatleben.",
-                "Betroffene Personen können eine Korrektur beantragen oder ihre Rechte über die Seite "
-                "„Fehler melden“ geltend machen.",
+                "Profil beanspruchen und verwalten möchten: sie erfordert eine berufliche E-Mail-Adresse "
+                "und ein Passwort, die vor Aktivierung überprüft werden.",
+                "Je nach gewählter Prüfstufe kann die Identitätsbestätigung das Hochladen eines "
+                "Ausweisdokuments und eines Selfies erfordern. Diese Dokumente werden in einem privaten "
+                "Bereich gespeichert, ausschliesslich für diese Prüfung verwendet und unmittelbar nach der "
+                "Entscheidung gelöscht (Konto aktiviert oder abgelehnt) — sie werden unabhängig vom Ausgang "
+                "nie darüber hinaus aufbewahrt.",
+            )},
+            {"heading": "Einwilligungen (E-Mails, Bewertungen)", "paragraphs": _p(
+                "Auf der Website gibt es zwei freiwillige, standardmässig nicht angehakte Kontrollkästchen: "
+                "Legatis-E-Mails erhalten (Neuigkeiten, Tipps) bei der Erstellung eines Anwaltskontos, und "
+                "erneut kontaktiert werden, um nach dem Ansehen eines Profils eine Bewertung abzugeben. "
+                "Keines der beiden wird je automatisch angehakt.",
+                "Für jede erteilte Einwilligung sowie für die Annahme des Vertrags des Angebots „kostenlose "
+                "Website“ (nur Anwältinnen und Anwälten mit bereits verifiziertem Konto angeboten) speichern "
+                "wir den Zeitstempel und die IP-Adresse zum Zeitpunkt der Handlung, zusätzlich zur "
+                "verknüpften Identität oder E-Mail-Adresse — dies dient ausschliesslich als Nachweis der "
+                "erteilten Einwilligung, nie einem anderen Zweck. Sie können Ihre Einwilligung jederzeit "
+                "widerrufen, indem Sie uns schreiben.",
+            )},
+            {"heading": "Bewertungen und Kontaktanfragen", "paragraphs": _p(
+                "Die auf den Profilen veröffentlichten Bewertungen werden von ihren Verfasserinnen und "
+                "Verfassern eingereicht (Name optional, E-Mail erforderlich, aber nie veröffentlicht) und "
+                "vor der Veröffentlichung moderiert. Eine Anfrage, eine Auswahl von Profilen per E-Mail zu "
+                "erhalten (Formular auf Profilen mit hoher Kaufabsicht), speichert die angegebene "
+                "E-Mail-Adresse, die nur für diesen Versand und, bei ausdrücklicher Einwilligung, für eine "
+                "spätere Erinnerung verwendet wird (siehe oben).",
             )},
             {"heading": "Nutzungsstatistiken", "paragraphs": _p(
                 "Legatis misst die Besucherzahlen der Website in aggregierter Form (aufgerufene Seiten, "
@@ -490,19 +645,68 @@ _PAGES = {
                 "Berechnung globaler Kennzahlen wie dem Anteil der an einem anderen Tag wiederkehrenden "
                 "Besucherinnen und Besucher; keine interne Seite von Legatis zeigt individuelle "
                 "Besucherstatistiken an.",
+                "Ein separates, rein technisches System zur Ratenbegrenzung (Missbrauchsschutz gegen Spam "
+                "auf öffentlichen Formularen) speichert eine IP-Adresse für sehr kurze Zeit (einige "
+                "Minuten), ohne Zusammenhang mit den obigen Statistiken oder einem individuellen Profil.",
+            )},
+            {"heading": "Cookies und lokaler Speicher", "paragraphs": _p(
+                "Legatis verwendet weder Tracking-Cookies noch Werbedienste Dritter. Einige Funktionen "
+                "(Favoriten, Anwaltsvergleich, Sitzung eines eingeloggten Anwalts) nutzen den lokalen "
+                "Speicher Ihres Browsers (localStorage): Diese Daten verbleiben auf Ihrem Gerät, werden nie "
+                "an Dritte übermittelt und sind ausschliesslich für Sie zugänglich. Sie können sie "
+                "jederzeit über die Einstellungen Ihres Browsers löschen.",
+            )},
+            {"heading": "Auftragsverarbeiter", "paragraphs": _p(
+                "Für den Betrieb nutzt Legatis folgende Dienstleister, die jeweils als Auftragsverarbeiter "
+                "handeln: Supabase Inc. für Datenbank und Authentifizierung, gehostet in der Europäischen "
+                "Union (Irland); Resend für den Versand von Transaktions-E-Mails; Cloudflare, Inc. für das "
+                "Hosting und die Auslieferung der Website.",
+            )},
+            {"heading": "Ihre Rechte", "paragraphs": _p(
+                "Sie können Auskunft, Berichtigung oder Löschung der Sie betreffenden Daten verlangen oder "
+                "eine erteilte Einwilligung widerrufen, indem Sie an gregoiregiuliano@hotmail.com schreiben.",
             )},
         ]},
         "it": {"title": "Privacy", "sections": [
             {"heading": None, "paragraphs": _p(
-                "La creazione di un account è necessaria solo per gli avvocati che desiderano rivendicare e "
-                "gestire la propria scheda (indirizzo e-mail professionale e password, verificati prima "
-                "dell'attivazione); non viene mai richiesta ai visitatori che consultano l'elenco o cercano "
-                "un avvocato.",
+                "Consultare l'elenco, cercare un avvocato, leggere gli articoli e le guide, o utilizzare "
+                "gli strumenti gratuiti non richiede mai un account né dati personali.",
                 "I dati personali visualizzati nelle schede (nome, studio, indirizzo professionale, "
                 "telefono, e-mail) provengono dai registri pubblici ufficiali degli avvocati e riguardano "
-                "l'esercizio della professione, non la vita privata.",
-                "Chiunque sia interessato può richiedere una correzione o far valere i propri diritti "
-                "tramite la pagina «Segnala una correzione».",
+                "l'esercizio della professione, non la vita privata. Chiunque sia interessato può "
+                "richiedere una correzione, un'integrazione o la rimozione della propria scheda tramite la "
+                "pagina «Segnala una correzione».",
+                "Il responsabile del trattamento dei dati descritti di seguito è Grégoire Giuliano (vedi "
+                "note legali). Contatto: gregoiregiuliano@hotmail.com.",
+            )},
+            {"heading": "Account avvocato e verifica dell'identità", "paragraphs": _p(
+                "La creazione di un account è necessaria solo per gli avvocati che desiderano rivendicare e "
+                "gestire la propria scheda: richiede un indirizzo e-mail professionale e una password, "
+                "verificati prima dell'attivazione.",
+                "A seconda del livello di verifica scelto, confermare la propria identità può richiedere "
+                "l'invio di un documento d'identità e di un selfie. Questi documenti sono conservati in "
+                "uno spazio privato, utilizzati unicamente per questa verifica, ed eliminati "
+                "immediatamente dopo la decisione (account attivato o rifiutato) — non vengono mai "
+                "conservati oltre, indipendentemente dall'esito.",
+            )},
+            {"heading": "Consensi (email, recensioni)", "paragraphs": _p(
+                "Sul sito esistono due caselle facoltative e deselezionate per impostazione predefinita: "
+                "ricevere email Legatis (novità, consigli) al momento della creazione di un account "
+                "avvocato, ed essere ricontattati per lasciare una recensione dopo aver consultato una "
+                "scheda. Nessuna delle due è mai selezionata automaticamente.",
+                "Per ogni consenso fornito, così come per l'accettazione del contratto dell'offerta "
+                "«sito web gratuito» (proposta solo agli avvocati con un account già verificato), "
+                "conserviamo la data e ora e l'indirizzo IP al momento dell'azione, oltre all'identità o "
+                "all'indirizzo email associato — questo serve unicamente come prova che il consenso è "
+                "stato effettivamente fornito, mai per un altro scopo. Potete revocare il vostro consenso "
+                "in qualsiasi momento scrivendoci.",
+            )},
+            {"heading": "Recensioni e richieste di contatto", "paragraphs": _p(
+                "Le recensioni pubblicate sulle schede sono inviate dai loro autori (nome facoltativo, "
+                "email richiesta ma mai pubblicata) e moderate prima della pubblicazione. Una richiesta di "
+                "ricevere una selezione di schede via email (modulo presente sulle schede ad alta "
+                "intenzione) registra l'indirizzo email fornito, utilizzato unicamente per questo invio e, "
+                "in caso di consenso esplicito, per un successivo sollecito (vedi sopra).",
             )},
             {"heading": "Statistiche di frequentazione", "paragraphs": _p(
                 "Legatis misura in forma aggregata la frequentazione del sito (pagine consultate, tempo "
@@ -513,18 +717,65 @@ _PAGES = {
                 "terzi, mai collegato a un nome, un'e-mail o un account), serve unicamente a calcolare "
                 "contatori globali come la percentuale di visitatori tornati in un altro giorno; nessuna "
                 "pagina interna di Legatis mostra statistiche individuali per visitatore.",
+                "Un sistema distinto e puramente tecnico di limitazione della frequenza (anti-abuso, contro "
+                "lo spam sui moduli pubblici) conserva un indirizzo IP per un tempo molto breve (alcuni "
+                "minuti), senza alcun legame con le statistiche sopra indicate né con un profilo "
+                "individuale.",
+            )},
+            {"heading": "Cookie e archiviazione locale", "paragraphs": _p(
+                "Legatis non utilizza alcun cookie di tracciamento né servizi pubblicitari di terzi. Alcune "
+                "funzionalità (preferiti, confronto tra avvocati, sessione di un avvocato collegato) "
+                "utilizzano l'archiviazione locale del vostro browser (localStorage): questi dati restano "
+                "sul vostro dispositivo, non sono mai trasmessi a terzi, e sono accessibili solo da voi. "
+                "Potete cancellarli in qualsiasi momento tramite le impostazioni del vostro browser.",
+            )},
+            {"heading": "Subappaltatori", "paragraphs": _p(
+                "Per funzionare, Legatis si avvale dei seguenti fornitori, ciascuno agente come "
+                "subappaltatore: Supabase Inc. per il database e l'autenticazione, ospitati nell'Unione "
+                "Europea (Irlanda); Resend per l'invio delle email transazionali; Cloudflare, Inc. per "
+                "l'hosting e la distribuzione del sito.",
+            )},
+            {"heading": "I vostri diritti", "paragraphs": _p(
+                "Potete richiedere l'accesso, la rettifica o la cancellazione dei dati che vi riguardano, "
+                "o revocare un consenso fornito, scrivendo a gregoiregiuliano@hotmail.com.",
             )},
         ]},
         "en": {"title": "Privacy", "sections": [
             {"heading": None, "paragraphs": _p(
-                "Creating an account is only required for lawyers who wish to claim and manage their own "
-                "listing (professional email address and password, verified before activation); it is "
-                "never required of visitors browsing the directory or searching for a lawyer.",
+                "Browsing the directory, searching for a lawyer, reading the articles and guides, or using "
+                "the free tools never requires an account or any personal data.",
                 "The personal data shown on listings (name, firm, professional address, phone, email) "
                 "comes from official public lawyer registers and relates to the exercise of their "
-                "profession, not their private life.",
-                "Anyone concerned can request a correction or exercise their rights via the \"Report a "
-                "correction\" page.",
+                "profession, not their private life. Anyone concerned can request a correction, an "
+                "addition, or the removal of their listing via the \"Report a correction\" page.",
+                "The controller for the data described below is Grégoire Giuliano (see legal notice). "
+                "Contact: gregoiregiuliano@hotmail.com.",
+            )},
+            {"heading": "Lawyer account and identity verification", "paragraphs": _p(
+                "Creating an account is only required for lawyers who wish to claim and manage their own "
+                "listing: it requires a professional email address and a password, verified before "
+                "activation.",
+                "Depending on the verification tier chosen, confirming your identity may require "
+                "submitting an ID document and a selfie. These documents are stored in a private area, "
+                "used only for this verification, and deleted immediately after the decision (account "
+                "activated or declined) — they are never kept beyond that, regardless of the outcome.",
+            )},
+            {"heading": "Consents (emails, reviews)", "paragraphs": _p(
+                "Two optional checkboxes, unchecked by default, exist on the site: receiving Legatis "
+                "emails (news, tips) when creating a lawyer account, and being contacted again to leave a "
+                "review after viewing a listing. Neither is ever checked automatically.",
+                "For each consent given, as well as for accepting the contract for the \"free website\" "
+                "offer (only presented to lawyers who already have a verified account), we keep the "
+                "timestamp and IP address at the moment of the action, in addition to the associated "
+                "identity or email address — this is used solely as proof that consent was actually given, "
+                "never for any other purpose. You can withdraw your consent at any time by writing to us.",
+            )},
+            {"heading": "Reviews and contact requests", "paragraphs": _p(
+                "Reviews published on listings are submitted by their authors (name optional, email "
+                "required but never published) and moderated before publication. A request to receive a "
+                "selection of listings by email (a form present on high-intent listings) stores the email "
+                "address provided, used only for that email and, with explicit consent, for a later "
+                "reminder (see above).",
             )},
             {"heading": "Usage statistics", "paragraphs": _p(
                 "Legatis measures site traffic in aggregate form (pages viewed, time spent, referral "
@@ -535,6 +786,26 @@ _PAGES = {
                 "never linked to a name, email, or account), is used solely to compute aggregate counters "
                 "such as the share of visitors who return on a different day; no internal Legatis page "
                 "displays per-visitor statistics.",
+                "A separate, purely technical rate-limiting system (anti-abuse, against spam on public "
+                "forms) stores an IP address very briefly (a few minutes), unrelated to the statistics "
+                "above or to any individual profile.",
+            )},
+            {"heading": "Cookies and local storage", "paragraphs": _p(
+                "Legatis does not use any tracking cookies or third-party advertising services. Some "
+                "features (favorites, lawyer comparison, a logged-in lawyer's session) use your browser's "
+                "local storage (localStorage): this data stays on your device, is never transmitted to a "
+                "third party, and is only accessible to you. You can clear it at any time via your "
+                "browser's settings.",
+            )},
+            {"heading": "Sub-processors", "paragraphs": _p(
+                "To operate, Legatis relies on the following providers, each acting as a sub-processor: "
+                "Supabase Inc. for the database and authentication, hosted in the European Union (Ireland); "
+                "Resend for sending transactional emails; Cloudflare, Inc. for hosting and delivering the "
+                "site.",
+            )},
+            {"heading": "Your rights", "paragraphs": _p(
+                "You can request access to, correction of, or deletion of data concerning you, or withdraw "
+                "a consent you gave, by writing to gregoiregiuliano@hotmail.com.",
             )},
         ]},
     },
