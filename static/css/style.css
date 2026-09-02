@@ -198,6 +198,15 @@ mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; bord
 /* ==========================================================================
    Masthead - reagit au defilement (compact + ombre)
    ========================================================================== */
+.beta-banner{
+  background:var(--accent-50); color:var(--accent-700);
+  font-size:0.72rem; font-weight:600;
+  padding-block:6px;
+  border-bottom:1px solid var(--accent-100);
+  text-align:center;
+}
+.beta-banner .container{ display:flex; justify-content:center; align-items:center; gap:6px; flex-wrap:wrap; }
+.beta-banner a{ color:inherit; text-decoration:underline; text-underline-offset:2px; }
 .masthead-utility{
   background:var(--paper-50); color:var(--text-muted);
   font-size:0.72rem; font-weight:600; letter-spacing:0.04em;
