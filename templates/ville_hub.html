@@ -45,6 +45,7 @@
         <div>
           <div class="registry-name">{{ a.nom }}</div>
           {% if a.type == "avocat" and a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}
+          {% if a.langues %}<div class="registry-meta">{{ a.langues|join(', ') }}</div>{% endif %}
         </div>
         <div class="registry-firm">{% if a.type == "etude" %}{{ a.n_membres }} {{ ui.members_short }}{% endif %}</div>
         <div class="registry-city">{{ a.ville }}</div>

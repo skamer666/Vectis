@@ -151,6 +151,17 @@ def translate_lang_name(name, lang):
     return entry[lang] if entry else name
 
 
+# Langue officielle dominante de chaque canton ayant des donnees "langues
+# parlees" (GE, SH pour l'instant) -- exclue de la phrase d'intro des pages
+# ville (evidente/non informative dans un canton ou elle est deja la
+# langue de travail par defaut) sans jamais la retirer du filtre chips
+# (utile meme evidente : un visiteur peut vouloir la selectionner).
+CANTON_MAIN_LANGUAGE = {
+    "GE": {"fr": "Français", "de": "Französisch", "it": "Francese", "en": "French"},
+    "SH": {"fr": "Allemand", "de": "Deutsch", "it": "Tedesco", "en": "German"},
+}
+
+
 def base_ctx(lang, path, title, description, extra_hreflang=None):
     depth = path.strip("/").count("/") + 1
     hreflang = extra_hreflang or {}
@@ -1840,29 +1851,37 @@ def city_link_for(code, ville_raw, lang):
     return c["name"], ville_path(code, c["slug"], lang)
 
 
-def ville_intro(lang, ville, canton_name, n_avocats, n_etudes):
+def ville_intro(lang, ville, canton_name, n_avocats, n_etudes, langues=None):
     if lang == "fr":
         base = (f"{n_avocats} avocats sont référencés à {ville}, dans le canton de {canton_name}, "
                 f"sur la base du registre cantonal officiel.")
         if n_etudes:
             base += f" Ils exercent au sein de {n_etudes} études ou cabinets recensés dans cette localité."
+        if langues:
+            base += f" Certains parlent notamment {', '.join(l.lower() for l in langues)}."
         return base
     if lang == "de":
         base = (f"{n_avocats} Anwältinnen und Anwälte sind in {ville} (Kanton {canton_name}) erfasst, "
                 f"auf Grundlage des offiziellen kantonalen Anwaltsregisters.")
         if n_etudes:
             base += f" Sie sind in {n_etudes} an diesem Ort erfassten Kanzleien tätig."
+        if langues:
+            base += f" Einige sprechen unter anderem {', '.join(langues)}."
         return base
     if lang == "it":
         base = (f"{n_avocats} avvocati sono registrati a {ville}, nel cantone {canton_name}, "
                 f"sulla base dell'albo cantonale ufficiale.")
         if n_etudes:
             base += f" Esercitano in {n_etudes} studi legali censiti in questa località."
+        if langues:
+            base += f" Alcuni parlano tra l'altro {', '.join(l.lower() for l in langues)}."
         return base
     base = (f"{n_avocats} lawyers are listed in {ville}, canton of {canton_name}, "
             f"based on the official cantonal bar registry.")
     if n_etudes:
         base += f" They practise in {n_etudes} firms recorded in this locality."
+    if langues:
+        base += f" Some speak, among other languages, {', '.join(l.lower() for l in langues)}."
     return base
 
 
@@ -1981,13 +2000,21 @@ def gen_villes():
                 canton_name = i18n.CANTONS[code][lang]["name"]
                 path = ville_path(code, city["slug"], lang)
                 registry, n_firms = _city_registry(code, city, lang)
-                _avail_langues = []
+                _lang_counts = {}
                 for _row in registry:
                     for _l in _row.get("langues") or []:
-                        if _l not in _avail_langues:
-                            _avail_langues.append(_l)
-                _avail_langues.sort()
-                intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
+                        _lang_counts[_l] = _lang_counts.get(_l, 0) + 1
+                _avail_langues = sorted(_lang_counts)
+                # Phrase d'intro : uniquement les langues les plus frequentes
+                # (top 4), langue officielle du canton exclue -- une liste
+                # alphabetique complete (parfois 10+ langues) lisait comme du
+                # bourrage de mots-cles plutot que comme une phrase naturelle.
+                _main_lang = CANTON_MAIN_LANGUAGE.get(code, {}).get(lang)
+                _top_langues = sorted(
+                    (l for l in _lang_counts if l != _main_lang),
+                    key=lambda l: (-_lang_counts[l], l),
+                )[:4]
+                intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms, langues=_top_langues)
                 title = (f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | "
                          f"{city['count']} {LAWYER_WORD[lang]} | Legatis")
                 ctx = base_ctx(lang, path, title, intro,
