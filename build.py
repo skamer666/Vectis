@@ -40,7 +40,8 @@ import account_content
 import supabase_config
 from urls import (
     BASE_DOMAIN, LANGS, seg, canton_path, domaine_path, cross_path, avocat_path,
-    etude_path, ville_path, ville_domaine_path, guides_index_path, guide_path,
+    etude_path, ville_path, ville_domaine_path, langue_path, ville_langue_path,
+    guides_index_path, guide_path,
     home_path, cantons_index_path, domaines_index_path, static_path, hreflang_for,
     blog_index_path, blog_article_path, etude_aj_path, vitrine_path,
     avis_request_path, verification_request_path, verification_confirmee_path,
@@ -160,6 +161,74 @@ CANTON_MAIN_LANGUAGE = {
     "GE": {"fr": "Français", "de": "Französisch", "it": "Francese", "en": "French"},
     "SH": {"fr": "Allemand", "de": "Deutsch", "it": "Tedesco", "en": "German"},
 }
+
+# Meme info que CANTON_MAIN_LANGUAGE mais sous forme d'identifiant stable
+# (voir i18n.LANGUES) plutot que de texte affiche -- utilise par
+# _langue_matches pour exclure la langue officielle du canton des pages
+# dediees canton/ville x langue : "avocat parlant francais a Geneve"
+# regrouperait la quasi-totalite du barreau genevois (1650+ avocats sur environ
+# 1900, verifie le 03.09.2026), un quasi-doublon de la page canton elle-meme
+# plutot qu'un contenu differenciant -- pas la meme logique que la phrase
+# d'intro des pages ville (CANTON_MAIN_LANGUAGE), qui reste utile meme pour
+# la langue officielle.
+CANTON_MAIN_LANGUAGE_ID = {"GE": "fr", "SH": "de"}
+
+
+# Valeur brute source (telle qu'ecrite dans le registre, en minuscules) ->
+# identifiant stable dans i18n.LANGUES (voir ce dict pour le detail des
+# traductions). Couvre les deux conventions source coexistantes : francais
+# (GE, "langues") et allemand (Schaffhouse, "langues_raw"). "Bresilien" et
+# "Mandarin" sont fusionnes dans leur langue reelle (portugais/chinois) --
+# ce ne sont pas des noms de langue standard, plutot une nationalite/variante
+# regionale mal etiquetee dans le registre source ; leur creer une page a
+# part produirait une page redondante avec celle du portugais/chinois.
+# Uniquement les valeurs qui atteignent le seuil minimum quelque part (voir
+# _langue_matches) : les langues avec 1-2 mentions dans tout le canton
+# n'apparaissent jamais dans une page dediee, inutile de les cartographier
+# ici (elles restent visibles telles quelles via le filtre langue existant
+# sur les pages ville, qui n'a pas besoin de cet identifiant stable).
+RAW_LANG_TO_LANGUE_ID = {
+    # source francais (Geneve, champ "langues", separateur ';')
+    "anglais": "en", "français": "fr", "francais": "fr", "allemand": "de", "italien": "it",
+    "espagnol": "es", "portugais": "pt", "arabe": "ar", "russe": "ru",
+    "suisse-allemand": "gsw", "albanais": "sq", "turc": "tr", "grec": "el",
+    "persan": "fa", "hébreu": "he", "hebreu": "he", "polonais": "pl", "roumain": "ro",
+    "néerlandais": "nl", "neerlandais": "nl", "suédois": "sv", "suedois": "sv",
+    "chinois": "zh", "mandarin": "zh", "brésilien": "pt", "bresilien": "pt",
+    "serbo-croate": "sh", "croate": "hr", "arménien": "hy", "armenien": "hy",
+    "japonais": "ja", "serbe": "sr", "galicien": "gl", "ukrainien": "uk",
+    "bosniaque": "bs", "danois": "da", "hindi": "hi", "hongrois": "hu",
+    "luxembourgeois": "lb", "vietnamien": "vi", "flamand": "nl",
+    # source allemand (Schaffhouse, champ "langues_raw", separateur ',')
+    "deutsch": "de", "englisch": "en", "französisch": "fr", "franzosisch": "fr",
+    "italienisch": "it", "spanisch": "es", "portugiesisch": "pt",
+    "serbokroatisch": "sh", "türkisch": "tr", "turkisch": "tr", "schwedisch": "sv",
+}
+
+
+def _langue_matches(individuals, min_n=3, exclude_id=None):
+    """Regroupe une liste d'avocats individuels (canton entier ou une seule
+    ville) par langue parlee reconnue (RAW_LANG_TO_LANGUE_ID), seuil min_n
+    avant inclusion -- meme principe que _ge_city_domain_matches pour les
+    domaines : jamais de page pour une poignee de resultats. Chaque avocat
+    n'est compte qu'une fois par langue meme s'il declare des variantes qui
+    se fondent dans le meme identifiant (ex. mandarin+chinois -> "zh").
+    exclude_id retire un identifiant du resultat (voir CANTON_MAIN_LANGUAGE_ID :
+    la langue officielle du canton regrouperait la quasi-totalite du barreau,
+    quasi-doublon de la page canton elle-meme plutot qu'un contenu
+    differenciant)."""
+    by_langue = {}
+    for m in individuals:
+        raw = m.get("langues") or m.get("langues_raw") or ""
+        sep = ";" if m.get("langues") else ","
+        seen_ids = set()
+        for token in raw.split(sep):
+            lid = RAW_LANG_TO_LANGUE_ID.get(token.strip().lower())
+            if lid and lid not in seen_ids:
+                seen_ids.add(lid)
+                by_langue.setdefault(lid, []).append(m)
+    by_langue.pop(exclude_id, None)
+    return {lid: ms for lid, ms in by_langue.items() if len(ms) >= min_n}
 
 
 def base_ctx(lang, path, title, description, extra_hreflang=None):
@@ -1073,6 +1142,7 @@ def canton_insight(lang, top_city_name, top_city_n, total, n_solo):
 
 
 def gen_canton_hub_ge():
+    _langue_matches_ge = _langue_matches(GE_INDIVIDUALS, min_n=3, exclude_id=CANTON_MAIN_LANGUAGE_ID.get("GE"))
     for lang in LANGS:
         canton_name = i18n.CANTONS["GE"][lang]["name"]
         path = canton_path("GE", lang)
@@ -1088,6 +1158,10 @@ def gen_canton_hub_ge():
         ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path("GE", d, lang),
                              "has_data": bool(GE_BY_DOMAINE.get(d))}
                             for d in i18n.DOMAINES]
+        ctx["langues"] = [
+            {"name": i18n.LANGUES[lid][lang]["name"], "url": langue_path("GE", lid, lang)}
+            for lid in sorted(_langue_matches_ge, key=lambda l: -len(_langue_matches_ge[l]))
+        ]
         registry = ge_registry(lang)
         ctx["stats_label"] = {
             "fr": f"{len(GE_FIRMS)} études · {len(SOLO_LAWYERS)} avocats indépendants référencés",
@@ -1122,6 +1196,81 @@ def gen_domain_hubs():
             ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
                                   (i18n.UI[lang]["all_practice_areas"], domaines_index_path(lang)), (dname, path)]
             write_page(path, render("domain_hub.html", ctx))
+
+
+def gen_cross_langues():
+    """Pages canton x langue parlee : uniquement Geneve et Schaffhouse (seuls
+    registres avec ce champ), une langue par page uniquement si elle atteint
+    le seuil minimum (_langue_matches, jamais de page quasi vide). Meme
+    template que gen_cross_ge()/gen_canton_cross() (cross.html) -- une liste
+    filtree d'avocats reste une liste filtree d'avocats, que le filtre soit
+    un domaine ou une langue."""
+    for code, individuals in (("GE", GE_INDIVIDUALS), ("SH", CANTON_DATA["SH"]["individuals"])):
+        matches_by_id = _langue_matches(individuals, min_n=3, exclude_id=CANTON_MAIN_LANGUAGE_ID.get(code))
+        for lid, matches in matches_by_id.items():
+            for lang in LANGS:
+                canton_name = i18n.CANTONS[code][lang]["name"]
+                lname = i18n.LANGUES[lid][lang]["name"]
+                path = langue_path(code, lid, lang)
+                desc = pt.langue_cross_intro(lang, lname, canton_name)
+                _h1 = pt.langue_cross_h1(lang, lname, canton_name)
+                ctx = base_ctx(lang, path, f"{_h1} | Legatis", desc,
+                                {lg: BASE_DOMAIN + langue_path(code, lid, lg) for lg in LANGS})
+                ctx["domaine_name"] = lname
+                ctx["canton_name"] = canton_name
+                ctx["h1"] = _h1
+                ctx["intro_text"] = desc
+                ctx["avocats"] = [
+                    {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
+                     "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
+                    for r in matches
+                ]
+                ctx["registry"] = ctx["avocats"]
+                ctx["list_title"] = i18n.UI[lang]["matching_lawyers_title"]
+                ctx["no_specialty_text"] = ""
+                ctx["fallback_avocats"] = []
+                ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                      (canton_name, canton_path(code, lang)), (lname, path)]
+                write_page(path, render("cross.html", ctx))
+
+
+def gen_ville_langues():
+    """Pages ville x langue parlee : meme principe que gen_ville_domaines(),
+    mais pour Geneve ET Schaffhouse (les deux cantons avec des donnees
+    langue), seuil applique separement par ville (_langue_matches sur
+    city["members"], le meme sous-ensemble deja utilise par _city_registry --
+    respecte donc automatiquement l'exclusion des villes eponymes du canton,
+    voir build_city_data)."""
+    for code in ("GE", "SH"):
+        for city in CITY_DATA.get(code, []):
+            matches_by_id = _langue_matches(city["members"], min_n=3, exclude_id=CANTON_MAIN_LANGUAGE_ID.get(code))
+            for lid, matches in matches_by_id.items():
+                for lang in LANGS:
+                    canton_name = i18n.CANTONS[code][lang]["name"]
+                    lname = i18n.LANGUES[lid][lang]["name"]
+                    path = ville_langue_path(code, city["slug"], lid, lang)
+                    desc = pt.langue_ville_cross_intro(lang, lname, canton_name, city["name"])
+                    _h1 = pt.langue_cross_h1(lang, lname, city["name"])
+                    ctx = base_ctx(lang, path, f"{_h1} | Legatis", desc,
+                                    {lg: BASE_DOMAIN + ville_langue_path(code, city["slug"], lid, lg) for lg in LANGS})
+                    ctx["domaine_name"] = lname
+                    ctx["canton_name"] = canton_name
+                    ctx["h1"] = _h1
+                    ctx["intro_text"] = desc
+                    ctx["avocats"] = [
+                        {"nom": r["nom_complet"].title(), "url": avocat_path(code, r["_slug"], lang),
+                         "etude": r.get("etude", ""), "ville": r.get("ville", ""), "role": r.get("fonction", "")}
+                        for r in matches
+                    ]
+                    ctx["registry"] = ctx["avocats"]
+                    ctx["list_title"] = i18n.UI[lang]["matching_lawyers_title"]
+                    ctx["no_specialty_text"] = ""
+                    ctx["fallback_avocats"] = []
+                    ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)),
+                                          (canton_name, canton_path(code, lang)),
+                                          (city["name"], ville_path(code, city["slug"], lang)),
+                                          (lname, path)]
+                    write_page(path, render("cross.html", ctx))
 
 
 def gen_cross_ge():
@@ -1413,6 +1562,7 @@ def gen_canton_hub(code):
     data = CANTON_DATA[code]
     n_total = len(data["individuals"])
     _tc_name, _tc_n = top_city(data["individuals"])
+    _langue_matches_c = _langue_matches(data["individuals"], min_n=3, exclude_id=CANTON_MAIN_LANGUAGE_ID.get(code))
     for lang in LANGS:
         canton_name = i18n.CANTONS[code][lang]["name"]
         path = canton_path(code, lang)
@@ -1426,6 +1576,10 @@ def gen_canton_hub(code):
         ctx["insight_text"] = canton_insight(lang, _tc_name, _tc_n, n_total, len(data["solo"]))
         ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": cross_path(code, d, lang), "has_data": False}
                             for d in i18n.DOMAINES]
+        ctx["langues"] = [
+            {"name": i18n.LANGUES[lid][lang]["name"], "url": langue_path(code, lid, lang)}
+            for lid in sorted(_langue_matches_c, key=lambda l: -len(_langue_matches_c[l]))
+        ]
         ctx["stats_label"] = {
             "fr": f"{len(data['firms'])} études · {len(data['solo'])} avocats indépendants référencés",
             "de": f"{len(data['firms'])} Kanzleien · {len(data['solo'])} unabhängige Anwältinnen und Anwälte erfasst",
@@ -2023,7 +2177,22 @@ def gen_villes():
                 ctx["canton_name"] = canton_name
                 ctx["intro_text"] = intro
                 ctx["registry"] = registry
-                ctx["available_langues"] = _avail_langues
+                # Chip -> lien reel vers la page dediee ville x langue quand elle
+                # existe (seuil atteint, voir gen_ville_langues), sinon chip ->
+                # simple filtre JS cote client comme avant. Jointure par nom en
+                # minuscules : "langues" (GE, pt.translate_langues) et
+                # "langues_raw" (Schaffhouse, translate_lang_name) n'utilisent
+                # pas la meme casse pour la meme langue (ex. "Allemand" vs
+                # "allemand"), incoherence preexistante des deux traducteurs.
+                _ville_langue_matches = _langue_matches(city["members"], min_n=3, exclude_id=CANTON_MAIN_LANGUAGE_ID.get(code))
+                _langue_url_by_name_lower = {
+                    i18n.LANGUES[lid][lang]["name"].lower(): ville_langue_path(code, city["slug"], lid, lang)
+                    for lid in _ville_langue_matches
+                }
+                ctx["available_langues"] = [
+                    {"name": name, "url": _langue_url_by_name_lower.get(name.lower())}
+                    for name in _avail_langues
+                ]
                 ctx["stats_label"] = {
                     "fr": f"{city['count']} avocats référencés à {city['name']}",
                     "de": f"{city['count']} erfasste Anwältinnen und Anwälte in {city['name']}",
@@ -3021,9 +3190,11 @@ if __name__ == "__main__":
         gen_canton_hub_ge()
         gen_domain_hubs()
         gen_cross_ge()
+        gen_cross_langues()
         gen_static_pages()
         gen_villes()
         gen_ville_domaines()
+        gen_ville_langues()
         gen_guides()
         gen_blog()
         gen_etude_aj()
@@ -3093,9 +3264,11 @@ if __name__ == "__main__":
             gen_canton_cross(code)
             gen_canton_etudes(code)
             gen_canton_avocats(code)
+        gen_cross_langues()
         gen_static_pages()
         gen_villes()
         gen_ville_domaines()
+        gen_ville_langues()
         gen_guides()
         gen_blog()
         gen_etude_aj()

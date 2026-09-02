@@ -227,6 +227,57 @@ def cross_h1(lang, domaine_name, canton_name):
     return f"{domaine_name} in {canton_name}: find a lawyer"
 
 
+def langue_cross_intro(lang, langue_name, canton_name):
+    """Intro des pages canton x langue parlee. Construction verbale
+    deliberee ("parlant X"/"sprechen X"/"parla X"/"speak X") plutot qu'un
+    simple adjectif : "avocat allemand" ou "German lawyer" se lit comme une
+    nationalite en francais/anglais, pas comme une langue parlee -- source
+    d'ambiguite que la formulation verbale evite dans les 4 langues."""
+    if lang == "fr":
+        return (f"Liste des avocats inscrits au registre du canton de {canton_name} parlant "
+                f"{langue_name.lower()}, avec étude, ville et coordonnées de contact pour chaque fiche.")
+    if lang == "de":
+        return (f"Liste der im Register des Kantons {canton_name} eingetragenen Anwältinnen und "
+                f"Anwälte, die {langue_name.lower()} sprechen, jeweils mit Kanzlei, Ort und Kontaktangaben.")
+    if lang == "it":
+        return (f"Elenco degli avvocati iscritti al registro del Cantone {canton_name} che parlano "
+                f"{langue_name.lower()}, con studio, città e contatti per ciascuna scheda.")
+    return (f"List of lawyers registered in the canton of {canton_name} who speak "
+            f"{langue_name.lower()}, each with firm, city and contact details.")
+
+
+def langue_ville_cross_intro(lang, langue_name, canton_name, ville_name):
+    """Variante de langue_cross_intro() pour les pages ville x langue --
+    meme raison que ville_cross_intro() : {ville_name} est une commune,
+    jamais un canton."""
+    if lang == "fr":
+        return (f"Liste des avocats de {ville_name}, dans le canton de {canton_name}, parlant "
+                f"{langue_name.lower()}, avec étude et coordonnées de contact pour chaque fiche.")
+    if lang == "de":
+        return (f"Liste der Anwältinnen und Anwälte in {ville_name} (Kanton {canton_name}), die "
+                f"{langue_name.lower()} sprechen, jeweils mit Kanzlei und Kontaktangaben.")
+    if lang == "it":
+        return (f"Elenco degli avvocati di {ville_name}, nel Cantone {canton_name}, che parlano "
+                f"{langue_name.lower()}, con studio e contatti per ciascuna scheda.")
+    return (f"List of lawyers in {ville_name}, canton of {canton_name}, who speak "
+            f"{langue_name.lower()}, each with firm and contact details.")
+
+
+def langue_cross_h1(lang, langue_name, place_name):
+    """H1/titre des pages langue (canton ou ville). Meme precaution que
+    langue_cross_intro() sur l'ambiguite adjectif=nationalite : "-speaking"
+    en anglais, "parlant" en francais/italien, "sprechend" en allemand
+    (l'allemand n'a pas cette ambiguite mais garde une formulation
+    coherente avec le reste du site, cf. "Anwältinnen und Anwälte")."""
+    if lang == "fr":
+        return f"Avocat parlant {langue_name.lower()} à {place_name}"
+    if lang == "de":
+        return f"{langue_name} sprechende Anwältinnen und Anwälte in {place_name}"
+    if lang == "it":
+        return f"Avvocato che parla {langue_name.lower()} a {place_name}"
+    return f"{langue_name}-speaking lawyer in {place_name}"
+
+
 def seniority_text(lang, year):
     """Texte d'anciennete au barreau, calcule depuis une annee d'admission reelle
     (jamais devine). Retourne une chaine vide si l'annee est absente ou invalide."""

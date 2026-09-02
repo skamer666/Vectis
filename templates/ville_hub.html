@@ -34,7 +34,11 @@
       <span class="lang-filter-label">{{ ui.filter_by_language }}</span>
       <div class="tag-list">
         {% for l in available_langues %}
-        <button type="button" class="tag" data-lang-chip="{{ l }}">{{ l }}</button>
+        {% if l.url %}
+        <a class="tag" href="{{ l.url }}" data-lang-chip="{{ l.name }}">{{ l.name }}</a>
+        {% else %}
+        <button type="button" class="tag" data-lang-chip="{{ l.name }}">{{ l.name }}</button>
+        {% endif %}
         {% endfor %}
       </div>
     </div>

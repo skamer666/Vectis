@@ -28,6 +28,17 @@
   </section>
   {% endif %}
 
+  {% if langues %}
+  <section class="section" style="padding-top:0;" data-reveal>
+    <div class="section-head"><h2><span class="section-number">03</span>{{ ui.browse_by_language }}</h2></div>
+    <div class="tag-list">
+      {% for l in langues %}
+      <a class="tag" href="{{ l.url }}">{{ l.name }}</a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Pas de data-reveal sur cette section : sur un canton avec beaucoup
        d'avocats (Geneve : ~1200), la liste .registry peut depasser
        10 000px de haut. Le seuil de l'IntersectionObserver (8% de la
@@ -36,7 +47,7 @@
        invisible (opacity:0) en permanence, meme apres defilement. -->
   <section class="section">
     <div class="section-head">
-      <h2><span class="section-number">03</span>{{ stats_label }}</h2>
+      <h2><span class="section-number">04</span>{{ stats_label }}</h2>
     </div>
     <div class="filter-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>

@@ -157,9 +157,12 @@
        usage: <div data-lang-filter data-lang-filter-item=".registry-row">
                 <button data-lang-chip="Anglais"></button>
               </div>
-       + chaque item porte data-langues="Langue1|Langue2" */
+       + chaque item porte data-langues="Langue1|Langue2" -- uniquement les
+       <button> (chips sans page dediee) : un <a data-lang-chip> pointe vers
+       une vraie page langue x ville (voir build.py, gen_ville_langues) et
+       doit naviguer normalement, pas etre intercepte comme un filtre. */
     if (langFilter) {
-      langFilter.querySelectorAll('[data-lang-chip]').forEach(function (chip) {
+      langFilter.querySelectorAll('button[data-lang-chip]').forEach(function (chip) {
         chip.addEventListener('click', function () {
           var l = chip.getAttribute('data-lang-chip');
           if (activeLangues.has(l)) {

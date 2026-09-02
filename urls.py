@@ -66,6 +66,17 @@ def ville_domaine_path(canton_code, city_slug, domaine_id, lang):
     return ville_path(canton_code, city_slug, lang) + d["slug"] + "/"
 
 
+def langue_path(canton_code, langue_id, lang):
+    c = i18n.CANTONS[canton_code][lang]
+    l = i18n.LANGUES[langue_id][lang]
+    return f"/{lang}/{seg('avocats', lang)}/{c['slug']}/{seg('langue', lang)}/{l['slug']}/"
+
+
+def ville_langue_path(canton_code, city_slug, langue_id, lang):
+    l = i18n.LANGUES[langue_id][lang]
+    return ville_path(canton_code, city_slug, lang) + f"{seg('langue', lang)}/{l['slug']}/"
+
+
 def guides_index_path(lang):
     return f"/{lang}/{seg('guides', lang)}/"
 
