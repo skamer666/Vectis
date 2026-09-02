@@ -52,3 +52,12 @@ crons = ["0 8 * * *"]
 [assets]
 directory = "dist"
 binding = "ASSETS"
+# run_worker_first : sans ca, Cloudflare sert les fichiers statiques
+# directement depuis la couche assets AVANT d'invoquer fetch() dans
+# worker-entry.js -- decouvert le 02.09.2026 en debuggant pourquoi la
+# redirection canonique (canonicalRedirect) ne s'executait jamais en prod
+# malgre un deploiement et un cache purges corrects : la requete
+# n'atteignait tout simplement jamais le code du Worker pour une page
+# statique. Necessaire pour que la verification hostname/protocol tourne
+# sur CHAQUE requete, quel que soit le chemin demande.
+run_worker_first = true
