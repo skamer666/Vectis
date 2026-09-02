@@ -193,6 +193,9 @@ p{ margin:0 0 var(--space-lg); max-width:var(--max-line); color:var(--text-secon
   font-size:0.78rem; color:var(--text-muted); margin-top:6px; font-variant-numeric:tabular-nums;
 }
 [data-filter-item].is-hidden{ display:none !important; }
+.lang-filter{ margin-bottom:var(--space-xl); }
+.lang-filter-label{ display:block; font-size:0.78rem; font-weight:700; color:var(--text-muted); margin-bottom:var(--space-sm); }
+.lang-filter .tag{ cursor:pointer; background:none; font-family:var(--font-body); }
 mark{ background:var(--accent-100); color:var(--accent-700); padding:0 1px; border-radius:2px; }
 
 /* ==========================================================================

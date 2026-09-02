@@ -1909,6 +1909,19 @@ def ville_faq(lang, ville, canton_name, n_avocats, n_etudes):
     ]
 
 
+def _member_langues(m, lang):
+    """Langues parlees d'un avocat individuel, traduites vers `lang`. Deux
+    formats source coexistent selon le registre d'origine : "langues" (GE,
+    mots francais separes par ';') et "langues_raw" (Schaffhouse, mots
+    allemands separes par ','). Jamais invente : liste vide si aucune des
+    deux donnees n'est presente pour ce membre."""
+    if m.get("langues"):
+        raw = [x.strip() for x in m["langues"].split(";") if x.strip()]
+        return pt.translate_langues(raw, lang)
+    raw = [x.strip() for x in (m.get("langues_raw") or "").split(",") if x.strip()]
+    return [translate_lang_name(x, lang) for x in raw]
+
+
 def _city_registry(code, city, lang):
     """Registre d'une ville : etudes presentes (avec lien vers leur fiche) puis
     avocats sans etude referencable, tries alphabetiquement."""
@@ -1930,14 +1943,22 @@ def _city_registry(code, city, lang):
     rows = []
     for entry in firms_seen.values():
         f = entry["row"]
+        # GE_FIRMS n'a pas de "members" integre (voir MEMBERS_BY_FIRM_NORM,
+        # utilise aussi par ge_registry) -- CANTON_DATA[code]["firms"] si.
+        _members = MEMBERS_BY_FIRM_NORM.get(norm(f["etude"]), []) if code == "GE" else f.get("members", [])
+        _firm_langues = []
+        for fm in _members:
+            for l in _member_langues(fm, lang):
+                if l not in _firm_langues:
+                    _firm_langues.append(l)
         rows.append({
             "type": "etude", "nom": f["etude"], "url": etude_path(code, f["_slug"], lang),
-            "ville": city["name"], "n_membres": entry["n"],
+            "ville": city["name"], "n_membres": entry["n"], "langues": _firm_langues,
         })
     for m in solos:
         rows.append({
             "type": "avocat", "nom": m["nom_complet"].title(), "url": avocat_path(code, m["_slug"], lang),
-            "ville": city["name"], "role": m.get("fonction", ""),
+            "ville": city["name"], "role": m.get("fonction", ""), "langues": _member_langues(m, lang),
         })
     rows.sort(key=lambda x: x["nom"])
     return rows, len(firms_seen)
@@ -1960,6 +1981,12 @@ def gen_villes():
                 canton_name = i18n.CANTONS[code][lang]["name"]
                 path = ville_path(code, city["slug"], lang)
                 registry, n_firms = _city_registry(code, city, lang)
+                _avail_langues = []
+                for _row in registry:
+                    for _l in _row.get("langues") or []:
+                        if _l not in _avail_langues:
+                            _avail_langues.append(_l)
+                _avail_langues.sort()
                 intro = ville_intro(lang, city["name"], canton_name, city["count"], n_firms)
                 title = (f"{i18n.UI[lang]['find_a_lawyer_near']} {city['name']} | "
                          f"{city['count']} {LAWYER_WORD[lang]} | Legatis")
@@ -1969,6 +1996,7 @@ def gen_villes():
                 ctx["canton_name"] = canton_name
                 ctx["intro_text"] = intro
                 ctx["registry"] = registry
+                ctx["available_langues"] = _avail_langues
                 ctx["stats_label"] = {
                     "fr": f"{city['count']} avocats référencés à {city['name']}",
                     "de": f"{city['count']} erfasste Anwältinnen und Anwälte in {city['name']}",

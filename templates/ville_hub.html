@@ -29,9 +29,19 @@
       <input type="text" data-filter-input data-filter-item=".registry-row" placeholder="{{ ui.filter_registry_placeholder }}" autocomplete="off">
       <div class="filter-box-count"></div>
     </div>
+    {% if available_langues %}
+    <div class="lang-filter" data-lang-filter data-lang-filter-item=".registry-row">
+      <span class="lang-filter-label">{{ ui.filter_by_language }}</span>
+      <div class="tag-list">
+        {% for l in available_langues %}
+        <button type="button" class="tag" data-lang-chip="{{ l }}">{{ l }}</button>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
     <div class="registry">
       {% for a in registry %}
-      <a class="registry-row" href="{{ a.url }}">
+      <a class="registry-row" href="{{ a.url }}"{% if a.langues %} data-langues="{{ a.langues|join('|') }}"{% endif %}>
         <div>
           <div class="registry-name">{{ a.nom }}</div>
           {% if a.type == "avocat" and a.role %}<div class="registry-role">{{ a.role }}</div>{% endif %}

@@ -126,21 +126,53 @@
       return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     }
 
-    input.addEventListener('input', function () {
+    var langFilter = document.querySelector('[data-lang-filter]');
+    var activeLangues = langFilter ? new Set() : null;
+
+    function applyFilters() {
       var q = normalize(input.value.trim());
       var items = scope.querySelectorAll(itemSelector);
       var visible = 0;
       items.forEach(function (item) {
         var field = fieldSelector ? item.querySelector(fieldSelector) : item;
         var text = normalize(field ? field.textContent : item.textContent);
-        var match = !q || text.indexOf(q) !== -1;
+        var textMatch = !q || text.indexOf(q) !== -1;
+        var langMatch = true;
+        if (activeLangues && activeLangues.size) {
+          var itemLangues = (item.getAttribute('data-langues') || '').split('|');
+          langMatch = itemLangues.some(function (l) { return activeLangues.has(l); });
+        }
+        var match = textMatch && langMatch;
         item.classList.toggle('is-hidden', !match);
         if (match) visible++;
       });
       if (countEl) {
-        countEl.textContent = q ? visible + ' resultat' + (visible !== 1 ? 's' : '') : '';
+        countEl.textContent = (q || (activeLangues && activeLangues.size)) ? visible + ' resultat' + (visible !== 1 ? 's' : '') : '';
       }
-    });
+    }
+
+    input.addEventListener('input', applyFilters);
+
+    /* -- filtre par langue parlee (chips), combine au filtre texte ci-dessus --
+       usage: <div data-lang-filter data-lang-filter-item=".registry-row">
+                <button data-lang-chip="Anglais"></button>
+              </div>
+       + chaque item porte data-langues="Langue1|Langue2" */
+    if (langFilter) {
+      langFilter.querySelectorAll('[data-lang-chip]').forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          var l = chip.getAttribute('data-lang-chip');
+          if (activeLangues.has(l)) {
+            activeLangues.delete(l);
+            chip.classList.remove('is-accent');
+          } else {
+            activeLangues.add(l);
+            chip.classList.add('is-accent');
+          }
+          applyFilters();
+        });
+      });
+    }
   });
 
   /* -- selecteur guide (page d'accueil) -- */
