@@ -53,7 +53,7 @@
 // Node/Vercel, aucun changement de comportement.
 import { wrapVercelHandler } from "./_shim.js";
 import * as lib from "./_verification-lib.js";
-import { checkRateLimit } from "./_rate-limit.js";
+import { checkRateLimit, clientIp } from "./_rate-limit.js";
 import { Buffer } from "node:buffer";
 
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
@@ -228,6 +228,10 @@ async function handler(req, res) {
   // compte (actualites, conseils, etc.) -- distinct du consentement
   // d'identite/creation de compte, jamais coche par defaut cote client.
   const marketingConsent = body.marketing_consent === true;
+  // IP au moment du consentement (preuve, voir supabase_schema.sql) --
+  // uniquement si la case est cochee, meme principe de minimisation que
+  // review_reminder_consent_ip dans lead-capture.js.
+  const marketingConsentIp = marketingConsent ? clientIp(req) : null;
 
   let contacts;
   try {
@@ -282,6 +286,7 @@ async function handler(req, res) {
     account_email: accountEmail,
     pending_user_id: authUser.id,
     marketing_consent: marketingConsent,
+    marketing_consent_ip: marketingConsentIp,
   };
 
   try {

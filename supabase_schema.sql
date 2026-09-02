@@ -512,3 +512,23 @@ alter table leads add column if not exists review_reminder_sent_at timestamptz;
 create index if not exists leads_review_reminder_idx
   on leads (review_reminder_consent, review_reminder_sent_at)
   where review_reminder_consent = true and review_reminder_sent_at is null;
+
+
+-- ============================================================================
+-- Adresse IP au moment de chaque consentement/acceptation de contrat.
+-- Ajoute suite a une question de Gregoire Giuliano (02.09.2026) sur la preuve
+-- juridique de consentement -- pour clarte : ceci renforce la PREUVE
+-- technique (qui/quoi/quand/depuis ou), la question de la suffisance
+-- juridique en droit suisse (validite d'une acceptation electronique de
+-- contrat, conditions du consentement marketing sous la LCD/nLPD) reste a
+-- valider aupres d'un avocat, jamais tranchee ici.
+--
+-- Toujours stockee UNIQUEMENT quand le consentement/l'acceptation a
+-- effectivement lieu (jamais pour un refus ni par defaut) : principe de
+-- minimisation des donnees, meme logique que analytics_events qui ne
+-- stocke jamais d'IP quand ce n'est pas necessaire a l'objectif poursuivi.
+alter table verification_requests add column if not exists marketing_consent_ip text;
+alter table verification_requests add column if not exists free_website_contract_ip text;
+alter table lawyer_accounts add column if not exists marketing_consent_ip text;
+alter table website_offer_requests add column if not exists contract_ip text;
+alter table leads add column if not exists review_reminder_consent_ip text;

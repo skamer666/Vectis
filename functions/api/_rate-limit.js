@@ -21,7 +21,11 @@
 // wrangler.toml et _shim.js).
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
-function clientIp(req) {
+// Exportee (pas seulement usage interne au rate limiting) : reutilisee par
+// les endpoints qui doivent journaliser l'IP au moment d'un consentement
+// (marketing_consent, review_reminder_consent, acceptation du contrat "site
+// gratuit") -- voir supabase_schema.sql pour le detail de cette preuve.
+export function clientIp(req) {
   const cf = req.headers["cf-connecting-ip"];
   if (cf) return cf;
   const xff = req.headers["x-forwarded-for"];

@@ -74,7 +74,7 @@ function approvalEmailHtml(lang, nom, loginLink) {
 async function decideVerification(id, decision) {
   const rows = await lib.supabaseSelect(
     "verification_requests",
-    `id=eq.${encodeURIComponent(id)}&select=id,status,method,lang,canton,avocat_slug,avocat_nom,avocat_url,account_email,pending_user_id,document_path,selfie_path,marketing_consent`
+    `id=eq.${encodeURIComponent(id)}&select=id,status,method,lang,canton,avocat_slug,avocat_nom,avocat_url,account_email,pending_user_id,document_path,selfie_path,marketing_consent,marketing_consent_ip`
   );
   const row = rows[0];
   if (!row) return { status: 404, body: { error: "not_found" } };
@@ -99,6 +99,7 @@ async function decideVerification(id, decision) {
       avocat_nom: row.avocat_nom,
       avocat_url: row.avocat_url,
       marketing_consent: !!row.marketing_consent,
+      marketing_consent_ip: row.marketing_consent ? row.marketing_consent_ip : null,
     });
     const lang = row.lang || "fr";
     const seg = LOGIN_SEGMENTS[lang] || LOGIN_SEGMENTS.fr;

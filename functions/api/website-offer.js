@@ -44,12 +44,13 @@
 // Portage Cloudflare Pages Functions : voir CLOUDFLARE_MIGRATION.md.
 import { wrapVercelHandler } from "./_shim.js";
 import * as lib from "./_verification-lib.js";
+import { clientIp } from "./_rate-limit.js";
 
 // Doit rester synchronisee avec CONTRACT_VERSION dans website_offer_content.py.
 const EXPECTED_CONTRACT_VERSION = "2026-08-20-v1";
 const ALLOWED_LANGS = ["fr", "de", "it", "en"];
 
-async function handleSignupFlow(body, res) {
+async function handleSignupFlow(body, req, res) {
   const id = body && body.id;
   const interested = body && body.interested === true;
   if (!id || typeof id !== "string") {
@@ -83,6 +84,8 @@ async function handleSignupFlow(body, res) {
       free_website_interest: interested,
       free_website_contract_accepted_at: interested ? new Date().toISOString() : null,
       free_website_contract_version: interested ? EXPECTED_CONTRACT_VERSION : null,
+      // IP au moment de l'acceptation (preuve, voir supabase_schema.sql).
+      free_website_contract_ip: interested ? clientIp(req) : null,
     };
     await lib.supabasePatch("verification_requests", id, patch);
 
@@ -136,6 +139,8 @@ async function handleProfileFlow(body, req, res) {
       account_email: lawyer.email,
       lang,
       contract_version: EXPECTED_CONTRACT_VERSION,
+      // IP au moment de l'acceptation (preuve, voir supabase_schema.sql).
+      contract_ip: clientIp(req),
     });
 
     res.status(200).json({ ok: true });
@@ -190,7 +195,7 @@ async function handler(req, res) {
 
   const flow = body && body.flow;
   if (flow === "signup") {
-    await handleSignupFlow(body, res);
+    await handleSignupFlow(body, req, res);
     return;
   }
   if (flow === "profile") {

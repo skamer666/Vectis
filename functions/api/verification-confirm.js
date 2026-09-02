@@ -54,7 +54,7 @@ async function handler(req, res) {
   try {
     const rows = await lib.supabaseSelect(
       "verification_requests",
-      `id=eq.${encodeURIComponent(rid)}&select=id,status,method,token_hash,token_expires_at,pending_user_id,canton,avocat_slug,avocat_nom,avocat_url,marketing_consent`
+      `id=eq.${encodeURIComponent(rid)}&select=id,status,method,token_hash,token_expires_at,pending_user_id,canton,avocat_slug,avocat_nom,avocat_url,marketing_consent,marketing_consent_ip`
     );
     const row = rows[0];
     if (!row || row.method !== "email" || !row.token_hash || !row.pending_user_id) {
@@ -83,6 +83,7 @@ async function handler(req, res) {
       avocat_nom: row.avocat_nom,
       avocat_url: row.avocat_url,
       marketing_consent: !!row.marketing_consent,
+      marketing_consent_ip: row.marketing_consent ? row.marketing_consent_ip : null,
     });
     await lib.supabasePatch("verification_requests", row.id, {
       status: "approved",

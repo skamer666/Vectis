@@ -13,7 +13,7 @@
 //
 // Portage Cloudflare Pages Functions : voir CLOUDFLARE_MIGRATION.md.
 import { wrapVercelHandler } from "./_shim.js";
-import { checkRateLimit } from "./_rate-limit.js";
+import { checkRateLimit, clientIp } from "./_rate-limit.js";
 
 const SUPABASE_URL = "https://qjiyxhsnrzahdmdvzsqi.supabase.co";
 
@@ -86,11 +86,15 @@ async function handler(req, res) {
     page_title: truncate(body.page_title, MAX_TITLE_LEN),
     lang: lang,
     // Case a cocher facultative et decochee par defaut sur le formulaire :
-    // voir supabase_schema.sql pour le detail du consentement. Le cron de
-    // relance (api/send-review-reminders.js) tourne cote Vercel uniquement
-    // (pas de tache planifiee cote Cloudflare dans ce projet) mais lit la
-    // meme table Supabase, quel que soit l'hebergeur qui a recu ce POST.
+    // voir supabase_schema.sql pour le detail du consentement. Relance
+    // desormais geree par le Cron Trigger Cloudflare natif (voir
+    // worker-entry.js / functions/api/_scheduled-review-reminders.js).
     review_reminder_consent: body.review_reminder_consent === true,
+    // IP au moment du consentement (preuve, voir supabase_schema.sql) --
+    // uniquement quand la case est cochee, jamais stockee sinon (principe de
+    // minimisation, meme logique que analytics_events qui ne stocke jamais
+    // d'IP quand ce n'est pas necessaire a l'objectif poursuivi).
+    review_reminder_consent_ip: body.review_reminder_consent === true ? clientIp(req) : null,
   };
 
   try {
