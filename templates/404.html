@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <section class="hero" style="padding-block:var(--space-2xl) var(--space-2xl);">
+    <div class="hero-eyebrow">404</div>
+    <h1>{{ h1 }}</h1>
+    <p class="lede">{{ intro_text }}</p>
+    <div class="cta-row">
+      <a class="cta-btn is-primary" href="{{ home_url }}">{{ ui.home }}</a>
+      <a class="cta-btn" href="{{ cantons_index_url }}">{{ ui.all_cantons }}</a>
+      <a class="cta-btn" href="{{ correction_url }}">{{ ui.correction }}</a>
+    </div>
+  </section>
+</div>
+{% endblock %}

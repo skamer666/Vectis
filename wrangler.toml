@@ -52,6 +52,14 @@ crons = ["0 8 * * *"]
 [assets]
 directory = "dist"
 binding = "ASSETS"
+# not_found_handling = "404-page" : sert dist/404.html (genere par
+# gen_404() dans build.py) avec un vrai statut HTTP 404 pour toute URL
+# inconnue -- sans ca, Cloudflare renvoyait deja un 404 (verifie), mais
+# avec un corps de page totalement vide (aucune navigation, impasse pour
+# le visiteur). 404.html utilise des chemins absolus partout (images/CSS/
+# liens) car il est servi tel quel a n'importe quelle profondeur d'URL,
+# sans que la barre d'adresse ne change.
+not_found_handling = "404-page"
 # run_worker_first : sans ca, Cloudflare sert les fichiers statiques
 # directement depuis la couche assets AVANT d'invoquer fetch() dans
 # worker-entry.js -- decouvert le 02.09.2026 en debuggant pourquoi la

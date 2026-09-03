@@ -2918,7 +2918,6 @@ def gen_static_pages():
 
 
 def gen_sitemaps():
-    today = datetime.date.today().isoformat()
     by_lang = {lg: [] for lg in LANGS}
     hreflang_re = re.compile(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">')
     for lg in LANGS:
@@ -2947,7 +2946,14 @@ def gen_sitemaps():
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
                'xmlns:xhtml="http://www.w3.org/1999/xhtml">']
         for p, alternates in urls:
-            xml.append(f'  <url><loc>{BASE_DOMAIN}{p}</loc><lastmod>{today}</lastmod>')
+            # Pas de <lastmod> : le build regenere TOUTES les pages a chaque
+            # deploiement (build.py ne fait pas de build incremental), donc
+            # <lastmod>{date du jour}</lastmod> mentirait sur 73000+ pages
+            # meme quand leur contenu n'a pas change -- Google finit par
+            # ignorer completement le signal lastmod d'un domaine qui se
+            # revele systematiquement faux, autant ne pas l'emettre du tout
+            # plutot que d'emettre un signal qui se decredibilise lui-meme.
+            xml.append(f'  <url><loc>{BASE_DOMAIN}{p}</loc>')
             for hl, href in alternates:
                 xml.append(f'    <xhtml:link rel="alternate" hreflang="{hl}" href="{href}"/>')
             xml.append('  </url>')
@@ -2958,7 +2964,7 @@ def gen_sitemaps():
     idx = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for fname in sitemap_files:
-        idx.append(f"  <sitemap><loc>{BASE_DOMAIN}/{fname}</loc><lastmod>{today}</lastmod></sitemap>")
+        idx.append(f"  <sitemap><loc>{BASE_DOMAIN}/{fname}</loc></sitemap>")
     idx.append("</sitemapindex>")
     with open(os.path.join(DIST_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(idx))
@@ -3134,6 +3140,32 @@ def gen_cloudflare_files():
         f.write("_worker.js\n")
 
 
+def gen_404():
+    """Page 404 personnalisee, servie par Cloudflare (not_found_handling =
+    "404-page" dans wrangler.toml) pour toute URL inconnue -- avant ca,
+    Cloudflare renvoyait deja un vrai statut 404 (verifie en prod), mais
+    avec un corps de page totalement vide, aucune navigation possible.
+    Ecrite directement a la racine de dist/ (pas via write_page(), qui
+    cree un dossier + index.html) : Cloudflare exige un fichier
+    "404.html" litteral a la racine des assets. En francais par defaut
+    (langue principale du site) -- pas de logique serveur possible pour
+    detecter la langue voulue sur une URL qui n'existe pas. asset_prefix
+    force en chemins absolus ("/") : cette meme page est servie a
+    n'importe quelle profondeur d'URL sans que la barre d'adresse ne
+    change, un chemin relatif casserait le CSS."""
+    lang = "fr"
+    path = "/404.html"
+    ctx = base_ctx(lang, path, f"{i18n.UI[lang]['error_404_title']} | Legatis", i18n.UI[lang]["error_404_text"],
+                    {lg: BASE_DOMAIN + home_path(lg) for lg in LANGS})
+    ctx["asset_prefix"] = "/"
+    ctx["noindex"] = True
+    ctx["h1"] = i18n.UI[lang]["error_404_title"]
+    ctx["intro_text"] = i18n.UI[lang]["error_404_text"]
+    html = render("404.html", ctx)
+    with open(os.path.join(DIST_DIR, "404.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 def gen_search():
     for lang in LANGS:
         index = []
@@ -3175,6 +3207,11 @@ def gen_search():
         path = f"/{lang}/{seg('recherche', lang)}/"
         ctx = base_ctx(lang, path, f"{i18n.UI[lang]['search_title']} | Legatis", i18n.UI[lang]["tagline"] + ".",
                         hreflang_for(lambda lg: f"/{lg}/{seg('recherche', lg)}/"))
+        # Noindex : coquille JS sans contenu propre (juste "Recherche" en h1,
+        # tout vient du widget cote client) -- exactement le genre de page
+        # fine que le site evite partout ailleurs, pas de raison de faire
+        # une exception ici.
+        ctx["noindex"] = True
         ctx["search_index_url"] = f"/search-index-{lang}.json"
         ctx["breadcrumb"] = [(i18n.UI[lang]["breadcrumb_home"], home_path(lang)), (i18n.UI[lang]["search_title"], path)]
         write_page(path, render("search.html", ctx))
@@ -3212,6 +3249,7 @@ if __name__ == "__main__":
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
+        gen_404()
     elif stage == "urls-for-domains":
         domains = sys.argv[2].split(",")
         seen = []
@@ -3286,6 +3324,7 @@ if __name__ == "__main__":
         gen_llms_txt()
         gen_indexnow_key()
         gen_search()
+        gen_404()
         gen_sitemaps()
         gen_robots()
         gen_cloudflare_files()
