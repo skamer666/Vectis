@@ -376,6 +376,61 @@ def load_other_canton_enrichment():
     return entries
 
 
+def load_individual_enrichment():
+    """Cache d'enrichissement par avocat individuel (cantons AG/ZG/NE/TG/SO --
+    voir data/ENRICHISSEMENT_PROGRESS.md, section "phase 3b"). Ces CSV n'ont ni
+    etude ni site_web : impossible de regrouper par cabinet comme pour
+    WEB_ENRICHMENT (par domaine) ou OTHER_CANTON_ENRICHMENT (par nom de
+    cabinet). Rattachement ici par nom d'avocat + canton directement -- clef
+    (canton, norm(person_name)). Un nom partage par deux avocats du meme
+    canton dans le CSV source n'est volontairement jamais rattache par ce
+    mecanisme (cf. attach_individual_enrichment) : mieux vaut aucun
+    enrichissement qu'un rattachement a la mauvaise personne."""
+    path = os.path.join(DATA_DIR, "avocats_individuels_enrichment.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    entries = {}
+    for key, entry in data.items():
+        if not isinstance(entry, dict) or entry.get("_failed"):
+            continue
+        canton = entry.get("canton")
+        person_name = entry.get("person_name")
+        if not canton or not person_name:
+            continue
+        entries[(canton, norm(person_name))] = entry
+    return entries
+
+
+def attach_individual_enrichment(canton_data, enrichment_by_key):
+    """Rattache INDIVIDUAL_ENRICHMENT aux lignes CSV des cantons sans etude,
+    en ecrivant "_individual_web" sur chaque ligne concernee. Garde-fou anti-
+    collision, meme principe que attach_name_based_enrichment : si le nom
+    normalise correspond a plusieurs avocats du meme canton dans le CSV
+    source, on ne rattache a aucun (ambigu). Retourne (nb_rattaches,
+    nb_ignores_ambigus)."""
+    attached = 0
+    skipped_ambiguous = 0
+    for code, data in canton_data.items():
+        by_norm_name = {}
+        for row in data["individuals"]:
+            key = (code, norm(row["nom_complet"]))
+            by_norm_name.setdefault(key, []).append(row)
+        for key, entry in enrichment_by_key.items():
+            if key[0] != code:
+                continue
+            candidates = by_norm_name.get(key)
+            if not candidates:
+                continue
+            if len(candidates) > 1:
+                skipped_ambiguous += 1
+                continue
+            candidates[0]["_individual_web"] = entry
+            attached += 1
+    return attached, skipped_ambiguous
+
+
 _LEGAL_SUFFIX_RE = re.compile(
     r"\b(ag|sa|gmbh|sarl|s a r l|ltd|llp|klg|kollektivgesellschaft|inc|llc|se)\b"
 )
@@ -1552,6 +1607,16 @@ print(
     file=sys.stderr,
 )
 
+INDIVIDUAL_ENRICHMENT = load_individual_enrichment()
+_individual_matches_attached, _individual_matches_skipped_ambiguous = attach_individual_enrichment(
+    CANTON_DATA, INDIVIDUAL_ENRICHMENT
+)
+print(
+    f"Cache enrichissement individuel (AG/ZG/NE/TG/SO) : {_individual_matches_attached} "
+    f"avocats rattaches par nom, {_individual_matches_skipped_ambiguous} ignores (collision de nom).",
+    file=sys.stderr,
+)
+
 
 def canton_registry(code, lang):
     data = CANTON_DATA[code]
@@ -1785,6 +1850,14 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
         _web = WEB_ENRICHMENT.get(site_domain(_site_url)) if _site_url else None
         if not _web and firm_row:
             _web = firm_row.get("_name_web")
+        # Repli individuel (AG/ZG/NE/TG/SO) : ces CSV n'ont pas de champ etude
+        # du tout (etude_name est vide), donc firm_row est toujours None et le
+        # rattachement par cabinet ci-dessus ne peut jamais s'appliquer. On
+        # tente alors un rattachement par nom d'avocat directement -- voir
+        # attach_individual_enrichment(). N'agit jamais si une etude existe
+        # (ce cas est deja couvert par le rattachement cabinet ci-dessus).
+        if not _web and not etude_name:
+            _web = row.get("_individual_web")
         # Noindex decide une seule fois pour les 4 langues (jamais indexee dans
         # une langue et pas dans une autre pour la meme fiche) : voir commentaire
         # complet plus bas.
@@ -1812,7 +1885,14 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             # presentation_text.lawyer_presentation.
             _langues_raw = [x.strip() for x in (row.get("langues_raw") or "").split(",") if x.strip()]
             _langues_for_lang = [translate_lang_name(x, lang) for x in _langues_raw]
-            desc = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
+            # Nom de cabinet decouvert via le rattachement individuel (ex. un
+            # avocat AG/ZG/NE/TG/SO sans "etude" en base, mais dont la
+            # recherche a trouve qu'il exerce au sein d'un cabinet nomme) :
+            # affiche uniquement -- etude_name (issu du CSV) reste la seule
+            # source pour firm_row/etude_url, aucune page cabinet n'existe
+            # pour ces cantons.
+            _etude_display = etude_name or ((_web or {}).get("firm_name") or "")
+            desc = pt.lawyer_presentation(lang, nom, canton_name, etude=_etude_display or None,
                                            ville=row.get("ville") or None,
                                            fonction=row.get("fonction") or None,
                                            langues=_langues_for_lang,
@@ -1826,16 +1906,16 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             ctx["review_canton_code"] = code
             ctx["review_avocat_slug"] = row["_slug"]
             ctx["role_or_titre"] = row.get("fonction") or ""
-            ctx["etude"] = etude_name
+            ctx["etude"] = _etude_display
             ctx["etude_url"] = etude_path(code, firm_row["_slug"], lang) if firm_row else None
             ctx["adresse"] = row.get("adresse") or ""
             ctx["npa"] = row.get("npa") or ""
             ctx["ville"] = row.get("ville") or ""
-            ctx["telephone"] = row.get("telephone") or ""
-            ctx["email"] = row.get("email") or ""
+            ctx["telephone"] = row.get("telephone") or (_web or {}).get("phone") or ""
+            ctx["email"] = row.get("email") or (_web or {}).get("email") or ""
             ctx["site_web"] = row.get("site_web") or ""
             ctx["site_web_href"] = row.get("site_web") or "#"
-            ctx["presentation"] = pt.lawyer_presentation(lang, nom, canton_name, etude=etude_name or None,
+            ctx["presentation"] = pt.lawyer_presentation(lang, nom, canton_name, etude=_etude_display or None,
                                                            ville=row.get("ville") or None,
                                                            fonction=row.get("fonction") or None)
             ctx["domaines"] = []
@@ -1898,7 +1978,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 "address": {"@type": "PostalAddress", "streetAddress": row.get("adresse", ""),
                              "postalCode": row.get("npa", ""), "addressLocality": row.get("ville", ""),
                              "addressCountry": "CH"},
-                "telephone": row.get("telephone", ""), "email": row.get("email", ""),
+                "telephone": ctx["telephone"], "email": ctx["email"],
                 "areaServed": canton_name,
                 **({"sameAs": [row["site_web"]]} if row.get("site_web") else {}),
                 **({"aggregateRating": _rating} if _rating else {}),
@@ -1910,7 +1990,7 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 lang, nom, canton_name, ville=row.get("ville") or None,
                 domaines=_domaine_names, langues=ctx["langues"], seniority_text=ctx["seniority_text"],
                 telephone=ctx["telephone"] or None, email=ctx["email"] or None,
-                etude=etude_name or None,
+                etude=_etude_display or None,
                 review_avg=(_rating or {}).get("ratingValue"), review_count=(_rating or {}).get("reviewCount"),
             )
             ctx["related"] = lawyer_related_links(lang)
