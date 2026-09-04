@@ -49,3 +49,27 @@ def test_founding_year_preferred_over_oldest_year_when_both_known():
     text = pt.firm_insight("fr", [], [], 1980, founding_year=1998)
     assert "1998" in text
     assert "1980" not in text
+
+
+def test_specialist_certification_alone_produces_non_empty_insight():
+    text = pt.firm_insight("fr", [], [], None, specialist_certification="Avocat spécialiste FSA droit du travail")
+    assert text != ""
+    assert "Avocat spécialiste FSA droit du travail" in text
+
+
+def test_publications_alone_produce_non_empty_insight():
+    text = pt.firm_insight("fr", [], [], None, publications=["Le droit du bail en 2026"])
+    assert text != ""
+    assert "Le droit du bail en 2026" in text
+
+
+def test_publications_truncated_to_three():
+    text = pt.firm_insight("fr", [], [], None, publications=["A", "B", "C", "D", "E"])
+    assert "A" in text and "B" in text and "C" in text
+    assert "D" not in text and "E" not in text
+
+
+def test_specialist_certification_and_publications_absent_by_default():
+    """Meme contrat que les autres signaux : rien fourni -> rien affiche."""
+    text = pt.firm_insight("fr", [], [], None)
+    assert text == ""

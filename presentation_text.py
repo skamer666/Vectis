@@ -328,14 +328,21 @@ def translate_langues(langues, lang):
     return out
 
 
-def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_size_n=None):
+def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_size_n=None,
+                  specialist_certification=None, publications=None):
     """Agrege des faits reels sur l'equipe d'une etude (langues et domaines
     couverts par ses membres, anciennete du membre le plus ancien ou date de
     fondation reelle si connue via le site du cabinet, taille annoncee),
     calcules depuis les donnees deja en base -- jamais devine ni complete par
     defaut. founding_year (source : site officiel du cabinet) est toujours
     prefere a oldest_year (proxy : membre le plus ancien du registre) quand
-    disponible, car plus precis et plus honnete."""
+    disponible, car plus precis et plus honnete.
+
+    specialist_certification (ex. "Fachanwalt SAV Familienrecht") et
+    publications (liste de titres, ex. articles publies par le cabinet/
+    l'avocat) sont deux signaux supplementaires captes par les pilotes
+    d'enrichissement quand un site officiel les mentionne explicitement --
+    jamais devines, jamais construits a partir d'une liste de domaines."""
     parts = []
     oldest_txt = None
     if founding_year:
@@ -397,6 +404,14 @@ def firm_insight(lang, langues, domaines, oldest_year, founding_year=None, team_
             parts.append("Practice areas indicated by the team: " + ", ".join(domaines) + ".")
     if oldest_txt:
         parts.append(oldest_txt)
+    if specialist_certification:
+        _cert_lead = {"fr": "Titre de spécialiste indiqué :", "de": "Angegebener Fachanwaltstitel:",
+                      "it": "Titolo di specialista indicato:", "en": "Specialist title indicated:"}[lang]
+        parts.append(f"{_cert_lead} {specialist_certification}.")
+    if publications:
+        _pub_lead = {"fr": "Publication(s) mentionnée(s) :", "de": "Erwähnte Publikation(en):",
+                     "it": "Pubblicazione/i menzionata/e:", "en": "Publication(s) mentioned:"}[lang]
+        parts.append(f"{_pub_lead} {', '.join(publications[:3])}.")
     return " ".join(parts)
 
 

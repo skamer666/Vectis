@@ -1950,6 +1950,8 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
                 lang, ctx["langues"], _domaine_names, None,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
+                specialist_certification=(_web or {}).get("specialist_certification"),
+                publications=(_web or {}).get("publications"),
             ) if (_web or _domaine_names or ctx["langues"]) else ""
             ctx["web_source_note"] = None
             if _web:
