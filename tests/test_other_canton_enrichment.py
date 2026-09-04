@@ -67,3 +67,28 @@ def test_real_cache_produces_matches_without_ambiguity_errors():
     # rattachements et au plus quelques collisions ignorees -- jamais zero
     # rattachement (signe que le format du cache ou le matching aurait casse).
     assert build._name_matches_attached > 0
+
+
+def test_web_practice_areas_falls_back_to_fr_then_en():
+    # Regression (audit du 2026-09-04) : les cabinets dont le site officiel
+    # scrape est nativement en anglais n'ont que practice_areas_en de rempli
+    # -- practice_areas_fr/de/it n'ont jamais ete traduits pour ces entrees.
+    # Un lookup direct par langue renvoyait [] pour fr/de/it malgre une
+    # donnee reelle disponible en cache (528 fiches avocat concernees).
+    web_en_only = {"practice_areas_fr": [], "practice_areas_de": [], "practice_areas_it": [],
+                   "practice_areas_en": ["Employment Law", "Tax Law"]}
+    assert build.web_practice_areas(web_en_only, "fr") == ["Employment Law", "Tax Law"]
+    assert build.web_practice_areas(web_en_only, "de") == ["Employment Law", "Tax Law"]
+    assert build.web_practice_areas(web_en_only, "it") == ["Employment Law", "Tax Law"]
+    assert build.web_practice_areas(web_en_only, "en") == ["Employment Law", "Tax Law"]
+
+
+def test_web_practice_areas_prefers_requested_lang_over_fallback():
+    web_fr = {"practice_areas_fr": ["Droit du travail"], "practice_areas_de": ["Arbeitsrecht"],
+              "practice_areas_en": ["Employment law"]}
+    assert build.web_practice_areas(web_fr, "de") == ["Arbeitsrecht"]
+
+
+def test_web_practice_areas_empty_when_nothing_available():
+    assert build.web_practice_areas({"practice_areas_fr": []}, "fr") == []
+    assert build.web_practice_areas(None, "fr") == []

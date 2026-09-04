@@ -415,14 +415,26 @@ OTHER_CANTON_ENRICHMENT = load_other_canton_enrichment()
 
 def web_practice_areas(web, lang):
     """Domaines de competence scrapes sur le site du cabinet, dans la langue
-    demandee. practice_areas_de/it sont des traductions (voir
+    demandee. practice_areas_de/it sont normalement des traductions (voir
     practice_areas_translation_note dans le JSON) de practice_areas_fr (ou
     _en a defaut) -- le scraper lui-meme n'a jamais extrait de version DE/IT.
-    Sans ceci, seules les pages FR/EN avaient ce signal, ce qui noindexait a
-    tort des fiches en DE/IT (cf. audit SEO du 2026-08-23)."""
+
+    Mais pour les cabinets dont le site officiel est nativement en anglais
+    (ex. Wenger Plattner, cf. audit du 2026-09-04), practice_areas_en est
+    rempli et practice_areas_fr/de/it restent vides -- la traduction n'a
+    jamais ete rejouee pour ces entrees. Un lookup direct par langue
+    retournait alors [] pour fr/de/it malgre une donnee reelle disponible,
+    et affectait ~528 fiches avocat (cantons hors GE/VD) qui avaient un
+    signal utilisable en cache mais rien affiche. Repli fr puis en si la
+    langue demandee est vide : mieux vaut du texte reel en anglais qu'aucun
+    domaine affiche -- jamais invente, jamais traduit a la volee ici."""
     if not web:
         return []
-    return web.get(f"practice_areas_{lang}") or []
+    for candidate in (lang, "fr", "en"):
+        vals = web.get(f"practice_areas_{candidate}") or []
+        if vals:
+            return vals
+    return []
 
 GE_INDIVIDUALS = load_ge_individuals()
 for _r in GE_INDIVIDUALS:
