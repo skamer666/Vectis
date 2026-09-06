@@ -1771,3 +1771,27 @@ nominatifs), Bellerive Rechtsanwälte (17 domaines DE, généraliste particulier
 
 Rattachement (`attach_name_based_enrichment`) : 187 études rattachées au total (183 → 187, +4).
 Suite de tests : 93/93 au vert.
+
+### 2026-09-06 — Abandon de Google Jules, retour à Gemini en mode manuel
+
+Jules (Google, connecté via `.github/workflows/jules-schedule.yml` + secret `JULES_API_KEY`)
+a tourné deux fois sur la Phase 3c, produit un plan complet et annoncé "Ready for submission"
+les deux fois, mais **n'a jamais réellement poussé la branche ni ouvert de PR sur GitHub**
+(vérifié directement via l'API : ni branche `jules-batch-phase-3c`, ni PR ouverte ou fermée,
+aux deux tentatives). Cause non élucidée côté Jules (probablement un problème d'autorisation
+d'écriture ou un bug de son "submit tool") -- pas retenté une 3e fois, Greg a décidé de passer à
+un mode manuel avec Gemini (interface web standard, recherche activée) à la place :
+
+- Le fichier `.github/workflows/jules-schedule.yml` a été **supprimé** (plus d'automatisation
+  GitHub Actions pour cette phase).
+- **Gemini (mode manuel)** reprend la Phase 3c (avocats solo des 12 cantons groupables), mais
+  sans accès direct au dépôt : Greg colle un prompt de lot dans l'interface Gemini, colle le
+  JSON de résultat obtenu ici, et Claude valide + fusionne dans
+  `data/avocats_individuels_enrichment_gemini.json` (nom de fichier inchangé, toujours partagé
+  avec Codex/Claude via `load_individual_enrichment()`).
+- La clé `JULES_API_KEY` reste en secret GitHub (inoffensive tant qu'aucun workflow ne la
+  référence) -- Greg peut la supprimer à sa discrétion, ce n'est plus utilisé par rien.
+
+Répartition à jour : **Claude** = Phase 3 (cabinets, routine automatique) ; **OpenAI Codex** =
+Phase 3b (individus AG/ZG/NE/TG/SO, automatique via chatgpt.com/codex) ; **Gemini (manuel)** =
+Phase 3c (avocats solo 12 cantons, relai manuel Greg ↔ Claude, PAS automatique).
