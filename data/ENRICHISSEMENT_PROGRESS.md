@@ -1486,3 +1486,36 @@ explicite de sa part.** Concrètement, à ce stade :
 Si une nouvelle source de données apparaît (BE, VS, ou une piste pour les 6 cantons fermés),
 ou si Greg redemande explicitement de continuer l'enrichissement, cette pause peut être levée
 — mais l'initiative doit venir de lui.
+
+## REPRISE EXPLICITE DE L'ENRICHISSEMENT (06/09/2026, décision de Greg)
+
+Contexte : la mise à jour anti-spam de Google (« scaled content abuse », déploiement confirmé
+18-21/08/2026) a fait chuter le nombre d'URLs indexées à partir du 19/08/2026, en ciblant très
+probablement les ~8 333 fiches avocat « thin » (nom + ville seuls, sans signal réel). Greg a
+explicitement redemandé de relancer l'enrichissement pour combler ce déficit de signal réel
+(jamais de texte généré par IA — uniquement des faits vérifiés sur sites officiels/OSM, avec
+`source_url`/date). Ceci lève la pause du 29/07/2026 ci-dessus, dans le cadre précis suivant
+(pas un blanc-seing général) :
+
+- **Phase 3 (cabinets, 12 cantons groupables)** : reprise de `data/domaines_autres_cantons.json`
+  (ZH/TI/SG/GR/BL/SZ/UR/OW/NW/AR/AI/LU), même méthodologie que les lots ci-dessus, plus fallback
+  OpenStreetMap Overpass (`office=lawyer|notary`) quand le site officiel est inaccessible/JS.
+  Lot porté à 50 cabinets/heure (demande explicite de Greg).
+- **Phase 3b (nouvelle)** : avocats individuels des 5 cantons sans champ `etude` du tout
+  (AG/ZG/NE/TG/SO — précédemment qualifiés à tort de « structurellement impossibles », corrigé
+  après test réel) — cache `data/avocats_individuels_enrichment.json`, rattachement par nom+canton
+  (`attach_individual_enrichment` dans build.py).
+- **Phase 3c (nouvelle)** : avocats indépendants (`solo`, sans étude) au sein des 12 cantons
+  groupables de la Phase 3 — 634 fiches identifiées comme non couvertes ni par Phase 3 ni par 3b —
+  même cache que 3b.
+- **BE et VS restent hors périmètre** (registre JS/JSF non scrapable, décision de Greg de ne pas
+  s'y attaquer maintenant) — ne pas étendre à ces deux cantons sans nouvelle demande explicite.
+- **Le seuil de 3+ avocats pour le regroupement en étude reste inchangé.**
+
+Bug d'infrastructure corrigé le même jour : les 3 tâches planifiées (Phase 3/3b/3c) avaient été
+créées avec `create_new_session_on_fire: true`, ce qui spawnait à chaque déclenchement une
+session neuve sans accès push au dépôt (`add_repo` absent/bloqué par une confirmation humaine
+obligatoire) — échec systématique, aucune donnée perdue (juste des appels de recherche
+gaspillés), les 3 anciennes tâches supprimées et recréées pour se déclencher directement dans
+la session interactive principale (qui a déjà l'accès push confirmé), sur demande explicite de
+Greg (« zéro action de ta part »).
