@@ -49,6 +49,20 @@
     ],
     "source_url": "http://www.contractus.ch/deutsch/über-uns/"
   },
+  "ag-stefan-augstburger": {
+    "canton": "AG",
+    "email": "stefan.augstburger@merki-partner.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Merki & Partner",
+    "person_name": "Stefan Augstburger",
+    "phone": "+41 62 834 90 00",
+    "practice_areas_de": [
+      "Grundstücksgeschäfte",
+      "Gesellschaftsrecht",
+      "Familienrechtliche und erbrechtliche Vorgänge"
+    ],
+    "source_url": "https://www.merki-partner.ch/de/team/stefan-augstburger"
+  },
   "ne-david-agerba": {
     "canton": "NE",
     "fetched_date": "2026-09-06",
@@ -65,6 +79,38 @@
       "Criminalité économique"
     ],
     "source_url": "https://etude-agerba.ch/"
+  },
+  "ne-gautier-aubert": {
+    "canton": "NE",
+    "email": "etude@a2l.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "A2L, Avocates et Avocats de l'Entre-deux-Lacs",
+    "person_name": "Gautier Aubert",
+    "phone": "+41 32 751 20 50",
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit pénal",
+      "Droit administratif",
+      "Médiation",
+      "Arbitrage"
+    ],
+    "source_url": "https://www.a2l.ch/en/"
+  },
+  "ne-oriane-aubert": {
+    "canton": "NE",
+    "email": "etude@a2l.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "A2L, Avocates et Avocats de l'Entre-deux-Lacs",
+    "person_name": "Oriane Aubert",
+    "phone": "+41 32 751 20 50",
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit pénal",
+      "Droit administratif",
+      "Médiation",
+      "Arbitrage"
+    ],
+    "source_url": "https://www.a2l.ch/en/"
   },
   "ne-simon-aiassa": {
     "_failed": true,
