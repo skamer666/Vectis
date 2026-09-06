@@ -73,6 +73,66 @@
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
   },
+  "so-beatrice-abegglen": {
+    "canton": "SO",
+    "fetched_date": "2026-09-06",
+    "person_name": "Beatrice Abegglen",
+    "phone": "+41 32 621 47 51",
+    "practice_areas_de": [
+      "Familien- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Strafrecht (allgemein)"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/beatrice-abegglen"
+  },
+  "so-christian-aebersold": {
+    "canton": "SO",
+    "email": "aebersold@morandischnider.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Morandi Schnider Rechtsanwälte und Notare",
+    "person_name": "Christian Aebersold",
+    "phone": "+41 32 623 91 91",
+    "practice_areas_de": [
+      "Öffentliches Baurecht",
+      "Vergaberecht/öffentliches Beschaffungswesen",
+      "Polizeirecht",
+      "Gemeinderecht (inkl. Wahlen und Abstimmungen)",
+      "Öffentliches Personalrecht",
+      "Abgaberecht",
+      "Bürgerrecht",
+      "Erbrecht",
+      "Bäuerliches Bodenrecht"
+    ],
+    "source_url": "https://morandischnider.ch/team/mitarbeiter/christian-aebersold/"
+  },
+  "tg-david-georg-ackermann": {
+    "canton": "TG",
+    "email": "david.ackermann@flb-law.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "FLB Rechtsanwälte",
+    "person_name": "David Georg Ackermann",
+    "phone": "+41 71 929 90 10",
+    "source_url": "https://flb-law.ch/index.php?id=27&option=com_sppagebuilder&view=page",
+    "specialist_certification": "Fachanwalt SAV Familienrecht ; Mediator SAV und SDM-FSM"
+  },
+  "tg-elsbeth-verena-aepli": {
+    "canton": "TG",
+    "email": "office@rechtamsee.com",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Recht am See Anwaltsbüro",
+    "person_name": "Elsbeth Verena Aepli",
+    "phone": "+41 71 677 97 87",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://rechtamsee.com/"
+  },
   "ti-abate-fabio": {
     "_failed": true,
     "canton": "TI",
