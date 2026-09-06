@@ -1519,3 +1519,35 @@ obligatoire) — échec systématique, aucune donnée perdue (juste des appels d
 gaspillés), les 3 anciennes tâches supprimées et recréées pour se déclencher directement dans
 la session interactive principale (qui a déjà l'accès push confirmé), sur demande explicite de
 Greg (« zéro action de ta part »).
+
+### 2026-09-06 — Phase 3, lot 1 (premier passage horaire depuis la reprise)
+
+12 cabinets traités (12 succès / 2 échecs) dans les cantons ZH et SG, tous vérifiés sur leur
+site officiel (WebFetch direct, jamais de traduction croisée) : Klein Rechtsanwälte AG (ZH,
+domaines EN, tel/email), gbf Rechtsanwälte AG (ZH, domaines EN, tel), VIALEX Rechtsanwälte AG
+(ZH, tel/email), Landmann & Partner AG (ZH, domaines DE, tel/email, Fachanwalt SAV Strafrecht/
+Familienrecht), Tappolet & Partner (ZH, domaines DE, tel/email, 7 avocats), Advokatur Gartenhof
+(ZH, domaines DE, tel), Stiffler & Partner (ZH, fondé **1975**, domaines EN, tel/email,
+Fachanwältin SAV Erbrecht, publication « Schweizerisches Schneesportrecht » 3e éd. 2002),
+Bachmann Rechtsanwälte AG (ZH, fondé **2009**, domaines EN, tel/email), Neupert Vuille Partners
+(ZH, fondé **1851**, domaines EN, tel/email), FRT RECHTSANWÄLTE & NOTARE (SG, tel/email),
+Zürcher Rechtsanwälte AG (ZH, domaines EN, tel), ZL ZurichLawyers (ZH, domaines DE, tel, 12
+avocats). **Échecs (2) :** suterhowald.ch (HTTP 503, site indisponible au moment du passage),
+eversheds-sutherland.com (page équipe bloquée HTTP 403).
+
+Rattachement (`attach_name_based_enrichment`) : 166 études rattachées au total (154 → 166, +12,
+zéro nouvelle collision). Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3b, lot 1 (premier passage horaire depuis la reprise)
+
+7 avocats individuels traités (7 succès / 1 échec) dans AG (3), ZG (3), NE (1) — début de liste
+alphabétique, ordre stable choisi en l'absence de signal de priorisation : Marcel Aebi (AG,
+Contractus AG, domaines DE, tel), Jacqueline Alf (AG, Voser Rechtsanwälte, domaines DE,
+tel/email), Jonas Ammann (AG, Berger Rohrer Rechtsanwältinnen AG, domaines DE, email), Aepli
+Michael (ZG, Studer & Aepli, domaines DE, tel/email), Aeschi Othmar (ZG, Aeschi Notariat &
+Anwaltskanzlei, domaines DE, tel), Amstad-Dittli Alexandra (ZG, fondé **2017**, domaines DE,
+tel/email), David Agerba (NE, Étude Agerba, domaines FR, tel). **Échec (1) :** Simon Aiassa (NE,
+aucun site personnel trouvé, seulement listé au rôle du barreau).
+
+Rattachement (`attach_individual_enrichment`) : 7/7 rattachés, zéro collision. TG et SO pas
+encore traités (prochain lot). Suite de tests : 91/91 au vert.
