@@ -1616,3 +1616,23 @@ Lugano + Mendrisio).
 
 Rattachement (`attach_individual_enrichment`) : 20/20 rattachés au total (16 → 20, +4), zéro
 collision. TI : 13/386 avocats solo traités à ce stade. Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3, lot 3 (3e passage horaire)
+
+4 cabinets traités (4 succès / 0 échec) : REBER Rechtsanwälte (ZH, fondé **1988**, domaines EN,
+tel/email, 13 collaborateurs, "Top Law Firm 2026" Bilanz), btc.legal SA (TI, tel/email, 13
+collaborateurs), Studio legale e notarile Perucchi (TI, fondé **1959**, 15 domaines IT,
+tel/email), Mattei & Partners Studio Legale SA (TI, fondé **1995**, tel/email, 10 avocats).
+
+Rattachement (`attach_name_based_enrichment`) : 176 études rattachées au total (172 → 176, +4,
+zéro nouvelle collision). Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3b, lot 3 (3e passage horaire)
+
+3 avocats individuels traités (3 succès / 0 échec) dans NE (2) et AG (1) : Gautier Aubert et
+Oriane Aubert (NE, A2L Avocates et Avocats de l'Entre-deux-Lacs, domaines FR, tel/email partagé
+— même cabinet, un seul WebFetch réutilisé pour les 2 fiches), Stefan Augstburger (AG, Merki &
+Partner, domaines DE, tel/email, notaire et avocat depuis 2012/2017).
+
+Rattachement (`attach_individual_enrichment`) : 23/23 rattachés au total (20 → 23, +3), zéro
+collision. Suite de tests : 91/91 au vert.

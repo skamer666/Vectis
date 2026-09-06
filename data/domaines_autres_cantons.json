@@ -1564,6 +1564,15 @@
     "source_url": "https://www.bratschi.ch/en/about-us",
     "team_size_n": 120
   },
+  "btc.legal": {
+    "canton": "TI",
+    "email": "info@btc.legal",
+    "fetched_date": "2026-09-06",
+    "firm_name": "btc.legal SA",
+    "phone": "+41 58 307 07 50",
+    "source_url": "https://btc.legal/en",
+    "team_size_n": 13
+  },
   "buerki-bolt.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-29",
@@ -2532,6 +2541,32 @@
     ],
     "source_url": "https://www.legal1896.ch/en/"
   },
+  "legalperucchi.com": {
+    "canton": "TI",
+    "email": "swiss.studio@legalperucchi.com",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile Perucchi",
+    "founding_year": 1959,
+    "phone": "+41 91 923 27 66",
+    "practice_areas_it": [
+      "Diritto di famiglia",
+      "Diritto successorio",
+      "Diritto societario e commerciale",
+      "Diritto fiscale",
+      "Diritto bancario",
+      "Fondazioni e trust",
+      "Diritto contrattuale",
+      "Diritto del lavoro",
+      "Diritto sanitario/medico/assicurazioni sociali",
+      "Diritto di locazione/comproprietà",
+      "Diritto delle opere d'arte",
+      "Diritto amministrativo",
+      "Diritto informatico",
+      "Diritto della costruzione",
+      "Recupero crediti e fallimenti"
+    ],
+    "source_url": "https://www.legalperucchi.com/en/"
+  },
   "legis-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -3112,6 +3147,28 @@
     "source_url": "https://www.quinnemanuel.com/offices/zurich/",
     "team_size_n": null
   },
+  "reberlaw.ch": {
+    "canton": "ZH",
+    "email": "welcome@reberlaw.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "REBER Rechtsanwälte",
+    "founding_year": 1988,
+    "phone": "+41 44 245 44 44",
+    "practice_areas_en": [
+      "Construction and Real Estate Law",
+      "Corporate and Commercial Law",
+      "Criminal Law",
+      "Employment Law and Public Personnel Law",
+      "Family Law",
+      "Inheritance Law, Pension and Succession Planning",
+      "Intellectual Property/IT",
+      "Landlord and Tenant Law",
+      "Litigation and Procedural Law",
+      "Private Clients/SMEs"
+    ],
+    "source_url": "https://www.reberlaw.ch/en/",
+    "team_size_n": 13
+  },
   "rechtskraft.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3626,6 +3683,16 @@
     ],
     "source_url": "https://streiffvonkaenel.ch/en/about/",
     "team_size_n": null
+  },
+  "studiomattei.ch": {
+    "canton": "TI",
+    "email": "info@studiomattei.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Mattei & Partners Studio Legale SA",
+    "founding_year": 1995,
+    "phone": "+41 91 821 60 00",
+    "source_url": "https://studiomattei.ch/",
+    "team_size_n": 10
   },
   "suterhowald.ch": {
     "_failed": true,
