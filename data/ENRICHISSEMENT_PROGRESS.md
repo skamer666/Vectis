@@ -1839,3 +1839,14 @@ Rechtsanwälte (ZH, fondé **1947**, tel/email, 6 avocats), Knobel, Michel & Br�
 **1986**, 9 domaines DE, tel/email, 7 juristes).
 
 Rattachement : 198 études rattachées au total (194 → 198, +4). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 9
+
+4 cabinets traités (4 succès / 0 échec), tous ZH : Wicki Partners AG (4 domaines DE, tel/email,
+8 personnes, classé "TOP law firm" Bilanz 2024), Stössel Schweizer Partner Rechtsanwälte und
+Mediation (fondé **2016**, 6 domaines DE, email, 3 associés), Advokatur Dr. Valentin Landmann
+GmbH (nouvelle étude du même avocat après scission d'avec Landmann & Partner AG déjà en cache --
+5 domaines DE, tel/email, 10 personnes), Bächtold Gallarotti Rechtsanwälte (fondé **2022**, 6
+domaines DE dont cybercrime, tel, 5 personnes).
+
+Rattachement : 202 études rattachées au total (198 → 202, +4). Suite de tests : 94/94 au vert.

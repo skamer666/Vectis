@@ -818,6 +818,23 @@
     ],
     "source_url": "https://www.bachmann.law/en/law-firm/"
   },
+  "baechtold-gallarotti.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Bächtold Gallarotti Rechtsanwälte",
+    "founding_year": 2022,
+    "phone": "+41 44 242 20 20",
+    "practice_areas_de": [
+      "Strafrecht & Cybercrime",
+      "Strafverteidigung",
+      "Strafanzeigen & Privatklagen",
+      "Versicherungsrecht",
+      "Datenschutzrecht",
+      "Persönlichkeitsschutzrecht"
+    ],
+    "source_url": "https://baechtold-gallarotti.ch/",
+    "team_size_n": 5
+  },
   "baerkarrer.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2358,6 +2375,23 @@
     ],
     "source_url": "https://www.kanonengasse.ch/",
     "team_size_n": null
+  },
+  "kanzlei-winterthur.ch": {
+    "canton": "ZH",
+    "email": "t.stoessel@kanzlei-winterthur.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Stössel Schweizer Partner Rechtsanwälte und Mediation",
+    "founding_year": 2016,
+    "practice_areas_de": [
+      "Familie",
+      "Bauen und Wohnen",
+      "Verwaltung und Behörden",
+      "Arbeiten und Geschäft",
+      "Strafverfahren",
+      "Mediation"
+    ],
+    "source_url": "https://kanzlei-winterthur.ch/anwaelte/",
+    "team_size_n": 3
   },
   "kanzleikreis2.ch": {
     "canton": "ZH",
@@ -4272,6 +4306,22 @@
     "source_url": "https://utolegal.ch/en/contact",
     "team_size_n": 6
   },
+  "valentin-landmann.ch": {
+    "canton": "ZH",
+    "email": "info@valentin-landmann.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Dr. Valentin Landmann GmbH",
+    "phone": "+41 43 234 66 00",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://valentin-landmann.ch/",
+    "team_size_n": 10
+  },
   "valfor.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4671,6 +4721,21 @@
     ],
     "source_url": "https://www.whr.ch/kontakt",
     "team_size_n": null
+  },
+  "wickipartners.ch": {
+    "canton": "ZH",
+    "email": "contact@wickipartners.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Wicki Partners AG",
+    "phone": "+41 43 322 15 00",
+    "practice_areas_de": [
+      "Gesellschaftsrecht, Sanierungen und M&A",
+      "Prozessführung und Mediation",
+      "Internet-, IT-, KI- und IP-Recht",
+      "Banken- und Finanzmarktrecht"
+    ],
+    "source_url": "https://wickipartners.ch/",
+    "team_size_n": 8
   },
   "wslaw.ch": {
     "canton": "ZH",
