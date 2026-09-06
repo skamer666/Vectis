@@ -36,6 +36,12 @@
       "reason": "page d'accueil ne contient que le nom du cabinet (site probablement en rendu JS), aucun fait exploitable",
       "tested_date": "2026-09-06"
     },
+    "baaderlex.ch": {
+      "canton": "BL",
+      "firm_name": "BAADER Rechtsanwälte AG",
+      "reason": "HTTP 403 Forbidden au fetch",
+      "tested_date": "2026-09-06"
+    },
     "bachmann.law": {
       "canton": "ZH",
       "firm_name": "Bachmann Rechtsanwälte AG",
@@ -319,6 +325,23 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "adroit.ch": {
+    "canton": "ZH",
+    "email": "info@adroit.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "ADROIT Anwälte",
+    "phone": "+41 44 644 00 50",
+    "practice_areas_de": [
+      "Gesellschaftsrecht & Transaktionen",
+      "Verträge & Vertragsrecht",
+      "Prozessführung & Verfahren",
+      "Immaterialgüter-, Technologie- & IT-Recht",
+      "Medien-, Persönlichkeits- & Datenschutzrecht",
+      "Banken- & Finanzmarktrecht",
+      "Wettbewerbs- & Wirtschaftsverwaltungsrecht"
+    ],
+    "source_url": "https://www.adroit.ch/"
+  },
   "advestra.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -460,6 +483,22 @@
     ],
     "source_url": "https://www.advokatur-roth.ch/",
     "team_size_n": 8
+  },
+  "advokatur-staub.ch": {
+    "canton": "SG",
+    "email": "kanzlei@advokatur-staub.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Staub AG",
+    "phone": "+41 71 552 22 90",
+    "practice_areas_de": [
+      "Staats- und Verwaltungsrecht",
+      "Gemeindeorganisations- und Verbandsrecht",
+      "Bau-, Planungs- und Umweltrecht",
+      "Öffentliches Beschaffungswesen (Submissionsrecht)",
+      "Öffentliches Personalrecht",
+      "Beschaffungs- und Werkverträge, insbesondere für ICT-Vorhaben"
+    ],
+    "source_url": "https://advokatur-staub.ch/"
   },
   "advokatur-west.ch": {
     "canton": "ZH",
@@ -633,35 +672,23 @@
     "team_size_n": 9
   },
   "advoro.ch": {
-    "canton": "ZH",
-    "fetched_date": "2026-07-28",
-    "firm_name": "Advoro Zürich AG",
-    "founding_year": null,
+    "canton": "SG",
+    "email": "info@advoro.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advoro AG",
+    "phone": "+41 71 277 65 65",
     "practice_areas_en": [
-      "Corporate law and transactions",
-      "Financial services and fintech",
-      "Commercial law and contracts",
-      "Life sciences",
-      "Regulatory and public law",
-      "Criminal law and investigations",
-      "Tax law",
-      "Private clients",
-      "Notary"
+      "Corporate Law & Transactions",
+      "Financial Services and Fintech",
+      "Commercial Law & Contracts",
+      "Life Sciences & Healthcare",
+      "Regulatory & Public Sector",
+      "Criminal Law & Investigations",
+      "Tax Law",
+      "Private Clients",
+      "Notarial Services"
     ],
-    "practice_areas_fr": [
-      "Droit des sociétés et transactions",
-      "Services financiers et fintech",
-      "Droit commercial et des contrats",
-      "Sciences de la vie",
-      "Droit réglementaire et public",
-      "Droit pénal et enquêtes",
-      "Droit fiscal",
-      "Clientèle privée",
-      "Notariat"
-    ],
-    "source_url": "https://www.advoro.ch/",
-    "team_size_n": null,
-    "team_size_text": null
+    "source_url": "https://www.advoro.ch/en"
   },
   "aequitaslex.ch": {
     "canton": "TI",
@@ -1169,6 +1196,24 @@
     "source_url": "https://www.bblegal.ch/firm/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "bclaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Baldi & Caratsch",
+    "founding_year": 1977,
+    "phone": "+41 44 250 2525",
+    "practice_areas_en": [
+      "Asset Tracing & Asset Recovery",
+      "Business Law, Banking & Finance",
+      "Litigation & Enforcement",
+      "Private Clients",
+      "Arbitration",
+      "Insurance Supervisory Law",
+      "Insolvency & Restructuring",
+      "Media, Entertainment & Art Law"
+    ],
+    "source_url": "https://www.bclaw.ch/about-us/"
   },
   "bdlegal.ch": {
     "canton": "BS",
@@ -1909,6 +1954,21 @@
     ],
     "source_url": "https://www.dufour-advokatur.ch/en/firm/"
   },
+  "enquire.ch": {
+    "canton": "ZH",
+    "email": "info@enquire.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Enquire Rechtsanwälte AG",
+    "phone": "+41 44 545 39 50",
+    "practice_areas_en": [
+      "Workplace conflicts",
+      "Regulatory breaches",
+      "White-collar crime",
+      "Breaches of internal or external regulations",
+      "Organizational deficiencies"
+    ],
+    "source_url": "https://enquire.ch/en/"
+  },
   "epartners.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -2061,6 +2121,21 @@
     "source_url": "https://fhs.legal/",
     "team_size_n": 6
   },
+  "fischer-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Fischer Rechtsanwälte AG",
+    "phone": "+41 44 515 56 56",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Prozessrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Verwaltungs- und Submissionsrecht"
+    ],
+    "source_url": "https://fischer-rechtsanwaelte.ch/"
+  },
   "fnb-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2209,6 +2284,14 @@
     "phone": "+41 71 226 85 10",
     "source_url": "https://frt-anwaelte.ch/"
   },
+  "gabriel-bucher.ch": {
+    "canton": "OW",
+    "email": "info@gabriel-bucher.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Gabriel & Bucher AG, Anwälte und Notare",
+    "phone": "+41 41 666 30 60",
+    "source_url": "https://gabriel-bucher.ch/"
+  },
   "gaggini-partners.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -2300,6 +2383,81 @@
       "Versicherungs- & Haftpflichtrecht"
     ],
     "source_url": "https://gigerpartnerlaw.ch/kanzlei/"
+  },
+  "glausgabathuler.ch": {
+    "canton": "SG",
+    "email": "info@glausgabathuler.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Glaus Gabathuler AG",
+    "phone": "055 285 20 20",
+    "source_url": "https://www.glausgabathuler.ch/"
+  },
+  "gloor-junker.ch": {
+    "canton": "ZH",
+    "email": "info@gloor-junker.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Gloor Junker Rechtsanwälte",
+    "phone": "+41 44 923 52 70",
+    "practice_areas_de": [
+      "Ehe",
+      "Scheidung/Trennung",
+      "Kinder",
+      "Konkubinat",
+      "Erbrecht",
+      "Strafrecht",
+      "Miete",
+      "Arbeit",
+      "Nachbarn",
+      "Schuldbetreibung und Konkurs"
+    ],
+    "source_url": "https://www.gloor-junker.ch/tatigkeitsgebiete/"
+  },
+  "gmlaw.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-06",
+    "firm_name": "gm Rechtsanwälte und Notare",
+    "phone": "+41 71 242 60 30",
+    "practice_areas_de": [
+      "Bau-, Planungs- und Umweltrecht",
+      "Öffentliches Beschaffungswesen (Submissionsrecht)",
+      "Staats- und Verwaltungsrecht",
+      "Gemeindeorganiations- und Verbandsrecht",
+      "Öffentliches Personalrecht",
+      "Beschaffungsverträge, insbesondere IT",
+      "Immobilien- und Sachenrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Ehe- und erbrechtliche Regelungen, Nachfolgeplanung und Willensvollstreckungen",
+      "Gründungen, Umstrukturierungen und Nachfolgeregelungen von KMU",
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Notariat, Beurkundungen",
+      "Prozessführung"
+    ],
+    "source_url": "https://gmlaw.ch/"
+  },
+  "good-zuerich.ch": {
+    "canton": "ZH",
+    "email": "info@good-zuerich.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Good Rechtsanwälte GmbH",
+    "phone": "+41 58 510 88 90",
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit de la succession",
+      "Droit des contrats",
+      "Droit pénal",
+      "Droit du trafic",
+      "Droit des baux",
+      "Droit de la construction",
+      "Planification successorale",
+      "Contentieux",
+      "Restructuration d'entreprise",
+      "Protection des données",
+      "Recouvrement de créances",
+      "Droit de la responsabilité civile",
+      "Life Sciences"
+    ],
+    "source_url": "https://good-zuerich.ch/en/"
   },
   "gr-law.ch": {
     "canton": "LU",
@@ -2536,6 +2694,27 @@
     ],
     "source_url": "https://www.kanonengasse.ch/",
     "team_size_n": null
+  },
+  "kanzlei-uster.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@kanzlei-uster.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Büchel von Rohr AG",
+    "phone": "+41 44 512 25 00",
+    "practice_areas_de": [
+      "Konkubinat / Familie / Trennung / Scheidung",
+      "Vorsorge",
+      "Kindes- und Erwachsenenschutz",
+      "Testament / Erbschaft",
+      "Grundstückkauf / Privates und öffentliches Baurecht / Nachbarrecht / Stockwerkeigentum",
+      "Allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Betreibung und Konkurs",
+      "Verwaltungsrecht / Gemeindeberatung",
+      "Strafrecht"
+    ],
+    "source_url": "https://kanzlei-uster.ch/"
   },
   "kanzlei-winterthur.ch": {
     "canton": "ZH",
@@ -4013,6 +4192,14 @@
     "source_url": "https://www.ruossvoegele.ch/kanzlei",
     "team_size_n": null
   },
+  "sartorial.ch": {
+    "canton": "SG",
+    "email": "info@sartorial.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Sartorial Rechtsanwälte AG",
+    "phone": "+41 71 925 30 30",
+    "source_url": "https://www.sartorial.ch/"
+  },
   "schadenanwaelte.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4363,6 +4550,26 @@
     "checked_date": "2026-09-06",
     "firm_name": "Suter Howald Rechtsanwälte AG",
     "reason": "site indisponible (HTTP 503) au moment du passage"
+  },
+  "swisslegal-chur.ch": {
+    "canton": "GR",
+    "email": "gr@swisslegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "SwissLegal Lardi & Partner AG",
+    "founding_year": 1971,
+    "phone": "+41 81 257 06 61",
+    "practice_areas_fr": [
+      "Droit commercial et fiscal",
+      "Construction et immobilier",
+      "Famille, mariage et succession",
+      "Contentieux et arbitrage",
+      "Droit du travail, mobilité et santé",
+      "Services notariaux et certificats",
+      "Droit pénal et droit routier",
+      "Responsabilité civile et assurances",
+      "Droit fédéral et administratif"
+    ],
+    "source_url": "https://www.swisslegal.ch/en/offices/chur-3.html"
   },
   "swisslegal.ch": {
     "canton": "BS",

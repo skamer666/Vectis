@@ -1935,3 +1935,18 @@ Rechtsanwälte" collé) ne correspondaient pas au nom cœur du CSV ("LANTER PART
 même principe que le lot précédent.
 
 Rattachement : 229 études rattachées au total (217 → 229, +12). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 23h03 UTC — Phase 3, lot 15 (exécution automatisée)
+
+14 cabinets traités (14 succès / 1 échec), ZH/SG/OW/GR : Good Rechtsanwälte GmbH (ZH, tel/email,
+14 domaines), Gloor Junker Rechtsanwälte (ZH, tel/email, 10 domaines DE), Fischer Rechtsanwälte
+AG (ZH, tel, 6 domaines DE), Enquire Rechtsanwälte AG (ZH, boutique investigations/compliance,
+tel/email, 5 domaines EN), Büchel von Rohr AG (ZH, tel/email, 11 domaines DE), Baldi & Caratsch
+(ZH, fondé **1977**, tel, 8 domaines EN), ADROIT Anwälte (ZH, tel/email, 7 domaines DE), gm
+Rechtsanwälte und Notare (SG, tel, 14 domaines DE), Sartorial Rechtsanwälte AG (SG, tel/email),
+Glaus Gabathuler AG (SG, tel/email), Advoro AG (SG, tel/email, 9 domaines EN), Advokatur Staub
+AG (SG, boutique droit public, tel/email, 6 domaines DE), Gabriel & Bucher AG Anwälte und Notare
+(OW, tel/email), SwissLegal Lardi & Partner AG (GR, fondé **1971**, tel/email, 9 domaines FR).
+**Échec :** BAADER Rechtsanwälte AG (BL) -- site baaderlex.ch inaccessible (HTTP 403).
+
+Rattachement : 242 études rattachées au total (229 → 242, +13). Suite de tests : 94/94 au vert.
