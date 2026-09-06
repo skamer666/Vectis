@@ -1868,20 +1868,20 @@
   },
   "dufour-advokatur.ch": {
     "canton": "BS",
-    "fetched_date": "2026-07-28",
+    "email": "basel@dufo.ch",
+    "fetched_date": "2026-09-06",
     "firm_name": "DUFOUR Advokatur AG",
     "founding_year": 1991,
+    "phone": "+41 61 205 03 03",
     "practice_areas_en": [
-      "Foundations and NPOs",
-      "Corporate law (formation, M&A, IP)",
-      "Private clients (employment, contracts, real estate)",
-      "Occupational benefits and pension funds",
-      "Art and culture law",
-      "Estate planning"
+      "Foundations & NPOs",
+      "Companies (Formation, business succession, IP, M&A)",
+      "Private Clients (Employment, contracts, real estate)",
+      "Occupational benefits (Pension fund, welfare fund, employer)",
+      "Art & Culture (Art trade, galleries, trade fairs)",
+      "Estate Planning (Inheritance, last will and testament)"
     ],
-    "practice_areas_fr": [],
-    "source_url": "https://www.dufour-advokatur.ch/en/firm/",
-    "team_size_n": null
+    "source_url": "https://www.dufour-advokatur.ch/en/firm/"
   },
   "epartners.ch": {
     "canton": "ZH",
@@ -2087,6 +2087,20 @@
     "source_url": "https://www.frey-jud.ch/",
     "team_size_n": null
   },
+  "frilegal.ch": {
+    "canton": "FR",
+    "email": "avocats@frilegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "FRILegal SA",
+    "phone": "026 422 80 80",
+    "practice_areas_fr": [
+      "Droit de la construction et de l'immobilier",
+      "Responsabilité civile et droit des assurances",
+      "Droit de la famille",
+      "Droit du travail"
+    ],
+    "source_url": "https://www.frilegal.ch/"
+  },
   "fromer-law.com": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -2131,6 +2145,35 @@
     ],
     "source_url": "https://www.fromer-law.com/",
     "team_size_n": null
+  },
+  "frpa.ch": {
+    "canton": "FR",
+    "email": "info@frpa.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "FRPA",
+    "phone": "+41 26 347 30 90",
+    "practice_areas_fr": [
+      "Droit de la famille",
+      "Droit successoral",
+      "Droit immobilier",
+      "Droit des sociétés",
+      "Droit pénal",
+      "Droit du travail",
+      "Droit de la construction",
+      "Droit administratif",
+      "Droit public",
+      "Droit rural",
+      "Droit agricole",
+      "Droit des assurances",
+      "Responsabilité civile",
+      "Médiation",
+      "Droit des assurances sociales",
+      "Droit de la circulation routière",
+      "Droit du bail",
+      "Droit du voisinage",
+      "Poursuites et faillites"
+    ],
+    "source_url": "https://fribourgpartners.ch/"
   },
   "frt-anwaelte.ch": {
     "canton": "SG",
@@ -2214,26 +2257,23 @@
   },
   "gigerpartnerlaw.ch": {
     "canton": "ZH",
-    "fetched_date": "2026-07-28",
+    "fetched_date": "2026-09-06",
     "firm_name": "Prof. Giger & Partner Rechtsanwälte",
-    "founding_year": 1962,
-    "practice_areas_en": [
-      "Employment law",
-      "Family law",
-      "Education and school law",
-      "Traffic law",
-      "Criminal law",
-      "Contract law",
-      "Construction law",
-      "Inheritance law",
-      "Corporate law",
-      "Leasing and consumer credit law",
-      "Administrative law",
-      "Insurance and liability law"
+    "practice_areas_de": [
+      "Personal- & Arbeitsrecht",
+      "Familienrecht",
+      "Bildungs- & Schulrecht",
+      "Strassenverkehrsrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Baurecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Leasing- & Konsumkreditrecht",
+      "Verwaltungsrecht",
+      "Versicherungs- & Haftpflichtrecht"
     ],
-    "practice_areas_fr": [],
-    "source_url": "https://gigerpartnerlaw.ch/kanzlei/",
-    "team_size_n": null
+    "source_url": "https://gigerpartnerlaw.ch/kanzlei/"
   },
   "gr-law.ch": {
     "canton": "LU",
@@ -2271,6 +2311,22 @@
     "source_url": "https://www.gr-law.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "hartmanndreyer.ch": {
+    "canton": "FR",
+    "email": "office@hartmanndreyer.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Hartmanndreyer",
+    "phone": "+41 26 309 20 79",
+    "practice_areas_fr": [
+      "Activité notariale",
+      "Droits des contrats",
+      "Droit de la construction et aménagement du territoire",
+      "Droit de la famille",
+      "Droit des assurances et de la responsabilité civile",
+      "Droit administratif"
+    ],
+    "source_url": "https://hartmanndreyer.ch/"
   },
   "herzerpartner.ch": {
     "canton": "ZH",
@@ -2341,25 +2397,23 @@
   },
   "hol-law.ch": {
     "canton": "ZH",
-    "fetched_date": "2026-07-28",
-    "firm_name": "HOLENSTEIN BRUSA Ltd",
-    "founding_year": null,
+    "email": "admin@hol-law.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Holenstein Brusa AG",
+    "phone": "+41 44 257 20 00",
     "practice_areas_en": [
-      "Media and intellectual property",
-      "Corporate and commercial law",
-      "Banking and finance",
-      "Litigation and arbitration",
-      "Private client services (family, estate, tax)"
+      "Banking and Finance",
+      "Business Law (incl. Contract Law, Corporate Law, Transactions / Mergers & Acquisitions, IT Law, Real Estate)",
+      "Insolvency- and Restructuring Law",
+      "Litigation (incl. Administrative and Legal Assistance)",
+      "Media Law / Intellectual Property / Data Protection",
+      "Tax Law",
+      "External legal desk service MNC/SME",
+      "Private Clients (incl. Inheritance Law)",
+      "Competition Law",
+      "Divorce- and Family Law"
     ],
-    "practice_areas_fr": [
-      "Médias et propriété intellectuelle",
-      "Droit des sociétés et droit commercial",
-      "Banque et finance",
-      "Contentieux et arbitrage",
-      "Clientèle privée (famille, successions, fiscalité)"
-    ],
-    "source_url": "https://www.hol-law.ch/en/",
-    "team_size_n": null
+    "source_url": "https://www.hol-law.ch/en/"
   },
   "homburger.ch": {
     "canton": "ZH",
@@ -2521,6 +2575,19 @@
     ],
     "source_url": "https://www.kleinlaw.ch/"
   },
+  "klgp.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Kessler Landolt Giacomini",
+    "founding_year": 1974,
+    "phone": "+41 41 811 66 77",
+    "practice_areas_de": [
+      "Rechtsberatung",
+      "Notariat",
+      "Unternehmen"
+    ],
+    "source_url": "https://klgp.ch/en/"
+  },
   "kmb-anwaelte.ch": {
     "canton": "SZ",
     "email": "info@kmb-anwaelte.ch",
@@ -2600,30 +2667,21 @@
   },
   "kspartner.ch": {
     "canton": "ZH",
-    "fetched_date": "2026-07-28",
-    "firm_name": "KSPartner AG",
+    "email": "info@kspartner.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "KSPartner",
     "founding_year": 1993,
-    "practice_areas_en": [
-      "Tort law",
-      "Disability insurance",
-      "Sick pay insurance",
-      "Accident insurance",
-      "Private insurance law",
-      "Occupational pension (BVG)",
-      "Health law"
+    "phone": "044 388 57 57",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Invalidenversicherung",
+      "Krankentaggeld",
+      "Unfallversicherung",
+      "Privatversicherungsrecht",
+      "Recht der beruflichen Vorsorge",
+      "Gesundheitsrecht"
     ],
-    "practice_areas_fr": [
-      "Droit de la responsabilité civile",
-      "Assurance-invalidité",
-      "Indemnités journalières de maladie",
-      "Assurance-accidents",
-      "Droit des assurances privées",
-      "Prévoyance professionnelle (LPP)",
-      "Droit de la santé"
-    ],
-    "source_url": "https://www.kspartner.ch/",
-    "team_size_n": null,
-    "team_size_text": null
+    "source_url": "https://www.kspartner.ch/kanzlei/"
   },
   "kuenglaw-sg.ch": {
     "canton": "SG",
@@ -3181,38 +3239,22 @@
   },
   "mfpartner.ch": {
     "canton": "GR",
-    "fetched_date": "2026-07-28",
+    "fetched_date": "2026-09-06",
     "firm_name": "Mengiardi Fey & Partner AG",
-    "founding_year": null,
-    "practice_areas_en": [
-      "Notary and notarial acts",
-      "Civil law and contract law",
-      "Business law and company law",
-      "Inheritance law and estate planning",
-      "Lex Koller and secondary residence law",
-      "Tax law and public levies",
-      "Construction and planning law",
-      "Administrative and municipal law",
-      "Family law",
-      "Public procurement law",
-      "Criminal law"
+    "practice_areas_de": [
+      "Notariat und Beurkundungen",
+      "Zivilrecht und Vertragsrecht",
+      "Wirtschaftsrecht und Gesellschaftsrecht",
+      "Erbrecht",
+      "Lex Koller",
+      "Steuerrecht",
+      "Baurecht und Raumplanung",
+      "Verwaltungsrecht",
+      "Familienrecht",
+      "Öffentliche Beschaffungen",
+      "Strafrecht"
     ],
-    "practice_areas_fr": [
-      "Notariat et actes authentiques",
-      "Droit civil et droit des contrats",
-      "Droit des affaires et droit des sociétés",
-      "Droit successoral et planification successorale",
-      "Lex Koller et droit des résidences secondaires",
-      "Droit fiscal et contributions publiques",
-      "Droit de la construction et de l'aménagement",
-      "Droit administratif et communal",
-      "Droit de la famille",
-      "Droit des marchés publics",
-      "Droit pénal"
-    ],
-    "source_url": "https://mfpartner.ch/",
-    "team_size_n": null,
-    "team_size_text": null
+    "source_url": "https://mfpartner.ch/"
   },
   "mll-legal.com": {
     "canton": "ZH",
@@ -3293,6 +3335,29 @@
     "practice_areas_fr": [],
     "source_url": "https://www.naterdallafior.ch/en/",
     "team_size_n": null
+  },
+  "ndlegal.ch": {
+    "canton": "ZH",
+    "email": "info@ndlegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Nater Dallafior Rechtsanwälte AG",
+    "phone": "+41 44 250 45 45",
+    "practice_areas_en": [
+      "International Arbitration",
+      "Commercial Litigation",
+      "Corporate Litigation",
+      "Investigations",
+      "White-Collar Crime",
+      "Compliance",
+      "Banking & Finance Disputes",
+      "Insurance & Reinsurance Disputes",
+      "Life Sciences Disputes & Pharma Regulatory",
+      "Insolvency Disputes & Asset Recovery",
+      "IP / IT / Media Disputes",
+      "Private Client Disputes",
+      "Sports Disputes"
+    ],
+    "source_url": "https://www.ndlegal.ch/"
   },
   "neovius.ch": {
     "canton": "BS",
@@ -4227,33 +4292,32 @@
   },
   "swlegal.com": {
     "canton": "ZH",
-    "fetched_date": "2026-07-23",
-    "firm_name": "Schellenberg Wittmer Ltd",
-    "founding_year": null,
-    "practice_areas_en": [
+    "fetched_date": "2026-09-06",
+    "firm_name": "Schellenberg Wittmer AG",
+    "practice_areas_de": [
+      "Arbeitsrecht",
       "Banking & Finance",
-      "Competition & Antitrust",
-      "Construction",
-      "Corporate & Commercial / M&A",
+      "Baurecht",
       "Dispute Resolution",
       "ESG",
-      "Employment",
-      "Energy",
-      "ICT / Data / Cybercrime",
-      "Insurance",
-      "Intellectual Property",
-      "International Arbitration",
+      "Energie",
+      "Gesellschafts- und Handelsrecht / M&A",
+      "Handel und Transport",
+      "ICT / Data / Cyberkriminalität",
+      "Immaterialgüterrecht",
+      "Immobilienrecht",
+      "Internationale Schiedsgerichtsbarkeit",
+      "Kunstrecht & Entertainment / Sportrecht",
       "Life Sciences",
       "Private Wealth",
-      "Real Estate",
-      "Restructuring & Insolvency",
-      "Taxation",
-      "Trade and Transport",
-      "White-Collar Crime and Compliance"
+      "Restrukturierungen und Insolvenz",
+      "Steuerrecht",
+      "Versicherungsrecht",
+      "Verwaltungsrecht und öffentliche Beschaffungen",
+      "Wettbewerbs- & Kartellrecht",
+      "Wirtschaftsstrafrecht und Compliance"
     ],
-    "practice_areas_fr": [],
-    "source_url": "https://www.swlegal.com/en/about/",
-    "team_size_n": 150
+    "source_url": "https://www.swlegal.com/de/uber_uns/"
   },
   "szlaw.ch": {
     "canton": "ZH",

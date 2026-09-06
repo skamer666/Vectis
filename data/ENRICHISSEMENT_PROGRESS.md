@@ -1881,3 +1881,36 @@ LENZ & CADUFF Rechtsanwälte AG — site lenzcaduff.ch indisponible (HTTP 503 à
 plusieurs URLs testées), aucune donnée du WebSearch utilisée faute de confirmation directe.
 
 Rattachement : 212 études rattachées au total (209 → 212, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 13 (lot élargi à la demande de Greg)
+
+**Retour utilisateur : les lots de 3-4 cabinets sont trop lents, il faut viser plus gros à
+chaque passage.** 11 cabinets traités (11 succès / 0 échec réel), essentiellement ZH/FR/GR/SZ/BS :
+Schellenberg Wittmer AG (ZH, 21 domaines DE — année de fondation vue sur Wikipédia mais absente
+du site officiel, donc non retenue), Nater Dallafior Rechtsanwälte AG (ZH, boutique litige/
+arbitrage international, tel/email, 13 domaines EN), Holenstein Brusa AG (ZH+Lugano, tel/email,
+10 domaines EN), KSPartner (ZH, fondé **1993**, tel/email, 7 spécialisations en droit des
+assurances/RC), Prof. Giger & Partner Rechtsanwälte (ZH, 12 domaines DE), Mengiardi Fey &
+Partner AG (GR, 11 domaines DE, notariat inclus), Hartmanndreyer (FR, tel/email, 6 domaines FR),
+FRPA/Fribourg Partners (FR, tel/email, 19 domaines FR), FRILegal SA (FR, tel/email, 4 domaines
+FR), Kessler Landolt Giacomini (SZ, fondé **1974**, tel), DUFOUR Advokatur AG (BS, fondé
+**1991** — confirmé explicitement sur la page officielle malgré une source tierce contradictoire
+citant 2021 pour l'entité juridique actuelle, tel/email, 6 domaines EN).
+
+**Note technique importante :** pour 4 cabinets (FRPA, Hartmanndreyer, Kessler Landolt
+Giacomini, KSPartner), le nom complet/officiel ne correspondait pas au "nom cœur" utilisé par
+`attach_name_based_enrichment()` pour rattacher l'enrichissement à la fiche CSV (ex. le CSV
+contient littéralement "Hartmanndreyer" collé sans espace, ou "KSPartner" seul sans "Anwalts-
+kanzlei"). Le champ `firm_name` de ces 4 entrées a donc été ajusté pour correspondre exactement
+au nom du registre CSV -- cela n'affecte pas l'affichage réel sur le site (qui utilise toujours
+le nom `etude` du CSV), seulement la clé de rattachement interne.
+
+**Doublon détecté et corrigé :** en recherchant "Baud, Diehl, Stauffer" (BS), une entrée
+`awg.ch` avait déjà été traitée lors d'un lot antérieur (29/07, hors de cette conversation) sous
+le nom "Anwaltsgemeinschaft Baud Diehl Stauffer", fondée en 1981 -- travail redondant, aucune
+modification nécessaire, l'entrée existante a été laissée intacte (une tentative d'ajout en
+`_failed` a été annulée après vérification).
+
+Rattachement : 217 études rattachées au total (212 → 217, +5 nettes après correction des clés de
+rattachement -- 11 cabinets enrichis au total ce lot, dont 6 rattachés du premier coup et 4 après
+correction du nom, 1 doublon retiré). Suite de tests : 94/94 au vert.
