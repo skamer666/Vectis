@@ -414,6 +414,21 @@
     "team_size_n": 9,
     "team_size_text": "3 Rechtsanwältinnen und 6 Rechtsanwälte (actuel nom depuis avril 2017, tradition familiale Schwander depuis 1920)"
   },
+  "advokatur-roth.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Roth",
+    "phone": "+41 61 921 10 20",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Strafrecht",
+      "Haftpflichtrecht",
+      "Versicherungsrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.advokatur-roth.ch/",
+    "team_size_n": 8
+  },
   "advokatur-west.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1677,6 +1692,14 @@
     "source_url": "https://www.caviezelpartner.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "cbm-lex.ch": {
+    "canton": "TI",
+    "email": "info@cbm-lex.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "CBM Studio legale e notarile",
+    "phone": "+41 91 230 10 00",
+    "source_url": "https://cbm-lex.ch/en/contacts/"
   },
   "cereghettilegal.ch": {
     "canton": "TI",
@@ -3662,6 +3685,13 @@
     "source_url": "https://schochauer.ch/en/company/",
     "team_size_n": null
   },
+  "sglaw.ch": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-06",
+    "firm_name": "Rüesch Rechtsanwälte",
+    "reason": "page /taetigkeitsbereiche/ vide (JS ou rendu cote client), deja documente comme inextractible dans un lot precedent"
+  },
   "silk-rechtsanwaelte.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -3746,6 +3776,36 @@
     ],
     "source_url": "https://spuehler.legal/",
     "team_size_n": null
+  },
+  "ssp-law.ch": {
+    "canton": "BL",
+    "email": "office@ssp-law.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Stoll Schulthess Partner",
+    "phone": "+41 61 717 97 70",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Baurecht / Planungsrecht",
+      "Erbrecht und Nachlassplanung",
+      "Familienrecht",
+      "Finanzdienstleistungsrecht",
+      "Haftpflicht- und Sozialversicherungsrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Immobiliarsachenrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Miet- und Pachtrecht",
+      "Notariat",
+      "Schiedsverfahren",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Steuerrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Submissionsrecht",
+      "Verfassungsrecht / Verwaltungsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://ssp-law.ch/rechtsgebiete/",
+    "team_size_n": 11
   },
   "stadelmann-law.ch": {
     "canton": "LU",

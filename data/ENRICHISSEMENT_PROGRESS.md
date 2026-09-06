@@ -1810,3 +1810,23 @@ Suite de tests : 93/93 au vert.
 **Statut Codex (constat, pas d'action) :** plus d'1h15 après la configuration de la tâche
 "Enrichissement Codex — 20 avocats/h", toujours aucune PR ni branche sur GitHub. Greg vérifie
 directement côté chatgpt.com/codex.
+
+### 2026-09-06 — Correctif critique noindex/insight_text, puis Phase 3 lot 7
+
+**Bug corrigé ce jour (commit 8de992a)** : `specialist_certification`/`publications` manquaient
+sur 6 des 8 sites d'appel à `pt.firm_insight()` dans build.py -- une fiche dont le seul signal
+réel était une certification restait `noindex` en prod malgré un `insight_text` non vide (cas
+concret : David Georg Ackermann, TG), et 3 des 4 types de page (études GE, études génériques,
+avocats GE) ne recevaient jamais ces deux champs même à l'affichage -- toute la donnée collectée
+en Phase 3 aujourd'hui (spécialisations, publications) était invisible sur les fiches cabinet.
+Corrigé, testé (nouveau test de régression statique), `python3 build.py all` relancé en local
+(73819 pages, aucun artefact Jinja), poussé -- **déploiement automatique confirmé** (Cloudflare
+rebuild sur push GitHub, pas besoin de `wrangler deploy` manuel). Vérifié en prod : la fiche
+Ackermann n'est plus noindex, la page Aequitas affiche ses publications.
+
+3 cabinets traités (3 succès / 1 échec) : CBM Studio legale e notarile (TI, tel/email),
+Advokatur Roth (BL, 5 domaines DE, tel, 8 avocats), Advokatur Stoll Schulthess Partner (BL,
+20 domaines DE, tel/email, 11 personnes). **Échec redocumenté :** sglaw.ch (Rüesch Rechtsanwälte,
+SG) -- page `/taetigkeitsbereiche/` toujours vide (JS), déjà connu d'un lot antérieur.
+
+Rattachement : 194 études rattachées au total (191 → 194, +3). Suite de tests : 94/94 au vert.
