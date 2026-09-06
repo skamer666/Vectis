@@ -1738,3 +1738,27 @@ Claude, phase 3 cabinets) sauf instruction contraire explicite de Greg. Ouvrir u
   éviter que Claude retouche par erreur `avocats_individuels_enrichment_chatgpt.json` ou
   `_gemini.json`, ou que Codex/Jules retouchent `avocats_individuels_enrichment.json` (celui de
   Claude) -- règle déjà rappelée ci-dessus, à vérifier à chaque relecture de PR.
+
+**Correction importante (même jour, quelques minutes après le paragraphe ci-dessus) :**
+Greg a repéré que les fichiers séparés n'empêchent PAS le vrai doublon qui compte : au moment
+d'écrire ce qui précède, les routines Claude `vectis-enrichissement-phase3b-individus`
+(cantons AG/ZG/NE/TG/SO) et `vectis-enrichissement-phase3c-solos` (avocats solo des 12 cantons
+groupables) tournaient TOUJOURS en parallèle de Codex (même périmètre AG/ZG/NE/TG/SO) et Jules
+(même périmètre avocats solo 12 cantons) -- chacune des deux routines Claude ne vérifiait que
+SON PROPRE fichier avant de choisir un lot, jamais celui de Codex/Jules. Résultat concret :
+Claude et Codex/Jules pouvaient chercher indépendamment le même avocat en vrai (recherche web
+gaspillée en double), et si les deux réussissaient sur la même personne, la fusion inter-fichiers
+les aurait ENTRAÎNÉS À S'ANNULER MUTUELLEMENT (collision inter-agents = entrée écartée des deux
+côtés) -- pire que juste redondant.
+
+**Correction appliquée :** les deux routines Claude `vectis-enrichissement-phase3b-individus`
+(`trig_01QN4pTNW8oGBGCuWm8SuyJv`) et `vectis-enrichissement-phase3c-solos`
+(`trig_014WRGxcWeAwN8XpEq5FtKrM`) ont été désactivées (`enabled: false`, pas supprimées --
+réactivables si Codex/Jules s'arrêtaient un jour). Répartition finale, un phase = un agent,
+sans chevauchement de périmètre :
+- **Claude** : Phase 3 uniquement (cabinets des 12 cantons groupables, `domaines_autres_cantons.json`).
+- **OpenAI Codex** : Phase 3b uniquement (individus AG/ZG/NE/TG/SO, `..._chatgpt.json`).
+- **Google Jules** : Phase 3c uniquement (avocats solo des 12 cantons groupables, `..._gemini.json`).
+
+Aucun des 3 agents ne doit retravailler le périmètre d'un autre sans que Greg le redemande
+explicitement.
