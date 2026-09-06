@@ -6,6 +6,7 @@ data/ENRICHISSEMENT_PROGRESS.md, phase 3b). Contrairement aux deux caches preced
 rattache directement par nom d'avocat + canton. Meme garde-fou anti-collision que
 attach_name_based_enrichment : mieux vaut rater un rattachement que se tromper de personne.
 """
+import json
 import build
 
 
@@ -63,6 +64,39 @@ def test_load_individual_enrichment_drops_failed_and_incomplete_entries():
         assert entry.get("canton") == canton
         assert entry.get("person_name")
         assert not entry.get("_failed")
+
+
+def test_load_individual_enrichment_merges_multiple_agent_files(tmp_path, monkeypatch):
+    # Trois agents independants (Claude, un agent externe type OpenAI Codex, un
+    # agent externe type Google Jules) ecrivent chacun dans leur propre fichier
+    # -- load_individual_enrichment doit fusionner les trois sans conflit tant
+    # que les personnes sont distinctes.
+    monkeypatch.setattr(build, "DATA_DIR", str(tmp_path))
+    (tmp_path / "avocats_individuels_enrichment.json").write_text(
+        json.dumps({"ag-a": {"canton": "AG", "person_name": "Alice Muller"}}), encoding="utf-8")
+    (tmp_path / "avocats_individuels_enrichment_chatgpt.json").write_text(
+        json.dumps({"zg-b": {"canton": "ZG", "person_name": "Bruno Keller"}}), encoding="utf-8")
+    (tmp_path / "avocats_individuels_enrichment_gemini.json").write_text(
+        json.dumps({"ne-c": {"canton": "NE", "person_name": "Claire Dubois"}}), encoding="utf-8")
+    entries = build.load_individual_enrichment()
+    assert len(entries) == 3
+    assert ("AG", build.norm("Alice Muller")) in entries
+    assert ("ZG", build.norm("Bruno Keller")) in entries
+    assert ("NE", build.norm("Claire Dubois")) in entries
+
+
+def test_load_individual_enrichment_drops_cross_file_collision(tmp_path, monkeypatch):
+    # Si deux fichiers d'agents differents renseignent par erreur la meme
+    # personne (meme canton + meme nom normalise), on ecarte l'entree des deux
+    # cotes plutot que de choisir arbitrairement laquelle des deux garder.
+    monkeypatch.setattr(build, "DATA_DIR", str(tmp_path))
+    (tmp_path / "avocats_individuels_enrichment.json").write_text(
+        json.dumps({"ag-a": {"canton": "AG", "person_name": "Alice Muller", "phone": "111"}}), encoding="utf-8")
+    (tmp_path / "avocats_individuels_enrichment_chatgpt.json").write_text(
+        json.dumps({"ag-a2": {"canton": "AG", "person_name": "Alice Muller", "phone": "222"}}), encoding="utf-8")
+    (tmp_path / "avocats_individuels_enrichment_gemini.json").write_text("{}", encoding="utf-8")
+    entries = build.load_individual_enrichment()
+    assert ("AG", build.norm("Alice Muller")) not in entries
 
 
 def test_gen_canton_avocats_falls_back_to_individual_web_only_when_no_etude():

@@ -1687,3 +1687,35 @@ actif depuis **2003**, 4 domaines IT).
 
 Rattachement individus : 38/38 rattachés au total (26 → 38, +12 combiné 3b+3c), zéro collision.
 Suite de tests : 91/91 au vert.
+
+## COORDINATION MULTI-AGENTS (06/09/2026, décision de Greg)
+
+Greg a demandé de faire travailler des agents externes (OpenAI Codex, Google Jules) en parallèle
+de Claude, en autonomie complète (tâches planifiées côté OpenAI/Google, PR ouvertes sur ce
+dépôt), sur le **même chantier d'enrichissement**. Pour que 3 agents indépendants puissent
+écrire sans jamais entrer en conflit git, le cache individus (`avocats_individuels_enrichment.json`,
+partagé par les phases 3b et 3c) a été éclaté en 3 fichiers, un par agent :
+
+- `data/avocats_individuels_enrichment.json` — **Claude** (phases 3b + 3c, routines existantes).
+- `data/avocats_individuels_enrichment_chatgpt.json` — **OpenAI Codex**, phase 3b (cantons
+  AG/ZG/NE/TG/SO).
+- `data/avocats_individuels_enrichment_gemini.json` — **Google Jules**, phase 3c (avocats
+  `solo` dans les 12 cantons groupables : ZH/TI/SG/GR/BL/SZ/UR/OW/NW/AR/AI/LU).
+
+`build.load_individual_enrichment()` (build.py) lit maintenant les 3 fichiers
+(`INDIVIDUAL_ENRICHMENT_FILES`) et les fusionne : si un `(canton, nom_normalisé)` apparaît dans
+plus d'un fichier (collision inter-agents), l'entrée est écartée des deux côtés plutôt que de
+choisir arbitrairement laquelle garder -- même philosophie anti-collision que le reste du
+module. Testé (`test_load_individual_enrichment_merges_multiple_agent_files`,
+`test_load_individual_enrichment_drops_cross_file_collision`).
+
+**Règles pour tout agent externe qui lit ce document** (Codex, Jules, ou un futur agent) :
+mêmes règles non négociables que Claude tout au long de ce fichier -- jamais de fait inventé,
+uniquement des faits explicites sur site officiel (ou OpenStreetMap Overpass en repli), robots.txt
+vérifié avant tout fetch, `source_url` + `fetched_date` systématiques, `_failed` documenté plutôt
+que forcé. Ne JAMAIS modifier `build.py`, `presentation_text.py`, les templates, ou les tests
+(seul Claude fait évoluer le code). Ne JAMAIS lancer `python3 build.py` (rebuild complet) ni
+`wrangler deploy`. Écrire UNIQUEMENT dans le fichier qui vous est assigné ci-dessus -- jamais
+dans le fichier `.json` d'un autre agent, jamais dans `domaines_autres_cantons.json` (réservé à
+Claude, phase 3 cabinets) sauf instruction contraire explicite de Greg. Ouvrir une pull request
+(ne pas pousser directement sur `main`) ; Claude ou Greg la relit avant fusion.

@@ -376,6 +376,13 @@ def load_other_canton_enrichment():
     return entries
 
 
+INDIVIDUAL_ENRICHMENT_FILES = [
+    "avocats_individuels_enrichment.json",           # Claude (phases 3b/3c)
+    "avocats_individuels_enrichment_chatgpt.json",   # OpenAI Codex (agent externe)
+    "avocats_individuels_enrichment_gemini.json",    # Google Jules (agent externe)
+]
+
+
 def load_individual_enrichment():
     """Cache d'enrichissement par avocat individuel (cantons AG/ZG/NE/TG/SO --
     voir data/ENRICHISSEMENT_PROGRESS.md, section "phase 3b"). Ces CSV n'ont ni
@@ -385,21 +392,37 @@ def load_individual_enrichment():
     (canton, norm(person_name)). Un nom partage par deux avocats du meme
     canton dans le CSV source n'est volontairement jamais rattache par ce
     mecanisme (cf. attach_individual_enrichment) : mieux vaut aucun
-    enrichissement qu'un rattachement a la mauvaise personne."""
-    path = os.path.join(DATA_DIR, "avocats_individuels_enrichment.json")
-    if not os.path.exists(path):
-        return {}
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
+    enrichissement qu'un rattachement a la mauvaise personne.
+
+    Lit plusieurs fichiers (INDIVIDUAL_ENRICHMENT_FILES) pour permettre a
+    plusieurs agents independants (Claude, un agent externe type OpenAI
+    Codex, un agent externe type Google Jules) d'enrichir en parallele sans
+    ecrire dans le meme fichier -- chacun son fichier, zero conflit git. Si
+    deux fichiers renseignent par erreur la meme (canton, nom), l'entree est
+    ecartee des deux cotes plutot que de choisir arbitrairement laquelle
+    garder : meme philosophie anti-collision que le reste du module."""
     entries = {}
-    for key, entry in data.items():
-        if not isinstance(entry, dict) or entry.get("_failed"):
+    collided_keys = set()
+    for filename in INDIVIDUAL_ENRICHMENT_FILES:
+        path = os.path.join(DATA_DIR, filename)
+        if not os.path.exists(path):
             continue
-        canton = entry.get("canton")
-        person_name = entry.get("person_name")
-        if not canton or not person_name:
-            continue
-        entries[(canton, norm(person_name))] = entry
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        for key, entry in data.items():
+            if not isinstance(entry, dict) or entry.get("_failed"):
+                continue
+            canton = entry.get("canton")
+            person_name = entry.get("person_name")
+            if not canton or not person_name:
+                continue
+            k = (canton, norm(person_name))
+            if k in entries:
+                collided_keys.add(k)
+                continue
+            entries[k] = entry
+    for k in collided_keys:
+        entries.pop(k, None)
     return entries
 
 
