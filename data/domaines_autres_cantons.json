@@ -1111,6 +1111,39 @@
     "source_url": "https://beelegal.ch/en/",
     "team_size_n": null
   },
+  "bellerive.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Bellerive Rechtsanwälte",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Immobilienrecht",
+      "Steuerrecht",
+      "Kunstrecht",
+      "Betreibung und Vollstreckung",
+      "Prozessführung",
+      "Erbrecht",
+      "Mietrecht",
+      "Bau- und Verwaltungsrecht",
+      "Mediation",
+      "Gesellschaftsrecht",
+      "Restrukturierung und Konkurs",
+      "Bank-, Börsen- und Kapitalmarktrecht",
+      "Wettbewerbs- und Kartellrecht",
+      "Nachfolgeplanung"
+    ],
+    "source_url": "https://www.bellerive.com/dienstleistungen"
+  },
+  "bellparklegal.com": {
+    "canton": "ZH",
+    "email": "info@bellparklegal.com",
+    "fetched_date": "2026-09-06",
+    "firm_name": "bellpark legal AG",
+    "phone": "+41 43 204 00 90",
+    "source_url": "https://bellparklegal.com/en/ueber-uns/"
+  },
   "bettonipartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -4041,6 +4074,14 @@
     "source_url": "https://www.trollerlaw.ch/",
     "team_size_n": null
   },
+  "utolegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Uto Legal",
+    "phone": "+41 44 289 80 00",
+    "source_url": "https://utolegal.ch/en/contact",
+    "team_size_n": 6
+  },
   "valfor.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4131,6 +4172,13 @@
     "practice_areas_fr": [],
     "source_url": "https://www.vetsch-rechtsanwaelte.ch/",
     "team_size_n": null
+  },
+  "vfs-partner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "VFS Partner",
+    "phone": "+41 44 206 20 20",
+    "source_url": "https://vfs-partner.ch/en/home/"
   },
   "vialex.ch": {
     "canton": "ZH",

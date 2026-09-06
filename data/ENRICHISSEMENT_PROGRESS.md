@@ -1762,3 +1762,12 @@ sans chevauchement de périmètre :
 
 Aucun des 3 agents ne doit retravailler le périmètre d'un autre sans que Greg le redemande
 explicitement.
+
+### 2026-09-06 — Phase 3, lot 5 (premier passage horaire Claude depuis la correction de chevauchement)
+
+4 cabinets traités (4 succès / 0 échec), tous ZH : VFS Partner (Voillat Facincani Sutter +
+Partner, tel), bellpark legal AG (tel/email), Uto Legal (fondé par 6 avocats, tel, 6 emails
+nominatifs), Bellerive Rechtsanwälte (17 domaines DE, généraliste particuliers + entreprises).
+
+Rattachement (`attach_name_based_enrichment`) : 187 études rattachées au total (183 → 187, +4).
+Suite de tests : 93/93 au vert.
