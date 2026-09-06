@@ -35,6 +35,19 @@
     ],
     "source_url": "https://www.berger-rohrer.ch/jonas_ammann.172de.html"
   },
+  "ag-kim-attenhofer": {
+    "canton": "AG",
+    "email": "attenhofer@geissmannlegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Geissmann Rechtsanwälte AG",
+    "person_name": "Kim Attenhofer",
+    "phone": "+41 56 203 00 18",
+    "practice_areas_de": [
+      "Bau-, Immobilien- und Mietrecht"
+    ],
+    "source_url": "https://www.geissmannlegal.ch/team/kim-attenhofer/",
+    "specialist_certification": "Fachanwältin SAV Bau- und Immobilienrecht"
+  },
   "ag-marcel-aebi": {
     "canton": "AG",
     "fetched_date": "2026-09-06",
@@ -62,6 +75,25 @@
       "Familienrechtliche und erbrechtliche Vorgänge"
     ],
     "source_url": "https://www.merki-partner.ch/de/team/stefan-augstburger"
+  },
+  "ag-zoe-arnold": {
+    "canton": "AG",
+    "email": "zoe.arnold@chkp.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "chkp.",
+    "person_name": "Zoë Arnold",
+    "phone": "+41 56 204 41 41",
+    "practice_areas_de": [
+      "Baurecht",
+      "Vertragsrecht",
+      "Strafrecht",
+      "Familienrecht",
+      "öffentliches Verwaltungsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Umweltrecht"
+    ],
+    "source_url": "https://www.chkp.ch/team/mlaw-zoe-arnold"
   },
   "ne-david-agerba": {
     "canton": "NE",
@@ -96,6 +128,20 @@
     ],
     "source_url": "https://www.a2l.ch/en/"
   },
+  "ne-isabelle-augsburger": {
+    "canton": "NE",
+    "fetched_date": "2026-09-06",
+    "person_name": "Isabelle Augsburger",
+    "phone": "+41 32 725 10 11",
+    "practice_areas_fr": [
+      "Droit immobilier",
+      "Droit des successions",
+      "Droit de la famille et du patrimoine",
+      "Droit des sociétés",
+      "Droit des associations et des fondations"
+    ],
+    "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
+  },
   "ne-oriane-aubert": {
     "canton": "NE",
     "email": "etude@a2l.ch",
@@ -118,6 +164,14 @@
     "checked_date": "2026-09-06",
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
+  },
+  "so-allemann-aeschlimann-nicole": {
+    "canton": "SO",
+    "email": "nicole.allemann@aarejura-grenchen.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "aarejura Rechtsanwälte",
+    "person_name": "Nicole Allemann-Aeschlimann",
+    "source_url": "http://aarejura.ch/?inc=team%2Fteam.asp%2F"
   },
   "so-beatrice-abegglen": {
     "canton": "SO",
@@ -153,6 +207,21 @@
     ],
     "source_url": "https://morandischnider.ch/team/mitarbeiter/christian-aebersold/"
   },
+  "so-daniel-altermatt": {
+    "canton": "SO",
+    "email": "altermatt@regio-iuris.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "regio iuris",
+    "founding_year": 2004,
+    "person_name": "Daniel Altermatt",
+    "phone": "+41 61 701 67 34",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Haftpflichtrecht"
+    ],
+    "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
+  },
   "tg-david-georg-ackermann": {
     "canton": "TG",
     "email": "david.ackermann@flb-law.ch",
@@ -162,6 +231,21 @@
     "phone": "+41 71 929 90 10",
     "source_url": "https://flb-law.ch/index.php?id=27&option=com_sppagebuilder&view=page",
     "specialist_certification": "Fachanwalt SAV Familienrecht ; Mediator SAV und SDM-FSM"
+  },
+  "tg-doris-ammann": {
+    "canton": "TG",
+    "email": "ammann@imzehntenhaus.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Im Zehntenhaus",
+    "person_name": "Doris Ammann",
+    "phone": "+41 52 723 05 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindsvertretung",
+      "Opfervertretung"
+    ],
+    "source_url": "https://www.imzehntenhaus.ch/",
+    "specialist_certification": "Zertifizierte Kinderanwältin"
   },
   "tg-elsbeth-verena-aepli": {
     "canton": "TG",
@@ -329,6 +413,16 @@
     "person_name": "ANDREOLI Alida",
     "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
   },
+  "ti-antonini-elisa": {
+    "canton": "TI",
+    "email": "elisa@studiolegaleantonini.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Legale Antonini",
+    "founding_year": 2015,
+    "person_name": "ANTONINI Elisa",
+    "phone": "+41 91 930 61 76",
+    "source_url": "https://www.studiolegaleantonini.ch/index.php/chi-siamo"
+  },
   "ti-antonini-luvini-micaela": {
     "canton": "TI",
     "email": "info@equi-lab.ch",
@@ -343,6 +437,15 @@
     ],
     "source_url": "https://www.equi-lab.ch/team/micaela-antonini-luvini/"
   },
+  "ti-arensi-alessandra": {
+    "canton": "TI",
+    "email": "alessandra.arensi@kellerhals-carrard.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Kellerhals Carrard Lugano SA",
+    "person_name": "ARENSI Alessandra",
+    "phone": "+41 58 200 31 00",
+    "source_url": "https://search.ch/tel/lugano/via-canova-15/kellerhals-carrard-lugano-sa.it.html"
+  },
   "ti-augugliaro-giovanni": {
     "canton": "TI",
     "email": "info@legale-augugliaro.ch",
@@ -352,6 +455,27 @@
     "person_name": "AUGUGLIARO Giovanni",
     "phone": "+41 91 640 00 00",
     "source_url": "http://www.legale-augugliaro.ch/"
+  },
+  "ti-bacchetta-cattori-fabio": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "person_name": "BACCHETTA-CATTORI Fabio",
+    "phone": "+41 91 751 86 62",
+    "source_url": "https://tel.search.ch/locarno/largo-franco-zorzi-12/fabio-bacchetta-cattori.it.html"
+  },
+  "ti-baggi-marcello": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Legale Baggi",
+    "founding_year": 2003,
+    "person_name": "BAGGI Marcello",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto commerciale",
+      "Diritto bancario",
+      "Diritto pubblico"
+    ],
+    "source_url": "https://studiobaggi.com/index.php/avv-marcello-baggi/"
   },
   "ti-balmelli-riccardo": {
     "canton": "TI",
@@ -429,5 +553,45 @@
       "Familienrecht"
     ],
     "source_url": "https://www.amstad-advokatur.ch/"
+  },
+  "zg-andermatt-philipp": {
+    "canton": "ZG",
+    "email": "p.andermatt@brightlaw.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Bright Law AG",
+    "person_name": "Andermatt Philipp",
+    "phone": "+41 41 555 40 80",
+    "practice_areas_de": [
+      "Mergers & Acquisitions",
+      "Gesellschaftsrecht",
+      "Allgemeines Vertragsrecht",
+      "Steuerrecht",
+      "Erbrecht",
+      "Nachlassplanung",
+      "Private Clients",
+      "Notariat"
+    ],
+    "source_url": "https://brightlaw.ch/de/team/philipp-andermatt"
+  },
+  "zg-bachmann-philipp": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Reichlin Hess AG",
+    "person_name": "Bachmann Philipp",
+    "practice_areas_en": [
+      "Employment law",
+      "Real estate law",
+      "Tenancy law",
+      "Contract drafting",
+      "Company and commercial law",
+      "Competition law",
+      "Public procurement law",
+      "Construction and planning law",
+      "Environmental law",
+      "Debt enforcement and bankruptcy law",
+      "Litigation and arbitration"
+    ],
+    "source_url": "https://www.reichlinhess.ch/en/team/philipp-bachmann/",
+    "specialist_certification": "Certified Specialist SBA Employment Law (2018)"
   }
 }
