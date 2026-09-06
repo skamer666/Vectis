@@ -1111,6 +1111,13 @@
     "source_url": "https://beelegal.ch/en/",
     "team_size_n": null
   },
+  "bettonipartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Bettoni & Partner",
+    "source_url": "https://www.bettonipartner.ch/kanzlei",
+    "team_size_n": 5
+  },
   "bhlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1638,6 +1645,16 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "cereghettilegal.ch": {
+    "canton": "TI",
+    "email": "info@cereghettilegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "studio legale e notarile Claudio Cereghetti & Partner",
+    "founding_year": 1996,
+    "notes": "Site officiel indisponible (HTTP 503) au moment du passage -- faits repris des extraits indexes par le moteur de recherche (meme page 'Lo studio'), pas d'un WebFetch direct. A revalider si possible lors d'un futur passage.",
+    "phone": "+41 91 967 11 34",
+    "source_url": "http://www.cereghettilegal.ch/it/lo-studio/"
+  },
   "charlesrussellspeechlys.com#ZH": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -1691,6 +1708,22 @@
     ],
     "source_url": "https://www.cognitor.ch/",
     "team_size_n": null
+  },
+  "collegal.ch": {
+    "canton": "TI",
+    "email": "info@collegal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "COLLEGAL Studio legale, Attorneys at Law",
+    "notes": "Issu de la fusion de 3 cabinets, dont Bolla Bonzanigo e Associati fonde en 1947 -- annee de fusion de COLLEGAL elle-meme non precisee.",
+    "phone": "+41 91 910 90 30",
+    "practice_areas_en": [
+      "Private law",
+      "Commercial law",
+      "Public law",
+      "Administrative law",
+      "Criminal law"
+    ],
+    "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
   },
   "davatzlegal.ch": {
     "canton": "ZH",
@@ -1850,6 +1883,14 @@
     ],
     "source_url": "https://www.ff-law.ch/",
     "team_size_n": null
+  },
+  "fnb-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Frick Nafz Bieri Jost Rechtsanwälte",
+    "phone": "+41 43 344 36 00",
+    "source_url": "https://www.fnb-law.ch/",
+    "team_size_n": 6
   },
   "frb-law.ch": {
     "canton": "ZH",
@@ -2221,6 +2262,13 @@
     ],
     "source_url": "https://www.kanonengasse.ch/",
     "team_size_n": null
+  },
+  "kanzleikreis2.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "KANZLEI KREIS 2 AG",
+    "phone": "+41 44 244 00 20",
+    "source_url": "https://www.kanzleikreis2.ch/"
   },
   "kellerhals-carrard.ch": {
     "canton": "ZH",
@@ -2621,6 +2669,32 @@
     "source_url": "https://www.lenzstaehelin.com/fr/notre-etude/",
     "team_size_n": null
   },
+  "lexarte.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Lexarte AG",
+    "phone": "+41 44 377 30 20",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Finanzmarktrecht",
+      "Sportrecht",
+      "Insolvenzen und Restrukturierungen",
+      "Familienrecht",
+      "Erbrecht",
+      "Strafrecht",
+      "Prozesse und Schiedsverfahren"
+    ],
+    "source_url": "https://lexarte.ch/de/wirtschaftsrecht/",
+    "team_size_n": 10
+  },
+  "lexp.ch": {
+    "canton": "ZH",
+    "email": "info@lexp.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Lexperience AG",
+    "phone": "+41 44 201 07 12",
+    "source_url": "https://www.lexp.ch/en/contact/"
+  },
   "lexpartners.ch": {
     "canton": "BL",
     "fetched_date": "2026-07-29",
@@ -2936,6 +3010,13 @@
     "practice_areas_fr": [],
     "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
     "team_size_n": null
+  },
+  "museum35.ch": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-06",
+    "firm_name": "LOCHER | KOBLER | STADELMANN\nRechtsanwälte und öffentliche Notare",
+    "reason": "site en JS (Readymag), deja documente comme inextractible dans un lot precedent"
   },
   "naterdallafior.ch": {
     "canton": "ZH",

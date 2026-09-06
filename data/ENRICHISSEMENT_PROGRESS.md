@@ -1648,3 +1648,42 @@ de l'Ordre des notaires tessinois — peu de données au-delà du nom du cabinet
 
 Rattachement (`attach_individual_enrichment`) : 26/26 rattachés au total (23 → 26, +3), zéro
 collision. TI : 19/386 avocats solo traités à ce stade. Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Accélération explicite du rythme (demande de Greg : « fait 20 de l'heure pas 5 »)
+
+Greg a constaté que le débit réel (~4-12 fiches/heure/phase) était trop lent par rapport à
+l'objectif affiché de 50/heure et a demandé un rythme cible d'environ 20/heure. Ce lot ci-dessous
+est un rattrapage manuel hors déclenchement automatique, pour démontrer et caler ce rythme :
+**19 fiches traitées au total** (7 cabinets Phase 3 + 8 individus Phase 3b + 4 individus solo
+Phase 3c), toutes vérifiées sur source primaire (site officiel fetché directement, sauf mention
+contraire). Le débit reste borné par le temps de vérification réelle (WebSearch puis WebFetch,
+contrôle robots.txt) -- 20/heure est un maximum soutenable, pas une garantie a chaque passage
+(certains cabinets/avocats n'ont simplement aucun site officiel trouvable).
+
+**Phase 3, lot 4 (rattrapage)** — 7 succès / 1 échec-connu-redocumenté : REBER (déjà en cache),
+COLLEGAL Studio legale (TI, tel/email), studio legale e notarile Claudio Cereghetti & Partner
+(TI, fondé **1996**, tel/email — site officiel indisponible HTTP 503 au moment du passage,
+faits repris des extraits indexés, à revalider), Lexperience AG (ZH, tel/email), Bettoni &
+Partner (ZH, 5 partenaires), Frick Nafz Bieri Jost Rechtsanwälte (ZH, tel, 6 avocats), KANZLEI
+KREIS 2 AG (ZH, tel), Lexarte AG (ZH, 8 domaines DE, tel, 10 avocats). **Échec redocumenté :**
+museum35.ch (LOCHER\|KOBLER\|STADELMANN, SG) — déjà connu JS/Readymag inextractible depuis un
+lot antérieur, ajouté au cache actuel pour que les passages futurs ne le retentent plus.
+
+Rattachement : 183 études rattachées au total (176 → 183, +7). Suite de tests : 91/91 au vert.
+
+**Phase 3b, lot 4 (rattrapage)** — 8 succès / 0 échec, AG(2)/ZG(2)/NE(1)/TG(1)/SO(2) : Zoë
+Arnold (AG, chkp., domaines DE, tel/email), Kim Attenhofer (AG, Geissmann Rechtsanwälte AG,
+Fachanwältin SAV Bau- und Immobilienrecht, tel/email), Andermatt Philipp (ZG, Bright Law AG, 8
+domaines DE, tel/email), Bachmann Philipp (ZG, Reichlin Hess AG, Certified Specialist SBA
+Employment Law 2018, domaines EN), Isabelle Augsburger (NE, notaire et avocate, 5 domaines FR,
+tel), Doris Ammann (TG, Im Zehntenhaus, Zertifizierte Kinderanwältin, domaines DE, tel/email),
+Nicole Allemann-Aeschlimann (SO, aarejura Rechtsanwälte, email), Daniel Altermatt (SO, regio
+iuris, licencié **2004**, domaines DE, tel/email).
+
+**Phase 3c, lot 4 (rattrapage)** — 4 succès / 0 échec (TI, suite liste alphabétique) : ARENSI
+Alessandra (Kellerhals Carrard Lugano SA, tel/email), BACCHETTA-CATTORI Fabio (tel), ANTONINI
+Elisa (Studio Legale Antonini, fondé **2015**, tel/email), BAGGI Marcello (Studio Legale Baggi,
+actif depuis **2003**, 4 domaines IT).
+
+Rattachement individus : 38/38 rattachés au total (26 → 38, +12 combiné 3b+3c), zéro collision.
+Suite de tests : 91/91 au vert.
