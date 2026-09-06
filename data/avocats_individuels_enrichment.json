@@ -1,1 +1,129 @@
-{}
+{
+  "ag-jacqueline-alf": {
+    "canton": "AG",
+    "email": "j.alf@voser.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Voser Rechtsanwälte",
+    "person_name": "Jacqueline Alf",
+    "phone": "+41 56 203 15 43",
+    "practice_areas_de": [
+      "Öffentliches Baurecht",
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Natur- und Heimatschutzrecht",
+      "Immobilienrecht",
+      "Lärmschutzrecht",
+      "Strassenbau- und Strassenverkehrsrecht",
+      "Plangenehmigungsverfahren/Infrastrukturprojekte",
+      "Staats- und Verwaltungsrecht",
+      "Enteignungsrecht"
+    ],
+    "source_url": "https://voser.ch/mlaw-jaqueline-alf/"
+  },
+  "ag-jonas-ammann": {
+    "canton": "AG",
+    "email": "ammann@berger-rohrer.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Berger Rohrer Rechtsanwältinnen AG",
+    "person_name": "Jonas Ammann",
+    "practice_areas_de": [
+      "Familienrecht, Kinds-, Ehe- und Scheidungsrecht",
+      "eingetragene Partnerschaft und nichteheliche Lebensgemeinschaft",
+      "Strafrecht, Opferhilferecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.berger-rohrer.ch/jonas_ammann.172de.html"
+  },
+  "ag-marcel-aebi": {
+    "canton": "AG",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Contractus AG",
+    "person_name": "Marcel Aebi",
+    "phone": "+41 62 885 30 40",
+    "practice_areas_de": [
+      "Notariat",
+      "Öffentliches und privates Baurecht",
+      "Steuerrecht",
+      "Immobilienrecht"
+    ],
+    "source_url": "http://www.contractus.ch/deutsch/über-uns/"
+  },
+  "ne-david-agerba": {
+    "canton": "NE",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Étude Agerba",
+    "person_name": "David Agerba",
+    "phone": "+41 32 354 35 40",
+    "practice_areas_fr": [
+      "Droit du travail",
+      "Droit pénal",
+      "Droit fiscal",
+      "Droit des sociétés",
+      "Droit de la faillite",
+      "Droit public des constructions",
+      "Criminalité économique"
+    ],
+    "source_url": "https://etude-agerba.ch/"
+  },
+  "ne-simon-aiassa": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-06",
+    "person_name": "Simon Aiassa",
+    "reason": "aucun site personnel trouve, uniquement liste au barreau"
+  },
+  "zg-aepli-michael": {
+    "canton": "ZG",
+    "email": "info@studeraeplilaw.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studer & Aepli",
+    "person_name": "Aepli Michael",
+    "phone": "+41 41 710 15 77",
+    "practice_areas_de": [
+      "Gesellschaftsrecht sowie Vertragsrecht",
+      "Beurkundungsrecht",
+      "Ehe- und Erbrecht",
+      "Wirtschaftsstrafrecht",
+      "Strafrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.aeplilaw.ch/"
+  },
+  "zg-aeschi-othmar": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Aeschi Notariat & Anwaltskanzlei",
+    "person_name": "Aeschi Othmar",
+    "phone": "+41 41 530 62 44",
+    "practice_areas_de": [
+      "Wirtschafts- und Gesellschaftsrecht",
+      "Handelsregisterrecht",
+      "Vertragsrecht",
+      "Erbrecht",
+      "Stiftungsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Firmen- und Markenrecht"
+    ],
+    "source_url": "https://www.aeschi-legal.ch/"
+  },
+  "zg-amstad-dittli-alexandra": {
+    "canton": "ZG",
+    "email": "aa@amstad-advokatur.ch",
+    "fetched_date": "2026-09-06",
+    "founding_year": 2017,
+    "person_name": "Amstad-​Dittli Alexandra",
+    "phone": "+41 41 530 57 60",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Opfervertretung",
+      "Jugendstrafrecht",
+      "Strassenverkehrsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Vertragsrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.amstad-advokatur.ch/"
+  }
+}
