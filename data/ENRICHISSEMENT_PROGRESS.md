@@ -1858,3 +1858,13 @@ DE, tel/email), Schiffbau Rechtsanwälte (12 domaines EN, 6 avocats), Berther Mo
 Schindler (tel), Advokatur Aussersihl (6 domaines DE, tel, 8 personnes).
 
 Rattachement : 206 études rattachées au total (202 → 206, +4). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 11
+
+3 cabinets traités (3 succès / 1 échec) : Advokatur Landi Ruckstuhl Giess Tzikas Baumgartner
+(BL, 15 domaines DE, tel/email), SPIESS+PARTNER AG Büro für Baurecht (ZH, fondé **2018**,
+spécialiste droit de la construction, tel), FamPlus AG (ZH, fondé **2024**, droit de la
+famille, tel/email, 5 personnes, "5 Certified Specialists SBA Family Law"). **Échec :** wkf AG
+(ZH) -- site wkflegal.com indisponible (HTTP 503) au moment du passage.
+
+Rattachement : 209 études rattachées au total (206 → 209, +3). Suite de tests : 94/94 au vert.

@@ -1076,6 +1076,17 @@
     "team_size_n": 9,
     "team_size_text": "9 avocats"
   },
+  "baurecht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "SPIESS+PARTNER AG Büro für Baurecht",
+    "founding_year": 2018,
+    "phone": "+41 44 421 44 44",
+    "practice_areas_de": [
+      "Bau-, Planungs- und Submissionsrecht"
+    ],
+    "source_url": "https://www.baurecht.ch/"
+  },
   "bblegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1919,6 +1930,20 @@
     "firm_name": "Eversheds Sutherland AG",
     "reason": "page equipe/about bloquee (HTTP 403)"
   },
+  "famplus.legal": {
+    "canton": "ZH",
+    "email": "office@famplus.legal",
+    "fetched_date": "2026-09-06",
+    "firm_name": "FamPlus AG",
+    "founding_year": 2024,
+    "phone": "+41 44 442 45 00",
+    "practice_areas_en": [
+      "Family Law"
+    ],
+    "source_url": "https://famplus.legal/en/",
+    "specialist_certification": "Certified Specialist SBA Family Law (5 des membres du cabinet)",
+    "team_size_n": 5
+  },
   "fank-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2665,6 +2690,31 @@
     ],
     "source_url": "https://landmann.ch/rechtsgebiete/",
     "specialist_certification": "Fachanwalt/-anwältin SAV Strafrecht et Familienrecht (plusieurs avocats du cabinet)"
+  },
+  "laru.ch": {
+    "canton": "BL",
+    "email": "sekretariat@laru.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Landi Ruckstuhl Giess Tzikas Baumgartner",
+    "phone": "+41 61 486 60 60",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Allgemeines Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Betäubungsmittelrecht",
+      "Strassenverkehrsrecht",
+      "Administrativverfahren",
+      "Strafprozessrecht",
+      "Opfervertretung",
+      "Privatklägervertretung",
+      "Jugendstrafrecht",
+      "Militärstrafrecht",
+      "Verwaltungsstrafrecht",
+      "Straf- und Massnahmenvollzug",
+      "Internationale Rechtshilfe"
+    ],
+    "source_url": "https://laru.ch/de/expertise"
   },
   "lauxlawyers.ch": {
     "canton": "ZH",
@@ -4800,6 +4850,13 @@
     ],
     "source_url": "https://wickipartners.ch/",
     "team_size_n": 8
+  },
+  "wkflegal.com": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-06",
+    "firm_name": "wkf AG",
+    "reason": "site indisponible (HTTP 503) au moment du passage"
   },
   "wslaw.ch": {
     "canton": "ZH",
