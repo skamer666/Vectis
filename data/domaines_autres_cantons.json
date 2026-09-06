@@ -1917,6 +1917,15 @@
     "source_url": "https://www.ff-law.ch/",
     "team_size_n": null
   },
+  "fhs.legal": {
+    "canton": "ZH",
+    "email": "info@fhs.legal",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Felchlin Harb Schenkel Rechtsanwälte AG",
+    "phone": "+41 44 545 33 33",
+    "source_url": "https://fhs.legal/",
+    "team_size_n": 6
+  },
   "fnb-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2244,6 +2253,27 @@
     "team_size_n": null,
     "team_size_text": "43 associés et plus de 160 professionnels"
   },
+  "ip-lawoffice.com": {
+    "canton": "TI",
+    "email": "info@ip-lawoffice.com",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio I&P Law Office SA",
+    "phone": "+41 91 910 30 20",
+    "practice_areas_it": [
+      "Diritto bancario e finanziario",
+      "Diritto penale",
+      "Responsabilità civile",
+      "Diritto societario e commerciale",
+      "Assistenza legale alle piccole e medie imprese",
+      "M&A",
+      "Diritto costituzionale e amministrativo",
+      "Pianificazione patrimoniale e successoria",
+      "Diritto dei trust e delle fondazioni",
+      "Contenzioso civile e commerciale",
+      "Arbitrato"
+    ],
+    "source_url": "https://www.ip-lawoffice.com/it/i-servizi/"
+  },
   "jb-anwaelte.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -2437,6 +2467,24 @@
     "source_url": "https://www.kspartner.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "kuenglaw-sg.ch": {
+    "canton": "SG",
+    "email": "info@kuenglaw-sg.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Küng Rechtsanwälte & Notare AG",
+    "phone": "+41 71 380 07 50",
+    "practice_areas_en": [
+      "Labour Law and Public Employment Law",
+      "Corporate and Commercial Law",
+      "Intellectual Property and Competition Law",
+      "Liability and Insurance Law",
+      "Property and Tenancy Law",
+      "Tax and Contribution Law",
+      "Criminal Law",
+      "Notary"
+    ],
+    "source_url": "https://kuenglaw-sg.ch/en/leistungen/"
   },
   "kunzschmid.ch": {
     "canton": "GR",
@@ -3797,6 +3845,14 @@
     ],
     "source_url": "https://streiffvonkaenel.ch/en/about/",
     "team_size_n": null
+  },
+  "sts-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Schwarzmann Brändli Hofer Rechtsanwälte AG",
+    "founding_year": 1936,
+    "phone": "+41 44 261 91 00",
+    "source_url": "https://www.sts-law.ch/"
   },
   "studiomattei.ch": {
     "canton": "TI",

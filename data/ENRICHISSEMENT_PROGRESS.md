@@ -1795,3 +1795,18 @@ un mode manuel avec Gemini (interface web standard, recherche activée) à la pl
 Répartition à jour : **Claude** = Phase 3 (cabinets, routine automatique) ; **OpenAI Codex** =
 Phase 3b (individus AG/ZG/NE/TG/SO, automatique via chatgpt.com/codex) ; **Gemini (manuel)** =
 Phase 3c (avocats solo 12 cantons, relai manuel Greg ↔ Claude, PAS automatique).
+
+### 2026-09-06 — Phase 3, lot 6
+
+4 cabinets traités (4 succès / 0 échec) : Schwarzmann Brändli Hofer Rechtsanwälte AG (ZH,
+fondé **1936**, tel), Felchlin Harb Schenkel Rechtsanwälte AG (ZH, tel/email, 6 avocats),
+Studio I&P Law Office SA (TI, 11 domaines IT, tel/email), Küng Rechtsanwälte & Notare AG (SG,
+8 domaines EN, tel/email — précédemment noté comme sans fait extractible dans un lot antérieur,
+mais la page /leistungen/ en donne bien cette fois).
+
+Rattachement (`attach_name_based_enrichment`) : 191 études rattachées au total (187 → 191, +4).
+Suite de tests : 93/93 au vert.
+
+**Statut Codex (constat, pas d'action) :** plus d'1h15 après la configuration de la tâche
+"Enrichissement Codex — 20 avocats/h", toujours aucune PR ni branche sur GitHub. Greg vérifie
+directement côté chatgpt.com/codex.
