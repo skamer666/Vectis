@@ -1,0 +1,68 @@
+name: Jules - Enrichissement Phase 3c (avocats solo)
+
+# Declenche Google Jules toutes les heures sur le meme chantier d'enrichissement
+# que Claude (routines internes) et OpenAI Codex ("Enrichissement Codex --
+# 20 avocats/h"). Voir data/ENRICHISSEMENT_PROGRESS.md, section
+# "COORDINATION MULTI-AGENTS" pour le protocole complet : chaque agent ecrit
+# dans son propre fichier JSON, jamais dans celui d'un autre, et ouvre une PR
+# (jamais de push direct sur main).
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  jules-phase3c:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: google-labs-code/jules-invoke@v1
+        with:
+          jules_api_key: ${{ secrets.JULES_API_KEY }}
+          starting_branch: main
+          include_last_commit: true
+          prompt: |
+            Tu travailles en autonomie sur le depot skamer666/Vectis, un annuaire d'avocats
+            suisses (legatis.ch) penalise par Google pour contenu trop pauvre. Deux autres
+            agents (Claude, OpenAI Codex) travaillent en parallele sur le meme chantier,
+            chacun sur son propre fichier -- ne touche JAMAIS aux fichiers des autres.
+
+            AVANT TOUTE CHOSE : lis en entier data/ENRICHISSEMENT_PROGRESS.md, en particulier
+            la section "COORDINATION MULTI-AGENTS" qui definit ton perimetre exact et les
+            regles non negociables (jamais de fait invente, source_url systematique,
+            robots.txt respecte).
+
+            TON FICHIER (le seul ou tu ecris) : data/avocats_individuels_enrichment_gemini.json
+            TON PERIMETRE : avocats "solo" (sans etude/cabinet associe) dans les 12 cantons
+            groupables : ZH, TI, SG, GR, BL, SZ, UR, OW, NW, AR, AI, LU. Utilise
+            build.CANTON_DATA[code]["solo"] (build.py) pour lister ces avocats.
+
+            A CHAQUE EXECUTION :
+            1. Lis ton fichier data/avocats_individuels_enrichment_gemini.json ET les 2 autres
+               fichiers (avocats_individuels_enrichment.json,
+               avocats_individuels_enrichment_chatgpt.json) pour ne JAMAIS retraiter un
+               (canton, nom) deja present dans L'UN DES TROIS, y compris une entree en echec.
+            2. Prends un lot de 20 avocats solo non traites (dans l'un des 12 cantons
+               ci-dessus).
+            3. Pour chacun : cherche exclusivement un site officiel personnel ou de cabinet.
+               Respecte robots.txt et ne deduis ni n'invente aucun fait. N'enregistre que des
+               informations explicitement presentes : domaines de pratique (par langue
+               disponible), annee de debut d'activite si explicite, telephone, email, cabinet
+               affilie, specialisation FSA/SAV, au plus trois publications aux titres exacts.
+            4. Ecris le resultat dans data/avocats_individuels_enrichment_gemini.json
+               UNIQUEMENT, cle "<canton-en-minuscules>-<slug-du-nom>". Chaque succes doit avoir
+               canton, person_name, source_url et fetched_date. Si aucune source officielle
+               exploitable n'existe : entree {"_failed": true, "canton", "person_name",
+               "reason", "checked_date"}.
+            5. Ajoute un court paragraphe a la fin de data/ENRICHISSEMENT_PROGRESS.md resumant
+               le lot (nombre de succes/echecs, faits marquants).
+            6. NE MODIFIE JAMAIS build.py, presentation_text.py, les templates, les tests, ou
+               tout autre fichier .json d'enrichissement. Ne lance jamais python3 build.py ni
+               wrangler deploy.
+            7. Ouvre une pull request (ne push jamais directement sur main) avec un message
+               clair resumant le lot.
+            8. Si tous les avocats solo des 12 cantons sont traites (succes ou echec
+               documente), indique-le clairement dans la PR et n'ouvre pas de nouvelle PR au
+               prochain declenchement.

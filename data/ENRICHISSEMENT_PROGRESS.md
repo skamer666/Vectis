@@ -1719,3 +1719,22 @@ que forcé. Ne JAMAIS modifier `build.py`, `presentation_text.py`, les templates
 dans le fichier `.json` d'un autre agent, jamais dans `domaines_autres_cantons.json` (réservé à
 Claude, phase 3 cabinets) sauf instruction contraire explicite de Greg. Ouvrir une pull request
 (ne pas pousser directement sur `main`) ; Claude ou Greg la relit avant fusion.
+
+**État du déploiement (06/09/2026) :**
+- **OpenAI Codex** — tâche "Enrichissement Codex — 20 avocats/h" configurée par Greg côté
+  chatgpt.com/codex, cron horaire, ouvre une branche + PR (jamais de push direct).
+- **Google Jules** — configuré via GitHub Actions (`.github/workflows/jules-schedule.yml`,
+  action `google-labs-code/jules-invoke@v1`, cron horaire `0 * * * *`, secret repo
+  `JULES_API_KEY` à ajouter par Greg dans Settings → Secrets and variables → Actions). Le
+  prompt complet de la tâche est encodé dans ce fichier de workflow (pas besoin de le
+  recopier ailleurs) ; toute modification de la tâche Jules passe par une modification de ce
+  fichier YAML, pas par une reconfiguration manuelle côté jules.google.com.
+- **Pourquoi zéro risque de collision entre les 3 agents** : (1) chaque agent écrit dans un
+  fichier JSON distinct (jamais le même que les deux autres), (2) `load_individual_enrichment()`
+  fusionne les 3 fichiers et écarte toute collision inter-agents plutôt que de trancher, (3)
+  Codex et Jules ouvrent des PR au lieu de pousser sur `main` -- Claude (ou Greg) les relit et
+  les fusionne une par une, donc même si deux PR arrivent au même moment, elles se fusionnent
+  séquentiellement sans jamais s'écraser l'une l'autre. Seul point de vigilance restant :
+  éviter que Claude retouche par erreur `avocats_individuels_enrichment_chatgpt.json` ou
+  `_gemini.json`, ou que Codex/Jules retouchent `avocats_individuels_enrichment.json` (celui de
+  Claude) -- règle déjà rappelée ci-dessus, à vérifier à chaque relecture de PR.
