@@ -73,6 +73,117 @@
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
   },
+  "ti-abate-fabio": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-06",
+    "person_name": "ABATE Fabio",
+    "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-achermann-bernaschina-sonja": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile Cattori-Achermann-Bernaschina",
+    "person_name": "ACHERMANN BERNASCHINA Sonja",
+    "practice_areas_it": [
+      "Diritto di famiglia e successorio",
+      "Diritto tributario",
+      "Mediazione"
+    ],
+    "source_url": "https://www.studiolegalecab.ch/team.html",
+    "specialist_certification": "Mediatrice FSA"
+  },
+  "ti-affolter-christof": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-06",
+    "person_name": "AFFOLTER Christof",
+    "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-agustoni-alberto": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-06",
+    "person_name": "AGUSTONI Alberto",
+    "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-airoldi-luca": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-06",
+    "person_name": "AIROLDI Luca",
+    "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-aldi-sabrina": {
+    "canton": "TI",
+    "email": "aldi.studiolegale@hotmail.com",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Legale Aldi",
+    "person_name": "ALDI Sabrina",
+    "practice_areas_it": [
+      "Diritto amministrativo",
+      "Difesa in ambito penale",
+      "Notarile",
+      "Patrocinio delle vittime",
+      "Societario"
+    ],
+    "source_url": "https://www.studiolegalealdi.com/services-2"
+  },
+  "ti-allidi-aldo": {
+    "canton": "TI",
+    "email": "info@studioallidi.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Allidi",
+    "founding_year": 1971,
+    "person_name": "ALLIDI Aldo",
+    "phone": "+41 91 785 14 10",
+    "practice_areas_it": [
+      "Notariato",
+      "Consulenza fiscale",
+      "Diritto successorio",
+      "Diritto della costruzione e contrattualistica"
+    ],
+    "source_url": "https://studioallidi.ch/chi-siamo/"
+  },
+  "ti-allidi-luca": {
+    "canton": "TI",
+    "email": "info@studioallidi.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Allidi",
+    "founding_year": 1971,
+    "person_name": "ALLIDI Luca",
+    "phone": "+41 91 785 14 10",
+    "practice_areas_it": [
+      "Notariato",
+      "Consulenza fiscale",
+      "Diritto successorio",
+      "Diritto della costruzione e contrattualistica"
+    ],
+    "source_url": "https://studioallidi.ch/chi-siamo/"
+  },
+  "ti-allidi-rachele": {
+    "canton": "TI",
+    "email": "info@studioallidi.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Allidi",
+    "founding_year": 1971,
+    "person_name": "ALLIDI Rachele",
+    "phone": "+41 91 785 14 10",
+    "practice_areas_it": [
+      "Notariato",
+      "Consulenza fiscale",
+      "Diritto successorio",
+      "Diritto della costruzione e contrattualistica"
+    ],
+    "source_url": "https://studioallidi.ch/chi-siamo/"
+  },
+  "ti-andreoli-alida": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-06",
+    "person_name": "ANDREOLI Alida",
+    "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
   "zg-aepli-michael": {
     "canton": "ZG",
     "email": "info@studeraeplilaw.ch",

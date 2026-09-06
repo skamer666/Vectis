@@ -1551,3 +1551,25 @@ aucun site personnel trouvé, seulement listé au rôle du barreau).
 
 Rattachement (`attach_individual_enrichment`) : 7/7 rattachés, zéro collision. TG et SO pas
 encore traités (prochain lot). Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3c, lot 1 (premier passage horaire depuis la reprise)
+
+Vérification préalable importante : les avocats `solo` des 12 cantons groupables (ZH/TI/SG/GR/
+BL/SZ/UR/OW/NW/AR/AI/LU) sont les **mêmes objets Python** que dans `CANTON_DATA[code]["individuals"]`
+(juste un sous-ensemble filtré, pas une copie) — `attach_individual_enrichment` qui parcourt
+`individuals` rattache donc aussi correctement les entrées `solo`, aucune modification de
+build.py nécessaire. Vérifié explicitement avant de committer.
+
+9 avocats indépendants traités (canton TI, 386 avocats sans étude au registre cantonal — début
+de liste alphabétique) : **5 succès / 5 échecs**. Succès : ACHERMANN BERNASCHINA Sonja (Studio
+legale e notarile Cattori-Achermann-Bernaschina, domaines IT, mediatrice FSA), ALLIDI Aldo/Luca/
+Rachele (Studio Allidi, fondé **1971**, domaines IT, tel/email — étude familiale à 3 avocats,
+un seul WebFetch réutilisé pour les 3 fiches), ALDI Sabrina (Studio Legale Aldi, domaines IT,
+email). **Échecs (5) :** ABATE Fabio, AFFOLTER Christof, AGUSTONI Alberto, AIROLDI Luca,
+ANDREOLI Alida — aucun site officiel personnel trouvé (seulement registre cantonal, déjà en
+base via le CSV, et annuaires tiers type search.ch/local.ch non exploités pour éviter la
+redondance et la dépendance à des sources secondaires).
+
+Rattachement (`attach_individual_enrichment`) : 12/12 rattachés au total (7 phase 3b + 5 phase
+3c), zéro collision. Reste 625 avocats solo sur 634 (12 cantons groupables, 9 traités ce lot).
+Suite de tests : 91/91 au vert.
