@@ -1573,3 +1573,32 @@ redondance et la dépendance à des sources secondaires).
 Rattachement (`attach_individual_enrichment`) : 12/12 rattachés au total (7 phase 3b + 5 phase
 3c), zéro collision. Reste 625 avocats solo sur 634 (12 cantons groupables, 9 traités ce lot).
 Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3, lot 2 (2e passage horaire)
+
+6 cabinets traités (6 succès / 0 échec), tous à Lugano (TI) sauf Pachmann (pas de domaine
+officiel trouvé, écarté sans forcer) : Studio legale 1896 SA (fondé **1896**, domaines EN),
+TEAM LEGAL SA (domaines IT, tel — 3 bureaux Lugano/Locarno/Mendrisio), Studio legale e notarile
+Gaggini & Partners SA (fondé **1954**, 19 domaines IT), Aequitas Studio legale e notarile
+(domaines IT, tel/email, 9 avocats/notaires, 3 publications de Rosa Maria Cappa 2023-2024 avec
+titres exacts). **Clés composites ajoutées (cabinets internationaux déjà en cache pour d'autres
+cantons, bureau tessinois ajouté)** : `baerkarrer.ch#TI` (Bär & Karrer, bureau Lugano — mêmes
+données que ZH, notes précisant que les chiffres sont globaux au cabinet), `kellerhals-carrard.ch#TI`
+(Kellerhals Carrard Lugano SA, idem).
+
+Rattachement (`attach_name_based_enrichment`) : 172 études rattachées au total (166 → 172, +6,
+zéro nouvelle collision). Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3b, lot 2 (2e passage horaire)
+
+4 avocats individuels traités (4 succès / 0 échec) dans TG (2) et SO (2) — TG et SO complètement
+non traités jusqu'ici, donc repris depuis le début de leur liste alphabétique respective :
+David Georg Ackermann (TG, FLB Rechtsanwälte, tel/email, Fachanwalt SAV Familienrecht + Mediator
+SAV/SDM-FSM), Elsbeth Verena Aepli (TG, Recht am See Anwaltsbüro — renommé depuis Schlatter Aepli
+Partner début 2026, domaines DE, tel/email), Beatrice Abegglen (SO, domaines DE, tel — source :
+annuaire professionnel jurata.ch, aucun site officiel personnel trouvé), Christian Aebersold
+(SO, Morandi Schnider Rechtsanwälte und Notare, 9 domaines DE, tel/email).
+
+Rattachement (`attach_individual_enrichment`) : 16/16 rattachés au total (12 → 16, +4), zéro
+collision. AG (3/459), ZG (3/396), NE (1/259), TG (2/151), SO (2/188) traités à ce stade.
+Suite de tests : 91/91 au vert.

@@ -578,6 +578,40 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "aequitaslex.ch": {
+    "canton": "TI",
+    "email": "info@aequitaslex.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Aequitas Studio legale e notarile",
+    "phone": "+41 91 910 06 06",
+    "practice_areas_it": [
+      "Diritto penale ed economico internazionale",
+      "Diritto bancario e finanziario",
+      "Successioni e pianificazione",
+      "Esecuzioni e fallimenti",
+      "Immobiliare",
+      "Contratti e accordi",
+      "Societario e commerciale",
+      "Arbitrati",
+      "Diritto amministrativo",
+      "Diritto del lavoro",
+      "Persona e famiglia",
+      "Diritto fiscale",
+      "Diritto dei media",
+      "Contenzioso",
+      "Recupero e blocco di beni",
+      "Analisi di rischio legale",
+      "Formazione e aggiornamento",
+      "Attività notarile"
+    ],
+    "publications": [
+      "La responsabilità penale dell'impresa: modello legale e applicazione giurisprudenziale (Cappa, 2024)",
+      "Modello svizzero e modello italiano di responsabilità degli enti a confronto (Cappa, 2024)",
+      "Il sistema svizzero di contrasto alle organizzazioni criminali: riflessioni prospettiche (Cappa, 2023)"
+    ],
+    "source_url": "https://www.aequitaslex.ch/",
+    "team_size_n": 9
+  },
   "ah4.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -775,6 +809,45 @@
     "firm_name": "Bär & Karrer AG",
     "founding_year": 1969,
     "notes": "Fondé en mars 1969 par Thomas Bär et Robert Karrer. Plus de 200 avocats (meta-description officielle). Bureaux: Zurich, Genève, Lugano, Zoug, Bâle, St-Moritz.",
+    "practice_areas_fr": [
+      "Arbitrage",
+      "Banque, assurance & finance",
+      "Marchés des capitaux & sociétés cotées",
+      "Concurrence & antitrust",
+      "Biens de consommation & distribution",
+      "Droit des sociétés & commercial",
+      "Gestion de crise & enquêtes internes",
+      "Protection des données & économie numérique",
+      "Emploi & mobilité",
+      "Énergie & ressources naturelles",
+      "ESG",
+      "Santé & sciences de la vie",
+      "Propriété intellectuelle",
+      "Contentieux",
+      "Logistique & transport",
+      "Fusions & acquisitions",
+      "Services notariaux",
+      "Prévoyance & sécurité sociale",
+      "Clients privés & planification successorale",
+      "Private equity",
+      "Secteur public & marchés publics",
+      "Immobilier & droit de l'environnement",
+      "Sports",
+      "Start-ups & capital-risque",
+      "Fiscalité",
+      "Technologie, médias & télécommunications",
+      "Restructuration, réorganisation & insolvabilité",
+      "Criminalité en col blanc"
+    ],
+    "source_url": "https://www.baerkarrer.ch/en/about",
+    "team_size_n": 200
+  },
+  "baerkarrer.ch#TI": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale Bär & Karrer",
+    "founding_year": 1969,
+    "notes": "Meme cabinet international que baerkarrer.ch (ZH) -- bureau de Lugano. Chiffres (200 avocats) globaux au cabinet, pas specifiques au bureau tessinois.",
     "practice_areas_fr": [
       "Arbitrage",
       "Banque, assurance & finance",
@@ -1866,6 +1939,34 @@
     "phone": "+41 71 226 85 10",
     "source_url": "https://frt-anwaelte.ch/"
   },
+  "gaggini-partners.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile Gaggini & Partners SA",
+    "founding_year": 1954,
+    "practice_areas_it": [
+      "Contenzioso civile ed arbitrato",
+      "Private clients",
+      "Consulenza e pianificazione fiscale",
+      "Pianificazione successoria",
+      "Trust",
+      "Diritto del lavoro",
+      "Diritto societario, diritto commerciale e M&A",
+      "Diritto fallimentare e ristrutturazioni",
+      "Diritto bancario e della finanza",
+      "Mercato dei capitali e venture capital",
+      "Yacht law",
+      "Diritto delle opere d'arte",
+      "Assistenza penale e white collar crime",
+      "Assistenza alle vittime",
+      "Diritto amministrativo e compliance",
+      "Diritto degli stranieri",
+      "Edilizia e diritto immobiliare",
+      "Diritto dello sport",
+      "Attività notarile"
+    ],
+    "source_url": "https://www.gaggini-partners.ch/"
+  },
   "gbf-legal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2129,6 +2230,14 @@
     "founding_year": null,
     "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json).",
     "practice_areas_fr": [],
+    "source_url": "https://kellerhals-carrard.ch/",
+    "team_size_n": 600
+  },
+  "kellerhals-carrard.ch#TI": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Kellerhals Carrard Lugano SA",
+    "notes": "Meme cabinet que kellerhals-carrard.ch (ZH) et #BS -- bureau de Lugano. Chiffre (600 avocats) global au cabinet, pas specifique au bureau tessinois.",
     "source_url": "https://kellerhals-carrard.ch/",
     "team_size_n": 600
   },
@@ -2397,6 +2506,31 @@
     ],
     "source_url": "https://www.lclaw.ch/en/about-us/",
     "team_size_n": null
+  },
+  "legal1896.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale 1896 SA",
+    "founding_year": 1896,
+    "practice_areas_en": [
+      "Companies",
+      "Insurance",
+      "Labour law",
+      "Debt collection",
+      "Family",
+      "Succession",
+      "Real estate",
+      "Banks",
+      "Healthcare",
+      "Energy",
+      "Taxation",
+      "Permits and naturalizations",
+      "Notary",
+      "Criminal law",
+      "Digital assets",
+      "Debt enforcement/bankruptcy/reorganization"
+    ],
+    "source_url": "https://www.legal1896.ch/en/"
   },
   "legis-law.ch": {
     "canton": "ZH",
@@ -3638,6 +3772,17 @@
     "practice_areas_fr": [],
     "source_url": "https://www.tbp-law.ch/",
     "team_size_n": null
+  },
+  "teamlegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "TEAM LEGAL SA",
+    "phone": "+41 91 921 22 21",
+    "practice_areas_it": [
+      "Avvocatura",
+      "Notariato"
+    ],
+    "source_url": "https://www.teamlegal.ch/"
   },
   "teichmann-law.ch": {
     "canton": "ZH",
