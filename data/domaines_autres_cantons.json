@@ -138,6 +138,12 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "lenzcaduff.ch": {
+      "canton": "ZH",
+      "firm_name": "LENZ & CADUFF Rechtsanwälte AG",
+      "reason": "site inaccessible, HTTP 503 a repetition (lenzcaduff.ch, www.lenzcaduff.ch, /de/startseite/)",
+      "tested_date": "2026-09-06"
+    },
     "lexarte.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -552,6 +558,28 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advokaturteam.ch/",
     "team_size_n": null
+  },
+  "advokaturweinberg.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Weinberg",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Miet- und Pachtrecht",
+      "Personen- und Familienrecht",
+      "Erbrecht",
+      "Sachenrecht",
+      "Gesellschaftsrecht",
+      "IT/Informatikrecht",
+      "Immaterialgüterrecht",
+      "Schuldbetreibung und Konkurs",
+      "Steuer- und Abgabenrecht",
+      "Verwaltungsrecht",
+      "Konsumentenschutz",
+      "Strafrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.advokaturweinberg.ch/rechtsgebiete"
   },
   "advokern.ch": {
     "canton": "ZH",
@@ -3752,6 +3780,24 @@
     "source_url": "https://www.rudincantieni.ch/",
     "team_size_n": null
   },
+  "ruetimann.lind.team": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Rütimann Rechtsanwälte",
+    "founding_year": 1990,
+    "phone": "+41 52 269 11 00",
+    "practice_areas_de": [
+      "Planen und Bauen",
+      "Testament und Erbschaft",
+      "Familie – Scheidung – Trennung",
+      "Gemeindeberatung",
+      "Verträge und Gesellschaftsrecht",
+      "Mediation und Coaching",
+      "Stockwerkeigentum"
+    ],
+    "source_url": "https://ruetimann.lind.team/",
+    "team_size_n": 10
+  },
   "ruossvoegele.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -4850,6 +4896,24 @@
     ],
     "source_url": "https://wickipartners.ch/",
     "team_size_n": 8
+  },
+  "wildschnyder.ch": {
+    "canton": "ZH",
+    "email": "mail@wildschnyder.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Wild Schnyder AG",
+    "founding_year": 2001,
+    "phone": "+41 44 385 81 00",
+    "practice_areas_de": [
+      "Markenrecht",
+      "Designrecht",
+      "Lauterkeitsrecht (Wettbewerbsrecht)",
+      "Urheberrecht",
+      "Werberecht",
+      "Medienrecht",
+      "Datenschutzrecht"
+    ],
+    "source_url": "https://www.wildschnyder.ch/"
   },
   "wkflegal.com": {
     "_failed": true,

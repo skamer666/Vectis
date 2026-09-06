@@ -1868,3 +1868,16 @@ famille, tel/email, 5 personnes, "5 Certified Specialists SBA Family Law"). **É
 (ZH) -- site wkflegal.com indisponible (HTTP 503) au moment du passage.
 
 Rattachement : 209 études rattachées au total (206 → 209, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 12
+
+3 cabinets traités (3 succès / 1 échec), tous ZH : Rütimann Rechtsanwälte (fondée **1990**,
+7 domaines DE, tel, 10 personnes), Wild Schnyder AG (fondée **2001**, cabinet spécialisé
+propriété intellectuelle — marques, dessins, concurrence déloyale, droit d'auteur, publicité,
+médias, protection des données —, tel/email), Advokatur Weinberg (communauté d'étude de 6
+avocats indépendants, 14 domaines DE ; pas de téléphone/email unique enregistré car chaque
+avocat a ses propres coordonnées, non attribuable au « cabinet » en tant que tel). **Échec :**
+LENZ & CADUFF Rechtsanwälte AG — site lenzcaduff.ch indisponible (HTTP 503 à répétition sur
+plusieurs URLs testées), aucune donnée du WebSearch utilisée faute de confirmation directe.
+
+Rattachement : 212 études rattachées au total (209 → 212, +3). Suite de tests : 94/94 au vert.
