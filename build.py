@@ -922,7 +922,9 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             _seniority = pt.seniority_text(_lg, row.get("brevet_date"))
             _insight = pt.firm_insight(_lg, _ln, _dn, None,
                                         founding_year=(_web or {}).get("founding_year"),
-                                        team_size_n=(_web or {}).get("team_size_n")) if (_web or _dn or _ln) else ""
+                                        team_size_n=(_web or {}).get("team_size_n"),
+                                        specialist_certification=(_web or {}).get("specialist_certification"),
+                                        publications=(_web or {}).get("publications")) if (_web or _dn or _ln) else ""
             if not (_seniority or _ln or _insight):
                 _any_lang_lacks_signal = True
                 break
@@ -971,6 +973,8 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                 lang, _langues_for_lang, _domaine_names_web, None,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
+                specialist_certification=(_web or {}).get("specialist_certification"),
+                publications=(_web or {}).get("publications"),
             ) if (_web or _domaine_names_web or _langues_for_lang) else ""
             ctx["web_source_note"] = None
             if _web:
@@ -1081,7 +1085,9 @@ def gen_ge_etudes(start=0, count=None, rows=None):
             _dn = [i18n.DOMAINES[d][_lg]["name"] for d in _team_domaine_ids] or web_practice_areas(_web, _lg)
             if not pt.firm_insight(_lg, pt.translate_langues(_team_langues, _lg), _dn, _oldest_year,
                                     founding_year=(_web or {}).get("founding_year"),
-                                    team_size_n=(_web or {}).get("team_size_n")):
+                                    team_size_n=(_web or {}).get("team_size_n"),
+                                    specialist_certification=(_web or {}).get("specialist_certification"),
+                                    publications=(_web or {}).get("publications")):
                 _any_lang_lacks_signal = True
                 break
         for lang in LANGS:
@@ -1128,6 +1134,8 @@ def gen_ge_etudes(start=0, count=None, rows=None):
                 lang, pt.translate_langues(_team_langues, lang), _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
+                specialist_certification=(_web or {}).get("specialist_certification"),
+                publications=(_web or {}).get("publications"),
             )
             # Noindex automatique : la fiche n'a aucun signal reel au-dela du nom/adresse/
             # liste de membres (ni annee de fondation, ni taille d'equipe, ni langues, ni
@@ -1764,7 +1772,9 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
             _ln = [translate_lang_name(x, _lg) for x in _sh_langues_raw]
             if not pt.firm_insight(_lg, _ln, _dn, _oldest_year,
                                     founding_year=(_web or {}).get("founding_year"),
-                                    team_size_n=(_web or {}).get("team_size_n")):
+                                    team_size_n=(_web or {}).get("team_size_n"),
+                                    specialist_certification=(_web or {}).get("specialist_certification"),
+                                    publications=(_web or {}).get("publications")):
                 _any_lang_lacks_signal = True
                 break
         for lang in LANGS:
@@ -1803,6 +1813,8 @@ def gen_canton_etudes(code, start=0, count=None, rows=None):
                 lang, _langues_names, _domaine_names, _oldest_year,
                 founding_year=(_web or {}).get("founding_year"),
                 team_size_n=(_web or {}).get("team_size_n"),
+                specialist_certification=(_web or {}).get("specialist_certification"),
+                publications=(_web or {}).get("publications"),
             )
             # Noindex automatique : voir commentaire equivalent dans gen_ge_etudes.
             # Decide une seule fois pour les 4 langues (_any_lang_lacks_signal).
@@ -1894,7 +1906,9 @@ def gen_canton_avocats(code, start=0, count=None, rows=None):
             _seniority = pt.seniority_text(_lg, row.get("annee_admission"))
             _insight = pt.firm_insight(_lg, _ln, _dn, None,
                                         founding_year=(_web or {}).get("founding_year"),
-                                        team_size_n=(_web or {}).get("team_size_n")) if (_web or _dn or _ln) else ""
+                                        team_size_n=(_web or {}).get("team_size_n"),
+                                        specialist_certification=(_web or {}).get("specialist_certification"),
+                                        publications=(_web or {}).get("publications")) if (_web or _dn or _ln) else ""
             if not (_seniority or _ln or _insight):
                 _any_lang_lacks_signal = True
                 break

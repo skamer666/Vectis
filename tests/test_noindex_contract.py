@@ -6,7 +6,53 @@ presentation_text.firm_insight(). Ce test verifie directement ce contrat,
 independamment de toute page HTML generee -- une regression ici est le
 scenario le plus grave du projet (indexation de contenu "thin").
 """
+import os
+import re
 import presentation_text as pt
+
+
+def test_every_firm_insight_call_site_passes_all_signal_kwargs():
+    """Regression (decouvert le 06/09/2026) : build.py calcule ctx["insight_text"]
+    (l'insight reellement affiche) ET _any_lang_lacks_signal (qui decide noindex)
+    via deux appels SEPARES a pt.firm_insight() par type de page -- 4 types x 2
+    appels = 8 sites au total. Quand specialist_certification/publications ont ete
+    ajoutes a firm_insight(), seuls certains de ces 8 sites ont ete mis a jour :
+    une fiche dont le SEUL signal reel etait specialist_certification affichait
+    le texte correctement (insight_text non vide) mais restait noindex quand
+    meme (le pre-check qui decide noindex ignorait ce kwarg), et certains types
+    de page (etudes GE/generiques) ne recevaient jamais ce champ du tout, meme
+    a l'affichage. Ce test grep-based garantit qu'un futur kwarg de signal ajoute
+    a firm_insight() ne peut plus etre oublie sur un sous-ensemble des 8 sites
+    sans faire echouer la suite -- un vrai test d'integration serait plus sur
+    mais demanderait de construire un CANTON_DATA complet pour les 4 types de
+    page ; ce garde-fou statique est le compromis pragmatique."""
+    build_py_path = os.path.join(os.path.dirname(__file__), "..", "build.py")
+    with open(build_py_path, encoding="utf-8") as f:
+        source = f.read()
+
+    # Isole chaque appel a pt.firm_insight(...) jusqu'a la parenthese fermante
+    # correspondante (les appels s'etendent sur plusieurs lignes).
+    call_sites = []
+    for m in re.finditer(r"pt\.firm_insight\(", source):
+        start = m.end()
+        depth = 1
+        i = start
+        while depth > 0:
+            if source[i] == "(":
+                depth += 1
+            elif source[i] == ")":
+                depth -= 1
+            i += 1
+        call_sites.append(source[start:i])
+
+    assert len(call_sites) == 8, (
+        f"Attendu 8 sites d'appel a pt.firm_insight() dans build.py (4 types de page x "
+        f"pre-check noindex + calcul reel), trouve {len(call_sites)} -- si ce nombre a "
+        f"change intentionnellement (nouveau type de page), mets a jour ce test."
+    )
+    for call in call_sites:
+        assert "specialist_certification=" in call, f"Site sans specialist_certification: {call[:80]}"
+        assert "publications=" in call, f"Site sans publications: {call[:80]}"
 
 
 def test_no_signal_produces_empty_insight():
