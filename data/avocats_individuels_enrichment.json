@@ -167,6 +167,28 @@
     "person_name": "AGUSTONI Alberto",
     "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
   },
+  "ti-agustoni-emanuela": {
+    "canton": "TI",
+    "email": "lawfirmagustoni@bluewin.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile avv. E. Agustoni",
+    "founding_year": 1983,
+    "person_name": "AGUSTONI Emanuela",
+    "phone": "+41 91 923 86 83",
+    "practice_areas_it": [
+      "Diritto commerciale",
+      "Diritto internazionale privato",
+      "Esecuzioni e fallimenti"
+    ],
+    "source_url": "https://search.ch/tel/lugano/via-zurigo-5/emanuela-agustoni.it.html"
+  },
+  "ti-agustoni-paolo": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale Agustoni",
+    "person_name": "AGUSTONI Paolo",
+    "source_url": "https://zip.ch/it/agustoni-paolo-viale-stazione-bellinzona-2jELmdyqDm/"
+  },
   "ti-airoldi-luca": {
     "_failed": true,
     "canton": "TI",
@@ -243,6 +265,30 @@
     "checked_date": "2026-09-06",
     "person_name": "ANDREOLI Alida",
     "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-antonini-luvini-micaela": {
+    "canton": "TI",
+    "email": "info@equi-lab.ch",
+    "fetched_date": "2026-09-06",
+    "founding_year": 1991,
+    "person_name": "ANTONINI LUVINI Micaela",
+    "phone": "+41 91 950 00 88",
+    "practice_areas_it": [
+      "Diritto del lavoro",
+      "Legge sulla parità dei sessi (LPar)",
+      "Diritto di famiglia"
+    ],
+    "source_url": "https://www.equi-lab.ch/team/micaela-antonini-luvini/"
+  },
+  "ti-augugliaro-giovanni": {
+    "canton": "TI",
+    "email": "info@legale-augugliaro.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Legale e Notarile Augugliaro",
+    "founding_year": 1984,
+    "person_name": "AUGUGLIARO Giovanni",
+    "phone": "+41 91 640 00 00",
+    "source_url": "http://www.legale-augugliaro.ch/"
   },
   "zg-aepli-michael": {
     "canton": "ZG",

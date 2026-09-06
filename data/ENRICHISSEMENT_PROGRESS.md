@@ -1602,3 +1602,17 @@ annuaire professionnel jurata.ch, aucun site officiel personnel trouvé), Christ
 Rattachement (`attach_individual_enrichment`) : 16/16 rattachés au total (12 → 16, +4), zéro
 collision. AG (3/459), ZG (3/396), NE (1/259), TG (2/151), SO (2/188) traités à ce stade.
 Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3c, lot 2 (2e passage horaire)
+
+4 avocats indépendants traités (canton TI, suite de la liste alphabétique) : **4 succès / 0
+échec**. AGUSTONI Emanuela (fondé **1983**, domaines IT, tel/email — source annuaire
+professionnel, aucun site officiel personnel trouvé), AGUSTONI Paolo (Studio legale Agustoni —
+peu de données disponibles au-delà du nom du cabinet, ancien syndic de Bellinzone), ANTONINI
+LUVINI Micaela (cabinet privé ouvert en **1991**, domaines IT — droit du travail, LPar, droit de
+la famille — tel/email, exerce aujourd'hui comme consultante chez equi-lab.ch), AUGUGLIARO
+Giovanni (Studio Legale e Notarile Augugliaro, actif depuis **1984**, tel/email, bureaux
+Lugano + Mendrisio).
+
+Rattachement (`attach_individual_enrichment`) : 20/20 rattachés au total (16 → 20, +4), zéro
+collision. TI : 13/386 avocats solo traités à ce stade. Suite de tests : 91/91 au vert.
