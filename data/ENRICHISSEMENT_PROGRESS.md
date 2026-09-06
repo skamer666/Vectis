@@ -1850,3 +1850,11 @@ GmbH (nouvelle étude du même avocat après scission d'avec Landmann & Partner 
 domaines DE dont cybercrime, tel, 5 personnes).
 
 Rattachement : 202 études rattachées au total (198 → 202, +4). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 10
+
+4 cabinets traités (4 succès / 0 échec), tous ZH : Turicum Legal AG (fondé **2022**, 9 domaines
+DE, tel/email), Schiffbau Rechtsanwälte (12 domaines EN, 6 avocats), Berther Moeri Neuber
+Schindler (tel), Advokatur Aussersihl (6 domaines DE, tel, 8 personnes).
+
+Rattachement : 206 études rattachées au total (202 → 206, +4). Suite de tests : 94/94 au vert.

@@ -508,6 +508,22 @@
     "team_size_n": 9,
     "team_size_text": "Team von 9 Anwältinnen und Anwälten (explicite sur le site)"
   },
+  "advokaturaussersihl.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Advokatur Aussersihl",
+    "phone": "+41 44 295 90 80",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Migrationsrecht",
+      "Familienrecht",
+      "Mediation",
+      "Arbeitsrecht",
+      "Schulrecht"
+    ],
+    "source_url": "https://advokaturaussersihl.ch/",
+    "team_size_n": 8
+  },
   "advokaturteam.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-29",
@@ -3720,6 +3736,27 @@
     "team_size_n": 20,
     "team_size_text": "20 spécialistes"
   },
+  "schiffbau.legal": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Schiffbau Rechtsanwälte",
+    "practice_areas_en": [
+      "Contract, Trade and Competition Law",
+      "Corporate Law",
+      "Financial Market Law",
+      "Business Criminal Law",
+      "Mergers & Acquisitions and Corporate Restructurings",
+      "Insolvency and Reorganization Proceedings",
+      "Real Estate, Planning, Building and Environmental Law",
+      "Public Procurement",
+      "Technology and Intellectual Property and Data Protection Law",
+      "Media and Art Law",
+      "Succession Planning and Inheritance Law",
+      "Litigation and Arbitration"
+    ],
+    "source_url": "https://www.schiffbau.legal/en/",
+    "team_size_n": 6
+  },
   "schillerlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3761,6 +3798,13 @@
     ],
     "source_url": "https://schillerlegal.ch/en/",
     "team_size_n": null
+  },
+  "schipfe32.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Berther Moeri Neuber Schindler",
+    "phone": "+41 44 215 47 47",
+    "source_url": "http://www.schipfe32.ch/"
   },
   "schochauer.ch": {
     "canton": "SG",
@@ -4297,6 +4341,26 @@
     "practice_areas_fr": [],
     "source_url": "https://www.trollerlaw.ch/",
     "team_size_n": null
+  },
+  "turicum-legal.ch": {
+    "canton": "ZH",
+    "email": "office@turicum-legal.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Turicum Legal AG",
+    "founding_year": 2022,
+    "phone": "+41 58 400 70 70",
+    "practice_areas_de": [
+      "Gesellschafts- & Handelsrecht",
+      "Vertragsrecht",
+      "Transaktionen",
+      "Private Clients",
+      "Familien- & Erbrecht",
+      "Bau- & Immobilienrecht",
+      "Steuerrecht",
+      "Prozess- & Verfahrensrecht",
+      "Mediation"
+    ],
+    "source_url": "https://turicum-legal.ch/"
   },
   "utolegal.ch": {
     "canton": "ZH",
