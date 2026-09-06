@@ -1636,3 +1636,15 @@ Partner, domaines DE, tel/email, notaire et avocat depuis 2012/2017).
 
 Rattachement (`attach_individual_enrichment`) : 23/23 rattachés au total (20 → 23, +3), zéro
 collision. Suite de tests : 91/91 au vert.
+
+### 2026-09-06 — Phase 3c, lot 3 (3e passage horaire)
+
+3 avocats indépendants traités (canton TI, suite de la liste alphabétique) : **3 succès / 0
+échec**. AMMANN BONFANTI Claudia (Studio legale e notarile Bonfanti-Ammann, licence **1989**,
+5 domaines IT, tel/email — source annuaire professionnel jurata.ch, aucun site officiel
+personnel trouvé), BALMELLI Riccardo (Studio legale e notarile Balmelli, Unternährer, secrétaire
+de l'Ordre des notaires tessinois — peu de données au-delà du nom du cabinet), BANFI Gabriele
+(Studio Legale Banfi / G.B. Law, fondé **2011**, 7 domaines IT).
+
+Rattachement (`attach_individual_enrichment`) : 26/26 rattachés au total (23 → 26, +3), zéro
+collision. TI : 19/386 avocats solo traités à ce stade. Suite de tests : 91/91 au vert.

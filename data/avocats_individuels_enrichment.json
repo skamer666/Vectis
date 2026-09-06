@@ -305,6 +305,23 @@
     ],
     "source_url": "https://studioallidi.ch/chi-siamo/"
   },
+  "ti-ammann-bonfanti-claudia": {
+    "canton": "TI",
+    "email": "ammann@notaio.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile Bonfanti-Ammann",
+    "founding_year": 1989,
+    "person_name": "AMMANN BONFANTI Claudia",
+    "phone": "+41 91 751 61 74",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto fondiario agricolo e successorio",
+      "Diritto patrimoniale e successorio",
+      "Diritto reale",
+      "Contratto di compravendita"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/claudia-ammann-bonfanti"
+  },
   "ti-andreoli-alida": {
     "_failed": true,
     "canton": "TI",
@@ -335,6 +352,30 @@
     "person_name": "AUGUGLIARO Giovanni",
     "phone": "+41 91 640 00 00",
     "source_url": "http://www.legale-augugliaro.ch/"
+  },
+  "ti-balmelli-riccardo": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio legale e notarile Balmelli, Unternährer",
+    "person_name": "BALMELLI Riccardo",
+    "source_url": "https://www.local.ch/it/d/lugano/6900/avvocato/balmelli-riccardo-2_doCX2cVzYoV7nDDVU60w"
+  },
+  "ti-banfi-gabriele": {
+    "canton": "TI",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Studio Legale Banfi (G.B. Law)",
+    "founding_year": 2011,
+    "person_name": "BANFI Gabriele",
+    "practice_areas_it": [
+      "Diritto penale",
+      "Diritto civile",
+      "Diritto bancario",
+      "Diritto assicurativo",
+      "Diritto esecutivo",
+      "Diritto amministrativo",
+      "Assistenza giudiziaria internazionale in materia penale"
+    ],
+    "source_url": "https://www.gblaw.ch/"
   },
   "zg-aepli-michael": {
     "canton": "ZG",
