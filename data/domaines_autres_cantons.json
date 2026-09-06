@@ -2186,6 +2186,16 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "herzerpartner.ch": {
+    "canton": "ZH",
+    "email": "info@herzerpartner.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "HERZER Rechtsanwälte",
+    "founding_year": 1947,
+    "phone": "+41 44 225 88 88",
+    "source_url": "https://herzerpartner.ch/en/law-firm/",
+    "team_size_n": 6
+  },
   "hess-advokatur.ch": {
     "canton": "LU",
     "fetched_date": "2026-07-29",
@@ -2407,6 +2417,27 @@
       "Logistics, Freight forwarding, Transport"
     ],
     "source_url": "https://www.kleinlaw.ch/"
+  },
+  "kmb-anwaelte.ch": {
+    "canton": "SZ",
+    "email": "info@kmb-anwaelte.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Knobel, Michel & Brändli",
+    "founding_year": 1986,
+    "phone": "+41 55 451 20 00",
+    "practice_areas_de": [
+      "Privates und öffentliches Baurecht",
+      "Handels- und Gesellschaftsrecht",
+      "Strafrecht inkl. Wirtschaftsstrafrecht",
+      "Verkehrsrecht",
+      "Schiedsverfahren",
+      "Familien- und Erbrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Steuerrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://kmb-anwaelte.ch/",
+    "team_size_n": 7
   },
   "kornplatz.ch": {
     "canton": "GR",
@@ -3180,6 +3211,34 @@
     "practice_areas_fr": [],
     "source_url": "https://www.nkf.ch/",
     "team_size_n": null
+  },
+  "novalex.ch": {
+    "canton": "AR",
+    "email": "info@novalex.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Novalex Rechtsanwälte AG",
+    "phone": "+41 71 510 92 20",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Miet- & Pachtrecht",
+      "Baurecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Forderungsdurchsetzung und Forderungsabwehr",
+      "Verwaltungsrecht",
+      "Steuer- und Abgaberecht",
+      "Vorsorgerecht",
+      "Kindes- und Erwachsenenschutz",
+      "Agrarrecht",
+      "Allgemeines Vertragsrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Vereins- und Stiftungsrecht",
+      "Wettbewerbs- und Immaterialgüterrecht"
+    ],
+    "source_url": "https://novalex.ch/"
   },
   "nplaw.ch": {
     "canton": "ZH",
@@ -4039,6 +4098,21 @@
     ],
     "source_url": "https://szlaw.ch/",
     "team_size_n": null
+  },
+  "taormina-law.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@taormina-law.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "taormina law AG",
+    "phone": "+41 44 455 66 60",
+    "practice_areas_en": [
+      "Criminal Law",
+      "White Collar Criminal Law",
+      "Administrative Criminal Law",
+      "Mutual Legal Assistance"
+    ],
+    "source_url": "https://www.taormina-law.ch/",
+    "team_size_n": 8
   },
   "tappolet-partner.ch": {
     "canton": "ZH",

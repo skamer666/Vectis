@@ -1830,3 +1830,12 @@ Advokatur Roth (BL, 5 domaines DE, tel, 8 avocats), Advokatur Stoll Schulthess P
 SG) -- page `/taetigkeitsbereiche/` toujours vide (JS), déjà connu d'un lot antérieur.
 
 Rattachement : 194 études rattachées au total (191 → 194, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 — Phase 3, lot 8
+
+4 cabinets traités (4 succès / 0 échec) : Novalex Rechtsanwälte AG (AR, 17 domaines DE, tel/email),
+taormina law AG (ZH, boutique droit pénal, 4 domaines EN, tel/email, 8 avocats), HERZER
+Rechtsanwälte (ZH, fondé **1947**, tel/email, 6 avocats), Knobel, Michel & Brändli (SZ, fondé
+**1986**, 9 domaines DE, tel/email, 7 juristes).
+
+Rattachement : 198 études rattachées au total (194 → 198, +4). Suite de tests : 94/94 au vert.
