@@ -1914,3 +1914,24 @@ modification nécessaire, l'entrée existante a été laissée intacte (une tent
 Rattachement : 217 études rattachées au total (212 → 217, +5 nettes après correction des clés de
 rattachement -- 11 cabinets enrichis au total ce lot, dont 6 rattachés du premier coup et 4 après
 correction du nom, 1 doublon retiré). Suite de tests : 94/94 au vert.
+
+### 2026-09-06 22h03 UTC — Phase 3, lot 14 (exécution automatisée, prompt élargi appliqué)
+
+12 cabinets traités (12 succès / 1 échec), tous ZH : ZR Law AG (tel/email), Wolfer & Frey
+Rechtsanwälte (13 domaines DE droit public/privé, tel), Weber & Partner Rechtsanwälte AG (fondé
+**1984** comme Advokaturbüro Stünzi & Weber, tel/email), Rickenbach & Partner (fondé **1955**,
+13 domaines DE, tel), RISE Attorneys at Law (tel), Rentsch Partner AG (boutique PI, 7 domaines
+EN), Müller Paparis AG (fondé **2001**, 8 domaines EN, tel/email), Meier Vogel Partner GmbH
+(tel/email), Lanter Partner (tel/email), Krepper Spring Partner (9 domaines DE), Huber
+Rechtsanwälte AG (fondé **1989**, droit de la construction/immobilier, tel/email — adresse
+Mühlebachstrasse 38 confirmée via la page contact pour écarter tout risque de confusion avec un
+autre "Huber Rechtsanwälte" à Pfäffikon SZ), advo5 Rechtsanwälte (dommages corporels, tel/email).
+**Échec :** Ankerlex/Peyer Felder Kahlhöfer Gloor Leumann (page d'accueil vide, rendu JS
+probable).
+
+**Note technique :** 2 noms officiels complets ("Lanter Partner Rechtsanwälte", "advo5
+Rechtsanwälte" collé) ne correspondaient pas au nom cœur du CSV ("LANTER PARTNER" sans
+"Rechtsanwälte", "advo 5 Rechtsanwälte" avec espace) -- `firm_name` ajusté pour le rattachement,
+même principe que le lot précédent.
+
+Rattachement : 229 études rattachées au total (217 → 229, +12). Suite de tests : 94/94 au vert.

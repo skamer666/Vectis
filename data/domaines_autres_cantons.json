@@ -30,6 +30,12 @@
       "firm_name": "ADVOTECH ADVOKATEN",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "ankerlex.ch": {
+      "canton": "ZH",
+      "firm_name": "Peyer Felder Kahlhöfer Gloor Leumann Rechtsanwälte",
+      "reason": "page d'accueil ne contient que le nom du cabinet (site probablement en rendu JS), aucun fait exploitable",
+      "tested_date": "2026-09-06"
+    },
     "bachmann.law": {
       "canton": "ZH",
       "firm_name": "Bachmann Rechtsanwälte AG",
@@ -340,6 +346,17 @@
     "source_url": "https://advo-net.ch/taetigkeitsgebiete/",
     "team_size_n": null
   },
+  "advo5.ch": {
+    "canton": "ZH",
+    "email": "info@advo5.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "advo 5 Rechtsanwälte",
+    "phone": "+41 44 250 70 70",
+    "practice_areas_de": [
+      "Vertretung von Versicherten, Unfallopfern und Patienten (Personenschäden)"
+    ],
+    "source_url": "https://www.advo5.ch/"
+  },
   "advocat.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -384,6 +401,15 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://advogar.ch/de/home"
+  },
+  "advohorgen.ch": {
+    "canton": "ZH",
+    "email": "info@advohorgen.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Weber & Partner Rechtsanwälte AG",
+    "founding_year": 1984,
+    "phone": "+41 44 725 66 66",
+    "source_url": "https://www.advohorgen.ch/"
   },
   "advokaten.ch": {
     "canton": "BS",
@@ -2426,6 +2452,18 @@
     "team_size_n": null,
     "team_size_text": "43 associés et plus de 160 professionnels"
   },
+  "hra.ch": {
+    "canton": "ZH",
+    "email": "info@hra.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Huber Rechtsanwälte AG",
+    "founding_year": 1989,
+    "phone": "044 387 50 00",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://hra.ch/kontakt/"
+  },
   "ip-lawoffice.com": {
     "canton": "TI",
     "email": "info@ip-lawoffice.com",
@@ -2683,6 +2721,23 @@
     ],
     "source_url": "https://www.kspartner.ch/kanzlei/"
   },
+  "ksup.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Krepper Spring Partner",
+    "practice_areas_de": [
+      "Beratung bis Prozessführung",
+      "Externer Rechtsdienst",
+      "Konfliktmanagement und Mediation",
+      "Arbeitsrecht",
+      "Vertrags- und Immobilienrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Tourismus- und Reiserecht",
+      "Allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.ksup.ch/"
+  },
   "kuenglaw-sg.ch": {
     "canton": "SG",
     "email": "info@kuenglaw-sg.ch",
@@ -2776,6 +2831,14 @@
     ],
     "source_url": "https://landmann.ch/rechtsgebiete/",
     "specialist_certification": "Fachanwalt/-anwältin SAV Strafrecht et Familienrecht (plusieurs avocats du cabinet)"
+  },
+  "lanter-partner.ch": {
+    "canton": "ZH",
+    "email": "law@lanter-partner.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Lanter Partner",
+    "phone": "+41 44 250 29 29",
+    "source_url": "https://lanter-partner.ch/en/"
   },
   "laru.ch": {
     "canton": "BL",
@@ -3316,12 +3379,39 @@
     "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
     "team_size_n": null
   },
+  "muellerpaparis.ch": {
+    "canton": "ZH",
+    "email": "office@muellerpaparis.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Müller Paparis AG",
+    "founding_year": 2001,
+    "phone": "+41 43 244 70 20",
+    "practice_areas_en": [
+      "Corporate & Transactions",
+      "Labor & Management",
+      "Litigation & Criminal Law",
+      "Real Estate & Rental Law",
+      "Family, Inheritance & Wealth",
+      "Technology & Intellectual Property",
+      "Banking & Finance",
+      "Sports Law"
+    ],
+    "source_url": "https://www.muellerpaparis.ch/"
+  },
   "museum35.ch": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-06",
     "firm_name": "LOCHER | KOBLER | STADELMANN\nRechtsanwälte und öffentliche Notare",
     "reason": "site en JS (Readymag), deja documente comme inextractible dans un lot precedent"
+  },
+  "mvlaw.ch": {
+    "canton": "ZH",
+    "email": "info@mvlaw.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Meier Vogel Partner GmbH",
+    "phone": "+41 44 820 20 17",
+    "source_url": "https://www.mvlaw.ch/en/contact/"
   },
   "naterdallafior.ch": {
     "canton": "ZH",
@@ -3647,6 +3737,44 @@
     "source_url": "https://www.reetz-sohm.ch/kanzlei/",
     "team_size_n": null
   },
+  "rentschpartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Rentsch Partner AG",
+    "practice_areas_en": [
+      "Patents",
+      "Trademarks & Designs",
+      "Copyright",
+      "IT Law",
+      "Industrial Law",
+      "Litigation & Arbitration",
+      "IP Strategy"
+    ],
+    "source_url": "https://www.rentschpartner.ch/uber-uns/profil-wer-wir-sind"
+  },
+  "rickenbach-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Rickenbach & Partner",
+    "founding_year": 1955,
+    "phone": "+41 44 391 44 77",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Immobilienrecht",
+      "Vertragsrecht",
+      "Markenrecht",
+      "Versicherungsrecht",
+      "Sportrecht",
+      "Steuerrecht",
+      "Corporate Governance",
+      "Human Rights Due Diligence",
+      "Wettbewerbsrecht",
+      "Luftfahrtrecht",
+      "Bankrecht",
+      "Zivilprozessrecht"
+    ],
+    "source_url": "https://www.rickenbach-law.ch/index.php/de/"
+  },
   "riedwegpartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3679,6 +3807,13 @@
     ],
     "source_url": "https://riedwegpartner.ch/en/",
     "team_size_n": null
+  },
+  "riselaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "RISE Attorneys at Law",
+    "phone": "+41 44 576 83 30",
+    "source_url": "https://riselaw.ch/contact"
   },
   "rlaw.ch": {
     "canton": "ZH",
@@ -4986,6 +5121,28 @@
     "firm_name": "wkf AG",
     "reason": "site indisponible (HTTP 503) au moment du passage"
   },
+  "wolfer-frey.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Wolfer & Frey Rechtsanwälte",
+    "phone": "+41 44 211 87 83",
+    "practice_areas_de": [
+      "Baubewilligungs- und Baurekursverfahren",
+      "Planungsrecht",
+      "Natur- und Denkmalschutz",
+      "Umweltrecht",
+      "Strassenrecht",
+      "Enteignungsrecht",
+      "Submissionsrecht",
+      "Allgemeines Verwaltungsrecht",
+      "Bau- und Immobilienverträge",
+      "Werkverträge und Planerverträge",
+      "Nachbarrechtliche und baurechtliche Streitigkeiten",
+      "Mietrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://wolfer-frey.ch/"
+  },
   "wslaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -5001,6 +5158,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.wslaw.ch/en/",
     "team_size_n": null
+  },
+  "zr-law.ch": {
+    "canton": "ZH",
+    "email": "info@zr-law.ch",
+    "fetched_date": "2026-09-06",
+    "firm_name": "ZR Law AG",
+    "phone": "+41 44 932 42 22",
+    "source_url": "https://zr-law.ch/"
   },
   "zurich-law.ch": {
     "canton": "ZH",
