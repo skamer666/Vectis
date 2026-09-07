@@ -354,6 +354,12 @@
       "firm_name": "Uto Legal",
       "reason": "aucun fait extractible — description de secteurs clients (Medien, Tech, IT) sans liste de domaines juridiques ni année de fondation"
     },
+    "versalex.ch": {
+      "canton": "ZH",
+      "firm_name": "versaLex AG",
+      "reason": "HTTP 403 Forbidden au fetch",
+      "tested_date": "2026-09-07"
+    },
     "vfs-partner.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -409,6 +415,16 @@
       "Öffentlicher Sektor und Regulierung in Wissenschaft und Praxis"
     ],
     "source_url": "https://www.aa-k.ch/ueber-uns/"
+  },
+  "aab45.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur am Bleicherweg GmbH",
+    "phone": "+41 44 244 98 98",
+    "practice_areas_de": [
+      "Familienrecht und Mediation"
+    ],
+    "source_url": "https://www.aab45.ch/kontakt.html"
   },
   "adab.ch": {
     "canton": "SG",
@@ -2633,6 +2649,20 @@
     "phone": "081 258 55 17",
     "source_url": "https://fas-chur.ch/kontakt/"
   },
+  "felderspaelti.ch": {
+    "canton": "ZH",
+    "email": "info@felderspaelti.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "felderspälti Rechtsanwälte AG",
+    "phone": "044 297 19 19",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Nachlassplanung",
+      "Immobilien"
+    ],
+    "source_url": "https://felderspaelti.ch/",
+    "specialist_certification": "Fachanwalt SAV Erbrecht (Andreas Felder)"
+  },
   "ff-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -3163,6 +3193,28 @@
       "Droit administratif"
     ],
     "source_url": "https://hartmanndreyer.ch/"
+  },
+  "hba.ch": {
+    "canton": "ZH",
+    "email": "zuerich@hba.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "hba Rechtsanwälte AG",
+    "phone": "+41-44-508-4000",
+    "practice_areas_en": [
+      "Acquisition of real estate within and outside Switzerland",
+      "Advice on obtaining permits for acquisition (Lex Koller)",
+      "Drafting purchase contracts, tenancy agreements, lease agreements",
+      "Advice on employment contracts with architects and contractors",
+      "Condominium ownership establishment",
+      "Neighbour law advice",
+      "Project financing advice",
+      "Due diligence reviews",
+      "Zoning law, building law and construction proceedings",
+      "Expert opinions",
+      "Mediation in conflicts",
+      "Representation before courts and authorities"
+    ],
+    "source_url": "https://www.hba.ch/en/subjects/building-law-real-estate-law/"
   },
   "herzerpartner.ch": {
     "canton": "ZH",
@@ -4059,6 +4111,13 @@
     ],
     "source_url": "https://legis-law.ch/",
     "team_size_n": null
+  },
+  "lelex.law": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "lelex Rechtsanwälte",
+    "phone": "+41 (0)43 277 91 91",
+    "source_url": "https://lelex.law/contact/"
   },
   "lenzstaehelin.com": {
     "canton": "ZH",
@@ -5420,6 +5479,22 @@
     "source_url": "https://www.silk-rechtsanwaelte.ch/en/firm/",
     "team_size_n": null
   },
+  "smplaw.ch": {
+    "canton": "ZH",
+    "email": "info@smplaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "von Arx Schmidiger Faber",
+    "phone": "+41 52 208 99 33",
+    "practice_areas_de": [
+      "Gründung, Organisation und Umstrukturierung von Personen- und Kapitalgesellschaften",
+      "Ausarbeitung und Prüfung von Verträgen, Allgemeinen Geschäftsbedingungen, Reglementen",
+      "Unterstützung bei der Durchsetzung von Rechtsansprüchen",
+      "Nachfolgeregelung",
+      "Vertretung in Prozessen und Schiedsverfahren",
+      "Immaterialgüterrecht, insbes. Registrierung und Betreuung von Marken, Designs und Patentrechten"
+    ],
+    "source_url": "https://smplaw.ch/unternehmen.html"
+  },
   "sms-lawyers.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -6188,6 +6263,26 @@
     "firm_name": "Studio legale e notarile VERDA",
     "source_url": "https://www.verda-law.ch/en/the-team/"
   },
+  "veriat.ch": {
+    "canton": "ZH",
+    "email": "mail@veriat.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "veriat legal AG",
+    "phone": "+41 44 285 10 10",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau-, Planungs- und Vergaberecht",
+      "Nachfolge- und Erbschaftsplanung",
+      "Gesellschafts- und Transaktionsrecht",
+      "Immobilien- und Mietrecht",
+      "Informatikrecht",
+      "Arbeits- und Versicherungsrecht",
+      "Insolvenz- und Sanierungsrecht",
+      "Öffentliches Recht",
+      "Prozessführung"
+    ],
+    "source_url": "https://www.veriat.ch/"
+  },
   "vetsch-rechtsanwaelte.ch": {
     "canton": "LU",
     "fetched_date": "2026-07-29",
@@ -6295,6 +6390,19 @@
       "Mietrecht"
     ],
     "source_url": "https://www.vollenweidersteiner.ch/kontakt"
+  },
+  "vonsegesserlaw.com": {
+    "canton": "ZH",
+    "email": "info@vonsegesserlaw.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "von Segesser Rechtsanwälte AG",
+    "phone": "+41 44 382 01 00",
+    "practice_areas_en": [
+      "Arbitration",
+      "Mediation",
+      "Legal Counsel"
+    ],
+    "source_url": "https://vonsegesserlaw.com/"
   },
   "walche.ch": {
     "canton": "ZH",

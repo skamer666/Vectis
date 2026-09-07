@@ -2094,3 +2094,16 @@ Hess Schwegler Rechtsanwälte und Notare (LU, domaine ehs-kanzlei.ch introuvable
 legale e notarile Brioschi Gianella Timbal & Cometta (TI, HTTP 503).
 
 Rattachement : 318 études rattachées au total (311 → 318, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 09h03 UTC — Phase 3, lot 25 (exécution automatisée)
+
+7 cabinets traités (7 succès / 1 échec), tous ZH : von Segesser Rechtsanwälte AG (boutique
+arbitrage international, tel/email, 3 domaines EN), felderspälti Rechtsanwälte AG (boutique
+droit successoral/immobilier, tel/email, 3 domaines DE, Fachanwalt SAV Erbrecht pour Andreas
+Felder), veriat legal AG (tel/email, 10 domaines DE), lelex Rechtsanwälte (boutique droit du
+travail, tel), hba Rechtsanwälte AG (bureau zurichois d'un cabinet autrichien, tel/email
+spécifiques à Zurich, 12 domaines EN droit immobilier/construction), von Arx Schmidiger Faber
+(tel/email, 6 domaines DE), Advokatur am Bleicherweg GmbH (boutique droit de la famille/
+médiation, tel). **Échec :** versaLex AG (HTTP 403 Forbidden).
+
+Rattachement : 325 études rattachées au total (318 → 325, +7). Suite de tests : 94/94 au vert.
