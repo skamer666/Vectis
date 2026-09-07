@@ -36,6 +36,12 @@
       "firm_name": "ADVOTECH ADVOKATEN",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "akws-law.ch": {
+      "canton": "SZ",
+      "firm_name": "Acocella Keller Wolf Schilter",
+      "reason": "HTTP 503 Service Unavailable au fetch",
+      "tested_date": "2026-09-07"
+    },
     "ankerlex.ch": {
       "canton": "ZH",
       "firm_name": "Peyer Felder Kahlhöfer Gloor Leumann Rechtsanwälte",
@@ -185,6 +191,18 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Lustenberger + Partners KLG",
       "raison": "aucun fait extractible (pas de founding_year, team_size, ni liste practice_areas)"
+    },
+    "lva-law.ch": {
+      "canton": "TI",
+      "firm_name": "Studio notarile Velo & Associati",
+      "reason": "HTTP 403 Forbidden au fetch (accueil et page about-us)",
+      "tested_date": "2026-09-07"
+    },
+    "marktgasse20.ch": {
+      "canton": "SG",
+      "firm_name": "Kaufmann Brühwiler & Partner",
+      "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
+      "tested_date": "2026-09-07"
     },
     "mercury.ch": {
       "canton": "ZH",
@@ -473,6 +491,14 @@
       "Vertretung von Versicherten, Unfallopfern und Patienten (Personenschäden)"
     ],
     "source_url": "https://www.advo5.ch/"
+  },
+  "advocare.ch": {
+    "canton": "SG",
+    "email": "info@advocare.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Frey & Partner, Rechtsanwälte und Notare",
+    "phone": "+41 71 244 19 60",
+    "source_url": "https://www.advocare.ch/"
   },
   "advocat.ch": {
     "canton": "SG",
@@ -3017,6 +3043,25 @@
     ],
     "source_url": "https://www.groszpoledna.ch/kompetenzen"
   },
+  "gruendler-partner.ch": {
+    "canton": "SG",
+    "email": "info@gruendler-partner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gründler & Partner Rechtsanwälte AG",
+    "phone": "+41 71 226 46 46",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Aktienrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "IT-Recht",
+      "Immaterialgüterrecht",
+      "Bau- und Immobilienrecht",
+      "Prozessführung",
+      "Notariat"
+    ],
+    "source_url": "https://www.gruendler-partner.ch/de/"
+  },
   "hartmanndreyer.ch": {
     "canton": "FR",
     "email": "office@hartmanndreyer.ch",
@@ -3276,6 +3321,27 @@
     ],
     "source_url": "https://www.kanonengasse.ch/",
     "team_size_n": null
+  },
+  "kanzlei-dbz.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Degginger Bischof Zlabinger",
+    "phone": "+41 71 220 90 70",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Verwaltungsrecht",
+      "Mediation",
+      "Erwachsenenschutzrecht",
+      "Sozialversicherungsrecht",
+      "Hunderecht",
+      "Strafrecht",
+      "Migrationsrecht",
+      "Gesundheitsrecht",
+      "Bau- und Umweltrecht"
+    ],
+    "source_url": "https://kanzlei-dbz.ch/"
   },
   "kanzlei-uster.ch": {
     "canton": "ZH",
@@ -3687,6 +3753,24 @@
     "practice_areas_fr": [],
     "source_url": "https://www.lauxlawyers.ch/en/law-firm/",
     "team_size_n": null
+  },
+  "lawsg.ch": {
+    "canton": "SG",
+    "email": "info@lawsg.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Thalhammer | Bossart | von Rohr\nRechtsanwälte & Notare",
+    "phone": "+41 71 222 31 35",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Bankenrecht",
+      "Baurecht",
+      "Datenschutz",
+      "Erbrecht",
+      "Familienrecht",
+      "KMU-Recht",
+      "Notariat"
+    ],
+    "source_url": "https://lawsg.ch/"
   },
   "lawyers.ch": {
     "canton": "BS",
@@ -4474,6 +4558,22 @@
     "practice_areas_fr": [],
     "source_url": "https://peyerpartner.ch/en/about-us/",
     "team_size_n": null
+  },
+  "pfister-rechtsanwaelte.ch": {
+    "canton": "SZ",
+    "email": "info@pfister-anwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Pfister & Partner",
+    "phone": "+41 55 415 80 80",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Baurecht",
+      "Immobilienrecht",
+      "Scheidungsrecht",
+      "Strafrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.pfister-rechtsanwaelte.ch/"
   },
   "pmp-ra.ch": {
     "canton": "ZH",
@@ -5283,6 +5383,21 @@
     "phone": "+41 44 261 91 00",
     "source_url": "https://www.sts-law.ch/"
   },
+  "studiocasonidelco.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio Legale Casoni Delcò",
+    "phone": "091 970 24 61",
+    "practice_areas_it": [
+      "Diritto di famiglia",
+      "Diritto della persona e protezione della personalità",
+      "Diritto successorio/ereditario",
+      "Diritto penale",
+      "Diritto internazionale privato",
+      "Notariato e contrattualistica"
+    ],
+    "source_url": "https://studiocasonidelco.ch/area-di-competenze"
+  },
   "studiomattei.ch": {
     "canton": "TI",
     "email": "info@studiomattei.ch",
@@ -5567,6 +5682,23 @@
     "practice_areas_fr": [],
     "source_url": "https://www.teichmann-law.ch/en/",
     "team_size_n": null
+  },
+  "thf-rechtsanwaelte.ch": {
+    "canton": "SZ",
+    "email": "info@thf-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "TRACHSEL HUTTER FLATTICH",
+    "phone": "055 450 20 40",
+    "practice_areas_de": [
+      "Privatrecht",
+      "Wirtschaftsrecht",
+      "Öffentliches Recht",
+      "Strafrecht",
+      "Privates und öffentliches Bau- und Immobilienrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.thf-rechtsanwaelte.ch/"
   },
   "thlegal.ch": {
     "canton": "ZH",

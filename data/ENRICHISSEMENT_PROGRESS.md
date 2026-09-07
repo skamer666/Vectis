@@ -2048,3 +2048,24 @@ Fachanwältin SAV Familienrecht). **Sans site :** Studio legale e notarile Censi
 Compliance AG (ZH, pages contact/entreprise en simple redirection sans contenu).
 
 Rattachement : 298 études rattachées au total (291 → 298, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 06h04 UTC — Phase 3, lot 22 (exécution automatisée)
+
+7 cabinets traités (7 succès / 3 échecs), SG/SZ/TI : Studio Legale Casoni Delcò (TI, boutique
+droit de la famille, tel, 6 domaines IT), Thalhammer | Bossart | von Rohr Rechtsanwälte & Notare
+(SG, tel/email, 8 domaines DE), Gründler & Partner Rechtsanwälte AG (SG, tel/email, 9 domaines
+DE), Frey & Partner Rechtsanwälte und Notare (SG, tel/email), Pfister & Partner (SZ, tel/email,
+6 domaines DE), Degginger Bischof Zlabinger (SG, tel, 12 domaines DE synthétisés depuis les
+pages individuelles des 5 avocats -- dont une spécialité rare "droit des chiens"), TRACHSEL
+HUTTER FLATTICH (SZ, tel/email, 7 domaines DE). **Échecs :** Kaufmann Brühwiler & Partner (SG,
+page anti-bot), Acocella Keller Wolf Schilter (SZ, HTTP 503), Studio notarile Velo & Associati
+(TI, HTTP 403).
+
+**Note :** 2 des 7 succès (Gründler & Partner, Frey & Partner) n'ont pas pu être rattachés
+automatiquement -- le CSV SG contient chacun deux fois sous des graphies très proches
+("Gründler & Partner Rechtsanwälte AG" / "Gründler + Partner Rechtsanwälte" ; "Frey & Partner,
+Rechtsanwälte und Notare" / "Frey & Partner Rechtsanwälte und Notare"), créant une collision de
+nom cœur -- garde-fou correctement appliqué (aucun rattachement plutôt qu'un choix arbitraire).
+
+Rattachement : 303 études rattachées au total (298 → 303, +5 ; 2 collisions supplémentaires
+ignorées à bon escient). Suite de tests : 94/94 au vert.
