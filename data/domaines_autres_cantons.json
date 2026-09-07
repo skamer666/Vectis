@@ -61,6 +61,12 @@
       "reason": "page d'accueil ne contient que le nom du cabinet (site probablement en rendu JS), aucun fait exploitable",
       "tested_date": "2026-09-06"
     },
+    "apollolaw.ch": {
+      "canton": "ZH",
+      "firm_name": "Jaquenod Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable sur deux tentatives (http et https)",
+      "tested_date": "2026-09-07"
+    },
     "ba-lawpartners.ch": {
       "canton": "ZH",
       "firm_name": "Ben-Attia LawPartners AG",
@@ -1821,6 +1827,27 @@
     ],
     "source_url": "https://www.barchipartners.ch/"
   },
+  "barlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bruppacher Anderes KIG",
+    "founding_year": 1993,
+    "phone": "+41 44 396 31 31",
+    "practice_areas_de": [
+      "Wirtschafts- und Vertragsrecht",
+      "M&A-Transaktionen",
+      "Arbeits- und Aufenthaltsrecht",
+      "Immobilien- und Sachenrecht",
+      "Bank- und Regulierungsrecht",
+      "Nachlassplanung und Erbschaftsverwaltung",
+      "Streitbeilegung und Prozessführung",
+      "Datenschutzrecht",
+      "Kunst- und Kulturgüterrecht",
+      "Sportrecht"
+    ],
+    "source_url": "https://www.barlaw.ch/de/",
+    "team_size_n": 2
+  },
   "bartl-egli.ch": {
     "canton": "SG",
     "email": "advokatur@bartl-egli.ch",
@@ -2451,6 +2478,23 @@
     "source_url": "https://www.blesi-papa.ch/",
     "team_size_n": null
   },
+  "blra.ch": {
+    "canton": "ZH",
+    "email": "bonin@blra.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bonin & Langner Rechtsanwälte",
+    "phone": "044 923 26 16",
+    "practice_areas_de": [
+      "Wirtschaftsstrafrecht",
+      "Gewalt- und Sexualdelikte",
+      "Betäubungsmitteldelikte",
+      "Jugendstrafrecht",
+      "Opfer- und Privatklägervertretung",
+      "Verkehrsdelikte"
+    ],
+    "source_url": "https://www.blra.ch/",
+    "team_size_n": 2
+  },
   "blumenfeld.law": {
     "canton": "ZH",
     "email": "office@blumenfeld.law",
@@ -2512,6 +2556,21 @@
       "Jugendstrafrecht"
     ],
     "source_url": "https://www.bmbg.ch/taetigkeitsgebiete"
+  },
+  "bml-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "bruengger@bml-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Brüngger Mattenberger Rechtsanwälte",
+    "phone": "044 364 02 84",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "öffentliches und privates Baurecht",
+      "Planungsrecht",
+      "Enteignungsrecht"
+    ],
+    "source_url": "https://www.bml-rechtsanwaelte.ch/",
+    "team_size_n": 2
   },
   "bmlaw.ch": {
     "canton": "ZH",
@@ -2699,6 +2758,15 @@
     "firm_name": "BosLaw AG Rechtsanwälte",
     "phone": "+41 43 299 60 90",
     "source_url": "https://www.bos-law.ch/"
+  },
+  "bowilaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bosonnet Wick Rechtsanwälte",
+    "founding_year": 2007,
+    "phone": "044 261 90 68",
+    "source_url": "http://www.bowilaw.ch/",
+    "team_size_n": 2
   },
   "bpanwalt.ch": {
     "canton": "ZH",
@@ -3026,6 +3094,22 @@
     "practice_areas_fr": [],
     "source_url": "https://www.charlesrussellspeechlys.com/en/our-locations/offices/zurich/",
     "team_size_n": null
+  },
+  "chlup.ch": {
+    "canton": "ZH",
+    "email": "info@chlup.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Chlup Legal Services",
+    "phone": "+41 44 599 9362",
+    "practice_areas_en": [
+      "Contentious & amicable divorce",
+      "Complex divorces with high assets",
+      "Real estate division",
+      "Spousal and child maintenance",
+      "Custody disputes",
+      "Marital protection"
+    ],
+    "source_url": "https://divorce-lawyer.ch/de"
   },
   "churanwalt.ch": {
     "canton": "GR",
@@ -7298,6 +7382,22 @@
     "source_url": "https://spuehler.legal/",
     "team_size_n": null
   },
+  "sq-legal.ch": {
+    "canton": "ZH",
+    "email": "info@sq-legal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "SEQUOIA Legal & Advisory GmbH",
+    "phone": "+41 58 776 77 88",
+    "practice_areas_de": [
+      "Legal Projekt Management",
+      "Wirtschafts- & Vertragsrecht",
+      "Prozessführung & Schiedsgerichtsbarkeit",
+      "Immobilien- & Baurecht",
+      "Vereinsrecht",
+      "Sportrecht"
+    ],
+    "source_url": "https://sq-legal.ch/"
+  },
   "sraag.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -7818,6 +7918,19 @@
     ],
     "source_url": "https://www.teamlegal.ch/"
   },
+  "tebl-law.com": {
+    "canton": "ZH",
+    "email": "info@tebl-law.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Tethong Blattner AG",
+    "phone": "+41 43 268 01 01",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Verwaltungsstrafrecht"
+    ],
+    "source_url": "https://tebl-law.com/de/kontakt"
+  },
   "teichmann-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -7945,6 +8058,19 @@
     ],
     "source_url": "https://www.tls-partner.ch/de/ueber-uns",
     "team_size_n": null
+  },
+  "trigondorf.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Trachsel Bortolani Partner Rechtsanwälte & Mediatoren",
+    "phone": "043 222 62 62",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.trigondorf.ch/de/team",
+    "specialist_certification": "Fachanwalt SAV Erbrecht (Daniel Trachsel)",
+    "team_size_n": 2
   },
   "trollerlaw.ch": {
     "canton": "LU",

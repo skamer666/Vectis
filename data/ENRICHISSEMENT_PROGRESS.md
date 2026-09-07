@@ -2412,3 +2412,19 @@ Forbidden sur la page de contact).
 
 Rattachement : 451 études rattachées au total (442 → 451, +9 nettes). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-07 23h04 UTC — Phase 3, lot 39 (exécution automatisée)
+
+9 cabinets traités (8 succès / 1 échec), tous ZH -- boutiques à 2 avocats, file des cabinets
+≥3 avocats désormais quasi épuisée sur ce canton. Bruppacher Anderes KIG (Zollikon, fondée
+**1993**, tel, 2 avocats, 10 domaines DE), SEQUOIA Legal & Advisory GmbH (tel/email, 6 domaines
+DE), Bonin & Langner Rechtsanwälte (boutique droit pénal exclusivement, tel/email, 2 avocats, 6
+domaines DE), Brüngger Mattenberger Rechtsanwälte (tel/email, 2 avocats, 4 domaines DE),
+Tethong Blattner AG (cabinet bi-site Zurich/Berne, tel/email bureau zurichois, 3 domaines DE),
+Trachsel Bortolani Partner Rechtsanwälte & Mediatoren (tel, 2 avocats, **Fachanwalt SAV
+Erbrecht** pour Daniel Trachsel), Bosonnet Wick Rechtsanwälte (fondée **2007** -- "Seit 2007
+führen wir gemeinsam eine Kanzlei", tel, 2 avocats fondateurs), Chlup Legal Services (boutique
+droit de la famille/divorce, tel/email, 6 domaines EN). **Échec :** Jaquenod Rechtsanwälte
+(apollolaw.ch, HTTP 503 sur deux tentatives http et https).
+
+Rattachement : 459 études rattachées au total (451 → 459, +8). Suite de tests : 94/94 au vert.
