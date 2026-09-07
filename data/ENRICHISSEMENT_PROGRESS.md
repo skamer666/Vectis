@@ -1950,3 +1950,23 @@ AG (SG, boutique droit public, tel/email, 6 domaines DE), Gabriel & Bucher AG An
 **Échec :** BAADER Rechtsanwälte AG (BL) -- site baaderlex.ch inaccessible (HTTP 403).
 
 Rattachement : 242 études rattachées au total (229 → 242, +13). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 00h03 UTC — Phase 3, lot 16 (exécution automatisée)
+
+12 cabinets traités (12 succès / 1 échec), tous ZH sauf 2 LU : Advoro Zürich AG (bureau ZH
+distinct d'Advoro AG SG déjà en cache, tel/email, 9 domaines EN), grosz poledna rc AG (boutique
+droit public, tel/email, 14 domaines DE), Häfliger Haag Häfliger AG (LU, tel, 9 domaines DE),
+Vollenweider Steiner Advokatur & Notariat (LU, tel/email, 5 domaines DE), rothorn legal AG
+(adresse seule, aucun autre fait exploitable), Willimann & Donghi Rechtsanwälte (tel/email, 15
+domaines DE), Wieduwilt Rechtsanwälte AG (tel/email, 11 domaines DE), Wehrenberg Rechtsanwälte
+GmbH (boutique pénal économique, tel/email, 3 domaines DE), Trachsel Bürgi & Partner (tel, 16
+domaines DE), Viadukt Recht GmbH (boutique droit de la construction, tel/email, 8 domaines DE),
+Theiler Hablützel Rechtsanwälte AG (tel/email, 12 domaines DE). **Échec :** WEINMANN ZIMMERLI
+Rechtsanwälte AG (site en rendu JS, "Loading..." uniquement).
+
+**Note :** le CSV ZH contient une duplication ("Wieduwilt Rechtsanwälte AG" et "Wieduwilt
+Rechtsanwälte" comme deux études distinctes) -- collision de nom cœur, rattachement
+correctement ignoré par le garde-fou plutôt que risquer une mauvaise attribution.
+
+Rattachement : 252 études rattachées au total (242 → 252, +10 ; 1 collision supplémentaire
+ignorée à bon escient). Suite de tests : 94/94 au vert.

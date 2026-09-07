@@ -294,6 +294,12 @@
       "firm_name": "Vincenz & Partner",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "weinmann-zimmerli.ch": {
+      "canton": "ZH",
+      "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
+      "reason": "site en rendu JS (Nuxt skeleton, 'Loading...'), aucun contenu exploitable au fetch",
+      "tested_date": "2026-09-07"
+    },
     "zurich-law.ch": {
       "canton": "ZH",
       "firm_name": "Zürcher Rechtsanwälte AG",
@@ -671,6 +677,25 @@
     "source_url": "https://advokern.ch/buero/",
     "team_size_n": 9
   },
+  "advoro-zuerich.ch": {
+    "canton": "ZH",
+    "email": "info@advoro.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advoro Zürich AG",
+    "phone": "+41 44 274 16 00",
+    "practice_areas_en": [
+      "Corporate Law & Transactions",
+      "Financial Services and Fintech",
+      "Commercial Law & Contracts",
+      "Life Sciences & Healthcare",
+      "Regulatory & Public Sector",
+      "Criminal Law & Investigations",
+      "Tax Law",
+      "Private Clients",
+      "Notarial Services"
+    ],
+    "source_url": "https://www.advoro.ch/en"
+  },
   "advoro.ch": {
     "canton": "SG",
     "email": "info@advoro.ch",
@@ -849,6 +874,24 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "team_size_n": null
+  },
+  "anwaltluzern.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Häfliger Haag Häfliger AG",
+    "phone": "+41 41 417 11 88",
+    "practice_areas_de": [
+      "Haftung aus Verkehrsunfall",
+      "Haftung für Arbeitsunfall",
+      "Ehescheidung",
+      "Eheschutz (Regelung des Getrenntlebens)",
+      "Familienrecht",
+      "Patientenrecht, Arzthaftpflichtrecht und Behandlungsfehler",
+      "Grundstückgeschäfte: Grundstückkaufvertrag, Pfandrechte, Dienstbarkeiten",
+      "Ehe- und Erbvertrag, Testament und Meistbegünstigung des Überlebenden",
+      "Vorsorgeauftrag"
+    ],
+    "source_url": "https://www.anwaltluzern.ch/de/kontakt/"
   },
   "anwaltspraxis.ch": {
     "canton": "LU",
@@ -2496,6 +2539,30 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "groszpoledna.ch": {
+    "canton": "ZH",
+    "email": "office@gp-rc.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "grosz poledna rc AG",
+    "phone": "+41 43 233 40 33",
+    "practice_areas_de": [
+      "Aufsichtsrecht",
+      "Organisationsrecht",
+      "Personalrecht",
+      "Gemeinderecht",
+      "Staatshaftung",
+      "Administrativuntersuchungen",
+      "Datenschutzrecht",
+      "Arztrecht",
+      "Gesundheitsrecht",
+      "Umwelt- und Klimarecht",
+      "Öffentliche Infrastruktur",
+      "Migrationsrecht",
+      "Politische Rechte",
+      "Grund- und Menschenrechte"
+    ],
+    "source_url": "https://www.groszpoledna.ch/kompetenzen"
+  },
   "hartmanndreyer.ch": {
     "canton": "FR",
     "email": "office@hartmanndreyer.ch",
@@ -4045,6 +4112,12 @@
     "source_url": "https://romeroziegler.ch/kanzleiprofil/",
     "team_size_n": null
   },
+  "rothorn-legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "rothorn legal AG",
+    "source_url": "https://www.moneyhouse.ch/en/company/rothorn-legal-ag-8165934261"
+  },
   "rsplaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4724,6 +4797,31 @@
     "source_url": "https://www.tbp-law.ch/",
     "team_size_n": null
   },
+  "tbplegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Trachsel Bürgi & Partner",
+    "phone": "+41 44 250 88 50",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Eherecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Immobilienrecht",
+      "KMU-Beratungen",
+      "Mediation",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Öffentliches Personalrecht",
+      "Partnerschaft",
+      "Scheidungsrecht",
+      "Sportrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.tbplegal.ch/de/"
+  },
   "teamlegal.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -4761,6 +4859,28 @@
     "practice_areas_fr": [],
     "source_url": "https://www.teichmann-law.ch/en/",
     "team_size_n": null
+  },
+  "thlegal.ch": {
+    "canton": "ZH",
+    "email": "info@thlegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Theiler Hablützel Rechtsanwälte AG",
+    "phone": "+41 44 545 08 08",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Miet- und Arbeitsrecht",
+      "Privates Baurecht (Werkvertrag, etc.)",
+      "Familien- und Personenrecht",
+      "Straf- und Strafprozessrecht",
+      "Verteidigung beschuldigter Personen",
+      "Opfer- und Geschädigtenvertretung",
+      "Gründung und Auflösung",
+      "Umstrukturierungen",
+      "Corporate Governance",
+      "Aktionärsbindungsverträge",
+      "Verantwortlichkeitsklagen"
+    ],
+    "source_url": "http://www.thlegal.ch/"
   },
   "thouvenin.com": {
     "canton": "ZH",
@@ -4986,6 +5106,24 @@
     "phone": "+41 44 206 20 20",
     "source_url": "https://vfs-partner.ch/en/home/"
   },
+  "viadukt.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@viadukt.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Viadukt Recht GmbH",
+    "phone": "+41 44 286 20 00",
+    "practice_areas_de": [
+      "Baubewilligungs- | Baugesuchsverfahren",
+      "Einsprache- | Rekurs- und Beschwerdeverfahren",
+      "Raumplanung | Zonenordnung",
+      "Denkmalschutz | Heimatschutz",
+      "Städtebauliche Verträge | Mehrwertausgleich",
+      "Strassen und Verkehr",
+      "Rechtliche Bauprojektbegleitung",
+      "Planer- und Werkverträge | SIA-Ordnungen"
+    ],
+    "source_url": "https://www.viadukt.ch/de/recht/bau-planung"
+  },
   "vialex.ch": {
     "canton": "ZH",
     "email": "info@vialex.ch",
@@ -5030,6 +5168,21 @@
     "practice_areas_de": null,
     "source_url": "https://vocate.ch/",
     "team_size_n": 6
+  },
+  "vollenweidersteiner.ch": {
+    "canton": "LU",
+    "email": "kanzlei@vollenweidersteiner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Vollenweider Steiner Advokatur & Notariat",
+    "phone": "041 508 00 00",
+    "practice_areas_de": [
+      "Notariat",
+      "Arbeitsrecht",
+      "Baurecht",
+      "Rechtsberatung",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.vollenweidersteiner.ch/kontakt"
   },
   "walche.ch": {
     "canton": "ZH",
@@ -5141,6 +5294,31 @@
     "source_url": "https://www.wartmann-merker.ch/en/firm",
     "team_size_n": null
   },
+  "wdlaw.ch": {
+    "canton": "ZH",
+    "email": "info@wdlaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Willimann & Donghi Rechtsanwälte",
+    "phone": "+41 44 269 64 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Handels-und Gesellschaftsrecht",
+      "Immobilienrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Konkubinats-, Ehe- und Scheidungsrecht",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Vereinsrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Werkvertragsrecht (inkl. Bauhandwerkerpfandrecht)"
+    ],
+    "source_url": "https://wdlaw.ch/de/fachgebiete"
+  },
   "weber-schaub.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -5160,6 +5338,19 @@
     ],
     "source_url": "https://www.weber-schaub.ch/en/wsp/about-us/",
     "team_size_n": null
+  },
+  "wehrenberg-law.ch": {
+    "canton": "ZH",
+    "email": "info@wehrenberg-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Wehrenberg Rechtsanwälte GmbH",
+    "phone": "+41 44 201 12 26",
+    "practice_areas_de": [
+      "Wirtschaftsstrafrecht",
+      "Wirtschafts- / Vertragsrecht",
+      "Sanktionsrecht / Compliance"
+    ],
+    "source_url": "https://wehrenberg-law.ch/"
   },
   "wenger-plattner.ch": {
     "canton": "BS",
@@ -5302,6 +5493,27 @@
     ],
     "source_url": "https://wickipartners.ch/",
     "team_size_n": 8
+  },
+  "wieduwilt.ch": {
+    "canton": "ZH",
+    "email": "welcome@wieduwilt.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Wieduwilt Rechtsanwälte AG",
+    "phone": "052 262 70 30",
+    "practice_areas_de": [
+      "Handels- und Gesellschaftsrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Ehe- und Familienrecht",
+      "Mediation",
+      "Kindsrecht",
+      "Immobilien- und Baurecht",
+      "Strafrecht und Wirtschaftsstrafrecht",
+      "Steuerrecht",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.wieduwilt.ch/taetigkeitsgebiete/"
   },
   "wildschnyder.ch": {
     "canton": "ZH",
