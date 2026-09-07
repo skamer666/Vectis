@@ -2372,3 +2372,26 @@ diplômés + 4 juristes/substituts + 4 administratif) ventilé -- seul le nombre
 
 Rattachement : 434 études rattachées au total (426 → 434, +8 nettes). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-07 21h04 UTC — Phase 3, lot 37 (exécution automatisée)
+
+8 cabinets traités (8 succès / 0 échec), retour sur ZH -- la file des cabinets ≥3 avocats du
+canton est quasi épuisée, ce lot porte sur des boutiques à 1-2 avocats. Doublon réutilisé :
+`rfplegal.ch#ZH` (Roesle Frick & Partner, 2e ligne CSV ZH pour le cabinet bi-site déjà traité en
+SZ au lot 36). 7 nouveaux : Baudenbacher Law AG (cabinet international Zurich/Bruxelles/Oslo,
+tel/email bureau zurichois, 8 domaines EN -- statistiques des bureaux étrangers écartées, règle
+4), Nobel & Partner Rechtsanwälte (boutique droit commercial international, tel/email, 10
+domaines EN), Dietrich, Baumgartner & Partner (tel, 8 domaines EN), Widmer Baurecht AG
+(boutique droit de la construction, tel/email), ammann + rosselet rechtsanwälte (fondée
+**1994** -- "besteht in ihrer heutigen Form seit 1994", tel/email, 6 domaines DE), CONSAVO Legal
+AG (bureaux Zurich/Zoug/Kobe, tel/email bureau légal), ATR Rechtsanwälte AG (tel, 3 avocats, 12
+domaines EN).
+
+Note : un candidat (Adler Salminen Rechtsanwälte AG) a été écarté après recherche -- une source
+tierce suggérait une fusion avec BAT Rechtsanwälte AG, mais le site officiel de BAT ne confirme
+cette continuité nulle part ; par prudence, aucune entrée n'a été créée plutôt que de supposer
+un lien non vérifié sur la source primaire (candidat laissé pour une prochaine tentative avec
+une recherche plus ciblée).
+
+Rattachement : 442 études rattachées au total (434 → 442, +8 nettes). Suite de tests : 94/94 au
+vert.

@@ -1245,6 +1245,23 @@
     "source_url": "https://www.amiko.law/kontakt/",
     "team_size_n": 3
   },
+  "ammann-rosselet.ch": {
+    "canton": "ZH",
+    "email": "amro@ammann-rosselet.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "ammann + rosselet rechtsanwälte",
+    "founding_year": 1994,
+    "phone": "044 267 60 33",
+    "practice_areas_de": [
+      "Allgemeines Verwaltungsrecht",
+      "Ausländerrecht",
+      "Erbrecht",
+      "Strafrecht",
+      "Konkubinatsrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.ammann-rosselet.ch/"
+  },
   "ampark.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1472,6 +1489,28 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
+  },
+  "atr-legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "ATR Rechtsanwälte AG",
+    "phone": "+41 44 250 42 00",
+    "practice_areas_en": [
+      "Corporate law",
+      "Contract law",
+      "Bankruptcy law",
+      "Tax law",
+      "Employment law",
+      "Litigation and arbitration",
+      "White-collar crime",
+      "International legal aid",
+      "Data protection law",
+      "Public commercial law",
+      "Health law",
+      "Education law"
+    ],
+    "source_url": "https://www.atr-legal.ch/en/",
+    "team_size_n": 3
   },
   "attanasio-law.ch": {
     "canton": "ZH",
@@ -1823,6 +1862,24 @@
     "source_url": "https://www.basleradvokatinnen.ch/taetigkeiten.html",
     "team_size_n": 9,
     "team_size_text": "9 avocats"
+  },
+  "baudenbacher.law": {
+    "canton": "ZH",
+    "email": "info@baudenbacher.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Baudenbacher Law AG",
+    "phone": "+41 44 202 88 83",
+    "practice_areas_en": [
+      "Contract law",
+      "Tort law including product liability",
+      "Corporate, finance and capital markets law",
+      "Swiss and European antitrust law",
+      "European internal market law",
+      "Economic human rights law",
+      "Intellectual property law",
+      "Art law"
+    ],
+    "source_url": "https://baudenbacher.law/legal-notice-privacy-policy/"
   },
   "baumberger-rechtsanwaelte.ch": {
     "canton": "ZH",
@@ -2940,6 +2997,14 @@
     ],
     "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
   },
+  "consavo.com": {
+    "canton": "ZH",
+    "email": "legal@consavo.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "CONSAVO Legal AG",
+    "phone": "+41 44 552 49 20",
+    "source_url": "https://www.consavo.com/consavo-adressen/"
+  },
   "d32.ch": {
     "canton": "ZH",
     "email": "sekretariat@d32.ch",
@@ -2961,6 +3026,24 @@
     "practice_areas_fr": [],
     "source_url": "https://davatzlegal.ch/en",
     "team_size_n": null
+  },
+  "dbp.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Dietrich, Baumgartner & Partner",
+    "phone": "+41 (0)44 217 47 47",
+    "practice_areas_en": [
+      "International commercial and corporate law",
+      "Contract law",
+      "Banking and financial market law",
+      "National and international corporate tax law",
+      "Arbitration",
+      "Succession planning, trusts and foundations",
+      "Labor market law and residence permits",
+      "International legal assistance"
+    ],
+    "source_url": "https://dbp.ch/en/hotel.php",
+    "team_size_n": 8
   },
   "devonlegal.ch": {
     "canton": "ZH",
@@ -5884,6 +5967,26 @@
     "source_url": "https://www.nkf.ch/",
     "team_size_n": null
   },
+  "nobel.law": {
+    "canton": "ZH",
+    "email": "info@nobel.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Nobel & Partner Rechtsanwälte",
+    "phone": "+41 44 269 77 77",
+    "practice_areas_en": [
+      "Corporate law",
+      "Stock exchange law",
+      "Contract law",
+      "Financial market law",
+      "Competition law",
+      "Intellectual property law",
+      "European internal market law",
+      "Swiss-EU relations law",
+      "EFTA and EEA law",
+      "Arbitration"
+    ],
+    "source_url": "https://nobel.law/about-us"
+  },
   "novalex.ch": {
     "canton": "AR",
     "email": "info@novalex.ch",
@@ -6359,6 +6462,13 @@
     "fetched_date": "2026-09-07",
     "firm_name": "Roesle Frick & Partner Roesle Frick & Partner",
     "phone": "+41 55 416 26 36",
+    "source_url": "https://www.rfplegal.ch/en/"
+  },
+  "rfplegal.ch#ZH": {
+    "canton": "ZH",
+    "email": "rfpzh@rfplegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Roesle Frick & Partner",
     "source_url": "https://www.rfplegal.ch/en/"
   },
   "rickenbach-law.ch": {
@@ -8329,6 +8439,14 @@
     ],
     "source_url": "https://wickipartners.ch/",
     "team_size_n": 8
+  },
+  "widmer-baurecht.ch": {
+    "canton": "ZH",
+    "email": "kontakt@widmer-baurecht.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Widmer Baurecht AG",
+    "phone": "+41 43 530 09 27",
+    "source_url": "https://widmer-baurecht.ch/kontakt/"
   },
   "wieduwilt.ch": {
     "canton": "ZH",
