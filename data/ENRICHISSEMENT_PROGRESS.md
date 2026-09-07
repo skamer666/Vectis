@@ -2107,3 +2107,21 @@ spécifiques à Zurich, 12 domaines EN droit immobilier/construction), von Arx S
 médiation, tel). **Échec :** versaLex AG (HTTP 403 Forbidden).
 
 Rattachement : 325 études rattachées au total (318 → 325, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 10h03 UTC — Phase 3, lot 26 (exécution automatisée)
+
+7 cabinets traités (7 succès / 1 échec), tous ZH -- la file des cabinets ≥4 avocats est
+maintenant quasi épuisée, ce lot est majoritairement composé de cabinets à 3 avocats : Rappold
+Köhli Rechtsanwälte AG (tel, 3 domaines EN), Sautter & Ammann (fondée **1973**, tel, 12
+domaines DE), Schwärzler Rechtsanwälte AG (bureau zurichois d'un cabinet liechtensteinois,
+tel/email, 12 domaines FR), Steiger Legal AG (boutique droit numérique, tel/email, 4 domaines
+DE), Wildeisen Anwaltskanzlei GmbH (tel/email, 3 domaines DE), Scope Law AG (tel/email, 8
+domaines EN), Zanetti & Schmidhauser Rechtsanwälte (boutique droit fiscal, tel/email, 4
+domaines EN). **Échec :** Wiesli Rechtsanwälte (domaine ww-law.ch introuvable en DNS).
+
+**Note sur l'ampleur du travail restant :** ~1959 études non traitées restent dans les 12
+cantons groupables (325 rattachées sur 2322 études recensées, soit ~14%) -- au rythme actuel
+(~7 cabinets/heure), il reste plusieurs jours de travail avant d'épuiser cette liste, et elle
+ne couvre pas GE/VD ni les avocats individuels sans cabinet identifiable.
+
+Rattachement : 332 études rattachées au total (325 → 332, +7). Suite de tests : 94/94 au vert.

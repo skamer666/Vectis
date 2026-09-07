@@ -384,6 +384,12 @@
       "reason": "site en rendu JS (Nuxt skeleton, 'Loading...'), aucun contenu exploitable au fetch",
       "tested_date": "2026-09-07"
     },
+    "ww-law.ch": {
+      "canton": "ZH",
+      "firm_name": "Wiesli Rechtsanwälte",
+      "reason": "domaine ww-law.ch ne resout pas (DNS ENOTFOUND)",
+      "tested_date": "2026-09-07"
+    },
     "zurich-law.ch": {
       "canton": "ZH",
       "firm_name": "Zürcher Rechtsanwälte AG",
@@ -3439,6 +3445,28 @@
     ],
     "source_url": "https://www.jetzer-frank.ch/"
   },
+  "juram.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Sautter & Ammann",
+    "founding_year": 1973,
+    "phone": "044 905 57 57",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Erbrecht inklusive Willensvollstreckermandate",
+      "Familien-, Ehe-, Scheidungs- und Konkubinatsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Mediation",
+      "Miet- und Pachtrecht",
+      "Privatversicherungsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Sozialversicherungsrecht",
+      "Steuerrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://www.juram.ch/"
+  },
   "kaempfenlegal.ch": {
     "canton": "ZH",
     "email": "info@kaempfenlegal.ch",
@@ -4939,6 +4967,18 @@
     "source_url": "https://www.quinnemanuel.com/offices/zurich/",
     "team_size_n": null
   },
+  "rappoldkoehli.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Rappold Köhli Rechtsanwälte AG",
+    "phone": "+41 44 388 12 12",
+    "practice_areas_en": [
+      "Real estate",
+      "Corporate law and contracts",
+      "M&A and private equity"
+    ],
+    "source_url": "https://rappoldkoehli.ch/en/"
+  },
   "reberlaw.ch": {
     "canton": "ZH",
     "email": "welcome@reberlaw.ch",
@@ -5300,6 +5340,28 @@
     "source_url": "https://www.ruossvoegele.ch/kanzlei",
     "team_size_n": null
   },
+  "s-law.com": {
+    "canton": "ZH",
+    "email": "zurich@s-law.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schwärzler Rechtsanwälte AG",
+    "phone": "+41 44 482 70 20",
+    "practice_areas_fr": [
+      "Procédure civile et contentieux",
+      "Droit des sociétés et structures commerciales",
+      "Fusions et acquisitions (M&A)",
+      "Droit des contrats",
+      "Droit pénal (criminalité économique, recouvrement d'actifs, entraide judiciaire internationale)",
+      "Protection des investisseurs",
+      "Droit fiscal international",
+      "Entraide administrative internationale en matière fiscale",
+      "Droit des sanctions",
+      "Rétrocessions et commissions",
+      "Planification successorale et droit des successions",
+      "Droit du travail"
+    ],
+    "source_url": "https://www.s-law.com/en/zuerich/"
+  },
   "sartorial.ch": {
     "canton": "SG",
     "email": "info@sartorial.ch",
@@ -5444,6 +5506,24 @@
     "practice_areas_fr": [],
     "source_url": "https://schochauer.ch/en/company/",
     "team_size_n": null
+  },
+  "scope.law": {
+    "canton": "ZH",
+    "email": "info@scope.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Scope Law AG",
+    "phone": "+41 44 244 41 70",
+    "practice_areas_en": [
+      "Employment & Social Security",
+      "Privacy & Data Protection",
+      "Corporate Law, M&A and CF",
+      "Intellectual Property, Technology & IT",
+      "Litigation & Procedures",
+      "Startup & Venture Capital",
+      "Contract & Commercial",
+      "Life Sciences"
+    ],
+    "source_url": "https://www.scope.law/kontakt?lang=en"
   },
   "sglaw.ch": {
     "_failed": true,
@@ -5618,6 +5698,20 @@
     ],
     "source_url": "https://stadelmann.ch/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Bernhard Stadelmann, Joe Räber)"
+  },
+  "steigerlegal.ch": {
+    "canton": "ZH",
+    "email": "info@steigerlegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Steiger Legal AG",
+    "phone": "+41 44 533 13 60",
+    "practice_areas_de": [
+      "Datenschutzrecht",
+      "Immaterialgüterrecht",
+      "IT-Recht",
+      "Medienrecht"
+    ],
+    "source_url": "https://steigerlegal.ch/profil/"
   },
   "steinlex.ch": {
     "canton": "ZH",
@@ -6811,6 +6905,19 @@
     ],
     "source_url": "https://wolfer-frey.ch/"
   },
+  "wrecht.ch": {
+    "canton": "ZH",
+    "email": "anfrage@wrecht.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Wildeisen Anwaltskanzlei GmbH",
+    "phone": "+41 44 552 85 85",
+    "practice_areas_de": [
+      "Ehe- und Erbrecht",
+      "Gesellschaftsrecht",
+      "Firmengründungen"
+    ],
+    "source_url": "https://www.wrecht.ch/"
+  },
   "wslaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -6853,6 +6960,20 @@
     "firm_name": "ZR Law AG",
     "phone": "+41 44 932 42 22",
     "source_url": "https://zr-law.ch/"
+  },
+  "zstax.ch": {
+    "canton": "ZH",
+    "email": "info@zstax.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Zanetti & Schmidhauser Rechtsanwälte",
+    "phone": "+41 (0)44 442 15 15",
+    "practice_areas_en": [
+      "Tax law",
+      "Litigation and representation in tax matters",
+      "Corporate and contract law",
+      "Inheritance law and estate planning"
+    ],
+    "source_url": "https://zstax.ch/en/"
   },
   "zurich-law.ch": {
     "canton": "ZH",
