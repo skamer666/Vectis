@@ -61,6 +61,12 @@
       "reason": "page d'accueil ne contient que le nom du cabinet (site probablement en rendu JS), aucun fait exploitable",
       "tested_date": "2026-09-06"
     },
+    "ba-lawpartners.ch": {
+      "canton": "ZH",
+      "firm_name": "Ben-Attia LawPartners AG",
+      "reason": "HTTP 403 Forbidden sur la page de contact",
+      "tested_date": "2026-09-07"
+    },
     "baaderlex.ch": {
       "canton": "BL",
       "firm_name": "BAADER Rechtsanwälte AG",
@@ -1490,6 +1496,22 @@
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
   },
+  "arioli-law.ch": {
+    "canton": "ZH",
+    "email": "martina.arioli@arioli-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Arioli Law",
+    "founding_year": 2013,
+    "practice_areas_en": [
+      "Tech Law",
+      "Sourcing & Cloud",
+      "Data (governance, protection, economy)",
+      "Public Law",
+      "Entertainment Law"
+    ],
+    "source_url": "https://www.arioli-law.ch/",
+    "team_size_n": 2
+  },
   "atr-legal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -1608,6 +1630,21 @@
     ],
     "source_url": "https://baechtold-gallarotti.ch/",
     "team_size_n": 5
+  },
+  "baenzigerbaenziger.ch": {
+    "canton": "ZH",
+    "email": "martin.baenziger@baenzigerbaenziger.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bänziger Bänziger Rechtsanwälte",
+    "phone": "052 233 11 22",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Mediation"
+    ],
+    "source_url": "https://baenzigerbaenziger.ch/team.html",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht (Martin Bänziger), Fachanwalt SAV Erbrecht (Urs Bänziger)",
+    "team_size_n": 4
   },
   "baerkarrer.ch": {
     "canton": "ZH",
@@ -1909,6 +1946,15 @@
       "Grundstückgewinnsteuern"
     ],
     "source_url": "https://www.baumberger-rechtsanwaelte.ch/de/kompetenzen"
+  },
+  "baur-imkamp.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Baur Imkamp & Partner",
+    "founding_year": 1985,
+    "phone": "+41 [0] 44 820 28 28",
+    "source_url": "https://www.baur-imkamp.ch/",
+    "team_size_n": 3
   },
   "baurecht.ch": {
     "canton": "ZH",
@@ -2288,6 +2334,22 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "bihrerlaw.ch": {
+    "canton": "ZH",
+    "email": "info@bihrerlaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bihrer Rechtsanwälte AG",
+    "phone": "+41 44 212 30 00",
+    "practice_areas_de": [
+      "Steuerplanung",
+      "Rechtsberatung",
+      "Finanzdienstleistungen",
+      "Datenschutzrecht",
+      "Insolvenzrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.bihrerlaw.ch/"
+  },
   "binderlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2362,6 +2424,15 @@
     "practice_areas_fr": [],
     "source_url": "https://www.bkp-legal.ch/en/home",
     "team_size_n": null
+  },
+  "bl-recht.ch": {
+    "canton": "ZH",
+    "email": "info@bl-recht.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bettschart Litscher Rechtsanwälte",
+    "phone": "+41(0)44 787 10 20",
+    "source_url": "https://www.bl-recht.ch/anwaltskanzlei/",
+    "team_size_n": 2
   },
   "blesi-papa.ch": {
     "canton": "ZH",
@@ -2596,6 +2667,23 @@
     "source_url": "https://bodmerfischer.ch/en/expertise/",
     "team_size_n": null
   },
+  "bommermathys.ch": {
+    "canton": "ZH",
+    "email": "info@bommermathys.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BommerMathys Rechtsanwälte",
+    "phone": "+41 43 311 12 00",
+    "practice_areas_en": [
+      "Proceedings/Litigation",
+      "Restructuring/Enforcement",
+      "Contracts",
+      "Corporate Law",
+      "Inheritance/Estate Law",
+      "Banking Law"
+    ],
+    "source_url": "https://www.bommermathys.ch/de",
+    "team_size_n": 4
+  },
   "borer-law.ch": {
     "canton": "ZH",
     "email": "info@borer-law.ch",
@@ -2797,6 +2885,15 @@
     ],
     "source_url": "https://www.buerki-bolt.ch/",
     "team_size_n": 7
+  },
+  "buettler-benn.ch": {
+    "canton": "ZH",
+    "email": "contact@buettler-benn.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Büttler I Benn Rechtsanwälte",
+    "phone": "+41 43 266 80 30",
+    "source_url": "https://buettler-benn.ch/en/home/",
+    "team_size_n": 2
   },
   "burckhardtlaw.com": {
     "canton": "ZH",
@@ -4219,6 +4316,26 @@
     "source_url": "https://hueberli.com/en/law-firm/",
     "team_size_n": 4
   },
+  "hugelshofer-law.com": {
+    "canton": "ZH",
+    "email": "info@hugelshofer-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Hugelshofer Rechtsanwälte",
+    "phone": "+41 (0)44 215 99 12",
+    "practice_areas_en": [
+      "Real Estate",
+      "Companies",
+      "Bank relationships",
+      "Aircrafts and Ships",
+      "Tax and Tax Planning",
+      "Trusts and Foundations",
+      "Investments and Projects",
+      "Proceedings (courts and arbitration)",
+      "Inheritance Law and Succession Planning"
+    ],
+    "source_url": "https://hugelshofer-law.com/en/",
+    "team_size_n": 3
+  },
   "huplaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -5458,6 +5575,26 @@
     "firm_name": "Lüdi Ludin Steiner AG Oberer",
     "phone": "041 920 47 76",
     "source_url": "https://lls-notariat.ch/",
+    "team_size_n": 3
+  },
+  "loewengasse.ch": {
+    "canton": "SG",
+    "email": "info@loewengasse.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "David Scherrer Büsser",
+    "phone": "+41 58 810 20 60",
+    "practice_areas_en": [
+      "Employment and tenancy law",
+      "Construction law",
+      "Family, inheritance, and property law",
+      "Agricultural and lease law",
+      "Medical and insurance law",
+      "Notary services",
+      "Traffic law",
+      "Contract and liability law",
+      "Business law"
+    ],
+    "source_url": "https://www.loewengasse.ch/en/",
     "team_size_n": 3
   },
   "losinger.law": {

@@ -2395,3 +2395,20 @@ une recherche plus ciblée).
 
 Rattachement : 442 études rattachées au total (434 → 442, +8 nettes). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-07 22h04 UTC — Phase 3, lot 38 (exécution automatisée)
+
+10 cabinets traités (9 succès / 1 échec), majoritairement ZH (boutiques à 2-3 avocats), plus 1
+SG. Bänziger Bänziger Rechtsanwälte (Winterthour, tel/email, 4 personnes, **Fachanwalt SAV
+Arbeitsrecht** pour Martin Bänziger, **Fachanwalt SAV Erbrecht** pour Urs Bänziger), Bettschart
+Litscher Rechtsanwälte (Richterswil, tel/email, 2 avocats), BommerMathys Rechtsanwälte (tel/
+email, 4 personnes, 6 domaines EN), Bihrer Rechtsanwälte AG (tel/email, 6 domaines DE), Büttler
+I Benn Rechtsanwälte (tel/email, 2 avocats), Hugelshofer Rechtsanwälte (tel/email, 3 avocats, 9
+domaines EN), Baur Imkamp & Partner (Dübendorf, fondée **1985**, tel, 3 avocats), Arioli Law
+(boutique droit tech/données, fondée **2013** par Martina Arioli ex-Walder Wyss, email, 2
+associés, 5 domaines EN), David Scherrer Büsser (aujourd'hui "Löwengasse – Rechtsanwälte &
+Notare", tel/email, 3 avocats, 9 domaines EN). **Échec :** Ben-Attia LawPartners AG (HTTP 403
+Forbidden sur la page de contact).
+
+Rattachement : 451 études rattachées au total (442 → 451, +9 nettes). Suite de tests : 94/94 au
+vert.
