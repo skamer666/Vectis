@@ -441,6 +441,12 @@
     }
   },
   "_sans_site": {
+    "Wolf Kuny Trütsch": {
+      "canton": "SZ",
+      "checked_date": "2026-09-07",
+      "firm_name": "Wolf Kuny Trütsch",
+      "reason": "Aucun site officiel dedie trouve -- avocat solo (Christoph Truetsch) utilisant une adresse email bluewin.ch generique, presence uniquement via annuaires tiers"
+    },
     "censiassociati-lugano": {
       "canton": "TI",
       "checked_date": "2026-09-07",
@@ -589,33 +595,12 @@
     "source_url": "https://www.advocare.ch/"
   },
   "advocat.ch": {
-    "canton": "SG",
-    "fetched_date": "2026-07-28",
+    "canton": "AR",
+    "email": "office@advocat.ch",
+    "fetched_date": "2026-09-07",
     "firm_name": "ME Advocat AG",
-    "founding_year": 1992,
-    "practice_areas_en": [
-      "Advance care directives",
-      "Employment law",
-      "Accident law",
-      "Divorce law",
-      "Family law",
-      "Tax law",
-      "Construction and planning law",
-      "General legal advice"
-    ],
-    "practice_areas_fr": [
-      "Prévoyance et testament de patient",
-      "Droit du travail",
-      "Droit des accidents",
-      "Droit du divorce",
-      "Droit de la famille",
-      "Droit fiscal",
-      "Droit de la construction et de l'aménagement",
-      "Conseil juridique général"
-    ],
-    "source_url": "https://www.advocat.ch/kanzlei/geschichte/",
-    "team_size_n": null,
-    "team_size_text": null
+    "phone": "+41 71 282 50 55",
+    "source_url": "https://www.advocat.ch/"
   },
   "advocentral.ch": {
     "canton": "ZH",
@@ -794,6 +779,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advokatur-west.ch/",
     "team_size_n": null
+  },
+  "advokatur-zentralschweiz.ch": {
+    "canton": "LU",
+    "email": "info@advokatur-zentralschweiz.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "ZIMMERLI & PARTNER Advokatur Zentralschweiz AG",
+    "phone": "+41 (0) 41 410 54 54",
+    "source_url": "https://www.advokatur-zentralschweiz.ch/de/kontakt"
   },
   "advokatur.ch": {
     "canton": "BL",
@@ -1272,6 +1265,14 @@
     ],
     "source_url": "https://www.amparo.ch/"
   },
+  "amrein-partner.ch": {
+    "canton": "LU",
+    "email": "info@amrein-partner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Amrein Partner Advokatur & Notariat",
+    "phone": "+41 41 229 60 00",
+    "source_url": "https://amrein-partner.ch/kontakt/"
+  },
   "anker24.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1347,6 +1348,16 @@
       "Strafrecht"
     ],
     "source_url": "https://anwaelte44.ch/fachgebiete.html"
+  },
+  "anwalt-pfister.ch": {
+    "canton": "SZ",
+    "email": "info@anwalt-pfister.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Anwaltskanzlei Christoph Pfister",
+    "phone": "+41 55 420 28 80",
+    "source_url": "https://www.anwalt-pfister.ch/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Christoph Pfister), Fachanwalt SAV Erbrecht (Christoph Pfister)",
+    "team_size_n": 2
   },
   "anwalt-zh.ch": {
     "canton": "ZH",
@@ -1905,6 +1916,26 @@
     "practice_areas_fr": [],
     "source_url": "https://beelegal.ch/en/",
     "team_size_n": null
+  },
+  "beelermarbacher.ch": {
+    "canton": "LU",
+    "email": "mail@beelermarbacher.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Beeler & Marbacher AG",
+    "phone": "+41 41 280 64 64",
+    "practice_areas_en": [
+      "Inheritance Law",
+      "Labor Law",
+      "Criminal Law",
+      "Administrative Law",
+      "Data Protection Law",
+      "Corporate Law",
+      "Property Law",
+      "Contract Law",
+      "Tenancy Law",
+      "Notarial Services"
+    ],
+    "source_url": "https://beelermarbacher.ch/en/start-english/"
   },
   "bellerive.com": {
     "canton": "ZH",
@@ -2577,6 +2608,23 @@
     "source_url": "https://www.bratschi.ch/en/about-us",
     "team_size_n": 120
   },
+  "bruecker.swiss": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Brücker AG",
+    "phone": "+41 (41) 375 35 00",
+    "practice_areas_de": [
+      "allgemeines Vertragsrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Vereins- und Stiftungsrecht",
+      "Firmengründung und -entwicklung",
+      "Nachfolgeplanung",
+      "Restrukturierung",
+      "Beratung KMU"
+    ],
+    "source_url": "https://www.bruecker.swiss/index.php?id=9",
+    "team_size_n": 4
+  },
   "bsmw.ch": {
     "canton": "ZH",
     "email": "info@bsmw.ch",
@@ -2697,6 +2745,21 @@
       "Family Office Services"
     ],
     "source_url": "https://bwr-law.ch/?lang=en"
+  },
+  "cahannes.ch": {
+    "canton": "GR",
+    "email": "advokatur@cahannes.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur-Notariat Cahannes",
+    "founding_year": 1939,
+    "phone": "+41 81 252 26 82",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://cahannes.ch/"
   },
   "caviezelpartner.ch": {
     "canton": "GR",
@@ -2927,6 +2990,21 @@
     "firm_name": "EMMLEGAL",
     "phone": "+41 44 268 47 47",
     "source_url": "https://www.emmlegal.ch/"
+  },
+  "engelberger.law": {
+    "canton": "LU",
+    "email": "info@engelberger.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Engelberger Anwälte & Notare",
+    "phone": "+41 41 229 30 30",
+    "practice_areas_en": [
+      "Family Law",
+      "Inheritance Law and Succession Planning",
+      "Notary Services",
+      "Commercial Law",
+      "Construction and Real Estate Law"
+    ],
+    "source_url": "https://www.engelberger-anwaelte.ch/en/"
   },
   "enquire.ch": {
     "canton": "ZH",
@@ -3756,6 +3834,28 @@
     "source_url": "https://www.gublergysler.ch/",
     "specialist_certification": "Fachanwalt SAV Strafrecht (Simon Gubler, 2022)",
     "team_size_n": 3
+  },
+  "guebeli-mueller.ch": {
+    "canton": "LU",
+    "email": "info@guebeli-mueller.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gübeli & Müller RECHTSANWÄLTE | NOTARE",
+    "phone": "+41 41 210 75 65",
+    "practice_areas_de": [
+      "allgemeine Rechtsberatung und Prozessführung",
+      "Notariat",
+      "Arbeitsrecht",
+      "Baurecht",
+      "Erb- und Güterrecht",
+      "Family Office",
+      "Gesellschaftsrecht",
+      "Immobilienrecht",
+      "Haftpflichtrecht",
+      "Mietrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://guebeli-mueller.ch/",
+    "team_size_n": 2
   },
   "hartmanndreyer.ch": {
     "canton": "FR",
@@ -4612,6 +4712,15 @@
     ],
     "source_url": "https://kuonilaw.ch/en/"
   },
+  "kup-law.ch": {
+    "canton": "LU",
+    "email": "kontakt@kup-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kaeslin Bänziger David & Partner",
+    "phone": "+41 (0)41 244 70 10",
+    "source_url": "https://www.kup-law.ch/kontakt",
+    "team_size_n": 6
+  },
   "lalive.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4997,6 +5106,26 @@
     ],
     "source_url": "https://www.lenzstaehelin.com/fr/notre-etude/",
     "team_size_n": null
+  },
+  "lex6000.ch": {
+    "canton": "LU",
+    "email": "kontakt@lex6000.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "RÜTTER STOCKER",
+    "phone": "041 541 40 00",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Erbrecht",
+      "bäuerliches Bodenrecht",
+      "Scheidungsrecht",
+      "Stockwerkeigentum",
+      "Nachbarrecht",
+      "Steuerrecht",
+      "Strafrecht",
+      "Mietrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.lex6000.ch/"
   },
   "lexarte.ch": {
     "canton": "ZH",
@@ -5919,6 +6048,23 @@
     "source_url": "https://pmp-ra.ch/en/home/",
     "team_size_n": null
   },
+  "poli-bernardi.ch": {
+    "canton": "NW",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Poli und Bernardi Notariat Anwaltskanzlei",
+    "phone": "041 630 30 33",
+    "practice_areas_de": [
+      "Notariat",
+      "Planungs- und Baurecht",
+      "Strafrecht",
+      "Familienrecht",
+      "Miet- und Arbeitsrecht",
+      "Zivilprozessrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.poli-bernardi.ch/",
+    "team_size_n": 3
+  },
   "prager-dreifuss.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -6501,6 +6647,26 @@
     "team_size_n": 20,
     "team_size_text": "20 spécialistes"
   },
+  "schawalder-kocher.ch": {
+    "canton": "GR",
+    "email": "sekretariat@schawalder-kocher.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schawalder + Kocher",
+    "founding_year": 2004,
+    "phone": "+41 81 422 21 21",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Mediation",
+      "Vertragsrecht",
+      "Familien- und Erbrecht",
+      "Sachenrecht",
+      "Wirtschaftsrecht",
+      "öffentliches Recht"
+    ],
+    "source_url": "https://www.schawalder-kocher.ch/",
+    "team_size_n": 3
+  },
   "schiffbau.legal": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -6700,6 +6866,35 @@
     "email": "box@sms-lawyers.ch",
     "fetched_date": "2026-09-07",
     "firm_name": "Schwager Mätzler Schneider AG",
+    "founding_year": 1956,
+    "phone": "+41 (0)71 228 29 30",
+    "practice_areas_en": [
+      "Contract law",
+      "Corporations",
+      "Insurance law",
+      "Notary services",
+      "Family law",
+      "Inheritance law",
+      "Property law",
+      "Construction law",
+      "Intellectual property",
+      "Banking law",
+      "IT law",
+      "Sports law",
+      "Criminal law",
+      "Traffic law",
+      "Tax law",
+      "Debt recovery/bankruptcy",
+      "Arbitration"
+    ],
+    "source_url": "https://www.sms-lawyers.ch/en/about-us/",
+    "team_size_n": 10
+  },
+  "sms-lawyers.ch#2": {
+    "canton": "SG",
+    "email": "box@sms-lawyers.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schwager Mätzler Schneider Rechtsanwälte",
     "founding_year": 1956,
     "phone": "+41 (0)71 228 29 30",
     "practice_areas_en": [

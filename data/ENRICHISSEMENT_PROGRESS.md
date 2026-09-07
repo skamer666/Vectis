@@ -2320,3 +2320,34 @@ proprement -- seul le nombre d'avocats retenu, jamais le total mixte.
 
 Rattachement : 413 études rattachées au total (403 → 413, +10 nettes). Suite de tests : 94/94
 au vert.
+
+### 2026-09-07 19h04 UTC — Phase 3, lot 35 (exécution automatisée)
+
+14 cabinets traités (13 succès / 1 échec `_sans_site`), premier lot couvrant LU (8 cabinets),
+plus NW, AR et 2 GR/SZ supplémentaires. Doublon réutilisé : `sms-lawyers.ch#2` (Schwager
+Mätzler Schneider Rechtsanwälte, 2e ligne CSV SG). 8 LU : Amrein Partner Advokatur & Notariat
+(tel/email), Kaeslin Bänziger David & Partner (tel/email, 6 avocats -- **piège évité** : la
+mention "1882" concerne la villa Art nouveau abritant le cabinet, pas sa fondation, donc NON
+retenue comme `founding_year`), ZIMMERLI & PARTNER Advokatur Zentralschweiz AG (tel/email),
+Beeler & Marbacher AG (tel/email, 10 domaines EN), RÜTTER STOCKER (tel/email, 10 domaines DE),
+Gübeli & Müller RECHTSANWÄLTE | NOTARE (tel/email, 2 notaires, 11 domaines DE), Brücker AG
+(tel, 4 personnes, 7 domaines DE), Engelberger Anwälte & Notare (cabinet multi-sites LU/NW/OW,
+tel/email bureau de Lucerne, 5 domaines EN). 1 AR : ME Advocat AG (bureaux Staad SG/Herisau AR,
+tel bureau AR, email). 1 NW : Poli und Bernardi Notariat Anwaltskanzlei (tel, 3 avocats, 7
+domaines DE). 2 GR : Advokatur-Notariat Cahannes (fondée **1939** -- "Unsere Kanzlei wurde 1939
+in Chur gegründet", 3e génération familiale, tel/email, 4 domaines DE), Schawalder + Kocher
+(fondée **2004**, tel/email, 3 avocats, 8 domaines DE). 1 SZ : Anwaltskanzlei Christoph Pfister
+(tel/email, 2 avocats, **Fachanwalt SAV Bau- und Immobilienrecht** et **Fachanwalt SAV Erbrecht**
+pour Christoph Pfister -- double titre confirmé explicitement sur la page d'accueil).
+
+Échec `_sans_site` : Wolf Kuny Trütsch (SZ) -- avocat solo utilisant une adresse email bluewin.ch
+générique, aucun site officiel dédié trouvé malgré recherche, présence uniquement via annuaires
+tiers.
+
+Note de rigueur : le premier jet de l'entrée Schawalder + Kocher (téléphone tiré d'un résumé
+WebSearch, jamais vérifié en direct) a été corrigé par un WebFetch direct de la page d'accueil
+avant commit -- le numéro affiché sur le site officiel diffère de celui trouvé via recherche
+tierce, confirmant l'importance de toujours vérifier sur la source primaire.
+
+Rattachement : 426 études rattachées au total (413 → 426, +13 nettes). Suite de tests : 94/94
+au vert.
