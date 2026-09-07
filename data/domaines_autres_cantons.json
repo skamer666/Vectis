@@ -1,4 +1,11 @@
 {
+  "4legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "4Legal",
+    "phone": "+41 58 058 18 20",
+    "source_url": "https://4legal.ch/en/home-english/"
+  },
   "5gambit.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -668,6 +675,13 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "advokatur-buelach.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur Bülach AG",
+    "phone": "+41 44 861 00 44",
+    "source_url": "https://www.advokatur-buelach.ch/kontakt"
+  },
   "advokatur-lachen.ch": {
     "canton": "SZ",
     "fetched_date": "2026-07-28",
@@ -729,6 +743,26 @@
       "Beschaffungs- und Werkverträge, insbesondere für ICT-Vorhaben"
     ],
     "source_url": "https://advokatur-staub.ch/"
+  },
+  "advokatur-trias.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur & Rechtsberatung TRIAS AG",
+    "phone": "+41 44 880 03 03",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Scheidungsrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Steuerrecht",
+      "Vertragsrecht",
+      "Familienrecht",
+      "Mietrecht",
+      "Gesellschaftsrecht",
+      "Verwaltungsrecht",
+      "Versicherungsrecht"
+    ],
+    "source_url": "https://advokatur-trias.ch/en/"
   },
   "advokatur-west.ch": {
     "canton": "ZH",
@@ -923,6 +957,35 @@
     "source_url": "https://advokern.ch/buero/",
     "team_size_n": 9
   },
+  "advokraft.ch": {
+    "canton": "ZH",
+    "email": "info@advokraft.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokraft",
+    "phone": "+41 44 552 63 63",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Geschädigtenvertretungen"
+    ],
+    "source_url": "https://advokraft.ch/",
+    "team_size_n": 4
+  },
+  "advomed.ch": {
+    "canton": "ZH",
+    "email": "info@advomed.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "ADVOMED",
+    "phone": "+41 43 377 99 88",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Opferhilferecht"
+    ],
+    "source_url": "https://www.advomed.ch/",
+    "specialist_certification": "Fachanwaltstitel im Haftpflicht- und Versicherungsrecht (Evalotta Samuelsson)",
+    "team_size_n": 4
+  },
   "advoro-zuerich.ch": {
     "canton": "ZH",
     "email": "info@advoro.ch",
@@ -1022,6 +1085,14 @@
     "source_url": "https://www.aequitaslex.ch/",
     "team_size_n": 9
   },
+  "agon-legal.ch": {
+    "canton": "ZH",
+    "email": "info@agon-partners.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "AGON PARTNERS LEGAL AG",
+    "phone": "+41 43 344 95 82",
+    "source_url": "https://agon-legal.ch/kontakt"
+  },
   "ah4.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -1101,6 +1172,22 @@
     ],
     "source_url": "https://www.altenburger.ch/expertise",
     "team_size_n": null
+  },
+  "amiko.law": {
+    "canton": "ZH",
+    "email": "kanzlei@amiko.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "AMIKO Anwält:innen",
+    "phone": "+41 43 543 30 30",
+    "practice_areas_de": [
+      "Unfall",
+      "Krankheit",
+      "Strafrecht",
+      "Vorsorge",
+      "Arbeit"
+    ],
+    "source_url": "https://www.amiko.law/kontakt/",
+    "team_size_n": 3
   },
   "ampark.law": {
     "canton": "ZH",
@@ -1783,6 +1870,15 @@
     ],
     "source_url": "https://www.bellerive.com/dienstleistungen"
   },
+  "bellevuerecht.ch": {
+    "canton": "ZH",
+    "email": "office@bellevuerecht.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bellevue Rechtsanwälte",
+    "phone": "+41 44 250 70 90",
+    "source_url": "https://bellevuerecht.ch/html/kontakt.html",
+    "team_size_n": 4
+  },
   "bellparklegal.com": {
     "canton": "ZH",
     "email": "info@bellparklegal.com",
@@ -2462,16 +2558,17 @@
     "team_size_n": 7
   },
   "burckhardtlaw.com": {
-    "canton": "BS",
-    "fetched_date": "2026-07-28",
+    "canton": "ZH",
+    "email": "info@burckhardtlaw.com",
+    "fetched_date": "2026-09-07",
     "firm_name": "burckhardt AG",
-    "founding_year": null,
-    "notes": "20 avocats, notaires et experts fiscaux (explicite: '20 Anwälte, Notare sowie Steuerexperten'). Site indique '10+ années d'activité' sans préciser l'année de fondation. Deux bureaux: Bâle et Zurich. Spécialisé en droit des affaires (Wirtschafts- und Steuerrecht).",
-    "practice_areas_fr": [
-      "Droit des affaires et fiscal"
+    "phone": "+41 58 881 02 01",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Steuerrecht",
+      "Notariatsdienste"
     ],
-    "source_url": "https://www.burckhardtlaw.com/",
-    "team_size_n": 20
+    "source_url": "https://www.burckhardtlaw.com/team/"
   },
   "burribreitschmid.ch": {
     "canton": "ZH",
@@ -2486,6 +2583,13 @@
       "Medienrecht"
     ],
     "source_url": "https://www.burribreitschmid.ch/kontakt"
+  },
+  "bvlaw.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Berra Vigilante & Partners - bvp SA",
+    "source_url": "https://bvlaw.ch/",
+    "team_size_n": 5
   },
   "bwr-law.ch": {
     "canton": "ZH",
@@ -3449,6 +3553,24 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "greterlaw.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Greter & Partner Rechtsanwälte AG",
+    "founding_year": 2013,
+    "phone": "+41 44 285 90 10",
+    "practice_areas_de": [
+      "Internationales Steuerrecht (US-Fokus)",
+      "Nachlassplanung und Erbrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Immobilienrecht",
+      "Internationales Privatrecht",
+      "Trust-Recht",
+      "Streitbeilegung und Schiedsgerichtsbarkeit"
+    ],
+    "source_url": "https://www.greterlaw.com/de/ueber-uns/",
+    "team_size_n": 7
+  },
   "groszpoledna.ch": {
     "canton": "ZH",
     "email": "office@gp-rc.ch",
@@ -3491,6 +3613,27 @@
       "Notariat"
     ],
     "source_url": "https://www.gruendler-partner.ch/de/"
+  },
+  "gublergysler.ch": {
+    "canton": "ZH",
+    "email": "gubler@gublergysler.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gubler & Gysler Rechtsanwälte",
+    "founding_year": 2022,
+    "phone": "+41 44 700 50 00",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht",
+      "Zivilprozessrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Schiedsgerichtsbarkeit",
+      "Compliance"
+    ],
+    "source_url": "https://www.gublergysler.ch/",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (Simon Gubler, 2022)",
+    "team_size_n": 3
   },
   "hartmanndreyer.ch": {
     "canton": "FR",
@@ -3539,6 +3682,24 @@
     "phone": "+41 44 225 88 88",
     "source_url": "https://herzerpartner.ch/en/law-firm/",
     "team_size_n": 6
+  },
+  "herzog.law": {
+    "canton": "ZH",
+    "email": "contact@herzog.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "HERZOG.law AG",
+    "phone": "+41 (043) 268 30 10",
+    "practice_areas_de": [
+      "Erbrecht (national und international)",
+      "Ehe- und Vermögensrecht",
+      "Erwachsenenschutz und Vorsorge",
+      "Unternehmensnachfolge",
+      "Prozessführung und Streitbeilegung",
+      "Gesellschaftsrecht, Trusts, Immobilien"
+    ],
+    "source_url": "https://herzog.law/",
+    "specialist_certification": "Fachanwältin SAV Erbrecht (Sabine Herzog), Fachanwältin SAV Arbeitsrecht (Martina Patricia Steiner)",
+    "team_size_n": 4
   },
   "hess-advokatur.ch": {
     "canton": "LU",
@@ -4989,6 +5150,14 @@
       "Mietrecht"
     ],
     "source_url": "https://www.lutz-partner.ch/de/anwaltskanzlei"
+  },
+  "maglegis.ch": {
+    "canton": "TI",
+    "email": "info@maglegis.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale MAG Legis SA",
+    "phone": "++41 91 913 91 91",
+    "source_url": "https://www.maglegis.ch/Contatti.htm"
   },
   "maisondroite.ch": {
     "canton": "ZH",
@@ -7692,6 +7861,26 @@
     "practice_areas_fr": [],
     "source_url": "https://www.wslaw.ch/en/",
     "team_size_n": null
+  },
+  "wt92.ch": {
+    "canton": "ZH",
+    "email": "info@wt92.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Anwaltskanzlei WT92 AG",
+    "phone": "+41 43 234 92 92",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Massnahmenrecht",
+      "Opfervertretung",
+      "Familienrecht",
+      "LGBTIQ-Themen",
+      "Kindesvertretung",
+      "Arbeitsrecht",
+      "Ausländerrecht",
+      "allgemeines Zivilrecht"
+    ],
+    "source_url": "https://www.wt92.ch/",
+    "team_size_n": 4
   },
   "z-law.ch": {
     "canton": "LU",

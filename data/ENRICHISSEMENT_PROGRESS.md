@@ -2238,3 +2238,34 @@ WebSearch tiers) n'a pas été retenue — la page officielle elle-même ne l'in
 explicitement. "Plus de 20 ans" pour Burkart & Pfammatter écarté (formulation vague).
 
 Rattachement : 378 études rattachées au total (361 → 378, +17). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 16h04 UTC — Phase 3, lot 32 (exécution automatisée)
+
+15 cabinets traités (15 succès / 0 échec), 13 ZH + 2 TI : Greter & Partner Rechtsanwälte AG
+(fondée **2013**, tel, 7 avocats, 7 domaines DE dont droit fiscal international US), AGON
+PARTNERS LEGAL AG (boutique droit de la concurrence, tel/email bureau zurichois — cabinet
+multi-sites CH Zurich/Berne/Pfäffikon), Gubler & Gysler Rechtsanwälte (fondée **2022** sous le
+nom "Gubler Rechtsanwälte", rebaptisée 2023, tel/email, 3 avocats inscrits au barreau, 8
+domaines DE, **Fachanwalt SAV Strafrecht** pour Simon Gubler), ADVOMED (boutique droit de la
+responsabilité civile/médical, tel/email, 4 avocats, 4 domaines DE, titre de spécialiste en
+droit de la responsabilité civile et des assurances pour Evalotta Samuelsson — première et
+seule avocate suisse avec ce profil selon le site), Advokatur & Rechtsberatung TRIAS AG
+(cabinet multi-sites CH, tel bureau zurichois, 11 domaines DE), HERZOG.law AG (tel/email, 4
+avocats, 6 domaines DE, **Fachanwältin SAV Erbrecht** pour Sabine Herzog, **Fachanwältin SAV
+Arbeitsrecht** pour Martina Patricia Steiner), AMIKO Anwält:innen (tel/email, 3 avocats, 5
+domaines DE), Advokraft (tel/email, 4 avocats, 2 domaines DE), 4Legal (communauté de cabinet
+indépendants Zurich/Coire/Lugano, tel du secrétariat commun uniquement -- aucun tel/email de
+cabinet inventé pour les avocats individuels), Bellevue Rechtsanwälte (tel/email, 4 avocats),
+Anwaltskanzlei WT92 AG (tel/email, 4 avocats, 9 domaines DE), Advokatur Bülach AG (tel), burckhardt
+AG (cabinet bi-site Bâle/Zurich, tel/email bureau zurichois, 3 domaines DE), Studio legale MAG
+Legis SA (TI, tel/email), Berra Vigilante & Partners - bvp SA (TI, 5 professionnels listés).
+
+Note de rigueur : "founded on March 22, 2023" pour Berra Vigilante (vu uniquement sur Moneyhouse,
+tiers) n'a PAS été retenu comme `founding_year` -- absent du site officiel bvlaw.ch lui-même.
+Idem pour "opened in 1990" (Advokatur Bülach, résumé WebSearch tiers, non confirmé sur le site).
+Entrée bvlaw.ch en collision de nom avec une 2e ligne CSV quasi identique ("Berra Vigilante &
+Partners bvp SA" sans tiret) -- non rattachée automatiquement, `skipped_ambiguous` passé de 5 à
+6, garde-fou fonctionnant comme prévu.
+
+Rattachement : 391 études rattachées au total (378 → 391, +13 nettes, 1 entrée en collision de
+nom). Suite de tests : 94/94 au vert.
