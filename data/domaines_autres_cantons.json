@@ -252,6 +252,12 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "schochjaeggihoch.com": {
+      "canton": "ZH",
+      "firm_name": "Schoch Jaeggi Hoch",
+      "reason": "page d'accueil ne renvoie qu'a une section 'Practice Areas' sans contenu ; aucun tel/email lisible (protection anti-bot)",
+      "tested_date": "2026-09-07"
+    },
     "sglaw.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -2783,6 +2789,29 @@
     ],
     "source_url": "https://hra.ch/kontakt/"
   },
+  "htlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "HOHLER TRÖHLER RECHTSANWÄLTE",
+    "phone": "+41 44 298 30 20",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Familienrecht",
+      "Wirtschaftsstrafrecht",
+      "Verwaltungsstrafrecht",
+      "internationale Rechtshilfe in Strafsachen",
+      "Ehe-, Familien- und Scheidungsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.htlaw.ch/"
+  },
+  "huplaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Hafner Urbach Partner",
+    "phone": "+41 58 444 11 00",
+    "source_url": "https://www.huplaw.ch/en/contact/"
+  },
   "ip-lawoffice.com": {
     "canton": "TI",
     "email": "info@ip-lawoffice.com",
@@ -2842,6 +2871,29 @@
     ],
     "source_url": "https://jb-anwaelte.ch/rechtsgebiete/",
     "team_size_n": null
+  },
+  "jetzer-frank.ch": {
+    "canton": "ZH",
+    "email": "info@jetzer-frank.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "JETZER FRANK AG",
+    "phone": "+41 44 578 47 80",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Unternehmensberatung",
+      "Geschädigtenvertretung",
+      "Wirtschaftsstrafrecht",
+      "Verwaltungsstrafrecht"
+    ],
+    "source_url": "https://www.jetzer-frank.ch/"
+  },
+  "kaempfenlegal.ch": {
+    "canton": "ZH",
+    "email": "info@kaempfenlegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kämpfen Rechtsanwälte",
+    "phone": "+41 44 202 50 22",
+    "source_url": "https://www.kaempfenlegal.ch/de"
   },
   "kanonengasse.ch": {
     "canton": "ZH",
@@ -2929,6 +2981,36 @@
     "source_url": "https://kellerhals-carrard.ch/",
     "team_size_n": 600
   },
+  "khm-partners.ch": {
+    "canton": "ZH",
+    "email": "info@khm-partners.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Künzi Hess MacNab Rechtsanwälte",
+    "phone": "+41 44 420 19 20",
+    "practice_areas_en": [
+      "Banking Law and Capital Markets Law",
+      "Financial Market Infrastructures Law",
+      "Collective Investment Schemes",
+      "Structured Products",
+      "Financing",
+      "Asset management",
+      "Suitability & appropriateness procedures",
+      "Prevention of Money Laundering",
+      "DLT, Blockchain, FinTech",
+      "Digital Economy"
+    ],
+    "source_url": "https://khm-partners.ch/?lang=en"
+  },
+  "klebundpartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "KLEB & PARTNER Rechtsanwälte",
+    "phone": "+41 44 221 40 00",
+    "practice_areas_de": [
+      "Baurechtsrelevante Fragen inklusive Grundsteuer- und Erbrecht"
+    ],
+    "source_url": "https://www.klebundpartner.ch/kanzlei/"
+  },
   "kleinlaw.ch": {
     "canton": "ZH",
     "email": "info@kleinlaw.ch",
@@ -2965,6 +3047,23 @@
       "Unternehmen"
     ],
     "source_url": "https://klgp.ch/en/"
+  },
+  "klotermodl.ch": {
+    "canton": "ZH",
+    "email": "office@klotermodl.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kloter Rechtsanwälte AG",
+    "founding_year": 1989,
+    "phone": "+41 52 208 99 55",
+    "practice_areas_de": [
+      "Rechtsberatung in allen Wirtschafts- und Zivilbereichen",
+      "Treuhandleistungen",
+      "Steuer- und Abgabenrecht",
+      "Öffentliches Baurecht",
+      "Steuern, Fiskalvertretung, Buchhaltung",
+      "Mehrwertsteuerfragen"
+    ],
+    "source_url": "https://www.klotermodl.ch/"
   },
   "kmb-anwaelte.ch": {
     "canton": "SZ",
@@ -3825,6 +3924,24 @@
     "source_url": "https://niedermann.com/en/law-firm/",
     "team_size_n": null
   },
+  "niklaus-rechtsanwaelte.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Niklaus Rechtsanwälte",
+    "practice_areas_de": [
+      "Agrarrecht",
+      "Wirtschaftsrecht",
+      "Raumplanungs- und Baurecht",
+      "Infrastrukturrecht",
+      "Umweltschutzrecht",
+      "Tierschutzrecht",
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.niklaus-rechtsanwaelte.com/kernkompetenzen"
+  },
   "nkf.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-21",
@@ -3888,6 +4005,14 @@
     ],
     "source_url": "https://www.nplaw.ch/en/"
   },
+  "nrb-anwaelte.ch": {
+    "canton": "ZH",
+    "email": "mail@nrb-anwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Nötzli Raess Bächtold Rechtsanwälte",
+    "phone": "+41 44 521 22 66",
+    "source_url": "https://nrb-anwaelte.ch/kontakt/"
+  },
   "og42.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-29",
@@ -3905,6 +4030,21 @@
     ],
     "source_url": "https://og42.ch/",
     "team_size_n": null
+  },
+  "perucchiandpartner.com": {
+    "canton": "ZH",
+    "email": "info@perucchiandpartner.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Perucchi & Partner AG",
+    "phone": "+41 44 244 81 10",
+    "practice_areas_en": [
+      "Transnational Commercial Litigation and Arbitration",
+      "Financial Services Disputes",
+      "Contracts, Commercial and Corporate Law",
+      "Inheritance, Trust and Estates",
+      "Bankruptcy Law and Restructuring"
+    ],
+    "source_url": "https://www.perucchiandpartner.com/"
   },
   "pestalozzilaw.com": {
     "canton": "ZH",

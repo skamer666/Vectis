@@ -1988,3 +1988,18 @@ trouvé), Raum & Recht AG (entité trop récente, inscrite au RC le 15.05.2026, 
 d'adresse) -- `firm_name` ajusté pour correspondre exactement au nom cœur du CSV.
 
 Rattachement : 262 études rattachées au total (252 → 262, +10). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 02h02 UTC — Phase 3, lot 18 (exécution automatisée)
+
+10 cabinets traités (10 succès / 1 échec), tous ZH : Kämpfen Rechtsanwälte (tel/email), HOHLER
+TRÖHLER RECHTSANWÄLTE (tel, 7 domaines DE), Kloter Rechtsanwälte AG (fondée **1989** par Modl et
+Scheibler avant la création de l'AG actuelle en 2016 -- les deux dates figurent explicitement
+sur la page officielle, 1989 retenue comme date de fondation continue --, tel/email, 6
+domaines DE), Niklaus Rechtsanwälte (boutique droit agricole/protection animale, 10 domaines
+DE), JETZER FRANK AG (boutique pénal économique, tel/email, 5 domaines DE), Perucchi & Partner
+AG (tel/email, 5 domaines EN), Nötzli Raess Bächtold Rechtsanwälte (tel/email), KLEB & PARTNER
+Rechtsanwälte (boutique droit de la construction, tel), Hafner Urbach Partner (tel), Künzi Hess
+MacNab Rechtsanwälte (boutique fintech/régulation financière, tel/email, 10 domaines EN).
+**Échec :** Schoch Jaeggi Hoch (page d'accueil sans contenu exploitable, email protégé anti-bot).
+
+Rattachement : 272 études rattachées au total (262 → 272, +10). Suite de tests : 94/94 au vert.
