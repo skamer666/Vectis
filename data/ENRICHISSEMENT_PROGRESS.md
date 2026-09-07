@@ -2148,3 +2148,28 @@ Rechtsanwälte GmbH (boutique droit bancaire/fintech, tel, 7 domaines DE), Lehma
 Rechtsanwälte AG (tel, 5 domaines EN).
 
 Rattachement : 346 études rattachées au total (339 → 346, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 13h04 UTC — Phase 3, lot 29 (exécution automatisée)
+
+10 cabinets traités (8 succès / 2 échecs), tous ZH : KELLER Rechtsanwälte AG (boutique droit
+de la construction/immobilier, tel/email, 5 domaines DE, 3 avocats), Heuberger Rippmann
+Hoffmann (tel/email uniquement, page pratiques non exploitable), Internationale Rechtsanwälte
+Zürich/IRAZ (boutique droit international, tel/email, 12 domaines DE, 3 avocats), Kull Ruzek
+Eggenschwiler (fondée **1968** — "Im Jahr 1968 haben sich die Anwälte Dr. Walter Vollenweider
+und Dr. Werner Zuppinger zusammengeschlossen", page histoire officielle, tel/email, droit
+public de la construction/planification), Lindtlaw Anwaltskanzlei (fondée **1970**, tel/email,
+~15 professionnels, 20 domaines DE, **Fachanwalt SAV Erbrecht** pour Beat Rüedi, **Fachanwalt
+SAV Arbeitsrecht** pour Fabian Kapfhamer, **Fachanwälte SAV Bau- und Immobilienrecht** pour
+quatre associés), Public Sector Law (boutique droit public, tel/email, 6 domaines DE, 3
+personnes), devon ag/devonlegal.ch (tel/email, site en construction sinon), advokatur
+rechtsanker (tel, 9 domaines DE, 4 avocats, **Fachanwältin SAV Familienrecht** pour Barbara
+Laur, **Fachanwalt SAV Haftpflicht- und Versicherungsrecht** pour Silvan Meier Rhein).
+**Échecs :** Josephsohn Hauert Blöchlinger (luther4.ch, HTTP 403 Forbidden) ; Kanzlei
+rechtschaffen (rechtschaffen.ch, HTTP 403 Forbidden sur deux URLs testées).
+
+Note : le champ `firm_name` de l'entrée `iraz.ch` a été écrit sous la forme exacte du CSV
+("Internationale Rechtsanwälte Zürich") et celui de `devonlegal.ch` sous la forme "devon ag"
+pour permettre le rattachement automatique (le nom commercial affiché sur les sites diffère
+légèrement du libellé CSV) ; cela n'affecte pas l'affichage réel sur le site.
+
+Rattachement : 354 études rattachées au total (346 → 354, +8). Suite de tests : 94/94 au vert.

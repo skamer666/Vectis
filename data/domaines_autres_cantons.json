@@ -204,6 +204,12 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "luther4.ch": {
+      "canton": "ZH",
+      "firm_name": "Josephsohn Hauert Blöchlinger",
+      "reason": "HTTP 403 Forbidden sur toutes les pages testees",
+      "tested_date": "2026-09-07"
+    },
     "lva-law.ch": {
       "canton": "TI",
       "firm_name": "Studio notarile Velo & Associati",
@@ -275,6 +281,12 @@
       "firm_name": "REBER Rechtsanwälte",
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "rechtschaffen.ch": {
+      "canton": "ZH",
+      "firm_name": "Kanzlei rechtschaffen",
+      "reason": "HTTP 403 Forbidden sur /en/kontakt et /de/",
+      "tested_date": "2026-09-07"
     },
     "reichle-stehle.ch": {
       "canton": "SG",
@@ -2488,6 +2500,14 @@
     "source_url": "https://davatzlegal.ch/en",
     "team_size_n": null
   },
+  "devonlegal.ch": {
+    "canton": "ZH",
+    "email": "info@devonlegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "devon ag",
+    "phone": "+41 58 776 76 60",
+    "source_url": "https://devonlegal.ch/"
+  },
   "dietsche-law.ch": {
     "canton": "SG",
     "email": "info@dietsche-law.ch",
@@ -3281,6 +3301,14 @@
     "source_url": "https://www.hess-advokatur.ch/",
     "team_size_n": null
   },
+  "heuberger-rippmann-hoffmann.ch": {
+    "canton": "ZH",
+    "email": "info.hrh@bluewin.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Heuberger Rippmann Hoffmann",
+    "phone": "+41 44 208 90 20",
+    "source_url": "https://www.heuberger-rippmann-hoffmann.ch/contact"
+  },
   "hhh-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3410,6 +3438,29 @@
       "Arbitrato"
     ],
     "source_url": "https://www.ip-lawoffice.com/it/i-servizi/"
+  },
+  "iraz.ch": {
+    "canton": "ZH",
+    "email": "office@iraz.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Internationale Rechtsanwälte Zürich",
+    "phone": "+41 43 536 13 33",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Wirtschaftsrecht",
+      "Erbrecht",
+      "Umweltrecht",
+      "Migrationsrecht",
+      "Vertragsrecht",
+      "Mietrecht",
+      "Steuerrecht",
+      "Menschenrechte",
+      "Internationales Recht"
+    ],
+    "source_url": "https://www.iraz.ch/de/",
+    "team_size_n": 3
   },
   "jb-anwaelte.ch": {
     "canton": "SG",
@@ -3592,6 +3643,22 @@
     "firm_name": "KANZLEI KREIS 2 AG",
     "phone": "+41 44 244 00 20",
     "source_url": "https://www.kanzleikreis2.ch/"
+  },
+  "keller-law.ch": {
+    "canton": "ZH",
+    "email": "office@keller-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "KELLER Rechtsanwälte AG",
+    "phone": "+41 43 888 66 33",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Vertragsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Handels- und Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.keller-law.ch/",
+    "team_size_n": 3
   },
   "kellerhals-carrard.ch": {
     "canton": "ZH",
@@ -4413,6 +4480,29 @@
     "source_url": "https://www.linde-law.ch/en",
     "team_size_n": null
   },
+  "lindtlaw.ch": {
+    "canton": "ZH",
+    "email": "office@lindtlaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lindtlaw Anwaltskanzlei",
+    "founding_year": 1970,
+    "phone": "+41 43 818 55 30",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Ehe- und Familienrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Handels- und Vertragsrecht",
+      "Immobilien und Grundeigentum",
+      "Öffentliches Bau-, Planungs- und Umweltrecht",
+      "Steuerrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://lindtlaw.ch/",
+    "specialist_certification": "Fachanwalt SAV Erbrecht (Beat Rüedi), Fachanwalt SAV Arbeitsrecht (Fabian Kapfhamer), Fachanwälte SAV Bau- und Immobilienrecht (Rolf Bickel, Stefan Kühnis, Nathalie Jäggi, Daniela Lutz)",
+    "team_size_n": 15
+  },
   "losinger.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -4606,6 +4696,18 @@
       "Vertragsrecht"
     ],
     "source_url": "https://www.michligknutti.ch/kontakt"
+  },
+  "mkj.ch": {
+    "canton": "ZH",
+    "email": "info@mkj.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kull Ruzek Eggenschwiler",
+    "founding_year": 1968,
+    "phone": "+41 44 254 32 10",
+    "practice_areas_de": [
+      "Öffentliches Planungs- und Baurecht"
+    ],
+    "source_url": "https://www.mkj.ch/geschichte"
   },
   "mll-legal.com": {
     "canton": "ZH",
@@ -5119,6 +5221,22 @@
     "source_url": "https://probstpartner.ch/en/",
     "team_size_n": null
   },
+  "publicsector.ch": {
+    "canton": "ZH",
+    "email": "info@publicsector.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Public Sector Law",
+    "phone": "+41 43 511 33 05",
+    "practice_areas_de": [
+      "Allgemeines Verwaltungsrecht",
+      "Datenrecht und Informationssicherheit",
+      "Digitalisierung des öffentlichen Sektors",
+      "Untersuchungen im öffentlichen Recht",
+      "Vertragsrecht (öffentlich und privat)"
+    ],
+    "source_url": "https://publicsector.ch/kontakt/",
+    "team_size_n": 3
+  },
   "quinnemanuel.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -5191,6 +5309,26 @@
     ],
     "source_url": "https://www.reberlaw.ch/en/",
     "team_size_n": 13
+  },
+  "rechtsanker.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "advokatur rechtsanker",
+    "phone": "+41 44 245 46 60",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Opfervertretung",
+      "Arbeitsrecht",
+      "Kindes- und Erwachsenenschutz",
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Erbrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.rechtsanker.ch/",
+    "specialist_certification": "Fachanwältin SAV Familienrecht (Barbara Laur), Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Silvan Meier Rhein)",
+    "team_size_n": 4
   },
   "rechtsanwalt-luzern.ch": {
     "canton": "LU",
