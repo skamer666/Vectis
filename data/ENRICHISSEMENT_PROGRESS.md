@@ -2033,3 +2033,18 @@ tel/email, 9 domaines), Buchli & Hochuli (fondée **2000**, tel, 3 domaines DE),
 (tel, 6 domaines DE), Advokatur Enderle Felix Haidlauf Schmid (BL, tel/email).
 
 Rattachement : 291 études rattachées au total (281 → 291, +10). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 05h03 UTC — Phase 3, lot 21 (exécution automatisée, première incursion au Tessin)
+
+7 cabinets traités (7 succès / 1 sans-site / 2 échecs) — premier lot avec des cabinets tessinois
+(italophones) : SwissLegal Indemini Partner SA (TI, Lugano, fondé **2008**, tel/email, 14
+domaines EN), Studio legale e notarile VERDA (TI, Lugano, email), Studio legale ad metam SA (TI,
+Locarno, tel/email, 12 domaines IT), Studio legale Wuthier & Nicora SA (TI, Ascona, email, 20
+domaines IT), Studio legale Barchi Nicoli Trisconi Gianini SA (TI, Lugano, 7 domaines IT --
+aujourd'hui "Barchi Partners"), Bilger Mattli Bomatter Gisler AG (UR, Altdorf, tel/email, 19
+domaines DE), Maison Droite AG (ZH, boutique droit de la famille, tel/email, 5 domaines DE,
+Fachanwältin SAV Familienrecht). **Sans site :** Studio legale e notarile Censi & Associati (TI)
+-- aucun site officiel dédié trouvé. **Échecs :** 4sight legal (ZH, page anti-bot), Mercury
+Compliance AG (ZH, pages contact/entreprise en simple redirection sans contenu).
+
+Rattachement : 298 études rattachées au total (291 → 298, +7). Suite de tests : 94/94 au vert.

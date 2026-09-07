@@ -12,6 +12,12 @@
     "team_size_n": null
   },
   "_failed": {
+    "4sightlegal.ch": {
+      "canton": "ZH",
+      "firm_name": "4sight legal",
+      "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
+      "tested_date": "2026-09-07"
+    },
     "advobasel.ch": {
       "canton": "BS",
       "fetched_date": "2026-07-29",
@@ -179,6 +185,12 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Lustenberger + Partners KLG",
       "raison": "aucun fait extractible (pas de founding_year, team_size, ni liste practice_areas)"
+    },
+    "mercury.ch": {
+      "canton": "ZH",
+      "firm_name": "Mercury Compliance AG",
+      "reason": "pages contact/entreprise sont de simples redirections sans contenu direct exploitable",
+      "tested_date": "2026-09-07"
     },
     "museum35.ch": {
       "canton": "SG",
@@ -349,7 +361,14 @@
       "tested_date": "2026-07-28"
     }
   },
-  "_sans_site": {},
+  "_sans_site": {
+    "censiassociati-lugano": {
+      "canton": "TI",
+      "checked_date": "2026-09-07",
+      "firm_name": "Studio legale e notarile Censi & Associati",
+      "reason": "aucun site officiel dedie trouve (uniquement annuaires tiers)"
+    }
+  },
   "aa-k.ch": {
     "canton": "ZH",
     "email": "info@aa-k.ch",
@@ -377,6 +396,28 @@
     "source_url": "https://www.adab.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "admetam.ch": {
+    "canton": "TI",
+    "email": "legal@admetam.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale ad metam SA",
+    "phone": "+41 58 360 59 00",
+    "practice_areas_it": [
+      "Procedure giudiziarie e risoluzione di controversie",
+      "Diritto civile e commerciale",
+      "Immobili, diritto di locazione e dell'edilizia",
+      "Diritto successorio e clienti privati",
+      "Diritto del lavoro",
+      "Procedure esecutive e di fallimento",
+      "Diritto pubblico e amministrativo",
+      "Diritto penale",
+      "Arbitrato",
+      "Protezione dei dati, tecnologia e proprietà intellettuale",
+      "Start-up e diritto societario",
+      "Responsabilità civile e ambito assicurativo"
+    ],
+    "source_url": "https://www.admetam.ch/it/competenze"
   },
   "adroit.ch": {
     "canton": "ZH",
@@ -1268,6 +1309,21 @@
     "source_url": "https://barandun-law.ch/en",
     "team_size_n": null
   },
+  "barchipartners.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale Barchi Nicoli Trisconi Gianini SA",
+    "practice_areas_it": [
+      "procedure contenziose",
+      "arbitrati",
+      "consulenze giuridiche in genere",
+      "pratiche notariali in materia societaria",
+      "materia fondiaria",
+      "diritto successorio",
+      "diritto matrimoniale"
+    ],
+    "source_url": "https://www.barchipartners.ch/"
+  },
   "basleradvokatinnen.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -1778,6 +1834,36 @@
     "practice_areas_fr": [],
     "source_url": "https://blumgrob.ch/en/company/",
     "team_size_n": 55
+  },
+  "bmbg.ch": {
+    "canton": "UR",
+    "email": "mail@bmbg.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bilger Mattli Bomatter Gisler AG / Rechtsanwälte & Notare im Loftpark / Dätwylerstrasse 15",
+    "phone": "+41 41 871 00 22",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Auftragsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Konkubinatsrecht",
+      "Gesellschaftsrecht",
+      "Mietrecht",
+      "Sachenrecht",
+      "Vereinsrecht",
+      "Werkvertragsrecht",
+      "Vertragsrecht allgemein",
+      "Bau- und Planungsrecht",
+      "Bäuerliches Bodenrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Schulrecht",
+      "Verwaltungsrecht allgemein",
+      "Anwalt der ersten Stunde / Strafverteidigung",
+      "Opferhilferecht",
+      "Strassenverkehrsrecht",
+      "Jugendstrafrecht"
+    ],
+    "source_url": "https://www.bmbg.ch/taetigkeitsgebiete"
   },
   "bmlaw.ch": {
     "canton": "ZH",
@@ -4032,6 +4118,22 @@
     "source_url": "https://www.luksundvogt.ch/de/kontakt",
     "specialist_certification": "Fachanwältin SAV Erbrecht (Isabelle Vogt)"
   },
+  "maisondroite.ch": {
+    "canton": "ZH",
+    "email": "info@maisondroite.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Maison Droite AG",
+    "phone": "+41 43 544 70 30",
+    "practice_areas_de": [
+      "Trennungs- und Scheidungsrecht",
+      "Ehe- und Vorsorgerecht",
+      "Konkubinatsrecht",
+      "Kindesrecht",
+      "Geschädigtenvertretung und Opferhilfe"
+    ],
+    "source_url": "https://maisondroite.ch/",
+    "specialist_certification": "Fachanwältin SAV Familienrecht (Rahel Baumann)"
+  },
   "mfpartner.ch": {
     "canton": "GR",
     "fetched_date": "2026-09-06",
@@ -5286,6 +5388,31 @@
     "source_url": "https://www.swisslegal.ch/en/offices/",
     "team_size_n": null
   },
+  "swisslegal.ch#lugano": {
+    "canton": "TI",
+    "email": "lugano@swisslegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "SwissLegal Indemini Partner SA",
+    "founding_year": 2008,
+    "phone": "+41 (0)91 921 01 11",
+    "practice_areas_en": [
+      "Criminal law",
+      "Service and contract sector",
+      "Construction",
+      "Corporate and commercial law",
+      "Inheritance and family law",
+      "Private insurance",
+      "Reinsurance",
+      "Social security",
+      "Foundation law",
+      "Liability law",
+      "Arbitration",
+      "Art law",
+      "Tax matters",
+      "Notarial services"
+    ],
+    "source_url": "https://www.swisslegal.ch/en/offices/lugano-15.html"
+  },
   "swlegal.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -5671,6 +5798,13 @@
     "practice_areas_fr": [],
     "source_url": "https://valloni.ch/about-us/",
     "team_size_n": null
+  },
+  "verda-law.ch": {
+    "canton": "TI",
+    "email": "cancelleria@verda-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale e notarile VERDA",
+    "source_url": "https://www.verda-law.ch/en/the-team/"
   },
   "vetsch-rechtsanwaelte.ch": {
     "canton": "LU",
@@ -6135,6 +6269,35 @@
     "checked_date": "2026-09-06",
     "firm_name": "wkf AG",
     "reason": "site indisponible (HTTP 503) au moment du passage"
+  },
+  "wnlegal.ch": {
+    "canton": "TI",
+    "email": "info@wnlegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale Wuthier & Nicora SA",
+    "practice_areas_it": [
+      "Diritto dei contratti",
+      "Diritto societario",
+      "Diritto della costruzione e della pianificazione",
+      "Diritti reali",
+      "Diritto amministrativo",
+      "Diritti immateriali",
+      "Diritto delle commesse pubbliche",
+      "Diritto successorio",
+      "Partenariati pubblico-privati",
+      "Mediazione",
+      "Notariato",
+      "Diritto processuale",
+      "Esecuzioni e fallimenti",
+      "Diritto degli stranieri (permessi)",
+      "Diritto internazionale privato",
+      "Diritto della circolazione stradale (penale e amministrativo)",
+      "Diritto delle assicurazioni",
+      "Diritto tributario",
+      "Diritto penale",
+      "Diritto civile"
+    ],
+    "source_url": "https://www.wnlegal.ch/about"
   },
   "wolfer-frey.ch": {
     "canton": "ZH",
