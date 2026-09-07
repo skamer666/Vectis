@@ -350,6 +350,17 @@
     }
   },
   "_sans_site": {},
+  "aa-k.ch": {
+    "canton": "ZH",
+    "email": "info@aa-k.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "AAK Anwälte und Konsulenten AG",
+    "phone": "+41 44 523 14 70",
+    "practice_areas_de": [
+      "Öffentlicher Sektor und Regulierung in Wissenschaft und Praxis"
+    ],
+    "source_url": "https://www.aa-k.ch/ueber-uns/"
+  },
   "adab.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -450,6 +461,21 @@
     "source_url": "https://www.advocat.ch/kanzlei/geschichte/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "advocentral.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advocentral Advokaturen",
+    "phone": "+41 44 225 99 00",
+    "practice_areas_de": [
+      "Familienrecht (Trennung, Scheidung)",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Strafverteidigung",
+      "Opfer-/Geschädigtenvertretung",
+      "Ausländer- und Asylrecht, Einbürgerungen",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.advocentral.ch/kontakt"
   },
   "advogar.ch": {
     "canton": "ZH",
@@ -577,6 +603,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advokatur-west.ch/",
     "team_size_n": null
+  },
+  "advokatur.ch": {
+    "canton": "BL",
+    "email": "info@advokatur.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur Enderle, Felix, Haidlauf, Schmid",
+    "phone": "061 717 98 88",
+    "source_url": "https://www.advokatur.ch/"
   },
   "advokatur107.ch": {
     "canton": "SG",
@@ -815,6 +849,22 @@
     ],
     "source_url": "https://ah4.law/en/contact",
     "team_size_n": null
+  },
+  "allegra.law": {
+    "canton": "ZH",
+    "email": "info@allegra.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Allegra Law AG",
+    "phone": "+41 58 510 68 88",
+    "practice_areas_en": [
+      "Swiss financial market law, digital asset regulation and regulatory",
+      "FINMA Licensing",
+      "Litigation & Arbitration",
+      "Digital Assets & Blockchain",
+      "Immigration Law",
+      "Private Office Services"
+    ],
+    "source_url": "https://www.allegra.law/about"
   },
   "altenburger.ch": {
     "canton": "ZH",
@@ -1283,6 +1333,35 @@
     "team_size_n": 9,
     "team_size_text": "9 avocats"
   },
+  "baumberger-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "info@baumberger-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Baumberger Rechtsanwälte AG",
+    "founding_year": 1973,
+    "phone": "+41 52 245 01 45",
+    "practice_areas_de": [
+      "Planungsfragen",
+      "Bewilligungen",
+      "Natur- und Denkmalschutz",
+      "Kaufverträge, Vorkaufs-, Kaufs- oder Rückkaufsrechte",
+      "Baurechte und Dienstbarkeiten",
+      "Verträge mit Planern (Architekten- und Ingenieurrecht)",
+      "Werkverträge, General- und Totalunternehmerverträge",
+      "Baumängel",
+      "Enteignungen",
+      "Gestaltungs- und Quartierpläne, Erschliessungsverträge",
+      "Umweltrechtliche Fragen",
+      "Abbau von Rohstoffen und Betrieb von Deponien",
+      "Strassenrecht und Autoabstellplätze",
+      "Beitragsrecht",
+      "Bäuerliches Bodenrecht",
+      "Miet- und Pachtverträge",
+      "Stockwerkeigentum",
+      "Grundstückgewinnsteuern"
+    ],
+    "source_url": "https://www.baumberger-rechtsanwaelte.ch/de/kompetenzen"
+  },
   "baurecht.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -1446,6 +1525,21 @@
       "Streiterledigung (zivilrechtliche Streitigkeiten)"
     ],
     "source_url": "https://bfk.law/"
+  },
+  "bgpartner.ch": {
+    "canton": "ZH",
+    "email": "info@bgpartner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BGPartner AG",
+    "founding_year": 1988,
+    "phone": "+41 44 312 20 20",
+    "practice_areas_de": [
+      "Gesellschafts- & Handelsrecht",
+      "M&A und Private Equity",
+      "Bau- und Planungsrecht",
+      "Prozessführung und Schiedsgerichtsbarkeit"
+    ],
+    "source_url": "https://www.bgpartner.ch/de/portrait.html"
   },
   "bhlaw.ch": {
     "canton": "ZH",
@@ -1790,6 +1884,25 @@
     "source_url": "https://www.bnlawyers.ch/",
     "team_size_n": null
   },
+  "bns.legal": {
+    "canton": "ZH",
+    "email": "info@bns.legal",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BNS Attorneys at Law",
+    "phone": "+41 43 443 00 90",
+    "practice_areas_fr": [
+      "Responsabilité professionnelle (médicale et avocat)",
+      "Responsabilité du produit",
+      "Responsabilité d'entreprise",
+      "Responsabilité des organes (D&O)",
+      "Responsabilité automobile et ferroviaire",
+      "Responsabilité de l'État",
+      "Assurances et réassurances",
+      "Droit contractuel général",
+      "Arbitrage et procédure"
+    ],
+    "source_url": "https://bns.legal/"
+  },
   "bodmerfischer.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -1930,6 +2043,19 @@
     "phone": "+41 58 307 07 50",
     "source_url": "https://btc.legal/en",
     "team_size_n": 13
+  },
+  "buchli-hochuli.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Buchli & Hochuli",
+    "founding_year": 2000,
+    "phone": "+41 44 296 90 00",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Erbrecht, Nachlassplanung",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.buchli-hochuli.ch/"
   },
   "buerki-bolt.ch": {
     "canton": "SG",
@@ -2871,6 +2997,21 @@
     "practice_areas_fr": [],
     "source_url": "https://hhh-law.ch/",
     "team_size_n": null
+  },
+  "hmvlaw.ch": {
+    "canton": "ZH",
+    "email": "info@hmvlaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "HMV Rechtsanwälte",
+    "founding_year": 1989,
+    "phone": "+41 43 344 43 00",
+    "practice_areas_de": [
+      "Interessenvertretung",
+      "Beratung",
+      "Rechtsgutachten",
+      "berufliche Vorsorge in der Schweiz"
+    ],
+    "source_url": "https://www.hmvlaw.ch/kanzlei/"
   },
   "hofstetteradvokatur.ch": {
     "canton": "LU",
@@ -3880,6 +4021,16 @@
     "source_url": "https://www.ludwigpartner.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "luksundvogt.ch": {
+    "canton": "ZH",
+    "email": "mail@luksundvogt.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Luks und Vogt Rechtsanwältinnen",
+    "founding_year": 1999,
+    "phone": "+41 44 363 13 13",
+    "source_url": "https://www.luksundvogt.ch/de/kontakt",
+    "specialist_certification": "Fachanwältin SAV Erbrecht (Isabelle Vogt)"
   },
   "mfpartner.ch": {
     "canton": "GR",

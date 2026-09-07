@@ -2019,3 +2019,17 @@ Baumann Lerch Meienberg Rechtsanwälte (boutique RC/assurances, tel/email, 8 dom
 **Échec :** EBD Rechtsanwälte AG (HTTP 503 au fetch).
 
 Rattachement : 281 études rattachées au total (272 → 281, +9). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 04h02 UTC — Phase 3, lot 20 (exécution automatisée)
+
+10 cabinets traités (10 succès / 0 échec), ZH sauf 1 BL : Baumberger Rechtsanwälte AG (Winterthur,
+fondée **1973** -- "Für Klarheit beim Bauen. Seit 1973." --, boutique droit de la construction/
+immobilier, tel/email, 17 domaines DE), BGPartner AG (fondée **1988**, tel/email, 4 domaines DE),
+Allegra Law AG (boutique droit financier/blockchain, tel/email, 6 domaines EN), AAK Anwälte und
+Konsulenten AG (boutique droit public, tel/email), BNS Attorneys at Law (boutique RC/assurances,
+tel/email, 9 domaines), Buchli & Hochuli (fondée **2000**, tel, 3 domaines DE), HMV Rechtsanwälte
+(fondée **1989**, boutique prévoyance professionnelle, tel/email), Luks und Vogt Rechtsanwältinnen
+(fondée **1999** -- "Seit 1999" --, tel/email, Fachanwältin SAV Erbrecht), Advocentral Advokaturen
+(tel, 6 domaines DE), Advokatur Enderle Felix Haidlauf Schmid (BL, tel/email).
+
+Rattachement : 291 études rattachées au total (281 → 291, +10). Suite de tests : 94/94 au vert.
