@@ -2269,3 +2269,30 @@ Partners bvp SA" sans tiret) -- non rattachée automatiquement, `skipped_ambiguo
 
 Rattachement : 391 études rattachées au total (378 → 391, +13 nettes, 1 entrée en collision de
 nom). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 17h04 UTC — Phase 3, lot 33 (exécution automatisée)
+
+13 cabinets traités (13 succès / 0 échec), première incursion sur SG et TI dans ce lot après
+plusieurs lots ZH consécutifs. 6 TI : studio legale e notarile Guidicelli Badaracco (tel/email),
+BMA Brunoni Mottis & Associati Studio Legale SA (Lugano/Locarno, tel, 11 personnes listées),
+Studio legale e notarile Cavadini Steger Gianinazzi Maffi (Lugano/Mendrisio, tel/email, 4
+avocats-notaires, 10 domaines EN), Studio Legale e Notarile avv. Costanino Delogu
+(Lugano/Mendrisio, tel/email, 12 domaines EN), Studio legale CIAMEI-PADLINA-DE STEFANI (7
+domaines EN, inscrit aussi au barreau de Côme en Italie), Legem Studio legale e notarile (fondée
+**2015** -- "Il nostro Studio nasce nel 2015 dalla fusione di due esperienze professionali", tel/
+email, 3 avocats, 13 domaines IT). 7 SG : Senn Somm Bossart Anwälte (tel/email), Gmünder
+Frischknecht & Partner (fondée **1980** -- "gründete im Jahre 1980 die Anwaltskanzlei", tel, 4
+avocats/notaires), PETERER Rechtsanwälte Notare AG (tel, 5 personnes, 7 domaines EN), AMG
+Rechtsanwälte AG (cabinet multi-sites SG/SH/AI, tel/email spécifiques au bureau de St-Gall, 10
+domaines EN), Hueberli Lawyers AG (fondée **2019**, tel/email, 4 avocats-notaires, 5 domaines
+EN), Bartl Egli & Partner AG (fondée **2017** -- date de fusion des deux études préexistantes,
+tel/email, 3 domaines DE), LEXR Law Switzerland AG (boutique droit tech multi-sites CH/DE/US,
+tel bureau de St-Gall, domaines DE -- statistiques mondiales "30+ avocats" écartées, règle 4).
+
+Note de rigueur : la fondation "2011" d'Advokatur Bartl (prédécesseur individuel) écartée au
+profit de la date de fusion 2017 de Bartl Egli & Partner AG elle-même. Team size de BMA (11
+personnes) et de PETERER (5 personnes) et Cavadini Steger (4) retenus tels qu'affichés
+nommément sur la page officielle (pas de comptage déduit).
+
+Rattachement : 403 études rattachées au total (391 → 403, +12 nettes après vérification
+individuelle des 13 entrées). Suite de tests : 94/94 au vert.

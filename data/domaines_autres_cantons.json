@@ -1173,6 +1173,26 @@
     "source_url": "https://www.altenburger.ch/expertise",
     "team_size_n": null
   },
+  "amglaw.ch": {
+    "canton": "SG",
+    "email": "stgall@amglaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "AMG Rechtsanwälte AG",
+    "phone": "+41 71 224 90 00",
+    "practice_areas_en": [
+      "Corporate law and restructurings",
+      "Contractual and business law",
+      "Mergers and acquisitions",
+      "Labour and social-security law",
+      "Information technology and e-business",
+      "Intellectual property and competition law",
+      "Family law, estate planning and business succession",
+      "Litigation and arbitration",
+      "Public law",
+      "Tax services"
+    ],
+    "source_url": "https://www.amglaw.ch/en/contact"
+  },
   "amiko.law": {
     "canton": "ZH",
     "email": "kanzlei@amiko.law",
@@ -1638,6 +1658,20 @@
       "diritto matrimoniale"
     ],
     "source_url": "https://www.barchipartners.ch/"
+  },
+  "bartl-egli.ch": {
+    "canton": "SG",
+    "email": "advokatur@bartl-egli.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bartl Egli & Partner AG",
+    "founding_year": 2017,
+    "phone": "071 727 08 08",
+    "practice_areas_de": [
+      "Nachfolgeplanungen",
+      "Erbgestaltungen inkl. Willensvollstreckungen",
+      "Bau-, Wirtschafts- und Steuerrecht"
+    ],
+    "source_url": "https://www.bartl-egli.ch/de/detail?id=1"
   },
   "basleradvokatinnen.ch": {
     "canton": "BS",
@@ -2187,6 +2221,14 @@
     "practice_areas_fr": [],
     "source_url": "https://blumgrob.ch/en/company/",
     "team_size_n": 55
+  },
+  "bmalegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BMA Brunoni Mottis & Associati Studio Legale SA",
+    "phone": "+41 91 911 95 50",
+    "source_url": "https://www.bmalegal.ch/en",
+    "team_size_n": 11
   },
   "bmbg.ch": {
     "canton": "UR",
@@ -3387,6 +3429,23 @@
     "source_url": "https://gbk-law.ch/",
     "team_size_n": null
   },
+  "gblex.ch": {
+    "canton": "TI",
+    "email": "office@gblex.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "studio legale e notarile Guidicelli Badaracco",
+    "phone": "+41 (0)91 911 6000",
+    "source_url": "https://www.gblex.ch/"
+  },
+  "gfp-recht.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gmünder Frischknecht & Partner",
+    "founding_year": 1980,
+    "phone": "071 988 32 42",
+    "source_url": "https://gfp-recht.ch/",
+    "team_size_n": 4
+  },
   "gigerpartnerlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -3839,6 +3898,23 @@
       "Erbrecht"
     ],
     "source_url": "https://www.htlaw.ch/"
+  },
+  "hueberli.com": {
+    "canton": "SG",
+    "email": "contact@hueberli.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Hueberli Lawyers AG",
+    "founding_year": 2019,
+    "phone": "+41 71 988 30 00",
+    "practice_areas_en": [
+      "Banking & Finance",
+      "Real Estate",
+      "Criminal and Commercial Criminal Law",
+      "IP Rights",
+      "Notary services"
+    ],
+    "source_url": "https://hueberli.com/en/law-firm/",
+    "team_size_n": 4
   },
   "huplaw.ch": {
     "canton": "ZH",
@@ -4886,34 +4962,20 @@
     "team_size_n": null
   },
   "lexr.com": {
-    "canton": "ZH",
-    "fetched_date": "2026-07-28",
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
     "firm_name": "LEXR Law Switzerland AG",
-    "founding_year": 2016,
-    "note": "Fondé en 2016. Boutique tech law. Bureaux CH: Zurich, Lausanne, Saint-Gall, Zoug.",
-    "practice_areas_en": [
-      "Technology law",
-      "Startup & venture capital",
-      "Fintech & blockchain",
-      "Data & AI",
-      "MedTech & HealthTech",
-      "E-commerce & platforms",
-      "Hardware & industry",
-      "Corporate law"
+    "phone": "+41 44 544 13 30",
+    "practice_areas_de": [
+      "Software/SaaS",
+      "E-commerce",
+      "AI",
+      "Blockchain",
+      "FinTech",
+      "MedTech",
+      "M&A"
     ],
-    "practice_areas_fr": [
-      "Droit des technologies",
-      "Droit des startups & venture capital",
-      "Fintech & Blockchain",
-      "Data & IA",
-      "MedTech & HealthTech",
-      "E-commerce & Plateformes",
-      "Hardware & Industrie",
-      "Droit des sociétés"
-    ],
-    "source_url": "https://www.lexr.com/fr-ch/qui-sommes-nous/",
-    "team_size_n": null,
-    "team_size_text": "Plus de 30 experts dans 4 bureaux (CH+DE — non spécifique à la Suisse, non retenu)"
+    "source_url": "https://www.lexr.com/de-ch/kontakt/"
   },
   "lexterna.ch": {
     "canton": "BS",
@@ -5137,6 +5199,27 @@
     "phone": "+41 44 363 13 13",
     "source_url": "https://www.luksundvogt.ch/de/kontakt",
     "specialist_certification": "Fachanwältin SAV Erbrecht (Isabelle Vogt)"
+  },
+  "lumelegal.ch": {
+    "canton": "TI",
+    "email": "info@lumelegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale e notarile Cavadini Steger Gianinazzi Maffi",
+    "phone": "+41 91 912 21 00",
+    "practice_areas_en": [
+      "M&A and corporate law",
+      "Contracts law",
+      "Intellectual Property",
+      "Litigation",
+      "Sport & Entertainment",
+      "Real Estate Matters",
+      "Company and Corporate Law Matters",
+      "Wills and Inheritance Planning",
+      "Marital Agreements",
+      "Notary Legalizations"
+    ],
+    "source_url": "https://www.lumelegal.ch/en/our-firm/",
+    "team_size_n": 4
   },
   "lutz-partner.ch": {
     "canton": "ZH",
@@ -5629,6 +5712,23 @@
     "practice_areas_fr": [],
     "source_url": "https://pestalozzilaw.com/en",
     "team_size_n": null
+  },
+  "peterer-legal.com": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "PETERER Rechtsanwälte Notare AG",
+    "phone": "+41 71 277 83 83",
+    "practice_areas_en": [
+      "Business law (corporate and commercial law, foundation law, contract law, intellectual property law, cartel and competition law, data protection law)",
+      "Inheritance law, estate planning and succession planning",
+      "Life science, healthcare and food law",
+      "Sports law",
+      "Start-ups",
+      "Legal proceedings and dispute resolution",
+      "Notary services"
+    ],
+    "source_url": "https://peterer-legal.com/en/",
+    "team_size_n": 5
   },
   "peterundpartner.ch": {
     "canton": "LU",
@@ -6409,6 +6509,14 @@
     ],
     "source_url": "https://www.scope.law/kontakt?lang=en"
   },
+  "sennsommbossart.ch": {
+    "canton": "SG",
+    "email": "kanzlei@sennsommbossart.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Senn Somm Bossart Anwälte",
+    "phone": "+41 (0)71 243 50 00",
+    "source_url": "https://www.sennsommbossart.ch/kontakt.html"
+  },
   "sglaw.ch": {
     "_failed": true,
     "canton": "SG",
@@ -6719,6 +6827,43 @@
     ],
     "source_url": "https://studiocasonidelco.ch/area-di-competenze"
   },
+  "studiociamei.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale CIAMEI-PADLINA-DE STEFANI",
+    "practice_areas_en": [
+      "Civil law",
+      "Family law",
+      "Labor law",
+      "GDPR compliance and data protection",
+      "Immigration law",
+      "Tax law",
+      "Social insurance law"
+    ],
+    "source_url": "https://www.studiociamei.ch/competenze-professionali/"
+  },
+  "studiodelogu.ch": {
+    "canton": "TI",
+    "email": "info@studiodelogu.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio Legale e Notarile avv. Costanino Delogu",
+    "phone": "+41 91 960 10 00",
+    "practice_areas_en": [
+      "Labor law",
+      "Criminal law",
+      "Social insurance law",
+      "Family law",
+      "Administrative law",
+      "Succession law",
+      "Real property rights",
+      "Corporate law",
+      "Contract law",
+      "Tax law",
+      "Intellectual property law",
+      "Public law"
+    ],
+    "source_url": "https://studiodelogu.ch/contatti/"
+  },
   "studiomattei.ch": {
     "canton": "TI",
     "email": "info@studiomattei.ch",
@@ -6848,6 +6993,31 @@
       "Notarial services"
     ],
     "source_url": "https://www.swisslegal.ch/en/offices/lugano-15.html"
+  },
+  "swisslegem.ch": {
+    "canton": "TI",
+    "email": "sl@swisslegem.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Legem Studio legale e notarile",
+    "founding_year": 2015,
+    "phone": "091 922 06 70",
+    "practice_areas_it": [
+      "Mediazione",
+      "Contenzioso",
+      "Diritto bancario e trust",
+      "Pianificazione successoria",
+      "Diritto contrattuale",
+      "Proprietà intellettuale",
+      "Diritto internazionale",
+      "Diritto civile",
+      "Esecuzione e fallimento",
+      "Diritto commerciale",
+      "Art law",
+      "Servizi notarili",
+      "Family office management"
+    ],
+    "source_url": "https://swisslegem.ch/lo-studio/",
+    "team_size_n": 3
   },
   "swlegal.com": {
     "canton": "ZH",
