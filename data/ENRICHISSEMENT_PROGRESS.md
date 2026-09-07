@@ -2125,3 +2125,15 @@ cantons groupables (325 rattachées sur 2322 études recensées, soit ~14%) -- a
 ne couvre pas GE/VD ni les avocats individuels sans cabinet identifiable.
 
 Rattachement : 332 études rattachées au total (325 → 332, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 11h04 UTC — Phase 3, lot 27 (exécution automatisée)
+
+7 cabinets traités (7 succès / 1 échec), ZH sauf 1 BL : Advokatur Stadthof AG (BL, tel/email, 4
+domaines DE), NSF Rechtsanwälte AG (bureau zurichois d'un cabinet basé au Liechtenstein,
+tel/email spécifiques à Zurich), Moser Advokatur AG (3 domaines DE), Lutz Partner Rechtsanwälte
+AG (tel, 4 domaines DE), Michlig Knutti Partner AG (tel/email, 9 domaines DE), Sorg Bosshard
+Neth (boutique droit de l'art en plus des domaines classiques, tel/email, 11 domaines EN),
+Rüesch & Müller Rechtsanwälte (tel/email, 8 domaines DE). **Échec :** TA Advisory AG (seule
+l'adresse du bureau zurichois indiquée, aucun tel/email/domaine confirmé pour cette antenne).
+
+Rattachement : 339 études rattachées au total (332 → 339, +7). Suite de tests : 94/94 au vert.

@@ -342,6 +342,12 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "taadvisory.law#ZH": {
+      "canton": "ZH",
+      "firm_name": "TA Advisory AG",
+      "reason": "seule l'adresse du bureau zurichois est indiquee sur le site, aucun tel/email/domaine specifique confirme",
+      "tested_date": "2026-09-07"
+    },
     "tappolet-partner.ch": {
       "canton": "ZH",
       "firm_name": "Tappolet & Partner",
@@ -785,6 +791,20 @@
     ],
     "source_url": "https://advokaturaussersihl.ch/",
     "team_size_n": 8
+  },
+  "advokaturstadthof.ch": {
+    "canton": "BL",
+    "email": "advokatur@advokaturstadthof.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur Stadthof AG",
+    "phone": "+41 61 716 60 60",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://advokaturstadthof.ch/"
   },
   "advokaturteam.ch": {
     "canton": "BS",
@@ -4434,6 +4454,19 @@
     "source_url": "https://www.luksundvogt.ch/de/kontakt",
     "specialist_certification": "Fachanwältin SAV Erbrecht (Isabelle Vogt)"
   },
+  "lutz-partner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lutz Partner Rechtsanwälte AG",
+    "phone": "044 368 50 50",
+    "practice_areas_de": [
+      "Wirtschafts- und Gesellschaftsrecht",
+      "Zivilrecht",
+      "Immobilienrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.lutz-partner.ch/de/anwaltskanzlei"
+  },
   "maisondroite.ch": {
     "canton": "ZH",
     "email": "info@maisondroite.ch",
@@ -4468,6 +4501,25 @@
       "Strafrecht"
     ],
     "source_url": "https://mfpartner.ch/"
+  },
+  "michligknutti.ch": {
+    "canton": "ZH",
+    "email": "office@michligknutti.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Michlig Knutti Partner AG",
+    "phone": "+41 44 500 60 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht: Trennung / Scheidung / Unterhalt",
+      "Handels- und Gesellschaftsrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Mietrecht",
+      "Schulrecht / Prüfungsrekurs",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.michligknutti.ch/kontakt"
   },
   "mll-legal.com": {
     "canton": "ZH",
@@ -4528,6 +4580,17 @@
     "practice_areas_fr": [],
     "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
     "team_size_n": null
+  },
+  "moser-advokatur.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Moser Advokatur AG",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Immobilien",
+      "Steuern"
+    ],
+    "source_url": "https://www.moser-advokatur.ch/"
   },
   "mrgadvokatur.ch": {
     "canton": "ZH",
@@ -4754,6 +4817,14 @@
     "firm_name": "Nötzli Raess Bächtold Rechtsanwälte",
     "phone": "+41 44 521 22 66",
     "source_url": "https://nrb-anwaelte.ch/kontakt/"
+  },
+  "nsf.ch": {
+    "canton": "ZH",
+    "email": "office@nsf.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "NSF Rechtsanwälte AG",
+    "phone": "+41 43 523 04 04",
+    "source_url": "https://www.nsf.li/en/legal-notice/legal-notice-nsf-rechtsanwalte-ag/"
   },
   "og42.ch": {
     "canton": "SG",
@@ -5307,6 +5378,24 @@
     "source_url": "https://www.rudincantieni.ch/",
     "team_size_n": null
   },
+  "rueesch-mueller.ch": {
+    "canton": "ZH",
+    "email": "info@rueesch-mueller.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Rüesch & Müller Rechtsanwälte",
+    "phone": "+41 44 741 56 11",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Strafrecht",
+      "Erbschafts- und Nachlassplanung",
+      "Schuldbetreibung und Konkurs",
+      "Immobilien- und Baurecht",
+      "Familienrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.rueesch-mueller.ch/"
+  },
   "ruetimann.lind.team": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -5387,6 +5476,27 @@
       "Droit scolaire"
     ],
     "source_url": "https://sb-anwaelte.ch/"
+  },
+  "sbn-law.ch": {
+    "canton": "ZH",
+    "email": "info@sbn-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Sorg Bosshard Neth",
+    "phone": "+41 43 544 75 40",
+    "practice_areas_en": [
+      "Employment Law",
+      "Procedural Law",
+      "Corporate Law",
+      "Debt Enforcement and Insolvency",
+      "Inheritance Law and Estate Planning",
+      "Criminal Law",
+      "Family Law",
+      "Art Law and Intellectual Property",
+      "Contract Law",
+      "Data Protection",
+      "Mietrecht"
+    ],
+    "source_url": "https://sbn-law.ch/en/areas-of-practice/"
   },
   "schadenanwaelte.ch": {
     "canton": "ZH",
