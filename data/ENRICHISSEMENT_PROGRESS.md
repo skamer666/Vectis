@@ -2003,3 +2003,19 @@ MacNab Rechtsanwälte (boutique fintech/régulation financière, tel/email, 10 d
 **Échec :** Schoch Jaeggi Hoch (page d'accueil sans contenu exploitable, email protégé anti-bot).
 
 Rattachement : 272 études rattachées au total (262 → 272, +10). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 03h02 UTC — Phase 3, lot 19 (exécution automatisée)
+
+9 cabinets traités (9 succès / 1 échec), tous ZH : Gabriel Arbitration AG (boutique arbitrage
+international, 5 domaines EN), Birgelen Wehrli Rechtsanwälte (fondée **1893** -- confirmé
+explicitement sur la page officielle, doyenne des cabinets traités jusqu'ici --, tel/email, 8
+domaines EN), Fellmann Klett Rothenberger (boutique RC/assurances, tel/email, 7 domaines DE),
+Bertschinger Wiesendanger Sutter (aujourd'hui "Advokatur Lindenplatz", tel/email, 4 domaines
+DE), Binder Sutter Mumenthaler Wiget (tel/email, 12 domaines DE), Glatthard & Stählin AG
+(tel/email, 9 domaines EN), Meier-Stehlik Rupp & Gisler (tel -- emails affichés inversés en
+anti-scraping, non exploitables de façon fiable), Burri Breitschmid AG (ex-Schneider
+Rechtsanwälte AG, boutique droit public/marchés publics, tel/email, 4 domaines DE), Grieder
+Baumann Lerch Meienberg Rechtsanwälte (boutique RC/assurances, tel/email, 8 domaines DE).
+**Échec :** EBD Rechtsanwälte AG (HTTP 503 au fetch).
+
+Rattachement : 281 études rattachées au total (272 → 281, +9). Suite de tests : 94/94 au vert.

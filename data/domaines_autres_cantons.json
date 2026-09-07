@@ -72,6 +72,12 @@
       "firm_name": "DRSP Advokatur & Notariat",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "ebd.ch": {
+      "canton": "ZH",
+      "firm_name": "EBD Rechtsanwälte AG",
+      "reason": "HTTP 503 Service Unavailable au fetch",
+      "tested_date": "2026-09-07"
+    },
     "eversheds-sutherland.com": {
       "canton": "ZH",
       "firm_name": "Eversheds Sutherland AG",
@@ -505,6 +511,20 @@
     "team_size_n": 9,
     "team_size_text": "3 Rechtsanwältinnen und 6 Rechtsanwälte (actuel nom depuis avril 2017, tradition familiale Schwander depuis 1920)"
   },
+  "advokatur-lindenplatz.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@advokatur-lindenplatz.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bertschinger Wiesendanger Sutter",
+    "phone": "052 224 01 20",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Strafrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://advokatur-lindenplatz.ch/uber-uns/"
+  },
   "advokatur-roth.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-06",
@@ -919,6 +939,24 @@
       "Strafrecht"
     ],
     "source_url": "https://www.anwalt-zh.ch/"
+  },
+  "anwalt-zuerich.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@anwalt-zuerich.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Grieder Baumann Lerch Meienberg Rechtsanwälte",
+    "phone": "043 336 70 70",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Arztrecht",
+      "Zahnarztrecht",
+      "Produktehaftpflichtrecht",
+      "Vertragsrecht",
+      "Regressrecht"
+    ],
+    "source_url": "https://www.anwalt-zuerich.ch/"
   },
   "anwaltluzern.ch": {
     "canton": "LU",
@@ -1862,6 +1900,28 @@
     "source_url": "https://www.bratschi.ch/en/about-us",
     "team_size_n": 120
   },
+  "bsmw.ch": {
+    "canton": "ZH",
+    "email": "info@bsmw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Binder Sutter Mumenthaler Wiget",
+    "phone": "+41 44 268 11 22",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erb- und Nachlassrecht und Willensvollstreckungen",
+      "Ehe-, Familien- und Scheidungsrecht",
+      "Mietrecht",
+      "Haftpflichtrecht",
+      "Privates Baurecht",
+      "Sachenrecht",
+      "Schuldbetreibungs- und Konkursrecht, inkl. Vollstreckung",
+      "Straf- und Strafprozessrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.bsmw.ch/kanzlei/"
+  },
   "btc.legal": {
     "canton": "TI",
     "email": "info@btc.legal",
@@ -1906,6 +1966,39 @@
     ],
     "source_url": "https://www.burckhardtlaw.com/",
     "team_size_n": 20
+  },
+  "burribreitschmid.ch": {
+    "canton": "ZH",
+    "email": "recht@burribreitschmid.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Burri Breitschmid AG",
+    "phone": "+41 43 499 16 30",
+    "practice_areas_de": [
+      "Öffentliches Beschaffungsrecht",
+      "Verwaltungsrecht",
+      "Vertragsrecht",
+      "Medienrecht"
+    ],
+    "source_url": "https://www.burribreitschmid.ch/kontakt"
+  },
+  "bwr-law.ch": {
+    "canton": "ZH",
+    "email": "lawyers@bwr-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Birgelen Wehrli Rechtsanwälte",
+    "founding_year": 1893,
+    "phone": "+41 (0)44 386 64 00",
+    "practice_areas_en": [
+      "Business and Company Law",
+      "Business, Private and Public Contracts",
+      "Trademarks and Business Names",
+      "Employment and Retirement Law",
+      "IT, Media and Copyright Law",
+      "Personal Liability and Insurance Law",
+      "Inheritance Law and Estate Planning",
+      "Family Office Services"
+    ],
+    "source_url": "https://bwr-law.ch/?lang=en"
   },
   "caviezelpartner.ch": {
     "canton": "GR",
@@ -2279,6 +2372,23 @@
     ],
     "source_url": "https://www.fischlex.ch/"
   },
+  "fkr-legal.ch": {
+    "canton": "ZH",
+    "email": "info@fkr-legal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Fellmann Klett Rothenberger",
+    "phone": "+41 58 058 23 80",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertragsrecht",
+      "Öffentliches und privates Baurecht",
+      "Transportrecht",
+      "Verwaltungsrecht",
+      "Personen- und Erbrecht",
+      "Gesellschafts- und Stiftungsrecht"
+    ],
+    "source_url": "https://www.fkr-legal.ch/"
+  },
   "fnb-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2427,6 +2537,19 @@
     "phone": "+41 71 226 85 10",
     "source_url": "https://frt-anwaelte.ch/"
   },
+  "gabriel-arbitration.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gabriel Arbitration AG",
+    "practice_areas_en": [
+      "Representation of clients in arbitration proceedings (commercial disputes and investment arbitrations)",
+      "Sitting as arbitrators",
+      "Pre-trial investigation and risk-assessment",
+      "Acting as co-counsel in Swiss and/or advocacy matters",
+      "Representation of clients in Swiss state courts"
+    ],
+    "source_url": "https://www.gabriel-arbitration.ch/en/practice-areas"
+  },
   "gabriel-bucher.ch": {
     "canton": "OW",
     "email": "info@gabriel-bucher.ch",
@@ -2526,6 +2649,25 @@
       "Versicherungs- & Haftpflichtrecht"
     ],
     "source_url": "https://gigerpartnerlaw.ch/kanzlei/"
+  },
+  "glatthard.law": {
+    "canton": "ZH",
+    "email": "hallo@glatthard.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Glatthard & Stählin AG",
+    "phone": "+41 58 311 20 20",
+    "practice_areas_en": [
+      "Private Clients & Families",
+      "Companies & Entrepreneurs",
+      "Notarial Services",
+      "Rent & Real Estate",
+      "Public Law",
+      "Employment Law",
+      "Debt Enforcement & Bankruptcy",
+      "Criminal Law",
+      "Litigation"
+    ],
+    "source_url": "https://www.glatthard.law/en/expertise"
   },
   "glausgabathuler.ch": {
     "canton": "SG",
@@ -3817,6 +3959,13 @@
     "practice_areas_fr": [],
     "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
     "team_size_n": null
+  },
+  "mrgadvokatur.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Meier-Stehlik Rupp & Gisler",
+    "phone": "+41 (0)44 480 12 88",
+    "source_url": "https://www.mrgadvokatur.ch/Kontakt.html"
   },
   "muellerpaparis.ch": {
     "canton": "ZH",
