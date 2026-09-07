@@ -2206,3 +2206,35 @@ un titre de spécialiste FSA/SAV et n'a pas été enregistré comme `specialist_
 
 Rattachement : 361 études rattachées au total (354 → 361, +7 nettes après correctif). Suite de
 tests : 94/94 au vert.
+
+### 2026-09-07 15h04 UTC — Phase 3, lot 31 (exécution automatisée)
+
+17 cabinets traités (17 succès / 0 échec), tous ZH sauf mentions contraires. **Découverte
+importante :** le CSV source contient de nombreuses lignes dupliquées pour un même cabinet réel
+(même adresse/site officiel, libellés `etude` légèrement différents — ex. suffixe tronqué, ou
+raison sociale répétée deux fois). Plutôt que de re-rechercher inutilement le même site, 5
+entrées "doublon" ont été ajoutées en réutilisant les faits déjà vérifiés d'une entrée existante,
+avec une clé de premier niveau disambiguée (`domaine#suffixe`) : `klgp.ch#2` (Kessler Landolt
+Giacomini &, SZ, 7 avocats — 2e ligne CSV pour le même cabinet que `klgp.ch`), `fkr-legal.ch#ZH`
+(Fellmann Klett Rothenberger, ZH, 4 avocats — le cabinet fkr-legal.ch a des avocats inscrits à
+la fois au barreau LU et ZH), `advoro.ch#2` (Advoro AG, SG, 5 avocats), `gmlaw.ch#2` (gm
+Rechtsanwälte und Notare, SG, 5 avocats), `lelex.law#2` (lelex AG, ZH, 3 avocats).
+
+12 cabinets nouvellement recherchés (tous ZH, 3 avocats chacun sauf mention) : Abdelaziz Schmidt
+(boutique droit pénal, tel/email, **Fachanwalt SAV Strafrecht** pour Amr Abdelaziz et Maurin
+Schmidt, tous deux certifiés en 2022), Dr. Eschmann Rechtsanwälte (aujourd'hui "Eschmann Ribi
+Akikol Rechtsanwälte" — même adresse/tel/email, changement de raison sociale constaté sur le
+site officiel, 8 domaines DE), Aliotta + Partner (Winterthur, tel, 6 domaines DE), Borer
+Rechtsanwälte AG (tel/email), Forum Rechtsanwälte (tel, 3 avocats, 6 domaines EN), Attanasio
+Rechtsanwälte AG (tel/email, 5 avocats, 10 domaines DE), IPrime Legal AG (boutique PI/tech, tel
+spécifique à cette entité — attention : deux entités distinctes partagent la même adresse
+zurichoise, IPrime Legal AG et IPrime Rentsch Kaelin AG, avec des numéros différents), Isler
+Partner Rechtsanwälte (Stäfa, tel/email, 3 avocats, 12 domaines DE), BosLaw AG Rechtsanwälte
+(tel/email), Blumenfeld Law AG (boutique droit de la famille, tel/email, 6 avocats), Burkart &
+Pfammatter (Erlenbach, tel, 4 avocats, 11 domaines DE), BFMS Rechtsanwälte (tel, 6 domaines DE).
+
+Note de rigueur : la mention "fondée en 1990" pour Dr. Eschmann (vue uniquement dans un résumé
+WebSearch tiers) n'a pas été retenue — la page officielle elle-même ne l'indique pas
+explicitement. "Plus de 20 ans" pour Burkart & Pfammatter écarté (formulation vague).
+
+Rattachement : 378 études rattachées au total (361 → 378, +17). Suite de tests : 94/94 au vert.

@@ -462,6 +462,23 @@
     ],
     "source_url": "https://www.aab45.ch/kontakt.html"
   },
+  "abdelaziz-schmidt.ch": {
+    "canton": "ZH",
+    "email": "abdelaziz@abdelaziz-schmidt.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Abdelaziz Schmidt",
+    "phone": "+41 44 291 02 18",
+    "practice_areas_de": [
+      "Wirtschaftsstrafrecht",
+      "Allgemeines Strafrecht",
+      "Verwaltungsstrafrecht",
+      "Internationale Rechtshilfe in Strafsachen",
+      "Opfervertretung"
+    ],
+    "source_url": "https://www.abdelaziz-schmidt.ch/",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (Amr Abdelaziz, 2022), Fachanwalt SAV Strafrecht (Maurin Schmidt, 2022)",
+    "team_size_n": 3
+  },
   "adab.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -944,6 +961,25 @@
     ],
     "source_url": "https://www.advoro.ch/en"
   },
+  "advoro.ch#2": {
+    "canton": "SG",
+    "email": "info@advoro.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advoro AG",
+    "phone": "+41 71 277 65 65",
+    "practice_areas_de": [
+      "Gesellschaftsrecht und Transaktionen",
+      "Finanzdienstleistungen und Fintech",
+      "Handelsrecht und Verträge",
+      "Life Sciences und Gesundheitswesen",
+      "Regulierung und öffentlicher Sektor",
+      "Strafrecht und Untersuchungen",
+      "Steuerrecht",
+      "Private Clients",
+      "Notariatsdienste"
+    ],
+    "source_url": "https://www.advoro.ch/en"
+  },
   "advoweggishaus.ch": {
     "canton": "LU",
     "email": "info@advoweggishaus.ch",
@@ -1002,6 +1038,21 @@
     ],
     "source_url": "https://ah4.law/en/contact",
     "team_size_n": null
+  },
+  "aliotta.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Aliotta + Partner",
+    "phone": "+41 52 202 73 70",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Handelsrecht",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.aliotta.ch/"
   },
   "allegra.law": {
     "canton": "ZH",
@@ -1237,6 +1288,27 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
+  },
+  "attanasio-law.ch": {
+    "canton": "ZH",
+    "email": "info@attanasio-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Attanasio Rechtsanwälte AG",
+    "phone": "+41 44 544 21 41",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Erwachsenenschutz",
+      "Influencer Marketing",
+      "Kindesrecht",
+      "Mietrecht",
+      "Betreibungs- und Konkursrecht",
+      "Strafrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.attanasio-law.ch/kontakt",
+    "team_size_n": 5
   },
   "awg.ch": {
     "canton": "BS",
@@ -1738,6 +1810,21 @@
     ],
     "source_url": "https://bfk.law/"
   },
+  "bfms-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BFMS Rechtsanwälte",
+    "phone": "+41 44 388 90 90",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Sportrecht"
+    ],
+    "source_url": "https://www.bfms-law.ch/"
+  },
   "bgpartner.ch": {
     "canton": "ZH",
     "email": "info@bgpartner.ch",
@@ -1981,6 +2068,20 @@
     "source_url": "https://www.blesi-papa.ch/",
     "team_size_n": null
   },
+  "blumenfeld.law": {
+    "canton": "ZH",
+    "email": "office@blumenfeld.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Blumenfeld Law AG",
+    "phone": "+41 44 322 10 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Collaborative Law",
+      "Mediation"
+    ],
+    "source_url": "https://www.blumenfeld.law/kontakt",
+    "team_size_n": 6
+  },
   "blumgrob.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -2174,6 +2275,43 @@
     ],
     "source_url": "https://bodmerfischer.ch/en/expertise/",
     "team_size_n": null
+  },
+  "borer-law.ch": {
+    "canton": "ZH",
+    "email": "info@borer-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Borer Rechtsanwälte AG",
+    "phone": "+41 44 261 12 12",
+    "source_url": "https://www.borer-law.ch/contact"
+  },
+  "bos-law.ch": {
+    "canton": "ZH",
+    "email": "info@bos-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BosLaw AG Rechtsanwälte",
+    "phone": "+41 43 299 60 90",
+    "source_url": "https://www.bos-law.ch/"
+  },
+  "bpanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Burkart & Pfammatter",
+    "phone": "+41 44 914 88 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Scheidung und Trennung",
+      "Eherecht",
+      "Konkubinatsrecht",
+      "Kindesrecht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Kindesvertretung",
+      "Verfahren vor der KESB"
+    ],
+    "source_url": "https://www.bpanwalt.ch/",
+    "team_size_n": 4
   },
   "bps-partner.ch": {
     "canton": "GR",
@@ -2646,6 +2784,24 @@
     "source_url": "https://epartners.ch/en/expertise/",
     "team_size_n": null
   },
+  "era-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "info@stpeterlaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Dr. Eschmann Rechtsanwälte",
+    "phone": "+41 44 213 22 55",
+    "practice_areas_de": [
+      "Erbrecht, Nachlass- und Vermögensplanung",
+      "Gesellschaftsrecht",
+      "Privatkunden und Unternehmer",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Banken- und Finanzmarktrecht",
+      "Prozessführung und Schiedsgerichtsbarkeit",
+      "Schuldbetreibung und Konkurs"
+    ],
+    "source_url": "http://www.era-rechtsanwaelte.ch/de/kanzlei.html"
+  },
   "ettlersuter.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2847,6 +3003,29 @@
     "source_url": "https://www.fkr-legal.ch/",
     "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Walter Fellmann), Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Barbara Klett)"
   },
+  "fkr-legal.ch#ZH": {
+    "canton": "ZH",
+    "email": "info@fkr-legal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Fellmann Klett Rothenberger",
+    "phone": "+41 58 058 23 80",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertragsrecht",
+      "öffentliches und privates Baurecht",
+      "Transportrecht",
+      "Verwaltungsrecht",
+      "Personen- und Erbrecht",
+      "Gesellschafts- und Stiftungsrecht",
+      "Rechtsberatung",
+      "aussergerichtliche Streitbeilegung",
+      "Prozessführung",
+      "Gutachten",
+      "Schiedsgerichtsbarkeit"
+    ],
+    "source_url": "https://www.fkr-legal.ch/",
+    "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Walter Fellmann), Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Barbara Klett)"
+  },
   "fnb-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2854,6 +3033,22 @@
     "phone": "+41 43 344 36 00",
     "source_url": "https://www.fnb-law.ch/",
     "team_size_n": 6
+  },
+  "forumlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Forum Rechtsanwälte",
+    "phone": "+41 44 350 10 00",
+    "practice_areas_de": [
+      "Prozessführung vor Handels- und Zivilgerichten, Schiedsgerichtsbarkeit",
+      "Strafrecht und Strafprozessrecht",
+      "Internationale Rechtshilfe",
+      "Allgemeines Vertragsrecht und internationale Verträge",
+      "Schuldbetreibungs-, Sanierungs- und Konkursrecht",
+      "Interne Untersuchungen"
+    ],
+    "source_url": "https://forumlaw.ch/index.php/en/attorneys-at-law/",
+    "team_size_n": 3
   },
   "frb-law.ch": {
     "canton": "ZH",
@@ -3159,6 +3354,25 @@
     "canton": "SG",
     "fetched_date": "2026-09-07",
     "firm_name": "GM Rechtsanwälte",
+    "phone": "+41 71 242 60 30",
+    "practice_areas_de": [
+      "Bau- und Umweltrecht",
+      "öffentliches Beschaffungswesen",
+      "Verwaltungsrecht",
+      "Immobilienrecht",
+      "Gesellschaftsrecht",
+      "Familien- und Erbrecht",
+      "KMU-Nachfolgeplanung",
+      "Arbeitsrecht",
+      "Notariat",
+      "Prozessführung"
+    ],
+    "source_url": "https://gmlaw.ch/"
+  },
+  "gmlaw.ch#2": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "gm Rechtsanwälte und Notare",
     "phone": "+41 71 242 60 30",
     "practice_areas_de": [
       "Bau- und Umweltrecht",
@@ -3493,6 +3707,16 @@
     ],
     "source_url": "https://www.ip-lawoffice.com/it/i-servizi/"
   },
+  "iprime.law": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "IPrime Legal AG",
+    "phone": "+41 44 229 60 69",
+    "practice_areas_de": [
+      "Geistiges Eigentum und Technologierecht"
+    ],
+    "source_url": "https://www.iprime.law/kontakt"
+  },
   "iraz.ch": {
     "canton": "ZH",
     "email": "office@iraz.ch",
@@ -3514,6 +3738,29 @@
       "Internationales Recht"
     ],
     "source_url": "https://www.iraz.ch/de/",
+    "team_size_n": 3
+  },
+  "islerpartner.ch": {
+    "canton": "ZH",
+    "email": "mail@islerpartner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Isler Partner Rechtsanwälte",
+    "phone": "+41 44 928 19 99",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Bau- und Immobilienrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Handelsrecht",
+      "Mediation",
+      "Mietrecht",
+      "Prozessführung",
+      "Betreibungs- und Konkursrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.islerpartner.ch/kontakt",
     "team_size_n": 3
   },
   "jb-anwaelte.ch": {
@@ -3834,6 +4081,19 @@
     "canton": "SZ",
     "fetched_date": "2026-09-06",
     "firm_name": "Kessler Landolt Giacomini & Kessler Landolt Giacomini",
+    "founding_year": 1974,
+    "phone": "+41 41 811 66 77",
+    "practice_areas_de": [
+      "Rechtsberatung",
+      "Notariat",
+      "Unternehmen"
+    ],
+    "source_url": "https://klgp.ch/en/"
+  },
+  "klgp.ch#2": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-06",
+    "firm_name": "Kessler Landolt Giacomini &",
     "founding_year": 1974,
     "phone": "+41 41 811 66 77",
     "practice_areas_de": [
@@ -4389,6 +4649,13 @@
     "canton": "ZH",
     "fetched_date": "2026-09-07",
     "firm_name": "lelex Rechtsanwälte",
+    "phone": "+41 (0)43 277 91 91",
+    "source_url": "https://lelex.law/contact/"
+  },
+  "lelex.law#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "lelex AG",
     "phone": "+41 (0)43 277 91 91",
     "source_url": "https://lelex.law/contact/"
   },
