@@ -2296,3 +2296,27 @@ nommément sur la page officielle (pas de comptage déduit).
 
 Rattachement : 403 études rattachées au total (391 → 403, +12 nettes après vérification
 individuelle des 13 entrées). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 18h04 UTC — Phase 3, lot 34 (exécution automatisée)
+
+11 cabinets traités (11 succès / 0 échec), premier lot couvrant GR et BL, plus 4 SG et 1 TI.
+Doublon réutilisé : `lexr.com#ZH` (LEXR Law Switzerland AG, 2e ligne CSV ZH pour un cabinet déjà
+traité en SG au lot 33). 2 GR : Nievergelt & Stoehr AG (cabinet multi-sites Samedan/Poschiavo/
+St-Moritz/Lucerne/Lugano/Muralto, tel/email des bureaux grisons, 3 domaines DE), Gadient +
+Partner (fondée **1963** -- "seit 1963", tel/email, 6 personnes, 5 domaines DE). 3 BL : BIRSLEX
+Advokatur (tel/email, 9 domaines EN), KIPFERHUBER Advokatur (tel/email, 2 avocats), Butz Corvini
+Sigel Advokatur & Mediation (fondée **2010** -- date de création du partenariat Butz & Corvini,
+Sigel rejointe en 2014, tel, 3 associés). 4 SG : Schwager Mätzler Schneider AG (fondée **1956**
+par Dr. Josef Otto Schneider, tel/email, 10 avocats, 17 domaines EN), Gmür Galbier Nüesch
+Rechtsanwälte & Notare (tel/email, 4 avocats), Schwizer Rechtsanwälte AG (fondée **1996**,
+tel, 3 avocats sur deux générations, 5 domaines EN), Mätzler & Partner (tel/email, 4 avocats --
+"limitation volontaire de l'effectif pour préserver le caractère régional"). 1 TI : Studio
+legale e notarile Fiscalini (tel/email, 3 avocats-notaires).
+
+Note de rigueur : "since 1990" pour Mätzler & Partner (résumé WebSearch tiers uniquement) non
+retenu -- absent de la page officielle elle-même. Team size de Schwager Mätzler Schneider (10
+avocats + 4 secrétaires) et de Gmür Galbier Nüesch (4 avocats + 1 secrétariat) ventilés
+proprement -- seul le nombre d'avocats retenu, jamais le total mixte.
+
+Rattachement : 413 études rattachées au total (403 → 413, +10 nettes). Suite de tests : 94/94
+au vert.

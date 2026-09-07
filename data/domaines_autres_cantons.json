@@ -675,6 +675,15 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "advokatur-allschwil.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Butz Corvini Sigel, Advokatur & Mediation",
+    "founding_year": 2010,
+    "phone": "+41 (0)61 485 90 90",
+    "source_url": "https://www.advokatur-allschwil.ch/",
+    "team_size_n": 3
+  },
   "advokatur-buelach.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -1314,6 +1323,15 @@
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "team_size_n": null
   },
+  "anwaelte-wil.ch": {
+    "canton": "SG",
+    "email": "info@anwaelte-wil.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gmür Galbier Nüesch\nRechtsanwälte & Notare",
+    "phone": "071 911 38 21",
+    "source_url": "https://www.anwaelte-wil.ch/kontakt",
+    "team_size_n": 4
+  },
   "anwaelte44.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -1416,6 +1434,15 @@
     ],
     "source_url": "https://www.attanasio-law.ch/kontakt",
     "team_size_n": 5
+  },
+  "avv-fiscalini.ch": {
+    "canton": "TI",
+    "email": "elio@avv-fiscalini.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale e notarile Fiscalini",
+    "phone": "+41 91 682 37 14",
+    "source_url": "https://avv-fiscalini.ch/",
+    "team_size_n": 3
   },
   "awg.ch": {
     "canton": "BS",
@@ -2163,6 +2190,25 @@
     ],
     "source_url": "https://www.binderlegal.ch/en/",
     "team_size_n": null
+  },
+  "birslex.ch": {
+    "canton": "BL",
+    "email": "info@birslex.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BIRSLEX Advokatur",
+    "phone": "061 561 54 54",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "allgemeines Vertragsrecht",
+      "Erbrecht",
+      "Betreibungs- und Konkursrecht",
+      "öffentliches Recht",
+      "Strafrecht",
+      "Opferhilferecht"
+    ],
+    "source_url": "https://birslex.ch/dienstleistungen/"
   },
   "bkp-legal.ch": {
     "canton": "ZH",
@@ -3357,6 +3403,23 @@
     "phone": "+41 41 666 30 60",
     "source_url": "https://gabriel-bucher.ch/"
   },
+  "gadientpartner.ch": {
+    "canton": "GR",
+    "email": "sekretariat@gadientpartner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Gadient + Partner",
+    "founding_year": 1963,
+    "phone": "+41 (0)81 284 77 41",
+    "practice_areas_de": [
+      "Notariat",
+      "Bau- und Immobilienrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Erbrecht / Nachlassplanung",
+      "Planungsrecht"
+    ],
+    "source_url": "https://gadientpartner.ch/",
+    "team_size_n": 6
+  },
   "gaggini-partners.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -4264,6 +4327,15 @@
     ],
     "source_url": "https://khm-partners.ch/?lang=en"
   },
+  "kipferhuber.ch": {
+    "canton": "BL",
+    "email": "j.kipfer@kipferhuber.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "KIPFERHUBER Advokatur",
+    "phone": "+41 (0) 61 539 18 85",
+    "source_url": "https://kipferhuber.ch/",
+    "team_size_n": 2
+  },
   "klavislaw.ch": {
     "canton": "ZH",
     "email": "office@klavislaw.ch",
@@ -4977,6 +5049,22 @@
     ],
     "source_url": "https://www.lexr.com/de-ch/kontakt/"
   },
+  "lexr.com#ZH": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "LEXR Law Switzerland AG",
+    "phone": "+41 44 544 13 30",
+    "practice_areas_de": [
+      "Software/SaaS",
+      "E-commerce",
+      "AI",
+      "Blockchain",
+      "FinTech",
+      "MedTech",
+      "M&A"
+    ],
+    "source_url": "https://www.lexr.com/de-ch/kontakt/"
+  },
   "lexterna.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -5233,6 +5321,15 @@
       "Mietrecht"
     ],
     "source_url": "https://www.lutz-partner.ch/de/anwaltskanzlei"
+  },
+  "maetzler-partner.ch": {
+    "canton": "SG",
+    "email": "info@maetzler-partner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Mätzler & Partner",
+    "phone": "081 720 01 11",
+    "source_url": "https://www.maetzler-partner.ch/",
+    "team_size_n": 4
   },
   "maglegis.ch": {
     "canton": "TI",
@@ -5529,6 +5626,19 @@
     ],
     "source_url": "https://niedermann.com/en/law-firm/",
     "team_size_n": null
+  },
+  "nievergeltundstoehr.ch": {
+    "canton": "GR",
+    "email": "info@nist-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Nievergelt & Stoehr AG",
+    "phone": "+41 81 851 09 10",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Family Office"
+    ],
+    "source_url": "https://www.nievergeltundstoehr.ch/unternehmen"
   },
   "niklaus-rechtsanwaelte.com": {
     "canton": "ZH",
@@ -6587,15 +6697,31 @@
   },
   "sms-lawyers.ch": {
     "canton": "SG",
-    "fetched_date": "2026-07-28",
-    "firm_name": "Schwager Mätzler Schneider Rechtsanwälte",
+    "email": "box@sms-lawyers.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schwager Mätzler Schneider AG",
     "founding_year": 1956,
-    "note": "Firmé correcté: sms-lawyers.ch = Schwager Mätzler Schneider (SG), pas Scherler Siegenthaler Schweizer (ZH). SMS = Schwager/Mätzler/Schneider.",
+    "phone": "+41 (0)71 228 29 30",
     "practice_areas_en": [
-      "All civil and public law matters"
+      "Contract law",
+      "Corporations",
+      "Insurance law",
+      "Notary services",
+      "Family law",
+      "Inheritance law",
+      "Property law",
+      "Construction law",
+      "Intellectual property",
+      "Banking law",
+      "IT law",
+      "Sports law",
+      "Criminal law",
+      "Traffic law",
+      "Tax law",
+      "Debt recovery/bankruptcy",
+      "Arbitration"
     ],
-    "practice_areas_fr": [],
-    "source_url": "https://www.sms-lawyers.ch/",
+    "source_url": "https://www.sms-lawyers.ch/en/about-us/",
     "team_size_n": 10
   },
   "snplegal.com": {
@@ -6642,6 +6768,22 @@
     ],
     "source_url": "https://spuehler.legal/",
     "team_size_n": null
+  },
+  "sraag.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schwizer Rechtsanwälte AG",
+    "founding_year": 1996,
+    "phone": "+41 71 388 83 50",
+    "practice_areas_en": [
+      "Contract & liability law",
+      "Family & inheritance law",
+      "Corporate & foundation law",
+      "Criminal & traffic law",
+      "Notarial services"
+    ],
+    "source_url": "https://sraag.ch/",
+    "team_size_n": 3
   },
   "ssp-law.ch": {
     "canton": "BL",
