@@ -2137,3 +2137,14 @@ Rüesch & Müller Rechtsanwälte (tel/email, 8 domaines DE). **Échec :** TA Adv
 l'adresse du bureau zurichois indiquée, aucun tel/email/domaine confirmé pour cette antenne).
 
 Rattachement : 339 études rattachées au total (332 → 339, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 12h04 UTC — Phase 3, lot 28 (exécution automatisée)
+
+7 cabinets traités (7 succès / 0 échec), tous ZH : Kuoni Rechtsanwälte AG (tel/email, 10
+domaines EN), Klavis Law GmbH (tel/email, 6 domaines DE), Langner Arndt Rechtsanwälte AG
+(boutique droit de la famille, 3 bureaux ZH/Zug/St-Moritz, tel/email, 7 domaines EN), Lawside
+Rechtsanwälte GmbH (boutique droit bancaire/fintech, tel, 7 domaines DE), Lehmann & Waldburger
+(tel, 8 domaines EN), OZB Rechtsanwälte (fondée **1998**, tel/email, 9 domaines DE), Nastra
+Rechtsanwälte AG (tel, 5 domaines EN).
+
+Rattachement : 346 études rattachées au total (339 → 346, +7). Suite de tests : 94/94 au vert.

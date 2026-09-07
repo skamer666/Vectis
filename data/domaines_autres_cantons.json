@@ -3641,6 +3641,22 @@
     ],
     "source_url": "https://khm-partners.ch/?lang=en"
   },
+  "klavislaw.ch": {
+    "canton": "ZH",
+    "email": "office@klavislaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Klavis Law GmbH",
+    "phone": "+41 44 521 48 08",
+    "practice_areas_de": [
+      "Privatpersonen",
+      "Unternehmen",
+      "Prozessieren",
+      "Immobilien",
+      "Planification successorale",
+      "Création et gestion d'entreprises"
+    ],
+    "source_url": "https://klavislaw.ch/Home/"
+  },
   "klebundpartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -3868,6 +3884,26 @@
     "source_url": "https://www.kunzschmid.ch/",
     "team_size_n": null
   },
+  "kuonilaw.ch": {
+    "canton": "ZH",
+    "email": "office@kuonilaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kuoni Rechtsanwälte AG",
+    "phone": "+41 43 466 60 60",
+    "practice_areas_en": [
+      "Corporate and Commercial",
+      "Banking & Finance",
+      "M&A, Private Equity and Venture Capital",
+      "Private Clients / Family Office Services",
+      "Executive Compensation & Employee Participation Plans",
+      "International Trade Contracts",
+      "Contract law",
+      "White Collar / Judicial Assistance",
+      "Litigation / Arbitration",
+      "Real Estate and Construction"
+    ],
+    "source_url": "https://kuonilaw.ch/en/"
+  },
   "lalive.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3910,6 +3946,23 @@
     ],
     "source_url": "https://landmann.ch/rechtsgebiete/",
     "specialist_certification": "Fachanwalt/-anwältin SAV Strafrecht et Familienrecht (plusieurs avocats du cabinet)"
+  },
+  "langnerarndt.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@langnerarndt.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Langner Arndt Rechtsanwälte AG",
+    "phone": "+41 44 209 10 10",
+    "practice_areas_en": [
+      "Separation and divorce",
+      "Marriage and partnerships",
+      "Real property and wealth",
+      "Children and parenthood",
+      "International aspects",
+      "Provision and dispositions",
+      "Wills and legacies"
+    ],
+    "source_url": "https://www.langnerarndt.ch/en/contact/"
   },
   "lanter-partner.ch": {
     "canton": "ZH",
@@ -3994,6 +4047,22 @@
       "Notariat"
     ],
     "source_url": "https://lawsg.ch/"
+  },
+  "lawside.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lawside Rechtsanwälte GmbH",
+    "phone": "+41 44 201 05 05",
+    "practice_areas_de": [
+      "Banken- und Finanzmarktrecht",
+      "Fintech & Blockchain",
+      "Unternehmen und Transaktionen",
+      "Handel & Arbeitsrecht",
+      "Compliance (GwG & Sanktionen)",
+      "Kapitalmärkte",
+      "Prozessführung & Schiedsverfahren"
+    ],
+    "source_url": "https://lawside.ch/de/taetigkeitsbereiche/"
   },
   "lawyers.ch": {
     "canton": "BS",
@@ -4159,6 +4228,23 @@
     ],
     "source_url": "https://legis-law.ch/",
     "team_size_n": null
+  },
+  "lehwal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lehmann & Waldburger",
+    "phone": "+41 43 305 00 00",
+    "practice_areas_en": [
+      "Litigation",
+      "Arbitration",
+      "Banking",
+      "Capital Markets",
+      "M&A",
+      "Corporate Law",
+      "Real Estate",
+      "General Commercial"
+    ],
+    "source_url": "https://www.lehwal.ch/en/"
   },
   "lelex.law": {
     "canton": "ZH",
@@ -4657,6 +4743,20 @@
     "phone": "+41 44 820 20 17",
     "source_url": "https://www.mvlaw.ch/en/contact/"
   },
+  "nastra.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Nastra Rechtsanwälte AG",
+    "phone": "+41 44 385 50 00",
+    "practice_areas_en": [
+      "Collective Investment Schemes",
+      "Structured Products and Leverage Products",
+      "Financial Services and Financial Institutions",
+      "Data Protection",
+      "Corporate"
+    ],
+    "source_url": "https://www.nastra.ch/"
+  },
   "naterdallafior.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -4866,6 +4966,26 @@
       "Litigation/Arbitration"
     ],
     "source_url": "https://ogs-legal.com/index_eng.html"
+  },
+  "ozb-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "info@ozb-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "OZB Rechtsanwälte",
+    "founding_year": 1998,
+    "phone": "044 762 55 55",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Miet- und Pachtrecht",
+      "Sozialversicherungsrecht",
+      "Erbrecht",
+      "allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.ozb-rechtsanwaelte.ch/ueber-uns"
   },
   "perucchiandpartner.com": {
     "canton": "ZH",
