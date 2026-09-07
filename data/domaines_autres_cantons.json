@@ -30,6 +30,12 @@
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
     },
+    "advokaturbuero-bl.ch": {
+      "canton": "BL",
+      "firm_name": "Janiak Freivogel Schweighauser, von Wartburg, Advokaturbüro",
+      "reason": "Resolution DNS impossible (timeout) sur deux tentatives",
+      "tested_date": "2026-09-07"
+    },
     "advotech.ch": {
       "canton": "BS",
       "date": "2026-07-29",
@@ -263,6 +269,12 @@
       "firm_name": "Pachmann AG",
       "reason": "URL hors provenance — non accessible via web_fetch",
       "tested_date": "2026-07-28"
+    },
+    "prudentia-law.ch": {
+      "canton": "ZH",
+      "firm_name": "PRUDENTIA LAW",
+      "reason": "Page d'accueil sans fait exploitable, /kontakt et /impressum en 404",
+      "tested_date": "2026-09-07"
     },
     "quadra.law": {
       "canton": "ZH",
@@ -916,19 +928,19 @@
   "advoro.ch": {
     "canton": "SG",
     "email": "info@advoro.ch",
-    "fetched_date": "2026-09-06",
-    "firm_name": "Advoro AG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advoro AG,  Haus zum Schoren",
     "phone": "+41 71 277 65 65",
-    "practice_areas_en": [
-      "Corporate Law & Transactions",
-      "Financial Services and Fintech",
-      "Commercial Law & Contracts",
-      "Life Sciences & Healthcare",
-      "Regulatory & Public Sector",
-      "Criminal Law & Investigations",
-      "Tax Law",
+    "practice_areas_de": [
+      "Gesellschaftsrecht und Transaktionen",
+      "Finanzdienstleistungen und Fintech",
+      "Handelsrecht und Verträge",
+      "Life Sciences und Gesundheitswesen",
+      "Regulierung und öffentlicher Sektor",
+      "Strafrecht und Untersuchungen",
+      "Steuerrecht",
       "Private Clients",
-      "Notarial Services"
+      "Notariatsdienste"
     ],
     "source_url": "https://www.advoro.ch/en"
   },
@@ -2487,6 +2499,15 @@
     ],
     "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
   },
+  "d32.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@d32.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Münch Singh Rechtsanwälte",
+    "phone": "+41 44 252 00 06",
+    "source_url": "https://www.d32.ch/kontakt",
+    "team_size_n": 4
+  },
   "davatzlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -2508,6 +2529,29 @@
     "phone": "+41 58 776 76 60",
     "source_url": "https://devonlegal.ch/"
   },
+  "dgslawandtax.ch": {
+    "canton": "ZH",
+    "email": "info@dgslawandtax.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "DGS. Rechtsanwälte / Steuerexperten",
+    "phone": "+41 44 533 31 11",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Steuerrecht",
+      "Gesellschaftsrecht",
+      "Gesundheitsrecht",
+      "Produkterecht",
+      "Vertragsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Verwaltungsrecht",
+      "Arbeitsrecht",
+      "Corporate Governance",
+      "Nachfolgeplanung",
+      "Streitbeilegung",
+      "Restrukturierung"
+    ],
+    "source_url": "https://dgslawandtax.ch/"
+  },
   "dietsche-law.ch": {
     "canton": "SG",
     "email": "info@dietsche-law.ch",
@@ -2521,6 +2565,14 @@
       "Erbrecht"
     ],
     "source_url": "https://dietsche-law.ch/kontakt/"
+  },
+  "dobler-ra.ch": {
+    "canton": "SZ",
+    "email": "info@dobler-ra.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Dobler Rechtsanwälte AG Dobler Rechtsanwälte AG",
+    "phone": "+41 55 451 20 10",
+    "source_url": "https://dobler-ra.ch/en/contact/"
   },
   "dufour-advokatur.ch": {
     "canton": "BS",
@@ -2773,21 +2825,27 @@
     "source_url": "https://www.fischlex.ch/"
   },
   "fkr-legal.ch": {
-    "canton": "ZH",
+    "canton": "LU",
     "email": "info@fkr-legal.ch",
     "fetched_date": "2026-09-07",
-    "firm_name": "Fellmann Klett Rothenberger",
+    "firm_name": "Fellmann Klett Rothenberger AG",
     "phone": "+41 58 058 23 80",
     "practice_areas_de": [
       "Haftpflicht- und Versicherungsrecht",
       "Vertragsrecht",
-      "Öffentliches und privates Baurecht",
+      "öffentliches und privates Baurecht",
       "Transportrecht",
       "Verwaltungsrecht",
       "Personen- und Erbrecht",
-      "Gesellschafts- und Stiftungsrecht"
+      "Gesellschafts- und Stiftungsrecht",
+      "Rechtsberatung",
+      "aussergerichtliche Streitbeilegung",
+      "Prozessführung",
+      "Gutachten",
+      "Schiedsgerichtsbarkeit"
     ],
-    "source_url": "https://www.fkr-legal.ch/"
+    "source_url": "https://www.fkr-legal.ch/",
+    "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Walter Fellmann), Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Barbara Klett)"
   },
   "fnb-law.ch": {
     "canton": "ZH",
@@ -3099,23 +3157,19 @@
   },
   "gmlaw.ch": {
     "canton": "SG",
-    "fetched_date": "2026-09-06",
-    "firm_name": "gm Rechtsanwälte und Notare",
+    "fetched_date": "2026-09-07",
+    "firm_name": "GM Rechtsanwälte",
     "phone": "+41 71 242 60 30",
     "practice_areas_de": [
-      "Bau-, Planungs- und Umweltrecht",
-      "Öffentliches Beschaffungswesen (Submissionsrecht)",
-      "Staats- und Verwaltungsrecht",
-      "Gemeindeorganiations- und Verbandsrecht",
-      "Öffentliches Personalrecht",
-      "Beschaffungsverträge, insbesondere IT",
-      "Immobilien- und Sachenrecht",
-      "Gesellschafts- und Vertragsrecht",
-      "Ehe- und erbrechtliche Regelungen, Nachfolgeplanung und Willensvollstreckungen",
-      "Gründungen, Umstrukturierungen und Nachfolgeregelungen von KMU",
+      "Bau- und Umweltrecht",
+      "öffentliches Beschaffungswesen",
+      "Verwaltungsrecht",
+      "Immobilienrecht",
+      "Gesellschaftsrecht",
+      "Familien- und Erbrecht",
+      "KMU-Nachfolgeplanung",
       "Arbeitsrecht",
-      "Familienrecht",
-      "Notariat, Beurkundungen",
+      "Notariat",
       "Prozessführung"
     ],
     "source_url": "https://gmlaw.ch/"
@@ -3546,6 +3600,24 @@
     "phone": "+41 44 202 50 22",
     "source_url": "https://www.kaempfenlegal.ch/de"
   },
+  "kalbermatter.law": {
+    "canton": "ZH",
+    "email": "rechtsberatung@kalbermatter.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "k&s rechtsanwälte klg",
+    "phone": "+41 44 321 62 67",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Schulrecht",
+      "Strafrecht",
+      "Jugendstrafrecht",
+      "Mietrecht",
+      "Erbrecht",
+      "KMU"
+    ],
+    "source_url": "https://www.kalbermatter.law/en/kontakt"
+  },
   "kanonengasse.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -3761,7 +3833,7 @@
   "klgp.ch": {
     "canton": "SZ",
     "fetched_date": "2026-09-06",
-    "firm_name": "Kessler Landolt Giacomini",
+    "firm_name": "Kessler Landolt Giacomini & Kessler Landolt Giacomini",
     "founding_year": 1974,
     "phone": "+41 41 811 66 77",
     "practice_areas_de": [
@@ -4502,6 +4574,14 @@
     "source_url": "https://lindtlaw.ch/",
     "specialist_certification": "Fachanwalt SAV Erbrecht (Beat Rüedi), Fachanwalt SAV Arbeitsrecht (Fabian Kapfhamer), Fachanwälte SAV Bau- und Immobilienrecht (Rolf Bickel, Stefan Kühnis, Nathalie Jäggi, Daniela Lutz)",
     "team_size_n": 15
+  },
+  "littler.ch": {
+    "canton": "ZH",
+    "email": "frontdesk@littler.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Littler Switzerland AG",
+    "phone": "+41 44 219 60 60",
+    "source_url": "https://www.littler.ch/contact"
   },
   "losinger.law": {
     "canton": "ZH",
@@ -5927,6 +6007,24 @@
     "source_url": "https://www.silk-rechtsanwaelte.ch/en/firm/",
     "team_size_n": null
   },
+  "slaw.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@slaw.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Stieger + Schütt Rechtsanwälte",
+    "phone": "+41 52 218 10 80",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht",
+      "öffentliches Dienstrecht",
+      "Verkehrsrecht",
+      "Erbrecht",
+      "Kindesrecht"
+    ],
+    "source_url": "https://www.slaw.ch/",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht (Peter Stieger), Fachanwalt SAV Familienrecht (Thomas Schütt)",
+    "team_size_n": 5
+  },
   "smplaw.ch": {
     "canton": "ZH",
     "email": "info@smplaw.ch",
@@ -6828,6 +6926,32 @@
     ],
     "source_url": "https://www.vischer.com/en/team/about-us/",
     "team_size_n": null
+  },
+  "vm-law.ch": {
+    "canton": "GR",
+    "email": "info@vm-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Visinoni & Metzger Via dal",
+    "founding_year": 2008,
+    "phone": "+41 81 837 00 00",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Personen- und Sachenrecht",
+      "Immobilienrecht",
+      "Ausländerrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Verwaltungs- und Staatsrecht",
+      "Steuer- und Abgabenrecht",
+      "Prozessführung",
+      "Strafrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.vm-law.ch/",
+    "specialist_certification": "Fachanwalt SAV Erbrecht (Fabrizio Visinoni), Fachanwalt SAV Bau- und Immobilienrecht (Stefan Metzger)",
+    "team_size_n": 5
   },
   "vocate.ch": {
     "canton": "SG",

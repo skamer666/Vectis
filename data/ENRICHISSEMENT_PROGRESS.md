@@ -2173,3 +2173,36 @@ pour permettre le rattachement automatique (le nom commercial affiché sur les s
 légèrement du libellé CSV) ; cela n'affecte pas l'affichage réel sur le site.
 
 Rattachement : 354 études rattachées au total (346 → 354, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 14h04 UTC — Phase 3, lot 30 (exécution automatisée)
+
+12 cabinets traités (10 succès / 2 échecs), sur 5 cantons (ZH, SG, GR, LU, SZ) : k&s
+rechtsanwälte klg (ZH, tel/email, 8 domaines DE — site officiel logé sur kalbermatter.law,
+domaine confirmé identifier explicitement le cabinet), Dobler Rechtsanwälte AG (SZ, tel/email),
+Münch Singh Rechtsanwälte (ZH, tel/email, 4 personnes), Stieger + Schütt Rechtsanwälte (ZH,
+tel/email, 5 avocats, 6 domaines DE, **Fachanwalt SAV Arbeitsrecht** pour Peter Stieger,
+**Fachanwalt SAV Familienrecht** pour Thomas Schütt), DGS. Rechtsanwälte / Steuerexperten (ZH,
+tel/email, 13 domaines DE), Littler Switzerland AG (ZH, bureau zurichois d'un cabinet
+international — tel/email spécifiques à Zurich uniquement, statistiques mondiales écartées
+conformément à la règle 4), Advoro AG (SG, tel/email spécifiques au bureau de St-Gall, 9
+domaines DE), GM Rechtsanwälte (SG, tel spécifique au bureau de St-Gall, 10 domaines DE),
+Visinoni & Metzger (GR, fondée **2008**, tel/email, 5 avocats, 13 domaines DE, **Fachanwalt
+SAV Erbrecht** pour Fabrizio Visinoni, **Fachanwalt SAV Bau- und Immobilienrecht** pour Stefan
+Metzger), Fellmann Klett Rothenberger AG (LU, tel/email, 12 domaines DE, **Fachanwalt/-anwältin
+SAV Haftpflicht- und Versicherungsrecht** pour Walter Fellmann et Barbara Klett). **Échecs :**
+Janiak Freivogel Schweighauser von Wartburg (BL, advokaturbuero-bl.ch, résolution DNS
+impossible sur deux tentatives) ; PRUDENTIA LAW (ZH, prudentia-law.ch, page d'accueil sans
+fait exploitable, /kontakt et /impressum en 404).
+
+Correctif matching : l'entrée existante `klgp.ch` (Kessler Landolt Giacomini, SZ, lot antérieur)
+avait un `firm_name` ne correspondant pas au libellé CSV dupliqué ("Kessler Landolt Giacomini &
+Kessler Landolt Giacomini") ; corrigé pour permettre le rattachement (aucun impact sur
+l'affichage réel du site).
+
+Note de rigueur : le total « 9 membres » de Fellmann Klett Rothenberger AG mêlait avocats et
+assistants (source non ventilée) — non retenu comme `team_size_n`, conformément au précédent
+établi pour ce type de chiffre mixte. Le "Dipl. Steuerexperte" de DGS. Rechtsanwälte n'est pas
+un titre de spécialiste FSA/SAV et n'a pas été enregistré comme `specialist_certification`.
+
+Rattachement : 361 études rattachées au total (354 → 361, +7 nettes après correctif). Suite de
+tests : 94/94 au vert.
