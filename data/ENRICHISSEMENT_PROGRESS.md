@@ -1970,3 +1970,21 @@ correctement ignoré par le garde-fou plutôt que risquer une mauvaise attributi
 
 Rattachement : 252 études rattachées au total (242 → 252, +10 ; 1 collision supplémentaire
 ignorée à bon escient). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 01h02 UTC — Phase 3, lot 17 (exécution automatisée)
+
+10 cabinets traités (10 succès / 4 échecs), ZH/BL/LU/SG : Schwarz Breitenstein Rechtsanwälte AG
+(tel/email, 8 domaines DE), Roesle Frick & Partner (tel/email), Rioult & Partner (tel/email, 5
+domaines DE), Schmid Sutter Rechtsanwälte AG (boutique immobilier/construction, tel/email, 4
+domaines DE), Teuscher Hediger Höhener Wimmer Rechtsanwältinnen (7 domaines DE), Advokatur am
+Fischmarkt (BL, fondée **1979** -- confirmé explicitement sur la page officielle --, tel, 12
+domaines DE), Lischer Zemp & Partner (LU, tel), EMMLEGAL (tel), Dietsche AG Rechtsanwälte &
+Notare (SG, tel/email, 4 domaines DE), Brun Forrer Kern KIG (boutique pénal, tel/email, 2
+domaines DE). **Échecs :** Schaub Hochl Rechtsanwälte AG (page anti-bot "One moment please..."),
+rabaglio schär ag (page JS quasi vide), Nievergelt & Stoehr AG (aucun site officiel dédié
+trouvé), Raum & Recht AG (entité trop récente, inscrite au RC le 15.05.2026, aucun site trouvé).
+
+**Note :** CSV LU contient "Lischer Zemp & Partner St." (troncature probable d'une mention
+d'adresse) -- `firm_name` ajusté pour correspondre exactement au nom cœur du CSV.
+
+Rattachement : 262 études rattachées au total (252 → 262, +10). Suite de tests : 94/94 au vert.

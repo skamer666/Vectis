@@ -186,6 +186,12 @@
       "firm_name": "MZBS Advokatur Notariat",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "nievergelt-stoehr": {
+      "canton": "LU",
+      "firm_name": "Nievergelt & Stoehr AG",
+      "reason": "aucun site officiel dedie trouve (uniquement annuaires tiers -- moneyhouse, local.ch, cylex)",
+      "tested_date": "2026-09-07"
+    },
     "nigon.ch": {
       "canton": "BS",
       "firm_name": "Nigon Partner AG",
@@ -210,6 +216,12 @@
       "firm_name": "Quadra Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "raum-recht.ch": {
+      "canton": "ZH",
+      "firm_name": "Raum & Recht AG",
+      "reason": "entite recemment inscrite au registre du commerce (15.05.2026), aucun site web trouve",
+      "tested_date": "2026-09-07"
+    },
     "reberlaw.ch": {
       "canton": "ZH",
       "firm_name": "REBER Rechtsanwälte",
@@ -222,11 +234,23 @@
       "firm_name": "Reichle Stehle AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "rs-tax.ch": {
+      "canton": "ZH",
+      "firm_name": "rabaglio schär ag",
+      "reason": "page d'accueil quasi vide (rendu JS, seul le nom du cabinet visible)",
+      "tested_date": "2026-09-07"
+    },
     "rudolf-bieri.ch": {
       "canton": "LU",
       "date": "2026-07-29",
       "firm_name": "Rudolf & Bieri AG",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "schaubhochl.ch": {
+      "canton": "ZH",
+      "firm_name": "Schaub Hochl Rechtsanwälte AG",
+      "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
+      "tested_date": "2026-09-07"
     },
     "sglaw.ch": {
       "canton": "SG",
@@ -875,6 +899,21 @@
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "team_size_n": null
   },
+  "anwalt-zh.ch": {
+    "canton": "ZH",
+    "email": "info@anwalt-zh.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Rioult & Partner",
+    "phone": "+41 43 300 51 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Personenrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.anwalt-zh.ch/"
+  },
   "anwaltluzern.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -1351,6 +1390,18 @@
     "firm_name": "Bettoni & Partner",
     "source_url": "https://www.bettonipartner.ch/kanzlei",
     "team_size_n": 5
+  },
+  "bfk.law": {
+    "canton": "ZH",
+    "email": "info@bfk.law",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Brun Forrer Kern KIG",
+    "phone": "+41 44 296 88 96",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Streiterledigung (zivilrechtliche Streitigkeiten)"
+    ],
+    "source_url": "https://bfk.law/"
   },
   "bhlaw.ch": {
     "canton": "ZH",
@@ -1980,6 +2031,20 @@
     "source_url": "https://davatzlegal.ch/en",
     "team_size_n": null
   },
+  "dietsche-law.ch": {
+    "canton": "SG",
+    "email": "info@dietsche-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Dietsche AG Rechtsanwälte & Notare",
+    "phone": "+41 71 844 98 00",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Steuerrecht",
+      "Strafrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://dietsche-law.ch/kontakt/"
+  },
   "dufour-advokatur.ch": {
     "canton": "BS",
     "email": "basel@dufo.ch",
@@ -1996,6 +2061,13 @@
       "Estate Planning (Inheritance, last will and testament)"
     ],
     "source_url": "https://www.dufour-advokatur.ch/en/firm/"
+  },
+  "emmlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "EMMLEGAL",
+    "phone": "+41 44 268 47 47",
+    "source_url": "https://www.emmlegal.ch/"
   },
   "enquire.ch": {
     "canton": "ZH",
@@ -2178,6 +2250,28 @@
       "Verwaltungs- und Submissionsrecht"
     ],
     "source_url": "https://fischer-rechtsanwaelte.ch/"
+  },
+  "fischlex.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur am Fischmarkt",
+    "founding_year": 1979,
+    "phone": "061 926 95 25",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Ehe / Partner & Kinder",
+      "Gesellschaftsrecht",
+      "Haftpflichtrecht",
+      "Prozessrecht & SchKG",
+      "Strafrecht",
+      "Strassenverkehr",
+      "Verwaltung & Steuern",
+      "Versicherungen",
+      "Verträge",
+      "Wohnen & Bauen",
+      "Erbschaft"
+    ],
+    "source_url": "https://www.fischlex.ch/"
   },
   "fnb-law.ch": {
     "canton": "ZH",
@@ -3998,6 +4092,14 @@
     ],
     "source_url": "https://www.rentschpartner.ch/uber-uns/profil-wer-wir-sind"
   },
+  "rfplegal.ch": {
+    "canton": "ZH",
+    "email": "rfpzh@rfplegal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Roesle Frick & Partner",
+    "phone": "+41 43 344 22 22",
+    "source_url": "https://www.rfplegal.ch/en/"
+  },
   "rickenbach-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -4273,6 +4375,24 @@
     "phone": "+41 71 925 30 30",
     "source_url": "https://www.sartorial.ch/"
   },
+  "sb-anwaelte.ch": {
+    "canton": "ZH",
+    "email": "office@sbm.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schwarz Breitenstein Rechtsanwälte AG",
+    "phone": "052 260 34 34",
+    "practice_areas_de": [
+      "Droit des contrats",
+      "Droit de la famille",
+      "Droit commercial et des sociétés",
+      "Droit du travail",
+      "Droit du bail/location",
+      "Droit des successions",
+      "Droit des personnes",
+      "Droit scolaire"
+    ],
+    "source_url": "https://sb-anwaelte.ch/"
+  },
   "schadenanwaelte.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4361,6 +4481,20 @@
     "firm_name": "Berther Moeri Neuber Schindler",
     "phone": "+41 44 215 47 47",
     "source_url": "http://www.schipfe32.ch/"
+  },
+  "schmidsutter.ch": {
+    "canton": "ZH",
+    "email": "info@schmidsutter.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schmid Sutter Rechtsanwälte AG",
+    "phone": "+41 44 266 10 50",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Bau- und Planungsrecht",
+      "Nachbarrecht",
+      "Vertragsgestaltung"
+    ],
+    "source_url": "https://www.schmidsutter.ch/"
   },
   "schochauer.ch": {
     "canton": "SG",
@@ -4623,6 +4757,13 @@
     "checked_date": "2026-09-06",
     "firm_name": "Suter Howald Rechtsanwälte AG",
     "reason": "site indisponible (HTTP 503) au moment du passage"
+  },
+  "swanlex.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lischer Zemp & Partner St.",
+    "phone": "+41 41 410 14 16",
+    "source_url": "https://swanlex.ch/"
   },
   "swisslegal-chur.ch": {
     "canton": "GR",
@@ -4983,6 +5124,21 @@
       "Mediation"
     ],
     "source_url": "https://turicum-legal.ch/"
+  },
+  "uster-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Teuscher Hediger Höhener Wimmer Rechtsanwältinnen",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Mediation",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.uster-law.ch/thhw"
   },
   "utolegal.ch": {
     "canton": "ZH",
