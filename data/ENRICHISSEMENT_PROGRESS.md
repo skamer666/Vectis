@@ -2069,3 +2069,14 @@ nom cœur -- garde-fou correctement appliqué (aucun rattachement plutôt qu'un 
 
 Rattachement : 303 études rattachées au total (298 → 303, +5 ; 2 collisions supplémentaires
 ignorées à bon escient). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 07h04 UTC — Phase 3, lot 23 (exécution automatisée)
+
+8 cabinets traités (8 succès / 0 échec), LU sauf 1 SG : Mayr von Baldegg Agten Humbel Joos
+(tel/email), Mühlebach Advokatur AG (tel, 15 domaines DE), Pilatushof AG (tel, 13 domaines FR,
+9 personnes), Peter und Partner Anwaltsbüro und Notariat (fondé **1982**, tel/email), Zgraggen
+Rechtsanwälte AG (tel/email, 9 domaines DE), Stadelmann Rechtsanwälte AG (fondée **1968**, tel,
+7 domaines EN, Fachanwalt SAV Bau- und Immobilienrecht pour 2 avocats), Schenkel & Serrago AG
+(tel/email), AMPARO Anwälte und Notare (SG, tel/email, 18 domaines DE).
+
+Rattachement : 311 études rattachées au total (303 → 311, +8). Suite de tests : 94/94 au vert.

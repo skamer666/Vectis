@@ -866,6 +866,14 @@
     ],
     "source_url": "https://www.advoro.ch/en"
   },
+  "advoweggishaus.ch": {
+    "canton": "LU",
+    "email": "info@advoweggishaus.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Mayr von Baldegg Agten Humbel Joos",
+    "phone": "+41 41 410 21 37",
+    "source_url": "https://www.advoweggishaus.ch/de/kontakt.html"
+  },
   "aequitaslex.ch": {
     "canton": "TI",
     "email": "info@aequitaslex.ch",
@@ -990,6 +998,34 @@
     ],
     "source_url": "https://www.ampark.law/",
     "team_size_n": 10
+  },
+  "amparo.ch": {
+    "canton": "SG",
+    "email": "info@amparo.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "AMPARO Anwälte und Notare",
+    "phone": "+41 71 228 80 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Auftragsrecht",
+      "Bau- und Planungsrecht",
+      "Beratung öffentlicher Verwaltungen",
+      "Ehe- und Erbverträge",
+      "Erbrecht",
+      "Führerausweisentzug",
+      "Haftpflichtrecht",
+      "Kaufvertragsrecht",
+      "Miet- und Pachtrecht",
+      "Notariatsdienstleistungen",
+      "Opferhilfe",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Unternehmensgründung",
+      "Privat- und Sozialversicherungsrecht",
+      "Verwaltungsrecht",
+      "Werkvertragsrecht"
+    ],
+    "source_url": "https://www.amparo.ch/"
   },
   "anker24.ch": {
     "canton": "ZH",
@@ -4304,6 +4340,30 @@
     "phone": "+41 (0)44 480 12 88",
     "source_url": "https://www.mrgadvokatur.ch/Kontakt.html"
   },
+  "muehlebach-law.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Mühlebach Advokatur AG",
+    "phone": "+41 41 410 34 03",
+    "practice_areas_de": [
+      "Gesellschafts- und Handelsrecht",
+      "Kapitalmarktrecht",
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Steuer- und Abgaberecht",
+      "Pharmarecht",
+      "Personen-, Vereins- und Stiftungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Partnerschaftsrecht",
+      "Scheidungsrecht",
+      "Erbrecht und Nachlassrecht",
+      "Sachenrecht",
+      "Zivilrecht",
+      "Strafrecht",
+      "Obligationenrecht"
+    ],
+    "source_url": "https://www.muehlebach-law.ch/"
+  },
   "muellerpaparis.ch": {
     "canton": "ZH",
     "email": "office@muellerpaparis.ch",
@@ -4542,6 +4602,15 @@
     "source_url": "https://pestalozzilaw.com/en",
     "team_size_n": null
   },
+  "peterundpartner.ch": {
+    "canton": "LU",
+    "email": "office@peterundpartner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Peter und Partner, Anwaltsbüro und Notariat",
+    "founding_year": 1982,
+    "phone": "+41 41 970 33 25",
+    "source_url": "https://peterundpartner.ch/"
+  },
   "peyerpartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -4574,6 +4643,29 @@
       "Erbrecht"
     ],
     "source_url": "https://www.pfister-rechtsanwaelte.ch/"
+  },
+  "pilatushof.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Pilatushof AG",
+    "phone": "+41 41 22 66 100",
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit fiscal",
+      "Droit des sociétés",
+      "Fiducie",
+      "Family Office",
+      "Office notarial",
+      "Droit de l'aménagement du territoire et de la construction",
+      "Droit successoral",
+      "Succession d'entreprise",
+      "Séparation & Divorce",
+      "Droit du travail",
+      "Droit du bail",
+      "Droit des assurances sociales"
+    ],
+    "source_url": "https://www.pilatushof.ch/en/",
+    "team_size_n": 9
   },
   "pmp-ra.ch": {
     "canton": "ZH",
@@ -4677,6 +4769,14 @@
     ],
     "source_url": "https://www.reberlaw.ch/en/",
     "team_size_n": 13
+  },
+  "rechtsanwalt-luzern.ch": {
+    "canton": "LU",
+    "email": "kanzlei@rechtsanwalt-luzern.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Schenkel & Serrago AG",
+    "phone": "+41 (0)41 419 70 80",
+    "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
   },
   "rechtskraft.ch": {
     "canton": "ZH",
@@ -5293,6 +5393,24 @@
     "practice_areas_fr": [],
     "source_url": "https://stadelmann-law.ch/",
     "team_size_n": null
+  },
+  "stadelmann.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Stadelmann Rechtsanwälte AG",
+    "founding_year": 1968,
+    "phone": "+41 41 349 10 80",
+    "practice_areas_en": [
+      "Construction and real estate law",
+      "Planning law",
+      "Notarial services",
+      "Estate/succession law",
+      "Corporate law",
+      "Tenancy law",
+      "Contract law"
+    ],
+    "source_url": "https://stadelmann.ch/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Bernhard Stadelmann, Joe Räber)"
   },
   "steinlex.ch": {
     "canton": "ZH",
@@ -6468,6 +6586,25 @@
     "practice_areas_fr": [],
     "source_url": "https://www.wslaw.ch/en/",
     "team_size_n": null
+  },
+  "z-law.ch": {
+    "canton": "LU",
+    "email": "info@z-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Zgraggen Rechtsanwälte AG",
+    "phone": "+41 41 269 68 00",
+    "practice_areas_de": [
+      "öffentliches und privates Baurecht",
+      "Nachbarrecht",
+      "Stockwerkeigentum",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Erbrecht",
+      "Wirtschaftsstrafrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.z-law.ch/"
   },
   "zr-law.ch": {
     "canton": "ZH",
