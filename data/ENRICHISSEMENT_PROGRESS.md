@@ -2351,3 +2351,24 @@ tierce, confirmant l'importance de toujours vérifier sur la source primaire.
 
 Rattachement : 426 études rattachées au total (413 → 426, +13 nettes). Suite de tests : 94/94
 au vert.
+
+### 2026-09-07 20h04 UTC — Phase 3, lot 36 (exécution automatisée)
+
+9 cabinets traités (9 succès / 0 échec), poursuite de LU (4), plus SZ, BL, SG (2). Doublon
+réutilisé : `advocat.ch#2` (ME Advocat AG, 2e ligne CSV SG pour le cabinet déjà traité en AR au
+lot 35). 4 LU : FRISCHKOPF & LOOP Advokatur (Sursee, tel/email, 4 personnes), Walder Haas
+Berner AG (cabinet multi-sites Zofingen AG/Sursee LU/Wolhusen LU, tel/email bureau lucernois),
+Kanzlei KMUFORUM GmbH (Emmenbrücke/Hitzkirch, tel/email, 4 avocats, 10 domaines EN), Lüdi Ludin
+Steiner AG (Sursee, tel/email, 3 notaires-avocats). 1 SZ : Roesle Frick & Partner (cabinet
+bi-site Zurich/Pfäffikon SZ, tel/email bureau schwytzois). 1 BL : Advokatur Lehner, Trüeb &
+Küng (fondée **1987**, tel/email, 3 associés, 6 domaines EN). 2 SG : Kellenberger Kaufmann
+Rechtsanwälte Notare (3 avocats, 5 domaines DE -- aucun tel/email confirmé sur la source
+disponible), Weber Noser von Gleichenstein (cabinet multi-sites SG/TG, tel bureau st-gallois,
+10 domaines DE).
+
+Note de rigueur : team size de Weber Noser von Gleichenstein (14 personnes au total : 6 avocats
+diplômés + 4 juristes/substituts + 4 administratif) ventilé -- seul le nombre d'avocats diplômés
+(6) retenu comme `team_size_n`.
+
+Rattachement : 434 études rattachées au total (426 → 434, +8 nettes). Suite de tests : 94/94 au
+vert.

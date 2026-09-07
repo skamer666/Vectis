@@ -602,6 +602,14 @@
     "phone": "+41 71 282 50 55",
     "source_url": "https://www.advocat.ch/"
   },
+  "advocat.ch#2": {
+    "canton": "SG",
+    "email": "office@advocat.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "ME Advocat AG",
+    "phone": "+41 71 855 77 66",
+    "source_url": "https://www.advocat.ch/"
+  },
   "advocentral.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -659,6 +667,24 @@
     "source_url": "https://www.advokaten.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "advokatenliestal.ch": {
+    "canton": "BL",
+    "email": "kanzlei@advokatenliestal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur Lehner, Trüeb & Küng",
+    "founding_year": 1987,
+    "phone": "+41 61 927 60 00",
+    "practice_areas_en": [
+      "Civil and criminal law",
+      "Debt collection and bankruptcy law",
+      "Family and divorce law",
+      "Inheritance law",
+      "Employment and rental law",
+      "Business consulting and representation"
+    ],
+    "source_url": "https://www.advokatenliestal.ch/",
+    "team_size_n": 3
   },
   "advokatur-allschwil.ch": {
     "canton": "BL",
@@ -779,6 +805,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advokatur-west.ch/",
     "team_size_n": null
+  },
+  "advokatur-whb.ch": {
+    "canton": "LU",
+    "email": "office@advokatur-whb.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Walder Haas Berner AG",
+    "phone": "041 920 10 21",
+    "source_url": "https://www.advokatur-whb.ch/kontakt.html"
   },
   "advokatur-zentralschweiz.ch": {
     "canton": "LU",
@@ -1348,6 +1382,20 @@
       "Strafrecht"
     ],
     "source_url": "https://anwaelte44.ch/fachgebiete.html"
+  },
+  "anwalt-kellenberger.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kellenberger Kaufmann  Rechtsanwälte Notare",
+    "practice_areas_de": [
+      "Allgemeinpraxis mit Schwerpunkt im Vorsorge- und Versicherungsrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Notariat im Gesellschaftsrecht",
+      "Erbrecht",
+      "Güterrecht"
+    ],
+    "source_url": "https://www.anwalt-kellenberger.ch/Kellenberger/Tatigkeiten.html",
+    "team_size_n": 3
   },
   "anwalt-pfister.ch": {
     "canton": "SZ",
@@ -3378,6 +3426,15 @@
     ],
     "source_url": "https://www.frilegal.ch/"
   },
+  "frischkopf.ch": {
+    "canton": "LU",
+    "email": "office@frischkopf.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "FRISCHKOPF & LOOP Advokatur",
+    "phone": "+41 41 921 31 31",
+    "source_url": "https://www.frischkopf.ch/standort-kontakt/",
+    "team_size_n": 4
+  },
   "fromer-law.com": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -4550,6 +4607,27 @@
     "source_url": "https://kmb-anwaelte.ch/",
     "team_size_n": 7
   },
+  "kmu-forum.ch": {
+    "canton": "LU",
+    "email": "kanzlei@kmu-forum.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kanzlei KMUFORUM GmbH",
+    "phone": "+41 41 269 65 55",
+    "practice_areas_en": [
+      "Tax and administrative law",
+      "Corporate and commercial law",
+      "Criminal law and criminal procedure",
+      "Real estate, construction, and planning law",
+      "Family law and divorce",
+      "Labor and employment law",
+      "Insurance and social security law",
+      "Inheritance law",
+      "Sports law",
+      "Traffic law"
+    ],
+    "source_url": "https://kmu-forum.ch/team/",
+    "team_size_n": 4
+  },
   "kornplatz.ch": {
     "canton": "GR",
     "fetched_date": "2026-07-29",
@@ -5289,6 +5367,15 @@
     "firm_name": "Littler Switzerland AG",
     "phone": "+41 44 219 60 60",
     "source_url": "https://www.littler.ch/contact"
+  },
+  "lls-notariat.ch": {
+    "canton": "LU",
+    "email": "info@lls-notariat.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lüdi Ludin Steiner AG Oberer",
+    "phone": "041 920 47 76",
+    "source_url": "https://lls-notariat.ch/",
+    "team_size_n": 3
   },
   "losinger.law": {
     "canton": "ZH",
@@ -6267,11 +6354,11 @@
     "source_url": "https://www.rentschpartner.ch/uber-uns/profil-wer-wir-sind"
   },
   "rfplegal.ch": {
-    "canton": "ZH",
-    "email": "rfpzh@rfplegal.ch",
+    "canton": "SZ",
+    "email": "rfpsz@rfplegal.ch",
     "fetched_date": "2026-09-07",
-    "firm_name": "Roesle Frick & Partner",
-    "phone": "+41 43 344 22 22",
+    "firm_name": "Roesle Frick & Partner Roesle Frick & Partner",
+    "phone": "+41 55 416 26 36",
     "source_url": "https://www.rfplegal.ch/en/"
   },
   "rickenbach-law.ch": {
@@ -8317,6 +8404,26 @@
       "Diritto civile"
     ],
     "source_url": "https://www.wnlegal.ch/about"
+  },
+  "wnvg.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Weber Noser von Gleichenstein / lic.iur. HSG Marc Weber AG",
+    "phone": "071 225 40 90",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "nationales und internationales Steuerrecht",
+      "Abgaberecht",
+      "Handels-, Gesellschafts-, Vertrags- und übriges Zivilrecht",
+      "Notariat",
+      "Immaterialgüterrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Immobilienrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.wnvg.ch/de/team/",
+    "team_size_n": 6
   },
   "wolfer-frey.ch": {
     "canton": "ZH",
