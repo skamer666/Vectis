@@ -2080,3 +2080,17 @@ Rechtsanwälte AG (tel/email, 9 domaines DE), Stadelmann Rechtsanwälte AG (fond
 (tel/email), AMPARO Anwälte und Notare (SG, tel/email, 18 domaines DE).
 
 Rattachement : 311 études rattachées au total (303 → 311, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-07 08h03 UTC — Phase 3, lot 24 (exécution automatisée, premières fiches Grisonnes)
+
+7 cabinets traités (7 succès / 2 échecs), premiers cabinets grisons (GR) : Fryberg Augustin
+Breitenmoser Partner (GR, Chur, tel/email), Buchli Just Advokatur und Notariat (GR, fondé
+**1976**, 5 domaines DE), Lardelli Conrad Advokatur Notariat (GR, tel/email, 9 domaines DE),
+Kanzlei Bellevue (LU, tel/email, 9 domaines DE), Anwälte 44 (SG, tel, 7 domaines DE), Studio
+legale e notarile Olgiati Ghiringhelli Sala (TI, fondé **1968**, boutique droit de l'art rare,
+tel/email, 12 domaines EN), Studio legale e notarile Guggiari-Guerra-Rapelli-Gottardi (TI, tel/
+email, 12 domaines IT -- renommé depuis en "...Aiolfi Gottardi", même cabinet). **Échecs :** Egli
+Hess Schwegler Rechtsanwälte und Notare (LU, domaine ehs-kanzlei.ch introuvable en DNS), Studio
+legale e notarile Brioschi Gianella Timbal & Cometta (TI, HTTP 503).
+
+Rattachement : 318 études rattachées au total (311 → 318, +7). Suite de tests : 94/94 au vert.

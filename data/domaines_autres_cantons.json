@@ -90,6 +90,12 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "ehs-kanzlei.ch": {
+      "canton": "LU",
+      "firm_name": "Egli Hess Schwegler Rechtsanwälte und Notare",
+      "reason": "domaine ne resout pas (DNS ENOTFOUND) sur ehs-kanzlei.ch et www.ehs-kanzlei.ch",
+      "tested_date": "2026-09-07"
+    },
     "eversheds-sutherland.com": {
       "canton": "ZH",
       "firm_name": "Eversheds Sutherland AG",
@@ -191,6 +197,12 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Lustenberger + Partners KLG",
       "raison": "aucun fait extractible (pas de founding_year, team_size, ni liste practice_areas)"
+    },
+    "luganolawyers.ch": {
+      "canton": "TI",
+      "firm_name": "Studio legale e notarile Brioschi Gianella Timbal & Cometta",
+      "reason": "HTTP 503 Service Unavailable au fetch",
+      "tested_date": "2026-09-07"
     },
     "lva-law.ch": {
       "canton": "TI",
@@ -1077,6 +1089,22 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "team_size_n": null
+  },
+  "anwaelte44.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Anwälte 44",
+    "phone": "071 228 41 11",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Ausländerrecht",
+      "Familienrecht",
+      "Haftpflichtrecht",
+      "Mietrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://anwaelte44.ch/fachgebiete.html"
   },
   "anwalt-zh.ch": {
     "canton": "ZH",
@@ -2338,6 +2366,20 @@
     "source_url": "https://www.charlesrussellspeechlys.com/en/our-locations/offices/zurich/",
     "team_size_n": null
   },
+  "churanwalt.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Buchli Just Advokatur und Notariat",
+    "founding_year": 1976,
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Handelsrecht",
+      "Vertragsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "https://churanwalt.ch/"
+  },
   "cms.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2582,6 +2624,14 @@
     ],
     "source_url": "https://www.fank-law.ch/en/",
     "team_size_n": null
+  },
+  "fas-chur.ch": {
+    "canton": "GR",
+    "email": "info@fas-chur.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Fryberg Augustin Breitenmoser Partner",
+    "phone": "081 258 55 17",
+    "source_url": "https://fas-chur.ch/kontakt/"
   },
   "ff-law.ch": {
     "canton": "ZH",
@@ -3358,6 +3408,25 @@
     "source_url": "https://www.kanonengasse.ch/",
     "team_size_n": null
   },
+  "kanzlei-bellevue.ch": {
+    "canton": "LU",
+    "email": "info@kanzlei-bellevue.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Kanzlei Bellevue",
+    "phone": "041 910 54 54",
+    "practice_areas_de": [
+      "Notariat und Beurkundung",
+      "Bauen",
+      "Stockwerkeigentum",
+      "Vermieten und Mieten",
+      "AG und GmbH",
+      "Arbeiten",
+      "Verträge",
+      "Sozialversicherung",
+      "Betreibung und Konkurs"
+    ],
+    "source_url": "https://www.kanzlei-bellevue.ch/"
+  },
   "kanzlei-dbz.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -3750,6 +3819,24 @@
     "phone": "+41 44 250 29 29",
     "source_url": "https://lanter-partner.ch/en/"
   },
+  "lardelliconrad.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Lardelli Conrad Advokatur Notariat",
+    "phone": "+41 81 252 81 56",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Strafrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht",
+      "Immaterialgüterrecht",
+      "Betreibungs- und Konkursrecht",
+      "Vertrags- und Notariatsrecht",
+      "Gesellschaftsrecht",
+      "Beglaubigungen"
+    ],
+    "source_url": "https://lardelliconrad.ch/"
+  },
   "laru.ch": {
     "canton": "BL",
     "email": "sekretariat@laru.ch",
@@ -3875,6 +3962,28 @@
     ],
     "source_url": "https://www.lclaw.ch/en/about-us/",
     "team_size_n": null
+  },
+  "leg-not.ch": {
+    "canton": "TI",
+    "email": "info@leg-not.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale e notarile Guggiari-Guerra-Rapelli-Gottardi",
+    "phone": "+41(0)91 605 5154",
+    "practice_areas_it": [
+      "Diritto Amministrativo",
+      "Diritto Civile",
+      "Diritto delle obbligazioni",
+      "Diritto delle assicurazioni",
+      "Procedure di incasso crediti",
+      "Diritto penale",
+      "Diritto dello sport",
+      "Acquisti e Donazioni",
+      "Matrimoni e Successioni",
+      "Ipoteche e Modifiche",
+      "Società e Fusioni",
+      "Autentiche"
+    ],
+    "source_url": "https://leg-not.ch/"
   },
   "legal1896.ch": {
     "canton": "TI",
@@ -4576,6 +4685,29 @@
     ],
     "source_url": "https://og42.ch/",
     "team_size_n": null
+  },
+  "ogs-legal.com": {
+    "canton": "TI",
+    "email": "info@ogs-legal.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Studio legale e notarile Olgiati Ghiringhelli Sala",
+    "founding_year": 1968,
+    "phone": "+41 91 9113040",
+    "practice_areas_en": [
+      "Tax, corporate and commercial law",
+      "Art and art market law",
+      "Copyright and trademark law",
+      "Inheritance law",
+      "Real estate law",
+      "Contract law",
+      "Employment law",
+      "Rights of aliens",
+      "Transport law",
+      "Banking law",
+      "Bankruptcy and execution law",
+      "Litigation/Arbitration"
+    ],
+    "source_url": "https://ogs-legal.com/index_eng.html"
   },
   "perucchiandpartner.com": {
     "canton": "ZH",
