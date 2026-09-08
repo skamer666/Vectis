@@ -2712,3 +2712,19 @@ avocat nommé Ulrich sur l'équipe actuelle -- lien non retenu), Schucan & Wohlw
 Erni Grab & Partner AG (communauté d'avocats, aucun domaine de compétence concret extrait).
 
 Rattachement : 592 études rattachées au total (584 → 592, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 14h04 UTC — Phase 3, lot 54 (exécution automatisée)
+
+9 cabinets traités (9 succès / 0 échec), premier lot majoritairement GR sans aucun échec.
+Brändli Rechtsanwälte AG (Chur, tel/email, 5 avocats), Flütsch Advokatur & Notariat GmbH
+(Davos, tel/email, spécialiste FSA Bau- und Immobilienrecht, 5 domaines DE), Schnyder Janett
+Advokatur & Notariat (Landquart, tel/email, 5 domaines DE), Ganzoni & Pedretti AG (St-Moritz,
+tel), Caviezel Thöny Cantieni Scarpatetti (Chur, tel/email, 8 domaines DE), Götte
+Rechtsanwälte (Lucerne, fondée **2009** -- "Wir sind seit 2009 als Rechtsanwälte tätig",
+tel/email, 2 avocats, 7 domaines DE), Dr. Rudolf & Bieri AG (Lucerne, tel/email), Meisser &
+Partners AG (boutique marques, Klosters/Landquart, tel, 3 avocats -- 5 paralegals/secrétaires
+exclus du compte, 5 domaines DE). Nievergelt & Stoehr AG (rattachement par déduplication :
+troisième ligne CSV pour ce cabinet déjà rattaché deux fois ce jour sous GR et TI, faits déjà
+vérifiés réutilisés).
+
+Rattachement : 600 études rattachées au total (592 → 600, +8). Suite de tests : 94/94 au vert.

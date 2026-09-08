@@ -1210,6 +1210,22 @@
     "source_url": "https://advokaturaussersihl.ch/",
     "team_size_n": 8
   },
+  "advokaturfluetsch.ch": {
+    "canton": "GR",
+    "email": "info@advokaturfluetsch.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Flütsch Advokatur & Notariat GmbH",
+    "phone": "081 416 19 21",
+    "practice_areas_de": [
+      "Immobilien- und Baurecht",
+      "Familienrecht (Ehe- und Güterrecht)",
+      "Vertragsrecht",
+      "Gesellschaftsrecht (AG und GmbH)",
+      "Dienstleistungen für Gemeinden und Unternehmen"
+    ],
+    "source_url": "https://www.advokaturfluetsch.ch/advokatur.html",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
   "advokaturstadthof.ch": {
     "canton": "BL",
     "email": "advokatur@advokaturstadthof.ch",
@@ -1817,6 +1833,24 @@
       "Regressrecht"
     ],
     "source_url": "https://www.anwalt-zuerich.ch/"
+  },
+  "anwaltchur.ch": {
+    "canton": "GR",
+    "email": "kanzlei@anwaltchur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Caviezel Thöny Cantieni Scarpatetti",
+    "phone": "+41 81 252 34 41",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Verkehrsstrafrecht",
+      "Mietrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.anwaltchur.ch/schwerpunkte/"
   },
   "anwaltluzern.ch": {
     "canton": "LU",
@@ -3305,6 +3339,23 @@
     "source_url": "https://brackpartner.ch/",
     "team_size_n": null
   },
+  "braendli-rechtsanwalt.ch": {
+    "canton": "GR",
+    "email": "info@braendli-rechtsanwalt.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Brändli Rechtsanwälte AG",
+    "phone": "+41 81 322 82 82",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafverteidigung",
+      "Mietrecht",
+      "Vertragsstreitigkeiten",
+      "Erbrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.braendli-rechtsanwalt.ch/about/",
+    "team_size_n": 5
+  },
   "bratschi.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-21",
@@ -4647,6 +4698,13 @@
     ],
     "source_url": "https://www.gaggini-partners.ch/"
   },
+  "ganzonipedretti.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Ganzoni & Pedretti AG",
+    "phone": "+41 81 833 55 44",
+    "source_url": "https://www.ganzonipedretti.ch/en/law-firm/"
+  },
   "gb-law.ch": {
     "canton": "SG",
     "email": "info@gb-law.ch",
@@ -4873,6 +4931,25 @@
       "Prozessführung"
     ],
     "source_url": "https://gmlaw.ch/"
+  },
+  "goette.ch": {
+    "canton": "LU",
+    "email": "office@goette.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Götte Rechtsanwälte",
+    "founding_year": 2009,
+    "phone": "+41 41 210 11 35",
+    "practice_areas_de": [
+      "Arbeits- und Personalrecht",
+      "Haftpflichtrecht",
+      "Versicherungsrecht",
+      "Miet- und Pachtrecht",
+      "Privates Baurecht",
+      "Erbrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://www.goette.ch/",
+    "team_size_n": 2
   },
   "good-zuerich.ch": {
     "canton": "ZH",
@@ -7761,6 +7838,19 @@
     ],
     "source_url": "https://www.nievergeltundstoehr.ch/unternehmen"
   },
+  "nievergeltundstoehr.ch#3": {
+    "canton": "GR",
+    "email": "info@nist-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Nievergelt & Stoehr AG Via",
+    "phone": "+41 81 851 09 10",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Family Office"
+    ],
+    "source_url": "https://www.nievergeltundstoehr.ch/unternehmen"
+  },
   "nievergeltundstoehr.ch#TI": {
     "canton": "TI",
     "email": "info@nist-law.ch",
@@ -8859,6 +8949,14 @@
     "source_url": "https://www.rudincantieni.ch/",
     "team_size_n": null
   },
+  "rudolf-bieri.ch": {
+    "canton": "LU",
+    "email": "mail@rudolf-bieri.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Dr. Rudolf & Bieri AG",
+    "phone": "+41 41 220 73 10",
+    "source_url": "https://www.rudolf-bieri.ch/kontakt"
+  },
   "ruedpartners.ch": {
     "canton": "ZH",
     "email": "office@ruedpartners.ch",
@@ -9946,6 +10044,36 @@
       "Family office management"
     ],
     "source_url": "https://swisslegem.ch/lo-studio/",
+    "team_size_n": 3
+  },
+  "swissrecht.ch": {
+    "canton": "GR",
+    "email": "info@swissrecht.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schnyder Janett Advokatur & Notariat",
+    "phone": "081 300 01 20",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Mediation",
+      "Schiedsgericht",
+      "Gutachten"
+    ],
+    "source_url": "https://www.swissrecht.ch/kontakt"
+  },
+  "swisstm.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Meisser & Partners AG",
+    "phone": "+41 81 410 23 23",
+    "practice_areas_de": [
+      "Markenschutz",
+      "Abklärungen über die Verfügbarkeit neuer Marken",
+      "Hinterlegung und Verwaltung von Markeneintragungen",
+      "Konflikte und Streitigkeiten",
+      "Bekämpfung von Produktpiraterie"
+    ],
+    "source_url": "https://www.swisstm.ch/de/",
     "team_size_n": 3
   },
   "swlegal.com": {
