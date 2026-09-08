@@ -2531,3 +2531,19 @@ droit médical, tel, 2 avocats, 5 domaines DE), rechtdirekt (Uster, tel/email, 2
 domaines DE). **Échec :** Jermann Künzli Rechtsanwälte (jkr.ch, HTTP 403 Forbidden).
 
 Rattachement : 510 études rattachées au total (503 → 510, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 06h04 UTC — Phase 3, lot 46 (exécution automatisée)
+
+9 cabinets traités (8 succès / 1 échec), tous ZH. Obergass Advokatur (fondée **1970** -- "Sie
+besteht seit 1970", tel/email, 2 avocats, 6 domaines DE dont droit de la responsabilité
+civile/assurances et aide aux victimes), Kramer & Kramer (fondée **1971**, 3 domaines DE),
+CORE Rechtsanwälte AG (boutique droit de la concurrence/antitrust, tel/email, 6 domaines EN --
+année de fondation vue en recherche tierce (2020) non retenue, absente de la source primaire),
+Legal Experts Switzerland AG (4 domaines DE dont droit des sociétés et droit du travail/
+étrangers), Seidel & Partner Rechtsanwälte AG (boutique droit de la construction/immobilier,
+tel/email, 5 domaines DE), Küng & Meili Rechtsanwälte (tel/email), Anwaltskanzlei Köppel GmbH
+(cabinet bi-site Winterthour/Bienne, tel, 2 domaines DE dont conseil juridique Chine),
+Zulauf Partner (zulauflegal.ch, boutique droit des médias/réputation, tel/email, 9 domaines
+DE). **Échec :** Zuppiger Jenny Rechtsanwälte AG (aucun domaine identifié).
+
+Rattachement : 518 études rattachées au total (510 → 518, +8). Suite de tests : 94/94 au vert.

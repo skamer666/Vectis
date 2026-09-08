@@ -1109,6 +1109,18 @@
     "source_url": "https://advokraft.ch/",
     "team_size_n": 4
   },
+  "advokramer.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kramer & Kramer",
+    "founding_year": 1971,
+    "practice_areas_de": [
+      "Allgemeine Rechtsberatung",
+      "Strafrecht",
+      "Mediation"
+    ],
+    "source_url": "https://advokramer.ch/"
+  },
   "advomed.ch": {
     "canton": "ZH",
     "email": "info@advomed.ch",
@@ -3396,6 +3408,22 @@
     "phone": "+41 44 552 49 20",
     "source_url": "https://www.consavo.com/consavo-adressen/"
   },
+  "core-attorneys.com": {
+    "canton": "ZH",
+    "email": "info@core-attorneys.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "CORE Rechtsanwälte AG",
+    "phone": "+41 43 555 70 00",
+    "practice_areas_en": [
+      "Competition law & antitrust",
+      "Regulatory matters",
+      "Distribution law & commercial matters",
+      "E-commerce & digital economy",
+      "Compliance",
+      "Internal investigations"
+    ],
+    "source_url": "https://core-attorneys.com/en/"
+  },
   "d32.ch": {
     "canton": "ZH",
     "email": "sekretariat@d32.ch",
@@ -5459,6 +5487,17 @@
     "source_url": "https://kmu-forum.ch/team/",
     "team_size_n": 4
   },
+  "koeppel-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltskanzlei Köppel GmbH",
+    "phone": "+41 52 262 70 42",
+    "practice_areas_de": [
+      "Allgemeine Rechtsberatung",
+      "Rechtsberatung China"
+    ],
+    "source_url": "https://koeppel-law.ch/de/"
+  },
   "kornplatz.ch": {
     "canton": "GR",
     "fetched_date": "2026-07-29",
@@ -5563,6 +5602,14 @@
       "Allgemeines Vertragsrecht"
     ],
     "source_url": "https://www.ksup.ch/"
+  },
+  "kueng-meili.ch": {
+    "canton": "ZH",
+    "email": "kueng@kueng-meili.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Küng & Meili Rechtsanwälte",
+    "phone": "+41 44 324 75 76",
+    "source_url": "https://kueng-meili.ch/en/contact/"
   },
   "kuenglaw-sg.ch": {
     "canton": "SG",
@@ -5918,6 +5965,18 @@
       "Debt enforcement/bankruptcy/reorganization"
     ],
     "source_url": "https://www.legal1896.ch/en/"
+  },
+  "legalexperts.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Legal Experts Switzerland AG",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Vertragsrecht und Strukturvertrieb",
+      "Arbeits- und Ausländerrecht",
+      "Nachlassplanung"
+    ],
+    "source_url": "https://legalexperts.ch/"
   },
   "legalperucchi.com": {
     "canton": "TI",
@@ -6887,6 +6946,24 @@
     "firm_name": "NSF Rechtsanwälte AG",
     "phone": "+41 43 523 04 04",
     "source_url": "https://www.nsf.li/en/legal-notice/legal-notice-nsf-rechtsanwalte-ag/"
+  },
+  "obergasslaw.ch": {
+    "canton": "ZH",
+    "email": "office@obergasslaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Obergass Advokatur",
+    "founding_year": 1970,
+    "phone": "+41 52 213 65 19",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht (Personenschaden)",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Opferhilfe / Geschädigtenvertretung",
+      "Strassenverkehrsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://obergasslaw.ch/kanzlei",
+    "team_size_n": 2
   },
   "og42.ch": {
     "canton": "SG",
@@ -7945,6 +8022,21 @@
       "Life Sciences"
     ],
     "source_url": "https://www.scope.law/kontakt?lang=en"
+  },
+  "seidelpartner.ch": {
+    "canton": "ZH",
+    "email": "info@seidelpartner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Seidel & Partner Rechtsanwälte AG",
+    "phone": "+41 44 590 20 12",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Bahn- und Strassenplanungsrecht",
+      "Mietrecht",
+      "Integrales Projektmanagement",
+      "Kraftloserklärung von Schuldbriefen"
+    ],
+    "source_url": "https://seidelpartner.ch/kontakt/"
   },
   "sennsommbossart.ch": {
     "canton": "SG",
@@ -9703,6 +9795,25 @@
       "Inheritance law and estate planning"
     ],
     "source_url": "https://zstax.ch/en/"
+  },
+  "zulauflegal.ch": {
+    "canton": "ZH",
+    "email": "info@zulauflegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Zulauf Partner",
+    "phone": "+41 44 389 11 11",
+    "practice_areas_de": [
+      "Persönlichkeitsschutz",
+      "Medien- und Reputationsrecht",
+      "Recht des unlauteren Wettbewerbs",
+      "Gegendarstellungs- und Berichtigungsrecht",
+      "Whistleblowing-Untersuchungen",
+      "Radio- und Fernsehrecht",
+      "Internet- und neue Medien",
+      "Werberecht",
+      "Vertragsgestaltung und -verhandlungen"
+    ],
+    "source_url": "https://zulauflegal.ch/"
   },
   "zurich-law.ch": {
     "canton": "ZH",
