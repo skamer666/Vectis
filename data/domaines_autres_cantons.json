@@ -620,6 +620,13 @@
       "firm_name": "Tenchio & Partner",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "umbricht.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Umbricht Rechtsanwälte AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "utolegal.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -658,10 +665,11 @@
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "weinmann-zimmerli.ch": {
+      "_failed": true,
       "canton": "ZH",
-      "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
-      "reason": "site en rendu JS (Nuxt skeleton, 'Loading...'), aucun contenu exploitable au fetch",
-      "tested_date": "2026-09-07"
+      "checked_date": "2026-09-08",
+      "firm_name": "Weinmann Zimmerli",
+      "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique"
     },
     "wieser-wieser.ch": {
       "_failed": true,
@@ -669,6 +677,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Advokatur Wieser & Wieser",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "winzeler.law": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Winzeler Law",
+      "reason": "HTTP 503 Service Unavailable (x2, y compris apres redirection depuis winzelerlaw.com)"
     },
     "wuergler-ra.ch": {
       "canton": "ZH",
@@ -695,6 +710,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Maron Zirngast Rechtsanwälte",
       "reason": "Site accessible mais aucune coordonnee exploitable apres 4 pages testees (accueil, standort, kontakt) -- contenu limite a des formulaires de contact"
+    },
+    "zr-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Zollinger Rohner Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "zurich-law.ch": {
       "canton": "ZH",
@@ -7892,6 +7914,19 @@
     "phone": "+41 52 269 21 11",
     "source_url": "https://martin-ra.ch/en/contact/"
   },
+  "mbh-law.ch": {
+    "canton": "ZH",
+    "email": "office@mbh-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "mbh ATTORNEYS AT LAW Mönnich, Bell & Oldani KLG",
+    "phone": "+41 44 552 16 80",
+    "practice_areas_en": [
+      "Insurance and reinsurance law",
+      "Liability law"
+    ],
+    "source_url": "https://mbh-law.ch/en/insurance-and-reinsurance-law-in-zurich/",
+    "team_size_n": 5
+  },
   "mcmlegal.ch": {
     "canton": "TI",
     "email": "studio@mcmlegal.ch",
@@ -11972,6 +12007,25 @@
       "Notariat"
     ],
     "source_url": "https://www.z-law.ch/"
+  },
+  "zd-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Zeier & Dekker Rechtsanwälte",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Mediation",
+      "Mietrecht",
+      "Steuerrecht",
+      "Trennungs- und Scheidungsrecht",
+      "Vereinsrecht",
+      "Vorsorgerecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://zd-law.ch/"
   },
   "zm-rechtsanwaelte.ch": {
     "canton": "LU",

@@ -2835,3 +2835,14 @@ insolvabilité, tel/email, 4 domaines EN), kerber.legal (tel/email). **Échecs :
 (403×2), schaller.law GmbH (503×2).
 
 Rattachement : 632 études rattachées au total (628 → 632, +4). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 23h03 UTC — Phase 3, lot 63 (exécution automatisée)
+
+6 cabinets traités (2 succès / 4 échecs), tous ZH. Zeier & Dekker Rechtsanwälte (Küsnacht,
+communauté avec lignes directes propres -- aucun tel/email de cabinet inventé, 11 domaines
+DE), mbh ATTORNEYS AT LAW Mönnich, Bell & Oldani KLG (boutique droit des assurances/
+réassurance, tel/email, 5 avocats). **Échecs :** Umbricht Rechtsanwälte AG (503×2), Weinmann
+Zimmerli (site JS-only Nuxt, aucun contenu HTML statique exploitable), Zollinger Rohner
+Rechtsanwälte (zr-law.ch, 503×2), Winzeler Law (503×2 y compris après redirection).
+
+Rattachement : 634 études rattachées au total (632 → 634, +2). Suite de tests : 94/94 au vert.
