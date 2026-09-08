@@ -220,6 +220,13 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "lengyel.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Advokaturbüro Lengyel",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "lenzcaduff.ch": {
       "canton": "ZH",
       "firm_name": "LENZ & CADUFF Rechtsanwälte AG",
@@ -257,6 +264,13 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "luisa-polli": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio Legale Avv. Luisa Polli",
+      "reason": "Identite incertaine -- une source tierce suggere un rattachement a un autre studio (Yasar Ravi), jamais confirme par une source primaire, aucun site propre identifie"
+    },
     "luther4.ch": {
       "canton": "ZH",
       "firm_name": "Josephsohn Hauert Blöchlinger",
@@ -264,10 +278,11 @@
       "tested_date": "2026-09-07"
     },
     "lva-law.ch": {
+      "_failed": true,
       "canton": "TI",
-      "firm_name": "Studio notarile Velo & Associati",
-      "reason": "HTTP 403 Forbidden au fetch (accueil et page about-us)",
-      "tested_date": "2026-09-07"
+      "checked_date": "2026-09-08",
+      "firm_name": "lo studio notarile Velo & Associati",
+      "reason": "Rattachement possible a LVA VELO SA (source tierce, meme adresse/fondateur 1982) mais HTTP 403 sur la page About Us -- continuite jamais confirmee par la source primaire, lien non retenu"
     },
     "marktgasse20.ch": {
       "canton": "SG",
@@ -546,11 +561,32 @@
       "firm_name": "Wolf Kuny Trütsch",
       "reason": "Aucun site officiel dedie trouve -- avocat solo (Christoph Truetsch) utilisant une adresse email bluewin.ch generique, presence uniquement via annuaires tiers"
     },
+    "argo-rechtsanwalte-zh": {
+      "_sans_site": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "ARGO Rechtsanwälte",
+      "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire local.ch"
+    },
     "censiassociati-lugano": {
       "canton": "TI",
       "checked_date": "2026-09-07",
       "firm_name": "Studio legale e notarile Censi & Associati",
       "reason": "aucun site officiel dedie trouve (uniquement annuaires tiers)"
+    },
+    "poma-gandolfi-ti": {
+      "_sans_site": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio legale e notarile Poma-Gandolfi & Associati",
+      "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire"
+    },
+    "studio-legale-m-law-ti": {
+      "_sans_site": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio Legale M LAW",
+      "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web"
     }
   },
   "aa-k.ch": {
@@ -859,6 +895,20 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://advokatur-lindenplatz.ch/uber-uns/"
+  },
+  "advokatur-moerikofer.ch": {
+    "canton": "ZH",
+    "email": "moerikofer@advokatur-moerikofer.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur Mörikofer",
+    "phone": "+41 44 261 61 16",
+    "practice_areas_de": [
+      "Planungs-, Bau- und Umweltrecht",
+      "Staats- und allgemeines Verwaltungsrecht",
+      "Submissions- und personalrechtliche Fragestellungen"
+    ],
+    "source_url": "https://advokatur-moerikofer.ch/",
+    "team_size_n": 2
   },
   "advokatur-regensdorf.ch": {
     "canton": "ZH",
@@ -1757,6 +1807,25 @@
     "source_url": "https://avv-fiscalini.ch/",
     "team_size_n": 3
   },
+  "avvocati-domine-marone.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-08",
+    "firm_name": "studio legale e notarile Dominé - Marone",
+    "practice_areas_it": [
+      "Diritto di famiglia, matrimoniale, del divorzio e della filiazione",
+      "Diritto penale",
+      "Diritto della locazione",
+      "Diritto delle assicurazioni sociali",
+      "Diritto degli stranieri",
+      "Notariato",
+      "Diritto delle obbligazioni (contenzioso e contrattualistica)",
+      "Diritto successorio",
+      "Diritto societario e commerciale",
+      "Diritto edilizio e della pianificazione del territorio"
+    ],
+    "source_url": "https://www.avvocati-domine-marone.ch/avvocati-e-contatti-contenziosi-penali",
+    "team_size_n": 2
+  },
   "awg.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-29",
@@ -2048,6 +2117,20 @@
       "Bau-, Wirtschafts- und Steuerrecht"
     ],
     "source_url": "https://www.bartl-egli.ch/de/detail?id=1"
+  },
+  "baryon.com": {
+    "canton": "ZH",
+    "email": "baryon@baryon.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Baryon AG",
+    "founding_year": 1997,
+    "phone": "+41 44 206 20 50",
+    "practice_areas_en": [
+      "Asset management",
+      "Tax advisory and management",
+      "Legal consulting"
+    ],
+    "source_url": "https://www.baryon.com/en/company/about-us"
   },
   "basleradvokatinnen.ch": {
     "canton": "BS",
@@ -4973,6 +5056,22 @@
     "source_url": "https://hwn-law.ch/kontakt/?lang=en",
     "team_size_n": 2
   },
+  "hwn-law.ch#2": {
+    "canton": "ZH",
+    "email": "info@hwn-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltsbüro Dr. Walter Hagger",
+    "founding_year": 1985,
+    "phone": "+41 44 241 07 31",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Scheidungen"
+    ],
+    "source_url": "https://hwn-law.ch/kanzleiportrait/?lang=en",
+    "team_size_n": 2
+  },
   "interlaw.ch": {
     "canton": "ZH",
     "email": "sh@interlaw.ch",
@@ -6072,6 +6171,19 @@
     ],
     "source_url": "https://leg-not.ch/"
   },
+  "legal-notary.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-08",
+    "firm_name": "studio legale e notarile Marcellini-Galliani",
+    "practice_areas_it": [
+      "Consulenza e patrocinio in procedimenti penali di giurisdizione federale e cantonale",
+      "Diritto penale amministrativo",
+      "Assistenza giudiziaria internazionale",
+      "Diritto civile, amministrativo e fiscale connesso a procedimenti penali",
+      "Servizi notarili"
+    ],
+    "source_url": "https://www.legal-notary.ch/"
+  },
   "legal1896.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -7082,6 +7194,22 @@
     ],
     "source_url": "https://www.nievergeltundstoehr.ch/unternehmen"
   },
+  "nievergeltundstoehr.ch#TI": {
+    "canton": "TI",
+    "email": "info@nist-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "studio legale Nievergelt & Stoehr SA",
+    "phone": "+41 81 851 09 10",
+    "practice_areas_it": [
+      "Diritto immobiliare e della costruzione",
+      "Diritto amministrativo",
+      "Consulenza per privati",
+      "Diritto penale e reati economici",
+      "Diritto di famiglia e matrimoniale",
+      "Diritto fiscale e societario"
+    ],
+    "source_url": "https://www.nievergeltundstoehr.ch/it"
+  },
   "niklaus-rechtsanwaelte.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -7568,6 +7696,27 @@
     ],
     "source_url": "https://publicsector.ch/kontakt/",
     "team_size_n": 3
+  },
+  "quadranti-molteni.ch": {
+    "canton": "TI",
+    "email": "legal@quadranti-molteni.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Quadranti Molteni Studio legale e notarile",
+    "phone": "+41 91 695 10 50",
+    "practice_areas_it": [
+      "Consulenza legale e notarile",
+      "Patrocinio in ambito contenzioso in Svizzera e arbitrale",
+      "Procedimenti penali",
+      "Procedure esecutive",
+      "Diritto amministrativo",
+      "Diritto edilizio",
+      "Diritto sanitario",
+      "Transazioni immobiliari",
+      "Diritto societario",
+      "Convenzioni matrimoniali",
+      "Testamenti e pianificazione successoria"
+    ],
+    "source_url": "https://quadranti-molteni.ch/"
   },
   "quinnemanuel.com": {
     "canton": "ZH",
@@ -9234,6 +9383,25 @@
     ],
     "source_url": "https://www.tbplegal.ch/de/"
   },
+  "teamalex.ch": {
+    "canton": "ZH",
+    "email": "team@teamalex.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "team alex gmbh",
+    "phone": "+41 43 456 25 83",
+    "practice_areas_de": [
+      "Arbeitsvertragliche Dokumente (Arbeitsverträge, Personalreglemente, Mitarbeiterbeteiligungspläne, variable Vergütungsmodelle)",
+      "Arbeitszeitmodelle",
+      "Konkurrenzverbote",
+      "Freistellungen, Kündigungen und Aufhebungsverträge",
+      "Reorganisationen, Massenentlassungen und Sozialpläne",
+      "Personalverleih und -vermittlung",
+      "Diskriminierungen und Konflikte am Arbeitsplatz",
+      "Datenschutz",
+      "Arbeitsrechtliche Gerichtsprozesse"
+    ],
+    "source_url": "https://www.teamalex.ch/expertise"
+  },
   "teamlegal.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -9620,6 +9788,15 @@
     "phone": "+41 44 206 20 20",
     "source_url": "https://vfs-partner.ch/en/home/"
   },
+  "vg-law.ch": {
+    "canton": "ZH",
+    "email": "info@vg-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "von Grünigen Rechtsanwälte",
+    "phone": "+41 44 420 04 40",
+    "source_url": "https://www.vg-law.ch/kontakt",
+    "team_size_n": 2
+  },
   "viadukt.ch": {
     "canton": "ZH",
     "email": "sekretariat@viadukt.ch",
@@ -9723,6 +9900,15 @@
       "Mietrecht"
     ],
     "source_url": "https://www.vollenweidersteiner.ch/kontakt"
+  },
+  "vondercrone.ch": {
+    "canton": "ZH",
+    "email": "office@vondercrone.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "von der Crone Rechtsanwälte AG",
+    "phone": "+41 44 267 59 59",
+    "source_url": "https://www.vondercrone.ch/",
+    "team_size_n": 2
   },
   "vonsegesserlaw.com": {
     "canton": "ZH",

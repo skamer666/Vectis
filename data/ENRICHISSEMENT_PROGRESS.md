@@ -2598,3 +2598,29 @@ coordonnée exploitable après 4 pages testées), Luchsinger + Spinner Rechtsanw
 connue).
 
 Rattachement : 547 études rattachées au total (530 → 547, +17). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 09h03 UTC — Phase 3, lot 49 (exécution automatisée)
+
+16 cabinets traités (10 succès / 6 échecs dont sans-site), ZH et TI. von der Crone
+Rechtsanwälte AG (tel/email, 2 avocats), von Grünigen Rechtsanwälte (tel/email, 2 avocates),
+team alex gmbh (boutique droit du travail, tel/email, 9 domaines DE), Advokatur Mörikofer
+(tel/email, 2 avocates, 3 domaines DE droit de la construction/environnement), Baryon AG
+(fondée **1997** -- "Founded 1997", tel/email, 3 domaines EN gestion de fortune/fiscalité/
+conseil juridique), Anwaltsbüro Dr. Walter Hagger (rattachement par déduplication : cette
+fiche CSV correspond à l'ancien nom du cabinet aujourd'hui HWN RECHTSANWÄLTE -- continuité
+confirmée par la page "Kanzleiportrait" de hwn-law.ch elle-même, faits déjà vérifiés en lot
+48 réutilisés, fondée 1985), Quadranti Molteni Studio legale e notarile (Chiasso, tel/email,
+11 domaines IT), studio legale Nievergelt & Stoehr SA -- antenne de Lugano (rattachement par
+déduplication : même cabinet déjà rattaché au canton GR en lot antérieur sous
+nievergeltundstoehr.ch, même téléphone confirmant l'identité, 6 domaines IT), studio legale
+e notarile Dominé - Marone (Bellinzona/Biasca, communauté de 2 avocats indépendants avec
+lignes directes propres -- aucun tel de cabinet inventé, domaines combinés retenus), studio
+legale e notarile Marcellini-Galliani (Lugano, 5 domaines IT droit pénal/international).
+**Échecs :** Advokaturbüro Lengyel (lengyel.ch, 503×2), lo studio notarile Velo & Associati
+(rattachement possible à LVA VELO SA selon une source tierce mais jamais confirmé par la
+source primaire, 403 sur la page About Us -- lien non retenu), Studio Legale Avv. Luisa Polli
+(identité incertaine, rattachement à un autre studio selon une source tierce non confirmée).
+**Sans site officiel identifié :** ARGO Rechtsanwälte, Studio legale e notarile Poma-Gandolfi
+& Associati, Studio Legale M LAW.
+
+Rattachement : 556 études rattachées au total (547 → 556, +9). Suite de tests : 94/94 au vert.
