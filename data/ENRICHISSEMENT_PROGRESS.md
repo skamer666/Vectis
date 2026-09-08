@@ -2823,3 +2823,15 @@ Familienrecht, 4 domaines DE). **Échecs :** staedeli legal partners GmbH (503×
 (503×2).
 
 Rattachement : 628 études rattachées au total (625 → 628, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 22h04 UTC — Phase 3, lot 62 (exécution automatisée)
+
+6 cabinets traités (4 succès / 2 échecs), tous ZH -- lot ciblant les boutiques unipersonnelles
+à nom de domaine distinctif. penalisti Rechtsanwälte AG (boutique droit pénal, Zurich/Aarau,
+tel/email, 5 avocats, 4 domaines DE), freigutpartners IP Law Firm (boutique propriété
+intellectuelle, tel/email spécifiques au bureau de Zurich, 10 domaines EN -- faits limités aux
+bureaux suisses, réseau international exclu), kaelin.legal AG (boutique restructuration/
+insolvabilité, tel/email, 4 domaines EN), kerber.legal (tel/email). **Échecs :** rauchlegal
+(403×2), schaller.law GmbH (503×2).
+
+Rattachement : 632 études rattachées au total (628 → 632, +4). Suite de tests : 94/94 au vert.

@@ -421,6 +421,13 @@
       "firm_name": "Quadra Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "rauchlegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "rauchlegal",
+      "reason": "HTTP 403 Forbidden (x2)"
+    },
     "raum-recht.ch": {
       "canton": "ZH",
       "firm_name": "Raum & Recht AG",
@@ -475,6 +482,13 @@
       "canton": "ZH",
       "checked_date": "2026-09-08",
       "firm_name": "Schai & Vultier",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "schaller.law": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "schaller.law GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "schaubhochl.ch": {
@@ -4821,6 +4835,26 @@
     "source_url": "https://www.frb-law.ch/en/",
     "team_size_n": null
   },
+  "freigutpartners.ch": {
+    "canton": "ZH",
+    "email": "zuerich@freigutpartners.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "freigutpartners IP Law Firm",
+    "phone": "+41 (0) 44 214 65 25",
+    "practice_areas_en": [
+      "Trademark Law",
+      "Patent Law",
+      "Design Law",
+      "Domain Law",
+      "Unfair Competition Law",
+      "Copyright Law",
+      "Art Law",
+      "Company and Name Law",
+      "Know-How",
+      "Litigation"
+    ],
+    "source_url": "https://www.freigutpartners.ch/contact/"
+  },
   "frey-jud.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -6219,6 +6253,20 @@
     ],
     "source_url": "https://www.kaelin-bruhin.com/"
   },
+  "kaelin.legal": {
+    "canton": "ZH",
+    "email": "oliver.kaelin@kaelin.legal",
+    "fetched_date": "2026-09-08",
+    "firm_name": "kaelin.legal AG",
+    "phone": "+41 44 500 90 20",
+    "practice_areas_en": [
+      "Corporate Restructuring and Succession Planning",
+      "Bankruptcy and Debt Enforcement",
+      "Employment Law",
+      "Litigation and Criminal Proceedings"
+    ],
+    "source_url": "https://kaelin.legal/en/contact"
+  },
   "kaempfenlegal.ch": {
     "canton": "ZH",
     "email": "info@kaempfenlegal.ch",
@@ -6437,6 +6485,14 @@
     "notes": "Meme cabinet que kellerhals-carrard.ch (ZH) et #BS -- bureau de Lugano. Chiffre (600 avocats) global au cabinet, pas specifique au bureau tessinois.",
     "source_url": "https://kellerhals-carrard.ch/",
     "team_size_n": 600
+  },
+  "kerber.legal": {
+    "canton": "ZH",
+    "email": "kerber@kerber.legal",
+    "fetched_date": "2026-09-08",
+    "firm_name": "kerber.legal",
+    "phone": "+41 44 527 30 00",
+    "source_url": "https://kerber.legal/kontakt/"
   },
   "khm-partners.ch": {
     "canton": "ZH",
@@ -8512,6 +8568,21 @@
       "Mietrecht"
     ],
     "source_url": "https://www.palombo-rechtsanwalt.ch/kontakt/"
+  },
+  "penalisti.ch": {
+    "canton": "ZH",
+    "email": "office@penalisti.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "penalisti Rechtsanwälte AG",
+    "phone": "+41 58 322 83 22",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strafprozessrecht",
+      "Strafverteidigung",
+      "Familienrecht"
+    ],
+    "source_url": "https://penalisti.ch/de/home",
+    "team_size_n": 5
   },
   "perl-law.ch": {
     "canton": "GR",
