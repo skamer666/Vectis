@@ -2652,3 +2652,23 @@ du cabinet homonyme sans lien "Legal Ferrari Rei"). Note bibliographique : ajout
 qu'elle ne resurgisse dans les futurs lots.
 
 Rattachement : 566 études rattachées au total (556 → 566, +10). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 11h04 UTC — Phase 3, lot 51 (exécution automatisée)
+
+12 cabinets traités (10 succès / 2 échecs), premier lot centré sur SG. Weber Noser von
+Gleichenstein (rattachement par déduplication : deuxième ligne CSV pour un cabinet déjà
+rattaché ce jour sous une variante de nom, faits déjà vérifiés réutilisés), Stach
+Rechtsanwälte AG (St-Gall/Zurich, tel/email, 5 domaines EN), Studer Zahner Anwälte (fondée
+**2001** -- "Gründung: 2001", tel, 5 domaines DE), Huber Walker Rechtsanwälte (Kaltbrunn,
+8 domaines DE droit agraire/rural), Gysi & Partner Rechtsanwälte AG (tel/email), Dolder Züst
+Rechtsanwälte (boutique droit de la famille, tel/email, 3 avocats tous titulaires du titre
+Fachanwalt SAV Familienrecht), Brunner Knobel Rechtsanwälte (Rapperswil-Jona, tel, 2 avocats,
+7 domaines DE dont droit de l'environnement/dangers naturels), BST Rechtsanwälte & Notare
+(tel/email, 4 avocats, 8 domaines DE), BRENNER STILLHART TSCHURR Rechtsanwälte & Notare
+(rattachement par déduplication : même cabinet que BST Rechtsanwälte & Notare ci-dessus, nom
+long vs nom court, faits réutilisés), ARTARIS Advokatur AG (tel/email, 5 domaines EN).
+**Échecs :** Schöbi Rechtsanwälte (rattachement possible à Schöbi Studio Legis AG selon le
+patronyme partagé, mais aucune confirmation de continuité sur le site du cabinet -- lien non
+retenu), Grand & Nisple Rechtsanwälte (grandnisple.ch, 503×2).
+
+Rattachement : 576 études rattachées au total (566 → 576, +10). Suite de tests : 94/94 au vert.

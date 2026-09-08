@@ -187,6 +187,13 @@
       "reason": "URL hors provenance — non accessible via web_fetch",
       "tested_date": "2026-07-28"
     },
+    "grandnisple.ch": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-08",
+      "firm_name": "Grand & Nisple Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "indemnis.ch": {
       "canton": "BS",
       "date": "2026-07-29",
@@ -476,6 +483,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Schwarzmann Brändli Hofer Rechtsanwälte AG",
       "reason": "site JS rendu (page vide au fetch)"
+    },
+    "studio-legis-ch-schoebi": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-08",
+      "firm_name": "Schöbi Rechtsanwälte",
+      "reason": "Rattachement possible a Schoebi Studio Legis AG (meme patronyme) mais la page du cabinet ne confirme aucun lien de continuite/renommage avec 'Schoebi Rechtsanwaelte' -- lien non retenu"
     },
     "suter.legal": {
       "canton": "ZH",
@@ -1803,6 +1817,21 @@
     ],
     "source_url": "https://www.arioli-law.ch/",
     "team_size_n": 2
+  },
+  "artaris-advokatur.ch": {
+    "canton": "SG",
+    "email": "info@artaris.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "ARTARIS Advokatur AG",
+    "phone": "+41 71 552 25 40",
+    "practice_areas_en": [
+      "Commercial and corporate law",
+      "Legal counselling",
+      "Litigation",
+      "Outsourcing",
+      "Notarial services"
+    ],
+    "source_url": "https://artaris-advokatur.ch/en"
   },
   "atr-legal.ch": {
     "canton": "ZH",
@@ -3284,6 +3313,23 @@
     "source_url": "https://www.bruecker.swiss/index.php?id=9",
     "team_size_n": 4
   },
+  "brunnerknobel.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Brunner Knobel Rechtsanwälte",
+    "phone": "+41 (0)55 444 20 20",
+    "practice_areas_de": [
+      "Öffentliche Beurkundungen (Firmengründungen, Fusionen, Umwandlungen, Beglaubigungen)",
+      "Umwelt- und Naturschutzrecht",
+      "Erbrecht und Nachlassplanung",
+      "Strafrecht",
+      "Naturgefahrenrecht",
+      "Arbeitsrecht und Mietrecht",
+      "Betreibungs-, Konkurs- und Verwaltungsrecht"
+    ],
+    "source_url": "https://brunnerknobel.ch/was-bieten-wir/",
+    "team_size_n": 2
+  },
   "bsmw.ch": {
     "canton": "ZH",
     "email": "info@bsmw.ch",
@@ -3305,6 +3351,44 @@
       "Zivilrecht"
     ],
     "source_url": "https://www.bsmw.ch/kanzlei/"
+  },
+  "bst-rechtsanwaelte.ch": {
+    "canton": "SG",
+    "email": "info@bst-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "BST Rechtsanwälte & Notare",
+    "phone": "+41 71 311 23 33",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Miet- & Pachtrecht",
+      "Erbrecht",
+      "Schuldbetreibungs- & Konkursrecht",
+      "Versicherungsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.bst-rechtsanwaelte.ch/",
+    "team_size_n": 4
+  },
+  "bst-rechtsanwaelte.ch#2": {
+    "canton": "SG",
+    "email": "info@bst-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "BRENNER STILLHART TSCHURR Rechtsanwälte & Notare",
+    "phone": "+41 71 311 23 33",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Miet- & Pachtrecht",
+      "Erbrecht",
+      "Schuldbetreibungs- & Konkursrecht",
+      "Versicherungsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.bst-rechtsanwaelte.ch/",
+    "team_size_n": 4
   },
   "btc.legal": {
     "canton": "TI",
@@ -3774,6 +3858,19 @@
     "firm_name": "Dobler Rechtsanwälte AG Dobler Rechtsanwälte AG",
     "phone": "+41 55 451 20 10",
     "source_url": "https://dobler-ra.ch/en/contact/"
+  },
+  "dolderzuest.ch": {
+    "canton": "SG",
+    "email": "kanzlei@dolderzuest.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Dolder Züst Rechtsanwälte",
+    "phone": "+41 71 242 37 37",
+    "practice_areas_de": [
+      "Familienrecht"
+    ],
+    "source_url": "https://www.dolderzuest.ch/kanzlei/",
+    "specialist_certification": "Fachanwalt SAV Familienrecht (les trois avocats du cabinet)",
+    "team_size_n": 3
   },
   "dufour-advokatur.ch": {
     "canton": "BS",
@@ -4844,6 +4941,14 @@
     ],
     "source_url": "https://guebeli-mueller.ch/",
     "team_size_n": 2
+  },
+  "gysipartner.ch": {
+    "canton": "SG",
+    "email": "office@gysipartner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Gysi & Partner Rechtsanwälte AG",
+    "phone": "+41 71 292 30 00",
+    "source_url": "https://gysipartner.ch/de/kontakt"
   },
   "hartmanndreyer.ch": {
     "canton": "FR",
@@ -6727,6 +6832,22 @@
     "source_url": "https://lindtlaw.ch/",
     "specialist_certification": "Fachanwalt SAV Erbrecht (Beat Rüedi), Fachanwalt SAV Arbeitsrecht (Fabian Kapfhamer), Fachanwälte SAV Bau- und Immobilienrecht (Rolf Bickel, Stefan Kühnis, Nathalie Jäggi, Daniela Lutz)",
     "team_size_n": 15
+  },
+  "linth-law.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Huber Walker Rechtsanwälte",
+    "practice_areas_de": [
+      "Agrarrecht",
+      "Unternehmensrecht",
+      "Erbrecht",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Schulrecht",
+      "Jugendstrafrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://www.linth-law.ch/t%C3%A4tigkeitsgebiete/"
   },
   "littler.ch": {
     "canton": "ZH",
@@ -9136,6 +9257,21 @@
     "source_url": "https://ssp-law.ch/rechtsgebiete/",
     "team_size_n": 11
   },
+  "stach.ch": {
+    "canton": "SG",
+    "email": "info@stach.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Stach Rechtsanwälte AG",
+    "phone": "+41 (0)71 278 78 28",
+    "practice_areas_en": [
+      "Insolvency law",
+      "Intellectual property / copyright",
+      "Sports liability",
+      "Corporate and commercial law",
+      "Notarial services"
+    ],
+    "source_url": "https://stach.ch/en/law-firm/"
+  },
   "stadelmann-law.ch": {
     "canton": "LU",
     "fetched_date": "2026-07-29",
@@ -9274,6 +9410,21 @@
     "founding_year": 1936,
     "phone": "+41 44 261 91 00",
     "source_url": "https://www.sts-law.ch/"
+  },
+  "studerzahner.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studer Zahner Anwälte",
+    "founding_year": 2001,
+    "phone": "071 677 80 00",
+    "practice_areas_de": [
+      "Unfall & Krankheit & Patient",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Erbrecht und Nachlassplanung",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.studerzahner.ch/"
   },
   "studio-legale.ch": {
     "canton": "TI",
@@ -10565,6 +10716,26 @@
     "canton": "SG",
     "fetched_date": "2026-09-07",
     "firm_name": "Weber Noser von Gleichenstein / lic.iur. HSG Marc Weber AG",
+    "phone": "071 225 40 90",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "nationales und internationales Steuerrecht",
+      "Abgaberecht",
+      "Handels-, Gesellschafts-, Vertrags- und übriges Zivilrecht",
+      "Notariat",
+      "Immaterialgüterrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Immobilienrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.wnvg.ch/de/team/",
+    "team_size_n": 6
+  },
+  "wnvg.ch#2": {
+    "canton": "SG",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Weber Noser von Gleichenstein",
     "phone": "071 225 40 90",
     "practice_areas_de": [
       "Wirtschaftsrecht",
