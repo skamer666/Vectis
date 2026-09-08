@@ -244,6 +244,13 @@
       "firm_name": "Lustenberger + Partners KLG",
       "raison": "aucun fait extractible (pas de founding_year, team_size, ni liste practice_areas)"
     },
+    "luchsingerspinner.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Luchsinger + Spinner Rechtsanwälte",
+      "reason": "Site accessible mais aucune coordonnee/domaine de competence exploitable au-dela de l'adresse (accueil + kontakt testes)"
+    },
     "luganolawyers.ch": {
       "canton": "TI",
       "firm_name": "Studio legale e notarile Brioschi Gianella Timbal & Cometta",
@@ -273,6 +280,13 @@
       "firm_name": "Mercury Compliance AG",
       "reason": "pages contact/entreprise sont de simples redirections sans contenu direct exploitable",
       "tested_date": "2026-09-07"
+    },
+    "mst-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Maurer & Stäger AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "museum35.ch": {
       "canton": "SG",
@@ -498,6 +512,13 @@
       "firm_name": "Wiesli Rechtsanwälte",
       "reason": "domaine ww-law.ch ne resout pas (DNS ENOTFOUND)",
       "tested_date": "2026-09-07"
+    },
+    "zirngast.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Maron Zirngast Rechtsanwälte",
+      "reason": "Site accessible mais aucune coordonnee exploitable apres 4 pages testees (accueil, standort, kontakt) -- contenu limite a des formulaires de contact"
     },
     "zurich-law.ch": {
       "canton": "ZH",
@@ -2160,6 +2181,24 @@
     ],
     "source_url": "https://www.baurecht.ch/"
   },
+  "baurechtspartner.ch": {
+    "canton": "ZH",
+    "email": "welcome@baurechtspartner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Baurechtspartner AG",
+    "phone": "+41 44 272 52 52",
+    "practice_areas_de": [
+      "Werkvertrags-, Architekten-, Miet- und Immobiliarsachenrecht",
+      "Bauhandwerkerpfandrecht",
+      "Stockwerkeigentum",
+      "Grundstückkauf",
+      "Planungs- und Bewilligungsrecht",
+      "Umwelt-, Heimatschutz- und Denkmalschutzrecht",
+      "Öffentliches Beschaffungswesen"
+    ],
+    "source_url": "https://baurechtspartner.ch/",
+    "team_size_n": 2
+  },
   "bblegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3185,6 +3224,28 @@
       "Notariatsdienste"
     ],
     "source_url": "https://www.burckhardtlaw.com/team/"
+  },
+  "burki-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Burki Rechtsanwälte",
+    "founding_year": 1997,
+    "practice_areas_de": [
+      "Nationales und internationales Steuerrecht",
+      "Steuerverfahrensrecht",
+      "Sozialversicherungsrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Struktur- und Standortplanung",
+      "Restrukturierungen",
+      "Steuerplanung für Privatpersonen",
+      "Nachfolgeplanung und Erbschaftsabwicklung",
+      "Willensvollstreckung",
+      "Stiftungs- und Trustrecht",
+      "Ausländer- und Aufenthaltsrecht",
+      "Family Office"
+    ],
+    "source_url": "https://www.burki-law.ch/"
   },
   "burribreitschmid.ch": {
     "canton": "ZH",
@@ -4896,6 +4957,22 @@
     "phone": "+41 58 444 11 00",
     "source_url": "https://www.huplaw.ch/en/contact/"
   },
+  "hwn-law.ch": {
+    "canton": "ZH",
+    "email": "info@hwn-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "HWN RECHTSANWÄLTE KLG",
+    "founding_year": 1985,
+    "phone": "+41 44 241 07 31",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Scheidungen"
+    ],
+    "source_url": "https://hwn-law.ch/kontakt/?lang=en",
+    "team_size_n": 2
+  },
   "interlaw.ch": {
     "canton": "ZH",
     "email": "sh@interlaw.ch",
@@ -5013,6 +5090,21 @@
     ],
     "source_url": "https://itenmcnally.com/en/team-en/",
     "team_size_n": 2
+  },
+  "ixar.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@ixar.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "IXAR Legal AG",
+    "practice_areas_de": [
+      "Commercial & Contracts",
+      "Competition & Regulation",
+      "Compliance & Governance",
+      "Data Protection & Legal Tech",
+      "Litigation & Dispute Resolution",
+      "White Collar Crime & Criminal Matters"
+    ],
+    "source_url": "https://www.ixar.ch/contact"
   },
   "jaegerschweiter.ch": {
     "canton": "ZH",
@@ -5150,6 +5242,24 @@
     "firm_name": "Kämpfen Rechtsanwälte",
     "phone": "+41 44 202 50 22",
     "source_url": "https://www.kaempfenlegal.ch/de"
+  },
+  "kaiserodermatt.ch": {
+    "canton": "ZH",
+    "email": "info@kaiserodermatt.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kaiser Odermatt & Partner AG",
+    "phone": "+41 44 244 80 20",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Ausländerrecht",
+      "Gesellschaftsrecht / Handelsrecht",
+      "Steuerrecht / allg. Verwaltungsrecht",
+      "Erbrecht / Nachfolgeregelung und Nachlassplanung",
+      "Notariat und Beurkundungsrecht",
+      "Arbeitsrecht",
+      "Prozess- und Verfahrensrecht"
+    ],
+    "source_url": "https://www.kaiserodermatt.ch/"
   },
   "kalbermatter.law": {
     "canton": "ZH",
@@ -6110,6 +6220,15 @@
     "source_url": "https://www.lenzstaehelin.com/fr/notre-etude/",
     "team_size_n": null
   },
+  "lerchlaw.com": {
+    "canton": "ZH",
+    "email": "info@lerchlaw.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Lerch & Lerch",
+    "phone": "+41 44 210 11 55",
+    "source_url": "https://www.lerchlaw.com/",
+    "team_size_n": 2
+  },
   "lex6000.ch": {
     "canton": "LU",
     "email": "kontakt@lex6000.ch",
@@ -6287,6 +6406,22 @@
     "phone": "+41 44 570 73 50",
     "source_url": "https://lindemannlaw.ch/de/kontakt/"
   },
+  "lindholmrosenkranz.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Lindholm & Rosenkranz Rechtsanwälte GmbH",
+    "practice_areas_en": [
+      "Domestic and international litigation",
+      "Domestic and international arbitration",
+      "Asset recovery",
+      "Enforcement",
+      "White collar crime",
+      "Employment law",
+      "Debt enforcement and insolvency law"
+    ],
+    "source_url": "https://www.lindholmrosenkranz.com/",
+    "team_size_n": 5
+  },
   "lindtlaw.ch": {
     "canton": "ZH",
     "email": "office@lindtlaw.ch",
@@ -6346,6 +6481,23 @@
     ],
     "source_url": "https://www.loewengasse.ch/en/",
     "team_size_n": 3
+  },
+  "looslischmid.ch": {
+    "canton": "ZH",
+    "email": "info@looslischmid.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Loosli Schmid Rechtsanwälte AG",
+    "phone": "+41 44 221 33 60",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Gesellschaftsrecht",
+      "Prozess- und Verfahrensrecht"
+    ],
+    "source_url": "https://www.looslischmid.ch/",
+    "team_size_n": 2
   },
   "losinger.law": {
     "canton": "ZH",
@@ -6442,6 +6594,22 @@
     ],
     "source_url": "https://lplegal.ch/en/about-us",
     "team_size_n": null
+  },
+  "lr-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "Kanzlei@LR-Rechtsanwaelte.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Luginbühl Roesle Rechtsanwälte",
+    "phone": "+41 43 255 24 00",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Öffentliches und privates Baurecht",
+      "Raumplanungs- und Enteignungsrecht",
+      "Erbrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://lr-rechtsanwaelte.ch/",
+    "team_size_n": 3
   },
   "ludwigpartner.ch": {
     "canton": "BS",
@@ -6712,6 +6880,26 @@
     "source_url": "https://www.mplaw.ch/about-us/",
     "team_size_n": 3
   },
+  "mr-legal.ch": {
+    "canton": "ZH",
+    "email": "info@mr-legal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "M&R Rechtsanwälte AG",
+    "phone": "+41 44 512 05 60",
+    "practice_areas_de": [
+      "Bau- und Vergaberecht",
+      "Gesundheitsrecht",
+      "Gemeinderecht",
+      "Arbeits- und Personalrecht",
+      "Mietrecht",
+      "Wirtschafts- und Vertragsrecht",
+      "Immobiliarsachenrecht",
+      "Prozessführung",
+      "Franchiserecht"
+    ],
+    "source_url": "https://mr-legal.ch/",
+    "team_size_n": 2
+  },
   "mrgadvokatur.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -6776,6 +6964,24 @@
     "firm_name": "Meier Vogel Partner GmbH",
     "phone": "+41 44 820 20 17",
     "source_url": "https://www.mvlaw.ch/en/contact/"
+  },
+  "mvlp.ch": {
+    "canton": "ZH",
+    "email": "mvlp@mvlp.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "MV Legal Partners AG",
+    "founding_year": 2015,
+    "phone": "+41 44 421 36 36",
+    "practice_areas_de": [
+      "Nachlassplanung",
+      "Bankrecht",
+      "Versicherungsrecht",
+      "Öffentliches Recht",
+      "Internationale Transaktionen",
+      "IT-Outsourcing"
+    ],
+    "source_url": "https://mvlp.ch/en/team-en/",
+    "team_size_n": 5
   },
   "nastra.ch": {
     "canton": "ZH",
@@ -7072,6 +7278,25 @@
     ],
     "source_url": "https://www.ozb-rechtsanwaelte.ch/ueber-uns"
   },
+  "palombo-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "email": "palombo@palombo.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "PALOMBO Anwaltskanzlei",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Scheidungsrecht",
+      "Ausländerrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "KMU-Recht",
+      "Gesellschafts- und Handelsrecht",
+      "Erbrecht",
+      "Baurecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.palombo-rechtsanwalt.ch/kontakt/"
+  },
   "perucchiandpartner.com": {
     "canton": "ZH",
     "email": "info@perucchiandpartner.com",
@@ -7250,6 +7475,14 @@
     "source_url": "https://www.poli-bernardi.ch/",
     "team_size_n": 3
   },
+  "pontinova.law": {
+    "canton": "ZH",
+    "email": "info@pontinova.law",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Pontinova AG",
+    "phone": "+41 44 288 37 37",
+    "source_url": "https://www.pontinova.law/contact-us"
+  },
   "prager-dreifuss.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -7384,6 +7617,20 @@
     "source_url": "https://www.raewel-advokatur.ch/team/dina-raewel/",
     "specialist_certification": "Fachanwältin SAV Strafrecht (Dina Raewel, seit 2001 zugelassen)",
     "team_size_n": 3
+  },
+  "ramelet.legal": {
+    "canton": "ZH",
+    "email": "nr@ramelet.legal",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Ramelet AG",
+    "practice_areas_de": [
+      "Finanzmarktrecht",
+      "Gründung, Unternehmensrecht & Corporate Services",
+      "Vertragsrecht",
+      "Corporate Behavior & Whistleblowing",
+      "Datenschutzrecht"
+    ],
+    "source_url": "https://www.ramelet.legal/"
   },
   "rappoldkoehli.ch": {
     "canton": "ZH",
@@ -7596,6 +7843,21 @@
     ],
     "source_url": "https://riedwegpartner.ch/en/",
     "team_size_n": null
+  },
+  "rihar-thouvenin.ch": {
+    "canton": "ZH",
+    "email": "rihar@rihar-thouvenin.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "RIHAR & THOUVENIN DISPUTE RESOLUTION",
+    "phone": "+41 44 500 91 30",
+    "practice_areas_en": [
+      "Domestic and international dispute resolution",
+      "Arbitration",
+      "Mediation",
+      "Litigation"
+    ],
+    "source_url": "https://rihar-thouvenin.ch/",
+    "team_size_n": 2
   },
   "rischlegal.ch": {
     "canton": "ZH",
@@ -8137,6 +8399,26 @@
       "Vertragsgestaltung"
     ],
     "source_url": "https://www.schmidsutter.ch/"
+  },
+  "schnitter.ch": {
+    "canton": "ZH",
+    "email": "info@schnitter.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schnitter Weber Staub Weidmann",
+    "phone": "+41 44 740 78 40",
+    "practice_areas_de": [
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht / Willensvollstreckung",
+      "Vertragsrecht",
+      "Informatikrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Arbeitsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Immaterialgüterrecht"
+    ],
+    "source_url": "https://schnitter.ch/taetigkeitsgebiete.html",
+    "team_size_n": 2
   },
   "schochauer.ch": {
     "canton": "SG",
@@ -9622,6 +9904,14 @@
       "Sanktionsrecht / Compliance"
     ],
     "source_url": "https://wehrenberg-law.ch/"
+  },
+  "wenfei.com": {
+    "canton": "ZH",
+    "email": "zurich@wenfei.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Wenfei Rechtsanwälte AG",
+    "phone": "+41 43 210 86 86",
+    "source_url": "https://www.wenfei.com/index.php?id=8&L=1"
   },
   "wenger-plattner.ch": {
     "canton": "BS",

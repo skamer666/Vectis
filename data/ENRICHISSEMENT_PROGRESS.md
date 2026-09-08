@@ -2570,3 +2570,31 @@ technologies/IT, tel/email, 3 domaines EN). **Échecs :** Sigg Schwarz Advokatur
 (schai-vultier.ch, 503×2).
 
 Rattachement : 530 études rattachées au total (518 → 530, +12). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 08h04 UTC — Phase 3, lot 48 (exécution automatisée)
+
+20 cabinets traités (17 succès / 3 échecs), tous ZH. Schnitter Weber Staub Weidmann
+(tel/email, 9 domaines DE), MV Legal Partners AG (fondée **2015** -- "Founding partner MV
+Legal Partners Inc. (since 2015)", tel/email, 5 personnes), M&R Rechtsanwälte AG (Kilchberg,
+tel/email, 2 avocats -- personnel administratif exclu du compte, 9 domaines DE), Luginbühl
+Roesle Rechtsanwälte (tel/email, 3 avocats, 5 domaines DE -- "besteht seit rund 30 Jahren"
+trop vague pour une année précise, non retenu), Loosli Schmid Rechtsanwälte AG (tel/email,
+2 avocats -- personnel administratif exclu, 6 domaines DE), Lindholm & Rosenkranz
+Rechtsanwälte GmbH (boutique contentieux/arbitrage, 5 avocats, 7 domaines EN), Lerch & Lerch
+(Bubikon, tel/email, 2 avocats), Kaiser Odermatt & Partner AG (bureau zurichois, tel/email
+spécifiques à Zurich, 8 domaines DE), IXAR Legal AG (email, 6 domaines DE dont compliance/
+protection des données), HWN RECHTSANWÄLTE KLG (fondée **1985** -- "since 1985", tel/email,
+2 avocats, 4 domaines DE), Burki Rechtsanwälte (Zollikon, fondée **1997** -- "im Jahre 1997
+die Kanzlei Burki Rechtsanwälte ... gründete", 13 domaines DE fiscalité/succession),
+Baurechtspartner AG (tel/email, 2 avocats -- juristes non-avocats exclus, 7 domaines DE droit
+de la construction), Wenfei Rechtsanwälte AG (bureau zurichois, tel/email spécifiques à
+Zurich, faits globaux du réseau Shanghai/Pékin exclus), Pontinova AG (boutique crypto/DLT,
+tel/email), PALOMBO Anwaltskanzlei (email, 10 domaines DE), RIHAR & THOUVENIN DISPUTE
+RESOLUTION (boutique arbitrage international, tel/email, 2 avocates), Ramelet AG (boutique
+droit des marchés financiers, email, 5 domaines DE). **Échecs :** Maurer & Stäger AG
+(mst-law.ch, 503×2), Maron Zirngast Rechtsanwälte (zirngast.ch, site accessible mais aucune
+coordonnée exploitable après 4 pages testées), Luchsinger + Spinner Rechtsanwälte
+(luchsingerspinner.ch, site accessible mais rien d'exploitable au-delà de l'adresse déjà
+connue).
+
+Rattachement : 547 études rattachées au total (530 → 547, +17). Suite de tests : 94/94 au vert.
