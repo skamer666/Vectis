@@ -208,6 +208,13 @@
       "firm_name": "Grand & Nisple Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "hb-recht.ch": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-08",
+      "firm_name": "Hischier & Brunner",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "indemnis.ch": {
       "canton": "BS",
       "date": "2026-07-29",
@@ -3965,6 +3972,30 @@
     "source_url": "https://www.d32.ch/kontakt",
     "team_size_n": 4
   },
+  "daeppenlaw.ch": {
+    "canton": "GR",
+    "email": "mail@daeppenlaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Däppen Rechtsanwälte",
+    "founding_year": 2001,
+    "phone": "+41 81 254 36 36",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht inklusive Kindervertretungen",
+      "Ehe-, Scheidungs- und Konkubinatsrecht",
+      "Opferhilfe",
+      "Baurecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Privatrecht (international)",
+      "Gesellschafts- und Firmenrecht",
+      "Erbrecht",
+      "Personen-, Vereins- und Stiftungsrecht",
+      "SchKG und Verfahrensrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://daeppenlaw.ch/",
+    "team_size_n": 2
+  },
   "davatzlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -4143,6 +4174,20 @@
     "email": "info@engadin-law.ch",
     "fetched_date": "2026-09-08",
     "firm_name": "Lüthi & Bondolfi",
+    "phone": "+41 81 851 18 00",
+    "practice_areas_de": [
+      "Wirtschafts-, Gesellschafts- und Vertragsrecht",
+      "Immobilien- und Baurecht",
+      "Familien- und Erbrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.engadin-law.ch/"
+  },
+  "engadin-law.ch#2": {
+    "canton": "GR",
+    "email": "info@engadin-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Lüthi & Bondolfi Via",
     "phone": "+41 81 851 18 00",
     "practice_areas_de": [
       "Wirtschafts-, Gesellschafts- und Vertragsrecht",
@@ -5720,6 +5765,15 @@
     "source_url": "https://itenmcnally.com/en/team-en/",
     "team_size_n": 2
   },
+  "iup.ch": {
+    "canton": "LU",
+    "email": "reto.ineichen@iup.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Ineichen Advokatur und Notariat",
+    "phone": "+41 41 418 60 33",
+    "source_url": "https://www.iup.ch/de/kontakt",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
+  },
   "ixar.ch": {
     "canton": "ZH",
     "email": "sekretariat@ixar.ch",
@@ -6122,6 +6176,19 @@
     "phone": "+41 (0) 61 539 18 85",
     "source_url": "https://kipferhuber.ch/",
     "team_size_n": 2
+  },
+  "kkra.ch": {
+    "canton": "OW",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Krummenacher Rechtsanwälte und Notare AG",
+    "phone": "+41 41 666 06 10",
+    "practice_areas_de": [
+      "Notariat",
+      "Advokatur",
+      "Firmendomizil",
+      "Mandate in strategischen Gremien"
+    ],
+    "source_url": "https://www.kkra.ch/home/"
   },
   "klavislaw.ch": {
     "canton": "ZH",
@@ -9332,6 +9399,22 @@
     "source_url": "https://www.schmidchristoffel.ch/",
     "specialist_certification": "Fachanwältin SAV Familienrecht (Martina Schmid)"
   },
+  "schmidchristoffel.ch#2": {
+    "canton": "GR",
+    "email": "ms@schmidchristoffel.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schmid Christoffel Rechtsanwälte AG Obere",
+    "founding_year": 2017,
+    "phone": "+41 (0)81 420 83 08",
+    "practice_areas_de": [
+      "Steuerrecht (national und international)",
+      "Familienrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.schmidchristoffel.ch/",
+    "specialist_certification": "Fachanwältin SAV Familienrecht (Martina Schmid)"
+  },
   "schmidsutter.ch": {
     "canton": "ZH",
     "email": "info@schmidsutter.ch",
@@ -11222,6 +11305,13 @@
     "checked_date": "2026-09-06",
     "firm_name": "wkf AG",
     "reason": "site indisponible (HTTP 503) au moment du passage"
+  },
+  "wmg-ra.ch": {
+    "canton": "NW",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Würsch-Müller Grendelmeier Advokatur Notariat",
+    "source_url": "https://www.wmg-ra.ch/kontakt",
+    "team_size_n": 2
   },
   "wnlegal.ch": {
     "canton": "TI",

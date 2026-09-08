@@ -2744,3 +2744,18 @@ ligne CSV pour le cabinet déjà rattaché en lot 54) et Dr. Tschümperlin Löts
 (site accessible mais aucun tel/email exploitable).
 
 Rattachement : 605 études rattachées au total (600 → 605, +5). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 16h04 UTC — Phase 3, lot 56 (exécution automatisée)
+
+7 cabinets traités (6 succès / 1 échec), OW, NW, LU et GR. Krummenacher Rechtsanwälte und
+Notare AG (Sarnen/Kerns, tel, 4 domaines DE), Würsch-Müller Grendelmeier Advokatur Notariat
+(Stans, communauté de 2 avocats indépendants avec lignes directes propres -- aucun tel de
+cabinet inventé), Ineichen Advokatur und Notariat (rattachement confirmé : la page de contact
+de iup.ch cite explicitement "Reto Ineichen ... Advokatur Ineichen AG", tel/email, spécialiste
+FSA Strafrecht), Däppen Rechtsanwälte (Coire, fondée **2001** -- "Däppen Rechtsanwälte besteht
+seit dem Jahr 2001", tel/email, 2 avocats, 12 domaines DE). Deux rattachements par
+déduplication : Schmid Christoffel Rechtsanwälte AG Obere et Lüthi & Bondolfi Via (deuxièmes
+lignes CSV pour des cabinets déjà rattachés en lot 55). **Échec :** Hischier & Brunner
+(hb-recht.ch, 503×2).
+
+Rattachement : 611 études rattachées au total (605 → 611, +6). Suite de tests : 94/94 au vert.
