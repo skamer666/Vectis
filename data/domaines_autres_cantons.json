@@ -1206,6 +1206,25 @@
     "source_url": "https://ah4.law/en/contact",
     "team_size_n": null
   },
+  "albrecht-riedo.ch": {
+    "canton": "BL",
+    "email": "info@albrecht-riedo.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokaturbüro Albrecht I Riedo I Anwander",
+    "phone": "+41 61 461 80 08",
+    "practice_areas_en": [
+      "Corporate law",
+      "Family law",
+      "Inheritance law",
+      "Construction and planning law",
+      "Criminal law",
+      "Contract law",
+      "Administrative law",
+      "Liability/insurance law"
+    ],
+    "source_url": "https://www.albrecht-riedo.ch/en/",
+    "team_size_n": 4
+  },
   "aliotta.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -1236,6 +1255,29 @@
       "Private Office Services"
     ],
     "source_url": "https://www.allegra.law/about"
+  },
+  "alpinumlaw.com": {
+    "canton": "ZH",
+    "email": "info@alpinumlaw.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "AlpinumLaw Rechtsanwälte AG",
+    "phone": "+41 44 523 05 01",
+    "practice_areas_de": [
+      "Wirtschaftsstrafrecht",
+      "Vermögensermittlung (Asset Tracing)",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Finanzmarktregulierung",
+      "Blockchain- und KI-Technologie",
+      "Datenschutz und Compliance",
+      "Fintech- und Krypto-Regulierung",
+      "Bank- und Finanzmarktrecht",
+      "Vertragsrecht",
+      "Family Office"
+    ],
+    "source_url": "https://alpinumlaw.com/kanzlei/",
+    "team_size_n": 9
   },
   "altenburger.ch": {
     "canton": "ZH",
@@ -4195,6 +4237,26 @@
     ],
     "source_url": "https://www.gloor-junker.ch/tatigkeitsgebiete/"
   },
+  "gloor-sieger.ch": {
+    "canton": "ZH",
+    "email": "lawyers@gloor-sieger.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Gloor & Sieger AG",
+    "founding_year": 1989,
+    "phone": "+41 44 254 61 61",
+    "practice_areas_en": [
+      "Contract and commercial law",
+      "Corporate law/M&A",
+      "Inheritance law/estate administration",
+      "Foundation and trust law",
+      "Private clients/family offices",
+      "Banking and financial market law",
+      "Economic criminal law",
+      "International legal assistance"
+    ],
+    "source_url": "https://gloor-sieger.ch/",
+    "team_size_n": 2
+  },
   "gmlaw.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -4256,6 +4318,15 @@
       "Life Sciences"
     ],
     "source_url": "https://good-zuerich.ch/en/"
+  },
+  "gplegal.ch": {
+    "canton": "ZH",
+    "email": "info@gplegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Goetz & Patak",
+    "phone": "+41 (0)44 991 1212",
+    "source_url": "https://gplegal.ch/",
+    "team_size_n": 2
   },
   "gr-law.ch": {
     "canton": "LU",
@@ -4366,6 +4437,14 @@
       "Notariat"
     ],
     "source_url": "https://www.gruendler-partner.ch/de/"
+  },
+  "gslaw.ch": {
+    "canton": "ZH",
+    "email": "info@gslaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Gresch, Schwab & Varela Rechtsanwälte",
+    "phone": "+41 43 344 61 61",
+    "source_url": "https://www.gslaw.ch/"
   },
   "gublergysler.ch": {
     "canton": "ZH",
@@ -4586,6 +4665,26 @@
     "source_url": "https://www.homburger.ch/en/about-us",
     "team_size_n": null,
     "team_size_text": "43 associés et plus de 160 professionnels"
+  },
+  "horak-law.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@horak-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltskanzlei Horák",
+    "founding_year": 2011,
+    "phone": "+41 44 386 42 00",
+    "practice_areas_de": [
+      "Anlageberatung und Vermögensverwaltungsstreitigkeiten",
+      "internationale Handelsgeschäfte",
+      "Baurechtliche Ansprüche",
+      "Gesellschaftsrecht",
+      "Berufshaftpflichtverteidigung",
+      "Arbeitsrecht",
+      "Immobilienrecht",
+      "Vertragsgestaltung"
+    ],
+    "source_url": "https://www.horak-law.ch/de",
+    "team_size_n": 2
   },
   "hra.ch": {
     "canton": "ZH",
@@ -4952,6 +5051,24 @@
       "Business succession"
     ],
     "source_url": "https://www.kanzleicaro.ch/en/"
+  },
+  "kanzleikaeser.ch": {
+    "canton": "ZH",
+    "email": "kontakt@kanzleikaeser.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kanzlei Käser",
+    "founding_year": 2023,
+    "phone": "+41 44 585 14 61",
+    "practice_areas_en": [
+      "Litigation",
+      "Arbitration",
+      "Debt Enforcement",
+      "White-Collar Crime",
+      "International Legal Assistance",
+      "Contract and Corporate Law"
+    ],
+    "source_url": "https://kanzleikaeser.ch/en/",
+    "team_size_n": 1
   },
   "kanzleikreis2.ch": {
     "canton": "ZH",
@@ -7754,6 +7871,14 @@
     ],
     "source_url": "https://sraag.ch/",
     "team_size_n": 3
+  },
+  "ssg-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schwager Schmid Giusto",
+    "phone": "+41 44 252 45 00",
+    "source_url": "https://www.ssg-law.ch/kontakt",
+    "team_size_n": 2
   },
   "ssp-law.ch": {
     "canton": "BL",

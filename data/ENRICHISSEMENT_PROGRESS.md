@@ -2481,3 +2481,22 @@ Trust & Legal AG (rcslegal.ch, page d'accueil quasi vide -- rendu JavaScript pro
 contact en 404).
 
 Rattachement : 483 études rattachées au total (476 → 483, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 03h04 UTC — Phase 3, lot 43 (exécution automatisée)
+
+8 cabinets traités (8 succès / 0 échec), 7 ZH + 1 BL. Anwaltskanzlei Horák (fondée **2011** --
+"Im Jahre 2011 gründete er... eine Anwaltskanzlei", tel/email, 2 avocats, 8 domaines DE), Gloor
+& Sieger AG (Zollikon, fondée **1989**, tel/email, 2 avocats, 8 domaines EN), Schwager Schmid
+Giusto (tel, 2 avocats), Goetz & Patak (Küsnacht, tel/email, 2 avocats), Kanzlei Käser (fondée
+**2023**, tel/email, avocat solo, 6 domaines EN), Gresch, Schwab & Varela Rechtsanwälte
+(cabinet bi-site Zurich/Pfäffikon SZ, tel/email bureau zurichois), AlpinumLaw Rechtsanwälte AG
+(tel/email, 9 personnes, 12 domaines DE dont blockchain/IA), Advokaturbüro Albrecht I Riedo I
+Anwander (BL, Muttenz, tel/email, 4 avocats, 8 domaines EN).
+
+Note de rigueur : un candidat (Advokatur Schweighauser von Wartburg Aeschlimann Maier, BL) a
+été écarté après recherche -- un résumé tiers suggérait un renommage en "LAMOLEX", mais le site
+officiel de LAMOLEX ne confirme cette continuité nulle part (aucune mention du nom d'origine) ;
+par prudence, même principe que pour Adler Salminen/BAT au lot 37, aucune entrée créée plutôt
+que de supposer un lien non vérifié sur la source primaire.
+
+Rattachement : 491 études rattachées au total (483 → 491, +8). Suite de tests : 94/94 au vert.
