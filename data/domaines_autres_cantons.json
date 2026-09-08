@@ -343,6 +343,12 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "schmidlaw.ch": {
+      "canton": "ZH",
+      "firm_name": "Schmid Rechtsanwälte",
+      "reason": "Site accessible mais seule la page d'accueil (contenu generique) l'est, /en/contact et /team en 404, aucun fait exploitable",
+      "tested_date": "2026-09-07"
+    },
     "schochjaeggihoch.com": {
       "canton": "ZH",
       "firm_name": "Schoch Jaeggi Hoch",
@@ -453,6 +459,12 @@
     }
   },
   "_sans_site": {
+    "Jositsch Brunner Rechtsanwälte": {
+      "canton": "ZH",
+      "checked_date": "2026-09-07",
+      "firm_name": "Jositsch Brunner Rechtsanwälte",
+      "reason": "Aucun site officiel dedie trouve malgre deux recherches distinctes -- presence uniquement via annuaires tiers (Lobbywatch, Legaly)"
+    },
     "Wolf Kuny Trütsch": {
       "canton": "SZ",
       "checked_date": "2026-09-07",
@@ -569,6 +581,24 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advestra.ch/en/story/index.php",
     "team_size_n": null
+  },
+  "advo-glavas.ch": {
+    "canton": "ZH",
+    "email": "glavas@advo-glavas.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Advokatur Glavas AG",
+    "phone": "+41 (0)44 350 35 15",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Sozialversicherungsrecht",
+      "Zivilrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.advo-glavas.ch/",
+    "team_size_n": 4
   },
   "advo-net.ch": {
     "canton": "ZH",
@@ -2452,6 +2482,22 @@
     "source_url": "https://www.bkp-legal.ch/en/home",
     "team_size_n": null
   },
+  "bkt-legal.ch": {
+    "canton": "ZH",
+    "email": "info@bkt-legal.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Bürgi & Kriegers-Tejura Legal",
+    "phone": "+41 (0)44 380 34 60",
+    "practice_areas_en": [
+      "Employment Law",
+      "Contract Law",
+      "Corporate Law",
+      "Debt Collection and Bankruptcy Law",
+      "Litigation"
+    ],
+    "source_url": "https://bkt-legal.ch/en/",
+    "team_size_n": 2
+  },
   "bl-recht.ch": {
     "canton": "ZH",
     "email": "info@bl-recht.ch",
@@ -2477,6 +2523,15 @@
     "practice_areas_fr": [],
     "source_url": "https://www.blesi-papa.ch/",
     "team_size_n": null
+  },
+  "blm-law.ch": {
+    "canton": "ZH",
+    "email": "Info@blm-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "BLM Rechtsanwälte",
+    "phone": "+41 (0)44 746 60 60",
+    "source_url": "https://blm-law.ch/kontakt/",
+    "team_size_n": 2
   },
   "blra.ch": {
     "canton": "ZH",
@@ -2869,6 +2924,25 @@
     "source_url": "https://www.bratschi.ch/en/about-us",
     "team_size_n": 120
   },
+  "brem.legal": {
+    "canton": "ZH",
+    "email": "info@brem.legal",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Anwaltsbüro Brem",
+    "phone": "+41 44 784 10 41",
+    "practice_areas_de": [
+      "Urheberverwertungsrecht",
+      "Tarifverfahren",
+      "Wirtschaftsverwaltungsrecht",
+      "Lebensmittelrecht",
+      "Gebrauchsgegenständerecht",
+      "Kosmetikrecht",
+      "Chemikalienrecht",
+      "Zollrecht",
+      "Verwaltungsverfahren"
+    ],
+    "source_url": "https://brem.legal/"
+  },
   "bruecker.swiss": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -3077,6 +3151,30 @@
     "notes": "Site officiel indisponible (HTTP 503) au moment du passage -- faits repris des extraits indexes par le moteur de recherche (meme page 'Lo studio'), pas d'un WebFetch direct. A revalider si possible lors d'un futur passage.",
     "phone": "+41 91 967 11 34",
     "source_url": "http://www.cereghettilegal.ch/it/lo-studio/"
+  },
+  "cf-law.ch": {
+    "canton": "ZH",
+    "email": "fahrni@cf-law.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Camp Fahrni Rechtsanwälte",
+    "phone": "+41 43 499 97 77",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "http://www.cf-law.ch/silvan-fahrni/",
+    "specialist_certification": "Fachanwalt SAV Familienrecht (Silvan Fahrni, 2017)",
+    "team_size_n": 2
+  },
+  "chabrier.ch": {
+    "canton": "ZH",
+    "email": "info@chabrier.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Chabrier Rechtsanwälte GmbH",
+    "phone": "+41 44 204 07 00",
+    "source_url": "https://www.chabrier.ch/en/contact"
   },
   "charlesrussellspeechlys.com#ZH": {
     "canton": "ZH",
@@ -5507,6 +5605,23 @@
     "source_url": "https://lexarte.ch/de/wirtschaftsrecht/",
     "team_size_n": 10
   },
+  "leximpact.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-07",
+    "firm_name": "LEXIMPACT",
+    "phone": "+41 44 508 23 84",
+    "practice_areas_en": [
+      "Swiss and EU financial regulation",
+      "FinTech and InsurTech",
+      "Banking law",
+      "Cross-border business",
+      "IT law",
+      "Labor and migration law",
+      "Digital asset trading"
+    ],
+    "source_url": "https://leximpact.ch/team/",
+    "team_size_n": 3
+  },
   "lexp.ch": {
     "canton": "ZH",
     "email": "info@lexp.ch",
@@ -6362,6 +6477,22 @@
     "practice_areas_fr": [],
     "source_url": "https://pestalozzilaw.com/en",
     "team_size_n": null
+  },
+  "peterandkim.com": {
+    "canton": "ZH",
+    "email": "contactZH@peterandkim.com",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Peter & Kim AG",
+    "founding_year": 2019,
+    "phone": "+41 58 317 70 50",
+    "practice_areas_en": [
+      "International arbitration",
+      "Cross-border litigation",
+      "Commercial disputes",
+      "BIT and M&A arbitrations",
+      "Investment treaty matters"
+    ],
+    "source_url": "https://peterandkim.com/contact/"
   },
   "peterer-legal.com": {
     "canton": "SG",
@@ -8876,6 +9007,28 @@
     ],
     "source_url": "https://www.wt92.ch/",
     "team_size_n": 4
+  },
+  "wyssundpartner.ch": {
+    "canton": "ZH",
+    "email": "info@wyssundpartner.ch",
+    "fetched_date": "2026-09-07",
+    "firm_name": "Wyss & Partner",
+    "founding_year": 1975,
+    "phone": "+41 43 443 01 01",
+    "practice_areas_en": [
+      "Labor law",
+      "Family law",
+      "Probate law and estate planning",
+      "Tenancy law",
+      "Contract law",
+      "Corporate and company law",
+      "Criminal law",
+      "Traffic law",
+      "Immigration law",
+      "Child and adult protection"
+    ],
+    "source_url": "https://wyssundpartner.ch/en/",
+    "team_size_n": 3
   },
   "z-law.ch": {
     "canton": "LU",

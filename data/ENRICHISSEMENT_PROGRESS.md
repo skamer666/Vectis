@@ -2428,3 +2428,24 @@ droit de la famille/divorce, tel/email, 6 domaines EN). **Échec :** Jaquenod Re
 (apollolaw.ch, HTTP 503 sur deux tentatives http et https).
 
 Rattachement : 459 études rattachées au total (451 → 459, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 00h04 UTC — Phase 3, lot 40 (exécution automatisée)
+
+11 cabinets traités (9 succès / 1 échec / 1 sans-site), tous ZH -- boutiques à 2-4 avocats.
+Camp Fahrni Rechtsanwälte (tel/email, 2 avocats, 4 domaines DE, **Fachanwalt SAV Familienrecht**
+pour Silvan Fahrni depuis 2017), Wyss & Partner (fondée **1975**, tel/email, 3 associés, 10
+domaines EN), LEXIMPACT (boutique droit financier/FinTech, tel, 3 avocats, 7 domaines EN),
+Chabrier Rechtsanwälte GmbH (bureau zurichois d'un cabinet basé à Genève, tel/email spécifiques
+à Zurich), Bürgi & Kriegers-Tejura Legal (tel/email, 2 avocates, 5 domaines EN), Advokatur
+Glavas AG (cabinet bi-site Muolen SG/Zurich, tel/email spécifiques au bureau zurichois, 4
+avocats, 7 domaines DE), BLM Rechtsanwälte (Dietikon, tel/email, 2 avocats), Anwaltsbüro Brem
+(Richterswil, boutique très spécialisée -- droit de la consommation, cosmétique, chimique,
+douanier, tel/email, 9 domaines DE), Peter & Kim AG (bureau zurichois d'un cabinet d'arbitrage
+international basé à Genève, fondé **2019**, tel/email spécifiques à Zurich, 5 domaines EN).
+
+**Échec :** Schmid Rechtsanwälte (schmidlaw.ch, seule la page d'accueil générique accessible,
+/en/contact et /team en 404, aucun fait exploitable). **Sans site :** Jositsch Brunner
+Rechtsanwälte (aucun site officiel dédié trouvé après deux recherches distinctes, présence
+uniquement via annuaires tiers).
+
+Rattachement : 468 études rattachées au total (459 → 468, +9). Suite de tests : 94/94 au vert.
