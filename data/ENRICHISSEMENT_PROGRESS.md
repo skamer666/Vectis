@@ -2800,3 +2800,15 @@ associé sur une fiche tierce, tel, 4 avocats). **Échec :** LM Rechtsanwälte A
 503×2).
 
 Rattachement : 623 études rattachées au total (620 → 623, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 20h03 UTC — Phase 3, lot 60 (exécution automatisée)
+
+5 cabinets traités (3 succès / 2 échecs), premier lot touchant le canton AR. Advokatur
+Tomaschett (Coire, fondée **1989** -- "Unsere Anwaltskanzlei führen wir seit 1989", tel/email),
+Kistler & Kollegen (Davos, email, 3 avocats, 7 domaines DE), Cavelti & Wernli (Herisau AR,
+6 domaines DE, aucun tel/email exploitable trouvé sur les pages testées). **Échec :** schmid,
+giuliani, Rechtsanwälte (schmidgiuliani.ch, 503×2). **Sans site confirmé :** Polartis Advokatur
+(identité incertaine -- seule entité trouvée sous ce nom est une société de conseil en
+stratégie, pas un cabinet d'avocats confirmé).
+
+Rattachement : 625 études rattachées au total (623 → 625, +2). Suite de tests : 94/94 au vert.

@@ -483,6 +483,13 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "schmidgiuliani.ch": {
+      "_failed": true,
+      "canton": "AR",
+      "checked_date": "2026-09-08",
+      "firm_name": "schmid, giuliani, Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "schmidlaw.ch": {
       "canton": "ZH",
       "firm_name": "Schmid Rechtsanwälte",
@@ -720,6 +727,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Keller Lehmann Rechtsanwälte AG",
       "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire"
+    },
+    "polartis-advokatur-ar": {
+      "_sans_site": true,
+      "canton": "AR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Polartis Advokatur",
+      "reason": "Identite incertaine -- seule entite trouvee sous ce nom (Polartis GmbH a Speicher) est une societe de conseil en strategie, pas un cabinet d'avocats confirme"
     },
     "poma-gandolfi-ti": {
       "_sans_site": true,
@@ -1119,6 +1133,15 @@
       "Beschaffungs- und Werkverträge, insbesondere für ICT-Vorhaben"
     ],
     "source_url": "https://advokatur-staub.ch/"
+  },
+  "advokatur-tomaschett.ch": {
+    "canton": "GR",
+    "email": "info@advokatur-tomaschett.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur Tomaschett",
+    "founding_year": 1989,
+    "phone": "081 257 01 70",
+    "source_url": "https://www.advokatur-tomaschett.ch/home.html"
   },
   "advokatur-trias.ch": {
     "canton": "ZH",
@@ -3772,6 +3795,20 @@
       "Notariat"
     ],
     "source_url": "https://cahannes.ch/"
+  },
+  "cavelti-wernli.ch": {
+    "canton": "AR",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Cavelti & Wernli",
+    "practice_areas_de": [
+      "Familien-, Ehe-, Scheidungsrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht",
+      "Gesellschaftsrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://www.cavelti-wernli.ch/index.php?p=wernli&q=partner"
   },
   "caviezelpartner.ch": {
     "canton": "GR",
@@ -6935,6 +6972,23 @@
       "Prozessführung & Schiedsverfahren"
     ],
     "source_url": "https://lawside.ch/de/taetigkeitsbereiche/"
+  },
+  "lawteam.ch": {
+    "canton": "GR",
+    "email": "mail@lawteam.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kistler & Kollegen",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Schiedsgerichtsbarkeit",
+      "Vertragsrecht",
+      "Erbrecht und Nachlassrecht",
+      "Personen-, Vereins- und Stiftungsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.lawteam.ch/",
+    "team_size_n": 3
   },
   "lawyers.ch": {
     "canton": "BS",
