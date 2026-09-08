@@ -71,6 +71,13 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "amwasserturmplatz.ch": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-08",
+      "firm_name": "Zeller Dettwiler Advokatur & Notariat",
+      "reason": "Site accessible mais aucun tel/email exploitable, uniquement une formule generique de mission"
+    },
     "ankerlex.ch": {
       "canton": "ZH",
       "firm_name": "Peyer Felder Kahlhöfer Gloor Leumann Rechtsanwälte",
@@ -549,6 +556,13 @@
       "firm_name": "Tappolet & Partner",
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "tenchio.ch": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Tenchio & Partner",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "utolegal.ch": {
       "canton": "ZH",
@@ -1907,6 +1921,28 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
+  },
+  "areum.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Areum Rechtsanwälte AG",
+    "founding_year": 2023,
+    "phone": "+41 81 255 84 48",
+    "practice_areas_de": [
+      "Öffentliches Bau- und Planungsrecht",
+      "Immobilienentwicklung und Bauprojekte",
+      "Zweitwohnungsrecht (Lex Koller)",
+      "Verwaltungs- und Staatsrecht",
+      "Öffentliches Beschaffungswesen",
+      "Öffentliches Personalrecht",
+      "Scheidung, Trennung und Unterhalt",
+      "Vertragsrecht",
+      "Sachenrecht",
+      "Strafrecht",
+      "Wirtschaftsstrafrecht"
+    ],
+    "source_url": "https://areum.ch/",
+    "team_size_n": 2
   },
   "arioli-law.ch": {
     "canton": "ZH",
@@ -4102,6 +4138,20 @@
     "phone": "+41 44 268 47 47",
     "source_url": "https://www.emmlegal.ch/"
   },
+  "engadin-law.ch": {
+    "canton": "GR",
+    "email": "info@engadin-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Lüthi & Bondolfi",
+    "phone": "+41 81 851 18 00",
+    "practice_areas_de": [
+      "Wirtschafts-, Gesellschafts- und Vertragsrecht",
+      "Immobilien- und Baurecht",
+      "Familien- und Erbrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.engadin-law.ch/"
+  },
   "engelberger.law": {
     "canton": "LU",
     "email": "info@engelberger.law",
@@ -4702,6 +4752,13 @@
     "canton": "GR",
     "fetched_date": "2026-09-08",
     "firm_name": "Ganzoni & Pedretti AG",
+    "phone": "+41 81 833 55 44",
+    "source_url": "https://www.ganzonipedretti.ch/en/law-firm/"
+  },
+  "ganzonipedretti.ch#2": {
+    "canton": "GR",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Ganzoni & Pedretti AG Via",
     "phone": "+41 81 833 55 44",
     "source_url": "https://www.ganzonipedretti.ch/en/law-firm/"
   },
@@ -8082,6 +8139,14 @@
     ],
     "source_url": "https://www.palombo-rechtsanwalt.ch/kontakt/"
   },
+  "perl-law.ch": {
+    "canton": "GR",
+    "email": "info@perl-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Perl Advokatur und Notariat",
+    "phone": "081 286 96 60",
+    "source_url": "https://www.perl-law.ch/sites/kontakt.html"
+  },
   "perucchiandpartner.com": {
     "canton": "ZH",
     "email": "info@perucchiandpartner.com",
@@ -8536,6 +8601,14 @@
     "source_url": "https://www.rechtsanker.ch/",
     "specialist_certification": "Fachanwältin SAV Familienrecht (Barbara Laur), Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Silvan Meier Rhein)",
     "team_size_n": 4
+  },
+  "rechtsanwalt-erhart.ch": {
+    "canton": "BL",
+    "email": "erhart@rechtsanwalt-erhart.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Erhart Rechtsanwälte & Notariat",
+    "phone": "+41 61 487 92 00",
+    "source_url": "https://www.rechtsanwalt-erhart.ch/meta/kontakt.html"
   },
   "rechtsanwalt-luzern.ch": {
     "canton": "LU",
@@ -9242,6 +9315,22 @@
     "firm_name": "Berther Moeri Neuber Schindler",
     "phone": "+41 44 215 47 47",
     "source_url": "http://www.schipfe32.ch/"
+  },
+  "schmidchristoffel.ch": {
+    "canton": "GR",
+    "email": "ms@schmidchristoffel.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schmid Christoffel Rechtsanwälte AG",
+    "founding_year": 2017,
+    "phone": "+41 (0)81 420 83 08",
+    "practice_areas_de": [
+      "Steuerrecht (national und international)",
+      "Familienrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.schmidchristoffel.ch/",
+    "specialist_certification": "Fachanwältin SAV Familienrecht (Martina Schmid)"
   },
   "schmidsutter.ch": {
     "canton": "ZH",
@@ -10380,6 +10469,25 @@
     ],
     "source_url": "https://www.tls-partner.ch/de/ueber-uns",
     "team_size_n": null
+  },
+  "tls-partner.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Dr. Tschümperlin Lötscher Schwarz AG",
+    "founding_year": 1973,
+    "note": "Fondé en 1973 ; a célébré son 50e anniversaire en juin 2023.",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Bau- und Immobilienrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Notariat",
+      "Unternehmensrecht und M&A",
+      "Strafrecht",
+      "Vertragsrecht und Haftung",
+      "Immaterialgüterrecht"
+    ],
+    "source_url": "https://www.tls-partner.ch/de/ueber-uns"
   },
   "toedtli.law": {
     "canton": "SZ",

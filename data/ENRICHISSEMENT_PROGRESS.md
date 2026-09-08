@@ -2728,3 +2728,19 @@ troisième ligne CSV pour ce cabinet déjà rattaché deux fois ce jour sous GR 
 vérifiés réutilisés).
 
 Rattachement : 600 études rattachées au total (592 → 600, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 15h04 UTC — Phase 3, lot 55 (exécution automatisée)
+
+9 cabinets traités (7 succès / 2 échecs), GR, BL et LU. Schmid Christoffel Rechtsanwälte AG
+(Davos, fondée **2017** -- "Im April 2017 gründete sie zusammen mit Hansjürg Christoffel die
+Kanzlei", tel/email, spécialiste FSA Familienrecht, 4 domaines DE), Areum Rechtsanwälte AG
+(Chur, fondée **2023** -- "am 1. Juni 2023 die AREUM Rechtsanwälte AG ... gegründet", tel,
+2 avocats, 11 domaines DE combinés), Erhart Rechtsanwälte & Notariat (Oberwil BL, tel/email),
+Perl Advokatur und Notariat (Chur, tel/email), Lüthi & Bondolfi (Samedan/Chur, tel/email,
+4 domaines DE). Deux rattachements par déduplication : Ganzoni & Pedretti AG Via (deuxième
+ligne CSV pour le cabinet déjà rattaché en lot 54) et Dr. Tschümperlin Lötscher Schwarz AG
+(deuxième ligne CSV pour un cabinet déjà en cache depuis un lot antérieur, fondé en 1973).
+**Échecs :** Tenchio & Partner (tenchio.ch, 503×2), Zeller Dettwiler Advokatur & Notariat
+(site accessible mais aucun tel/email exploitable).
+
+Rattachement : 605 études rattachées au total (600 → 605, +5). Suite de tests : 94/94 au vert.
