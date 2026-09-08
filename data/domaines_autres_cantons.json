@@ -364,6 +364,13 @@
       "firm_name": "Rudolf & Bieri AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "schai-vultier.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Schai & Vultier",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "schaubhochl.ch": {
       "canton": "ZH",
       "firm_name": "Schaub Hochl Rechtsanwälte AG",
@@ -387,6 +394,20 @@
       "date": "2026-07-29",
       "firm_name": "Rüesch Rechtsanwälte",
       "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)"
+    },
+    "sieberlex.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "SIEBER RECHTSANWÄLTE",
+      "reason": "HTTP 404 Not Found sur plusieurs chemins (racine, /ueber-uns/, /rechtsanwaelte/) -- site probablement hors service"
+    },
+    "siggschwarz.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "Sigg Schwarz Advokatur",
+      "reason": "HTTP 403 Forbidden (x2, homepage et /kontakt.html)"
     },
     "staiger.law": {
       "canton": "ZH",
@@ -6545,6 +6566,19 @@
     "phone": "+41 52 269 21 11",
     "source_url": "https://martin-ra.ch/en/contact/"
   },
+  "meyer-wipf.ch": {
+    "canton": "ZH",
+    "email": "info@meyer-wipf.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Meyer & Wipf Rechtsanwälte",
+    "phone": "+41 43 344 99 33",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Planungs-, Bau- & Umweltrecht"
+    ],
+    "source_url": "https://www.meyer-wipf.ch/de/",
+    "team_size_n": 2
+  },
   "mfpartner.ch": {
     "canton": "GR",
     "fetched_date": "2026-09-06",
@@ -6665,6 +6699,18 @@
       "Steuern"
     ],
     "source_url": "https://www.moser-advokatur.ch/"
+  },
+  "mplaw.ch": {
+    "canton": "ZH",
+    "email": "mail@mplaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Meili Pfortmüller",
+    "phone": "+41 44 365 65 00",
+    "practice_areas_en": [
+      "Media, communications, entertainment and arts law"
+    ],
+    "source_url": "https://www.mplaw.ch/about-us/",
+    "team_size_n": 3
   },
   "mrgadvokatur.ch": {
     "canton": "ZH",
@@ -7135,6 +7181,21 @@
     ],
     "source_url": "https://www.pfister-rechtsanwaelte.ch/"
   },
+  "pikouhl.com": {
+    "canton": "ZH",
+    "email": "piko@pikouhl.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Pikó Uhl Rechtsanwälte AG",
+    "phone": "+41 43 817 61 62",
+    "practice_areas_en": [
+      "Corporate governance and corporate compliance",
+      "Internal investigations",
+      "Whistleblowing systems and ombudsperson",
+      "Value-based corporate governance (ESG) and ESG investigation"
+    ],
+    "source_url": "https://pikouhl.com/en/contact/",
+    "team_size_n": 2
+  },
   "pilatushof.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -7198,6 +7259,25 @@
     "practice_areas_fr": [],
     "source_url": "https://www.prager-dreifuss.com/en/about-us/",
     "team_size_n": 45
+  },
+  "prins.swiss": {
+    "canton": "ZH",
+    "email": "prins@prins.swiss",
+    "fetched_date": "2026-09-08",
+    "firm_name": "PRINS Law GmbH",
+    "phone": "+41 58 255 33 00",
+    "practice_areas_en": [
+      "Patents",
+      "Trademarks",
+      "Designs",
+      "Copyrights",
+      "Domain names",
+      "Litigation & contract law",
+      "IP strategy & reporting",
+      "IP due diligence"
+    ],
+    "source_url": "https://www.prins.swiss/about/",
+    "team_size_n": 8
   },
   "probstpartner.ch": {
     "canton": "ZH",
@@ -7517,6 +7597,23 @@
     "source_url": "https://riedwegpartner.ch/en/",
     "team_size_n": null
   },
+  "rischlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Risch Legal",
+    "phone": "+41 44 500 89 01",
+    "practice_areas_de": [
+      "Baurecht",
+      "Immobilienrecht",
+      "Vertragsprüfung",
+      "Streitbeilegung",
+      "Mängelbehebung",
+      "Nachtragsmanagement",
+      "Bauhandwerkerpfandrecht"
+    ],
+    "source_url": "https://rischlegal.ch/",
+    "team_size_n": 2
+  },
   "riselaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -7556,6 +7653,20 @@
     "source_url": "https://www.rmp.ch/rmp/",
     "team_size_n": null
   },
+  "rohlaw.ch": {
+    "canton": "ZH",
+    "email": "mail@rohlaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "ROH Rechtsanwälte AG",
+    "phone": "+41 44 211 13 66",
+    "practice_areas_en": [
+      "Business law (civil, corporate, M&A, banking/finance)",
+      "Tax law",
+      "Private clients",
+      "Fiduciary services"
+    ],
+    "source_url": "https://www.rohlaw.ch/en/"
+  },
   "romeroziegler.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -7574,6 +7685,19 @@
     ],
     "source_url": "https://romeroziegler.ch/kanzleiprofil/",
     "team_size_n": null
+  },
+  "ronzani-schlauri.com": {
+    "canton": "ZH",
+    "email": "law@ronzani-schlauri.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Ronzani Schlauri Anwälte",
+    "phone": "+41 44 500 57 20",
+    "practice_areas_en": [
+      "Technology law",
+      "Information law",
+      "Intellectual property law"
+    ],
+    "source_url": "https://www.ronzani-schlauri.com/contact-de"
   },
   "rothorn-legal.ch": {
     "canton": "ZH",
@@ -7623,6 +7747,25 @@
     ],
     "source_url": "https://rsplaw.ch/",
     "team_size_n": null
+  },
+  "rtr-law.ch": {
+    "canton": "ZH",
+    "email": "dt@rtr-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Rechsteiner Thürkauf Rechtsanwälte",
+    "founding_year": 2007,
+    "phone": "+41 43 499 89 01",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Handels- und Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Familien- und Erbrecht",
+      "Strafrecht",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.rtr-law.ch/",
+    "team_size_n": 2
   },
   "rtwp.ch": {
     "canton": "SG",
@@ -7764,6 +7907,22 @@
     "source_url": "https://www.ruossvoegele.ch/kanzlei",
     "team_size_n": null
   },
+  "rwra.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "ROMANG & WENGER Rechtsanwälte",
+    "practice_areas_de": [
+      "Stockwerkeigentum",
+      "Miteigentum an Liegenschaften",
+      "Immobiliarsachenrecht",
+      "Kauf- und Werkvertragsrecht",
+      "Haftpflichtrecht",
+      "Privatversicherungsrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://rwra.ch/",
+    "team_size_n": 2
+  },
   "s-law.com": {
     "canton": "ZH",
     "email": "zurich@s-law.com",
@@ -7851,6 +8010,29 @@
     "source_url": "https://www.schadenanwaelte.ch/",
     "team_size_n": 20,
     "team_size_text": "20 spécialistes"
+  },
+  "schaublaw.ch": {
+    "canton": "ZH",
+    "email": "info@rsra.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schaub Rechtsanwälte",
+    "founding_year": 1994,
+    "phone": "+41 44 268 30 30",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Nachfolgeplanung, M&A",
+      "Corporate Governance",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Sportrecht",
+      "Ausländerrecht, Personalverleih",
+      "Zivilrecht",
+      "Betreibungs- und Konkursrecht",
+      "Geldwäschereirecht"
+    ],
+    "source_url": "https://schaublaw.ch/",
+    "team_size_n": 4
   },
   "schawalder-kocher.ch": {
     "canton": "GR",
@@ -8045,6 +8227,13 @@
     "firm_name": "Senn Somm Bossart Anwälte",
     "phone": "+41 (0)71 243 50 00",
     "source_url": "https://www.sennsommbossart.ch/kontakt.html"
+  },
+  "sfs-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schuler Forrer Schumacher Rechtsanwälte",
+    "source_url": "https://www.sfs-law.ch/",
+    "team_size_n": 4
   },
   "sglaw.ch": {
     "_failed": true,
@@ -8830,6 +9019,23 @@
       "Erbrecht"
     ],
     "source_url": "https://www.thf-rechtsanwaelte.ch/"
+  },
+  "this-law.ch": {
+    "canton": "ZH",
+    "email": "info@this-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Streiff Rechtsanwälte AG",
+    "founding_year": 2004,
+    "phone": "+41 44 932 15 09",
+    "practice_areas_de": [
+      "Kaufrecht",
+      "Immobilienrecht",
+      "Baurecht",
+      "Mietrecht",
+      "Allgemeines Vertragsrecht",
+      "Werkvertrags- und Architekturrecht"
+    ],
+    "source_url": "https://this-law.ch/"
   },
   "thlegal.ch": {
     "canton": "ZH",

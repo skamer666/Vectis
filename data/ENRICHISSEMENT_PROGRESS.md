@@ -2547,3 +2547,26 @@ Zulauf Partner (zulauflegal.ch, boutique droit des médias/réputation, tel/emai
 DE). **Échec :** Zuppiger Jenny Rechtsanwälte AG (aucun domaine identifié).
 
 Rattachement : 518 études rattachées au total (510 → 518, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 07h04 UTC — Phase 3, lot 47 (exécution automatisée)
+
+15 cabinets traités (12 succès / 3 échecs), tous ZH. Streiff Rechtsanwälte AG (Wetzikon,
+fondée **2004** -- "Gegründet wurde die ... Anwaltskanzlei von Dr. Matthias Streiff im Jahr
+2004", tel/email, 6 domaines DE droit immobilier/construction), Schuler Forrer Schumacher
+Rechtsanwälte (communauté de 4 avocats indépendants, chacun avec son propre tel/email --
+aucun tel/email de cabinet inventé, conformément au protocole), Schaub Rechtsanwälte
+(Limmatquai, fondée **1994**, tel/email, 4 avocats, 11 domaines DE), Risch Legal (boutique
+droit de la construction, tel, 2 avocats, 7 domaines DE), Rechsteiner Thürkauf Rechtsanwälte
+(fondée **2007** -- "im Herzen von Zürich seit 2007", tel/email, 2 avocats, 7 domaines DE),
+ROMANG & WENGER Rechtsanwälte (communauté de 2 avocats indépendants avec tel propres --
+domaines combinés retenus, aucun tel de cabinet inventé), ROH Rechtsanwälte AG (tel/email,
+4 domaines EN, faits limités au cabinet suisse), Pikó Uhl Rechtsanwälte AG (boutique
+compliance/investigations, tel/email, 2 avocats, 4 domaines EN), PRINS Law GmbH (boutique
+propriété intellectuelle, tel/email, 8 avocats, 8 domaines EN), Meyer & Wipf Rechtsanwälte
+(tel/email, 2 avocats, 2 domaines DE), Meili Pfortmüller (boutique droit des médias/
+communication/arts, tel/email, 3 avocats), Ronzani Schlauri Anwälte (boutique droit des
+technologies/IT, tel/email, 3 domaines EN). **Échecs :** Sigg Schwarz Advokatur (siggschwarz.ch,
+403×2), SIEBER RECHTSANWÄLTE (sieberlex.ch, 404 sur plusieurs chemins), Schai & Vultier
+(schai-vultier.ch, 503×2).
+
+Rattachement : 530 études rattachées au total (518 → 530, +12). Suite de tests : 94/94 au vert.
