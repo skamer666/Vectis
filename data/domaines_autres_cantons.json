@@ -150,6 +150,13 @@
       "reason": "domaine ne resout pas (DNS ENOTFOUND) sur ehs-kanzlei.ch et www.ehs-kanzlei.ch",
       "tested_date": "2026-09-07"
     },
+    "erni-grab-partner-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-08",
+      "firm_name": "Erni Grab & Partner AG",
+      "reason": "Communaute d'avocats avec lignes directes propres, aucun domaine de competence concret extrait (uniquement des formules generiques de mission) -- entree jugee non substantielle"
+    },
     "eversheds-sutherland.com": {
       "canton": "ZH",
       "firm_name": "Eversheds Sutherland AG",
@@ -453,6 +460,13 @@
       "reason": "page d'accueil ne renvoie qu'a une section 'Practice Areas' sans contenu ; aucun tel/email lisible (protection anti-bot)",
       "tested_date": "2026-09-07"
     },
+    "schucan-wohlwend-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Schucan & Wohlwend",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "sglaw.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -497,6 +511,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Schöbi Rechtsanwälte",
       "reason": "Rattachement possible a Schoebi Studio Legis AG (meme patronyme) mais la page du cabinet ne confirme aucun lien de continuite/renommage avec 'Schoebi Rechtsanwaelte' -- lien non retenu"
+    },
+    "suenderhauf-sax-schaefer-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Suenderhauf Sax Schäfer",
+      "reason": "Communaute de 3 avocats totalement independants, chacun avec son propre site (esax.ch, gschaefer.ch) -- aucun site commun du cabinet, aucun tel/email de cabinet a inventer"
     },
     "suter.legal": {
       "canton": "ZH",
@@ -576,6 +597,13 @@
       "firm_name": "Wiesli Rechtsanwälte",
       "reason": "domaine ww-law.ch ne resout pas (DNS ENOTFOUND)",
       "tested_date": "2026-09-07"
+    },
+    "zgraggen-ulrich-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-08",
+      "firm_name": "Zgraggen & Ulrich",
+      "reason": "Rattachement possible a Zgraggen Rechtsanwaelte AG (z-law.ch, meme patronyme Zgraggen) mais aucun avocat nomme Ulrich sur l'equipe actuelle et aucune mention de continuite -- lien non retenu"
     },
     "zirngast.ch": {
       "_failed": true,
@@ -3791,6 +3819,29 @@
     ],
     "source_url": "https://core-attorneys.com/en/"
   },
+  "cottinelli-law.ch": {
+    "canton": "SG",
+    "email": "sekretariat@cottinelli-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Cottinelli Advokatur & Notariat GmbH",
+    "phone": "+41 (0)71 223 59 60",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Baurecht",
+      "Erbrecht",
+      "Familienrecht / Scheidungen",
+      "Gesellschaftsrecht",
+      "Immaterialgüterrecht",
+      "IT-Recht",
+      "Mietrecht",
+      "Notarielle Beurkundungen",
+      "Schulrecht / Bildungsrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://cottinelli-law.ch/kontakt/"
+  },
   "csnlaw.com": {
     "canton": "TI",
     "fetched_date": "2026-09-08",
@@ -3809,6 +3860,14 @@
       "Art law"
     ],
     "source_url": "https://www.csnlaw.com/"
+  },
+  "d-partners.ch": {
+    "canton": "LU",
+    "email": "info@d-partners.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Domenghini & Partners AG",
+    "phone": "+41 41 410 77 33",
+    "source_url": "https://www.d-partners.ch/de/Kontakt"
   },
   "d32.ch": {
     "canton": "ZH",
@@ -3880,6 +3939,22 @@
       "Restrukturierung"
     ],
     "source_url": "https://dgslawandtax.ch/"
+  },
+  "dieadvokatur.ch": {
+    "canton": "LU",
+    "email": "info@dieadvokatur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Die Advokatur Sury AG",
+    "phone": "+41 41 227 58 58",
+    "practice_areas_de": [
+      "KI Governance",
+      "Incident Beratung (Datenschutz und Informationssicherheit)",
+      "Blockchain und Distributed Ledger Technology",
+      "Vertragsmanagement",
+      "Datenschutz und Zertifizierung",
+      "Mediation in Digitalisierungs- und Governance-Projekten"
+    ],
+    "source_url": "https://www.dieadvokatur.ch/"
   },
   "dietsche-law.ch": {
     "canton": "SG",
@@ -4571,6 +4646,20 @@
       "Attività notarile"
     ],
     "source_url": "https://www.gaggini-partners.ch/"
+  },
+  "gb-law.ch": {
+    "canton": "SG",
+    "email": "info@gb-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Graf Niedermann Rechtsanwälte",
+    "phone": "+41 71 221 10 10",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Familienrecht",
+      "Vertragsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gb-law.ch/"
   },
   "gbf-legal.ch": {
     "canton": "ZH",
@@ -5268,6 +5357,24 @@
       "Bau- und Immobilienrecht"
     ],
     "source_url": "https://hra.ch/kontakt/"
+  },
+  "hsmlegal.ch": {
+    "canton": "LU",
+    "email": "info@hsmlegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "hsm legal AG",
+    "practice_areas_de": [
+      "Arbeit",
+      "Familie",
+      "Bauen",
+      "Steuern",
+      "Mieten",
+      "Haftung und Versicherung",
+      "Vertrag",
+      "Erben und Nachlassplanung"
+    ],
+    "source_url": "https://www.hsmlegal.ch/",
+    "team_size_n": 3
   },
   "htlaw.ch": {
     "canton": "ZH",
@@ -7571,6 +7678,46 @@
     "source_url": "https://www.neovius.ch/en/about-us/",
     "team_size_n": null
   },
+  "neustadt-advokatur.ch": {
+    "canton": "LU",
+    "email": "sekretariat@neustadt-advokatur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Horvath Rechtsanwälte AG",
+    "phone": "+41 41 210 77 88",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Allgemeines Privatrecht",
+      "Staats- und Verwaltungsrecht",
+      "Sozialversicherungsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Straf- und Opferhilferecht",
+      "Notariat"
+    ],
+    "source_url": "https://neustadt-advokatur.ch/",
+    "specialist_certification": "Fachanwalt SAV Familienrecht (Sandor Horvath)"
+  },
+  "neustadt-advokatur.ch#2": {
+    "canton": "LU",
+    "email": "sekretariat@neustadt-advokatur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Costa Rechtsanwälte AG",
+    "phone": "+41 41 210 77 88",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Allgemeines Privatrecht",
+      "Staats- und Verwaltungsrecht",
+      "Sozialversicherungsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Straf- und Opferhilferecht",
+      "Notariat"
+    ],
+    "source_url": "https://neustadt-advokatur.ch/",
+    "specialist_certification": "Fachanwältin SAV Erbrecht (Concetta Costa Oreiller)"
+  },
   "nh-recht.ch": {
     "canton": "LU",
     "email": "kontakt@nh-recht.ch",
@@ -9011,6 +9158,27 @@
       "Vertragsgestaltung"
     ],
     "source_url": "https://www.schmidsutter.ch/"
+  },
+  "schneiderlegal.ch": {
+    "canton": "SG",
+    "email": "mail@schneiderlegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schneider & Schneider, Rechtsanwälte & Notare",
+    "phone": "+41 71 222 23 53",
+    "practice_areas_de": [
+      "Kommerzielle Verträge und Handelsrecht",
+      "Firmengründung und Restrukturierung",
+      "Unternehmensnachfolge",
+      "M&A-Transaktionen",
+      "KMU-Rechtsdienstleistungen (Arbeitsrecht, Markenschutz, Wettbewerbsrecht)",
+      "Vertragsrecht",
+      "Nachlassplanung",
+      "Familienrecht",
+      "Strafverteidigung",
+      "Betreibungswesen"
+    ],
+    "source_url": "https://schneiderlegal.ch/",
+    "team_size_n": 2
   },
   "schnitter.ch": {
     "canton": "ZH",

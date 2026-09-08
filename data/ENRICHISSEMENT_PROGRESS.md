@@ -2691,3 +2691,24 @@ générique cyon.site, site non fonctionnel). **Sans site officiel :** Beeler & 
 Rechtsanwälte AG.
 
 Rattachement : 584 études rattachées au total (576 → 584, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 13h04 UTC — Phase 3, lot 53 (exécution automatisée)
+
+12 cabinets traités (8 succès / 4 échecs), LU, SG et GR. Horvath Rechtsanwälte AG et Costa
+Rechtsanwälte AG (deux entités juridiques distinctes opérant ensemble sous la bannière
+"Neustadt Advokatur" à la même adresse/tel/email -- confirmé sur la page d'accueil qui liste
+les deux raisons sociales en pied de page -- avec titres de spécialiste FSA propres à chacune :
+Fachanwalt SAV Familienrecht pour Horvath, Fachanwältin SAV Erbrecht pour Costa Oreiller),
+Domenghini & Partners AG (tel/email), Cottinelli Advokatur & Notariat GmbH (tel/email,
+13 domaines DE), Graf Niedermann Rechtsanwälte (rattachement confirmé via une chaîne de
+redirections graf-niedermann.ch → gnb-law.ch → gb-law.ch où le téléphone et l'adresse restent
+identiques à chaque étape, preuve de continuité malgré les renommages successifs, 4 domaines
+DE), Schneider & Schneider Rechtsanwälte & Notare (tel/email, 2 avocats, 10 domaines DE),
+hsm legal AG (email, 3 avocats, 8 domaines DE), Die Advokatur Sury AG (boutique IA/gouvernance
+des données, tel/email, 6 domaines DE). **Échecs :** Suenderhauf Sax Schäfer (communauté de
+3 avocats totalement indépendants avec sites propres, aucun site commun), Zgraggen & Ulrich
+(rattachement possible à Zgraggen Rechtsanwälte AG selon le patronyme partagé, mais aucun
+avocat nommé Ulrich sur l'équipe actuelle -- lien non retenu), Schucan & Wohlwend (503×2),
+Erni Grab & Partner AG (communauté d'avocats, aucun domaine de compétence concret extrait).
+
+Rattachement : 592 études rattachées au total (584 → 592, +8). Suite de tests : 94/94 au vert.
