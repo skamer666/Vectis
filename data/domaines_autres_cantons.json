@@ -308,6 +308,13 @@
       "firm_name": "Lexperience AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "lmrecht.ch": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-08",
+      "firm_name": "LM Rechtsanwälte AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "lplegal.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -1275,6 +1282,26 @@
     ],
     "source_url": "https://www.advokaturfluetsch.ch/advokatur.html",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
+  "advokatursissach.ch": {
+    "canton": "BL",
+    "email": "michael.blattner@advokatursissach.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur Sissach",
+    "founding_year": 2015,
+    "phone": "061 973 70 70",
+    "practice_areas_de": [
+      "Familienrecht (Ehe- und Scheidungsrecht, Kindes- und Erwachsenenschutzrecht)",
+      "Sachenrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Betreibungsrecht",
+      "Erbrecht",
+      "Sozialversicherungsrecht",
+      "Verwaltungsrecht",
+      "Strafrecht (inkl. Jugendstrafrecht und Verkehrsstrafrecht)"
+    ],
+    "source_url": "https://www.advokatursissach.ch/"
   },
   "advokaturstadthof.ch": {
     "canton": "BL",
@@ -2404,6 +2431,14 @@
       "Legal consulting"
     ],
     "source_url": "https://www.baryon.com/en/company/about-us"
+  },
+  "baselrecht.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur und Notariat Neidhart Joset Bürgi",
+    "phone": "061 921 50 58",
+    "source_url": "https://baselrecht.ch/",
+    "team_size_n": 4
   },
   "basleradvokatinnen.ch": {
     "canton": "BS",
@@ -5203,6 +5238,27 @@
     ],
     "source_url": "https://www.goette.ch/",
     "team_size_n": 2
+  },
+  "good-stgallen.ch": {
+    "canton": "SG",
+    "email": "info@good-stgallen.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Good Rechtsanwälte St.Gallen AG",
+    "phone": "+41 58 510 88 99",
+    "practice_areas_en": [
+      "Business & Human Rights",
+      "Debt Collection",
+      "Cyber Crime",
+      "Privacy",
+      "Building Law",
+      "Contract Law",
+      "Labor Law",
+      "Criminal Law",
+      "Life Science",
+      "Accident & Damage",
+      "Tenancy Law"
+    ],
+    "source_url": "https://good-stgallen.ch/en/"
   },
   "good-zuerich.ch": {
     "canton": "ZH",
@@ -9153,6 +9209,19 @@
       "Intellectual property law"
     ],
     "source_url": "https://www.ronzani-schlauri.com/contact-de"
+  },
+  "rosenhof-legal.ch": {
+    "canton": "SG",
+    "email": "info@rosenhof-legal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Rosenhof Legal GmbH",
+    "phone": "055 220 19 00",
+    "practice_areas_de": [
+      "Notarielle Dienstleistungen",
+      "Erbrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://rosenhof-legal.ch/"
   },
   "rothenbuehler-cocchi.ch": {
     "canton": "LU",

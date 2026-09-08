@@ -2787,3 +2787,16 @@ civile/droit médical, tel/email, 5 domaines DE). Dubach Wild AG Rechtsanwälte 
 fois en lot 57). **Échec :** Advokatur Wieser & Wieser (wieser-wieser.ch, 503×2).
 
 Rattachement : 620 études rattachées au total (615 → 620, +5). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 19h03 UTC — Phase 3, lot 59 (exécution automatisée)
+
+5 cabinets traités (4 succès / 1 échec), SG et BL. Good Rechtsanwälte St.Gallen AG (tel/email,
+11 domaines EN), Rosenhof Legal GmbH (Rapperswil, tel/email, 3 domaines DE), Advokatur Sissach
+(fondée **2015** -- "Selbstständiger Advokat mit eigener Kanzlei (seit 2015)", tel/email,
+9 domaines DE), Advokatur und Notariat Neidhart Joset Bürgi (Bâle/Liestal, continuité
+confirmée : les 4 associés du nom CSV -- Martin Neidhart, Alain Joset, Alinda Neidhart, Silvio
+Bürgi -- figurent tous sur l'équipe actuelle de baselrecht.ch malgré l'ajout depuis d'un 5e
+associé sur une fiche tierce, tel, 4 avocats). **Échec :** LM Rechtsanwälte AG (lmrecht.ch,
+503×2).
+
+Rattachement : 623 études rattachées au total (620 → 623, +3). Suite de tests : 94/94 au vert.
