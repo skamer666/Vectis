@@ -403,6 +403,13 @@
       "reason": "HTTP 403 Forbidden sur /en/kontakt et /de/",
       "tested_date": "2026-09-07"
     },
+    "rechtsmanufaktur.ch": {
+      "_failed": true,
+      "canton": "SZ",
+      "checked_date": "2026-09-08",
+      "firm_name": "Rechtsmanufaktur",
+      "reason": "Chaine de redirections (rechtsmanufaktur.ch -> lgl.ch -> sous-domaine d'hebergement generique cyon.site) -- site non fonctionnel"
+    },
     "reichle-stehle.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -610,6 +617,13 @@
       "firm_name": "ARGO Rechtsanwälte",
       "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire local.ch"
     },
+    "beeler-wiget-sz": {
+      "_sans_site": true,
+      "canton": "SZ",
+      "checked_date": "2026-09-08",
+      "firm_name": "Beeler & Wiget",
+      "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire/Facebook (cabinet aujourd'hui 'Beeler, Wiget & Huwyler')"
+    },
     "censiassociati-lugano": {
       "canton": "TI",
       "checked_date": "2026-09-07",
@@ -622,6 +636,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio legale e notarile Ferrari Partner",
       "reason": "Aucun site officiel propre identifie (a distinguer du cabinet sans lien 'Legal Ferrari Rei')"
+    },
+    "keller-lehmann-lu": {
+      "_sans_site": true,
+      "canton": "LU",
+      "checked_date": "2026-09-08",
+      "firm_name": "Keller Lehmann Rechtsanwälte AG",
+      "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire"
     },
     "poma-gandolfi-ti": {
       "_sans_site": true,
@@ -1786,6 +1807,29 @@
       "Vorsorgeauftrag"
     ],
     "source_url": "https://www.anwaltluzern.ch/de/kontakt/"
+  },
+  "anwaltskanzlei-zuerichsee.ch": {
+    "canton": "SZ",
+    "email": "info@ak-see.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltskanzlei Zürichsee AG",
+    "phone": "+41 44 552 54 54",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Planungs- und Baurecht",
+      "Immobilienrecht",
+      "Wirtschaftsrecht",
+      "Erbrecht / Nachfolge",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Prozessrecht",
+      "Notariat",
+      "Gesellschaftsrecht",
+      "Betreibungen & Konkurse"
+    ],
+    "source_url": "https://www.anwaltskanzlei-zuerichsee.ch/",
+    "team_size_n": 3
   },
   "anwaltspraxis.ch": {
     "canton": "LU",
@@ -3872,6 +3916,26 @@
     "specialist_certification": "Fachanwalt SAV Familienrecht (les trois avocats du cabinet)",
     "team_size_n": 3
   },
+  "droxler.ch": {
+    "canton": "SZ",
+    "email": "info@droxler.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Droxler Rechtsanwälte AG",
+    "phone": "+41 (0)55 535 15 03",
+    "practice_areas_de": [
+      "Rechtsbeistand",
+      "Notariat",
+      "Mediation",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Scheidung / Trennung",
+      "Ehevertrag",
+      "Vorsorge"
+    ],
+    "source_url": "https://www.droxler.ch/de/Kontakt/"
+  },
   "dufour-advokatur.ch": {
     "canton": "BS",
     "email": "basel@dufo.ch",
@@ -5559,6 +5623,17 @@
     "source_url": "https://www.kaegischuler.ch/",
     "team_size_n": 2
   },
+  "kaelin-bruhin.com": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kälin & Bruhin",
+    "phone": "+41 (0)55 415 50 50",
+    "practice_areas_de": [
+      "Allgemeinpraxis",
+      "Notariat"
+    ],
+    "source_url": "https://www.kaelin-bruhin.com/"
+  },
   "kaempfenlegal.ch": {
     "canton": "ZH",
     "email": "info@kaempfenlegal.ch",
@@ -6256,6 +6331,14 @@
       "Internationale Rechtshilfe"
     ],
     "source_url": "https://laru.ch/de/expertise"
+  },
+  "lauper-partner.ch": {
+    "canton": "LU",
+    "email": "info@lauper-partner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Lauper & Partner AG",
+    "phone": "+41 41 227 80 50",
+    "source_url": "https://www.lauper-partner.ch/kontakt"
   },
   "lauxlawyers.ch": {
     "canton": "ZH",
@@ -7161,6 +7244,14 @@
     "source_url": "https://www.mcmlegal.ch/",
     "team_size_n": 2
   },
+  "mensik-schmid.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Mensik & Schmid Rechtsanwälte",
+    "phone": "+41 41 379 09 19",
+    "source_url": "https://www.mensik-schmid.ch/ueber-uns",
+    "team_size_n": 2
+  },
   "meyer-wipf.ch": {
     "canton": "ZH",
     "email": "info@meyer-wipf.ch",
@@ -7479,6 +7570,20 @@
     "practice_areas_fr": [],
     "source_url": "https://www.neovius.ch/en/about-us/",
     "team_size_n": null
+  },
+  "nh-recht.ch": {
+    "canton": "LU",
+    "email": "kontakt@nh-recht.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Niggli & Huber",
+    "founding_year": 2013,
+    "phone": "041 318 60 50",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat"
+    ],
+    "source_url": "https://nh-recht.ch/",
+    "team_size_n": 2
   },
   "niedermann.com": {
     "canton": "ZH",
@@ -8446,6 +8551,27 @@
       "Intellectual property law"
     ],
     "source_url": "https://www.ronzani-schlauri.com/contact-de"
+  },
+  "rothenbuehler-cocchi.ch": {
+    "canton": "LU",
+    "email": "info@rothenbuehler-cocchi.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Rothenbühler Cocchi Rechtsanwälte",
+    "founding_year": 1993,
+    "phone": "+41 (0)41 240 26 24",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Strassenverkehrsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Medizinrecht",
+      "Vertragsrecht",
+      "Scheidung / Trennung",
+      "Sozialversicherungsrecht",
+      "Ausländerrecht"
+    ],
+    "source_url": "https://www.rothenbuehler-cocchi.ch/",
+    "team_size_n": 2
   },
   "rothorn-legal.ch": {
     "canton": "ZH",
@@ -9959,6 +10085,16 @@
     "source_url": "https://www.tls-partner.ch/de/ueber-uns",
     "team_size_n": null
   },
+  "toedtli.law": {
+    "canton": "SZ",
+    "email": "info@toedtli.law",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Toedtli.Law GmbH",
+    "founding_year": 2021,
+    "phone": "+41 44 527 90 00",
+    "source_url": "https://www.toedtli.law/ueberuns",
+    "team_size_n": 2
+  },
   "trigondorf.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -10863,6 +10999,14 @@
       "Notariat"
     ],
     "source_url": "https://www.z-law.ch/"
+  },
+  "zm-rechtsanwaelte.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-08",
+    "firm_name": "zm rechtsanwälte",
+    "founding_year": 2017,
+    "phone": "041 220 24 42",
+    "source_url": "https://zm-rechtsanwaelte.ch/"
   },
   "zr-law.ch": {
     "canton": "ZH",

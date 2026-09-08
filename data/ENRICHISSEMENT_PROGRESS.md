@@ -2672,3 +2672,22 @@ patronyme partagé, mais aucune confirmation de continuité sur le site du cabin
 retenu), Grand & Nisple Rechtsanwälte (grandnisple.ch, 503×2).
 
 Rattachement : 576 études rattachées au total (566 → 576, +10). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 12h04 UTC — Phase 3, lot 52 (exécution automatisée)
+
+12 cabinets traités (9 succès / 3 échecs dont sans-site), SZ et LU. Toedtli.Law GmbH
+(Wollerau, fondée **2021**, tel/email, 2 avocats), Droxler Rechtsanwälte AG (Altendorf,
+tel/email, 10 domaines DE), Rothenbühler Cocchi Rechtsanwälte (Lucerne, fondée **1993** --
+"besteht seit 1993", tel/email, 2 avocats, 9 domaines DE), Niggli & Huber (Lucerne, fondée
+**2013** -- "Seit 2013 ein eingespieltes Team", tel/email, 2 avocats), Kälin & Bruhin
+(Freienbach, tel, 2 domaines DE), Anwaltskanzlei Zürichsee AG (Wollerau, tel/email, 3 avocats,
+12 domaines DE), zm rechtsanwälte (Lucerne, fondée **2017** -- "Die im Jahr 2017 von zwei
+langjährigen Freunden gegründete Anwaltskanzlei", tel), Mensik & Schmid Rechtsanwälte
+(Meggen/Lucerne, tel, 2 avocats), Lauper & Partner AG (Lucerne, tel/email). Kaufmann Rüedi
+Rechtsanwälte AG (LU) déjà présent au cache (lot antérieur, doublon identifié et écarté).
+**Échec :** Rechtsmanufaktur (chaîne de redirections vers un sous-domaine d'hébergement
+générique cyon.site, site non fonctionnel). **Sans site officiel :** Beeler & Wiget
+(aujourd'hui "Beeler, Wiget & Huwyler", aucun site propre identifié), Keller Lehmann
+Rechtsanwälte AG.
+
+Rattachement : 584 études rattachées au total (576 → 584, +8). Suite de tests : 94/94 au vert.
