@@ -313,6 +313,12 @@
       "reason": "entite recemment inscrite au registre du commerce (15.05.2026), aucun site web trouve",
       "tested_date": "2026-09-07"
     },
+    "rcslegal.ch": {
+      "canton": "ZH",
+      "firm_name": "RCS Trust & Legal AG",
+      "reason": "Page d'accueil quasi vide (rendu JavaScript probable), /en/contact en 404",
+      "tested_date": "2026-09-08"
+    },
     "reberlaw.ch": {
       "canton": "ZH",
       "firm_name": "REBER Rechtsanwälte",
@@ -3693,6 +3699,23 @@
     ],
     "source_url": "https://fischer-rechtsanwaelte.ch/"
   },
+  "fischerwicki.ch": {
+    "canton": "ZH",
+    "email": "info@fischerwicki.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "FISCHER WICKI Rechtsanwälte",
+    "phone": "044 701 90 30",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Versicherungsrecht",
+      "Familienrecht",
+      "Migrationsrecht",
+      "Vertragsrecht",
+      "Kindes- und Erwachsenenschutzrecht"
+    ],
+    "source_url": "https://www.fischerwicki.ch/",
+    "team_size_n": 2
+  },
   "fischlex.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-07",
@@ -3934,6 +3957,23 @@
     "phone": "+41 71 226 85 10",
     "source_url": "https://frt-anwaelte.ch/"
   },
+  "fwe-law.ch": {
+    "canton": "ZH",
+    "email": "martin.farner@fwe-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "FARNER WAGNER EICHIN",
+    "phone": "044 298 10 00",
+    "practice_areas_de": [
+      "Privates und kollektives Arbeitsrecht",
+      "Öffentliches Personalrecht",
+      "Arbeitsverträge",
+      "Konkurrenzverbote",
+      "Kündigungen"
+    ],
+    "source_url": "https://www.fwe-law.ch/",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht (Martin Farner), Fachanwältin SAV Arbeitsrecht (Martina Wagner Eichin)",
+    "team_size_n": 2
+  },
   "gabriel-arbitration.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -4052,6 +4092,18 @@
     "phone": "+41 (0)91 911 6000",
     "source_url": "https://www.gblex.ch/"
   },
+  "gegenschatzpartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Gegenschatz Partner AG",
+    "phone": "+41 44 280 28 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Mediation"
+    ],
+    "source_url": "https://gegenschatzpartner.ch/kontakt/"
+  },
   "gfp-recht.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -4080,6 +4132,21 @@
       "Versicherungs- & Haftpflichtrecht"
     ],
     "source_url": "https://gigerpartnerlaw.ch/kanzlei/"
+  },
+  "gislerhaltiner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Gisler & Haltiner Rechtsanwälte",
+    "phone": "044 970 20 50",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erb- und Nachlassrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gislerhaltiner.ch/rechtsgebiete.html"
   },
   "glatthard.law": {
     "canton": "ZH",
@@ -4268,6 +4335,18 @@
       "Grund- und Menschenrechte"
     ],
     "source_url": "https://www.groszpoledna.ch/kompetenzen"
+  },
+  "grp.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "GRP Partner KIG",
+    "phone": "+41 43 344 40 00",
+    "practice_areas_de": [
+      "Recht",
+      "Steuern",
+      "Vermögen"
+    ],
+    "source_url": "https://www.grp.ch/"
   },
   "gruendler-partner.ch": {
     "canton": "SG",
@@ -4859,6 +4938,21 @@
     "source_url": "https://kanzlei-winterthur.ch/anwaelte/",
     "team_size_n": 3
   },
+  "kanzleicaro.ch": {
+    "canton": "ZH",
+    "email": "reception@kanzleicaro.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kanzlei Caro",
+    "founding_year": 1996,
+    "phone": "+41 44 206 47 67",
+    "practice_areas_en": [
+      "Commercial law",
+      "Intellectual property law",
+      "Inheritance law",
+      "Business succession"
+    ],
+    "source_url": "https://www.kanzleicaro.ch/en/"
+  },
   "kanzleikreis2.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -5129,6 +5223,20 @@
     "practice_areas_fr": [],
     "source_url": "https://www.krlaw.ch/",
     "team_size_n": null
+  },
+  "ksf-law.ch": {
+    "canton": "ZH",
+    "email": "info@ksf-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Künzli Sommer Frey AG",
+    "founding_year": 1928,
+    "phone": "+41 (0)44 254 60 60",
+    "practice_areas_en": [
+      "Tax consultancy",
+      "Tax litigation",
+      "Fiscal law"
+    ],
+    "source_url": "https://www.ksf-law.ch/en/"
   },
   "kspartner.ch": {
     "canton": "ZH",

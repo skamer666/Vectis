@@ -2466,3 +2466,18 @@ Note de rigueur : "in den frühen 90er Jahren" (Pfau & Egli, formulation vague) 
 `founding_year`, conformément à la règle 2.
 
 Rattachement : 476 études rattachées au total (468 → 476, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 02h04 UTC — Phase 3, lot 42 (exécution automatisée)
+
+8 cabinets traités (7 succès / 1 échec), tous ZH -- boutiques à 2 avocats. Kanzlei Caro (fondée
+**1996**, tel/email, 4 domaines EN, clientèle internationale germano/anglo-saxonne), FARNER
+WAGNER EICHIN (tel/email, 2 avocats, 5 domaines DE, **Fachanwalt SAV Arbeitsrecht** pour Martin
+Farner ET **Fachanwältin SAV Arbeitsrecht** pour Martina Wagner Eichin -- les deux associés
+certifiés), FISCHER WICKI Rechtsanwälte (Schlieren, tel/email, 2 avocats, 6 domaines DE),
+Künzli Sommer Frey AG (fondée **1928** -- cabinet centenaire, tel/email, 3 domaines EN,
+boutique droit fiscal), Gegenschatz Partner AG (tel, 3 domaines DE), GRP Partner KIG (tel, 3
+domaines DE), Gisler & Haltiner Rechtsanwälte (Wetzikon, tel, 6 domaines DE). **Échec :** RCS
+Trust & Legal AG (rcslegal.ch, page d'accueil quasi vide -- rendu JavaScript probable, /en/
+contact en 404).
+
+Rattachement : 483 études rattachées au total (476 → 483, +7). Suite de tests : 94/94 au vert.
