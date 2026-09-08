@@ -621,6 +621,13 @@
       "reason": "site en rendu JS (Nuxt skeleton, 'Loading...'), aucun contenu exploitable au fetch",
       "tested_date": "2026-09-07"
     },
+    "wieser-wieser.ch": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Advokatur Wieser & Wieser",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "wuergler-ra.ch": {
       "canton": "ZH",
       "firm_name": "Jack Würgler & Partner Rechtsanwälte",
@@ -4235,6 +4242,44 @@
     ],
     "source_url": "https://dubach-law.ch/en/contact/"
   },
+  "dubach-law.ch#3": {
+    "canton": "NW",
+    "email": "info@dubach-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Dubach Wild AG Rechtsanwälte Notariat",
+    "phone": "+41 61 331 00 55",
+    "practice_areas_en": [
+      "Arbitration",
+      "Corporate Law",
+      "Corporate Governance",
+      "Criminal Law",
+      "Crypto Currencies and Blockchain",
+      "Employment Law",
+      "Family Office",
+      "Family and Divorce Law",
+      "Inheritance Law",
+      "Insolvency and Restructuring",
+      "Insurance Law",
+      "Intellectual Property",
+      "International Trade Law",
+      "Liability Law",
+      "Licencing Law",
+      "Litigation and Dispute Resolution",
+      "Medical Law",
+      "Mergers & Acquisitions",
+      "Migration Law",
+      "Notary Services",
+      "Procurement Law",
+      "Public Law",
+      "Real Estate and Construction Law",
+      "Relocation Service",
+      "Tax Law and Consulting",
+      "Technology & Digital Economy",
+      "Tenancy Law",
+      "Trade Mark Law"
+    ],
+    "source_url": "https://dubach-law.ch/en/contact/"
+  },
   "dufour-advokatur.ch": {
     "canton": "BS",
     "email": "basel@dufo.ch",
@@ -5444,6 +5489,21 @@
     ],
     "source_url": "https://www.hba.ch/en/subjects/building-law-real-estate-law/"
   },
+  "hebrecht.ch": {
+    "canton": "SG",
+    "email": "kanzlei@hebrecht.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "HEBRECHT AG",
+    "phone": "+41 71 552 52 55",
+    "practice_areas_de": [
+      "Versicherungsrecht",
+      "Haftpflichtrecht",
+      "Medizinalhaftpflichtrecht",
+      "Notariat",
+      "Mediation (Mietstreitigkeiten)"
+    ],
+    "source_url": "https://www.hebrecht.ch/about"
+  },
   "helbling.law": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -5984,6 +6044,23 @@
       "Verwaltungsstrafrecht"
     ],
     "source_url": "https://www.jetzer-frank.ch/"
+  },
+  "jk-law.ch": {
+    "canton": "SG",
+    "email": "kontakt@jk-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "J&K Rechtsanwälte AG",
+    "phone": "+41 71 220 33 11",
+    "practice_areas_de": [
+      "Gesellschafts- und Handelsrecht",
+      "Venture Capital",
+      "M&A-Transaktionen",
+      "Strukturierungs- und Vertragslösungen",
+      "Bank- und Finanzdienstleistungsrecht",
+      "Kapitalmarktrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.jk-law.ch/"
   },
   "juram.ch": {
     "canton": "ZH",
@@ -8831,6 +8908,48 @@
     "practice_areas_fr": [],
     "source_url": "https://www.reetz-sohm.ch/kanzlei/",
     "team_size_n": null
+  },
+  "reiser-partner.ch": {
+    "canton": "SG",
+    "email": "info@reiser-partner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Reiser + Partner AG",
+    "founding_year": 2024,
+    "phone": "+41 58 810 20 50",
+    "practice_areas_de": [
+      "Bau-, Planungs- und Umweltrecht",
+      "Allgemeines Verwaltungsrecht",
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Compliance und Risikomanagement",
+      "Streitbeilegung",
+      "Notariat",
+      "Startup-Beratung"
+    ],
+    "source_url": "https://reiser-partner.ch/en/"
+  },
+  "reiser-partner.ch#2": {
+    "canton": "SG",
+    "email": "info@reiser-partner.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Reiser + Partner AG Löwengasse 3",
+    "founding_year": 2024,
+    "phone": "+41 58 810 20 50",
+    "practice_areas_de": [
+      "Bau-, Planungs- und Umweltrecht",
+      "Allgemeines Verwaltungsrecht",
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Compliance und Risikomanagement",
+      "Streitbeilegung",
+      "Notariat",
+      "Startup-Beratung"
+    ],
+    "source_url": "https://reiser-partner.ch/en/"
   },
   "rentschpartner.ch": {
     "canton": "ZH",

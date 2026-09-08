@@ -2775,3 +2775,15 @@ Coire GR recherché -- lien non retenu), Durrer Britschgi Advokatur und Notariat
 503×2).
 
 Rattachement : 615 études rattachées au total (611 → 615, +4). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 18h03 UTC — Phase 3, lot 58 (exécution automatisée)
+
+6 cabinets traités (5 succès / 1 échec), SG et NW. Reiser + Partner AG (fondée **2024** --
+"Im Jahr 2024 gründete er die Reiser + Partner AG", tel/email, 10 domaines DE, rattachée deux
+fois par déduplication pour les lignes CSV avec et sans adresse), J&K Rechtsanwälte AG
+(tel/email, 7 domaines DE dont venture capital/M&A), HEBRECHT AG (boutique responsabilité
+civile/droit médical, tel/email, 5 domaines DE). Dubach Wild AG Rechtsanwälte Notariat
+(rattachement par déduplication : troisième ligne CSV pour WILD DUBACH AG déjà rattaché deux
+fois en lot 57). **Échec :** Advokatur Wieser & Wieser (wieser-wieser.ch, 503×2).
+
+Rattachement : 620 études rattachées au total (615 → 620, +5). Suite de tests : 94/94 au vert.
