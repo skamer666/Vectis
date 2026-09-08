@@ -18,6 +18,15 @@
     "source_url": "https://5gambit.ch/contact/",
     "team_size_n": null
   },
+  "8630.ch": {
+    "canton": "ZH",
+    "email": "info@8630.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltsbüro Lätsch + Hässig",
+    "phone": "+41 55 250 53 53",
+    "source_url": "https://www.8630.ch/rechtsanwalt_kontakt",
+    "team_size_n": 2
+  },
   "_failed": {
     "4sightlegal.ch": {
       "canton": "ZH",
@@ -618,6 +627,16 @@
     "source_url": "https://www.advo-glavas.ch/",
     "team_size_n": 4
   },
+  "advo-libero.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@advo-libero.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur Libero AG",
+    "founding_year": 2024,
+    "phone": "+41 44 515 01 60",
+    "source_url": "https://www.advo-libero.ch/wer",
+    "team_size_n": 2
+  },
   "advo-net.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -792,6 +811,24 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://advokatur-lindenplatz.ch/uber-uns/"
+  },
+  "advokatur-regensdorf.ch": {
+    "canton": "ZH",
+    "email": "info@advokatur-regensdorf.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Advokatur Regensdorf GmbH",
+    "phone": "+41 44 840 26 26",
+    "practice_areas_de": [
+      "Familie und Partnerschaft",
+      "Arbeit",
+      "Erben und Vererben",
+      "Wohnungs- und Geschäftsraummiete",
+      "Strafrecht",
+      "Forderungen und Inkasso",
+      "Verträge",
+      "Konsumentenschutz"
+    ],
+    "source_url": "https://advokatur-regensdorf.ch/"
   },
   "advokatur-roth.ch": {
     "canton": "BL",
@@ -4505,6 +4542,24 @@
     ],
     "source_url": "https://hartmanndreyer.ch/"
   },
+  "hauserlaw.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Hauser & Hauser",
+    "founding_year": 1920,
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Vermögensverwaltung und -strukturierung",
+      "Zivil-, Straf- und Verwaltungsprozessrecht",
+      "Immaterialgüter- und Urheberrecht",
+      "Wirtschaftsstrafrecht",
+      "Vertragsrecht",
+      "Compliance"
+    ],
+    "source_url": "https://www.hauserlaw.com/de/"
+  },
   "hba.ch": {
     "canton": "ZH",
     "email": "zuerich@hba.ch",
@@ -4526,6 +4581,21 @@
       "Representation before courts and authorities"
     ],
     "source_url": "https://www.hba.ch/en/subjects/building-law-real-estate-law/"
+  },
+  "helbling.law": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "HELBLING Rechtsanwälte",
+    "founding_year": 2013,
+    "phone": "044 500 92 60",
+    "practice_areas_de": [
+      "Executive Compensation",
+      "Arbeitsverträge für das Management",
+      "Vergütungsmodelle und -strukturen",
+      "Governance und Compliance im Zusammenhang mit Managergehältern"
+    ],
+    "source_url": "https://www.helbling.law/kontakt",
+    "team_size_n": 3
   },
   "herzerpartner.ch": {
     "canton": "ZH",
@@ -4603,6 +4673,19 @@
     "practice_areas_fr": [],
     "source_url": "https://hhh-law.ch/",
     "team_size_n": null
+  },
+  "hk-legal.ch": {
+    "canton": "ZH",
+    "email": "office@hk-legal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "H&K Legal GmbH",
+    "phone": "+41 44 500 27 37",
+    "practice_areas_en": [
+      "Family and inheritance law",
+      "Criminal and economic criminal law",
+      "Civil litigation and alternative dispute resolution"
+    ],
+    "source_url": "https://www.hk-legal.ch/de"
   },
   "hmvlaw.ch": {
     "canton": "ZH",
@@ -4757,6 +4840,23 @@
     "firm_name": "Hafner Urbach Partner",
     "phone": "+41 58 444 11 00",
     "source_url": "https://www.huplaw.ch/en/contact/"
+  },
+  "interlaw.ch": {
+    "canton": "ZH",
+    "email": "sh@interlaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Hüppi & von Sprecher",
+    "phone": "++41-44-252 66 88",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht",
+      "Erbrecht",
+      "Steuerrecht",
+      "Informationstechnologierecht",
+      "internationales Privatrecht"
+    ],
+    "source_url": "https://www.interlaw.ch/"
   },
   "ip-lawoffice.com": {
     "canton": "TI",
@@ -6279,6 +6379,31 @@
     "source_url": "https://maisondroite.ch/",
     "specialist_certification": "Fachanwältin SAV Familienrecht (Rahel Baumann)"
   },
+  "marghitola.com": {
+    "canton": "ZH",
+    "email": "marghitola@marghitola.com",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Marghitola Dispute Resolution",
+    "phone": "+41 44 521 73 00",
+    "practice_areas_en": [
+      "Litigation (contract, corporate, inheritance, investor disputes, labor, post M&A, shareholder disputes)",
+      "Criminal law (white collar crime)",
+      "Debt enforcement and bankruptcy law",
+      "Negotiations",
+      "Arbitration",
+      "Public law"
+    ],
+    "source_url": "https://www.marghitola.com/",
+    "team_size_n": 2
+  },
+  "martin-ra.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@m-win.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Martin Rechtsanwälte GmbH",
+    "phone": "+41 52 269 21 11",
+    "source_url": "https://martin-ra.ch/en/contact/"
+  },
   "mfpartner.ch": {
     "canton": "GR",
     "fetched_date": "2026-09-06",
@@ -6933,6 +7058,29 @@
     "source_url": "https://probstpartner.ch/en/",
     "team_size_n": null
   },
+  "psg-law.ch": {
+    "canton": "ZH",
+    "email": "peyrot@psg-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Peyrot, Schlegel und Györffy Rechtsanwälte",
+    "phone": "+41 (0)43 500 55 70",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertrags- und Arbeitsrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht",
+      "Familienrecht",
+      "Immobilienrecht",
+      "Immaterialgüterrecht",
+      "Bank- und Finanzmarktrecht",
+      "Transportrecht",
+      "Markenrecht",
+      "Notariat",
+      "internationales Handelsrecht",
+      "Datenschutzrecht"
+    ],
+    "source_url": "https://www.psg-law.ch/kontakt/zueerich.html"
+  },
   "publicsector.ch": {
     "canton": "ZH",
     "email": "info@publicsector.ch",
@@ -7365,6 +7513,24 @@
     "source_url": "https://www.rudincantieni.ch/",
     "team_size_n": null
   },
+  "ruedpartners.ch": {
+    "canton": "ZH",
+    "email": "office@ruedpartners.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "RÜD Partners AG",
+    "phone": "+41 43 501 07 00",
+    "practice_areas_en": [
+      "Banking & Finance Disputes",
+      "Financial Products & Investor Disputes",
+      "Regulatory & Enforcement Proceedings",
+      "Litigation Consulting and Strategy",
+      "Arbitration & Cross-Border Disputes",
+      "Fraud & Misconduct",
+      "Executive Employment"
+    ],
+    "source_url": "https://www.ruedpartners.ch/",
+    "team_size_n": 3
+  },
   "rueesch-mueller.ch": {
     "canton": "ZH",
     "email": "info@rueesch-mueller.ch",
@@ -7641,6 +7807,20 @@
       "öffentliches Recht"
     ],
     "source_url": "https://www.schoenmannlaw.ch/",
+    "team_size_n": 2
+  },
+  "schwenninger.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@schwenninger.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "SCHWENNINGER INGLIN RECHTSANWÄLTE",
+    "phone": "+41 44 820 41 42",
+    "practice_areas_de": [
+      "Werberecht",
+      "Immaterialgüterrecht",
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://schwenninger.ch/kontakt/",
     "team_size_n": 2
   },
   "scope.law": {

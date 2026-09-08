@@ -2500,3 +2500,22 @@ par prudence, même principe que pour Adler Salminen/BAT au lot 37, aucune entr�
 que de supposer un lien non vérifié sur la source primaire.
 
 Rattachement : 491 études rattachées au total (483 → 491, +8). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 04h04 UTC — Phase 3, lot 44 (exécution automatisée)
+
+12 cabinets traités (12 succès / 0 échec), tous ZH -- meilleur lot de boutiques à 2-3 avocats
+depuis plusieurs heures. RÜD Partners AG (tel/email, 3 personnes, 7 domaines EN dont litiges
+bancaires/financiers), HELBLING Rechtsanwälte (boutique executive compensation, fondée
+**2013** -- déduit du "10ème anniversaire célébré le 1er avril 2023" affiché sur le site, tel,
+3 personnes, 4 domaines DE), Marghitola Dispute Resolution (tel/email, 2 avocats, 6 domaines
+EN), SCHWENNINGER INGLIN RECHTSANWÄLTE (Rüti, tel/email, 2 avocats, 3 domaines DE), Peyrot,
+Schlegel und Györffy Rechtsanwälte (cabinet bi-site Zurich/Buchs SG, tel/email bureau
+zurichois, 13 domaines DE), Hüppi & von Sprecher (tel/email, 7 domaines DE), Advokatur Libero
+AG (fondée **2024**, tel/email, 2 avocats), Martin Rechtsanwälte GmbH (cabinet bi-site
+Winterthour/Zurich, tel/email), Advokatur Regensdorf GmbH (tel/email, 8 domaines DE),
+Anwaltsbüro Lätsch + Hässig (Rüti, tel/email, 2 avocats), H&K Legal GmbH (boutique droit de la
+famille international, tel/email, 3 domaines EN), Hauser & Hauser (fondée **1920** -- "seit
+1920 als erweiterter Familienbetrieb geführten Kanzlei", 9 domaines DE, boutique art/famille/
+succession).
+
+Rattachement : 503 études rattachées au total (491 → 503, +12). Suite de tests : 94/94 au vert.
