@@ -2449,3 +2449,20 @@ Rechtsanwälte (aucun site officiel dédié trouvé après deux recherches disti
 uniquement via annuaires tiers).
 
 Rattachement : 468 études rattachées au total (459 → 468, +9). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 01h04 UTC — Phase 3, lot 41 (exécution automatisée)
+
+10 cabinets traités (8 succès / 2 échecs), tous ZH -- boutiques à 2-3 avocats. Fingerhuth
+Anwälte (droit pénal, tel/email, 3 avocats), Fertig Keller Stark Rechtsanwälte (tel, 3 avocats,
+**Fachanwältin SAV Haftpflicht- und Versicherungsrecht** pour Britta Keller depuis 2017),
+EhlertZillig (tel, 2 avocats, 6 domaines DE), Schönmann Law (Dietikon, tel/email, 2 avocats, 8
+domaines DE), Rechtsanwälte Pfau & Egli (Winterthour, tel/email, 2 avocats), Christe & Isler
+Rechtsanwälte (Winterthour, tel/email, 2 avocats), Raewel Advokatur (tel/email, 3 personnes,
+**Fachanwältin SAV Strafrecht** pour Dina Raewel depuis 2001), Isler I Del Grande Rechtsanwälte
+(tel/email, 2 avocats). **Échecs :** Jack Würgler & Partner Rechtsanwälte (wuergler-ra.ch, HTTP
+503 sur http et https) ; DTK Rechtsanwälte AG (dtk-legal.ch, HTTP 503 sur deux pages testées).
+
+Note de rigueur : "in den frühen 90er Jahren" (Pfau & Egli, formulation vague) écarté comme
+`founding_year`, conformément à la règle 2.
+
+Rattachement : 476 études rattachées au total (468 → 476, +8). Suite de tests : 94/94 au vert.

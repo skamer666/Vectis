@@ -109,6 +109,12 @@
       "firm_name": "DRSP Advokatur & Notariat",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "dtk-legal.ch": {
+      "canton": "ZH",
+      "firm_name": "DTK Rechtsanwälte AG",
+      "reason": "HTTP 503 Service Unavailable sur deux pages testees",
+      "tested_date": "2026-09-08"
+    },
     "ebd.ch": {
       "canton": "ZH",
       "firm_name": "EBD Rechtsanwälte AG",
@@ -438,6 +444,12 @@
       "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
       "reason": "site en rendu JS (Nuxt skeleton, 'Loading...'), aucun contenu exploitable au fetch",
       "tested_date": "2026-09-07"
+    },
+    "wuergler-ra.ch": {
+      "canton": "ZH",
+      "firm_name": "Jack Würgler & Partner Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable sur http et https",
+      "tested_date": "2026-09-08"
     },
     "ww-law.ch": {
       "canton": "ZH",
@@ -3209,6 +3221,15 @@
     ],
     "source_url": "https://divorce-lawyer.ch/de"
   },
+  "christe-isler.ch": {
+    "canton": "ZH",
+    "email": "isler@christe-isler.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Christe & Isler Rechtsanwälte",
+    "phone": "044 826 05 00",
+    "source_url": "https://christe-isler.ch/kontakt/",
+    "team_size_n": 2
+  },
   "churanwalt.ch": {
     "canton": "GR",
     "fetched_date": "2026-09-07",
@@ -3393,6 +3414,22 @@
       "Estate Planning (Inheritance, last will and testament)"
     ],
     "source_url": "https://www.dufour-advokatur.ch/en/firm/"
+  },
+  "ehlertzillig.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "EhlertZillig",
+    "phone": "+41 44 542 07 70",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Jugendstrafrecht",
+      "Familienrecht",
+      "Kindesschutzrecht",
+      "Strassenverkehrsrecht",
+      "Migrationsrecht"
+    ],
+    "source_url": "https://ehlertzillig.ch/",
+    "team_size_n": 2
   },
   "emmlegal.ch": {
     "canton": "ZH",
@@ -3597,6 +3634,15 @@
     "source_url": "https://felderspaelti.ch/",
     "specialist_certification": "Fachanwalt SAV Erbrecht (Andreas Felder)"
   },
+  "fertig-keller.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Fertig Keller Stark Rechtsanwälte",
+    "phone": "044 213 10 90",
+    "source_url": "https://fertig-keller.ch/team/britta-keller/",
+    "specialist_certification": "Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Britta Keller, 2017)",
+    "team_size_n": 3
+  },
   "ff-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -3622,6 +3668,15 @@
     "phone": "+41 44 545 33 33",
     "source_url": "https://fhs.legal/",
     "team_size_n": 6
+  },
+  "fingerhuth.law": {
+    "canton": "ZH",
+    "email": "kontakt@fingerhuth.law",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Fingerhuth Anwälte",
+    "phone": "+41 43 322 03 91",
+    "source_url": "https://www.fingerhuth.law/",
+    "team_size_n": 3
   },
   "fischer-rechtsanwaelte.ch": {
     "canton": "ZH",
@@ -4578,6 +4633,15 @@
     ],
     "source_url": "https://www.iraz.ch/de/",
     "team_size_n": 3
+  },
+  "islerdelgrande.ch": {
+    "canton": "ZH",
+    "email": "info@islerdelgrande.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Isler I Del Grande Rechtsanwälte",
+    "phone": "043 499 12 20",
+    "source_url": "https://islerdelgrande.ch/kontakt/",
+    "team_size_n": 2
   },
   "islerpartner.ch": {
     "canton": "ZH",
@@ -6537,6 +6601,15 @@
     "source_url": "https://peyerpartner.ch/en/about-us/",
     "team_size_n": null
   },
+  "pfauegli.ch": {
+    "canton": "ZH",
+    "email": "info@pfauegli.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Rechtsanwälte Pfau & Egli",
+    "phone": "052 213 03 86",
+    "source_url": "https://pfauegli.ch/",
+    "team_size_n": 2
+  },
   "pfister-rechtsanwaelte.ch": {
     "canton": "SZ",
     "email": "info@pfister-anwaelte.ch",
@@ -6689,6 +6762,16 @@
     ],
     "source_url": "https://www.quinnemanuel.com/offices/zurich/",
     "team_size_n": null
+  },
+  "raewel-advokatur.ch": {
+    "canton": "ZH",
+    "email": "info@raewel-advokatur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Raewel Advokatur",
+    "phone": "+41 44 271 01 71",
+    "source_url": "https://www.raewel-advokatur.ch/team/dina-raewel/",
+    "specialist_certification": "Fachanwältin SAV Strafrecht (Dina Raewel, seit 2001 zugelassen)",
+    "team_size_n": 3
   },
   "rappoldkoehli.ch": {
     "canton": "ZH",
@@ -7315,6 +7398,25 @@
     "practice_areas_fr": [],
     "source_url": "https://schochauer.ch/en/company/",
     "team_size_n": null
+  },
+  "schoenmannlaw.ch": {
+    "canton": "ZH",
+    "email": "mail@schoenmannlaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Schönmann Law",
+    "phone": "+41 58 521 71 81",
+    "practice_areas_de": [
+      "Betreibungs- und Konkursrecht",
+      "Vertragsrecht",
+      "Strafrecht",
+      "Zivilprozessrecht",
+      "Arbeits- und Gesellschaftsrecht",
+      "Bau- und Vergaberecht",
+      "Erbrecht",
+      "öffentliches Recht"
+    ],
+    "source_url": "https://www.schoenmannlaw.ch/",
+    "team_size_n": 2
   },
   "scope.law": {
     "canton": "ZH",
