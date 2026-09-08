@@ -2812,3 +2812,14 @@ giuliani, Rechtsanwälte (schmidgiuliani.ch, 503×2). **Sans site confirmé :** 
 stratégie, pas un cabinet d'avocats confirmé).
 
 Rattachement : 625 études rattachées au total (623 → 625, +2). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 21h03 UTC — Phase 3, lot 61 (exécution automatisée)
+
+5 cabinets traités (3 succès / 2 échecs), LU et ZH. Anwaltsbüro Kost (Ebikon, tel, 8 domaines
+DE dont droit d'internet/cybercriminalité -- email volontairement absent du site, non
+inventé), wyttenbach law (boutique droit pénal, tel/email, spécialiste FSA Strafrecht depuis
+2015, 3 domaines EN), steinlaw (boutique droit de la famille/pénal, tel/email, spécialiste FSA
+Familienrecht, 4 domaines DE). **Échecs :** staedeli legal partners GmbH (503×2), weberlegal
+(503×2).
+
+Rattachement : 628 études rattachées au total (625 → 628, +3). Suite de tests : 94/94 au vert.

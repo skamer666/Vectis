@@ -529,6 +529,13 @@
       "firm_name": "Sigg Schwarz Advokatur",
       "reason": "HTTP 403 Forbidden (x2, homepage et /kontakt.html)"
     },
+    "staedeli-legalpartners.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "staedeli legal partners GmbH",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "staiger.law": {
       "canton": "ZH",
       "date": "2026-07-29",
@@ -628,6 +635,13 @@
       "date": "2026-07-29",
       "firm_name": "Vincenz & Partner",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "weberlegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-08",
+      "firm_name": "weberlegal",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "weinmann-zimmerli.ch": {
       "canton": "ZH",
@@ -8861,6 +8875,23 @@
     "source_url": "https://www.quinnemanuel.com/offices/zurich/",
     "team_size_n": null
   },
+  "ra-kost.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Anwaltsbüro Kost",
+    "phone": "041 440 33 43",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Familien- und Scheidungsrecht",
+      "Nachlassplanung",
+      "Grundstücktransaktionen",
+      "IT-Recht und Datenschutz",
+      "Social Media und Persönlichkeitsrecht",
+      "Cybercrime",
+      "Strafverteidigung & Strafklägerschaft"
+    ],
+    "source_url": "https://ra-kost.ch/"
+  },
   "raewel-advokatur.ch": {
     "canton": "ZH",
     "email": "info@raewel-advokatur.ch",
@@ -10233,6 +10264,21 @@
       "Medienrecht"
     ],
     "source_url": "https://steigerlegal.ch/profil/"
+  },
+  "stein-law.ch": {
+    "canton": "ZH",
+    "email": "info@stein-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "steinlaw",
+    "phone": "+41 (0)43 488 52 60",
+    "practice_areas_de": [
+      "Ehevertrag, Eheschutz, Ehescheidung, Unterhaltsklagen, Konkubinat, KESB-Verfahren",
+      "Allgemeines Strafrecht, Wirtschaftsstrafrecht, Verwaltungsstrafrecht",
+      "OR / ZGB",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://stein-law.ch/",
+    "specialist_certification": "Fachanwalt SAV Familienrecht (Peter Stein)"
   },
   "steinlex.ch": {
     "canton": "ZH",
@@ -11822,6 +11868,20 @@
     ],
     "source_url": "https://wyssundpartner.ch/en/",
     "team_size_n": 3
+  },
+  "wyttenbach.law": {
+    "canton": "ZH",
+    "email": "markus@wyttenbach.biz",
+    "fetched_date": "2026-09-08",
+    "firm_name": "wyttenbach law",
+    "phone": "+41 43 488 52 10",
+    "practice_areas_en": [
+      "Criminal law",
+      "Road traffic law",
+      "Tenancy law"
+    ],
+    "source_url": "https://www.wyttenbach.law/en/%C3%BCber-mich",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (2015)"
   },
   "z-law.ch": {
     "canton": "LU",
