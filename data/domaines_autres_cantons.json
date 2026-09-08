@@ -172,6 +172,12 @@
       "firm_name": "INDEMNIS",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "jkr.ch": {
+      "canton": "ZH",
+      "firm_name": "Jermann Künzli Rechtsanwälte",
+      "reason": "HTTP 403 Forbidden sur la page de contact",
+      "tested_date": "2026-09-08"
+    },
     "kanzlei-helvetiaplatz.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -4944,6 +4950,57 @@
     "source_url": "https://www.islerpartner.ch/kontakt",
     "team_size_n": 3
   },
+  "itenmcnally.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Iten McNally GmbH",
+    "founding_year": 2020,
+    "phone": "+41 44 500 82 32",
+    "practice_areas_en": [
+      "Financial market law",
+      "Corporate law",
+      "Contract law",
+      "Compliance and ESG"
+    ],
+    "source_url": "https://itenmcnally.com/en/team-en/",
+    "team_size_n": 2
+  },
+  "jaegerschweiter.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Jäger & Schweiter",
+    "phone": "+41 (43) 499 98 82",
+    "practice_areas_de": [
+      "Medizinrecht",
+      "Haftpflichtrecht",
+      "Strafrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht"
+    ],
+    "source_url": "https://jaegerschweiter.ch/",
+    "team_size_n": 2
+  },
+  "jakob-marsella.ch": {
+    "canton": "ZH",
+    "email": "info@jakob-marsella.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Jakob I Marsella Rechtsanwälte",
+    "phone": "+41 44 291 00 20",
+    "practice_areas_en": [
+      "Commercial law",
+      "Criminal law",
+      "Private law",
+      "Family law",
+      "Inheritance law",
+      "Employment law",
+      "Migration law",
+      "Debt enforcement and bankruptcy law",
+      "Property law",
+      "Tenancy law"
+    ],
+    "source_url": "https://jakob-marsella.ch/en/",
+    "team_size_n": 2
+  },
   "jb-anwaelte.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -5019,6 +5076,23 @@
       "Strassenverkehrsrecht"
     ],
     "source_url": "https://www.juram.ch/"
+  },
+  "kaegischuler.ch": {
+    "canton": "ZH",
+    "email": "info@kaegischuler.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Kägi Schuler Partner",
+    "phone": "+41 44 261 20 00",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Trennungs- und Scheidungsrecht",
+      "Kindesschutzrecht und Kindesvertretung",
+      "Mediation",
+      "Opfervertretung und Opferhilfe",
+      "Strafverteidigung"
+    ],
+    "source_url": "https://www.kaegischuler.ch/",
+    "team_size_n": 2
   },
   "kaempfenlegal.ch": {
     "canton": "ZH",
@@ -6125,6 +6199,14 @@
     "source_url": "https://www.linde-law.ch/en",
     "team_size_n": null
   },
+  "lindemannlaw.ch": {
+    "canton": "ZH",
+    "email": "mail@lindemannlaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "LINDEMANN LAW AG",
+    "phone": "+41 44 570 73 50",
+    "source_url": "https://lindemannlaw.ch/de/kontakt/"
+  },
   "lindtlaw.ch": {
     "canton": "ZH",
     "email": "office@lindtlaw.ch",
@@ -7180,6 +7262,29 @@
     "source_url": "https://www.reberlaw.ch/en/",
     "team_size_n": 13
   },
+  "rechtdirekt.ch": {
+    "canton": "ZH",
+    "email": "info@rechtdirekt.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "rechtdirekt",
+    "phone": "+41 44 905 46 46",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Leasingrecht",
+      "Vertragsrecht",
+      "Kaufrecht",
+      "Betreibungs- und Konkursrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht",
+      "Eherecht",
+      "Kindesrecht",
+      "Scheidung",
+      "Konkubinat",
+      "Vaterschaftsklagen"
+    ],
+    "source_url": "https://www.rechtdirekt.ch/",
+    "team_size_n": 2
+  },
   "rechtsanker.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -8003,6 +8108,19 @@
     "practice_areas_fr": [],
     "source_url": "https://www.snplegal.com/en/fachgebiete/",
     "team_size_n": null
+  },
+  "sojalaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Sosso Jaeger Law AG",
+    "phone": "+41 44 552 06 55",
+    "practice_areas_en": [
+      "Financial Markets Law",
+      "Corporate and Commercial Law",
+      "Risk and Regulatory Compliance",
+      "Outsourced Legal Services and Project Management"
+    ],
+    "source_url": "https://sojalaw.ch/"
   },
   "spuehler.legal": {
     "canton": "ZH",

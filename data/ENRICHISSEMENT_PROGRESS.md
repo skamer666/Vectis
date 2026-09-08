@@ -2519,3 +2519,15 @@ famille international, tel/email, 3 domaines EN), Hauser & Hauser (fondée **192
 succession).
 
 Rattachement : 503 études rattachées au total (491 → 503, +12). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 05h04 UTC — Phase 3, lot 45 (exécution automatisée)
+
+8 cabinets traités (7 succès / 1 échec), tous ZH. LINDEMANN LAW AG (boutique gestion de
+fortune/wealth management, tel/email), Sosso Jaeger Law AG (tel, 4 domaines EN), Iten McNally
+GmbH (fondée **2020**, tel, 2 avocats, 4 domaines EN), Kägi Schuler Partner (issue de la
+scission de Baumann Kägi Schuler en 2025, tel/email, 2 avocats, 6 domaines DE), Jakob I
+Marsella Rechtsanwälte (tel/email, 2 avocats, 10 domaines EN), Jäger & Schweiter (boutique
+droit médical, tel, 2 avocats, 5 domaines DE), rechtdirekt (Uster, tel/email, 2 avocats, 12
+domaines DE). **Échec :** Jermann Künzli Rechtsanwälte (jkr.ch, HTTP 403 Forbidden).
+
+Rattachement : 510 études rattachées au total (503 → 510, +7). Suite de tests : 94/94 au vert.
