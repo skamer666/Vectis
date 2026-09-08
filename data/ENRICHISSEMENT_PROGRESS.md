@@ -2759,3 +2759,19 @@ lignes CSV pour des cabinets déjà rattachés en lot 55). **Échec :** Hischier
 (hb-recht.ch, 503×2).
 
 Rattachement : 611 études rattachées au total (605 → 611, +6). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 17h04 UTC — Phase 3, lot 57 (exécution automatisée)
+
+6 cabinets traités (4 succès / 2 échecs), OW, LU, BL et NW. WILD DUBACH AG (cabinet multi-
+sites Bâle/Hergiswil/Sarnen, tel/email, 28 domaines EN -- rattaché deux fois par
+déduplication pour les lignes CSV OW et LU du même cabinet), Enderle, Felix, Haidlauf, Schmid,
+Advokatur (Reinach BL, tel/email -- rattachement par déduplication d'un cabinet déjà en cache
+sous un ordre de noms différent), Blöchlinger Iten Anwaltskanzlei Notariat Alter (Stans,
+aujourd'hui "Blöchlinger Iten Fessler" avec un troisième associé -- continuité confirmée par
+la présence de Marc Blöchlinger sur l'équipe actuelle de bilaw.ch, tel/email). **Échecs :**
+Advokatur Notariat Schmid (piège d'identité évité : le site trouvé, notariat-schmid.ch,
+correspond en réalité à un cabinet homonyme à Münchenstein BL et non au Fortunat Schmid de
+Coire GR recherché -- lien non retenu), Durrer Britschgi Advokatur und Notariat (advo-stans.ch,
+503×2).
+
+Rattachement : 615 études rattachées au total (611 → 615, +4). Suite de tests : 94/94 au vert.

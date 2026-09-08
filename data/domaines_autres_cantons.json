@@ -41,6 +41,13 @@
       "firm_name": "Adler Salminen Rechtsanwälte AG",
       "reason": "Rattachement possible a BAT Rechtsanwalte AG selon une source tierce (arrivee de Jessica Salminen au conseil de BAT) mais jamais confirme par le site de BAT lui-meme -- lien non retenu (traite en lot 37)"
     },
+    "advo-stans.ch": {
+      "_failed": true,
+      "canton": "NW",
+      "checked_date": "2026-09-08",
+      "firm_name": "Durrer Britschgi Advokatur und Notariat",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "advobasel.ch": {
       "canton": "BS",
       "fetched_date": "2026-07-29",
@@ -52,6 +59,13 @@
       "firm_name": "Advokatur Gartenhof",
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "advokatur-notariat-schmid-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-08",
+      "firm_name": "Advokatur Notariat Schmid",
+      "reason": "Identite ambigue -- au moins deux cabinets homonymes 'Schmid' (Fortunat Schmid a Coire GR vs Schmid Notariat und Advokatur a Munchenstein BL) ; le site trouve (notariat-schmid.ch) correspond en realite au cabinet bale-campagnois, pas a celui de Coire -- lien non retenu"
     },
     "advokaturbuero-bl.ch": {
       "canton": "BL",
@@ -1155,6 +1169,14 @@
     "email": "info@advokatur.ch",
     "fetched_date": "2026-09-07",
     "firm_name": "Advokatur Enderle, Felix, Haidlauf, Schmid",
+    "phone": "061 717 98 88",
+    "source_url": "https://www.advokatur.ch/"
+  },
+  "advokatur.ch#2": {
+    "canton": "BL",
+    "email": "info@advokatur.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Enderle, Felix, Haidlauf, Schmid, Advokatur",
     "phone": "061 717 98 88",
     "source_url": "https://www.advokatur.ch/"
   },
@@ -2909,6 +2931,14 @@
     ],
     "source_url": "https://www.bihrerlaw.ch/"
   },
+  "bilaw.ch": {
+    "canton": "NW",
+    "email": "marc.bloechlinger@bilaw.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Blöchlinger Iten Anwaltskanzlei Notariat Alter",
+    "phone": "+41 41 618 62 00",
+    "source_url": "https://www.bilaw.ch/en/"
+  },
   "binderlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4128,6 +4158,82 @@
       "Vorsorge"
     ],
     "source_url": "https://www.droxler.ch/de/Kontakt/"
+  },
+  "dubach-law.ch": {
+    "canton": "OW",
+    "email": "info@dubach-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "WILD DUBACH AG, Rechtsanwälte und",
+    "phone": "+41 61 331 00 55",
+    "practice_areas_en": [
+      "Arbitration",
+      "Corporate Law",
+      "Corporate Governance",
+      "Criminal Law",
+      "Crypto Currencies and Blockchain",
+      "Employment Law",
+      "Family Office",
+      "Family and Divorce Law",
+      "Inheritance Law",
+      "Insolvency and Restructuring",
+      "Insurance Law",
+      "Intellectual Property",
+      "International Trade Law",
+      "Liability Law",
+      "Licencing Law",
+      "Litigation and Dispute Resolution",
+      "Medical Law",
+      "Mergers & Acquisitions",
+      "Migration Law",
+      "Notary Services",
+      "Procurement Law",
+      "Public Law",
+      "Real Estate and Construction Law",
+      "Relocation Service",
+      "Tax Law and Consulting",
+      "Technology & Digital Economy",
+      "Tenancy Law",
+      "Trade Mark Law"
+    ],
+    "source_url": "https://dubach-law.ch/en/contact/"
+  },
+  "dubach-law.ch#2": {
+    "canton": "LU",
+    "email": "info@dubach-law.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "WILD DUBACH AG",
+    "phone": "+41 61 331 00 55",
+    "practice_areas_en": [
+      "Arbitration",
+      "Corporate Law",
+      "Corporate Governance",
+      "Criminal Law",
+      "Crypto Currencies and Blockchain",
+      "Employment Law",
+      "Family Office",
+      "Family and Divorce Law",
+      "Inheritance Law",
+      "Insolvency and Restructuring",
+      "Insurance Law",
+      "Intellectual Property",
+      "International Trade Law",
+      "Liability Law",
+      "Licencing Law",
+      "Litigation and Dispute Resolution",
+      "Medical Law",
+      "Mergers & Acquisitions",
+      "Migration Law",
+      "Notary Services",
+      "Procurement Law",
+      "Public Law",
+      "Real Estate and Construction Law",
+      "Relocation Service",
+      "Tax Law and Consulting",
+      "Technology & Digital Economy",
+      "Tenancy Law",
+      "Trade Mark Law"
+    ],
+    "source_url": "https://dubach-law.ch/en/contact/"
   },
   "dufour-advokatur.ch": {
     "canton": "BS",
