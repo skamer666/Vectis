@@ -34,6 +34,13 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "adler-salminen-rechtsanwalte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-06",
+      "firm_name": "Adler Salminen Rechtsanwälte AG",
+      "reason": "Rattachement possible a BAT Rechtsanwalte AG selon une source tierce (arrivee de Jessica Salminen au conseil de BAT) mais jamais confirme par le site de BAT lui-meme -- lien non retenu (traite en lot 37)"
+    },
     "advobasel.ch": {
       "canton": "BS",
       "fetched_date": "2026-07-29",
@@ -112,6 +119,13 @@
       "firm_name": "Bettoni & Partner",
       "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation"
     },
+    "cereghetti-ti-ambigu": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio legale e notarile Cereghetti",
+      "reason": "Identite ambigue -- au moins deux etudes distinctes portant le nom Cereghetti au Tessin (Katia Cereghetti Soldini a Chiasso, et Claudio Cereghetti & Partner), rattachement au bon site non confirme"
+    },
     "drsp-law.ch": {
       "canton": "GR",
       "date": "2026-07-29",
@@ -141,6 +155,13 @@
       "firm_name": "Eversheds Sutherland AG",
       "reason": "contenu vide, rendu JavaScript probable (site global)",
       "tested_date": "2026-07-28"
+    },
+    "ferracinandpartners.ch": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio Legale Ferracin & Associati",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "fhs.legal": {
       "canton": "ZH",
@@ -474,6 +495,13 @@
       "reason": "seule l'adresse du bureau zurichois est indiquee sur le site, aucun tel/email/domaine specifique confirme",
       "tested_date": "2026-09-07"
     },
+    "tamagnifornara.ch": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio legale e notarile Tamagni Fornara & Associati",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "tappolet-partner.ch": {
       "canton": "ZH",
       "firm_name": "Tappolet & Partner",
@@ -574,6 +602,13 @@
       "firm_name": "Studio legale e notarile Censi & Associati",
       "reason": "aucun site officiel dedie trouve (uniquement annuaires tiers)"
     },
+    "ferrari-partner-ti": {
+      "_sans_site": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio legale e notarile Ferrari Partner",
+      "reason": "Aucun site officiel propre identifie (a distinguer du cabinet sans lien 'Legal Ferrari Rei')"
+    },
     "poma-gandolfi-ti": {
       "_sans_site": true,
       "canton": "TI",
@@ -587,6 +622,20 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio Legale M LAW",
       "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web"
+    },
+    "torricelli-zveiger-ti": {
+      "_sans_site": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Torricelli Zveiger Studio legale e notarile",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire/registre"
+    },
+    "zandrini-partners-ti": {
+      "_sans_site": true,
+      "canton": "TI",
+      "checked_date": "2026-09-08",
+      "firm_name": "Studio legale e notarile Zandrini & Partners",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire/registre"
     }
   },
   "aa-k.ch": {
@@ -1825,6 +1874,23 @@
     ],
     "source_url": "https://www.avvocati-domine-marone.ch/avvocati-e-contatti-contenziosi-penali",
     "team_size_n": 2
+  },
+  "avvocatimendrisio.ch": {
+    "canton": "TI",
+    "email": "info@rossi.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Rossi-Pellegrini-Sauvain",
+    "founding_year": 1965,
+    "phone": "+41 91 646 43 25",
+    "practice_areas_it": [
+      "Notariato",
+      "Diritto civile",
+      "Diritto amministrativo",
+      "Diritto penale",
+      "Esecuzione e fallimenti",
+      "Diritto assicurativo"
+    ],
+    "source_url": "https://avvocatimendrisio.ch/"
   },
   "awg.ch": {
     "canton": "BS",
@@ -3565,6 +3631,14 @@
     ],
     "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
   },
+  "colombomameli.ch": {
+    "canton": "TI",
+    "email": "info@colombomameli.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Colombo & Mameli",
+    "phone": "+41 91 961 82 10",
+    "source_url": "http://www.colombomameli.ch/"
+  },
   "consavo.com": {
     "canton": "ZH",
     "email": "legal@consavo.com",
@@ -3588,6 +3662,25 @@
       "Internal investigations"
     ],
     "source_url": "https://core-attorneys.com/en/"
+  },
+  "csnlaw.com": {
+    "canton": "TI",
+    "fetched_date": "2026-09-08",
+    "firm_name": "CSNLAW",
+    "practice_areas_en": [
+      "Litigation and dispute resolution",
+      "Business and corporate law",
+      "Compliance and internal investigation",
+      "Banking and financial services law",
+      "Criminal law",
+      "Bankruptcy re-organizations and workouts",
+      "Labour and employment law",
+      "Inheritance law and estate planning",
+      "Real estate and notarial services",
+      "Family law",
+      "Art law"
+    ],
+    "source_url": "https://www.csnlaw.com/"
   },
   "d32.ch": {
     "canton": "ZH",
@@ -4601,6 +4694,26 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "grandinilegal.ch": {
+    "canton": "TI",
+    "email": "studio@grandinilegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Grandini Studio legale e notarile",
+    "founding_year": 1985,
+    "phone": "+41 91 912 21 60",
+    "practice_areas_it": [
+      "Conciliazione e contenzioso",
+      "Diritto contrattuale",
+      "Diritto societario",
+      "Diritto civile e commerciale",
+      "Esecuzioni e fallimenti",
+      "Diritto amministrativo",
+      "Diritto della circolazione, responsabilità civile e associazioni",
+      "Notariato",
+      "Family Office"
+    ],
+    "source_url": "https://www.grandinilegal.ch/"
+  },
   "greterlaw.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -4681,6 +4794,13 @@
     "firm_name": "Gresch, Schwab & Varela Rechtsanwälte",
     "phone": "+41 43 344 61 61",
     "source_url": "https://www.gslaw.ch/"
+  },
+  "gubalex.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Guglielmetti & Basic",
+    "phone": "+41 91 646 39 39",
+    "source_url": "https://www.gubalex.ch/"
   },
   "gublergysler.ch": {
     "canton": "ZH",
@@ -6209,6 +6329,49 @@
     ],
     "source_url": "https://www.legal1896.ch/en/"
   },
+  "legale.ch": {
+    "canton": "TI",
+    "email": "studio@legale.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Camponovo & Camponovo",
+    "founding_year": 2003,
+    "phone": "+41 91 695 81 11",
+    "practice_areas_it": [
+      "Notariato",
+      "Diritto di famiglia e delle persone",
+      "Diritto immobiliare e della proprietà",
+      "Esecuzioni e fallimenti",
+      "Responsabilità civile e diritto delle assicurazioni",
+      "Diritto successorio",
+      "Diritto societario",
+      "Diritto amministrativo",
+      "Diritto contrattuale",
+      "Diritto della costruzione e pianificazione del territorio",
+      "Diritto penale",
+      "Proprietà intellettuale",
+      "Diritto fiscale"
+    ],
+    "source_url": "https://www.legale.ch/"
+  },
+  "legalecorti.ch": {
+    "canton": "TI",
+    "email": "info@legalecorti.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Corti & Partner",
+    "practice_areas_en": [
+      "Criminal law, administrative and tax offences",
+      "International assistance in criminal, customs and tax matters",
+      "Civil law",
+      "Banking law",
+      "Corporate law",
+      "Labour law and arbitration",
+      "Family law, marriage law, inheritance law",
+      "Property rights",
+      "Commercial and contract law"
+    ],
+    "source_url": "https://legalecorti.ch/en/about-us/",
+    "team_size_n": 2
+  },
   "legalexperts.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -6220,6 +6383,14 @@
       "Nachlassplanung"
     ],
     "source_url": "https://legalexperts.ch/"
+  },
+  "legalg.ch": {
+    "canton": "TI",
+    "email": "info@legalg.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Gagliardi & Giang",
+    "phone": "+41 91 290 89 80",
+    "source_url": "https://legalg.ch/contatto/"
   },
   "legalperucchi.com": {
     "canton": "TI",
@@ -6845,6 +7016,29 @@
     "firm_name": "Martin Rechtsanwälte GmbH",
     "phone": "+41 52 269 21 11",
     "source_url": "https://martin-ra.ch/en/contact/"
+  },
+  "mcmlegal.ch": {
+    "canton": "TI",
+    "email": "studio@mcmlegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "MCM studio legale e notarile",
+    "founding_year": 2022,
+    "phone": "+41 91 922 65 17",
+    "practice_areas_it": [
+      "Diritto edilizio e della pianificazione del territorio",
+      "Progetti immobiliari",
+      "Contenzioso civile e commerciale",
+      "Contratti e transazioni commerciali",
+      "Corporate governance",
+      "Diritto successorio e testamenti",
+      "Permessi di lavoro e soggiorno",
+      "Diritto amministrativo",
+      "Diritto del lavoro",
+      "Diritto della locazione",
+      "Assicurazioni sociali"
+    ],
+    "source_url": "https://www.mcmlegal.ch/",
+    "team_size_n": 2
   },
   "meyer-wipf.ch": {
     "canton": "ZH",
@@ -7696,6 +7890,28 @@
     ],
     "source_url": "https://publicsector.ch/kontakt/",
     "team_size_n": 3
+  },
+  "pzlegal.ch": {
+    "canton": "TI",
+    "email": "info@pzlegal.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio Legale Pedrazzini Zanazza & Associati SA",
+    "phone": "+41 91 973 15 69",
+    "practice_areas_it": [
+      "Diritto societario",
+      "M&A",
+      "Contrattualistica",
+      "Diritto del lavoro",
+      "Contenzioso civile e penale",
+      "Protezione dei dati e privacy",
+      "Diritto immobiliare",
+      "Diritto dei mercati finanziari",
+      "Trusts",
+      "Fondi d'investimento",
+      "Pianificazione successoria",
+      "Diritto dello sport"
+    ],
+    "source_url": "https://pzlegal.ch/"
   },
   "quadranti-molteni.ch": {
     "canton": "TI",
@@ -9059,6 +9275,18 @@
     "phone": "+41 44 261 91 00",
     "source_url": "https://www.sts-law.ch/"
   },
+  "studio-legale.ch": {
+    "canton": "TI",
+    "email": "info@studio-legale.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Cocchi & Bisazza Ranzi",
+    "phone": "+41 91 935 14 40",
+    "practice_areas_it": [
+      "Consulenza privata",
+      "Consulenza aziendale"
+    ],
+    "source_url": "https://www.studio-legale.ch/"
+  },
   "studiocasonidelco.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-07",
@@ -9110,6 +9338,15 @@
       "Public law"
     ],
     "source_url": "https://studiodelogu.ch/contatti/"
+  },
+  "studioluisoni.ch": {
+    "canton": "TI",
+    "email": "paolo@studioluisoni.ch",
+    "fetched_date": "2026-09-08",
+    "firm_name": "Studio legale e notarile Luisoni",
+    "phone": "+41 91 826 36 86",
+    "source_url": "https://www.studioluisoni.ch/",
+    "team_size_n": 2
   },
   "studiomattei.ch": {
     "canton": "TI",

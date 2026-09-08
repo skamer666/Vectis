@@ -2624,3 +2624,31 @@ source primaire, 403 sur la page About Us -- lien non retenu), Studio Legale Avv
 & Associati, Studio Legale M LAW.
 
 Rattachement : 556 études rattachées au total (547 → 556, +9). Suite de tests : 94/94 au vert.
+
+### 2026-09-08 10h04 UTC — Phase 3, lot 50 (exécution automatisée)
+
+18 cabinets traités (12 succès / 7 échecs dont sans-site), tous TI -- premier lot exclusivement
+tessinois de la campagne. Studio legale e notarile Rossi-Pellegrini-Sauvain (Mendrisio, fondé
+**1965** -- "Fondato nel 1965 dall'avv. Pierluigi Rossi, già Sindaco di Mendrisio", tel/email,
+6 domaines IT), Studio legale e notarile Luisoni (Bellinzona, tel/email, 2 avocats), Studio
+legale e notarile Guglielmetti & Basic (Mendrisio, tel -- fondation 1926 vue en résumé de
+recherche tierce mais non confirmée par une source primaire, non retenue), Studio legale e
+notarile Gagliardi & Giang (Bellinzona, tel/email), Studio legale e notarile Corti & Partner
+(Lugano/Milan, email, 2 avocats -- personnel administratif exclu, 9 domaines EN), Studio
+legale e notarile Colombo & Mameli (Lugano, tel/email), Studio legale e notarile Cocchi &
+Bisazza Ranzi (Gravesano, tel/email, 2 domaines IT), Studio legale e notarile Camponovo &
+Camponovo (Chiasso, fondé **2003** -- "attivo... dal 2003", tel/email, 13 domaines IT),
+Studio Legale Pedrazzini Zanazza & Associati SA (Lugano, tel/email, 12 domaines IT), MCM
+studio legale e notarile (Lugano, fondé **2022** -- "2022 – oggi ... fondatore e Partner",
+tel/email, 2 avocats, 11 domaines IT), Grandini Studio legale e notarile (Lugano, fondé
+**1985** -- "premier cabinet ouvert en août 1985", tel/email, 9 domaines IT), CSNLAW (Lugano,
+11 domaines EN). **Échecs :** Studio Legale Ferracin & Associati (503×2), Studio legale e
+notarile Tamagni Fornara & Associati (503×2), Studio legale e notarile Cereghetti (identité
+ambiguë -- au moins deux études distinctes portant ce nom au Tessin, rattachement non
+confirmé). **Sans site officiel :** Torricelli Zveiger Studio legale e notarile, Studio
+legale e notarile Zandrini & Partners, Studio legale e notarile Ferrari Partner (à distinguer
+du cabinet homonyme sans lien "Legal Ferrari Rei"). Note bibliographique : ajout d'une entrée
+`_failed` pour Adler Salminen Rechtsanwälte AG (ZH, identité déclinée en lot 37) afin d'éviter
+qu'elle ne resurgisse dans les futurs lots.
+
+Rattachement : 566 études rattachées au total (556 → 566, +10). Suite de tests : 94/94 au vert.
