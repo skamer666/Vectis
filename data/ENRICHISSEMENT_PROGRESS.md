@@ -3003,3 +3003,29 @@ similaires de Dr. Heinz Heller).
 
 Rattachement : 681 études rattachées au total (671 → 681, +10). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 07h04 UTC — Phase 3, lot 71 (exécution automatisée)
+
+14 cabinets traités (7 succès / 7 échecs), tous ZH (poursuite longue traîne, recherches et
+vérifications groupées en parallèle).
+
+Succès : Hanhart Law (fondée **2020**, solo, tel/email, 10 domaines EN dont droit des médias) ;
+Killias & Legler GmbH (boutique arbitrage international fondée par deux anciens associés de
+Pestalozzi, 2 avocats, tel, 8 domaines EN) ; GÖNÜLER Rechtsanwälte (tel/email, 5 domaines EN
+dont white collar et droit bancaire) ; FREYLAW GmbH (solo, tel/email, 7 domaines EN) ;
+IsenringLaw (tel/email, 5 domaines DE dont droit pénal économique et droit de la protection
+animale) ; kübler.legal (Winterthur, solo, tel/email, 5 domaines DE) ; Mark Livschitz AG
+(tel/email uniquement).
+
+**Piège d'identité évité :** Meisser & Haller Rechtsanwälte -- le site officiel (mhra.ch) se
+présente désormais uniquement comme "Anwaltskanzlei Meisser AG" (Gregor Meisser seul), sans
+aucune mention de "Haller" : continuité non confirmée par le site lui-même, rattachement
+décliné plutôt que d'utiliser des données incertaines.
+
+Échecs : Herenda Rechtsanwälte (503×2), Kohler Law GmbH (503×2), Hofmann Law (503×2),
+Bühlmann & Fritschi Rechtsanwälte / b-law.ch (503×2), Guery Legal (Edith Guery apparaît comme
+membre de l'étude ADROIT attorneys-at-law, aucune marque indépendante confirmée), Meroni &
+Schmid Rechtsanwälte (aucun site officiel trouvé).
+
+Rattachement : 688 études rattachées au total (681 → 688, +7). Suite de tests : 94/94 au
+vert.

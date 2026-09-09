@@ -118,6 +118,13 @@
       "firm_name": "Arvian Legal AG",
       "reason": "Aucun site officiel trouve (adresse Kastanienweg 3, Kilchberg confirmee au registre du commerce et a l'Anwaltsregister ZH uniquement)"
     },
+    "b-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Bühlmann & Fritschi Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "ba-lawpartners.ch": {
       "canton": "ZH",
       "firm_name": "Ben-Attia LawPartners AG",
@@ -320,6 +327,13 @@
       "firm_name": "Grand & Nisple Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "guery-legal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Guery Legal",
+      "reason": "Edith Guery apparait comme membre de l'etude ADROIT attorneys-at-law, aucune marque independante 'Guery Legal' confirmee"
+    },
     "hb-recht.ch": {
       "_failed": true,
       "canton": "LU",
@@ -340,6 +354,20 @@
       "checked_date": "2026-09-09",
       "firm_name": "Herb Takata Rechtsanwälte",
       "reason": "Site officiel indique \"is under construction\", aucun contenu exploitable"
+    },
+    "herenda.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Herenda Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "hofmannlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Hofmann Law",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "indemnis.ch": {
       "canton": "BS",
@@ -396,6 +424,13 @@
       "date": "2026-07-29",
       "firm_name": "Kessler Landolt Giacomini & Partner",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "kohler-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Kohler Law GmbH",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "kuenglaw-sg.ch": {
       "canton": "SG",
@@ -493,11 +528,25 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "meisser-haller-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Meisser & Haller Rechtsanwälte",
+      "reason": "Le site officiel (mhra.ch) se presente desormais uniquement comme 'Anwaltskanzlei Meisser AG' (Gregor Meisser seul), sans mention de 'Haller' -- continuite non confirmee par le site lui-meme, lien decline"
+    },
     "mercury.ch": {
       "canton": "ZH",
       "firm_name": "Mercury Compliance AG",
       "reason": "pages contact/entreprise sont de simples redirections sans contenu direct exploitable",
       "tested_date": "2026-09-07"
+    },
+    "meroni-schmid-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Meroni & Schmid Rechtsanwälte",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers (yelp, allbiz, martindale)"
     },
     "mst-law.ch": {
       "_failed": true,
@@ -5403,6 +5452,24 @@
     "source_url": "https://www.frey-jud.ch/",
     "team_size_n": null
   },
+  "freylaw.ch": {
+    "canton": "ZH",
+    "email": "frey@freylaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "FREYLAW GmbH",
+    "phone": "+41 44 281 92 51",
+    "practice_areas_en": [
+      "Employment law",
+      "Contractual disputes",
+      "Commercial law",
+      "Data protection",
+      "Civil law disputes",
+      "Criminal law (ancillary)",
+      "Enforcement law (ancillary)"
+    ],
+    "source_url": "https://www.freylaw.ch/en/home",
+    "team_size_n": 1
+  },
   "frilegal.ch": {
     "canton": "FR",
     "email": "avocats@frilegal.ch",
@@ -5865,6 +5932,21 @@
     "source_url": "https://www.goette.ch/",
     "team_size_n": 2
   },
+  "gonuler.ch": {
+    "canton": "ZH",
+    "email": "info@gonuler.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "GÖNÜLER Rechtsanwälte",
+    "phone": "+41 44 885 38 63",
+    "practice_areas_en": [
+      "Litigation and Dispute Resolution",
+      "White Collar",
+      "Corporate Advisory",
+      "Banking and Financial Markets",
+      "Private Clients"
+    ],
+    "source_url": "https://www.gonuler.ch/en"
+  },
   "good-stgallen.ch": {
     "canton": "SG",
     "email": "info@good-stgallen.ch",
@@ -6121,6 +6203,28 @@
     "firm_name": "Haefelin Law",
     "phone": "+41 44 260 25 45",
     "source_url": "https://www.haefelinlaw.ch/"
+  },
+  "hanhartlaw.ch": {
+    "canton": "ZH",
+    "email": "sandra.hanhart@hanhartlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Hanhart Law",
+    "founding_year": 2020,
+    "phone": "+41 44 545 54 50",
+    "practice_areas_en": [
+      "Intellectual property and media law",
+      "Contract and transaction-related business law",
+      "M&A (mergers, acquisitions, capital increases)",
+      "Corporate law",
+      "Advertising law",
+      "Data protection law",
+      "Personality rights law",
+      "Media law",
+      "Shareholder agreements",
+      "Labour law consultation"
+    ],
+    "source_url": "https://hanhartlaw.ch/en/",
+    "team_size_n": 1
   },
   "hartmanndreyer.ch": {
     "canton": "FR",
@@ -6639,6 +6743,21 @@
     "source_url": "https://www.iraz.ch/de/",
     "team_size_n": 3
   },
+  "isenringlaw.ch": {
+    "canton": "ZH",
+    "email": "isenring@isenringlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "IsenringLaw",
+    "phone": "+41 44 793 15 45",
+    "practice_areas_de": [
+      "Strafrecht (inkl. Wirtschafts- und Nebenstrafrecht)",
+      "Verkehrsrecht",
+      "Vertragsrecht",
+      "Zivilprozessrecht",
+      "Tierschutzrecht"
+    ],
+    "source_url": "https://www.isenringlaw.ch/en/"
+  },
   "islerdelgrande.ch": {
     "canton": "ZH",
     "email": "info@islerdelgrande.ch",
@@ -7149,6 +7268,24 @@
       "Digital Economy"
     ],
     "source_url": "https://khm-partners.ch/?lang=en"
+  },
+  "killiaslegler.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Killias & Legler GmbH",
+    "phone": "+41 58 710 05 70",
+    "practice_areas_en": [
+      "International arbitration",
+      "Dispute resolution",
+      "Litigation",
+      "Arbitration-related matters (award enforcement, set-aside proceedings)",
+      "Commercial disputes",
+      "Intellectual property",
+      "IT and media-related matters",
+      "Alternative dispute resolution proceedings"
+    ],
+    "source_url": "https://killiaslegler.ch/",
+    "team_size_n": 2
   },
   "kipferhuber.ch": {
     "canton": "BL",
@@ -8320,6 +8457,14 @@
     "firm_name": "Littler Switzerland AG",
     "phone": "+41 44 219 60 60",
     "source_url": "https://www.littler.ch/contact"
+  },
+  "livschitz.ch": {
+    "canton": "ZH",
+    "email": "mark@livschitz.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Mark Livschitz AG",
+    "phone": "+41 43 233 51 51",
+    "source_url": "https://www.livschitz.ch/en/contact/"
   },
   "lls-notariat.ch": {
     "canton": "LU",
@@ -12911,6 +13056,22 @@
     ],
     "source_url": "https://www.wyttenbach.law/en/%C3%BCber-mich",
     "specialist_certification": "Fachanwalt SAV Strafrecht (2015)"
+  },
+  "xn--kbler-kva.legal": {
+    "canton": "ZH",
+    "email": "ra@kübler.legal",
+    "fetched_date": "2026-09-09",
+    "firm_name": "kübler.legal",
+    "phone": "+41 79 287 35 54",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Mietrecht/Pachtrecht",
+      "Haftpflichtrecht/Versicherungsrecht",
+      "Erbrecht/Nachlassrecht"
+    ],
+    "source_url": "https://www.xn--kbler-kva.legal/",
+    "team_size_n": 1
   },
   "z-law.ch": {
     "canton": "LU",
