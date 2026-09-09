@@ -104,6 +104,20 @@
       "reason": "HTTP 503 Service Unavailable sur deux tentatives (http et https)",
       "tested_date": "2026-09-07"
     },
+    "arnold-partner-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Arnold & Partner Studio Legale Sagl",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers (Moneyhouse, Legaly, business-monitor)"
+    },
+    "arvian-legal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Arvian Legal AG",
+      "reason": "Aucun site officiel trouve (adresse Kastanienweg 3, Kilchberg confirmee au registre du commerce et a l'Anwaltsregister ZH uniquement)"
+    },
     "ba-lawpartners.ch": {
       "canton": "ZH",
       "firm_name": "Ben-Attia LawPartners AG",
@@ -170,6 +184,13 @@
       "firm_name": "Egli Hess Schwegler Rechtsanwälte und Notare",
       "reason": "domaine ne resout pas (DNS ENOTFOUND) sur ehs-kanzlei.ch et www.ehs-kanzlei.ch",
       "tested_date": "2026-09-07"
+    },
+    "eigenmann-associes-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Eigenmann Associés",
+      "reason": "Siege principal a Lausanne (VD) ; aucune coordonnee ou fait specifique a l'antenne tessinoise (Locarno) confirme sur le site officiel"
     },
     "erni-grab-partner-lu": {
       "_failed": true,
@@ -259,6 +280,13 @@
       "firm_name": "KANZLEI KREIS 2 AG",
       "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation"
     },
+    "kb-lawyers.ch": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-09",
+      "firm_name": "K & B Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "kleinlaw.ch": {
       "canton": "ZH",
       "firm_name": "Klein Rechtsanwälte AG",
@@ -282,6 +310,13 @@
       "firm_name": "Landmann & Partner AG",
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
+    },
+    "legalone-freienbach-sz": {
+      "_failed": true,
+      "canton": "SZ",
+      "checked_date": "2026-09-09",
+      "firm_name": "LegalOne AG",
+      "reason": "Domaine legalone.ch injoignable (echec DNS) ; aucun autre site officiel trouve"
     },
     "lengyel.ch": {
       "_failed": true,
@@ -464,6 +499,13 @@
       "date": "2026-07-29",
       "firm_name": "Reichle Stehle AG",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "relevanz.legal": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-09",
+      "firm_name": "relevanz.legal",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "rs-tax.ch": {
       "canton": "ZH",
@@ -752,6 +794,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Zollinger Rohner Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "zuppiger-jenny-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Zuppiger Jenny Rechtsanwälte AG",
+      "reason": "Aucun site sous ce nom : seul un cabinet homonyme partiel trouve (zuppiger-baurecht.ch, 'Zuppiger Baurecht AG') qui ne se presente nulle part comme 'Zuppiger Jenny' -- lien decline (continuite non confirmee par le site lui-meme)"
     },
     "zurich-law.ch": {
       "canton": "ZH",
@@ -1556,6 +1605,14 @@
     "specialist_certification": "Fachanwaltstitel im Haftpflicht- und Versicherungsrecht (Evalotta Samuelsson)",
     "team_size_n": 4
   },
+  "advore.ch": {
+    "canton": "SG",
+    "email": "info@advore.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "advore rechtsanwälte ag",
+    "phone": "+41 71 914 33 10",
+    "source_url": "https://advore.ch/"
+  },
   "advoro-zuerich.ch": {
     "canton": "ZH",
     "email": "info@advoro.ch",
@@ -1654,6 +1711,24 @@
     ],
     "source_url": "https://www.aequitaslex.ch/",
     "team_size_n": 9
+  },
+  "affinity-group.ch": {
+    "canton": "ZH",
+    "email": "r.arquint@affinitylaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "AffinityLaw AG",
+    "phone": "+41 79 376 81 62",
+    "practice_areas_en": [
+      "Data Protection and Technology",
+      "Employment Law",
+      "Contract and Corporate Law",
+      "IP, Advertising and Competition Law",
+      "Tax Consulting for Individuals",
+      "Tax Consulting for Legal Entities",
+      "Tax Consulting for Entrepreneurs",
+      "Advice in Connection with Trusts and Foundations"
+    ],
+    "source_url": "https://www.affinity-group.ch/en/contact/"
   },
   "agon-legal.ch": {
     "canton": "ZH",
@@ -2069,6 +2144,30 @@
     ],
     "source_url": "https://www.anwaltluzern.ch/de/kontakt/"
   },
+  "anwaltsboutique.ch": {
+    "canton": "ZH",
+    "email": "info@anwaltsboutique.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "anwaltsboutique Rechtsanwälte",
+    "founding_year": 2010,
+    "phone": "+41 44 576 60 10",
+    "practice_areas_en": [
+      "General legal advice",
+      "Employment Law",
+      "Corporate law",
+      "Court and authority representation",
+      "Intellectual property law",
+      "Contract law",
+      "Inheritance law",
+      "Immigration Law",
+      "Competition law",
+      "International civil law",
+      "Debt enforcement and bankruptcy law",
+      "Expat advice"
+    ],
+    "source_url": "https://www.anwaltsboutique.ch/en",
+    "team_size_n": 2
+  },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
     "email": "info@ak-see.ch",
@@ -2283,6 +2382,81 @@
     "practice_areas_fr": [],
     "source_url": "https://www.b-legal.ch/kanzlei/",
     "team_size_n": 24
+  },
+  "bablegal.ch": {
+    "canton": "TI",
+    "email": "mail@bablegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Broggini Armati Binzoni Studio Legale SA",
+    "founding_year": 1992,
+    "phone": "+41 91 913 70 40",
+    "practice_areas_it": [
+      "Contrattualistica generale",
+      "Diritto locativo, immobiliare e delle costruzioni",
+      "Diritto del lavoro",
+      "Diritto della famiglia",
+      "Diritto successorio",
+      "Esecuzioni e fallimenti",
+      "Diritto amministrativo",
+      "Diritto penale",
+      "Diritto sportivo",
+      "Processi e arbitrati",
+      "Diritto societario e commerciale",
+      "Diritto dell'informatica",
+      "Enti senza scopo di lucro"
+    ],
+    "source_url": "https://bablegal.ch/it/",
+    "team_size_n": 4
+  },
+  "bablegal.ch#2": {
+    "canton": "TI",
+    "email": "mail@bablegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale Broggini Armati Binzoni",
+    "founding_year": 1992,
+    "phone": "+41 91 913 70 40",
+    "practice_areas_it": [
+      "Contrattualistica generale",
+      "Diritto locativo, immobiliare e delle costruzioni",
+      "Diritto del lavoro",
+      "Diritto della famiglia",
+      "Diritto successorio",
+      "Esecuzioni e fallimenti",
+      "Diritto amministrativo",
+      "Diritto penale",
+      "Diritto sportivo",
+      "Processi e arbitrati",
+      "Diritto societario e commerciale",
+      "Diritto dell'informatica",
+      "Enti senza scopo di lucro"
+    ],
+    "source_url": "https://bablegal.ch/it/",
+    "team_size_n": 4
+  },
+  "bablegal.ch#3": {
+    "canton": "TI",
+    "email": "mail@bablegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale Broggini Armati Binzoni SA",
+    "founding_year": 1992,
+    "phone": "+41 91 913 70 40",
+    "practice_areas_it": [
+      "Contrattualistica generale",
+      "Diritto locativo, immobiliare e delle costruzioni",
+      "Diritto del lavoro",
+      "Diritto della famiglia",
+      "Diritto successorio",
+      "Esecuzioni e fallimenti",
+      "Diritto amministrativo",
+      "Diritto penale",
+      "Diritto sportivo",
+      "Processi e arbitrati",
+      "Diritto societario e commerciale",
+      "Diritto dell'informatica",
+      "Enti senza scopo di lucro"
+    ],
+    "source_url": "https://bablegal.ch/it/",
+    "team_size_n": 4
   },
   "bachmann.law": {
     "canton": "ZH",
@@ -2626,6 +2800,22 @@
     "source_url": "https://www.basleradvokatinnen.ch/taetigkeiten.html",
     "team_size_n": 9,
     "team_size_text": "9 avocats"
+  },
+  "battaglioni-giovanettina.ch": {
+    "canton": "TI",
+    "email": "legal@battaglioni-giovanettina.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Battaglioni & Giovanettina Studio Legale SA",
+    "founding_year": 2020,
+    "phone": "+41 91 835 48 30",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto penale",
+      "Diritto amministrativo",
+      "Attività notarile"
+    ],
+    "source_url": "https://battaglioni-giovanettina.digitalone.site/",
+    "team_size_n": 2
   },
   "baudenbacher.law": {
     "canton": "ZH",
@@ -3750,6 +3940,22 @@
     "source_url": "https://www.bst-rechtsanwaelte.ch/",
     "team_size_n": 4
   },
+  "bt-anwalt.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Basso Tschümperlin",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Strafrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.bt-anwalt.ch/"
+  },
   "btc.legal": {
     "canton": "TI",
     "email": "info@btc.legal",
@@ -4336,6 +4542,14 @@
       "Vorsorge"
     ],
     "source_url": "https://www.droxler.ch/de/Kontakt/"
+  },
+  "drpb.ch": {
+    "canton": "ZH",
+    "email": "office@drpb.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Burkhalter Rechtsanwälte Zürich AG",
+    "phone": "+41 44 268 10 00",
+    "source_url": "https://drpb.ch/kanzlei/"
   },
   "dubach-law.ch": {
     "canton": "OW",
@@ -5716,6 +5930,21 @@
     ],
     "source_url": "https://www.hebrecht.ch/about"
   },
+  "heinzelmann-levy.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokaturbüro Heinzelmann & Levy",
+    "founding_year": 2016,
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Zivilrecht",
+      "Öffentliches Recht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Eigentums- und Sachenrecht"
+    ],
+    "source_url": "https://heinzelmann-levy.ch/"
+  },
   "helbling.law": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -5807,6 +6036,22 @@
     "practice_areas_fr": [],
     "source_url": "https://hhh-law.ch/",
     "team_size_n": null
+  },
+  "hinterlauben12.ch": {
+    "canton": "SG",
+    "email": "info@hinterlauben12.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokaturbureau Brunner & Dudli",
+    "phone": "+41 71 226 10 10",
+    "practice_areas_de": [
+      "Vertrags- und Gesellschaftsrecht",
+      "Bau- und Immobilienrecht",
+      "Bank- und Kapitalmarktrecht",
+      "Strafrecht",
+      "Erbrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.hinterlauben12.ch/kontakt/"
   },
   "hk-legal.ch": {
     "canton": "ZH",
@@ -6808,6 +7053,30 @@
     "practice_areas_fr": [],
     "source_url": "https://www.krlaw.ch/",
     "team_size_n": null
+  },
+  "krlaw.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-09",
+    "firm_name": "LL.M. Kaufmann Rüedi Rechtsanwälte AG",
+    "founding_year": 1974,
+    "practice_areas_de": [
+      "Arbeiten",
+      "Beschaffungswesen",
+      "Compliance / Wirtschaftsstrafrecht",
+      "Familie / Erbe",
+      "Gesundheit / Life Sciences",
+      "Immobilien / Bauen",
+      "Inkasso / Insolvenz",
+      "International Desk",
+      "IT / ICT / Datenschutz",
+      "Notariat",
+      "Rechtliche Übersetzungen",
+      "Schiedsgerichtsbarkeit / Mediation",
+      "Sportrecht",
+      "Staat / Behörden",
+      "Unternehmen / M&A / Nachfolge"
+    ],
+    "source_url": "https://www.krlaw.ch/"
   },
   "ksf-law.ch": {
     "canton": "ZH",
@@ -9402,6 +9671,46 @@
     ],
     "source_url": "https://rlaw.ch/en/",
     "team_size_n": null
+  },
+  "rlbanwaelte.ch": {
+    "canton": "SG",
+    "email": "sekretariat@rlbanwaelte.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "RHYNER LIPPUNER BERTSCHINGER Rechtsanwälte & öffentliche Notare",
+    "phone": "081 750 02 80",
+    "practice_areas_de": [
+      "Prozessführung und Beratung",
+      "Wirtschaftsrecht",
+      "Steuerrecht",
+      "Zivilrecht",
+      "Handelsrecht",
+      "Asset Protection, Family Office",
+      "Immaterialgüterrecht",
+      "Strassenverkehrsrecht / Haftpflichtrecht",
+      "Notar (Beurkundungen und Beglaubigungen)"
+    ],
+    "source_url": "https://rlbanwaelte.ch/",
+    "team_size_n": 4
+  },
+  "rlbanwaelte.ch#2": {
+    "canton": "SG",
+    "email": "sekretariat@rlbanwaelte.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Rhyner Lippuner Bertschinger",
+    "phone": "081 750 02 80",
+    "practice_areas_de": [
+      "Prozessführung und Beratung",
+      "Wirtschaftsrecht",
+      "Steuerrecht",
+      "Zivilrecht",
+      "Handelsrecht",
+      "Asset Protection, Family Office",
+      "Immaterialgüterrecht",
+      "Strassenverkehrsrecht / Haftpflichtrecht",
+      "Notar (Beurkundungen und Beglaubigungen)"
+    ],
+    "source_url": "https://rlbanwaelte.ch/",
+    "team_size_n": 4
   },
   "rmp.ch": {
     "canton": "ZH",

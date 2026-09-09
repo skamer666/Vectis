@@ -2891,3 +2891,58 @@ et procédure fiscale pénale). **Échec :** Wehrli Zimmermann & Partner (wehrli
 503×2).
 
 Rattachement : 648 études rattachées au total (645 → 648, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-09 04h03 UTC — Phase 3, lot 68 (exécution automatisée)
+
+**Rythme accéléré suite au retour de Greg (06/09) : 21 cabinets traités en un seul lot**
+(recherches WebSearch et vérifications WebFetch groupées en parallèle), répartis sur 6
+cantons (ZH, TI, SG, BL, SZ, LU) — **14 succès / 7 échecs**.
+
+ZH : anwaltsboutique Rechtsanwälte (fondée **2010** par Caroline MacNicholas, 2 avocates,
+tel/email, 12 domaines EN) ; Burkhalter Rechtsanwälte Zürich AG (bureau zurichois du cabinet
+suisse Burkhalter Rechtsanwälte, tel/email spécifiques à Zurich -- année de fondation du
+cabinet global écartée, ambiguë pour cette entité enregistrée séparément) ; AffinityLaw AG
+(Regina Arquint, tel/email, 8 domaines EN dont protection des données/technologie).
+
+TI : Battaglioni & Giovanettina Studio Legale SA (fondée **2020** -- "Studio legale che nasce
+a gennaio 2020", Bellinzona, 2 avocats, tel/email, 4 domaines IT) ; Broggini Armati Binzoni
+Studio Legale SA (fondée **1992** par Andrea Broggini, renommée BAB Legal SA en 2024 --
+continuité confirmée explicitement par le site, 4 avocats, tel/email, 13 domaines IT) --
+**dédupliqué 3 fois** (le CSV référence ce même cabinet sous 3 graphies distinctes : "Broggini
+Armati Binzoni Studio Legale SA", "Studio legale Broggini Armati Binzoni" et "Studio legale
+Broggini Armati Binzoni SA" -- ces deux dernières partagent le même nom cœur après réduction
+et sont mutuellement ambiguës, donc **ignorées par le garde-fou anti-collision** malgré
+l'entrée cache correcte ; seule la première graphie s'est rattachée proprement).
+
+SG : RHYNER LIPPUNER BERTSCHINGER Rechtsanwälte & öffentliche Notare (Buchs SG, 4 avocats/
+notaires, tel/email, 9 domaines DE) -- dédupliqué (2 graphies CSV, "RHYNER LIPPUNER
+BERTSCHINGER..." et "Rhyner Lippuner Bertschinger", toutes deux rattachées avec succès) ;
+Advokaturbureau Brunner & Dudli (tel/email uniques du cabinet -- ligne partagée confirmée
+explicitement par le site, pas une communauté à lignes séparées, 6 domaines DE) ; advore
+rechtsanwälte ag (Wil SG, tel/email, effectif et domaines trop imprécis sur le site pour être
+retenus).
+
+BL : Advokaturbüro Heinzelmann & Levy (fondé le 1er janvier **2016** -- "haben wir uns... zum
+Advokaturbüro... zusammengeschlossen", 6 domaines DE communs -- communauté de deux avocats
+indépendants avec lignes séparées, aucun tel/email "du cabinet" inventé conformément à la
+règle 4).
+
+SZ : Basso Tschümperlin (Bahnhofstrasse 21, Schwyz, 8 domaines DE -- même schéma de communauté
+à lignes séparées que Heinzelmann & Levy, aucun tel/email commun retenu).
+
+LU : LL.M. Kaufmann Rüedi Rechtsanwälte AG -- dédupliqué depuis l'entrée déjà en cache
+`krlaw.ch` (fondée 1974, 15 domaines DE), le CSV référençant ce cabinet sous 2 graphies
+distinctes.
+
+**Échecs :** Zuppiger Jenny Rechtsanwälte AG (ZH -- seul un cabinet homonyme partiel trouvé,
+zuppiger-baurecht.ch, qui ne se présente nulle part comme "Zuppiger Jenny" : lien décliné,
+continuité non confirmée par le site lui-même) ; Arvian Legal AG (ZH, aucun site officiel,
+seule l'adresse au registre du commerce) ; Arnold & Partner Studio Legale Sagl (TI, aucun site
+officiel, seuls des annuaires tiers) ; Eigenmann Associés (TI -- siège principal à Lausanne
+VD, aucun fait spécifique à l'antenne tessinoise confirmé) ; K & B Rechtsanwälte (SG,
+kb-lawyers.ch, 503×2) ; relevanz.legal (SG, 503×2) ; LegalOne AG (SZ, domaine legalone.ch
+injoignable -- échec DNS).
+
+Rattachement : 660 études rattachées au total (648 → 660, +12 -- 2 graphies Broggini ignorées
+par le garde-fou anti-collision malgré cache correct, cf. ci-dessus). Suite de tests : 94/94
+au vert.
