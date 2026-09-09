@@ -3230,3 +3230,20 @@ GmbH (vérification anti-bot Cloudflare) ; Beeler & Werner (aucun site officiel)
 
 Rattachement : 740 études rattachées au total (737 → 740, +3). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 19h02 UTC — Phase 3, lot 83 (exécution automatisée)
+
+7 cabinets traités (5 succès / 2 échecs), dont un dédup.
+
+Succès : Anina Wissner Law AG (fondée **2025** -- "Seit 2025: Selbständige Rechtsanwältin in
+eigener Anwaltskanzlei in Zürich", solo, tel/email, 6 domaines EN dont droit du travail et
+bancaire privé) ; WilsonLaw (fondée **2015** -- "2015: Eröffnung von WilsonLaw", solo, tel/
+email, droit civil et des assurances sociales) ; FlyingLawyers GmbH (email, 4 domaines DE dont
+droit du tourisme/voyage) ; **dédupliqué** Wolff & Pool AG (ZH, 2 avocats -- le CSV référence
+ce même cabinet une 2e fois sous une graphie tronquée/collée en GR, "Gualtiero M.A. HSG Wolff &
+Pool AG Via", correspondant à leur antenne de St-Moritz mentionnée sur le site).
+
+Échecs : Winterberger Law Office (aucun cabinet trouvé), Winkler Rechtsanwälte (503×2).
+
+Rattachement : 745 études rattachées au total (740 → 745, +5). Suite de tests : 94/94 au
+vert.

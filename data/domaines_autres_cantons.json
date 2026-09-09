@@ -1196,6 +1196,20 @@
       "firm_name": "Dr. Egbert Wilms Rechtsanwälte",
       "reason": "Identite incertaine -- seul un site homonyme (wilms.ch, contact henri@wilms.ch) trouve, sans confirmation qu'il s'agit du meme Egbert Wilms ni d'un cabinet d'avocats"
     },
+    "winkler-rechtsanwaelte.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Winkler Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "winterberger-law-office-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Winterberger Law Office",
+      "reason": "Aucun cabinet correspondant trouve sous ce nom"
+    },
     "winterpartner.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -5742,6 +5756,19 @@
     ],
     "source_url": "https://www.fkr-legal.ch/",
     "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Walter Fellmann), Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Barbara Klett)"
+  },
+  "flyinglawyers.ch": {
+    "canton": "ZH",
+    "email": "info@flyinglawyers.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "FlyingLawyers GmbH",
+    "practice_areas_de": [
+      "Tourismus- und Reiserecht",
+      "Wirtschaftsrecht",
+      "Versicherungsrecht",
+      "Datenschutz und geistiges Eigentum"
+    ],
+    "source_url": "https://www.flyinglawyers.ch/"
   },
   "fnb-law.ch": {
     "canton": "ZH",
@@ -13870,6 +13897,38 @@
     ],
     "source_url": "https://www.wildschnyder.ch/"
   },
+  "wilsonlaw.ch": {
+    "canton": "ZH",
+    "email": "wilson@wilsonlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "WilsonLaw",
+    "founding_year": 2015,
+    "phone": "+41 43 535 06 60",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.wilsonlaw.ch/%C3%BCber-mich",
+    "team_size_n": 1
+  },
+  "wissner-law.ch": {
+    "canton": "ZH",
+    "email": "anina@wissner-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Anina Wissner Law AG",
+    "founding_year": 2025,
+    "phone": "+41 44 212 78 01",
+    "practice_areas_en": [
+      "Employment law",
+      "Contract law",
+      "Securities and corporate law",
+      "Debt collection and insolvency proceedings",
+      "Private banking law",
+      "Real estate/tenancy disputes"
+    ],
+    "source_url": "https://www.wissner-law.ch/",
+    "team_size_n": 1
+  },
   "wkflegal.com": {
     "_failed": true,
     "canton": "ZH",
@@ -13974,6 +14033,20 @@
       "Erbrecht"
     ],
     "source_url": "https://wolfer-frey.ch/"
+  },
+  "wolffpool.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Wolff & Pool AG",
+    "source_url": "https://wolffpool.ch/",
+    "team_size_n": 2
+  },
+  "wolffpool.ch#GR": {
+    "canton": "GR",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Gualtiero M.A. HSG Wolff & Pool AG Via",
+    "source_url": "https://wolffpool.ch/",
+    "team_size_n": 2
   },
   "wrecht.ch": {
     "canton": "ZH",
