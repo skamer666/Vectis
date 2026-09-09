@@ -3126,3 +3126,19 @@ anti-bot Cloudflare).
 
 Rattachement : 718 études rattachées au total (713 → 718, +5). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 13h04 UTC — Phase 3, lot 77 (exécution automatisée)
+
+9 cabinets traités (3 succès / 6 échecs), tous ZH.
+
+Succès : Schärli Recht GmbH (fondée **octobre 2025** -- Christoph Schärli devient seul
+propriétaire, tel/email, droit des infrastructures publiques/marchés publics) ; Reutlaw
+(cabinet pour start-ups/PME, tel/email, 4 domaines DE) ; PMH Partners AG (tel/email).
+
+Échecs : Schnyder Rechtsanwälte, Schuhmacher Weber Rechtsanwälte et Schroeder Nägeli & Partner
+(aucun site officiel trouvé, seuls des annuaires tiers) ; Kloter Modl Rechtsanwälte AG et
+Maybud Kessler Rechtsanwälte (503×2) ; ARNOLD LEGAL AG (cabinet multi-sites Zoug/Zurich, aucune
+coordonnée spécifique au bureau zurichois confirmée sur le site, règle 4 -- lien décliné).
+
+Rattachement : 721 études rattachées au total (718 → 721, +3). Suite de tests : 94/94 au
+vert.

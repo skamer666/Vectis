@@ -118,6 +118,13 @@
       "reason": "HTTP 503 Service Unavailable sur deux tentatives (http et https)",
       "tested_date": "2026-09-07"
     },
+    "arnold-legal.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "ARNOLD LEGAL AG",
+      "reason": "Cabinet multi-sites (Zoug/Zurich) -- aucune coordonnee specifique au bureau zurichois confirmee sur le site, seules celles de Zoug"
+    },
     "arnold-partner-ti": {
       "_failed": true,
       "canton": "TI",
@@ -467,6 +474,13 @@
       "firm_name": "Kessler Landolt Giacomini & Partner",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "klotermodl.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Kloter Modl Rechtsanwälte AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "kohler-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -576,6 +590,13 @@
       "firm_name": "Kaufmann Brühwiler & Partner",
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
+    },
+    "maybud-kessler.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Maybud Kessler Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "meisser-haller-zh": {
       "_failed": true,
@@ -832,11 +853,25 @@
       "reason": "Site accessible mais seule la page d'accueil (contenu generique) l'est, /en/contact et /team en 404, aucun fait exploitable",
       "tested_date": "2026-09-07"
     },
+    "schnyder-rechtsanwaelte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Schnyder Rechtsanwälte",
+      "reason": "Aucun site officiel trouve, seule une adresse email generique bluewin.ch dans des annuaires tiers"
+    },
     "schochjaeggihoch.com": {
       "canton": "ZH",
       "firm_name": "Schoch Jaeggi Hoch",
       "reason": "page d'accueil ne renvoie qu'a une section 'Practice Areas' sans contenu ; aucun tel/email lisible (protection anti-bot)",
       "tested_date": "2026-09-07"
+    },
+    "schroeder-naegeli-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Schroeder Nägeli & Partner",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
     },
     "schucan-wohlwend-gr": {
       "_failed": true,
@@ -844,6 +879,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Schucan & Wohlwend",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "schuhmacher-weber-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Schuhmacher Weber Rechtsanwälte",
+      "reason": "Aucun cabinet correspondant a ce nom exact trouve (seuls des cabinets homonymes partiels 'Weber' sans rapport)"
     },
     "sglaw.ch": {
       "canton": "SG",
@@ -10061,6 +10103,14 @@
     ],
     "source_url": "https://www.plegal.ch/en/"
   },
+  "pmhpartners.com": {
+    "canton": "ZH",
+    "email": "pmh@pmhpartners.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "PMH Partners AG",
+    "phone": "+41 44 211 43 33",
+    "source_url": "https://www.pmhpartners.com/kontakt"
+  },
   "pmp-ra.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -10499,6 +10549,20 @@
       "IP Strategy"
     ],
     "source_url": "https://www.rentschpartner.ch/uber-uns/profil-wer-wir-sind"
+  },
+  "reutlaw.com": {
+    "canton": "ZH",
+    "email": "milena@reutlaw.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Reutlaw",
+    "phone": "+41 44 599 93 26",
+    "practice_areas_de": [
+      "Gründen und Investieren",
+      "Arbeitsrecht",
+      "Anwalt auf Abruf",
+      "Prozessführung"
+    ],
+    "source_url": "https://www.reutlaw.com/de/kontakt"
   },
   "rfplegal.ch": {
     "canton": "SZ",
@@ -11163,6 +11227,19 @@
     "source_url": "https://www.schadenanwaelte.ch/",
     "team_size_n": 20,
     "team_size_text": "20 spécialistes"
+  },
+  "schaerli-recht.ch": {
+    "canton": "ZH",
+    "email": "schaerli@schaerli-recht.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Schärli Recht GmbH",
+    "founding_year": 2025,
+    "phone": "+41 44 283 60 60",
+    "practice_areas_de": [
+      "Öffentliches Infrastruktur- und Beschaffungsrecht"
+    ],
+    "source_url": "https://www.schaerli-recht.ch/",
+    "team_size_n": 1
   },
   "schaublaw.ch": {
     "canton": "ZH",
