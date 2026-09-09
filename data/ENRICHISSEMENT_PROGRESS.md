@@ -3142,3 +3142,22 @@ coordonnée spécifique au bureau zurichois confirmée sur le site, règle 4 -- 
 
 Rattachement : 721 études rattachées au total (718 → 721, +3). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 14h04 UTC — Phase 3, lot 78 (exécution automatisée)
+
+8 cabinets traités (5 succès / 3 échecs), tous ZH.
+
+Succès : Lawdvice Anwaltskanzlei Schürch (fondée **2020**, solo, tel/email, 3 domaines DE dont
+droit pénal/circulation) ; Gerber Séchy & Partner KIG (tel/email, 9 domaines DE dont
+prévoyance/succession -- origines remontant "aux années 1930" jugées trop vagues pour
+`founding_year`) ; SOUFIS LAW (solo, tel/email, 4 domaines EN dont marchés financiers) ;
+Schneider Heusi GmbH (solo, tel/email, 7 domaines DE dont droit des marchés publics) ; RA Marc
+Schmid GmbH (solo, tel/email, droit du travail et pénal).
+
+Échecs : Ileri Spörri Rechtsanwälte (503×2, avocats ne prenant plus de nouveaux mandats selon
+sources tierces), Simmen Rechtsanwälte (aucun site officiel), MBR Rechtsanwälte / Attorneys at
+Law (identité incertaine -- seul un cabinet homonyme partiel "mbh Law" trouvé, orthographe
+différente, lien décliné).
+
+Rattachement : 726 études rattachées au total (721 → 726, +5). Suite de tests : 94/94 au
+vert.

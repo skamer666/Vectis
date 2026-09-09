@@ -411,6 +411,13 @@
       "firm_name": "Hofmann Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "ileri-rechtsanwaelte.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Ileri Spörri Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2) ; par ailleurs les deux avocats ne prennent plus de nouveaux mandats selon des sources tierces"
+    },
     "indemnis.ch": {
       "canton": "BS",
       "date": "2026-07-29",
@@ -597,6 +604,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Maybud Kessler Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "mbr-rechtsanwaelte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "MBR Rechtsanwälte / Attorneys at Law",
+      "reason": "Identite incertaine -- seul un cabinet homonyme partiel 'mbh Law' (meme adresse Beethovenstrasse 5) trouve, orthographe differente (MBR vs MBH), lien decline"
     },
     "meisser-haller-zh": {
       "_failed": true,
@@ -906,6 +920,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Sigg Schwarz Advokatur",
       "reason": "HTTP 403 Forbidden (x2, homepage et /kontakt.html)"
+    },
+    "simmen-rechtsanwaelte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Simmen Rechtsanwälte",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
     },
     "staedeli-legalpartners.ch": {
       "_failed": true,
@@ -6350,6 +6371,25 @@
     "phone": "+41 43 344 61 61",
     "source_url": "https://www.gslaw.ch/"
   },
+  "gspattorney.ch": {
+    "canton": "ZH",
+    "email": "info@gspattorney.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Gerber Séchy & Partner KIG",
+    "phone": "+41 44 286 96 96",
+    "practice_areas_de": [
+      "Prozessführung und Schiedsverfahren",
+      "Vertrags-, Gesellschafts- und Handelsrecht",
+      "Zivil- und Erbrecht",
+      "Nachlassplanung und Willensvollstreckung",
+      "Arbeitsrecht",
+      "Bau- und Immobilienrecht",
+      "Mietrecht",
+      "Betreibungs- und Insolvenzrecht",
+      "Haftpflichtrecht"
+    ],
+    "source_url": "https://www.gspattorney.ch/"
+  },
   "gubalex.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-08",
@@ -8094,6 +8134,21 @@
     "practice_areas_fr": [],
     "source_url": "https://www.lauxlawyers.ch/en/law-firm/",
     "team_size_n": null
+  },
+  "lawdvice.ch": {
+    "canton": "ZH",
+    "email": "info@lawdvice.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Lawdvice Anwaltskanzlei Schürch",
+    "founding_year": 2020,
+    "phone": "+41 43 928 70 00",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.lawdvice.ch/kontakt",
+    "team_size_n": 1
   },
   "lawsg.ch": {
     "canton": "SG",
@@ -10478,6 +10533,19 @@
     "source_url": "https://www.rechtskraft.ch/en",
     "team_size_n": null
   },
+  "rechtsschmid.ch": {
+    "canton": "ZH",
+    "email": "marc.schmid@rechtsschmid.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "RA Marc Schmid GmbH",
+    "phone": "+41 79 105 80 83",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://rechtsschmid.ch/kontakt/",
+    "team_size_n": 1
+  },
   "reetz-sohm.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -11416,6 +11484,24 @@
     ],
     "source_url": "https://www.schmidsutter.ch/"
   },
+  "schneiderheusi.ch": {
+    "canton": "ZH",
+    "email": "csh@schneiderheusi.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Schneider Heusi GmbH",
+    "phone": "+41 44 244 06 12",
+    "practice_areas_de": [
+      "Vergaberecht",
+      "Ausschreibungsunterlagen",
+      "Vertragsgestaltung (Planer-/Werkverträge)",
+      "Baustreitigkeiten",
+      "Gutachten",
+      "Baumediation und Schiedsverfahren",
+      "Verwaltungsuntersuchungen"
+    ],
+    "source_url": "https://www.schneiderheusi.ch/",
+    "team_size_n": 1
+  },
   "schneiderlegal.ch": {
     "canton": "SG",
     "email": "mail@schneiderlegal.ch",
@@ -11744,6 +11830,21 @@
       "Outsourced Legal Services and Project Management"
     ],
     "source_url": "https://sojalaw.ch/"
+  },
+  "soufislaw.ch": {
+    "canton": "ZH",
+    "email": "irini.soufis@soufislaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "SOUFIS LAW",
+    "phone": "+41 44 586 20 27",
+    "practice_areas_en": [
+      "Financial markets",
+      "Contract law",
+      "Corporate law",
+      "Inheritance and family law"
+    ],
+    "source_url": "https://soufislaw.ch/en/attorney-at-law/",
+    "team_size_n": 1
   },
   "sperling-legal.ch": {
     "canton": "ZH",
