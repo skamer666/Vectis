@@ -3214,3 +3214,19 @@ seuls des annuaires tiers), Steuer- & Anwaltskanzlei Stieger (503×2).
 
 Rattachement : 737 études rattachées au total (734 → 737, +3). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 18h02 UTC — Phase 3, lot 82 (exécution automatisée)
+
+7 cabinets traités (3 succès / 4 échecs), tous ZH.
+
+Succès : WERNLI Anwaltskanzlei (tel/email, 11 domaines DE dont droit de la santé et
+médical) ; Arvedelis AG (Dübendorf, tel/email, 3 domaines DE, cabinet pour entreprises et
+transactions) ; EAW Legal (tel/email).
+
+Échecs : STERN.LAW AG (vérification anti-bot Cloudflare -- fondation 1977 mentionnée dans les
+résultats de recherche mais non confirmée directement sur le site, non retenue) ; Dr. Egbert
+Wilms Rechtsanwälte (identité incertaine, site homonyme trouvé sans confirmation) ; RED Advice
+GmbH (vérification anti-bot Cloudflare) ; Beeler & Werner (aucun site officiel).
+
+Rattachement : 740 études rattachées au total (737 → 740, +3). Suite de tests : 94/94 au
+vert.
