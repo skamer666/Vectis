@@ -2946,3 +2946,30 @@ injoignable -- échec DNS).
 Rattachement : 660 études rattachées au total (648 → 660, +12 -- 2 graphies Broggini ignorées
 par le garde-fou anti-collision malgré cache correct, cf. ci-dessus). Suite de tests : 94/94
 au vert.
+
+### 2026-09-09 05h04 UTC — Phase 3, lot 69 (exécution automatisée)
+
+23 cabinets traités (11 succès / 10 échecs), tous ZH (boutiques d'avocat·e·s indépendant·e·s
+Zurich, recherches et vérifications groupées en parallèle).
+
+Succès : Balthasar Legal AG (7 personnes, tel/email, 6 domaines DE dont IA/protection des
+données -- **dédupliqué** vers son antenne lucernoise, le CSV référençant la même étude sous
+"lic. iur Balthasar Legal AG" en LU) ; Bischofberger Rechtsanwälte (fondée **1998** --
+"hat die Kanzlei im Jahre 1998 gegründet", tel/email, 5 domaines DE dont droit de la
+construction) ; BRUNNER & PARTNER Advokatur (fondée **2002** -- "seit 2002", 2 avocats,
+tel/email, 5 domaines DE) ; BYLANDLAW (fondée **2009**, solo, tel/email) ; CORAY LAW (solo,
+tel/email, 3 domaines DE dont droit successoral) ; Caputo & Partners AG (fondée **2006**, tel,
+9 domaines EN -- boutique spécialisée protection d'actifs bancaires) ; Benz Rechtsanwälte AG
+(tel/email) ; BollmannLaw (solo, email) ; Limmatlegal (tel/email, droit de la responsabilité
+civile et des assurances) ; Dätwyler Advokatur GmbH (solo, tel/email, 4 domaines DE dont droit
+du divorce).
+
+Échecs : OMB & Partners AG, Bärtschi Rechtsanwälte AG (barlex.ch, 403 Forbidden), Behrens
+Trusted Advisors Rechtsanwälte AG (contenu JS insuffisant), Berlinger AG (n'est plus un
+cabinet d'avocats -- société de conseil, confirmé par le site), Bietenholz Consulting & Law
+(site en construction), Braun Advokatur + Steuern (503×2), Borbély Legal GmbH (503×2), Burns
+Legal (contenu JS insuffisant), Calò Partners AG (aucun site officiel), Becchio & Partner
+(site en construction).
+
+Rattachement : 671 études rattachées au total (660 → 671, +11). Suite de tests : 94/94 au
+vert.

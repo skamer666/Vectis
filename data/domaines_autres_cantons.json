@@ -142,17 +142,73 @@
       "firm_name": "Bäumlin + Partner Advokatur und Mediation",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "barlex.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Bärtschi Rechtsanwälte AG",
+      "reason": "HTTP 403 Forbidden"
+    },
+    "becchio-partner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Becchio & Partner",
+      "reason": "Site officiel (becchioandpartner.com) en construction, aucun contenu exploitable"
+    },
     "bellparklegal.com": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
       "firm_name": "bellpark legal AG",
       "reason": "aucun fait extractible (pas de founding_year, team_size ni liste practice_areas)"
     },
+    "berlinger-ag-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Berlinger AG",
+      "reason": "N'est pas (plus) un cabinet d'avocats -- societe de conseil/speaking, confirme par le site lui-meme"
+    },
     "bettonipartner.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
       "firm_name": "Bettoni & Partner",
       "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation"
+    },
+    "bietenholz.law": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Bietenholz Consulting & Law",
+      "reason": "Site indique \"Demnächst verfügbar\" (en construction), aucun contenu exploitable"
+    },
+    "borbely.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Borbély Legal GmbH",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "braunlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Braun Advokatur + Steuern",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "burns.legal": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Burns Legal",
+      "reason": "Contenu HTML statique insuffisant sur 2 pages testees (accueil, services) -- rendu JS probable"
+    },
+    "calo-partners-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Calò Partners AG",
+      "reason": "Aucun site officiel trouve, seul le registre du commerce (Moneyhouse)"
     },
     "cereghetti-ti-ambigu": {
       "_failed": true,
@@ -438,6 +494,13 @@
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
     },
+    "omb-partners-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "OMB & Partners AG",
+      "reason": "Aucun site officiel trouve, seul le registre des avocats ZH (adresse Seefeldstr. 15)"
+    },
     "pachmann.law": {
       "canton": "ZH",
       "firm_name": "Pachmann AG",
@@ -675,6 +738,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Terekhov Law",
       "reason": "HTTP 403 Forbidden (x2)"
+    },
+    "trustedadvisors.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Behrens Trusted Advisors Rechtsanwälte AG",
+      "reason": "Contenu HTML statique insuffisant sur 2 pages testees (impressum, zuerich) -- rendu JS probable"
     },
     "umbricht.ch": {
       "_failed": true,
@@ -2639,6 +2709,40 @@
     "source_url": "https://balex.law/en/services/",
     "team_size_n": null
   },
+  "balthasar-legal.ch": {
+    "canton": "ZH",
+    "email": "michele.balthasar@balthasar-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Balthasar Legal AG",
+    "phone": "+41 43 233 87 77",
+    "practice_areas_de": [
+      "KI, Datenschutz und Datensicherheit-Governance",
+      "Energie- und Stromversorgungsrecht",
+      "IT-Verträge und digitale Geschäftsmodelle",
+      "Legal Counsel as a Service",
+      "Externer Datenschutzberater (DPO)",
+      "Online-Schulungen"
+    ],
+    "source_url": "https://balthasar-legal.ch/",
+    "team_size_n": 7
+  },
+  "balthasar-legal.ch#LU": {
+    "canton": "LU",
+    "email": "michele.balthasar@balthasar-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "lic. iur Balthasar Legal AG",
+    "phone": "+41 41 244 20 77",
+    "practice_areas_de": [
+      "KI, Datenschutz und Datensicherheit-Governance",
+      "Energie- und Stromversorgungsrecht",
+      "IT-Verträge und digitale Geschäftsmodelle",
+      "Legal Counsel as a Service",
+      "Externer Datenschutzberater (DPO)",
+      "Online-Schulungen"
+    ],
+    "source_url": "https://balthasar-legal.ch/kontakt-balthasar-legal-ag/",
+    "team_size_n": 7
+  },
   "barandun-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3065,6 +3169,14 @@
     "phone": "+41 43 204 00 90",
     "source_url": "https://bellparklegal.com/en/ueber-uns/"
   },
+  "benz-partners.ch": {
+    "canton": "ZH",
+    "email": "benz@benz-partners.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Benz Rechtsanwälte AG",
+    "phone": "+41 44 388 27 77",
+    "source_url": "https://www.benz-partners.ch/"
+  },
   "bettonipartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -3350,6 +3462,22 @@
       "Opferhilferecht"
     ],
     "source_url": "https://birslex.ch/dienstleistungen/"
+  },
+  "bischofberger-law.ch": {
+    "canton": "ZH",
+    "email": "sekretariat@bischofberger-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Bischofberger Rechtsanwälte",
+    "founding_year": 1998,
+    "phone": "+41 44 260 54 05",
+    "practice_areas_de": [
+      "Öffentliches und privates Baurecht",
+      "Mietrecht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://bischofberger-law.ch/"
   },
   "bkp-legal.ch": {
     "canton": "ZH",
@@ -3667,6 +3795,14 @@
     "source_url": "https://bodmerfischer.ch/en/expertise/",
     "team_size_n": null
   },
+  "bollmannlaw.ch": {
+    "canton": "ZH",
+    "email": "cb@bollmannlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "BollmannLaw",
+    "source_url": "https://www.bollmannlaw.ch/kontakt",
+    "team_size_n": 1
+  },
   "bommermathys.ch": {
     "canton": "ZH",
     "email": "info@bommermathys.ch",
@@ -3880,6 +4016,23 @@
     "source_url": "https://brunnerknobel.ch/was-bieten-wir/",
     "team_size_n": 2
   },
+  "brunnerlegal.com": {
+    "canton": "ZH",
+    "email": "info@brunnerlegal.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "BRUNNER & PARTNER Advokatur",
+    "founding_year": 2002,
+    "phone": "+41 44 213 65 95",
+    "practice_areas_de": [
+      "Finanzdienstleistungen",
+      "Wirtschafts- und Vertragsrecht",
+      "Private Clients",
+      "Immaterialgüterrecht",
+      "Prozessrecht"
+    ],
+    "source_url": "https://www.brunnerlegal.com/",
+    "team_size_n": 2
+  },
   "bsmw.ch": {
     "canton": "ZH",
     "email": "info@bsmw.ch",
@@ -4085,6 +4238,16 @@
       "Family Office Services"
     ],
     "source_url": "https://bwr-law.ch/?lang=en"
+  },
+  "byland.law": {
+    "canton": "ZH",
+    "email": "mail@byland.law",
+    "fetched_date": "2026-09-09",
+    "firm_name": "BYLANDLAW",
+    "founding_year": 2009,
+    "phone": "+41 43 321 32 32",
+    "source_url": "https://byland.law/en/about/",
+    "team_size_n": 1
   },
   "cahannes.ch": {
     "canton": "GR",
@@ -4311,6 +4474,20 @@
     "phone": "+41 44 552 49 20",
     "source_url": "https://www.consavo.com/consavo-adressen/"
   },
+  "coray-law.ch": {
+    "canton": "ZH",
+    "email": "kay.coray@coray-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "CORAY LAW",
+    "phone": "+41 44 243 25 80",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Ehegüterrecht",
+      "Erbrecht und Kindes-/Erwachsenenschutz (KESB)"
+    ],
+    "source_url": "https://www.coray-law.ch/",
+    "team_size_n": 1
+  },
   "core-attorneys.com": {
     "canton": "ZH",
     "email": "info@core-attorneys.com",
@@ -4409,6 +4586,21 @@
     ],
     "source_url": "https://daeppenlaw.ch/",
     "team_size_n": 2
+  },
+  "daetwyleradvokatur.ch": {
+    "canton": "ZH",
+    "email": "daetwyler@daetwyleradvokatur.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Dätwyler Advokatur GmbH",
+    "phone": "079 545 14 32",
+    "practice_areas_de": [
+      "Ehe- und Scheidungsrecht",
+      "Erbrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.daetwyleradvokatur.ch/Kontakt.htm",
+    "team_size_n": 1
   },
   "davatzlegal.ch": {
     "canton": "ZH",
@@ -7857,6 +8049,17 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "limmatlegal.ch": {
+    "canton": "ZH",
+    "email": "info@limmatlegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Limmatlegal",
+    "phone": "+41 44 214 64 14",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht"
+    ],
+    "source_url": "https://limmatlegal.ch/en/contact/"
+  },
   "linde-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -10985,6 +11188,25 @@
     "firm_name": "Lischer Zemp & Partner St.",
     "phone": "+41 41 410 14 16",
     "source_url": "https://swanlex.ch/"
+  },
+  "swiss-banking-lawyers.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Caputo & Partners AG",
+    "founding_year": 2006,
+    "phone": "+41 43 508 24 59",
+    "practice_areas_en": [
+      "Swiss bank account opening",
+      "Wealth management and asset protection",
+      "Frozen bank account resolution",
+      "Inheritance and dormant account matters",
+      "Tax optimization and relocation services",
+      "Citizenship by investment / Golden Visa programs",
+      "Company formation in Switzerland",
+      "Family office services",
+      "Private banking advisory"
+    ],
+    "source_url": "https://swiss-banking-lawyers.com/"
   },
   "swiss-insurance-law.com": {
     "canton": "ZH",
