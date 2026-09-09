@@ -80,6 +80,13 @@
       "reason": "Resolution DNS impossible (timeout) sur deux tentatives",
       "tested_date": "2026-09-07"
     },
+    "advostieger.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Steuer- & Anwaltskanzlei Stieger",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "advosuisse.org": {
       "_failed": true,
       "canton": "ZH",
@@ -771,6 +778,13 @@
       "firm_name": "Quadra Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "rajower-weber-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Rajower & Weber",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
+    },
     "rauchlegal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -990,6 +1004,13 @@
       "firm_name": "Stern Anwaltskanzlei",
       "reason": "Aucun site officiel trouve, seul le registre du commerce (fondee avril 2025)"
     },
+    "stiftungsplus-daniel-waser-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Stiftungsplus Daniel Waser",
+      "reason": "Ne semble pas etre un cabinet d'avocats -- service de conseil en gouvernance de fondations, aucune mention de statut d'avocat"
+    },
     "stplaw.ch": {
       "canton": "ZH",
       "firm_name": "Stiffler & Partner",
@@ -1075,6 +1096,13 @@
       "firm_name": "Umbricht Rechtsanwälte AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "usterlex-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "UsterLex",
+      "reason": "Aucun cabinet correspondant trouve sous ce nom"
+    },
     "utolegal.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -1118,6 +1146,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Wehrli Zimmermann & Partner",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "weil-legal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "WEIL legal",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
     },
     "weinmann-zimmerli.ch": {
       "_failed": true,
@@ -9626,6 +9661,30 @@
     "source_url": "https://mvlp.ch/en/team-en/",
     "team_size_n": 5
   },
+  "mwra.ch": {
+    "canton": "ZH",
+    "email": "mail@mwra.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Mätzler Rechtsanwalt",
+    "phone": "+41 44 941 50 00",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Baurecht",
+      "Werkvertragsrecht",
+      "Ehe- und Scheidungsrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Strafverfahrensrecht",
+      "Zivilprozessrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.mwra.ch/"
+  },
   "nastra.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -12155,6 +12214,22 @@
     "founding_year": 1951,
     "practice_areas_en": [],
     "practice_areas_fr": [],
+    "source_url": "https://steinlex.ch/kanzlei/",
+    "team_size_n": 16
+  },
+  "steinlex.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Töndury AG, Steinbrüchel Hüssy",
+    "founding_year": 1951,
+    "source_url": "https://steinlex.ch/kanzlei/",
+    "team_size_n": 16
+  },
+  "steinlex.ch#3": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "A. Rambosson AG, Steinbrüchel Hüssy",
+    "founding_year": 1951,
     "source_url": "https://steinlex.ch/kanzlei/",
     "team_size_n": 16
   },

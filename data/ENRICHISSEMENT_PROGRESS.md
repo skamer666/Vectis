@@ -3195,3 +3195,22 @@ de la construction et de l'environnement).
 
 Rattachement : 734 études rattachées au total (730 → 734, +4). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 17h03 UTC — Phase 3, lot 81 (exécution automatisée)
+
+8 cabinets traités (3 succès / 5 échecs), tous ZH.
+
+Succès : Mätzler Rechtsanwalt (Uster, tel/email, 14 domaines DE) ; **dédupliqué** Steinbrüchel
+Hüssy Rechtsanwälte (déjà en cache `steinlex.ch`, fondée 1951, 16 avocats -- le CSV référence
+ce même grand cabinet zurichois sous 2 graphies distinctes liées à des associés individuels,
+"Töndury AG, Steinbrüchel Hüssy" et "A. Rambosson AG, Steinbrüchel Hüssy").
+
+**Cabinet non-avocat écarté :** Stiftungsplus Daniel Waser -- il s'agit d'un service de conseil
+en gouvernance de fondations, aucune mention de statut d'avocat sur le site trouvé, décliné par
+prudence.
+
+Échecs : UsterLex (aucun cabinet trouvé), WEIL legal et Rajower & Weber (aucun site officiel,
+seuls des annuaires tiers), Steuer- & Anwaltskanzlei Stieger (503×2).
+
+Rattachement : 737 études rattachées au total (734 → 737, +3). Suite de tests : 94/94 au
+vert.
