@@ -3085,3 +3085,24 @@ ADVOSUISSE (403×2).
 
 Rattachement : 707 études rattachées au total (702 → 707, +5). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 11h04 UTC — Phase 3, lot 75 (exécution automatisée)
+
+8 cabinets traités (6 succès / 2 échecs), tous ZH.
+
+Succès : Ritter & Partner Rechtsanwälte (fondée **2000** par Dr. Andreas Ritter, boutique
+droit de l'art/PI, tel/email, 6 domaines EN) ; Meier Sadiku Law AG (bureaux Lucerne+Zurich, tel/
+email, 7 domaines DE dont droit du sport) ; RUGGLE PARTNER (2 avocats, tel, 7 domaines DE dont
+droit de l'art) ; Kiener & Märki AG (2 avocats, tel/email, spécialisation clientèle
+russophone) ; SABETI LEGAL (tel/email) ; Rutishauser Rechtsanwälte (tel/email, droit fiscal).
+
+**Piège de fondation évité :** Kiener & Märki AG (kmag.ch) affiche "Seit 1999 strebt Dr. iur.
+Olaf Kiener danach..." -- une date de carrière individuelle de l'un des deux associés, pas la
+fondation de l'entité "Kiener & Märki AG" elle-même (formée en 2021 selon des sources tierces,
+non vérifiée sur le site) : `founding_year` volontairement omis.
+
+Échecs : Obrecht & Frehner (identité incertaine, aucun site confirmé sous ce nom exact),
+Doggwiler Aschwanden Rechtsanwälte (addlaw.ch, échec DNS).
+
+Rattachement : 713 études rattachées au total (707 → 713, +6). Suite de tests : 94/94 au
+vert.

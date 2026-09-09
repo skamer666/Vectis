@@ -34,6 +34,13 @@
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
     },
+    "addlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Doggwiler Aschwanden Rechtsanwälte",
+      "reason": "Domaine officiel (addlaw.ch) injoignable (echec DNS)"
+    },
     "adler-salminen-rechtsanwalte-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -647,6 +654,13 @@
       "firm_name": "NEUPERT VUILLE PARTNERS",
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "obrecht-frehner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Obrecht & Frehner",
+      "reason": "Identite incertaine -- aucun site officiel confirme sous le nom exact 'Obrecht & Frehner' (seul un cabinet homonyme partiel 'Frehner Law' trouve, sans mention d'Obrecht)"
     },
     "omb-partners-zh": {
       "_failed": true,
@@ -7560,6 +7574,19 @@
     ],
     "source_url": "https://www.klotermodl.ch/"
   },
+  "kmag.ch": {
+    "canton": "ZH",
+    "email": "info@kmag.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Kiener & Märki AG",
+    "phone": "+41 44 218 51 15",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Vermögensrecht"
+    ],
+    "source_url": "https://kmag.ch/company.html",
+    "team_size_n": 2
+  },
   "kmb-anwaelte.ch": {
     "canton": "SZ",
     "email": "info@kmb-anwaelte.ch",
@@ -8973,6 +9000,23 @@
       "Administrative law"
     ],
     "source_url": "https://www.meierlegal.ch/"
+  },
+  "meiersadiku.law": {
+    "canton": "ZH",
+    "email": "info@meiersadiku.law",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Meier Sadiku Law AG",
+    "phone": "+41 41 818 80 80",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsrecht",
+      "Sportrecht",
+      "Sozialversicherungsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://meiersadiku.law/"
   },
   "mensik-schmid.ch": {
     "canton": "LU",
@@ -10514,6 +10558,23 @@
     "phone": "+41 44 576 83 30",
     "source_url": "https://riselaw.ch/contact"
   },
+  "ritterpartner.ch": {
+    "canton": "ZH",
+    "email": "info@ritterpartner.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Ritter & Partner Rechtsanwälte",
+    "founding_year": 2000,
+    "phone": "+41 44 269 66 88",
+    "practice_areas_en": [
+      "Art law",
+      "Information technology and digitization",
+      "Media and communication law",
+      "Music, theatre, stage, design, architecture, fashion",
+      "Corporate law",
+      "Litigation and arbitration"
+    ],
+    "source_url": "https://www.ritterpartner.ch/en/firm-portrait/"
+  },
   "rlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -10867,6 +10928,23 @@
     "source_url": "https://ruetimann.lind.team/",
     "team_size_n": 10
   },
+  "rugglepartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "RUGGLE PARTNER",
+    "phone": "+41 43 244 82 22",
+    "practice_areas_de": [
+      "Verträge",
+      "Unternehmen",
+      "Start-ups",
+      "Nachlassplanung/Willensvollstreckung",
+      "Verfahren/Prozesse",
+      "Kunstrecht",
+      "Schiedsverfahren/Mediation"
+    ],
+    "source_url": "http://www.rugglepartner.ch/de/Home.1.html",
+    "team_size_n": 2
+  },
   "ruossvoegele.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -10881,6 +10959,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.ruossvoegele.ch/kanzlei",
     "team_size_n": null
+  },
+  "rutishauser-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "rutishauser@rutishauser-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Rutishauser Rechtsanwälte",
+    "phone": "043 344 45 00",
+    "source_url": "https://www.rutishauser-rechtsanwaelte.ch/kontakt"
   },
   "rwra.ch": {
     "canton": "ZH",
@@ -10919,6 +11005,14 @@
       "Droit du travail"
     ],
     "source_url": "https://www.s-law.com/en/zuerich/"
+  },
+  "sabeti-legal.ch": {
+    "canton": "ZH",
+    "email": "sabetilange@sabeti-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "SABETI LEGAL",
+    "phone": "+41 79 627 68 85",
+    "source_url": "https://sabeti-legal.ch/"
   },
   "sartorial.ch": {
     "canton": "SG",
