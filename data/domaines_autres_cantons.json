@@ -238,6 +238,13 @@
       "firm_name": "Studio legale e notarile Cereghetti",
       "reason": "Identite ambigue -- au moins deux etudes distinctes portant le nom Cereghetti au Tessin (Katia Cereghetti Soldini a Chiasso, et Claudio Cereghetti & Partner), rattachement au bon site non confirme"
     },
+    "drplegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Revesz und Partner Rechtsanwälte",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
     "drsp-law.ch": {
       "canton": "GR",
       "date": "2026-07-29",
@@ -675,6 +682,20 @@
       "reason": "URL hors provenance — non accessible via web_fetch",
       "tested_date": "2026-07-28"
     },
+    "paltzerprivateclientslaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Paltzer Private Clients Law",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "piasini-advokatur-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Piasini Advokatur",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers ; possiblement ferme selon un annuaire"
+    },
     "prudentia-law.ch": {
       "canton": "ZH",
       "firm_name": "PRUDENTIA LAW",
@@ -783,6 +804,20 @@
       "firm_name": "Schaub Hochl Rechtsanwälte AG",
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
+    },
+    "schill-legal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Schill Legal",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "schmid-partner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Schmid & Partner",
+      "reason": "Aucun site officiel trouve sous ce nom exact"
     },
     "schmidgiuliani.ch": {
       "_failed": true,
@@ -3122,6 +3157,16 @@
     ],
     "source_url": "https://battaglioni-giovanettina.digitalone.site/",
     "team_size_n": 2
+  },
+  "bauanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Schaltegger Rechtsanwälte",
+    "phone": "+41 44 260 66 66",
+    "practice_areas_de": [
+      "Baurecht"
+    ],
+    "source_url": "https://www.bauanwalt.ch/"
   },
   "baudenbacher.law": {
     "canton": "ZH",
@@ -9275,6 +9320,33 @@
     ],
     "source_url": "https://www.muehlebach-law.ch/"
   },
+  "mueller-adv.ch": {
+    "canton": "ZH",
+    "email": "info@mueller-adv.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Müller Rechtsanwälte und Treuhand AG",
+    "founding_year": 2004,
+    "phone": "+41 44 212 0040",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindesrecht",
+      "Arbeitsrecht",
+      "Bank- und Finanzmarktrecht",
+      "Steuerrecht",
+      "Erwachsenenschutzrecht",
+      "Erbrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "http://mueller-adv.ch/"
+  },
+  "mueller-legal.ch": {
+    "canton": "ZH",
+    "email": "office@mueller-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "MUELLER LEGAL, Anwaltskanzlei Damian Müller",
+    "phone": "+41 44 910 99 44",
+    "source_url": "https://www.mueller-legal.ch/kontakt"
+  },
   "muellerpaparis.ch": {
     "canton": "ZH",
     "email": "office@muellerpaparis.ch",
@@ -10960,6 +11032,18 @@
     "source_url": "https://www.ruossvoegele.ch/kanzlei",
     "team_size_n": null
   },
+  "ruossvoegele.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Ruoss Vögele",
+    "practice_areas_en": [
+      "Corporate Regulatory",
+      "Transactions",
+      "Litigation / Arbitration",
+      "Private Clients"
+    ],
+    "source_url": "https://www.ruossvoegele.ch/kanzlei"
+  },
   "rutishauser-rechtsanwaelte.ch": {
     "canton": "ZH",
     "email": "rutishauser@rutishauser-rechtsanwaelte.ch",
@@ -11192,6 +11276,22 @@
     "firm_name": "Berther Moeri Neuber Schindler",
     "phone": "+41 44 215 47 47",
     "source_url": "http://www.schipfe32.ch/"
+  },
+  "schlegel-recht.ch": {
+    "canton": "ZH",
+    "email": "schlegel@schlegel-recht.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "SCHLEGEL RECHT",
+    "phone": "+41 43 817 63 47",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Erbrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.schlegel-recht.ch/",
+    "team_size_n": 1
   },
   "schmidchristoffel.ch": {
     "canton": "GR",

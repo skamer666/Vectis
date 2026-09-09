@@ -3106,3 +3106,23 @@ Doggwiler Aschwanden Rechtsanwälte (addlaw.ch, échec DNS).
 
 Rattachement : 713 études rattachées au total (707 → 713, +6). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 12h04 UTC — Phase 3, lot 76 (exécution automatisée)
+
+10 cabinets traités (5 succès / 5 échecs), tous ZH.
+
+Succès : Müller Rechtsanwälte und Treuhand AG (fondée **2004** -- "die 2004 als Brücke im
+Schweizerisch-Brasilianischen Rechtsverkehr gegründet wurde", tel/email, 8 domaines DE dont
+droit suisso-brésilien) ; **dédupliqué** Ruoss Vögele (déjà en cache `ruossvoegele.ch` sous la
+graphie "Ruoss Vögele Partner", 18 avocats -- le CSV référence ce même cabinet sous une 2e
+graphie "Ruoss Vögele", 5 domaines EN) ; SCHLEGEL RECHT (solo, tel/email, 5 domaines DE) ;
+Schaltegger Rechtsanwälte (bauanwalt.ch, tel, droit de la construction) ; MUELLER LEGAL,
+Anwaltskanzlei Damian Müller (tel/email).
+
+Échecs : Schmid & Partner (aucun site officiel), Revesz und Partner Rechtsanwälte (drplegal.ch
+-- vérification anti-bot Cloudflare, aucun contenu reçu), Piasini Advokatur (aucun site
+officiel, possiblement fermé), Schill Legal et Paltzer Private Clients Law (même blocage
+anti-bot Cloudflare).
+
+Rattachement : 718 études rattachées au total (713 → 718, +5). Suite de tests : 94/94 au
+vert.
