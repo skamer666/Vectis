@@ -678,6 +678,13 @@
       "firm_name": "Advokatur Wieser & Wieser",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "winterpartner.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Winter & Partner",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "winzeler.law": {
       "_failed": true,
       "canton": "ZH",
@@ -11158,6 +11165,18 @@
     "source_url": "https://utolegal.ch/en/contact",
     "team_size_n": 6
   },
+  "utr.ch": {
+    "canton": "ZH",
+    "email": "office@utr.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Uhlmann Trümpler Rechtsanwälte (UTR) GmbH",
+    "phone": "+41 44 214 62 03",
+    "practice_areas_de": [
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://utr.ch/",
+    "team_size_n": 2
+  },
   "valentin-landmann.ch": {
     "canton": "ZH",
     "email": "info@valentin-landmann.ch",
@@ -11434,6 +11453,22 @@
     ],
     "source_url": "https://vonsegesserlaw.com/"
   },
+  "vslaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "VALLUCCI & SCHMUTZ AG",
+    "phone": "+41 43 501 18 18",
+    "practice_areas_en": [
+      "Estate planning and litigation",
+      "Corporate taxation",
+      "Taxation of individuals/private clients",
+      "Tax disputes",
+      "Relocation to Switzerland",
+      "Philanthropy/Charities"
+    ],
+    "source_url": "https://www.vslaw.ch/",
+    "team_size_n": 2
+  },
   "walche.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -11601,6 +11636,21 @@
       "Sanktionsrecht / Compliance"
     ],
     "source_url": "https://wehrenberg-law.ch/"
+  },
+  "weidmann-law.ch": {
+    "canton": "ZH",
+    "email": "info@weidmann-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Weidmann Rechtsanwälte",
+    "phone": "+41 44 245 25 25",
+    "practice_areas_de": [
+      "Privatrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Nationales und internationales Steuerrecht",
+      "Prozessführung vor Gerichten und Behörden",
+      "Gutachten"
+    ],
+    "source_url": "https://weidmann-law.ch/kanzlei/"
   },
   "wenfei.com": {
     "canton": "ZH",
@@ -11953,6 +12003,15 @@
     "source_url": "https://www.wt92.ch/",
     "team_size_n": 4
   },
+  "wwnw.ch": {
+    "canton": "ZH",
+    "email": "info@wwnw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "WWNW Advokatur AG",
+    "phone": "+41 44 212 70 70",
+    "source_url": "https://www.wwnw.ch/kontakt.php",
+    "team_size_n": 4
+  },
   "wyssundpartner.ch": {
     "canton": "ZH",
     "email": "info@wyssundpartner.ch",
@@ -12114,5 +12173,13 @@
     ],
     "source_url": "https://zurichlawyers.com/rechtsgebiete/",
     "team_size_n": 12
+  },
+  "zuzak.ch": {
+    "canton": "ZH",
+    "email": "info@zuzak.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Zuzak Rechtsanwälte AG",
+    "phone": "+41 44 215 35 50",
+    "source_url": "https://www.zuzak.ch/en/contact/"
   }
 }

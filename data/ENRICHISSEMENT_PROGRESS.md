@@ -2846,3 +2846,14 @@ Zimmerli (site JS-only Nuxt, aucun contenu HTML statique exploitable), Zollinger
 Rechtsanwälte (zr-law.ch, 503×2), Winzeler Law (503×2 y compris après redirection).
 
 Rattachement : 634 études rattachées au total (632 → 634, +2). Suite de tests : 94/94 au vert.
+
+### 2026-09-09 00h03 UTC — Phase 3, lot 64 (exécution automatisée)
+
+6 cabinets traités (5 succès / 1 échec), tous ZH. WWNW Advokatur AG (tel/email, 4 avocats),
+Zuzak Rechtsanwälte AG (tel/email spécifiques au bureau de Zurich -- cabinet international
+avec Prague/Bratislava, faits limités à la Suisse), Uhlmann Trümpler Rechtsanwälte (UTR) GmbH
+(boutique droit public, tel/email, 2 avocats fondateurs), VALLUCCI & SCHMUTZ AG (boutique
+fiscalité/planification successorale, tel, 2 avocats, 6 domaines EN), Weidmann Rechtsanwälte
+(tel/email, 5 domaines DE). **Échec :** Winter & Partner (winterpartner.ch, 503×2).
+
+Rattachement : 639 études rattachées au total (634 → 639, +5). Suite de tests : 94/94 au vert.
