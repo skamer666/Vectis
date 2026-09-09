@@ -3053,3 +3053,19 @@ Forbidden).
 
 Rattachement : 694 études rattachées au total (688 → 694, +6). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 09h02 UTC — Phase 3, lot 73 (exécution automatisée)
+
+8 cabinets traités (8 succès / 0 échec), tous ZH -- lot particulièrement propre, tous les
+sites trouvés étaient accessibles.
+
+Succès : Oesch & Partner (fondée **1997** par Dr. Patrick K. Oesch, tel) ; MONFERRINI LAW AG
+(fondée **2020** -- "Die Kanzlei Monferrini Law wurde am 1. Februar 2020 von Rechtsanwältin
+Dr. iur. Isabelle Monferrini gegründet", tel/email, 10 domaines DE) ; Niggli Rechtsanwälte
+(boutique droit financier/marchés des capitaux, solo, 5 domaines EN) ; Pairfact Legal AG
+(cabinet digitalisé, tel/email, 3 domaines EN) ; Peter Rechtsanwälte AG (tel/email, droit
+commercial/sociétés/immobilier) ; Judith Naef Rechtsanwälte AG (tel/email) ; MEYER RECHT AG
+(tel/email, 4 domaines DE) ; Apex Legal GmbH (tel/email).
+
+Rattachement : 702 études rattachées au total (694 → 702, +8). Suite de tests : 94/94 au
+vert.

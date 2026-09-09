@@ -2409,6 +2409,14 @@
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
   },
+  "apexlegal.ch": {
+    "canton": "ZH",
+    "email": "moritz@apexlegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Apex Legal GmbH",
+    "phone": "+41 44 721 11 00",
+    "source_url": "https://www.apexlegal.ch/"
+  },
   "areum.ch": {
     "canton": "GR",
     "fetched_date": "2026-09-08",
@@ -7012,6 +7020,14 @@
     ],
     "source_url": "https://www.jk-law.ch/"
   },
+  "judithnaef.ch": {
+    "canton": "ZH",
+    "email": "info@judithnaef.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Judith Naef Rechtsanwälte AG",
+    "phone": "+41 44 714 72 22",
+    "source_url": "https://www.judithnaef.ch/kontakt"
+  },
   "juram.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -8900,6 +8916,20 @@
     "source_url": "https://www.mensik-schmid.ch/ueber-uns",
     "team_size_n": 2
   },
+  "meyer-recht.ch": {
+    "canton": "ZH",
+    "email": "meyer@meyer-recht.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "MEYER RECHT AG",
+    "phone": "+41 79 179 55 85",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Bankenrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://meyer-recht.ch/"
+  },
   "meyer-wipf.ch": {
     "canton": "ZH",
     "email": "info@meyer-wipf.ch",
@@ -9039,6 +9069,27 @@
     "practice_areas_fr": [],
     "source_url": "https://www.mmlawyers.ch/de/die-kanzlei.html",
     "team_size_n": null
+  },
+  "monferrini.law": {
+    "canton": "ZH",
+    "email": "info@monferrini.law",
+    "fetched_date": "2026-09-09",
+    "firm_name": "MONFERRINI LAW AG",
+    "founding_year": 2020,
+    "phone": "044 545 20 76",
+    "practice_areas_de": [
+      "Vertrags-, Handels- und Wirtschaftsrecht",
+      "Familienrecht",
+      "Stockwerkeigentums- und Nachbarrecht",
+      "Bauhandwerkerpfandrecht",
+      "Miet- und Pachtrecht",
+      "Werkvertragsrecht",
+      "Betreibungs- und Insolvenzrecht",
+      "Gesellschaftsrecht",
+      "Rechnungslegungsrecht",
+      "Öffentliches Baurecht"
+    ],
+    "source_url": "https://monferrini.law/kanzlei/"
   },
   "moser-advokatur.ch": {
     "canton": "ZH",
@@ -9377,6 +9428,20 @@
     ],
     "source_url": "https://www.nievergeltundstoehr.ch/it"
   },
+  "niggliweb.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Niggli Rechtsanwälte",
+    "practice_areas_en": [
+      "Financial law",
+      "Capital markets",
+      "Collective investments",
+      "Financial products",
+      "Asset management"
+    ],
+    "source_url": "https://www.niggliweb.com/",
+    "team_size_n": 1
+  },
   "niklaus-rechtsanwaelte.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -9512,6 +9577,14 @@
     "source_url": "https://obergasslaw.ch/kanzlei",
     "team_size_n": 2
   },
+  "oesch-partner.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Oesch & Partner",
+    "founding_year": 1997,
+    "phone": "+41 44 256 16 50",
+    "source_url": "https://www.oesch-partner.com/"
+  },
   "og42.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-29",
@@ -9572,6 +9645,19 @@
       "Strafrecht"
     ],
     "source_url": "https://www.ozb-rechtsanwaelte.ch/ueber-uns"
+  },
+  "pairfactlegal.com": {
+    "canton": "ZH",
+    "email": "office@pairfactlegal.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Pairfact Legal AG",
+    "phone": "+41 44 750 67 67",
+    "practice_areas_en": [
+      "Swiss Company Formation and Entity Structuring",
+      "International Corporate Law and Cross-Border Advisory",
+      "Board of Directors Support and Governance"
+    ],
+    "source_url": "https://www.pairfactlegal.com/"
   },
   "palombo-rechtsanwalt.ch": {
     "canton": "ZH",
@@ -9761,6 +9847,20 @@
     ],
     "source_url": "https://www.pilatushof.ch/en/",
     "team_size_n": 9
+  },
+  "plegal.ch": {
+    "canton": "ZH",
+    "email": "peter@plegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Peter Rechtsanwälte AG",
+    "phone": "044 218 60 80",
+    "practice_areas_en": [
+      "Commercial law",
+      "Company law",
+      "Private law",
+      "Real estate law"
+    ],
+    "source_url": "https://www.plegal.ch/en/"
   },
   "pmp-ra.ch": {
     "canton": "ZH",
