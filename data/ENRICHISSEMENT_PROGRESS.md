@@ -3287,3 +3287,33 @@ proches Gianola/Gianora/Gianella sans correspondance claire).
 
 Rattachement : 756 études rattachées au total (745 → 756, +11). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 21h02 UTC — Phase 3, lot 85 (exécution automatisée)
+
+17 cabinets traités (11 succès / 6 échecs).
+
+Succès : Advokatur & Notariat Rothenburg (LU, rattrapage d'une recherche du lot 84 omise par
+erreur -- 3 avocats indépendants, tel principal, 11 domaines DE) ; Advokatur Thalwil (ZH, 2
+avocats, tel/email, 7 domaines DE) ; Advokatur Brandschenke (ZH, 6 avocats, tel/email
+partagé confirmé sur site) ; Advokatur Obertor (ZH, Winterthour -- 4 avocats, tel principal,
+8 domaines DE ; emails individuels seulement, non retenus comme email "du cabinet") ;
+Anwaltsgemeinschaft Luzern (LU, 9 avocats, tel/email, 4 domaines DE) ; Studio legale e notarile
+Haab (TI, fondé **1986**, 2 avocats, tel/email, 7 domaines EN) ; Studio Legale Jäggi & Scheller
+SA (TI, 5 personnes, tel/email, domaines fiscaux EN) ; Studio legale Lucheschi Mascheroni SA
+(TI, 4 domaines IT, ni tel ni email trouvés sur le site) ; Advokatur & Notariat Henzen (SG,
+fondé **2013**, 2 avocats, 5 domaines DE) ; factum advocatur (SG, 3 avocats, tel/email, 6
+domaines EN) ; Advokatur & Notariat Bachmann (SG, **rebaptisée Bachmann | Sturzenegger** --
+continuité confirmée par le nom du site lui-même sbg-anwaelte.ch qui affiche "Advokatur &
+Notariat Bachmann | Sturzenegger" et l'historique de Daniel Bachmann, fondé **1920**
+d'après le site, 2 avocats, tel/email, 11 domaines DE).
+
+Échecs : Kanzlei im Bahnhof (ZH, aucun site officiel identifiable) ; Studio legale avv.
+Jonathan Moor (TI, **piège d'identité évité** -- semble être le même cabinet que
+"Poma-Moor Studio legale e notarile" mais aucun site propre trouvé, continuité non confirmée) ;
+Studio legale Lenzin & Partner (TI, rebaptisé "Lenzin Bordoni & Partner", site lenzin.legal en
+503, continuité non confirmable) ; Advokatur Glavas AG (SG, HTTP 503 ×2) ; Grand & Nisple (SG,
+404 puis 503 -- même cabinet qu'une entrée déjà en échec sous une autre ligne CSV) ; Advocatur
+am Nicolai (GR, site officiel "coming soon", aucun contenu).
+
+Rattachement : 767 études rattachées au total (756 → 767, +11). Suite de tests : 94/94 au
+vert.

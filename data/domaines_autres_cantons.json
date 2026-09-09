@@ -48,6 +48,13 @@
       "firm_name": "Adler Salminen Rechtsanwälte AG",
       "reason": "Rattachement possible a BAT Rechtsanwalte AG selon une source tierce (arrivee de Jessica Salminen au conseil de BAT) mais jamais confirme par le site de BAT lui-meme -- lien non retenu (traite en lot 37)"
     },
+    "advo-glavas.ch": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur Glavas AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "advo-stans.ch": {
       "_failed": true,
       "canton": "NW",
@@ -60,6 +67,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Advokatur & Mediation (Pfander/Alder/Lehmann/Fuchs)",
       "raison": "mauvais cabinet — ne correspond pas aux membres BS CSV 'Advokatur und Mediation' (Emmel/Jedelhauser/Knecht/Müller/Tibis)"
+    },
+    "advocatur-nicolai.ch": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advocatur am Nicolai",
+      "reason": "Site officiel en construction ('coming soon'), aucun contenu exploitable"
     },
     "advogar.ch": {
       "canton": "ZH",
@@ -383,6 +397,13 @@
       "firm_name": "Grand & Nisple Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "grandnisple.ch#2": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-09",
+      "firm_name": "Grand & Nisple",
+      "reason": "Site inaccessible (404 sur grandnisple.ch, 503 sur www.grandnisple.ch) -- meme cause que l'entree existante grandnisple.ch pour une autre ligne CSV du meme cabinet"
+    },
     "groner-advokatur-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -472,11 +493,25 @@
       "reason": "HTTP 403 Forbidden sur la page de contact",
       "tested_date": "2026-09-08"
     },
+    "jonathan-moor-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio legale avv. Jonathan Moor",
+      "reason": "Identite incertaine : semble rattache a 'Poma-Moor Studio legale e notarile' (meme adresse Corso Elvezia 27, Lugano) mais aucun site officiel propre trouve, continuite non confirmee (regle 5)"
+    },
     "kanzlei-helvetiaplatz.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
       "firm_name": "Kanzlei Helvetiaplatz",
       "raison": "rendu JavaScript (Readymag), page vide"
+    },
+    "kanzlei-im-bahnhof-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Kanzlei im Bahnhof",
+      "reason": "Aucun site officiel trouve sous ce nom exact, seulement des cabinets homonymes/voisins pres de la gare de Zurich sans correspondance claire"
     },
     "kanzlei-im-turm.ch": {
       "canton": "ZH",
@@ -575,6 +610,13 @@
       "firm_name": "LENZ & CADUFF Rechtsanwälte AG",
       "reason": "site inaccessible, HTTP 503 a repetition (lenzcaduff.ch, www.lenzcaduff.ch, /de/startseite/)",
       "tested_date": "2026-09-06"
+    },
+    "lenzin-partner-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio legale Lenzin & Partner",
+      "reason": "Cabinet rebaptise 'Lenzin Bordoni & Partner' (lenzin.legal) -- site HTTP 503, continuite non confirmee sur site propre (regle 5)"
     },
     "lexarte.ch": {
       "canton": "ZH",
@@ -1979,6 +2021,24 @@
     "source_url": "https://www.advokaturfluetsch.ch/advokatur.html",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
   },
+  "advokaturobertor.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Obertor",
+    "phone": "052 521 00 38",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Vertretung von Kindern und Jugendlichen",
+      "Erbrecht",
+      "Mediation",
+      "Kindesschutzrecht",
+      "Vereinsrecht",
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://advokaturobertor.ch/",
+    "team_size_n": 4
+  },
   "advokatursissach.ch": {
     "canton": "BL",
     "email": "michael.blattner@advokatursissach.ch",
@@ -2041,6 +2101,24 @@
     "practice_areas_fr": [],
     "source_url": "https://www.advokaturteam.ch/",
     "team_size_n": null
+  },
+  "advokaturthalwil.ch": {
+    "canton": "ZH",
+    "email": "office@advokaturthalwil.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Thalwil",
+    "phone": "+41 44 521 29 10",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Sozialversicherungen",
+      "Ausländerrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Vertragsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.advokaturthalwil.ch/",
+    "team_size_n": 2
   },
   "advokaturweinberg.ch": {
     "canton": "ZH",
@@ -2719,6 +2797,21 @@
     ],
     "source_url": "https://www.anwaltsboutique.ch/en",
     "team_size_n": 2
+  },
+  "anwaltsgemeinschaft.ch": {
+    "canton": "LU",
+    "email": "info@anwaltsgemeinschaft.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Anwaltsgemeinschaft Luzern",
+    "phone": "+41 41 419 71 71",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Zivil- und Vertragsrecht",
+      "Migrationsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
+    "team_size_n": 9
   },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
@@ -4459,6 +4552,15 @@
     "source_url": "https://www.braendli-rechtsanwalt.ch/about/",
     "team_size_n": 5
   },
+  "brandschenke51.ch": {
+    "canton": "ZH",
+    "email": "advokatur@brandschenke51.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Brandschenke",
+    "phone": "+41 44 545 39 39",
+    "source_url": "https://brandschenke51.ch/",
+    "team_size_n": 6
+  },
   "bratschi.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-21",
@@ -5661,6 +5763,23 @@
     "firm_name": "Eversheds Sutherland AG",
     "reason": "page equipe/about bloquee (HTTP 403)"
   },
+  "factum.pro": {
+    "canton": "SG",
+    "email": "advocatur@factum.pro",
+    "fetched_date": "2026-09-09",
+    "firm_name": "factum advocatur",
+    "phone": "+41 71 421 41 41",
+    "practice_areas_en": [
+      "Construction and Real Estate Law",
+      "Data Protection Law",
+      "Corporate Law",
+      "Estate and Succession Planning",
+      "Public Procurement Law",
+      "Contract Law"
+    ],
+    "source_url": "https://www.factum.pro/?id=6",
+    "team_size_n": 3
+  },
   "falkenstein.ag": {
     "canton": "SG",
     "email": "info@falkenstein.ag",
@@ -6775,6 +6894,25 @@
     "phone": "+41 71 292 30 00",
     "source_url": "https://gysipartner.ch/de/kontakt"
   },
+  "haablegal.ch": {
+    "canton": "TI",
+    "email": "info@haablegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale e notarile Haab",
+    "founding_year": 1986,
+    "phone": "+41 91 913 30 70",
+    "practice_areas_en": [
+      "Family Law and Divorce",
+      "Employment Law",
+      "Real Estate Law",
+      "Inheritance Law",
+      "Construction Law",
+      "Commercial & Corporate Law",
+      "Notary Services"
+    ],
+    "source_url": "https://www.haablegal.ch/en",
+    "team_size_n": 2
+  },
   "haefelinlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -6904,6 +7042,21 @@
     ],
     "source_url": "https://www.helbling.law/kontakt",
     "team_size_n": 3
+  },
+  "henzenhans.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur & Notariat Henzen",
+    "founding_year": 2013,
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Familienrecht",
+      "Erbrecht und Nachlassplanung",
+      "Notariatsdienstleistungen",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.henzenhans.ch/",
+    "team_size_n": 2
   },
   "herzerpartner.ch": {
     "canton": "ZH",
@@ -7738,6 +7891,27 @@
       "Bau- und Umweltrecht"
     ],
     "source_url": "https://kanzlei-dbz.ch/"
+  },
+  "kanzlei-rothenburg.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur & Notariat Rothenburg",
+    "phone": "041 280 90 90",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau- und Mietrecht",
+      "Öffentliches und privates Baurecht",
+      "Umweltrecht",
+      "Haftpflichtrecht",
+      "Strafverteidigung",
+      "Erbrecht",
+      "Güter- und Konkubinatsrecht",
+      "Erwachsenenschutzrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Beglaubigungen"
+    ],
+    "source_url": "https://kanzlei-rothenburg.ch/",
+    "team_size_n": 3
   },
   "kanzlei-uster.ch": {
     "canton": "ZH",
@@ -8763,6 +8937,24 @@
     "source_url": "https://legalecorti.ch/en/about-us/",
     "team_size_n": 2
   },
+  "legaletributario.ch": {
+    "canton": "TI",
+    "email": "info@legaletributario.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio Legale Jäggi & Scheller SA",
+    "phone": "+41 91 985 25 90",
+    "practice_areas_en": [
+      "Corporate taxation",
+      "Individual taxation",
+      "VAT",
+      "Tax litigation",
+      "Legal representation and advisory",
+      "Relocating business to Switzerland",
+      "Relocation of individuals to Switzerland"
+    ],
+    "source_url": "https://www.legaletributario.ch/en/contatti/",
+    "team_size_n": 5
+  },
   "legalexperts.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -9191,6 +9383,18 @@
     "phone": "041 920 47 76",
     "source_url": "https://lls-notariat.ch/",
     "team_size_n": 3
+  },
+  "lmlex.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale Lucheschi Mascheroni SA",
+    "practice_areas_it": [
+      "Diritto successorio",
+      "Diritto tributario",
+      "Diritto privato",
+      "Contrattualistica civile e commerciale"
+    ],
+    "source_url": "https://lmlex.ch/"
   },
   "loewengasse.ch": {
     "canton": "SG",
@@ -11703,6 +11907,29 @@
       "Droit scolaire"
     ],
     "source_url": "https://sb-anwaelte.ch/"
+  },
+  "sbg-anwaelte.ch": {
+    "canton": "SG",
+    "email": "info@sbg-anwaelte.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur & Notariat Bachmann",
+    "founding_year": 1920,
+    "phone": "(+41) 071 225 20 70",
+    "practice_areas_de": [
+      "Familien- und Erbrecht",
+      "Arbeitsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Immobilien- und Mietrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Wirtschafts- und Gesellschaftsrecht",
+      "Immaterialgüter- und Wettbewerbsrecht",
+      "Bau- und Planungsrecht",
+      "Vertragsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.sbg-anwaelte.ch/",
+    "team_size_n": 2
   },
   "sbn-law.ch": {
     "canton": "ZH",
