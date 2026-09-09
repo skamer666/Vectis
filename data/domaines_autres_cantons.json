@@ -678,6 +678,13 @@
       "firm_name": "weberlegal",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "wehrlipartner.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Wehrli Zimmermann & Partner",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "weinmann-zimmerli.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -10104,6 +10111,21 @@
     "phone": "+41 (0)71 243 50 00",
     "source_url": "https://www.sennsommbossart.ch/kontakt.html"
   },
+  "senserlaw.ch": {
+    "canton": "ZH",
+    "email": "info@senserlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Senser Steueranwälte",
+    "phone": "+41 44 380 87 00",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Steuerverfahrensrecht und Steuerstrafrecht",
+      "Wirtschaftsrecht",
+      "Erbrecht",
+      "Handels- und Gesellschaftsrecht"
+    ],
+    "source_url": "https://senserlaw.ch/"
+  },
   "sfs-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -10278,6 +10300,15 @@
       "Outsourced Legal Services and Project Management"
     ],
     "source_url": "https://sojalaw.ch/"
+  },
+  "sperling-legal.ch": {
+    "canton": "ZH",
+    "email": "kotrba@sperling-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Sperling Legal GmbH",
+    "founding_year": 2023,
+    "phone": "+41 44 552 65 05",
+    "source_url": "https://www.sperling-legal.ch/ueberuns"
   },
   "spuehler.legal": {
     "canton": "ZH",
@@ -12221,6 +12252,21 @@
     "founding_year": 2017,
     "phone": "041 220 24 42",
     "source_url": "https://zm-rechtsanwaelte.ch/"
+  },
+  "zollinger.legal": {
+    "canton": "ZH",
+    "email": "kontakt@zollinger.legal",
+    "fetched_date": "2026-09-09",
+    "firm_name": "ZOLLINGER.LEGAL",
+    "phone": "044 620 01 81",
+    "practice_areas_de": [
+      "Strafrecht (Strafverteidigung, Geschädigtenvertretung)",
+      "Gesundheitsrecht (Arzthaftung, Staatshaftung, Heilmittelrecht)",
+      "Betreibungsrecht (Betreibung, Rechtsöffnung, An- und Aberkennungsklage)",
+      "Agrarrecht (Bäuerliches Bodenrecht, Raumplanungsrecht, Umweltrecht)",
+      "Vertragsrecht (Vertragsgestaltung, Forderungen aus Vertragsverletzung, Arbeitsrecht)"
+    ],
+    "source_url": "https://zollinger.legal/kompetenzen/"
   },
   "zr-law.ch": {
     "canton": "ZH",

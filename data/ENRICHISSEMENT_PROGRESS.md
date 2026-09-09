@@ -2880,3 +2880,14 @@ Walker Law", tel/email, 7 domaines EN). **Échecs :** Weber Law Partners AG (wla
 Terekhov Law (terekhov-law.ch, 403×2).
 
 Rattachement : 645 études rattachées au total (642 → 645, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-09 03h03 UTC — Phase 3, lot 67 (exécution automatisée)
+
+4 cabinets traités (3 succès / 1 échec), tous ZH. Sperling Legal GmbH (fondée **2023** --
+"Selbständige Rechtsanwältin (seit 2019) et Inhaberin von Sperling Legal GmbH (seit 2023)",
+tel/email), ZOLLINGER.LEGAL (tel/email, 5 domaines DE dont pénal/santé/poursuites/agraire/
+contrats), Senser Steueranwälte (boutique fiscale, tel/email, 5 domaines DE dont droit fiscal
+et procédure fiscale pénale). **Échec :** Wehrli Zimmermann & Partner (wehrlipartner.ch,
+503×2).
+
+Rattachement : 648 études rattachées au total (645 → 648, +3). Suite de tests : 94/94 au vert.
