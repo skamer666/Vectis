@@ -459,6 +459,13 @@
       "firm_name": "INDEMNIS",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "jackson-arnoldi-decristophoris-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio legale Jackson Arnoldi Decristophoris",
+      "reason": "Aucun site officiel trouve, uniquement le registre cantonal des avocats TI"
+    },
     "jkr.ch": {
       "canton": "ZH",
       "firm_name": "Jermann Künzli Rechtsanwälte",
@@ -857,6 +864,13 @@
       "firm_name": "relevanz.legal",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "rosella-chiesa-lehmann-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio Legale e Notarile Rosella Chiesa Lehmann",
+      "reason": "Aucun site officiel trouve, uniquement des annuaires tiers (local.ch, search.ch, boss-editore.ch)"
+    },
     "rp-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1044,6 +1058,13 @@
       "firm_name": "Schwarzmann Brändli Hofer Rechtsanwälte AG",
       "reason": "site JS rendu (page vide au fetch)"
     },
+    "studio-legale-gianola-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio legale Gianola",
+      "reason": "Identite incertaine : recherche renvoie plusieurs homonymes proches (Gianola / Gianora / Gianella) sans correspondance claire, aucun site officiel identifie avec certitude (regle 5)"
+    },
     "studio-legis-ch-schoebi": {
       "_failed": true,
       "canton": "SG",
@@ -1103,6 +1124,13 @@
       "firm_name": "Terekhov Law",
       "reason": "HTTP 403 Forbidden (x2)"
     },
+    "thurgauerhof.ch": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur zum Thurgauerhof",
+      "reason": "HTTP 503 Service Unavailable (x2, pages differentes)"
+    },
     "trustedadvisors.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1129,6 +1157,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Uto Legal",
       "reason": "aucun fait extractible — description de secteurs clients (Medien, Tech, IT) sans liste de domaines juridiques ni année de fondation"
+    },
+    "velo-associati-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-09",
+      "firm_name": "Studio notarile Velo & Associati",
+      "reason": "Site officiel veloassociati.ch vide/non charge ; continuite avec LVA VELO SA (lva-law.ch) evoquee par des sources tierces mais non confirmee sur le site lui-meme (lva-law.ch/about-us retourne HTTP 403) -- lien decline par prudence (regle 5)"
     },
     "versalex.ch": {
       "canton": "ZH",
@@ -1181,6 +1216,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Weinmann Zimmerli",
       "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique"
+    },
+    "weinmann-zimmerli.ch#2": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
+      "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique (meme cause que l'entree existante weinmann-zimmerli.ch pour la ligne CSV 'Weinmann Zimmerli')"
     },
     "wieser-wieser.ch": {
       "_failed": true,
@@ -1891,6 +1933,20 @@
     "team_size_n": 9,
     "team_size_text": "Team von 9 Anwältinnen und Anwälten (explicite sur le site)"
   },
+  "advokaturamstauffacher.ch": {
+    "canton": "ZH",
+    "email": "info@advokatur-am-stauffacher.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur am Stauffacher",
+    "phone": "+41 44 291 91 91",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Nebenstrafrecht",
+      "Strafprozessrecht"
+    ],
+    "source_url": "https://advokaturamstauffacher.ch/kontakt",
+    "team_size_n": 3
+  },
   "advokaturaussersihl.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -2347,6 +2403,14 @@
     ],
     "source_url": "https://www.altenburger.ch/expertise",
     "team_size_n": null
+  },
+  "altenburger.ch#TI": {
+    "canton": "TI",
+    "email": "lugano@altenburger.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Altenburger Ltd legal + tax",
+    "phone": "+41 58 810 22 44",
+    "source_url": "https://www.altenburger.ch/contact"
   },
   "amglaw.ch": {
     "canton": "SG",
@@ -4740,6 +4804,25 @@
     ],
     "source_url": "https://cahannes.ch/"
   },
+  "cattaneopostizzi.ch": {
+    "canton": "TI",
+    "email": "info@cattaneopostizzi.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale Cattaneo & Postizzi",
+    "founding_year": 1988,
+    "phone": "+41 91 912 20 70",
+    "practice_areas_it": [
+      "Diritto commerciale e societario",
+      "Diritto bancario e finanziario",
+      "Diritto contrattuale",
+      "Arbitrato",
+      "Diritto penale",
+      "Diritto penale amministrativo e fiscale",
+      "Assistenza giudiziaria internazionale"
+    ],
+    "source_url": "https://www.cattaneopostizzi.ch/",
+    "team_size_n": 2
+  },
   "cavelti-wernli.ch": {
     "canton": "AR",
     "fetched_date": "2026-09-08",
@@ -5007,6 +5090,44 @@
     "canton": "TI",
     "fetched_date": "2026-09-08",
     "firm_name": "CSNLAW",
+    "practice_areas_en": [
+      "Litigation and dispute resolution",
+      "Business and corporate law",
+      "Compliance and internal investigation",
+      "Banking and financial services law",
+      "Criminal law",
+      "Bankruptcy re-organizations and workouts",
+      "Labour and employment law",
+      "Inheritance law and estate planning",
+      "Real estate and notarial services",
+      "Family law",
+      "Art law"
+    ],
+    "source_url": "https://www.csnlaw.com/"
+  },
+  "csnlaw.com#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale e notarile CSNLAW",
+    "practice_areas_en": [
+      "Litigation and dispute resolution",
+      "Business and corporate law",
+      "Compliance and internal investigation",
+      "Banking and financial services law",
+      "Criminal law",
+      "Bankruptcy re-organizations and workouts",
+      "Labour and employment law",
+      "Inheritance law and estate planning",
+      "Real estate and notarial services",
+      "Family law",
+      "Art law"
+    ],
+    "source_url": "https://www.csnlaw.com/"
+  },
+  "csnlaw.com#3": {
+    "canton": "TI",
+    "fetched_date": "2026-09-09",
+    "firm_name": "studio legale CSNLAW",
     "practice_areas_en": [
       "Litigation and dispute resolution",
       "Business and corporate law",
@@ -5539,6 +5660,25 @@
     "checked_date": "2026-09-06",
     "firm_name": "Eversheds Sutherland AG",
     "reason": "page equipe/about bloquee (HTTP 403)"
+  },
+  "falkenstein.ag": {
+    "canton": "SG",
+    "email": "info@falkenstein.ag",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur am Falkenstein",
+    "phone": "071 242 66 50",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Steuerrecht",
+      "Medizinrecht",
+      "Gesellschaftsrecht",
+      "Haftungsrecht"
+    ],
+    "source_url": "https://www.falkenstein.ag/",
+    "team_size_n": 4
   },
   "famplus.legal": {
     "canton": "ZH",
@@ -6922,6 +7062,14 @@
     ],
     "source_url": "https://www.hol-law.ch/en/"
   },
+  "holbeinstrasse.ch": {
+    "canton": "ZH",
+    "email": "webcontact-2025.holbeinstrasse@itds.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Holbeinstrasse",
+    "source_url": "https://holbeinstrasse.ch/de/home",
+    "team_size_n": 3
+  },
   "hollinger.law": {
     "canton": "ZH",
     "email": "info@hollinger.law",
@@ -8219,6 +8367,24 @@
     "source_url": "https://www.lalive.law/about-us/why-lalive/",
     "team_size_n": null
   },
+  "lamolex.ch": {
+    "canton": "BL",
+    "email": "sekretariat@lamolex.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Schweighauser von Wartburg Aeschlimann Maier",
+    "phone": "+41 61 421 05 95",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Mietrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://lamolex.ch/",
+    "team_size_n": 8
+  },
   "lampertlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -9313,6 +9479,30 @@
     "phone": "+41 52 269 21 11",
     "source_url": "https://martin-ra.ch/en/contact/"
   },
+  "maseradellacasa.ch": {
+    "canton": "TI",
+    "email": "info@maseradellacasa.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio legale Masera & Della Casa SA, Palazzo Elvezia",
+    "founding_year": 2013,
+    "phone": "+41 91 223 30 10",
+    "practice_areas_en": [
+      "Arbitration",
+      "Banking and Finance Law",
+      "Bankruptcy and Insolvency Law",
+      "Corporate and Contracts",
+      "Criminal Law",
+      "Estate and Trust",
+      "Inheritance Law",
+      "Intellectual Property",
+      "Litigation",
+      "Mergers & Acquisitions/Private Equity",
+      "Notarial Activities",
+      "Sports Law"
+    ],
+    "source_url": "https://www.maseradellacasa.ch/en/",
+    "team_size_n": 3
+  },
   "mbh-law.ch": {
     "canton": "ZH",
     "email": "office@mbh-law.ch",
@@ -9578,6 +9768,15 @@
       "Steuern"
     ],
     "source_url": "https://www.moser-advokatur.ch/"
+  },
+  "mpg.legal": {
+    "canton": "TI",
+    "email": "avv.ivanmarci@mpg.legal",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Studio Legale MPG Legal",
+    "phone": "+41 91 735 40 01",
+    "source_url": "https://mpg.legal/",
+    "team_size_n": 3
   },
   "mplaw.ch": {
     "canton": "ZH",
@@ -13572,6 +13771,14 @@
     "source_url": "https://www.walderwyss.com/fr/domaines-de-competence",
     "team_size_n": null
   },
+  "walderwyss.com#TI": {
+    "canton": "TI",
+    "email": "reception@walderwyss.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "c/o studio legale Walderwyss SA, via Ferruccio Pelli, casella postale 5162",
+    "phone": "+41 58 658 40 00",
+    "source_url": "https://www.walderwyss.com/it/sedi/lugano"
+  },
   "walkerlaw.ch": {
     "canton": "ZH",
     "email": "contact@walkerlaw.ch",
@@ -13795,9 +14002,11 @@
   },
   "whr.ch": {
     "canton": "ZH",
+    "email": "sekretariat@whr.ch",
     "fetched_date": "2026-07-28",
     "firm_name": "Walder Häusermann Rechtsanwälte AG",
-    "founding_year": null,
+    "founding_year": 2006,
+    "phone": "+41 44 251 71 55",
     "practice_areas_en": [
       "Criminal defence",
       "Juvenile criminal law",

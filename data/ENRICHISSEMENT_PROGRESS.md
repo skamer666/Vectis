@@ -3247,3 +3247,43 @@ Pool AG Via", correspondant à leur antenne de St-Moritz mentionnée sur le site
 
 Rattachement : 745 études rattachées au total (740 → 745, +5). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 20h30 UTC — Phase 3, lot 84 (exécution automatisée)
+
+18 cabinets traités (11 succès / 6 échecs), dont 4 dédups et 1 enrichissement d'entrée
+existante.
+
+Succès : Walder Häusermann Rechtsanwälte AG (ZH, **enrichissement** de l'entrée existante
+whr.ch -- fondée **2006** d'après le site : "Daniel U. Walder 2006 als Rechtsanwalt
+selbstständig", tel/email ajoutés) ; Advokatur Holbeinstrasse (ZH, 3 avocates confirmées sur
+site, email) ; Advokatur am Stauffacher (ZH, 3 avocats, tel/email, spécialisée en droit pénal) ;
+Advokatur am Falkenstein (SG, 4 avocats/notaires, tel/email, 8 domaines DE dont droit de la
+santé) ; Advokatur Schweighauser von Wartburg Aeschlimann Maier (BL, **rebaptisée Lamolex
+Advokatur** -- continuité confirmée par redirection 301 du domaine svwam.ch vers lamolex.ch,
+8 avocats, tel/email, 7 domaines DE ; fondation "il y a plus de 30 ans" mentionnée mais sans
+année précise, non retenue) ; Studio legale Cattaneo & Postizzi (TI, fondé **1988**, 2 avocats,
+tel/email, domaines IT) ; Studio legale Masera & Della Casa SA (TI, fondé **2013**, 3 avocats,
+tel/email, domaines EN) ; Studio Legale MPG Legal (TI, 3 avocats, tel/email).
+
+Dédups (réutilisation de faits déjà vérifiés, mêmes cabinets déjà rattachés sous une autre
+ligne CSV) : CSNLAW ×2 (TI, "Studio legale e notarile CSNLAW" et "studio legale CSNLAW",
+variantes du cabinet déjà rattaché sous csnlaw.com) ; Altenburger Ltd legal + tax (antenne
+TI/Lugano, tel/email propres à Lugano uniquement, distincts de l'entrée ZH déjà rattachée --
+aucune donnée globale/ZH réutilisée) ; Walder Wyss (antenne TI/Lugano via la ligne CSV non
+ambiguë "c/o studio legale Walderwyss SA, via Ferruccio Pelli...", tel/email propres à
+Lugano). Deux autres lignes CSV TI pour Walder Wyss ("Studio legale Walder Wyss SA" et "studio
+legale Walder Wyss") partagent le même nom coeur entre elles et restent délibérément non
+rattachées (collision ambiguë, cf. précédent Broggini Armati Binzoni).
+
+Échecs : WEINMANN ZIMMERLI Rechtsanwälte AG (ZH, site JS-only Nuxt, même cause que l'entrée
+weinmann-zimmerli.ch déjà en échec pour une autre ligne CSV du même cabinet) ; Advokatur zum
+Thurgauerhof (BL, HTTP 503 ×2) ; Studio notarile Velo & Associati (TI, site officiel
+veloassociati.ch vide ; continuité avec LVA VELO SA évoquée par des sources tierces mais non
+confirmée sur site propre, lva-law.ch/about-us renvoyant 403 -- **piège d'identité évité**) ;
+Studio legale Jackson Arnoldi Decristophoris (TI, aucun site officiel, seulement le registre
+cantonal) ; Studio Legale e Notarile Rosella Chiesa Lehmann (TI, aucun site officiel, seulement
+des annuaires tiers) ; Studio legale Gianola (TI, **piège d'identité évité** -- homonymes
+proches Gianola/Gianora/Gianella sans correspondance claire).
+
+Rattachement : 756 études rattachées au total (745 → 756, +11). Suite de tests : 94/94 au
+vert.
