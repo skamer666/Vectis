@@ -3161,3 +3161,22 @@ différente, lien décliné).
 
 Rattachement : 726 études rattachées au total (721 → 726, +5). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 15h04 UTC — Phase 3, lot 79 (exécution automatisée)
+
+8 cabinets traités (4 succès / 4 échecs), tous ZH.
+
+Succès : SCHMIDT-GABAIN AG (boutique droit de l'art/entertainment, tel/email, 3 domaines DE) ;
+Streiff-Rechtsanwalt (bureau Zurich, tel/email, 6 domaines DE dont droit des assurances
+sociales) ; Lampert Rechtsanwälte (tel, 8 domaines EN dont recherche de provenance/art spolié
+nazi) ; JLS avocats (tel/email).
+
+**Site suspect écarté :** IDC Legal GmbH -- des résultats de recherche mentionnaient des
+soupçons d'arnaque ("Is IDC Legal GmbH a Scam") et le site était injoignable (503) : écarté par
+prudence conformément à la règle 5 plutôt que retenté sans vérification.
+
+Échecs : schobloch & seitz (vérification anti-bot Cloudflare), Stern Anwaltskanzlei et Mathé &
+Partner (aucun site officiel trouvé, seul le registre du commerce).
+
+Rattachement : 730 études rattachées au total (726 → 730, +4). Suite de tests : 94/94 au
+vert.

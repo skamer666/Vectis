@@ -411,6 +411,13 @@
       "firm_name": "Hofmann Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "idclegal.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "IDC Legal GmbH",
+      "reason": "Signaux suspects (resultats de recherche mentionnant des soupcons d'arnaque) et site injoignable (503) -- ecarte par prudence conformement a la regle 5"
+    },
     "ileri-rechtsanwaelte.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -597,6 +604,13 @@
       "firm_name": "Kaufmann Brühwiler & Partner",
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
+    },
+    "mathe-partner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Mathé & Partner",
+      "reason": "Aucun site officiel trouve, seul le registre du commerce"
     },
     "maybud-kessler.ch": {
       "_failed": true,
@@ -874,6 +888,13 @@
       "firm_name": "Schnyder Rechtsanwälte",
       "reason": "Aucun site officiel trouve, seule une adresse email generique bluewin.ch dans des annuaires tiers"
     },
+    "schoblochundseitz.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "schobloch & seitz",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
     "schochjaeggihoch.com": {
       "canton": "ZH",
       "firm_name": "Schoch Jaeggi Hoch",
@@ -947,6 +968,13 @@
       "date": "2026-07-29",
       "firm_name": "Staiger Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "stern-anwaltskanzlei-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Stern Anwaltskanzlei",
+      "reason": "Aucun site officiel trouve, seul le registre du commerce (fondee avril 2025)"
     },
     "stplaw.ch": {
       "canton": "ZH",
@@ -7227,6 +7255,14 @@
     ],
     "source_url": "https://www.jk-law.ch/"
   },
+  "jls-avocats.ch": {
+    "canton": "ZH",
+    "email": "jls@jls-avocats.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "JLS avocats",
+    "phone": "+41 79 418 90 62",
+    "source_url": "https://jls-avocats.ch/"
+  },
   "judithnaef.ch": {
     "canton": "ZH",
     "email": "info@judithnaef.ch",
@@ -8023,6 +8059,23 @@
     ],
     "source_url": "https://www.lalive.law/about-us/why-lalive/",
     "team_size_n": null
+  },
+  "lampertlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Lampert Rechtsanwälte",
+    "phone": "+41 44 288 36 88",
+    "practice_areas_en": [
+      "Bank customer law and wealth structuring",
+      "Relocation of private individuals and enterprises",
+      "Family business governance",
+      "Succession planning",
+      "Operational business activities and commercial law",
+      "Corporate housekeeping",
+      "Project management in interdisciplinary transactions",
+      "Art law, including provenance research and Nazi-looted art investigation"
+    ],
+    "source_url": "https://www.lampertlaw.ch/en"
   },
   "landmann.ch": {
     "canton": "ZH",
@@ -11484,6 +11537,19 @@
     ],
     "source_url": "https://www.schmidsutter.ch/"
   },
+  "schmidt-gabain.ch": {
+    "canton": "ZH",
+    "email": "info@schmidt-gabain.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "SCHMIDT-GABAIN AG",
+    "phone": "+41 43 243 61 14",
+    "practice_areas_de": [
+      "Kunstrecht",
+      "Entertainment-Recht",
+      "Strategische Nachlassplanung"
+    ],
+    "source_url": "https://schmidt-gabain.ch/taetigkeitsbereiche"
+  },
   "schneiderheusi.ch": {
     "canton": "ZH",
     "email": "csh@schneiderheusi.ch",
@@ -12085,6 +12151,22 @@
     "practice_areas_fr": [],
     "source_url": "https://www.streichenberg.ch/en",
     "team_size_n": null
+  },
+  "streiff-rechtsanwalt.com": {
+    "canton": "ZH",
+    "email": "info@streiff-recht.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Streiff-Rechtsanwalt",
+    "phone": "+41 44 714 72 39",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Unfall- und Invalidenversicherung",
+      "Strassenverkehrsrecht",
+      "Strafrecht",
+      "Haftpflichtrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.streiff-rechtsanwalt.com/anwaltskanzlei-z%C3%BCrich-rechtsanwalt"
   },
   "streiffvonkaenel.ch": {
     "canton": "ZH",
