@@ -3029,3 +3029,27 @@ Schmid Rechtsanwälte (aucun site officiel trouvé).
 
 Rattachement : 688 études rattachées au total (681 → 688, +7). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 08h03 UTC — Phase 3, lot 72 (exécution automatisée)
+
+13 cabinets traités (6 succès / 6 échecs), tous ZH.
+
+Succès : AsyLex (ONG d'assistance juridique aux demandeurs d'asile fondée **2017**, 3 domaines
+EN) ; Meier Legal (fondée **2019**, tel, 9 domaines EN) ; Nater Legal (Dr. Hans Nater, ancien
+associé-fondateur de Nater Dallafior 2006-2025, pratique solo indépendante depuis **2025**,
+tel/email, droit commercial et sportif) ; mulle legal GmbH (droit de la famille, tel/email,
+6 domaines DE) ; Mathis Legalzone - Advokatur (tel/email, 10 domaines EN) ; SJP JENNY LAW (droit
+du sport et des associations, tel/email).
+
+**Piège de fondation évité :** Bürgi Nägeli Rechtsanwälte (bnlawyers.ch, déjà en cache depuis
+juillet) affiche une mention "Copyright © 1995-2026" en bas de page qui aurait pu être
+confondue avec une année de fondation -- déjà correctement écartée par le cache existant
+(`founding_year: null`), confirmé lors de la vérification de ce lot.
+
+Échecs : kern law (503×2), NETZLE LEGAL AG (503×2), Nägeli Rechtsanwälte (503×2 -- site distinct
+de Bürgi Nägeli déjà rattaché), Groner Advokatur (identité ambiguë entre plusieurs
+sites/marques de Dr. Roger Groner), HAFERLAND LEGAL (aucun site officiel), Metin Legal (403
+Forbidden).
+
+Rattachement : 694 études rattachées au total (688 → 694, +6). Suite de tests : 94/94 au
+vert.

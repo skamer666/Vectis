@@ -327,12 +327,26 @@
       "firm_name": "Grand & Nisple Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "groner-advokatur-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Groner Advokatur",
+      "reason": "Identite ambigue -- plusieurs sites/marques distincts pour Dr. Roger Groner (Ennenda GL et Zurich), aucune confirmation claire de l'entite ZH correspondant a ce nom exact"
+    },
     "guery-legal-zh": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Guery Legal",
       "reason": "Edith Guery apparait comme membre de l'etude ADROIT attorneys-at-law, aucune marque independante 'Guery Legal' confirmee"
+    },
+    "haferland-legal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "HAFERLAND LEGAL",
+      "reason": "Aucun site officiel trouve"
     },
     "hb-recht.ch": {
       "_failed": true,
@@ -404,6 +418,13 @@
       "canton": "SG",
       "checked_date": "2026-09-09",
       "firm_name": "K & B Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "kern.law": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "kern law",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "kieser-senn-partner-zh": {
@@ -548,6 +569,13 @@
       "firm_name": "Meroni & Schmid Rechtsanwälte",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers (yelp, allbiz, martindale)"
     },
+    "metin-legal.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Metin Legal",
+      "reason": "HTTP 403 Forbidden"
+    },
     "mst-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -566,6 +594,20 @@
       "date": "2026-07-29",
       "firm_name": "MZBS Advokatur Notariat",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "naegeli-rechtsanwaelte.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Nägeli Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2) ; identite egalement incertaine (site distinct de Bürgi Nägeli Rechtsanwälte deja rattache separement)"
+    },
+    "netzle.legal": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "NETZLE LEGAL AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "nievergelt-stoehr": {
       "canton": "LU",
@@ -2419,6 +2461,18 @@
       "Notarial services"
     ],
     "source_url": "https://artaris-advokatur.ch/en"
+  },
+  "asylex.org": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "AsyLex",
+    "founding_year": 2017,
+    "practice_areas_en": [
+      "Access to Representation (free legal advice for asylum seekers)",
+      "Access to Information",
+      "Empowerment and Knowledge (AsyLex Academies)"
+    ],
+    "source_url": "https://asylex.org/about?lang=de"
   },
   "atr-legal.ch": {
     "canton": "ZH",
@@ -8113,6 +8167,27 @@
     ],
     "source_url": "https://www.legalperucchi.com/en/"
   },
+  "legalzone.ch": {
+    "canton": "ZH",
+    "email": "info@legalzone.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Mathis Legalzone - Advokatur",
+    "phone": "+41 44 200 75 55",
+    "practice_areas_en": [
+      "Commercial and contract law",
+      "Copyright law, trademarks and patents",
+      "Competition law",
+      "Public and private construction law / real estate law",
+      "Insurance and liability law",
+      "Media law",
+      "Employment",
+      "Data protection",
+      "Inheritance",
+      "Litigation and arbitration"
+    ],
+    "source_url": "https://www.legalzone.ch/en/company",
+    "team_size_n": 1
+  },
   "legis-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -8798,6 +8873,25 @@
     "source_url": "https://www.mcmlegal.ch/",
     "team_size_n": 2
   },
+  "meierlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Meier Legal",
+    "founding_year": 2019,
+    "phone": "+41 44 511 99 91",
+    "practice_areas_en": [
+      "Litigation and arbitration representation",
+      "Debt collection and insolvency law",
+      "Contract law",
+      "Rental and lease law",
+      "Employment law",
+      "Whistleblowing and internal investigations",
+      "Corporate law and business formation",
+      "Data protection",
+      "Administrative law"
+    ],
+    "source_url": "https://www.meierlegal.ch/"
+  },
   "mensik-schmid.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-08",
@@ -9039,6 +9133,22 @@
     ],
     "source_url": "https://www.muellerpaparis.ch/"
   },
+  "mulle-legal.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@mulle-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "mulle legal GmbH",
+    "phone": "+41 44 442 15 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Gerichtliche Vertretung",
+      "Mediation",
+      "Eheverträge",
+      "Trennungsvereinbarungen",
+      "Scheidungsvereinbarungen"
+    ],
+    "source_url": "https://www.mulle-legal.ch/"
+  },
   "museum35.ch": {
     "_failed": true,
     "canton": "SG",
@@ -9098,6 +9208,19 @@
     "practice_areas_fr": [],
     "source_url": "https://www.naterdallafior.ch/en/",
     "team_size_n": null
+  },
+  "naterlegal.ch": {
+    "canton": "ZH",
+    "email": "hans.nater@naterlegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Nater Legal",
+    "founding_year": 2025,
+    "phone": "+41 79 205 06 33",
+    "practice_areas_de": [
+      "Rechtsberatung Wirtschafts- und Sportrecht"
+    ],
+    "source_url": "https://naterlegal.ch/de",
+    "team_size_n": 1
   },
   "ndlegal.ch": {
     "canton": "ZH",
@@ -11005,6 +11128,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.silk-rechtsanwaelte.ch/en/firm/",
     "team_size_n": null
+  },
+  "sjp-jur.ch": {
+    "canton": "ZH",
+    "email": "kontakt@sjp-jur.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "SJP JENNY LAW",
+    "phone": "+41 44 923 88 66",
+    "source_url": "https://www.sjp-jur.ch/en/contact"
   },
   "slaw.ch": {
     "canton": "ZH",
