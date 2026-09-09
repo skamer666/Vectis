@@ -3317,3 +3317,30 @@ am Nicolai (GR, site officiel "coming soon", aucun contenu).
 
 Rattachement : 767 études rattachées au total (756 → 767, +11). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 22h03 UTC — Phase 3, lot 86 (exécution automatisée)
+
+18 cabinets traités (7 succès / 11 échecs), dont un dédup.
+
+Succès : Advokatur Zweierstrasse (ZH, 7 domaines DE, ni tel/email trouvés) ; Studio legale e
+notarile Avv. André Weber e Associati (TI, Locarno, 7 domaines IT) ; at ag rechtsanwälte (SG,
+tel, 4 domaines DE fiscaux) ; Vincenz Dornier (SG, communauté de 3 avocates indépendantes --
+tel/email individuels non retenus comme "du cabinet", règle 4) ; Schwarzenbach & Pfiffner (GR,
+fondé **1996**, restructuré 2008, 2 avocats, tel/email, 11 domaines DE) ; **dédupliqué**
+Advokatur Tomaschett (GR, fondée **1989** -- le CSV référence ce cabinet une 2e fois sous
+"Advokatur Tomaschett St.", réutilisation des faits déjà vérifiés) ; Bulgheroni Simmen (UR,
+Altdorf/Andermatt, 3 avocats, tel, 7 domaines DE).
+
+Échecs : Jau und Schäfer (SG, 503 puis 404) ; Studio Legale Pagliuca Piffaretti-Lanz Legal Sagl
+(TI, HTTP 503) ; Advokatur Ackermann Mathys (BL, vérification anti-bot) ; Advokatur &
+Rechtsberatung TRIAS AG (BL, **cabinet multi-cantonal écarté** -- seul le contact de l'antenne
+de Bâle est confirmé sur le site, pas celle de Pratteln/BL, cf. précédent ARNOLD LEGAL AG) ;
+Roesle Frick & Partner (SZ, erreur technique -- trop de redirections) ; Anwaltskanzlei Urs
+Huber (SZ, HTTP 503) ; Anwaltskanzlei Petrig Schuler (SZ, aucun site officiel) ; Müller /
+Scheuber (OW, site = installation WordPress par défaut, aucun contenu) ; Studio legale avv.
+Andrea Toschini (GR, aucun site officiel) ; Tenchio & Partner (GR, HTTP 503, même cabinet
+qu'une entrée déjà en échec sous une autre ligne CSV) ; Advokatur Wieser & Wieser (GR, aucun
+site officiel dédié).
+
+Rattachement : 774 études rattachées au total (767 → 774, +7). Suite de tests : 94/94 au
+vert.
