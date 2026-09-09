@@ -81,6 +81,27 @@
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
     },
+    "advokatur-aeberli.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur Aeberli",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "advokatur-baltensperger.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur Baltensperger",
+      "reason": "HTTP 503 Service Unavailable"
+    },
+    "advokatur-blumenthal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur Blumenthal",
+      "reason": "Piege d'identite : le seul 'Blumenthal Advokatur' trouve (adv-blumenthal.ch) est base a Furstenau (GR), pas a Zurich ; continuite non confirmee (regle 5)"
+    },
     "advokatur-notariat-schmid-gr": {
       "_failed": true,
       "canton": "GR",
@@ -101,6 +122,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur & Rechtsberatung TRIAS AG",
       "reason": "Cabinet multi-cantonal (Bale, Argovie, Zoug, Berne, Lucerne, Zurich) -- le seul contact confirme sur le site est l'antenne de Bale, pas celle de Pratteln/BL specifiquement -- donnees canton-specifiques indisponibles (regle 4 etendue, cf. precedent ARNOLD LEGAL AG)"
+    },
+    "advokaturbarmet.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokatur Barmet",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "advokaturbuero-bl.ch": {
       "canton": "BL",
@@ -127,6 +155,13 @@
       "date": "2026-07-29",
       "firm_name": "ADVOTECH ADVOKATEN",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "akin-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Anwaltskanzlei Akin",
+      "reason": "Aucun site officiel trouve, uniquement le registre des avocats et des annuaires tiers"
     },
     "akws-law.ch": {
       "canton": "SZ",
@@ -174,6 +209,13 @@
       "firm_name": "Arvian Legal AG",
       "reason": "Aucun site officiel trouve (adresse Kastanienweg 3, Kilchberg confirmee au registre du commerce et a l'Anwaltsregister ZH uniquement)"
     },
+    "aschwandenlaw.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokaturbüro Aschwanden",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "b-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -212,12 +254,40 @@
       "firm_name": "Bärtschi Rechtsanwälte AG",
       "reason": "HTTP 403 Forbidden"
     },
+    "bartels.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "bartels rechtsanwalt",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "bartholdlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "BARTHOLD Anwaltskanzlei",
+      "reason": "HTTP 403 Forbidden"
+    },
+    "bastimar.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Anwaltskanzlei lic. iur. Semsettin Bastimar",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
     "becchio-partner-zh": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Becchio & Partner",
       "reason": "Site officiel (becchioandpartner.com) en construction, aucun contenu exploitable"
+    },
+    "beceren-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Beceren Attorney at Law",
+      "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
     },
     "beeler-werner-zh": {
       "_failed": true,
@@ -251,6 +321,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Bietenholz Consulting & Law",
       "reason": "Site indique \"Demnächst verfügbar\" (en construction), aucun contenu exploitable"
+    },
+    "bk-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Advokaturbüro Dr. Christoph Bertisch",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "borbely.ch": {
       "_failed": true,
@@ -842,6 +919,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Paltzer Private Clients Law",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "pb-anwaltskanzlei-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "PB Anwaltskanzlei",
+      "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
     },
     "petrig-schuler-sz": {
       "_failed": true,
@@ -1811,6 +1895,20 @@
     "source_url": "https://www.advokatur-allschwil.ch/",
     "team_size_n": 3
   },
+  "advokatur-baselice.ch": {
+    "canton": "ZH",
+    "email": "baselice@advokatur-baselice.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Baselice",
+    "phone": "+41 44 261 86 45",
+    "practice_areas_de": [
+      "Zivilrecht (Ehe-, Konkubinats-, Kindes- und Erbrecht)",
+      "Obligationenrecht (allgemeines Vertragsrecht, Arbeits-, Miet- und Gesellschaftsrecht)",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.advokatur-baselice.ch/",
+    "team_size_n": 1
+  },
   "advokatur-buelach.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -2447,6 +2545,15 @@
     "phone": "+41 43 344 95 82",
     "source_url": "https://agon-legal.ch/kontakt"
   },
+  "agyer.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@agyer.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokatur Agyer",
+    "phone": "043 817 66 22",
+    "source_url": "https://www.agyer.ch/lawfirm",
+    "team_size_n": 1
+  },
   "ah4.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -2708,6 +2815,20 @@
     ],
     "source_url": "https://www.anker24.ch/",
     "team_size_n": null
+  },
+  "antoniadis-recht.ch": {
+    "canton": "ZH",
+    "email": "antoniadis@antoniadis-recht.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Advokaturbüro Antoniadis",
+    "phone": "044 242 66 11",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Arbeitsrecht",
+      "Öffentliches Personalrecht"
+    ],
+    "source_url": "https://antoniadis-recht.ch/",
+    "team_size_n": 1
   },
   "anwaelte-hgs.ch": {
     "canton": "SG",
@@ -3927,6 +4048,20 @@
     "phone": "+41 44 388 27 77",
     "source_url": "https://www.benz-partners.ch/"
   },
+  "bernet-arbitration.ch": {
+    "canton": "ZH",
+    "email": "mb@bernet-arbitration.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Bernet Arbitration/Dispute Management",
+    "phone": "+41 44 251 52 95",
+    "practice_areas_en": [
+      "International arbitration (ad hoc and institutional)",
+      "Commercial litigation",
+      "Dispute resolution (joint ventures, M&A, shareholders' agreements, international sales, agency and distribution, licensing and engineering projects)"
+    ],
+    "source_url": "https://www.bernet-arbitration.ch/en/",
+    "team_size_n": 1
+  },
   "bettonipartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -4270,6 +4405,47 @@
     "phone": "+41(0)44 787 10 20",
     "source_url": "https://www.bl-recht.ch/anwaltskanzlei/",
     "team_size_n": 2
+  },
+  "blaserlaw.ch": {
+    "canton": "ZH",
+    "email": "info@blaserlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Blaser Rechtsanwälte",
+    "phone": "+41 44 365 99 99",
+    "practice_areas_de": [
+      "Externer Rechtsdienst für Unternehmen",
+      "Haftpflicht-, Sozialversicherungs- und Privatversicherungsrecht",
+      "Immobilienrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Gesellschaftsrecht",
+      "Verwaltungsrecht",
+      "Öffentliches Beschaffungswesen",
+      "Transportrecht",
+      "Baurecht",
+      "Zivilrecht",
+      "Strafrecht",
+      "Verfahrens- und Vollstreckungsrecht"
+    ],
+    "source_url": "https://www.blaserlaw.ch/de/"
+  },
+  "blauer-law.ch": {
+    "canton": "ZH",
+    "email": "dbl@blauer-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Bläuer Anwaltskanzlei",
+    "founding_year": 2020,
+    "phone": "+41 44 722 59 59",
+    "practice_areas_en": [
+      "Contract law",
+      "Employment law",
+      "Commercial law",
+      "Litigation",
+      "Criminal proceedings (white-collar crime)",
+      "Complex multi-party litigation"
+    ],
+    "source_url": "https://www.blauer-law.ch/en/startseite-english/",
+    "team_size_n": 1
   },
   "blesi-papa.ch": {
     "canton": "ZH",
@@ -4757,6 +4933,21 @@
     ],
     "source_url": "https://www.bruecker.swiss/index.php?id=9",
     "team_size_n": 4
+  },
+  "brugnoli-law.ch": {
+    "canton": "ZH",
+    "email": "brugnoli@brugnoli-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Brugnoli Law",
+    "founding_year": 2025,
+    "phone": "+41 44 545 28 05",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://brugnoli-law.ch/",
+    "team_size_n": 1
   },
   "brunnerknobel.ch": {
     "canton": "SG",
@@ -5872,6 +6063,19 @@
     "source_url": "https://www.ettlersuter.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "ettwein.ch": {
+    "canton": "ZH",
+    "email": "info@ettwein.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "bähr ettwein rechtsanwälte",
+    "phone": "+41 44 533 46 00",
+    "practice_areas_en": [
+      "Public law (constitutional and administrative law, human rights, planning and construction)",
+      "Environmental law",
+      "Criminal law"
+    ],
+    "source_url": "https://ettwein.ch/en/"
   },
   "eversheds-sutherland.com": {
     "_failed": true,

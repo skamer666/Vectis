@@ -3344,3 +3344,26 @@ site officiel dédié).
 
 Rattachement : 774 études rattachées au total (767 → 774, +7). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 23h03 UTC — Phase 3, lot 87 (exécution automatisée)
+
+20 cabinets traités (8 succès / 12 échecs), boutiques individuelles ZH (reprise du balayage
+alphabétique côté A/B après épuisement du pool ≥2-avocats).
+
+Succès : Advokatur Agyer (tel/email) ; Advokaturbüro Antoniadis (tel/email, 3 domaines DE) ;
+bähr ettwein rechtsanwälte (tel/email, 3 domaines EN, droit public/environnement) ; Advokatur
+Baselice (tel/email, 3 domaines DE) ; Bernet Arbitration/Dispute Management (tel/email, 3
+domaines EN, arbitrage international) ; Blaser Rechtsanwälte (tel/email, 13 domaines DE) ;
+Bläuer Anwaltskanzlei (fondée **2020**, tel/email, 6 domaines EN, contentieux complexe) ;
+Brugnoli Law (fondée **2025** -- installation indépendante après ~6 ans dans un cabinet
+spécialisé, tel/email, 3 domaines DE).
+
+Échecs : Advokatur Aeberli, bartels rechtsanwalt, Anwaltskanzlei lic. iur. Semsettin Bastimar,
+Advokaturbüro Dr. Christoph Bertisch (vérification anti-bot ×4) ; Advokaturbüro Aschwanden,
+Advokatur Baltensperger, Advokatur Barmet (HTTP 503 ×3) ; BARTHOLD Anwaltskanzlei (HTTP 403) ;
+Anwaltskanzlei Akin, PB Anwaltskanzlei, Beceren Attorney at Law (aucun site officiel, seulement
+registre des avocats) ; Advokatur Blumenthal (**piège d'identité évité** -- le seul "Blumenthal
+Advokatur" trouvé est basé à Fürstenau GR, pas à Zurich, continuité non confirmée).
+
+Rattachement : 782 études rattachées au total (774 → 782, +8). Suite de tests : 94/94 au
+vert.
