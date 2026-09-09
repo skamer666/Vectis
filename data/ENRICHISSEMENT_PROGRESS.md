@@ -2973,3 +2973,33 @@ Legal (contenu JS insuffisant), Calò Partners AG (aucun site officiel), Becchio
 
 Rattachement : 671 études rattachées au total (660 → 671, +11). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 06h04 UTC — Phase 3, lot 70 (exécution automatisée)
+
+16 cabinets traités (10 succès / 6 échecs), tous ZH (poursuite de la longue traîne de boutiques
+zurichoises solo, plage alphabétique E-K, recherches et vérifications groupées en parallèle).
+
+Succès : Hollinger Rechtsanwälte (fondée **2013** -- "Seit 2013 beraten und vertreten wir",
+tel/email, 3 domaines DE) ; Koller Law AG (fondée **2020**, solo, tel/email, 5 domaines EN
+dont droit financier/réglementaire) ; Isler & Pedrazzini (tel/email, 3 domaines DE dont droit
+des brevets et des marques) ; Gattlen Rechtsanwälte (tel, 5 domaines DE dont droit de
+l'assainissement et informatique) ; Kissling Legal GmbH (tel/email, 12 domaines EN) ; Frey &
+Partner Zürich AG (tel/email, 5 domaines EN dont planification successorale) ; Huber & Partner
+(tel/email, 11 domaines DE dont droit fiscal et succession d'entreprise) ; Haefelin Law (tel
+uniquement -- email affiché comme placeholder obscurci non exploitable) ; Jäger Legal
+Anwaltskanzlei (1 domaine DE) ; Esteves Law (tel/email uniquement -- site officiel encore en
+construction).
+
+**Piège d'identité évité :** Graf & Partner (ZH, Seegartenstrasse 2) -- le domaine
+grafpartner.com trouvé en recherche correspondait en réalité à un cabinet homonyme allemand
+sans rapport (Schmeilzl & Groll, Ratisbonne, indicatif +49) ; le vrai domaine
+(grafundpartner.ch) étant injoignable (503), le rattachement a été décliné plutôt que
+d'utiliser les données du mauvais cabinet.
+
+Échecs : Herb Takata Rechtsanwälte (site en construction), Kieser Senn Partner / KSPartner
+(aucun site officiel), Ernst & Partner (aucun site officiel), Fausch & Schenkel (aucun site
+officiel), Heller Rechtsanwalts AG (domaine officiel ambigu parmi plusieurs sites personnels
+similaires de Dr. Heinz Heller).
+
+Rattachement : 681 études rattachées au total (671 → 681, +10). Suite de tests : 94/94 au
+vert.

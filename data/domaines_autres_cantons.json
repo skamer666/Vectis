@@ -255,11 +255,25 @@
       "firm_name": "Erni Grab & Partner AG",
       "reason": "Communaute d'avocats avec lignes directes propres, aucun domaine de competence concret extrait (uniquement des formules generiques de mission) -- entree jugee non substantielle"
     },
+    "ernst-partner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Ernst & Partner",
+      "reason": "Aucun site officiel trouve, seul un annuaire tiers (search.ch)"
+    },
     "eversheds-sutherland.com": {
       "canton": "ZH",
       "firm_name": "Eversheds Sutherland AG",
       "reason": "contenu vide, rendu JavaScript probable (site global)",
       "tested_date": "2026-07-28"
+    },
+    "fausch-schenkel-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Fausch & Schenkel",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers (yelp, guidle, wallisellen.ch)"
     },
     "ferracinandpartners.ch": {
       "_failed": true,
@@ -292,6 +306,13 @@
       "reason": "URL hors provenance — non accessible via web_fetch",
       "tested_date": "2026-07-28"
     },
+    "grafundpartner.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Graf & Partner",
+      "reason": "Domaine correct (grafundpartner.ch) injoignable (503) ; le domaine similaire grafpartner.com correspond a un cabinet homonyme allemand (Regensburg, Schmeilzl & Groll) sans rapport -- lien decline"
+    },
     "grandnisple.ch": {
       "_failed": true,
       "canton": "SG",
@@ -305,6 +326,20 @@
       "checked_date": "2026-09-08",
       "firm_name": "Hischier & Brunner",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "heller-rechtsanwalts-ag-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Heller Rechtsanwalts AG",
+      "reason": "Domaine officiel ambigu -- plusieurs sites personnels similaires de Dr. Heinz Heller trouves sans confirmation explicite du nom 'Heller Rechtsanwalts AG'"
+    },
+    "herbtakata.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Herb Takata Rechtsanwälte",
+      "reason": "Site officiel indique \"is under construction\", aucun contenu exploitable"
     },
     "indemnis.ch": {
       "canton": "BS",
@@ -342,6 +377,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "K & B Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "kieser-senn-partner-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Kieser Senn Partner",
+      "reason": "Aucun site officiel trouve, seuls des annuaires tiers (allbiz, cylex, pages24)"
     },
     "kleinlaw.ch": {
       "canton": "ZH",
@@ -5006,6 +5048,14 @@
     ],
     "source_url": "http://www.era-rechtsanwaelte.ch/de/kanzlei.html"
   },
+  "esteveslaw.ch": {
+    "canton": "ZH",
+    "email": "se@esteveslaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Esteves Law",
+    "phone": "+41 44 577 56 35",
+    "source_url": "https://www.esteveslaw.ch/"
+  },
   "ettlersuter.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -5555,6 +5605,20 @@
     "phone": "+41 81 833 55 44",
     "source_url": "https://www.ganzonipedretti.ch/en/law-firm/"
   },
+  "gattlenrechtsanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Gattlen Rechtsanwälte",
+    "phone": "+41 44 215 70 20",
+    "practice_areas_de": [
+      "Sanierungsrecht",
+      "Bankgeschäft und Kreditsicherheiten",
+      "Informatikrecht",
+      "Insolvenzrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gattlenrechtsanwalt.ch/arbeitsgebiete"
+  },
   "gb-law.ch": {
     "canton": "SG",
     "email": "info@gb-law.ch",
@@ -6051,6 +6115,13 @@
     "phone": "+41 71 292 30 00",
     "source_url": "https://gysipartner.ch/de/kontakt"
   },
+  "haefelinlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Haefelin Law",
+    "phone": "+41 44 260 25 45",
+    "source_url": "https://www.haefelinlaw.ch/"
+  },
   "hartmanndreyer.ch": {
     "canton": "FR",
     "email": "office@hartmanndreyer.ch",
@@ -6309,6 +6380,20 @@
     ],
     "source_url": "https://www.hol-law.ch/en/"
   },
+  "hollinger.law": {
+    "canton": "ZH",
+    "email": "info@hollinger.law",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Hollinger Rechtsanwälte",
+    "founding_year": 2013,
+    "phone": "+41 44 222 22 88",
+    "practice_areas_de": [
+      "Handels- und Vertragsrecht",
+      "Straf- und Strafprozessrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://hollinger.law/uber-uns/"
+  },
   "homburger.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -6462,6 +6547,27 @@
     "source_url": "https://hwn-law.ch/kanzleiportrait/?lang=en",
     "team_size_n": 2
   },
+  "int-lawfirm.ch": {
+    "canton": "ZH",
+    "email": "p.huber@int-lawfirm.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Huber & Partner",
+    "phone": "+41 44 208 21 11",
+    "practice_areas_de": [
+      "Verwaltungsratssekretariat",
+      "Organhaftungsansprüche",
+      "Unternehmensrestrukturierung",
+      "Steuerrecht und Steuerplanung",
+      "Steuerbeschwerden",
+      "Erbschafts- und Schenkungssteuern",
+      "Grundstückgewinnsteuer",
+      "Internationales Steuerrecht",
+      "Erbrecht",
+      "Ehegüterrecht",
+      "Unternehmensnachfolge"
+    ],
+    "source_url": "https://www.int-lawfirm.ch/"
+  },
   "interlaw.ch": {
     "canton": "ZH",
     "email": "sh@interlaw.ch",
@@ -6565,6 +6671,19 @@
     "source_url": "https://www.islerpartner.ch/kontakt",
     "team_size_n": 3
   },
+  "islerpedrazzini.ch": {
+    "canton": "ZH",
+    "email": "mail@islerpedrazzini.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Isler & Pedrazzini",
+    "phone": "+41 44 283 47 00",
+    "practice_areas_de": [
+      "Patentrecht",
+      "Markenrecht",
+      "Immaterialgüterrecht"
+    ],
+    "source_url": "https://www.islerpedrazzini.ch/de/kanzlei/"
+  },
   "itenmcnally.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -6603,6 +6722,15 @@
       "White Collar Crime & Criminal Matters"
     ],
     "source_url": "https://www.ixar.ch/contact"
+  },
+  "jaegerlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Jäger Legal Anwaltskanzlei",
+    "practice_areas_de": [
+      "Prozessführung und Vertretung vor Gerichten und Behörden"
+    ],
+    "source_url": "https://www.jaegerlegal.ch/"
   },
   "jaegerschweiter.ch": {
     "canton": "ZH",
@@ -7031,6 +7159,28 @@
     "source_url": "https://kipferhuber.ch/",
     "team_size_n": 2
   },
+  "kissling-legal.ch": {
+    "canton": "ZH",
+    "email": "kontakt@kissling-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Kissling Legal GmbH",
+    "phone": "+41 44 500 97 00",
+    "practice_areas_en": [
+      "Litigation and Arbitration",
+      "Mediation",
+      "Conflict of Laws",
+      "Business and Corporate Law",
+      "Contract Law",
+      "International Legal and Administrative Assistance",
+      "Criminal Law / White Collar",
+      "Investor Protection / Banking Law",
+      "Inheritance and Succession",
+      "Debt Collection and Bankruptcy Law / Insolvency",
+      "Energy Law",
+      "Labor Law"
+    ],
+    "source_url": "https://kissling-legal.ch/en/"
+  },
   "kkra.ch": {
     "canton": "OW",
     "fetched_date": "2026-09-08",
@@ -7189,6 +7339,23 @@
       "Rechtsberatung China"
     ],
     "source_url": "https://koeppel-law.ch/de/"
+  },
+  "koller.law": {
+    "canton": "ZH",
+    "email": "info@koller.law",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Koller Law AG",
+    "founding_year": 2020,
+    "phone": "+41 43 544 78 00",
+    "practice_areas_en": [
+      "Regulatory matters for financial service providers",
+      "Corporate and contract law",
+      "Financial market law",
+      "M&A and private equity",
+      "Art law"
+    ],
+    "source_url": "https://koller.law/en/kanzlei",
+    "team_size_n": 1
   },
   "kornplatz.ch": {
     "canton": "GR",
@@ -8385,6 +8552,21 @@
     "phone": "081 720 01 11",
     "source_url": "https://www.maetzler-partner.ch/",
     "team_size_n": 4
+  },
+  "maf.ch": {
+    "canton": "ZH",
+    "email": "office@maf.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Frey & Partner Zürich AG",
+    "phone": "+41 44 805 8000",
+    "practice_areas_en": [
+      "Trust and Estate Planning",
+      "Wills Execution and Estate Administration",
+      "Private Banking Advisory",
+      "Commercial Transactions",
+      "Philanthropy and Impact Investments"
+    ],
+    "source_url": "https://maf.ch/"
   },
   "maglegis.ch": {
     "canton": "TI",
