@@ -2857,3 +2857,15 @@ fiscalité/planification successorale, tel, 2 avocats, 6 domaines EN), Weidmann 
 (tel/email, 5 domaines DE). **Échec :** Winter & Partner (winterpartner.ch, 503×2).
 
 Rattachement : 639 études rattachées au total (634 → 639, +5). Suite de tests : 94/94 au vert.
+
+### 2026-09-09 01h03 UTC — Phase 3, lot 65 (exécution automatisée)
+
+6 cabinets traités (3 succès / 3 échecs dont sans-site), tous ZH. Swiss Insurance Law GmbH
+(boutique droit des assurances/réassurance, tel/email, 2 avocates, 5 domaines EN), THEMIS
+Legal & Advisory (Volketswil, boutique droit de la famille/représentation d'enfants, tel/
+email, 5 domaines DE), Urbach Law (tel, 10 domaines EN dont droit des sociétés/contrats/
+arbitrage). **Échec :** Stäubli Advokatur (staeubliadvocate.com, 503×3). **Sans site
+identifié :** Sutter & Camenzind Rechtsanwälte, TM & Partner Rechtsanwälte (aucun cabinet
+correspondant trouvé).
+
+Rattachement : 642 études rattachées au total (639 → 642, +3). Suite de tests : 94/94 au vert.

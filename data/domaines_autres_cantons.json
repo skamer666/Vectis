@@ -550,6 +550,13 @@
       "firm_name": "staedeli legal partners GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "staeubliadvocate.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Stäubli Advokatur",
+      "reason": "HTTP 503 Service Unavailable (x3, plusieurs pages testees)"
+    },
     "staiger.law": {
       "canton": "ZH",
       "date": "2026-07-29",
@@ -805,6 +812,20 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio Legale M LAW",
       "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web"
+    },
+    "sutter-camenzind-zh": {
+      "_sans_site": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Sutter & Camenzind Rechtsanwälte",
+      "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web"
+    },
+    "tm-partner-rechtsanwalte-zh": {
+      "_sans_site": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "TM & Partner Rechtsanwälte",
+      "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web (homonymes allemands/suisses non lies trouves)"
     },
     "torricelli-zveiger-ti": {
       "_sans_site": true,
@@ -10594,6 +10615,22 @@
     "phone": "+41 41 410 14 16",
     "source_url": "https://swanlex.ch/"
   },
+  "swiss-insurance-law.com": {
+    "canton": "ZH",
+    "email": "melissa.gautschi@swiss-insurance-law.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Swiss Insurance Law GmbH",
+    "phone": "+41 (0)76 565 24 08",
+    "practice_areas_en": [
+      "(Re)insurance supervision law",
+      "Regulatory compliance",
+      "Corporate reorganizations",
+      "Insurance contract law",
+      "Communication with supervisory authorities"
+    ],
+    "source_url": "https://www.swiss-insurance-law.com/",
+    "team_size_n": 2
+  },
   "swisslegal-chur.ch": {
     "canton": "GR",
     "email": "gr@swisslegal.ch",
@@ -10942,6 +10979,21 @@
     "source_url": "https://www.teichmann-law.ch/en/",
     "team_size_n": null
   },
+  "themis-legal.ch": {
+    "canton": "ZH",
+    "email": "info@themis-legal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "THEMIS Legal & Advisory, Rechtsanwalt Manuel Zweifel",
+    "phone": "+41 43 399 59 59",
+    "practice_areas_de": [
+      "Kindesvertretung",
+      "Familienrecht (Trennung, Scheidung, Sorgerecht, Obhut, Unterhalt)",
+      "Mediation und Konfliktlösung",
+      "Strafverteidigung und Opfervertretung",
+      "KMU- und Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.themis-legal.ch/"
+  },
   "thf-rechtsanwaelte.ch": {
     "canton": "SZ",
     "email": "info@thf-rechtsanwaelte.ch",
@@ -11141,6 +11193,25 @@
       "Mediation"
     ],
     "source_url": "https://turicum-legal.ch/"
+  },
+  "urbach-law.inolawyer.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Urbach Law",
+    "phone": "+41 44 307 7001",
+    "practice_areas_en": [
+      "Corporate law",
+      "Commercial law",
+      "General contract law",
+      "Litigation and arbitration",
+      "International private law",
+      "Debt collection and bankruptcy law",
+      "Employment law",
+      "Tenancy law",
+      "Inheritance law",
+      "Real estate law and transactions"
+    ],
+    "source_url": "https://urbach-law.inolawyer.com/en"
   },
   "uster-law.ch": {
     "canton": "ZH",
