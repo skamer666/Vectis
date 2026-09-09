@@ -3180,3 +3180,18 @@ Partner (aucun site officiel trouvé, seul le registre du commerce).
 
 Rattachement : 730 études rattachées au total (726 → 730, +4). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 16h04 UTC — Phase 3, lot 80 (exécution automatisée)
+
+6 cabinets traités (4 succès / 2 échecs), tous ZH.
+
+Succès : Avolière Strub Law GmbH (boutique droit équin/sport/associations, tel/email, 5
+domaines DE -- spécialité rare) ; AGON PARTNERS COMPLIANCE AG (tel/email, 9 domaines DE dont
+gouvernance IA et lanceurs d'alerte) ; Legal XII Tables Avocats (tel/email, 3 domaines EN dont
+droit pénal économique) ; Tuffli Wiedemann Baurecht (Winterthur, tel, 9 domaines DE dont droit
+de la construction et de l'environnement).
+
+Échecs : CapLex KlG et Finlex AG (vérification anti-bot Cloudflare, aucun contenu exploitable).
+
+Rattachement : 734 études rattachées au total (730 → 734, +4). Suite de tests : 94/94 au
+vert.

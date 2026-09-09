@@ -238,6 +238,13 @@
       "firm_name": "Calò Partners AG",
       "reason": "Aucun site officiel trouve, seul le registre du commerce (Moneyhouse)"
     },
+    "caplex.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "CapLex KlG",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
     "cereghetti-ti-ambigu": {
       "_failed": true,
       "canton": "TI",
@@ -322,6 +329,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Felchlin Harb Schenkel Rechtsanwälte AG",
       "reason": "site JS rendu (page vide au fetch)"
+    },
+    "finlex.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Finlex AG",
+      "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
     "fnb-law.ch": {
       "canton": "ZH",
@@ -2108,6 +2122,25 @@
     ],
     "source_url": "https://www.affinity-group.ch/en/contact/"
   },
+  "agon-compliance.com": {
+    "canton": "ZH",
+    "email": "info@agon-compliance.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "AGON PARTNERS COMPLIANCE AG",
+    "phone": "+41 43 344 95 82",
+    "practice_areas_de": [
+      "Hinweisgeberschutz und Whistleblowing-Systeme",
+      "Datenschutz und DSGVO/DSG",
+      "Korruptionsprävention",
+      "Geldwäschereibekämpfung",
+      "Wettbewerbs- und Kartellrecht",
+      "Lieferkettensorgfaltspflichten",
+      "ESG und Diversity-Compliance",
+      "KI-Governance und algorithmische Transparenz",
+      "Internal Investigations"
+    ],
+    "source_url": "https://agon-compliance.com/"
+  },
   "agon-legal.ch": {
     "canton": "ZH",
     "email": "info@agon-partners.ch",
@@ -2699,6 +2732,21 @@
     ],
     "source_url": "https://www.attanasio-law.ch/kontakt",
     "team_size_n": 5
+  },
+  "avolierestrub.ch": {
+    "canton": "ZH",
+    "email": "info@avolierestrub.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Avolière Strub Law GmbH",
+    "phone": "+41 44 555 33 11",
+    "practice_areas_de": [
+      "Pferderecht",
+      "Vereinsrecht",
+      "Sportrecht",
+      "Haftpflichtrecht",
+      "Streitbeilegung"
+    ],
+    "source_url": "https://www.avolierestrub.ch/"
   },
   "avv-fiscalini.ch": {
     "canton": "TI",
@@ -8357,6 +8405,19 @@
     ],
     "source_url": "https://www.legal-notary.ch/"
   },
+  "legal12tablesavocats.ch": {
+    "canton": "ZH",
+    "email": "zurich@legal12tablesavocats.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Legal XII Tables Avocats",
+    "phone": "+41 44 221 31 31",
+    "practice_areas_en": [
+      "Criminal law (economic and financial offences, international mutual assistance)",
+      "Immigration law",
+      "Commercial law and litigation"
+    ],
+    "source_url": "https://legal12tablesavocats.ch/en/contact/"
+  },
   "legal1896.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -12881,6 +12942,24 @@
     "practice_areas_fr": [],
     "source_url": "https://www.trollerlaw.ch/",
     "team_size_n": null
+  },
+  "tufflibaurecht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Tuffli Wiedemann Baurecht",
+    "phone": "+41 76 424 32 00",
+    "practice_areas_de": [
+      "Öffentliches Bau-, Planungs- und Umweltrecht",
+      "Natur- und Heimatschutzrecht",
+      "Strassenbaurecht",
+      "Energierecht",
+      "Eigentumsrecht",
+      "Nachbarrecht",
+      "Privates Baurecht",
+      "Verwaltungs- und Verfahrensrecht",
+      "Immobilienrecht"
+    ],
+    "source_url": "https://www.tufflibaurecht.ch/welcome"
   },
   "turicum-legal.ch": {
     "canton": "ZH",
