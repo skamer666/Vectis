@@ -2869,3 +2869,14 @@ identifié :** Sutter & Camenzind Rechtsanwälte, TM & Partner Rechtsanwälte (a
 correspondant trouvé).
 
 Rattachement : 642 études rattachées au total (639 → 642, +3). Suite de tests : 94/94 au vert.
+
+### 2026-09-09 02h03 UTC — Phase 3, lot 66 (exécution automatisée)
+
+5 cabinets traités (3 succès / 2 échecs), tous ZH. Stefan Minder Rechtsanwälte (fondée
+**2003** -- "Seit 2003 ist Stefan Minder unabhängiger Rechtsanwalt in Zürich", tel/email,
+spécialiste FSA Arbeitsrecht depuis 2014, 5 domaines DE), Zeltweg Rechtsanwälte (tel,
+4 avocats), Walker Law AG (fondée **2020** -- "Im Jahr 2020 gründete er seine eigene Kanzlei
+Walker Law", tel/email, 7 domaines EN). **Échecs :** Weber Law Partners AG (wlaw.ch, 503×2),
+Terekhov Law (terekhov-law.ch, 403×2).
+
+Rattachement : 645 études rattachées au total (642 → 645, +3). Suite de tests : 94/94 au vert.

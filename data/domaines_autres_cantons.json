@@ -627,6 +627,13 @@
       "firm_name": "Tenchio & Partner",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "terekhov-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Terekhov Law",
+      "reason": "HTTP 403 Forbidden (x2)"
+    },
     "umbricht.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -698,6 +705,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Winzeler Law",
       "reason": "HTTP 503 Service Unavailable (x2, y compris apres redirection depuis winzelerlaw.com)"
+    },
+    "wlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Weber Law Partners AG",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "wuergler-ra.ch": {
       "canton": "ZH",
@@ -8037,6 +8051,23 @@
     ],
     "source_url": "https://www.michligknutti.ch/kontakt"
   },
+  "minder-rechtsanwaelte.ch": {
+    "canton": "ZH",
+    "email": "minder@minder-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Stefan Minder Rechtsanwälte",
+    "founding_year": 2003,
+    "phone": "+41 44 250 74 03",
+    "practice_areas_de": [
+      "International Accounting and Reporting",
+      "Corporate Governance und Gesellschaftsrecht",
+      "Steuerrecht und MWST",
+      "Wirtschafts-, Schuldbetreibungs- und Konkursrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.minder-rechtsanwaelte.ch/stefan-minder",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht (seit Juni 2014)"
+  },
   "mkj.ch": {
     "canton": "ZH",
     "email": "info@mkj.ch",
@@ -11634,6 +11665,24 @@
     "source_url": "https://www.walderwyss.com/fr/domaines-de-competence",
     "team_size_n": null
   },
+  "walkerlaw.ch": {
+    "canton": "ZH",
+    "email": "contact@walkerlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Walker Law AG",
+    "founding_year": 2020,
+    "phone": "+41 44 585 14 55",
+    "practice_areas_en": [
+      "Litigation and Arbitration",
+      "General Contract Law",
+      "Corporate and Commercial Law",
+      "Debt Collection and Insolvency Law",
+      "Employment Law",
+      "Real Estate",
+      "Private Clients and Estate Planning"
+    ],
+    "source_url": "https://walkerlaw.ch/"
+  },
   "wartmann-merker.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -12156,6 +12205,14 @@
       "Vertragsrecht"
     ],
     "source_url": "https://zd-law.ch/"
+  },
+  "zeltweg.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Zeltweg Rechtsanwälte",
+    "phone": "+41 44 256 16 00",
+    "source_url": "https://www.zeltweg.ch/en",
+    "team_size_n": 4
   },
   "zm-rechtsanwaelte.ch": {
     "canton": "LU",
