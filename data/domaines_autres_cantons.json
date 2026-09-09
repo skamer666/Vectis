@@ -73,6 +73,13 @@
       "reason": "Resolution DNS impossible (timeout) sur deux tentatives",
       "tested_date": "2026-09-07"
     },
+    "advosuisse.org": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "ADVOSUISSE",
+      "reason": "HTTP 403 Forbidden (x2)"
+    },
     "advotech.ch": {
       "canton": "BS",
       "date": "2026-07-29",
@@ -453,6 +460,13 @@
       "firm_name": "Kohler Law GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "kruse-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Kruse I Law",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "kuenglaw-sg.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -583,6 +597,13 @@
       "firm_name": "Maurer & Stäger AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "muellhaupt-partners.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Müllhaupt & Partner",
+      "reason": "HTTP 503 puis 404 sur pages alternatives"
+    },
     "museum35.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -696,11 +717,25 @@
       "firm_name": "Reichle Stehle AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "reinarz-taxlegal.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Reinarz Tax & Legal",
+      "reason": "Pages contact/about en 404 ; aucun telephone/email exploitable trouve sur le site officiel, seule une description generale"
+    },
     "relevanz.legal": {
       "_failed": true,
       "canton": "SG",
       "checked_date": "2026-09-09",
       "firm_name": "relevanz.legal",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "rp-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-09",
+      "firm_name": "Rechtsanwälte Pugatsch",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "rs-tax.ch": {
@@ -5826,6 +5861,19 @@
     ],
     "source_url": "https://gegenschatzpartner.ch/kontakt/"
   },
+  "gehrilegal.com": {
+    "canton": "ZH",
+    "email": "kontakt@gehrilegal.com",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Gehrilegal Attorneys",
+    "phone": "+41 43 268 92 04",
+    "practice_areas_en": [
+      "Contracts",
+      "Civil Procedure Law",
+      "Enforcement"
+    ],
+    "source_url": "https://gehrilegal.com/en/expertise/"
+  },
   "gfp-recht.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -6713,6 +6761,14 @@
     "source_url": "https://hwn-law.ch/kanzleiportrait/?lang=en",
     "team_size_n": 2
   },
+  "iblegal.ch": {
+    "canton": "ZH",
+    "email": "info@iblegal.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "ib legal AG",
+    "phone": "+41 44 260 85 00",
+    "source_url": "https://www.iblegal.ch/en/contact"
+  },
   "int-lawfirm.ch": {
     "canton": "ZH",
     "email": "p.huber@int-lawfirm.ch",
@@ -6987,6 +7043,16 @@
     ],
     "source_url": "https://jb-anwaelte.ch/rechtsgebiete/",
     "team_size_n": null
+  },
+  "jcgil.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-09",
+    "firm_name": "J.C. Gil Rechtsanwälte",
+    "phone": "+41 44 714 70 00",
+    "practice_areas_de": [
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "http://jcgil.ch/ger/wer-wir-sind.html"
   },
   "jetzer-frank.ch": {
     "canton": "ZH",
@@ -9316,6 +9382,23 @@
     "source_url": "https://www.neovius.ch/en/about-us/",
     "team_size_n": null
   },
+  "neubauerlaw.ch": {
+    "canton": "ZH",
+    "email": "info@neubauerlaw.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Neubauer Law",
+    "founding_year": 2022,
+    "phone": "+41 44 737 03 13",
+    "practice_areas_de": [
+      "Geistiges Eigentum",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Datenschutz",
+      "ICT/IT Recht",
+      "Wettbewerbsrecht"
+    ],
+    "source_url": "https://neubauerlaw.ch/ueber/"
+  },
   "neustadt-advokatur.ch": {
     "canton": "LU",
     "email": "sekretariat@neustadt-advokatur.ch",
@@ -10386,6 +10469,26 @@
     ],
     "source_url": "https://rihar-thouvenin.ch/",
     "team_size_n": 2
+  },
+  "rihm-law.ch": {
+    "canton": "ZH",
+    "email": "thomas.rihm@rihm-law.ch",
+    "fetched_date": "2026-09-09",
+    "firm_name": "Rihm Rechtsanwälte",
+    "phone": "+41 58 455 00 50",
+    "practice_areas_en": [
+      "Investment guidance and protection",
+      "Business law consultation for SMEs",
+      "Litigation and mediation",
+      "FinTech, blockchain and virtual assets",
+      "Insolvency advisory",
+      "National and international taxation",
+      "Estate planning",
+      "Financial market law",
+      "Compliance and regulatory matters",
+      "Real estate"
+    ],
+    "source_url": "https://www.rihm-law.ch/"
   },
   "rischlegal.ch": {
     "canton": "ZH",

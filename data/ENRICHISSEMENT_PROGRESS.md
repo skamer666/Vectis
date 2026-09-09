@@ -3069,3 +3069,19 @@ commercial/sociétés/immobilier) ; Judith Naef Rechtsanwälte AG (tel/email) ; 
 
 Rattachement : 702 études rattachées au total (694 → 702, +8). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-09 10h03 UTC — Phase 3, lot 74 (exécution automatisée)
+
+10 cabinets traités (5 succès / 5 échecs), tous ZH.
+
+Succès : Neubauer Law (fondée **2022**, tel/email, 6 domaines DE dont PI/technologie) ; Rihm
+Rechtsanwälte (tel/email, 10 domaines EN dont FinTech/blockchain) ; ib legal AG (tel/email) ;
+Gehrilegal Attorneys (Zollikon, tel/email, 3 domaines EN + secteurs logistique/IT/life
+science) ; J.C. Gil Rechtsanwälte (tel, droit commercial).
+
+Échecs : Reinarz Tax & Legal (pages contact en 404, aucun tel/email exploitable), Müllhaupt &
+Partner (503 puis 404), Rechtsanwälte Pugatsch / rp-law.ch (503×2), Kruse I Law (503×2),
+ADVOSUISSE (403×2).
+
+Rattachement : 707 études rattachées au total (702 → 707, +5). Suite de tests : 94/94 au
+vert.
