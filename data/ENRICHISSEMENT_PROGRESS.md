@@ -3574,3 +3574,32 @@ du CSV).
 
 Rattachement : 871 études rattachées au total (860 → 871, +11). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 09h03 UTC — Phase 3, lot 97 (exécution automatisée)
+
+Bascule vers le canton TI (pool ZH nommé quasi épuisé). 22 cabinets traités (6 succès / 16
+échecs). Note technique : une deuxième structure d'échecs héritée (`_failed` imbriqué sous la
+clé `_sans_site`, distincte du `_failed` plat standard) a été découverte -- plusieurs candidats
+de ce lot (Censi & Associati, Ferrari Partner, M LAW, Poma-Gandolfi, Torricelli Zveiger,
+Zandrini & Partners) y figuraient déjà comme non exploitables ; ils ont été reconfirmés puis
+ajoutés au `_failed` plat standard pour que les prochains lots les excluent correctement.
+
+Succès : Studio legale Walder Wyss SA + studio legale Walder Wyss (2 variantes CSV du bureau
+tessinois de Walder Wyss, rattachées aux faits déjà vérifiés via `walderwyss.com#TI` -- les
+deux entrées restent toutefois **non affichées** car les 2 lignes CSV partagent le même nom
+cœur, ignorées par la garde-fou anti-ambiguïté) ; Barchi Nicoli Trisconi Gianini SA (dédoublonnage
+avec l'entrée `barchipartners.ch` déjà vérifiée) ; Consulenza Giuridica Andicap (tel/email,
+association d'aide juridique aux personnes en situation de handicap) ; Studio legale avv.
+Nicoletta Amendolara (tel/email, 8 domaines IT) ; IusLex Avvocati Sagl (tel/email, adresse,
+diritto della migrazione).
+
+Échecs : Studio legale e notarile M LAW (même adresse que M LAW, aucun site) ; Studio legale
+Albisetti & Bauer, Studio legale Jackson & Arnoldi, Studio legale e notarile Aldi+ Balmelli
+(identité confirmée via adresse/membre mais aucun site officiel) ; Scilanga Studio Legale SA
+(aucun site) ; Studio legale LVA VELO SA, studio legale Ghiringhelli e Associati (identité
+confirmée mais site inaccessible HTTP 403/503 x2) ; Studio legale CP-DL Leone & Partners SA
+(page anti-bot x2) ; FB Legal Services SA, Studio legale Tuto Rossi Law Notary (HTTP 403/503
+x2) ; plus 6 reconfirmations de candidats déjà classés `_sans_site`.
+
+Rattachement : 875 études rattachées au total (871 → 875, +4 affichées ; +6 écritures, 2
+ignorées par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.

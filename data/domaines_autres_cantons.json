@@ -218,6 +218,20 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "albisetti-bauer-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale Albisetti & Bauer",
+      "reason": "Identite confirmee (Edy Albisetti, Via delle Scuole 13, Paradiso) mais aucun site officiel -- seulement une adresse email gmail generique via annuaire"
+    },
+    "aldi-balmelli-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile Aldi+ Balmelli",
+      "reason": "Identite partiellement confirmee (Via Curti 5, Lugano, membres Aldi et Balmelli) mais aucun site officiel du cabinet identifie"
+    },
     "amwasserturmplatz.ch": {
       "_failed": true,
       "canton": "BL",
@@ -476,6 +490,13 @@
       "firm_name": "CapLex KlG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
+    "censiassociati-lugano-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile Censi & Associati",
+      "reason": "Aucun site officiel dedie trouve (uniquement annuaires tiers) -- confirme a nouveau (deja note sous _sans_site)"
+    },
     "cereghetti-ti-ambigu": {
       "_failed": true,
       "canton": "TI",
@@ -503,6 +524,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltsbüro Dr. A. Coradi",
       "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
+    },
+    "cp-dl.com": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale CP-DL Leone & Partners SA",
+      "reason": "Page de verification anti-bot ('One moment, please...'), aucun contenu accessible (x2)"
     },
     "danielhochstrasser.ch": {
       "_failed": true,
@@ -646,12 +674,26 @@
       "firm_name": "Fausch & Schenkel",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers (yelp, guidle, wallisellen.ch)"
     },
+    "fblegalservicessa.com": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "FB Legal Services SA",
+      "reason": "HTTP 403 Forbidden (x2, avec et sans www)"
+    },
     "ferracinandpartners.ch": {
       "_failed": true,
       "canton": "TI",
       "checked_date": "2026-09-08",
       "firm_name": "Studio Legale Ferracin & Associati",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "ferrari-partner-ti-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile Ferrari Partner",
+      "reason": "Aucun site officiel propre identifie -- confirme a nouveau (deja note sous _sans_site)"
     },
     "fhs.legal": {
       "canton": "ZH",
@@ -718,6 +760,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltskanzlei Gebhardt",
       "reason": "HTTP 503 Service Unavailable"
+    },
+    "ghiringhelli-olgiati-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "studio legale Ghiringhelli e Associati",
+      "reason": "Identite confirmee (via Orico 7, Bellinzona, ghiringhelli-olgiati.ch) mais HTTP 503 Service Unavailable (x2)"
     },
     "grafundpartner.ch": {
       "_failed": true,
@@ -871,6 +920,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale Jackson Arnoldi Decristophoris",
       "reason": "Aucun site officiel trouve, uniquement le registre cantonal des avocats TI"
+    },
+    "jackson-arnoldi-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale Jackson & Arnoldi",
+      "reason": "Identite confirmee (Paola Arnoldi, Via Domenico Fontana 14, Lugano) mais aucun site officiel du cabinet identifie"
     },
     "jkr.ch": {
       "canton": "ZH",
@@ -1180,6 +1236,13 @@
       "firm_name": "lo studio notarile Velo & Associati",
       "reason": "Rattachement possible a LVA VELO SA (source tierce, meme adresse/fondateur 1982) mais HTTP 403 sur la page About Us -- continuite jamais confirmee par la source primaire, lien non retenu"
     },
+    "lva-law.ch#2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale LVA VELO SA",
+      "reason": "Identite confirmee (lva-law.ch) mais HTTP 403 Forbidden sur la page d'accueil et /about-us/ (x2)"
+    },
     "maegerle-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1452,6 +1515,13 @@
       "firm_name": "Piasini Advokatur",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers ; possiblement ferme selon un annuaire"
     },
+    "poma-gandolfi-ti-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile Poma-Gandolfi & Associati",
+      "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire -- confirme a nouveau (deja note sous _sans_site)"
+    },
     "prudentia-law.ch": {
       "canton": "ZH",
       "firm_name": "PRUDENTIA LAW",
@@ -1563,6 +1633,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Studio Legale e Notarile Rosella Chiesa Lehmann",
       "reason": "Aucun site officiel trouve, uniquement des annuaires tiers (local.ch, search.ch, boss-editore.ch)"
+    },
+    "rossi.pro": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale Tuto Rossi Law Notary",
+      "reason": "HTTP 503 Service Unavailable (x2, avec et sans www)"
     },
     "rp-law.ch": {
       "_failed": true,
@@ -1692,6 +1769,13 @@
       "firm_name": "Schuhmacher Weber Rechtsanwälte",
       "reason": "Aucun cabinet correspondant a ce nom exact trouve (seuls des cabinets homonymes partiels 'Weber' sans rapport)"
     },
+    "scilanga-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Scilanga Studio Legale SA",
+      "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire"
+    },
     "sglaw.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -1793,12 +1877,26 @@
       "firm_name": "Schwarzmann Brändli Hofer Rechtsanwälte AG",
       "reason": "site JS rendu (page vide au fetch)"
     },
+    "studio-legale-e-notarile-m-law-ti": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile M LAW",
+      "reason": "Meme adresse (via Teatro 4, Bellinzona) que 'Studio Legale M LAW' mais aucun site officiel identifie pour ce cabinet"
+    },
     "studio-legale-gianola-ti": {
       "_failed": true,
       "canton": "TI",
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale Gianola",
       "reason": "Identite incertaine : recherche renvoie plusieurs homonymes proches (Gianola / Gianora / Gianella) sans correspondance claire, aucun site officiel identifie avec certitude (regle 5)"
+    },
+    "studio-legale-m-law-ti-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio Legale M LAW",
+      "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web -- confirme a nouveau (deja note sous _sans_site)"
     },
     "studio-legis-ch-schoebi": {
       "_failed": true,
@@ -1893,6 +1991,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "TM & Partner Rechtsanwälte",
       "reason": "Aucune correspondance trouvee pour Timothy Müller / TM & Partner a Wettswil ; aucun site officiel identifie"
+    },
+    "torricelli-zveiger-ti-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Torricelli Zveiger Studio legale e notarile",
+      "reason": "Aucun site officiel identifie -- confirme a nouveau (deja note sous _sans_site)"
     },
     "toschini-gr": {
       "_failed": true,
@@ -2110,6 +2215,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Advokaturbüro Dr. Y. Kovacs",
       "reason": "HTTP 403 Forbidden"
+    },
+    "zandrini-partners-ti-2": {
+      "_failed": true,
+      "canton": "TI",
+      "checked_date": "2026-09-10",
+      "firm_name": "Studio legale e notarile Zandrini & Partners",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire/registre -- confirme a nouveau (deja note sous _sans_site)"
     },
     "zgraggen-ulrich-lu": {
       "_failed": true,
@@ -4521,6 +4633,21 @@
     "canton": "TI",
     "fetched_date": "2026-09-07",
     "firm_name": "Studio legale Barchi Nicoli Trisconi Gianini SA",
+    "practice_areas_it": [
+      "procedure contenziose",
+      "arbitrati",
+      "consulenze giuridiche in genere",
+      "pratiche notariali in materia societaria",
+      "materia fondiaria",
+      "diritto successorio",
+      "diritto matrimoniale"
+    ],
+    "source_url": "https://www.barchipartners.ch/"
+  },
+  "barchipartners.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Barchi Nicoli Trisconi Gianini SA",
     "practice_areas_it": [
       "procedure contenziose",
       "arbitrati",
@@ -8996,6 +9123,17 @@
     "phone": "+41 44 260 85 00",
     "source_url": "https://www.iblegal.ch/en/contact"
   },
+  "inclusione-andicap-ticino.ch": {
+    "canton": "TI",
+    "email": "info@inclusione-andicap-ticino.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Consulenza Giuridica Andicap",
+    "phone": "091 850 90 20",
+    "practice_areas_it": [
+      "consulenza ed informazioni per risolvere problemi giuridici legati alle assicurazioni sociali a seguito di una malattia congenita, una malattia di lunga durata o un infortunio"
+    ],
+    "source_url": "https://www.inclusione-andicap-ticino.ch/cosa-facciamo/consulenza-giuridica-2/"
+  },
   "int-lawfirm.ch": {
     "canton": "ZH",
     "email": "p.huber@int-lawfirm.ch",
@@ -9186,6 +9324,17 @@
     "phone": "+41 41 418 60 33",
     "source_url": "https://www.iup.ch/de/kontakt",
     "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
+  },
+  "iuslexavvocati.ch": {
+    "canton": "TI",
+    "email": "iuslexavv@gmail.com",
+    "fetched_date": "2026-09-10",
+    "firm_name": "IusLex Avvocati Sagl",
+    "phone": "+41 79 693 49 26",
+    "practice_areas_it": [
+      "diritto della migrazione"
+    ],
+    "source_url": "https://www.iuslexavvocati.ch/chi-siamo"
   },
   "ixar.ch": {
     "canton": "ZH",
@@ -10689,6 +10838,24 @@
     ],
     "source_url": "https://legalecorti.ch/en/about-us/",
     "team_size_n": 2
+  },
+  "legaleticino.ch": {
+    "canton": "TI",
+    "email": "amendolara@legaleticino.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Studio legale avv. Nicoletta Amendolara",
+    "phone": "+41 76 447 24 41",
+    "practice_areas_it": [
+      "diritto della locazione e di vicinato",
+      "diritto di famiglia",
+      "diritto del lavoro",
+      "diritto penale",
+      "diritto per stranieri",
+      "diritto della circolazione stradale",
+      "diritto delle assicurazioni sociali e private",
+      "diritto esecutivo"
+    ],
+    "source_url": "https://legaleticino.ch/"
   },
   "legaletributario.ch": {
     "canton": "TI",
@@ -16066,6 +16233,22 @@
     "email": "reception@walderwyss.com",
     "fetched_date": "2026-09-09",
     "firm_name": "c/o studio legale Walderwyss SA, via Ferruccio Pelli, casella postale 5162",
+    "phone": "+41 58 658 40 00",
+    "source_url": "https://www.walderwyss.com/it/sedi/lugano"
+  },
+  "walderwyss.com#TI2": {
+    "canton": "TI",
+    "email": "reception@walderwyss.com",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Studio legale Walder Wyss SA",
+    "phone": "+41 58 658 40 00",
+    "source_url": "https://www.walderwyss.com/it/sedi/lugano"
+  },
+  "walderwyss.com#TI3": {
+    "canton": "TI",
+    "email": "reception@walderwyss.com",
+    "fetched_date": "2026-09-10",
+    "firm_name": "studio legale Walder Wyss",
     "phone": "+41 58 658 40 00",
     "source_url": "https://www.walderwyss.com/it/sedi/lugano"
   },
