@@ -317,6 +317,13 @@
       "firm_name": "Andenmatten Notariat & Advokatur GmbH",
       "reason": "Aucun site officiel propre identifie (entite recemment enregistree, mars 2026), uniquement des fiches de registre"
     },
+    "andreas-faeh-grandnisple-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwalt und Notar",
+      "reason": "site grandnisple.ch inaccessible (HTTP 503, 3 tentatives cumulees sur plusieurs lots)"
+    },
     "animus-sg": {
       "_failed": true,
       "canton": "SG",
@@ -659,6 +666,13 @@
       "firm_name": "CapLex KlG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
+    "catherine-weisser-buchs-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "ADVOKATURBUREAU GmbH CATHERINE WEISSER",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+    },
     "cbc-recht-sg": {
       "_failed": true,
       "canton": "SG",
@@ -810,6 +824,13 @@
       "reason": "HTTP 503 Service Unavailable au fetch",
       "tested_date": "2026-09-07"
     },
+    "ehrbar-schoch-frt-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "FRT RECHTSANWÄLTE & NOTARE Unterer Graben 1",
+      "reason": "piege d'identite evite : Stefanie Ehrbar-Schoch n'apparait pas dans l'equipe officielle de frt-anwaelte.ch"
+    },
     "ehs-kanzlei.ch": {
       "canton": "LU",
       "firm_name": "Egli Hess Schwegler Rechtsanwälte und Notare",
@@ -898,6 +919,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "FB Legal Services SA",
       "reason": "HTTP 403 Forbidden (x2, avec et sans www)"
+    },
+    "ferdi-schlegel-wil-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Schlegel Rechtsanwalt Konstanzerstrasse 31",
+      "reason": "aucun site officiel propre identifie (contact bluewin uniquement)"
     },
     "ferracinandpartners.ch": {
       "_failed": true,
@@ -1146,6 +1174,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "hba Rechtsanwälte AG",
       "reason": "piege d'identite evite -- adresse CSV (Poststrasse 14, Wil) ne correspond pas exactement a l'adresse confirmee du bureau de Wil (Poststrasse 19)"
+    },
+    "heinz-schmidhauser-wil-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Heinz Schmidhauser",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
     "heller-rechtsanwalts-ag-zh": {
       "_failed": true,
@@ -1496,6 +1531,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Kruse I Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "kuehnis-eggersriet-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltsbüro und Notariat",
+      "reason": "aucun site officiel propre identifie pour Heinz-Peter Kuehnis (uniquement annuaires tiers)"
     },
     "kuenglaw-sg.ch": {
       "canton": "SG",
@@ -2006,6 +2048,13 @@
       "firm_name": "PB Anwaltskanzlei",
       "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
     },
+    "peter-schumacher-mels-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwalt Peter Schumacher",
+      "reason": "absent de l'equipe officielle de Maetzler & Partner (Sargans) malgre la mention presse ; aucun site propre distinct trouve"
+    },
     "petrig-schuler-sz": {
       "_failed": true,
       "canton": "SZ",
@@ -2094,6 +2143,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Rajower & Weber",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
+    },
+    "raphael-schram-degersheim-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur & Notariat Raphael Schram",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "rappjlegal-sg": {
       "_failed": true,
@@ -2496,6 +2552,13 @@
       "firm_name": "Stiftungsplus Daniel Waser",
       "reason": "Ne semble pas etre un cabinet d'avocats -- service de conseil en gouvernance de fondations, aucune mention de statut d'avocat"
     },
+    "stoeri-brunnadern-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Störi",
+      "reason": "ambiguite d'identite : David Frederic Stoeri semble desormais procureur (Staatsanwalt), aucun site officiel d'avocat trouve"
+    },
     "stplaw.ch": {
       "canton": "ZH",
       "firm_name": "Stiffler & Partner",
@@ -2588,6 +2651,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio legale e notarile Tamagni Fornara & Associati",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "tamburlini-stgallen-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwalt Marco Tamburlini",
+      "reason": "aucun site officiel propre identifie, affiliation ambigue (possible rattachement a Bratschi)"
     },
     "tappolet-partner.ch": {
       "canton": "ZH",
@@ -2869,6 +2939,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Notariat & Advokatur Wiprächtiger",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+    },
+    "wittibschlager-wil-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Auer & Wittibschlager",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "wlaw.ch": {
       "_failed": true,
@@ -3697,6 +3774,20 @@
     ],
     "source_url": "https://advokatur-staub.ch/"
   },
+  "advokatur-strebel.ch": {
+    "canton": "SG",
+    "email": "info@advokatur-strebel.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Strebel",
+    "phone": "+41 71 525 03 11",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.advokatur-strebel.ch/"
+  },
   "advokatur-tomaschett.ch": {
     "canton": "GR",
     "email": "info@advokatur-tomaschett.ch",
@@ -3765,6 +3856,25 @@
     "firm_name": "Walder Haas Berner AG",
     "phone": "041 920 10 21",
     "source_url": "https://www.advokatur-whb.ch/kontakt.html"
+  },
+  "advokatur-widmer.ch": {
+    "canton": "SG",
+    "email": "info@advokatur-widmer.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ADVOKATUR WIDMER.",
+    "founding_year": 2016,
+    "phone": "+41 71 552 19 86",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Verwaltungsrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Familien- und Erbrecht",
+      "Gesellschafts- und Unternehmensrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.advokatur-widmer.ch/"
   },
   "advokatur-zentralschweiz.ch": {
     "canton": "LU",
@@ -4128,6 +4238,23 @@
     "specialist_certification": "Fachanwaltstitel im Haftpflicht- und Versicherungsrecht (Evalotta Samuelsson)",
     "team_size_n": 4
   },
+  "advopol.ch": {
+    "canton": "SG",
+    "email": "info@advopol.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur & Politikberatung Karolina Yuan",
+    "practice_areas_de": [
+      "Steuerrecht (MWST, Zölle, Stempelabgaben)",
+      "Migrationsrecht",
+      "öffentliches Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Verwaltungsrecht",
+      "Bildungsrecht",
+      "Bürgerrecht",
+      "Vereinsrecht"
+    ],
+    "source_url": "https://www.advopol.ch/"
+  },
   "advore.ch": {
     "canton": "SG",
     "email": "info@advore.ch",
@@ -4335,6 +4462,20 @@
     ],
     "source_url": "https://ah4.law/en/contact",
     "team_size_n": null
+  },
+  "air-law.ch": {
+    "canton": "SG",
+    "email": "widmer@air-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Widmer-Kaufmann",
+    "phone": "071 744 43 43",
+    "practice_areas_de": [
+      "Luft- und Raumfahrtrecht",
+      "Flugzeugbetrieb und Zulassung",
+      "Pilotenlizenzierung",
+      "Flugunfallberatung"
+    ],
+    "source_url": "https://www.air-law.ch/"
   },
   "ak-lang.ch": {
     "canton": "ZH",
@@ -5016,6 +5157,20 @@
     ],
     "source_url": "https://www.anwaltskanzlei-meyer.ch/",
     "team_size_n": 1
+  },
+  "anwaltskanzlei-zuercher.ch": {
+    "canton": "SG",
+    "email": "info@anwaltskanzlei-zuercher.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Ilona Zürcher AG",
+    "founding_year": 2015,
+    "phone": "+41 71 880 01 95",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Haftpflichtrecht"
+    ],
+    "source_url": "https://anwaltskanzlei-zuercher.ch/"
   },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
@@ -7314,6 +7469,13 @@
     ],
     "source_url": "https://www.burckhardtlaw.com/team/"
   },
+  "burges-haueter.com": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "c/o Zum Stein Office GmbH",
+    "phone": "+41 71 223 54 68",
+    "source_url": "https://burges-haueter.com/kontakt/"
+  },
   "burki-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -7349,6 +7511,14 @@
       "Medienrecht"
     ],
     "source_url": "https://www.burribreitschmid.ch/kontakt"
+  },
+  "bvk-rechtsanwaelte.ch": {
+    "canton": "SG",
+    "email": "vonkoenig@bvk-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BVK-Rechtsanwälte",
+    "phone": "+41 71 228 33 11",
+    "source_url": "https://www.bvk-rechtsanwaelte.ch/"
   },
   "bvlaw.ch": {
     "canton": "TI",
@@ -10183,6 +10353,14 @@
     ],
     "source_url": "https://heerbritt.ch/"
   },
+  "heerbritt.ch#2": {
+    "canton": "SG",
+    "email": "info@heerbritt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Heer & Britt Advokatur AG Heer & Partner Advokatur AG",
+    "phone": "071 552 05 51",
+    "source_url": "https://heerbritt.ch/"
+  },
   "hefti-advokatur.ch": {
     "canton": "SG",
     "email": "eveline.hefti@hefti-advokatur.ch",
@@ -10250,6 +10428,14 @@
     "firm_name": "Heller Anwaltskanzlei AG",
     "phone": "+41 41 391 04 45",
     "source_url": "https://hellerak.ch/Welcome_to_Heller_Anwaltskanzlei_AG.html"
+  },
+  "hellstern.ch": {
+    "canton": "SG",
+    "email": "advokatur@hellstern.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur und Notariat",
+    "phone": "071 290 11 44",
+    "source_url": "https://hellstern.ch/"
   },
   "henzenhans.ch": {
     "canton": "SG",
@@ -10520,6 +10706,19 @@
       "Bau- und Immobilienrecht"
     ],
     "source_url": "https://hra.ch/kontakt/"
+  },
+  "hs-legal.ch": {
+    "canton": "SG",
+    "email": "schneider@hs-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HS-LEGAL",
+    "phone": "+41 71 278 64 60",
+    "practice_areas_de": [
+      "schweizerisches und internationales Wirtschaftsrecht",
+      "schweizerisches und internationales Gesellschaftsrecht",
+      "schweizerisches und internationales Vertrags- und Steuerrecht"
+    ],
+    "source_url": "https://www.hs-legal.ch/en/kontakt/"
   },
   "hsmlegal.ch": {
     "canton": "LU",
@@ -11308,6 +11507,14 @@
     ],
     "source_url": "https://kanzlei-dbz.ch/"
   },
+  "kanzlei-dbz.ch#2": {
+    "canton": "SG",
+    "email": "schaerer@kanzlei-dbz.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kanzlei Degginger Bischof Zlabinger",
+    "phone": "+41 71 223 81 21",
+    "source_url": "https://kanzlei-dbz.ch/"
+  },
   "kanzlei-eichhof.ch": {
     "canton": "LU",
     "email": "info@kanzlei-eichhof.ch",
@@ -11354,6 +11561,14 @@
     ],
     "source_url": "https://kanzlei-rothenburg.ch/",
     "team_size_n": 3
+  },
+  "kanzlei-schwarz.ch": {
+    "canton": "SG",
+    "email": "info@kanzlei-schwarz.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kanzlei Schwarz",
+    "phone": "071 722 00 20",
+    "source_url": "https://www.kanzlei-schwarz.ch/ueber-mich/"
   },
   "kanzlei-uster.ch": {
     "canton": "ZH",
@@ -11458,6 +11673,19 @@
     ],
     "source_url": "https://kanzleilauber.ch/taetigkeitsbereiche",
     "team_size_n": 1
+  },
+  "kanzley.ch": {
+    "canton": "SG",
+    "email": "ley@kanzley.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "KANZLEY",
+    "phone": "+41 71 227 07 07",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Haftpflichtrecht",
+      "Privatversicherungsrecht"
+    ],
+    "source_url": "https://www.kanzley.ch/"
   },
   "keller-law.ch": {
     "canton": "ZH",
@@ -13141,6 +13369,15 @@
     ],
     "source_url": "https://lmlex.ch/"
   },
+  "lmrecht.ch": {
+    "canton": "SG",
+    "email": "kanzlei@lmrecht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LM Rechtsanwälte AG Molkereistrasse 1",
+    "founding_year": 2025,
+    "phone": "+41 55 224 00 70",
+    "source_url": "https://lmrecht.ch/anwaelte/"
+  },
   "loewengasse.ch": {
     "canton": "SG",
     "email": "info@loewengasse.ch",
@@ -14475,6 +14712,23 @@
     "source_url": "https://obergasslaw.ch/kanzlei",
     "team_size_n": 2
   },
+  "oeffentlichernotar.digitalone.site": {
+    "canton": "SG",
+    "email": "advokat.mueller@active.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur & Notariat",
+    "phone": "+41 71 913 80 30",
+    "practice_areas_de": [
+      "öffentliche Beurkundungen (Familien-, Erb- und Gesellschaftsrecht)",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Versicherungsrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://oeffentlichernotar.digitalone.site/"
+  },
   "oesch-partner.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -15069,6 +15323,15 @@
     ],
     "source_url": "https://ra-kost.ch/"
   },
+  "ra-widmer.ch": {
+    "canton": "SG",
+    "email": "widmer@ra-widmer.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro WIDMER Waisenhausstrasse 17",
+    "founding_year": 2013,
+    "phone": "+41 71 246 01 01",
+    "source_url": "https://www.ra-widmer.ch/zur-person"
+  },
   "raewel-advokatur.ch": {
     "canton": "ZH",
     "email": "info@raewel-advokatur.ch",
@@ -15117,6 +15380,20 @@
       "M&A and private equity"
     ],
     "source_url": "https://rappoldkoehli.ch/en/"
+  },
+  "rasg.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Dr. Ronald Pedergnana Rechtsanwälte und Notare",
+    "phone": "+41 71 279 20 63",
+    "practice_areas_de": [
+      "Unfall",
+      "Krankheit",
+      "Behandlungsfehler",
+      "Erben",
+      "Notariat (Eheverträge, Erbverträge, Testamente, Beglaubigungen, Vorsorgeaufträge)"
+    ],
+    "source_url": "https://www.rasg.ch/notariat/"
   },
   "reberlaw.ch": {
     "canton": "ZH",
@@ -16095,6 +16372,13 @@
     "fetched_date": "2026-09-10",
     "firm_name": "SJ Rechtsanwälte GmbH",
     "phone": "+41 71 245 01 07",
+    "source_url": "https://www.sanktjakob.ch/index.php/kontakt"
+  },
+  "sanktjakob.ch#2": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Sankt Jakob",
+    "phone": "+41 71 220 19 10",
     "source_url": "https://www.sanktjakob.ch/index.php/kontakt"
   },
   "sartorial.ch": {
@@ -17145,6 +17429,21 @@
     "firm_name": "Steuri Fisch AG",
     "phone": "+41 71 511 45 05",
     "source_url": "https://www.steurifisch.swiss/de/standorte/wil"
+  },
+  "stieger.lawyer": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Stieger",
+    "phone": "+41 71 228 66 99",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Wirtschaftsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Arbeitsrecht",
+      "Arztrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://stieger.lawyer/taetigkeitsgebiete/"
   },
   "stplaw.ch": {
     "canton": "ZH",

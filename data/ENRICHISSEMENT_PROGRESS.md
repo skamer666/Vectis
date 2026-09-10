@@ -3881,3 +3881,34 @@ Rechtsanwälte, NOTARIUS AG (sites injoignables HTTP 503 x2 chacun).
 
 Rattachement : 1008 études rattachées au total (995 → 1008, +13). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 21h02 UTC — Phase 3, lot 109 (exécution automatisée)
+
+Poursuite du canton SG. 30 fiches CSV traitées (19 succès / 11 échecs, excellent taux).
+
+Succès : c/o Zum Stein Office GmbH (tel, adresse confirmée) ; Heer & Britt Advokatur AG
+(dédoublonnage, variante CSV) ; Advokatur und Notariat -- Hellstern (tel/email) ; LM
+Rechtsanwälte AG (**fondée 2025**, tel/email) ; KANZLEY -- Nadeshna Ley (tel/email, droit de la
+responsabilité/assurances) ; Advokatur & Notariat -- Urs Müller (tel/email, large éventail de
+domaines) ; Kanzlei Degginger Bischof Zlabinger (dédoublonnage, Christian Schärer confirmé avec
+ligne directe propre) ; HS-LEGAL -- Herbert Schneider (tel/email, droit économique international)
+; Kanzlei Schwarz -- Bettina Schwarz (tel/email) ; Advokaturbüro Stieger -- Roman Stieger (tel,
+6 domaines) ; Advokatur Strebel -- Kevin Strebel (tel/email) ; BVK-Rechtsanwälte -- Bettina von
+Koenig (tel/email) ; Dr. Ronald Pedergnana Rechtsanwälte und Notare (tel, Ivan Vuckovic confirmé
+via sa propre page équipe) ; ADVOKATUR WIDMER. -- Christian Widmer (**fondée 2016**, tel/email,
+large éventail) ; Anwaltskanzlei Widmer-Kaufmann (tel/email, droit aérien et spatial) ;
+Advokaturbüro WIDMER -- Thomas Widmer (**fondée 2013**, tel/email) ; Advokatur & Politikberatung
+Karolina Yuan (email, droit public/fiscal) ; Anwaltskanzlei Sankt Jakob (dédoublonnage, Heinz
+Zingg confirmé avec ligne directe propre) ; Anwaltskanzlei Ilona Zürcher AG (**fondée le
+1.10.2015**, tel/email, droit de la famille/succession/responsabilité).
+
+Échecs : FRT Rechtsanwälte & Notare (**piège d'identité évité** -- Stefanie Ehrbar-Schoch absente
+de l'équipe officielle) ; Andreas Fäh/Grand & Nisple (site injoignable, 3 tentatives cumulées) ;
+Heinz-Peter Kühnis, Ferdi Schlegel, Heinz Schmidhauser, Catherine Weisser (aucun site officiel
+propre) ; Raphael Schram, Auer & Wittibschlager (sites injoignables HTTP 503 x2 chacun) ; Peter
+Schumacher (absent de l'équipe officielle de Mätzler & Partner malgré la mention presse) ;
+Advokatur Störi (ambiguïté -- David Frédéric Störi semble être devenu procureur) ; Marco
+Tamburlini (aucun site propre, affiliation ambiguë).
+
+Rattachement : 1027 études rattachées au total (1008 → 1027, +19). Suite de tests : 94/94 au
+vert.
