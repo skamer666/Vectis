@@ -882,6 +882,20 @@
       "firm_name": "Frick Nafz Bieri Jost Rechtsanwälte",
       "reason": "site 'New Website coming soon' — aucun contenu disponible"
     },
+    "fortis-law-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Fortis Law AG",
+      "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire"
+    },
+    "frank-adnot-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Frank Advokatur & Notariat",
+      "reason": "HTTP 503 Service Unavailable (x2) sur frankadnot.ch"
+    },
     "frehnerlaw.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1103,6 +1117,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Hofmann Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "horvath-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "et lic. phil. Horvath Rechtsanwälte AG",
+      "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire"
     },
     "hosekbryner.ch": {
       "_failed": true,
@@ -2884,6 +2905,13 @@
     ],
     "source_url": "https://www.adlegem.ch/"
   },
+  "adlegem.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hool Advokatur GmbH",
+    "phone": "+41 41 227 51 00",
+    "source_url": "https://www.adlegem.ch/"
+  },
   "adlexa.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-10",
@@ -3256,6 +3284,21 @@
     "firm_name": "Advokatur Bülach AG",
     "phone": "+41 44 861 00 44",
     "source_url": "https://www.advokatur-buelach.ch/kontakt"
+  },
+  "advokatur-fanger.ch": {
+    "canton": "LU",
+    "email": "info@advokatur-fanger.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Dr. Advokatur Fanger",
+    "founding_year": 2011,
+    "phone": "+41 41 500 07 05",
+    "practice_areas_de": [
+      "ICT-Recht",
+      "Datenrecht",
+      "Datenschutzrecht",
+      "Medien- und Arbeitsrecht"
+    ],
+    "source_url": "https://advokatur-fanger.ch/team"
   },
   "advokatur-gaehler.ch": {
     "canton": "ZH",
@@ -4333,6 +4376,21 @@
     "canton": "LU",
     "fetched_date": "2026-09-10",
     "firm_name": "Kanzlei Luzernerstrasse Kriens",
+    "phone": "+41 41 318 40 60",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Arbeits- und Personalrecht",
+      "Bau- und Planungsrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.anwaelte-kriens.ch/",
+    "team_size_n": 4
+  },
+  "anwaelte-kriens.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "et lic. oec. HSG Kanzlei Luzernerstrasse Kriens",
     "phone": "+41 41 318 40 60",
     "practice_areas_de": [
       "Erbrecht",
@@ -9233,6 +9291,14 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "graf-mastronardi.ch": {
+    "canton": "LU",
+    "email": "info@graf-mastronardi.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Graf & Mastronardi Rechtsanwälte AG",
+    "phone": "062 756 30 00",
+    "source_url": "https://graf-mastronardi.ch/"
+  },
   "grandinilegal.ch": {
     "canton": "TI",
     "email": "studio@grandinilegal.ch",
@@ -9535,6 +9601,14 @@
     "phone": "+41 44 260 25 45",
     "source_url": "https://www.haefelinlaw.ch/"
   },
+  "haeller-anwalt.ch": {
+    "canton": "LU",
+    "email": "daniel.haeller@haeller-anwalt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HSG Häller Anwaltsbüro + Notariat AG",
+    "phone": "041 921 20 21",
+    "source_url": "https://haeller-anwalt.ch/kontakt.html"
+  },
   "haenzikoch.ch": {
     "canton": "SG",
     "email": "info@haenzikoch.ch",
@@ -9698,6 +9772,19 @@
     "source_url": "https://heiniger-ra.ch/kontakt/",
     "team_size_n": 1
   },
+  "heinimann-law.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Heinimann",
+    "phone": "+41 41 220 00 52",
+    "practice_areas_de": [
+      "Beratung und Vertretung in strafrechtlichen Angelegenheiten",
+      "Wirtschaftskriminalität",
+      "Strafverteidigung",
+      "Wahrung von Geschädigteninteressen"
+    ],
+    "source_url": "https://www.heinimann-law.ch/kanzlei"
+  },
   "heinzelmann-levy.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-09",
@@ -9727,6 +9814,14 @@
     ],
     "source_url": "https://www.helbling.law/kontakt",
     "team_size_n": 3
+  },
+  "hellerak.ch": {
+    "canton": "LU",
+    "email": "kontakt@HellerAK.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Heller Anwaltskanzlei AG",
+    "phone": "+41 41 391 04 45",
+    "source_url": "https://hellerak.ch/Welcome_to_Heller_Anwaltskanzlei_AG.html"
   },
   "henzenhans.ch": {
     "canton": "SG",
@@ -10009,6 +10104,25 @@
     "source_url": "https://www.hsmlegal.ch/",
     "team_size_n": 3
   },
+  "hsmlegal.ch#2": {
+    "canton": "LU",
+    "email": "info@hsmlegal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. hsm legal AG",
+    "phone": "+41 41 541 19 03",
+    "practice_areas_de": [
+      "Arbeit",
+      "Familie",
+      "Bauen",
+      "Steuern",
+      "Mieten",
+      "Haftung und Versicherung",
+      "Vertrag",
+      "Erben und Nachlassplanung"
+    ],
+    "source_url": "https://www.hsmlegal.ch/",
+    "team_size_n": 3
+  },
   "htlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -10076,6 +10190,14 @@
     "firm_name": "Hafner Urbach Partner",
     "phone": "+41 58 444 11 00",
     "source_url": "https://www.huplaw.ch/en/contact/"
+  },
+  "husmann-recht.ch": {
+    "canton": "LU",
+    "email": "husmann@husmann-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Husmann Recht",
+    "phone": "+41 41 240 15 15",
+    "source_url": "https://husmann-recht.ch/"
   },
   "hwn-law.ch": {
     "canton": "ZH",
@@ -10323,6 +10445,23 @@
     "email": "reto.ineichen@iup.ch",
     "fetched_date": "2026-09-08",
     "firm_name": "Ineichen Advokatur und Notariat",
+    "phone": "+41 41 418 60 33",
+    "source_url": "https://www.iup.ch/de/kontakt",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
+  },
+  "iup.ch#3": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Ineichen Barmettler Advokatur Notariat Mediation",
+    "phone": "+41 41 418 60 33",
+    "source_url": "https://www.iup.ch/de/kontakt",
+    "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
+  },
+  "iup.ch#4": {
+    "canton": "LU",
+    "email": "reto.ineichen@iup.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Ineichen AG",
     "phone": "+41 41 418 60 33",
     "source_url": "https://www.iup.ch/de/kontakt",
     "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
@@ -10626,6 +10765,14 @@
       "Prozess- und Verfahrensrecht"
     ],
     "source_url": "https://www.kaiserodermatt.ch/"
+  },
+  "kaiserodermatt.ch#LU": {
+    "canton": "LU",
+    "email": "info@kaiserodermatt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kaiser Odermatt & Partner AG",
+    "phone": "+41 41 729 15 00",
+    "source_url": "https://www.kaiserodermatt.ch/kontakt/"
   },
   "kalbermatter.law": {
     "canton": "ZH",
@@ -11160,6 +11307,27 @@
     "email": "kanzlei@kmu-forum.ch",
     "fetched_date": "2026-09-07",
     "firm_name": "Kanzlei KMUFORUM GmbH",
+    "phone": "+41 41 269 65 55",
+    "practice_areas_en": [
+      "Tax and administrative law",
+      "Corporate and commercial law",
+      "Criminal law and criminal procedure",
+      "Real estate, construction, and planning law",
+      "Family law and divorce",
+      "Labor and employment law",
+      "Insurance and social security law",
+      "Inheritance law",
+      "Sports law",
+      "Traffic law"
+    ],
+    "source_url": "https://kmu-forum.ch/team/",
+    "team_size_n": 4
+  },
+  "kmu-forum.ch#2": {
+    "canton": "LU",
+    "email": "kanzlei@kmu-forum.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "utr. Kanzlei KMUFORUM GmbH",
     "phone": "+41 41 269 65 55",
     "practice_areas_en": [
       "Tax and administrative law",
@@ -12164,6 +12332,24 @@
     "email": "info@lexfutura.ch",
     "fetched_date": "2026-09-10",
     "firm_name": "M.A. HSG Lex Futura AG",
+    "phone": "+41 41 541 92 20",
+    "practice_areas_de": [
+      "Technologie und Venture",
+      "Digitalisierung und Technologie",
+      "Fusionen und Akquisitionen",
+      "IP-Strategie",
+      "Regulierung",
+      "Gründung",
+      "Finanzierungsrunden"
+    ],
+    "source_url": "https://www.lexfutura.ch/",
+    "team_size_n": 8
+  },
+  "lexfutura.ch#LU2": {
+    "canton": "LU",
+    "email": "info@lexfutura.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "MBA Lex Futura AG",
     "phone": "+41 41 541 92 20",
     "practice_areas_de": [
       "Technologie und Venture",
@@ -16048,6 +16234,23 @@
     "source_url": "https://ssp-law.ch/rechtsgebiete/",
     "team_size_n": 11
   },
+  "ssrlaw.ch": {
+    "canton": "LU",
+    "email": "felder@ssrlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Felder Rechtsanwälte AG",
+    "phone": "+41 41 410 10 33",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Erb- und Sachenrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Prozessführung"
+    ],
+    "source_url": "https://www.ssrlaw.ch/luzerner-rechtsanwaelte/andreas-felder",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Andreas Felder)"
+  },
   "stach.ch": {
     "canton": "SG",
     "email": "info@stach.ch",
@@ -18021,6 +18224,14 @@
     ],
     "source_url": "https://www.wnvg.ch/de/team/",
     "team_size_n": 6
+  },
+  "wolf-recht.ch": {
+    "canton": "LU",
+    "email": "info@wolf-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Wolf Advokatur und Notariat AG",
+    "phone": "041 929 69 00",
+    "source_url": "https://www.wolf-recht.ch/kontakt/"
   },
   "wolfer-frey.ch": {
     "canton": "ZH",

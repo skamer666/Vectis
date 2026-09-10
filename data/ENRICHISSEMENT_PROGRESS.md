@@ -3749,3 +3749,25 @@ noms).
 
 Rattachement : 941 études rattachées au total (923 → 941, +18). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 16h04 UTC — Phase 3, lot 104 (exécution automatisée)
+
+Poursuite du canton LU. 19 fiches CSV traitées (16 succès / 3 échecs).
+
+Succès : Dr. Advokatur Fanger (**fondée 2011**, tel/email, 4 domaines DE) ; Felder Rechtsanwälte
+AG (continuité confirmée sous SSR Law, tel/email, 6 domaines DE, titre **Fachanwalt SAV Bau-
+und Immobilienrecht**) ; Wolf Advokatur und Notariat AG (tel/email) ; Kaiser Odermatt &
+Partner AG (bureau Lucerne, tel/email) ; Ineichen Barmettler Advokatur Notariat Mediation +
+Advokatur Ineichen AG (dédoublonnage avec `iup.ch` déjà vérifié, tel, titre **Fachanwalt SAV
+Strafrecht**) ; MBA Lex Futura AG (dédoublonnage) ; Kanzlei Luzernerstrasse Kriens (variante
+CSV, dédoublonnage) ; Graf & Mastronardi Rechtsanwälte AG (bureau Dagmersellen, tel/email) ;
+Häller Anwaltsbüro + Notariat AG (tel/email) ; Advokatur Heinimann (tel, 4 domaines DE) ;
+Heller Anwaltskanzlei AG (tel/email) ; Kanzlei KMUFORUM GmbH (dédoublonnage, **4
+collaborateurs**) ; hsm legal AG (dédoublonnage, **3 collaborateurs**, 8 domaines DE) ; Hool
+Advokatur GmbH (dédoublonnage avec `adlegem.ch`) ; Husmann Recht (tel/email).
+
+Échecs : Fortis Law AG, Horvath Rechtsanwälte AG (aucun site officiel propre) ; Frank Advokatur
+& Notariat (HTTP 503 x2).
+
+Rattachement : 957 études rattachées au total (941 → 957, +16). Suite de tests : 94/94 au
+vert.
