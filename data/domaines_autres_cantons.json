@@ -356,6 +356,13 @@
       "firm_name": "Anwaltskanzlei Teuta Imeraj",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "atto-notarius-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Atto Notarius GmbH",
+      "reason": "Aucun site officiel identifie, uniquement une adresse email generique via annuaire"
+    },
     "avenras-legal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1242,6 +1249,13 @@
       "firm_name": "Bühler & Ferro",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "kach-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Urs Käch",
+      "reason": "Cabinet ferme / relocalise hors canton (Rotkreuz ZG)"
+    },
     "kanzlei-helvetiaplatz.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -1376,6 +1390,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "KOLB International Tax Services",
       "reason": "Cabinet multi-cantonal (Berne, Zurich) -- aucune coordonnee specifique au bureau de Zurich confirmee sur le site (regle 4 etendue)"
+    },
+    "kottmann-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Richard Kottmann Notariat & Advokatur",
+      "reason": "HTTP 503 Service Unavailable (x2), site indique par ailleurs 'Im Aufbau' (en construction)"
     },
     "kramer-sg": {
       "_failed": true,
@@ -1892,6 +1913,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Piasini Advokatur",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers ; possiblement ferme selon un annuaire"
+    },
+    "pilatushof-lussi-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "kanzlei pilatushof",
+      "reason": "piege d'identite evite -- Toni Lussi (membre CSV) n'apparait pas dans l'equipe officielle de Pilatushof AG malgre l'adresse identique"
     },
     "poma-gandolfi-ti-2": {
       "_failed": true,
@@ -2912,6 +2940,17 @@
     "phone": "+41 41 227 51 00",
     "source_url": "https://www.adlegem.ch/"
   },
+  "adlegem.ch#3": {
+    "canton": "LU",
+    "email": "obrist@adlegem.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Obrist Rechtsanwälte AG",
+    "phone": "+41 41 227 51 00",
+    "practice_areas_de": [
+      "Vertrags-, Gesellschafts-, Miet-, Arbeits-, Erb- und Baurecht"
+    ],
+    "source_url": "https://www.notar-obrist-luzern.ch/ueber-mich"
+  },
   "adlexa.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-10",
@@ -3132,6 +3171,14 @@
     "phone": "044 201 13 33",
     "source_url": "https://www.advocohen.ch/profil.html",
     "team_size_n": 1
+  },
+  "advoentlebuch.ch": {
+    "canton": "LU",
+    "email": "r.joos@advoweggishaus.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ADVOKATUR & NOTARIAT RETO JOOS",
+    "phone": "+41 41 484 11 78",
+    "source_url": "https://www.advoentlebuch.ch/kontakt"
   },
   "advogar.ch": {
     "canton": "ZH",
@@ -4751,6 +4798,25 @@
     "practice_areas_fr": [],
     "source_url": "https://www.anwaltspraxis.ch/",
     "team_size_n": null
+  },
+  "anwaltspraxis.ch#2": {
+    "canton": "LU",
+    "email": "sekretariat@anwaltspraxis.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Ass. iur. Schwegler & Partner Anwälte und Notare AG",
+    "founding_year": 1997,
+    "phone": "041 494 00 33",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Arbeits- und öffentliches Personalrecht",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://anwaltspraxis.ch/taetigkeitsbereiche/"
   },
   "anwalturi.ch": {
     "canton": "UR",
@@ -7838,6 +7904,23 @@
     ],
     "source_url": "https://dubach-law.ch/en/contact/"
   },
+  "dubach-law.ch#LU2": {
+    "canton": "LU",
+    "email": "koller@dubach-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Martin Koller Rechtsanwälte & Notare AG",
+    "phone": "+41 41 318 36 46",
+    "practice_areas_en": [
+      "Inheritance Law",
+      "Family and Divorce Law",
+      "Contract Law",
+      "Notary's Office",
+      "Tenancy Law",
+      "Commercial and Corporate Law",
+      "Construction Law"
+    ],
+    "source_url": "https://dubach-law.ch/en/ourpeople/martin-koller/"
+  },
   "dubach-law.ch#SG": {
     "canton": "SG",
     "email": "info@dubach-law.ch",
@@ -7902,6 +7985,18 @@
     ],
     "source_url": "https://ehlertzillig.ch/",
     "team_size_n": 2
+  },
+  "elenalanfranconi.ch": {
+    "canton": "LU",
+    "email": "el@elenalanfranconi.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LANFRANCONI, Mediation-Kindesvertretung-Advokatur",
+    "phone": "078 795 26 13",
+    "practice_areas_de": [
+      "Mediation",
+      "Kindesvertretung"
+    ],
+    "source_url": "https://www.elenalanfranconi.ch/kontakt"
   },
   "elvirakessler.ch": {
     "canton": "ZH",
@@ -10250,6 +10345,21 @@
     ],
     "source_url": "https://www.inclusione-andicap-ticino.ch/cosa-facciamo/consulenza-giuridica-2/"
   },
+  "infanger-partner.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "M.A. HSG Infanger & Partner AG",
+    "phone": "+41 44 389 90 14",
+    "practice_areas_de": [
+      "Wirtschafts- und Erbrecht",
+      "Nationale und internationale Steuerberatung",
+      "Unternehmens- und persönliche Steuern",
+      "Umstrukturierungen, Nachfolgeregelungen",
+      "Immobilienrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.infanger-partner.ch/"
+  },
   "int-lawfirm.ch": {
     "canton": "ZH",
     "email": "p.huber@int-lawfirm.ch",
@@ -11032,6 +11142,24 @@
     "phone": "+41 44 527 30 00",
     "source_url": "https://kerber.legal/kontakt/"
   },
+  "kessler-law.ch": {
+    "canton": "LU",
+    "email": "mail@kessler-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. KESSLER AG",
+    "phone": "+41 41 211 31 31",
+    "practice_areas_de": [
+      "Notariat",
+      "Erbrecht",
+      "Sachenrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Stiftungsrecht",
+      "Trustrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "https://kessler-law.ch/kesslerde"
+  },
   "kh-recht.ch": {
     "canton": "SG",
     "email": "info@kh-recht.ch",
@@ -11343,6 +11471,24 @@
     ],
     "source_url": "https://kmu-forum.ch/team/",
     "team_size_n": 4
+  },
+  "kochschneider.ch": {
+    "canton": "LU",
+    "email": "kanzlei@kochschneider.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur & Notariat Koch & Schneider",
+    "phone": "041 268 81 50",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Trennungs- und Scheidungsrecht",
+      "Erbrecht",
+      "Baurecht",
+      "Arbeitsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Versicherungsrecht"
+    ],
+    "source_url": "https://www.kochschneider.ch/"
   },
   "koeppel-law.ch": {
     "canton": "ZH",
@@ -12806,6 +12952,14 @@
     "source_url": "https://www.lumelegal.ch/en/our-firm/",
     "team_size_n": 4
   },
+  "lussi-law.ch": {
+    "canton": "LU",
+    "email": "info@lussi-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Lussi Advokatur und Notariat AG",
+    "phone": "041 377 37 86",
+    "source_url": "https://lussi-law.ch/"
+  },
   "lutz-partner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -13084,6 +13238,23 @@
     "email": "info@meiersadiku.law",
     "fetched_date": "2026-09-09",
     "firm_name": "Meier Sadiku Law AG",
+    "phone": "+41 41 818 80 80",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsrecht",
+      "Sportrecht",
+      "Sozialversicherungsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://meiersadiku.law/"
+  },
+  "meiersadiku.law#LU": {
+    "canton": "LU",
+    "email": "info@meiersadiku.law",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Meier Sadiku Law Ltd",
     "phone": "+41 41 818 80 80",
     "practice_areas_de": [
       "Strafrecht",
@@ -14444,6 +14615,23 @@
     "canton": "LU",
     "fetched_date": "2026-09-08",
     "firm_name": "Anwaltsbüro Kost",
+    "phone": "041 440 33 43",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Familien- und Scheidungsrecht",
+      "Nachlassplanung",
+      "Grundstücktransaktionen",
+      "IT-Recht und Datenschutz",
+      "Social Media und Persönlichkeitsrecht",
+      "Cybercrime",
+      "Strafverteidigung & Strafklägerschaft"
+    ],
+    "source_url": "https://ra-kost.ch/"
+  },
+  "ra-kost.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BSc ICS Anwaltsbüro Kost",
     "phone": "041 440 33 43",
     "practice_areas_de": [
       "Vertragsrecht",
@@ -15994,6 +16182,24 @@
     "specialist_certification": "Fachanwalt SAV Arbeitsrecht (Peter Stieger), Fachanwalt SAV Familienrecht (Thomas Schütt)",
     "team_size_n": 5
   },
+  "slm.ch": {
+    "canton": "LU",
+    "email": "info@slm.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Moro Rechtsanwälte GmbH",
+    "founding_year": 2010,
+    "phone": "+41 41 410 67 80",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Zivilrecht",
+      "Sportrecht",
+      "Internationales Recht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Haftpflicht- und Versicherungsrecht"
+    ],
+    "source_url": "https://www.slm.ch/"
+  },
   "smplaw.ch": {
     "canton": "ZH",
     "email": "info@smplaw.ch",
@@ -16606,6 +16812,13 @@
     ],
     "source_url": "https://swanlex.ch/staff-member/lic-iur-reto-bachmann/"
   },
+  "swanlex.ch#3": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "utr. iur. Lischer Zemp & Partner St.",
+    "phone": "+41 41 410 14 16",
+    "source_url": "https://swanlex.ch/"
+  },
   "swiss-banking-lawyers.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -17156,6 +17369,15 @@
       "Immaterialgüterrecht"
     ],
     "source_url": "https://www.tls-partner.ch/de/ueber-uns"
+  },
+  "tls-partner.ch#3": {
+    "canton": "LU",
+    "email": "info@tls-partner.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Tschümperlin Lötscher Schwarz AG",
+    "founding_year": 1973,
+    "phone": "+41 41 419 30 30",
+    "source_url": "https://www.tls-partner.ch/de/kontakt"
   },
   "toedtli.law": {
     "canton": "SZ",

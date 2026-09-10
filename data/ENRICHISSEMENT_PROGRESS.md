@@ -3771,3 +3771,28 @@ Advokatur GmbH (dédoublonnage avec `adlegem.ch`) ; Husmann Recht (tel/email).
 
 Rattachement : 957 études rattachées au total (941 → 957, +16). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 17h04 UTC — Phase 3, lot 105 (exécution automatisée)
+
+Poursuite du canton LU. 18 fiches CSV traitées (14 succès / 4 échecs).
+
+Succès : Infanger & Partner AG (tel/email) ; ADVOKATUR & NOTARIAT RETO JOOS (tel/email) ;
+Kessler AG (variante CSV avec titre LL.M., tel/email) ; Advokatur & Notariat Koch & Schneider
+(tel/email) ; Lischer Zemp & Partner St. (variante CSV avec titre utr. iur., dédoublonnage avec
+`swanlex.ch`) ; Martin Koller Rechtsanwälte & Notare AG (fusion confirmée avec WILD DUBACH AG,
+tel/email) ; Anwaltsbüro Kost (variante CSV avec titre BSc ICS, dédoublonnage sous
+`ra-kost.ch#2`) ; LANFRANCONI (tel/email, 4 domaines DE) ; Lussi Advokatur und Notariat AG
+(tel/email) ; Meier Sadiku Law Ltd (bureau Lucerne, dédoublonnage sous entrée LU distincte
+`meiersadiku.law#LU`, séparée du bureau ZH déjà en cache) ; Schwegler & Partner Anwälte und
+Notare AG (variante CSV avec titre Ass. iur., dédoublonnage, **fondée 1997**) ; Moro
+Rechtsanwälte GmbH (**fondée 2010**, tel/email) ; Tschümperlin Lötscher Schwarz AG (variante CSV
+avec titre LL.M., dédoublonnage sous `tls-partner.ch#3`, **fondée 1973**) ; Obrist
+Rechtsanwälte AG (dédoublonnage avec `adlegem.ch#3`, même téléphone que Böhni/Hool).
+
+Échecs : Advokatur Urs Käch (entreprise fermée/relocalisée à Rotkreuz, canton ZG, hors
+périmètre) ; Atto Notarius GmbH (aucun site officiel) ; Richard Kottmann Notariat & Advokatur
+(HTTP 503 x2, site en construction) ; kanzlei pilatushof (**piège d'identité évité** -- Toni
+Lussi n'apparaît pas dans l'équipe officielle de Pilatushof).
+
+Rattachement : 971 études rattachées au total (957 → 971, +14). Suite de tests : 94/94 au
+vert.
