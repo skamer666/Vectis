@@ -3503,3 +3503,25 @@ officiel, statut de cabinet d'avocats non confirmé) ; Valmon Law (aucune trace 
 
 Rattachement : 842 études rattachées au total (833 → 842, +9). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 06h03 UTC — Phase 3, lot 94 (exécution automatisée)
+
+19 cabinets traités (11 succès / 8 échecs), poursuite du balayage alphabétique ZH (lettres
+K-M).
+
+Succès : BAT Rechtsanwälte AG (2 avocats, tel, titre **SAV Bau- und Immobilienrecht**, 3
+domaines DE) ; Anwaltskanzlei Kühnlein Specker (Winterthour, tel/email) ; Anwaltskanzlei Simone
+Kunz (Uster, tel/email) ; Anwaltsbüro Kuster (tel/email, 8 domaines EN) ; Anwaltskanzlei Lang
+(fondée **2015**, tel/email, 4 domaines DE) ; Anwaltskanzlei Lauber (tel/email, 3 domaines DE) ;
+Nomos Advokatur GmbH (Kilchberg, tel/email) ; LÜSCHER BISCHOFF (tel/email, 3 domaines DE) ;
+Anwaltskanzlei Marti (tel/email) ; MARUGG DISPUTE RESOLUTION (tel/email, 5 domaines EN,
+arbitrage) ; Anwaltsbüro Mathiassen (tel, 6 domaines DE).
+
+Échecs : Kanzlei Kuhn (HTTP 403) ; Anwaltskanzlei Mägerle, Anwaltsbüro Locarnini (vérification
+anti-bot ×2) ; Kanzlei Krausz (boucle de redirection technique) ; Beglinger Holenstein (aucun
+domaine actuel, références obsolètes) ; Anwaltsbüro Kuprecht, Anwaltsbüro Christian Mäder
+(aucun cabinet privé confirmé) ; LOREZ Advokatur (**piège d'identité évité** -- seule "LOREZ
+LEGAL" trouvée, nom différent, continuité non confirmée).
+
+Rattachement : 853 études rattachées au total (842 → 853, +11). Suite de tests : 94/94 au
+vert.
