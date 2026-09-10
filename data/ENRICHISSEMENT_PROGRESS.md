@@ -3647,3 +3647,30 @@ Ebnat-Kappel ne correspond à aucun bureau connu du grand cabinet zurichois du m
 Partner, Rechtsanwaltsbüro Furgler Kurt Johannes, GÖRG SUTER AG (aucun site officiel).
 
 Rattachement : 891 études rattachées au total (884 → 891, +7). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 12h04 UTC — Phase 3, lot 100 (exécution automatisée)
+
+Poursuite du canton SG, y compris les 8 candidats laissés en suspens au lot précédent (outil
+WebSearch de nouveau disponible). 24 fiches CSV traitées (12 succès / 12 échecs).
+
+Succès : Graf Niedermann Büchel Rechtsanwälte + graf niedermann büchel (dédoublonnage avec
+l'entrée `gb-law.ch` déjà vérifiée sous un 3e nom "Graf Niedermann Rechtsanwälte" -- **5
+collaborateurs**, 3 titres **Fachanwalt/-anwältin SAV Haftpflicht- und Versicherungsrecht**,
+tel/email, 4 domaines DE) ; Anwaltskanzlei & Notariat Calan (**fondée 2017**, tel/email, 7
+domaines DE) ; Gnädinger Anwaltskanzlei (tel/email, 9 domaines DE, continuité confirmée avec
+l'ex-cabinet Knus|Gnädinger|Landolt 2009-2025) ; Hefti Advokatur (tel/email) ; Advokatur M.
+Hoffmann GmbH (tel/email) ; Advokatur Hubatka (**fondée 1954**, tel, 6 domaines DE) ; Hutter
+Rechtsanwalt Notar (**fondée 1992**, tel/email, 3 domaines DE) ; S-E-K Advokaten AG (bureau
+St-Gall, tel/email, 5 domaines DE) ; AdvoJakob (email) ; Advokatur und Notariat Jürg Grämiger
+(tel/email, continuité confirmée via gkr.ch) ; Kamber Advokatur (**fondée 2019**, tel, 3
+domaines DE).
+
+Échecs : SchochMaierPartner (page anti-bot x2) ; Legal Partners Anwaltskanzlei & Notariat GmbH,
+Anwaltskanzlei Andreas Gantenbein, Grande Garcia GmbH (HTTP 503 x2 chacun) ; Advokatur &
+Notariat Debrunner (aucune entité identifiée) ; Diggelmann Advokatur + Notariat, Graf Heiner
+Anwaltsbüro und Notariat, Dr. iur. Elmar M. Jud, HütteLAW Imfeld AG (aucun site officiel) ;
+Swiss Law Solutions KLG (HTTP 403/503) ; RA Dr.iur. Samra Ibric (**piège d'identité évité** --
+adresse CSV ne correspond pas à celle trouvée chez OBT AG) ; Jenni Rechtsanwalt (**piège
+d'identité évité** -- a rejoint un autre cabinet à une autre adresse).
+
+Rattachement : 903 études rattachées au total (891 → 903, +12). Suite de tests : 94/94 au vert.

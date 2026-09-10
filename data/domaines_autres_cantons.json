@@ -644,12 +644,26 @@
       "firm_name": "de Beer Rechtsanwälte",
       "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
     },
+    "debrunner-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur & Notariat Debrunner",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee"
+    },
     "decapitani-law.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-10",
       "firm_name": "Alex de Capitani Rechtsanwalt",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "diggelmann-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Diggelmann Advokatur + Notariat",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
     "dogwiler.ch": {
       "_failed": true,
@@ -860,6 +874,13 @@
       "firm_name": "Rechtsanwaltsbüro Furgler Kurt Johannes",
       "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
+    "gantenbein-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Andreas Gantenbein",
+      "reason": "HTTP 503 Service Unavailable (x2) sur ag-anwalt.ch"
+    },
     "gbf-legal.ch": {
       "canton": "ZH",
       "firm_name": "gbf Rechtsanwälte AG",
@@ -894,12 +915,26 @@
       "firm_name": "GÖRG SUTER AG",
       "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire"
     },
+    "graf-heiner-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Graf Heiner Anwaltsbüro und Notariat",
+      "reason": "Aucun site officiel identifie, uniquement une adresse email generique via annuaire"
+    },
     "grafundpartner.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Graf & Partner",
       "reason": "Domaine correct (grafundpartner.ch) injoignable (503) ; le domaine similaire grafpartner.com correspond a un cabinet homonyme allemand (Regensburg, Schmeilzl & Groll) sans rapport -- lien decline"
+    },
+    "grande-garcia-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Grande Garcia GmbH",
+      "reason": "HTTP 503 Service Unavailable (x2) sur grandegarcia.com"
     },
     "grandnisple.ch": {
       "_failed": true,
@@ -1013,12 +1048,26 @@
       "firm_name": "Anwaltskanzlei Höngg",
       "reason": "HTTP 403 Forbidden"
     },
+    "huettelaw-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "HütteLAW Imfeld AG",
+      "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire"
+    },
     "huplaw.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-10",
       "firm_name": "HAFNER & HOCHSTRASSER AG",
       "reason": "HTTP 503 Service Unavailable"
+    },
+    "ibric-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "RA Dr.iur. Samra Ibric",
+      "reason": "piege d'identite evite -- adresse CSV (Moosstrasse 20) ne correspond pas a l'adresse trouvee pour Samra Ibric chez OBT AG (Rorschacher Strasse 63)"
     },
     "idclegal.com": {
       "_failed": true,
@@ -1054,6 +1103,13 @@
       "firm_name": "Studio legale Jackson & Arnoldi",
       "reason": "Identite confirmee (Paola Arnoldi, Via Domenico Fontana 14, Lugano) mais aucun site officiel du cabinet identifie"
     },
+    "jenni-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Jenni Rechtsanwalt",
+      "reason": "piege d'identite evite -- Harald Jenni exerce desormais chez Advokaturbureau Brunner & Dudli a une autre adresse (Hinterlauben 12), continuite non confirmee pour l'entite CSV solo"
+    },
     "jkr.ch": {
       "canton": "ZH",
       "firm_name": "Jermann Künzli Rechtsanwälte",
@@ -1073,6 +1129,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale avv. Jonathan Moor",
       "reason": "Identite incertaine : semble rattache a 'Poma-Moor Studio legale e notarile' (meme adresse Corso Elvezia 27, Lugano) mais aucun site officiel propre trouve, continuite non confirmee (regle 5)"
+    },
+    "jud-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Dr. iur. Elmar M. Jud, Rechtsanwalt",
+      "reason": "Identite confirmee (Oberer Graben 14, St.Gallen) mais aucun site officiel identifie"
     },
     "jus-law.ch": {
       "_failed": true,
@@ -1241,6 +1304,13 @@
       "firm_name": "Landmann & Partner AG",
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
+    },
+    "legal-partners-jona-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Legal Partners Anwaltskanzlei & Notariat GmbH",
+      "reason": "HTTP 503 Service Unavailable (x2) sur kanzlei-jona.ch"
     },
     "legalone-freienbach-sz": {
       "_failed": true,
@@ -1888,6 +1958,13 @@
       "reason": "page d'accueil ne renvoie qu'a une section 'Practice Areas' sans contenu ; aucun tel/email lisible (protection anti-bot)",
       "tested_date": "2026-09-07"
     },
+    "schochmaier-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "SchochMaierPartner\nRechtsanwälte und Notare",
+      "reason": "Page de verification anti-bot ('One moment, please...'), aucun contenu accessible (x2)"
+    },
     "schroeder-naegeli-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -2077,6 +2154,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Sutter & Camenzind Rechtsanwälte",
       "reason": "Aucun site officiel identifie (seule source : annuaire tiers mcadvo.ch) ; adresse divergente de celle du CSV (Untertor 11 vs Sulzer-Hirzel-Str. 6, Winterthour) ; pas d'email"
+    },
+    "swiss-law-solutions-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Swiss Law Solutions KLG",
+      "reason": "HTTP 403/503 sur les pages locations et contact (x2)"
     },
     "swissberg.com": {
       "_failed": true,
@@ -2818,6 +2902,13 @@
     "phone": "+41 44 725 66 66",
     "source_url": "https://www.advohorgen.ch/"
   },
+  "advojakob.ch": {
+    "canton": "SG",
+    "email": "simon.jakob@advojakob.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "AdvoJakob",
+    "source_url": "https://advojakob.ch/"
+  },
   "advokaten.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -2929,6 +3020,22 @@
     "source_url": "https://www.advokatur-gaehler.ch/Kontakt/",
     "team_size_n": 1
   },
+  "advokatur-hubatka.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Hubatka",
+    "founding_year": 1954,
+    "phone": "071 913 95 11",
+    "practice_areas_de": [
+      "Unternehmensrecht",
+      "Arbeitsrecht",
+      "Strassenverkehrsrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.advokatur-hubatka.ch/"
+  },
   "advokatur-lachen.ch": {
     "canton": "SZ",
     "fetched_date": "2026-07-28",
@@ -2959,6 +3066,18 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://advokatur-lindenplatz.ch/uber-uns/"
+  },
+  "advokatur-m-hoffmann.ch": {
+    "canton": "SG",
+    "email": "advokatur-m-hoffmann@gmx.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur M. Hoffmann GmbH",
+    "phone": "079 915 10 78",
+    "practice_areas_de": [
+      "Ehe- und Erbvertrag, Testament, Vorsorgeauftrag",
+      "Gründungsurkunde GmbH oder AG"
+    ],
+    "source_url": "https://www.advokatur-m-hoffmann.ch/"
   },
   "advokatur-moerikofer.ch": {
     "canton": "ZH",
@@ -8286,6 +8405,38 @@
     ],
     "source_url": "https://www.gb-law.ch/"
   },
+  "gb-law.ch#2": {
+    "canton": "SG",
+    "email": "info@gb-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Graf Niedermann Büchel Rechtsanwälte",
+    "phone": "+41 71 221 10 10",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Familienrecht",
+      "Vertragsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gb-law.ch/",
+    "specialist_certification": "Fachanwalt/Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Michael B. Graf, Marco Büchel, Amanda Guyot)",
+    "team_size_n": 5
+  },
+  "gb-law.ch#3": {
+    "canton": "SG",
+    "email": "info@gb-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "graf niedermann büchel",
+    "phone": "+41 71 221 10 10",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Familienrecht",
+      "Vertragsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gb-law.ch/",
+    "specialist_certification": "Fachanwalt/Fachanwältin SAV Haftpflicht- und Versicherungsrecht (Michael B. Graf, Marco Büchel, Amanda Guyot)",
+    "team_size_n": 5
+  },
   "gbf-legal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -8423,6 +8574,14 @@
     "source_url": "https://www.giunuzoglu.ch/",
     "team_size_n": 1
   },
+  "gkr.ch": {
+    "canton": "SG",
+    "email": "j.graemiger@gkr.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur und Notariat Jürg Grämiger",
+    "phone": "+41 71 911 65 77",
+    "source_url": "https://gkr.ch/juumlrggraemiger"
+  },
   "glatthard.law": {
     "canton": "ZH",
     "email": "hallo@glatthard.law",
@@ -8527,6 +8686,25 @@
       "Prozessführung"
     ],
     "source_url": "https://gmlaw.ch/"
+  },
+  "gnaedinger-recht.ch": {
+    "canton": "SG",
+    "email": "mail@gnaedinger-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Gnädinger Anwaltskanzlei",
+    "phone": "044 521 65 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Schul- und Bildungsrecht",
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Mietrecht",
+      "Verwaltungsrecht",
+      "Erbrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.gnaedinger-recht.ch/"
   },
   "goette.ch": {
     "canton": "LU",
@@ -8866,6 +9044,20 @@
     "phone": "+41 71 292 30 00",
     "source_url": "https://gysipartner.ch/de/kontakt"
   },
+  "h-law.ch": {
+    "canton": "SG",
+    "email": "hutter@h-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hutter Rechtsanwalt Notar",
+    "founding_year": 1992,
+    "phone": "+41 71 755 44 79",
+    "practice_areas_de": [
+      "Rechtsgeschäftsplanung und -umsetzung",
+      "Rechtsberatung",
+      "Notariat in allen zulässigen Bereichen"
+    ],
+    "source_url": "https://www.h-law.ch/"
+  },
   "haablegal.ch": {
     "canton": "TI",
     "email": "info@haablegal.ch",
@@ -9042,6 +9234,14 @@
       "Schuldbetreibungs- und Konkursrecht"
     ],
     "source_url": "https://heerbritt.ch/"
+  },
+  "hefti-advokatur.ch": {
+    "canton": "SG",
+    "email": "eveline.hefti@hefti-advokatur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hefti Advokatur",
+    "phone": "+41 71 740 90 97",
+    "source_url": "https://www.hefti-advokatur.ch/kontakt"
   },
   "heiniger-ra.ch": {
     "canton": "ZH",
@@ -9975,6 +10175,19 @@
       "KMU"
     ],
     "source_url": "https://www.kalbermatter.law/en/kontakt"
+  },
+  "kamberadvokatur.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kamber Advokatur",
+    "founding_year": 2019,
+    "phone": "+41 71 552 24 22",
+    "practice_areas_de": [
+      "Öffentliches Beschaffungswesen",
+      "Bau und Umwelt",
+      "St.Gallisches Bau-, Planungs-, Strassenrecht und Umweltschutzrecht"
+    ],
+    "source_url": "https://www.kamberadvokatur.ch/portrait/"
   },
   "kanonengasse.ch": {
     "canton": "ZH",
@@ -13577,6 +13790,24 @@
     "specialist_certification": "Fachanwältin SAV Familienrecht (Barbara Laur), Fachanwalt SAV Haftpflicht- und Versicherungsrecht (Silvan Meier Rhein)",
     "team_size_n": 4
   },
+  "rechtsanwalt-calan.ch": {
+    "canton": "SG",
+    "email": "g.calan@rechtsanwalt-calan.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei & Notariat Calan",
+    "founding_year": 2017,
+    "phone": "+41 71 999 02 40",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Scheidungs- und Familienrecht",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Ausländerrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.rechtsanwalt-calan.ch/"
+  },
   "rechtsanwalt-erhart.ch": {
     "canton": "BL",
     "email": "erhart@rechtsanwalt-erhart.ch",
@@ -14342,6 +14573,21 @@
     ],
     "source_url": "https://rwra.ch/",
     "team_size_n": 2
+  },
+  "s-e-k.ch#SG": {
+    "canton": "SG",
+    "email": "info@s-e-k.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "S-E-K Advokaten AG",
+    "phone": "+41 52 365 11 41",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Strafrecht",
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://www.s-e-k.ch/anwalt-stgallen/"
   },
   "s-law.com": {
     "canton": "ZH",
