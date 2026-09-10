@@ -3414,3 +3414,25 @@ Anwaltskanzlei (site accessible mais aucune coordonnée ni domaine de compétenc
 
 Rattachement : 804 études rattachées au total (794 → 804, +10). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 02h02 UTC — Phase 3, lot 90 (exécution automatisée)
+
+20 cabinets traités (7 succès / 13 échecs), poursuite du balayage alphabétique ZH (lettres
+F-G) plus deux entrées en tête de liste (Oehrli, Benz).
+
+Succès : Advokatur Badenerstrasse (tel/email, 2 domaines DE) ; Anwaltskanzlei Fravi (fondée
+**1999**, email) ; Anwaltskanzlei Frech (tel) ; Fuchs Rechtsanwältin (tel/email) ; Advokatur
+Gähler (Winterthour, tel/email) ; Anwaltskanzlei Gigon (cabinet réel "citylex", 2 avocats, tel,
+6 domaines DE) ; Favre Arbitration GmbH (email -- site en construction).
+
+Échecs : Anwaltskanzlei Advoka (aucun site trouvé) ; Advokatur und Mediation (**piège
+d'identité évité** -- nom trop générique, plusieurs cabinets homonymes possibles) ;
+Advokaturbüro Federspiel, Bühler & Ferro, Anwaltskanzlei Frehner, Anwaltskanzlei Gebhardt (HTTP
+503 ×4) ; Advokatur René Flum (aucun site dédié) ; Advokatur Frick (**piège d'identité évité**
+-- plusieurs Frick homonymes sans correspondance exacte) ; Friedli legal services (entreprise
+dissoute) ; ORVIT Rechtsberatung AG (aucun site trouvé) ; MLEGAL AG (**piège d'identité évité**
+-- confusion possible entre une entité à Ennenda GL et le grand cabinet MLL Legal à Zurich) ;
+Steuerkanzlei Rolf Benz, Dr. Markus Oehrli Steuerberatung (vérification anti-bot ×2).
+
+Rattachement : 811 études rattachées au total (804 → 811, +7). Suite de tests : 94/94 au
+vert.
