@@ -55,6 +55,13 @@
       "firm_name": "Advokatur Glavas AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "advo-rueegg-kriens-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Rüegg",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
+    },
     "advo-stans.ch": {
       "_failed": true,
       "canton": "NW",
@@ -192,6 +199,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur & Rechtsberatung TRIAS AG",
       "reason": "Cabinet multi-cantonal (Bale, Argovie, Zoug, Berne, Lucerne, Zurich) -- le seul contact confirme sur le site est l'antenne de Bale, pas celle de Pratteln/BL specifiquement -- donnees canton-specifiques indisponibles (regle 4 etendue, cf. precedent ARNOLD LEGAL AG)"
+    },
+    "advokatur-wicki-horw-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "HSG ADVOKATUR WICKI",
+      "reason": "site inaccessible (HTTP 403, 2 tentatives)"
     },
     "advokaturamstampfenbach.ch": {
       "_failed": true,
@@ -362,6 +376,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Atto Notarius GmbH",
       "reason": "Aucun site officiel identifie, uniquement une adresse email generique via annuaire"
+    },
+    "atto-notarius-lu-v2": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "M.A. HSG Atto Notarius GmbH",
+      "reason": "dedoublonnage d'un echec deja connu (Atto Notarius GmbH, aucun site officiel identifie)"
     },
     "avenras-legal.ch": {
       "_failed": true,
@@ -574,12 +595,26 @@
       "firm_name": "lic. oec. publ. et lic. iur. Advokatur Daniel Bühlmann",
       "reason": "piege d'identite evite -- adresse CSV (Neumattstrasse 29, Horw) ne correspond pas a l'adresse trouvee (Jegerlehnerweg 5, Kriens)"
     },
+    "burger-mueller-russischurter-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Burger & Müller Rechtsanwälte",
+      "reason": "piege d'identite evite : Doris Russi Schurter n'apparait pas dans l'equipe actuelle affichee sur burger-mueller.ch"
+    },
     "burns.legal": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Burns Legal",
       "reason": "Contenu HTML statique insuffisant sur 2 pages testees (accueil, services) -- rendu JS probable"
+    },
+    "burri-burri-luzern": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Burri & Burri Rechtsanwälte",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers) ; membre CSV Mark Steffen non confirme (seul Johann Burri trouve)"
     },
     "butz-weber.ch": {
       "_failed": true,
@@ -896,6 +931,13 @@
       "firm_name": "Fortis Law AG",
       "reason": "Aucun site officiel propre identifie, uniquement des fiches d'annuaire"
     },
+    "fortis-law-lu-v2": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Dr. Fortis Law AG",
+      "reason": "dedoublonnage d'un echec deja connu (Fortis Law AG, aucun site officiel propre identifie)"
+    },
     "frank-adnot-lu": {
       "_failed": true,
       "canton": "LU",
@@ -1180,6 +1222,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Ileri Spörri Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2) ; par ailleurs les deux avocats ne prennent plus de nouveaux mandats selon des sources tierces"
+    },
+    "imwinkelried-reiden-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur",
+      "reason": "aucun site officiel propre identifie pour Michaela Imwinkelried (uniquement registre cantonal des avocats)"
     },
     "indemnis.ch": {
       "canton": "BS",
@@ -1752,6 +1801,13 @@
       "firm_name": "Studio Legale Pagliuca Piffaretti-Lanz Legal Sagl",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "ms-advokatur-palmenhof-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "LL.M. Anwaltskanzlei Palmenhof",
+      "reason": "site inaccessible (DNS injoignable, www et non-www, 2 tentatives)"
+    },
     "mst-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1893,6 +1949,13 @@
       "firm_name": "Paltzer Private Clients Law",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
+    "paraplegiker-stiftung-nottwil": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Schweizer Paraplegiker-Stiftung Guido A. Zäch",
+      "reason": "service juridique interne d'une fondation, pas une etude d'avocats independante"
+    },
     "pb-anwaltskanzlei-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1927,6 +1990,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Piasini Advokatur",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers ; possiblement ferme selon un annuaire"
+    },
+    "pierre-tobler-stniklausen-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Pierre Tobler",
+      "reason": "aucun site officiel propre identifie (uniquement registre cantonal des avocats)"
     },
     "pilatushof-lussi-lu": {
       "_failed": true,
@@ -2666,6 +2736,13 @@
       "firm_name": "WERNER BODENMANN\nRECHTSANWALT & ÖFFENTLICHER NOTAR",
       "reason": "HTTP 503 Service Unavailable (x2) sur ra-bodenmann.ch"
     },
+    "wicki-rechtsanwaelte-ag-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Wicki Rechtsanwälte AG",
+      "reason": "entite juridique distincte (AG fondee 2019 par Josef Wicki) mais aucun site officiel propre confirme, ambiguite avec purtschert-wicki.ch"
+    },
     "wiegandlegal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2686,6 +2763,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Advokatur Wieser & Wieser",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "wildisen-stniklausen-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur und Notariat St.",
+      "reason": "site kanzlei-kasernenplatz.ch inaccessible (HTTP 503, 2 tentatives) ; adresse St. Niklausen non confirmee"
     },
     "wilms-rechtsanwaelte-zh": {
       "_failed": true,
@@ -4059,6 +4143,20 @@
     "firm_name": "Advoro Zürich AG (Standort St. Gallen)",
     "phone": "+41 71 277 65 65",
     "source_url": "https://www.advoro.ch/en/team"
+  },
+  "advosursee.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei + Notariat",
+    "founding_year": 1994,
+    "source_url": "https://www.advosursee.ch/"
+  },
+  "advosursee.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwalts- und Notariatsbüro",
+    "founding_year": 1994,
+    "source_url": "https://www.advosursee.ch/"
   },
   "advoweggishaus.ch": {
     "canton": "LU",
@@ -6764,6 +6862,22 @@
     ],
     "source_url": "https://www.bpanwalt.ch/",
     "team_size_n": 4
+  },
+  "bps-legal.ch": {
+    "canton": "LU",
+    "email": "info@bps-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BPS Legal AG",
+    "phone": "+41 41 227 72 80",
+    "practice_areas_de": [
+      "Wirtschaft",
+      "Digital",
+      "Raum & Tier",
+      "Öffentliches Recht",
+      "Notariat",
+      "Prozess"
+    ],
+    "source_url": "https://bps-legal.ch/ueber-uns/"
   },
   "bps-partner.ch": {
     "canton": "GR",
@@ -10102,6 +10216,13 @@
     "canton": "LU",
     "fetched_date": "2026-09-10",
     "firm_name": "utr. iur. Hess Advokatur AG",
+    "phone": "041 924 11 00",
+    "source_url": "https://www.hess-advokatur.ch/de/kontakt"
+  },
+  "hess-advokatur.ch#LU2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hess Advokatur Notariat Mediation",
     "phone": "041 924 11 00",
     "source_url": "https://www.hess-advokatur.ch/de/kontakt"
   },
@@ -13599,6 +13720,18 @@
     "source_url": "https://www.mme.ch/en/about",
     "team_size_n": null
   },
+  "mmh-advokatur.ch": {
+    "canton": "LU",
+    "email": "info@mmh-advokatur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur.Notariat",
+    "phone": "+41 41 210 05 50",
+    "practice_areas_de": [
+      "Notariat: Grundstücksgeschäfte, Gesellschaftsrecht, Ehe- und Erbrecht",
+      "Advokatur: Vertragsrecht, Planungs- und Baurecht, Arbeitsrecht, Immobilienrecht, Gesellschaftsrecht, Mietrecht, Mediation und Prozessführung"
+    ],
+    "source_url": "https://www.mmh-advokatur.ch/Kontakt/"
+  },
   "mmlawyers.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -14702,6 +14835,13 @@
     "source_url": "https://publicsector.ch/kontakt/",
     "team_size_n": 3
   },
+  "purtschert-wicki.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Purtschert Wicki Advokatur und Notariat",
+    "phone": "+41 41 417 00 50",
+    "source_url": "https://purtschert-wicki.ch/"
+  },
   "pzlegal.ch": {
     "canton": "TI",
     "email": "info@pzlegal.ch",
@@ -15118,6 +15258,24 @@
       "Startup-Beratung"
     ],
     "source_url": "https://reiser-partner.ch/en/"
+  },
+  "renggli-law.ch": {
+    "canton": "LU",
+    "email": "renggli@renggli-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Renggli Advokatur & Notariat St.",
+    "phone": "041 510 03 20",
+    "practice_areas_de": [
+      "Familien- und Eherecht",
+      "Vertragsrecht",
+      "öffentliches Baurecht",
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Erbrecht und Nachlassplanung",
+      "Auftrags- und Werkvertragsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://renggli-law.ch/"
   },
   "rentschpartner.ch": {
     "canton": "ZH",
@@ -17687,6 +17845,14 @@
     ],
     "source_url": "https://turicum-legal.ch/"
   },
+  "ueberschlaglaw.ch": {
+    "canton": "LU",
+    "email": "info@ueberschlaglaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Ueberschlag",
+    "phone": "041 211 17 30",
+    "source_url": "https://www.ueberschlaglaw.ch/team.html"
+  },
   "urbach-law.inolawyer.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -18699,6 +18865,19 @@
     "fetched_date": "2026-09-10",
     "firm_name": "Wolf Advokatur und Notariat AG",
     "phone": "041 929 69 00",
+    "source_url": "https://www.wolf-recht.ch/kontakt/"
+  },
+  "wolf-recht.ch#2": {
+    "canton": "LU",
+    "email": "info@wolf-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Wolf Advokatur & Notariat AG",
+    "phone": "041 929 69 00",
+    "practice_areas_de": [
+      "Landwirtschaftsrecht",
+      "Beratung und Vertretung vor Behörden und Gerichten",
+      "Notariat (Hofübergabeverträge, Ehe- und Erbverträge, Testamente, Dienstbarkeitsverträge, Grundpfandverträge)"
+    ],
     "source_url": "https://www.wolf-recht.ch/kontakt/"
   },
   "wolfer-frey.ch": {

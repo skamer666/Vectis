@@ -3828,3 +3828,29 @@ Beratung (site inaccessible, DNS x2) ; RÜEGGER ANWALTSKANZLEI, Notariat & Advok
 
 Rattachement : 986 études rattachées au total (971 → 986, +15). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 19h02 UTC — Phase 3, lot 107 (exécution automatisée)
+
+Poursuite du canton LU (pool restreint à ~32 fiches non traitées, noms CSV de plus en plus
+tronqués/génériques). 21 fiches CSV traitées (9 succès / 12 échecs).
+
+Succès : Wolf Advokatur & Notariat AG (dédoublonnage, variante `&`/`und`, tel/email, droit
+agricole) ; Purtschert Wicki Advokatur und Notariat (tel, Jürg Purtschert confirmé par le nom
+même de la raison sociale) ; Hess Advokatur Notariat Mediation (dédoublonnage avec l'entrée
+Sursee déjà en cache sous une autre variante CSV, même téléphone) ; Renggli Advokatur & Notariat
+St. (tel/email, large éventail de domaines DE) ; BPS Legal AG (tel/email, droit des affaires/
+numérique/espace et animaux) ; Anwaltskanzlei Ueberschlag (tel/email) ; Anwaltskanzlei +
+Notariat et Anwalts- und Notariatsbüro (2 variantes CSV, **fondée 1994** -- fusion Schürch/Beeli
+confirmée explicitement sur le site).
+
+Échecs : LL.M. Anwaltskanzlei Palmenhof (site injoignable, DNS x2) ; HSG ADVOKATUR WICKI (site
+injoignable, HTTP 403 x2) ; Burger & Müller Rechtsanwälte (**piège d'identité évité** -- Doris
+Russi Schurter absente de l'équipe actuelle affichée sur le site) ; Advokatur und Notariat St.
+(site injoignable HTTP 503 x2, adresse St. Niklausen non confirmée) ; Advokatur Rüegg (site
+injoignable HTTP 503 x2) ; Advokatur Pierre Tobler, Advokatur (Imwinkelried, Reiden), Burri &
+Burri Rechtsanwälte (aucun site officiel propre) ; Schweizer Paraplegiker-Stiftung (service
+juridique interne d'une fondation, pas une étude indépendante) ; M.A. HSG Atto Notarius GmbH,
+Dr. Fortis Law AG (dédoublonnages d'échecs déjà connus) ; Wicki Rechtsanwälte AG (entité
+distincte de Purtschert Wicki, aucun site propre confirmé).
+
+Rattachement : 995 études rattachées au total (986 → 995, +9). Suite de tests : 94/94 au vert.
