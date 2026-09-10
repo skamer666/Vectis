@@ -3603,3 +3603,24 @@ x2) ; plus 6 reconfirmations de candidats déjà classés `_sans_site`.
 
 Rattachement : 875 études rattachées au total (871 → 875, +4 affichées ; +6 écritures, 2
 ignorées par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 10h03 UTC — Phase 3, lot 98 (exécution automatisée)
+
+Bascule vers le canton SG (meilleur taux de succès que TI). 22 cabinets traités (10 succès /
+12 échecs).
+
+Succès : Teichmann International (Schweiz) AG (faits spécifiques au bureau de St-Gall,
+tel/email) ; EPARTNERS AG (bureau St-Gall, tel/email) ; Mätzler & Partner Rechtsanwälte
+(dédoublonnage avec l'entrée `maetzler-partner.ch` déjà vérifiée, **4 avocats**) ; Bodensee
+Legal (3 domaines DE) ; Mäder & Barmettler Rechtsanwälte & Notare (**fondée 1981**, tel/email,
+6 domaines DE) ; BNF Rechtsanwälte (tel/email, 3 domaines DE) ; Advokatur Robert Baumann AG
+(tel/email) ; Advokatur Blahova (tel/email, 6 domaines DE) ; BRUGGERLaw Advokatur & Notariat
+(tel, 2 domaines DE) ; Heer + Britt Advokatur AG (tel/email, 6 domaines DE).
+
+Échecs : advokata Rechtsanwältinnen + Advokata.ch (même site, HTTP 503 x2) ; amstutz legal
+GmbH (contenu insuffisant) ; AW Auer & Wittibschlager, Animus Anwaltskanzlei Aydemir,
+BeelerLegal, baurecht advocatur, Werner Bodenmann (HTTP 503 x2 chacun) ; CBC Recht AG,
+advokaturbrasey, Advokatur im Alten Rathaus, Advokaturbüro Brägger (aucun site officiel).
+
+Rattachement : 884 études rattachées au total (875 → 884, +9 affichées ; +10 écritures, 1
+ignorée par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.

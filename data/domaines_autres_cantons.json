@@ -102,12 +102,33 @@
       "firm_name": "Anwaltskanzlei Advoka",
       "reason": "Aucun site officiel trouve sous ce nom exact"
     },
+    "advokata-ch-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokata.ch",
+      "reason": "HTTP 503 Service Unavailable (x2, meme domaine que advokata Rechtsanwältinnen)"
+    },
+    "advokata-rechtsanwaltinnen-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "advokata Rechtsanwältinnen",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "advokatur-aeberli.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur Aeberli",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "advokatur-alten-rathaus-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur im Alten Rathaus",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
     "advokatur-baltensperger.ch": {
       "_failed": true,
@@ -172,6 +193,13 @@
       "firm_name": "Advokatur Barmet",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "advokaturbrasey-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "advokaturbrasey",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
+    },
     "advokaturbuero-bl.ch": {
       "canton": "BL",
       "firm_name": "Janiak Freivogel Schweighauser, von Wartburg, Advokaturbüro",
@@ -232,12 +260,26 @@
       "firm_name": "Studio legale e notarile Aldi+ Balmelli",
       "reason": "Identite partiellement confirmee (Via Curti 5, Lugano, membres Aldi et Balmelli) mais aucun site officiel du cabinet identifie"
     },
+    "amstutz-legal-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "amstutz legal GmbH",
+      "reason": "HTTP 503 puis contenu insuffisant (page quasi vide, aucun fait exploitable) sur amstutz.legal"
+    },
     "amwasserturmplatz.ch": {
       "_failed": true,
       "canton": "BL",
       "checked_date": "2026-09-08",
       "firm_name": "Zeller Dettwiler Advokatur & Notariat",
       "reason": "Site accessible mais aucun tel/email exploitable, uniquement une formule generique de mission"
+    },
+    "animus-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Animus Anwaltskanzlei Aydemir",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "ankerlex.ch": {
       "canton": "ZH",
@@ -300,6 +342,13 @@
       "firm_name": "Avenras Legal GmbH",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "awlaw-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "AW AUER & WITTIBSCHLAGER Rechtsanwälte und Notare",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "b-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -359,6 +408,13 @@
       "firm_name": "Anwaltskanzlei lic. iur. Semsettin Bastimar",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "baurecht-advocatur-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "baurecht advocatur",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "becchio-partner-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -379,6 +435,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Beeler & Werner",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
+    },
+    "beelerlegal-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "BeelerLegal Advokatur Notariat Steuerberatung",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "beglinger-holenstein-zh": {
       "_failed": true,
@@ -426,6 +489,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Borbély Legal GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "braegger-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Brägger",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
     "braunlaw.ch": {
       "_failed": true,
@@ -489,6 +559,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "CapLex KlG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "cbc-recht-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "CBC Recht AG",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
     "censiassociati-lugano-2": {
       "_failed": true,
@@ -2127,6 +2204,13 @@
       "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
       "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique (meme cause que l'entree existante weinmann-zimmerli.ch pour la ligne CSV 'Weinmann Zimmerli')"
     },
+    "werner-bodenmann-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "WERNER BODENMANN\nRECHTSANWALT & ÖFFENTLICHER NOTAR",
+      "reason": "HTTP 503 Service Unavailable (x2) sur ra-bodenmann.ch"
+    },
     "wiegandlegal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2718,6 +2802,30 @@
     ],
     "source_url": "https://www.advokatur-baselice.ch/",
     "team_size_n": 1
+  },
+  "advokatur-baumann.ch": {
+    "canton": "SG",
+    "email": "baumann@advokatur-baumann.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Robert Baumann AG",
+    "phone": "+41 71 228 58 48",
+    "source_url": "https://www.advokatur-baumann.ch/"
+  },
+  "advokatur-blahova.ch": {
+    "canton": "SG",
+    "email": "info@advokatur-blahova.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Blahova",
+    "phone": "+41 71 552 99 10",
+    "practice_areas_de": [
+      "Familienrecht, Scheidungsrecht",
+      "Allgemeines Vertragsrecht, Arbeits- und Mietrecht",
+      "Verwaltungsrecht",
+      "Strafrecht",
+      "Migrationsrecht/Ausländerrecht",
+      "Schuldbetreibungs- & Konkursrecht"
+    ],
+    "source_url": "https://advokatur-blahova.ch/"
   },
   "advokatur-buelach.ch": {
     "canton": "ZH",
@@ -5622,6 +5730,19 @@
     "source_url": "https://bmlaw.ch/en/",
     "team_size_n": null
   },
+  "bnf-rechtsanwaelte.ch": {
+    "canton": "SG",
+    "email": "kanzlei@bnf-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BNF Rechtsanwälte",
+    "phone": "+41 71 571 19 75",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Wirtschaftsrecht",
+      "Pferdesportrecht"
+    ],
+    "source_url": "https://www.bnf-rechtsanwaelte.ch/"
+  },
   "bnlawyers.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -5727,6 +5848,17 @@
       "Arbitrage et procédure"
     ],
     "source_url": "https://bns.legal/"
+  },
+  "bodensee-legal.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Bodensee Legal",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.bodensee-legal.ch/über-mich"
   },
   "bodmerfischer.ch": {
     "canton": "ZH",
@@ -5970,6 +6102,17 @@
     ],
     "source_url": "https://www.bruecker.swiss/index.php?id=9",
     "team_size_n": 4
+  },
+  "bruggerlaw.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BRUGGERLaw Advokatur & Notariat",
+    "phone": "076 200 78 98",
+    "practice_areas_de": [
+      "Arbeits-, Bau- und Immobilienrecht",
+      "Ehe- und Erbverträge, Vorsorgeaufträge und Patientenverfügungen"
+    ],
+    "source_url": "https://www.bruggerlaw.ch/"
   },
   "brugnoli-law.ch": {
     "canton": "ZH",
@@ -7212,6 +7355,14 @@
     ],
     "source_url": "https://epartners.ch/en/expertise/",
     "team_size_n": null
+  },
+  "epartners.ch#SG": {
+    "canton": "SG",
+    "email": "info@epartners.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "EPARTNERS AG",
+    "phone": "+41 43 268 87 77",
+    "source_url": "https://www.epartners.ch/kontakt"
   },
   "era-rechtsanwaelte.ch": {
     "canton": "ZH",
@@ -8709,6 +8860,22 @@
       "Mediation (Mietstreitigkeiten)"
     ],
     "source_url": "https://www.hebrecht.ch/about"
+  },
+  "heerbritt.ch": {
+    "canton": "SG",
+    "email": "info@heerbritt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Heer + Britt Advokatur AG",
+    "phone": "071 552 05 51",
+    "practice_areas_de": [
+      "Landwirtschaft/Agrarrecht",
+      "Gesellschaftsrecht",
+      "Steuerrecht",
+      "Bau- und Raumplanungsrecht",
+      "Sozialversicherungsrecht",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://heerbritt.ch/"
   },
   "heiniger-ra.ch": {
     "canton": "ZH",
@@ -11562,6 +11729,15 @@
     "source_url": "https://www.maetzler-partner.ch/",
     "team_size_n": 4
   },
+  "maetzler-partner.ch#2": {
+    "canton": "SG",
+    "email": "info@maetzler-partner.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Mätzler & Partner Rechtsanwälte",
+    "phone": "081 720 01 11",
+    "source_url": "https://www.maetzler-partner.ch/",
+    "team_size_n": 4
+  },
   "maf.ch": {
     "canton": "ZH",
     "email": "office@maf.ch",
@@ -11690,6 +11866,23 @@
     ],
     "source_url": "https://www.mathiassenlegal.ch/",
     "team_size_n": 1
+  },
+  "mb-ra.ch": {
+    "canton": "SG",
+    "email": "info@mb-ra.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Mäder & Barmettler Rechtsanwälte & Notare",
+    "founding_year": 1981,
+    "phone": "+41 71 388 18 88",
+    "practice_areas_de": [
+      "Handels- und Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Ehe- und Erbrecht sowie Vorsorgeplanung",
+      "Privates und öffentliches Baurecht",
+      "Miet- und Immobilienrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.mb-ra.ch/de/kanzlei"
   },
   "mbh-law.ch": {
     "canton": "ZH",
@@ -15527,6 +15720,14 @@
     "practice_areas_fr": [],
     "source_url": "https://www.teichmann-law.ch/en/",
     "team_size_n": null
+  },
+  "teichmann-law.ch#SG": {
+    "canton": "SG",
+    "email": "info@teichmann-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Teichmann International (Schweiz) AG",
+    "phone": "+41 71 260 24 40",
+    "source_url": "https://www.teichmann-law.ch/en/st-gallen/lawyer-fabian-teichmann.html"
   },
   "themis-legal.ch": {
     "canton": "ZH",
