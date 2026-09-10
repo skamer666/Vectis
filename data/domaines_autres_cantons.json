@@ -68,6 +68,13 @@
       "firm_name": "Advokatur & Mediation (Pfander/Alder/Lehmann/Fuchs)",
       "raison": "mauvais cabinet — ne correspond pas aux membres BS CSV 'Advokatur und Mediation' (Emmel/Jedelhauser/Knecht/Müller/Tibis)"
     },
+    "advobue-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "advobue Advokatur und Notariat",
+      "reason": "HTTP 503 Service Unavailable (x2) sur advobue.ch"
+    },
     "advocatur-nicolai.ch": {
       "_failed": true,
       "canton": "GR",
@@ -143,6 +150,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur Blumenthal",
       "reason": "Piege d'identite : le seul 'Blumenthal Advokatur' trouve (adv-blumenthal.ch) est base a Furstenau (GR), pas a Zurich ; continuite non confirmee (regle 5)"
+    },
+    "advokatur-etter-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Etter",
+      "reason": "Domaine officiel injoignable (echec DNS x2) sur advokatur-etter.ch"
     },
     "advokatur-knutti.ch": {
       "_failed": true,
@@ -518,6 +532,13 @@
       "firm_name": "Brunner Gehrig Rechtsanwälte",
       "reason": "HTTP 500 Internal Server Error"
     },
+    "buechi-anwaltsburo-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Büchi Anwaltsbüro",
+      "reason": "Identite confirmee (Fürstenlandstrasse 39, Wil) mais aucun site officiel identifie, uniquement une fiche d'annuaire (phone connu, pas d'email)"
+    },
     "burns.legal": {
       "_failed": true,
       "canton": "ZH",
@@ -819,11 +840,25 @@
       "firm_name": "Friedli legal services",
       "reason": "Entreprise dissoute (cessation d'activite confirmee)"
     },
+    "frohli-partner-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Fröhli Partner",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
+    },
     "frt-anwaelte.ch": {
       "canton": "SG",
       "firm_name": "FRT RECHTSANWÄLTE & NOTARE",
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
+    },
+    "furgler-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwaltsbüro Furgler Kurt Johannes",
+      "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
     },
     "gbf-legal.ch": {
       "canton": "ZH",
@@ -844,6 +879,20 @@
       "checked_date": "2026-09-10",
       "firm_name": "studio legale Ghiringhelli e Associati",
       "reason": "Identite confirmee (via Orico 7, Bellinzona, ghiringhelli-olgiati.ch) mais HTTP 503 Service Unavailable (x2)"
+    },
+    "gisler-advokatur-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "GISLER. Advokatur und Notariat",
+      "reason": "Identite confirmee (Matthias Gisler, Am Gozenberg 7, Gossau) mais aucun site officiel identifie"
+    },
+    "gorg-suter-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "GÖRG SUTER AG",
+      "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire"
     },
     "grafundpartner.ch": {
       "_failed": true,
@@ -1479,6 +1528,13 @@
       "firm_name": "Müllhaupt & Partner",
       "reason": "HTTP 503 puis 404 sur pages alternatives"
     },
+    "muller-eckstein-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Müller Eckstein Rechtsanwälte",
+      "reason": "Cabinet dissous en 2020 (radiation registre du commerce), reorganise en ME Advocat sans Karl Eckstein -- continuite non confirmee pour l'entite CSV"
+    },
     "museum35.ch": {
       "canton": "SG",
       "date": "2026-07-29",
@@ -1599,6 +1655,13 @@
       "firm_name": "Studio legale e notarile Poma-Gandolfi & Associati",
       "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire -- confirme a nouveau (deja note sous _sans_site)"
     },
+    "prager-dreifuss-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Prager Dreifuss AG",
+      "reason": "piege d'identite evite -- l'adresse CSV (Ebnaterstrasse 9, Ebnat-Kappel) ne correspond a aucun bureau connu du grand cabinet zurichois Prager Dreifuss AG (siege Mühlebachstrasse, Zurich) ; lien non retenu"
+    },
     "prudentia-law.ch": {
       "canton": "ZH",
       "firm_name": "PRUDENTIA LAW",
@@ -1624,6 +1687,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Rajower & Weber",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
+    },
+    "rappjlegal-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "RappjLegal Anwaltskanzlei & Notariat",
+      "reason": "HTTP 500 Internal Server Error (x2) sur rappjlegal.ch"
     },
     "rauchlegal.ch": {
       "_failed": true,
@@ -2529,6 +2599,22 @@
       "Steuer- und Treuhanddienstleistungen"
     ],
     "source_url": "https://adexas.com/"
+  },
+  "adlexa.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ADLEXA Advokatur & Notariat Rahel Egger",
+    "founding_year": 2021,
+    "phone": "+41 71 222 40 90",
+    "practice_areas_de": [
+      "Ausländerrecht",
+      "Vertragsrecht",
+      "Haftpflichtrecht",
+      "Strafrecht",
+      "Opferhilferecht",
+      "Familien- und Erbrecht"
+    ],
+    "source_url": "https://www.adlexa.ch/"
   },
   "admetam.ch": {
     "canton": "TI",
@@ -7173,6 +7259,14 @@
     ],
     "source_url": "https://dubach-law.ch/en/contact/"
   },
+  "dubach-law.ch#SG": {
+    "canton": "SG",
+    "email": "info@dubach-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Dubach Rechtsanwälte Notariat",
+    "phone": "+41 44 586 00 59",
+    "source_url": "https://dubach-law.ch/en/contact/"
+  },
   "dubs-legal.ch": {
     "canton": "ZH",
     "email": "kanzlei@dubs-legal.ch",
@@ -7382,6 +7476,15 @@
     ],
     "source_url": "http://www.era-rechtsanwaelte.ch/de/kanzlei.html"
   },
+  "erduranpartner.ch": {
+    "canton": "SG",
+    "email": "v.erduran@erduranpartner.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Erduan & Partner Rechtsanwälte AG",
+    "founding_year": 2013,
+    "phone": "081 710 66 90",
+    "source_url": "https://www.erduranpartner.ch/über-uns"
+  },
   "erkenlaw.ch": {
     "canton": "ZH",
     "email": "eerken@erkenlaw.ch",
@@ -7403,6 +7506,22 @@
       "Aviation and aerospace matters (aircraft lease, charter, sale and purchase and related financing)"
     ],
     "source_url": "https://www.ermini-law.ch/company_profile.html"
+  },
+  "erne-rechtsanwaelte.ch": {
+    "canton": "SG",
+    "email": "sekretariat@erne-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Erne Rechtsanwälte",
+    "phone": "+41 71 969 69 70",
+    "practice_areas_de": [
+      "Strafrecht",
+      "KMU-Recht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Erbrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.erne-rechtsanwaelte.ch/"
   },
   "esteveslaw.ch": {
     "canton": "ZH",
@@ -7501,6 +7620,22 @@
     ],
     "source_url": "https://www.factum.pro/?id=6",
     "team_size_n": 3
+  },
+  "factum.pro#2": {
+    "canton": "SG",
+    "email": "advocatur@factum.pro",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Urs Freytag AG",
+    "phone": "+41 71 421 41 41",
+    "practice_areas_en": [
+      "Construction and Real Estate Law",
+      "Data Protection Law",
+      "Corporate Law",
+      "Estate and Succession Planning",
+      "Public Procurement Law",
+      "Contract Law"
+    ],
+    "source_url": "https://www.factum.pro/?id=6"
   },
   "falkenstein.ag": {
     "canton": "SG",
@@ -7610,6 +7745,19 @@
     "source_url": "https://felderspaelti.ch/",
     "specialist_certification": "Fachanwalt SAV Erbrecht (Andreas Felder)"
   },
+  "fercher-compliance.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Fercher Compliance GmbH",
+    "practice_areas_de": [
+      "Compliance Management",
+      "Datenschutz",
+      "Handelsrecht",
+      "Kartell- und Wettbewerbsrecht",
+      "Gesellschafts- und Unternehmensrecht"
+    ],
+    "source_url": "https://fercher-compliance.ch/portrait/"
+  },
   "fertig-keller.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -7644,6 +7792,24 @@
     "phone": "+41 44 545 33 33",
     "source_url": "https://fhs.legal/",
     "team_size_n": 6
+  },
+  "fiechter-advokatur.ch": {
+    "canton": "SG",
+    "email": "info@fiechter-advokatur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Adrian Fiechter Anwalt und Beratung GmbH",
+    "phone": "071 727 08 10",
+    "practice_areas_de": [
+      "Haftpflicht- und Privatversicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Familien- und Erbrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.fiechter-advokatur.ch/"
   },
   "fingerhuth.law": {
     "canton": "ZH",

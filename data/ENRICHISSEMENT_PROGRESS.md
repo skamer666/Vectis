@@ -3624,3 +3624,26 @@ advokaturbrasey, Advokatur im Alten Rathaus, Advokaturbüro Brägger (aucun site
 
 Rattachement : 884 études rattachées au total (875 → 884, +9 affichées ; +10 écritures, 1
 ignorée par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 11h04 UTC — Phase 3, lot 99 (exécution automatisée)
+
+Poursuite du canton SG. 17 cabinets traités (7 succès / 10 échecs) ; 8 candidats
+supplémentaires n'ont pas pu être recherchés (outil WebSearch temporairement indisponible sur
+ces requêtes précises malgré plusieurs tentatives) et restent dans le pool pour un prochain lot.
+
+Succès : ADLEXA Advokatur & Notariat Rahel Egger (**fondée janvier 2021**, tel, 6 domaines DE) ;
+Erduan & Partner Rechtsanwälte AG (**fondée 2013**, tel/email — nom CSV "Erduan" légèrement
+différent du nom réel "Erduran", conservé tel quel pour le rattachement) ; Erne Rechtsanwälte
+(tel/email, 6 domaines DE) ; Adrian Fiechter Anwalt und Beratung GmbH (tel/email, 8 domaines
+DE) ; Urs Freytag AG (dédoublonnage avec l'entrée `factum.pro` déjà vérifiée) ; Dubach
+Rechtsanwälte Notariat (faits spécifiques au bureau de Rapperswil-Jona, tel) ; Fercher
+Compliance GmbH (5 domaines DE).
+
+Échecs : Büchi Anwaltsbüro, GISLER. Advokatur und Notariat (identité confirmée par adresse
+mais aucun site officiel) ; advobue Advokatur und Notariat (HTTP 503 x2) ; RappjLegal
+Anwaltskanzlei & Notariat (HTTP 500 x2) ; Müller Eckstein Rechtsanwälte (cabinet dissous 2020) ;
+Advokatur Etter (échec DNS x2) ; Prager Dreifuss AG (**piège d'identité évité** -- adresse CSV à
+Ebnat-Kappel ne correspond à aucun bureau connu du grand cabinet zurichois du même nom) ; Fröhli
+Partner, Rechtsanwaltsbüro Furgler Kurt Johannes, GÖRG SUTER AG (aucun site officiel).
+
+Rattachement : 891 études rattachées au total (884 → 891, +7). Suite de tests : 94/94 au vert.
