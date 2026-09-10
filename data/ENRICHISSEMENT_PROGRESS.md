@@ -3796,3 +3796,35 @@ Lussi n'apparaît pas dans l'équipe officielle de Pilatushof).
 
 Rattachement : 971 études rattachées au total (957 → 971, +14). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 18h02 UTC — Phase 3, lot 106 (exécution automatisée)
+
+Poursuite du canton LU. 25 fiches CSV traitées (15 succès / 10 échecs).
+
+Succès : Sigerist Advokatur und Notariat (variante CSV avec titre LL.M., **Fachanwalt SAV
+Erbrecht** confirmé sur la page équipe, tel) ; Waldistax AG (tel/email, conseil fiscal) ;
+Advokaturgemeinschaft Estermann Unternährer Vonesch (tel/email, large éventail de domaines DE) ;
+Unternährer & Partner AG (identité confirmée -- Alicia Unternährer apparaît sur l'équipe
+officielle de `kanzlei-eichhof.ch`, **6 collaborateurs**, tel/email) ; Schumacher Advokatur &
+Notariat GmbH (**fondée 2020**, tel/email, droit de la construction) ; Pierre Peyer Advokatur &
+Notariat (adresse exactement confirmée, tel/email) ; Kanzlei am Bahnhof GmbH (tel/email, droit
+de la PPE) ; Hischier & Brunner (tel/email, les deux associés CSV confirmés sur l'équipe
+officielle) ; von Segesser Rebsamen Felder (dédoublonnage avec `ssrlaw.ch` déjà vérifié --
+Thomas Rebsamen confirmé, ligne directe propre) ; Bolzern Haas & Partner AG (dédoublonnage,
+variante LL.M.) ; Schenkel & Serrago AG (dédoublonnage, variante LL.M.) ; Vetsch Rechtsanwälte
+AG (dédoublonnage, variante LL.M.) ; KESSLER AG (dédoublonnage avec `kessler-law.ch`) ;
+Advokatur Koch & Schneider (dédoublonnage, 2 variantes CSV supplémentaires).
+
+Échecs : sigerist ADVOKATUR UND NOTARIAT Am -- membre Eva Soldati-Schnyder (**piège d'identité
+évité**, absente de l'équipe officielle malgré l'adresse identique) ; Troller Hitz Troller &
+Partner -- membre F. Willi Peyer (**piège d'identité évité**, absent de l'équipe officielle de
+`trollerlaw.ch`) ; lic.iur. Hischier & Brunner Advokatur und Notariat -- membre Michael Schöb
+(**piège d'identité évité**, absent de l'équipe officielle) ; Unternährer Rechtsanwälte AG (AG
+individuelle 2025, aucun site propre, lien avec l'Advokaturgemeinschaft non confirmé) ;
+Truttmann Law (adresse Schenkon non confirmée sur le site) ; Sieber + Partner MRB GmbH
+(reconvertie en coaching/médiation, plus une étude d'avocats) ; SCHILTKNECHT Advokatur Notariat
+Beratung (site inaccessible, DNS x2) ; RÜEGGER ANWALTSKANZLEI, Notariat & Advokatur Wiprächtiger
+(aucun site officiel propre) ; Orfist AG (aucun site officiel, société immatriculée à Zug).
+
+Rattachement : 986 études rattachées au total (971 → 986, +15). Suite de tests : 94/94 au
+vert.

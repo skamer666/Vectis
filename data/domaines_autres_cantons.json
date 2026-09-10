@@ -1118,6 +1118,13 @@
       "firm_name": "Anwaltsbüro Herz",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "hischier-brunner-schoeb-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "lic.iur. Hischier & Brunner Advokatur und Notariat",
+      "reason": "piege d'identite evite : Michael Schoeb n'apparait pas dans l'equipe officielle de hb-recht.ch (seuls Hischier, Brunner et Kyburger confirmes)"
+    },
     "hofmannlaw.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1859,6 +1866,13 @@
       "firm_name": "OMB & Partners AG",
       "reason": "Aucun site officiel trouve, seul le registre des avocats ZH (adresse Seefeldstr. 15)"
     },
+    "orfist-ag-zug": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Orfist AG",
+      "reason": "aucun site officiel identifie ; societe immatriculee a Zug avec adresse secondaire c/o Burger & Mueller a Lucerne"
+    },
     "orvit-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -2108,6 +2122,13 @@
       "firm_name": "Rudolf & Bieri AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "rueegger-anwaltskanzlei-neuenkirch": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "RÜEGGER ANWALTSKANZLEI",
+      "reason": "aucun site officiel propre identifie (uniquement annuaire communal)"
+    },
     "s-e-k.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2141,6 +2162,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Schill Legal",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "schiltknecht-theaterstrasse-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "SCHILTKNECHT Advokatur Notariat Beratung",
+      "reason": "site inaccessible (DNS injoignable, www et non-www, 2 tentatives)"
     },
     "schmid-partner-zh": {
       "_failed": true,
@@ -2237,12 +2265,26 @@
       "firm_name": "Rüesch Rechtsanwälte",
       "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)"
     },
+    "sieber-partner-mrb": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Sieber + Partner MRB GmbH",
+      "reason": "entite reconvertie en activite de coaching/mediation (Daniela Sieber GmbH), n'exerce plus comme etude d'avocats"
+    },
     "sieberlex.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-08",
       "firm_name": "SIEBER RECHTSANWÄLTE",
       "reason": "HTTP 404 Not Found sur plusieurs chemins (racine, /ueber-uns/, /rechtsanwaelte/) -- site probablement hors service"
+    },
+    "sigerist-eva-soldati-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "sigerist ADVOKATUR UND NOTARIAT Am",
+      "reason": "piege d'identite evite : Eva Soldati-Schnyder n'apparait pas dans l'equipe officielle de rechtluzern.ch malgre l'adresse identique (Grendel 21)"
     },
     "siggschwarz.ch": {
       "_failed": true,
@@ -2482,6 +2524,13 @@
       "firm_name": "Traber Rechtsanwalt",
       "reason": "Domaine officiel injoignable (echec DNS, x2)"
     },
+    "troller-fwilli-peyer-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Troller Hitz Troller & Partner",
+      "reason": "piege d'identite evite : F. Willi Peyer n'apparait pas dans l'equipe officielle de trollerlaw.ch malgre l'adresse identique"
+    },
     "trustedadvisors.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2489,12 +2538,26 @@
       "firm_name": "Behrens Trusted Advisors Rechtsanwälte AG",
       "reason": "Contenu HTML statique insuffisant sur 2 pages testees (impressum, zuerich) -- rendu JS probable"
     },
+    "truttmann-law-schenkon": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Truttmann Law",
+      "reason": "site truttmann-law.ch ne confirme pas l'adresse CSV (Tannbergstrasse 10, Schenkon) ; seuls Luzern/Sursee mentionnes"
+    },
     "umbricht.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-08",
       "firm_name": "Umbricht Rechtsanwälte AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "unternaehrer-rechtsanwaelte-ag.ch": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Unternährer Rechtsanwälte AG",
+      "reason": "AG individuelle recente (immatriculee 2025), aucun site officiel propre identifie ; lien avec l'Advokaturgemeinschaft (meme adresse) non confirme sur une page equipe"
     },
     "urshuber-anwalt.ch": {
       "_failed": true,
@@ -2658,6 +2721,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Winzeler Law",
       "reason": "HTTP 503 Service Unavailable (x2, y compris apres redirection depuis winzelerlaw.com)"
+    },
+    "wipraechtiger-notariat-horw": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Notariat & Advokatur Wiprächtiger",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
     "wlaw.ch": {
       "_failed": true,
@@ -3681,6 +3751,29 @@
     ],
     "source_url": "https://www.advokaturfluetsch.ch/advokatur.html",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
+  "advokaturgemeinschaft.ch": {
+    "canton": "LU",
+    "email": "info@euv.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturgemeinschaft",
+    "phone": "+41 41 228 90 10",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Unfall",
+      "Krankheit",
+      "Vertragsrecht",
+      "Strafverteidigung",
+      "Strassenverkehrsrecht",
+      "Migrationsrecht",
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.advokaturgemeinschaft.ch/"
   },
   "advokaturobertor.ch": {
     "canton": "ZH",
@@ -6113,6 +6206,13 @@
       "Haftpflicht- und Sozialversicherungsrecht",
       "Steuerrecht"
     ],
+    "source_url": "https://www.bhup.ch/"
+  },
+  "bhup.ch#3": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Bolzern Haas & Partner AG",
+    "phone": "+41 41 410 05 55",
     "source_url": "https://www.bhup.ch/"
   },
   "bihrerlaw.ch": {
@@ -9797,6 +9897,14 @@
     ],
     "source_url": "https://www.hauserlaw.com/de/"
   },
+  "hb-recht.ch": {
+    "canton": "LU",
+    "email": "info@hb-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hischier & Brunner",
+    "phone": "+41 41 318 30 90",
+    "source_url": "https://hb-recht.ch/"
+  },
   "hba.ch": {
     "canton": "ZH",
     "email": "zuerich@hba.ch",
@@ -10968,6 +11076,23 @@
     ],
     "source_url": "https://kanzlei-dbz.ch/"
   },
+  "kanzlei-eichhof.ch": {
+    "canton": "LU",
+    "email": "info@kanzlei-eichhof.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Unternährer & Partner AG",
+    "phone": "041 410 07 77",
+    "practice_areas_de": [
+      "Notariat",
+      "Rechtsanwälte",
+      "Sachwalterschaft",
+      "Insolvenzverfahren",
+      "Erbschaftsverwaltung",
+      "Unternehmensrestrukturierung"
+    ],
+    "source_url": "https://www.kanzlei-eichhof.ch/",
+    "team_size_n": 6
+  },
   "kanzlei-kunz.ch": {
     "canton": "ZH",
     "email": "s.kunz@kanzlei-kunz.ch",
@@ -11035,6 +11160,18 @@
     ],
     "source_url": "https://kanzlei-winterthur.ch/anwaelte/",
     "team_size_n": 3
+  },
+  "kanzleiambahnhof.ch": {
+    "canton": "LU",
+    "email": "info@kanzleiambahnhof.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kanzlei am Bahnhof GmbH",
+    "phone": "041 500 42 29",
+    "practice_areas_de": [
+      "Stockwerkeigentumsrecht",
+      "Rechtsberatung in komplexen Lebenslagen"
+    ],
+    "source_url": "https://www.kanzleiambahnhof.ch/kanzlei/"
   },
   "kanzleicaro.ch": {
     "canton": "ZH",
@@ -11158,6 +11295,13 @@
       "Trustrecht",
       "Internationales Privatrecht"
     ],
+    "source_url": "https://kessler-law.ch/kesslerde"
+  },
+  "kessler-law.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "KESSLER AG",
+    "phone": "+41 41 211 31 31",
     "source_url": "https://kessler-law.ch/kesslerde"
   },
   "kh-recht.ch": {
@@ -11488,6 +11632,20 @@
       "Kindes- und Erwachsenenschutzrecht",
       "Versicherungsrecht"
     ],
+    "source_url": "https://www.kochschneider.ch/"
+  },
+  "kochschneider.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Koch & Schneider",
+    "phone": "041 268 81 50",
+    "source_url": "https://www.kochschneider.ch/"
+  },
+  "kochschneider.ch#3": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HSG, lic. phil. Advokatur Koch & Schneider",
+    "phone": "041 268 81 50",
     "source_url": "https://www.kochschneider.ch/"
   },
   "koeppel-law.ch": {
@@ -14293,6 +14451,21 @@
     "phone": "+41 41 970 33 25",
     "source_url": "https://peterundpartner.ch/"
   },
+  "peyer-luzern.ch": {
+    "canton": "LU",
+    "email": "info@peyer-luzern.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Pierre Peyer Advokatur & Notariat",
+    "phone": "+41 41 211 01 27",
+    "practice_areas_de": [
+      "Stiftungsrecht und Beratung von Non Profit Organisationen",
+      "Vertrags- und Gesellschaftsrecht",
+      "Grundstücksrecht",
+      "Erbrecht, Willensvollstreckungen",
+      "Notariat"
+    ],
+    "source_url": "https://peyer-luzern.ch/"
+  },
   "peyerpartner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -14747,6 +14920,22 @@
     "source_url": "https://www.rechtdirekt.ch/",
     "team_size_n": 2
   },
+  "rechtluzern.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. sigerist ADVOKATUR UND NOTARIAT Am",
+    "phone": "041 227 50 00",
+    "practice_areas_de": [
+      "Familie - Ehe - Konkubinat - Vorsorgeaufträge",
+      "Erbrecht - vorherige Planung, nachfolgende Vertretung",
+      "Verträge - Wirtschaft",
+      "Verträge - Arbeiten und Wohnen",
+      "Grundstücke - Bauen",
+      "Strasse - Verkehr"
+    ],
+    "source_url": "https://www.rechtluzern.ch/en/peoples/michael-sigerist",
+    "specialist_certification": "Fachanwalt SAV Erbrecht (Michael Sigerist)"
+  },
   "rechtsanker.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -14798,6 +14987,13 @@
     "email": "kanzlei@rechtsanwalt-luzern.ch",
     "fetched_date": "2026-09-07",
     "firm_name": "Schenkel & Serrago AG",
+    "phone": "+41 (0)41 419 70 80",
+    "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
+  },
+  "rechtsanwalt-luzern.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Schenkel & Serrago AG",
     "phone": "+41 (0)41 419 70 80",
     "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
   },
@@ -16008,6 +16204,21 @@
     "source_url": "https://www.schoenmannlaw.ch/",
     "team_size_n": 2
   },
+  "schumacherrecht.ch": {
+    "canton": "LU",
+    "email": "pius@schumacherrecht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Schumacher Advokatur & Notariat GmbH",
+    "founding_year": 2020,
+    "phone": "+41 62 758 50 80",
+    "practice_areas_de": [
+      "öffentliches und privates Baurecht",
+      "Strafrecht",
+      "allgemeine Rechtsberatung",
+      "Notariat"
+    ],
+    "source_url": "https://schumacherrecht.ch/"
+  },
   "schwarzenbach-pfiffner.ch": {
     "canton": "GR",
     "email": "kanzlei@schwarzenbach-pfiffner.ch",
@@ -16456,6 +16667,22 @@
     ],
     "source_url": "https://www.ssrlaw.ch/luzerner-rechtsanwaelte/andreas-felder",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Andreas Felder)"
+  },
+  "ssrlaw.ch#2": {
+    "canton": "LU",
+    "email": "rebsamen@ssrlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "von Segesser Rebsamen Felder",
+    "phone": "+41 41 410 15 90",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Erb- und Sachenrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Prozessführung"
+    ],
+    "source_url": "https://www.ssrlaw.ch/luzerner-rechtsanwaelte/thomas-rebsamen"
   },
   "stach.ch": {
     "canton": "SG",
@@ -17668,6 +17895,12 @@
     "source_url": "https://www.vetsch-rechtsanwaelte.ch/",
     "team_size_n": null
   },
+  "vetsch-rechtsanwaelte.ch#2": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Vetsch Rechtsanwälte AG",
+    "source_url": "https://www.vetsch-rechtsanwaelte.ch/"
+  },
   "vfs-partner.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -17957,6 +18190,19 @@
     "firm_name": "studio legale Walder Wyss",
     "phone": "+41 58 658 40 00",
     "source_url": "https://www.walderwyss.com/it/sedi/lugano"
+  },
+  "waldistax.ch": {
+    "canton": "LU",
+    "email": "info@waldistax.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Waldistax AG",
+    "phone": "+41 41 500 05 33",
+    "practice_areas_de": [
+      "Steuerberatung für Unternehmer",
+      "Steuerberatung für Privatpersonen",
+      "Nachfolgeberatung"
+    ],
+    "source_url": "https://waldistax.ch/"
   },
   "walkerlaw.ch": {
     "canton": "ZH",
