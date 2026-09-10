@@ -630,6 +630,13 @@
       "firm_name": "Studio legale CP-DL Leone & Partners SA",
       "reason": "Page de verification anti-bot ('One moment, please...'), aucun contenu accessible (x2)"
     },
+    "daniel-kung-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Daniel Küng",
+      "reason": "Adresse CSV (Rorschacherstrasse 150) obsolete -- Daniel Küng exerce desormais chez Anwaltskanzlei Sankt Jakob a une autre adresse, continuite non confirmee pour l'entite CSV solo"
+    },
     "danielhochstrasser.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -978,6 +985,13 @@
       "firm_name": "Guery Legal",
       "reason": "Edith Guery apparait comme membre de l'etude ADROIT attorneys-at-law, aucune marque independante 'Guery Legal' confirmee"
     },
+    "gunnercooke-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "gunnercooke GmbH",
+      "reason": "Adresse d'enregistrement confirmee (Buchs SG) mais aucun contact specifique a ce bureau trouve sur le site officiel (uniquement bureaux DE/AT/ZH listes)"
+    },
     "haferland-legal-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1130,6 +1144,13 @@
       "firm_name": "Studio legale avv. Jonathan Moor",
       "reason": "Identite incertaine : semble rattache a 'Poma-Moor Studio legale e notarile' (meme adresse Corso Elvezia 27, Lugano) mais aucun site officiel propre trouve, continuite non confirmee (regle 5)"
     },
+    "joseph-koch-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Joseph B. Koch",
+      "reason": "Aucun site officiel identifie, uniquement des resultats non pertinents"
+    },
     "jud-sg": {
       "_failed": true,
       "canton": "SG",
@@ -1210,6 +1231,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "KANZLEI KREIS 2 AG",
       "reason": "aucun fait extractible — description générique sans liste de domaines ni année de fondation"
+    },
+    "kaygisiz-law-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "KAYGISIZ-LAW",
+      "reason": "HTTP 503 Service Unavailable (x2) sur kaygisiz-law.ch"
     },
     "kb-lawyers.ch": {
       "_failed": true,
@@ -1292,6 +1320,13 @@
       "firm_name": "Küng Rechtsanwälte & Notare AG",
       "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)"
     },
+    "kuhne-anwaltsburo-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Kühne Anwaltsbüro",
+      "reason": "piege d'identite evite -- adresse CSV (Bauernweid 6, Flawil) ne correspond pas a l'adresse trouvee pour Raphael Kühne (Marktgasse 20, St. Gallen)"
+    },
     "kuprecht-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1304,6 +1339,13 @@
       "firm_name": "Landmann & Partner AG",
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
+    },
+    "lang-business-law-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "lang business law ag",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee"
     },
     "legal-partners-jona-sg": {
       "_failed": true,
@@ -1386,6 +1428,13 @@
       "firm_name": "Anwaltsbüro Locarnini",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "locher-rene-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Locher",
+      "reason": "piege d'identite evite -- le membre CSV est 'Locher René' (Marktgasse 7, Rapperswil), tous les resultats trouves concernent 'Dr. Walter Locher' (personne differente, autre adresse)"
+    },
     "lorez-advokatur-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1458,6 +1507,13 @@
       "firm_name": "Kaufmann Brühwiler & Partner",
       "reason": "page de verification anti-bot ('One moment, please...'), aucun contenu accessible",
       "tested_date": "2026-09-07"
+    },
+    "marotta-von-gunten-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "RA lic.iur. Carmen Marotta-von Gunten",
+      "reason": "piege d'identite evite -- adresse CSV (Moosstrasse 20) ne correspond pas a l'adresse trouvee chez OBT AG (Rorschacher Strasse 63)"
     },
     "mathe-partner-zh": {
       "_failed": true,
@@ -3036,6 +3092,14 @@
     ],
     "source_url": "https://www.advokatur-hubatka.ch/"
   },
+  "advokatur-kuenzler.ch": {
+    "canton": "SG",
+    "email": "ikuenzler@advokatur-kuenzler.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur I. Künzler St.Gallen",
+    "phone": "+41 71 220 34 76",
+    "source_url": "https://www.advokatur-kuenzler.ch/"
+  },
   "advokatur-lachen.ch": {
     "canton": "SZ",
     "fetched_date": "2026-07-28",
@@ -3509,6 +3573,24 @@
     ],
     "source_url": "https://advokramer.ch/"
   },
+  "advolippuner.ch": {
+    "canton": "SG",
+    "email": "lippuner@advolippuner.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Lippuner",
+    "founding_year": 1985,
+    "phone": "+41 71 230 30 50",
+    "practice_areas_de": [
+      "Forderungsinkasso",
+      "Gesellschaftsrecht",
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Erbrecht",
+      "Compliance",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.advolippuner.ch/"
+  },
   "advomed.ch": {
     "canton": "ZH",
     "email": "info@advomed.ch",
@@ -3589,6 +3671,14 @@
       "Notariatsdienste"
     ],
     "source_url": "https://www.advoro.ch/en"
+  },
+  "advoro.ch#SG": {
+    "canton": "SG",
+    "email": "info@advoro.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advoro Zürich AG (Standort St. Gallen)",
+    "phone": "+41 71 277 65 65",
+    "source_url": "https://www.advoro.ch/en/team"
   },
   "advoweggishaus.ch": {
     "canton": "LU",
@@ -4041,6 +4131,16 @@
     "firm_name": "Gmür Galbier Nüesch\nRechtsanwälte & Notare",
     "phone": "071 911 38 21",
     "source_url": "https://www.anwaelte-wil.ch/kontakt",
+    "team_size_n": 4
+  },
+  "anwaelte-wil.ch#2": {
+    "canton": "SG",
+    "email": "info@anwaelte-wil.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Marty Gmür Galbier Rechtsanwälte",
+    "founding_year": 1978,
+    "phone": "071 911 38 21",
+    "source_url": "https://www.anwaelte-wil.ch/",
     "team_size_n": 4
   },
   "anwaelte44.ch": {
@@ -9044,6 +9144,27 @@
     "phone": "+41 71 292 30 00",
     "source_url": "https://gysipartner.ch/de/kontakt"
   },
+  "gysipartner.ch#2": {
+    "canton": "SG",
+    "email": "office@gysipartner.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Gysi & Partner",
+    "founding_year": 2002,
+    "phone": "+41 71 292 30 00",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Vertragsrecht",
+      "Aktienrecht",
+      "M&A",
+      "Baurecht",
+      "Gesellschaftsrecht",
+      "Prozessrecht",
+      "Schiedsrecht",
+      "Datenschutzrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://gysipartner.ch/de/team"
+  },
   "h-law.ch": {
     "canton": "SG",
     "email": "hutter@h-law.ch",
@@ -9103,6 +9224,14 @@
     "firm_name": "Haefelin Law",
     "phone": "+41 44 260 25 45",
     "source_url": "https://www.haefelinlaw.ch/"
+  },
+  "haenzikoch.ch": {
+    "canton": "SG",
+    "email": "info@haenzikoch.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Hänzi & Koch",
+    "phone": "+41 71 282 10 60",
+    "source_url": "http://www.haenzikoch.ch/"
   },
   "hak.ch": {
     "canton": "ZH",
@@ -9704,6 +9833,14 @@
       "internationales Privatrecht"
     ],
     "source_url": "https://www.interlaw.ch/"
+  },
+  "international-commercial-law.eu": {
+    "canton": "SG",
+    "email": "info@international-commercial-law.eu",
+    "fetched_date": "2026-09-10",
+    "firm_name": "RA Carl Ulrich Mayer, Advokaturbüro Wirtschaftsberatung",
+    "phone": "+41 76 341 50 03",
+    "source_url": "https://www.international-commercial-law.eu/kontakt/"
   },
   "ioli-law.ch": {
     "canton": "ZH",
@@ -11113,6 +11250,22 @@
     "source_url": "https://www.lauxlawyers.ch/en/law-firm/",
     "team_size_n": null
   },
+  "law-msp.ch#SG": {
+    "canton": "SG",
+    "email": "uznach@law-msp.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Müller, Streiff & Partner AG",
+    "phone": "055 285 91 91",
+    "source_url": "https://law-msp.ch/rechtsanwaelte-urkundspersonen/"
+  },
+  "law-msp.ch#SG2": {
+    "canton": "SG",
+    "email": "uznach@law-msp.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Müller, Streiff + Partner AG",
+    "phone": "055 285 91 91",
+    "source_url": "https://law-msp.ch/rechtsanwaelte-urkundspersonen/"
+  },
   "lawbird.ch": {
     "canton": "ZH",
     "email": "rechtsberatung@lawbird.ch",
@@ -12251,6 +12404,23 @@
     "email": "info@mb-ra.ch",
     "fetched_date": "2026-09-10",
     "firm_name": "Mäder & Barmettler Rechtsanwälte & Notare",
+    "founding_year": 1981,
+    "phone": "+41 71 388 18 88",
+    "practice_areas_de": [
+      "Handels- und Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Ehe- und Erbrecht sowie Vorsorgeplanung",
+      "Privates und öffentliches Baurecht",
+      "Miet- und Immobilienrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.mb-ra.ch/de/kanzlei"
+  },
+  "mb-ra.ch#2": {
+    "canton": "SG",
+    "email": "info@mb-ra.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Stadelmann & Barmettler    Rechtsanwälte & Notare",
     "founding_year": 1981,
     "phone": "+41 71 388 18 88",
     "practice_areas_de": [
@@ -13691,6 +13861,19 @@
     "specialist_certification": "Fachanwältin SAV Strafrecht (Dina Raewel, seit 2001 zugelassen)",
     "team_size_n": 3
   },
+  "rakolb.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "KANZLEI KOLB / NOTARIAT KOLB",
+    "phone": "+41 71 720 07 70",
+    "practice_areas_de": [
+      "Vertragsabschluss",
+      "Investitionen",
+      "Eheschliessung",
+      "Firmengründung"
+    ],
+    "source_url": "https://www.rakolb.ch/"
+  },
   "ramelet.legal": {
     "canton": "ZH",
     "email": "nr@ramelet.legal",
@@ -14618,6 +14801,13 @@
     "firm_name": "SABETI LEGAL",
     "phone": "+41 79 627 68 85",
     "source_url": "https://sabeti-legal.ch/"
+  },
+  "sanktjakob.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "SJ Rechtsanwälte GmbH",
+    "phone": "+41 71 245 01 07",
+    "source_url": "https://www.sanktjakob.ch/index.php/kontakt"
   },
   "sartorial.ch": {
     "canton": "SG",
@@ -16628,6 +16818,13 @@
     "canton": "SG",
     "fetched_date": "2026-09-09",
     "firm_name": "Vincenz Dornier",
+    "source_url": "https://www.vincenz-dornier.ch/kontakt",
+    "team_size_n": 3
+  },
+  "vincenz-dornier.ch#2": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Vincenz I Dornier",
     "source_url": "https://www.vincenz-dornier.ch/kontakt",
     "team_size_n": 3
   },

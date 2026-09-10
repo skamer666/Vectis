@@ -3674,3 +3674,29 @@ adresse CSV ne correspond pas à celle trouvée chez OBT AG) ; Jenni Rechtsanwal
 d'identité évité** -- a rejoint un autre cabinet à une autre adresse).
 
 Rattachement : 903 études rattachées au total (891 → 903, +12). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 13h05 UTC — Phase 3, lot 101 (exécution automatisée)
+
+Poursuite du canton SG. 21 fiches CSV traitées (13 succès / 8 échecs).
+
+Succès : Advoro Zürich AG Standort St-Gall (bureau spécifique, tel/email) ; Anwaltsbüro Hänzi &
+Koch (tel/email) ; KANZLEI KOLB / NOTARIAT KOLB (tel, 4 domaines DE) ; Müller, Streiff & Partner
+AG + Müller, Streiff + Partner AG (bureau d'Uznach, tel/email) ; Advokatur I. Künzler St.Gallen
+(tel/email) ; Gysi & Partner (dédoublonnage avec `gysipartner.ch` déjà vérifié -- **fondée
+2002**, 10 domaines DE) ; Advokaturbüro Lippuner (**fondée 1985**, tel/email, 7 domaines DE) ;
+Marty Gmür Galbier Rechtsanwälte (dédoublonnage avec `anwaelte-wil.ch` déjà vérifié -- **fondée
+1978**, **4 avocats**) ; RA Carl Ulrich Mayer (tel/email) ; Stadelmann & Barmettler
+Rechtsanwälte & Notare (dédoublonnage avec `mb-ra.ch` déjà vérifié) ; Vincenz I Dornier
+(dédoublonnage avec `vincenz-dornier.ch` déjà vérifié -- **3 avocates**) ; SJ Rechtsanwälte
+GmbH (Eugen Koller, tel).
+
+Échecs : KAYGISIZ-LAW (HTTP 503 x2) ; Advokaturbüro Joseph B. Koch, lang business law ag
+(aucune entité identifiée) ; Kühne Anwaltsbüro (**piège d'identité évité** -- adresse CSV à
+Flawil ne correspond pas à celle trouvée à St-Gall) ; Anwaltskanzlei Daniel Küng (adresse CSV
+obsolète, a rejoint un autre cabinet) ; gunnercooke GmbH (adresse confirmée mais aucun contact
+spécifique au bureau de Buchs) ; Anwaltskanzlei Locher (**piège d'identité évité** -- personne
+différente : René Locher du CSV vs Walter Locher trouvé) ; RA Carmen Marotta-von Gunten
+(**piège d'identité évité** -- adresse CSV ne correspond pas à celle trouvée chez OBT AG).
+
+Rattachement : 914 études rattachées au total (903 → 914, +11 affichées ; +13 écritures, 2
+ignorées par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.
