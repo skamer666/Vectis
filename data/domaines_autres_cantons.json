@@ -88,6 +88,13 @@
       "reason": "contenu vide, rendu JavaScript probable",
       "tested_date": "2026-07-28"
     },
+    "advohub.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Hubschmid",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
     "advoka-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -243,6 +250,20 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokaturbüro Aschwanden",
       "reason": "HTTP 503 Service Unavailable"
+    },
+    "ati-zh.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Teuta Imeraj",
+      "reason": "HTTP 503 Service Unavailable"
+    },
+    "avenras-legal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Avenras Legal GmbH",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "b-law.ch": {
       "_failed": true,
@@ -440,6 +461,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltsbüro Dr. A. Coradi",
       "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
+    },
+    "danielhochstrasser.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Daniel Hochstrasser AG",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "de-beer-zh": {
       "_failed": true,
@@ -740,12 +768,33 @@
       "firm_name": "Herenda Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "herz-recht.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltsbüro Herz",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "hofmannlaw.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Hofmann Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "hosekbryner.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Höngg",
+      "reason": "HTTP 403 Forbidden"
+    },
+    "huplaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "HAFNER & HOCHSTRASSER AG",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "idclegal.com": {
       "_failed": true,
@@ -807,6 +856,13 @@
       "firm_name": "Kanzlei Helvetiaplatz",
       "raison": "rendu JavaScript (Readymag), page vide"
     },
+    "kanzlei-hirzel.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Hirzel",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "kanzlei-im-bahnhof-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -819,6 +875,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Kanzlei im Turm AG",
       "raison": "rendu JavaScript (Webflow), page vide"
+    },
+    "kanzlei-imhof.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Imhof",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "kanzleiheld.ch": {
       "_failed": true,
@@ -846,6 +909,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "kern law",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "keypers-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "KEYPERS GmbH",
+      "reason": "Identite incertaine : semble etre un reseau international (Suisse/Liechtenstein/Allemagne) sans correspondance claire et unique a une entite zurichoise (regle 5)"
     },
     "kieser-senn-partner-zh": {
       "_failed": true,
@@ -996,6 +1066,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Mathé & Partner",
       "reason": "Aucun site officiel trouve, seul le registre du commerce"
+    },
+    "mattlihew.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Mattli & Hew",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "maybud-kessler.ch": {
       "_failed": true,
@@ -3218,6 +3295,22 @@
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Christoph Pfister), Fachanwalt SAV Erbrecht (Christoph Pfister)",
     "team_size_n": 2
   },
+  "anwalt-wald.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Honegger",
+    "phone": "+41 55 246 31 50",
+    "practice_areas_de": [
+      "Ehe- und Erbrecht",
+      "Sachenrecht (Grundstücke, Grundbuch und Beurkundung)",
+      "Ehe-, Konkubinats- und Familienrecht",
+      "Mietrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.anwalt-wald.ch/",
+    "team_size_n": 2
+  },
   "anwalt-zh.ch": {
     "canton": "ZH",
     "email": "info@anwalt-zh.ch",
@@ -3361,6 +3454,15 @@
     "firm_name": "HAUSER PARTNERS Anwaltskanzlei / Law Firm",
     "phone": "+41 43 233 7072",
     "source_url": "https://www.anwaltskanzlei-hauser.ch/en/contact/"
+  },
+  "anwaltskanzlei-imthurn.ch": {
+    "canton": "ZH",
+    "email": "info@ra-imthurn.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Imthurn",
+    "phone": "+41 52 202 54 90",
+    "source_url": "https://anwaltskanzlei-imthurn.ch/kontakt/",
+    "team_size_n": 1
   },
   "anwaltskanzlei-in-zuerich.ch": {
     "canton": "ZH",
@@ -8245,6 +8347,15 @@
     "source_url": "https://holbeinstrasse.ch/de/home",
     "team_size_n": 3
   },
+  "hollenstein-leibacher.ch": {
+    "canton": "ZH",
+    "email": "info@hollenstein-leibacher.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Hollenstein Leibacher Anwaltskanzlei & Mediation GmbH",
+    "founding_year": 2022,
+    "phone": "+41 78 232 10 11",
+    "source_url": "https://www.hollenstein-leibacher.ch/ueber-mich"
+  },
   "hollinger.law": {
     "canton": "ZH",
     "email": "info@hollinger.law",
@@ -8289,6 +8400,16 @@
     ],
     "source_url": "https://www.horak-law.ch/de",
     "team_size_n": 2
+  },
+  "houlmann-law.ch": {
+    "canton": "ZH",
+    "email": "houlmann@houlmann-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Houlmann Anwalts- und Mediationskanzlei",
+    "phone": "+41 44 400 21 18",
+    "source_url": "https://www.houlmann-law.ch/kontakt",
+    "specialist_certification": "Fachanwältin SAV Familienrecht",
+    "team_size_n": 1
   },
   "hra.ch": {
     "canton": "ZH",
@@ -8457,6 +8578,21 @@
       "internationales Privatrecht"
     ],
     "source_url": "https://www.interlaw.ch/"
+  },
+  "ioli-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ioli Law",
+    "phone": "044 240 48 88",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Betreibungs- und Konkursrecht, Inkasso",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.ioli-law.ch/",
+    "team_size_n": 1
   },
   "ip-lawoffice.com": {
     "canton": "TI",
@@ -8655,6 +8791,14 @@
     ],
     "source_url": "https://jakob-marsella.ch/en/",
     "team_size_n": 2
+  },
+  "jau-tax.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@jau-tax.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Steuerkanzlei Jau AG",
+    "phone": "+41 44 240 03 55",
+    "source_url": "https://www.jau-tax.ch/de/kontakt/adresse"
   },
   "jb-anwaelte.ch": {
     "canton": "SG",
@@ -9729,6 +9873,15 @@
     "practice_areas_fr": [],
     "source_url": "https://www.lauxlawyers.ch/en/law-firm/",
     "team_size_n": null
+  },
+  "lawbird.ch": {
+    "canton": "ZH",
+    "email": "rechtsberatung@lawbird.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "lawbird.ch",
+    "phone": "043 542 02 70",
+    "source_url": "https://www.lawbird.ch/d6/de/kontakt.html",
+    "team_size_n": 1
   },
   "lawdvice.ch": {
     "canton": "ZH",
@@ -10898,6 +11051,15 @@
       "Strafrecht"
     ],
     "source_url": "https://mfpartner.ch/"
+  },
+  "mh-law.ch": {
+    "canton": "ZH",
+    "email": "info@mh-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Max & Hönig Rechtsberatung",
+    "phone": "+41 43 534 40 82",
+    "source_url": "https://www.mh-law.ch/anwalt-team",
+    "team_size_n": 1
   },
   "michligknutti.ch": {
     "canton": "ZH",
@@ -12232,6 +12394,20 @@
     "firm_name": "Schenkel & Serrago AG",
     "phone": "+41 (0)41 419 70 80",
     "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
+  },
+  "rechtsanwalthoffmann.ch": {
+    "canton": "ZH",
+    "email": "daniel.hoffmann@rechtsanwalthoffmann.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rechtsanwaltsbüro Daniel Hoffmann",
+    "phone": "+41 44 558 96 46",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Ausländerrecht",
+      "Asylrecht"
+    ],
+    "source_url": "https://rechtsanwalthoffmann.ch/",
+    "team_size_n": 1
   },
   "rechtskraft.ch": {
     "canton": "ZH",

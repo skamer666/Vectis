@@ -3460,3 +3460,24 @@ d'identité évité** -- confusion entre Grütter Rechtsanwälte AG à Soleure e
 
 Rattachement : 824 études rattachées au total (811 → 824, +13). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 04h02 UTC — Phase 3, lot 92 (exécution automatisée)
+
+20 cabinets traités (9 succès / 11 échecs), poursuite du balayage alphabétique ZH (lettres
+H-J).
+
+Succès : Rechtsanwaltsbüro Daniel Hoffmann (tel/email, 3 domaines DE) ; Hollenstein Leibacher
+Anwaltskanzlei & Mediation GmbH (Winterthour, fondée **2022**, tel/email) ; Anwaltskanzlei
+Honegger (Wald ZH, 2 avocats, tel, 6 domaines DE) ; Max & Hönig Rechtsberatung (tel/email) ;
+Houlmann Anwalts- und Mediationskanzlei (tel/email, titre **Fachanwältin SAV Familienrecht**) ;
+Anwaltskanzlei Imthurn (Winterthour, tel/email) ; ioli Law (tel, 5 domaines DE) ; lawbird.ch
+(tel/email) ; Steuerkanzlei Jau AG (tel/email).
+
+Échecs : Anwaltsbüro Herz, Anwaltskanzlei Hirzel, HAFNER & HOCHSTRASSER AG, Anwaltskanzlei
+Teuta Imeraj (HTTP 503 ×4) ; Mattli & Hew, Avenras Legal GmbH, Daniel Hochstrasser AG,
+Advokatur Hubschmid, Anwaltskanzlei Imhof (vérification anti-bot ×5) ; Anwaltskanzlei Höngg
+(HTTP 403) ; KEYPERS GmbH (**piège d'identité évité** -- réseau international sans
+correspondance claire à une entité zurichoise unique).
+
+Rattachement : 833 études rattachées au total (824 → 833, +9). Suite de tests : 94/94 au
+vert.
