@@ -123,6 +123,13 @@
       "firm_name": "Advokatur Blumenthal",
       "reason": "Piege d'identite : le seul 'Blumenthal Advokatur' trouve (adv-blumenthal.ch) est base a Furstenau (GR), pas a Zurich ; continuite non confirmee (regle 5)"
     },
+    "advokatur-knutti.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Stephanie Knutti",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
     "advokatur-mediation-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -150,6 +157,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur & Rechtsberatung TRIAS AG",
       "reason": "Cabinet multi-cantonal (Bale, Argovie, Zoug, Berne, Lucerne, Zurich) -- le seul contact confirme sur le site est l'antenne de Bale, pas celle de Pratteln/BL specifiquement -- donnees canton-specifiques indisponibles (regle 4 etendue, cf. precedent ARNOLD LEGAL AG)"
+    },
+    "advokaturamstampfenbach.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur am Stampfenbach",
+      "reason": "Domaine inaccessible (timeout DNS)"
     },
     "advokaturbarmet.ch": {
       "_failed": true,
@@ -454,6 +468,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio legale e notarile Cereghetti",
       "reason": "Identite ambigue -- au moins deux etudes distinctes portant le nom Cereghetti au Tessin (Katia Cereghetti Soldini a Chiasso, et Claudio Cereghetti & Partner), rattachement au bon site non confirme"
+    },
+    "christen-kletzhaendler-gerber-schroeder-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Christen Kletzhändler Gerber Schroeder",
+      "reason": "Aucun site officiel trouve, uniquement une fiche de registre commercial sans confirmation qu'il s'agit d'un cabinet d'avocats"
     },
     "coradi-zh": {
       "_failed": true,
@@ -829,6 +850,13 @@
       "reason": "HTTP 403 Forbidden sur la page de contact",
       "tested_date": "2026-09-08"
     },
+    "joergerlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Jörger Law GmbH",
+      "reason": "HTTP 403 Forbidden"
+    },
     "jonathan-moor-ti": {
       "_failed": true,
       "canton": "TI",
@@ -950,6 +978,20 @@
       "firm_name": "Kohler Law GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "kohlilaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Kohli",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "kolblaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "KOLB International Tax Services",
+      "reason": "Cabinet multi-cantonal (Berne, Zurich) -- aucune coordonnee specifique au bureau de Zurich confirmee sur le site (regle 4 etendue)"
+    },
     "kruse-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -976,6 +1018,13 @@
       "firm_name": "LegalOne AG",
       "reason": "Domaine legalone.ch injoignable (echec DNS) ; aucun autre site officiel trouve"
     },
+    "legalsolutions.law": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Jung Legal Solutions",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "lengyel.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -995,6 +1044,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale Lenzin & Partner",
       "reason": "Cabinet rebaptise 'Lenzin Bordoni & Partner' (lenzin.legal) -- site HTTP 503, continuite non confirmee sur site propre (regle 5)"
+    },
+    "leustein.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Leustein Rechtsanwälte GmbH",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "lexarte.ch": {
       "canton": "ZH",
@@ -1697,6 +1753,13 @@
       "firm_name": "Uto Legal",
       "reason": "aucun fait extractible — description de secteurs clients (Medien, Tech, IT) sans liste de domaines juridiques ni année de fondation"
     },
+    "valmon-law-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Valmon Law",
+      "reason": "Aucun site officiel ni mention trouves"
+    },
     "velo-associati-ti": {
       "_failed": true,
       "canton": "TI",
@@ -1830,6 +1893,13 @@
       "firm_name": "Wiesli Rechtsanwälte",
       "reason": "domaine ww-law.ch ne resout pas (DNS ENOTFOUND)",
       "tested_date": "2026-09-07"
+    },
+    "yvette-kovacs-rechtsanwaeltin.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Dr. Y. Kovacs",
+      "reason": "HTTP 403 Forbidden"
     },
     "zgraggen-ulrich-lu": {
       "_failed": true,
@@ -2953,6 +3023,20 @@
     "source_url": "https://ah4.law/en/contact",
     "team_size_n": null
   },
+  "aku-law.ch": {
+    "canton": "ZH",
+    "email": "aline.kratz@aku-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Kratz-Ulmer",
+    "phone": "044 286 50 16",
+    "practice_areas_de": [
+      "Anlagestiftungen",
+      "Pensionskassen",
+      "Vereine und klassische Stiftungen"
+    ],
+    "source_url": "https://www.aku-law.ch/",
+    "team_size_n": 1
+  },
   "albrecht-riedo.ch": {
     "canton": "BL",
     "email": "info@albrecht-riedo.ch",
@@ -3471,6 +3555,22 @@
     "phone": "044 362 09 24",
     "source_url": "https://www.anwaltskanzlei-in-zuerich.ch/",
     "team_size_n": 1
+  },
+  "anwaltskanzlei-keller.ch": {
+    "canton": "ZH",
+    "email": "contact@anwaltskanzlei-keller.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Keller AG",
+    "phone": "+41 (0)44 201 33 55",
+    "practice_areas_de": [
+      "Generalversammlungen",
+      "Verwaltungsratsmandate",
+      "Sachwaltermandate",
+      "Stiftungen & Vereine",
+      "Zivilrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.anwaltskanzlei-keller.ch/kontakt"
   },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
@@ -6531,6 +6631,25 @@
     "source_url": "https://ehlertzillig.ch/",
     "team_size_n": 2
   },
+  "elvirakessler.ch": {
+    "canton": "ZH",
+    "email": "anwaltskanzlei@elvirakessler.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Elvira Kessler GmbH",
+    "founding_year": 2024,
+    "phone": "+41 76 715 53 35",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Persönlichkeits- und Kommunikationsrecht",
+      "Erbrecht",
+      "Wirtschaftsstrafrecht",
+      "Migrationsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.elvirakessler.ch/",
+    "team_size_n": 1
+  },
   "emmlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -8020,6 +8139,13 @@
     "phone": "+41 44 260 25 45",
     "source_url": "https://www.haefelinlaw.ch/"
   },
+  "hak.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HAK Rechtsanwälte",
+    "phone": "044 241 70 00",
+    "source_url": "https://www.hak.ch/de/kontakt.html"
+  },
   "hanhart-anwalt.ch": {
     "canton": "ZH",
     "email": "info@hanhart-anwalt.ch",
@@ -8889,6 +9015,33 @@
     "phone": "+41 79 418 90 62",
     "source_url": "https://jls-avocats.ch/"
   },
+  "jovovic.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@jovovic.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Jovovic",
+    "founding_year": 2014,
+    "phone": "+41 79 966 5000",
+    "practice_areas_de": [
+      "Scheidungsrecht",
+      "Eherecht",
+      "Kindesrecht",
+      "Ausländerrecht",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.jovovic.ch/",
+    "team_size_n": 1
+  },
+  "jucker.attorney": {
+    "canton": "ZH",
+    "email": "kanzlei@jucker.attorney",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Jucker",
+    "phone": "+41 44 420 00 40",
+    "source_url": "https://jucker.attorney/html/kontakt.html"
+  },
   "judithnaef.ch": {
     "canton": "ZH",
     "email": "info@judithnaef.ch",
@@ -8968,6 +9121,13 @@
     "firm_name": "Kämpfen Rechtsanwälte",
     "phone": "+41 44 202 50 22",
     "source_url": "https://www.kaempfenlegal.ch/de"
+  },
+  "kaiser-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Kaiser",
+    "phone": "+41 44 250 42 80",
+    "source_url": "https://www.kaiser-rechtsanwalt.ch/kontakt-rolf-kaiser"
   },
   "kaiserodermatt.ch": {
     "canton": "ZH",
@@ -9250,6 +9410,20 @@
     "source_url": "https://khm-partners.ch/?lang=en",
     "team_size_n": 5
   },
+  "kikinis.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kikinis Anwaltskanzlei",
+    "practice_areas_de": [
+      "Datenschutz- und Persönlichkeitsrecht",
+      "Handelsrecht",
+      "Technologie-, Medien- und Telekommunikationsrecht",
+      "Wettbewerbsrecht",
+      "Vertragsrecht",
+      "Verfahrensrecht"
+    ],
+    "source_url": "https://kikinis.ch/"
+  },
   "killiaslegler.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -9267,6 +9441,15 @@
     ],
     "source_url": "https://killiaslegler.ch/",
     "team_size_n": 2
+  },
+  "kipfer-anwalt.ch": {
+    "canton": "ZH",
+    "email": "info@kipfer-anwalt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kipfer Anwaltskanzlei",
+    "phone": "+41 (0)44 512 17 30",
+    "source_url": "https://kipfer-anwalt.ch/",
+    "team_size_n": 1
   },
   "kipferhuber.ch": {
     "canton": "BL",

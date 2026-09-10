@@ -3481,3 +3481,25 @@ correspondance claire à une entité zurichoise unique).
 
 Rattachement : 833 études rattachées au total (824 → 833, +9). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 05h03 UTC — Phase 3, lot 93 (exécution automatisée)
+
+19 cabinets traités (9 succès / 10 échecs), poursuite du balayage alphabétique ZH (lettres
+J-K).
+
+Succès : Anwaltskanzlei Jovovic (fondée **2014**, tel/email, 7 domaines DE) ; Anwaltskanzlei
+Jucker (tel/email) ; Anwaltskanzlei Kaiser (tel) ; HAK Rechtsanwälte (antenne ZH distincte des
+bureaux Dietikon/St-Gall, tel) ; Anwaltskanzlei Keller AG (tel/email, 6 domaines DE) ;
+Anwaltskanzlei Elvira Kessler GmbH (fondée **2024**, tel/email, 7 domaines DE) ; Kipfer
+Anwaltskanzlei (tel/email) ; Anwaltsbüro Kratz-Ulmer (tel/email, 3 domaines DE, prévoyance
+professionnelle) ; Kikinis Anwaltskanzlei (6 domaines DE, propriété intellectuelle).
+
+Échecs : Jörger Law GmbH, Advokaturbüro Dr. Y. Kovacs (HTTP 403 ×2) ; Jung Legal Solutions,
+Leustein Rechtsanwälte GmbH (HTTP 503 ×2) ; Advokatur Stephanie Knutti, Anwaltskanzlei Kohli
+(vérification anti-bot ×2) ; KOLB International Tax Services (**cabinet multi-cantonal écarté**
+-- aucune coordonnée zurichoise confirmée sur le site, seul le bureau de Berne apparaît) ;
+Advokatur am Stampfenbach (timeout DNS) ; Christen Kletzhändler Gerber Schroeder (aucun site
+officiel, statut de cabinet d'avocats non confirmé) ; Valmon Law (aucune trace trouvée).
+
+Rattachement : 842 études rattachées au total (833 → 842, +9). Suite de tests : 94/94 au
+vert.
