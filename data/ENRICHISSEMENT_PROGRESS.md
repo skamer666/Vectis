@@ -3525,3 +3525,24 @@ LEGAL" trouvée, nom différent, continuité non confirmée).
 
 Rattachement : 853 études rattachées au total (842 → 853, +11). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 07h04 UTC — Phase 3, lot 95 (exécution automatisée)
+
+19 cabinets traités (7 succès / 12 échecs), poursuite du balayage alphabétique ZH (lettres
+M-N).
+
+Succès : Advokatur an der Gotthardstrasse (tel/email, Strafrecht) ; Anwaltskanzlei Meyer
+(fondée **2024**, tel/email, 5 domaines DE) ; Advokatur Müller (tel/email, Haftpflicht- und
+Versicherungsrecht) ; ADEXAS Rechtsanwälte (tel/email, 13 domaines DE) ; Anwaltskanzlei Marion
+Morad (fondée **2008**, tel/email, 7 domaines DE) ; Velartis Anwaltskanzlei GmbH (tel/email, 3
+domaines DE) ; MMA Anwaltsbüro (fondée **2000**, tel/email, 11 domaines DE).
+
+Échecs : Mauerhofer Wirtschaftsstrafrecht & Verteidigung (aucun domaine actuel confirmé) ;
+Anwaltskanzlei Moor, Advokaturbüro Moser, Anwaltskanzlei Napierkowski GmbH, Advokatur Nawid
+GmbH, Advokaturbüro Marco Mona (HTTP 503) ; Anwaltspraxis E.R. Meier, Advokaturbüro Minini,
+Muellerlex (aucune correspondance trouvée) ; Kanzlei & Mediation Mettler (site en construction) ;
+Schmidt Eugster Rechtsanwälte (**cabinet dissous**, actif 2002-2023) ; arbeitsrechts-praxis
+(**piège d'identité évité** -- nom trop générique, identité non confirmée).
+
+Rattachement : 860 études rattachées au total (853 → 860, +7). Suite de tests : 94/94 au
+vert.

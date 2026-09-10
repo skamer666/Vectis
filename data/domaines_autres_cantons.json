@@ -237,6 +237,13 @@
       "reason": "HTTP 503 Service Unavailable sur deux tentatives (http et https)",
       "tested_date": "2026-09-07"
     },
+    "arbeitsrechts-praxis-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "arbeitsrechts-praxis",
+      "reason": "Nom trop generique, aucune correspondance unique et certaine trouvee (regle 5)"
+    },
     "arnold-legal.com": {
       "_failed": true,
       "canton": "ZH",
@@ -590,6 +597,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Dr. Katy Elmaliah, Attorneys",
       "reason": "Identite incertaine : le cabinet 'Elmaliah Ozery & Co.' semble base en Israel/Allemagne, lien avec un bureau zurichois non confirme sur site propre (regle 5)"
+    },
+    "er-meier-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltspraxis E.R. Meier",
+      "reason": "Aucun cabinet trouve sous ce nom exact"
     },
     "erni-grab-partner-lu": {
       "_failed": true,
@@ -1106,6 +1120,13 @@
       "firm_name": "LM Rechtsanwälte AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "lnlawyers.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Napierkowski GmbH",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "locarnini.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1166,6 +1187,13 @@
       "firm_name": "Anwaltskanzlei Mägerle",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "marcomona.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Marco Mona",
+      "reason": "HTTP 503 Service Unavailable"
+    },
     "marktgasse20.ch": {
       "canton": "SG",
       "firm_name": "Kaufmann Brühwiler & Partner",
@@ -1185,6 +1213,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Mattli & Hew",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "mauerhofer-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Mauerhofer Wirtschaftsstrafrecht & Verteidigung",
+      "reason": "Aucun domaine officiel actuel confirme (mentions d'un nouveau cabinet 'reason' non confirmees sur site propre)"
     },
     "maybud-kessler.ch": {
       "_failed": true,
@@ -1234,6 +1269,13 @@
       "firm_name": "Metin Legal",
       "reason": "HTTP 403 Forbidden"
     },
+    "mettler-mediation-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Kanzlei & Mediation Mettler",
+      "reason": "Site officiel (karinmettler.ch) en construction, aucun contenu exploitable"
+    },
     "mglegal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1241,12 +1283,33 @@
       "firm_name": "Anwaltskanzlei Dr. Martin Grossmann",
       "reason": "Domaine inaccessible (DNS ne resout pas)"
     },
+    "minini-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Minini",
+      "reason": "Aucun cabinet trouve sous ce nom"
+    },
     "mlegal-ag-zh": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-10",
       "firm_name": "MLEGAL AG",
       "reason": "Identite ambigue : les resultats melangent une entite MLEGAL AG basee a Ennenda (GL) et le grand cabinet MLL Legal a Zurich, sans correspondance certaine (regle 5)"
+    },
+    "moor-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Moor",
+      "reason": "HTTP 503 Service Unavailable"
+    },
+    "moserlaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Moser",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "mpsl.ch": {
       "_failed": true,
@@ -1261,6 +1324,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Maurer & Stäger AG",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "muellerlex-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Muellerlex",
+      "reason": "Aucun cabinet trouve sous ce nom exact"
     },
     "muellhaupt-partners.ch": {
       "_failed": true,
@@ -1287,6 +1357,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Nägeli Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2) ; identite egalement incertaine (site distinct de Bürgi Nägeli Rechtsanwälte deja rattache separement)"
+    },
+    "nawid-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Nawid GmbH",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "netzle.legal": {
       "_failed": true,
@@ -1552,6 +1629,13 @@
       "firm_name": "Schmid Rechtsanwälte",
       "reason": "Site accessible mais seule la page d'accueil (contenu generique) l'est, /en/contact et /team en 404, aucun fait exploitable",
       "tested_date": "2026-09-07"
+    },
+    "schmidt-eugster-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Schmidt Eugster Rechtsanwälte",
+      "reason": "Cabinet dissous (activite cessee, ancien partenariat 2002-2023)"
     },
     "schnyder-rechtsanwaelte-zh": {
       "_failed": true,
@@ -2150,6 +2234,29 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "adexas.com": {
+    "canton": "ZH",
+    "email": "info@adexas.com",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ADEXAS Rechtsanwälte",
+    "phone": "+41 58 400 88 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Compliance",
+      "Datenschutz",
+      "Familien- und Eherecht",
+      "Erbrecht",
+      "Finanzmarktrecht",
+      "Fintech und Blockchain",
+      "Mergers and Acquisitions",
+      "Gesellschafts- und Handelsrecht",
+      "Nachfolgeplanung für KMU",
+      "Sozialversicherungsrecht",
+      "Strafrecht und internationale Rechtshilfe",
+      "Steuer- und Treuhanddienstleistungen"
+    ],
+    "source_url": "https://adexas.com/"
+  },
   "admetam.ch": {
     "canton": "TI",
     "email": "legal@admetam.ch",
@@ -2217,6 +2324,18 @@
     "source_url": "https://www.advo-glavas.ch/",
     "team_size_n": 4
   },
+  "advo-gotthardstrasse.ch": {
+    "canton": "ZH",
+    "email": "info@advo-gotthardstrasse.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur an der Gotthardstrasse",
+    "phone": "+41 79 123 10 43",
+    "practice_areas_de": [
+      "Strafrecht"
+    ],
+    "source_url": "https://advo-gotthardstrasse.ch/kontakt/",
+    "team_size_n": 1
+  },
   "advo-libero.ch": {
     "canton": "ZH",
     "email": "kanzlei@advo-libero.ch",
@@ -2226,6 +2345,17 @@
     "phone": "+41 44 515 01 60",
     "source_url": "https://www.advo-libero.ch/wer",
     "team_size_n": 2
+  },
+  "advo-mueller.ch": {
+    "canton": "ZH",
+    "email": "info@advo-mueller.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Müller",
+    "phone": "044 768 58 48",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht"
+    ],
+    "source_url": "https://www.advo-mueller.ch/index.html"
   },
   "advo-net.ch": {
     "canton": "ZH",
@@ -3662,6 +3792,23 @@
       "Strafrecht"
     ],
     "source_url": "https://www.anwaltskanzlei-keller.ch/kontakt"
+  },
+  "anwaltskanzlei-meyer.ch": {
+    "canton": "ZH",
+    "email": "info@anwaltskanzlei-meyer.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Meyer",
+    "founding_year": 2024,
+    "phone": "+41 44 515 88 88",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.anwaltskanzlei-meyer.ch/",
+    "team_size_n": 1
   },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
@@ -11493,6 +11640,29 @@
     "source_url": "https://mll-legal.com/?lang=en",
     "team_size_n": null
   },
+  "mma-anwaltsbuero.ch": {
+    "canton": "ZH",
+    "email": "mma.anwaltsbuero@bluewin.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "MMA Anwaltsbüro",
+    "founding_year": 2000,
+    "phone": "044 937 50 61",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Kindesrecht",
+      "Erbrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Sozialversicherungsrecht",
+      "Prozessführung und Vollstreckung"
+    ],
+    "source_url": "https://www.mma-anwaltsbuero.ch/",
+    "team_size_n": 1
+  },
   "mme.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -11563,6 +11733,25 @@
       "Öffentliches Baurecht"
     ],
     "source_url": "https://monferrini.law/kanzlei/"
+  },
+  "morad-law.ch": {
+    "canton": "ZH",
+    "email": "morad@morad-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Marion Morad",
+    "founding_year": 2008,
+    "phone": "043 443 02 43",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Vertriebsrecht/Franchising",
+      "Wettbewerbsrecht",
+      "Compliance",
+      "Konfliktlösung und Mediation"
+    ],
+    "source_url": "https://morad-law.ch/",
+    "team_size_n": 1
   },
   "moser-advokatur.ch": {
     "canton": "ZH",
@@ -15383,6 +15572,19 @@
     "practice_areas_fr": [],
     "source_url": "https://valloni.ch/about-us/",
     "team_size_n": null
+  },
+  "velartis.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@velartis.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Velartis Anwaltskanzlei GmbH",
+    "phone": "+41 44 533 43 43",
+    "practice_areas_de": [
+      "Mietrecht",
+      "Erbrecht",
+      "Weiteres Zivilrecht"
+    ],
+    "source_url": "https://www.velartis.ch/Fachgebiete.htm"
   },
   "verda-law.ch": {
     "canton": "TI",
