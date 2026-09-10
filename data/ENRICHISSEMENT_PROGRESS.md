@@ -3941,3 +3941,29 @@ non confirmables, le site ne montre que Zurich).
 
 Rattachement : 1040 études rattachées au total (1027 → 1040, +13). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 23h02 UTC — Phase 3, lot 111 (exécution automatisée)
+
+Poursuite du canton GR. 30 fiches CSV traitées (16 succès / 14 échecs).
+
+Succès : Allenspach Advokatur (**Claudio Allenspach confirmé** -- même adresse que le piège
+d'identité évité au lot 110 concernant Reto Allenspach, mais ici le bon prénom correspond, tel/
+domaines) ; Christian Bärlocher Rechtsanwalt (tel, compliance) ; Büro Bonorand (tel/email,
+indépendant depuis 1988) ; Advokaturbüro Remo Cahenzli (tel/email, 6 domaines) ; Domenig Legal
+GmbH (tel/email) ; Ettisberger & Partner (10 domaines) ; Advokaturbüro Werner Jörger (tel/email,
+mediation SAV) ; trennungsanliegen -- Manuela Mathis (tel/email, conseil en séparation) ;
+Advokaturbüro Mazzetta (tel/email) ; DRSP Law (**fondée 1957**, ligne directe de Nicolas
+Walker) ; Zinsli Advokatur und Notariat (**fondée 2020**, tel/email, 4 domaines) ; wadavos
+Advokatur & Notariat (email) ; Caviezel Thöny Cantieni Scarpatetti (dédoublonnage, Andrea
+Cantieni) ; Brändli Rechtsanwälte AG (dédoublonnage, Sina Schmid) ; Mattli & Hew (2 variantes
+CSV, **fondée 1952**, tel/email, 8 domaines -- recherché au lot 110 mais omis par erreur de
+l'écriture finale, rattrapé ici).
+
+Échecs : Marco Biancotti, Peder Cathomen, Peter Diener, Tanja Heller, Nathan Kaiser, Eveline
+Saupper, Rudolf Viletta (aucun site officiel propre) ; Cavigelli Beratung (Mario Cavigelli
+désormais actif en politique) ; Eugster Advokatur (semble avoir rejoint Thomet Partner, adresse
+obsolète) ; Kohlik (relocalisation vers Plazza da Scoula) ; Barth & Partner, Thomas Meile, Nuot
+Saratz (sites injoignables DNS x2 chacun) ; Rainer Metzger (site injoignable HTTP 503/403 x2).
+
+Rattachement : 1056 études rattachées au total (1040 → 1056, +16). Suite de tests : 94/94 au
+vert.

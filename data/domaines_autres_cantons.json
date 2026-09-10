@@ -18,6 +18,22 @@
     "source_url": "https://5gambit.ch/contact/",
     "team_size_n": null
   },
+  "7130law.ch": {
+    "canton": "GR",
+    "email": "remo.cahenzli@bluewin.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Remo Cahenzli",
+    "phone": "+41 81 936 07 75",
+    "practice_areas_de": [
+      "Baurecht",
+      "Immobilienrecht",
+      "Gesellschaftsrecht",
+      "Erbrecht",
+      "Öffentliches Recht",
+      "Gemeinderecht"
+    ],
+    "source_url": "https://www.7130law.ch/"
+  },
   "8630.ch": {
     "canton": "ZH",
     "email": "info@8630.ch",
@@ -472,6 +488,13 @@
       "firm_name": "bartels rechtsanwalt",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "barth-partner-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Barth & Partner Advokatur AG",
+      "reason": "site inaccessible (DNS injoignable, www et non-www, 2 tentatives)"
+    },
     "bartholdlaw.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -553,6 +576,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Kanzlei am Martinsplatz St.",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers, contact bluewin)"
+    },
+    "biancotti-stmoritz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Avv. Marco Biancotti Via",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
     "bietenholz.law": {
       "_failed": true,
@@ -687,6 +717,20 @@
       "firm_name": "ADVOKATURBUREAU GmbH CATHERINE WEISSER",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
+    "cathomen-mon-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Peder Cathomen Veia",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+    },
+    "cavigelli-domatems-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Cavigelli Beratung Via",
+      "reason": "aucun site officiel identifie ; Mario Cavigelli est desormais principalement actif en politique/conseils d'administration"
+    },
     "cbc-recht-sg": {
       "_failed": true,
       "canton": "SG",
@@ -777,6 +821,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Alex de Capitani Rechtsanwalt",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "diener-felsberg-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Peter Diener Untere",
+      "reason": "aucun site officiel propre identifie (contact gmail uniquement)"
     },
     "diggelmann-sg": {
       "_failed": true,
@@ -906,6 +957,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Ernst & Partner",
       "reason": "Aucun site officiel trouve, seul un annuaire tiers (search.ch)"
+    },
+    "eugster-trimmis-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Eugster Advokatur",
+      "reason": "Hans Peter Eugster semble avoir rejoint Thomet Partner ; adresse Trimmis potentiellement obsolete"
     },
     "eversheds-sutherland.com": {
       "canton": "ZH",
@@ -1196,6 +1254,13 @@
       "firm_name": "Heinz Schmidhauser",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
+    "heller-lenzerheide-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Tanja Heller Voa davos",
+      "reason": "aucun site officiel propre identifie (uniquement registre cantonal)"
+    },
     "heller-rechtsanwalts-ag-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1383,6 +1448,13 @@
       "firm_name": "Advokatur Urs Käch",
       "reason": "Cabinet ferme / relocalise hors canton (Rotkreuz ZG)"
     },
+    "kaiser-silvaplana-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "HSG Anwaltskanzlei Nathan Kaiser Via vers",
+      "reason": "aucun site officiel propre confirme (domaine nkls.biz injoignable)"
+    },
     "kanzlei-helvetiaplatz.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -1517,6 +1589,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Kohler Law GmbH",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "kohlik-stmoritz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "HSG Advokaturbüro Kohlik Via",
+      "reason": "adresse potentiellement obsolete (relocalisation vers Plazza da Scoula sous Advokatur Dr. Kohlik & Partner)"
     },
     "kohlilaw.ch": {
       "_failed": true,
@@ -1824,6 +1903,13 @@
       "firm_name": "Rechtskanzlei Meier",
       "reason": "piege d'identite evite -- adresse CSV (Katharinengasse 15-21) et membre (Reiff Hermann) ne correspondent pas a l'entite trouvee (Dr. Andreas Meier, Bionstrasse 3)"
     },
+    "meile-stmoritz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Thomas J. Meile Via",
+      "reason": "site inaccessible (DNS injoignable, www et non-www, 2 tentatives)"
+    },
     "meisser-haller-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1857,6 +1943,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Kanzlei & Mediation Mettler",
       "reason": "Site officiel (karinmettler.ch) en construction, aucun contenu exploitable"
+    },
+    "metzger-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Rainer Metzger",
+      "reason": "site inaccessible (HTTP 503/403, 2 tentatives)"
     },
     "mglegal.ch": {
       "_failed": true,
@@ -2361,6 +2454,20 @@
       "firm_name": "S-E-K Advokaten AG",
       "reason": "HTTP 503 Service Unavailable"
     },
+    "saratz-pontresina-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Nuot Saratz Giassa",
+      "reason": "site inaccessible (DNS injoignable, www et non-www, 2 tentatives)"
+    },
+    "saupper-savognin-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Saupper",
+      "reason": "aucun site officiel propre identifie pour la pratique independante"
+    },
     "schai-vultier.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2863,6 +2970,13 @@
       "firm_name": "VIALEX Rechtsanwälte AG",
       "reason": "aucun fait exploitable — page trop sommaire (boilerplate uniquement)",
       "tested_date": "2026-07-28"
+    },
+    "viletta-guarda-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Rudolf Viletta Giarsun",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
     "vincenzpartner.ch": {
       "canton": "GR",
@@ -4643,6 +4757,18 @@
     ],
     "source_url": "https://www.allegra.law/about"
   },
+  "allenspach.legal": {
+    "canton": "GR",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Allenspach Advokatur",
+    "phone": "+41 (0)81 257 01 87",
+    "practice_areas_de": [
+      "Familien- und Erbrecht",
+      "Immobiliar-, Bau-, Planungs- und Umweltrecht",
+      "Allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.allenspach.legal/de/"
+  },
   "alpinumlaw.com": {
     "canton": "ZH",
     "email": "info@alpinumlaw.com",
@@ -4705,6 +4831,20 @@
     "firm_name": "Altenburger Ltd legal + tax",
     "phone": "+41 58 810 22 44",
     "source_url": "https://www.altenburger.ch/contact"
+  },
+  "altissima.ch": {
+    "canton": "GR",
+    "email": "bonorand@altissima.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Büro Bonorand",
+    "phone": "+41 81 252 77 78",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Handelsrecht",
+      "Notariat",
+      "Verwaltungsratsmandate"
+    ],
+    "source_url": "https://www.altissima.ch/dr-jachen-curdin-bonorand"
   },
   "amglaw.ch": {
     "canton": "SG",
@@ -7265,6 +7405,14 @@
     "phone": "+41 81 322 82 82",
     "source_url": "https://www.braendli-rechtsanwalt.ch/about/"
   },
+  "braendli-rechtsanwalt.ch#4": {
+    "canton": "GR",
+    "email": "info@braendli-rechtsanwalt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Catrina M.A. HSG Brändli Rechtsanwälte AG",
+    "phone": "+41 81 322 82 82",
+    "source_url": "https://www.braendli-rechtsanwalt.ch/about/"
+  },
   "brandschenke51.ch": {
     "canton": "ZH",
     "email": "advokatur@brandschenke51.ch",
@@ -7834,6 +7982,24 @@
     "source_url": "https://www.charlesrussellspeechlys.com/en/our-locations/offices/zurich/",
     "team_size_n": null
   },
+  "chbrcompliance.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Christian Bärlocher Rechtsanwalt",
+    "phone": "+41 76 488 86 95",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Gesellschaftsgründung und Gesellschaftsrecht",
+      "Stiftungsgründung und -verwaltung",
+      "Miet- und Pachtrecht",
+      "Gerichts- und Verwaltungsvertretung",
+      "Erbrecht",
+      "Kunstrecht",
+      "Sportrecht",
+      "Compliance und Risikomanagement"
+    ],
+    "source_url": "https://chbrcompliance.ch/en/attorney/"
+  },
   "chlup.ch": {
     "canton": "ZH",
     "email": "info@chlup.ch",
@@ -8308,6 +8474,14 @@
     ],
     "source_url": "https://djaferri-law.ch/"
   },
+  "dlegal.ch": {
+    "canton": "GR",
+    "email": "office@dlegal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HSG Domenig Legal GmbH",
+    "phone": "+41 (0) 81 552 02 24",
+    "source_url": "https://dlegal.ch/kontakt/"
+  },
   "dobler-ra.ch": {
     "canton": "SZ",
     "email": "info@dobler-ra.ch",
@@ -8742,6 +8916,24 @@
     "firm_name": "EPARTNERS AG",
     "phone": "+41 43 268 87 77",
     "source_url": "https://www.epartners.ch/kontakt"
+  },
+  "eplaw.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Ettisberger & Partner",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Notariatsrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Zivilrecht",
+      "Betreibungs- und Prozessrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Verwaltungsrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "https://www.eplaw.ch/taetigkeitsbereich"
   },
   "era-rechtsanwaelte.ch": {
     "canton": "ZH",
@@ -10438,6 +10630,19 @@
     "firm_name": "Hischier & Brunner",
     "phone": "+41 41 318 30 90",
     "source_url": "https://hb-recht.ch/"
+  },
+  "hb11-law.ch": {
+    "canton": "GR",
+    "email": "info@hb11-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "DRSP Law",
+    "founding_year": 1957,
+    "phone": "081 350 91 37",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat"
+    ],
+    "source_url": "https://www.hb11-law.ch/"
   },
   "hba.ch": {
     "canton": "ZH",
@@ -13938,6 +14143,41 @@
     "source_url": "https://www.mathiassenlegal.ch/",
     "team_size_n": 1
   },
+  "mattlihew.ch": {
+    "canton": "GR",
+    "email": "christian.hew@mattlihew.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Mattli & Hew",
+    "founding_year": 1952,
+    "phone": "+41 81 410 66 33",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Haftpflichtrecht",
+      "Handelsrecht",
+      "internationales Privatrecht",
+      "Schiedsverfahren",
+      "Konkurs- und Prozessrecht",
+      "Vertragsrecht",
+      "Werkvertrags- und Auftragsrecht"
+    ],
+    "source_url": "https://mattlihew.ch/en/team-en/"
+  },
+  "mattlihew.ch#2": {
+    "canton": "GR",
+    "fetched_date": "2026-09-10",
+    "firm_name": "LL.M. Mattli & Hew",
+    "founding_year": 1952,
+    "phone": "+41 81 410 66 33",
+    "source_url": "https://mattlihew.ch/en/team-en/"
+  },
+  "mazzetta-susanna.digitalone.site": {
+    "canton": "GR",
+    "email": "montfortlaw@spin.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Mazzetta",
+    "phone": "+41 81 257 00 40",
+    "source_url": "https://mazzetta-susanna.digitalone.site/"
+  },
   "mb-ra.ch": {
     "canton": "SG",
     "email": "info@mb-ra.ch",
@@ -15744,6 +15984,19 @@
     "phone": "+41 (0)41 419 70 80",
     "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
   },
+  "rechtsanwalt-notar-joerger.ch": {
+    "canton": "GR",
+    "email": "werner.joerger@rechtsanwalt-notar-joerger.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Werner Jörger",
+    "phone": "081 252 64 64",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Mediation"
+    ],
+    "source_url": "https://www.rechtsanwalt-notar-joerger.ch/kontakt"
+  },
   "rechtsanwalt-stabile.ch": {
     "canton": "SG",
     "email": "info@rechtsanwalt-stabile.ch",
@@ -15768,6 +16021,14 @@
       "Vertragsrecht",
       "Familienrecht"
     ],
+    "source_url": "https://www.rechtsanwaltchur.ch/schwerpunkte/"
+  },
+  "rechtsanwaltchur.ch#2": {
+    "canton": "GR",
+    "email": "kanzlei@anwaltchur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HSG Caviezel Thöny Cantieni Scarpatetti",
+    "phone": "+41 81 252 34 41",
     "source_url": "https://www.rechtsanwaltchur.ch/schwerpunkte/"
   },
   "rechtsanwalthoffmann.ch": {
@@ -18508,6 +18769,19 @@
     "source_url": "https://www.toedtli.law/ueberuns",
     "team_size_n": 2
   },
+  "trennungsanliegen.ch": {
+    "canton": "GR",
+    "email": "manuela.mathis@trennungsanliegen.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "trennungsanliegen",
+    "phone": "+41 81 250 72 01",
+    "practice_areas_de": [
+      "Trennungs- und Scheidungsberatung",
+      "aussergerichtliche Trennungsvereinbarungen",
+      "Familienrecht mit Fokus auf Kindeswohl"
+    ],
+    "source_url": "https://www.trennungsanliegen.ch/"
+  },
   "trigondorf.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -18972,6 +19246,13 @@
     ],
     "source_url": "https://www.vslaw.ch/",
     "team_size_n": 2
+  },
+  "wadavos.ch": {
+    "canton": "GR",
+    "email": "info@wadavos.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "wadavos Advokatur & Notariat",
+    "source_url": "https://www.wadavos.ch/"
   },
   "walche.ch": {
     "canton": "ZH",
@@ -19818,6 +20099,21 @@
     "phone": "+41 44 256 16 00",
     "source_url": "https://www.zeltweg.ch/en",
     "team_size_n": 4
+  },
+  "zinsli-stmoritz.ch": {
+    "canton": "GR",
+    "email": "hz@zinsli-stmoritz.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Dr. H.J. Zinsli Advokatur und Notariat Via",
+    "founding_year": 2020,
+    "phone": "+41 81 830 02 80",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Verwaltung von Gesellschaften",
+      "Vertragsrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://zinsli-stmoritz.ch/"
   },
   "zm-rechtsanwaelte.ch": {
     "canton": "LU",
