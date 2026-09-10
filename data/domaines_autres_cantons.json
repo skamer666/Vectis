@@ -616,6 +616,13 @@
       "firm_name": "Anwaltsbüro Christian Mäder",
       "reason": "Aucun site de cabinet prive trouve (fonctions judiciaires/publiques identifiees, pas de pratique privee confirmee)"
     },
+    "consultaria-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Consultaria",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee"
+    },
     "coradi-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1020,6 +1027,13 @@
       "firm_name": "Hischier & Brunner",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "hba-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "hba Rechtsanwälte AG",
+      "reason": "piege d'identite evite -- adresse CSV (Poststrasse 14, Wil) ne correspond pas exactement a l'adresse confirmee du bureau de Wil (Poststrasse 19)"
+    },
     "heller-rechtsanwalts-ag-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1307,6 +1321,13 @@
       "firm_name": "KOLB International Tax Services",
       "reason": "Cabinet multi-cantonal (Berne, Zurich) -- aucune coordonnee specifique au bureau de Zurich confirmee sur le site (regle 4 etendue)"
     },
+    "kramer-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Kramer",
+      "reason": "HTTP 503 Service Unavailable (x2) sur advokatur-kramer.ch"
+    },
     "kruse-law.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1557,6 +1578,20 @@
       "firm_name": "M C E Rechtsanwälte",
       "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
     },
+    "meier-advokaturburo-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Meier",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee"
+    },
+    "meier-rechtskanzlei-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtskanzlei Meier",
+      "reason": "piege d'identite evite -- adresse CSV (Katharinengasse 15-21) et membre (Reiff Hermann) ne correspondent pas a l'entite trouvee (Dr. Andreas Meier, Bionstrasse 3)"
+    },
     "meisser-haller-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1680,12 +1715,26 @@
       "firm_name": "Nägeli Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2) ; identite egalement incertaine (site distinct de Bürgi Nägeli Rechtsanwälte deja rattache separement)"
     },
+    "naescher-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Simon Näscher",
+      "reason": "HTTP 500/503 Service Unavailable (x2) sur advokaturnaescher.ch"
+    },
     "nawid-law.ch": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-10",
       "firm_name": "Advokatur Nawid GmbH",
       "reason": "HTTP 503 Service Unavailable"
+    },
+    "neidhardt-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Stephan Neidhardt Advokatur & Steuern",
+      "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire"
     },
     "netzle.legal": {
       "_failed": true,
@@ -1767,6 +1816,20 @@
       "firm_name": "Anwaltskanzlei Petrig Schuler",
       "reason": "Aucun site officiel trouve, uniquement des annuaires tiers"
     },
+    "pfenninger-law-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Pfenninger Law GmbH",
+      "reason": "piege d'identite evite -- societe enregistree a Wollerau (canton SZ), la base 'St. Gallen' mentionnee concerne uniquement l'avocate elle-meme, pas le siege du cabinet"
+    },
+    "pfister-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokaturbüro Pfister",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee a St-Gall (homonymes non lies trouves a Pfäffikon SZ)"
+    },
     "piasini-advokatur-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1820,6 +1883,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "RappjLegal Anwaltskanzlei & Notariat",
       "reason": "HTTP 500 Internal Server Error (x2) sur rappjlegal.ch"
+    },
+    "raschle-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Kanzlei Raschle AG",
+      "reason": "HTTP 503 Service Unavailable (x2) sur kanzlei-raschle.ch"
     },
     "rauchlegal.ch": {
       "_failed": true,
@@ -1886,6 +1956,13 @@
       "firm_name": "Reinarz Tax & Legal",
       "reason": "Pages contact/about en 404 ; aucun telephone/email exploitable trouve sur le site officiel, seule une description generale"
     },
+    "reiter-law-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Reiter Law",
+      "reason": "Aucune entite correspondant a ce nom exact identifiee"
+    },
     "relevanz.legal": {
       "_failed": true,
       "canton": "SG",
@@ -1900,12 +1977,26 @@
       "firm_name": "Roesle Frick & Partner",
       "reason": "Erreur technique (trop de redirections, >10)"
     },
+    "roos-niedermann-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Roos / Roos-Niedermann",
+      "reason": "Domaine officiel injoignable (echec DNS x2) sur roos-anwaelte.ch"
+    },
     "rosella-chiesa-lehmann-ti": {
       "_failed": true,
       "canton": "TI",
       "checked_date": "2026-09-09",
       "firm_name": "Studio Legale e Notarile Rosella Chiesa Lehmann",
       "reason": "Aucun site officiel trouve, uniquement des annuaires tiers (local.ch, search.ch, boss-editore.ch)"
+    },
+    "rossi-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Luigi R. Rossi Advokatur und Notariat",
+      "reason": "HTTP 503 Service Unavailable (x2) sur advokatursg.ch"
     },
     "rossi.pro": {
       "_failed": true,
@@ -2082,6 +2173,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Simmen Rechtsanwälte",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
+    },
+    "solenthaler-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Solenthaler Legal",
+      "reason": "HTTP 503 Service Unavailable (x2) sur solegal.ch"
     },
     "spittelerhof.ch": {
       "_failed": true,
@@ -2777,6 +2875,21 @@
       "Responsabilità civile e ambito assicurativo"
     ],
     "source_url": "https://www.admetam.ch/it/competenze"
+  },
+  "adrianrufener.ch": {
+    "canton": "SG",
+    "email": "adrian.rufener@adrianrufener.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rufener, Recht & IT",
+    "phone": "+41 71 722 00 33",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Steuer- und Steuerstrafrecht",
+      "Strassenverkehrsrecht",
+      "Versicherungsrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.adrianrufener.ch/"
   },
   "adroit.ch": {
     "canton": "ZH",
@@ -9240,6 +9353,13 @@
     "phone": "044 241 70 00",
     "source_url": "https://www.hak.ch/de/kontakt.html"
   },
+  "hak.ch#SG": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HAK Rechtsanwälte",
+    "phone": "071 222 15 50",
+    "source_url": "https://www.hak.ch/de/kontakt.html"
+  },
   "hanhart-anwalt.ch": {
     "canton": "ZH",
     "email": "info@hanhart-anwalt.ch",
@@ -10553,6 +10673,23 @@
     "phone": "+41 44 527 30 00",
     "source_url": "https://kerber.legal/kontakt/"
   },
+  "kh-recht.ch": {
+    "canton": "SG",
+    "email": "info@kh-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Keller Haan",
+    "phone": "+41 71 850 93 78",
+    "practice_areas_de": [
+      "Familien- und Scheidungsrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Sozialversicherungs- und Haftpflichtrecht",
+      "Ausländerrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.kh-recht.ch/"
+  },
   "khm-partners.ch": {
     "canton": "ZH",
     "email": "info@khm-partners.ch",
@@ -11665,6 +11802,20 @@
     "source_url": "https://legis-law.ch/",
     "team_size_n": null
   },
+  "lehmannrecht.ch": {
+    "canton": "SG",
+    "email": "claudia.lehmann@lehmannrecht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Lehmann",
+    "phone": "071 558 45 94",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "öffentliches Recht",
+      "Mediation"
+    ],
+    "source_url": "https://www.lehmannrecht.ch/"
+  },
   "lehwal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -12252,6 +12403,14 @@
     ],
     "source_url": "https://www.lutz-partner.ch/de/anwaltskanzlei"
   },
+  "m-tl.ch": {
+    "canton": "SG",
+    "email": "kevin.mueller@m-tl.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Müller Tax & Legal GmbH",
+    "phone": "+41 52 350 51 20",
+    "source_url": "https://m-tl.ch/kontakt/"
+  },
   "maetzler-partner.ch": {
     "canton": "SG",
     "email": "info@maetzler-partner.ch",
@@ -12308,6 +12467,22 @@
     ],
     "source_url": "https://maisondroite.ch/",
     "specialist_certification": "Fachanwältin SAV Familienrecht (Rahel Baumann)"
+  },
+  "mallaw.ch": {
+    "canton": "SG",
+    "email": "info@mallaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "MALLAW Ong Anwaltskanzlei & Notariat",
+    "phone": "+41 76 708 77 08",
+    "practice_areas_de": [
+      "Gründungen",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Familienrecht",
+      "Betreibungen & Rechtsöffnungen"
+    ],
+    "source_url": "https://mallaw.ch/"
   },
   "marghitola.com": {
     "canton": "ZH",
@@ -13360,6 +13535,21 @@
     ],
     "source_url": "https://ogs-legal.com/index_eng.html"
   },
+  "optitaxlaw.ch": {
+    "canton": "SG",
+    "email": "christof.schaefli@optitaxlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "OPTITAX LAW",
+    "phone": "+41 71 277 89 07",
+    "practice_areas_de": [
+      "Handelsrecht und Notariat",
+      "Steuerplanung für Privatpersonen und Unternehmen",
+      "Verwaltungsratstätigkeit",
+      "Nachlassplanung für Unternehmen sowie Privatpersonen",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.optitaxlaw.ch/"
+  },
   "ozb-rechtsanwaelte.ch": {
     "canton": "ZH",
     "email": "info@ozb-rechtsanwaelte.ch",
@@ -14264,6 +14454,19 @@
     ],
     "source_url": "https://www.rihm-law.ch/"
   },
+  "rilavur.ch": {
+    "canton": "SG",
+    "email": "kontakt@rilavur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rilavur GmbH",
+    "phone": "+41 71 552 90 70",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "öffentliches Personalrecht",
+      "sozialversicherungsrechtliche Schnittstellen zum Arbeitsverhältnis"
+    ],
+    "source_url": "https://rilavur.ch/ueber-uns/"
+  },
   "rischlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -14705,6 +14908,14 @@
     ],
     "source_url": "http://www.rugglepartner.ch/de/Home.1.html",
     "team_size_n": 2
+  },
+  "rugglipunkt.ch": {
+    "canton": "SG",
+    "email": "info@rugglipunkt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ruggli.",
+    "phone": "+41 55 555 32 20",
+    "source_url": "https://www.rugglipunkt.ch/"
   },
   "ruossvoegele.ch": {
     "canton": "ZH",

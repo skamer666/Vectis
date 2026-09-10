@@ -3700,3 +3700,24 @@ différente : René Locher du CSV vs Walter Locher trouvé) ; RA Carmen Marotta-
 
 Rattachement : 914 études rattachées au total (903 → 914, +11 affichées ; +13 écritures, 2
 ignorées par garde-fou anti-ambiguïté). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 14h04 UTC — Phase 3, lot 102 (exécution automatisée)
+
+Poursuite du canton SG. 23 fiches CSV traitées (9 succès / 14 échecs).
+
+Succès : Advokaturbüro Keller Haan (tel/email, 7 domaines DE) ; Anwaltsbüro Lehmann (tel/email,
+4 domaines DE) ; Müller Tax & Legal GmbH (tel/email) ; MALLAW Ong Anwaltskanzlei & Notariat
+(tel/email, 6 domaines DE) ; HAK Rechtsanwälte (bureau St-Gall, dédoublonnage avec `hak.ch`
+déjà vérifié sous le bureau ZH) ; Rilavur GmbH (tel/email, domaines DE) ; Rufener, Recht & IT
+(tel/email, 5 domaines DE) ; ruggli. (tel/email) ; OPTITAX LAW (tel/email, 5 domaines DE).
+
+Échecs : Advokaturbüro Kramer, Advokaturbüro Simon Näscher, Kanzlei Raschle AG, Luigi R. Rossi,
+Solenthaler Legal (HTTP 500/503 x2 chacun) ; Advokaturbüro Meier, Consultaria, Stephan
+Neidhardt Advokatur & Steuern, Advokaturbüro Pfister, Reiter Law (aucune entité/site officiel
+identifié) ; Roos / Roos-Niedermann (échec DNS x2) ; Pfenninger Law GmbH (**piège d'identité
+évité** -- siège social à Wollerau, canton SZ, pas SG) ; Rechtskanzlei Meier (**piège
+d'identité évité** -- adresse et membre CSV ne correspondent pas à l'entité trouvée) ; hba
+Rechtsanwälte AG (**piège d'identité évité** -- adresse CSV du bureau de Wil légèrement
+divergente de celle confirmée).
+
+Rattachement : 923 études rattachées au total (914 → 923, +9). Suite de tests : 94/94 au vert.
