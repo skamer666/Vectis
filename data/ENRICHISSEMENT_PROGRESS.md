@@ -3436,3 +3436,27 @@ Steuerkanzlei Rolf Benz, Dr. Markus Oehrli Steuerberatung (vérification anti-bo
 
 Rattachement : 811 études rattachées au total (804 → 811, +7). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 03h02 UTC — Phase 3, lot 91 (exécution automatisée)
+
+20 cabinets traités (13 succès / 7 échecs), poursuite du balayage alphabétique ZH (lettres
+G-H).
+
+Succès : Anwaltskanzlei Giunuzoglu (fondée **2021**, tel/email, 4 domaines DE) ; Anwaltskanzlei
+Grell (tel/email, titre **Fachanwalt SAV Bau- und Immobilienrecht**) ; Lex Futura AG (tel/email,
+13 domaines EN) ; GRUBMILLER ANWALT (tel/email) ; RSG Rechtsanwaltsbüro (antenne ZH confirmée à
+une adresse distincte de celle de St-Gall, tel/email, 8 domaines DE) ; Advokaturbüro Guzzi
+(fondé **1983**, email, 5 domaines DE) ; HABEGGER Arbitration (tel, 10 domaines EN, arbitrage
+international) ; Anwaltskanzlei Hail (tel/email) ; Anwaltskanzlei Hanhart (tel/email, 5
+domaines DE) ; SHlegal GmbH (fondée **2016**, tel, 3 domaines DE) ; HAUSER PARTNERS
+Anwaltskanzlei (tel/email) ; Heiniger ADVOKATUR (tel/email) ; Anwaltskanzlei Dr. Michael Aepli
+(cabinet actuel "Studer & Aepli", continuité confirmée par sa présence dans l'équipe, tel/email).
+
+Échecs : Anwaltskanzlei Graule (site accessible mais aucune coordonnée exploitable) ; S-E-K
+Advokaten AG, Haller Recht, Anwaltskanzlei Matthias Hauser, Kanzlei Held (HTTP 503 ×4) ;
+Anwaltskanzlei Dr. Martin Grossmann (domaine ne résolvant pas) ; Grütter Anwaltsbüro (**piège
+d'identité évité** -- confusion entre Grütter Rechtsanwälte AG à Soleure et une entité distincte
+à Kloten sans site officiel).
+
+Rattachement : 824 études rattachées au total (811 → 824, +13). Suite de tests : 94/94 au
+vert.

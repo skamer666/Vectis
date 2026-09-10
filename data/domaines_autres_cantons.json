@@ -663,12 +663,26 @@
       "firm_name": "Grand & Nisple",
       "reason": "Site inaccessible (404 sur grandnisple.ch, 503 sur www.grandnisple.ch) -- meme cause que l'entree existante grandnisple.ch pour une autre ligne CSV du meme cabinet"
     },
+    "graule-legal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Graule",
+      "reason": "Site accessible mais aucune coordonnee ni domaine de competence exploitable trouve"
+    },
     "groner-advokatur-zh": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Groner Advokatur",
       "reason": "Identite ambigue -- plusieurs sites/marques distincts pour Dr. Roger Groner (Ennenda GL et Zurich), aucune confirmation claire de l'entite ZH correspondant a ce nom exact"
+    },
+    "gruetter-anwaltsbuero-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Grütter Anwaltsbüro",
+      "reason": "Identite ambigue : 'Grutter Rechtsanwalte AG' est basee a Soleure, et 'Anwaltsbuero Rachel Gruetter' a Kloten semble etre une entite distincte sans site officiel trouve (regle 5)"
     },
     "guery-legal-zh": {
       "_failed": true,
@@ -683,6 +697,20 @@
       "checked_date": "2026-09-09",
       "firm_name": "HAFERLAND LEGAL",
       "reason": "Aucun site officiel trouve"
+    },
+    "haller-recht.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Haller Recht",
+      "reason": "HTTP 503 Service Unavailable"
+    },
+    "hauserlegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Matthias Hauser",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "hb-recht.ch": {
       "_failed": true,
@@ -791,6 +819,13 @@
       "fetched_date": "2026-07-29",
       "firm_name": "Kanzlei im Turm AG",
       "raison": "rendu JavaScript (Webflow), page vide"
+    },
+    "kanzleiheld.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Kanzlei Held",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "kanzleikreis2.ch": {
       "canton": "ZH",
@@ -1009,6 +1044,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Metin Legal",
       "reason": "HTTP 403 Forbidden"
+    },
+    "mglegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Dr. Martin Grossmann",
+      "reason": "Domaine inaccessible (DNS ne resout pas)"
     },
     "mlegal-ag-zh": {
       "_failed": true,
@@ -1267,6 +1309,13 @@
       "date": "2026-07-29",
       "firm_name": "Rudolf & Bieri AG",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "s-e-k.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "S-E-K Advokaten AG",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "schai-vultier.ch": {
       "_failed": true,
@@ -2714,6 +2763,14 @@
     "phone": "+41 41 410 21 37",
     "source_url": "https://www.advoweggishaus.ch/de/kontakt.html"
   },
+  "aeplilaw.ch": {
+    "canton": "ZH",
+    "email": "info@studeraeplilaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Dr. Michael Aepli",
+    "phone": "+41 43 542 42 10",
+    "source_url": "https://www.aeplilaw.ch/team"
+  },
   "aequitaslex.ch": {
     "canton": "TI",
     "email": "info@aequitaslex.ch",
@@ -3212,6 +3269,15 @@
     ],
     "source_url": "https://www.anwaltchur.ch/schwerpunkte/"
   },
+  "anwalthail.ch": {
+    "canton": "ZH",
+    "email": "info@anwalthail.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Hail",
+    "phone": "+41 (0)43 422 97 45",
+    "source_url": "https://www.anwalthail.ch/",
+    "team_size_n": 1
+  },
   "anwaltluzern.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -3287,6 +3353,14 @@
     ],
     "source_url": "https://anwaltskanzlei-eshrefi.ch/kontakt/",
     "team_size_n": 1
+  },
+  "anwaltskanzlei-hauser.ch": {
+    "canton": "ZH",
+    "email": "info@hauserpartners.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HAUSER PARTNERS Anwaltskanzlei / Law Firm",
+    "phone": "+41 43 233 7072",
+    "source_url": "https://www.anwaltskanzlei-hauser.ch/en/contact/"
   },
   "anwaltskanzlei-in-zuerich.ch": {
     "canton": "ZH",
@@ -7339,6 +7413,22 @@
     ],
     "source_url": "https://www.gislerhaltiner.ch/rechtsgebiete.html"
   },
+  "giunuzoglu.ch": {
+    "canton": "ZH",
+    "email": "mg@giunuzoglu.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Giunuzoglu",
+    "founding_year": 2021,
+    "phone": "+41 44 313 00 00",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Strafrecht",
+      "Jugendstrafrecht",
+      "Betäubungsmittelstrafrecht"
+    ],
+    "source_url": "https://www.giunuzoglu.ch/",
+    "team_size_n": 1
+  },
   "glatthard.law": {
     "canton": "ZH",
     "email": "hallo@glatthard.law",
@@ -7589,6 +7679,16 @@
     ],
     "source_url": "https://www.grandinilegal.ch/"
   },
+  "grell-law.ch": {
+    "canton": "ZH",
+    "email": "boris.grell@grell-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Grell",
+    "phone": "+41 44 350 33 11",
+    "source_url": "https://www.grell-law.ch/kontakt",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht",
+    "team_size_n": 1
+  },
   "greterlaw.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -7642,6 +7742,15 @@
       "Vermögen"
     ],
     "source_url": "https://www.grp.ch/"
+  },
+  "grubmiller-anwalt.ch": {
+    "canton": "ZH",
+    "email": "grubmiller@grubmiller-anwalt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "GRUBMILLER ANWALT",
+    "phone": "+41 (0)44 510 90 99",
+    "source_url": "https://www.grubmiller-anwalt.ch/kontakt/",
+    "team_size_n": 1
   },
   "gruendler-partner.ch": {
     "canton": "SG",
@@ -7739,6 +7848,22 @@
     "source_url": "https://guebeli-mueller.ch/",
     "team_size_n": 2
   },
+  "guzzi.ch": {
+    "canton": "ZH",
+    "email": "guzzi@guzzi.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokaturbüro Guzzi",
+    "founding_year": 1983,
+    "practice_areas_de": [
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Strafrecht",
+      "Erb- und Nachlassrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.guzzi.ch/rechtsanwalt-guzzi",
+    "team_size_n": 1
+  },
   "gysipartner.ch": {
     "canton": "SG",
     "email": "office@gysipartner.ch",
@@ -7766,12 +7891,47 @@
     "source_url": "https://www.haablegal.ch/en",
     "team_size_n": 2
   },
+  "habegger-arbitration.net": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HABEGGER Arbitration",
+    "phone": "+41 44 269 66 22",
+    "practice_areas_en": [
+      "International commercial arbitration",
+      "Telecommunications",
+      "Pharmaceutical disputes",
+      "Energy and commodity trading",
+      "Joint ventures and mergers & acquisitions",
+      "Shareholders' agreements",
+      "International sales and transactions",
+      "Agency and distribution",
+      "Licensing and franchising",
+      "Construction and engineering projects"
+    ],
+    "source_url": "https://www.habegger-arbitration.net/",
+    "team_size_n": 1
+  },
   "haefelinlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
     "firm_name": "Haefelin Law",
     "phone": "+41 44 260 25 45",
     "source_url": "https://www.haefelinlaw.ch/"
+  },
+  "hanhart-anwalt.ch": {
+    "canton": "ZH",
+    "email": "info@hanhart-anwalt.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Hanhart",
+    "phone": "044 215 35 70",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.hanhart-anwalt.ch/"
   },
   "hanhartlaw.ch": {
     "canton": "ZH",
@@ -7865,6 +8025,15 @@
       "Mediation (Mietstreitigkeiten)"
     ],
     "source_url": "https://www.hebrecht.ch/about"
+  },
+  "heiniger-ra.ch": {
+    "canton": "ZH",
+    "email": "jh@heiniger-ra.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Heiniger ADVOKATUR",
+    "phone": "+41 79 687 07 55",
+    "source_url": "https://heiniger-ra.ch/kontakt/",
+    "team_size_n": 1
   },
   "heinzelmann-levy.ch": {
     "canton": "BL",
@@ -10027,6 +10196,29 @@
     ],
     "source_url": "https://lexarte.ch/de/wirtschaftsrecht/",
     "team_size_n": 10
+  },
+  "lexfutura.ch": {
+    "canton": "ZH",
+    "email": "info@lexfutura.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Lex Futura AG",
+    "phone": "+41 41 541 92 20",
+    "practice_areas_en": [
+      "Deal Making",
+      "Mergers & Acquisitions",
+      "IP Strategy",
+      "Legal Project Management",
+      "Regulatory Compliance",
+      "Public Procurement",
+      "Company Formation",
+      "Financing Rounds",
+      "Contract Negotiation",
+      "Corporate Governance",
+      "Data Protection/GDPR",
+      "Technology & Venture Capital",
+      "Digitalization"
+    ],
+    "source_url": "https://www.lexfutura.ch/"
   },
   "leximpact.ch": {
     "canton": "ZH",
@@ -12471,6 +12663,24 @@
     "firm_name": "rothorn legal AG",
     "source_url": "https://www.moneyhouse.ch/en/company/rothorn-legal-ag-8165934261"
   },
+  "rsg-law.ch": {
+    "canton": "ZH",
+    "email": "raffael.guebeli@rsg-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "RSG Rechtsanwaltsbüro",
+    "phone": "+41 44 245 46 65",
+    "practice_areas_de": [
+      "Prozessrecht",
+      "Compliance",
+      "Vertragsrecht",
+      "Wirtschaftsrecht",
+      "Arbeitsrecht",
+      "Immobilienrecht",
+      "Mietrecht",
+      "Kommissionsrecht"
+    ],
+    "source_url": "https://rsg-law.ch/"
+  },
   "rsplaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -13254,6 +13464,20 @@
     "checked_date": "2026-09-06",
     "firm_name": "Rüesch Rechtsanwälte",
     "reason": "page /taetigkeitsbereiche/ vide (JS ou rendu cote client), deja documente comme inextractible dans un lot precedent"
+  },
+  "shlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "SHlegal GmbH",
+    "founding_year": 2016,
+    "phone": "+41 44 500 31 55",
+    "practice_areas_de": [
+      "Gesundheitsrecht",
+      "Arbeitsrecht",
+      "Verbandswesen"
+    ],
+    "source_url": "https://shlegal.ch/",
+    "team_size_n": 1
   },
   "silk-rechtsanwaelte.ch": {
     "canton": "ZH",
