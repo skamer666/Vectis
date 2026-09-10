@@ -3546,3 +3546,31 @@ Schmidt Eugster Rechtsanwälte (**cabinet dissous**, actif 2002-2023) ; arbeitsr
 
 Rattachement : 860 études rattachées au total (853 → 860, +7). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 08h03 UTC — Phase 3, lot 96 (exécution automatisée)
+
+22 cabinets traités (11 succès / 11 échecs), fin du balayage alphabétique ZH (lettres N-Z, pool
+de cabinets nommés désormais quasi épuisé).
+
+Succès : Planta & Planta AG (**fondée 1988**, tel/email) ; rlr arbitration (Dr. Robert L. Rom,
+tel/email, 3 domaines EN) ; Rüegger Mediation & Advokatur (Vanessa Rüegger, email) ; Tax
+Connection Marcel Zehnder (tel/email) ; Wehland Arbitration (Hanno Wehland, **fondée 2023**,
+tel/email, 3 domaines EN, 3 publications) ; Weber-Stecher Arbitration Mediation (Urs
+Weber-Stecher, tel/email, 3 domaines EN) ; Zuberbühler Arbitration (Tobias Zuberbühler,
+tel/email, 2 domaines EN, 3 publications) ; Unabhängige Fachstelle für Sozialhilferecht
+(**fondée 2012**, tel/email, 3 domaines DE) ; OBENHAUS International Tax GmbH (tel, 3 domaines
+DE) ; Rechtspraxis am See GmbH (Nicole Niederberger, tel/2 emails, 2 domaines DE) ; Personal &
+Recht GmbH (tel/email, 4 domaines DE).
+
+Échecs : Wyss Rechtsanwältin (DNS + HTTP 503 sur les deux domaines trouvés) ; Weber
+Rechtsanwälte (**piège d'identité évité** -- à l'adresse CSV se trouve désormais Weber & Frey
+Family Office, continuité non confirmée) ; Schütz Rechtsanwälte, Swissberg AG, Wiegand
+Anwaltsbüro, Zweifel Rechtsanwalt (HTTP 503 x2) ; Sutter & Camenzind Rechtsanwälte (aucun site
+officiel, adresse divergente de celle du CSV) ; TM & Partner Rechtsanwälte (aucune
+correspondance trouvée) ; Traber Rechtsanwalt (échec DNS) ; Steuer-, Rechts- und
+Treuhandpraxis (nom trop générique) ; Rechtsanwalt Schweizer (**piège d'identité évité** --
+Rafael Schweizer travaille en réalité chez un bureau d'ingénieurs, adresse différente de celle
+du CSV).
+
+Rattachement : 871 études rattachées au total (860 → 871, +11). Suite de tests : 94/94 au
+vert.

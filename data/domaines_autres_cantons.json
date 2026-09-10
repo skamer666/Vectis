@@ -1464,6 +1464,13 @@
       "firm_name": "Quadra Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "rafael-schweizer-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwalt Schweizer",
+      "reason": "piege d'identite evite -- Rafael Schweizer trouve travaille comme 'Teamleiter Recht und Bau' chez Gossweiler Ingenieure AG (bureau d'ingenieurs, non un cabinet d'avocats), adresse differente de celle du CSV (Neuhofstrasse 34 vs Casinostr. 6, Dübendorf)"
+    },
     "rajower-weber-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1671,6 +1678,13 @@
       "firm_name": "Schucan & Wohlwend",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "schuetz-rechtsanwaelte.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Schütz Rechtsanwälte",
+      "reason": "HTTP 503 Service Unavailable (x2)"
+    },
     "schuhmacher-weber-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1746,6 +1760,13 @@
       "firm_name": "STERN.LAW AG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
+    "steuer-rechts-treuhandpraxis-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Steuer-, Rechts- und Treuhandpraxis",
+      "reason": "Nom trop generique, aucune entite unique identifiable correspondant au cabinet du CSV"
+    },
     "steuerkanzlei-rolf-benz-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1805,6 +1826,20 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "sutter-camenzind-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Sutter & Camenzind Rechtsanwälte",
+      "reason": "Aucun site officiel identifie (seule source : annuaire tiers mcadvo.ch) ; adresse divergente de celle du CSV (Untertor 11 vs Sulzer-Hirzel-Str. 6, Winterthour) ; pas d'email"
+    },
+    "swissberg.com": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Swissberg AG",
+      "reason": "Sous-page /kanzlei/ inaccessible (HTTP 503 x2)"
+    },
     "taadvisory.law#ZH": {
       "canton": "ZH",
       "firm_name": "TA Advisory AG",
@@ -1852,12 +1887,26 @@
       "firm_name": "Advokatur zum Thurgauerhof",
       "reason": "HTTP 503 Service Unavailable (x2, pages differentes)"
     },
+    "tm-partner-wettswil-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "TM & Partner Rechtsanwälte",
+      "reason": "Aucune correspondance trouvee pour Timothy Müller / TM & Partner a Wettswil ; aucun site officiel identifie"
+    },
     "toschini-gr": {
       "_failed": true,
       "canton": "GR",
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale avv. Andrea Toschini",
       "reason": "Aucun site officiel trouve, uniquement des annuaires tiers"
+    },
+    "traberrechtsanwalt.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Traber Rechtsanwalt",
+      "reason": "Domaine officiel injoignable (echec DNS, x2)"
     },
     "trustedadvisors.ch": {
       "_failed": true,
@@ -1931,6 +1980,13 @@
       "firm_name": "Vincenz & Partner",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "weber-rechtsanwaelte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Weber Rechtsanwälte",
+      "reason": "piege d'identite evite -- a l'adresse CSV (Talacker 21, Zurich) se trouve desormais Weber & Frey Family Office ; aucune mention sur le site actuel d'une continuite avec 'Weber Rechtsanwälte', lien non retenu"
+    },
     "weberlegal.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1965,6 +2021,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
       "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique (meme cause que l'entree existante weinmann-zimmerli.ch pour la ligne CSV 'Weinmann Zimmerli')"
+    },
+    "wiegandlegal.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Wiegand Anwaltsbüro",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     },
     "wieser-wieser-gr": {
       "_failed": true,
@@ -2034,6 +2097,13 @@
       "reason": "domaine ww-law.ch ne resout pas (DNS ENOTFOUND)",
       "tested_date": "2026-09-07"
     },
+    "wysshaefeli.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Wyss Rechtsanwältin",
+      "reason": "Domaine officiel injoignable (echec DNS sur wyss-rechtsanwaeltin.ch, HTTP 503 sur wysshaefeli.ch, x2)"
+    },
     "yvette-kovacs-rechtsanwaeltin.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2080,6 +2150,13 @@
       "firm_name": "ZL ZurichLawyers",
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
+    },
+    "zweifel-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Zweifel Rechtsanwalt",
+      "reason": "HTTP 503 Service Unavailable (x2)"
     }
   },
   "_sans_site": {
@@ -12449,6 +12526,20 @@
     "phone": "081 286 96 60",
     "source_url": "https://www.perl-law.ch/sites/kontakt.html"
   },
+  "personalundrecht.ch": {
+    "canton": "ZH",
+    "email": "kontakt@personalundrecht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Personal & Recht GmbH",
+    "phone": "079 274 60 90",
+    "practice_areas_de": [
+      "öffentliches Personalrecht",
+      "privates Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Datenschutzrecht"
+    ],
+    "source_url": "https://personalundrecht.ch/"
+  },
   "perucchiandpartner.com": {
     "canton": "ZH",
     "email": "info@perucchiandpartner.com",
@@ -12595,6 +12686,15 @@
     ],
     "source_url": "https://www.pilatushof.ch/en/",
     "team_size_n": 9
+  },
+  "planta.com": {
+    "canton": "ZH",
+    "email": "mail@planta.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Planta & Planta AG",
+    "founding_year": 1988,
+    "phone": "+41 58 255 02 22",
+    "source_url": "https://www.planta.com"
   },
   "plegal.ch": {
     "canton": "ZH",
@@ -13007,6 +13107,18 @@
     "source_url": "https://www.rechtskraft.ch/en",
     "team_size_n": null
   },
+  "rechtspraxis.ch": {
+    "canton": "ZH",
+    "email": "info@rechtspraxis.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rechtspraxis am See GmbH",
+    "phone": "+41 79 102 81 80",
+    "practice_areas_de": [
+      "Rechtsberatung – Legal-Outsourcing – professionelle Konfliktklärung",
+      "Konfliktlösung und Mediation"
+    ],
+    "source_url": "https://www.rechtspraxis.ch/"
+  },
   "rechtsschmid.ch": {
     "canton": "ZH",
     "email": "marc.schmid@rechtsschmid.ch",
@@ -13306,6 +13418,19 @@
     ],
     "source_url": "https://rlbanwaelte.ch/",
     "team_size_n": 4
+  },
+  "rlrarbitration.ch": {
+    "canton": "ZH",
+    "email": "rom@rlrarbitration.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "rlr arbitration",
+    "phone": "+41 44 500 43 04",
+    "practice_areas_en": [
+      "international commercial arbitration",
+      "M&A and corporate finance transactions",
+      "joint ventures, art law, international trade"
+    ],
+    "source_url": "https://www.rlrarbitration.ch/"
   },
   "rmp.ch": {
     "canton": "ZH",
@@ -14411,6 +14536,20 @@
     "source_url": "https://soufislaw.ch/en/attorney-at-law/",
     "team_size_n": 1
   },
+  "sozialhilfeberatung.ch": {
+    "canton": "ZH",
+    "email": "info@sozialhilfeberatung.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Unabhängige Fachstelle für Sozialhilferecht",
+    "founding_year": 2012,
+    "phone": "043 540 50 41",
+    "practice_areas_de": [
+      "Rechtsberatung im Sozialhilferecht",
+      "Vermittlung zwischen Armutsbetroffenen und Behörden",
+      "Rechtsvertretung in sozialhilferechtlichen Verfahren"
+    ],
+    "source_url": "https://www.sozialhilfeberatung.ch/ueber-uns"
+  },
   "sperling-legal.ch": {
     "canton": "ZH",
     "email": "kotrba@sperling-legal.ch",
@@ -14611,6 +14750,18 @@
     "founding_year": 1951,
     "source_url": "https://steinlex.ch/kanzlei/",
     "team_size_n": 16
+  },
+  "steueranwalt-zuerich.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "OBENHAUS International Tax GmbH",
+    "phone": "+41 44 585 11 85",
+    "practice_areas_de": [
+      "Steuerprüfungen und Nachsteuerverfahren",
+      "Verrechnungspreise Schweiz",
+      "Verdeckte Gewinnausschüttung und Verrechnungssteuer"
+    ],
+    "source_url": "https://steueranwalt-zuerich.ch/ueber-uns-obenhaus-international-tax-zuerich/"
   },
   "steurifisch.ch": {
     "canton": "SG",
@@ -15093,6 +15244,14 @@
     "source_url": "https://www.tappolet-partner.ch/",
     "team_size_n": 7
   },
+  "taxconnection.ch": {
+    "canton": "ZH",
+    "email": "zehnder@taxconnection.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Tax Connection Marcel Zehnder",
+    "phone": "+41 43 443 80 97",
+    "source_url": "https://www.taxconnection.ch/kontakt/"
+  },
   "tbp-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -15573,6 +15732,13 @@
     "source_url": "https://valloni.ch/about-us/",
     "team_size_n": null
   },
+  "vanessaruegger.ch": {
+    "canton": "ZH",
+    "email": "vanessa@rueggermediation.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rüegger Mediation & Advokatur",
+    "source_url": "https://www.vanessaruegger.ch/impressum"
+  },
   "velartis.ch": {
     "canton": "ZH",
     "email": "kanzlei@velartis.ch",
@@ -15962,6 +16128,19 @@
     ],
     "source_url": "https://wdlaw.ch/de/fachgebiete"
   },
+  "weber-arbitration.ch": {
+    "canton": "ZH",
+    "email": "urs.weber@weber-arbitration.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Weber-Stecher Arbitration Mediation",
+    "phone": "+41 44 420 11 20",
+    "practice_areas_en": [
+      "international and national arbitration",
+      "mediation of commercial disputes",
+      "contract and settlement negotiations"
+    ],
+    "source_url": "https://www.weber-arbitration.ch/"
+  },
   "weber-legal.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-09",
@@ -15996,6 +16175,25 @@
     ],
     "source_url": "https://www.weber-schaub.ch/en/wsp/about-us/",
     "team_size_n": null
+  },
+  "wehland-arbitration.com": {
+    "canton": "ZH",
+    "email": "hanno@wehland-arbitration.com",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Wehland Arbitration",
+    "founding_year": 2023,
+    "phone": "+41 22 575 44 80",
+    "practice_areas_en": [
+      "investment and commercial arbitrations",
+      "representation before arbitral tribunals and national courts",
+      "arbitrator or legal expert appointments"
+    ],
+    "publications": [
+      "The Application of the Prohibition of Abuse of Process Principle in the Context of Corporate Restructurings Aimed at Obtaining Protection under Investment Treaties (Journal of International Arbitration, 2025)",
+      "Setting-aside Proceedings Against Treaty-based Arbitral Awards in Switzerland (Journal of International Arbitration, 2024)",
+      "The Coordination of Multiple Proceedings in Investment Treaty Arbitration (Oxford University Press, 2013)"
+    ],
+    "source_url": "https://www.wehland-arbitration.com/"
   },
   "wehrenberg-law.ch": {
     "canton": "ZH",
@@ -16596,6 +16794,23 @@
       "Inheritance law and estate planning"
     ],
     "source_url": "https://zstax.ch/en/"
+  },
+  "zuberbuehler-arbitration.ch": {
+    "canton": "ZH",
+    "email": "tobias@zuberbuehler-arbitration.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Zuberbühler Arbitration",
+    "phone": "+41 79 397 22 88",
+    "practice_areas_en": [
+      "construction, energy, pharma, air transportation and commodity trading disputes",
+      "joint ventures, agency/distribution, international sales, post-M&A and IP disputes"
+    ],
+    "publications": [
+      "IBA Rules of Evidence – The Best of Two Worlds (RIIPrax 1/2024, C.H. Beck)",
+      "Swiss Rules of International Arbitration, 3rd ed. (2023, co-editor)",
+      "IBA Rules of Evidence, 2nd ed. (2022, co-author)"
+    ],
+    "source_url": "https://zuberbuehler-arbitration.ch/"
   },
   "zulauflegal.ch": {
     "canton": "ZH",
