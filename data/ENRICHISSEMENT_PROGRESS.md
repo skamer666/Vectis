@@ -3393,3 +3393,24 @@ CSV).
 
 Rattachement : 794 études rattachées au total (782 → 794, +12). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 01h02 UTC — Phase 3, lot 89 (exécution automatisée)
+
+20 cabinets traités (10 succès / 10 échecs), poursuite du balayage alphabétique ZH (lettres D-E).
+
+Succès : Diem Law Advokatur (tel/email, bureau Zurich) ; Dubs Legal AG (tel/email, 6 domaines
+DE) ; FD Anwaltskanzlei AG (tel/email) ; BE LAW AG (tel/email) ; Anwaltskanzlei Engel
+(tel/email) ; Advokatur Erken (tel/email) ; Ermini AG (5 domaines EN dont droit aérien) ;
+Anwaltsbüro Boris Etter (tel/email) ; Anwaltskanzlei Eshrefi (tel/email, 8 domaines DE) ; Even
+Law (tel/email).
+
+Échecs : Dubler Rechtsanwälte, Anwaltsbüro Roland Egli (vérification anti-bot ×2) ;
+Anwaltskanzlei Christof Egli (HTTP 403) ; Ernst Law GmbH (HTTP 503) ; Anwaltsbüro Dr. A.
+Coradi, Rechtsanwaltskanzlei Dresel, Erni Legal GmbH (aucun site officiel dédié) ; Anwaltskanzlei
+Dolder (**piège d'identité évité** -- le seul cabinet Dolder trouvé, Dolder Züst, est basé à
+St-Gall, pas à Zurich) ; Dr. Katy Elmaliah, Attorneys (**identité incertaine écartée** -- cabinet
+semblant basé en Israël/Allemagne, lien avec un bureau zurichois non confirmé) ; Dogwiler
+Anwaltskanzlei (site accessible mais aucune coordonnée ni domaine de compétence exploitable).
+
+Rattachement : 804 études rattachées au total (794 → 804, +10). Suite de tests : 94/94 au
+vert.

@@ -156,6 +156,13 @@
       "firm_name": "ADVOTECH ADVOKATEN",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "akce.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Christof Egli",
+      "reason": "HTTP 403 Forbidden"
+    },
     "akin-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -406,6 +413,13 @@
       "firm_name": "Studio legale e notarile Cereghetti",
       "reason": "Identite ambigue -- au moins deux etudes distinctes portant le nom Cereghetti au Tessin (Katia Cereghetti Soldini a Chiasso, et Claudio Cereghetti & Partner), rattachement au bon site non confirme"
     },
+    "coradi-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltsbüro Dr. A. Coradi",
+      "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
+    },
     "de-beer-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -419,6 +433,27 @@
       "checked_date": "2026-09-10",
       "firm_name": "Alex de Capitani Rechtsanwalt",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "dogwiler.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Dogwiler Anwaltskanzlei",
+      "reason": "Site accessible mais aucune coordonnee (tel/email) ni domaine de competence verbatim exploitable"
+    },
+    "dolder-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Dolder",
+      "reason": "Piege d'identite : le seul cabinet Dolder trouve (Dolder Zust) est base a St-Gall, pas a Zurich (regle 5)"
+    },
+    "dresel-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Rechtsanwaltskanzlei Dresel",
+      "reason": "Aucun site officiel trouve"
     },
     "drplegal.ch": {
       "_failed": true,
@@ -439,6 +474,13 @@
       "reason": "HTTP 503 Service Unavailable sur deux pages testees",
       "tested_date": "2026-09-08"
     },
+    "dubler.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Dubler Rechtsanwälte",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
     "ebd.ch": {
       "canton": "ZH",
       "firm_name": "EBD Rechtsanwälte AG",
@@ -458,12 +500,33 @@
       "firm_name": "Eigenmann Associés",
       "reason": "Siege principal a Lausanne (VD) ; aucune coordonnee ou fait specifique a l'antenne tessinoise (Locarno) confirme sur le site officiel"
     },
+    "elmaliah-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Dr. Katy Elmaliah, Attorneys",
+      "reason": "Identite incertaine : le cabinet 'Elmaliah Ozery & Co.' semble base en Israel/Allemagne, lien avec un bureau zurichois non confirme sur site propre (regle 5)"
+    },
     "erni-grab-partner-lu": {
       "_failed": true,
       "canton": "LU",
       "checked_date": "2026-09-08",
       "firm_name": "Erni Grab & Partner AG",
       "reason": "Communaute d'avocats avec lignes directes propres, aucun domaine de competence concret extrait (uniquement des formules generiques de mission) -- entree jugee non substantielle"
+    },
+    "erni-legal-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Erni Legal GmbH",
+      "reason": "Aucun site officiel dedie trouve, uniquement le registre du commerce"
+    },
+    "ernst-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Ernst Law GmbH",
+      "reason": "HTTP 503 Service Unavailable"
     },
     "ernst-partner-zh": {
       "_failed": true,
@@ -1060,6 +1123,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "RED Advice GmbH",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "reglaw.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltsbüro Roland Egli",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "reichle-stehle.ch": {
       "canton": "SG",
@@ -3087,6 +3157,25 @@
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
   },
+  "anwaltskanzlei-eshrefi.ch": {
+    "canton": "ZH",
+    "email": "info@anwaltskanzlei-eshrefi.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Eshrefi",
+    "phone": "+41 78 214 15 45",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Migrationsrecht",
+      "Mietrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Familienrecht",
+      "Schuldbetreibungsrecht",
+      "Geschädigtenvertretung"
+    ],
+    "source_url": "https://anwaltskanzlei-eshrefi.ch/kontakt/",
+    "team_size_n": 1
+  },
   "anwaltskanzlei-in-zuerich.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-10",
@@ -4093,6 +4182,14 @@
       "Notarial Services"
     ],
     "source_url": "https://beelermarbacher.ch/en/start-english/"
+  },
+  "belaw.ch": {
+    "canton": "ZH",
+    "email": "info@belaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "BE LAW AG",
+    "phone": "+41 43 888 64 10",
+    "source_url": "https://www.belaw.ch/contact"
   },
   "bellerive.com": {
     "canton": "ZH",
@@ -5888,6 +5985,14 @@
     ],
     "source_url": "https://www.dieadvokatur.ch/"
   },
+  "diemlaw.ch": {
+    "canton": "ZH",
+    "email": "zurich@diemlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Diem Law Advokatur",
+    "phone": "+41 (0)44 431 02 52",
+    "source_url": "https://www.diemlaw.ch/"
+  },
   "dietsche-law.ch": {
     "canton": "SG",
     "email": "info@dietsche-law.ch",
@@ -6065,6 +6170,22 @@
     ],
     "source_url": "https://dubach-law.ch/en/contact/"
   },
+  "dubs-legal.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@dubs-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Dubs Legal AG",
+    "phone": "+41 44 515 60 61",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Energierecht",
+      "Vertragsrecht",
+      "Mietrecht / Stockwerkeigentum",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.dubs-legal.ch/de/"
+  },
   "dufour-advokatur.ch": {
     "canton": "BS",
     "email": "basel@dufo.ch",
@@ -6140,6 +6261,15 @@
       "Notariat"
     ],
     "source_url": "https://www.engadin-law.ch/"
+  },
+  "engel-legal.ch": {
+    "canton": "ZH",
+    "email": "engel@engel-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Engel",
+    "phone": "+41 44 542 88 80",
+    "source_url": "https://www.engel-legal.ch/kontakt.html",
+    "team_size_n": 1
   },
   "engelberger.law": {
     "canton": "LU",
@@ -6222,6 +6352,28 @@
     ],
     "source_url": "http://www.era-rechtsanwaelte.ch/de/kanzlei.html"
   },
+  "erkenlaw.ch": {
+    "canton": "ZH",
+    "email": "eerken@erkenlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Erken",
+    "phone": "+41 79 444 39 08",
+    "source_url": "https://www.erkenlaw.ch/en/contact/",
+    "team_size_n": 1
+  },
+  "ermini-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Ermini AG",
+    "practice_areas_en": [
+      "Commercial & corporate law",
+      "Contractual work",
+      "Labor law",
+      "Licensing contracts and IT",
+      "Aviation and aerospace matters (aircraft lease, charter, sale and purchase and related financing)"
+    ],
+    "source_url": "https://www.ermini-law.ch/company_profile.html"
+  },
   "esteveslaw.ch": {
     "canton": "ZH",
     "email": "se@esteveslaw.ch",
@@ -6229,6 +6381,15 @@
     "firm_name": "Esteves Law",
     "phone": "+41 44 577 56 35",
     "source_url": "https://www.esteveslaw.ch/"
+  },
+  "etterlegal.ch": {
+    "canton": "ZH",
+    "email": "office@etterlegal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Boris Etter",
+    "phone": "043 497 86 01",
+    "source_url": "https://www.etterlegal.ch/Kontakt.htm",
+    "team_size_n": 1
   },
   "ettlersuter.ch": {
     "canton": "ZH",
@@ -6277,6 +6438,15 @@
       "Criminal law"
     ],
     "source_url": "https://ettwein.ch/en/"
+  },
+  "evenlaw.ch": {
+    "canton": "ZH",
+    "email": "me@evenlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Even Law",
+    "phone": "+41 (44) 545 3000",
+    "source_url": "https://www.evenlaw.ch/contact",
+    "team_size_n": 1
   },
   "eversheds-sutherland.com": {
     "_failed": true,
@@ -6379,6 +6549,15 @@
     "firm_name": "Fryberg Augustin Breitenmoser Partner",
     "phone": "081 258 55 17",
     "source_url": "https://fas-chur.ch/kontakt/"
+  },
+  "fd-anwaltskanzlei.ch": {
+    "canton": "ZH",
+    "email": "flavia.dudler@fd-anwaltskanzlei.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "FD Anwaltskanzlei AG",
+    "phone": "+41 44 860 38 15",
+    "source_url": "https://fd-anwaltskanzlei.ch/kontakt/",
+    "team_size_n": 1
   },
   "felderspaelti.ch": {
     "canton": "ZH",
