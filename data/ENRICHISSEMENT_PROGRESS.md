@@ -3912,3 +3912,32 @@ Tamburlini (aucun site propre, affiliation ambiguë).
 
 Rattachement : 1027 études rattachées au total (1008 → 1027, +19). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 22h03 UTC — Phase 3, lot 110 (exécution automatisée)
+
+**Canton SG entièrement épuisé** (0 fiche restante). Pivot vers le canton GR (108 fiches non
+traitées, largement inexploré). 27 fiches CSV traitées (16 succès / 10 échecs).
+
+Succès : Brändli Rechtsanwälte AG (2 dédoublonnages, membres Andri Bieger et Patricia Pleisch
+confirmés sur l'équipe) ; Blumenthal Advokatur (tel/email, 6 domaines) ; Studio legale Ilario
+Bondolfi (dédoublonnage avec `engadin-law.ch` -- **bureau de Chur distinct confirmé avec sa
+propre ligne**, séparé du siège de Samedan déjà en cache) ; Dupont Revesz Partner (email, 6
+domaines) ; Fryberg Augustin Breitenmoser Partner (dédoublonnage, ligne directe de Pius Fryberg)
+; Notariatsbüro Hess (tel/email, services notariaux) ; SwissLegal Lardi & Partner AG (bureau de
+Chur, tel/email et domaines spécifiques au bureau GR, séparé de l'entrée Bâle déjà en cache) ;
+Linde Law AG (bureau de Chur, tel spécifique, séparé de l'entrée Zurich déjà en cache) ; Ochsner
+Law (**fondée 2014**, tel/email, droit des marchés financiers) ; RAMMING Advokatur & Notariat
+(tel/email, droit de l'énergie) ; Ganzoni & Pedretti AG (dédoublonnage, Sonja Rothwangl-Bosshard
+confirmée sur l'équipe) ; Kanzlei Mirjam Steger (tel/email) ; Kanzlei Steinbacher (tel/email,
+droit de la famille) ; Nievergelt & Stoehr AG (dédoublonnage) ; Caviezel Thöny Cantieni
+Scarpatetti (tel/email, 8 domaines).
+
+Échecs : Reto Allenspach (**piège d'identité évité** -- le site liste Claudio Allenspach, pas
+Reto) ; Advocatur am Nicolai (site "coming soon") ; Marco Toller (a rejoint Kunz Schmid en 2020,
+adresse obsolète) ; Vital & Schucan, Wolfgang Wunderlich, Racioppi & Partner AG, Kanzlei am
+Martinsplatz (aucun site officiel propre) ; Kasper Advokatur, Advokaturbüro Elisabeth Roth
+(sites injoignables HTTP 503 x2 chacun) ; RTR Rechtsanwälte AG (coordonnées spécifiques à Arosa
+non confirmables, le site ne montre que Zurich).
+
+Rattachement : 1040 études rattachées au total (1027 → 1040, +13). Suite de tests : 94/94 au
+vert.
