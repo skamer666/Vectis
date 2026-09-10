@@ -27,6 +27,14 @@
     "source_url": "https://www.8630.ch/rechtsanwalt_kontakt",
     "team_size_n": 2
   },
+  "9450.ch": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "advokatur 9450",
+    "phone": "+41 71 757 30 30",
+    "source_url": "https://9450.ch/team",
+    "team_size_n": 5
+  },
   "_failed": {
     "4sightlegal.ch": {
       "canton": "ZH",
@@ -815,6 +823,13 @@
       "firm_name": "Eigenmann Associés",
       "reason": "Siege principal a Lausanne (VD) ; aucune coordonnee ou fait specifique a l'antenne tessinoise (Locarno) confirme sur le site officiel"
     },
+    "elias-zopfi-mels-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "lic.iur. Elias Zopfi, Rechtsanwalt und Notar",
+      "reason": "aucun site officiel propre identifie (contact via adresse gmail generique uniquement)"
+    },
     "elmaliah-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1236,6 +1251,13 @@
       "firm_name": "INDEMNIS",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "iuris-consulti-schlatter-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "iuris consulti gmbh c/o Grand & Nisple",
+      "reason": "site grandnisple.ch inaccessible (HTTP 503, 2 tentatives) ; impossible de confirmer si Andre Schlatter figure sur l'equipe officielle"
+    },
     "jackson-arnoldi-decristophoris-ti": {
       "_failed": true,
       "canton": "TI",
@@ -1407,6 +1429,13 @@
       "firm_name": "Kieser Senn Partner",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers (allbiz, cylex, pages24)"
     },
+    "klaus-schmuki-stgallen-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Schmuki Advokatur",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+    },
     "kleinlaw.ch": {
       "canton": "ZH",
       "firm_name": "Klein Rechtsanwälte AG",
@@ -1487,6 +1516,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltsbüro Kuprecht",
       "reason": "Aucun cabinet prive dedie trouve (Karolina Kuprecht exerce a la ZHAW, pas en etude privee)"
+    },
+    "kurt-steiner-stgallen-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Steiner Rechtsanwälte",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
     "landmann.ch": {
       "canton": "ZH",
@@ -1895,6 +1931,13 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "notarius-ag-wil-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "NOTARIUS AG",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
+    },
     "nplaw.ch": {
       "canton": "ZH",
       "firm_name": "NEUPERT VUILLE PARTNERS",
@@ -2024,6 +2067,13 @@
       "firm_name": "PRUDENTIA LAW",
       "reason": "Page d'accueil sans fait exploitable, /kontakt et /impressum en 404",
       "tested_date": "2026-09-07"
+    },
+    "psg-law-buchs-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Peyrot Schlegel Györffy Rechtsanwälte",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "quadra.law": {
       "canton": "ZH",
@@ -2403,6 +2453,13 @@
       "date": "2026-07-29",
       "firm_name": "Staiger Rechtsanwälte AG",
       "reason": "site JS rendu, contenu non accessible"
+    },
+    "staub-law-gossau-sg": {
+      "_failed": true,
+      "canton": "SG",
+      "checked_date": "2026-09-10",
+      "firm_name": "Staub Rechtsanwälte",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "stern-anwaltskanzlei-zh": {
       "_failed": true,
@@ -4442,6 +4499,14 @@
     ],
     "source_url": "https://www.amglaw.ch/en/contact"
   },
+  "amglaw.ch#2": {
+    "canton": "SG",
+    "email": "stgall@amglaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "AMG Rechtsanwälte AG Pestalozzistrasse 2",
+    "phone": "+41 71 224 90 00",
+    "source_url": "https://www.amglaw.ch/en/contact"
+  },
   "amiko.law": {
     "canton": "ZH",
     "email": "kanzlei@amiko.law",
@@ -5795,6 +5860,17 @@
     "source_url": "https://battaglioni-giovanettina.digitalone.site/",
     "team_size_n": 2
   },
+  "bau-recht.org": {
+    "canton": "SG",
+    "email": "advocatur@bau-recht.org",
+    "fetched_date": "2026-09-10",
+    "firm_name": "baurecht advokatur Trogenerstrasse 4",
+    "phone": "+41 71 595 03 30",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://www.bau-recht.org/"
+  },
   "bauanwalt.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -6977,6 +7053,19 @@
     "firm_name": "Bratschi AG",
     "founding_year": 2008,
     "notes": "Données issues du cache principal GE/VD (cabinet_web_enrichment.json).",
+    "practice_areas_fr": [
+      "Droit des affaires",
+      "Droit fiscal",
+      "Droit public"
+    ],
+    "source_url": "https://www.bratschi.ch/en/about-us",
+    "team_size_n": 120
+  },
+  "bratschi.ch#SG2": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Bratschi AG Vadianstrasse 44",
+    "founding_year": 2008,
     "practice_areas_fr": [
       "Droit des affaires",
       "Droit fiscal",
@@ -8200,6 +8289,20 @@
     "source_url": "https://ehlertzillig.ch/",
     "team_size_n": 2
   },
+  "eichbaum-recht.ch": {
+    "canton": "SG",
+    "email": "info@eichbaum-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "eichbaum recht Webergasse 15",
+    "phone": "+41 71 571 10 90",
+    "practice_areas_de": [
+      "Planungsrecht",
+      "Baurecht",
+      "Umweltrecht",
+      "allgemeines Verwaltungsrecht"
+    ],
+    "source_url": "https://www.eichbaum-recht.ch/kontakt/"
+  },
   "elenalanfranconi.ch": {
     "canton": "LU",
     "email": "el@elenalanfranconi.ch",
@@ -8543,6 +8646,14 @@
     ],
     "source_url": "https://www.falkenstein.ag/",
     "team_size_n": 4
+  },
+  "falkenstein.ag#2": {
+    "canton": "SG",
+    "email": "info@falkenstein.ag",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur am Falkenstein Falkensteinstrasse 1",
+    "phone": "071 242 66 50",
+    "source_url": "https://www.falkenstein.ag/"
   },
   "famplus.legal": {
     "canton": "ZH",
@@ -15137,6 +15248,14 @@
     "phone": "+41 (0)41 419 70 80",
     "source_url": "https://www.rechtsanwalt-luzern.ch/en/contact"
   },
+  "rechtsanwalt-stabile.ch": {
+    "canton": "SG",
+    "email": "info@rechtsanwalt-stabile.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Rechtsanwalt Stabile GmbH",
+    "phone": "+41 76 675 90 95",
+    "source_url": "https://rechtsanwalt-stabile.ch/"
+  },
   "rechtsanwalthoffmann.ch": {
     "canton": "ZH",
     "email": "daniel.hoffmann@rechtsanwalthoffmann.ch",
@@ -16268,6 +16387,19 @@
     ],
     "source_url": "https://schmidt-gabain.ch/taetigkeitsbereiche"
   },
+  "schneeberger.legal": {
+    "canton": "SG",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Schneeberger Legal",
+    "founding_year": 2025,
+    "practice_areas_de": [
+      "Künstliche Intelligenz",
+      "Datenschutz",
+      "digitale Geschäftsmodelle",
+      "Legal-Tech-Beratung"
+    ],
+    "source_url": "https://www.schneeberger.legal/about"
+  },
   "schneiderheusi.ch": {
     "canton": "ZH",
     "email": "csh@schneiderheusi.ch",
@@ -16342,6 +16474,14 @@
     "practice_areas_fr": [],
     "source_url": "https://schochauer.ch/en/company/",
     "team_size_n": null
+  },
+  "schochmaier.ch": {
+    "canton": "SG",
+    "email": "info@schochmaier.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "SchochMaierPartner",
+    "phone": "+41 71 274 19 19",
+    "source_url": "https://www.schochmaier.ch/team"
   },
   "schoenmannlaw.ch": {
     "canton": "ZH",
@@ -16998,6 +17138,14 @@
     "source_url": "https://www.steurifisch.ch/",
     "team_size_n": null
   },
+  "steurifisch.ch#2": {
+    "canton": "SG",
+    "email": "info@steurifisch.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Steuri Fisch AG",
+    "phone": "+41 71 511 45 05",
+    "source_url": "https://www.steurifisch.swiss/de/standorte/wil"
+  },
   "stplaw.ch": {
     "canton": "ZH",
     "email": "info@stplaw.ch",
@@ -17096,6 +17244,21 @@
       "Consulenza aziendale"
     ],
     "source_url": "https://www.studio-legale.ch/"
+  },
+  "studio-legis.ch": {
+    "canton": "SG",
+    "email": "office@studio-legis.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Schöbi Studio Legis AG",
+    "phone": "+41 71 510 49 20",
+    "practice_areas_de": [
+      "Erbrecht und Nachfolge",
+      "Gesellschafts- und Vertragsrecht",
+      "Bau- und Immobilienrecht",
+      "Steuerrecht",
+      "Notariat"
+    ],
+    "source_url": "https://studio-legis.ch/"
   },
   "studiocasonidelco.ch": {
     "canton": "TI",
@@ -18509,6 +18672,19 @@
     ],
     "source_url": "https://wehrenberg-law.ch/"
   },
+  "wehrleadvokatur.ch": {
+    "canton": "SG",
+    "email": "info@wehrleadvokatur.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Wehrle Advokatur GmbH Haus zum Anker",
+    "phone": "+41 71 552 05 02",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Streitbeilegung und Gerichtsvertretung",
+      "Mediation"
+    ],
+    "source_url": "https://www.wehrleadvokatur.ch/"
+  },
   "weidmann-law.ch": {
     "canton": "ZH",
     "email": "info@weidmann-law.ch",
@@ -19133,6 +19309,25 @@
       "IBA Rules of Evidence, 2nd ed. (2022, co-author)"
     ],
     "source_url": "https://zuberbuehler-arbitration.ch/"
+  },
+  "zuegerlaw.ch": {
+    "canton": "SG",
+    "email": "office@zuegerlaw.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "ZÜGER LAW",
+    "phone": "+41 71 552 09 09",
+    "practice_areas_de": [
+      "Asset Management",
+      "Compliance Services",
+      "Corporate and Commercial Law",
+      "Data Protection & Digital Economy",
+      "Employment Law",
+      "FinTech, Crypto, Blockchain",
+      "M&A / Corporate Finance",
+      "Real Estate",
+      "Startup Consulting"
+    ],
+    "source_url": "https://zuegerlaw.ch/contact/"
   },
   "zulauflegal.ch": {
     "canton": "ZH",

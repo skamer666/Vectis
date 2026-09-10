@@ -3854,3 +3854,30 @@ Dr. Fortis Law AG (dédoublonnages d'échecs déjà connus) ; Wicki Rechtsanwäl
 distincte de Purtschert Wicki, aucun site propre confirmé).
 
 Rattachement : 995 études rattachées au total (986 → 995, +9). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 20h02 UTC — Phase 3, lot 108 (exécution automatisée)
+
+Canton LU quasi épuisé (11 fiches restantes, noms génériques/tronqués difficiles à
+identifier) : pivot vers le canton SG (50 fiches non traitées). 20 fiches CSV traitées
+(13 succès / 7 échecs). **Barre des 1000 études rattachées franchie.**
+
+Succès : advokatur 9450 (**5 avocats confirmés** sur la page équipe -- Frei, Steger, Senti,
+Strauch, Zünd --, tel) ; Advokatur am Falkenstein (dédoublonnage, variante avec adresse dans le
+nom CSV) ; AMG Rechtsanwälte AG (dédoublonnage) ; eichbaum recht (tel/email, droit de
+l'aménagement/construction/environnement) ; baurecht advokatur (tel/email, Benedikt Fässler
+confirmé sur la page équipe, droit de la construction) ; ZÜGER LAW (tel/email, large éventail de
+domaines) ; Wehrle Advokatur GmbH (tel/email, droit civil) ; Steuri Fisch AG (dédoublonnage,
+variante orthographe avec espace, Kim Ana Wegmann confirmée sur l'équipe) ; Schöbi Studio Legis
+AG (tel/email, droit successoral/construction/fiscal) ; SchochMaierPartner (tel/email, Jörg
+Schoch confirmé sur la page équipe) ; Schneeberger Legal (**fondée mai 2025** -- déclaration
+explicite sur le site --, droit de l'IA/protection des données) ; Rechtsanwalt Stabile GmbH
+(tel/email) ; Bratschi AG (dédoublonnage, variante avec adresse dans le nom CSV, réutilise les
+données SG déjà vérifiées).
+
+Échecs : lic.iur. Elias Zopfi (aucun site officiel, contact gmail uniquement) ; iuris consulti
+gmbh c/o Grand & Nisple (site grandnisple.ch injoignable HTTP 503 x2) ; Steiner Rechtsanwälte,
+Schmuki Advokatur (aucun site officiel propre) ; Staub Rechtsanwälte, Peyrot Schlegel Györffy
+Rechtsanwälte, NOTARIUS AG (sites injoignables HTTP 503 x2 chacun).
+
+Rattachement : 1008 études rattachées au total (995 → 1008, +13). Suite de tests : 94/94 au
+vert.
