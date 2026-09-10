@@ -3721,3 +3721,31 @@ Rechtsanwälte AG (**piège d'identité évité** -- adresse CSV du bureau de Wi
 divergente de celle confirmée).
 
 Rattachement : 923 études rattachées au total (914 → 923, +9). Suite de tests : 94/94 au vert.
+
+### 2026-09-10 15h04 UTC — Phase 3, lot 103 (exécution automatisée)
+
+Bascule vers le canton LU (pool SG quasi épuisé, 40 restants). 23 fiches CSV traitées (18
+succès / 5 échecs) — excellent taux grâce aux adresses CSV précises facilitant la
+désambiguïsation.
+
+Succès : Anwaltsbüro Dr. Hubert Achermann, advolaw GmbH Grossmatte, Anwaltsbüro & Notariat
+Anderhub (tel/email) ; Bachmann Rechtsanwälte Luzern AG (dédoublonnage avec `swanlex.ch` déjà
+vérifié, tel/email, 5 domaines DE) ; Anwaltskanzlei Bachmann GmbH (**fondée 2021**, tel/email) ;
+Anwaltskanzlei Bärtschi (**fondée 2011**, tel/email, droit aérien) ; Böhni Rechtsanwälte GmbH
+(continuité confirmée vers ADLEGEM via même téléphone, tel/email) ; Bolzern Haas & Partner AG
+(dédoublonnage, tel/email, 9 domaines DE) ; Kanzlei Luzernerstrasse Kriens (**4 avocats**,
+tel, 5 domaines) ; Claudia Brun Advokatur & Notariat (tel, 9 domaines DE) ; Stadelmann
+Advokatur & Notariat AG (dédoublonnage, tel/email, 5 domaines) ; Advocatura Cetin (tel/2 emails,
+3 domaines) ; Lex Futura AG (dédoublonnage sous une entrée LU distincte, **8 collaborateurs**,
+tel/email, 7 domaines) ; Djaferri Rechtsanwälte (tel/email, 9 domaines) ; Anwaltskanzlei Dollé
+(tel/email) ; Hess Advokatur AG (bureau Lucerne, tel) ; Anwaltskanzlei Erni (**fondée 2013**,
+tel/email, 4 domaines) ; Erwin Grüter - Dr. Christoph Meier Rechtsanwälte und Notare (tel/email,
+adresse confirmée exacte).
+
+Échecs : Andenmatten Notariat & Advokatur GmbH (aucun site officiel) ; Advokatur Andreas
+Bachmann AG, lic. Advokatur Daniel Bühlmann, Dr. Rolf Bründler, Elvira Falck (**pièges
+d'identité évités** -- adresses CSV ne correspondant à aucune des adresses trouvées pour ces
+noms).
+
+Rattachement : 941 études rattachées au total (923 → 941, +18). Suite de tests : 94/94 au
+vert.

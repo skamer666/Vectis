@@ -288,6 +288,13 @@
       "firm_name": "Zeller Dettwiler Advokatur & Notariat",
       "reason": "Site accessible mais aucun tel/email exploitable, uniquement une formule generique de mission"
     },
+    "andenmatten-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Andenmatten Notariat & Advokatur GmbH",
+      "reason": "Aucun site officiel propre identifie (entite recemment enregistree, mars 2026), uniquement des fiches de registre"
+    },
     "animus-sg": {
       "_failed": true,
       "canton": "SG",
@@ -381,6 +388,13 @@
       "firm_name": "BAADER Rechtsanwälte AG",
       "reason": "HTTP 403 Forbidden au fetch",
       "tested_date": "2026-09-06"
+    },
+    "bachmann-andreas-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Andreas Bachmann AG",
+      "reason": "piege d'identite evite -- adresse CSV (Falkengasse 3) ne correspond pas a l'adresse trouvee (Dreilindenstrasse 54a)"
     },
     "bachmann.law": {
       "canton": "ZH",
@@ -525,6 +539,13 @@
       "firm_name": "Advokatur Anna Braun",
       "reason": "HTTP 503 Service Unavailable -- meme cause que l'entree existante braunlaw.ch pour une autre ligne CSV du meme cabinet"
     },
+    "bruendler-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "LL.M. Anwaltskanzlei Dr. Rolf Bründler",
+      "reason": "piege d'identite evite -- adresse CSV (Gundoldingenstrasse 7) ne correspond pas aux adresses trouvees (Mariahilfgasse 9 / Kapellgasse 16) ; site officiel injoignable (HTTP 503)"
+    },
     "brunnergehrig.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -538,6 +559,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Büchi Anwaltsbüro",
       "reason": "Identite confirmee (Fürstenlandstrasse 39, Wil) mais aucun site officiel identifie, uniquement une fiche d'annuaire (phone connu, pas d'email)"
+    },
+    "buhlmann-daniel-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "lic. oec. publ. et lic. iur. Advokatur Daniel Bühlmann",
+      "reason": "piege d'identite evite -- adresse CSV (Neumattstrasse 29, Horw) ne correspond pas a l'adresse trouvee (Jegerlehnerweg 5, Kriens)"
     },
     "burns.legal": {
       "_failed": true,
@@ -792,6 +820,13 @@
       "firm_name": "Eversheds Sutherland AG",
       "reason": "contenu vide, rendu JavaScript probable (site global)",
       "tested_date": "2026-07-28"
+    },
+    "falck-lu": {
+      "_failed": true,
+      "canton": "LU",
+      "checked_date": "2026-09-10",
+      "firm_name": "Elvira Falck I Recht und Mediation",
+      "reason": "piege d'identite evite -- Elvira Falck n'apparait pas dans l'equipe de Pilatushof AG (site officiel), adresse CSV (Kapellplatz 12) ne correspond pas non plus"
     },
     "fausch-schenkel-zh": {
       "_failed": true,
@@ -2838,6 +2873,17 @@
     ],
     "source_url": "https://adexas.com/"
   },
+  "adlegem.ch": {
+    "canton": "LU",
+    "email": "boehni@adlegem.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Böhni Rechtsanwälte GmbH",
+    "phone": "+41 41 227 51 00",
+    "practice_areas_de": [
+      "IT-, Datenschutz-, Immaterialgüter- und Vertragsrecht"
+    ],
+    "source_url": "https://www.adlegem.ch/"
+  },
   "adlexa.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-10",
@@ -3021,6 +3067,19 @@
     "phone": "+41 71 855 77 66",
     "source_url": "https://www.advocat.ch/"
   },
+  "advocatura.ch": {
+    "canton": "LU",
+    "email": "cetin@advocatura.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advocatura Cetin",
+    "phone": "+41 41 552 26 66",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Privatrecht",
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://advocatura.ch/"
+  },
   "advocentral.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -3113,6 +3172,24 @@
     ],
     "source_url": "https://www.advokatenliestal.ch/",
     "team_size_n": 3
+  },
+  "advokatinnen.com": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "CLAUDIA BRUN ADVOKATUR & NOTARIAT",
+    "phone": "041 340 94 20",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Miet- und Pachtrecht",
+      "Erbrecht",
+      "Notariat",
+      "Haftpflicht- und Versicherungsrecht",
+      "Ärztehaftpflichtrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://www.advokatinnen.com/taetigkeit/"
   },
   "advokatur-allschwil.ch": {
     "canton": "BL",
@@ -3686,6 +3763,13 @@
     ],
     "source_url": "https://advokramer.ch/"
   },
+  "advolaw.ch#LU": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "advolaw GmbH Grossmatte",
+    "phone": "+41 41 460 55 33",
+    "source_url": "https://advolaw.ch/kontakt/"
+  },
   "advolippuner.ch": {
     "canton": "SG",
     "email": "lippuner@advolippuner.ch",
@@ -4172,6 +4256,14 @@
     "phone": "+41 41 229 60 00",
     "source_url": "https://amrein-partner.ch/kontakt/"
   },
+  "anderhub-recht.ch": {
+    "canton": "LU",
+    "email": "mail@anderhub-recht.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro & Notariat Anderhub",
+    "phone": "+41 41 558 82 82",
+    "source_url": "https://www.anderhub-recht.ch/Kanzlei.html"
+  },
   "anker24.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4237,6 +4329,21 @@
     "source_url": "https://www.anwaelte-hgs.ch/en/1342-2/",
     "team_size_n": null
   },
+  "anwaelte-kriens.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Kanzlei Luzernerstrasse Kriens",
+    "phone": "+41 41 318 40 60",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Arbeits- und Personalrecht",
+      "Bau- und Planungsrecht",
+      "Vertrags- und Gesellschaftsrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.anwaelte-kriens.ch/",
+    "team_size_n": 4
+  },
   "anwaelte-wil.ch": {
     "canton": "SG",
     "email": "info@anwaelte-wil.ch",
@@ -4295,6 +4402,15 @@
     "source_url": "https://www.anwalt-pfister.ch/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Christoph Pfister), Fachanwalt SAV Erbrecht (Christoph Pfister)",
     "team_size_n": 2
+  },
+  "anwalt-sursee.ch": {
+    "canton": "LU",
+    "email": "sandra.bachmann@anwalt-sursee.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Bachmann GmbH",
+    "founding_year": 2021,
+    "phone": "+41 41 920 40 41",
+    "source_url": "https://www.anwalt-sursee.ch/kontakt"
   },
   "anwalt-wald.ch": {
     "canton": "ZH",
@@ -4447,6 +4563,21 @@
     ],
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
+  },
+  "anwaltskanzlei-erni.ch": {
+    "canton": "LU",
+    "email": "erni@anwaltskanzlei-erni.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Erni",
+    "founding_year": 2013,
+    "phone": "+41 79 473 91 56",
+    "practice_areas_de": [
+      "Kindesrecht",
+      "Kindesschutzrecht",
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht"
+    ],
+    "source_url": "https://anwaltskanzlei-erni.ch/"
   },
   "anwaltskanzlei-eshrefi.ch": {
     "canton": "ZH",
@@ -5038,6 +5169,18 @@
     ],
     "source_url": "https://www.baerkarrer.ch/en/about",
     "team_size_n": 200
+  },
+  "baertschi-legal.ch": {
+    "canton": "LU",
+    "email": "baertschi@baertschi-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Bärtschi",
+    "founding_year": 2011,
+    "phone": "+41 41 419 40 90",
+    "practice_areas_de": [
+      "Luftfahrtrecht"
+    ],
+    "source_url": "https://www.baertschi-legal.ch/kanzlei"
   },
   "bahnhofstrasse58.ch": {
     "canton": "ZH",
@@ -5828,6 +5971,25 @@
     "source_url": "https://www.bhup.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "bhup.ch#2": {
+    "canton": "LU",
+    "email": "info@bhup.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "HSG Bolzern Haas & Partner AG",
+    "phone": "+41 41 410 05 55",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Gesellschaftsrecht und M&A",
+      "Erbrecht und Nachlassplanung",
+      "Ehe- und Familienrecht",
+      "Vertragsrecht",
+      "Bau- und Planungsrecht",
+      "Strafrecht",
+      "Haftpflicht- und Sozialversicherungsrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.bhup.ch/"
   },
   "bihrerlaw.ch": {
     "canton": "ZH",
@@ -7428,6 +7590,25 @@
     ],
     "source_url": "https://dietsche-law.ch/kontakt/"
   },
+  "djaferri-law.ch": {
+    "canton": "LU",
+    "email": "lda@djaferri-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Djaferri Rechtsanwälte",
+    "phone": "+41 79 340 95 95",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Erbrecht",
+      "Sachenrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Ausländerrecht",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://djaferri-law.ch/"
+  },
   "dobler-ra.ch": {
     "canton": "SZ",
     "email": "info@dobler-ra.ch",
@@ -7448,6 +7629,14 @@
     "source_url": "https://www.dolderzuest.ch/kanzlei/",
     "specialist_certification": "Fachanwalt SAV Familienrecht (les trois avocats du cabinet)",
     "team_size_n": 3
+  },
+  "dolle.ch": {
+    "canton": "LU",
+    "email": "webinfo@dolle.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Dollé",
+    "phone": "+41 41 420 44 44",
+    "source_url": "https://dolle.ch/kontakt/"
   },
   "droxler.ch": {
     "canton": "SZ",
@@ -9156,6 +9345,14 @@
     ],
     "source_url": "https://www.gruendler-partner.ch/de/"
   },
+  "grueter-e.ch": {
+    "canton": "LU",
+    "email": "grueter@grueter-e.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Erwin Grüter - Dr. Christoph Meier Rechtsanwälte und Notare",
+    "phone": "041 227 19 90",
+    "source_url": "https://www.grueter-e.ch/"
+  },
   "gslaw.ch": {
     "canton": "ZH",
     "email": "info@gslaw.ch",
@@ -9603,6 +9800,13 @@
     "source_url": "https://www.hess-advokatur.ch/",
     "team_size_n": null
   },
+  "hess-advokatur.ch#LU": {
+    "canton": "LU",
+    "fetched_date": "2026-09-10",
+    "firm_name": "utr. iur. Hess Advokatur AG",
+    "phone": "041 924 11 00",
+    "source_url": "https://www.hess-advokatur.ch/de/kontakt"
+  },
   "heuberger-rippmann-hoffmann.ch": {
     "canton": "ZH",
     "email": "info.hrh@bluewin.ch",
@@ -9820,6 +10024,14 @@
       "Erbrecht"
     ],
     "source_url": "https://www.htlaw.ch/"
+  },
+  "hubertachermann.ch": {
+    "canton": "LU",
+    "email": "hubertachermann@lunag.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Dr. Hubert Achermann",
+    "phone": "+41 79 204 63 29",
+    "source_url": "https://www.hubertachermann.ch/"
   },
   "hueberli.com": {
     "canton": "SG",
@@ -11946,6 +12158,24 @@
       "Digitalization"
     ],
     "source_url": "https://www.lexfutura.ch/"
+  },
+  "lexfutura.ch#LU": {
+    "canton": "LU",
+    "email": "info@lexfutura.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "M.A. HSG Lex Futura AG",
+    "phone": "+41 41 541 92 20",
+    "practice_areas_de": [
+      "Technologie und Venture",
+      "Digitalisierung und Technologie",
+      "Fusionen und Akquisitionen",
+      "IP-Strategie",
+      "Regulierung",
+      "Gründung",
+      "Finanzierungsrunden"
+    ],
+    "source_url": "https://www.lexfutura.ch/",
+    "team_size_n": 8
   },
   "leximpact.ch": {
     "canton": "ZH",
@@ -15851,6 +16081,21 @@
     "source_url": "https://stadelmann-law.ch/",
     "team_size_n": null
   },
+  "stadelmann-law.ch#2": {
+    "canton": "LU",
+    "email": "mail@stadelmann-law.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "M.A. HSG Stadelmann Advokatur & Notariat AG",
+    "phone": "041 211 30 30",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Mediation"
+    ],
+    "source_url": "https://stadelmann-law.ch/"
+  },
   "stadelmann.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -16142,6 +16387,21 @@
     "firm_name": "Lischer Zemp & Partner St.",
     "phone": "+41 41 410 14 16",
     "source_url": "https://swanlex.ch/"
+  },
+  "swanlex.ch#2": {
+    "canton": "LU",
+    "email": "reto.bachmann@swanlex.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Bachmann Rechtsanwälte Luzern AG St.",
+    "phone": "+41 41 410 81 80",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Haftpflichtrecht",
+      "Arbeitsrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://swanlex.ch/staff-member/lic-iur-reto-bachmann/"
   },
   "swiss-banking-lawyers.com": {
     "canton": "ZH",
