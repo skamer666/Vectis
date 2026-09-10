@@ -3367,3 +3367,29 @@ Advokatur" trouvé est basé à Fürstenau GR, pas à Zurich, continuité non co
 
 Rattachement : 782 études rattachées au total (774 → 782, +8). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-10 00h03 UTC — Phase 3, lot 88 (exécution automatisée)
+
+20 cabinets traités (11 succès / 8 échecs), dont un dédup, poursuite du balayage alphabétique
+ZH (lettres A-D).
+
+Succès : Anwaltskanzlei Aslantas (tel×2/email, 5 domaines DE) ; Anwaltskanzlei-in-Zuerich.ch
+Brandon-Kaufmann (tel) ; Cahenzli Reich Rechtsanwälte (2 avocats, tel, 8 domaines DE) ; Capt
+Rechtsanwälte (fondée **2025** -- nouvelle entité indépendante depuis l'été 2025 après
+séparation de l'ancien cabinet joint Capt Zollinger, tel) ; CAVEGN Rechtsanwalt (tel/email, 3
+domaines DE) ; CHANSON Anwalt (titre **Fachanwalt SAV Arbeitrecht**) ; Advokatur Cohen (fondée
+**2018**, tel/email) ; Comboeuf Rechtsanwälte (tel/email, droit économique) ; **dédupliqué**
+Künzi Hess MacNab (le CSV référence ce cabinet une 2e fois sans le suffixe "Rechtsanwälte",
+réutilisation des faits déjà vérifiés) ; Daljipi Advokatur (tel/email, 14 domaines DE) ; Delnon
+Rechtsanwälte (fondée **1983**, 7 domaines DE) ; Anwaltsbüro Dettling-Ott (tel/email, droit
+aérien).
+
+Échecs : Brunner Gehrig Rechtsanwälte (HTTP 500) ; Anwaltskanzlei Butz-Weber (HTTP 503) ; Alex
+de Capitani Rechtsanwalt (vérification anti-bot) ; Anwaltskanzlei Cadosch (**piège d'identité
+évité** -- seuls des cabinets homonymes à Berne et Bülach trouvés, aucun à Zurich) ; M C E
+Rechtsanwälte, Anwaltskanzlei Cantieni, de Beer Rechtsanwälte (aucun site officiel dédié) ;
+Advokatur Anna Braun (HTTP 503, même cabinet qu'une entrée déjà en échec sous une autre ligne
+CSV).
+
+Rattachement : 794 études rattachées au total (782 → 794, +12). Suite de tests : 94/94 au
+vert.

@@ -343,6 +343,20 @@
       "firm_name": "Braun Advokatur + Steuern",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "braunlaw.ch#2": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Advokatur Anna Braun",
+      "reason": "HTTP 503 Service Unavailable -- meme cause que l'entree existante braunlaw.ch pour une autre ligne CSV du meme cabinet"
+    },
+    "brunnergehrig.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Brunner Gehrig Rechtsanwälte",
+      "reason": "HTTP 500 Internal Server Error"
+    },
     "burns.legal": {
       "_failed": true,
       "canton": "ZH",
@@ -350,12 +364,33 @@
       "firm_name": "Burns Legal",
       "reason": "Contenu HTML statique insuffisant sur 2 pages testees (accueil, services) -- rendu JS probable"
     },
+    "butz-weber.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Butz-Weber",
+      "reason": "HTTP 503 Service Unavailable"
+    },
+    "cadosch-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Cadosch",
+      "reason": "Piege d'identite : les seuls cabinets 'Cadosch' trouves sont a Berne et Bulach, aucun a Zurich (regle 5)"
+    },
     "calo-partners-zh": {
       "_failed": true,
       "canton": "ZH",
       "checked_date": "2026-09-09",
       "firm_name": "Calò Partners AG",
       "reason": "Aucun site officiel trouve, seul le registre du commerce (Moneyhouse)"
+    },
+    "cantieni-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Anwaltskanzlei Cantieni",
+      "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
     },
     "caplex.ch": {
       "_failed": true,
@@ -370,6 +405,20 @@
       "checked_date": "2026-09-08",
       "firm_name": "Studio legale e notarile Cereghetti",
       "reason": "Identite ambigue -- au moins deux etudes distinctes portant le nom Cereghetti au Tessin (Katia Cereghetti Soldini a Chiasso, et Claudio Cereghetti & Partner), rattachement au bon site non confirme"
+    },
+    "de-beer-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "de Beer Rechtsanwälte",
+      "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
+    },
+    "decapitani-law.ch": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "Alex de Capitani Rechtsanwalt",
+      "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
     "drplegal.ch": {
       "_failed": true,
@@ -800,6 +849,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "MBR Rechtsanwälte / Attorneys at Law",
       "reason": "Identite incertaine -- seul un cabinet homonyme partiel 'mbh Law' (meme adresse Beethovenstrasse 5) trouve, orthographe differente (MBR vs MBH), lien decline"
+    },
+    "mce-rechtsanwaelte-zh": {
+      "_failed": true,
+      "canton": "ZH",
+      "checked_date": "2026-09-10",
+      "firm_name": "M C E Rechtsanwälte",
+      "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
     },
     "meisser-haller-zh": {
       "_failed": true,
@@ -1824,6 +1880,16 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://www.advocentral.ch/kontakt"
+  },
+  "advocohen.ch": {
+    "canton": "ZH",
+    "email": "ec@advocohen.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Advokatur Cohen",
+    "founding_year": 2018,
+    "phone": "044 201 13 33",
+    "source_url": "https://www.advocohen.ch/profil.html",
+    "team_size_n": 1
   },
   "advogar.ch": {
     "canton": "ZH",
@@ -3021,6 +3087,14 @@
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
   },
+  "anwaltskanzlei-in-zuerich.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei-in-Zuerich.ch Brandon-Kaufmann",
+    "phone": "044 362 09 24",
+    "source_url": "https://www.anwaltskanzlei-in-zuerich.ch/",
+    "team_size_n": 1
+  },
   "anwaltskanzlei-zuerichsee.ch": {
     "canton": "SZ",
     "email": "info@ak-see.ch",
@@ -3083,6 +3157,13 @@
     "firm_name": "Apex Legal GmbH",
     "phone": "+41 44 721 11 00",
     "source_url": "https://www.apexlegal.ch/"
+  },
+  "arbeitsrechtler.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "CHANSON Anwalt",
+    "source_url": "https://www.arbeitsrechtler.ch/",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht"
   },
   "areum.ch": {
     "canton": "GR",
@@ -3149,6 +3230,21 @@
       "Transaktionsrecht"
     ],
     "source_url": "https://arvedelis.ch/de/kontakt/"
+  },
+  "aslantas.ch": {
+    "canton": "ZH",
+    "email": "info@aslantas.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltskanzlei Aslantas",
+    "phone": "+41 (0) 58 510 83 60",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Rechtshilfe (international)",
+      "Militärstrafrecht",
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.aslantas.ch/kontakt"
   },
   "asylex.org": {
     "canton": "ZH",
@@ -5214,6 +5310,32 @@
     ],
     "source_url": "https://cahannes.ch/"
   },
+  "cahenzli-reich.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Cahenzli Reich Rechtsanwälte",
+    "phone": "+41 (0)44 834 12 04",
+    "practice_areas_de": [
+      "Arbeits- und Personalrecht",
+      "Allgemeines Vertrags- und Handelsrecht",
+      "Versicherungsrecht",
+      "Persönlichkeits-, Firmen- und Namensrecht",
+      "Strassenverkehrsrecht",
+      "Straf- und Jugendstrafrecht",
+      "Erbrecht",
+      "Immobilien und Nachbarrecht"
+    ],
+    "source_url": "https://cahenzli-reich.ch/",
+    "team_size_n": 2
+  },
+  "captlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Capt Rechtsanwälte",
+    "founding_year": 2025,
+    "phone": "044 244 81 25",
+    "source_url": "https://www.captlaw.ch/"
+  },
   "cattaneopostizzi.ch": {
     "canton": "TI",
     "email": "info@cattaneopostizzi.ch",
@@ -5232,6 +5354,20 @@
     ],
     "source_url": "https://www.cattaneopostizzi.ch/",
     "team_size_n": 2
+  },
+  "cavegnlegal.ch": {
+    "canton": "ZH",
+    "email": "cavegn@cavegnlegal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "CAVEGN Rechtsanwalt",
+    "phone": "+41 44 252 52 20",
+    "practice_areas_de": [
+      "Privatrecht",
+      "Wirtschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.cavegnlegal.ch/",
+    "team_size_n": 1
   },
   "cavelti-wernli.ch": {
     "canton": "AR",
@@ -5435,6 +5571,17 @@
     "phone": "+41 91 961 82 10",
     "source_url": "http://www.colombomameli.ch/"
   },
+  "comboeuf-legal.ch": {
+    "canton": "ZH",
+    "email": "info@comboeuf-legal.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Comboeuf Rechtsanwälte",
+    "phone": "+41(0)445211008",
+    "practice_areas_de": [
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.comboeuf-legal.ch/"
+  },
   "consavo.com": {
     "canton": "ZH",
     "email": "legal@consavo.com",
@@ -5609,6 +5756,31 @@
     "source_url": "https://www.daetwyleradvokatur.ch/Kontakt.htm",
     "team_size_n": 1
   },
+  "daljipi.ch": {
+    "canton": "ZH",
+    "email": "info@daljipi.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Daljipi Advokatur",
+    "phone": "076 399 98 09",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Haftpflichtrecht",
+      "Internationales Recht",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Opferhilferecht",
+      "Personalrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Versicherungsrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://daljipi.ch/",
+    "team_size_n": 1
+  },
   "davatzlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -5639,6 +5811,35 @@
     ],
     "source_url": "https://dbp.ch/en/hotel.php",
     "team_size_n": 8
+  },
+  "delnon.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Delnon Rechtsanwälte",
+    "founding_year": 1983,
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Menschenrecht",
+      "Verfassungsrecht",
+      "Datenschutz",
+      "Medienrecht",
+      "Komplementärmedizin"
+    ],
+    "source_url": "https://www.delnon.com/de/"
+  },
+  "dettling-ott.ch": {
+    "canton": "ZH",
+    "email": "office@dettling-ott.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Anwaltsbüro Dettling-Ott",
+    "phone": "+41 (0) 52 269 09 29",
+    "practice_areas_de": [
+      "Luftrecht",
+      "Luftfahrtpolitik"
+    ],
+    "source_url": "https://www.dettling-ott.ch/",
+    "team_size_n": 1
   },
   "devonlegal.ch": {
     "canton": "ZH",
@@ -8383,6 +8584,27 @@
       "Digital Economy"
     ],
     "source_url": "https://khm-partners.ch/?lang=en"
+  },
+  "khm-partners.ch#2": {
+    "canton": "ZH",
+    "email": "info@khm-partners.ch",
+    "fetched_date": "2026-09-10",
+    "firm_name": "Künzi Hess MacNab",
+    "phone": "+41 44 420 19 20",
+    "practice_areas_en": [
+      "Banking Law and Capital Markets Law",
+      "Financial Market Infrastructures Law",
+      "Collective Investment Schemes",
+      "Structured Products",
+      "Financing",
+      "Asset management",
+      "Suitability & appropriateness procedures",
+      "Prevention of Money Laundering",
+      "DLT, Blockchain, FinTech",
+      "Digital Economy"
+    ],
+    "source_url": "https://khm-partners.ch/?lang=en",
+    "team_size_n": 5
   },
   "killiaslegler.ch": {
     "canton": "ZH",
