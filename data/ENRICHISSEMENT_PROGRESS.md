@@ -3967,3 +3967,25 @@ Saratz (sites injoignables DNS x2 chacun) ; Rainer Metzger (site injoignable HTT
 
 Rattachement : 1056 études rattachées au total (1040 → 1056, +16). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-11 00h03 UTC — Phase 3, lot 112 (exécution automatisée)
+
+Poursuite du canton GR (majoritairement des avocats indépendants isolés à Chur/St-Moritz avec
+peu de présence web propre -- rendement plus faible que les lots précédents). 30 fiches CSV
+traitées (6 succès / 24 échecs).
+
+Succès : Advokaturbüro Irmgard Camenisch (**fondée 1989**, tel/email, 4 domaines) ; Advokatur
+Lardi (tel/email, 5 domaines -- entité distincte de SwissLegal Lardi & Partner déjà en cache,
+adresse différente) ; Advokatur und Notariat Lazzarini (tel) ; Advokaturbüro Marco Pool
+(**fondée 1987**, tel/email, 10 domaines) ; Advokaturbüro Ladina Sturzenegger (**fondée
+01.11.2017**) ; Advokatur Vogel (tel/email, 10 domaines).
+
+Échecs : la grande majorité (19 cabinets) n'a aucun site officiel propre identifié (uniquement
+annuaires tiers -- profil très répandu pour les avocats individuels ruraux/de montagne du
+canton) ; 5 sites injoignables (HTTP 503/DNS x2 chacun) ; Advokatur Weidinger (**piège
+d'identité évité** -- l'adresse correspond à Weidinger Conception AG, pas une étude d'avocats) ;
+Advokaturbüro Claudio Rupp (ambiguïté avec Rupp Treuhand AG) ; Advokaturbüro Marugg (site en
+construction) ; J.F. Sprecher (adresse potentiellement obsolète, bureau Zurich trouvé).
+
+Rattachement : 1062 études rattachées au total (1056 → 1062, +6). Suite de tests : 94/94 au
+vert.

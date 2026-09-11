@@ -509,6 +509,13 @@
       "firm_name": "Anwaltskanzlei lic. iur. Semsettin Bastimar",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
     },
+    "battaglia-samedan-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Josi Battaglia",
+      "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+    },
     "baurecht-advocatur-sg": {
       "_failed": true,
       "canton": "SG",
@@ -564,6 +571,20 @@
       "firm_name": "Berlinger AG",
       "reason": "N'est pas (plus) un cabinet d'avocats -- societe de conseil/speaking, confirme par le site lui-meme"
     },
+    "berther-camischolas-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Berther Via",
+      "reason": "aucun site officiel propre identifie"
+    },
+    "bettiopeng-zizers-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Karin Peng",
+      "reason": "aucun site officiel propre identifie"
+    },
     "bettonipartner.ch": {
       "canton": "ZH",
       "fetched_date": "2026-07-29",
@@ -597,6 +618,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokaturbüro Dr. Christoph Bertisch",
       "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+    },
+    "blumer-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Elisabeth Blumer",
+      "reason": "aucun site officiel propre confirme (contact swissonline generique)"
     },
     "borbely.ch": {
       "_failed": true,
@@ -633,6 +661,13 @@
       "firm_name": "LL.M. Anwaltskanzlei Dr. Rolf Bründler",
       "reason": "piege d'identite evite -- adresse CSV (Gundoldingenstrasse 7) ne correspond pas aux adresses trouvees (Mariahilfgasse 9 / Kapellgasse 16) ; site officiel injoignable (HTTP 503)"
     },
+    "brunner-ilanz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Josef Brunner",
+      "reason": "aucun site officiel propre identifie"
+    },
     "brunnergehrig.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -646,6 +681,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Büchi Anwaltsbüro",
       "reason": "Identite confirmee (Fürstenlandstrasse 39, Wil) mais aucun site officiel identifie, uniquement une fiche d'annuaire (phone connu, pas d'email)"
+    },
+    "buerer-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur und Notariat Bürer Hinterm",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
     },
     "buhlmann-daniel-lu": {
       "_failed": true,
@@ -674,6 +716,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Burri & Burri Rechtsanwälte",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers) ; membre CSV Mark Steffen non confirme (seul Johann Burri trouve)"
+    },
+    "burtscher-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Benno Burtscher Hinterm",
+      "reason": "aucun site officiel propre identifie"
     },
     "butz-weber.ch": {
       "_failed": true,
@@ -709,6 +758,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "CapLex KlG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "castelli-stmoritz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Castelli Via",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
     },
     "catherine-weisser-buchs-sg": {
       "_failed": true,
@@ -923,6 +979,13 @@
       "firm_name": "Dr. Katy Elmaliah, Attorneys",
       "reason": "Identite incertaine : le cabinet 'Elmaliah Ozery & Co.' semble base en Israel/Allemagne, lien avec un bureau zurichois non confirme sur site propre (regle 5)"
     },
+    "engi-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Andrea Engi",
+      "reason": "aucun site officiel propre identifie"
+    },
     "er-meier-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1026,6 +1089,13 @@
       "firm_name": "Finlex AG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
     },
+    "fleischhauer-trimmis-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Michael Fleischhauer",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
+    },
     "flum-uster-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1127,6 +1197,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "studio legale Ghiringhelli e Associati",
       "reason": "Identite confirmee (via Orico 7, Bellinzona, ghiringhelli-olgiati.ch) mais HTTP 503 Service Unavailable (x2)"
+    },
+    "giovanoli-scuol-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Dario Giovanoli Via da",
+      "reason": "aucun site officiel propre identifie"
     },
     "gisler-advokatur-sg": {
       "_failed": true,
@@ -1282,6 +1359,13 @@
       "firm_name": "Herenda Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
     },
+    "herold-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Andreas Herold",
+      "reason": "aucun site officiel propre identifie"
+    },
     "herz-recht.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -1302,6 +1386,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Hofmann Law",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "honegger-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Diana Honegger",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "horvath-lu": {
       "_failed": true,
@@ -1412,6 +1503,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Studio legale avv. Jonathan Moor",
       "reason": "Identite incertaine : semble rattache a 'Poma-Moor Studio legale e notarile' (meme adresse Corso Elvezia 27, Lugano) mais aucun site officiel propre trouve, continuite non confirmee (regle 5)"
+    },
+    "joos-stmoritz-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Dr. iur. Hans Joos Plazza da",
+      "reason": "aucun site officiel propre identifie"
     },
     "joseph-koch-sg": {
       "_failed": true,
@@ -1847,6 +1945,20 @@
       "firm_name": "RA lic.iur. Carmen Marotta-von Gunten",
       "reason": "piege d'identite evite -- adresse CSV (Moosstrasse 20) ne correspond pas a l'adresse trouvee chez OBT AG (Rorschacher Strasse 63)"
     },
+    "marugg-schiers-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Marugg",
+      "reason": "site en construction (aucun contenu disponible)"
+    },
+    "marx-thusis-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Marx Heinz Ober",
+      "reason": "aucun site officiel propre identifie"
+    },
     "mathe-partner-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -2265,6 +2377,13 @@
       "firm_name": "Rajower & Weber",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
     },
+    "ranzi-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Guido Ranzi",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
+    },
     "raphael-schram-degersheim-sg": {
       "_failed": true,
       "canton": "SG",
@@ -2440,6 +2559,13 @@
       "firm_name": "RÜEGGER ANWALTSKANZLEI",
       "reason": "aucun site officiel propre identifie (uniquement annuaire communal)"
     },
+    "rupp-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Claudio Rupp",
+      "reason": "ambiguite avec Rupp Treuhand AG, pas clairement une etude d'avocats distincte avec site propre"
+    },
     "rusconi-nicolai-chur-gr": {
       "_failed": true,
       "canton": "GR",
@@ -2584,6 +2710,13 @@
       "firm_name": "Schuhmacher Weber Rechtsanwälte",
       "reason": "Aucun cabinet correspondant a ce nom exact trouve (seuls des cabinets homonymes partiels 'Weber' sans rapport)"
     },
+    "schwarz-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Robert M.Schwarz",
+      "reason": "aucun site officiel propre identifie"
+    },
     "scilanga-ti": {
       "_failed": true,
       "canton": "TI",
@@ -2645,6 +2778,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Advokatur Ackermann Mathys, Spittelerhof",
       "reason": "Verification anti-bot (page de chargement 'Please wait while your request is being verified'), aucun contenu exploitable"
+    },
+    "sprecher-langwies-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro J.F. Sprecher Furrastein,",
+      "reason": "adresse potentiellement obsolete/ambigue (bureau Zurich egalement trouve)"
     },
     "staedeli-legalpartners.ch": {
       "_failed": true,
@@ -2754,6 +2894,13 @@
       "checked_date": "2026-09-08",
       "firm_name": "Schöbi Rechtsanwälte",
       "reason": "Rattachement possible a Schoebi Studio Legis AG (meme patronyme) mais la page du cabinet ne confirme aucun lien de continuite/renommage avec 'Schoebi Rechtsanwaelte' -- lien non retenu"
+    },
+    "suenderhauf-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Martin Suenderhauf Obere",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
     },
     "suenderhauf-sax-schaefer-gr": {
       "_failed": true,
@@ -2991,6 +3138,20 @@
       "firm_name": "Vital & Schucan Chesa Planta",
       "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
     },
+    "vital-scuol-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokaturbüro Armon Vital Stradun",
+      "reason": "aucun site officiel propre identifie"
+    },
+    "vonmoos-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Schimun Vonmoos",
+      "reason": "aucun site officiel propre identifie"
+    },
     "weber-rechtsanwaelte-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -3011,6 +3172,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Wehrli Zimmermann & Partner",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "weidinger-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Weidinger",
+      "reason": "piege d'identite evite : l'adresse Brandisstrasse 8 correspond a Weidinger Conception AG, pas une etude d'avocats"
     },
     "weil-legal-zh": {
       "_failed": true,
@@ -3885,6 +4053,21 @@
     "team_size_n": 9,
     "team_size_text": "3 Rechtsanwältinnen und 6 Rechtsanwälte (actuel nom depuis avril 2017, tradition familiale Schwander depuis 1920)"
   },
+  "advokatur-lardi.ch": {
+    "canton": "GR",
+    "email": "info@advokatur-lardi.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Lardi Hinterm",
+    "phone": "+41 81 501 40 10",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Verträge und Handel",
+      "Bau und Beschaffungen",
+      "Externer Rechtsdienst und Verwaltungsrat"
+    ],
+    "source_url": "https://www.advokatur-lardi.ch/"
+  },
   "advokatur-lindenplatz.ch": {
     "canton": "ZH",
     "email": "kanzlei@advokatur-lindenplatz.ch",
@@ -4026,6 +4209,13 @@
       "Versicherungsrecht"
     ],
     "source_url": "https://advokatur-trias.ch/en/"
+  },
+  "advokatur-und-notariatsbuero-dr-iur-guido-lazza.digitalone.site": {
+    "canton": "GR",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur und Notariat Lazzarini Plazza da",
+    "phone": "+41 81 531 00 00",
+    "source_url": "https://advokatur-und-notariatsbuero-dr-iur-guido-lazza.digitalone.site/"
   },
   "advokatur-west.ch": {
     "canton": "ZH",
@@ -7839,6 +8029,21 @@
     "source_url": "https://cahenzli-reich.ch/",
     "team_size_n": 2
   },
+  "camenisch-law.ch": {
+    "canton": "GR",
+    "email": "icamenisch@deep.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokaturbüro Irmgard Camenisch",
+    "founding_year": 1989,
+    "phone": "081 257 06 22",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "Mietrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://camenisch-law.ch/"
+  },
   "captlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-10",
@@ -8961,6 +9166,26 @@
     "founding_year": 2013,
     "phone": "081 710 66 90",
     "source_url": "https://www.erduranpartner.ch/über-uns"
+  },
+  "erichvogel.ch": {
+    "canton": "GR",
+    "email": "office@erichvogel.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Vogel",
+    "phone": "081 322 27 27",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht und Nachlassplanung",
+      "Wirtschafts- und Handelsrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Baurecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://www.erichvogel.ch/"
   },
   "erkenlaw.ch": {
     "canton": "ZH",
@@ -12719,6 +12944,13 @@
     "source_url": "https://www.kup-law.ch/kontakt",
     "team_size_n": 6
   },
+  "ladinalaw.ch": {
+    "canton": "GR",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokaturbüro Ladina Sturzenegger Via",
+    "founding_year": 2017,
+    "source_url": "https://ladinalaw.ch/persoenlich"
+  },
   "lalive.law": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -15555,6 +15787,27 @@
     "firm_name": "Pontinova AG",
     "phone": "+41 44 288 37 37",
     "source_url": "https://www.pontinova.law/contact-us"
+  },
+  "pool-lex.ch": {
+    "canton": "GR",
+    "email": "pool.marco@bluewin.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokaturbüro Marco Pool Via",
+    "founding_year": 1987,
+    "phone": "+41 (0)81 833 67 15",
+    "practice_areas_de": [
+      "Familien- und Scheidungsrecht",
+      "Erbrecht",
+      "Sachenrecht",
+      "Mietrecht",
+      "Haftpflicht- und Sozialversicherungsrecht",
+      "Gesellschafts- und Vertragsrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Baurecht",
+      "Verkehrsrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "https://www.pool-lex.ch/"
   },
   "prager-dreifuss.com": {
     "canton": "ZH",
