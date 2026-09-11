@@ -626,6 +626,13 @@
       "firm_name": "Advokaturbüro Elisabeth Blumer",
       "reason": "aucun site officiel propre confirme (contact swissonline generique)"
     },
+    "bongulielmi-roveredo-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Reto Bongulielmi Residenza al Mai",
+      "reason": "aucun site officiel propre identifie (contact bluewin uniquement)"
+    },
     "borbely.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -653,6 +660,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Advokatur Anna Braun",
       "reason": "HTTP 503 Service Unavailable -- meme cause que l'entree existante braunlaw.ch pour une autre ligne CSV du meme cabinet"
+    },
+    "brueesch-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Dr. iur. Andrea Brüesch",
+      "reason": "piege d'identite evite : Andrea Brueesch n'apparait pas dans l'equipe actuelle de Gadient Zinsli Brueesch Infanger malgre son nom dans la raison sociale"
     },
     "bruendler-lu": {
       "_failed": true,
@@ -737,6 +751,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltskanzlei Cadosch",
       "reason": "Piege d'identite : les seuls cabinets 'Cadosch' trouves sont a Berne et Bulach, aucun a Zurich (regle 5)"
+    },
+    "cahannes-chur-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Cahannes",
+      "reason": "site inaccessible (HTTP 503, 2 tentatives)"
     },
     "calo-partners-zh": {
       "_failed": true,
@@ -1178,6 +1199,13 @@
       "firm_name": "Anwaltskanzlei Andreas Gantenbein",
       "reason": "HTTP 503 Service Unavailable (x2) sur ag-anwalt.ch"
     },
+    "gaudenz-jfg-pontresina-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur JFG Via",
+      "reason": "aucun site officiel propre identifie"
+    },
     "gbf-legal.ch": {
       "canton": "ZH",
       "firm_name": "gbf Rechtsanwälte AG",
@@ -1190,6 +1218,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Anwaltskanzlei Gebhardt",
       "reason": "HTTP 503 Service Unavailable"
+    },
+    "ghidoni-roveredo-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale M.A. Ghidoni Via in",
+      "reason": "aucun site officiel propre confirme"
     },
     "ghiringhelli-olgiati-ti": {
       "_failed": true,
@@ -1633,6 +1668,27 @@
       "checked_date": "2026-09-09",
       "firm_name": "K & B Rechtsanwälte",
       "reason": "HTTP 503 Service Unavailable (x2)"
+    },
+    "keller-partner-grono-gr-1": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "et oec. Studio legale e notarile Fabrizio Keller e Partner SVAia a la",
+      "reason": "aucun site officiel propre identifie"
+    },
+    "keller-partner-grono-gr-2": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale e notarile Fabrizio Keller e Partner SVAia a la",
+      "reason": "aucun site officiel propre identifie"
+    },
+    "keller-roberto-roveredo-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Roberto A. Keller Via de la",
+      "reason": "aucun site officiel propre identifie"
     },
     "kern.law": {
       "_failed": true,
@@ -2199,6 +2255,13 @@
       "reason": "contenu vide / rendu JavaScript",
       "tested_date": "2026-07-28"
     },
+    "noi-leggia-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Leandro Noi Via",
+      "reason": "site inactif (page hebergeur en construction)"
+    },
     "notarius-ag-wil-sg": {
       "_failed": true,
       "canton": "SG",
@@ -2302,6 +2365,13 @@
       "firm_name": "Advokaturbüro Pfister",
       "reason": "Aucune entite correspondant a ce nom exact identifiee a St-Gall (homonymes non lies trouves a Pfäffikon SZ)"
     },
+    "pianta-brusio-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Pianta Plinio Via",
+      "reason": "aucun site officiel propre identifie"
+    },
     "piasini-advokatur-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -2369,6 +2439,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Rechtsanwalt Schweizer",
       "reason": "piege d'identite evite -- Rafael Schweizer trouve travaille comme 'Teamleiter Recht und Bau' chez Gossweiler Ingenieure AG (bureau d'ingenieurs, non un cabinet d'avocats), adresse differente de celle du CSV (Neuhofstrasse 34 vs Casinostr. 6, Dübendorf)"
+    },
+    "rageth-domatems-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Advokatur Dr. iur. Sigis Rageth Via",
+      "reason": "aucun site officiel propre identifie (contact bluewin uniquement)"
     },
     "rajower-weber-zh": {
       "_failed": true,
@@ -3093,6 +3170,13 @@
       "firm_name": "Valmon Law",
       "reason": "Aucun site officiel ni mention trouves"
     },
+    "vecellio-leprese-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Stefania Vecellio Via",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
+    },
     "velo-associati-ti": {
       "_failed": true,
       "canton": "TI",
@@ -3338,6 +3422,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Studio legale e notarile Zandrini & Partners",
       "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire/registre -- confirme a nouveau (deja note sous _sans_site)"
+    },
+    "zendralli-roveredo-gr": {
+      "_failed": true,
+      "canton": "GR",
+      "checked_date": "2026-09-11",
+      "firm_name": "Studio legale Antonio Zendralli Via de la",
+      "reason": "aucun site officiel propre identifie (contact bluewin uniquement)"
     },
     "zgraggen-ulrich-lu": {
       "_failed": true,
@@ -3726,6 +3817,15 @@
     "phone": "+41 44 515 01 60",
     "source_url": "https://www.advo-libero.ch/wer",
     "team_size_n": 2
+  },
+  "advo-marty.ch": {
+    "canton": "GR",
+    "email": "info@advo-marty.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Dieter R. Marty",
+    "founding_year": 2001,
+    "phone": "081 258 48 88",
+    "source_url": "https://www.advo-marty.ch/"
   },
   "advo-mueller.ch": {
     "canton": "ZH",
@@ -5481,6 +5581,20 @@
     ],
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
+  },
+  "anwaltskanzlei-chur.ch": {
+    "canton": "GR",
+    "email": "laura.oesch@oesch-law.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur & Mediation Oesch",
+    "phone": "+41 81 515 57 57",
+    "practice_areas_de": [
+      "Mediation",
+      "Immobilienrecht",
+      "Arbeitsrecht",
+      "Personenrecht"
+    ],
+    "source_url": "https://anwaltskanzlei-chur.ch/"
   },
   "anwaltskanzlei-erni.ch": {
     "canton": "LU",
@@ -9934,6 +10048,14 @@
     "source_url": "https://gadientpartner.ch/",
     "team_size_n": 6
   },
+  "gadientpartner.ch#2": {
+    "canton": "GR",
+    "email": "sekretariat@gadientpartner.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": ", LL.M. Gadient + Partner",
+    "phone": "+41 (0)81 284 77 41",
+    "source_url": "https://gadientpartner.ch/"
+  },
   "gaggini-partners.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -10390,6 +10512,23 @@
       "Life Sciences"
     ],
     "source_url": "https://good-zuerich.ch/en/"
+  },
+  "gorfer-stmoritz.ch": {
+    "canton": "GR",
+    "email": "gorfer@gorfer-stmoritz.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Gorfer Via",
+    "founding_year": 2021,
+    "phone": "+41 81 833 33 11",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau- und Raumplanungsrecht",
+      "Sachenrecht inkl. Stockwerkeigentum",
+      "Verwaltungsrecht",
+      "Strafrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.gorfer-stmoritz.ch/"
   },
   "gplegal.ch": {
     "canton": "ZH",
@@ -11442,6 +11581,16 @@
     "phone": "+41 44 260 85 00",
     "source_url": "https://www.iblegal.ch/en/contact"
   },
+  "ilcs-lawyers.com": {
+    "canton": "GR",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Studio legale Alberto Pasciuti Strada",
+    "practice_areas_it": [
+      "diritto societario",
+      "consulenza commerciale"
+    ],
+    "source_url": "https://www.ilcs-lawyers.com/about.html"
+  },
   "inclusione-andicap-ticino.ch": {
     "canton": "TI",
     "email": "info@inclusione-andicap-ticino.ch",
@@ -11811,6 +11960,22 @@
       "Wirtschaftsrecht"
     ],
     "source_url": "http://jcgil.ch/ger/wer-wir-sind.html"
+  },
+  "jdomenig.ch": {
+    "canton": "GR",
+    "email": "domenig@jdomenig.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Domenig Hinterm",
+    "founding_year": 1989,
+    "phone": "+41 81 252 32 82",
+    "practice_areas_de": [
+      "Vereinsrecht",
+      "Stiftungsrecht",
+      "Gesellschaftsrecht",
+      "Verwaltungs- und Stiftungsratsmandate",
+      "Gastgewerberecht"
+    ],
+    "source_url": "https://jdomenig.ch/"
   },
   "jetzer-frank.ch": {
     "canton": "ZH",
@@ -19022,6 +19187,24 @@
     "source_url": "https://www.toedtli.law/ueberuns",
     "team_size_n": 2
   },
+  "tramer-law.ch": {
+    "canton": "GR",
+    "email": "mail@tramer-law.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "Advokatur Franco Tramèr Via",
+    "phone": "+41 81 833 11 44",
+    "practice_areas_de": [
+      "Immobiliengeschäfte (Kauf-, Schenkungs- und Abtretungsverträge)",
+      "Ehe- und Erbverträge",
+      "Testamente und Vorsorgeaufträge",
+      "Stockwerkeigentum",
+      "Grundpfandverträge",
+      "Dienstbarkeitsverträge",
+      "Gesellschaftsgründungen (AG, GmbH)",
+      "allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.tramer-law.ch/taetigkeitsgebiete"
+  },
   "trennungsanliegen.ch": {
     "canton": "GR",
     "email": "manuela.mathis@trennungsanliegen.ch",
@@ -19383,6 +19566,23 @@
     "firm_name": "Vincenz I Dornier",
     "source_url": "https://www.vincenz-dornier.ch/kontakt",
     "team_size_n": 3
+  },
+  "vincenzpartner.ch": {
+    "canton": "GR",
+    "email": "a.mutzner@vincenzpartner.ch",
+    "fetched_date": "2026-09-11",
+    "firm_name": "A.Mutzner AG",
+    "phone": "+41 81 258 55 31",
+    "practice_areas_de": [
+      "privates und öffentliches Baurecht",
+      "Nachlassplanung",
+      "Vertrags- und Sachenrecht",
+      "Arbeits- und Mietrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Straf- und Verkehrsrecht"
+    ],
+    "source_url": "https://vincenzpartner.ch/mlaw-andreas-mutzner/"
   },
   "vischer.com": {
     "canton": "ZH",

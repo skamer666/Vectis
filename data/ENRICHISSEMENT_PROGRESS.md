@@ -3989,3 +3989,27 @@ construction) ; J.F. Sprecher (adresse potentiellement obsolète, bureau Zurich 
 
 Rattachement : 1062 études rattachées au total (1056 → 1062, +6). Suite de tests : 94/94 au
 vert.
+
+### 2026-09-11 01h02 UTC — Phase 3, lot 113 (exécution automatisée)
+
+**Canton GR entièrement épuisé** (0 fiche restante). 21 fiches CSV traitées (8 succès / 13
+échecs) pour clôturer le canton.
+
+Succès : Gadient + Partner (dédoublonnage, Andri Gustin confirmé sur l'équipe officielle) ;
+Advokatur Domenig (**fondée 1989**, tel/email, 5 domaines) ; Advokatur Gorfer (**fondée 2021**,
+tel/email, 6 domaines) ; Advokatur Dieter R. Marty (**fondée 2001**, tel/email) ; A.Mutzner AG
+(tel/email, 7 domaines -- absorbé chez Vincenz & Partner, même adresse) ; Advokatur & Mediation
+Oesch (tel/email, 4 domaines) ; Studio legale Alberto Pasciuti (droit des sociétés/conseil
+commercial, désormais ILCS Lawyers SA) ; Advokatur Franco Tramèr (tel/email, 8 domaines
+notariaux).
+
+Échecs : Andrea Brüesch (**piège d'identité évité** -- absente de l'équipe actuelle de Gadient
+Zinsli Brüesch Infanger malgré son nom dans la raison sociale) ; 9 cabinets sans site officiel
+propre (contacts bluewin/annuaires uniquement, profil très répandu pour les Studi legali
+individuels du Moesano et les avocats isolés) ; Leandro Noi (site hébergeur inactif) ; Cahannes
+et Stefania Vecellio (sites injoignables, 2 tentatives chacun).
+
+Rattachement : 1070 études rattachées au total (1062 → 1070, +8). Suite de tests : 94/94 au
+vert.
+
+**Bilan canton GR : 108 fiches traitées au total sur les lots 110-113 (58 succès / 50 échecs).**
