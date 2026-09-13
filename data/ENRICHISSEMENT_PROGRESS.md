@@ -4113,3 +4113,34 @@ Allemagne).
 
 Rattachement : 1119 études rattachées au total (1084 → 1119, +35). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (cantons ZH/TI/SZ/LU, lot 116)
+
+Ouverture des gros cantons restants (ZH ~664 cabinets non traités, TI ~221, SZ 63, LU 53) --
+priorisation par taille d'équipe. 22 cabinets traités (14 succès / 8 échecs). Note : plusieurs
+grosses études déjà en cache sous `_failed` (Staiger, Quadra, Eversheds Sutherland, Suter Howald,
+Rudolf & Bieri) ont été correctement exclues du lot grâce au correctif de rattachement du lot 115
+(comparaison par nom cœur + canton contre tout le cache, succès et échecs confondus).
+
+Succès : Jositsch Brunner Rechtsanwälte (tel, associe le conseiller aux États Daniel Jositsch et
+Claudia Brunner) ; ARGO Rechtsanwälte (tel, Stäfa) ; Wolf Kuny Trütsch (tel, Schwyz) ; Advokaturbüro
+Langstrasse 4 (**communauté de bureau** -- adresse commune uniquement, pas de tel/email inventé) ;
+Anwaltsbüro Rämistrasse 44 (**communauté de bureau depuis 2005**, 3 domaines communs déclarés) ;
+SV Law (tel, Stadthausstrasse Winterthur) ; Anwaltskanzlei Lukas Blättler (tel, Dufourstrasse 40) ;
+Anwaltsgemeinschaft Luzern (dédoublonné avec l'entrée déjà en cache, tel/email/9 avocats/4
+domaines) ; Borradori & Vignolini (**fondée 2003**, tel, 5 domaines, Locarno) ; Studio legale e
+notarile Ferrari Partner (tel/email, 5 domaines, Chiasso) ; Studio legale Simoni-Iuliucci-Seminara
+(5 domaines, Viganello) ; Kanzlei K3 (fusion Faoro/Meier, Zürich) ; RMPLAW (Dufourstrasse 105,
+Zürich) ; Zweierstrasse Rechtsanwälte (**fondée 2004**, dédoublonné avec l'entrée déjà en cache).
+
+Échecs (**pièges d'identité évités** -- adresses partagées par des cabinets réellement distincts
+ou membres CSV introuvables, aucune entité commune fiable) : Kohlrainstr. 10 (2 cabinets
+indépendants distincts à la même adresse) ; Bahnhofstr. 12 Uster (Vogelsang semble basée à Zürich
+et non Uster) ; Neugasse 6 (cabinets individuels distincts, 1 membre introuvable) ; Dufourstr. 32
+(2 cabinets distincts, 1 membre introuvable) ; Gotthardstr. 21 (communauté confirmée pour 2
+avocats sur 3 seulement) ; Anwaltskanzlei Bäch/SZ (Glogg basé à Wollerau et non Bäch) ; Anwaltsbüro
+Wolhusen/LU (Wicki basé à Sursee et non Wolhusen) ; Studio legale e notarile Paradiso/TI (seule 1
+avocate sur 5 confirmée à cette adresse).
+
+Rattachement : 1133 études rattachées au total (1119 → 1133, +14). Suite de tests : 94/94 au
+vert.

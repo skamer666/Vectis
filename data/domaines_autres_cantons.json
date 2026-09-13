@@ -2560,6 +2560,13 @@
     "source_url": "https://www.anwaltsboutique.ch/en",
     "team_size_n": 2
   },
+  "anwaltsbuero-wolhusen-lu": {
+    "_failed": true,
+    "canton": "LU",
+    "checked_date": "2026-09-13",
+    "firm_name": "Anwaltsbüro",
+    "reason": "Riedweg-Lötscher confirmee seule a Wolhusen, Wicki base a Sursee sans lien confirme, Willi Thomas introuvable"
+  },
   "anwaltsgemeinschaft.ch": {
     "canton": "LU",
     "email": "info@anwaltsgemeinschaft.ch",
@@ -2574,6 +2581,28 @@
     ],
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
+  },
+  "anwaltsgemeinschaft.ch#2": {
+    "canton": "LU",
+    "email": "info@anwaltsgemeinschaft.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Anwaltsgemeinschaft",
+    "phone": "+41 41 419 71 71",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Zivil- und Vertragsrecht",
+      "Migrationsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
+    "team_size_n": 9
+  },
+  "anwaltskanzlei-baech-sz": {
+    "_failed": true,
+    "canton": "SZ",
+    "checked_date": "2026-09-13",
+    "firm_name": "Anwaltskanzlei",
+    "reason": "Bruhin confirme a Baech (Dr. Bruhin & Partner), mais Glogg semble base a Wollerau/Zurich (Anwaltskanzlei Zürichsee), Ziegler Hans Rudolf introuvable -- pas de cabinet commun"
   },
   "anwaltskanzlei-chur.ch": {
     "canton": "GR",
@@ -2836,6 +2865,13 @@
     ],
     "source_url": "https://areum.ch/",
     "team_size_n": 2
+  },
+  "argo-staefa": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "ARGO Rechtsanwälte",
+    "phone": "044 928 20 00",
+    "source_url": "https://tel.search.ch/staefa/kronenstrasse-9/argo-rechtsanwaelte"
   },
   "arioli-law.ch": {
     "canton": "ZH",
@@ -3387,6 +3423,13 @@
     "firm_name": "Bäumlin + Partner Advokatur und Mediation",
     "reason": "site JS rendu, contenu non accessible"
   },
+  "bahnhofstr12-uster-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 12",
+    "reason": "Bernhard confirme a Uster, mais Vogelsang semble basee a Zurich selon une source (pas Uster), Vonrüti introuvable -- pas de cabinet commun confirme"
+  },
   "bahnhofstrasse58.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -3908,6 +3951,18 @@
     "source_url": "https://www.bblegal.ch/firm/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "bbw-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Rämistr. 44",
+    "founding_year": 2005,
+    "practice_areas_de": [
+      "Privatrecht",
+      "Strafrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://bbw-law.ch/"
   },
   "bclaw.ch": {
     "canton": "ZH",
@@ -4575,6 +4630,13 @@
     "source_url": "https://www.bl-recht.ch/anwaltskanzlei/",
     "team_size_n": 2
   },
+  "blaettler-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Dufourstr. 40",
+    "phone": "+41 43 819 33 63",
+    "source_url": "http://www.blaettler-law.ch/"
+  },
   "blaserlaw.ch": {
     "canton": "ZH",
     "email": "info@blaserlaw.ch",
@@ -4967,6 +5029,21 @@
     "firm_name": "Borer Rechtsanwälte AG",
     "phone": "+41 44 261 12 12",
     "source_url": "https://www.borer-law.ch/contact"
+  },
+  "borradorivignolini.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Via Trevani 3, 6601 Locarno",
+    "founding_year": 2003,
+    "phone": "091 751 20 90",
+    "practice_areas_it": [
+      "Diritto contrattuale e di mandato",
+      "Diritto delle assicurazioni sociali",
+      "Diritto di filiazione",
+      "Protezione del minore e dell'adulto",
+      "Responsabilità civile"
+    ],
+    "source_url": "https://borradorivignolini.ch/"
   },
   "bos-law.ch": {
     "canton": "ZH",
@@ -6867,6 +6944,13 @@
     ],
     "source_url": "https://www.dufour-advokatur.ch/en/firm/"
   },
+  "dufourstr32-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Dufourstr. 32",
+    "reason": "adresse partagee par 2 cabinets distincts (Geosits Rechtsanwälte, Uffer-law), Spiljak Maas Vanja introuvable"
+  },
   "eaw-legal.ch": {
     "canton": "ZH",
     "email": "contact@eaw-legal.ch",
@@ -7551,6 +7635,21 @@
     "checked_date": "2026-09-10",
     "firm_name": "Studio legale e notarile Ferrari Partner",
     "reason": "Aucun site officiel propre identifie -- confirme a nouveau (deja note sous _sans_site)"
+  },
+  "ferrarilegal.com": {
+    "canton": "TI",
+    "email": "gabriele@ferrarilegal.com",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Corso San Gottardo 57, 6830 Chiasso",
+    "phone": "091 695 47 00",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto di famiglia e divorzio",
+      "Diritto contrattuale",
+      "Responsabilità civile e assicurazioni",
+      "Diritto internazionale privato"
+    ],
+    "source_url": "https://www.studilegali.com/avvocati/studio-legale-ferrari-partner"
   },
   "fertig-keller.ch": {
     "canton": "ZH",
@@ -8671,6 +8770,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "GÖRG SUTER AG",
     "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire"
+  },
+  "gotthardstr21-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Gotthardstr. 21",
+    "reason": "communaute de bureau confirmee pour 2 avocats independants sur 3 (Hensch, Neiger), Schmid Andreas introuvable, pas d'identite de cabinet commune"
   },
   "gplegal.ch": {
     "canton": "ZH",
@@ -10415,6 +10521,13 @@
     "source_url": "https://jb-anwaelte.ch/rechtsgebiete/",
     "team_size_n": null
   },
+  "jbra.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Jositsch Brunner Rechtsanwälte",
+    "phone": "+41 43 555 06 10",
+    "source_url": "https://jbra.ch/"
+  },
   "jcgil.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -10863,6 +10976,12 @@
     "checked_date": "2026-09-10",
     "firm_name": "Anwaltskanzlei Imhof",
     "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+  },
+  "kanzlei-k3.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Kanzlei - K3",
+    "source_url": "https://www.kanzlei-k3.ch/"
   },
   "kanzlei-krausz.ch": {
     "_failed": true,
@@ -11619,6 +11738,13 @@
     "firm_name": "Anwaltskanzlei Kohli",
     "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
   },
+  "kohlrainstr10-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Kohlrainstr. 10",
+    "reason": "adresse partagee par au moins 2 cabinets independants distincts (Daetwyler & Daetwyler, Hess & Partner) -- pas d'entite coherente commune aux 4 membres CSV"
+  },
   "kolblaw.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -12040,6 +12166,12 @@
       "Wills and legacies"
     ],
     "source_url": "https://www.langnerarndt.ch/en/contact/"
+  },
+  "langstrasse4.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Advokaturbüro Langstrasse 4",
+    "source_url": "https://langstrasse4.ch/anwaeltinnen/"
   },
   "lanter-partner.ch": {
     "canton": "ZH",
@@ -14568,6 +14700,13 @@
     ],
     "source_url": "https://neubauerlaw.ch/ueber/"
   },
+  "neugasse6-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Neugasse 6",
+    "reason": "Bessler et Mokry confirmes a la meme adresse mais cabinets individuels distincts sans identite commune, von Faber-Castell Cornelia introuvable"
+  },
   "neustadt-advokatur.ch": {
     "canton": "LU",
     "email": "sekretariat@neustadt-advokatur.ch",
@@ -16578,6 +16717,12 @@
     "source_url": "https://www.rmp.ch/rmp/",
     "team_size_n": null
   },
+  "rmplaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Dufourstr. 105",
+    "source_url": "https://www.rmplaw.ch/contact"
+  },
   "rohlaw.ch": {
     "canton": "ZH",
     "email": "mail@rohlaw.ch",
@@ -17938,6 +18083,19 @@
     "firm_name": "Simon-Vermot & Weber Notariat und Advokatur",
     "reason": "aucun site officiel dedie identifie, membre CSV (Meier Soraya) non confirme"
   },
+  "sislaw.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Studio legale Simoni-Iuliucci-Seminara, casella postale 21",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto penale",
+      "Diritto amministrativo",
+      "Diritto commerciale",
+      "Responsabilità civile"
+    ],
+    "source_url": "http://www.sislaw.ch/"
+  },
   "sjp-jur.ch": {
     "canton": "ZH",
     "email": "kontakt@sjp-jur.ch",
@@ -18670,6 +18828,13 @@
     "firm_name": "Studio Legale M LAW",
     "reason": "Aucun cabinet correspondant a ce nom exact identifie via recherche web -- confirme a nouveau (deja note sous _sans_site)"
   },
+  "studio-legale-notarile-paradiso-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-13",
+    "firm_name": "Studio legale e notarile",
+    "reason": "seule Borsari Valentina confirmee a Paradiso, les 4 autres membres CSV rattaches a des etudes distinctes ou non confirmes"
+  },
   "studio-legale.ch": {
     "canton": "TI",
     "email": "info@studio-legale.ch",
@@ -18816,6 +18981,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Sutter & Camenzind Rechtsanwälte",
     "reason": "Aucun site officiel identifie (seule source : annuaire tiers mcadvo.ch) ; adresse divergente de celle du CSV (Untertor 11 vs Sulzer-Hirzel-Str. 6, Winterthour) ; pas d'email"
+  },
+  "sv-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Stadthausstr. 39",
+    "phone": "052 260 08 98",
+    "source_url": "https://sv-law.ch/"
   },
   "swanlex.ch": {
     "canton": "LU",
@@ -21055,6 +21227,13 @@
     "source_url": "https://www.wnvg.ch/de/team/",
     "team_size_n": 6
   },
+  "wolf-kuny-truetsch-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Wolf Kuny Trütsch",
+    "phone": "041 813 08 03",
+    "source_url": "https://zip.ch/de/trutsch-christoph-postplatz-schwyz-rEeAw7OgE2/"
+  },
   "wolf-recht.ch": {
     "canton": "LU",
     "email": "info@wolf-recht.ch",
@@ -21549,6 +21728,13 @@
       "Gesellschaftsrecht"
     ],
     "source_url": "https://zweierstrasse.ch/rechtsgebiete"
+  },
+  "zweierstrasse.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Zweierstr. 129",
+    "founding_year": 2004,
+    "source_url": "https://zweierstrasse.ch/team/iwan-bucher/"
   },
   "zweifel-law.ch": {
     "_failed": true,
