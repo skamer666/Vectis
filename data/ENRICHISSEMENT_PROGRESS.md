@@ -4191,3 +4191,25 @@ diffère de celle du CSV).
 
 Rattachement : 1154 études rattachées au total (1147 → 1154, +7). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (canton ZH, lot 119)
+
+Changement de stratégie après le faible taux de succès du lot 118 : priorisation des fiches à
+**un seul avocat** (aucun risque de "piège d'adresse partagée" entre plusieurs cabinets distincts).
+20 cabinets traités (18 succès / 2 échecs) -- taux de succès nettement meilleur.
+
+Succès : Susanne Bereuter Haussmann (tel) ; Kurt Berger (**fondé 2015**, tel/email, 3 domaines) ;
+François A. Bernath (tel/email, 5 domaines) ; Verena Biedermann (tel, mediatrice SAV) ; Maurus
+Birchler (tel, 3 domaines, mediateur FHA) ; Dr. Max Bleuler (tel/email) ; Béatrice Blum (**depuis
+2011**, tel/email, conseil TVA) ; Maja Blumer (**depuis 2012**, 2 domaines) ; Miriam Blunschy
+(tel/email, notaire SZ/ZG) ; Daniel Bohren (tel, 4 domaines) ; Christoph Born (1 domaine, droit des
+médias) ; Mario Bortoluzzi (tel/email, Lehfrauenweg 8) ; Franz Breitenmoser ; Renata Brianza
+(tel/email) ; Dr. Peter E. Brunner (**fondé 2009**, 5 domaines) ; Guido Brusa (tel, 4 domaines) ;
+Irene Buchschacher (c/o Max Birkenmaier) ; Bertram Buchzik (**fondé 2009**, tel, 3 domaines,
+Fachanwalt SAV Arbeitsrecht).
+
+Échecs : Hügsamstr. 13/Samstagern (identité et coordonnées non confirmées, plusieurs homonymes) ;
+Gutstr. 136/Zürich (adresse trouvée pour Patrick Braunschweig différente de celle du CSV).
+
+Rattachement : 1172 études rattachées au total (1154 → 1172, +18). Suite de tests : 94/94 au
+vert.

@@ -532,6 +532,21 @@
     "firm_name": "Advokatur & Mediation (Pfander/Alder/Lehmann/Fuchs)",
     "raison": "mauvais cabinet — ne correspond pas aux membres BS CSV 'Advokatur und Mediation' (Emmel/Jedelhauser/Knecht/Müller/Tibis)"
   },
+  "advobellerive.ch": {
+    "canton": "ZH",
+    "email": "bernath@advobellerive.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Alte Landstr. 109",
+    "phone": "044 388 10 88",
+    "practice_areas_de": [
+      "Informatikrecht",
+      "Luftfahrtrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Mediation",
+      "Internationale Rechtshilfe"
+    ],
+    "source_url": "https://search.ch/tel/rueschlikon/alte-landstrasse-109/francois-a-bernath"
+  },
   "advobue-sg": {
     "_failed": true,
     "canton": "SG",
@@ -4388,6 +4403,27 @@
     "phone": "+41 44 388 27 77",
     "source_url": "https://www.benz-partners.ch/"
   },
+  "bereuter-uitikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bühlstr. 8",
+    "phone": "044 400 08 11",
+    "source_url": "https://tel.search.ch/uitikon-waldegg/buehlstrasse-8/susanne-bereuter"
+  },
+  "berger-recht.ch": {
+    "canton": "ZH",
+    "email": "berger@berger-recht.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Schaffhauserstr. 345",
+    "founding_year": 2015,
+    "phone": "044 316 66 51",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Sozialhilferecht"
+    ],
+    "source_url": "https://berger-recht.ch/"
+  },
   "berlinger-ag-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -4680,6 +4716,13 @@
     "firm_name": "Avv. Marco Biancotti Via",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
   },
+  "biedermann-thalwil-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Freiestr. 1",
+    "phone": "+41 44 721 25 50",
+    "source_url": "https://fragdenanwalt.ch/anwalt/thalwil-rechtsanwaeltin-frau-biedermann-zuerich"
+  },
   "bietenholz.law": {
     "_failed": true,
     "canton": "ZH",
@@ -4755,6 +4798,18 @@
     ],
     "source_url": "https://www.binderlegal.ch/en/",
     "team_size_n": null
+  },
+  "birchler-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Trittligasse 26",
+    "phone": "044 241 95 54",
+    "practice_areas_de": [
+      "Mediation",
+      "Erbrecht und Nachlassrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "https://fragdenanwalt.ch/anwalt/zuerich-rechtsanwalt-herr-birchler-zuerich"
   },
   "birslex.ch": {
     "canton": "BL",
@@ -4919,6 +4974,14 @@
     "source_url": "https://www.blesi-papa.ch/",
     "team_size_n": null
   },
+  "bleuleranwaltskanzlei.ch": {
+    "canton": "ZH",
+    "email": "info@bleuleranwaltskanzlei.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Steinwiesstr. 30",
+    "phone": "044 252 89 90",
+    "source_url": "https://www.bleuleranwaltskanzlei.ch/kontakt_lage.html"
+  },
   "blm-law.ch": {
     "canton": "ZH",
     "email": "Info@blm-law.ch",
@@ -4945,6 +5008,15 @@
     "source_url": "https://www.blra.ch/",
     "team_size_n": 2
   },
+  "blum-mwst.ch": {
+    "canton": "ZH",
+    "email": "b.blum@blum-mwst.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Seestr. 344",
+    "founding_year": 2011,
+    "phone": "+41 44 380 27 52",
+    "source_url": "https://www.blum-mwst.ch/"
+  },
   "blumenfeld.law": {
     "canton": "ZH",
     "email": "office@blumenfeld.law",
@@ -4965,6 +5037,17 @@
     "checked_date": "2026-09-11",
     "firm_name": "Advokaturbüro Elisabeth Blumer",
     "reason": "aucun site officiel propre confirme (contact swissonline generique)"
+  },
+  "blumer-staefa-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Weierstr. 1",
+    "founding_year": 2012,
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://fajus.com/recht/"
   },
   "blumgrob.ch": {
     "canton": "ZH",
@@ -5254,6 +5337,15 @@
     "phone": "+41 44 261 12 12",
     "source_url": "https://www.borer-law.ch/contact"
   },
+  "born-zumikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "In der Gandstr. 13",
+    "practice_areas_de": [
+      "Medienrecht"
+    ],
+    "source_url": "https://medialex.ch/beitraege/christoph-born/"
+  },
   "borradorivignolini.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-13",
@@ -5473,6 +5565,13 @@
     "source_url": "https://www.bratschi.ch/en/about-us",
     "team_size_n": 120
   },
+  "braun-samstagern-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Hügsamstr. 13",
+    "reason": "identite et coordonnees precises non confirmees a Samstagern (plusieurs homonymes Markus/Marcus Braun, aucun site officiel clairement rattache a cette adresse)"
+  },
   "braunlaw.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -5486,6 +5585,19 @@
     "checked_date": "2026-09-10",
     "firm_name": "Advokatur Anna Braun",
     "reason": "HTTP 503 Service Unavailable -- meme cause que l'entree existante braunlaw.ch pour une autre ligne CSV du meme cabinet"
+  },
+  "braunschweig-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Gutstr. 136",
+    "reason": "adresse trouvee (Weinbergstrasse 137) differe de celle du CSV (Gutstrasse 136)"
+  },
+  "breitenmoser-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Asylstr. 39 / am Römerhof",
+    "source_url": "https://zuri.net/de/zurich/dienstleistungen/dr-iur-franz-breitenmoser-7981.htm"
   },
   "brem.legal": {
     "canton": "ZH",
@@ -5613,6 +5725,20 @@
     "firm_name": "Brunner Gehrig Rechtsanwälte",
     "reason": "HTTP 500 Internal Server Error"
   },
+  "brunnergesetz.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Langackerstr. 129",
+    "founding_year": 2009,
+    "practice_areas_de": [
+      "Familienrecht",
+      "Privates Baurecht",
+      "Verkehrsrecht",
+      "Mietrecht",
+      "Betreibungsrecht"
+    ],
+    "source_url": "https://brunnergesetz.com/"
+  },
   "brunnerknobel.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-08",
@@ -5646,6 +5772,19 @@
     ],
     "source_url": "https://www.brunnerlegal.com/",
     "team_size_n": 2
+  },
+  "brusa-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Strassburgstr. 10",
+    "phone": "044 248 38 28",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Verwaltungsrecht",
+      "Gesundheitsrecht"
+    ],
+    "source_url": "https://search.ch/tel/zuerich/strassburgstrasse-10/dr-brusa-guido.de.html"
   },
   "bsmw.ch": {
     "canton": "ZH",
@@ -5744,6 +5883,25 @@
       "Vertragsrecht"
     ],
     "source_url": "https://www.buchli-hochuli.ch/"
+  },
+  "buchschacher-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "c/o Rechtsanwalt Max Birkenmaier",
+    "source_url": "https://www.rechtsanwalt.com/rechtsanwalt/lic-iur-irene-buchschacher/"
+  },
+  "buchzik.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Auf der Mauer 2",
+    "founding_year": 2009,
+    "phone": "+41 44 380 32 65",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "IT-Recht",
+      "Wettbewerbsrecht"
+    ],
+    "source_url": "https://www.buchzik.ch/"
   },
   "buechi-anwaltsburo-sg": {
     "_failed": true,
@@ -6695,6 +6853,19 @@
     "practice_areas_fr": [],
     "source_url": "https://davatzlegal.ch/en",
     "team_size_n": null
+  },
+  "dbohren.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Grossmünsterplatz 1",
+    "phone": "+41 44 266 99 77",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Internationales Privatrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.dbohren.ch/"
   },
   "dbp.ch": {
     "canton": "ZH",
@@ -16341,6 +16512,22 @@
     "reason": "entite recemment inscrite au registre du commerce (15.05.2026), aucun site web trouve",
     "tested_date": "2026-09-07"
   },
+  "rb-law.ch": {
+    "canton": "ZH",
+    "email": "renata.brianza@rb-law.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Dufourstr. 20",
+    "phone": "043 344 04 64",
+    "source_url": "https://zip.ch/de/brianza-renata-dufourstrasse-zurich-RDKayW57JY/"
+  },
+  "rbclaw.ch": {
+    "canton": "ZH",
+    "email": "mbortoluzzi@rbclaw.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Lehfrauenweg 8",
+    "phone": "+41 44 382 25 05",
+    "source_url": "https://search.ch/tel/zuerich/lehfrauenweg-8/mario-bortoluzzi"
+  },
   "rcslegal.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -20312,6 +20499,14 @@
       "Real estate law and transactions"
     ],
     "source_url": "https://urbach-law.inolawyer.com/en"
+  },
+  "urkundsperson.ch": {
+    "canton": "ZH",
+    "email": "info@urkundsperson.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Affolternstr. 52",
+    "phone": "041 825 02 84",
+    "source_url": "https://urkundsperson.ch/"
   },
   "urshuber-anwalt.ch": {
     "_failed": true,
