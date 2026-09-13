@@ -853,6 +853,14 @@
     "phone": "+41 44 861 00 44",
     "source_url": "https://www.advokatur-buelach.ch/kontakt"
   },
+  "advokatur-daetwyler.ch": {
+    "canton": "ZH",
+    "email": "rd@advokatur-daetwyler.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Marktgasse 64",
+    "phone": "052 233 66 00",
+    "source_url": "https://zip.ch/de/rolf-datwyler-rechtsanwalt-marktgasse-winterthur-jELbapn16m/"
+  },
   "advokatur-etter-sg": {
     "_failed": true,
     "canton": "SG",
@@ -4424,6 +4432,19 @@
     ],
     "source_url": "https://berger-recht.ch/"
   },
+  "bergrecht.ch": {
+    "canton": "ZH",
+    "email": "michael.buetler@bergrecht.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Gloriastr. 66",
+    "phone": "043 477 99 66",
+    "practice_areas_de": [
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Naturgefahren"
+    ],
+    "source_url": "https://www.bergrecht.ch/anwaltsbuero.htm"
+  },
   "berlinger-ag-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -5971,6 +5992,12 @@
     "firm_name": "Brauerstr. 50",
     "reason": "adresse partagee par 2 cabinets distincts (Daniel Buff, Anwaltskanzlei Hux), pas d'entite commune"
   },
+  "bugada-aebli-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Besenrainstr. 31",
+    "source_url": "http://anw24.ch/details/1260/elda-bugada-aebli-zuerich"
+  },
   "buhlmann-daniel-lu": {
     "_failed": true,
     "canton": "LU",
@@ -6010,6 +6037,13 @@
     "firm_name": "c/o Zum Stein Office GmbH",
     "phone": "+41 71 223 54 68",
     "source_url": "https://burges-haueter.com/kontakt/"
+  },
+  "burkard-toedistr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Tödistr. 27",
+    "reason": "aucune information precise trouvee pour Thomas Burkard a cette adresse (seul un cabinet homonyme 'Burkard Rechtsanwälte' sans lien confirme)"
   },
   "burki-law.ch": {
     "canton": "ZH",
@@ -6116,6 +6150,18 @@
     ],
     "source_url": "https://bwr-law.ch/?lang=en"
   },
+  "byland-kanzlei.ch": {
+    "canton": "ZH",
+    "email": "byland@byland-kanzlei.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Schlossbergstr. 24",
+    "phone": "+41 44 552 00 74",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.byland-kanzlei.ch/"
+  },
   "byland.law": {
     "canton": "ZH",
     "email": "mail@byland.law",
@@ -6125,6 +6171,14 @@
     "phone": "+41 43 321 32 32",
     "source_url": "https://byland.law/en/about/",
     "team_size_n": 1
+  },
+  "c-law.ch": {
+    "canton": "ZH",
+    "email": "info@c-law.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Mühlebachstr. 69",
+    "phone": "+41 44 380 06 20",
+    "source_url": "https://www.c-law.ch/"
   },
   "cadosch-zh": {
     "_failed": true,
@@ -6217,6 +6271,13 @@
     "phone": "044 244 81 25",
     "source_url": "https://www.captlaw.ch/"
   },
+  "casetti-untergraben-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Untergraben 17",
+    "reason": "adresse trouvee (Zähringerstrasse 51) differe de celle du CSV (Untergraben 17) ; cabinet en cours de fermeture, ne prend plus de nouveaux mandats"
+  },
   "castelli-stmoritz-gr": {
     "_failed": true,
     "canton": "GR",
@@ -6237,6 +6298,19 @@
     "checked_date": "2026-09-10",
     "firm_name": "Advokaturbüro Peder Cathomen Veia",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+  },
+  "cattaneo-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bahnhofplatz 4",
+    "practice_areas_de": [
+      "Internationales Recht",
+      "Erbrecht",
+      "Erbschaftssteuerrecht",
+      "Betreibungs- und Inkassorecht",
+      "Vollstreckungsrecht"
+    ],
+    "source_url": "https://www.firmen.ch/de/Zuerich/Cattaneo+Rechtsanwaelte+Avvocati+Attorneys+at+law/27548/Daniele+Cattaneo/14658/portrait.htm"
   },
   "cattaneopostizzi.ch": {
     "canton": "TI",
@@ -6393,6 +6467,13 @@
     "specialist_certification": "Fachanwalt SAV Familienrecht (Silvan Fahrni, 2017)",
     "team_size_n": 2
   },
+  "ch-ca-choquattorneys.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Langjurthenstr. 10",
+    "phone": "+41-44-910 96 16",
+    "source_url": "https://ch-ca-choquattorneys.ch/en/"
+  },
   "chabrier.ch": {
     "canton": "ZH",
     "email": "info@chabrier.ch",
@@ -6452,6 +6533,19 @@
     ],
     "source_url": "https://divorce-lawyer.ch/de"
   },
+  "chopard-recht.ch": {
+    "canton": "ZH",
+    "email": "dc@chopard-recht.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bachtobelstr. 4",
+    "phone": "044 299 99 66",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Sozialversicherungsrecht",
+      "Versicherungsrecht"
+    ],
+    "source_url": "https://www.rechtsberatung-up.ch/anwaelte/chopard-dominique/"
+  },
   "christe-isler.ch": {
     "canton": "ZH",
     "email": "isler@christe-isler.ch",
@@ -6461,12 +6555,27 @@
     "source_url": "https://christe-isler.ch/kontakt/",
     "team_size_n": 2
   },
+  "christen-andreas-kuesnacht-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Zürichstr. 136",
+    "reason": "aucun cabinet d'avocat confirme pour Andreas Christen a cette adresse (seul un juriste d'entreprise Migros homonyme trouve, sans lien)"
+  },
   "christen-kletzhaendler-gerber-schroeder-zh": {
     "_failed": true,
     "canton": "ZH",
     "checked_date": "2026-09-10",
     "firm_name": "Christen Kletzhändler Gerber Schroeder",
     "reason": "Aucun site officiel trouve, uniquement une fiche de registre commercial sans confirmation qu'il s'agit d'un cabinet d'avocats"
+  },
+  "christen-law.ch": {
+    "canton": "ZH",
+    "email": "cc@christen-law.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Zweiackerstr. 15",
+    "phone": "+41 44 252 06 70",
+    "source_url": "https://www.christen-law.ch/"
   },
   "christian-maeder-zh": {
     "_failed": true,
@@ -6504,6 +6613,20 @@
     ],
     "source_url": "https://www.citylex.ch/",
     "team_size_n": 2
+  },
+  "classenlegal.ch": {
+    "canton": "ZH",
+    "email": "office@classenlegal.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Pilgerweg 8",
+    "phone": "043 535 59 72",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht",
+      "Strafrecht",
+      "Mediation"
+    ],
+    "source_url": "https://search.ch/tel/zuerich/pilgerweg-8/andrea-classen.en.html"
   },
   "cms.law": {
     "canton": "ZH",
@@ -6746,6 +6869,13 @@
     ],
     "source_url": "https://www.csnlaw.com/"
   },
+  "czech-birmensdorf-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Rebhalde 52",
+    "reason": "identite non confirmee avec precision (seul un annuaire polonais de juristes trouve, aucun site officiel ni adresse suisse confirmee)"
+  },
   "d-partners.ch": {
     "canton": "LU",
     "email": "info@d-partners.ch",
@@ -6841,6 +6971,13 @@
     "firm_name": "Daniel Hochstrasser AG",
     "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
   },
+  "danner-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Funkwiesenstr. 44",
+    "phone": "044 311 55 00",
+    "source_url": "https://ernstdanner.ch/home"
+  },
   "davatzlegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -6921,6 +7058,40 @@
       "Komplementärmedizin"
     ],
     "source_url": "https://www.delnon.com/de/"
+  },
+  "demuth-recht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "St.-Georgen-Str. 40",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Aussergerichtliche Konfliktlösung"
+    ],
+    "source_url": "https://www.demuth-recht.ch/"
+  },
+  "derrer-law.ch": {
+    "canton": "ZH",
+    "email": "bd@derrer-law.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Etzelstr. 29",
+    "founding_year": 2017,
+    "phone": "044 923 51 01",
+    "source_url": "https://www.derrer-law.ch/kanzlei/"
+  },
+  "derungs-legal.com": {
+    "canton": "ZH",
+    "email": "vd@derungs-legal.com",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Dufourstr. 48",
+    "founding_year": 2012,
+    "phone": "+41 76 419 77 11",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Arbeitsvermittlung",
+      "Sportrecht"
+    ],
+    "source_url": "https://www.derungs-legal.com/vitus-derungs"
   },
   "dettling-ott.ch": {
     "canton": "ZH",
@@ -7087,6 +7258,17 @@
     "firm_name": "Anwaltskanzlei Dollé",
     "phone": "+41 41 420 44 44",
     "source_url": "https://dolle.ch/kontakt/"
+  },
+  "dominique-calco-erbrecht.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bachmannweg 9",
+    "practice_areas_de": [
+      "Internationales Erbrecht",
+      "Unternehmensnachfolge",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.dominique-calco-erbrecht.com/"
   },
   "dr-metz-bl": {
     "_failed": true,
@@ -10997,6 +11179,19 @@
       "Gastgewerberecht"
     ],
     "source_url": "https://jdomenig.ch/"
+  },
+  "jean-brogle.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Leilochweg 1",
+    "founding_year": 2016,
+    "practice_areas_de": [
+      "Sport- und Medienrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Immaterialgüterrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://jean-brogle.ch/"
   },
   "jenni-sg": {
     "_failed": true,

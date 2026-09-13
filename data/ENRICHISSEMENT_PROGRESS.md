@@ -4213,3 +4213,25 @@ Gutstr. 136/Zürich (adresse trouvée pour Patrick Braunschweig différente de c
 
 Rattachement : 1172 études rattachées au total (1154 → 1172, +18). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (canton ZH, lot 120)
+
+Poursuite de la stratégie "un seul avocat" du lot 119. 20 cabinets traités (16 succès / 4 échecs).
+
+Succès : Jean Brogle (**indépendant depuis 2016**, 4 domaines) ; Elda Bugada Aebli (registre ZH) ;
+Michael Bütler (tel/email, 3 domaines) ; Martin Byland (tel/email, 2 domaines) ; Dominique Calcò
+Labbruzzo (3 domaines) ; Daniele Cattaneo (5 domaines) ; Dominique Chopard (tel/email, 3 domaines,
+Fachanwalt SAV) ; Maurice Choquard (tel) ; Christian Christen (tel/email) ; Claudia Christen
+(tel/email) ; Andrea Classen (tel/email, 4 domaines) ; Ernst Danner (tel) ; Rolf Dätwyler / Advokatur
+Dätwyler (tel/email) ; Kristin Demuth (2 domaines) ; Dr. Bruno Derrer (**indépendant depuis 2017**,
+tel/email) ; Vitus Derungs (**depuis 2012**, tel/email, 4 domaines, arbitre Tribunal du sport
+suisse).
+
+Échecs (**pièges d'identité évités**) : Tödistr. 27 (Thomas Burkard non confirmé) ; Untergraben
+17/Zürich (adresse de Susanne Casetti trouvée différente -- Zähringerstrasse -- et cabinet en cours
+de fermeture) ; Zürichstr. 136/Küsnacht (Andreas Christen introuvable comme avocat à cette adresse)
+; Rebhalde 52/Birmensdorf (Pawel Czech non confirmé avec précision, seul un annuaire polonais
+trouvé).
+
+Rattachement : 1188 études rattachées au total (1172 → 1188, +16). Suite de tests : 94/94 au
+vert.
