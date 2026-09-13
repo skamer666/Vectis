@@ -217,6 +217,13 @@
       "firm_name": "Müller / Scheuber – Advokatur & Notariat",
       "reason": "Site officiel = installation WordPress par defaut ('Hello world'), aucun contenu exploitable"
     },
+    "advokatur-schodler-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "advokatur schödler",
+      "reason": "site inaccessible (timeout puis HTTP 503, 3 tentatives)"
+    },
     "advokatur-trias-bl": {
       "_failed": true,
       "canton": "BL",
@@ -927,6 +934,13 @@
       "firm_name": "Anwaltskanzlei Dolder",
       "reason": "Piege d'identite : le seul cabinet Dolder trouve (Dolder Zust) est base a St-Gall, pas a Zurich (regle 5)"
     },
+    "dr-metz-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Dr. Metz Advokatur",
+      "reason": "aucun site officiel dedie identifie"
+    },
     "dresel-zh": {
       "_failed": true,
       "canton": "ZH",
@@ -1109,6 +1123,13 @@
       "checked_date": "2026-09-09",
       "firm_name": "Finlex AG",
       "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+    },
+    "fischer-wirz-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Fischer Wirz Advokatur",
+      "reason": "aucun site officiel dedie identifie ; risque de confusion avec une praticienne de kinesiologie homonyme"
     },
     "fleischhauer-trimmis-gr": {
       "_failed": true,
@@ -1512,12 +1533,26 @@
       "firm_name": "Studio legale Jackson & Arnoldi",
       "reason": "Identite confirmee (Paola Arnoldi, Via Domenico Fontana 14, Lugano) mais aucun site officiel du cabinet identifie"
     },
+    "janiak-freivogel-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Advokaturbüro Janiak, Freivogel, Schweighauser, von Wartburg, Aeschlimann, Maier",
+      "reason": "aucun site officiel dedie identifie"
+    },
     "jenni-sg": {
       "_failed": true,
       "canton": "SG",
       "checked_date": "2026-09-10",
       "firm_name": "Jenni Rechtsanwalt",
       "reason": "piege d'identite evite -- Harald Jenni exerce desormais chez Advokaturbureau Brunner & Dudli a une autre adresse (Hinterlauben 12), continuite non confirmee pour l'entite CSV solo"
+    },
+    "jermann-dr-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Advokaturbüro Dr. Jermann",
+      "reason": "site officiel trouve (jermann-rechtsanwalt.ch) mais aucune coordonnee ni domaine de competence explicite extractible (mention vague 'depuis 30 ans' sans annee precise)"
     },
     "jkr.ch": {
       "canton": "ZH",
@@ -1893,6 +1928,13 @@
       "firm_name": "Lexperience AG",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "linsi-kung-levy-wuthrich-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Linsi, Küng, Levy, Wüthrich",
+      "reason": "aucun site officiel dedie identifie, cabinet possiblement dissous"
+    },
     "lmrecht.ch": {
       "_failed": true,
       "canton": "SG",
@@ -2208,6 +2250,13 @@
       "firm_name": "MZBS Advokatur Notariat",
       "reason": "site JS rendu, contenu non accessible"
     },
+    "nadine-grieder-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Nadine Grieder, Advokatin und Notarin",
+      "reason": "site inaccessible (HTTP 503, 3 tentatives sur lawpartner.ch)"
+    },
     "naegeli-rechtsanwaelte.ch": {
       "_failed": true,
       "canton": "ZH",
@@ -2261,6 +2310,13 @@
       "checked_date": "2026-09-11",
       "firm_name": "Studio legale Leandro Noi Via",
       "reason": "site inactif (page hebergeur en construction)"
+    },
+    "notariat-pfulg-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Notariat & Advokatur Pfulg",
+      "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
     },
     "notarius-ag-wil-sg": {
       "_failed": true,
@@ -2636,12 +2692,26 @@
       "firm_name": "RÜEGGER ANWALTSKANZLEI",
       "reason": "aucun site officiel propre identifie (uniquement annuaire communal)"
     },
+    "rufi-partner-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Advokaturbüro Rufi und Partner",
+      "reason": "aucun site officiel dedie identifie"
+    },
     "rupp-chur-gr": {
       "_failed": true,
       "canton": "GR",
       "checked_date": "2026-09-11",
       "firm_name": "Advokaturbüro Claudio Rupp",
       "reason": "ambiguite avec Rupp Treuhand AG, pas clairement une etude d'avocats distincte avec site propre"
+    },
+    "rupp-rechtsanwalte-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Rupp Rechtsanwälte",
+      "reason": "site inaccessible (HTTP 503, 3 tentatives sur rupp-law.ch et lawyers.ch)"
     },
     "rusconi-nicolai-chur-gr": {
       "_failed": true,
@@ -2842,6 +2912,13 @@
       "firm_name": "Simmen Rechtsanwälte",
       "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
     },
+    "simon-vermot-weber-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Simon-Vermot & Weber Notariat und Advokatur",
+      "reason": "aucun site officiel dedie identifie, membre CSV (Meier Soraya) non confirme"
+    },
     "solenthaler-sg": {
       "_failed": true,
       "canton": "SG",
@@ -2889,6 +2966,13 @@
       "checked_date": "2026-09-10",
       "firm_name": "Staub Rechtsanwälte",
       "reason": "site inaccessible (HTTP 503, 2 tentatives)"
+    },
+    "stedtli-notariat-liestal-bl": {
+      "_failed": true,
+      "canton": "BL",
+      "checked_date": "2026-09-13",
+      "firm_name": "Stedtli Notariat Liestal",
+      "reason": "site inaccessible (HTTP 503, 3 tentatives) - impossible de confirmer la continuite de fusion avec Rupp Rechtsanwalte"
     },
     "stern-anwaltskanzlei-zh": {
       "_failed": true,
@@ -4477,6 +4561,23 @@
     "source_url": "https://advokaturaussersihl.ch/",
     "team_size_n": 8
   },
+  "advokaturburoranert.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Advokaturbüro Ranert",
+    "phone": "+41 61 465 10 33",
+    "practice_areas_de": [
+      "Ehe und Familie",
+      "Sozialversicherungen",
+      "Aufenthalt / Migration",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Verträge",
+      "Erbschaft",
+      "Mietrecht"
+    ],
+    "source_url": "https://advokatur-ranert.ch/"
+  },
   "advokaturfluetsch.ch": {
     "canton": "GR",
     "email": "info@advokaturfluetsch.ch",
@@ -4817,6 +4918,14 @@
     "firm_name": "Advoro Zürich AG (Standort St. Gallen)",
     "phone": "+41 71 277 65 65",
     "source_url": "https://www.advoro.ch/en/team"
+  },
+  "advospanien.ch": {
+    "canton": "BL",
+    "email": "advospanien@outlook.com",
+    "fetched_date": "2026-09-13",
+    "firm_name": "advoSpanien",
+    "phone": "+41 76 667 40 55",
+    "source_url": "https://advospanien.ch/"
   },
   "advosursee.ch": {
     "canton": "LU",
@@ -6124,6 +6233,17 @@
       "Labour law"
     ],
     "source_url": "https://www.bachmann.law/en/law-firm/"
+  },
+  "baechligmbh.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Baechli GmbH",
+    "practice_areas_de": [
+      "Recht",
+      "Steuern",
+      "Treuhand"
+    ],
+    "source_url": "https://baechligmbh.ch/"
   },
   "baechtold-gallarotti.ch": {
     "canton": "ZH",
@@ -8506,6 +8626,36 @@
       "Strafrecht"
     ],
     "source_url": "https://cottinelli-law.ch/kontakt/"
+  },
+  "cronbloch.ch": {
+    "canton": "BL",
+    "email": "info@cronbloch.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Cron Bloch Schmid, Notariat & Advokatur",
+    "phone": "+41 61 465 90 90",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Nachlass- und Vorsorgeplanung",
+      "Ehegüter- und Erbrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://cronbloch.ch/"
+  },
+  "cronbloch.ch#2": {
+    "canton": "BL",
+    "email": "info@cronbloch.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Cron Bloch Schmid Notariat + Advokatur KLG",
+    "phone": "+41 61 465 90 90",
+    "source_url": "https://cronbloch.ch/"
+  },
+  "cronbloch.ch#3": {
+    "canton": "BL",
+    "email": "info@cronbloch.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Cron Bloch Schmid, Notariat + Advokatur",
+    "phone": "+41 61 465 90 90",
+    "source_url": "https://cronbloch.ch/"
   },
   "csnlaw.com": {
     "canton": "TI",
@@ -11251,6 +11401,20 @@
     "source_url": "https://hhh-law.ch/",
     "team_size_n": null
   },
+  "hilladvokatur.ch": {
+    "canton": "BL",
+    "email": "hill@hilladvokatur.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "hilladvokatur",
+    "phone": "+41 77 471 66 15",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau- und Planungsrecht",
+      "allgemeines Verwaltungsrecht",
+      "Öffentlichkeitsprinzip"
+    ],
+    "source_url": "https://hilladvokatur.ch/"
+  },
   "hinterlauben12.ch": {
     "canton": "SG",
     "email": "info@hinterlauben12.ch",
@@ -13530,6 +13694,18 @@
     ],
     "source_url": "https://www.legal1896.ch/en/"
   },
+  "legalcoaching.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Legalcoaching",
+    "phone": "+41 79 372 39 21",
+    "practice_areas_de": [
+      "Legal Coaching für Anwälte",
+      "Karriereplanung für Juristen",
+      "Rechtsberatung"
+    ],
+    "source_url": "https://legalcoaching.ch/"
+  },
   "legale.ch": {
     "canton": "TI",
     "email": "studio@legale.ch",
@@ -13914,6 +14090,44 @@
     "practice_areas_de": null,
     "source_url": "https://www.lexpartners.ch/en/",
     "team_size_n": null
+  },
+  "lexpartners.ch#2": {
+    "canton": "BL",
+    "email": "info@lexpartners.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "LEXPARTNERS., Advokaten",
+    "founding_year": 1978,
+    "phone": "+41 61 467 90 00",
+    "source_url": "https://lexpartners.ch/"
+  },
+  "lexpartners.ch#3": {
+    "canton": "BL",
+    "email": "info@lexpartners.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "LEXPARTNERS, Advokaten",
+    "founding_year": 1978,
+    "phone": "+41 61 467 90 00",
+    "source_url": "https://lexpartners.ch/"
+  },
+  "lexperts.ch": {
+    "canton": "BL",
+    "email": "duss@lexperts.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Lexperts Advokatur",
+    "founding_year": 2020,
+    "phone": "+41 (0)61 911 01 31",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Ehe-, Konkubinats- und Partnerschaftsrecht",
+      "Erb- und Nachlassrecht",
+      "Zivilprozessrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Vertrags- und Wirtschaftsrecht",
+      "Verwaltungsrecht",
+      "Gesellschafts- und Unternehmensrecht",
+      "Strafrecht und Strafprozessrecht"
+    ],
+    "source_url": "https://lexperts.ch/"
   },
   "lexr.com": {
     "canton": "SG",
@@ -15445,6 +15659,19 @@
     "source_url": "https://www.nomoslaw.ch/kontakt",
     "team_size_n": 1
   },
+  "notavis.ch": {
+    "canton": "BL",
+    "email": "info@notavis.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "notavis Jeanneret & Lutz",
+    "phone": "061 706 30 30",
+    "practice_areas_de": [
+      "Notariat",
+      "Advokatur",
+      "Zahl- und Treuhandstelle"
+    ],
+    "source_url": "https://notavis.ch/"
+  },
   "novalex.ch": {
     "canton": "AR",
     "email": "info@novalex.ch",
@@ -16529,6 +16756,21 @@
     "source_url": "https://www.reetz-sohm.ch/kanzlei/",
     "team_size_n": null
   },
+  "reich-fuerstenberger.ch": {
+    "canton": "BL",
+    "email": "mr@reich-fuerstenberger.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Reich Fürstenberger, Advokatur und Notariat",
+    "phone": "061 703 15 15",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Strafrecht",
+      "Obligationenrecht",
+      "Sozialversicherungsrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://reich-fuerstenberger.ch/"
+  },
   "reiser-partner.ch": {
     "canton": "SG",
     "email": "info@reiser-partner.ch",
@@ -17009,6 +17251,23 @@
     ],
     "source_url": "https://rsplaw.ch/",
     "team_size_n": null
+  },
+  "rsrechtsservice.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-13",
+    "firm_name": "RS Rechtsservice AG",
+    "practice_areas_de": [
+      "Haftpflichtrecht und Strassenverkehrsrecht (SVG)",
+      "Familien- und Scheidungsrecht",
+      "Gleichstellungsrecht",
+      "Mietrecht für Private und Unternehmen",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Erbrecht",
+      "Schulrecht",
+      "Öffentliches Verwaltungs- und Verfassungsrecht"
+    ],
+    "source_url": "https://rechtsservice.ch/"
   },
   "rtr-law.ch": {
     "canton": "ZH",
@@ -17786,6 +18045,24 @@
       "Kraftloserklärung von Schuldbriefen"
     ],
     "source_url": "https://seidelpartner.ch/kontakt/"
+  },
+  "sennadvokatur.ch": {
+    "canton": "BL",
+    "email": "info@sennadvokatur.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "SENN Advokatur",
+    "phone": "+41 61 508 14 63",
+    "practice_areas_de": [
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Gesellschaftsrecht",
+      "Vertrags- und Handelsrecht",
+      "Erbrecht",
+      "allgemeines Zivilrecht",
+      "Strafrecht",
+      "Migrationsrecht"
+    ],
+    "source_url": "https://sennadvokatur.ch/"
   },
   "sennsommbossart.ch": {
     "canton": "SG",
@@ -18844,6 +19121,14 @@
     "source_url": "https://szlaw.ch/",
     "team_size_n": null
   },
+  "tanner.law": {
+    "canton": "BL",
+    "email": "office@tanner.law",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Anwaltskanzlei Tanner, Geschäftshaus Letten",
+    "phone": "+41 61 508 12 31",
+    "source_url": "https://tanner.law/"
+  },
   "taormina-law.ch": {
     "canton": "ZH",
     "email": "kanzlei@taormina-law.ch",
@@ -19217,6 +19502,39 @@
       "Familienrecht mit Fokus auf Kindeswohl"
     ],
     "source_url": "https://www.trennungsanliegen.ch/"
+  },
+  "treyer-zihlmann.ch": {
+    "canton": "BL",
+    "email": "treyer@treyer-zihlmann.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Treyer + Zihlmann Advokatur - Notariat",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Ehe- und Familienrecht",
+      "Erbrecht und Willensvollstreckung",
+      "Mietrecht",
+      "Öffentliches Recht",
+      "Prozessführung",
+      "Rechtsberatung für KMU",
+      "Schulrecht",
+      "Transportrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://treyer-zihlmann.ch/"
+  },
+  "treyer-zihlmann.ch#2": {
+    "canton": "BL",
+    "email": "zihlmann@treyer-zihlmann.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Advokatur Treyer & Zihlmann, Advokatur und Notariat",
+    "source_url": "https://treyer-zihlmann.ch/"
+  },
+  "treyer-zihlmann.ch#3": {
+    "canton": "BL",
+    "email": "t.treyer@treyer-zihlmann.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Treyer & Zihlmann, Advokatur und Notariat",
+    "source_url": "https://treyer-zihlmann.ch/"
   },
   "trigondorf.ch": {
     "canton": "ZH",

@@ -4013,3 +4013,33 @@ Rattachement : 1070 études rattachées au total (1062 → 1070, +8). Suite de t
 vert.
 
 **Bilan canton GR : 108 fiches traitées au total sur les lots 110-113 (58 succès / 50 échecs).**
+
+## Phase 3, lot du 2026-09-13 (canton BL, lot 114)
+
+Ouverture du canton BL (54 cabinets non traités au départ). 31 fiches traitées (19 succès / 12
+échecs).
+
+Succès : Cron Bloch (Notariat & Advokatur, tel/email, 4 domaines -- **piège d'identité
+partiellement évité** : le site actuel ne montre que Laura Cron et Jan Bloch, "Schmid" absent de
+l'équipe affichée ; dédoublonné sur 3 variantes CSV avec les mêmes coordonnées confirmées, sans
+inventer de lien avec un éventuel associé Schmid) ; LEXPARTNERS (**fondée 1978**, tel Muttenz/Bâle,
+email -- dédoublonné sur 2 variantes CSV distinctes de l'entrée déjà en cache) ; Lexperts Advokatur
+(**fondée 2020**, tel/email, 9 domaines) ; hilladvokatur (tel/email, 4 domaines) ; Legalcoaching
+(tel) ; Baechli GmbH (catégories Recht/Steuern/Treuhand) ; notavis Jeanneret & Lutz (tel/email, 3
+domaines) ; advoSpanien (tel/email) ; Reich Fürstenberger (tel/email, 5 domaines) ; Advokaturbüro
+Ranert (tel, 8 domaines) ; Anwaltskanzlei Tanner (tel/email) ; Treyer + Zihlmann (dédoublonné sur 3
+variantes CSV, emails distincts par associé, 10 domaines) ; RS Rechtsservice AG (9 domaines) ; SENN
+Advokatur (tel/email, 8 domaines).
+
+Échecs : Advokaturbüro Dr. Jermann (site trouvé mais seule mention vague "depuis 30 ans", aucune
+année précise ni coordonnée extractible) ; Notariat & Advokatur Pfulg (DNS injoignable) ; Rupp
+Rechtsanwälte et Stedtli Notariat Liestal (site HTTP 503 après 3 tentatives, dédoublonnage
+fusion non confirmable) ; advokatur schödler (503 après 3 tentatives) ; Nadine Grieder (503 après
+3 tentatives sur lawpartner.ch) ; Fischer Wirz Advokatur (**piège d'identité évité** -- seule
+homonyme trouvée est une praticienne de kinésiologie, pas une avocate) ; Simon-Vermot & Weber
+(membre CSV Meier Soraya non confirmé) ; Advokaturbüro Rufi und Partner, Linsi/Küng/Levy/Wüthrich,
+Advokaturbüro Janiak et consorts, Dr. Metz Advokatur (aucun site officiel dédié identifié pour ces
+4 cabinets).
+
+Rattachement : 1084 études rattachées au total (1070 → 1084, +14). Suite de tests : 94/94 au
+vert.
