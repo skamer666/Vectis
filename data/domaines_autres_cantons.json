@@ -176,6 +176,19 @@
     ],
     "source_url": "https://www.aab45.ch/kontakt.html"
   },
+  "ab-legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Dufourstr. 22",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Erbrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://ab-legal.ch/Alexander-Banzer/"
+  },
   "abaecherli-sarnen": {
     "canton": "OW",
     "fetched_date": "2026-09-13",
@@ -991,6 +1004,13 @@
     ],
     "source_url": "https://advokatur-regensdorf.ch/"
   },
+  "advokatur-reinach-bl": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-13",
+    "firm_name": "Advokatur",
+    "reason": "Frei confirme seul a Reinach BL, Gantner (Advokatur Gantner & Gantner) base a Liestal -- pas de cabinet commun"
+  },
   "advokatur-roth.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-06",
@@ -1304,6 +1324,13 @@
     "firm_name": "Janiak Freivogel Schweighauser, von Wartburg, Advokaturbüro",
     "reason": "Resolution DNS impossible (timeout) sur deux tentatives",
     "tested_date": "2026-09-07"
+  },
+  "advokaturbuero-luzern-lu": {
+    "_failed": true,
+    "canton": "LU",
+    "checked_date": "2026-09-13",
+    "firm_name": "Advokaturbüro",
+    "reason": "Burri et Schacher confirmes dans des cabinets distincts a Lucerne (Burgerstrasse 22 vs Advokaturbüro Oberseeburg), pas de pratique commune"
   },
   "advokaturburoranert.ch": {
     "canton": "BL",
@@ -1765,6 +1792,19 @@
     "source_url": "https://aes-anwaelte.ch/kontakt/",
     "team_size_n": 3
   },
+  "affentranger-unterengstringen-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bergstr. 4",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Erbrecht",
+      "Scheidungsrecht",
+      "Zivilrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/doris-affentranger-brunner"
+  },
   "affinity-group.ch": {
     "canton": "ZH",
     "email": "r.arquint@affinitylaw.ch",
@@ -1782,6 +1822,27 @@
       "Advice in Connection with Trusts and Foundations"
     ],
     "source_url": "https://www.affinity-group.ch/en/contact/"
+  },
+  "affolter-eijsten-erlenbach-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Glärnischstr. 11",
+    "phone": "044 912 29 29",
+    "practice_areas_de": [
+      "Strafrecht"
+    ],
+    "source_url": "https://search.ch/tel/erlenbach/glaernischstrasse-11/heidi-affolter"
+  },
+  "affolter-hornbachstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Hornbachstr. 50",
+    "phone": "044 389 84 82",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.anwaltvergleich.ch/anwalt-Daniel-Affolter-Z%C3%BCrich-rechtsanwalt-50.htm"
   },
   "agon-compliance.com": {
     "canton": "ZH",
@@ -1900,6 +1961,14 @@
     "firm_name": "Acocella Keller Wolf Schilter",
     "reason": "HTTP 503 Service Unavailable au fetch",
     "tested_date": "2026-09-07"
+  },
+  "albers-law.com": {
+    "canton": "ZH",
+    "email": "albers-law@bluewin.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Freiestr. 25",
+    "phone": "044 266 91 21",
+    "source_url": "https://albers-law.com/en/"
   },
   "albisetti-bauer-ti": {
     "_failed": true,
@@ -2193,6 +2262,20 @@
     "phone": "+41 41 229 60 00",
     "source_url": "https://amrein-partner.ch/kontakt/"
   },
+  "amsler-hadlaubsteig-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Hadlaubsteig 5",
+    "phone": "+41 44 388 90 80",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Vereinsrecht",
+      "Familien- und Erbrecht",
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.baur-imkamp.ch/Lic-iur-Martin-Amsler.html"
+  },
   "amstutz-legal-sg": {
     "_failed": true,
     "canton": "SG",
@@ -2231,6 +2314,16 @@
     ],
     "source_url": "https://www.anderegg-recht.com/"
   },
+  "anderes-oberstammheim-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Hornerweg 6",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.rechtsanwalt.com/rechtsanwalt/lic-iur-lucas-anderes/"
+  },
   "anderhub-recht.ch": {
     "canton": "LU",
     "email": "mail@anderhub-recht.ch",
@@ -2245,6 +2338,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Rechtsanwalt und Notar",
     "reason": "site grandnisple.ch inaccessible (HTTP 503, 3 tentatives cumulees sur plusieurs lots)"
+  },
+  "andres-thalmann-adliswil-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Im Lätten 6",
+    "reason": "aucune coordonnee ni domaine de competence extractible au-dela de la simple presence en annuaire"
   },
   "animus-sg": {
     "_failed": true,
@@ -3255,12 +3355,33 @@
     "source_url": "https://bablegal.ch/it/",
     "team_size_n": 4
   },
+  "bacchetta-zaehringerstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Zähringerstr. 51",
+    "phone": "043 811 44 33",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Strafrecht",
+      "Informatikrecht",
+      "Datenschutzrecht",
+      "Urheberrecht"
+    ],
+    "source_url": "http://anw24.ch/details/277/noa-hans-bacchetta-zuerich"
+  },
   "bachmann-andreas-lu": {
     "_failed": true,
     "canton": "LU",
     "checked_date": "2026-09-10",
     "firm_name": "Advokatur Andreas Bachmann AG",
     "reason": "piege d'identite evite -- adresse CSV (Falkengasse 3) ne correspond pas a l'adresse trouvee (Dreilindenstrasse 54a)"
+  },
+  "bachmann-carmenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Carmenstr. 16",
+    "reason": "cabinet dissous/inactif -- pratique fermee fin mars 2023, n'accepte plus de nouveaux mandats depuis fin 2024"
   },
   "bachmann.law": {
     "canton": "ZH",
@@ -4071,6 +4192,16 @@
     "firm_name": "Beeler & Werner",
     "reason": "Aucun site officiel trouve, seuls des annuaires tiers"
   },
+  "beeler-wiget-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Beeler & Wiget",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://search.ch/tel/schwyz/hauptplatz-7/dr-beeler-bruno.de.html"
+  },
   "beelerlegal-sg": {
     "_failed": true,
     "canton": "SG",
@@ -4260,6 +4391,12 @@
       "Prozessführung und Schiedsgerichtsbarkeit"
     ],
     "source_url": "https://www.bgpartner.ch/de/portrait.html"
+  },
+  "bgpartner.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "c/o BGPartner AG",
+    "source_url": "https://www.bgpartner.ch/de/team.html"
   },
   "bhlaw.ch": {
     "canton": "ZH",
@@ -5582,6 +5719,13 @@
     "source_url": "https://buettler-benn.ch/en/home/",
     "team_size_n": 2
   },
+  "buff-hux-brauerstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Brauerstr. 50",
+    "reason": "adresse partagee par 2 cabinets distincts (Daniel Buff, Anwaltskanzlei Hux), pas d'entite commune"
+  },
   "buhlmann-daniel-lu": {
     "_failed": true,
     "canton": "LU",
@@ -5678,6 +5822,13 @@
     "checked_date": "2026-09-11",
     "firm_name": "Advokaturbüro Benno Burtscher Hinterm",
     "reason": "aucun site officiel propre identifie"
+  },
+  "bussien-neustadtgasse-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Neustadtgasse 1a",
+    "reason": "Bussien confirme seul a Neustadtgasse 1a (bussien-law.ch), Gaudenz Kind introuvable"
   },
   "butz-weber.ch": {
     "_failed": true,
@@ -10289,6 +10440,20 @@
     ],
     "source_url": "https://www.isenringlaw.ch/en/"
   },
+  "isenschmid-getzmann.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Isenschmid Getzmann Rechtsan-",
+    "founding_year": 2000,
+    "phone": "041 852 03 54",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.isenschmid-getzmann.ch/"
+  },
   "islerdelgrande.ch": {
     "canton": "ZH",
     "email": "info@islerdelgrande.ch",
@@ -11279,6 +11444,12 @@
     "notes": "Meme cabinet que kellerhals-carrard.ch (ZH) et #BS -- bureau de Lugano. Chiffre (600 avocats) global au cabinet, pas specifique au bureau tessinois.",
     "source_url": "https://kellerhals-carrard.ch/",
     "team_size_n": 600
+  },
+  "kellerlehmann-lu": {
+    "canton": "LU",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Keller Lehmann Rechtsanwälte AG",
+    "source_url": "https://lawyers.jurata.ch/de/anwaelte/luzern-lu"
   },
   "kerber.legal": {
     "canton": "ZH",
@@ -15841,6 +16012,20 @@
     "source_url": "https://www.quinnemanuel.com/offices/zurich/",
     "team_size_n": null
   },
+  "ra-aebi.ch": {
+    "canton": "ZH",
+    "email": "da@ra-aebi.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Hofstr. 109",
+    "phone": "044 932 30 40",
+    "practice_areas_de": [
+      "Betreibungs- und Konkursrecht",
+      "Zivilrecht",
+      "Wirtschaftsrecht",
+      "Wirtschaftsstrafrecht"
+    ],
+    "source_url": "https://www.ra-aebi.ch/"
+  },
   "ra-kost.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-08",
@@ -17930,6 +18115,13 @@
       "Kraftloserklärung von Schuldbriefen"
     ],
     "source_url": "https://seidelpartner.ch/kontakt/"
+  },
+  "seidenstrasse2-lachen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Seidenstrasse 2",
+    "phone": "055 451 50 55",
+    "source_url": "https://search.ch/tel/lachen/seidenstrasse-2/fleischli-burlet-rechtsanwaelte"
   },
   "sennadvokatur.ch": {
     "canton": "BL",

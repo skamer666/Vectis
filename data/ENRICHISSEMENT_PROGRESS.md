@@ -4144,3 +4144,27 @@ avocate sur 5 confirmée à cette adresse).
 
 Rattachement : 1133 études rattachées au total (1119 → 1133, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (cantons ZH/SZ/LU, lot 117)
+
+Le pool restant est désormais dominé par des cabinets individuels/duos à 1-2 avocats (les gros
+cabinets ont été traités aux lots précédents). 20 cabinets traités (14 succès / 6 échecs).
+
+Succès : Beeler & Wiget (Schwyz, Hauptplatz 7) ; Fleischli & Burlet (tel, Lachen) ; Isenschmid
+Getzmann Rechtsanwälte (**fondée 2000**, tel, 4 domaines, Küssnacht am Rigi) ; Keller Lehmann
+Rechtsanwälte AG (Luzern) ; Rechtsanwalt Dr. Dieter Aebi (tel/email, 4 domaines, Wetzikon) ; Doris
+Affentranger-Brunner (5 domaines, licence 1989) ; Daniel Affolter (tel, 2 domaines) ; Heidi
+Affolter-Eijsten (tel, avocate indépendante depuis 1986, droit pénal) ; Dr. Max H. Albers Law
+(tel/email) ; Martin Amsler (tel, licence 1985, 5 domaines) ; Lucas Anderes (2 domaines) ; Noa Hans
+Bacchetta (tel, licence 2012, 5 domaines) ; AB-Legal / Alexander Banzer (5 domaines, licence 2005)
+; c/o BGPartner AG (dédoublonné avec l'entrée déjà en cache sous une autre variante CSV).
+
+Échecs (**pièges d'identité évités**) : Advokatur Reinach/BL (Frei confirmé seul à Reinach, Gantner
+basé à Liestal) ; Advokaturbüro Luzern (Burri et Schacher dans des cabinets distincts) ; Im Lätten
+6/Adliswil (aucune coordonnée extractible au-delà de l'annuaire) ; Carmenstr. 16/Zürich (cabinet
+dissous, n'accepte plus de mandats depuis fin 2024) ; Brauerstr. 50/Winterthur (2 cabinets distincts
+à la même adresse) ; Neustadtgasse 1a/Winterthur (Bussien confirmé seul, second membre CSV
+introuvable).
+
+Rattachement : 1147 études rattachées au total (1133 → 1147, +14). Suite de tests : 94/94 au
+vert.
