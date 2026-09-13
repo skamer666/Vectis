@@ -4043,3 +4043,73 @@ Advokaturbüro Janiak et consorts, Dr. Metz Advokatur (aucun site officiel dédi
 
 Rattachement : 1084 études rattachées au total (1070 → 1084, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (cantons AI/UR/AR/NW/OW, lot 115)
+
+Balayage complet des 5 plus petits cantons groupables restants (AI, UR, AR, NW, OW), tous
+entièrement épuisés en un seul lot : 39 cabinets traités (35 succès / 4 échecs).
+
+**Correction technique importante** : une clé `_failed` imbriquée au premier niveau du JSON
+(contenant 512 entrées d'échecs accumulées sur de nombreux lots antérieurs, écrites via un motif
+`cache.setdefault("_failed", {}).update(...)` au lieu d'entrées plates avec `_failed: true`) a été
+découverte -- troisième occurrence de ce bug après la structure `_sans_site` corrigée au lot 97.
+`load_other_canton_enrichment()` ne lit que les entrées plates au premier niveau du JSON ; les 512
+entrées imbriquées étaient donc invisibles pour les scripts de sélection de candidats des lots
+suivants, qui re-recherchaient sans le savoir des cabinets déjà confirmés comme des impasses
+(exemple concret : les 12 échecs du lot 114 réapparaissaient tous dans la liste des candidats non
+traités de BL malgré leur documentation dans `_failed`). Aplatissement effectué sans revérification
+(même traitement qu'au lot 97, chaque entrée gardant sa raison d'échec déjà documentée) : 512
+entrées migrées, 44 renommées avec suffixe `#legacyN` pour collision de clé avec des entrées
+existantes. Aucun impact sur `build.py` (les entrées `_failed`, imbriquées ou plates, sont déjà
+exclues de `OTHER_CANTON_ENRICHMENT`) ni sur les pages produites -- uniquement un gain d'efficacité
+pour les futurs lots automatisés.
+
+Succès AI (1/1) : Inauen Moser Rechtsanwälte (email, fondateurs Dr. David Inauen et Dr. Nicola
+Moser).
+
+Succès UR (3/3) : Baumann Rechtsanwälte und Notare (tel/email, ex-Muheim Merz Baumann, renommée au
+1er février 2026, Rathausplatz 5 Altdorf + bureau Zoug) ; Inderkum Rechtsanwälte und Notare
+(dédoublonné sur 2 variantes CSV -- "Marktgasse 6" et "Inderkum / Rechtsanwälte und Notare" --
+même adresse Marktgasse 6 Altdorf, tel/email, 4 domaines).
+
+Succès AR (6/7) : schmid, giuliani, Rechtsanwälte (tel/email, ~40 ans d'existence) ; Advokaturbüro
+Christoph Anwander-Walser (tel, 8 domaines) ; Brunett Rechtsanwälte (tel/email, 4 domaines) ; AES
+Rechtsanwälte (tel/email, équipe de 3 avocats) ; SteuriFisch AG (**dédoublonnage prudent** --
+bureau de Teufen AR distinct des entrées déjà en cache pour Wil SG, tel confirmé, fondée 2019,
+6 domaines) ; Advokaturbüro Walker (tel/email).
+
+Échec AR : Polartis Advokatur (aucune étude trouvée à Speicher, seule une société de conseil
+homonyme Polartis GmbH existe à cette adresse).
+
+Succès NW (11/12) : Durrer Britschgi Advokatur und Notariat (tel/email, **fondée 1979**, 13
+domaines) ; Advokaturbüro Zelger (tel, 5 domaines -- **piège CSV évité** : le nom de cabinet "Alter"
+dans le CSV est un fragment de l'adresse "Alter Postplatz", pas une raison sociale) ; Anderegg
+Recht (**fondée 2023**, 8 domaines) ; Anwaltsbüro Bazzani (tel/email, licence 1977, 7 domaines --
+cabinet basé à Lucerne, l'adresse Hergiswil du CSV est le domicile personnel de Marco Bazzani) ;
+Bissig & Partner AG (tel/email, 4 domaines) ; Beaudouin Advokatur (tel/email, **fondée 2017**, 3
+domaines) ; Blöchlinger Iten Fessler (dédoublonné avec l'entrée déjà en cache sous une autre
+variante de nom) ; Gehrig Anwaltskanzlei (4 domaines) ; Hemmerle AG (**fondée 2024**) ; WILD DUBACH
+AG (dédoublonné -- bureau Hergiswil/NW distinct des entrées déjà en cache pour OW et LU, tel,
+**fondée 2014**) ; Anwaltsbüro Karl Tschopp (tel, 8 domaines).
+
+Échec NW : Hidber Advokatur (aucune étude/avocat confirmé à Hergiswil ; seule une Hidber Group GmbH
+non-juridique trouvée sur place, les autres Hidber identifiés sont à Mels SG et Lenzburg AG).
+
+Succès OW (14/16) : Müller / Scheuber Advokatur & Notariat (email) ; Abächerli Anwaltsbüro &
+Notariat (tel) ; bannwart Advokatur/Notariat (tel, 6 domaines) ; Rechtsanwältin Alexandra Bär
+(1 domaine) ; Advokaturbüro Britschgi (tel/email, 5 domaines) ; Advokatur- & Notariatsbüro Brunner
+(tel) ; burch recht gmbh (registre des notaires OW) ; Buetler Legal GmbH (tel, **fondée 2003**, 4
+domaines) ; Kanzlei Gadola (tel, 6 domaines) ; Kanzlei Hess AG (tel, **fondée 2012**, 5 domaines) ;
+Lucia Omlin Anwaltskanzlei & Notariat (tel/email) ; Advokatur Notariat Mediation Peterhans
+(tel/email, 5 domaines) ; HSG Cervino Tax & Law AG + Cervino Tax & Law AG (**dédoublonnage prudent**
+-- 2 lignes CSV pour la même société, tel/email, **fondée 2017**).
+
+Échecs OW : "Rechtsanwalt, LL.M." / Beat Hess Engelberg (**piège d'identité évité** -- l'avocat Beat
+Hess trouvé exerce en réalité à Sursee LU, aucun cabinet confirmé à Engelberg) ; "MBA (D)" /
+Hansjörg Schmitt Sachseln (**piège d'identité évité** -- seul homonyme trouvé exerce à Francfort,
+Allemagne).
+
+**Bilan : cantons AI, UR, AR, NW et OW désormais entièrement traités (0 cabinet non tenté).**
+
+Rattachement : 1119 études rattachées au total (1084 → 1119, +35). Suite de tests : 94/94 au
+vert.
