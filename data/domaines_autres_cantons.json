@@ -2401,6 +2401,19 @@
     "source_url": "https://www.anker24.ch/",
     "team_size_n": null
   },
+  "ankerlaw.ch": {
+    "canton": "ZH",
+    "email": "jeanne.dubois@ankerlaw.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Ankerstr. 61",
+    "phone": "044 297 20 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Kindesschutzrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "http://www.ankerlaw.ch/"
+  },
   "ankerlex.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -5794,6 +5807,14 @@
     "source_url": "https://www.brunnerlegal.com/",
     "team_size_n": 2
   },
+  "brunodohner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Blumenfeldstr. 20",
+    "founding_year": 1992,
+    "phone": "044 377 52 60",
+    "source_url": "https://www.brunodohner.ch/"
+  },
   "brusa-zh": {
     "canton": "ZH",
     "fetched_date": "2026-09-13",
@@ -6270,6 +6291,21 @@
     "founding_year": 2025,
     "phone": "044 244 81 25",
     "source_url": "https://www.captlaw.ch/"
+  },
+  "caroferber.ch": {
+    "canton": "ZH",
+    "email": "caroferber@bluewin.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bellerivestr. 207",
+    "phone": "044 381 71 00",
+    "practice_areas_de": [
+      "Mediation",
+      "Verfahrensrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht"
+    ],
+    "source_url": "https://caroferber.ch/"
   },
   "casetti-untergraben-zh": {
     "_failed": true,
@@ -7168,6 +7204,13 @@
     "firm_name": "Advokaturbüro Peter Diener Untere",
     "reason": "aucun site officiel propre identifie (contact gmail uniquement)"
   },
+  "diener-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Mühlebachstr. 2",
+    "reason": "aucune information trouvee pour Hans Martin Diener comme avocat a cette adresse"
+  },
   "dietsche-law.ch": {
     "canton": "SG",
     "email": "info@dietsche-law.ch",
@@ -7188,6 +7231,26 @@
     "checked_date": "2026-09-10",
     "firm_name": "Diggelmann Advokatur + Notariat",
     "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire"
+  },
+  "dirocco-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 148",
+    "phone": "044 930 23 30",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Kindesrecht",
+      "Betreibungs- und Konkursrecht",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Scheidungsrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://dirocco-rechtsanwalt.ch/de/home"
   },
   "djaferri-law.ch": {
     "canton": "LU",
@@ -7231,6 +7294,13 @@
     "firm_name": "Dogwiler Anwaltskanzlei",
     "reason": "Site accessible mais aucune coordonnee (tel/email) ni domaine de competence verbatim exploitable"
   },
+  "dolder-wallisellen-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Rosenbergstr. 6",
+    "reason": "adresse confirmee mais profession d'avocat non confirmee (titre trouve : Dr. sc. techn. ETH, aucun lien avec le barreau)"
+  },
   "dolder-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -7270,12 +7340,40 @@
     ],
     "source_url": "https://www.dominique-calco-erbrecht.com/"
   },
+  "donatsch-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Seefeldstr. 64",
+    "reason": "adresse trouvee (Kreuzplatz 1) differe de celle du CSV (Seefeldstrasse 64)"
+  },
+  "doswald-binz-zh": {
+    "canton": "ZH",
+    "email": "ivo.doswald@anwalt-doswald.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Zelglistr. 38",
+    "phone": "043 818 50 52",
+    "source_url": "http://www.anwalt-doswald.ch/"
+  },
   "dr-metz-bl": {
     "_failed": true,
     "canton": "BL",
     "checked_date": "2026-09-13",
     "firm_name": "Dr. Metz Advokatur",
     "reason": "aucun site officiel dedie identifie"
+  },
+  "dreher-landolt-zollikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 29",
+    "source_url": "https://www.gerichte-zh.ch/sites/default/files/2026-03/Anwaltsregister-M%C3%A4rz-2026_0.pdf"
+  },
+  "dreifuss-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Badenerstr. 816",
+    "reason": "adresses trouvees (Splügenstrasse 11 Zurich, Eichweg 3 Oberglatt) different de celle du CSV (Badenerstrasse 816)"
   },
   "dresel-zh": {
     "_failed": true,
@@ -7556,6 +7654,35 @@
     "firm_name": "EBD Rechtsanwälte AG",
     "reason": "HTTP 503 Service Unavailable au fetch",
     "tested_date": "2026-09-07"
+  },
+  "eberle-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Kurvenstr. 21",
+    "reason": "aucun cabinet d'avocat confirme pour Thomas Eberle a cette adresse"
+  },
+  "effenberger-law.ch": {
+    "canton": "ZH",
+    "email": "mail@effenberger-law.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Weinbergstr. 73",
+    "phone": "044 251 41 12",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Handelsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Immaterialgüterrecht",
+      "Strafrecht"
+    ],
+    "source_url": "http://www.effenberger-law.ch/"
+  },
+  "egli-okenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Okenstr. 6",
+    "reason": "aucune information trouvee pour Andreas Egli comme avocat a cette adresse"
   },
   "ehlertzillig.ch": {
     "canton": "ZH",
@@ -7906,6 +8033,14 @@
     "firm_name": "Erni Legal GmbH",
     "reason": "Aucun site officiel dedie trouve, uniquement le registre du commerce"
   },
+  "erni-rennweg-zh": {
+    "canton": "ZH",
+    "email": "rudolf@erni-zurich.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Rennweg 35",
+    "phone": "044 363 11 54",
+    "source_url": "https://search.ch/tel/zuerich/rennweg-35/rudolf-erni"
+  },
   "ernst-law.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -8186,6 +8321,13 @@
     "source_url": "https://fd-anwaltskanzlei.ch/kontakt/",
     "team_size_n": 1
   },
+  "fehr-waedenswil-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Rötibodenstr. 42",
+    "reason": "adresse trouvee (Dolderstrasse 109, Zurich) differe de celle du CSV (Wädenswil)"
+  },
   "feldeggstr54-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -8206,6 +8348,14 @@
     ],
     "source_url": "https://felderspaelti.ch/",
     "specialist_certification": "Fachanwalt SAV Erbrecht (Andreas Felder)"
+  },
+  "felix-glattbrugg-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Europastr. 17",
+    "founding_year": 2009,
+    "phone": "044 500 77 44",
+    "source_url": "https://www.anwaltsdienst.ch/monique-felix"
   },
   "fercher-compliance.ch": {
     "canton": "SG",
@@ -8393,6 +8543,13 @@
     ],
     "source_url": "https://www.fischlex.ch/"
   },
+  "fitzner-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Bleicherweg 10",
+    "reason": "adresse precise non confirmee (seul un cabinet homonyme different trouve a Bleicherweg 45)"
+  },
   "fkr-legal.ch": {
     "canton": "LU",
     "email": "info@fkr-legal.ch",
@@ -8488,6 +8645,17 @@
     "firm_name": "Forchstr. 36",
     "reason": "Hanulik confirmee a Forchstrasse 36, Schierbaum semble basee a une autre adresse (Kreuzstrasse 82)"
   },
+  "forstmoser-horgen-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Meilibachweg 17a",
+    "founding_year": 1975,
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Kapitalmarktrecht"
+    ],
+    "source_url": "https://www.nkf.ch/lawyers/peter-forstmoser/"
+  },
   "fortis-law-lu": {
     "_failed": true,
     "canton": "LU",
@@ -8556,6 +8724,14 @@
     "source_url": "https://www.frb-law.ch/en/",
     "team_size_n": null
   },
+  "frefel-gruet-zh": {
+    "canton": "ZH",
+    "email": "eva.frefel@bluewin.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Böschacherstr. 74",
+    "phone": "044 972 14 20",
+    "source_url": "https://www.local.ch/de/d/gruet-gossau-zh/8624/frefel-eva-i5762Asz0MUsjED2a7IO4w"
+  },
   "frehnerlaw.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -8582,6 +8758,14 @@
       "Litigation"
     ],
     "source_url": "https://www.freigutpartners.ch/contact/"
+  },
+  "freudenreich-zollikerberg-zh": {
+    "canton": "ZH",
+    "email": "pfra@bluewin.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "In der Deisten 15",
+    "phone": "044 391 97 81",
+    "source_url": "https://zip.ch/de/freudenreich-peter-munger-dr-iur-rechtsanwalt-in-der-deisten-zollikerberg-vDOZxebmEm/"
   },
   "frey-jud.ch": {
     "canton": "ZH",

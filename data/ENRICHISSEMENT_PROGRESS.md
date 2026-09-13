@@ -4235,3 +4235,24 @@ trouvé).
 
 Rattachement : 1188 études rattachées au total (1172 → 1188, +16). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (canton ZH, lot 121)
+
+20 cabinets traités (12 succès / 8 échecs).
+
+Succès : Marino Di Rocco (tel, 11 domaines) ; Bruno Dohner (**fondé 1992**, tel) ; Ivo Doswald
+(tel/email) ; Suzanne Dreher-Landolt (registre ZH) ; Jeanne DuBois (tel/email, 3 domaines) ; Julius
+Effenberger (tel/email, 5 domaines) ; Dr. Rudolf Erni (tel/email) ; Monique Felix (**depuis 2009**,
+tel) ; Caroline B. Ferber (tel/email, 5 domaines) ; Prof. Peter Forstmoser (**partenaire NKF depuis
+1975**, gesellschaftsrecht/kapitalmarktrecht) ; Eva Frefel (tel/email) ; Peter Freudenreich
+(tel/email).
+
+Échecs (**pièges d'identité/adresse évités**) : Mühlebachstr. 2 (Hans Martin Diener introuvable) ;
+Rosenbergstr. 6/Wallisellen (Fritz Dolder confirmé à l'adresse mais profession d'avocat non
+confirmée) ; Seefeldstr. 64 (Marco Donatsch trouvé à une autre adresse, Kreuzplatz 1) ; Badenerstr.
+816 (Sylvain Dreifuss trouvé à 2 autres adresses) ; Kurvenstr. 21 (Thomas Eberle sans cabinet
+confirmé) ; Okenstr. 6 (Andreas Egli introuvable) ; Rötibodenstr. 42/Wädenswil (Harro Fehr trouvé à
+Zürich, Dolderstrasse 109) ; Bleicherweg 10 (Alexander Fitzner sans adresse précise confirmée).
+
+Rattachement : 1200 études rattachées au total (1188 → 1200, +12). Suite de tests : 94/94 au
+vert.
