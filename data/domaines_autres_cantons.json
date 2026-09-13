@@ -869,6 +869,14 @@
     "source_url": "https://www.advokatur-gaehler.ch/Kontakt/",
     "team_size_n": 1
   },
+  "advokatur-hirschenplatz.ch": {
+    "canton": "ZH",
+    "email": "schaumann@advokatur-hirschenplatz.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Niederdorfstr. 18",
+    "phone": "044 225 99 25",
+    "source_url": "https://advokatur-hirschenplatz.ch/schaumann"
+  },
   "advokatur-hubatka.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-10",
@@ -2490,6 +2498,19 @@
     ],
     "source_url": "https://anwaelte44.ch/fachgebiete.html"
   },
+  "anwaeltin-zuerich.ch": {
+    "canton": "ZH",
+    "email": "rbartschi@anwaeltin-zuerich.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Seefeldstr. 25",
+    "phone": "044 450 10 15",
+    "practice_areas_de": [
+      "Medienrecht",
+      "Scheidungsrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://anwaeltin-zuerich.ch/"
+  },
   "anwalt-kellenberger.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-07",
@@ -2659,6 +2680,19 @@
     ],
     "source_url": "https://www.anwaltsboutique.ch/en",
     "team_size_n": 2
+  },
+  "anwaltsbuero-sonnenmoser-hrebik.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Pflanzschulstr. 47",
+    "founding_year": 1998,
+    "phone": "044 240 43 25",
+    "practice_areas_de": [
+      "Familien- und Konkubinatsrecht",
+      "Strafrecht",
+      "Opferhilferecht"
+    ],
+    "source_url": "https://www.anwaltsbuero-sonnenmoser-hrebik.ch/"
   },
   "anwaltsbuero-wolhusen-lu": {
     "_failed": true,
@@ -3072,6 +3106,13 @@
     ],
     "source_url": "https://asylex.org/about?lang=de"
   },
+  "asylstr41-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Asylstr. 41",
+    "reason": "Loyrette confirmee a Asylstrasse 41, adresse de Hertner Jonas non confirmee au meme endroit"
+  },
   "at-ag.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-09",
@@ -3404,6 +3445,13 @@
     "reason": "contenu vide, rendu JavaScript probable",
     "tested_date": "2026-07-28"
   },
+  "badenerstr134-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Badenerstr. 134",
+    "reason": "Vago confirme seul a Badenerstrasse 134 (anwalt-vago.ch), Zumtaugwald Claudia introuvable"
+  },
   "baechligmbh.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-13",
@@ -3525,6 +3573,12 @@
     "source_url": "https://www.baerkarrer.ch/en/about",
     "team_size_n": 200
   },
+  "baerlocher-duebendorf-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 57",
+    "source_url": "https://www.gerichte-zh.ch/sites/default/files/Organisation/Obergericht/Aufsichtskommission/Anwaltsregister-Juli-2026.pdf"
+  },
   "baertschi-legal.ch": {
     "canton": "LU",
     "email": "baertschi@baertschi-legal.ch",
@@ -3544,12 +3598,26 @@
     "firm_name": "Bäumlin + Partner Advokatur und Mediation",
     "reason": "site JS rendu, contenu non accessible"
   },
+  "bahnhofstr10-staefa-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 10",
+    "reason": "Prochazka confirme a Stäfa, Weber Andre semble base a une adresse Bahnhofstrasse differente a Zurich"
+  },
   "bahnhofstr12-uster-zh": {
     "_failed": true,
     "canton": "ZH",
     "checked_date": "2026-09-13",
     "firm_name": "Bahnhofstr. 12",
     "reason": "Bernhard confirme a Uster, mais Vogelsang semble basee a Zurich selon une source (pas Uster), Vonrüti introuvable -- pas de cabinet commun confirme"
+  },
+  "bahnhofstr22-staefa-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Bahnhofstr. 22",
+    "reason": "Frank et Wasinger-Rüegg confirmees a la meme adresse mais avec cases postales et pratiques distinctes"
   },
   "bahnhofstrasse58.ch": {
     "canton": "ZH",
@@ -3681,6 +3749,18 @@
     ],
     "source_url": "https://barandun-law.ch/en",
     "team_size_n": null
+  },
+  "barbey-rueschlikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Im Wiesenmoos 10",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "M&A",
+      "Immaterialgüterrecht",
+      "Informationstechnologierecht"
+    ],
+    "source_url": "https://www.kellerhals-carrard.ch/en/people/thierry-barbey.php"
   },
   "barchipartners.ch": {
     "canton": "TI",
@@ -4235,6 +4315,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Beglinger Holenstein",
     "reason": "Aucun domaine officiel actuel trouve, uniquement des references obsoletes (beghol.ch, documents ~2001-2013)"
+  },
+  "beglinger-inderhub-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "In der Hub 19",
+    "reason": "adresse confirmee du cabinet Beglinger LPC (Rämistrasse 7) differe de celle du CSV (In der Hub 19), risque de rattachement errone"
   },
   "belaw.ch": {
     "canton": "ZH",
@@ -7608,6 +7695,13 @@
     ],
     "source_url": "https://www.factum.pro/?id=6"
   },
+  "faerberstr6-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Färberstr. 6",
+    "reason": "Kratz confirmee a Färberstrasse 6, Hänni Rolf sans lien confirme avec cette adresse"
+  },
   "falck-lu": {
     "_failed": true,
     "canton": "LU",
@@ -7738,6 +7832,13 @@
     "phone": "+41 44 860 38 15",
     "source_url": "https://fd-anwaltskanzlei.ch/kontakt/",
     "team_size_n": 1
+  },
+  "feldeggstr54-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Feldeggstr. 54",
+    "reason": "adresses precises et lien entre Jost et Wissmann non confirmes"
   },
   "felderspaelti.ch": {
     "canton": "ZH",
@@ -8026,6 +8127,13 @@
     "fetched_date": "2026-07-29",
     "firm_name": "Frick Nafz Bieri Jost Rechtsanwälte",
     "reason": "site 'New Website coming soon' — aucun contenu disponible"
+  },
+  "forchstr36-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Forchstr. 36",
+    "reason": "Hanulik confirmee a Forchstrasse 36, Schierbaum semble basee a une autre adresse (Kreuzstrasse 82)"
   },
   "fortis-law-lu": {
     "_failed": true,
@@ -11359,6 +11467,13 @@
     ],
     "source_url": "https://www.kanzley.ch/"
   },
+  "kasernenstr15-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Kasernenstr. 15",
+    "reason": "Schweri confirmee seule a Kasernenstrasse 15, Weisskopf Beck Christine introuvable"
+  },
   "kasper-advokatur-klosters-gr": {
     "_failed": true,
     "canton": "GR",
@@ -11654,6 +11769,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Schmuki Advokatur",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+  },
+  "klausstr43-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Klausstr. 43",
+    "reason": "adresse partagee par 2 cabinets independants (Jürg Dubs, Stephan Reinhardt), specialisations differentes, pas d'entite commune"
   },
   "klavislaw.ch": {
     "canton": "ZH",
@@ -16384,6 +16506,19 @@
     "phone": "+41 76 675 90 95",
     "source_url": "https://rechtsanwalt-stabile.ch/"
   },
+  "rechtsanwalt-trachsel.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Kurfirstenstr. 70",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Miet- und Sachenrecht",
+      "Bau- und Planungsrecht",
+      "Verwaltungsrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://rechtsanwalt-trachsel.ch/de/person/"
+  },
   "rechtsanwaltchur.ch": {
     "canton": "GR",
     "email": "kanzlei@anwaltchur.ch",
@@ -18032,6 +18167,13 @@
     ],
     "source_url": "https://schumacherrecht.ch/"
   },
+  "schwandelstr1-thalwil-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Schwandelstr. 1",
+    "reason": "Geier et Thommen confirmes a la meme adresse mais cabinets distincts (Anwaltskanzlei Geier vs Thommen)"
+  },
   "schwarz-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -18164,12 +18306,34 @@
     ],
     "source_url": "https://senserlaw.ch/"
   },
+  "sesslerweg11-kilchberg-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Sesslerweg 11",
+    "reason": "Gantner confirme seul (Advokaturbüro Gantner), Haltner Rolf introuvable"
+  },
   "sfs-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
     "firm_name": "Schuler Forrer Schumacher Rechtsanwälte",
     "source_url": "https://www.sfs-law.ch/",
     "team_size_n": 4
+  },
+  "sfs-law.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Auf der Mauer 4",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Strafrecht und Opferhilfe",
+      "Strassenverkehrsrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.sfs-law.ch/team-und-taetigkeitsgebiete/fiona-forrer"
   },
   "sglaw.ch": {
     "_failed": true,
@@ -19492,6 +19656,13 @@
     "firm_name": "TA Advisory AG",
     "reason": "seule l'adresse du bureau zurichois est indiquee sur le site, aucun tel/email/domaine specifique confirme",
     "tested_date": "2026-09-07"
+  },
+  "talackerstr9-uster-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Talackerstr. 9",
+    "reason": "Kolb confirmee seule a Talackerstrasse 9, Lehmann Manfred introuvable"
   },
   "tamagnifornara.ch": {
     "_failed": true,

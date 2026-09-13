@@ -4168,3 +4168,26 @@ introuvable).
 
 Rattachement : 1147 études rattachées au total (1133 → 1147, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (canton ZH, lot 118)
+
+20 cabinets traités (7 succès / 13 échecs). Taux d'échec plus élevé qu'à l'accoutumée : le pool
+restant à ce stade est très majoritairement composé de duos d'avocats indépendants partageant une
+adresse (souvent un même immeuble) sans former une entité juridique commune -- chaque cas a été
+vérifié individuellement plutôt que de rattacher par défaut sur la seule base de l'adresse commune.
+
+Succès : Schuler Forrer Schumacher Rechtsanwälte (dédoublonné avec l'entrée déjà en cache, 7
+domaines) ; Advokatur Hirschenplatz / Gruenberg Schaumann (tel/email) ; Anwaltsbüro Sonnenmoser /
+Hrebik (**fondé 1998**, tel, 3 domaines) ; Rechtsanwaltskanzlei Trachsel (couple d'avocats, 5
+domaines) ; Thierry Barbey / Kellerhals Carrard (4 domaines) ; Thomas Bärlocher (registre des
+avocats ZH) ; Regula Bärtschi (tel/email, 3 domaines).
+
+Échecs (**pièges d'identité évités** -- adresses partagées sans cabinet commun, ou membre CSV
+introuvable/non confirmé au même endroit) : Klausstr. 43 ; Bahnhofstr. 22/Stäfa ; Sesslerweg 11 ;
+Schwandelstr. 1 ; Färberstr. 6 ; Forchstr. 36 ; Asylstr. 41 ; Feldeggstr. 54 ; Talackerstr. 9 ;
+Bahnhofstr. 10/Stäfa (les deux membres CSV semblent être à des adresses différentes) ;
+Kasernenstr. 15 ; Badenerstr. 134 ; In der Hub 19 (l'adresse confirmée du cabinet Beglinger LPC
+diffère de celle du CSV).
+
+Rattachement : 1154 études rattachées au total (1147 → 1154, +7). Suite de tests : 94/94 au
+vert.
