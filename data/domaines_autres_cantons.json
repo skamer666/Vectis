@@ -1875,6 +1875,14 @@
     ],
     "source_url": "https://www.anwaltvergleich.ch/anwalt-Daniel-Affolter-Z%C3%BCrich-rechtsanwalt-50.htm"
   },
+  "afgoetschel.com": {
+    "canton": "ZH",
+    "email": "afg@afgoetschel.com",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Witikonerstr. 30",
+    "phone": "+41 79 752 44 92",
+    "source_url": "https://www.afgoetschel.com/"
+  },
   "agon-compliance.com": {
     "canton": "ZH",
     "email": "info@agon-compliance.com",
@@ -8482,6 +8490,21 @@
     "firm_name": "Finlex AG",
     "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
   },
+  "finsler.com": {
+    "canton": "ZH",
+    "email": "finsler@datazug.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Ferenbacherstr. 1",
+    "phone": "043 333 97 20",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Familien- und Erbrecht",
+      "Betreibungsrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.finsler.com/kontakt"
+  },
   "fischer-rechtsanwaelte.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -8806,6 +8829,22 @@
     "source_url": "https://www.freylaw.ch/en/home",
     "team_size_n": 1
   },
+  "frick-recht.ch": {
+    "canton": "ZH",
+    "email": "tfrick@frick-recht.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Gutstr. 53",
+    "founding_year": 2012,
+    "phone": "044 463 23 02",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Betreibungs- und Konkursrecht",
+      "Zivilprozessrecht",
+      "Immaterialgüterrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.frick-recht.ch/"
+  },
   "frick-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -8939,6 +8978,20 @@
     "reason": "contenu vide, rendu JavaScript probable",
     "tested_date": "2026-07-28"
   },
+  "fuchs-greifensee-zh": {
+    "canton": "ZH",
+    "email": "allen.fuchs@afuchs.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Wildsbergstr. 25",
+    "founding_year": 1997,
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Kartellrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.b-legal.ch/en/team/allen-fuchs/"
+  },
   "fuchs-law.ch": {
     "canton": "ZH",
     "email": "elkefuchs@fuchs-law.ch",
@@ -8971,6 +9024,25 @@
     "source_url": "https://www.fwe-law.ch/",
     "specialist_certification": "Fachanwalt SAV Arbeitsrecht (Martin Farner), Fachanwältin SAV Arbeitsrecht (Martina Wagner Eichin)",
     "team_size_n": 2
+  },
+  "g-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Else-Züblin-Str. 94",
+    "practice_areas_de": [
+      "Corporate Governance",
+      "Finanzrecht",
+      "M&A",
+      "Digitalwirtschaftsrecht"
+    ],
+    "source_url": "https://www.g-law.ch/imprint/"
+  },
+  "gabathuler-staffelstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Staffelstr. 16",
+    "reason": "adresse professionnelle trouvee (Schifflände 22) differe de celle du CSV (Staffelstrasse 16)"
   },
   "gabriel-arbitration.ch": {
     "canton": "ZH",
@@ -9046,6 +9118,13 @@
     ],
     "source_url": "https://www.gaggini-partners.ch/"
   },
+  "gamma-ammann-winterthur-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Geiselweidstr. 6",
+    "reason": "adresse trouvee (Hermannstrasse 11) differe de celle du CSV (Geiselweidstrasse 6) ; cabinet ferme, ne prend plus de nouveaux mandats"
+  },
   "gantenbein-sg": {
     "_failed": true,
     "canton": "SG",
@@ -9073,6 +9152,21 @@
     "firm_name": "LL.M. Ganzoni & Pedretti AG Via",
     "phone": "+41 81 833 55 44",
     "source_url": "https://www.ganzonipedretti.ch/en/law-firm/"
+  },
+  "gartenmann-zh": {
+    "canton": "ZH",
+    "email": "tax@tax-boutique.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Sonneggstr. 55",
+    "founding_year": 2025,
+    "phone": "+41 44 442 00 62",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Erbrecht",
+      "Handelsrecht",
+      "Verfahrensrecht"
+    ],
+    "source_url": "https://www.zhaw.ch/de/ueber-uns/person/garh"
   },
   "gattlenrechtsanwalt.ch": {
     "canton": "ZH",
@@ -9200,6 +9294,13 @@
     "phone": "+41 (0)91 911 6000",
     "source_url": "https://www.gblex.ch/"
   },
+  "gebhardt-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Mainaustr. 21",
+    "reason": "aucune information trouvee pour Walter Gebhardt comme avocat a cette adresse"
+  },
   "gebhardt.law": {
     "_failed": true,
     "canton": "ZH",
@@ -9243,6 +9344,26 @@
       "Enforcement"
     ],
     "source_url": "https://gehrilegal.com/en/expertise/"
+  },
+  "geiger-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Nordweg 10",
+    "source_url": "https://www.geiger-rechtsanwalt.ch/"
+  },
+  "gerber-daniel-kloten-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Freiestr. 80",
+    "reason": "adresse trouvee (Schaffhauserstrasse 136, Kloten) differe de celle du CSV (Freiestrasse 80)"
+  },
+  "gerber-legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Schulstr. 7b",
+    "phone": "052 301 15 04",
+    "source_url": "https://www.gerber-legal.ch/about-us/alfred-gerber/"
   },
   "gfp-recht.ch": {
     "canton": "SG",
@@ -9293,6 +9414,13 @@
     "checked_date": "2026-09-11",
     "firm_name": "Advokaturbüro Dario Giovanoli Via da",
     "reason": "aucun site officiel propre identifie"
+  },
+  "giroud-erlenbach-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Wannenstr. 12",
+    "reason": "aucune coordonnee ni adresse precise trouvee pour Roger Giroud (seule presence en annuaire sans details)"
   },
   "gisler-advokatur-sg": {
     "_failed": true,
@@ -9358,6 +9486,13 @@
       "Litigation"
     ],
     "source_url": "https://www.glatthard.law/en/expertise"
+  },
+  "glauserlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Alte Landstr. 100",
+    "phone": "+41 44 261 33 81",
+    "source_url": "https://glauserlaw.ch/"
   },
   "glausgabathuler.ch": {
     "canton": "SG",
@@ -9445,6 +9580,13 @@
     ],
     "source_url": "https://gmlaw.ch/"
   },
+  "gmuer-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-13",
+    "firm_name": "Schifflände 6 / Kruggasse 1",
+    "reason": "aucune information trouvee pour Vitus Gmür comme avocat a cette adresse"
+  },
   "gnaedinger-recht.ch": {
     "canton": "SG",
     "email": "mail@gnaedinger-recht.ch",
@@ -9463,6 +9605,18 @@
       "Vertragsrecht"
     ],
     "source_url": "https://www.gnaedinger-recht.ch/"
+  },
+  "gnaegi-zollikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Zollikerstr. 60",
+    "phone": "044 396 30 10",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Handelsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://fragdenanwalt.ch/anwalt/zollikon-rechtsanwalt-herr-gnaegi-zuerich"
   },
   "goette.ch": {
     "canton": "LU",
@@ -9566,6 +9720,19 @@
     "checked_date": "2026-09-10",
     "firm_name": "GÖRG SUTER AG",
     "reason": "Aucun site officiel identifie, uniquement une fiche d'annuaire"
+  },
+  "gotschev.ch": {
+    "canton": "ZH",
+    "email": "georg.gotschev@gotschev.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Kinkelstr. 10",
+    "phone": "+41 44 200 06 73",
+    "practice_areas_de": [
+      "Privatrecht",
+      "Verwaltungsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.gotschev.ch/contact"
   },
   "gotthardstr21-zh": {
     "_failed": true,
@@ -9724,6 +9891,16 @@
     "checked_date": "2026-09-09",
     "firm_name": "Groner Advokatur",
     "reason": "Identite ambigue -- plusieurs sites/marques distincts pour Dr. Roger Groner (Ennenda GL et Zurich), aucune confirmation claire de l'entite ZH correspondant a ce nom exact"
+  },
+  "gross-leemann-kuesnacht-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "In der Teilen 7",
+    "phone": "044 912 10 54",
+    "practice_areas_de": [
+      "Zivilrecht"
+    ],
+    "source_url": "http://www.ursula-gross.ch/"
   },
   "groszpoledna.ch": {
     "canton": "ZH",
@@ -17234,6 +17411,24 @@
     ],
     "source_url": "https://reich-fuerstenberger.ch/"
   },
+  "reich-goette.ch": {
+    "canton": "ZH",
+    "email": "m.goette@reich-goette.ch",
+    "fetched_date": "2026-09-13",
+    "firm_name": "Lavaterstr. 45",
+    "founding_year": 2010,
+    "phone": "+41 44 283 60 12",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Verkehrsrecht",
+      "Migrationsrecht",
+      "Haftpflicht- und Versicherungsrecht"
+    ],
+    "source_url": "https://reich-goette.ch/kontakt/"
+  },
   "reichle-stehle.ch": {
     "_failed": true,
     "canton": "SG",
@@ -17350,6 +17545,13 @@
       "Prozessführung"
     ],
     "source_url": "https://www.reutlaw.com/de/kontakt"
+  },
+  "rf-fischer-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-13",
+    "firm_name": "RF",
+    "founding_year": 2015,
+    "source_url": "https://www.zefix.ch/de/search/entity/list/firm/1222703"
   },
   "rfplegal.ch": {
     "canton": "SZ",

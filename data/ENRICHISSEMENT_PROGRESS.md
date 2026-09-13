@@ -4256,3 +4256,25 @@ Zürich, Dolderstrasse 109) ; Bleicherweg 10 (Alexander Fitzner sans adresse pr�
 
 Rattachement : 1200 études rattachées au total (1188 → 1200, +12). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-13 (canton ZH, lot 122)
+
+20 cabinets traités (14 succès / 6 échecs).
+
+Succès : Hans Christian Finsler (tel/email, 5 domaines) ; RF Fischer Marie Therese Anna
+(**fondée 2015** -- raison sociale CSV "RF" confirmée exacte au registre) ; Dr. Tanja Frick (**depuis
+2012**, tel/email, 5 domaines) ; Dr. Allen Fuchs (email, partenaire Badertscher depuis 1997, 4
+domaines) ; Andrée Gal / Business Law Office Gal (4 domaines) ; Matthias Gartenmann (**depuis
+2025**, tel/email, 4 domaines) ; Dr. Jürg Geiger ; Alfred Gerber / Gerber Legal (tel) ; Dr. Max
+Glauser (tel) ; Dr. Albert Gnägi (tel, 3 domaines) ; Dr. Antoine F. Goetschel (tel/email,
+ex-Tieranwalt du canton ZH) ; Georg G. Gotschev (tel/email, 3 domaines) ; Markus Götte / Reich &
+Götte (**depuis 2010**, tel/email, 7 domaines) ; Ursula Gross Leemann (tel, 1 domaine).
+
+Échecs (**pièges d'adresse évités**) : Staffelstr. 16 (Thomas Gabathuler trouvé à Schifflände 22) ;
+Geiselweidstr. 6/Winterthur (Olga Gamma Ammann trouvée à Hermannstrasse 11, cabinet fermé) ;
+Mainaustr. 21 (Walter Gebhardt introuvable) ; Freiestr. 80/Kloten (Daniel Gerber trouvé à
+Schaffhauserstrasse 136) ; Wannenstr. 12/Erlenbach (Roger Giroud sans coordonnées précises) ;
+Schifflände 6 (Vitus Gmür introuvable).
+
+Rattachement : 1214 études rattachées au total (1200 → 1214, +14). Suite de tests : 94/94 au
+vert.
