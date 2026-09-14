@@ -4278,3 +4278,24 @@ Schifflände 6 (Vitus Gmür introuvable).
 
 Rattachement : 1214 études rattachées au total (1200 → 1214, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 123)
+
+20 cabinets traités (13 succès / 7 échecs).
+
+Succès : Jürg Guggisberg (4 domaines) ; Dr. Alfred Gujer / Advokatur Zelgli (**fondée 2009**, 8
+domaines) ; Dr. Matthias Gut (tel, 5 domaines) ; Dr. Peter Max Gutzwiller (4 domaines) ; Dr. Philipp
+H. Haberbeck (**licence 1998**) ; Robert Hadorn (**licence 1985**, tel/email) ; Nils Harbeke
+(**licence 2004**, droit fiscal) ; Robert Harmann (**licence 1984**, 7 domaines) ; Detlev Hebeisen
+(tel, 4 domaines) ; Hans Hegetschweiler (tel) ; Dr. Wilfried Heinzelmann ; Susanne Hirschberg /
+hirschrecht (**depuis 2010**, tel, 3 domaines) ; Gerhard Hofmann (tel/email).
+
+Échecs (**pièges d'identité/adresse évités**) : Huebwisstr. 14/Fällanden (Ursula Guggenbühl trouvée
+à Zoug, aucun lien confirmé) ; c/o Zollinger Rechtsanwälte (Andreas Haffter indépendant depuis
+2022) ; Kürbergstr. 32 (Markus Hagmann à d'autres adresses) ; c/o Steinbrüchel Hüssy (Renata Hajek
+Saxer sans lien confirmé) ; Meisenrain 22d/Gockhausen (Erna Haueter trouvée à Zürich, retraitée) ;
+Freiherrenstr. 3/Wädenswil (Markus Hess sans adresse professionnelle confirmée) ; Schaffhauserstr.
+9/Winterthur (Brigitte Heuberger non confirmée comme avocate).
+
+Rattachement : 1227 études rattachées au total (1214 → 1227, +13). Suite de tests : 94/94 au
+vert.

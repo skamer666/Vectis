@@ -10065,12 +10065,57 @@
     "firm_name": "Guery Legal",
     "reason": "Edith Guery apparait comme membre de l'etude ADROIT attorneys-at-law, aucune marque independante 'Guery Legal' confirmee"
   },
+  "guggenbuehl-hegetschweiler-faellanden-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Huebwisstr. 14",
+    "reason": "Ursula Guggenbühl trouvee (Advokatur Guggenbühl, Zug) mais aucun lien confirme avec l'adresse CSV de Fällanden ou le nom complet Guggenbühl-Hegetschweiler"
+  },
+  "guggisberg-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Goldauerstr. 7",
+    "practice_areas_de": [
+      "Betreibungs- und Konkursrecht",
+      "Bankrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://search.ch/tel/zuerich/goldauerstrasse-7/juerg-und-ursula-guggisberg"
+  },
   "gunnercooke-sg": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-10",
     "firm_name": "gunnercooke GmbH",
     "reason": "Adresse d'enregistrement confirmee (Buchs SG) mais aucun contact specifique a ce bureau trouve sur le site officiel (uniquement bureaux DE/AT/ZH listes)"
+  },
+  "gut-schwerzenbach-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Gfennstr. 47",
+    "phone": "044 825 69 69",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://fragdenanwalt.ch/anwalt/schwerzenbach-rechtsanwalt-herr-gut-zuerich"
+  },
+  "gutzwiller-kuesnacht-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Sonnenrain 15",
+    "practice_areas_de": [
+      "Vermögensstrukturierung und Nachfolgeplanung",
+      "Erbrecht",
+      "Nachlassverwaltung",
+      "Kunstrecht"
+    ],
+    "source_url": "https://fragdenanwalt.ch/anwalt/zuerich-rechtsanwalt-herr-gutzwiller-zuerich"
   },
   "guzzi.ch": {
     "canton": "ZH",
@@ -10170,6 +10215,13 @@
     "source_url": "https://www.habegger-arbitration.net/",
     "team_size_n": 1
   },
+  "haberbeck.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Karl-Stauffer-Str. 16",
+    "founding_year": 1998,
+    "source_url": "https://haberbeck.ch/"
+  },
   "haefelinlaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -10199,6 +10251,27 @@
     "checked_date": "2026-09-09",
     "firm_name": "HAFERLAND LEGAL",
     "reason": "Aucun site officiel trouve"
+  },
+  "haffter-wetzikon-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "c/o Zollinger Rechtsanwälte",
+    "reason": "Andreas Haffter dirige haffterlaw independamment depuis 2022, aucun lien confirme avec Zollinger Rechtsanwälte"
+  },
+  "hagmann-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Kürbergstr. 32",
+    "reason": "plusieurs adresses trouvees pour Markus Hagmann (Asylstrasse, Utoquai, Friedhofstrasse) mais aucune ne correspond a Kürbergstrasse 32"
+  },
+  "hajek-saxer-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "c/o Steinbrüchel Hüssy",
+    "reason": "aucun lien confirme entre Renata Hajek Saxer et le cabinet Steinbrüchel Hüssy Rechtsanwälte"
   },
   "hak.ch": {
     "canton": "ZH",
@@ -10258,6 +10331,32 @@
     "source_url": "https://hanhartlaw.ch/en/",
     "team_size_n": 1
   },
+  "harbeke-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Friesenbergstr. 75",
+    "founding_year": 2004,
+    "practice_areas_de": [
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.primetax.ch/en/team/nils-harbeke/"
+  },
+  "harmann.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Alte Landstr. 74",
+    "founding_year": 1984,
+    "practice_areas_de": [
+      "Betreibungs- und Konkursrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht",
+      "Handelsrecht",
+      "Sachenrecht",
+      "Vertragsrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "http://www.harmann.ch/"
+  },
   "hartmanndreyer.ch": {
     "canton": "FR",
     "email": "office@hartmanndreyer.ch",
@@ -10273,6 +10372,13 @@
       "Droit administratif"
     ],
     "source_url": "https://hartmanndreyer.ch/"
+  },
+  "haueter-gockhausen-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Meisenrain 22d",
+    "reason": "adresse trouvee (Heimatstrasse 25, Zurich) differe de celle du CSV (Gockhausen) ; avocate retraitee, ne prend plus de mandats"
   },
   "hauserlaw.com": {
     "canton": "ZH",
@@ -10355,6 +10461,19 @@
       "Representation before courts and authorities"
     ],
     "source_url": "https://www.hba.ch/en/subjects/building-law-real-estate-law/"
+  },
+  "hebeisen-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bahnhofplatz 18",
+    "phone": "052 269 14 86",
+    "practice_areas_de": [
+      "Bäuerliches Bodenrecht",
+      "Pachtrecht",
+      "Erbrecht",
+      "Agrarrecht"
+    ],
+    "source_url": "https://hebeisen-law.ch/"
   },
   "hebrecht.ch": {
     "canton": "SG",
@@ -10446,6 +10565,12 @@
       "Eigentums- und Sachenrecht"
     ],
     "source_url": "https://heinzelmann-levy.ch/"
+  },
+  "heinzelmann-winterthur-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Elchweg 3c",
+    "source_url": "https://www.moneyhouse.ch/de/person/heinzelmann-wilfried-137773845801"
   },
   "helbling.law": {
     "canton": "ZH",
@@ -10613,6 +10738,13 @@
     "firm_name": "Rechtsanwalt, LL.M.",
     "reason": "aucune etude confirmee pour Beat Hess a Engelberg (un seul repertoire mentionne 'Beat und Esther Hess' sans preciser une activite d'avocat ; l'avocat Beat Hess trouve exerce en realite a Sursee LU)"
   },
+  "hess-waedenswil-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Freiherrenstr. 3",
+    "reason": "aucune adresse professionnelle precise trouvee pour Markus Hess a Wädenswil"
+  },
   "heuberger-rippmann-hoffmann.ch": {
     "canton": "ZH",
     "email": "info.hrh@bluewin.ch",
@@ -10620,6 +10752,13 @@
     "firm_name": "Heuberger Rippmann Hoffmann",
     "phone": "+41 44 208 90 20",
     "source_url": "https://www.heuberger-rippmann-hoffmann.ch/contact"
+  },
+  "heuberger-winterthur-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Schaffhauserstr. 9",
+    "reason": "aucune profession d'avocate confirmee pour Brigitte Heuberger a cette adresse"
   },
   "hhh-law.ch": {
     "canton": "ZH",
@@ -10670,6 +10809,19 @@
     ],
     "source_url": "https://www.hinterlauben12.ch/kontakt/"
   },
+  "hirschrecht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kanzlei hirschrecht",
+    "founding_year": 2010,
+    "phone": "+41 43 343 1293",
+    "practice_areas_de": [
+      "Handels- und Vertriebsrecht",
+      "Inkassorecht",
+      "Handelsvertreterrecht"
+    ],
+    "source_url": "https://hirschrecht.ch/en/home-en/"
+  },
   "hischier-brunner-schoeb-lu": {
     "_failed": true,
     "canton": "LU",
@@ -10704,6 +10856,14 @@
       "berufliche Vorsorge in der Schweiz"
     ],
     "source_url": "https://www.hmvlaw.ch/kanzlei/"
+  },
+  "hoflex.ch": {
+    "canton": "ZH",
+    "email": "hofmann@hoflex.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Beethovenstr. 49",
+    "phone": "044 260 95 25",
+    "source_url": "http://www.hoflex.ch/"
   },
   "hofmannlaw.ch": {
     "_failed": true,
@@ -17811,6 +17971,15 @@
     "firm_name": "Dufourstr. 105",
     "source_url": "https://www.rmplaw.ch/contact"
   },
+  "roberthadorn.ch": {
+    "canton": "ZH",
+    "email": "anwalt@roberthadorn.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Selnaustr. 3",
+    "founding_year": 1985,
+    "phone": "079 549 75 62",
+    "source_url": "https://www.roberthadorn.ch/"
+  },
   "rohlaw.ch": {
     "canton": "ZH",
     "email": "mail@rohlaw.ch",
@@ -20190,6 +20359,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Swissberg AG",
     "reason": "Sous-page /kanzlei/ inaccessible (HTTP 503 x2)"
+  },
+  "swisslawfirm.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Haldenrebenstr. 4",
+    "phone": "+41 44 761 60 64",
+    "source_url": "https://www.swisslawfirm.ch/kontakt/"
   },
   "swisslegal-chur.ch": {
     "canton": "GR",
@@ -22633,6 +22809,23 @@
       "Verwaltungsrecht"
     ],
     "source_url": "https://search.ch/tel/stans/alter-postplatz-6/petra-zelger"
+  },
+  "zelglilaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Im Langacker 16",
+    "founding_year": 2009,
+    "practice_areas_de": [
+      "Vertrags- und Gesellschaftsrecht",
+      "Immobilienrecht",
+      "Haftpflichtrecht",
+      "Wettbewerbsrecht",
+      "Bank- und Versicherungsrecht",
+      "Erb- und Familienrecht",
+      "Strafrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.zelglilaw.ch/de/"
   },
   "zeltweg.ch": {
     "canton": "ZH",
