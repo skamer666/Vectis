@@ -350,6 +350,14 @@
     ],
     "source_url": "https://www.admetam.ch/it/competenze"
   },
+  "admetam.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale ad metam SA - Via Cattedrale 4",
+    "founding_year": 2022,
+    "phone": "058 360 59 00",
+    "source_url": "https://www.admetam.ch/it/contatto"
+  },
   "adrianrufener.ch": {
     "canton": "SG",
     "email": "adrian.rufener@adrianrufener.ch",
@@ -2254,6 +2262,13 @@
     "firm_name": "Studio legale e notarile Aldi+ Balmelli",
     "reason": "Identite partiellement confirmee (Via Curti 5, Lugano, membres Aldi et Balmelli) mais aucun site officiel du cabinet identifie"
   },
+  "aldibalmelliunternaehrer-lugano-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Aldi-Balmelli-Unternährer",
+    "reason": "plusieurs cabinets similaires trouves (studio legale aldi, Balmelli-Unternaehrer sans Aldi) sans confirmation que la combinaison exacte du CSV corresponde a une seule entite, risque de confusion"
+  },
   "alexandrabaer.ch": {
     "canton": "OW",
     "fetched_date": "2026-09-13",
@@ -2669,6 +2684,14 @@
     ],
     "source_url": "https://antoniadis-recht.ch/",
     "team_size_n": 1
+  },
+  "antoninivismara-paradiso-ti": {
+    "canton": "TI",
+    "email": "avvocato@ettorevismara.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Antonini & Vismara",
+    "phone": "+41 91 922 81 04",
+    "source_url": "https://ettorevismara.digitalone.site/"
   },
   "anwaelte-hgs.ch": {
     "canton": "SG",
@@ -9022,6 +9045,13 @@
     "firm_name": "Favre Arbitration GmbH",
     "source_url": "https://favre-arbitration.ch/"
   },
+  "fazioli-sementina-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Luisa Fazioli",
+    "reason": "aucune avocate Luisa Fazioli trouvee a Sementina ou dans le canton TI"
+  },
   "fb-law.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-14",
@@ -9420,6 +9450,13 @@
     "notes": "Kilian Müller, Fachanwalt SAV Bau- und Immobilienrecht",
     "phone": "044 223 03 90",
     "source_url": "https://focuslegal.ch/"
+  },
+  "fontana-bellinzona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Curzio Fontana",
+    "phone": "091 825 22 22",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/4835-studio-legale-e-notarile-avv-curzio-fontana"
   },
   "forchstr36-zh": {
     "_failed": true,
@@ -12472,6 +12509,15 @@
     "source_url": "https://www.iup.ch/de/kontakt",
     "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
   },
+  "iur.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Guglielmoni-Forni-Zucchetti",
+    "founding_year": 1996,
+    "phone": "091 971 89 54",
+    "source_url": "https://iur.ch/",
+    "team_size_n": 4
+  },
   "iuris-consulti-schlatter-sg": {
     "_failed": true,
     "canton": "SG",
@@ -12560,6 +12606,13 @@
       "Privatversicherungsrecht"
     ],
     "source_url": "https://jaegerschweiter.ch/",
+    "team_size_n": 2
+  },
+  "jaeggischeller-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Jäggi & Scheller SA",
+    "source_url": "https://lawyer.anwaltvergleich.ch/d/law-firms/jaggi-and-scheller-sa-d:yXhDSnv98",
     "team_size_n": 2
   },
   "jakob-marsella.ch": {
@@ -15159,6 +15212,13 @@
     "firm_name": "studio legale e notarile Marcellini-Galliani",
     "source_url": "https://www.legal-notary.ch/avvocati/"
   },
+  "legal-notary.ch#3": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Marcelini-Galliani",
+    "source_url": "https://www.legal-notary.ch/avvocati/",
+    "team_size_n": 8
+  },
   "legal-partners-jona-sg": {
     "_failed": true,
     "canton": "SG",
@@ -16389,6 +16449,14 @@
     "firm_name": "Studio legale LVA VELO SA",
     "reason": "Identite confirmee (lva-law.ch) mais HTTP 403 Forbidden sur la page d'accueil et /about-us/ (x2)"
   },
+  "lva-law.ch#3": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale VELO SA",
+    "founding_year": 1982,
+    "phone": "091 935 10 00",
+    "source_url": "https://lva-law.ch/staff-member/lucio-velo/"
+  },
   "m-tl.ch": {
     "canton": "SG",
     "email": "kevin.mueller@m-tl.ch",
@@ -16462,6 +16530,15 @@
       "Philanthropy and Impact Investments"
     ],
     "source_url": "https://maf.ch/"
+  },
+  "maghettilegal.ch": {
+    "canton": "TI",
+    "email": "info@maghettilegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Maghetti",
+    "phone": "091 610 22 22",
+    "source_url": "https://www.maghettilegal.ch/it/",
+    "team_size_n": 3
   },
   "maglegis.ch": {
     "canton": "TI",
@@ -16660,6 +16737,12 @@
     "canton": "TI",
     "fetched_date": "2026-09-14",
     "firm_name": "Studio legale avv. Marco Masoni",
+    "source_url": "https://www.masonilegal.ch/chi/"
+  },
+  "masonilegal.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Marco Masoni",
     "source_url": "https://www.masonilegal.ch/chi/"
   },
   "mathe-partner-zh": {
@@ -17324,6 +17407,14 @@
     "phone": "+41 91 210 10 00",
     "source_url": "https://www.moloavvocati.ch/",
     "team_size_n": 4
+  },
+  "monaci.ch": {
+    "canton": "TI",
+    "email": "info@studiopfm.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Celio-Kraushaar Galfetti Monaci",
+    "phone": "+41 91 825 00 30",
+    "source_url": "https://monaci.ch/"
   },
   "monferrini.law": {
     "canton": "ZH",
@@ -18429,6 +18520,12 @@
     "reason": "URL hors provenance — non accessible via web_fetch",
     "tested_date": "2026-07-28"
   },
+  "pagani-massagno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Pagani",
+    "source_url": "https://www.local.ch/it/d/massagno/6900/avvocato/pagani-franco-l4HWXUpZxGB7i6w7jFqKQg"
+  },
   "pairfactlegal.com": {
     "canton": "ZH",
     "email": "office@pairfactlegal.com",
@@ -18755,6 +18852,13 @@
       "Jugendstrafrecht"
     ],
     "source_url": "https://www.pflaum.law/"
+  },
+  "pflaw.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Pascal Frischkopf",
+    "phone": "+41 (0) 91 922 88 80",
+    "source_url": "http://www.pflaw.ch/contatto-1"
   },
   "pianta-brusio-gr": {
     "_failed": true,
@@ -20967,6 +21071,16 @@
     "source_url": "https://www.salvionilaw.ch/",
     "team_size_n": 4
   },
+  "salvionilaw.ch#2": {
+    "canton": "TI",
+    "email": "info@salvionilaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Niccolò Salvioni",
+    "founding_year": 1962,
+    "phone": "+41 91 751 12 38",
+    "source_url": "https://www.salvionilaw.ch/",
+    "team_size_n": 4
+  },
   "sandmeier-luethi-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -22457,6 +22571,12 @@
     "phone": "+41 44 552 65 05",
     "source_url": "https://www.sperling-legal.ch/ueberuns"
   },
+  "spezialipartner.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Carla Speziali & Partner",
+    "source_url": "https://www.spezialipartner.ch/"
+  },
   "spittelerhof.ch": {
     "_failed": true,
     "canton": "BL",
@@ -22749,6 +22869,13 @@
     "checked_date": "2026-09-09",
     "firm_name": "Stäubli Advokatur",
     "reason": "HTTP 503 Service Unavailable (x3, plusieurs pages testees)"
+  },
+  "stafa-lugano-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Engjëllushe Stafa",
+    "reason": "aucune information trouvee pour cette avocate a Lugano"
   },
   "staiger.law": {
     "_failed": true,
@@ -23277,6 +23404,13 @@
     "founding_year": 1932,
     "source_url": "http://www.studiolegalecab.ch/"
   },
+  "studiolegalepedroia.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Pedroia",
+    "founding_year": 2014,
+    "source_url": "https://studiolegalepedroia.ch/"
+  },
   "studioluisoni.ch": {
     "canton": "TI",
     "email": "paolo@studioluisoni.ch",
@@ -23303,6 +23437,16 @@
     "founding_year": 1995,
     "source_url": "https://studiomattei.ch/studio-legale/",
     "team_size_n": 9
+  },
+  "studiomattei.ch#3": {
+    "canton": "TI",
+    "email": "info@studiomattei.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Mattei & Partners",
+    "founding_year": 1995,
+    "phone": "+41 91 821 60 00",
+    "source_url": "https://studiomattei.ch/",
+    "team_size_n": 10
   },
   "stummer.ch": {
     "canton": "ZH",
@@ -24309,6 +24453,14 @@
     "phone": "+41 44 527 90 00",
     "source_url": "https://www.toedtli.law/ueberuns",
     "team_size_n": 2
+  },
+  "togni-legal.ch": {
+    "canton": "TI",
+    "email": "info@togni-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Togni",
+    "phone": "+41 77 412 38 37",
+    "source_url": "https://www.togni-legal.ch/"
   },
   "toller-marco-chur-gr": {
     "_failed": true,

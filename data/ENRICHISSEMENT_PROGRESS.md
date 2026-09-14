@@ -4867,3 +4867,26 @@ Snider (Verscio, père décédé, aucune fiche professionnelle propre confirmée
 
 Rattachement : 1560 études rattachées au total (1539 → 1560, +21). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton TI, lot 145)
+
+20 cabinets traités (17 succès / 3 échecs), tous à Lugano/Bellinzona/Locarno/Viganello/Paradiso.
+Dont 4 nouvelles variantes CSV rattachées à des cabinets déjà enrichis (Salvioni, Mattei &
+Partners, Marco Masoni, Marcellini-Galliani).
+
+Succès (17) : 4 variantes CSV supplémentaires (Salvioni, Mattei & Partners, Masoni, Marcellini-
+Galliani) ; Pagani (Massagno) ; Maghetti (tel/email, 3 avocats, Mendrisio) ; Jäggi & Scheller SA
+(2 avocats, Lugano) ; Guglielmoni-Forni-Zucchetti (**cabinet fondé 1996**, tel, 4 avocats,
+Viganello) ; Curzio Fontana (tel, Bellinzona) ; Celio-Kraushaar Galfetti Monaci (tel/email,
+Bellinzona) ; Carla Speziali & Partner (Locarno) ; Antonini & Vismara (tel/email, Paradiso) ;
+Pascal Frischkopf (tel, **avocat depuis 2011**, Lugano) ; ad metam SA (2e entrée CSV, **depuis
+2022**, tel, Ascona) ; VELO SA (**cabinet fondé 1982**, tel, Lugano) ; Togni (tel/email,
+**inscrite au barreau depuis 2013**, immigration, Lugano) ; Pedroia (**depuis septembre 2014**,
+Bellinzona).
+
+Échecs (3) : Aldi-Balmelli-Unternährer (Lugano, plusieurs cabinets similaires trouvés sans
+confirmation que la combinaison exacte corresponde à une seule entité) ; Luisa Fazioli (Sementina,
+introuvable) ; Engjëllushe Stafa (Lugano, introuvable).
+
+Rattachement : 1577 études rattachées au total (1560 → 1577, +17). Suite de tests : 94/94 au
+vert.
