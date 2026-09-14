@@ -4423,3 +4423,28 @@ Pfiffner Rauber, ancienne juge fédérale, n'exerce plus en pratique privée dep
 
 Rattachement : 1295 études rattachées au total (1283 → 1295, +12). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 129)
+
+20 cabinets traités (18 succès / 2 échecs).
+
+Succès : Jean-Philippe Pinto (tel, sociétés/administratif/immobilier/Europe/faillite/aviation-
+maritime) ; Orlando Rabaglio (fiscalité/assurances sociales) ; Bernard Rambert (défense pénale,
+partage des locaux avec Philip Stolkin) ; Ursula Ramseier / Ramseier Anwaltskanzlei (tel, construction/
+environnement/administratif) ; Alexandra Ramuz / Anwaltskanzlei Ramuz (contrats/successions/sociétés/
+médiation) ; Corinne Reber / Freiplatzaktion Zürich (**licence 2020**, droit d'asile et migration) ;
+Kuno W. Rechsteiner (tel) ; Carola Reetz / e-advokatur (droit de la famille/médiation/collaborative
+law) ; Thomas Reich / Reich & Götte (dédoublonné, **fondée 2010**, civil/successions/garde/divorce/
+travail) ; Jürg Reichenbach (tel) ; Hans Reiser (tel/email, procédure civile) ; Andrzej Remin
+(**depuis 1984**, tel/email, arbitrage/successions/contrats) ; Alexia Renner (tel/email) ; Judith
+Rhein (tel/email, famille/médiation/protection de l'enfant/divorce) ; Marcel Rochaix (tel/email,
+responsabilité civile/assurances/commercial/sociétés/DIP/sport) ; Caroline Rom-Bernheim
+(**indépendante depuis 2016**, famille/successions) ; Martin Andreas Romann (**indépendant depuis
+1998**, tel/email) ; Manuela Römer (adresse confirmée).
+
+Échecs (**pièges d'adresse/identité évités**) : Klosbachstr. 103 (seule Elena Rappold Müller
+trouvée, à Tobelweg 14/Feldmeilen) ; Bauherrenstr. 37 (Nina Reiser professeure titulaire UZH/HSG,
+aucune pratique privée confirmée).
+
+Rattachement : 1313 études rattachées au total (1295 → 1313, +18). Suite de tests : 94/94 au
+vert.

@@ -2937,6 +2937,18 @@
     "source_url": "https://www.anwaltskanzlei-meyer.ch/",
     "team_size_n": 1
   },
+  "anwaltskanzlei-ramuz.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Ramuz",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Wirtschaftsmediation"
+    ],
+    "source_url": "https://anwaltskanzlei-ramuz.ch/"
+  },
   "anwaltskanzlei-zuercher.ch": {
     "canton": "SG",
     "email": "info@anwaltskanzlei-zuercher.ch",
@@ -7740,6 +7752,17 @@
     "firm_name": "Dufourstr. 32",
     "reason": "adresse partagee par 2 cabinets distincts (Geosits Rechtsanwälte, Uffer-law), Spiljak Maas Vanja introuvable"
   },
+  "e-advokatur.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "e-advokatur",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Mediation",
+      "Collaborative Law"
+    ],
+    "source_url": "https://e-advokatur.ch/"
+  },
   "eaw-legal.ch": {
     "canton": "ZH",
     "email": "contact@eaw-legal.ch",
@@ -12074,6 +12097,20 @@
     "firm_name": "Judith Naef Rechtsanwälte AG",
     "phone": "+41 44 714 72 22",
     "source_url": "https://www.judithnaef.ch/kontakt"
+  },
+  "judithrhein.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@judithrhein.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Judith Rhein",
+    "phone": "044 420 08 08",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Mediation",
+      "Kindesschutz",
+      "Scheidungsrecht"
+    ],
+    "source_url": "https://www.judithrhein.ch/"
   },
   "juesi-wetzikon-zh": {
     "canton": "ZH",
@@ -17639,6 +17676,21 @@
     "source_url": "https://www.pilatushof.ch/en/",
     "team_size_n": 9
   },
+  "pinto-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Pinto",
+    "phone": "+41 (0) 44 945 56 00",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Verwaltungsrecht",
+      "Immobilienrecht",
+      "Europarecht",
+      "Konkurs- und Insolvenzrecht",
+      "Luft- und Seerecht"
+    ],
+    "source_url": "https://pinto-law.ch/kontakt"
+  },
   "planta.com": {
     "canton": "ZH",
     "email": "mail@planta.ch",
@@ -18018,6 +18070,16 @@
     "phone": "+41 71 246 01 01",
     "source_url": "https://www.ra-widmer.ch/zur-person"
   },
+  "rabaglio-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Rabaglio",
+    "practice_areas_de": [
+      "Steuerrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://rs-tax.ch/team/orlando-rabaglio"
+  },
   "racioppi-partner-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -18069,6 +18131,15 @@
     ],
     "source_url": "https://www.rakolb.ch/"
   },
+  "rambert-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Bernard Rambert c/o Anwaltsbüro Philip Stolkin",
+    "practice_areas_de": [
+      "Strafverteidigung"
+    ],
+    "source_url": "https://www.zsz.ch/anwalt-bernard-rambert-fidel-castro-haette-ich-gerne-verteidigt-537541952587"
+  },
   "ramelet.legal": {
     "canton": "ZH",
     "email": "nr@ramelet.legal",
@@ -18100,6 +18171,18 @@
     ],
     "source_url": "https://www.ramminglaw.ch/rechtsgebiete"
   },
+  "ramseierrecht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rosswiesstr. 29",
+    "phone": "+41 55 251 59 59",
+    "practice_areas_de": [
+      "Baurecht",
+      "Umweltrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://ramseierrecht.ch/kontakt/"
+  },
   "ranzi-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -18120,6 +18203,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "RappjLegal Anwaltskanzlei & Notariat",
     "reason": "HTTP 500 Internal Server Error (x2) sur rappjlegal.ch"
+  },
+  "rappold-klosbachstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Klosbachstr. 103",
+    "reason": "seule Elena Rappold Mueller trouvee, a Tobelweg 14/Feldmeilen, adresse differente de Klosbachstrasse 103"
   },
   "rappoldkoehli.ch": {
     "canton": "ZH",
@@ -18191,6 +18281,16 @@
     "reason": "Page d'accueil quasi vide (rendu JavaScript probable), /en/contact en 404",
     "tested_date": "2026-09-08"
   },
+  "reber-freiplatzaktion-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Freiplatzaktion Zürich",
+    "founding_year": 2020,
+    "practice_areas_de": [
+      "Asyl- und Migrationsrecht"
+    ],
+    "source_url": "https://freiplatzaktion.ch/personen/"
+  },
   "reberlaw.ch": {
     "canton": "ZH",
     "email": "welcome@reberlaw.ch",
@@ -18219,6 +18319,13 @@
     "firm_name": "REBER Rechtsanwälte",
     "reason": "contenu vide, rendu JavaScript probable",
     "tested_date": "2026-07-28"
+  },
+  "rechsteiner-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Toblerstr. 83",
+    "phone": "043 266 86 15",
+    "source_url": "https://search.ch/tel/zuerich/toblerstrasse-83/kuno-w-rechsteiner"
   },
   "recht-frech.ch": {
     "canton": "ZH",
@@ -18537,6 +18644,27 @@
     ],
     "source_url": "https://reich-goette.ch/kontakt/"
   },
+  "reich-goette.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Spinnereistr. 12",
+    "founding_year": 2010,
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Erb- und Nachlassrecht",
+      "Sorgerecht",
+      "Scheidungsrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://reich-goette.ch/rechtsanwaelte/"
+  },
+  "reichenbach-bassersdorf-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Herrenweg 17",
+    "phone": "+41 44 836 98 91",
+    "source_url": "https://tel.search.ch/zuerich/talacker-50/reichenbach-rechtsanwaelte-ag"
+  },
   "reichle-stehle.ch": {
     "_failed": true,
     "canton": "SG",
@@ -18550,6 +18678,13 @@
     "checked_date": "2026-09-09",
     "firm_name": "Reinarz Tax & Legal",
     "reason": "Pages contact/about en 404 ; aucun telephone/email exploitable trouve sur le site officiel, seule une description generale"
+  },
+  "reiser-nina-bauherrenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Bauherrenstr. 37",
+    "reason": "Nina Reiser est professeure titulaire (UZH/HSG), aucune adresse de pratique privee a Bauherrenstrasse confirmee"
   },
   "reiser-partner.ch": {
     "canton": "SG",
@@ -18593,6 +18728,17 @@
     ],
     "source_url": "https://reiser-partner.ch/en/"
   },
+  "reiser-recht.ch": {
+    "canton": "ZH",
+    "email": "info@reiser-recht.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Buchholzstr. 33",
+    "phone": "043 244 91 90",
+    "practice_areas_de": [
+      "Zivilprozessrecht"
+    ],
+    "source_url": "https://www.reiser-recht.ch/kontakt.htm"
+  },
   "reiter-law-sg": {
     "_failed": true,
     "canton": "SG",
@@ -18606,6 +18752,21 @@
     "checked_date": "2026-09-09",
     "firm_name": "relevanz.legal",
     "reason": "HTTP 503 Service Unavailable (x2)"
+  },
+  "remin.ch": {
+    "canton": "ZH",
+    "email": "remin@remin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Zugerstr. 112",
+    "founding_year": 1984,
+    "phone": "+41 44 210 11 22",
+    "practice_areas_de": [
+      "Schiedsgerichtsbarkeit",
+      "Erbrecht",
+      "Nachlassverfahren",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.rechtsanwalt.com/rechtsanwalt/dr-iur-fachanwalt-fuer-deutsches-erbrecht-andrzej-remin/"
   },
   "renggli-law.ch": {
     "canton": "LU",
@@ -18624,6 +18785,14 @@
       "Notariat"
     ],
     "source_url": "https://renggli-law.ch/"
+  },
+  "renner-legal.ch": {
+    "canton": "ZH",
+    "email": "alexia.renner@renner-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Mühlebachstr. 43",
+    "phone": "044 363 84 77",
+    "source_url": "http://renner-legal.ch/de/kontakt"
   },
   "rentschpartner.ch": {
     "canton": "ZH",
@@ -18928,6 +19097,26 @@
     "phone": "079 549 75 62",
     "source_url": "https://www.roberthadorn.ch/"
   },
+  "rochaix.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@rochaix.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bahnstr. 16",
+    "phone": "+41 43 355 44 00",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Internationales Privatrecht",
+      "Sportrecht"
+    ],
+    "source_url": "https://www.rochaix.ch/en/unsere-kanzlei/"
+  },
+  "roemer-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rötelstr. 19",
+    "source_url": "https://ch.linkedin.com/in/manuela-r%C3%B6mer-1706a160"
+  },
   "rohlaw.ch": {
     "canton": "ZH",
     "email": "mail@rohlaw.ch",
@@ -18941,6 +19130,26 @@
       "Fiduciary services"
     ],
     "source_url": "https://www.rohlaw.ch/en/"
+  },
+  "rom-anwaltskanzlei.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rüdigerstr. 17",
+    "founding_year": 2016,
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.rom-anwaltskanzlei.ch/%C3%BCber-mich"
+  },
+  "romann.org": {
+    "canton": "ZH",
+    "email": "martin@romann.org",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Merkurstr. 45",
+    "founding_year": 1998,
+    "phone": "044 201 12 12",
+    "source_url": "https://romann.org/index.php/werdegang.html"
   },
   "romeroziegler.ch": {
     "canton": "ZH",
