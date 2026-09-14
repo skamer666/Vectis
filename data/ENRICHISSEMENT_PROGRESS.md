@@ -4474,3 +4474,28 @@ Lüthi juriste interne, aucune pratique privée confirmée) ; Kirchgasse 22 (Pau
 
 Rattachement : 1328 études rattachées au total (1313 → 1328, +15). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 131)
+
+20 cabinets traités (12 succès / 7 échecs ; 1 candidat, Arthur Schilter, déjà présent dans le cache
+sous un domaine identique, non recompté).
+
+Succès : Christian Emil Scherrer (adresse Winterthur confirmée) ; Regula Schlegel / rszh.ch ;
+Aurelia Schmid (**licence 2005**, poursuites/faillite/sociétés/travail/successions) ; Oliver Schmid
+/ Advokatur Schmid (travail/bail/divorce/contrats) ; Barbara Schneider-Grin / Anwaltsbüro Schneider
+(tel, Winterthur) ; Nicole Schnoor / Advokatur Schnoor (travail/social/bail/contrats/voisinage/
+réel/pénal/circulation) ; Sabrine Schnyder (**fondée 2023**, tel/email) ; Anna-Maria Schnyder von
+Wartensee (tel) ; Corinne Schoch (**licence 2001**, pénal et aide aux victimes/famille/travail/
+maladie-accident/étrangers/administratif) ; Peter Schoch (tel, banque/protection des investisseurs/
+compliance/commercial/civil/assurances/successions/immobilier) ; Ruedi Schoch (tel) ; Rahel Scholl
+(adresse confirmée).
+
+Échecs (**pièges d'adresse/identité évités**) : Gsteigstr. 20 (Josef Scherrer trouvé à
+Dufourstrasse 56) ; kassenrecht.ch (Michael Schmassmann chez Walder Wyss, droit de la concurrence,
+aucun lien avec ce domaine) ; Talacker 21 et Säntisstr. 90 (plusieurs Christian Schmid, aucun
+confirmé à ces adresses) ; Anwaltskanzlei Ernst F. Schmid (seule mention LinkedIn, aucune adresse
+confirmée) ; Zollikerstr. 153 (Dorothee Schramm basée à Genève, adresse déjà attribuée à Nicole
+Schnoor) ; Am Schanzengraben 27 (Gunther Schreiber introuvable).
+
+Rattachement : 1340 études rattachées au total (1328 → 1340, +12). Suite de tests : 94/94 au
+vert.

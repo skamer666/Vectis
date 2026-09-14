@@ -1128,6 +1128,22 @@
     "firm_name": "Müller / Scheuber – Advokatur & Notariat",
     "reason": "Site officiel = installation WordPress par defaut ('Hello world'), aucun contenu exploitable"
   },
+  "advokatur-schnoor.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Schnoor",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Personal- und Sozialversicherungsrecht",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Nachbarrecht",
+      "Sachenrecht",
+      "Strafrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://www.advokatur-schnoor.ch/"
+  },
   "advokatur-schodler-bl": {
     "_failed": true,
     "canton": "BL",
@@ -1493,6 +1509,18 @@
     ],
     "source_url": "https://advokaturobertor.ch/",
     "team_size_n": 4
+  },
+  "advokaturschmid.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Schmid",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Scheidungsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.advokaturschmid.ch/"
   },
   "advokatursissach.ch": {
     "canton": "BL",
@@ -2607,6 +2635,21 @@
     ],
     "source_url": "https://anwaelte44.ch/fachgebiete.html"
   },
+  "anwaeltin-schoch.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Ankerstr. 24",
+    "founding_year": 2001,
+    "practice_areas_de": [
+      "Strafrecht und Opferhilfe",
+      "Partnerschafts-, Ehe- und Familienrecht",
+      "Arbeits- und Geschäftsangelegenheiten",
+      "Krankheits- und Unfallfragen",
+      "Ausländerrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://anwaeltin-schoch.ch/rechtsgebiete/"
+  },
   "anwaeltin-zuerich.ch": {
     "canton": "ZH",
     "email": "rbartschi@anwaeltin-zuerich.ch",
@@ -2643,6 +2686,24 @@
     "source_url": "https://www.anwalt-pfister.ch/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (Christoph Pfister), Fachanwalt SAV Erbrecht (Christoph Pfister)",
     "team_size_n": 2
+  },
+  "anwalt-schoch.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Peter Schoch",
+    "phone": "+41 (0)43 545 27 67",
+    "practice_areas_de": [
+      "Bankrecht",
+      "Anlegerschutz",
+      "Compliance",
+      "Regulierung",
+      "Handelsrecht",
+      "Zivilrecht",
+      "Versicherungsrecht",
+      "Erbrecht",
+      "Immobilienrecht"
+    ],
+    "source_url": "https://www.anwalt-schoch.com/dienstleistungen"
   },
   "anwalt-sursee.ch": {
     "canton": "LU",
@@ -3213,6 +3274,19 @@
     "checked_date": "2026-09-09",
     "firm_name": "Arvian Legal AG",
     "reason": "Aucun site officiel trouve (adresse Kastanienweg 3, Kilchberg confirmee au registre du commerce et a l'Anwaltsregister ZH uniquement)"
+  },
+  "as-recht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Aurelia Schmid",
+    "founding_year": 2005,
+    "practice_areas_de": [
+      "Betreibungs- und Konkursrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Arbeitsrecht",
+      "Erb- und Nachlassrecht"
+    ],
+    "source_url": "https://www.as-recht.ch/ueber-mich/"
   },
   "aschwandenlaw.com": {
     "_failed": true,
@@ -19415,6 +19489,12 @@
     ],
     "source_url": "https://rechtsservice.ch/"
   },
+  "rszh.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Regula Schlegel",
+    "source_url": "https://rszh.ch/"
+  },
   "rtr-arosa-gr": {
     "_failed": true,
     "canton": "GR",
@@ -19778,6 +19858,15 @@
     "phone": "+41 79 627 68 85",
     "source_url": "https://sabeti-legal.ch/"
   },
+  "sabrineschnyder.ch": {
+    "canton": "ZH",
+    "email": "info@sabrineschnyder.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Klosbachstr. 109",
+    "founding_year": 2023,
+    "phone": "044 388 23 23",
+    "source_url": "https://www.sabrineschnyder.ch/en/about"
+  },
   "sandmeier-luethi-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -20090,6 +20179,19 @@
     "firm_name": "Bergstr. 127",
     "source_url": "https://search.ch/tel/zuerich/bergstrasse-127/kurt-scheibler"
   },
+  "scherrer-josef-gsteigstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Gsteigstr. 20",
+    "reason": "adresse trouvee pour Josef Scherrer (Dufourstrasse 56) differe de celle du CSV (Gsteigstrasse 20)"
+  },
+  "scherrer-winterthur-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rosentalstr. 88",
+    "source_url": "https://search.ch/tel/winterthur/rosentalstrasse-88/christian-emil-scherrer"
+  },
   "schiffbau.legal": {
     "canton": "ZH",
     "fetched_date": "2026-09-06",
@@ -20189,6 +20291,34 @@
     ],
     "source_url": "https://www.schlegel-recht.ch/",
     "team_size_n": 1
+  },
+  "schmassmann-kassenrecht-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "kassenrecht.ch",
+    "reason": "Michael Schmassmann est associe chez Walder Wyss (droit de la concurrence), aucun lien confirme avec un domaine kassenrecht.ch"
+  },
+  "schmid-christian-saentisstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Säntisstr. 90",
+    "reason": "plusieurs Christian Schmid avocats trouves mais aucun confirme a Saentisstrasse 90"
+  },
+  "schmid-christian-talacker21-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Talacker 21",
+    "reason": "plusieurs Christian Schmid avocats trouves (Walder Wyss, csc law) mais aucun confirme a Talacker 21"
+  },
+  "schmid-ernstfelix-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Ernst F. Schmid",
+    "reason": "seule une mention LinkedIn trouvee, aucune adresse ni coordonnee professionnelle confirmee"
   },
   "schmid-partner-zh": {
     "_failed": true,
@@ -20305,6 +20435,13 @@
     ],
     "source_url": "https://www.schneeberger.legal/about"
   },
+  "schneider-winterthur-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Schneider",
+    "phone": "052 521 37 55",
+    "source_url": "https://www.anwaltsbueroschneider.ch/"
+  },
   "schneiderheusi.ch": {
     "canton": "ZH",
     "email": "csh@schneiderheusi.ch",
@@ -20371,12 +20508,26 @@
     "firm_name": "Schnyder Rechtsanwälte",
     "reason": "Aucun site officiel trouve, seule une adresse email generique bluewin.ch dans des annuaires tiers"
   },
+  "schnyder-vonwartensee-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Toblerstr. 32",
+    "phone": "044 262 70 16",
+    "source_url": "https://search.ch/tel/zuerich/toblerstrasse-32/anna-schnyder-von-wartensee.en.html"
+  },
   "schoblochundseitz.ch": {
     "_failed": true,
     "canton": "ZH",
     "checked_date": "2026-09-09",
     "firm_name": "schobloch & seitz",
     "reason": "Site protege par verification anti-bot (Cloudflare), aucun contenu exploitable recu"
+  },
+  "schoch.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Geroldstr. 33",
+    "phone": "043 818 25 71",
+    "source_url": "https://www.schoch.ch/"
   },
   "schochauer.ch": {
     "canton": "SG",
@@ -20434,6 +20585,26 @@
     ],
     "source_url": "https://www.schoenmannlaw.ch/",
     "team_size_n": 2
+  },
+  "scholegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Riesbachstr. 52",
+    "source_url": "http://www.scholegal.ch/"
+  },
+  "schramm-zollikerstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Zollikerstr. 153",
+    "reason": "Dorothee Schramm basee a Geneve, aucune adresse a Zollikerstrasse 153 confirmee (adresse deja associee a une autre avocate, Nicole Schnoor)"
+  },
+  "schreiber-schanzengraben-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Am Schanzengraben 27",
+    "reason": "aucune information trouvee pour Gunther Schreiber a cette adresse"
   },
   "schroeder-naegeli-zh": {
     "_failed": true,
