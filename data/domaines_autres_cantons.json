@@ -213,6 +213,22 @@
     "specialist_certification": "Fachanwalt SAV Strafrecht (Amr Abdelaziz, 2022), Fachanwalt SAV Strafrecht (Maurin Schmidt, 2022)",
     "team_size_n": 3
   },
+  "ad-voca.ch": {
+    "canton": "ZH",
+    "email": "villiger@ad-voca.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ADVOKATUR VILLIGER",
+    "founding_year": 2001,
+    "phone": "043 535 00 85",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Erbrecht",
+      "Markenschutz",
+      "Urheber- und Kunstrecht"
+    ],
+    "source_url": "https://www.ad-voca.ch/en/law-office-zurich.html"
+  },
   "adab.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-28",
@@ -10625,6 +10641,17 @@
     "source_url": "https://hanhartlaw.ch/en/",
     "team_size_n": 1
   },
+  "hansuelivogt.ch": {
+    "canton": "ZH",
+    "email": "HUV@hansuelivogt.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rämistr. 74/35",
+    "phone": "+41 44 634 31 27",
+    "practice_areas_de": [
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://hansuelivogt.ch/kontakt/"
+  },
   "harbeke-zh": {
     "canton": "ZH",
     "fetched_date": "2026-09-14",
@@ -12739,6 +12766,21 @@
     ],
     "source_url": "https://kanzlei-uster.ch/"
   },
+  "kanzlei-vogel.ch": {
+    "canton": "ZH",
+    "email": "info@kanzlei-vogel.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rettenbachweg 3",
+    "phone": "052 550 10 11",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Erbrecht",
+      "Landwirtschaftliches Bodenrecht",
+      "Miet- und Pachtrecht"
+    ],
+    "source_url": "https://www.kanzlei-vogel.ch/ueber-uns"
+  },
   "kanzlei-winterthur.ch": {
     "canton": "ZH",
     "email": "t.stoessel@kanzlei-winterthur.ch",
@@ -13795,6 +13837,18 @@
       "Allgemeines Vertragsrecht"
     ],
     "source_url": "https://www.ksup.ch/"
+  },
+  "ku-law.ch": {
+    "canton": "ZH",
+    "email": "utzinger@ku-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Utzinger",
+    "phone": "044 363 14 00",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://tel.search.ch/meilen/toggwilerstrasse-90/katharina-utzinger"
   },
   "kuehnis-eggersriet-sg": {
     "_failed": true,
@@ -23399,7 +23453,7 @@
   "turnes-zh": {
     "canton": "ZH",
     "fetched_date": "2026-09-14",
-    "firm_name": "Advokatur G49",
+    "firm_name": "Advokatur Turnes",
     "founding_year": 2022,
     "source_url": "https://www.moneyhouse.ch/en/company/advokatur-turnes-21266582861"
   },
@@ -23410,6 +23464,14 @@
     "firm_name": "Anwaltskanzlei Ueberschlag",
     "phone": "041 211 17 30",
     "source_url": "https://www.ueberschlaglaw.ch/team.html"
+  },
+  "umbach-legal.ch": {
+    "canton": "ZH",
+    "email": "patrick@umbach-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Berghofstr. 7",
+    "phone": "043 928 03 84",
+    "source_url": "http://www.umbach-legal.ch/"
   },
   "umbricht.ch": {
     "_failed": true,
@@ -23606,6 +23668,13 @@
     "firm_name": "Rüegger Mediation & Advokatur",
     "source_url": "https://www.vanessaruegger.ch/impressum"
   },
+  "varga-bosshard-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Bahnhofstr. 74",
+    "reason": "adresse trouvee pour Caroline Varga Bosshard (Luriweg 29, Hittnau) differe de celle du CSV (Bahnhofstrasse 74)"
+  },
   "vecellio-leprese-gr": {
     "_failed": true,
     "canton": "GR",
@@ -23694,6 +23763,20 @@
     "canton": "LU",
     "fetched_date": "2026-09-10",
     "firm_name": "LL.M. Vetsch Rechtsanwälte AG",
+    "source_url": "https://www.vetsch-rechtsanwaelte.ch/"
+  },
+  "vetsch-rechtsanwaelte.ch#3": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Vetsch AG",
+    "founding_year": 2010,
+    "practice_areas_de": [
+      "Erbrecht",
+      "Familienrecht",
+      "Immobilienrecht",
+      "Gesellschaftsrecht",
+      "Haftpflicht- und Versicherungsrecht"
+    ],
     "source_url": "https://www.vetsch-rechtsanwaelte.ch/"
   },
   "vfs-partner.ch": {
@@ -23874,6 +23957,21 @@
     "source_url": "https://vocate.ch/",
     "team_size_n": 6
   },
+  "vogel-law.ch": {
+    "canton": "ZH",
+    "email": "m.vogel@vogel-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Manon Vogel",
+    "founding_year": 1994,
+    "phone": "+41 55 508 52 18",
+    "source_url": "https://vogel-law.ch/ueber-mich/"
+  },
+  "vokinger-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rämistr. 74",
+    "source_url": "https://www.ius.uzh.ch/de/staff/professorships/alphabetical/vokinger/vokinger/kontakt.html"
+  },
   "vollenweidersteiner.ch": {
     "canton": "LU",
     "email": "kanzlei@vollenweidersteiner.ch",
@@ -23889,6 +23987,15 @@
     ],
     "source_url": "https://www.vollenweidersteiner.ch/kontakt"
   },
+  "vonarxlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Geerenstr. 11",
+    "practice_areas_de": [
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.vonarxlegal.ch/%C3%BCber-uns/"
+  },
   "vondercrone.ch": {
     "canton": "ZH",
     "email": "office@vondercrone.ch",
@@ -23898,12 +24005,31 @@
     "source_url": "https://www.vondercrone.ch/",
     "team_size_n": 2
   },
+  "vonmeiss-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kanzleistr. 4",
+    "practice_areas_de": [
+      "Ausländerrecht",
+      "Erbrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Personen-, Vereins- und Stiftungsrecht"
+    ],
+    "source_url": "https://fragdenanwalt.ch/anwalt/zuerich-rechtsanwalt-herr-meiss-zuerich"
+  },
   "vonmoos-chur-gr": {
     "_failed": true,
     "canton": "GR",
     "checked_date": "2026-09-11",
     "firm_name": "Advokatur Schimun Vonmoos",
     "reason": "aucun site officiel propre identifie"
+  },
+  "vonsalisbilfinger-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Belsitostr. 4",
+    "reason": "adresse trouvee pour Heidi von Salis-Bilfinger (Dufourstrasse 32) differe de celle du CSV (Belsitostrasse 4)"
   },
   "vonsegesserlaw.com": {
     "canton": "ZH",
@@ -23917,6 +24043,45 @@
       "Legal Counsel"
     ],
     "source_url": "https://vonsegesserlaw.com/"
+  },
+  "vonuslar-zh": {
+    "canton": "ZH",
+    "email": "avuslar.law@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Drusbergstr. 54",
+    "founding_year": 1990,
+    "phone": "044 362 64 52",
+    "practice_areas_de": [
+      "Miet- und Pachtrecht",
+      "Scheidungsrecht",
+      "Opferhilferecht",
+      "Kindsrecht",
+      "Erb- und Nachlassrecht"
+    ],
+    "source_url": "https://tel.search.ch/zuerich/drusbergstrasse-54/anabel-von-uslar.de.html"
+  },
+  "vorburger-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Zelglistr. 97",
+    "reason": "aucune information trouvee pour Mia Vorburger a cette adresse (seule Alice Vorburger, Walder Wyss, identifiee)"
+  },
+  "vosseler-law.ch": {
+    "canton": "ZH",
+    "email": "info@vosseler-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Toblerstr. 76a",
+    "founding_year": 1986,
+    "phone": "+41 44 252 58 66",
+    "practice_areas_de": [
+      "Immaterialgüterrecht",
+      "Kartell- und Wettbewerbsrecht",
+      "Markenrecht",
+      "Medienrecht",
+      "Urheberrecht"
+    ],
+    "source_url": "http://vosseler-law.ch/"
   },
   "vslaw.ch": {
     "canton": "ZH",
@@ -23941,6 +24106,13 @@
     "firm_name": "wadavos Advokatur & Notariat",
     "source_url": "https://www.wadavos.ch/"
   },
+  "wagen-buelach-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ADVOKATUR WAGEN",
+    "phone": "043 422 93 43",
+    "source_url": "https://www.local.ch/en/d/buelach/8180/attorneys-at-law/wagen-daniel-3FzoA2LWy5ATovOlx2ZrNA"
+  },
   "walche.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -23962,6 +24134,31 @@
     ],
     "source_url": "https://www.walche.ch/",
     "team_size_n": 9
+  },
+  "walde-renata-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Seestr. 10",
+    "reason": "aucune information trouvee pour Renata Walde"
+  },
+  "walder-heinz-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Volkmarstr. 8",
+    "practice_areas_de": [
+      "SchKG und Verfahrensrecht",
+      "Strafrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.local.ch/en/d/zurich/8006/attorneys-at-law/walder-heinz-m-ZnBDvv_S2Tt2xqGiIJXliA"
+  },
+  "walderschiavone-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Lindenstr. 28",
+    "reason": "cabinet SMARTUP LAW d'Elena Walder-Schiavone trouve a Oberdorfstrasse 8, pas Lindenstrasse 28 ; desormais Managing Partner chez Uebermorgen Ventures"
   },
   "walderwyss.com": {
     "canton": "ZH",
@@ -24097,6 +24294,22 @@
       "Private Clients and Estate Planning"
     ],
     "source_url": "https://walkerlaw.ch/"
+  },
+  "walserlaw.ch": {
+    "canton": "ZH",
+    "email": "caroline.walser@vtxmail.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bellariarain 6",
+    "founding_year": 1986,
+    "phone": "044 342 09 20",
+    "practice_areas_de": [
+      "Erb- und Nachlassrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Sachenrecht",
+      "Scheidungsrecht",
+      "Zivilprozessrecht"
+    ],
+    "source_url": "https://www.walserlaw.ch/index.php/de"
   },
   "wartmann-merker.ch": {
     "canton": "ZH",

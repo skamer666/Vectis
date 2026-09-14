@@ -4579,3 +4579,35 @@ non confirmé entre l'adresse privée d'Oliver Tschirky et son profil profession
 
 Rattachement : 1385 études rattachées au total (1369 → 1385, +16). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 135)
+
+**Correction préalable (erreur du lot 134)** : l'entrée `turnes-zh` (Jon Turnes) avait été écrite
+avec `firm_name: "Advokatur G49"` au lieu de `"Advokatur Turnes"` -- un cabinet ZH distinct et bien
+réel nommé "Advokatur G49" existe dans le CSV, donc les faits de Jon Turnes s'étaient attachés par
+erreur à ce cabinet homonyme non lié. Corrigé en remettant `firm_name: "Advokatur Turnes"` ;
+"Advokatur G49" reste un candidat non traité pour un lot futur.
+
+20 cabinets traités (15 succès / 5 échecs).
+
+Succès : Patrick Umbach (tel/email) ; Katharina Utzinger / ku-law.ch (tel/email, commercial/
+contrats) ; Alexander Vetsch / Vetsch Rechtsanwälte AG (dédoublonné, **fondée 2010**, successions/
+famille/immobilier/sociétés/responsabilité civile-assurances) ; Tonia Villiger / Advokatur Villiger
+(**licence 2001**, tel/email, travail/contrats/successions/marques/droit d'auteur-art, Fachanwältin
+SAV travail) ; Jrene Vogel / Kanzlei Vogel (tel/email, famille/divorce/successions/droit foncier
+rural/bail-fermage) ; Manon Vogel (**licence 1994**, tel/email, médiatrice SAV depuis 2004) ; Hans-
+Ueli Vogt (tel/email, droit économique) ; Kerstin Noëlle Vokinger (adresse UZH confirmée) ; Patrick
+von Arx (droit économique) ; Florian von Meiss / Blum&Grob (étrangers/successions/sociétés/
+personnes-associations-fondations) ; Anabel von Uslar (**licence 1990**, tel/email, bail-fermage/
+divorce/aide aux victimes/enfant/successions) ; Peter Vosseler (**licence 1986**, tel/email,
+propriété intellectuelle/concurrence/marques/médias/droit d'auteur) ; Daniel Wagen (tel, Bülach) ;
+Heinz M. Walder (poursuites/procédure/pénal/contrats) ; Caroline Walser Kessel (**licence 1986**,
+tel/email, successions/protection de l'enfant et de l'adulte/réel/divorce/procédure civile).
+
+Échecs (**pièges d'adresse/identité évités**) : Bahnhofstr. 74 (Caroline Varga Bosshard trouvée à
+Hittnau) ; Belsitostr. 4 (Heidi von Salis-Bilfinger trouvée à Dufourstrasse 32) ; Zelglistr. 97
+(Mia Vorburger introuvable) ; Seestr. 10 (Renata Walde introuvable) ; Lindenstr. 28 (cabinet
+d'Elena Walder-Schiavone trouvé à une autre adresse, désormais Managing Partner ailleurs).
+
+Rattachement : 1400 études rattachées au total (1385 → 1400, +15). Suite de tests : 94/94 au
+vert.
