@@ -4725,3 +4725,29 @@ d'identité : cabinet retrouvé à Chiasso, aucun lien confirmé avec l'adresse 
 
 Rattachement : 1470 études rattachées au total (1454 → 1470, +16). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton TI, lot 140)
+
+12 cabinets traités (11 succès / 1 échec), tous à Lugano/Muralto/Chiasso/Mendrisio/Bellinzona (TI).
+Plus 6 corrections de rattachement sur des entrées déjà en cache dont le `firm_name` ne correspondait
+pas exactement au CSV (variantes multiples pour un même cabinet, ex. COLLEGAL apparaît sous 3 noms
+CSV différents ; typo CSV "CMB" vs vrai nom "CBM" ; "& Partners" manquant ; casse/ordre des mots).
+
+Succès (11) : Canevascini-Rotanzi (**cabinet fondé 1975**, 3 avocats/notaires, tel/email, civil/
+pénal/admin/commercial/assurances/sportif + notariat, Muralto) ; Elena Camponovo (tel/email,
+Chiasso) ; Francesco Barletta (tel, Lugano) ; M. Luisa Cardellicchio (tel, Sorengo) ; Studio
+Notarile Cereda (**depuis 1980**, tel/email, public/privé/successoral/contrats/commercial +
+notariat, Bellinzona) ; Ergin Cimen (tel/email, Lugano) ; LDM-Legal / Laura Decamilli Muzzarelli
+(tel/email, droit contractuel, Minusio) ; COLLEGAL (2 entrées CSV supplémentaires rattachées au
+même cabinet, dont l'entrée à 9 membres -- fort impact SEO) ; Rocco Taminelli (2e entrée CSV
+rattachée, avocat-notaire, Bellinzona) ; Marcellini-Galliani (2e entrée CSV rattachée, Lugano).
+
+Corrections (6, firm_name uniquement, faits existants conservés) : Marcellini-Galliani (legal-
+notary.ch) ; CBM/CMB Studio legale (cbm-lex.ch) ; Rossi-Pellegrini-Sauvain & Partners
+(avvocatimendrisio.ch) ; Masera & Della Casa SA (maseradellacasa.ch) ; Berra Vigilante & Partners
+(bvlaw.ch) ; Legem (swisslegem.ch).
+
+Échec (1) : Cornelia Boero-Gianinazzi (Malvaglia, aucun site officiel ni fiche trouvée).
+
+Rattachement : 1481 études rattachées au total (1470 → 1481, +11). Suite de tests : 94/94 au
+vert.

@@ -3540,7 +3540,7 @@
     "canton": "TI",
     "email": "info@rossi.ch",
     "fetched_date": "2026-09-08",
-    "firm_name": "Studio legale e notarile Rossi-Pellegrini-Sauvain",
+    "firm_name": "Studio legale e notarile Rossi-Pellegrini-Sauvain & Partners",
     "founding_year": 1965,
     "phone": "+41 91 646 43 25",
     "practice_areas_it": [
@@ -3552,6 +3552,14 @@
       "Diritto assicurativo"
     ],
     "source_url": "https://avvocatimendrisio.ch/"
+  },
+  "avvocatocamponovo.ch": {
+    "canton": "TI",
+    "email": "avvocato@avvocatocamponovo.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale Elena Camponovo",
+    "phone": "+41 91 6833181",
+    "source_url": "https://avvocatocamponovo.ch/"
   },
   "avvocatogilardi.ch": {
     "canton": "TI",
@@ -5727,6 +5735,13 @@
     "source_url": "https://bodmerfischer.ch/en/expertise/",
     "team_size_n": null
   },
+  "boero-gianinazzi-malvaglia-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio Legale avv. Cornelia Boero-Gianinazzi",
+    "reason": "aucun site officiel ni fiche detaillee trouvee pour cette avocate a Malvaglia"
+  },
   "bollmannlaw.ch": {
     "canton": "ZH",
     "email": "cb@bollmannlaw.ch",
@@ -6558,7 +6573,7 @@
   "bvlaw.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-07",
-    "firm_name": "Berra Vigilante & Partners - bvp SA",
+    "firm_name": "Berra Vigilante & Partners",
     "source_url": "https://bvlaw.ch/",
     "team_size_n": 5
   },
@@ -6701,6 +6716,13 @@
     "founding_year": 2025,
     "phone": "044 244 81 25",
     "source_url": "https://www.captlaw.ch/"
+  },
+  "cardellicchio-sorengo-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Avv. M. Luisa Cardellicchio",
+    "phone": "091 972 18 88",
+    "source_url": "https://zip.ch/en/cardellicchio-maria-luisa-avvocato-via-ai-pini-sorengo-BEpbArmx6b/"
   },
   "caroferber.ch": {
     "canton": "ZH",
@@ -6860,7 +6882,7 @@
     "canton": "TI",
     "email": "info@cbm-lex.ch",
     "fetched_date": "2026-09-06",
-    "firm_name": "CBM Studio legale e notarile",
+    "firm_name": "CMB Studio legale e notarile",
     "phone": "+41 91 230 10 00",
     "source_url": "https://cbm-lex.ch/en/contacts/"
   },
@@ -7052,6 +7074,14 @@
     ],
     "source_url": "https://churanwalt.ch/"
   },
+  "cimenlaw.ch": {
+    "canton": "TI",
+    "email": "e.cimen@cimenlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale avv. Ergin Cimen",
+    "phone": "+41 91 923 79 79",
+    "source_url": "https://www.cimenlaw.ch/"
+  },
   "citylex.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-10",
@@ -7133,6 +7163,24 @@
       "Administrative law",
       "Criminal law"
     ],
+    "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
+  },
+  "collegal.ch#2": {
+    "canton": "TI",
+    "email": "info@collegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "COLLEGAL Studio legale, Attorneys at Law",
+    "founding_year": 1947,
+    "phone": "+41 91 910 90 30",
+    "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
+  },
+  "collegal.ch#3": {
+    "canton": "TI",
+    "email": "info@collegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Collegal",
+    "founding_year": 1947,
+    "phone": "+41 91 910 90 30",
     "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
   },
   "colombo-giovanni-lugano-ti": {
@@ -8766,6 +8814,13 @@
     "fetched_date": "2026-09-10",
     "firm_name": "Favre Arbitration GmbH",
     "source_url": "https://favre-arbitration.ch/"
+  },
+  "fb-law.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio avv. Francesco Barletta",
+    "phone": "+41 91 225 15 50",
+    "source_url": "https://search.ch/tel/lugano/via-serafino-balestra-12/avv-francesco-barletta-studio-legale-lugano.it.html"
   },
   "fblegalservicessa.com": {
     "_failed": true,
@@ -14688,6 +14743,14 @@
     "source_url": "https://www.lclaw.ch/en/about-us/",
     "team_size_n": null
   },
+  "ldm-legal.ch": {
+    "canton": "TI",
+    "email": "info@ldm-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "LDM-Legal",
+    "phone": "+41 91 744 64 25",
+    "source_url": "https://www.ldm-legal.ch"
+  },
   "leg-not.ch": {
     "canton": "TI",
     "email": "info@leg-not.ch",
@@ -14723,6 +14786,12 @@
     ],
     "source_url": "https://www.legal-notary.ch/",
     "team_size_n": 8
+  },
+  "legal-notary.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile Marcellini-Galliani",
+    "source_url": "https://www.legal-notary.ch/avvocati/"
   },
   "legal-partners-jona-sg": {
     "_failed": true,
@@ -14768,6 +14837,15 @@
       "Debt enforcement/bankruptcy/reorganization"
     ],
     "source_url": "https://www.legal1896.ch/en/"
+  },
+  "legalcereda.ch": {
+    "canton": "TI",
+    "email": "info@legalcereda.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Cereda",
+    "founding_year": 1980,
+    "phone": "091 825 69 22",
+    "source_url": "https://www.legalcereda.ch/"
   },
   "legalcoaching.ch": {
     "canton": "BL",
@@ -14933,6 +15011,13 @@
     "canton": "TI",
     "fetched_date": "2026-09-14",
     "firm_name": "studio legale e notarile avv. Rocco Taminelli",
+    "phone": "091 826 22 70",
+    "source_url": "https://search.ch/tel/bellinzona/viale-stazione-6/rocco-taminelli.it.html"
+  },
+  "legaltaminelli.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio avv. Rocco Taminelli",
     "phone": "091 826 22 70",
     "source_url": "https://search.ch/tel/bellinzona/viale-stazione-6/rocco-taminelli.it.html"
   },
@@ -16158,7 +16243,7 @@
     "canton": "TI",
     "email": "info@maseradellacasa.ch",
     "fetched_date": "2026-09-09",
-    "firm_name": "Studio legale Masera & Della Casa SA, Palazzo Elvezia",
+    "firm_name": "Masera & Della Casa SA, Palazzo elvezia",
     "founding_year": 2013,
     "phone": "+41 91 223 30 10",
     "practice_areas_en": [
@@ -16394,6 +16479,25 @@
     ],
     "source_url": "https://www.mcmlegal.ch/",
     "team_size_n": 2
+  },
+  "mcr-law.ch": {
+    "canton": "TI",
+    "email": "info@mcr-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Canevascini Rotanzi",
+    "founding_year": 1975,
+    "phone": "+41 (0)91 735 35 50",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto penale",
+      "Diritto amministrativo",
+      "Diritto commerciale",
+      "Diritto assicurativo",
+      "Diritto sportivo",
+      "Notariato"
+    ],
+    "source_url": "https://mcr-law.ch/",
+    "team_size_n": 3
   },
   "meier-advokaturburo-sg": {
     "_failed": true,
@@ -22919,7 +23023,7 @@
     "canton": "TI",
     "email": "sl@swisslegem.ch",
     "fetched_date": "2026-09-07",
-    "firm_name": "Legem Studio legale e notarile",
+    "firm_name": "Studio legale e notarile Legem",
     "founding_year": 2015,
     "phone": "091 922 06 70",
     "practice_areas_it": [
