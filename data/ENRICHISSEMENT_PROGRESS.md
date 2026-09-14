@@ -4638,3 +4638,31 @@ Rechtsanwälte).
 
 Rattachement : 1417 études rattachées au total (1400 → 1417, +17). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 137)
+
+20 cabinets traités (18 succès / 2 échecs).
+
+Succès : Eva Wille / CHANSON WILLE (droit pénal économique) ; Tamás Willi (**licence 2012**) ;
+Peter E. Wirth (**licence 1992**, tel/email, économique-fiscal/restructurations/successions/
+planification successorale/exécution testamentaire) ; Rena Wisler / Kanzlei Wisler Legal
+(**fondée 2010**, tel, étrangers/sociétés/contrats/immobilier/successions/travail/DIP) ; Judith
+Wissmann Lukesch (tel/email, travail/égalité) ; Stanislava Wittibschlager (**licence 2012**,
+successions/travail/famille/poursuites/création d'entreprise) ; Marco Wolf / WWNW Advokatur AG
+(dédoublonné, tel, insolvabilité/travail/successions/notariat) ; Fan Wu / Anwaltskanzlei Fan Wu
+(**fondée 2007**, tel, droit sino-suisse) ; Hugo Wüest (**licence 1981**, tel, sport/successions/
+bail-fermage/travail/contrats) ; Urs Wüthrich / Pro Mente Sana (assurances sociales) ; Daniel Wyss
+(**fondée 2018**, Zollikon) ; Thomas Wyss (**cabinet propre depuis 2017**, tel/email, commercial/
+successions/sociétés-économique/contrats/éducation/responsabilité civile-assurances) ; Ernst
+Zeller (responsabilité civile-assurances/commercial/pénal) ; Fatma Zencirkiran / Jurista
+(**licence 2019**, Winterthur) ; Hanspeter Zgraggen (tel/email, famille/divorce/enfant/travail/
+pénal) ; Jacob Zgraggen (banque/successions/sociétés) ; Katja Ziehe / inbetween.law (**propriétaire
+depuis 2024**, famille) ; Salome Zimmermann (**licence 1984**, tel, bail-fermage/sociétés/contrats/
+successions/administratif).
+
+Échecs (**pièges d'adresse/identité évités**) : Zelglistr. 9 (Sibylle Wirth Zubler introuvable) ;
+Gseckstr. 14b (Susanne Wolf-Mettier juriste interne chez SIX Group, aucune pratique privée
+confirmée).
+
+Rattachement : 1435 études rattachées au total (1417 → 1435, +18). Suite de tests : 94/94 au
+vert.

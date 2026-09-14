@@ -11644,6 +11644,16 @@
     "firm_name": "Inauen Moser Rechtsanwälte",
     "source_url": "https://inauen-moser.ch/"
   },
+  "inbetween.law": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "inbetween. law",
+    "founding_year": 2024,
+    "practice_areas_de": [
+      "Familienrecht"
+    ],
+    "source_url": "https://www.inbetween.law/ueber-mich.html"
+  },
   "inclusione-andicap-ticino.ch": {
     "canton": "TI",
     "email": "info@inclusione-andicap-ticino.ch",
@@ -12655,6 +12665,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Anwaltskanzlei Imhof",
     "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
+  },
+  "kanzlei-jurista.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Jurista Fatma Zencirkiran",
+    "founding_year": 2019,
+    "source_url": "https://kanzlei-jurista.ch/"
   },
   "kanzlei-k3.ch": {
     "canton": "ZH",
@@ -23133,6 +23150,23 @@
     ],
     "source_url": "https://thomannlaw.ch/"
   },
+  "thomaswyss.ch": {
+    "canton": "ZH",
+    "email": "anwalt@thomaswyss.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Holbeinstr. 34",
+    "founding_year": 2017,
+    "phone": "044 523 20 00",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Erb- und Nachlassrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Bildungsrecht",
+      "Haftpflicht- und Versicherungsrecht"
+    ],
+    "source_url": "https://www.thomaswyss.ch/"
+  },
   "thouvenin-usteristr-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -24970,6 +25004,22 @@
     ],
     "source_url": "https://www.wildschnyder.ch/"
   },
+  "wille-chanson-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Wille",
+    "practice_areas_de": [
+      "Wirtschaftsstrafrecht"
+    ],
+    "source_url": "https://search.ch/tel/zuerich/klosbachstrasse-51/anwaltskanzlei-wille-eva-wille"
+  },
+  "willi-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Willi",
+    "founding_year": 2012,
+    "source_url": "https://ra-willi.hu/"
+  },
   "wilms-rechtsanwaelte-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -25026,6 +25076,58 @@
     "firm_name": "Notariat & Advokatur Wiprächtiger",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
   },
+  "wirth-law.ch": {
+    "canton": "ZH",
+    "email": "pewirth@wirth-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Balderngasse 9",
+    "founding_year": 1992,
+    "phone": "+41 44 211 34 86",
+    "practice_areas_de": [
+      "Wirtschafts- und Steuerrecht",
+      "Restrukturierungen",
+      "Erbrecht",
+      "Nachlassplanung",
+      "Willensvollstreckung"
+    ],
+    "source_url": "https://www.wirth-law.ch/en/contact"
+  },
+  "wirthzubler-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Zelglistr. 9",
+    "reason": "aucune information trouvee pour Sibylle Wirth Zubler comme avocate a cette adresse"
+  },
+  "wislerlegal.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kanzlei Wisler Legal",
+    "founding_year": 2010,
+    "phone": "+41 44 380 37 77",
+    "practice_areas_de": [
+      "Ausländerrecht",
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Immobilienrecht",
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "https://wislerlegal.com/en/about-us/"
+  },
+  "wissmannlukesch-zh": {
+    "canton": "ZH",
+    "email": "judith.wissmann@arbeitundkonflikt.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Im Bungert 25",
+    "phone": "+41 44 341 53 45",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Gleichstellungsrecht"
+    ],
+    "source_url": "https://www.wissmannlukesch.ch/"
+  },
   "wissner-law.ch": {
     "canton": "ZH",
     "email": "anina@wissner-law.ch",
@@ -25043,6 +25145,20 @@
     ],
     "source_url": "https://www.wissner-law.ch/",
     "team_size_n": 1
+  },
+  "wittib-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Wittibschlager",
+    "founding_year": 2012,
+    "practice_areas_de": [
+      "Erbrecht",
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Betreibungsrecht",
+      "Firmengründung"
+    ],
+    "source_url": "https://www.wittib-law.ch/anwaelte-team/stanislava-wittibschlager/"
   },
   "wittibschlager-wil-sg": {
     "_failed": true,
@@ -25205,6 +25321,13 @@
     "source_url": "https://wolffpool.ch/",
     "team_size_n": 2
   },
+  "wolfmettier-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Gseckstr. 14b",
+    "reason": "Susanne Wolf-Mettier identifiee comme juriste interne chez SIX Group, aucune pratique privee ni adresse confirmee"
+  },
   "wrecht.ch": {
     "canton": "ZH",
     "email": "anfrage@wrecht.ch",
@@ -25254,12 +25377,44 @@
     "source_url": "https://www.wt92.ch/",
     "team_size_n": 4
   },
+  "wueest-hugo-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Burstwiesenstr. 2",
+    "founding_year": 1981,
+    "phone": "043 333 33 75",
+    "practice_areas_de": [
+      "Sportrecht",
+      "Erb- und Nachlassrecht",
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/9025/hugo-wueest-zuerich"
+  },
   "wuergler-ra.ch": {
     "_failed": true,
     "canton": "ZH",
     "firm_name": "Jack Würgler & Partner Rechtsanwälte",
     "reason": "HTTP 503 Service Unavailable sur http et https",
     "tested_date": "2026-09-08"
+  },
+  "wuethrich-promentesana-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Pro Mente Sana",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://promentesana.ch/de/beratung/beratungsteam.html"
+  },
+  "wulegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Alte Landstr. 15",
+    "founding_year": 2007,
+    "phone": "+41 (0)79 796 46 23",
+    "source_url": "https://wulegal.ch/about-us"
   },
   "wunderlich-chur-gr": {
     "_failed": true,
@@ -25283,6 +25438,26 @@
     "phone": "+41 44 212 70 70",
     "source_url": "https://www.wwnw.ch/kontakt.php",
     "team_size_n": 4
+  },
+  "wwnw.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stadthausquai 1",
+    "phone": "+41 44 212 70 70",
+    "practice_areas_de": [
+      "Insolvenzrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Notarsachen"
+    ],
+    "source_url": "https://www.wwnw.ch/kontakt.php"
+  },
+  "wyss-daniel-zollikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Birkenweg 2",
+    "founding_year": 2018,
+    "source_url": "https://www.moneyhouse.ch/en/company/dr-iur-daniel-wyss-rechtsanwalt-2417299631"
   },
   "wysshaefeli.ch": {
     "_failed": true,
@@ -25426,6 +25601,17 @@
     ],
     "source_url": "https://www.zelglilaw.ch/de/"
   },
+  "zeller-ernst-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Ernst Zeller",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Handelsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.legaly.ch/anwalt/9822-ernst-zeller"
+  },
   "zeltweg.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-09",
@@ -25441,12 +25627,53 @@
     "firm_name": "Studio legale Antonio Zendralli Via de la",
     "reason": "aucun site officiel propre identifie (contact bluewin uniquement)"
   },
+  "zgraggen-kuesnacht-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bergstr. 75",
+    "practice_areas_de": [
+      "Bankrecht",
+      "Erb- und Nachlassrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/8674-anwaltskanzlei-jacob-zgraggen"
+  },
   "zgraggen-ulrich-lu": {
     "_failed": true,
     "canton": "LU",
     "checked_date": "2026-09-08",
     "firm_name": "Zgraggen & Ulrich",
     "reason": "Rattachement possible a Zgraggen Rechtsanwaelte AG (z-law.ch, meme patronyme Zgraggen) mais aucun avocat nomme Ulrich sur l'equipe actuelle et aucune mention de continuite -- lien non retenu"
+  },
+  "zgraggenlaw.ch": {
+    "canton": "ZH",
+    "email": "h.zgraggen@zgraggenlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stadthausstr. 41",
+    "phone": "052 511 28 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Kindesrecht",
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.zgraggenlaw.ch/"
+  },
+  "zimmermann-salome-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Nordstr. 36",
+    "founding_year": 1984,
+    "phone": "044 363 30 93",
+    "practice_areas_de": [
+      "Miet- und Pachtrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Vertragsrecht",
+      "Erbrecht und Nachlassrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://anw24.ch/details/9177/salome-zimmermann-zuerich"
   },
   "zinsli-stmoritz.ch": {
     "canton": "GR",
