@@ -4805,3 +4805,36 @@ corrigé, prefixe "Eva" ajouté).
 
 Rattachement : 1519 études rattachées au total (1500 → 1519, +19). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton BL, lot 143)
+
+**Bascule sur le canton BL (Bâle-Campagne)** : SZ ne compte plus que 13 candidats restants, en
+grande majorité des adresses sans nom exploitable ; BL comptait 22 cabinets non traités, tous
+avec un nom exploitable.
+
+22 cabinets traités (20 succès / 2 échecs), répartis à Liestal, Binningen, Aesch BL, Reinach,
+Laufen, Therwil, Bottmingen, Münchenstein, Pratteln, Zunzgen, Rünenberg et Wahlen b. Laufen.
+
+Succès (20) : Wirz Advokatur / Stefan Wirz (**depuis 2023**, tel/email, **Fachanwalt SAV Bau- und
+Immobilienrecht**, Baurecht/Immobilienrecht/Vergabe- und Submissionsrecht/Mietrecht/Arbeitsrecht,
+Aesch BL) ; Stemmer Advokatur (tel, Liestal) ; Christoph Surber, avocat et expert fiscal diplômé
+(tel/email, Birsfelden) ; Michael Kunz Advokat (tel/email, Zunzgen -- rattaché au réseau Advokatur
+am Fischmarkt déjà connu) ; Advokaturbüro Borer (tel, Laufen) ; Advokatur zum Schloss (tel/email,
+Binningen) ; Advokatur von Blarer (**cabinet fondé 1972**, tel/email, Aesch BL) ; Advokatur &
+Rechtsberatung TRIAS AG (**depuis 2003**, tel Pratteln -- 2e entrée CSV pour ce cabinet déjà connu
+à Zurich) ; Advokatur & Notariat Dr. Alex Achermann (tel/email, Binningen) ; Advokatur im Gstad
+(**depuis 1993**, Münchenstein) ; Advokatur Désirée Stutz (tel/email, Liestal -- 2e entrée CSV,
+même adresse qu'un autre cabinet déjà en échec) ; Advokatur Rosenthaler / Simon Rosenthaler (tel/
+email, Binningen) ; Advokatur Nicolas Hänggi (Liestal) ; Advokatur Huber / Olivier Huber (tel/
+email, Strafrecht/Nachlassabwicklung/Recht rund um Wohneigentum, Wahlen b. Laufen) ; Advokatur Dr.
+C. Noelpp (Therwil) ; Advokatur Angela Gantner (**depuis 2008**, tel, Liestal) ; Advokatur &
+Notariat Helfenfinger (tel/email, Laufen) ; Advokatur & Mediation Dr. Sven Oppliger (tel,
+Bottmingen) ; Advokatur zum Wasserturm / Dieter M. Troxler (tel/email, Rünenberg) ; Advokatur
+Polatli (tel/email, Liestal).
+
+Échecs (2) : Advokatur An der Au (Reinach, aucune fiche fiable trouvée) ; Advokatur + Mediation
+Simone Gremmelspacher-Rutz (Liestal, risque de confusion d'identité -- seule une Simone
+Gremmelspacher différente, ombudsman, et un Georg Gremmelspacher d'un autre cabinet apparaissent).
+
+Rattachement : 1539 études rattachées au total (1519 → 1539, +20). Suite de tests : 94/94 au
+vert.

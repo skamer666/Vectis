@@ -855,6 +855,13 @@
     "phone": "+41 71 228 58 48",
     "source_url": "https://www.advokatur-baumann.ch/"
   },
+  "advokatur-bl.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "STEMMER Advokatur",
+    "phone": "+41 61 935 91 70",
+    "source_url": "http://www.advokatur-bl.ch/"
+  },
   "advokatur-blahova.ch": {
     "canton": "SG",
     "email": "info@advokatur-blahova.ch",
@@ -947,6 +954,13 @@
     ],
     "source_url": "https://www.advokatur-glasmalergasse.ch/vitae/"
   },
+  "advokatur-gstad.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur im Gstad",
+    "founding_year": 1993,
+    "source_url": "https://advokatur-gstad.ch/"
+  },
   "advokatur-hirschenplatz.ch": {
     "canton": "ZH",
     "email": "schaumann@advokatur-hirschenplatz.ch",
@@ -970,6 +984,19 @@
       "Verwaltungsrecht"
     ],
     "source_url": "https://www.advokatur-hubatka.ch/"
+  },
+  "advokatur-huber.ch": {
+    "canton": "BL",
+    "email": "olivier.huber@advokatur-huber.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Huber",
+    "phone": "061 761 48 84",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Nachlassabwicklung",
+      "Recht rund um Wohneigentum und Liegenschaften"
+    ],
+    "source_url": "https://www.advokatur-huber.ch/"
   },
   "advokatur-knutti.ch": {
     "_failed": true,
@@ -1089,6 +1116,14 @@
       "Betreibungs- und Konkursrecht"
     ],
     "source_url": "https://www.advokatur-perhofer.ch/en/kontakt"
+  },
+  "advokatur-polatli.ch": {
+    "canton": "BL",
+    "email": "polatli@advokatur-polatli.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ADVOKATUR POLATLI",
+    "phone": "+41 61 311 60 01",
+    "source_url": "https://advokatur-polatli.ch/contact/"
   },
   "advokatur-regensdorf.ch": {
     "canton": "ZH",
@@ -1263,12 +1298,29 @@
     ],
     "source_url": "https://advokatur-trias.ch/en/"
   },
+  "advokatur-trias.ch#2": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur und Rechtsberatung TRIAS AG",
+    "founding_year": 2003,
+    "phone": "061 823 03 03",
+    "source_url": "https://advokatur-trias.ch/en/"
+  },
   "advokatur-und-notariatsbuero-dr-iur-guido-lazza.digitalone.site": {
     "canton": "GR",
     "fetched_date": "2026-09-11",
     "firm_name": "Advokatur und Notariat Lazzarini Plazza da",
     "phone": "+41 81 531 00 00",
     "source_url": "https://advokatur-und-notariatsbuero-dr-iur-guido-lazza.digitalone.site/"
+  },
+  "advokatur-vonblarer.ch": {
+    "canton": "BL",
+    "email": "sekretariat@advokatur-vonblarer.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur von Blarer",
+    "founding_year": 1972,
+    "phone": "061 756 80 40",
+    "source_url": "https://www.advokatur-vonblarer.ch/"
   },
   "advokatur-west.ch": {
     "canton": "ZH",
@@ -1333,6 +1385,22 @@
     "firm_name": "ZIMMERLI & PARTNER Advokatur Zentralschweiz AG",
     "phone": "+41 (0) 41 410 54 54",
     "source_url": "https://www.advokatur-zentralschweiz.ch/de/kontakt"
+  },
+  "advokatur-zum-schloss.ch": {
+    "canton": "BL",
+    "email": "sekretariat@schlossadvokatur.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur zum Schloss",
+    "phone": "+41 (0)61 421 71 44",
+    "source_url": "https://www.advokatur-zum-schloss.ch/"
+  },
+  "advokatur-zum-wasserturm-ruenenberg-bl": {
+    "canton": "BL",
+    "email": "advo.dmt@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ADVOKATUR zum WASSERTURM",
+    "phone": "+41 (0) 61 921 94 76",
+    "source_url": "https://www.jurata.ch/de/kanzlei/advokatur-zum-wasserturm"
   },
   "advokatur.ch": {
     "canton": "BL",
@@ -2473,12 +2541,27 @@
     "firm_name": "Zeller Dettwiler Advokatur & Notariat",
     "reason": "Site accessible mais aucun tel/email exploitable, uniquement une formule generique de mission"
   },
+  "amwasserturmplatz.ch#2": {
+    "canton": "BL",
+    "email": "stutz@amwasserturmplatz.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Stutz",
+    "phone": "061 921 35 15",
+    "source_url": "https://www.amwasserturmplatz.ch/html/de/advokatur/desiree_stutz.html"
+  },
   "andenmatten-lu": {
     "_failed": true,
     "canton": "LU",
     "checked_date": "2026-09-10",
     "firm_name": "Andenmatten Notariat & Advokatur GmbH",
     "reason": "Aucun site officiel propre identifie (entite recemment enregistree, mars 2026), uniquement des fiches de registre"
+  },
+  "anderau-reinach-bl": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokatur An der Au",
+    "reason": "aucun site officiel ni fiche de contact fiable trouvee pour ce cabinet a Reinach BL"
   },
   "anderegg-recht.com": {
     "canton": "NW",
@@ -3269,6 +3352,14 @@
     "firm_name": "Jaquenod Rechtsanwälte",
     "reason": "HTTP 503 Service Unavailable sur deux tentatives (http et https)",
     "tested_date": "2026-09-07"
+  },
+  "ar-law.ch": {
+    "canton": "BL",
+    "email": "office@ar-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Rosenthaler",
+    "phone": "+41 61 425 46 50",
+    "source_url": "https://ar-law.ch/"
   },
   "arbeitsrechtler.ch": {
     "canton": "ZH",
@@ -5828,6 +5919,13 @@
     "firm_name": "Borbély Legal GmbH",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "borer-laufen-bl": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Borer",
+    "phone": "061 761 77 40",
+    "source_url": "https://search.ch/tel/laufen/delsbergerstrasse-14/rene-borer.de.html"
+  },
   "borer-law.ch": {
     "canton": "ZH",
     "email": "info@borer-law.ch",
@@ -7388,6 +7486,14 @@
     "firm_name": "Cron Bloch Schmid, Notariat + Advokatur",
     "phone": "+41 61 465 90 90",
     "source_url": "https://cronbloch.ch/"
+  },
+  "csas.ch": {
+    "canton": "BL",
+    "email": "cs@csas.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rechtsanwalt und eidg. dipl. Steuerexperte",
+    "phone": "+41 61 201 13 13",
+    "source_url": "https://www.csas.ch/kontakt/"
   },
   "csnlaw.com": {
     "canton": "TI",
@@ -9165,6 +9271,14 @@
     ],
     "source_url": "https://www.fischlex.ch/"
   },
+  "fischlex.ch#2": {
+    "canton": "BL",
+    "email": "kunz@fischlex.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Michael Kunz Advokat",
+    "phone": "061 971 24 88",
+    "source_url": "https://www.fischlex.ch/b%C3%BCro-zunzgen/kontakt-zunzgen"
+  },
   "fischli-hunkeler-kuessnacht-sz": {
     "canton": "SZ",
     "fetched_date": "2026-09-14",
@@ -9760,6 +9874,14 @@
     "checked_date": "2026-09-10",
     "firm_name": "Anwaltskanzlei Andreas Gantenbein",
     "reason": "HTTP 503 Service Unavailable (x2) sur ag-anwalt.ch"
+  },
+  "gantner-gantner.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Angela Gantner",
+    "founding_year": 2008,
+    "phone": "+41 61 921 37 37",
+    "source_url": "http://gantner-gantner.ch/"
   },
   "ganzonipedretti.ch": {
     "canton": "GR",
@@ -10526,6 +10648,13 @@
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht",
     "team_size_n": 1
   },
+  "gremmelspacher-rutz-liestal-bl": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokatur + Mediation Simone Gremmelspacher-Rutz",
+    "reason": "aucune confirmation trouvee pour Simone Gremmelspacher-Rutz specifiquement ; seule une Simone Gremmelspacher (Ombudsman) et un Georg Gremmelspacher (autre cabinet a Basel) apparaissent, risque de confusion d'identite"
+  },
   "greterlaw.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -10895,6 +11024,12 @@
     "firm_name": "HSG Häller Anwaltsbüro + Notariat AG",
     "phone": "041 921 20 21",
     "source_url": "https://haeller-anwalt.ch/kontakt.html"
+  },
+  "haenggi-liestal-bl": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Nicolas Hänggi",
+    "source_url": "https://lawyers.jurata.ch/de/kanzlei/advokatur-nicolas-haenggi"
   },
   "haenzikoch.ch": {
     "canton": "SG",
@@ -11266,6 +11401,14 @@
     ],
     "source_url": "https://www.helbling.law/kontakt",
     "team_size_n": 3
+  },
+  "helfenfinger-law.ch": {
+    "canton": "BL",
+    "email": "duh@helfenfinger-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur & Notariat Helfenfinger",
+    "phone": "+41 61 763 10 10",
+    "source_url": "https://search.ch/tel/zwingen/loewenplatz-5/advokatur-notariat-helfenfinger"
   },
   "heller-lenzerheide-gr": {
     "_failed": true,
@@ -17846,6 +17989,12 @@
     ],
     "source_url": "https://nobel.law/about-us"
   },
+  "noelpp-therwil-bl": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Dr. C. Noelpp",
+    "source_url": "https://search.ch/tel/therwil/erlenstrasse-31/dr-noelpp-christoph.en.html"
+  },
   "noi-leggia-gr": {
     "_failed": true,
     "canton": "GR",
@@ -17883,6 +18032,14 @@
     "checked_date": "2026-09-13",
     "firm_name": "Notariat & Advokatur Pfulg",
     "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
+  },
+  "notariat-waage.ch": {
+    "canton": "BL",
+    "email": "alex.achermann@notariat-waage.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur und Notariat Dr. Alex Achermann, Haus zur alten Waage",
+    "phone": "+41 61 425 91 91",
+    "source_url": "https://notariat-waage.ch/persoenliches/"
   },
   "notarius-ag-wil-sg": {
     "_failed": true,
@@ -18111,6 +18268,13 @@
     "firm_name": "Lucia Omlin Anwaltskanzlei & Notariat",
     "phone": "041 660 62 62",
     "source_url": "https://omlin.digitalone.site/"
+  },
+  "oppligeradvokatur.ch": {
+    "canton": "BL",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur & Mediation Dr. Oppliger",
+    "phone": "+41 61 711 01 11",
+    "source_url": "https://www.oppligeradvokatur.ch/"
   },
   "optitaxlaw.ch": {
     "canton": "SG",
@@ -25796,6 +25960,23 @@
     "checked_date": "2026-09-14",
     "firm_name": "Zelglistr. 9",
     "reason": "aucune information trouvee pour Sibylle Wirth Zubler comme avocate a cette adresse"
+  },
+  "wirz-advokatur.ch": {
+    "canton": "BL",
+    "email": "wirz@wirz-advokatur.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Wirz Advokatur",
+    "founding_year": 2023,
+    "phone": "+41 (0)78 254 91 70",
+    "practice_areas_de": [
+      "Baurecht",
+      "öffentliches Baurecht",
+      "Immobilienrecht",
+      "Vergabe- und Submissionsrecht",
+      "Mietrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.wirz-advokatur.ch/about"
   },
   "wislerlegal.com": {
     "canton": "ZH",
