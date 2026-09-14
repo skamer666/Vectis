@@ -4779,3 +4779,29 @@ cabinet allemand, **depuis 2019**, tel/email, Wollerau).
 
 Rattachement : 1500 études rattachées au total (1481 → 1500, +19). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton SZ, lot 142)
+
+19 cabinets traités (19 succès / 0 échec), tous en Marche/Höfe/Innerschwyz (Lachen, Pfäffikon,
+Küssnacht am Rigi, Einsiedeln, Brunnen, Siebnen, Wilen b. Wollerau, Schwyz, Freienbach). Plus 2
+corrections de rattachement (firm_name mal formé dans des entrées déjà en cache).
+
+Succès (19) : Bäni Advokatur und Mediation / Eva-Maria Bäni (tel/email, Seewen) ; Barmettler
+Rechtsanwälte (tel/email, Küssnacht am Rigi) ; Anwaltskanzlei Bollag (**depuis 2019**, tel,
+Pfäffikon) ; Advokatur Bürgi & Partners (Pfäffikon) ; Camponovo Rechtsanwalt / Rico A. Camponovo
+(**indépendant depuis 2012**, email, Lachen) ; Advokatur Eggler / Isabelle Eggler Wildberger (tel/
+email, Lachen) ; Anwaltskanzlei Gabrieli AG (**depuis 2017**, tel, Lachen) ; Anwaltskanzlei Haferl /
+Séverine Haferl (tel/email, Lachen) ; Anwaltsbüro Bruno Küttel (tel/email, Siebnen) ; Anwaltsbüro
+Metz (**depuis 2024**, Wilen b. Wollerau) ; Anwaltsbüro Reichmuth / Alice Reichmuth Pfammatter (tel/
+email, Einsiedeln) ; Anwaltsbüro Schwander / Isabelle Schwander (tel, Brunnen) ; Anwaltskanzlei
+Shabo / Josef Shabo (**depuis 2019**, tel, Lachen) ; Anwaltsbüro Dr. Oliver Sidler (tel/email,
+Küssnacht am Rigi) ; Advokatur Söhner & Partner (**depuis 2015**, tel/email, Pfäffikon) ;
+Anwaltsbüro Stadelmann / Petra Stadelmann (tel/email, Einsiedeln) ; Advokatur Jonas Vischer
+(Freienbach) ; Anwaltskanzlei Weber / Roman Weber (tel, Schwyz) ; Schmidhäusler Rechtsanwälte AG
+(2e entrée CSV rattachée au même cabinet, Galgenen).
+
+Corrections : Roesle Frick & Partner (firm_name corrigé, rfplegal.ch) ; Isenschmid Getzmann (firm_name
+corrigé, prefixe "Eva" ajouté).
+
+Rattachement : 1519 études rattachées au total (1500 → 1519, +19). Suite de tests : 94/94 au
+vert.

@@ -2909,6 +2909,13 @@
     "source_url": "https://www.anwaltsboutique.ch/en",
     "team_size_n": 2
   },
+  "anwaltsbuero-metz-wilen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Metz",
+    "founding_year": 2024,
+    "source_url": "https://www.moneyhouse.ch/en/company/anwaltsbuero-metz-4436650271"
+  },
   "anwaltsbuero-sonnenmoser-hrebik.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-13",
@@ -2958,6 +2965,14 @@
     ],
     "source_url": "https://www.anwaltsgemeinschaft.ch/team/",
     "team_size_n": 9
+  },
+  "anwaltshabo.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Shabo",
+    "founding_year": 2019,
+    "phone": "+41 (0)55 451 20 15",
+    "source_url": "https://anwaltskanzlei-lachen.ch/dienstleistung/"
   },
   "anwaltskanzlei-baech-sz": {
     "_failed": true,
@@ -3013,6 +3028,14 @@
     ],
     "source_url": "https://anwaltskanzlei-eshrefi.ch/kontakt/",
     "team_size_n": 1
+  },
+  "anwaltskanzlei-haferl.ch": {
+    "canton": "SZ",
+    "email": "haferl@anwaltskanzlei-haferl.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Haferl",
+    "phone": "+41 55 442 28 86",
+    "source_url": "https://anwaltskanzlei-haferl.ch/kontakt/"
   },
   "anwaltskanzlei-hauser.ch": {
     "canton": "ZH",
@@ -3808,6 +3831,14 @@
     "source_url": "https://baechtold-gallarotti.ch/",
     "team_size_n": 5
   },
+  "baeni.org": {
+    "canton": "SZ",
+    "email": "mail@baeni.org",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bäni Advokatur und Mediation",
+    "phone": "041 543 62 03",
+    "source_url": "https://baeni.org/"
+  },
   "baenzigerbaenziger.ch": {
     "canton": "ZH",
     "email": "martin.baenziger@baenzigerbaenziger.ch",
@@ -4154,6 +4185,14 @@
     "checked_date": "2026-09-09",
     "firm_name": "Bärtschi Rechtsanwälte AG",
     "reason": "HTTP 403 Forbidden"
+  },
+  "barmettler-kuessnacht-sz": {
+    "canton": "SZ",
+    "email": "barlex@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Barmettler Rechtsanwälte Bahn-",
+    "phone": "041 850 54 64",
+    "source_url": "https://tel.search.ch/kuessnacht-am-rigi/bahnhofstrasse-8/barmettler-rechtsanwaelte"
   },
   "bartels.ch": {
     "_failed": true,
@@ -5336,6 +5375,14 @@
     "source_url": "https://bkt-legal.ch/en/",
     "team_size_n": 2
   },
+  "bkuettel.ch": {
+    "canton": "SZ",
+    "email": "bruno-kuettel@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Bruno Küttel",
+    "phone": "+41 55 440 14 94",
+    "source_url": "https://www.bkuettel.ch/blank"
+  },
   "bl-recht.ch": {
     "canton": "ZH",
     "email": "info@bl-recht.ch",
@@ -6384,6 +6431,12 @@
     "firm_name": "Advokatur und Notariat Bürer Hinterm",
     "reason": "site inaccessible (DNS injoignable, 2 tentatives)"
   },
+  "buergi-chambers.com": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Bürgi & Partners",
+    "source_url": "https://www.buergi-chambers.com/en/"
+  },
   "buerki-bolt.ch": {
     "canton": "SG",
     "fetched_date": "2026-07-29",
@@ -6694,6 +6747,14 @@
       "Arbeitsrecht"
     ],
     "source_url": "https://camenisch-law.ch/"
+  },
+  "camponovorevisionsrecht.ch": {
+    "canton": "SZ",
+    "email": "rc@camponovorevisionsrecht.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Camponovo Rechtsanwalt",
+    "founding_year": 2012,
+    "source_url": "https://www.camponovorevisionsrecht.ch/"
   },
   "cantieni-zh": {
     "_failed": true,
@@ -8168,6 +8229,14 @@
     ],
     "source_url": "http://www.effenberger-law.ch/"
   },
+  "eggler-lachen-sz": {
+    "canton": "SZ",
+    "email": "i.eggler@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Eggler",
+    "phone": "055 442 33 00",
+    "source_url": "https://tel.search.ch/lachen/neuheimstrasse-36/isabelle-advokatur-eggler"
+  },
   "egli-okenstr-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -9616,6 +9685,14 @@
     "firm_name": "Gabriel & Bucher AG, Anwälte und Notare",
     "phone": "+41 41 666 30 60",
     "source_url": "https://gabriel-bucher.ch/"
+  },
+  "gabrieli-law.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Gabrieli AG",
+    "founding_year": 2017,
+    "phone": "(055) 556 83 45",
+    "source_url": "https://gabrieli-law.ch/"
   },
   "gadientpartner.ch": {
     "canton": "GR",
@@ -12115,7 +12192,7 @@
   "isenschmid-getzmann.ch": {
     "canton": "SZ",
     "fetched_date": "2026-09-13",
-    "firm_name": "Isenschmid Getzmann Rechtsan-",
+    "firm_name": "Eva Isenschmid Getzmann Rechtsan-",
     "founding_year": 2000,
     "phone": "041 852 03 54",
     "practice_areas_de": [
@@ -12376,6 +12453,14 @@
     ],
     "source_url": "https://jb-anwaelte.ch/rechtsgebiete/",
     "team_size_n": null
+  },
+  "jblaw.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Bollag",
+    "founding_year": 2019,
+    "phone": "+41 55 416 26 40",
+    "source_url": "https://jblaw.ch/en/about-jblaw.html"
   },
   "jbra.ch": {
     "canton": "ZH",
@@ -19465,6 +19550,14 @@
     "firm_name": "Reichle Stehle AG",
     "reason": "site JS rendu, contenu non accessible"
   },
+  "reichmuth-law.ch": {
+    "canton": "SZ",
+    "email": "anwalt@reichmuth-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Reichmuth",
+    "phone": "041 810 17 60",
+    "source_url": "https://reichmuth-law.ch/de/portraet/"
+  },
   "reinarz-taxlegal.com": {
     "_failed": true,
     "canton": "ZH",
@@ -19634,7 +19727,7 @@
     "canton": "SZ",
     "email": "rfpsz@rfplegal.ch",
     "fetched_date": "2026-09-07",
-    "firm_name": "Roesle Frick & Partner Roesle Frick & Partner",
+    "firm_name": "Anwaltskanzlei Roesle Frick &",
     "phone": "+41 55 416 26 36",
     "source_url": "https://www.rfplegal.ch/en/"
   },
@@ -21109,6 +21202,15 @@
     "phone": "+41 (0)55 450 24 00",
     "source_url": "https://schmidhaeusler.ch/en/"
   },
+  "schmidhaeusler.ch#2": {
+    "canton": "SZ",
+    "email": "anwalt@schmidhaeusler.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Schmidhäusler Rechtsanwälte AG Postadresse:",
+    "founding_year": 1980,
+    "phone": "+41 (0)55 450 24 00",
+    "source_url": "https://schmidhaeusler.ch/en/"
+  },
   "schmidlaw.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -21411,6 +21513,13 @@
     "firm_name": "Schwandelstr. 1",
     "reason": "Geier et Thommen confirmes a la meme adresse mais cabinets distincts (Anwaltskanzlei Geier vs Thommen)"
   },
+  "schwander-brunnen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Schwander",
+    "phone": "041 820 46 46",
+    "source_url": "https://search.ch/tel/brunnen/axenstrasse-12/isabelle-schwander"
+  },
   "schwarz-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -21666,6 +21775,14 @@
     "firm_name": "Hemmerle AG",
     "founding_year": 2024,
     "source_url": "https://www.shtl.ch/raphael-hemmerle/"
+  },
+  "sidlerlaw.ch": {
+    "canton": "SZ",
+    "email": "office@sidlerlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Dr. Oliver Sidler",
+    "phone": "041 530 71 45",
+    "source_url": "https://sidlerlaw.ch/kontakt"
   },
   "sieber-partner-mrb": {
     "_failed": true,
@@ -21938,6 +22055,15 @@
     "checked_date": "2026-09-14",
     "firm_name": "Bellerivestr. 28",
     "reason": "seule Caroline B. Ferber trouvee a Bellerivestrasse 207, nom et adresse ne correspondent pas au CSV"
+  },
+  "soehner-law.ch": {
+    "canton": "SZ",
+    "email": "sekretariat@soehner-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Söhner & Partner",
+    "founding_year": 2015,
+    "phone": "055 462 22 90",
+    "source_url": "http://www.soehner-law.ch/de"
   },
   "sojalaw.ch": {
     "canton": "ZH",
@@ -22262,6 +22388,14 @@
       "Mediation"
     ],
     "source_url": "https://stadelmann-law.ch/"
+  },
+  "stadelmann-legal.ch": {
+    "canton": "SZ",
+    "email": "anwalt@stadelmann-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ANWALTSBÜRO STADELMANN",
+    "phone": "+41 55 422 80 80",
+    "source_url": "https://www.stadelmann-legal.ch/"
   },
   "stadelmann-scheuchzerstr-zh": {
     "canton": "ZH",
@@ -24523,6 +24657,12 @@
     "firm_name": "Vincenz & Partner",
     "reason": "site JS rendu, contenu non accessible"
   },
+  "vischer-freienbach-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Jonas Vischer",
+    "source_url": "https://www.moneyhouse.ch/en/company/advokatur-jonas-vischer-10326578451"
+  },
   "vischer.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -25057,6 +25197,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Weber Rechtsanwälte",
     "reason": "piege d'identite evite -- a l'adresse CSV (Talacker 21, Zurich) se trouve desormais Weber & Frey Family Office ; aucune mention sur le site actuel d'une continuite avec 'Weber Rechtsanwälte', lien non retenu"
+  },
+  "weber-rechtsanwalt.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Weber",
+    "phone": "041 820 34 44",
+    "source_url": "https://www.weber-rechtsanwalt.ch/"
   },
   "weber-schaub.ch": {
     "canton": "ZH",
