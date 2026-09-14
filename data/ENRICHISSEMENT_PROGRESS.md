@@ -4838,3 +4838,32 @@ Gremmelspacher différente, ombudsman, et un Georg Gremmelspacher d'un autre cab
 
 Rattachement : 1539 études rattachées au total (1519 → 1539, +20). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton TI + SZ, lot 144)
+
+BL est désormais épuisé pour les cabinets. Retour sur TI (106 candidats réels restants) : constat
+que plusieurs gros cabinets déjà enrichis (CBM, Legem, Berra Vigilante, Rossi-Pellegrini-Sauvain,
+Masera & Della Casa, Nievergelt & Stoehr, Mattei & Partners) apparaissent dans le CSV sous
+plusieurs variantes de nom différentes pour chaque avocat associé -- ces variantes ont été
+rattachées en réutilisant les faits déjà vérifiés (pas de nouvelle recherche nécessaire). Plus
+quelques nouveaux cabinets solos à Lugano/Chiasso/Bellinzona, et 3 candidats supplémentaires côté
+SZ (dont 2 variantes CSV de cabinets déjà connus).
+
+22 cabinets traités (20 succès / 2 échecs).
+
+Succès (20) : 7 variantes CSV supplémentaires rattachées à des cabinets déjà enrichis (CBM 6
+avocats, Legem 3, Berra Vigilante 3, Rossi-Pellegrini-Sauvain 2, Masera & Della Casa 2, Nievergelt &
+Stoehr TI, Mattei & Partners TI) ; Talleri Law / Rocco Talleri (Montagnola) ; Monica Marazzi
+(**indépendante depuis 2007**, tel/email, Lugano) ; Daniele Jörg (tel/email, Lugano) ; Chiarella
+Rei-Ferrari (**cabinet fondé 1967**, tel/email, Bellinzona) ; Athos Mecca / Pamela Regazzi Märki
+(tel/email, Locarno, 2 entrées CSV rattachées) ; Alain Susin (tel/email, Lugano) ; Vassalli-Verga
+(3 avocats, Chiasso) ; Stadler-Cattaneo (tel/email, Chiasso) ; Probst-Pozzoli (tel/email, Lugano) ;
+Pietro Crespi (3 avocats, tel, Bellinzona) ; Pelli & Associati (tel, Lugano) ; Theresa Prodinger
+(registre cantonal, Pfäffikon SZ) ; Roesle Frick & Partner (3e entrée CSV, SZ) ; Isenschmid
+Getzmann (3e entrée CSV, SZ).
+
+Échecs (2) : Studiolegale.ch (Castagnola/Lugano, aucun cabinet identifié sous ce nom) ; Nicola
+Snider (Verscio, père décédé, aucune fiche professionnelle propre confirmée).
+
+Rattachement : 1560 études rattachées au total (1539 → 1560, +21). Suite de tests : 94/94 au
+vert.

@@ -3667,6 +3667,15 @@
     ],
     "source_url": "https://avvocatimendrisio.ch/"
   },
+  "avvocatimendrisio.ch#2": {
+    "canton": "TI",
+    "email": "info@rossi.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Rossi-Pellegrini-Sauvain",
+    "founding_year": 1965,
+    "phone": "+41 91 646 43 25",
+    "source_url": "https://avvocatimendrisio.ch/"
+  },
   "avvocatocamponovo.ch": {
     "canton": "TI",
     "email": "avvocato@avvocatocamponovo.ch",
@@ -6728,6 +6737,13 @@
     "source_url": "https://bvlaw.ch/",
     "team_size_n": 5
   },
+  "bvlaw.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Berra Vigilante & Partners - bvp SA",
+    "source_url": "https://bvlaw.ch/",
+    "team_size_n": 5
+  },
   "bwr-law.ch": {
     "canton": "ZH",
     "email": "lawyers@bwr-law.ch",
@@ -7042,6 +7058,14 @@
     "email": "info@cbm-lex.ch",
     "fetched_date": "2026-09-06",
     "firm_name": "CMB Studio legale e notarile",
+    "phone": "+41 91 230 10 00",
+    "source_url": "https://cbm-lex.ch/en/contacts/"
+  },
+  "cbm-lex.ch#2": {
+    "canton": "TI",
+    "email": "info@cbm-lex.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "CBM Studio legale e notarile",
     "phone": "+41 91 230 10 00",
     "source_url": "https://cbm-lex.ch/en/contacts/"
   },
@@ -7456,6 +7480,14 @@
     "firm_name": "studio legale e notarile CREAZZO",
     "phone": "091 923 67 24",
     "source_url": "https://www.local.ch/en/d/lugano/6900/attorneys-at-law/creazzo-fabio-ruqUcRkQgAr8CpGVcN87Ew"
+  },
+  "crespi.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Pietro Crespi",
+    "phone": "091 825 15 52",
+    "source_url": "http://www.crespi.ch/index.asp?pagina=1659",
+    "team_size_n": 3
   },
   "cronbloch.ch": {
     "canton": "BL",
@@ -12346,6 +12378,14 @@
     ],
     "source_url": "https://www.isenschmid-getzmann.ch/"
   },
+  "isenschmid-getzmann.ch#3": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Isenschmid Getzmann Rechtsan-",
+    "founding_year": 2000,
+    "phone": "041 852 03 54",
+    "source_url": "https://www.isenschmid-getzmann.ch/"
+  },
   "islerdelgrande.ch": {
     "canton": "ZH",
     "email": "info@islerdelgrande.ch",
@@ -12718,6 +12758,14 @@
     "firm_name": "JLS avocats",
     "phone": "+41 79 418 90 62",
     "source_url": "https://jls-avocats.ch/"
+  },
+  "joerg-lugano-ti": {
+    "canton": "TI",
+    "email": "daniele.joerg@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Daniele Jörg",
+    "phone": "+41 91 922 04 04",
+    "source_url": "https://tel.search.ch/lugano/via-emilio-bossi-12/daniele-joerg.it.html"
   },
   "joergerlaw.ch": {
     "_failed": true,
@@ -15268,6 +15316,15 @@
     ],
     "source_url": "https://legalexperts.ch/"
   },
+  "legalferrarirei.ch": {
+    "canton": "TI",
+    "email": "legal.ferrari@ticino.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Chiarella Rei-Ferrari",
+    "founding_year": 1967,
+    "phone": "091 825 37 57",
+    "source_url": "https://www.legalferrarirei.ch/en/chiarellareiferrari"
+  },
   "legalg.ch": {
     "canton": "TI",
     "email": "info@legalg.ch",
@@ -16454,6 +16511,14 @@
     ],
     "source_url": "https://mallaw.ch/"
   },
+  "marazzi-lugano-ti": {
+    "canton": "TI",
+    "email": "monica.marazzi@mlegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Monica Marazzi",
+    "phone": "091 922 74 06",
+    "source_url": "https://mlegal.ch/en"
+  },
   "marcomona.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -16578,6 +16643,16 @@
       "Notarial Activities",
       "Sports Law"
     ],
+    "source_url": "https://www.maseradellacasa.ch/en/",
+    "team_size_n": 3
+  },
+  "maseradellacasa.ch#2": {
+    "canton": "TI",
+    "email": "info@maseradellacasa.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Masera & Della Casa SA, Palazzo Elvezia",
+    "founding_year": 2013,
+    "phone": "+41 91 223 30 10",
     "source_url": "https://www.maseradellacasa.ch/en/",
     "team_size_n": 3
   },
@@ -17904,6 +17979,12 @@
     ],
     "source_url": "https://www.nievergeltundstoehr.ch/unternehmen"
   },
+  "nievergeltundstoehr.ch#5": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Nievergelt & Stoehr",
+    "source_url": "https://www.nievergeltundstoehr.ch/it"
+  },
   "nievergeltundstoehr.ch#TI": {
     "canton": "TI",
     "email": "info@nist-law.ch",
@@ -18060,6 +18141,22 @@
       "Zahl- und Treuhandstelle"
     ],
     "source_url": "https://notavis.ch/"
+  },
+  "notleg.ch": {
+    "canton": "TI",
+    "email": "info@notleg.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Athos Mecca-avv. Pamela Regazzi Märki",
+    "phone": "+41 91 220 10 20",
+    "source_url": "https://www.notleg.ch/Contatti"
+  },
+  "notleg.ch#2": {
+    "canton": "TI",
+    "email": "info@notleg.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Pamela Regazzi Märki",
+    "phone": "+41 91 220 10 20",
+    "source_url": "https://www.notleg.ch/Contatti"
   },
   "novalex.ch": {
     "canton": "AR",
@@ -18405,6 +18502,13 @@
       "Transportrecht"
     ],
     "source_url": "https://search.ch/tel/zuerich/toedistrasse-18/rechtsanwalt-peller-stefan.en.html"
+  },
+  "pelliassociati.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Pelli & Associati",
+    "phone": "091 912 26 40",
+    "source_url": "https://www.pelliassociati.ch/chi/"
   },
   "penalisti.ch": {
     "canton": "ZH",
@@ -18891,6 +18995,20 @@
     "practice_areas_fr": [],
     "source_url": "https://probstpartner.ch/en/",
     "team_size_n": null
+  },
+  "probstpozzoli-lugano-ti": {
+    "canton": "TI",
+    "email": "avv.probst.pozzoli@ticino.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Probst-Pozzoli",
+    "phone": "091 922 08 61",
+    "source_url": "https://search.ch/tel/lugano/via-dufour-2/probst-pozzoli-studio-legale-e-notarile.it.html"
+  },
+  "prodinger-pfaeffikon-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rechtsanwältin & Urkundsperson",
+    "source_url": "https://www.sz.ch/public/upload/assets/69581/Anwaltsregister_des_Kantons_Schwyz.pdf?fp=80"
   },
   "prudentia-law.ch": {
     "_failed": true,
@@ -19894,6 +20012,14 @@
     "firm_name": "Anwaltskanzlei Roesle Frick &",
     "phone": "+41 55 416 26 36",
     "source_url": "https://www.rfplegal.ch/en/"
+  },
+  "rfplegal.ch#3": {
+    "canton": "SZ",
+    "email": "rfpsz@rfplegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Roesle Frick & Partner Roesle Frick & Partner",
+    "phone": "055 416 26 36",
+    "source_url": "https://www.rfplegal.ch/en/kontakt/"
   },
   "rfplegal.ch#ZH": {
     "canton": "ZH",
@@ -22184,6 +22310,13 @@
     "source_url": "https://www.sms-lawyers.ch/en/about-us/",
     "team_size_n": 10
   },
+  "snider-verscio-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Nicola Snider, Via Stradon 48",
+    "reason": "pere Antonio Snider decede, aucune fiche professionnelle propre confirmee pour Nicola Snider (soeur Francesca Snider active mais personne distincte)"
+  },
   "snplegal.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -22594,6 +22727,14 @@
     "firm_name": "Dufourstr. 140",
     "phone": "+41 44 380 08 60",
     "source_url": "https://www.stadler-anwalt.ch/"
+  },
+  "stadlercattaneo.ch": {
+    "canton": "TI",
+    "email": "info@stadlercattaneo.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Stadler-Cattaneo",
+    "phone": "091 682 86 82",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/3593-studio-legale-e-notarile-stadler-cattaneo"
   },
   "staedeli-legalpartners.ch": {
     "_failed": true,
@@ -23122,6 +23263,13 @@
     ],
     "source_url": "https://studiodelogu.ch/contatti/"
   },
+  "studiolegale-ch-castagnola-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studiolegale.ch",
+    "reason": "aucun cabinet specifique identifie sous ce nom a Castagnola/Lugano"
+  },
   "studiolegalecab.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-14",
@@ -23147,6 +23295,14 @@
     "phone": "+41 91 821 60 00",
     "source_url": "https://studiomattei.ch/",
     "team_size_n": 10
+  },
+  "studiomattei.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Mattei & Partners",
+    "founding_year": 1995,
+    "source_url": "https://studiomattei.ch/studio-legale/",
+    "team_size_n": 9
   },
   "stummer.ch": {
     "canton": "ZH",
@@ -23201,6 +23357,14 @@
     "fetched_date": "2026-09-14",
     "firm_name": "Ostbühlstr. 88",
     "source_url": "https://www.mediation-recht-surber.ch/"
+  },
+  "susin-lugano-ti": {
+    "canton": "TI",
+    "email": "alainsusin@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile avv. Alain Susin",
+    "phone": "091 922 55 60",
+    "source_url": "https://zip.ch/it/susin-alain-via-pasquale-lucchini-lugano-xJgZN41K6M/"
   },
   "suter.legal": {
     "_failed": true,
@@ -23494,6 +23658,16 @@
     "source_url": "https://swisslegem.ch/lo-studio/",
     "team_size_n": 3
   },
+  "swisslegem.ch#2": {
+    "canton": "TI",
+    "email": "sl@swisslegem.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Legem Studio legale e notarile",
+    "founding_year": 2015,
+    "phone": "091 922 06 70",
+    "source_url": "https://swisslegem.ch/lo-studio/",
+    "team_size_n": 3
+  },
   "swissrecht.ch": {
     "canton": "GR",
     "email": "info@swissrecht.ch",
@@ -23595,6 +23769,12 @@
     "checked_date": "2026-09-13",
     "firm_name": "Talackerstr. 9",
     "reason": "Kolb confirmee seule a Talackerstrasse 9, Lehmann Manfred introuvable"
+  },
+  "talleri.law": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Talleri Law Studio legale",
+    "source_url": "https://talleri.law/?lang=en"
   },
   "tamagnifornara.ch": {
     "_failed": true,
@@ -24593,6 +24773,13 @@
     "checked_date": "2026-09-14",
     "firm_name": "Bahnhofstr. 74",
     "reason": "adresse trouvee pour Caroline Varga Bosshard (Luriweg 29, Hittnau) differe de celle du CSV (Bahnhofstrasse 74)"
+  },
+  "vassalliverga-chiasso-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Vassalli-Verga",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/2701-studio-legale-e-notarile-vassalli-verga",
+    "team_size_n": 3
   },
   "vassallizorzi-rivasanvitale-ti": {
     "_failed": true,
