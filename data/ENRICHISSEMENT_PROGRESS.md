@@ -4448,3 +4448,29 @@ aucune pratique privée confirmée).
 
 Rattachement : 1313 études rattachées au total (1295 → 1313, +18). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 130)
+
+20 cabinets traités (15 succès / 5 échecs).
+
+Succès : Franziska Roth (tel, médiation) ; Nathan Zwi Rothschild (tel) ; Martin F. Rübel /
+ruebellaw ; Hermann Rüegg (**indépendant depuis 2003**, travail/construction/responsabilité civile
+et assurances/bail/assurances sociales/procédure civile) ; Federico Marcos Rutschi (**licence
+1999**, civil/pénal/responsabilité civile/contrats/DIP) ; Maja Saputelli / Saputelli Widmer
+(construction/aménagement) ; Franz Satmer (email, arbitrage international) ; Peter M. Saurer
+(**licence 1993**, tel, successions/divorce/responsabilité civile et assurances/circulation/
+contrats) ; Marcus Saxe (**licence 1996**, tel, pénal/travail/banque/bail/contrats/successions/
+famille/sociétés/administratif/civil) ; Magdalena Schaer (**licence 2011**, tel, contrats/travail/
+assurances sociales/fondations/bail/pénal) ; Patrick Schaerz (tel/email, droits humains/mariage/
+séparation-divorce/famille/enfant/concubinage/partenariat/successions) ; Daniel Schaja / Advocacia
+AG (travail/bail/migration/famille/APEA/LP/pénal/contrats) ; Simon Schaltegger (dédoublonné, tel,
+construction/aménagement/administratif/contrats/réel) ; Marc Schaner (**depuis 1995**, tel) ; Kurt
+Scheibler (email).
+
+Échecs (**pièges d'adresse/identité évités**) : Advokaturbüro Roy (Claude Roy introuvable) ;
+Rotbuchstr. 68 (seule Lena Ruoss Fierz trouvée, cabinet à Erlenbach, aucune correspondance
+confirmée) ; Advokaturbüro Dr. Balz Rust (introuvable) ; Margrit Rainer-Str. 22b (Iris Sandmeier
+Lüthi juriste interne, aucune pratique privée confirmée) ; Kirchgasse 22 (Paul Schaer introuvable).
+
+Rattachement : 1328 études rattachées au total (1313 → 1328, +15). Suite de tests : 94/94 au
+vert.

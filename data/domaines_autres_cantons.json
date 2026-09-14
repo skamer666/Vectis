@@ -554,6 +554,22 @@
     "firm_name": "advobue Advokatur und Notariat",
     "reason": "HTTP 503 Service Unavailable (x2) sur advobue.ch"
   },
+  "advocacia.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advocacia AG",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Migrationsrecht",
+      "Familienrecht",
+      "KESB-Verfahren",
+      "SchKG-Verfahren",
+      "Strafrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.advocacia.ch/team"
+  },
   "advocare.ch": {
     "canton": "SG",
     "email": "info@advocare.ch",
@@ -4139,6 +4155,19 @@
       "Baurecht"
     ],
     "source_url": "https://www.bauanwalt.ch/"
+  },
+  "bauanwalt.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Utoquai 43",
+    "phone": "+41 44 260 66 66",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Verwaltungsrecht",
+      "Vertragsrecht",
+      "Sachenrecht"
+    ],
+    "source_url": "https://www.bauanwalt.ch/kanzlei"
   },
   "baudenbacher.law": {
     "canton": "ZH",
@@ -11186,6 +11215,21 @@
       "Bau- und Immobilienrecht"
     ],
     "source_url": "https://hra.ch/kontakt/"
+  },
+  "hruegg.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "c/o Anwaltsbüro Manon Vogel",
+    "founding_year": 2003,
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Baurecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Mietrecht",
+      "Sozialversicherungsrecht",
+      "Zivilprozessrecht"
+    ],
+    "source_url": "https://www.hruegg.ch/"
   },
   "hs-legal.ch": {
     "canton": "SG",
@@ -19231,6 +19275,13 @@
     "firm_name": "LL.M. Advokaturbüro Elisabeth Roth",
     "reason": "site inaccessible (HTTP 503, 2 tentatives)"
   },
+  "roth-mediation-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Roth",
+    "phone": "044 853 40 44",
+    "source_url": "https://www.franziska-roth-mediation.ch/"
+  },
   "rothenbuehler-cocchi.ch": {
     "canton": "LU",
     "email": "info@rothenbuehler-cocchi.ch",
@@ -19257,6 +19308,20 @@
     "fetched_date": "2026-09-07",
     "firm_name": "rothorn legal AG",
     "source_url": "https://www.moneyhouse.ch/en/company/rothorn-legal-ag-8165934261"
+  },
+  "rothschild-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Waffenplatzstr. 47",
+    "phone": "044 202 47 27",
+    "source_url": "https://search.ch/tel/zuerich/waffenplatzstrasse-47/nathan-zwi-rothschild"
+  },
+  "roy-claude-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Roy",
+    "reason": "aucune information trouvee pour Claude Roy comme avocat a Zurich"
   },
   "rp-law.ch": {
     "_failed": true,
@@ -19462,6 +19527,12 @@
     "firm_name": "Rudolf & Bieri AG",
     "reason": "site JS rendu, contenu non accessible"
   },
+  "ruebellaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Rübel",
+    "source_url": "https://www.ruebellaw.ch/"
+  },
   "ruedpartners.ch": {
     "canton": "ZH",
     "email": "office@ruedpartners.ch",
@@ -19555,6 +19626,13 @@
     "phone": "+41 55 555 32 20",
     "source_url": "https://www.rugglipunkt.ch/"
   },
+  "ruoss-fierz-rotbuchstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Rotbuchstr. 68",
+    "reason": "seule Lena Ruoss Fierz trouvee, cabinet a Erlenbach, aucune confirmation de Rotbuchstrasse 68 ni du prenom Magdalena"
+  },
   "ruossvoegele.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -19603,6 +19681,13 @@
     "firm_name": "Kirstin Rechtsanwältin Advocatur am Nicolai",
     "reason": "site advocatur-nicolai.ch affiche 'coming soon', pas encore en ligne"
   },
+  "rust-balz-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Dr. Balz Rust",
+    "reason": "aucune information trouvee pour Balz Rust comme avocat a Zurich"
+  },
   "rutishauser-rechtsanwaelte.ch": {
     "canton": "ZH",
     "email": "rutishauser@rutishauser-rechtsanwaelte.ch",
@@ -19610,6 +19695,20 @@
     "firm_name": "Rutishauser Rechtsanwälte",
     "phone": "043 344 45 00",
     "source_url": "https://www.rutishauser-rechtsanwaelte.ch/kontakt"
+  },
+  "rutschilaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Dr. Rutschi",
+    "founding_year": 1999,
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Strafrecht",
+      "Haftpflichtrecht",
+      "Vertragsrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "http://www.rutschilaw.ch/"
   },
   "rwra.ch": {
     "canton": "ZH",
@@ -19679,6 +19778,13 @@
     "phone": "+41 79 627 68 85",
     "source_url": "https://sabeti-legal.ch/"
   },
+  "sandmeier-luethi-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Margrit Rainer-Str. 22b",
+    "reason": "Iris Sandmeier Luethi identifiee comme juriste interne (Head Legal Swiss Finance & Property Group), aucune pratique privee confirmee"
+  },
   "sanktjakob.ch": {
     "canton": "SG",
     "fetched_date": "2026-09-10",
@@ -19692,6 +19798,16 @@
     "firm_name": "Anwaltskanzlei Sankt Jakob",
     "phone": "+41 71 220 19 10",
     "source_url": "https://www.sanktjakob.ch/index.php/kontakt"
+  },
+  "saputelli-widmer.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Saputelli",
+    "practice_areas_de": [
+      "Baurecht",
+      "Planungsrecht"
+    ],
+    "source_url": "http://saputelli-widmer.ch/"
   },
   "saratz-pontresina-gr": {
     "_failed": true,
@@ -19708,12 +19824,57 @@
     "phone": "+41 71 925 30 30",
     "source_url": "https://www.sartorial.ch/"
   },
+  "satmer.ch": {
+    "canton": "ZH",
+    "email": "lex@satmer.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Dr. Satmer",
+    "practice_areas_de": [
+      "Internationale Schiedsgerichtsbarkeit"
+    ],
+    "source_url": "https://www.satmer.ch/"
+  },
   "saupper-savognin-gr": {
     "_failed": true,
     "canton": "GR",
     "checked_date": "2026-09-10",
     "firm_name": "Anwaltskanzlei Saupper",
     "reason": "aucun site officiel propre identifie pour la pratique independante"
+  },
+  "saurer-weinbergstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Weinbergstr. 29",
+    "founding_year": 1993,
+    "phone": "044 630 70 15",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Scheidungsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Verkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/peter-m-saurer"
+  },
+  "saxelaw-meilen-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "General-Wille-Str. 202",
+    "founding_year": 1996,
+    "phone": "+41 43 843 92 92",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Bankrecht",
+      "Mietrecht",
+      "Vertrags- und Dienstleistungsrecht",
+      "Erbrecht",
+      "Familienrecht",
+      "Gesellschaftsrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://tel.search.ch/meilen/general-wille-strasse-202/marcus-saxe"
   },
   "sb-anwaelte.ch": {
     "canton": "ZH",
@@ -19796,6 +19957,29 @@
     "team_size_n": 20,
     "team_size_text": "20 spécialistes"
   },
+  "schaer-dietikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kronenplatz 14",
+    "founding_year": 2011,
+    "phone": "043 244 82 22",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht",
+      "Stiftungsrecht",
+      "Mietrecht",
+      "Strafrecht"
+    ],
+    "source_url": "http://www.magdalenaschaer.ch/"
+  },
+  "schaer-paul-kirchgasse-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Kirchgasse 22",
+    "reason": "aucune information trouvee pour Paul Schaer a Kirchgasse 22"
+  },
   "schaerli-recht.ch": {
     "canton": "ZH",
     "email": "schaerli@schaerli-recht.ch",
@@ -19808,6 +19992,24 @@
     ],
     "source_url": "https://www.schaerli-recht.ch/",
     "team_size_n": 1
+  },
+  "schaerzlaw.ch": {
+    "canton": "ZH",
+    "email": "patrick.schaerz@schaerzlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Tannenzaunstr. 23",
+    "phone": "044 944 54 00",
+    "practice_areas_de": [
+      "Menschenrechte",
+      "Eherecht",
+      "Trennung und Scheidung",
+      "Familienrecht",
+      "Kindesrecht",
+      "Konkubinat",
+      "Eingetragene Partnerschaft",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.schaerzlaw.ch/"
   },
   "schai-vultier.ch": {
     "_failed": true,
@@ -19822,6 +20024,14 @@
     "checked_date": "2026-09-08",
     "firm_name": "schaller.law GmbH",
     "reason": "HTTP 503 Service Unavailable (x2)"
+  },
+  "schaner-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Hallwylstr. 77",
+    "founding_year": 1995,
+    "phone": "079 795 65 70",
+    "source_url": "https://swiss-lawyer.co.il/en/contact/"
   },
   "schaubhochl.ch": {
     "_failed": true,
@@ -19872,6 +20082,13 @@
     ],
     "source_url": "https://www.schawalder-kocher.ch/",
     "team_size_n": 3
+  },
+  "scheibler-zh": {
+    "canton": "ZH",
+    "email": "scheibler.law@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bergstr. 127",
+    "source_url": "https://search.ch/tel/zuerich/bergstrasse-127/kurt-scheibler"
   },
   "schiffbau.legal": {
     "canton": "ZH",
