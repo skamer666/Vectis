@@ -4666,3 +4666,34 @@ confirmée).
 
 Rattachement : 1435 études rattachées au total (1417 → 1435, +18). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (cantons ZH/TI, lot 138)
+
+**Le canton ZH est épuisé pour les cabinets à ce lot** (dernier candidat solo traité) ; bascule sur
+le Tessin (TI, italophone -- recherches en italien "avvocato" au lieu de "Rechtsanwalt").
+
+20 cabinets traités (19 succès / 1 échec).
+
+Succès ZH (5) : Bernhard Zollinger (tel) ; Lukas Züllig (**indépendant depuis 2004**, tel/email,
+Fachanwalt SAV famille, successions) ; Nicolas Zumbrunn / Anwaltsbüro Zumbrunn (Winterthur) ; Sonja
+Zumstein-Sala (**licence 1999**, tel/email, civil/foncier rural-successions/divorce/contrats) ;
+Johann Zürcher (Stäfa, créances/construction/famille).
+
+Succès TI (14, tous vérifiés via le registre cantonal des avocats) : Sara Bassan / Studio Gilardi
+(Locarno) ; Mario Bazzi / Studio Monte Verità (**depuis 2005**, Ascona) ; Gilles Benedick
+(**depuis 2010**, tel, contrats/DIP/commercial/sociétés, Lugano) ; Rocco Bergonzoli / Bergonzoli &
+Toma (**cabinet fondé 1983**, Ascona) ; Ludovica Bernaschina / Studio Cattori-Achermann-Bernaschina
+(**cabinet fondé 1932**, Locarno) ; Elettra Bernasconi / Studio Marco Masoni (Lugano) ; Fabio
+Bernasconi (**depuis 1985**, tel/email, Chiasso) ; Luca R. Bernasconi / Studio Klein (dédoublonné,
+email, Lugano) ; Chiara Bianchetti / Studio André Weber (dédoublonné, **depuis 2010**, famille-
+divorce/successions/pénal/contrats/travail/sociétés, Locarno) ; Manuele Bianchi (tel, séparations-
+divorces/sociétés/notariat/contrats/successions/commercial/faillite, Lugano) ; Patrick Bianco /
+btc.legal (dédoublonné, **depuis 2018**, Fachanwalt SAV Erbrecht 2019, Ascona) ; Vinko Bilusic /
+Studio vblaw (**depuis 2017**, tel/email, pénal/administratif/civil/international, Bellinzona) ;
+Raffaella Binaghi (**depuis 2015**, Mendrisio) ; Fiamma Bindella (**depuis 1983**, tel/email,
+civil/sociétés/DIP/construction-aménagement/fiscal, Lugano).
+
+Échec : Tumigerstr. 50 (Isabella Zürcher Kucera introuvable).
+
+Rattachement : 1454 études rattachées au total (1435 → 1454, +19). Suite de tests : 94/94 au
+vert.

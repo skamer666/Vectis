@@ -3546,6 +3546,13 @@
     ],
     "source_url": "https://avvocatimendrisio.ch/"
   },
+  "avvocatogilardi.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Gabriele Gilardi",
+    "founding_year": 2018,
+    "source_url": "https://avvocatogilardi.ch/"
+  },
   "awg.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-29",
@@ -4442,6 +4449,13 @@
     ],
     "source_url": "https://www.mcadvo.ch/anwalt/luzern/liciur-marco-bazzani"
   },
+  "bazzi-ascona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile Monte Verità",
+    "founding_year": 2005,
+    "source_url": "https://www.local.ch/it/d/ascona/6612/avvocato/bazzi-mario-C0PKugiLfhCwih8StbE-zg"
+  },
   "bblegal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-28",
@@ -4705,6 +4719,20 @@
     "firm_name": "bellpark legal AG",
     "reason": "aucun fait extractible (pas de founding_year, team_size ni liste practice_areas)"
   },
+  "benedick-law.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Via Ariosto 6",
+    "founding_year": 2010,
+    "phone": "091 913 39 11",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Internationales Privatrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://www.benedick-law.ch/en/"
+  },
   "benz-partners.ch": {
     "canton": "ZH",
     "email": "benz@benz-partners.ch",
@@ -4733,6 +4761,13 @@
       "Sozialhilferecht"
     ],
     "source_url": "https://berger-recht.ch/"
+  },
+  "bergonzolitoma-ascona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "lo studio legale e notarile Bergonzoli & Toma",
+    "founding_year": 1983,
+    "source_url": "https://www.local.ch/it/d/ascona/6612/avvocato/avv-rocco-bergonzoli-CMkFY0jgxIUrgS-FTRgAzg"
   },
   "bergrecht.ch": {
     "canton": "ZH",
@@ -5025,6 +5060,22 @@
     "phone": "+41 41 410 05 55",
     "source_url": "https://www.bhup.ch/"
   },
+  "bianchi-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Piazza Cioccaro 4, 6901 Lugano",
+    "phone": "091 922 92 12",
+    "practice_areas_de": [
+      "Separazioni e divorzi",
+      "Diritto societario",
+      "Notarile",
+      "Contratti",
+      "Successioni",
+      "Diritto commerciale",
+      "Diritto fallimentare"
+    ],
+    "source_url": "https://search.ch/tel/lugano/piazza-cioccaro-4/manuele-bianchi.it.html"
+  },
   "bianchi-martinsplatz-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -5082,6 +5133,29 @@
     "fetched_date": "2026-09-13",
     "firm_name": "Blöchlinger Iten Fessler Anwaltskanzlei Alter",
     "source_url": "https://www.bilaw.ch/en/"
+  },
+  "binaghilegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Raffaella Binaghi",
+    "founding_year": 2015,
+    "source_url": "https://www.binaghilegal.ch/"
+  },
+  "bindella-lugano-ti": {
+    "canton": "TI",
+    "email": "fiamma.bindella@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Via Nassa 29",
+    "founding_year": 1983,
+    "phone": "091 923 46 46",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Gesellschaftsrecht",
+      "Internationales Privatrecht",
+      "Bau- und Planungsrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.studilegali.com/avvocati/avv-fiamma-bindella"
   },
   "binderlegal.ch": {
     "canton": "ZH",
@@ -5381,6 +5455,15 @@
     "practice_areas_fr": [],
     "source_url": "https://blumgrob.ch/en/company/",
     "team_size_n": 55
+  },
+  "bm-legale.ch": {
+    "canton": "TI",
+    "email": "fabio.bernasconi@bm-legale.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Via Valdani 2",
+    "founding_year": 1985,
+    "phone": "+41 (0)91 682 45 71",
+    "source_url": "https://www.bm-legale.ch/fabiobernasconi"
   },
   "bmalegal.ch": {
     "canton": "TI",
@@ -6201,6 +6284,13 @@
     "phone": "+41 58 307 07 50",
     "source_url": "https://btc.legal/en",
     "team_size_n": 13
+  },
+  "btc.legal#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "btc.legal SA, CP 889",
+    "founding_year": 2018,
+    "source_url": "https://btc.legal/en/team"
   },
   "buchli-hochuli.ch": {
     "canton": "ZH",
@@ -13379,6 +13469,13 @@
     ],
     "source_url": "https://www.kleinlaw.ch/"
   },
+  "kleinlaw.ch#2": {
+    "canton": "TI",
+    "email": "bernasconi@kleinlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale Klein",
+    "source_url": "https://www.oati.ch/2025/07/03/634-cercasi-avvocato-a/"
+  },
   "kleinlaw.ch#legacy2": {
     "_failed": true,
     "canton": "ZH",
@@ -15975,6 +16072,12 @@
     ],
     "source_url": "https://www.maseradellacasa.ch/en/",
     "team_size_n": 3
+  },
+  "masonilegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale avv. Marco Masoni",
+    "source_url": "https://www.masonilegal.ch/chi/"
   },
   "mathe-partner-zh": {
     "_failed": true,
@@ -22338,6 +22441,13 @@
     ],
     "source_url": "https://studiodelogu.ch/contatti/"
   },
+  "studiolegalecab.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale e notarile CATTORI-ACHERMANN-BERNASCHINA",
+    "founding_year": 1932,
+    "source_url": "http://www.studiolegalecab.ch/"
+  },
   "studioluisoni.ch": {
     "canton": "TI",
     "email": "paolo@studioluisoni.ch",
@@ -23789,6 +23899,21 @@
     "firm_name": "Bahnhofstr. 74",
     "reason": "adresse trouvee pour Caroline Varga Bosshard (Luriweg 29, Hittnau) differe de celle du CSV (Bahnhofstrasse 74)"
   },
+  "vblaw.ch": {
+    "canton": "TI",
+    "email": "vinko.bilusic@vblaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale vblaw",
+    "founding_year": 2017,
+    "phone": "091 835 58 01",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht",
+      "Internationales Recht"
+    ],
+    "source_url": "https://vblaw.ch/"
+  },
   "vecellio-leprese-gr": {
     "_failed": true,
     "canton": "GR",
@@ -24499,6 +24624,21 @@
       "Notariato"
     ],
     "source_url": "http://weber-legal.ch/home.html"
+  },
+  "weber-legal.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale avv. André Weber",
+    "founding_year": 2010,
+    "practice_areas_de": [
+      "Familien- und Scheidungsrecht",
+      "Erbrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://weber-legal.ch/index.php/avv-chiara-bianchetti-notaio/"
   },
   "weber-rechtsanwaelte-zh": {
     "_failed": true,
@@ -25705,6 +25845,13 @@
     "phone": "041 220 24 42",
     "source_url": "https://zm-rechtsanwaelte.ch/"
   },
+  "zollinger-raemistr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rämistr. 5",
+    "phone": "044 252 20 08",
+    "source_url": "https://search.ch/tel/zuerich/raemistrasse-5/bernhard-zollinger"
+  },
   "zollinger.legal": {
     "canton": "ZH",
     "email": "kontakt@zollinger.legal",
@@ -25785,6 +25932,37 @@
     ],
     "source_url": "https://zuegerlaw.ch/contact/"
   },
+  "zuelliglaw.ch": {
+    "canton": "ZH",
+    "email": "lzuellig@zuelliglaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Seegartenstr. 2",
+    "founding_year": 2004,
+    "phone": "+41 43 222 40 80",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.zuelliglaw.ch/kontakt"
+  },
+  "zuercher-johann-staefa-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Johann Zürcher",
+    "practice_areas_de": [
+      "Geldforderungen",
+      "Baustreitigkeiten",
+      "Familienstreitigkeiten"
+    ],
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/10846-anwaltsburo-johann-zurcher"
+  },
+  "zuercherkucera-tumigerstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Tumigerstr. 50",
+    "reason": "aucune information trouvee pour Isabella Zuercher Kucera a cette adresse"
+  },
   "zulauflegal.ch": {
     "canton": "ZH",
     "email": "info@zulauflegal.ch",
@@ -25803,6 +25981,28 @@
       "Vertragsgestaltung und -verhandlungen"
     ],
     "source_url": "https://zulauflegal.ch/"
+  },
+  "zumrecht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ANWALTSBÜRO ZUMBRUNN",
+    "source_url": "https://www.zumrecht.ch/"
+  },
+  "zumstein-sala-niederhasli-zh": {
+    "canton": "ZH",
+    "email": "s.zumstein@zumsteinrechtsanwaelte.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Lägernstr. 20",
+    "founding_year": 1999,
+    "phone": "044 851 50 85",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Bäuerliches Boden- und Erbrecht",
+      "Erbrecht und Nachlassrecht",
+      "Scheidungsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.rechtsanwalt.com/rechtsanwalt/lic-iur-mediatorin-sonja-zumstein-sala/"
   },
   "zuppiger-jenny-zh": {
     "_failed": true,
