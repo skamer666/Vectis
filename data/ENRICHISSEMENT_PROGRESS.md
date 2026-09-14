@@ -4751,3 +4751,31 @@ notary.ch) ; CBM/CMB Studio legale (cbm-lex.ch) ; Rossi-Pellegrini-Sauvain & Par
 
 Rattachement : 1481 études rattachées au total (1470 → 1481, +11). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton SZ, lot 141)
+
+**Bascule sur le canton SZ (Schwyz)** : le Tessin (TI) approche de l'épuisement pour les cabinets
+multi-avocats, la plupart des candidats restants étant des cabinets d'un seul avocat. SZ compte
+encore 52 cabinets non traités.
+
+20 cabinets traités (19 succès / 1 échec), tous en langue allemande (Pfäffikon, Wollerau, Schwyz,
+Feusisberg, Schindellegi, Küssnacht am Rigi).
+
+Succès (19) : sutter.legal / Patrick Sutter (tel/email, Pfäffikon) ; focus legal / Kilian Müller
+(**Fachanwalt SAV Bau- und Immobilienrecht**, tel, Pfäffikon) ; Wehrli Schuler und Partner AG
+(**depuis 2011**, tel/email, Schwyz) ; Schmidhäusler Rechtsanwälte AG (**cabinet fondé 1980**, tel/
+email, Galgenen) ; SEITZ Law & Tax AG (**depuis 2021**, Wollerau) ; Pfenninger Law GmbH (**depuis
+2024**, Feusisberg) ; Petermann Rechtsanwalt (tel, Merlischachen) ; MS International Law / Melanie
+Schärer (**depuis 2010**, tel/email, Pfäffikon) ; Legal as a Service AG (**depuis 2017**, tel/email,
+Pfäffikon) ; KüminLegal AG (**depuis 2023**, tel/email, Wollerau) ; Kleb & Partner Rechtsanwälte
+(bureau de Wollerau, tel, 2e entrée CSV pour ce cabinet déjà connu à Zurich) ; Kanzlei Hammer /
+Kerstin Hammer (tel/email, droit de la famille, Schindellegi) ; Huwyler Mediation + Advokatur (tel/
+email, Schwyz) ; Huber Rechtsanwälte (tel/email, Pfäffikon) ; Ghandchi Schmid Partners AG (**depuis
+2008**, Feusisberg) ; Fritsche & Schnyder (tel, Feusisberg) ; Fischli & Hunkeler (tel, Küssnacht am
+Rigi) ; FinLaw AG (**depuis 2022**, Schindellegi) ; Dr. Heinze & Partner (succursale suisse d'un
+cabinet allemand, **depuis 2019**, tel/email, Wollerau).
+
+Échec : Rentzsch Rechtsanwalt (Freienbach, aucune information au-delà de l'adresse déjà connue).
+
+Rattachement : 1500 études rattachées au total (1481 → 1500, +19). Suite de tests : 94/94 au
+vert.

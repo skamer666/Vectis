@@ -8992,6 +8992,13 @@
     "source_url": "https://www.fingerhuth.law/",
     "team_size_n": 3
   },
+  "finlaw-schindellegi-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "FinLaw AG",
+    "founding_year": 2022,
+    "source_url": "https://www.moneyhouse.ch/en/company/finlaw-ag-10669308391"
+  },
   "finlex.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -9089,6 +9096,13 @@
     ],
     "source_url": "https://www.fischlex.ch/"
   },
+  "fischli-hunkeler-kuessnacht-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Fischli & Hunkeler Rechts- und",
+    "phone": "041 850 69 66",
+    "source_url": "https://www.legaly.ch/anwaltskanzlei/15563-fischli-hunkeler"
+  },
   "fitzner-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -9183,6 +9197,14 @@
     "fetched_date": "2026-07-29",
     "firm_name": "Frick Nafz Bieri Jost Rechtsanwälte",
     "reason": "site 'New Website coming soon' — aucun contenu disponible"
+  },
+  "focuslegal.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "focus legal GmbH",
+    "notes": "Kilian Müller, Fachanwalt SAV Bau- und Immobilienrecht",
+    "phone": "044 223 03 90",
+    "source_url": "https://focuslegal.ch/"
   },
   "forchstr36-zh": {
     "_failed": true,
@@ -9500,6 +9522,13 @@
     "firm_name": "FRT RECHTSANWÄLTE & NOTARE",
     "reason": "contenu vide, rendu JavaScript probable",
     "tested_date": "2026-07-28"
+  },
+  "fsrecht.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Fritsche & Schnyder",
+    "phone": "044 536 77 84",
+    "source_url": "https://anwaltvergleich.ch/anwalt-Thomas-Fritsche-Feusisberg-rechtsanwalt-9134.htm"
   },
   "fuchs-greifensee-zh": {
     "canton": "ZH",
@@ -9919,6 +9948,13 @@
     "phone": "071 988 32 42",
     "source_url": "https://gfp-recht.ch/",
     "team_size_n": 4
+  },
+  "ghandchi-schmid-partners-feusisberg-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Ghandchi Schmid Partners AG",
+    "founding_year": 2008,
+    "source_url": "https://www.moneyhouse.ch/de/company/ghandchi-schmid-partners-ag-4552654971"
   },
   "ghidoni-roveredo-gr": {
     "_failed": true,
@@ -11108,6 +11144,16 @@
     "firm_name": "Heinz Schmidhauser",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
   },
+  "heinze-rechtsanwaelte.ch": {
+    "canton": "SZ",
+    "email": "info@heinze-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Dr. Heinze & Partner",
+    "founding_year": 2019,
+    "notes": "Succursale suisse (Wollerau) du cabinet allemand Rechtsanwälte Dr. Heinze & Partner (Hambourg), etablie en 2019.",
+    "phone": "+4158255 25 10",
+    "source_url": "https://www.heinze-rechtsanwaelte.de/impressum/"
+  },
   "heinzelmann-levy.ch": {
     "canton": "BL",
     "fetched_date": "2026-09-09",
@@ -11690,6 +11736,14 @@
     "checked_date": "2026-09-14",
     "firm_name": "Rigistr. 52",
     "reason": "aucune information trouvee pour Margret Hubatka a cette adresse (seule une Hubatka homonyme a Altstätten SG trouvee, sans lien)"
+  },
+  "huber-anwaelte.ch": {
+    "canton": "SZ",
+    "email": "info@huber-anwaelte.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "HUBER Rechtsanwälte",
+    "phone": "+41 55 552 11 44",
+    "source_url": "https://www.huber-anwaelte.ch/"
   },
   "hubertachermann.ch": {
     "canton": "LU",
@@ -12836,6 +12890,17 @@
     "source_url": "https://www.kanzlei-eichhof.ch/",
     "team_size_n": 6
   },
+  "kanzlei-hammer.ch": {
+    "canton": "SZ",
+    "email": "hammer@kanzlei-hammer.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kanzlei Hammer",
+    "phone": "0041 44 784 30 80",
+    "practice_areas_de": [
+      "Familienrecht"
+    ],
+    "source_url": "https://www.kanzlei-hammer.ch/"
+  },
   "kanzlei-helvetiaplatz.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -13581,6 +13646,13 @@
     ],
     "source_url": "https://www.klebundpartner.ch/kanzlei/"
   },
+  "klebundpartner.ch#2": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kleb & Partner Rechtsanwälte",
+    "phone": "+41 (0)44 221 40 00",
+    "source_url": "https://www.klebundpartner.ch/"
+  },
   "kleinlaw.ch": {
     "canton": "ZH",
     "email": "info@kleinlaw.ch",
@@ -14138,6 +14210,15 @@
     "phone": "+41 (0)43 343 99 05",
     "source_url": "https://www.kuehnlein.ch/",
     "team_size_n": 1
+  },
+  "kueminlegal.ch": {
+    "canton": "SZ",
+    "email": "info@kueminlegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "KüminLegal AG",
+    "founding_year": 2023,
+    "phone": "+41 43 818 50 50",
+    "source_url": "https://www.kueminlegal.ch/"
   },
   "kueng-meili.ch": {
     "canton": "ZH",
@@ -14772,6 +14853,15 @@
       "Autentiche"
     ],
     "source_url": "https://leg-not.ch/"
+  },
+  "legal-as-a-service.ch": {
+    "canton": "SZ",
+    "email": "info@legal-as-a-service.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Legal as a Service AG",
+    "founding_year": 2017,
+    "phone": "+41 (0) 555 110811",
+    "source_url": "https://legal-as-a-service.ch/en/pages/contact/"
   },
   "legal-notary.ch": {
     "canton": "TI",
@@ -16765,6 +16855,14 @@
     "firm_name": "Advokaturbüro Minini",
     "reason": "Aucun cabinet trouve sous ce nom"
   },
+  "miriamhuwyler.ch": {
+    "canton": "SZ",
+    "email": "anwalt@miriamhuwyler.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "HUWYLER Mediation + Advokatur",
+    "phone": "041 244 03 45",
+    "source_url": "https://www.miriamhuwyler.ch"
+  },
   "mirjamsteger.ch": {
     "canton": "GR",
     "email": "kanzlei@mirjamsteger.ch",
@@ -18175,6 +18273,13 @@
     "source_url": "https://peterer-legal.com/en/",
     "team_size_n": 5
   },
+  "petermann-merlischachen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Petermann Rechtsanwalt",
+    "phone": "079 623 18 78",
+    "source_url": "https://www.legaly.ch/anwalt/11287-frank-petermann"
+  },
   "peterundpartner.ch": {
     "canton": "LU",
     "email": "office@peterundpartner.ch",
@@ -18231,6 +18336,13 @@
     "phone": "052 213 03 86",
     "source_url": "https://pfauegli.ch/",
     "team_size_n": 2
+  },
+  "pfenninger-law-feusisberg-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Pfenninger Law GmbH",
+    "founding_year": 2024,
+    "source_url": "https://www.anwaltvergleich.ch/d/anwaltskanzleien/advokatur-pfenninger-by-pfenninger-law-gmbh-d:AdhjSKA7Q"
   },
   "pfenninger-law-sg": {
     "_failed": true,
@@ -19490,6 +19602,13 @@
     ],
     "source_url": "https://www.rentschpartner.ch/uber-uns/profil-wer-wir-sind"
   },
+  "rentzsch-freienbach-sz": {
+    "_failed": true,
+    "canton": "SZ",
+    "checked_date": "2026-09-14",
+    "firm_name": "Rentzsch Rechtsanwalt",
+    "reason": "aucune information verifiable au-dela de l'adresse deja connue (aucun site, aucun profil professionnel trouve)"
+  },
   "reutlaw.com": {
     "canton": "ZH",
     "email": "milena@reutlaw.com",
@@ -20667,6 +20786,15 @@
     "firm_name": "Kirchgasse 22",
     "reason": "aucune information trouvee pour Paul Schaer a Kirchgasse 22"
   },
+  "schaerer.law": {
+    "canton": "SZ",
+    "email": "ms@schaerer.law",
+    "fetched_date": "2026-09-14",
+    "firm_name": "MS International Law",
+    "founding_year": 2010,
+    "phone": "+41 44 785 06 06",
+    "source_url": "https://schaerer.law/die-kanzlei/?lang=en"
+  },
   "schaerli-recht.ch": {
     "canton": "ZH",
     "email": "schaerli@schaerli-recht.ch",
@@ -20971,6 +21099,15 @@
     "checked_date": "2026-09-08",
     "firm_name": "schmid, giuliani, Rechtsanwälte",
     "reason": "HTTP 503 Service Unavailable (x2)"
+  },
+  "schmidhaeusler.ch": {
+    "canton": "SZ",
+    "email": "anwalt@schmidhaeusler.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Schmidhäusler Rechtsanwälte AG",
+    "founding_year": 1980,
+    "phone": "+41 (0)55 450 24 00",
+    "source_url": "https://schmidhaeusler.ch/en/"
   },
   "schmidlaw.ch": {
     "_failed": true,
@@ -21403,6 +21540,13 @@
     "checked_date": "2026-09-14",
     "firm_name": "Gotthardstr. 56",
     "reason": "adresse trouvee pour Riccardo Seitz (Ackermannstrasse 25) differe de celle du CSV (Gotthardstrasse 56)"
+  },
+  "seitzlegal.ch": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-14",
+    "firm_name": "SEITZ Law & Tax AG",
+    "founding_year": 2021,
+    "source_url": "https://seitzlegal.ch/en/"
   },
   "sejdini-zh": {
     "_failed": true,
@@ -22787,6 +22931,14 @@
     "checked_date": "2026-09-10",
     "firm_name": "Sutter & Camenzind Rechtsanwälte",
     "reason": "Aucun site officiel identifie (seule source : annuaire tiers mcadvo.ch) ; adresse divergente de celle du CSV (Untertor 11 vs Sulzer-Hirzel-Str. 6, Winterthour) ; pas d'email"
+  },
+  "sutter.legal": {
+    "canton": "SZ",
+    "email": "info@sutter.legal",
+    "fetched_date": "2026-09-14",
+    "firm_name": "sutter.legal",
+    "phone": "055 410 73 73",
+    "source_url": "https://www.sutter.legal/"
   },
   "sutterrechtsanwalt.ch": {
     "canton": "ZH",
@@ -25755,6 +25907,15 @@
     "practice_areas_fr": [],
     "source_url": "https://www.wslaw.ch/en/",
     "team_size_n": null
+  },
+  "wspartner.ch": {
+    "canton": "SZ",
+    "email": "wehrli@wspartner.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Wehrli Schuler und Partner AG",
+    "founding_year": 2011,
+    "phone": "041 811 80 80",
+    "source_url": "https://www.wspartner.ch/"
   },
   "wt92.ch": {
     "canton": "ZH",
