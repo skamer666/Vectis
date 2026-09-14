@@ -853,6 +853,18 @@
     "phone": "+41 44 861 00 44",
     "source_url": "https://www.advokatur-buelach.ch/kontakt"
   },
+  "advokatur-buelach.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "c/o Advokatur Bülach AG",
+    "founding_year": 1990,
+    "phone": "044 861 00 44",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.advokatur-buelach.ch/j%C3%BCrg-leimbacher"
+  },
   "advokatur-daetwyler.ch": {
     "canton": "ZH",
     "email": "rd@advokatur-daetwyler.ch",
@@ -891,6 +903,17 @@
     "phone": "052 511 13 60",
     "source_url": "https://www.advokatur-gaehler.ch/Kontakt/",
     "team_size_n": 1
+  },
+  "advokatur-glasmalergasse.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Birmensdorferstr. 32",
+    "founding_year": 1996,
+    "practice_areas_de": [
+      "Familienrecht",
+      "Opferhilfe"
+    ],
+    "source_url": "https://www.advokatur-glasmalergasse.ch/vitae/"
   },
   "advokatur-hirschenplatz.ch": {
     "canton": "ZH",
@@ -1979,6 +2002,14 @@
     "checked_date": "2026-09-09",
     "firm_name": "Anwaltskanzlei Akin",
     "reason": "Aucun site officiel trouve, uniquement le registre des avocats et des annuaires tiers"
+  },
+  "aklp.ch": {
+    "canton": "ZH",
+    "email": "lienert@aklp.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Forchstr. 5",
+    "phone": "+41 44 422 00 77",
+    "source_url": "https://tel.search.ch/zuerich/forchstrasse-5/markus-lienert"
   },
   "aku-law.ch": {
     "canton": "ZH",
@@ -6342,6 +6373,14 @@
       "Miet- und Pachtrecht"
     ],
     "source_url": "https://caroferber.ch/"
+  },
+  "caselaw.ch": {
+    "canton": "ZH",
+    "email": "maag@caselaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Schulstr. 136",
+    "phone": "044 840 68 56",
+    "source_url": "https://www.caselaw.ch/?page_id=1989"
   },
   "casetti-untergraben-zh": {
     "_failed": true,
@@ -13728,6 +13767,24 @@
     "firm_name": "lang business law ag",
     "reason": "Aucune entite correspondant a ce nom exact identifiee"
   },
+  "lang-ruedi-langruetistr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Langrütistr. 89a",
+    "reason": "adresses trouvees pour Ruedi Lang (Obere Zaune 14, Ottostrasse 17, Guggerstrasse 32 Zollikon) ne correspondent pas a Langruetistrasse 89a"
+  },
+  "langenauer-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kreuzstr. 82",
+    "phone": "044 389 17 89",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://zip.ch/de/langenauer-daniela-kreuzstrasse-zurich-jmJ4VWqKDv/"
+  },
   "langnerarndt.ch": {
     "canton": "ZH",
     "email": "kanzlei@langnerarndt.ch",
@@ -13744,6 +13801,18 @@
       "Wills and legacies"
     ],
     "source_url": "https://www.langnerarndt.ch/en/contact/"
+  },
+  "langnerarndt.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Wehrenbachhalde 22",
+    "founding_year": 1984,
+    "phone": "044 422 04 91",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.langnerarndt.ch/team/paul-langner/"
   },
   "langstrasse4.ch": {
     "canton": "ZH",
@@ -13777,6 +13846,19 @@
     ],
     "source_url": "https://lardelliconrad.ch/"
   },
+  "largierlaw.ch": {
+    "canton": "ZH",
+    "email": "largier@advostampfenbach.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stampfenbachstr. 42",
+    "founding_year": 1994,
+    "phone": "+41 44 215 51 00",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.largierlaw.ch/"
+  },
   "laru.ch": {
     "canton": "BL",
     "email": "sekretariat@laru.ch",
@@ -13801,6 +13883,13 @@
       "Internationale Rechtshilfe"
     ],
     "source_url": "https://laru.ch/de/expertise"
+  },
+  "latour-zurlindenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Zurlindenstr. 58",
+    "reason": "Sandra Latour identifiee comme juriste d'entreprise interne chez Zurich Insurance Group, aucune pratique privee confirmee"
   },
   "lauper-partner.ch": {
     "canton": "LU",
@@ -14287,6 +14376,21 @@
     ],
     "source_url": "https://www.lehmannrecht.ch/"
   },
+  "lehner-zollikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bergstr. 31",
+    "phone": "044 396 76 76",
+    "practice_areas_de": [
+      "Bankrecht",
+      "Erbrecht",
+      "Handelsrecht",
+      "Gesellschaftsrecht",
+      "Sachenrecht",
+      "Betreibungsrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/zollikon/driur-thomas-lehner"
+  },
   "lehwal.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -14377,6 +14481,14 @@
     "phone": "+41 44 210 11 55",
     "source_url": "https://www.lerchlaw.com/",
     "team_size_n": 2
+  },
+  "leuenberger-legal.ch": {
+    "canton": "ZH",
+    "email": "leuenberger@leuenberger-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Gotthardstr. 52",
+    "phone": "044 281 02 02",
+    "source_url": "https://zip.ch/de/leuenberger-erwin-gotthardstrasse-zurich-VDnVbAKPD0/"
   },
   "leustein.ch": {
     "_failed": true,
@@ -14619,6 +14731,18 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "lezzilegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Etzelstr. 3",
+    "founding_year": 2021,
+    "practice_areas_de": [
+      "Finanzmarktregulierung",
+      "Datenschutzrecht",
+      "Regulatory Compliance"
+    ],
+    "source_url": "https://lezzilegal.ch/en/team/dr-iur-lukas-lezzi-en/"
+  },
   "liatowitsch.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -14641,6 +14765,24 @@
     "source_url": "https://www.liatowitsch.ch/",
     "team_size_n": null,
     "team_size_text": null
+  },
+  "licci-law.ch": {
+    "canton": "ZH",
+    "email": "sl@licci-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rotbuchstr. 44",
+    "phone": "+41 76 412 44 22",
+    "practice_areas_de": [
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.licci-law.ch/"
+  },
+  "lienert-adrian-schulhausstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Schulhausstr. 16",
+    "reason": "Adrian Lienert exerce chez Buergi Naegeli Rechtsanwaelte a Grossmuensterplatz 9, adresse differente du CSV"
   },
   "limmatlegal.ch": {
     "canton": "ZH",
@@ -14744,6 +14886,13 @@
     "checked_date": "2026-09-13",
     "firm_name": "Linsi, Küng, Levy, Wüthrich",
     "reason": "aucun site officiel dedie identifie, cabinet possiblement dissous"
+  },
+  "linter-niederfelbenweg-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Niederfelbenweg 4",
+    "reason": "Marie Madeleine Linter a une carriere de consultante d'affaires (McKinsey, PME, Affichage Holding), aucune pratique d'avocate active confirmee"
   },
   "linth-law.ch": {
     "canton": "SG",
@@ -14854,6 +15003,12 @@
     ],
     "source_url": "https://www.loewengasse.ch/en/",
     "team_size_n": 3
+  },
+  "londis-winterthur-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Wartstr. 29",
+    "source_url": "https://tel.search.ch/winterthur/wartstrasse-29/maria-londis"
   },
   "looslischmid.ch": {
     "canton": "ZH",
@@ -14998,6 +15153,21 @@
     "source_url": "https://lr-rechtsanwaelte.ch/",
     "team_size_n": 3
   },
+  "lsbj.ch": {
+    "canton": "ZH",
+    "email": "kanzlei@lsbj.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stadelhoferstr. 40",
+    "founding_year": 1972,
+    "phone": "+41 44 261 41 61",
+    "source_url": "https://www.lsbj.ch/anwaelte.html"
+  },
+  "luchsingerkuy.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Fuchspass 45",
+    "source_url": "https://search.ch/tel/zuerich/fuchspass-45/andre-kuy"
+  },
   "luchsingerspinner.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -15026,12 +15196,26 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "luescher-edwin-kummruetistr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Kummrütistr 69",
+    "reason": "Edwin Luescher identifie comme Staatsanwalt (procureur) au Ministere public de Zurich, pas avocat en pratique privee"
+  },
   "luganolawyers.ch": {
     "_failed": true,
     "canton": "TI",
     "firm_name": "Studio legale e notarile Brioschi Gianella Timbal & Cometta",
     "reason": "HTTP 503 Service Unavailable au fetch",
     "tested_date": "2026-09-07"
+  },
+  "luginbuehl-feldblumenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Feldblumenstr. 113",
+    "reason": "adresse professionnelle trouvee (Frymannstrasse 15) differe de celle du CSV (Feldblumenstrasse 113)"
   },
   "luisa-polli": {
     "_failed": true,

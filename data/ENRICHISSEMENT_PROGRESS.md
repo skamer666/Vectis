@@ -4344,3 +4344,31 @@ professionnels confirmables).
 
 Rattachement : 1256 études rattachées au total (1242 → 1256, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 126)
+
+20 cabinets traités (14 succès / 6 échecs).
+
+Succès : André Kuy / Luchsinger Kuy Rechtsanwälte ; Daniela Langenauer (tel) ; Paul Langner /
+Langner Arndt Rechtsanwälte AG (dédoublonné, **indépendant depuis 1984**, tel, droit de la famille
+et des successions) ; André Largier / Advokatur am Stampfenbach (**depuis 1994**, tel/email,
+responsabilité civile et assurances sociales) ; Alexander Le Soldat / Le Soldat & Blickle
+(**licence 1972**, tel/email) ; Thomas Lehner (tel, droit bancaire/successoral/commercial/sociétés/
+réel/poursuites) ; Jürg Leimbacher / Advokatur Bülach AG (dédoublonné, **indépendant depuis 1990**,
+Fachanwalt SAV responsabilité civile/assurances depuis 2009, tel) ; Erwin Leuenberger (tel/email) ;
+Lukas Lezzi / LezziLegal (**fondée 2021**, régulation des marchés financiers et protection des
+données) ; Sara Licci (tel/email, droit du travail) ; Markus Lienert / Lienert & Partner (tel/email)
+; Maria Londis (adresse Winterthur confirmée) ; Viviane Lüdi Hofmann / Advokatur Glasmalergasse
+(**cabinet propre depuis 1996**, droit de la famille et aide aux victimes) ; Bernhard Maag /
+caselaw.ch (tel/email).
+
+Échecs (**pièges d'identité/adresse évités**) : Langrütistr. 89a (Ruedi Lang trouvé à d'autres
+adresses zurichoises, aucune correspondance) ; Zurlindenstr. 58 (Sandra Latour est juriste
+d'entreprise interne chez Zurich Insurance, pas en pratique privée) ; Schulhausstr. 16 (Adrian
+Lienert exerce chez Bürgi Nägeli Rechtsanwälte à une autre adresse) ; Niederfelbenweg 4 (Marie
+Madeleine Linter est consultante d'affaires, pas avocate en exercice) ; Feldblumenstr. 113 (Jürg
+Oskar Luginbühl trouvé à Frymannstrasse 15, adresse différente) ; Kummrütistr 69 (Edwin Lüscher est
+procureur au Ministère public de Zurich, pas avocat en pratique privée).
+
+Rattachement : 1270 études rattachées au total (1256 → 1270, +14). Suite de tests : 94/94 au
+vert.
