@@ -4528,3 +4528,28 @@ Schöntalstr. 46 (Viràg Solarsky fondée de pouvoir chez CBC Treuhand, pas avoc
 
 Rattachement : 1353 études rattachées au total (1340 → 1353, +13). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 133)
+
+20 cabinets traités (16 succès / 4 échecs).
+
+Succès : Max Spörri (tel) ; Raphaela Stadelmann (tel/email) ; Peter Stadler (tel/email) ; Oliver
+Staffelbach / Kanzlei Staffelbach (technologie/contrats) ; Robert Staub (adresse Küsnacht
+confirmée) ; Susanne Stauber-Moser (médiation) ; Heinz Steffen (commercial/propriété intellectuelle/
+contrats) ; Jürg Steiner (**indépendant depuis 1992**, tel/email, planification fiscale et
+successorale/testaments/exécution testamentaire) ; Bruno Stierli (**licence 1983**, tel/email,
+successions/poursuites-faillite/responsabilité civile-assurances/sociétés-commercial/contrats) ;
+Philip Stolkin (**indépendant depuis 2008**, tel/email, Fachanwalt responsabilité civile et
+assurances depuis 2011) ; Anja Stolz / advokatur-stolz.ch ; Ralph Straessle (tel/email, succession
+d'entreprise/successions) ; Barbara Strehle (tel/email, commercial/obligations/procédure/
+successions/famille/réel/pénal) ; Katharina Stucki (tel, famille/bail/travail/protection de
+l'enfant et de l'adulte/aide aux victimes/étrangers) ; Marcel Studer / Kanzlei Studer (**depuis
+2012**, marchés publics/protection des données/construction-immobilier/contrats) ; Wolfgang Stummer
+/ stummer.ch (conseil juridique/planification successorale).
+
+Échecs (**pièges d'adresse/identité évités**) : Etzelstr. 42 (Sandra Sprecher introuvable) ;
+Oerlikonerstr. 40 (Peter Sprenger trouvé à Kinkelstrasse 2) ; Zwirnerstr. 257 (Thomas Stephan
+introuvable) ; Tennmoosstr. 41 (Ernst Sturzenegger introuvable).
+
+Rattachement : 1369 études rattachées au total (1353 → 1369, +16). Suite de tests : 94/94 au
+vert.
