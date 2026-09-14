@@ -4697,3 +4697,31 @@ civil/sociétés/DIP/construction-aménagement/fiscal, Lugano).
 
 Rattachement : 1454 études rattachées au total (1435 → 1454, +19). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton TI, lot 139)
+
+18 cabinets traités (15 succès / 3 échecs), tous à Lugano/Bellinzona/Locarno/Chiasso (TI). Plus 2
+corrections de rattachement sur des entrées déjà en cache (lots précédents) dont le `firm_name` ne
+correspondait pas exactement au CSV, empêchant leur rattachement automatique.
+
+Succès (15) : Rocco Taminelli (avocat-notaire, tel, Bellinzona) ; Ivano Genovini (**cabinet fondé
+1987**, 3 avocats, tel/email, successions/droits réels/aménagement/commercial/contrats/pénal-
+circulation/poursuites/RC/famille-divorce/assurances sociales/PI, Locarno) ; Alexander Henauer
+(**depuis 2006**, avocat-notaire, Chiasso) ; Niccolò Salvioni (**cabinet fondé 1962**, 4 membres,
+tel/email, Locarno) ; Battista Ghiggia (**depuis 1991**, tel/email, Lugano) ; Fabio Creazzo (tel/
+email, Lugano) ; Carlo Vitalini (avocat-notaire, tel, Lugano) ; Mario Molo / Molo Avvocati
+(**cabinet fondé 1977**, 4 professionnels, tel/email, droit privé-commercial-bancaire/admin/pénal
++ notariat, Bellinzona -- une seule étude réelle, rattachée sous deux entrées CSV distinctes) ;
+Giovanni Colombo (adresse, Lugano) ; Torricelli & Caronna (adresse, Lugano) ; Roberto Keller
+(adresse, Bellinzona-Claro) ; Bernasconi & Riva (tel/email, Lugano) ; Sybille Plouda Gilardoni
+(tel/email, travail/assurances sociales/admin/pénal, Breganzona).
+
+Corrections : Marcellini-Galliani (firm_name corrigé, **8 avocats/notaires** dans l'équipe ajoutés) ;
+Collegal (firm_name corrigé pour matcher le CSV).
+
+Échecs (3) : LawStudio (Bellinzona, aucun site officiel trouvé) ; "Anwalts - U. Notariatskanzlei"
+(Lugano, entrée CSV probablement corrompue, aucune correspondance) ; Luisa Vassalli Zorzi (piège
+d'identité : cabinet retrouvé à Chiasso, aucun lien confirmé avec l'adresse Riva San Vitale du CSV).
+
+Rattachement : 1470 études rattachées au total (1454 → 1470, +16). Suite de tests : 94/94 au
+vert.

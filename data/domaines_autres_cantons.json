@@ -2878,6 +2878,13 @@
     ],
     "source_url": "https://www.anwaltluzern.ch/de/kontakt/"
   },
+  "anwalts-notariatskanzlei-lugano-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "studio legale e notarile Anwalts - U. Notariatskanzlei",
+    "reason": "aucune correspondance trouvee pour ce nom (probablement une entree CSV corrompue/mal formee)"
+  },
   "anwaltsboutique.ch": {
     "canton": "ZH",
     "email": "info@anwaltsboutique.ch",
@@ -3552,6 +3559,14 @@
     "firm_name": "Studio legale avv. Gabriele Gilardi",
     "founding_year": 2018,
     "source_url": "https://avvocatogilardi.ch/"
+  },
+  "avvocatoplouda.ch": {
+    "canton": "TI",
+    "email": "sybille.plouda@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio leg. Plouda Gilardoni",
+    "phone": "091 921 13 79",
+    "source_url": "https://www.avvocatoplouda.ch/"
   },
   "awg.ch": {
     "canton": "BS",
@@ -4789,6 +4804,14 @@
     "firm_name": "Berlinger AG",
     "reason": "N'est pas (plus) un cabinet d'avocats -- societe de conseil/speaking, confirme par le site lui-meme"
   },
+  "bernasconi-riva-lugano-ti": {
+    "canton": "TI",
+    "email": "info@legalbernasconi-riva.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale Bernasconi & Riva",
+    "phone": "091 911 50 00",
+    "source_url": "https://zip.ch/it/bernasconi-riva-viale-stefano-franscini-lugano-K5Do17jNJy/"
+  },
   "bernet-arbitration.ch": {
     "canton": "ZH",
     "email": "mb@bernet-arbitration.ch",
@@ -4802,6 +4825,14 @@
     ],
     "source_url": "https://www.bernet-arbitration.ch/en/",
     "team_size_n": 1
+  },
+  "bersani.ch": {
+    "canton": "TI",
+    "email": "info@bersani.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale Bersani",
+    "phone": "091 826 26 27",
+    "source_url": "https://www.bersani.ch/"
   },
   "berther-camischolas-gr": {
     "_failed": true,
@@ -7092,7 +7123,7 @@
     "canton": "TI",
     "email": "info@collegal.ch",
     "fetched_date": "2026-09-06",
-    "firm_name": "COLLEGAL Studio legale, Attorneys at Law",
+    "firm_name": "studio legale Collegal",
     "notes": "Issu de la fusion de 3 cabinets, dont Bolla Bonzanigo e Associati fonde en 1947 -- annee de fusion de COLLEGAL elle-meme non precisee.",
     "phone": "+41 91 910 90 30",
     "practice_areas_en": [
@@ -7103,6 +7134,12 @@
       "Criminal law"
     ],
     "source_url": "https://www.collegal.ch/en/collegal/chi-siamo"
+  },
+  "colombo-giovanni-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale avv. Giovanni Colombo",
+    "source_url": "https://www.legaly.ch/it/studio-legale/7646-studio-legale-avv-giovanni-raffaele-colombo"
   },
   "colombomameli.ch": {
     "canton": "TI",
@@ -7204,6 +7241,14 @@
     "checked_date": "2026-09-10",
     "firm_name": "Studio legale CP-DL Leone & Partners SA",
     "reason": "Page de verification anti-bot ('One moment, please...'), aucun contenu accessible (x2)"
+  },
+  "creazzo-lugano-ti": {
+    "canton": "TI",
+    "email": "f.creazzo@studiocreazzo.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile CREAZZO",
+    "phone": "091 923 67 24",
+    "source_url": "https://www.local.ch/en/d/lugano/6900/attorneys-at-law/creazzo-fabio-ruqUcRkQgAr8CpGVcN87Ew"
   },
   "cronbloch.ch": {
     "canton": "BL",
@@ -9774,6 +9819,29 @@
     "firm_name": "Nordweg 10",
     "source_url": "https://www.geiger-rechtsanwalt.ch/"
   },
+  "genovini.ch": {
+    "canton": "TI",
+    "email": "info@genovini.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile avv. Ivano Genovini",
+    "founding_year": 1987,
+    "phone": "+41 91 751 50 80",
+    "practice_areas_it": [
+      "Diritto delle successioni",
+      "Diritti reali",
+      "Diritto amministrativo, edilizio e della pianificazione",
+      "Diritto commerciale",
+      "Diritto dei contratti",
+      "Diritto penale e della circolazione stradale",
+      "Diritto esecutivo",
+      "Diritto della responsabilità civile",
+      "Diritto di famiglia e del divorzio",
+      "Diritto delle assicurazioni sociali",
+      "Proprietà intellettuale"
+    ],
+    "source_url": "https://genovini.ch/",
+    "team_size_n": 3
+  },
   "gerber-daniel-kloten-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -11050,6 +11118,13 @@
     "firm_name": "Advokatur und Notariat",
     "phone": "071 290 11 44",
     "source_url": "https://hellstern.ch/"
+  },
+  "henauernotaio.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile avv. Alexander Henauer",
+    "founding_year": 2006,
+    "source_url": "https://www.henauernotaio.ch/"
   },
   "henzenhans.ch": {
     "canton": "SG",
@@ -13145,6 +13220,12 @@
     "firm_name": "Studio legale e notarile Fabrizio Keller e Partner SVAia a la",
     "reason": "aucun site officiel propre identifie"
   },
+  "keller-roberto-bellinzona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale Keller",
+    "source_url": "https://www.legaly.ch/anwaltskanzlei/4847-studio-legale-avv-roberto-keller"
+  },
   "keller-roberto-roveredo-gr": {
     "_failed": true,
     "canton": "GR",
@@ -14502,6 +14583,13 @@
     ],
     "source_url": "https://lawside.ch/de/taetigkeitsbereiche/"
   },
+  "lawstudio-bellinzona-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "studio legale e notarile LawStudio",
+    "reason": "aucun site officiel ni page detaillee trouvee pour ce cabinet, seulement des mentions indirectes dans des annuaires"
+  },
   "lawteam.ch": {
     "canton": "GR",
     "email": "mail@lawteam.ch",
@@ -14625,7 +14713,7 @@
   "legal-notary.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-08",
-    "firm_name": "studio legale e notarile Marcellini-Galliani",
+    "firm_name": "studio leg. Marcellini-Galliani",
     "practice_areas_it": [
       "Consulenza e patrocinio in procedimenti penali di giurisdizione federale e cantonale",
       "Diritto penale amministrativo",
@@ -14633,7 +14721,8 @@
       "Diritto civile, amministrativo e fiscale connesso a procedimenti penali",
       "Servizi notarili"
     ],
-    "source_url": "https://www.legal-notary.ch/"
+    "source_url": "https://www.legal-notary.ch/",
+    "team_size_n": 8
   },
   "legal-partners-jona-sg": {
     "_failed": true,
@@ -14791,6 +14880,15 @@
     "phone": "+41 91 290 89 80",
     "source_url": "https://legalg.ch/contatto/"
   },
+  "legalghiggia.ch": {
+    "canton": "TI",
+    "email": "backoffice@legalghiggia.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile Ghiggia",
+    "founding_year": 1991,
+    "phone": "+41 (0) 91 912 30 30",
+    "source_url": "https://www.legalghiggia.ch/en/home-2/"
+  },
   "legalone-freienbach-sz": {
     "_failed": true,
     "canton": "SZ",
@@ -14830,6 +14928,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Jung Legal Solutions",
     "reason": "HTTP 503 Service Unavailable"
+  },
+  "legaltaminelli.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile avv. Rocco Taminelli",
+    "phone": "091 826 22 70",
+    "source_url": "https://search.ch/tel/bellinzona/viale-stazione-6/rocco-taminelli.it.html"
   },
   "legalzone.ch": {
     "canton": "ZH",
@@ -16694,6 +16799,26 @@
     "firm_name": "Nüschelerstr. 35",
     "phone": "+41 (0)44 221 50 50",
     "source_url": "https://search.ch/tel/zuerich/nueschelerstrasse-35/claudio-moehr"
+  },
+  "moloavvocati.ch": {
+    "canton": "TI",
+    "email": "info@moloavvocati.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale avv. Mario Molo",
+    "founding_year": 1977,
+    "phone": "+41 91 210 10 00",
+    "source_url": "https://www.moloavvocati.ch/",
+    "team_size_n": 4
+  },
+  "moloavvocati.ch#2": {
+    "canton": "TI",
+    "email": "info@moloavvocati.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "lo studio legale e notarile Molo Avvocati",
+    "founding_year": 1977,
+    "phone": "+41 91 210 10 00",
+    "source_url": "https://www.moloavvocati.ch/",
+    "team_size_n": 4
   },
   "monferrini.law": {
     "canton": "ZH",
@@ -20226,6 +20351,16 @@
     "phone": "044 388 23 23",
     "source_url": "https://www.sabrineschnyder.ch/en/about"
   },
+  "salvionilaw.ch": {
+    "canton": "TI",
+    "email": "info@salvionilaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale e notarile Niccolò Salvioni",
+    "founding_year": 1962,
+    "phone": "+41 91 751 12 38",
+    "source_url": "https://www.salvionilaw.ch/",
+    "team_size_n": 4
+  },
   "sandmeier-luethi-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -23455,6 +23590,12 @@
     "phone": "043 268 56 11",
     "source_url": "https://fragdenanwalt.ch/anwalt/hinwil-rechtsanwaeltin-frau-tormann-zuerich"
   },
+  "torricelli-caronna-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale Torricelli & Caronna",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/6127-studio-legale-torricelli-caronna"
+  },
   "torricelli-zveiger-ti-2": {
     "_failed": true,
     "canton": "TI",
@@ -23899,6 +24040,13 @@
     "firm_name": "Bahnhofstr. 74",
     "reason": "adresse trouvee pour Caroline Varga Bosshard (Luriweg 29, Hittnau) differe de celle du CSV (Bahnhofstrasse 74)"
   },
+  "vassallizorzi-rivasanvitale-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "lo Studio legale e notarile Avv. Luisa Vassalli Zorzi, Via del Ponte 9, 6826 Riva San Vitale",
+    "reason": "Luisa Vassalli Zorzi retrouvee avec un cabinet a Chiasso (Piazza Col. Costantino Bernasconi 5), aucune correspondance confirmee avec l'adresse Riva San Vitale du CSV"
+  },
   "vblaw.ch": {
     "canton": "TI",
     "email": "vinko.bilusic@vblaw.ch",
@@ -24160,6 +24308,13 @@
     "checked_date": "2026-09-11",
     "firm_name": "Advokaturbüro Armon Vital Stradun",
     "reason": "aucun site officiel propre identifie"
+  },
+  "vitalini-carlo-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "studio legale avv. dott. Carlo Vitalini",
+    "phone": "091 912 33 00",
+    "source_url": "https://search.ch/tel/lugano/via-pasquale-lucchini-4/carlo-vitalini"
   },
   "vm-law.ch": {
     "canton": "GR",
