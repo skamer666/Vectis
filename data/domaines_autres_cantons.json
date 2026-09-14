@@ -4218,6 +4218,13 @@
     "team_size_n": null,
     "team_size_text": null
   },
+  "bblegal.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "c/o Buis Bürgi AG",
+    "founding_year": 1987,
+    "source_url": "https://www.bblegal.ch/prof-dr-oec-hans-rainer-kunzle/"
+  },
   "bbw-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-13",
@@ -12324,6 +12331,22 @@
     "firm_name": "Kanzlei - K3",
     "source_url": "https://www.kanzlei-k3.ch/"
   },
+  "kanzlei-koenig.ch": {
+    "canton": "ZH",
+    "email": "hallo@kanzlei-koenig.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Technikumstr. 92",
+    "founding_year": 2021,
+    "phone": "+41 52 550 07 67",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau- und Immobilienrecht",
+      "Transportrecht",
+      "Bildungsrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://kanzlei-koenig.ch/"
+  },
   "kanzlei-krausz.ch": {
     "_failed": true,
     "canton": "ZH",
@@ -12832,6 +12855,21 @@
     ],
     "source_url": "https://kissling-legal.ch/en/"
   },
+  "kjlaw.ch": {
+    "canton": "ZH",
+    "email": "krause@kjlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Am Löwenplatz / Usteristr. 17",
+    "founding_year": 2004,
+    "phone": "044 210 31 32",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Miet- und Immobilienrecht",
+      "Erbrecht",
+      "Gesellschafts- und Vereinsrecht"
+    ],
+    "source_url": "https://www.kjlaw.ch/"
+  },
   "kkra.ch": {
     "canton": "OW",
     "fetched_date": "2026-09-08",
@@ -12916,6 +12954,13 @@
     "reason": "contenu vide / rendu JavaScript",
     "tested_date": "2026-07-28"
   },
+  "kley-struller-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Weinbergstr. 18",
+    "reason": "lien entre Anna Kley-Struller et Advokatur Weinberg (Weinbergstrasse 18) non confirme avec certitude"
+  },
   "klgp.ch": {
     "canton": "SZ",
     "fetched_date": "2026-09-06",
@@ -12948,6 +12993,12 @@
     "date": "2026-07-29",
     "firm_name": "Kessler Landolt Giacomini & Partner",
     "reason": "site JS rendu, contenu non accessible"
+  },
+  "klose-wila-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Püntstr. 19",
+    "source_url": "https://ch.kompass.com/c/kurt-klose/ch276092/"
   },
   "klotermodl.ch": {
     "canton": "ZH",
@@ -13049,6 +13100,37 @@
     "source_url": "https://kmu-forum.ch/team/",
     "team_size_n": 4
   },
+  "kn-legal.ch": {
+    "canton": "ZH",
+    "email": "office@kn-legal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Ober Rennweg 10",
+    "phone": "+41 (0)55 263 10 24",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Werkvertragsrecht",
+      "Vertrags- und AGB-Recht",
+      "Konkurs- und Betreibungsrecht",
+      "Handels- und Wirtschaftsrecht",
+      "Strafrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://www.kn-legal.ch/kontakt"
+  },
+  "knickelmann-canonica-winkel-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Tüfwisweg 6",
+    "source_url": "http://www.polyreg.ch/bgeunpub/Jahr_2002/Entscheide_5P_2002/5P.484__2002.html"
+  },
+  "knupp-kuesnacht-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Obere Bühlstr. 31",
+    "reason": "profession d'avocat non confirmee pour Ralph Knupp (un profil LinkedIn homonyme suggere un DRH retraite)"
+  },
   "kochschneider.ch": {
     "canton": "LU",
     "email": "kanzlei@kochschneider.ch",
@@ -13120,12 +13202,37 @@
     "firm_name": "Kohlrainstr. 10",
     "reason": "adresse partagee par au moins 2 cabinets independants distincts (Daetwyler & Daetwyler, Hess & Partner) -- pas d'entite coherente commune aux 4 membres CSV"
   },
+  "kokotek-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Höschgasse 28",
+    "founding_year": 2006,
+    "phone": "+41 44 251 60 80",
+    "practice_areas_de": [
+      "Scheidungsrecht",
+      "Erb- und Nachlassrecht",
+      "Strafrecht",
+      "Betreibungs- und Konkursrecht",
+      "Kaufvertragsrecht"
+    ],
+    "source_url": "https://kokotek.ch/en/home-en/"
+  },
   "kolblaw.ch": {
     "_failed": true,
     "canton": "ZH",
     "checked_date": "2026-09-10",
     "firm_name": "KOLB International Tax Services",
     "reason": "Cabinet multi-cantonal (Berne, Zurich) -- aucune coordonnee specifique au bureau de Zurich confirmee sur le site (regle 4 etendue)"
+  },
+  "koletsis-bauanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Freiestr. 205",
+    "founding_year": 2014,
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://www.koletsis-bauanwalt.ch/"
   },
   "koller.law": {
     "canton": "ZH",
@@ -13173,6 +13280,13 @@
     "source_url": "https://www.kornplatz.ch/",
     "team_size_n": null
   },
+  "korolnik-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stockerstr. 50",
+    "phone": "044 212 72 74",
+    "source_url": "https://zip.ch/en/korolnik-bernhard-stockerstrasse-zurich-oZEPrb3w6n/"
+  },
   "kottmann-lu": {
     "_failed": true,
     "canton": "LU",
@@ -13180,12 +13294,36 @@
     "firm_name": "Richard Kottmann Notariat & Advokatur",
     "reason": "HTTP 503 Service Unavailable (x2), site indique par ailleurs 'Im Aufbau' (en construction)"
   },
+  "kraehenbuehl-koeppel-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stockerstr. 39",
+    "practice_areas_de": [
+      "Erb- und Nachlassrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Zivilprozessrecht",
+      "Miet- und Pachtrecht"
+    ],
+    "source_url": "https://www.citylaw.ch/jeannine-kraehenbuehl-koeppel/"
+  },
   "kramer-sg": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-10",
     "firm_name": "Advokaturbüro Kramer",
     "reason": "HTTP 503 Service Unavailable (x2) sur advokatur-kramer.ch"
+  },
+  "krenger-ottikon-zh": {
+    "canton": "ZH",
+    "email": "bart.krenger@bluewin.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Chindismülistr. 11",
+    "phone": "043 843 78 25",
+    "practice_areas_de": [
+      "Pferderecht"
+    ],
+    "source_url": "https://www.pferd-und-recht.ch/"
   },
   "krlaw.ch": {
     "canton": "LU",
@@ -13237,6 +13375,20 @@
       "Unternehmen / M&A / Nachfolge"
     ],
     "source_url": "https://www.krlaw.ch/"
+  },
+  "kronenberg-kuesnacht-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Wiesenstr. 24",
+    "reason": "Oliver Kronenberg trouve actif dans la pharma/conseil d'affaires, aucune pratique d'avocat confirmee"
+  },
+  "krummenacher-gattikon-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Obstgartenstr. 24",
+    "reason": "cabinet Theo Krummenacher trouve a Bellariastrasse 7 Zurich, pas a Gattikon"
   },
   "kruse-law.ch": {
     "_failed": true,
@@ -13343,12 +13495,41 @@
     "firm_name": "Küng Rechtsanwälte & Notare AG",
     "reason": "site accessible mais aucun fait extractible (pas de liste de domaines ni d'année de fondation)"
   },
+  "kuenzli-bassersdorf-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Breitistr. 59",
+    "phone": "+41 44 836 84 80",
+    "source_url": "https://rechtsanwaelte-kuenzli.ch/de/index.php"
+  },
+  "kuhn-winterthur-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Scheideggstr. 11",
+    "reason": "aucun avocat suisse Thomas Kuhn trouve a cette adresse (seuls des homonymes allemands identifies)"
+  },
   "kuhne-anwaltsburo-sg": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-10",
     "firm_name": "Kühne Anwaltsbüro",
     "reason": "piege d'identite evite -- adresse CSV (Bauernweid 6, Flawil) ne correspond pas a l'adresse trouvee pour Raphael Kühne (Marktgasse 20, St. Gallen)"
+  },
+  "kuka-thalwil-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bönirainstr. 14",
+    "founding_year": 1996,
+    "phone": "+41787070018",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Ausländerrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "http://www.daniela-kuka.ch/"
   },
   "kunzschmid.ch": {
     "canton": "GR",
@@ -13425,6 +13606,28 @@
     "checked_date": "2026-09-10",
     "firm_name": "Steiner Rechtsanwälte",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+  },
+  "kurzlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Seefeldstr. 224",
+    "phone": "+41 78 233 56 67",
+    "practice_areas_de": [
+      "Nationales und internationales Handels- und Gesellschaftsrecht",
+      "Bank- und Finanzmarktrecht",
+      "AML- und Sanktions-Compliance",
+      "Strafrecht und Datenschutz",
+      "Arbeitsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://kurz-legal.inolawyer.com/en"
+  },
+  "kuster-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Minervastr. 130",
+    "reason": "coordonnees tres limitees pour Felix Kuster, aucun detail professionnel confirmable au-dela de l'adresse"
   },
   "ladinalaw.ch": {
     "canton": "GR",

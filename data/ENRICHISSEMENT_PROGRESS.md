@@ -4321,3 +4321,26 @@ Predigergasse 10 (Andreas Kellerhals exerce désormais à Bâle).
 
 Rattachement : 1242 études rattachées au total (1227 → 1242, +15). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 125)
+
+20 cabinets traités (14 succès / 6 échecs).
+
+Succès : Kurt Klose ; Oliver Knakowski-Rüegg / Kn Legal (tel/email, 8 domaines) ; Heike Knickelmann
+(anc. Canonica) ; Dr. Roland Kokotek Burger (**licence 2006**, tel, 5 domaines) ; Dr. Marco Koletsis
+/ Bauanwalt (**depuis 2014**, Fachanwalt SAV Bau) ; Eva Maria König (**fondée 2021**, tel/email, 5
+domaines) ; Bernhard Korolnik (tel) ; Jeannine Krähenbühl-Köppel (5 domaines) ; Peter M. Krause /
+Kanzlei Krause (**fondée 2004**, tel/email, 4 domaines) ; Bart Krenger (tel/email, droit équestre) ;
+Daniela Kuka (**cabinet propre depuis 1996**, tel, 5 domaines) ; Prof. Hans Rainer Künzle
+(dédoublonné avec Buis Bürgi AG déjà en cache, **licence 1987**) ; Andreas Künzli (tel) ; André Kurz
+/ Kurz Legal (tel, 6 domaines).
+
+Échecs (**pièges d'identité/adresse évités**) : Weinbergstr. 18 (lien Anna Kley-Struller / Advokatur
+Weinberg non confirmé) ; Obere Bühlstr. 31 (Ralph Knupp -- profession non confirmée, possible
+homonyme DRH retraité) ; Wiesenstr. 24/Küsnacht (Oliver Kronenberg actif en pharma, pas avocat) ;
+Obstgartenstr. 24/Gattikon (Theo Krummenacher trouvé à Bellariastrasse, Zürich) ; Scheideggstr.
+11/Winterthur (Thomas Kuhn introuvable en Suisse) ; Minervastr. 130 (Felix Kuster sans détails
+professionnels confirmables).
+
+Rattachement : 1256 études rattachées au total (1242 → 1256, +14). Suite de tests : 94/94 au
+vert.
