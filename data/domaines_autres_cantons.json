@@ -1040,6 +1040,24 @@
     "firm_name": "Advokatur Notariat Schmid",
     "reason": "Identite ambigue -- au moins deux cabinets homonymes 'Schmid' (Fortunat Schmid a Coire GR vs Schmid Notariat und Advokatur a Munchenstein BL) ; le site trouve (notariat-schmid.ch) correspond en realite au cabinet bale-campagnois, pas a celui de Coire -- lien non retenu"
   },
+  "advokatur-perhofer.ch": {
+    "canton": "ZH",
+    "email": "info@advokatur-perhofer.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Perhofer",
+    "phone": "+41 44 620 02 21",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Vertragsrecht",
+      "Datenschutzrecht",
+      "Vereinsrecht",
+      "Haftpflichtrecht",
+      "Bankrecht",
+      "Erbrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.advokatur-perhofer.ch/en/kontakt"
+  },
   "advokatur-regensdorf.ch": {
     "canton": "ZH",
     "email": "info@advokatur-regensdorf.ch",
@@ -3037,6 +3055,13 @@
       "Sozialversicherungsrecht"
     ],
     "source_url": "https://www.monetas.ch/de/647/Firmendaten-lic-iur-Christoph-Anwander-Advokaturb%C3%BCro.htm?subj=2387343"
+  },
+  "aoconsulting.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Streulistr. 19",
+    "phone": "043 222 67 67",
+    "source_url": "https://aoconsulting.ch/kontakt/"
   },
   "apexlegal.ch": {
     "canton": "ZH",
@@ -8201,6 +8226,25 @@
     "checked_date": "2026-09-10",
     "firm_name": "Eugster Advokatur",
     "reason": "Hans Peter Eugster semble avoir rejoint Thomet Partner ; adresse Trimmis potentiellement obsolete"
+  },
+  "evelynenoth.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Evelyne Noth Anwaltskanzlei",
+    "founding_year": 2014,
+    "phone": "+41 44 420 00 10",
+    "practice_areas_de": [
+      "Bankrecht",
+      "Kapitalmarktrecht",
+      "Baurecht",
+      "Immobilienrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Handels- und Gesellschaftsrecht",
+      "Kunstrecht",
+      "Betreibungs- und Konkursrecht"
+    ],
+    "source_url": "http://evelynenoth.ch/de/"
   },
   "evenlaw.ch": {
     "canton": "ZH",
@@ -16209,6 +16253,19 @@
     "source_url": "https://morad-law.ch/",
     "team_size_n": 1
   },
+  "morf-gattikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Gattikonerstr. 130",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Zivilprozessrecht",
+      "Internationales Privatrecht",
+      "Schiedsgerichtsbarkeit"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/roger-p-morf"
+  },
   "moser-advokatur.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-07",
@@ -16296,6 +16353,13 @@
     "firm_name": "Maurer & Stäger AG",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "muehlberg-samuel-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Im Zentrum 7",
+    "reason": "aucune information trouvee pour Samuel Muehlberg comme avocat a cette adresse"
+  },
   "muehlebach-law.ch": {
     "canton": "LU",
     "fetched_date": "2026-09-07",
@@ -16320,6 +16384,14 @@
     ],
     "source_url": "https://www.muehlebach-law.ch/"
   },
+  "muehlestein-law.ch": {
+    "canton": "ZH",
+    "email": "bm@muehlestein-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Seestr. 25",
+    "phone": "+41 44 244 81 90",
+    "source_url": "https://www.muehlestein-law.ch/de/kontakt"
+  },
   "mueller-adv.ch": {
     "canton": "ZH",
     "email": "info@mueller-adv.ch",
@@ -16339,6 +16411,13 @@
     ],
     "source_url": "http://mueller-adv.ch/"
   },
+  "mueller-claudia-breitloostr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Breitloostr. 22",
+    "reason": "Breitloostrasse 22/Kilchberg est l'adresse d'Alexander Mueller (deposant de marque) ; Claudia Mueller Rechtsanwaeltin y figure seulement comme mandataire, son cabinet reel est a Bleicherweg 39"
+  },
   "mueller-legal.ch": {
     "canton": "ZH",
     "email": "office@mueller-legal.ch",
@@ -16346,6 +16425,20 @@
     "firm_name": "MUELLER LEGAL, Anwaltskanzlei Damian Müller",
     "phone": "+41 44 910 99 44",
     "source_url": "https://www.mueller-legal.ch/kontakt"
+  },
+  "mueller-matthias-schifflaende-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Schifflände 5",
+    "reason": "plusieurs Matthias Mueller avocats trouves (Homburger, Trachsel Bortolani) mais aucun a l'adresse Schifflaende 5"
+  },
+  "muellerchen-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Neptunstr. 67",
+    "reason": "Markus Mueller-Chen est professeur a l'Universite de St-Gall et avocat independant depuis 2009, aucune adresse Neptunstrasse confirmee"
   },
   "muellerlex-zh": {
     "_failed": true,
@@ -16402,6 +16495,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Müller Eckstein Rechtsanwälte",
     "reason": "Cabinet dissous en 2020 (radiation registre du commerce), reorganise en ME Advocat sans Karl Eckstein -- continuite non confirmee pour l'entite CSV"
+  },
+  "mullispartner.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Feldimoosstr. 31",
+    "founding_year": 1989,
+    "source_url": "http://www.mullispartner.ch/"
   },
   "museum35.ch": {
     "_failed": true,
@@ -16480,6 +16580,13 @@
     "checked_date": "2026-09-13",
     "firm_name": "Nadine Grieder, Advokatin und Notarin",
     "reason": "site inaccessible (HTTP 503, 3 tentatives sur lawpartner.ch)"
+  },
+  "naegeli-gloorjunker-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "c/o Gloor Junker Rechtsanwälte",
+    "reason": "Georg Naegeli associe chez Homburger AG puis juge, aucun lien avec un cabinet Gloor Junker trouve"
   },
   "naegeli-rechtsanwaelte.ch": {
     "_failed": true,
@@ -16676,6 +16783,25 @@
     ],
     "source_url": "https://nh-recht.ch/",
     "team_size_n": 2
+  },
+  "niclaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Niklaus",
+    "founding_year": 2002,
+    "practice_areas_de": [
+      "Internationales Wirtschaftsrecht",
+      "IT-Recht",
+      "Datenschutzrecht"
+    ],
+    "source_url": "https://www.niclaw.ch/"
+  },
+  "niedermann-rehalpstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Rehalpstr. 61",
+    "reason": "adresse actuelle de Beryl Niedermann trouvee a Minervastrasse 99, pas Rehalpstrasse 61"
   },
   "niedermann.com": {
     "canton": "ZH",
@@ -17187,12 +17313,33 @@
     "firm_name": "Schweizer Paraplegiker-Stiftung Guido A. Zäch",
     "reason": "service juridique interne d'une fondation, pas une etude d'avocats independante"
   },
+  "pauli-glattfelden-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Mattenweg 4",
+    "phone": "044 867 18 09",
+    "source_url": "https://tel.search.ch/glattfelden/mattenweg-4/markus-pauli"
+  },
   "pb-anwaltskanzlei-zh": {
     "_failed": true,
     "canton": "ZH",
     "checked_date": "2026-09-09",
     "firm_name": "PB Anwaltskanzlei",
     "reason": "Aucun site officiel trouve, uniquement le registre des avocats"
+  },
+  "pellerlaw.ch": {
+    "canton": "ZH",
+    "email": "s.peller@pellerlaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Tödistr. 18",
+    "phone": "043 817 62 22",
+    "practice_areas_de": [
+      "Gesellschafts- und Handelsrecht",
+      "Luftfahrtrecht",
+      "Privatversicherungsrecht",
+      "Transportrecht"
+    ],
+    "source_url": "https://search.ch/tel/zuerich/toedistrasse-18/rechtsanwalt-peller-stefan.en.html"
   },
   "penalisti.ch": {
     "canton": "ZH",
@@ -17245,6 +17392,12 @@
       "Bankruptcy Law and Restructuring"
     ],
     "source_url": "https://www.perucchiandpartner.com/"
+  },
+  "pestalozzi-meilen-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Seestr. 970",
+    "source_url": "https://tel.search.ch/meilen/seestrasse-970/peter-a-pestalozzi"
   },
   "pestalozzilaw.com": {
     "canton": "ZH",
@@ -17368,6 +17521,20 @@
     "firm_name": "Pfenninger Law GmbH",
     "reason": "piege d'identite evite -- societe enregistree a Wollerau (canton SZ), la base 'St. Gallen' mentionnee concerne uniquement l'avocate elle-meme, pas le siege du cabinet"
   },
+  "pfiffner-rauber-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Alemannensteig 4",
+    "reason": "Brigitte Pfiffner Rauber est ancienne juge federale (Bundesgericht 2008-2019), n'exerce plus en pratique privee depuis 1994"
+  },
+  "pfister-lukas-kluserweg-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Kluserweg 6",
+    "reason": "aucune information trouvee pour Lukas Pfister a cette adresse"
+  },
   "pfister-rechtsanwaelte.ch": {
     "canton": "SZ",
     "email": "info@pfister-anwaelte.ch",
@@ -17390,6 +17557,21 @@
     "checked_date": "2026-09-10",
     "firm_name": "Advokaturbüro Pfister",
     "reason": "Aucune entite correspondant a ce nom exact identifiee a St-Gall (homonymes non lies trouves a Pfäffikon SZ)"
+  },
+  "pflaum.law": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Pflaum",
+    "founding_year": 2015,
+    "phone": "+41 44 252 15 15",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Wirtschaftsstrafrecht",
+      "Cybercrime",
+      "Betäubungsmittelstrafrecht",
+      "Jugendstrafrecht"
+    ],
+    "source_url": "https://www.pflaum.law/"
   },
   "pianta-brusio-gr": {
     "_failed": true,
@@ -21627,6 +21809,16 @@
       "Erbrecht"
     ],
     "source_url": "https://www.thf-rechtsanwaelte.ch/"
+  },
+  "thiel-onyetube-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Thiel & Onyetube AG",
+    "founding_year": 2024,
+    "practice_areas_de": [
+      "Familienrecht"
+    ],
+    "source_url": "https://familienrecht-winterthur.ch/ueber-uns/"
   },
   "this-law.ch": {
     "canton": "ZH",

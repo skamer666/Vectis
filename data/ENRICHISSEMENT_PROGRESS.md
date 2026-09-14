@@ -4395,3 +4395,31 @@ chez HERZER à une autre adresse) ; Hardturmstr. 10 (Conradin Menn non confirmé
 
 Rattachement : 1283 études rattachées au total (1270 → 1283, +13). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 128)
+
+20 cabinets traités (12 succès / 8 échecs).
+
+Succès : Roger P. Morf (contrats/travail/procédure civile/DIP/arbitrage) ; Bernhard Mühlestein
+(tel/email) ; Raphael Mullis (**cabinet propre depuis 1989**) ; Cordula E. Niklaus / niclaw
+(**fondée 2002**, droit international des affaires/IT/protection des données) ; Evelyne Noth
+(**fondée avril 2014**, tel, banque/marchés de capitaux/construction/immobilier/contrats/travail/
+sociétés/art/poursuites) ; Andreas Oberle (tel) ; Jin-Eve Onyetube-Meier / Anwaltskanzlei Thiel &
+Onyetube AG (**fondée 2024**, droit de la famille) ; Markus Pauli (tel) ; Stefan Peller /
+Peller Law (tel/email, droit des sociétés/commercial/aviation/assurances privées/transport) ;
+Andrea Perhofer / Advokatur Perhofer (tel/email, travail/contrats/protection des données/
+associations/responsabilité civile/banque/successions/poursuites) ; Peter A. Pestalozzi (adresse
+Meilen confirmée) ; Sonja Pflaum / Pflaum Law (**licence 2015**, tel, défense pénale/droit pénal
+économique/cybercriminalité/stupéfiants/mineurs).
+
+Échecs (**pièges d'adresse/identité évités**) : Im Zentrum 7 (Samuel Mühlberg introuvable) ;
+Breitloostr. 22 (adresse d'Alexander Müller, Claudia Müller y figure seulement comme mandataire,
+cabinet réel à Bleicherweg 39) ; Schifflände 5 (aucun Matthias Müller confirmé à cette adresse) ;
+Neptunstr. 67 (Markus Müller-Chen professeur HSG, aucune adresse confirmée) ; c/o Gloor Junker
+Rechtsanwälte (Georg Naegeli associé chez Homburger puis juge, aucun lien avec Gloor Junker) ;
+Rehalpstr. 61 (Beryl Niedermann désormais à Minervastrasse 99) ; Alemannensteig 4 (Brigitte
+Pfiffner Rauber, ancienne juge fédérale, n'exerce plus en pratique privée depuis 1994) ; Kluserweg 6
+(Lukas Pfister introuvable).
+
+Rattachement : 1295 études rattachées au total (1283 → 1295, +12). Suite de tests : 94/94 au
+vert.
