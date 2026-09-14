@@ -3085,6 +3085,14 @@
     "phone": "044 200 60 70",
     "source_url": "https://www.anwaltskanzlei-schwarz.ch/"
   },
+  "anwaltskanzlei-wiki.ch": {
+    "canton": "ZH",
+    "email": "mail@anwaltskanzlei-wiki.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rietliweg 3",
+    "phone": "+41 (0) 44 383 33 55",
+    "source_url": "https://anwaltskanzlei-wiki.ch/impressum/"
+  },
   "anwaltskanzlei-zuercher.ch": {
     "canton": "SG",
     "email": "info@anwaltskanzlei-zuercher.ch",
@@ -3121,6 +3129,12 @@
     ],
     "source_url": "https://www.anwaltskanzlei-zuerichsee.ch/",
     "team_size_n": 3
+  },
+  "anwaltskanzleiweber.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Weber",
+    "source_url": "https://anwaltskanzleiweber.ch/"
   },
   "anwaltspraxis.ch": {
     "canton": "LU",
@@ -3553,6 +3567,15 @@
     "practice_areas_fr": [],
     "source_url": "https://www.awg.ch/",
     "team_size_n": null
+  },
+  "awiede.com": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "AW Corporate Legal Services",
+    "practice_areas_de": [
+      "Dienstleistungs-, Finanz-, Energie-, Reise- und Luftfahrtrecht"
+    ],
+    "source_url": "https://awiede.com/en/profile/"
   },
   "awlaw-sg": {
     "_failed": true,
@@ -15601,6 +15624,19 @@
     "firm_name": "Studio Legale Avv. Luisa Polli",
     "reason": "Identite incertaine -- une source tierce suggere un rattachement a un autre studio (Yasar Ravi), jamais confirme par une source primaire, aucun site propre identifie"
   },
+  "lukaswiget.ch": {
+    "canton": "ZH",
+    "email": "wiget@lukaswiget.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Schifflände 22",
+    "founding_year": 2009,
+    "phone": "+41 43 543 80 50",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Miet- und Pachtrecht"
+    ],
+    "source_url": "https://www.lukaswiget.ch/en/contact"
+  },
   "luksundvogt.ch": {
     "canton": "ZH",
     "email": "mail@luksundvogt.ch",
@@ -19968,6 +20004,31 @@
     ],
     "source_url": "http://www.rutschilaw.ch/"
   },
+  "rw-legal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Weidmann",
+    "founding_year": 1995,
+    "practice_areas_de": [
+      "Familien- und Erbrecht",
+      "Strafverteidigung"
+    ],
+    "source_url": "https://rw-legal.ch/team/index"
+  },
+  "rwflegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Beethovenstr. 41",
+    "phone": "+41 (0) 44 287 80 20",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Ausländerrecht",
+      "Erb- und Nachlassrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "http://www.rwflegal.ch/Kontakt.html"
+  },
   "rwra.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -21638,6 +21699,18 @@
       "Prozessführung"
     ],
     "source_url": "https://www.ssrlaw.ch/luzerner-rechtsanwaelte/thomas-rebsamen"
+  },
+  "sswlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bickelstr. 3",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Bau- und Planungsrecht",
+      "Umweltrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.sswlaw.ch/walter"
   },
   "stach.ch": {
     "canton": "SG",
@@ -23506,6 +23579,13 @@
     ],
     "source_url": "https://urbach-law.inolawyer.com/en"
   },
+  "urech-g49-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokatur G49",
+    "reason": "Daniel Urech trouve exercant a Dornach (canton Soleure), aucun lien avec un cabinet Advokatur G49 a Zurich"
+  },
   "urkundsperson.ch": {
     "canton": "ZH",
     "email": "info@urkundsperson.ch",
@@ -24365,6 +24445,12 @@
     ],
     "source_url": "https://www.weber-arbitration.ch/"
   },
+  "weber-klosbachstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Klosbachstr. 7",
+    "source_url": "https://www.legaly.ch/de/anwaltskanzlei/11609-anwaltskanzlei-oliver-weber"
+  },
   "weber-legal.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-09",
@@ -24414,6 +24500,13 @@
     "firm_name": "weberlegal",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "weerasinghe-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Stockerstr. 9",
+    "phone": "043 344 08 85",
+    "source_url": "https://tel.search.ch/zuerich/stockerstrasse-9/susan-weerasinghe"
+  },
   "wehland-arbitration.com": {
     "canton": "ZH",
     "email": "hanno@wehland-arbitration.com",
@@ -24458,6 +24551,19 @@
       "Mediation"
     ],
     "source_url": "https://www.wehrleadvokatur.ch/"
+  },
+  "wehrli-zweierstrasse-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur David Wehrli",
+    "founding_year": 2013,
+    "practice_areas_de": [
+      "Kindes- und Erwachsenenschutzrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Opferhilfe"
+    ],
+    "source_url": "https://zweierstrasse.ch/team/david-wehrli/"
   },
   "wehrlipartner.ch": {
     "_failed": true,
@@ -24508,6 +24614,29 @@
     "checked_date": "2026-09-09",
     "firm_name": "WEINMANN ZIMMERLI Rechtsanwälte AG",
     "reason": "Site JS-only (Nuxt), aucun contenu exploitable dans le HTML statique (meme cause que l'entree existante weinmann-zimmerli.ch pour la ligne CSV 'Weinmann Zimmerli')"
+  },
+  "weiss-winterthur-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Tösstalstr. 23",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Bildungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Miet- und Pachtrecht",
+      "Steuer- und Abgaberecht",
+      "Werkvertrags- und Auftragsrecht"
+    ],
+    "source_url": "https://search.ch/tel/winterthur/toesstalstrasse-23/dr-iur-weiss-ulrich"
+  },
+  "weisshaupt-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Weisshaupt",
+    "reason": "seule une page CV peu accessible trouvee pour Monika Weisshaupt, aucun detail professionnel confirmable"
   },
   "wenfei.com": {
     "canton": "ZH",
@@ -24609,6 +24738,13 @@
     "firm_name": "WERNER BODENMANN\nRECHTSANWALT & ÖFFENTLICHER NOTAR",
     "reason": "HTTP 503 Service Unavailable (x2) sur ra-bodenmann.ch"
   },
+  "werner-schiffbaustr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Schiffbaustr. 7",
+    "reason": "aucun lien confirme entre Martin Werner (Baer & Karrer, autre adresse) et Schiffbau Rechtsanwaelte a Schiffbaustrasse 7"
+  },
   "wernlilaw.ch": {
     "canton": "ZH",
     "email": "office@wernlilaw.ch",
@@ -24629,6 +24765,15 @@
       "Vorsorgeauftrag und Patientenverfügung"
     ],
     "source_url": "https://wernlilaw.ch/"
+  },
+  "werren-zh": {
+    "canton": "ZH",
+    "email": "maitre.drhugo@gmx.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kreuzstr. 31/33",
+    "founding_year": 1991,
+    "phone": "044 251 00 91",
+    "source_url": "https://zip.ch/de/werren-hugo-dr-kreuzstrasse-zurich-rVDnPZOPJ0/"
   },
   "whr.ch": {
     "canton": "ZH",
@@ -24696,6 +24841,12 @@
     "source_url": "https://wickipartners.ch/",
     "team_size_n": 8
   },
+  "widmer-anwaltskanzlei.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei R. Widmer",
+    "source_url": "https://widmer-anwaltskanzlei.ch/"
+  },
   "widmer-baurecht.ch": {
     "canton": "ZH",
     "email": "kontakt@widmer-baurecht.ch",
@@ -24703,6 +24854,32 @@
     "firm_name": "Widmer Baurecht AG",
     "phone": "+41 43 530 09 27",
     "source_url": "https://widmer-baurecht.ch/kontakt/"
+  },
+  "wiederkehr-dietikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Vorstadtstr. 37",
+    "phone": "044 742 13 11",
+    "practice_areas_de": [
+      "Internationales Privatrecht",
+      "Betreibungs- und Konkursrecht",
+      "Zivilrecht",
+      "Verkehrsrecht",
+      "Vertragsrecht",
+      "Familien- und Scheidungsrecht"
+    ],
+    "source_url": "https://zip.ch/de/wiederkehr-peter-vorstadtstrasse-dietikon-A7JNwOGrEw/"
+  },
+  "wiedmer-scheidegger-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kempterstr. 5",
+    "founding_year": 1996,
+    "phone": "044 383 33 23",
+    "practice_areas_de": [
+      "Familienrecht"
+    ],
+    "source_url": "https://wiedmerkanzlei.ch/portrait/"
   },
   "wieduwilt.ch": {
     "canton": "ZH",
@@ -24746,12 +24923,34 @@
     "firm_name": "Advokatur Wieser & Wieser",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "wiget-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Dr. Wiget",
+    "founding_year": 2009,
+    "practice_areas_de": [
+      "Schiedsgerichtsbarkeit",
+      "Zivilprozessrecht",
+      "Zivilrecht",
+      "Handelsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "http://www.wiget-law.ch/Ueber-mich.htm"
+  },
   "wildisen-stniklausen-lu": {
     "_failed": true,
     "canton": "LU",
     "checked_date": "2026-09-10",
     "firm_name": "Advokatur und Notariat St.",
     "reason": "site kanzlei-kasernenplatz.ch inaccessible (HTTP 503, 2 tentatives) ; adresse St. Niklausen non confirmee"
+  },
+  "wildlex.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Seestr. 441",
+    "founding_year": 1995,
+    "phone": "044 483 00 80",
+    "source_url": "https://www.wildlex.ch/"
   },
   "wildschnyder.ch": {
     "canton": "ZH",

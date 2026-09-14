@@ -4611,3 +4611,30 @@ d'Elena Walder-Schiavone trouvé à une autre adresse, désormais Managing Partn
 
 Rattachement : 1400 études rattachées au total (1385 → 1400, +15). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 136)
+
+20 cabinets traités (17 succès / 3 échecs).
+
+Succès : Max Walter / SSW Rechtsanwälte (immobilier/construction-aménagement/environnement/
+contrats) ; Marian Gabriel Weber / Anwaltskanzlei Weber ; Oliver Weber (adresse confirmée) ;
+Suzanne Weerasinghe (tel) ; David Wehrli / Zweierstrasse Rechtsanwälte (**indépendant depuis
+2013**, protection de l'enfant et de l'adulte/famille/successions/aide aux victimes) ; Rolf
+Weidmann (**indépendant depuis 1995**, famille-successions/défense pénale) ; Ulrich Weiss
+(construction/éducation/mariage-concubinage/successions/responsabilité civile-assurances/bail-
+fermage/fiscal/contrats d'entreprise) ; Hugo Werren (**licence 1991**, tel/email) ; Regula Widmer
+/ Anwaltskanzlei R. Widmer ; Andreas Wiede / AW Corporate Legal Services (services/finance/
+énergie/voyage-aviation) ; Peter Wiederkehr (tel, DIP/poursuites-faillite/civil/circulation/
+contrats/famille-divorce) ; Ralph Wiedler Friedmann (tel, pénal/étrangers/successions/sociétés-
+commercial/divorce) ; Carol Wiedmer-Scheidegger (**indépendante depuis 1996**, tel, famille) ;
+Lukas Wiget (**licence 2009**, tel/email, contrats/bail) ; Matthias Wiget (**licence 2009**,
+arbitrage/procédure civile/civil/commercial/contrats) ; K. Bernard Wiki (tel/email) ; Benno Wild /
+Wild & Aebi (**licence 1995**, tel).
+
+Échecs (**pièges d'adresse/identité évités**) : Advokatur G49 (Daniel Urech exerce à Dornach, SO,
+aucun lien avec ce cabinet zurichois) ; Advokaturbüro Weisshaupt (Monika Weisshaupt, seule page CV
+peu accessible) ; Schiffbaustr. 7 (Martin Werner trouvé chez Bär & Karrer, aucun lien avec Schiffbau
+Rechtsanwälte).
+
+Rattachement : 1417 études rattachées au total (1400 → 1417, +17). Suite de tests : 94/94 au
+vert.
