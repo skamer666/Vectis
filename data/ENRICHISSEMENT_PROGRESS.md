@@ -4553,3 +4553,29 @@ introuvable) ; Tennmoosstr. 41 (Ernst Sturzenegger introuvable).
 
 Rattachement : 1369 études rattachées au total (1353 → 1369, +16). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 134)
+
+20 cabinets traités (16 succès / 4 échecs).
+
+Succès : Ulrich M. Stutz (commercial/contrats) ; Reto Andrea Surber / mediation-recht-surber.ch
+(adresse confirmée) ; Felix Suter (tel/email, successions/transport) ; Christian Sutter
+(obligations/bail/successions/personnalité/propriété intellectuelle/pénal, LL.M. Cornell) ; Franz
+Szolansky / Bratschi (tel/email, droit aérien) ; Thomas Tanyeli / Anwaltskanzlei Tanyeli
+(**fondée 2020**) ; Anita Thanei / Thanei & Bergmann (**indépendante depuis 1990**, tel, bail) ;
+Kathrin Thomann / Advokaturbüro Thomann (tel, civil/contrats/pénal/famille/divorce/travail/aide aux
+victimes/médiation) ; Ruadi Thöni / Advokatur Thöni Gysler (tel, divorce-séparation/pénal/
+étrangers) ; Andreas Tinner (tel/email, expropriation/vente/bail-fermage/contrats-services/
+construction) ; Felix Tobler (**cabinet propre depuis 2012**, tel/email, famille/successions) ;
+Corinne Todesco (**licence 2003**, tel, responsabilité civile/divorce/successions/travail/pénal) ;
+Stefan Tönz / Kanzlei Tönz GmbH (construction-immobilier/contrats, Fachanwalt SAV) ; Sabine Tormann
+(tel, Hinwil) ; Matthias Tschudi (**licence 2001**, immobilier-bail-construction/contrats) ; Jon
+Turnes / Advokatur Turnes (**fondée 2022**).
+
+Échecs (**pièges d'adresse/identité évités**) : Obstgartenstr. 7 (Peter Sulger Büel exerce
+désormais à Mammern, TG) ; Schulhausstr. 4 (Mirjam Teitler trouvée à Minervastrasse 99, désormais
+juriste interne) ; Usteristr. 10 (Florent Thouvenin, aucune adresse confirmée) ; Seestr. 258 (lien
+non confirmé entre l'adresse privée d'Oliver Tschirky et son profil professionnel).
+
+Rattachement : 1385 études rattachées au total (1369 → 1385, +16). Suite de tests : 94/94 au
+vert.

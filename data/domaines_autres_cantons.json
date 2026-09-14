@@ -12706,6 +12706,18 @@
     ],
     "source_url": "https://kanzlei-studer.ch/portrait"
   },
+  "kanzlei-suter.ch": {
+    "canton": "ZH",
+    "email": "suter@kanzlei-suter.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei",
+    "phone": "044 251 20 03",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Transportrecht"
+    ],
+    "source_url": "https://www.kanzlei-suter.ch/"
+  },
   "kanzlei-uster.ch": {
     "canton": "ZH",
     "email": "sekretariat@kanzlei-uster.ch",
@@ -12848,6 +12860,16 @@
       "Vertragsrecht"
     ],
     "source_url": "https://kanzleistaffelbach.ch/en/profil/"
+  },
+  "kanzleitoenz.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Tönz GmbH",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://www.kanzleitoenz.ch/"
   },
   "kanzley.ch": {
     "canton": "SG",
@@ -14227,6 +14249,18 @@
     "phone": "043 542 02 70",
     "source_url": "https://www.lawbird.ch/d6/de/kontakt.html",
     "team_size_n": 1
+  },
+  "lawcom.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Thöni",
+    "phone": "+41 44 212 73 80",
+    "practice_areas_de": [
+      "Scheidung und Trennung",
+      "Strafrecht",
+      "Ausländerrecht"
+    ],
+    "source_url": "http://www.lawcom.ch/taetigkeit.html"
   },
   "lawdvice.ch": {
     "canton": "ZH",
@@ -22196,6 +22230,16 @@
     "firm_name": "Tennmoosstr. 41",
     "reason": "aucune information trouvee pour Ernst Sturzenegger a cette adresse"
   },
+  "stutz-forchstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Forchstr. 2",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.jurata.ch/anwalt/ulrich-stutz"
+  },
   "suenderhauf-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -22209,6 +22253,19 @@
     "checked_date": "2026-09-08",
     "firm_name": "Suenderhauf Sax Schäfer",
     "reason": "Communaute de 3 avocats totalement independants, chacun avec son propre site (esax.ch, gschaefer.ch) -- aucun site commun du cabinet, aucun tel/email de cabinet a inventer"
+  },
+  "sulgerbuel-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Obstgartenstr. 7",
+    "reason": "Peter Sulger Buel exerce desormais a Mammern (canton Thurgovie), aucune adresse zurichoise confirmee"
+  },
+  "surber-mediation-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Ostbühlstr. 88",
+    "source_url": "https://www.mediation-recht-surber.ch/"
   },
   "suter.legal": {
     "_failed": true,
@@ -22237,6 +22294,20 @@
     "checked_date": "2026-09-10",
     "firm_name": "Sutter & Camenzind Rechtsanwälte",
     "reason": "Aucun site officiel identifie (seule source : annuaire tiers mcadvo.ch) ; adresse divergente de celle du CSV (Untertor 11 vs Sulzer-Hirzel-Str. 6, Winterthour) ; pas d'email"
+  },
+  "sutterrechtsanwalt.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Birmensdorferstr. 55",
+    "practice_areas_de": [
+      "Obligationenrecht",
+      "Mietrecht",
+      "Erbrecht",
+      "Persönlichkeitsrecht",
+      "Immaterialgüterrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.sutterrechtsanwalt.ch/"
   },
   "sv-law.ch": {
     "canton": "ZH",
@@ -22557,6 +22628,17 @@
     "source_url": "https://szlaw.ch/",
     "team_size_n": null
   },
+  "szolansky-zh": {
+    "canton": "ZH",
+    "email": "franz.szolansky@bratschi.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Limmatquai 112",
+    "phone": "+41 58 258 10 00",
+    "practice_areas_de": [
+      "Luftfahrtrecht"
+    ],
+    "source_url": "https://www.bratschi.ch/anwalt/franz-szolansky.html"
+  },
   "taadvisory.law#ZH": {
     "_failed": true,
     "canton": "ZH",
@@ -22592,6 +22674,13 @@
     "firm_name": "Anwaltskanzlei Tanner, Geschäftshaus Letten",
     "phone": "+41 61 508 12 31",
     "source_url": "https://tanner.law/"
+  },
+  "tanyeli.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "ANWALTSKANZLEI TANYELI",
+    "founding_year": 2020,
+    "source_url": "https://tanyeli.ch/en"
   },
   "taormina-law.ch": {
     "canton": "ZH",
@@ -22756,6 +22845,13 @@
     "phone": "+41 71 260 24 40",
     "source_url": "https://www.teichmann-law.ch/en/st-gallen/lawyer-fabian-teichmann.html"
   },
+  "teitler-schulhausstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Schulhausstr. 4",
+    "reason": "adresse trouvee pour Mirjam Teitler (Minervastrasse 99) differe de celle du CSV ; elle est juriste interne au Verband Schweizer Medien depuis 2015"
+  },
   "tenchio.ch": {
     "_failed": true,
     "canton": "GR",
@@ -22776,6 +22872,17 @@
     "checked_date": "2026-09-09",
     "firm_name": "Terekhov Law",
     "reason": "HTTP 403 Forbidden (x2)"
+  },
+  "thanei-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Thanei",
+    "founding_year": 1990,
+    "phone": "+41 43 322 07 55",
+    "practice_areas_de": [
+      "Mietrecht"
+    ],
+    "source_url": "https://thaneibergmann.ch/"
   },
   "themis-legal.ch": {
     "canton": "ZH",
@@ -22882,6 +22989,30 @@
     "phone": "+41 43 399 57 57",
     "source_url": "https://thmeier-law.ch/"
   },
+  "thomannlaw.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Thomann",
+    "phone": "+41 44 500 16 30",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Strafrecht",
+      "Familienrecht",
+      "Scheidungsrecht",
+      "Arbeitsrecht",
+      "Opferhilferecht",
+      "Mediation"
+    ],
+    "source_url": "https://thomannlaw.ch/"
+  },
+  "thouvenin-usteristr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Usteristr. 10",
+    "reason": "aucune adresse Usteristrasse confirmee pour Florent Thouvenin (professeur UZH et associe chez Thouvenin Rechtsanwaelte)"
+  },
   "thouvenin.com": {
     "canton": "ZH",
     "fetched_date": "2026-07-23",
@@ -22919,6 +23050,21 @@
     "practice_areas_fr": [],
     "source_url": "https://timesattorneys.ch/",
     "team_size_n": null
+  },
+  "tinner-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "email": "tinner@tinner-rechtsanwalt.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Lindstr. 28",
+    "phone": "052 212 20 01",
+    "practice_areas_de": [
+      "Enteignungsrecht",
+      "Kaufvertragsrecht",
+      "Miet- und Pachtrecht",
+      "Vertrags- und Dienstleistungsrecht",
+      "Baurecht"
+    ],
+    "source_url": "https://tel.search.ch/winterthur/lindstrasse-28/andreas-tinner"
   },
   "tls-partner.ch": {
     "canton": "LU",
@@ -22986,6 +23132,34 @@
     "firm_name": "TM & Partner Rechtsanwälte",
     "reason": "Aucune correspondance trouvee pour Timothy Müller / TM & Partner a Wettswil ; aucun site officiel identifie"
   },
+  "tobler-law.ch": {
+    "canton": "ZH",
+    "email": "tobler@tobler-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Tobler",
+    "founding_year": 2012,
+    "phone": "044 251 50 90",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://tobler-law.ch/willkommen/einleitung/felix-tobler/"
+  },
+  "todesco-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Kasernenstr. 24",
+    "founding_year": 2003,
+    "phone": "043 422 98 00",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Scheidungsrecht",
+      "Erb- und Nachlassrecht",
+      "Arbeitsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.todesco-law.ch/"
+  },
   "toedtli.law": {
     "canton": "SZ",
     "email": "info@toedtli.law",
@@ -23002,6 +23176,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "et lic. oec. HSG Advokatur Marco Toller",
     "reason": "Marco Toller a rejoint Kunz Schmid en 2020 ; adresse Teuchelweg 25 potentiellement obsolete, aucun site propre actuel"
+  },
+  "tormann-hinwil-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Wiesenstr. 8",
+    "phone": "043 268 56 11",
+    "source_url": "https://fragdenanwalt.ch/anwalt/hinwil-rechtsanwaeltin-frau-tormann-zuerich"
   },
   "torricelli-zveiger-ti-2": {
     "_failed": true,
@@ -23142,6 +23323,13 @@
     "firm_name": "Truttmann Law",
     "reason": "site truttmann-law.ch ne confirme pas l'adresse CSV (Tannbergstrasse 10, Schenkon) ; seuls Luzern/Sursee mentionnes"
   },
+  "tschirky-seestr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Seestr. 258",
+    "reason": "lien non confirme entre l'adresse privee (Seestrasse 258, Horgen) et le profil professionnel d'Oliver Tschirky (Senior Legal Counsel, The Contract Centre)"
+  },
   "tschopp-kanzlei.ch": {
     "canton": "NW",
     "fetched_date": "2026-09-13",
@@ -23158,6 +23346,17 @@
       "Verwaltungsrecht"
     ],
     "source_url": "https://www.tschopp-kanzlei.ch/"
+  },
+  "ttlegal.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Dr. Tschudi",
+    "founding_year": 2001,
+    "practice_areas_de": [
+      "Immobilien-, Miet- und Baurecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.ttlegal.ch/matthias-tschudi"
   },
   "tufflibaurecht.ch": {
     "canton": "ZH",
@@ -23196,6 +23395,13 @@
       "Mediation"
     ],
     "source_url": "https://turicum-legal.ch/"
+  },
+  "turnes-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur G49",
+    "founding_year": 2022,
+    "source_url": "https://www.moneyhouse.ch/en/company/advokatur-turnes-21266582861"
   },
   "ueberschlaglaw.ch": {
     "canton": "LU",
