@@ -2976,6 +2976,20 @@
     "source_url": "https://www.anwalturi.ch/",
     "team_size_n": 3
   },
+  "anwaltuster.ch": {
+    "canton": "ZH",
+    "email": "tomas.kempf@anwaltuster.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Webernstr. 5",
+    "phone": "044 940 26 06",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Haftpflichtversicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht"
+    ],
+    "source_url": "https://anwaltuster.ch/"
+  },
   "anwander-walser-ar": {
     "canton": "AR",
     "fetched_date": "2026-09-13",
@@ -3577,6 +3591,13 @@
     ],
     "source_url": "https://www.baerkarrer.ch/en/about",
     "team_size_n": 200
+  },
+  "baerkarrer.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Brandschenkestr. 90",
+    "founding_year": 1969,
+    "source_url": "https://www.baerkarrer.ch/de/ueber-uns"
   },
   "baerkarrer.ch#TI": {
     "canton": "TI",
@@ -8520,6 +8541,20 @@
     ],
     "source_url": "https://fischer-rechtsanwaelte.ch/"
   },
+  "fischer-rechtsanwaelte.ch#2": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "c/o Fischer Rechtsanwälte AG",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Strafrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://fischer-rechtsanwaelte.ch/team/nadia-jaeggi"
+  },
   "fischer-wirz-bl": {
     "_failed": true,
     "canton": "BL",
@@ -10872,6 +10907,21 @@
     "firm_name": "Hofmann Law",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "hofstetter-law.ch": {
+    "canton": "ZH",
+    "email": "andrin.hofstetter@hofstetter-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Schaffhauserstr. 15",
+    "founding_year": 2005,
+    "phone": "+41435432245",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Vertragsrecht",
+      "Verfahrensrecht"
+    ],
+    "source_url": "https://www.hofstetter-law.ch/"
+  },
   "hofstetteradvokatur.ch": {
     "canton": "LU",
     "fetched_date": "2026-07-29",
@@ -10991,6 +11041,17 @@
     "firm_name": "Anwaltskanzlei Höngg",
     "reason": "HTTP 403 Forbidden"
   },
+  "hotz-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Englischviertelstr. 10",
+    "phone": "044 260 87 21",
+    "practice_areas_de": [
+      "Medizinrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.med-fam-law.ch/"
+  },
   "houlmann-law.ch": {
     "canton": "ZH",
     "email": "houlmann@houlmann-law.ch",
@@ -11079,6 +11140,13 @@
     ],
     "source_url": "https://www.htlaw.ch/"
   },
+  "hubatka-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Rigistr. 52",
+    "reason": "aucune information trouvee pour Margret Hubatka a cette adresse (seule une Hubatka homonyme a Altstätten SG trouvee, sans lien)"
+  },
   "hubertachermann.ch": {
     "canton": "LU",
     "email": "hubertachermann@lunag.ch",
@@ -11130,6 +11198,20 @@
     ],
     "source_url": "https://hugelshofer-law.com/en/",
     "team_size_n": 3
+  },
+  "hunziker-wallisellen-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Röslistr. 10",
+    "founding_year": 1981,
+    "practice_areas_de": [
+      "Erbrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Arbeitsrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "http://www.rechtsanwaelte-rabenhaus.ch/de/Team.aspx?id=George_Hunziker"
   },
   "huplaw.ch": {
     "canton": "ZH",
@@ -11555,6 +11637,18 @@
     ],
     "source_url": "https://www.ixar.ch/contact"
   },
+  "jabbour.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Holzgasse 4",
+    "practice_areas_de": [
+      "Finanzmarkt- und Bankenrecht",
+      "Markenrecht",
+      "Mietrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://jabbour.ch/"
+  },
   "jackson-arnoldi-decristophoris-ti": {
     "_failed": true,
     "canton": "TI",
@@ -11568,6 +11662,13 @@
     "checked_date": "2026-09-10",
     "firm_name": "Studio legale Jackson & Arnoldi",
     "reason": "Identite confirmee (Paola Arnoldi, Via Domenico Fontana 14, Lugano) mais aucun site officiel du cabinet identifie"
+  },
+  "jacob-siradakis-felsenstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Felsenstr. 8",
+    "reason": "adresse trouvee (Weinbergstrasse 18) differe de celle du CSV (Felsenstrasse 8)"
   },
   "jaegerlegal.ch": {
     "canton": "ZH",
@@ -11721,6 +11822,13 @@
     "firm_name": "Jenni Rechtsanwalt",
     "reason": "piege d'identite evite -- Harald Jenni exerce desormais chez Advokaturbureau Brunner & Dudli a une autre adresse (Hinterlauben 12), continuite non confirmee pour l'entite CSV solo"
   },
+  "jenny-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Birmensdorferstr. 13",
+    "reason": "aucune information trouvee pour Marie Jenny comme avocate a cette adresse"
+  },
   "jermann-dr-bl": {
     "_failed": true,
     "canton": "BL",
@@ -11782,6 +11890,17 @@
     "firm_name": "Jörger Law GmbH",
     "reason": "HTTP 403 Forbidden"
   },
+  "jolles-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Neptunstr. 2",
+    "practice_areas_de": [
+      "Prozessführung und Schiedsgerichtsbarkeit",
+      "Nachlassplanung",
+      "Kunstrecht"
+    ],
+    "source_url": "https://www.swlegal.com/en/lawyers/lawyer-detail/alexander-jolles/"
+  },
   "jonathan-moor-ti": {
     "_failed": true,
     "canton": "TI",
@@ -11795,6 +11914,14 @@
     "checked_date": "2026-09-11",
     "firm_name": "Advokaturbüro Dr. iur. Hans Joos Plazza da",
     "reason": "aucun site officiel propre identifie"
+  },
+  "jordilaw.ch": {
+    "canton": "ZH",
+    "email": "urs.jordi@jordilaw.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Lägernstr. 2",
+    "phone": "044 813 61 96",
+    "source_url": "https://tel.search.ch/kloten/laegernstrasse-2/urs-jordi-2.de.html"
   },
   "joseph-koch-sg": {
     "_failed": true,
@@ -11822,6 +11949,19 @@
     "source_url": "https://www.jovovic.ch/",
     "team_size_n": 1
   },
+  "jucker-ritterstr-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Ritterstr. 6",
+    "phone": "044 262 11 94",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Steuer- und Abgaberecht",
+      "Handelsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.jurata.ch/de/anwalt/peter-jucker"
+  },
   "jucker.attorney": {
     "canton": "ZH",
     "email": "kanzlei@jucker.attorney",
@@ -11844,6 +11984,19 @@
     "firm_name": "Judith Naef Rechtsanwälte AG",
     "phone": "+41 44 714 72 22",
     "source_url": "https://www.judithnaef.ch/kontakt"
+  },
+  "juesi-wetzikon-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Usterstr. 17",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Asyl- und Migrationsrecht"
+    ],
+    "source_url": "https://www.juesi.ch/about"
   },
   "juram.ch": {
     "canton": "ZH",
@@ -11938,6 +12091,23 @@
     "phone": "+41 44 202 50 22",
     "source_url": "https://www.kaempfenlegal.ch/de"
   },
+  "kaenzig-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Aemtlerstr. 110",
+    "phone": "044 461 33 33",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Bankenrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Betreibungs- und Konkursrecht",
+      "Wirtschaftsstrafrecht"
+    ],
+    "source_url": "https://www.legaly.ch/anwalt/15591-reto-b-kanzig"
+  },
   "kaiser-rechtsanwalt.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-10",
@@ -12008,6 +12178,17 @@
       "St.Gallisches Bau-, Planungs-, Strassenrecht und Umweltschutzrecht"
     ],
     "source_url": "https://www.kamberadvokatur.ch/portrait/"
+  },
+  "kanavas.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Dorfstr. 39",
+    "phone": "+41 (0)44 793 39 30",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.kanavas.ch/"
   },
   "kanonengasse.ch": {
     "canton": "ZH",
@@ -12354,6 +12535,13 @@
     ],
     "source_url": "https://www.kanzley.ch/"
   },
+  "kapp-kilchberg-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Seehaldenstr. 11",
+    "reason": "aucune coordonnee ni adresse precise trouvee pour Andreas Kapp a Kilchberg"
+  },
   "kasernenstr15-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -12446,6 +12634,13 @@
     "notes": "Meme cabinet que kellerhals-carrard.ch (ZH) et #BS -- bureau de Lugano. Chiffre (600 avocats) global au cabinet, pas specifique au bureau tessinois.",
     "source_url": "https://kellerhals-carrard.ch/",
     "team_size_n": 600
+  },
+  "kellerhals-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Predigergasse 10",
+    "reason": "Andreas Kellerhals exerce desormais a Bale (SwissLegal Dürr + Partner), aucune adresse Predigergasse confirmee"
   },
   "kellerlehmann-lu": {
     "canton": "LU",
@@ -16520,6 +16715,14 @@
     "source_url": "https://pestalozzilaw.com/en",
     "team_size_n": null
   },
+  "peter-imdorf-rechtsanwalt.ch": {
+    "canton": "ZH",
+    "email": "info@peter-imdorf-rechtsanwalt.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Zentralstr. 167",
+    "phone": "+41 79 667 93 66",
+    "source_url": "https://peter-imdorf-rechtsanwalt.ch/"
+  },
   "peter-schumacher-mels-sg": {
     "_failed": true,
     "canton": "SG",
@@ -17034,6 +17237,20 @@
       "Wirtschaftsstrafrecht"
     ],
     "source_url": "https://www.ra-aebi.ch/"
+  },
+  "ra-holenstein.ch": {
+    "canton": "ZH",
+    "email": "holenstein@ra-holenstein.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Brandschenkestr. 51",
+    "founding_year": 2004,
+    "phone": "+41 44 552 63 60",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Werk- und Vertragsrecht",
+      "Sachenrecht"
+    ],
+    "source_url": "https://ra-holenstein.ch/"
   },
   "ra-kost.ch": {
     "canton": "LU",

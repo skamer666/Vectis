@@ -4299,3 +4299,25 @@ Freiherrenstr. 3/Wädenswil (Markus Hess sans adresse professionnelle confirmée
 
 Rattachement : 1227 études rattachées au total (1214 → 1227, +13). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 124)
+
+20 cabinets traités (15 succès / 5 échecs).
+
+Succès : Andrin Hofstetter (**licence 2005**, tel/email, 4 domaines) ; Markus Holenstein
+(**licence 2004**, tel/email, 3 domaines) ; Sandra Hotz (tel, 2 domaines, professeure Neuchâtel) ;
+George Hunziker (**licence 1981**, 5 domaines) ; Peter Imdorf (tel/email) ; Ivan Jabbour (4
+domaines) ; Nadia Jäggi (dédoublonnée avec Fischer Rechtsanwälte AG déjà en cache, 6 domaines) ;
+Alexander Jolles (Schellenberg Wittmer, prozessführung/nachlassplanung/kunstrecht) ; Dr. Urs Jordi
+(tel/email) ; Peter Jucker (tel, 4 domaines, 37 ans d'expérience) ; Bernhard Jüsi (5 domaines) ;
+Elena Kanavas (tel, Fachanwältin SAV Familienrecht) ; Reto B. Känzig (tel, 8 domaines) ; Bär &
+Karrer AG (dédoublonné, **fondée 1969** par Thomas Bär et Robert Karrer) ; Tomas Kempf (tel/email,
+4 domaines).
+
+Échecs (**pièges d'adresse/identité évités**) : Rigistr. 52 (Margret Hubatka introuvable) ;
+Felsenstr. 8 (Cornelia Jacob Siradakis trouvée à Weinbergstrasse 18) ; Birmensdorferstr. 13 (Marie
+Jenny introuvable) ; Seehaldenstr. 11/Kilchberg (Andreas Kapp sans coordonnées précises) ;
+Predigergasse 10 (Andreas Kellerhals exerce désormais à Bâle).
+
+Rattachement : 1242 études rattachées au total (1227 → 1242, +15). Suite de tests : 94/94 au
+vert.
