@@ -1151,6 +1151,20 @@
     "firm_name": "advokatur schödler",
     "reason": "site inaccessible (timeout puis HTTP 503, 3 tentatives)"
   },
+  "advokatur-slama.ch": {
+    "canton": "ZH",
+    "email": "info@advokatur-slama.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokatur Karolina Slama",
+    "phone": "044 260 80 57",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Gesellschafts- und Unternehmensrecht",
+      "Kindes- und Erwachsenenschutzrecht"
+    ],
+    "source_url": "https://www.advokatur-slama.ch/"
+  },
   "advokatur-staub.ch": {
     "canton": "SG",
     "email": "kanzlei@advokatur-staub.ch",
@@ -2094,6 +2108,21 @@
     "reason": "HTTP 503 Service Unavailable au fetch",
     "tested_date": "2026-09-07"
   },
+  "akws-law.ch#2": {
+    "canton": "ZH",
+    "email": "schilter@akws-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Acocella Keller Wolf Schilter",
+    "founding_year": 2005,
+    "phone": "+41 41 811 77 01",
+    "practice_areas_de": [
+      "Handels- und Privatrecht",
+      "Sozialversicherungsrecht",
+      "Haftpflichtrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "http://www.akws-law.ch/de/Anwaelte/Arthur-Schilter"
+  },
   "albers-law.com": {
     "canton": "ZH",
     "email": "albers-law@bluewin.ch",
@@ -3025,6 +3054,14 @@
       "Wirtschaftsmediation"
     ],
     "source_url": "https://anwaltskanzlei-ramuz.ch/"
+  },
+  "anwaltskanzlei-schwarz.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Schwarz",
+    "founding_year": 2006,
+    "phone": "044 200 60 70",
+    "source_url": "https://www.anwaltskanzlei-schwarz.ch/"
   },
   "anwaltskanzlei-zuercher.ch": {
     "canton": "SG",
@@ -12831,6 +12868,15 @@
     "firm_name": "K & B Rechtsanwälte",
     "reason": "HTTP 503 Service Unavailable (x2)"
   },
+  "kcs-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Bergstr. 189",
+    "practice_areas_de": [
+      "Berufliche Vorsorge"
+    ],
+    "source_url": "https://kcs-law.ch/kontakt/"
+  },
   "keller-law.ch": {
     "canton": "ZH",
     "email": "office@keller-law.ch",
@@ -20634,6 +20680,26 @@
     "firm_name": "Schuhmacher Weber Rechtsanwälte",
     "reason": "Aucun cabinet correspondant a ce nom exact trouve (seuls des cabinets homonymes partiels 'Weber' sans rapport)"
   },
+  "schuler-talacker-zh": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Talacker 50",
+    "practice_areas_de": [
+      "Gesellschafts- und Handelsrecht",
+      "Steuerrecht",
+      "Zivilrecht",
+      "Notariat",
+      "Erb- und Nachfolgerecht"
+    ],
+    "source_url": "https://zuri.net/de/zurich/dienstleistungen/dr-manfred-schuler-7992.htm"
+  },
+  "schulthess-aufdergrueb-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Auf der Grueb 26",
+    "reason": "adresse trouvee pour Hans Conrad Schulthess (Kapfsteig 69) differe de celle du CSV (Auf der Grueb 26)"
+  },
   "schumacherrecht.ch": {
     "canton": "LU",
     "email": "pius@schumacherrecht.ch",
@@ -20725,6 +20791,22 @@
     ],
     "source_url": "https://www.scope.law/kontakt?lang=en"
   },
+  "sedo-law.ch": {
+    "canton": "ZH",
+    "email": "sedo@sedo-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Cinthia Sedo",
+    "founding_year": 2004,
+    "phone": "043 497 25 14",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Scheidungsrecht",
+      "Arbeitsrecht",
+      "Ausländerrecht",
+      "Erb- und Nachlassrecht"
+    ],
+    "source_url": "https://www.sedo-law.ch/team"
+  },
   "seidelpartner.ch": {
     "canton": "ZH",
     "email": "info@seidelpartner.ch",
@@ -20746,6 +20828,36 @@
     "firm_name": "Seidenstrasse 2",
     "phone": "055 451 50 55",
     "source_url": "https://search.ch/tel/lachen/seidenstrasse-2/fleischli-burlet-rechtsanwaelte"
+  },
+  "seilerimmobilienrecht.ch": {
+    "canton": "ZH",
+    "email": "info@seilerimmobilienrecht.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltsbüro Seiler",
+    "founding_year": 2018,
+    "phone": "+41 43 444 02 48",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Mietrecht",
+      "Baurecht",
+      "Stockwerkeigentum",
+      "Nachbarrecht"
+    ],
+    "source_url": "https://seilerimmobilienrecht.ch/about"
+  },
+  "seitz-gotthardstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Gotthardstr. 56",
+    "reason": "adresse trouvee pour Riccardo Seitz (Ackermannstrasse 25) differe de celle du CSV (Gotthardstrasse 56)"
+  },
+  "sejdini-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Advokatur Sejdini",
+    "reason": "Fedaije Sejdini exerce a Bale (divortis AG), aucune pratique confirmee a Zurich"
   },
   "sennadvokatur.ch": {
     "canton": "BL",
@@ -20787,6 +20899,13 @@
       "Handels- und Gesellschaftsrecht"
     ],
     "source_url": "https://senserlaw.ch/"
+  },
+  "serismeili-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Bahnhofplatz 9",
+    "reason": "seule une ancienne fiche d'annuaire (2010) trouvee, aucune confirmation de la profession d'avocate"
   },
   "sesslerweg11-kilchberg-zh": {
     "_failed": true,
@@ -20866,6 +20985,27 @@
     "firm_name": "SIEBER RECHTSANWÄLTE",
     "reason": "HTTP 404 Not Found sur plusieurs chemins (racine, /ueber-uns/, /rechtsanwaelte/) -- site probablement hors service"
   },
+  "sieberluescher-recht.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Geschäftshaus Hirschen / Schönenbergstr. 2",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Mietrecht",
+      "Nachbarrecht",
+      "Mediation"
+    ],
+    "source_url": "https://www.sieberluescher-recht.ch/"
+  },
+  "siegrist-advokatur.ch": {
+    "canton": "ZH",
+    "email": "sigi@siegrist-advokatur.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Advokaturbüro Dr. Robert Siegrist",
+    "founding_year": 2014,
+    "phone": "044 433 03 03",
+    "source_url": "https://siegrist-advokatur.ch/de/portrait.html"
+  },
   "sigerist-eva-soldati-lu": {
     "_failed": true,
     "canton": "LU",
@@ -20906,6 +21046,21 @@
     "practice_areas_fr": [],
     "source_url": "https://www.silk-rechtsanwaelte.ch/en/firm/",
     "team_size_n": null
+  },
+  "simic-law.ch": {
+    "canton": "ZH",
+    "email": "simic@simic-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Simic",
+    "phone": "+41 44 206 40 20",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Ausländerrecht",
+      "Arbeitsrecht"
+    ],
+    "source_url": "https://www.simic-law.ch/en/contact/"
   },
   "simmen-rechtsanwaelte-zh": {
     "_failed": true,
@@ -21081,6 +21236,13 @@
     "source_url": "https://www.snplegal.com/en/fachgebiete/",
     "team_size_n": null
   },
+  "socchi-bellerivestr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Bellerivestr. 28",
+    "reason": "seule Caroline B. Ferber trouvee a Bellerivestrasse 207, nom et adresse ne correspondent pas au CSV"
+  },
   "sojalaw.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -21094,12 +21256,42 @@
     ],
     "source_url": "https://sojalaw.ch/"
   },
+  "solarsky-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Obere Schöntalstr. 46",
+    "reason": "Viràg Solarsky identifiee comme fondee de pouvoir chez CBC Treuhand AG, profession d'avocate non confirmee"
+  },
   "solenthaler-sg": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-10",
     "firm_name": "Solenthaler Legal",
     "reason": "HTTP 503 Service Unavailable (x2) sur solegal.ch"
+  },
+  "somloa.ch": {
+    "canton": "ZH",
+    "email": "christoph.schwyn@somloa.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Lagerstr. 33",
+    "phone": "+41 78 703 04 60",
+    "source_url": "http://www.somloa.ch/"
+  },
+  "sommer-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Rennweg 10",
+    "founding_year": 1992,
+    "phone": "+41 44 500 49 75",
+    "practice_areas_de": [
+      "Steuer- und Abgaberecht",
+      "Erb- und Nachfolgerecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Konkurs- und Betreibungsrecht",
+      "Personen-, Vereins- und Stiftungsrecht"
+    ],
+    "source_url": "https://sommer-law.ch/"
   },
   "soufislaw.ch": {
     "canton": "ZH",
@@ -21130,6 +21322,13 @@
     ],
     "source_url": "https://www.sozialhilfeberatung.ch/ueber-uns"
   },
+  "spahni-forchstr-zh": {
+    "_failed": true,
+    "canton": "ZH",
+    "checked_date": "2026-09-14",
+    "firm_name": "Forchstr. 149",
+    "reason": "adresse trouvee pour Thomas Spahni (Florastrasse 44) differe de celle du CSV (Forchstrasse 149)"
+  },
   "sperling-legal.ch": {
     "canton": "ZH",
     "email": "kotrba@sperling-legal.ch",
@@ -21145,6 +21344,21 @@
     "checked_date": "2026-09-09",
     "firm_name": "Advokatur Ackermann Mathys, Spittelerhof",
     "reason": "Verification anti-bot (page de chargement 'Please wait while your request is being verified'), aucun contenu exploitable"
+  },
+  "spoerri-law.ch": {
+    "canton": "ZH",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Anwaltskanzlei Eva Spoerri",
+    "founding_year": 2019,
+    "phone": "044 545 16 66",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Vertragsrecht",
+      "Zivilrecht",
+      "Verfahrensrecht"
+    ],
+    "source_url": "https://www.spoerri-law.ch/kontakt"
   },
   "sprecher-langwies-gr": {
     "_failed": true,

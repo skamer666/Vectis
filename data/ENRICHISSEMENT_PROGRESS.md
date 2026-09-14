@@ -4499,3 +4499,32 @@ Schnoor) ; Am Schanzengraben 27 (Gunther Schreiber introuvable).
 
 Rattachement : 1340 études rattachées au total (1328 → 1340, +12). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 132)
+
+20 cabinets traités (13 succès / 7 échecs). Correction d'une omission du lot 131 : Arthur Schilter
+(Acocella Keller Wolf Schilter) avait été écarté à tort car le domaine `akws-law.ch` existait déjà
+en cache -- mais sous une entrée `_failed` pour le canton SZ (HTTP 503), pas ZH. Rattaché
+correctement ici sous `akws-law.ch#2`.
+
+Succès : Arthur Schilter (**partenaire depuis 2005**, email/tel, commercial/privé/assurances
+sociales/responsabilité civile/public) ; Manfred Schuler (sociétés/commercial/fiscal/civil/
+notariat/successions) ; Nicolas Schwarz (**indépendant depuis 2006**, tel) ; Kurt C. Schweizer
+(prévoyance professionnelle) ; Christoph Schwyn (tel/email) ; Cinthia Sedo (**licence 2004**, tel/
+email, mariage-concubinage/divorce/travail/étrangers/successions) ; Alexander Seiler (**depuis
+2018**, tel/email, immobilier/bail/construction/PPE/voisinage) ; Martina Sieber Lüscher (famille/
+bail/voisinage/médiation) ; Robert Siegrist (**propriétaire depuis 2014**, tel/email) ; Aleksandar
+Simic (tel/email, famille/pénal/contrats/étrangers/travail) ; Karolina Slama (tel/email, travail/
+mariage-concubinage/sociétés/protection de l'enfant et de l'adulte) ; Karl Sommer (**licence 1992**,
+tel, fiscal/successions/sociétés/poursuites-faillite/personnes-associations-fondations) ; Eva Maria
+Spoerri (**fondée 2019**, tel, travail/sociétés-commercial/contrats/civil/procédure).
+
+Échecs (**pièges d'adresse/identité évités**) : Auf der Grueb 26 (Hans Conrad Schulthess trouvé à
+Kapfsteig 69) ; Gotthardstr. 56 (Riccardo Seitz trouvé à Ackermannstrasse 25) ; Advokatur Sejdini
+(Fedaije Sejdini exerce à Bâle) ; Bahnhofplatz 9 (fiche d'annuaire de 2010, profession non
+confirmée) ; Bellerivestr. 28 (seule Caroline B. Ferber trouvée à une autre adresse) ; Obere
+Schöntalstr. 46 (Viràg Solarsky fondée de pouvoir chez CBC Treuhand, pas avocate) ; Forchstr. 149
+(Thomas Spahni trouvé à Florastrasse 44).
+
+Rattachement : 1353 études rattachées au total (1340 → 1353, +13). Suite de tests : 94/94 au
+vert.
