@@ -5682,6 +5682,16 @@
     "source_url": "https://www.bmalegal.ch/en",
     "team_size_n": 11
   },
+  "bmalegal.ch#2": {
+    "canton": "TI",
+    "email": "info@bmalegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale BMA Brunoni Mottis & Associati Studio legale SA",
+    "founding_year": 2009,
+    "phone": "+41 91 911 95 50",
+    "source_url": "https://www.bmalegal.ch/en",
+    "team_size_n": 11
+  },
   "bmbg.ch": {
     "canton": "UR",
     "email": "mail@bmbg.ch",
@@ -5863,6 +5873,14 @@
       "Arbitrage et procédure"
     ],
     "source_url": "https://bns.legal/"
+  },
+  "bnta.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Barchi Nicoli Trisconi e Associati SA",
+    "founding_year": 1958,
+    "phone": "091 912 20 00",
+    "source_url": "https://bnta.ch/"
   },
   "bodensee-legal.ch": {
     "canton": "SG",
@@ -6332,6 +6350,14 @@
       "Notariat"
     ],
     "source_url": "https://brunett.ch/"
+  },
+  "brunetti-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Avv. dott. Elio Brunetti",
+    "phone": "091 923 60 28",
+    "source_url": "https://www.legaly.ch/it/studio-legale/803-studio-legale-avv-dott-elio-brunetti",
+    "team_size_n": 3
   },
   "brunner-alpnach": {
     "canton": "OW",
@@ -7614,6 +7640,13 @@
     "firm_name": "Rebhalde 52",
     "reason": "identite non confirmee avec precision (seul un annuaire polonais de juristes trouve, aucun site officiel ni adresse suisse confirmee)"
   },
+  "czlegal-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale CZ Legal Sagl",
+    "founding_year": 2025,
+    "source_url": "https://www.moneyhouse.ch/en/company/cz-legal-sagl-3999708031"
+  },
   "d-partners.ch": {
     "canton": "LU",
     "email": "info@d-partners.ch",
@@ -7781,6 +7814,13 @@
     "firm_name": "Alex de Capitani Rechtsanwalt",
     "reason": "Verification anti-bot (page de chargement), aucun contenu exploitable"
   },
+  "delloro-rivasanvitale-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale Federica Dell'Oro",
+    "reason": "aucune avocate Federica Dell'Oro trouvee a Riva San Vitale ou dans le canton TI"
+  },
   "delnon.com": {
     "canton": "ZH",
     "fetched_date": "2026-09-10",
@@ -7796,6 +7836,13 @@
       "Komplementärmedizin"
     ],
     "source_url": "https://www.delnon.com/de/"
+  },
+  "delprete-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Avv. Pascal Delprete",
+    "founding_year": 2016,
+    "source_url": "https://search.ch/tel/lugano/via-luigi-lavizzari-4/avv-pascal-delprete.it.html"
   },
   "demuth-recht.ch": {
     "canton": "ZH",
@@ -8030,6 +8077,13 @@
     "firm_name": "Anwaltskanzlei Dollé",
     "phone": "+41 41 420 44 44",
     "source_url": "https://dolle.ch/kontakt/"
+  },
+  "domine-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Avv. Andrea Domine",
+    "phone": "091 922 04 47",
+    "source_url": "https://www.legaly.ch/it/studio-legale/6605-studio-legale-avv-andrea-domine"
   },
   "dominique-calco-erbrecht.com": {
     "canton": "ZH",
@@ -9160,6 +9214,13 @@
     ],
     "source_url": "https://www.studilegali.com/avvocati/studio-legale-ferrari-partner"
   },
+  "ferronilegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Chiara Ferroni",
+    "founding_year": 2024,
+    "source_url": "https://ferronilegal.ch/"
+  },
   "fertig-keller.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -9228,6 +9289,13 @@
     "phone": "+41 43 322 03 91",
     "source_url": "https://www.fingerhuth.law/",
     "team_size_n": 3
+  },
+  "fini-legal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Fini",
+    "phone": "+41 91 973 10 10",
+    "source_url": "https://www.fini-legal.ch/"
   },
   "finlaw-schindellegi-sz": {
     "canton": "SZ",
@@ -10171,6 +10239,14 @@
     "firm_name": "Nordweg 10",
     "source_url": "https://www.geiger-rechtsanwalt.ch/"
   },
+  "gendottilegal.ch": {
+    "canton": "TI",
+    "email": "sabrina@gendottilegal.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Avv. Sabrina Gendotti",
+    "founding_year": 2017,
+    "source_url": "https://gendottilegal.ch/"
+  },
   "genovini.ch": {
     "canton": "TI",
     "email": "info@genovini.ch",
@@ -10193,6 +10269,23 @@
     ],
     "source_url": "https://genovini.ch/",
     "team_size_n": 3
+  },
+  "genovini.ch#2": {
+    "canton": "TI",
+    "email": "info@genovini.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale e Notarile av. Ivano Genovini",
+    "founding_year": 1987,
+    "phone": "+41 91 751 50 80",
+    "source_url": "https://genovini.ch/",
+    "team_size_n": 3
+  },
+  "gentile-lugano-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-14",
+    "firm_name": "Studio legale Gentile",
+    "reason": "seul resultat trouve (Studio Legale Associato Mereu-Gentile) semble etre un cabinet italien sans lien confirme avec Lugano, risque de confusion d'identite"
   },
   "gerber-daniel-kloten-zh": {
     "_failed": true,
@@ -10237,6 +10330,14 @@
     "checked_date": "2026-09-10",
     "firm_name": "studio legale Ghiringhelli e Associati",
     "reason": "Identite confirmee (via Orico 7, Bellinzona, ghiringhelli-olgiati.ch) mais HTTP 503 Service Unavailable (x2)"
+  },
+  "gianora-legal.ch": {
+    "canton": "TI",
+    "email": "avv.gianora@ticino.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale e notarile Avv. Marzio Gianora",
+    "phone": "091 752 34 33",
+    "source_url": "https://www.gianora-legal.ch/"
   },
   "gigerpartnerlaw.ch": {
     "canton": "ZH",
@@ -15328,6 +15429,12 @@
     "source_url": "https://legalecorti.ch/en/about-us/",
     "team_size_n": 2
   },
+  "legaleigliorezzonico.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Iglio Rezzonico",
+    "source_url": "https://legaleigliorezzonico.ch/"
+  },
   "legaleticino.ch": {
     "canton": "TI",
     "email": "amendolara@legaleticino.ch",
@@ -16314,6 +16421,14 @@
     "firm_name": "Luchsinger + Spinner Rechtsanwälte",
     "reason": "Site accessible mais aucune coordonnee/domaine de competence exploitable au-dela de l'adresse (accueil + kontakt testes)"
   },
+  "luciolevi.com": {
+    "canton": "TI",
+    "email": "lucio.levi@levi.law",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Levi and Partners",
+    "founding_year": 1998,
+    "source_url": "https://luciolevi.com/"
+  },
   "ludwigpartner.ch": {
     "canton": "BS",
     "fetched_date": "2026-07-28",
@@ -16975,6 +17090,16 @@
     "source_url": "https://mcr-law.ch/",
     "team_size_n": 3
   },
+  "mcr-law.ch#2": {
+    "canton": "TI",
+    "email": "info@mcr-law.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Canevascini-Rotanzi",
+    "founding_year": 1975,
+    "phone": "+41 (0)91 735 35 50",
+    "source_url": "https://mcr-law.ch/",
+    "team_size_n": 3
+  },
   "meier-advokaturburo-sg": {
     "_failed": true,
     "canton": "SG",
@@ -17408,6 +17533,16 @@
     "source_url": "https://www.moloavvocati.ch/",
     "team_size_n": 4
   },
+  "moloavvocati.ch#3": {
+    "canton": "TI",
+    "email": "info@moloavvocati.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale e Notarile Molo Avvocati",
+    "founding_year": 1977,
+    "phone": "+41 91 210 10 00",
+    "source_url": "https://www.moloavvocati.ch/",
+    "team_size_n": 4
+  },
   "monaci.ch": {
     "canton": "TI",
     "email": "info@studiopfm.ch",
@@ -17783,6 +17918,12 @@
     "date": "2026-07-29",
     "firm_name": "MZBS Advokatur Notariat",
     "reason": "site JS rendu, contenu non accessible"
+  },
+  "nacalegal-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale NACALEGAL",
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati/?page=61"
   },
   "nadine-grieder-bl": {
     "_failed": true,
@@ -18316,6 +18457,14 @@
     "firm_name": "Nötzli Raess Bächtold Rechtsanwälte",
     "phone": "+41 44 521 22 66",
     "source_url": "https://nrb-anwaelte.ch/kontakt/"
+  },
+  "nrlegal.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale Nuria Regazzi",
+    "founding_year": 2021,
+    "phone": "+41 91 752 08 14",
+    "source_url": "https://nrlegal.ch/"
   },
   "nsf.ch": {
     "canton": "ZH",
@@ -23390,6 +23539,15 @@
     ],
     "source_url": "https://studiodelogu.ch/contatti/"
   },
+  "studioferrara.ch": {
+    "canton": "TI",
+    "email": "segreteria@studioferrara.ch",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Ferrara Natalia, Residenza Sant'Andrea",
+    "founding_year": 2016,
+    "phone": "+41 91 921 26 50",
+    "source_url": "https://www.studioferrara.ch/biografia/"
+  },
   "studiolegale-ch-castagnola-ti": {
     "_failed": true,
     "canton": "TI",
@@ -23403,6 +23561,21 @@
     "firm_name": "Studio legale e notarile CATTORI-ACHERMANN-BERNASCHINA",
     "founding_year": 1932,
     "source_url": "http://www.studiolegalecab.ch/"
+  },
+  "studiolegalecouchepinromerio.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio legale Couchepin Romerio, casella postale 7",
+    "phone": "+41 (0)91 922 55 85",
+    "source_url": "https://www.studiolegalecouchepinromerio.ch/chi-siamo"
+  },
+  "studiolegalemassetti.com": {
+    "canton": "TI",
+    "email": "info@studiolegalemassetti.com",
+    "fetched_date": "2026-09-14",
+    "firm_name": "Studio Legale e Notarile Massetti & Associati",
+    "phone": "+41 (0) 91 994 58 33",
+    "source_url": "https://www.studiolegalemassetti.com/"
   },
   "studiolegalepedroia.ch": {
     "canton": "TI",

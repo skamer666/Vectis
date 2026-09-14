@@ -4890,3 +4890,26 @@ introuvable) ; Engjëllushe Stafa (Lugano, introuvable).
 
 Rattachement : 1577 études rattachées au total (1560 → 1577, +17). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton TI, lot 146)
+
+22 cabinets traités (20 succès / 2 échecs), tous à Lugano/Locarno. Dont 3 nouvelles variantes CSV
+rattachées à des cabinets déjà enrichis (Canevascini-Rotanzi, Genovini, Molo Avvocati) et 1
+variante d'un cabinet déjà connu (BMA Brunoni Mottis).
+
+Succès (20) : 3 variantes CSV supplémentaires (Canevascini-Rotanzi, Genovini, Molo Avvocati) ;
+NACALEGAL / Rupen Nacaroglu (Lugano) ; Levi and Partners (**cabinet fondé 1998**, email, Chiasso) ;
+Iglio Rezzonico (Lugano) ; Fini / Patrick Fini (tel, Lugano) ; Ferrara Natalia (**depuis 2016**,
+tel/email, Viganello) ; Couchepin Romerio (tel, Comano) ; Chiara Ferroni (**indépendante depuis
+2024**, Lugano) ; CZ Legal Sagl (**depuis 2025**, Lugano) ; Barchi Nicoli Trisconi e Associati SA
+(**cabinet fondé 1958**, tel, Lugano) ; BMA Brunoni Mottis & Associati (2e entrée CSV, **depuis
+2009**, 11 avocats, tel/email, Lugano) ; Elio Brunetti (tel, 3 avocats, Lugano) ; Sabrina Gendotti
+(**indépendante depuis 2017**, email, Lugano) ; Pascal Delprete (**depuis 2016**, Lugano) ; Andrea
+Domine (tel, Lugano) ; Marzio Gianora (tel/email, Locarno) ; Massetti & Associati (tel/email,
+Lugano-Milano) ; Nuria Regazzi (**indépendante depuis 2021**, tel, Locarno).
+
+Échecs (2) : Gentile (Lugano, seul résultat trouvé semble être un cabinet italien sans lien
+confirmé) ; Federica Dell'Oro (Riva San Vitale, introuvable).
+
+Rattachement : 1597 études rattachées au total (1577 → 1597, +20). Suite de tests : 94/94 au
+vert.
