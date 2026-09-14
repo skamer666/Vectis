@@ -4372,3 +4372,26 @@ procureur au Ministère public de Zurich, pas avocat en pratique privée).
 
 Rattachement : 1270 études rattachées au total (1256 → 1270, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-14 (canton ZH, lot 127)
+
+20 cabinets traités (13 succès / 7 échecs).
+
+Succès : Sandro Macciacchini (cabinet Witt Macciacchini) ; Yvonne Mäder Fürpasz (droit du travail,
+mariage, assurances sociales, bail, successions) ; Enrico Magro (tel/email) ; Adriano Marti
+(**variante Adrian** au CSV, tel, procédure pénale/contrats) ; Regina Marti (tel/email) ; Bruno
+Mascello / Mascello Legal (tel) ; Roy Maybud / Maybud Kessler Rechtsanwälte (dédoublonné,
+**licence 2006**, droit pénal économique/compliance) ; Gabrielle Mazurczak (tel/email, succession/
+sociétés/divorce/médiation) ; Thomas Meier / Anwaltskanzlei Thomas Meier (tel/email) ; Hadrian
+Meister (tel) ; Thomas Aurèle Meyrat / Meyrat & Partner (droit des sociétés) ; Claudia Mock
+Eigenmann (responsabilité civile/assurances) ; Claudio Möhr (tel/email).
+
+Échecs (**pièges d'adresse/identité évités**) : Bertastr. 43 (Lukas Maetzke trouvé à Sihlquai 65) ;
+Bellerivestr. 5 (Andreas Mathys trouvé à Talacker/Bahnhofstrasse, cabinet Bellerive à un autre
+numéro) ; Dorfstr. 10 (Ulrich Mayer trouvé à Dolderstrasse 102) ; Silbergrundstrasse 3B (Marc Mayr
+trouvé à d'autres adresses) ; Ringlikerstr. 68 (adresse résidentielle de Matthias Meister, cabinet
+chez HERZER à une autre adresse) ; Hardturmstr. 10 (Conradin Menn non confirmé) ; Alfred-Escher-Str.
+10 (cabinet MME de Bernhard Meyer trouvé au numéro 50).
+
+Rattachement : 1283 études rattachées au total (1270 → 1283, +13). Suite de tests : 94/94 au
+vert.
