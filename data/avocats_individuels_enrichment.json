@@ -95,6 +95,80 @@
     ],
     "source_url": "https://www.chkp.ch/team/mlaw-zoe-arnold"
   },
+  "ai-anna-assalve-inauen": {
+    "_failed": true,
+    "canton": "AI",
+    "checked_date": "2026-09-15",
+    "person_name": "Assalve-Inauen Anna",
+    "reason": "aucune pratique d'avocate independante confirmee a l'adresse CSV ; role professionnel documente = responsable juridique en entreprise (altrimo ag) et juge au Tribunal cantonal AI, pas de cabinet prive ni de site professionnel trouve"
+  },
+  "ai-daniel-fassler": {
+    "_failed": true,
+    "canton": "AI",
+    "checked_date": "2026-09-15",
+    "person_name": "Fässler Daniel",
+    "reason": "aucune pratique d'avocat active confirmee ; cabinet mentionne (St-Gall, depuis 1994) probablement abandonne suite a l'election au Conseil des Etats (personnalite politique en fonction), aucune coordonnee professionnelle actuelle ni domaine de competence trouve"
+  },
+  "ar-christian-boetschi": {
+    "_failed": true,
+    "canton": "AR",
+    "checked_date": "2026-09-15",
+    "person_name": "Bötschi Christian",
+    "reason": "aucune pratique d'avocat privee active trouvee ; faisceau d'indices concordant (articles de presse, LinkedIn) indiquant qu'il s'agit du procureur general (Leitender Staatsanwalt) d'Appenzell Rhodes-Exterieures, retraite en juillet 2022 apres 37 ans ; adresse CSV correspond a un domicile prive partage avec son epouse, non a un cabinet"
+  },
+  "ar-martin-birchler": {
+    "canton": "AR",
+    "email": "m.birchler@advokatur-birchler.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur M. Birchler Anwalt",
+    "person_name": "Birchler Martin",
+    "phone": "071 511 70 35",
+    "source_url": "https://www.advokatur-birchler.ch/"
+  },
+  "bl-daniela-bifl": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-15",
+    "person_name": "Bifl Daniela",
+    "reason": "adresse CSV (Hohenrainstrasse 12c) introuvable dans toutes les sources consultees, qui indiquent uniformement Wasenstrasse 13 ; emails incoherents entre sources (.ch/.com/.info) ; listes de langues contradictoires -- risque de donnee CSV erronee ou de confusion d'identite, non retenu par prudence"
+  },
+  "bl-stephan-blaesi": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Büro Klein & Bläsi",
+    "person_name": "Bläsi Stephan",
+    "phone": "+41 61 481 04 97",
+    "practice_areas_de": [
+      "Verwaltungsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.local.ch/de/d/basel/4054/advokatur-und-notariatsbuero/blaesi-stephan-57u2V1VAJlLCUsXXeUud4w"
+  },
+  "lu-hans-aepli": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "person_name": "Hans Aepli",
+    "phone": "041 310 44 29",
+    "source_url": "https://search.ch/tel/luzern/sonnenbergstrasse-55/hans-und-sylvie-aepli"
+  },
+  "lu-markus-bachmann": {
+    "canton": "LU",
+    "fax": "041 420 18 28",
+    "fetched_date": "2026-09-15",
+    "person_name": "Markus Bachmann",
+    "phone": "041 420 18 26",
+    "practice_areas_de": [
+      "Miet- und Pachtrecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Haftpflichtrecht",
+      "Europarecht",
+      "Immaterialgüterrecht"
+    ],
+    "source_url": "http://anw24.ch/details/286/markus-bachmann-luzern-6"
+  },
   "ne-david-agerba": {
     "canton": "NE",
     "fetched_date": "2026-09-06",
@@ -165,6 +239,88 @@
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
   },
+  "nw-christine-amstad-zeier": {
+    "canton": "NW",
+    "email": "ca@amstadzeier.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Amstad Zeier",
+    "founding_year": 2010,
+    "person_name": "Amstad Zeier Christine",
+    "phone": "+41 41 620 86 86",
+    "practice_areas_de": [
+      "Beziehungen, Partnerschaft, Familie, Kinder",
+      "Erbschaft, Miete, Nachbarschaft, Bau",
+      "Arbeit, Wirtschaft, Organisationen, KMU"
+    ],
+    "source_url": "https://www.amstadzeier.ch/",
+    "specialist_certification": "Mediatorin SAV"
+  },
+  "nw-gerhard-balbi": {
+    "canton": "NW",
+    "email": "gerhard.balbi@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Gerhard Balbi",
+    "notes": "Adresse professionnelle confirmee par plusieurs sources independantes : Robert-Durrerstrasse 2, 6371 Stans (differente de l'adresse CSV 'Im Lehli 8', probablement obsolete dans la source CSV).",
+    "person_name": "Balbi Gerhard",
+    "phone": "041 610 10 16",
+    "practice_areas_de": [
+      "Beurkundungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht",
+      "Gesellschafts- und Firmenrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/stans/driur-gerhard-balbi"
+  },
+  "ow-martina-albert": {
+    "canton": "OW",
+    "email": "albert@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "person_name": "Albert Martina",
+    "phone": "041 666 07 50",
+    "practice_areas_de": [
+      "Ehe- und Erbrecht",
+      "Immobiliarsachenrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/albert-martina"
+  },
+  "ow-robert-ettlin": {
+    "canton": "OW",
+    "email": "ettlin@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 1995,
+    "person_name": "Ettlin Robert",
+    "phone": "041 666 07 55",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Immobiliarrecht",
+      "Gesellschaftsrecht",
+      "Beurkundungsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Strafrecht",
+      "Versicherungsrecht"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/ettlin-robert"
+  },
+  "sg-arthur-andermatt": {
+    "canton": "SG",
+    "fetched_date": "2026-09-15",
+    "person_name": "Andermatt Arthur",
+    "phone": "071 223 80 80",
+    "source_url": "https://tel.search.ch/st-gallen/teufener-strasse-8/arthur-andermatt.en.html"
+  },
+  "sg-hans-altherr": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-15",
+    "person_name": "Altherr Hans",
+    "reason": "aucune donnee de pratique juridique privee trouvee (fiche generique sans domaines) ; seul numero mobile prive trouve, explicitement marque 'sans publicite' sur l'annuaire -- non retenu par respect de la confidentialite ; personnalite publique (ex-Conseiller aux Etats)"
+  },
   "so-allemann-aeschlimann-nicole": {
     "canton": "SO",
     "email": "nicole.allemann@aarejura-grenchen.ch",
@@ -221,6 +377,36 @@
       "Haftpflichtrecht"
     ],
     "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
+  },
+  "sz-alois-yberg": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Alois Ab Yberg",
+    "notes": "Nom officiellement enregistre au registre cantonal : 'Ab Yberg, Alois' (patronyme compose) -- le CSV source utilise la forme abregee 'Yberg Alois', conservee ici pour le rattachement.",
+    "person_name": "Yberg Alois",
+    "phone": "041 811 23 85",
+    "source_url": "https://tel.search.ch/schwyz/grundstrasse-82/alois-ab-yberg-4"
+  },
+  "sz-bernhard-aschwanden": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Mattig-Suter und Partner",
+    "person_name": "Aschwanden Bernhard",
+    "phone": "041 811 41 35",
+    "practice_areas_de": [
+      "Notariat",
+      "Stiftungsrecht",
+      "Vereinsrecht",
+      "Vertragsrecht",
+      "Liegenschaftskauf",
+      "Nachbarrecht",
+      "Immobilienrecht",
+      "Landwirtschaftliches Bodenrecht",
+      "Handelsregisterrecht",
+      "Konkursrecht",
+      "Gesellschaftsrecht"
+    ],
+    "source_url": "https://mattig.swiss/en/team/bernhard-aschwanden-en/"
   },
   "tg-david-georg-ackermann": {
     "canton": "TG",
@@ -325,6 +511,13 @@
     "checked_date": "2026-09-06",
     "person_name": "AIROLDI Luca",
     "reason": "aucun site officiel trouve, uniquement registre cantonal (deja en base) et annuaires tiers"
+  },
+  "ti-akou-carine-anato": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "person_name": "ANATO Akou Carine",
+    "reason": "activite professionnelle actuelle documentee = juriste au Commissariat cantonal a la protection des donnees TI, aucun cabinet prive confirme a Via Delta 10 Ascona ; incoherence entre dates d'inscription au barreau (2022 au registre cantonal vs 2014 mentionne ailleurs) ; risque de confusion avec un profil homonyme sans rapport (Cote d'Ivoire)"
   },
   "ti-aldi-sabrina": {
     "canton": "TI",
@@ -500,6 +693,32 @@
       "Assistenza giudiziaria internazionale in materia penale"
     ],
     "source_url": "https://www.gblaw.ch/"
+  },
+  "ti-tatiana-celine-anastasi": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio Legale Avv. Tatiana Céline Anastasi",
+    "person_name": "ANASTASI Tatiana Céline",
+    "phone": "091 690 51 10",
+    "source_url": "https://search.ch/tel/chiasso/corso-san-gottardo-145/studio-legale-avv-tatiana-celine-anastasi.it.html"
+  },
+  "ur-christian-arnold": {
+    "_failed": true,
+    "canton": "UR",
+    "checked_date": "2026-09-15",
+    "person_name": "Arnold Christian",
+    "reason": "risque d'identite eleve : le cabinet associe (Arnold Simmen Advokatur & Notariat) semble avoir change de nom/composition (desormais 'Bulgheroni Simmen'), Christian Arnold n'apparait plus sur la page equipe actuelle ; au moins deux autres homonymes dans le meme canton (contact judiciaire, conseiller d'Etat/agriculteur) ; statut professionnel actuel non confirme"
+  },
+  "ur-thomas-arnold": {
+    "canton": "UR",
+    "email": "thomas.arnold@anwalt-arnold.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwalt Arnold",
+    "founding_year": 2010,
+    "person_name": "Arnold Thomas",
+    "phone": "+41 (0)41 871 03 03",
+    "source_url": "https://www.anwalt-arnold.ch/portrait",
+    "specialist_certification": "Mediator SAV"
   },
   "zg-aepli-michael": {
     "canton": "ZG",

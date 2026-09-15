@@ -5016,3 +5016,36 @@ vert.
 1674 études rattachées au total depuis le début de la phase, plus de nombreuses entrées `_failed`
 documentées. La tâche récurrente sera désactivée automatiquement au prochain déclenchement (lot
 vide constaté) conformément au protocole.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 1)
+
+Démarrage de la Phase 3c : enrichissement des 634 avocats indépendants (`CANTON_DATA[code]["solo"]`,
+sans étude associée) au sein des 12 cantons groupables — un pool distinct de la Phase 3b
+(AG/ZG/NE/TG/SO, cantons sans champ étude), mais partageant le même fichier cache
+`data/avocats_individuels_enrichment.json` et la même clé `(canton, nom_complet)`. Premier lot de
+20 avocats, 2 par canton (TI/SG/LU/BL/SZ/UR/AR/AI/NW/OW), sélectionnés en ordre CSV stable.
+
+Succès (13) : Tatiana Céline Anastasi (tel, Chiasso TI) ; Arthur Andermatt (tel, St-Gall SG) ;
+Hans Aepli (tel, Lucerne LU) ; Markus Bachmann (tel/fax, domaines de compétence, Lucerne LU) ;
+Stephan Bläsi (tel, Büro Klein & Bläsi, domaines, Bâle/Allschwil BL) ; Alois Ab Yberg (tel,
+Schwyz SZ — nom officiel corrigé, le CSV utilise la forme abrégée "Yberg Alois") ; Bernhard
+Aschwanden (tel, Mattig-Suter und Partner, domaines, Schwyz SZ) ; Thomas Arnold (**depuis 2010**,
+tel/email, Mediator SAV, Altdorf UR) ; Martin Birchler (tel/email, Advokatur M. Birchler, Herisau
+AR) ; Christine Amstad Zeier (**depuis 2010**, tel/email, Mediatorin SAV, domaines, Beckenried
+NW) ; Gerhard Balbi (tel/email, domaines, Stans NW — adresse professionnelle réelle différente de
+l'adresse CSV, corrigée en note) ; Martina Albert (tel/email, domaines, ettlin&partner, Sarnen
+OW) ; Robert Ettlin (**depuis 1995**, tel/email, domaines, ettlin&partner — même étude que Martina
+Albert, Sarnen OW).
+
+Échecs (7) : Akou Carine Anato (Ascona TI, juriste en poste au Commissariat cantonal à la
+protection des données, pas de cabinet privé confirmé) ; Hans Altherr (Salez SG, ex-Conseiller
+aux États, seul numéro trouvé explicitement marqué "sans publicité") ; Daniela Bifl (Pratteln BL,
+adresse CSV introuvable dans toutes les sources, emails incohérents entre eux) ; Christian Arnold
+(Altdorf UR, cabinet probablement renommé/quitté, plusieurs homonymes dans le canton, statut
+actuel non confirmé) ; Christian Bötschi (Teufen AR, ancien procureur général retraité en 2022,
+adresse CSV = domicile privé) ; Anna Assalve-Inauen (Appenzell AI, responsable juridique en
+entreprise + juge cantonale, pas de cabinet privé) ; Daniel Fässler (Appenzell AI, personnalité
+politique en fonction, pratique privée probablement abandonnée depuis 1994).
+
+Rattachement : 51 avocats rattachés par nom au total (38 → 51, +13, mécanisme partagé avec la
+Phase 3b). Suite de tests : 94/94 au vert.
