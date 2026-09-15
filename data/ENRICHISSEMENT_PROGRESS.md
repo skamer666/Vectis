@@ -5049,3 +5049,36 @@ politique en fonction, pratique privée probablement abandonnée depuis 1994).
 
 Rattachement : 51 avocats rattachés par nom au total (38 → 51, +13, mécanisme partagé avec la
 Phase 3b). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 2)
+
+Premier lot réel de Phase 3b (le lot précédent avait été interrompu par une compaction de contexte
+sans écriture au cache). 20 avocats individuels, 4 par canton (AG/ZG/NE/TG/SO), sélectionnés en
+ordre CSV stable. Constat récurrent : la plupart de ces avocats "sans étude" dans le CSV source
+travaillent en réalité au sein d'un cabinet nommé — information absente du CSV mais trouvée par
+recherche web.
+
+Succès (16) : Monica Armesto (tel, Fachanwältin SAV Haftpflichtrecht, Frick AG) ; Christian Bär
+(**depuis 1995**, tel/email, Fachanwalt SAV Bau-/Immobilienrecht, Schärer Rechtsanwälte, Aarau AG) ;
+Lisa Arnold (tel/email, Schweiger Advokatur/Notariat, Zoug ZG) ; Peter B. Arnold (**depuis 1996**,
+tel/fax/email, Arnold Legal AG — sa propre étude, Zoug ZG) ; Thomas Bächtold (tel, Invest Law AG,
+Baar ZG) ; Noé Allegrezza (**depuis 2024**, tel/email, Concert Avocats, Neuchâtel NE) ; Raphaël
+Allimann (**depuis 2013**, tel/fax/email, KGG Avocats & Notaires, Neuchâtel NE) ; Alain Badertscher
+(tel/fax, Etude d'avocat Alain Badertscher, Neuchâtel NE) ; Cédric Akeret (tel, FLB Rechtsanwälte,
+Rickenbach b. Wil TG) ; Michael Alde (**depuis 2000**, tel/email, Strickler+Partner Rechtsanwälte,
+Arbon TG) ; Simone Andres (tel/email, Gubler Andres — Rechtsanwälte am See, Kreuzlingen TG) ; Fatih
+Aslantas (**depuis 2022**, tel/email, Fachanwalt SAV Strafrecht, sa propre étude, Frauenfeld TG) ;
+Timur Acemoglu (**depuis 2013**, tel/email, sa propre étude, Olten SO) ; Marc Aebi (email,
+BrunnerAebiPartner, Soleure SO) ; Lorenz Altenbach (**depuis 1988**, tel/email, Altenbach Baumann
+Bloch, Dornach SO) ; Alina Arul (tel/fax, Zenari Trösch, Olten SO).
+
+Échecs (4) : Michèle Bächli (Brugg AG, affiliations professionnelles contradictoires entre
+sources, années d'expérience incohérentes, conflit de localisation) ; Michael Dominik Bänziger
+(Baden AG, aucune coordonnée trouvée, absent du répertoire actuel, homonymes sans rapport) ;
+Mirjam Arnold (Zoug ZG, lieu de travail principal situé à Zurich et non à Zoug, possible confusion
+avec une conseillère cantonale en reconversion bancaire) ; Cyril Babando (Neuchâtel NE, affilié à
+une association de défense des locataires plutôt qu'à un cabinet privé, conflit de localité non
+résolu).
+
+Rattachement : 67 avocats rattachés par nom au total (51 → 67, +16). Suite de tests : 94/94 au
+vert.

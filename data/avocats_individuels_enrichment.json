@@ -1,4 +1,25 @@
 {
+  "ag-christian-bar": {
+    "canton": "AG",
+    "email": "christian.baer@5001.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schärer Rechtsanwälte",
+    "founding_year": 1995,
+    "notes": "Admis au barreau en 1995, associe chez Schärer Rechtsanwälte depuis 2009.",
+    "person_name": "Christian Bär",
+    "phone": "+41 62 837 50 00",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Bau-, Planungs- und Umweltrecht",
+      "Verfassungs-, Gemeinde- und Verwaltungsrecht",
+      "Kirchenrecht",
+      "Schul- und Bildungsrecht",
+      "Submissionsrecht",
+      "Öffentliches Personalrecht"
+    ],
+    "source_url": "https://www.5001.ch/en/anwaelte/christian-bar-en/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
   "ag-jacqueline-alf": {
     "canton": "AG",
     "email": "j.alf@voser.ch",
@@ -61,6 +82,32 @@
       "Immobilienrecht"
     ],
     "source_url": "http://www.contractus.ch/deutsch/über-uns/"
+  },
+  "ag-michael-dominik-banziger": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-15",
+    "person_name": "Michael Dominik Bänziger",
+    "reason": "aucune etude ni coordonnee trouvee ; absent du repertoire actuel des avocats de Baden (jurata.ch) ; seule date trouvee (brevet d'avocat, 3 juillet 2018) situe la personne a Aarau et non Baden ; plusieurs homonymes sans rapport identifies ailleurs en Suisse ; second prenom 'Dominik' non confirme -- donnee essentiellement non verifiable"
+  },
+  "ag-michele-bachli": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-15",
+    "person_name": "Michèle Bächli",
+    "reason": "affiliations professionnelles contradictoires entre sources (beelegal.ch vs. mention non verifiee d'un changement pour Pfisterer Fretz Munz en 2023 vs. une troisieme reference 'Notariat Kueng' non verifiable) ; annees d'experience incoherentes entre deux fiches jurata (3 ans vs 14 ans) ; conflit de localisation (Brugg vs Wohlen sur LinkedIn) -- risque d'identite eleve, non retenu"
+  },
+  "ag-monica-armesto": {
+    "canton": "AG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur Armesto GmbH",
+    "person_name": "Monica Armesto",
+    "phone": "+41 62 871 61 60",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht (Unfallopfer, Opfer von Arztfehlern)"
+    ],
+    "source_url": "https://www.advoarmesto.ch/",
+    "specialist_certification": "Fachanwältin SAV Haftpflicht- und Versicherungsrecht"
   },
   "ag-stefan-augstburger": {
     "canton": "AG",
@@ -169,6 +216,22 @@
     ],
     "source_url": "http://anw24.ch/details/286/markus-bachmann-luzern-6"
   },
+  "ne-alain-roland-badertscher": {
+    "canton": "NE",
+    "fax": "+41 32 724 86 33",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Etude d'avocat Alain Badertscher",
+    "person_name": "Alain Roland Badertscher",
+    "phone": "032 721 19 10",
+    "source_url": "https://search.ch/tel/neuchatel/rue-du-coq-dinde-24/alain-badertscher.fr.html"
+  },
+  "ne-cyril-babando": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-15",
+    "person_name": "Cyril Babando",
+    "reason": "aucune etude privee trouvee (affilie a ASLOCA Neuchateloise, association de defense des locataires, pas un cabinet d'avocat) ; aucun telephone/email personnel confirme ; conflit de localite non resolu (Neuchatel au registre vs La Chaux-de-Fonds mentionne ailleurs)"
+  },
   "ne-david-agerba": {
     "canton": "NE",
     "fetched_date": "2026-09-06",
@@ -216,6 +279,25 @@
     ],
     "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
   },
+  "ne-noe-david-alexandre-allegrezza": {
+    "canton": "NE",
+    "email": "na@concertavocats.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Concert Avocats",
+    "founding_year": 2024,
+    "notes": "Nom du cabinet legerement ambigu entre les sources ('Concert Avocats' / 'Étude du Concert'), domaine email concertavocats.ch retenu comme reference.",
+    "person_name": "Noé David Alexandre Allegrezza",
+    "phone": "+41 79 258 20 46",
+    "practice_areas_fr": [
+      "Droit pénal et procédure pénale",
+      "Plaintes, dénonciations",
+      "Contraventions, amendes d'ordre, ordonnances pénales, détention",
+      "Stupéfiants, droit pénal économique ou administratif, circulation routière, armes",
+      "Droit pénal des mineurs, droit pénal militaire (conseil)",
+      "Droit pénal international, entraide pénale"
+    ],
+    "source_url": "https://www.na-avocat.ch/"
+  },
   "ne-oriane-aubert": {
     "canton": "NE",
     "email": "etude@a2l.ch",
@@ -231,6 +313,28 @@
       "Arbitrage"
     ],
     "source_url": "https://www.a2l.ch/en/"
+  },
+  "ne-raphael-allimann": {
+    "canton": "NE",
+    "email": "allimann@kgg.ch",
+    "fax": "+41 32 729 02 20",
+    "fetched_date": "2026-09-15",
+    "firm_name": "KGG Avocats au barreau & Notaires",
+    "founding_year": 2013,
+    "notes": "Le nom complet officiel est 'Raphaël Allimann' ; la source CSV porte une coquille ('Raphäel') conservee ici pour le rattachement.",
+    "person_name": "Raphäel Allimann",
+    "phone": "+41 32 729 02 13",
+    "practice_areas_fr": [
+      "Actes authentiques",
+      "Droit international privé",
+      "Droit des contrats",
+      "Droits réels",
+      "Droit des sociétés et des entreprises",
+      "Droit des successions",
+      "Droit de la vente",
+      "Droit fiscal"
+    ],
+    "source_url": "https://www.kgg.ch/avocats-notaires/raphael-allimann"
   },
   "ne-simon-aiassa": {
     "_failed": true,
@@ -321,6 +425,24 @@
     "person_name": "Altherr Hans",
     "reason": "aucune donnee de pratique juridique privee trouvee (fiche generique sans domaines) ; seul numero mobile prive trouve, explicitement marque 'sans publicite' sur l'annuaire -- non retenu par respect de la confidentialite ; personnalite publique (ex-Conseiller aux Etats)"
   },
+  "so-alina-arul": {
+    "canton": "SO",
+    "fax": "062 207 80 41",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Zenari Trösch",
+    "person_name": "Alina Arul",
+    "phone": "062 207 80 40",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Haftpflichtrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Opferhilferecht",
+      "Kindes- und Erwachsenenschutzrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.advokaturolten.ch/unser-team/alina-arul.html"
+  },
   "so-allemann-aeschlimann-nicole": {
     "canton": "SO",
     "email": "nicole.allemann@aarejura-grenchen.ch",
@@ -378,6 +500,43 @@
     ],
     "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
   },
+  "so-lorenz-altenbach": {
+    "canton": "SO",
+    "email": "altenbach@abs-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Altenbach Baumann Bloch",
+    "founding_year": 1988,
+    "person_name": "Lorenz Altenbach",
+    "phone": "061 701 72 32",
+    "practice_areas_de": [
+      "Allgemeines Zivilrecht",
+      "Erbrecht",
+      "Scheidungsrecht",
+      "Gesellschafts-/Wirtschaftsrecht",
+      "Notariat",
+      "Strafrecht"
+    ],
+    "source_url": "https://abs-law.ch/wp/uns-2-2/"
+  },
+  "so-marc-aebi": {
+    "canton": "SO",
+    "email": "info@brunneraebipartner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BrunnerAebiPartner",
+    "notes": "Numero de telephone trouve incoherent entre sources (Soleure/Granges), non retenu par prudence.",
+    "person_name": "Marc Aebi",
+    "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/aebi-marc-BdSk0L6It1oLvtK4EtL7qg"
+  },
+  "so-timur-acemoglu": {
+    "canton": "SO",
+    "email": "info@acemoglu.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Timur Acemoglu Rechtsanwalt",
+    "founding_year": 2013,
+    "person_name": "Timur Acemoglu",
+    "phone": "+41 62 212 90 60",
+    "source_url": "https://acemoglu.ch/"
+  },
   "sz-alois-yberg": {
     "canton": "SZ",
     "fetched_date": "2026-09-15",
@@ -407,6 +566,15 @@
       "Gesellschaftsrecht"
     ],
     "source_url": "https://mattig.swiss/en/team/bernhard-aschwanden-en/"
+  },
+  "tg-cedric-akeret": {
+    "canton": "TG",
+    "email": "rickenbach@flb-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "FLB – Forrer Lenherr Bögli & Partner Rechtsanwälte",
+    "person_name": "Cédric Akeret",
+    "phone": "+41 (0) 71 929 90 10",
+    "source_url": "https://www.flb-law.ch/kanzlei"
   },
   "tg-david-georg-ackermann": {
     "canton": "TG",
@@ -448,6 +616,50 @@
       "Mietrecht"
     ],
     "source_url": "https://rechtamsee.com/"
+  },
+  "tg-fatih-aslantas": {
+    "canton": "TG",
+    "email": "info@aslantas.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltskanzlei Aslantas",
+    "founding_year": 2022,
+    "person_name": "Fatih Aslantas",
+    "phone": "+41 (0) 58 510 83 60",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Wirtschaftsstrafrecht",
+      "Rechtshilfe international",
+      "Militärstrafrecht",
+      "Wirtschaftsrecht"
+    ],
+    "source_url": "https://www.aslantas.ch/kanzlei",
+    "specialist_certification": "Fachanwalt SAV Strafrecht"
+  },
+  "tg-michael-alde": {
+    "canton": "TG",
+    "email": "m.alde@advokatur-arbon.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Strickler+Partner Rechtsanwälte",
+    "founding_year": 2000,
+    "person_name": "Michael Alde",
+    "phone": "+41 71 446 25 75",
+    "practice_areas_de": [
+      "Scheidungs- und Eherecht",
+      "Strafrecht",
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht",
+      "Kaufrecht und allgemeines Vertragsrecht"
+    ],
+    "source_url": "https://www.advokatur-arbon.ch/"
+  },
+  "tg-simone-andres": {
+    "canton": "TG",
+    "email": "andres@gublerandres.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Gubler Andres – Rechtsanwälte am See",
+    "person_name": "Simone Andres",
+    "phone": "071 521 30 00",
+    "source_url": "https://gublerandres.ch/anwaelte/"
   },
   "ti-abate-fabio": {
     "_failed": true,
@@ -792,6 +1004,50 @@
     ],
     "source_url": "https://brightlaw.ch/de/team/philipp-andermatt"
   },
+  "zg-arnold-lisa": {
+    "canton": "ZG",
+    "email": "arnold@schweigerlaw.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schweiger Advokatur/Notariat",
+    "person_name": "Arnold Lisa",
+    "phone": "+41 41 728 73 73",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Erbrecht",
+      "Immobilien- und Baurecht",
+      "Zivilprozess- und Schiedsverfahren",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.schweigerlaw.ch/de/team.htm"
+  },
+  "zg-arnold-mirjam": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-15",
+    "person_name": "Arnold Mirjam",
+    "reason": "profil professionnel principal (MME Legal) situe son lieu de travail a Zurich et non a Zoug malgre une inscription de notaire ZG ; forte probabilite qu'il s'agisse de la meme personne qu'une conseillere cantonale zougoise dont la fiche de parti indique une activite bancaire (ZKB) plutot que juridique -- situation d'identite trop incertaine pour publication sans verification manuelle"
+  },
+  "zg-arnold-peter-b": {
+    "canton": "ZG",
+    "email": "peter.arnold@arnold-legal.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Arnold Legal AG",
+    "founding_year": 1996,
+    "notes": "Admis au barreau en 1987 (Zoug) ; associe fondateur d'Arnold Wehinger Kaelin & Ferrari en 1996 (predecesseur d'Arnold Legal).",
+    "person_name": "Arnold Peter B.",
+    "phone": "+41 (0)41 726 08 00",
+    "practice_areas_en": [
+      "Commercial and Corporate Law",
+      "International Commercial Contracts",
+      "Joint-Ventures",
+      "Corporate Structures",
+      "Taxation",
+      "Aviation and Transportation",
+      "Aircraft Finance and Leasing",
+      "Civil Law Notarizations"
+    ],
+    "source_url": "https://www.arnold-legal.com/en/company/attorneys/1arnold-peter.php"
+  },
   "zg-bachmann-philipp": {
     "canton": "ZG",
     "fetched_date": "2026-09-06",
@@ -812,5 +1068,20 @@
     ],
     "source_url": "https://www.reichlinhess.ch/en/team/philipp-bachmann/",
     "specialist_certification": "Certified Specialist SBA Employment Law (2018)"
+  },
+  "zg-bachtold-thomas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Invest Law AG",
+    "person_name": "Bächtold Thomas",
+    "phone": "041 790 70 00",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Vertragsrecht",
+      "Zivilrecht",
+      "Erb- und Nachlassrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "https://lawyers.jurata.ch/de/anwalt/thomas-baechtold"
   }
 }
