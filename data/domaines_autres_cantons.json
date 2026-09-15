@@ -4249,6 +4249,15 @@
     "source_url": "https://barandun-law.ch/en",
     "team_size_n": null
   },
+  "barbaraschikorr.ch": {
+    "canton": "LU",
+    "email": "willkommen@barbaraschikorr.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Mediation, Konfliktbegleitung & Konfliktkultur",
+    "notes": "Barbara Schikorr, presidente de l'association Mediation Zentralschweiz (VMZS).",
+    "phone": "+41 (0) 79 507 11 19",
+    "source_url": "https://www.barbaraschikorr.ch/"
+  },
   "barbey-rueschlikon-zh": {
     "canton": "ZH",
     "fetched_date": "2026-09-13",
@@ -6987,6 +6996,13 @@
     "phone": "091 972 18 88",
     "source_url": "https://zip.ch/en/cardellicchio-maria-luisa-avvocato-via-ai-pini-sorengo-BEpbArmx6b/"
   },
+  "caritas-luzern-lu": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Caritas Schweiz",
+    "notes": "Carl-Alex Ridoré, MLaw, Rechtsberatung Asyl- und Auslanderrecht chez Caritas Schweiz.",
+    "source_url": "https://www.caritas.ch/de/rechtsberatung-asyl-und-auslaenderrecht/"
+  },
   "caroferber.ch": {
     "canton": "ZH",
     "email": "caroferber@bluewin.ch",
@@ -7998,6 +8014,14 @@
     "checked_date": "2026-09-13",
     "firm_name": "Mühlebachstr. 2",
     "reason": "aucune information trouvee pour Hans Martin Diener comme avocat a cette adresse"
+  },
+  "dieter-steiger.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "HSG",
+    "notes": "Dieter Steiger, avocat, notaire et expert fiscal diplome (HSG).",
+    "phone": "+41 41 310 00 34",
+    "source_url": "https://dieter-steiger.ch/"
   },
   "dietsche-law.ch": {
     "canton": "SG",
@@ -11386,6 +11410,13 @@
     ],
     "source_url": "http://www.harmann.ch/"
   },
+  "hartlieb-willisau-lu": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Am",
+    "notes": "lic. iur. Stephan Hartlieb, avocat a Willisau.",
+    "source_url": "https://search.ch/tel/Willisau/Rechtsanwalt"
+  },
   "hartmanndreyer.ch": {
     "canton": "FR",
     "email": "office@hartmanndreyer.ch",
@@ -11940,6 +11971,14 @@
       "Verfahrensrecht"
     ],
     "source_url": "https://www.hofstetter-law.ch/"
+  },
+  "hofstetter-meggen-lu": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Prof. Dr.",
+    "notes": "Prof. Dr. Karl Hofstetter, avocat (licences Zurich et New York), ancien Chief Legal Officer du groupe Schindler.",
+    "phone": "+41 41 711 72 06",
+    "source_url": "https://search.ch/tel/meggen/lettenrain-18/karl-hofstetter"
   },
   "hofstetteradvokatur.ch": {
     "canton": "LU",
@@ -12669,6 +12708,15 @@
     "phone": "+41 41 418 60 33",
     "source_url": "https://www.iup.ch/de/kontakt",
     "specialist_certification": "Fachanwalt SAV Strafrecht (Reto Ineichen)"
+  },
+  "iur-team.ch": {
+    "canton": "LU",
+    "email": "bucher@iur-team.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "PD Dr. iur.",
+    "notes": "PD Dr. iur. Silvia Bucher, avocate chez iur.team.",
+    "phone": "+41 41 410 26 26",
+    "source_url": "https://iur-team.ch/iurteam/bucher/"
   },
   "iur.ch": {
     "canton": "TI",
@@ -13434,6 +13482,14 @@
       "Erbrecht"
     ],
     "source_url": "https://www.kanzlei-hess.ch/team/simone-hess-nielsen"
+  },
+  "kanzlei-hirschmatt.ch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "et lic.rer.pol.",
+    "notes": "Dr. iur. et lic. rer. pol. Louis Bochud, associe avec Markus Bischof (Kanzlei Hirschmatt).",
+    "phone": "041 210 05 47",
+    "source_url": "http://www.kanzlei-hirschmatt.ch/"
   },
   "kanzlei-hirzel.ch": {
     "_failed": true,
@@ -15634,6 +15690,30 @@
     "firm_name": "LegalOne AG",
     "reason": "Domaine legalone.ch injoignable (echec DNS) ; aucun autre site officiel trouve"
   },
+  "legalparini-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale Parini Nicoli Taddei Marsiglia Fazioli",
+    "phone": "091 922 24 25",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/3228-studio-legale-e-notarile-parini-nicoli-taddei-marsiglia-fazioli",
+    "team_size_n": 4
+  },
+  "legalparini-lugano-ti#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale e notarile Parini Nicoli Taddei Marsiglia Fazioli",
+    "phone": "091 922 24 25",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/3228-studio-legale-e-notarile-parini-nicoli-taddei-marsiglia-fazioli",
+    "team_size_n": 4
+  },
+  "legalparini-lugano-ti#3": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale e notarile Parini-Nicoli-Simona-Taddei Marsiglia-Fazioli",
+    "phone": "091 922 24 25",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/3228-studio-legale-e-notarile-parini-nicoli-taddei-marsiglia-fazioli",
+    "team_size_n": 4
+  },
   "legalperucchi.com": {
     "canton": "TI",
     "email": "swiss.studio@legalperucchi.com",
@@ -16113,6 +16193,15 @@
       "Regulatory Compliance"
     ],
     "source_url": "https://lezzilegal.ch/en/team/dr-iur-lukas-lezzi-en/"
+  },
+  "lfp-legal.ch": {
+    "canton": "TI",
+    "email": "info@lfp-legal.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale avv. Fiorenzo Cotti, Via A. Franzoni 29, 6600 Locarno / c/o Studio legale avv. Lisa Ferrario Petrini",
+    "notes": "Adresse du membre CSV (Via Pretorio 19, Lugano) correspond a Lisa Ferrario Petrini ; Fiorenzo Cotti (Locarno) mentionne dans le meme champ etude semble etre une reference croisee/erreur de saisie du CSV, non retenu.",
+    "phone": "091 913 91 33",
+    "source_url": "https://zip.ch/fr/ferrario-petrini-lisa-via-f-pelli-lugano-RDKaykKBJY/"
   },
   "liatowitsch.ch": {
     "canton": "BS",
@@ -18822,6 +18911,13 @@
     "firm_name": "ORVIT Rechtsberatung AG",
     "reason": "Aucun site officiel trouve (orvit.ch non confirme)"
   },
+  "ottaviani-chiesalehmann-mendrisio-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "firm_name": "Studio legale e notarile avv. Fabrizio Ottaviani, Via al Forte 3, 6901 Lugano / Studio Legale e Notarile Rosella Chiesa Lehmann",
+    "reason": "adresse du membre CSV (Via Luigi Lavizzari 19, Mendrisio) ne correspond ni a l'adresse connue d'Ottaviani (Via al Forte 3, Lugano) ni a celle de Chiesa Lehmann (Via Pollini 16, Mendrisio) -- champ etude probablement corrompu, risque de confusion d'identite"
+  },
   "ozb-rechtsanwaelte.ch": {
     "canton": "ZH",
     "email": "info@ozb-rechtsanwaelte.ch",
@@ -19130,6 +19226,14 @@
     "practice_areas_fr": [],
     "source_url": "https://peyerpartner.ch/en/about-us/",
     "team_size_n": null
+  },
+  "pezzati-lugano-ti": {
+    "canton": "TI",
+    "email": "effepi1@me.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale avv. Fulvio Pezzati",
+    "phone": "091 967 57 71",
+    "source_url": "https://search.ch/tel/lugano/via-soldino-22/fulvio-pezzati.it.html"
   },
   "pfauegli.ch": {
     "canton": "ZH",
@@ -22284,6 +22388,13 @@
     "phone": "041 820 46 46",
     "source_url": "https://search.ch/tel/brunnen/axenstrasse-12/isabelle-schwander"
   },
+  "schwarz-agno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Avv. Peter Schwarz, World Trade Center, casella postale 275",
+    "phone": "091 610 24 55",
+    "source_url": "https://it.cybo.com/CH-biz/peter-schwarz-studio-legale-notarile"
+  },
   "schwarz-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -22368,6 +22479,13 @@
       "Erb- und Nachlassrecht"
     ],
     "source_url": "https://www.sedo-law.ch/team"
+  },
+  "seehof-luzern-lu": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltskanzlei Seehof",
+    "phone": "041 419 72 75",
+    "source_url": "https://oeffnungszeitenbuch.de/filiale/Luzern-Anwaltskanzlei%20Seehof%20-%20Susanne%20Suter-Wick-3922488N.html"
   },
   "seidelpartner.ch": {
     "canton": "ZH",

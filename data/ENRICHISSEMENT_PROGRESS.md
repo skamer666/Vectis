@@ -4935,3 +4935,29 @@ Studio Legale Bay / Roy Bay (**depuis 2017**, tel/email, Lugano) ; Guarnieri & P
 
 Rattachement : 1624 études rattachées au total (1597 → 1624, +27). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-15 (canton TI + LU, lot 148)
+
+Le pool de candidats "cabinets" avec nom exploitable est presque épuisé : TI ne compte plus que
+des fragments d'adresse sans nom, SZ idem (10 restants, tous des adresses nues), et LU comportait
+7 entrées dont le champ CSV `etude` est un fragment de titre corrompu (ex. "et lic.rer.pol.", "PD
+Dr. iur.", "HSG") -- mais chaque ligne porte un vrai nom d'avocat individuel (`nom_complet`) qu'il
+a été possible d'identifier et d'enrichir malgré le champ etude cassé.
+
+14 cabinets/avocats traités (13 succès / 1 échec).
+
+Succès (13) : Parini Nicoli Taddei Marsiglia Fazioli (3 entrées CSV, 4 avocats, tel, Lugano) ;
+Peter Schwarz (tel, Agno) ; Fulvio Pezzati (tel/email, Lugano) ; Anwaltskanzlei Seehof / Susanne
+Suter-Wick (tel, Luzern) ; Lisa Ferrario Petrini (tel/email, Lugano -- entrée CSV combinée avec
+une référence croisée à Fiorenzo Cotti non retenue) ; **Canton LU, entrées à etude corrompu** :
+Louis Bochud / Kanzlei Hirschmatt (tel, fiscalité/droit admin, Luzern) ; Silvia Bucher / iur.team
+(tel/email, assurances/travail, Luzern) ; Stephan Hartlieb (Willisau) ; Karl Hofstetter (tel,
+ex-Chief Legal Officer Schindler Group, Meggen) ; Carl-Alex Ridoré / Caritas Schweiz (conseil
+juridique asile, Luzern) ; Barbara Schikorr (tel/email, présidente VMZS, médiation, Luzern) ;
+Dieter Steiger (tel, expert fiscal + notaire, Luzern).
+
+Échec : Fabrizio Ottaviani / Rosella Chiesa Lehmann (Mendrisio, adresse du membre CSV ne
+correspond à aucun des deux, entrée probablement corrompue).
+
+Rattachement : 1638 études rattachées au total (1624 → 1638, +14). Suite de tests : 94/94 au
+vert.
