@@ -91,6 +91,25 @@
     ],
     "source_url": "https://www.legaly.ch/de/anwalt/3160-evelyne-bernasconi-mamie"
   },
+  "ag-fabian-martin-bertschinger": {
+    "canton": "AG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur + Notariat Haller",
+    "founding_year": 2013,
+    "notes": "Anwaltspatent AG 2013, Notariatspatent 2018, Muri AG.",
+    "person_name": "Fabian Martin Bertschinger",
+    "phone": "056 675 10 20",
+    "practice_areas_de": [
+      "Notariat",
+      "Erbrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Vertragsrecht",
+      "Gesellschaftsrecht",
+      "Unternehmensnachfolge",
+      "Bau- und Raumplanungsrecht"
+    ],
+    "source_url": "https://www.hallernotar.ch/berater/fabian-m-bertschinger.html"
+  },
   "ag-hannes-baumann": {
     "canton": "AG",
     "email": "hannes.baumann@chkp.ch",
@@ -147,6 +166,24 @@
       "Vertragsrecht"
     ],
     "source_url": "https://www.berger-rohrer.ch/jonas_ammann.172de.html"
+  },
+  "ag-katrin-biehler": {
+    "canton": "AG",
+    "email": "biehler@advokatur-baden.ch",
+    "fax": "056 203 31 09",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur Baden",
+    "founding_year": 2017,
+    "notes": "Anwaltspatent AG confirme le 04.07.2026 (communique officiel du canton d'Argovie), Baden AG.",
+    "person_name": "Katrin Biehler",
+    "phone": "056 203 31 00",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Privatversicherungsrecht",
+      "Haftpflichtrecht",
+      "Familienrecht"
+    ],
+    "source_url": "https://www.advokatur-baden.ch/de/ueber-uns/Anwaeltinnen_Anwaelte"
   },
   "ag-kim-attenhofer": {
     "canton": "AG",
@@ -267,6 +304,25 @@
     "source_url": "https://www.advoarmesto.ch/",
     "specialist_certification": "Fachanwältin SAV Haftpflicht- und Versicherungsrecht"
   },
+  "ag-ramona-sandya-bieri": {
+    "canton": "AG",
+    "email": "rbieri@advo5600.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Becker | Gurini | Partner, Rechtsanwälte und Notariat",
+    "founding_year": 2024,
+    "notes": "Anwaltspatent AG confirme le 11.12.2024 (communique officiel du canton d'Argovie), Lenzburg AG - meme etude que Matthias Becker deja connu. Prenom 'Sandya' non confirme dans les sources.",
+    "person_name": "Ramona Sandya Bieri",
+    "phone": "+41 62 888 25 25",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.advo5600.ch/ramona-bieri/"
+  },
   "ag-roger-baumberger": {
     "canton": "AG",
     "fax": "062 836 30 41",
@@ -299,6 +355,22 @@
       "Arbeits- und Mietrecht"
     ],
     "source_url": "https://www.5401.ch/anwaeltinnen/"
+  },
+  "ag-simone-anna-bertschi": {
+    "canton": "AG",
+    "email": "bertschi@via-mediation.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Mediation Simone Bertschi-Weber",
+    "founding_year": 2009,
+    "notes": "Fislisbach AG. Exerce principalement comme mediatrice/conseillere juridique independante (pas d'etude d'avocat traditionnelle) ; egalement conseillere communale (Gemeinderatin) de Fislisbach depuis 2020. Prenom 'Anna' non confirme dans les sources.",
+    "person_name": "Simone Anna Bertschi",
+    "phone": "056 536 15 89",
+    "practice_areas_de": [
+      "Mediation",
+      "Coaching",
+      "Juristische Beratung"
+    ],
+    "source_url": "https://www.via-mediation.ch/persoenlich/"
   },
   "ag-stefan-augstburger": {
     "canton": "AG",
@@ -856,6 +928,13 @@
     "phone": "032 721 19 10",
     "source_url": "https://search.ch/tel/neuchatel/rue-du-coq-dinde-24/alain-badertscher.fr.html"
   },
+  "ne-christelle-boil": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-15",
+    "person_name": "Christelle Boil",
+    "reason": "identite professionnelle ambigue : deux profils distincts trouves sous ce nom (responsable du service social inter-entreprises SSIE offrant des conseils juridiques ; praticienne ANDC/therapie relationnelle sans lien avec le droit) sans confirmation qu'il s'agit de la meme personne exercant comme avocate au sens conventionnel ; aucune etude, telephone ou email de pratique juridique privee confirme malgre son inscription au role officiel du barreau"
+  },
   "ne-christian-blandenier": {
     "canton": "NE",
     "email": "christian.blandenier@notav.ch",
@@ -903,6 +982,29 @@
       "Responsabilite civile et droit des assurances"
     ],
     "source_url": "https://www.ne.ch/sites/default/files/2026-01/20260128_Avocats_Tableau%20ROB.pdf"
+  },
+  "ne-francois-bohnet": {
+    "canton": "NE",
+    "email": "info@kgg.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "KGG Avocats au barreau & Notaires",
+    "founding_year": 1996,
+    "notes": "Brevet d'avocat neuchatelois 1996, professeur ordinaire a l'Universite de Neuchatel, ancien batonnier de l'Ordre des avocats neuchatelois (2020-2023), Neuchatel NE.",
+    "person_name": "François Bohnet",
+    "phone": "+41 32 729 02 10",
+    "practice_areas_fr": [
+      "Procédure civile, de droit privé et de droit de l'avocat",
+      "Droit du bail",
+      "Droit des successions",
+      "Droit du travail",
+      "Droit du divorce",
+      "Droit des contrats",
+      "Droit commercial",
+      "Droit bancaire",
+      "Droits réels et PPE"
+    ],
+    "source_url": "https://www.kgg.ch/avocats-notaires/francois-bohnet",
+    "specialist_certification": "Avocat spécialiste FSA droit du bail ; Avocat spécialiste FSA droit des successions"
   },
   "ne-gabriele-beffa": {
     "canton": "NE",
@@ -958,6 +1060,25 @@
     ],
     "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
   },
+  "ne-marc-boillat": {
+    "canton": "NE",
+    "email": "m.boillat@etudebgs.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BGS, Étude d'avocats au barreau et notaires associés",
+    "notes": "La Chaux-de-Fonds NE, inscrit au role officiel du barreau neuchatelois.",
+    "person_name": "Marc Boillat",
+    "phone": "032 911 32 00",
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit pénal",
+      "Droit administratif",
+      "Droit des affaires",
+      "Actes notariés",
+      "Successions",
+      "Transactions immobilières"
+    ],
+    "source_url": "https://www.local.ch/fr/d/la-chaux-de-fonds/2300/avocat/bgs-etude-d-avocats-au-barreau-et-notaires-associes-XIf_rd7Tqz-TCcWgCPhjyA"
+  },
   "ne-mathias-bauer": {
     "canton": "NE",
     "fax": "032 722 60 09",
@@ -976,6 +1097,27 @@
     ],
     "source_url": "http://www.avocatsneuchatel.ch/index.php?titre=9&id=12",
     "specialist_certification": "Spécialiste FSA droit pénal et procédure pénale (2025)"
+  },
+  "ne-matthieu-bois": {
+    "canton": "NE",
+    "email": "mb@etude-bois.ch",
+    "fax": "032 752 46 61",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Étude Wagner · Bois",
+    "founding_year": 1997,
+    "notes": "Brevet d'avocat neuchatelois 1997, associe depuis 2017, ancien chef du service juridique de la Ville de La Chaux-de-Fonds, La Chaux-de-Fonds NE.",
+    "person_name": "Matthieu Bois",
+    "phone": "+41 (0)32 752 46 60",
+    "practice_areas_fr": [
+      "Droit administratif en général",
+      "Droit de l'aménagement du territoire",
+      "Droit public de la construction",
+      "Marchés publics",
+      "Droit de la fonction publique",
+      "Droit du travail",
+      "Contrats"
+    ],
+    "source_url": "https://etude-wb.ch/matthieu-bois"
   },
   "ne-michel-bise": {
     "canton": "NE",
@@ -2169,6 +2311,16 @@
     ],
     "source_url": "https://raggenbass.com/kanzlei/anna-lea-brunnschweiler"
   },
+  "tg-arturo-casanova": {
+    "canton": "TG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Hasler Leu Casanova",
+    "founding_year": 1990,
+    "notes": "Dr. iur., Rechtsanwalt, Notar, öffentliche Urkundsperson, MAS Intl. Corporate Taxation, Kreuzlingen TG. L'annee de fondation (1990) concerne l'etude elle-meme (site officiel) ; annee de patente personnelle non confirmee par une source primaire directe.",
+    "person_name": "Arturo Casanova",
+    "phone": "+41 71 677 30 60",
+    "source_url": "https://hasler-leu-casanova.ch/kanzlei/rechtsanwaelte/"
+  },
   "tg-cedric-akeret": {
     "canton": "TG",
     "email": "rickenbach@flb-law.ch",
@@ -2177,6 +2329,23 @@
     "person_name": "Cédric Akeret",
     "phone": "+41 (0) 71 929 90 10",
     "source_url": "https://www.flb-law.ch/kanzlei"
+  },
+  "tg-daniel-christen": {
+    "canton": "TG",
+    "email": "daniel.christen@raggenbass.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Raggenbass Rechtsanwälte",
+    "founding_year": 2007,
+    "notes": "Anwaltspatent TG 2007, Amriswil TG.",
+    "person_name": "Daniel Christen",
+    "phone": "+41 71 414 59 59",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Alternative Streitbeilegung",
+      "Strafrecht und Strassenverkehrsrecht"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/daniel-christen",
+    "specialist_certification": "Fachanwalt SAV Familienrecht (2022) ; Mediator SAV (2011)"
   },
   "tg-david-georg-ackermann": {
     "canton": "TG",
@@ -2266,6 +2435,27 @@
       "Submission / Vergaberecht"
     ],
     "source_url": "https://raggenbass.com/kanzlei/kevin-bogli"
+  },
+  "tg-markus-burgi": {
+    "canton": "TG",
+    "email": "m.buergi@bhz-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bürgi Hotz Zellweger Rechtsanwälte",
+    "founding_year": 2003,
+    "notes": "lic.iur. HSG, Anwaltspatent TG 2003, Frauenfeld TG. Egalement Gemeindepraesident (maire) de Stettfurt depuis 2018.",
+    "person_name": "Markus Bürgi",
+    "phone": "+41 52 723 00 00",
+    "practice_areas_de": [
+      "Staats-, Verwaltungs- und Gemeinderecht",
+      "Öffentliches Bau-, Planungs- und Umweltrecht",
+      "Gesellschaftsrecht",
+      "Erbrecht und Nachlassplanung",
+      "Öffentliches Beschaffungswesen",
+      "Arbeitsrecht",
+      "Beurkundungen und Beglaubigungen",
+      "Landwirtschaftsrecht"
+    ],
+    "source_url": "https://www.bhz-law.ch/de/Markus-Buergi-lic-iur-HSG"
   },
   "tg-martin-breitenstein": {
     "canton": "TG",
@@ -2366,6 +2556,27 @@
       "Notariat"
     ],
     "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
+  },
+  "tg-thomas-dufner": {
+    "canton": "TG",
+    "email": "thomas.dufner@raggenbass.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Raggenbass Rechtsanwälte",
+    "notes": "Dr. iur., öffentliche Urkundsperson, Kreuzlingen TG.",
+    "person_name": "Thomas Dufner",
+    "phone": "+41 71 677 05 80",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Stockwerkeigentumsrecht",
+      "Öffentliches Baurecht",
+      "Privates Baurecht",
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Mietrecht",
+      "Grundversorgung"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/thomas-dufner",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (2013)"
   },
   "tg-valentin-brunner": {
     "canton": "TG",
@@ -3382,5 +3593,68 @@
     "person_name": "Bischof Jacqueline",
     "phone": "041 752 15 03",
     "source_url": "https://www.local.ch/de/d/baar/6340/anwalt/bischof-jacqueline-woc_Fl2XyjHd5jPmhRQS9A"
+  },
+  "zg-bitzi-bruno-f": {
+    "canton": "ZG",
+    "fax": "041 711 86 80",
+    "fetched_date": "2026-09-15",
+    "notes": "Dr. iur., Rechtsanwalt und Urkundsperson, Zoug ZG. Une adresse concurrente (Zeughausgasse 9, possible association 'Bitzi & Thoma') existe et n'a pas pu etre confirmee - adresse Lauriedstrasse 1 retenue (2 annuaires independants convergents).",
+    "person_name": "Bitzi Bruno F.",
+    "phone": "041 711 86 35",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Handelsrecht/Wirtschaftsrecht",
+      "Zivilrecht",
+      "Notariatsrecht/Beurkundungsrecht",
+      "Erbrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://zip.ch/de/bitzi-bruno-f-dr-iur-rechtsanwalt-u-urkundsperson-lauriedstrasse-zug-5ODXnqVXJp/"
+  },
+  "zg-blattler-christian": {
+    "canton": "ZG",
+    "email": "christian.blaettler@bollaglegal.ch",
+    "fax": "+41 41 729 08 71",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bollag Advokatur & Notariat",
+    "founding_year": 2013,
+    "notes": "MLaw, Rechtsanwalt und Notar, Anwaltspatent ZG 2013, Legal Counsel chez Bollag Advokatur & Notariat (Dr. J. Bollag & Cie. AG), Zoug ZG.",
+    "person_name": "Blättler Christian",
+    "phone": "+41 41 729 08 70",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Schadensrecht",
+      "Schuld- und Konkursrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.bollaglegal.ch/christian-bl%C3%A4ttler"
+  },
+  "zg-blattmann-micha": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "notes": "lic. iur., LL.M. (UCLA), Neuheim ZG, confirme au registre cantonal officiel zougois. Egalement membre du conseil d'administration de HIAG Immobilien Schweiz AG et co-fondateur de Vicenda Group AG - une bio tierce mentionne un cabinet a Cham, divergence non resolue avec l'adresse officielle de Neuheim.",
+    "person_name": "Blattmann Micha",
+    "phone": "041 508 51 57",
+    "source_url": "https://www.local.ch/de/d/Neuheim/6345/Blattmann-Advokatur-Notariat-L9YxbOgAO-tz2dkVlYmoBA"
+  },
+  "zg-blum-richard-e": {
+    "canton": "ZG",
+    "email": "richard.blum@blum-partner.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Blum & Partner AG",
+    "founding_year": 1982,
+    "notes": "Dr. iur., Rechtsanwalt und Notar, Anwalts- und Notariatspatent ZG 1982, fondateur de Blum & Partner AG (1984), Zoug ZG.",
+    "person_name": "Blum Richard E.",
+    "phone": "+41 (0)41 729 49 29",
+    "practice_areas_de": [
+      "Internationales und Schweizerisches Gesellschaftsrecht",
+      "Unternehmensstrukturierungen",
+      "Trusts und Stiftungen",
+      "Notariat"
+    ],
+    "source_url": "https://blum-partner.com/team/richard-blum/"
   }
 }

@@ -5359,3 +5359,34 @@ ambiguë entre plusieurs homonymes potentiels dont un General Counsel du groupe 
 
 Rattachement : 205 avocats rattachés par nom au total (194 → 205, +11). Suite de tests : 94/94 au
 vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 7 — partiel : AG+ZG+NE+TG)
+
+Lot interrompu par une limite de session (reset annoncé 23h UTC) ; SO n'a produit aucune recherche
+exploitable et sera repris au prochain lot (ses 4 candidats restant non traités dans le cache).
+16 candidats traités (4 par canton AG/ZG/NE/TG).
+
+Succès (15) : Simone Anna Bertschi (**depuis 2009**, tel/email, domaines, Via Mediation, Fislisbach
+AG — conseillère communale active, prénom "Anna" non confirmé) ; Fabian Martin Bertschinger
+(**depuis 2013**, tel, domaines, Advokatur + Notariat Haller, Muri AG) ; Katrin Biehler
+(**depuis 2017**, tel/fax/email, domaines, Advokatur Baden, Baden AG) ; Ramona Sandya Bieri
+(**depuis 2024**, tel/email, domaines, Becker|Gurini|Partner — même étude que Matthias Becker déjà
+connu, Lenzburg AG) ; Bruno F. Bitzi (tel/fax, domaines, Zoug ZG — adresse concurrente non
+résolue) ; Christian Blättler (**depuis 2013**, tel/fax/email, domaines, Bollag Advokatur &
+Notariat, Zoug ZG) ; Micha Blattmann (tel, Neuheim ZG — également administrateur de HIAG
+Immobilien Schweiz AG) ; Richard E. Blum (**depuis 1982**, tel/email, domaines, Blum & Partner AG,
+Zoug ZG) ; François Bohnet (**depuis 1996**, tel/email, spécialiste FSA droit du bail et droit des
+successions, domaines, KGG Avocats, professeur à l'Université de Neuchâtel, Neuchâtel NE) ; Marc
+Boillat (tel/email, domaines, Étude BGS, La Chaux-de-Fonds NE) ; Matthieu Bois (**depuis 1997**,
+tel/fax/email, domaines, Étude Wagner·Bois, La Chaux-de-Fonds NE) ; Markus Bürgi (**depuis 2003**,
+tel/email, domaines, Bürgi Hotz Zellweger, maire de Stettfurt, Frauenfeld TG) ; Arturo Casanova
+(tel, domaines, Hasler Leu Casanova, Kreuzlingen TG) ; Daniel Christen (**depuis 2007**, tel/email,
+Fachanwalt SAV Familienrecht, Mediator SAV, domaines, Raggenbass, Amriswil TG) ; Thomas Dufner
+(tel/email, Fachanwalt SAV Bau- und Immobilienrecht, domaines, Raggenbass, Kreuzlingen TG).
+
+Échec (1) : Christelle Boil (Neuchâtel NE, identité professionnelle ambiguë entre deux profils
+distincts trouvés — service social SSIE vs. pratique de thérapie relationnelle — sans confirmation
+d'une pratique d'avocate conventionnelle).
+
+Rattachement : 220 avocats rattachés par nom au total (205 → 220, +15). Suite de tests : 94/94 au
+vert.
