@@ -230,6 +230,18 @@
     "phone": "+41 71 788 10 70",
     "source_url": "https://contreva.ai/unternehmen"
   },
+  "ai-josef-moser": {
+    "canton": "AI",
+    "email": "mail@josef-moser.ai",
+    "fetched_date": "2026-09-15",
+    "firm_name": "contreva ag (treuhand recht, anciennement moser & hörler ag)",
+    "founding_year": 2015,
+    "notes": "Confirme partenaire 'Moser' de contreva/moser & hoerler ag (meme adresse que Bruno Hoerler deja connu) via le registre cantonal AI (ne en 1985, brevet SG 2015). Ne pas confondre avec un 'Josef Moser-Fässler' plus ancien, figure historique distincte de la meme entreprise.",
+    "person_name": "Moser Josef",
+    "phone": "071 788 10 88",
+    "source_url": "https://www.appenzell.org/behoerdenmitglieder/377446",
+    "specialist_certification": "Mediator SAV"
+  },
   "ai-jud-armin": {
     "canton": "AI",
     "fetched_date": "2026-09-15",
@@ -244,12 +256,46 @@
     ],
     "source_url": "https://zip.ch/de/advokatur-und-notariat-armin-jud-blattenrainstrasse-appenzell-pDrpnv5ZJL/"
   },
+  "ai-walter-regli": {
+    "canton": "AI",
+    "email": "regliwalter@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Regli & Partner",
+    "founding_year": 1977,
+    "notes": "Adresse professionnelle CSV (Weissbadstrasse 8b) partagee par plusieurs entites sans rapport (bureau d'incorporation) ; ne en 1949, toujours au registre cantonal des avocats actifs.",
+    "person_name": "Regli Walter",
+    "phone": "071 554 45 80",
+    "source_url": "https://search.ch/tel/appenzell/mosersweid-52/walter-regli"
+  },
+  "ar-anja-muller-gerteis": {
+    "canton": "AR",
+    "email": "aes.anwaelte@gmx.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "AES Rechtsanwälte",
+    "founding_year": 2019,
+    "person_name": "Müller-Gerteis Anja",
+    "phone": "077 499 65 80",
+    "practice_areas_de": [
+      "Allgemeines Zivilrecht, insb. Mietrecht",
+      "Nachlassplanung (Testamente, Erbvertrag, Vorsorgeauftrag) und Nachlassabwicklung",
+      "Konkursbeschwerden"
+    ],
+    "source_url": "https://aes-anwaelte.ch/anja-mueller-gerteis/"
+  },
   "ar-christian-boetschi": {
     "_failed": true,
     "canton": "AR",
     "checked_date": "2026-09-15",
     "person_name": "Bötschi Christian",
     "reason": "aucune pratique d'avocat privee active trouvee ; faisceau d'indices concordant (articles de presse, LinkedIn) indiquant qu'il s'agit du procureur general (Leitender Staatsanwalt) d'Appenzell Rhodes-Exterieures, retraite en juillet 2022 apres 37 ans ; adresse CSV correspond a un domicile prive partage avec son epouse, non a un cabinet"
+  },
+  "ar-christoph-langenauer": {
+    "canton": "AR",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1981,
+    "person_name": "Langenauer Christoph",
+    "phone": "071 344 20 11",
+    "source_url": "https://ar.ch/gerichte/obergericht/anwaltsregister-oeffentliche-urkundspersonen/"
   },
   "ar-ehrenzeller-daniel": {
     "canton": "AR",
@@ -276,6 +322,22 @@
     "person_name": "Birchler Martin",
     "phone": "071 511 70 35",
     "source_url": "https://www.advokatur-birchler.ch/"
+  },
+  "bl-andre-brunner": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltsbüro Brunner",
+    "founding_year": 2002,
+    "person_name": "Brunner André",
+    "phone": "061 973 00 70",
+    "practice_areas_de": [
+      "Haftpflichtrecht",
+      "Sozialversicherungsrecht",
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht",
+      "Allgemeines Strafrecht"
+    ],
+    "source_url": "http://anw24.ch/details/1185/andre-brunner-sissach"
   },
   "bl-borter-daniel": {
     "_failed": true,
@@ -306,6 +368,14 @@
     "person_name": "Bifl Daniela",
     "reason": "adresse CSV (Hohenrainstrasse 12c) introuvable dans toutes les sources consultees, qui indiquent uniformement Wasenstrasse 13 ; emails incoherents entre sources (.ch/.com/.info) ; listes de langues contradictoires -- risque de donnee CSV erronee ou de confusion d'identite, non retenu par prudence"
   },
+  "bl-peter-brodbeck": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Brodbeck",
+    "person_name": "Brodbeck Peter",
+    "phone": "061 926 99 66",
+    "source_url": "https://search.ch/tel/liestal/birmannstrasse-12/peter-brodbeck"
+  },
   "bl-stephan-blaesi": {
     "canton": "BL",
     "fetched_date": "2026-09-15",
@@ -321,12 +391,46 @@
     ],
     "source_url": "https://www.local.ch/de/d/basel/4054/advokatur-und-notariatsbuero/blaesi-stephan-57u2V1VAJlLCUsXXeUud4w"
   },
+  "lu-alex-beeler": {
+    "canton": "LU",
+    "email": "a.beeler@beeler-schuler.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BEELER | SCHULER Rechtsanwälte",
+    "founding_year": 1995,
+    "person_name": "Alex Beeler",
+    "phone": "041 226 05 55",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Medizinalrecht",
+      "Berufsvorsorgerecht",
+      "Privatversicherungsrecht"
+    ],
+    "source_url": "https://www.beeler-schuler.ch/alex_beeler.html",
+    "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht"
+  },
   "lu-hans-aepli": {
     "canton": "LU",
     "fetched_date": "2026-09-15",
     "person_name": "Hans Aepli",
     "phone": "041 310 44 29",
     "source_url": "https://search.ch/tel/luzern/sonnenbergstrasse-55/hans-und-sylvie-aepli"
+  },
+  "lu-marc-bieri": {
+    "canton": "LU",
+    "email": "mb@kanzlei-eichhof.ch",
+    "fax": "041 340 55 57",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bieri Unternährer Dahinden (Kanzlei Eichhof)",
+    "person_name": "Marc Bieri",
+    "phone": "041 410 07 77",
+    "practice_areas_de": [
+      "Ehe- und Erbverträge, Testamente, Vorsorgeaufträge",
+      "Liegenschaftskauf",
+      "Gesellschaftsgründungen",
+      "Konkurse"
+    ],
+    "source_url": "https://www.kanzlei-eichhof.ch/team/"
   },
   "lu-markus-bachmann": {
     "canton": "LU",
@@ -562,6 +666,13 @@
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
   },
+  "nw-astrid-radel": {
+    "_failed": true,
+    "canton": "NW",
+    "checked_date": "2026-09-15",
+    "person_name": "Rädel Astrid",
+    "reason": "adresse CSV (Grossmatt 3) introuvable dans toutes les sources ; numero de telephone trouve porte un indicatif zurichois (044) alors que tous les autres avocats de Hergiswil ont l'indicatif 041 ; site web du cabinet (rrecht.ch) inaccessible (echec DNS) ; risque de confusion avec une avocate distincte basee a Zurich -- non retenu par prudence"
+  },
   "nw-burgisser-adolf": {
     "_failed": true,
     "canton": "NW",
@@ -584,6 +695,16 @@
     ],
     "source_url": "https://www.amstadzeier.ch/",
     "specialist_certification": "Mediatorin SAV"
+  },
+  "nw-dominik-vogler": {
+    "canton": "NW",
+    "email": "vogler@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 2014,
+    "person_name": "Vogler Dominik",
+    "phone": "041 666 07 50",
+    "source_url": "https://www.ettlin-partner.ch/team/vogler-dominik"
   },
   "nw-gerhard-balbi": {
     "canton": "NW",
@@ -621,6 +742,38 @@
       "Urheberrecht"
     ],
     "source_url": "https://www.mcadvo.ch/anwalt/buochs/liciur-sandra-hophan-schaetzle"
+  },
+  "nw-joseph-iten": {
+    "canton": "NW",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1969,
+    "person_name": "Iten Joseph",
+    "phone": "041 630 25 40",
+    "practice_areas_de": [
+      "Allgemeines Strafrecht",
+      "Beurkundungsrecht",
+      "Erbrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Handelsrecht",
+      "Strafrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://search.ch/tel/hergiswil/steinruetistrasse-2/joseph-iten"
+  },
+  "nw-linda-probst": {
+    "canton": "NW",
+    "email": "probst@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 2024,
+    "person_name": "Probst Linda",
+    "phone": "041 666 07 50",
+    "practice_areas_de": [
+      "Schuldbetreibungs- und Konkursrecht",
+      "Vertragsrecht (insb. Arbeits- und Mietrecht)",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/probst-linda"
   },
   "ow-kung-lukas": {
     "canton": "OW",
@@ -732,6 +885,20 @@
     ],
     "source_url": "http://www.chblaw.ch/kanzlei/christof-blaesi/",
     "specialist_certification": "Zertifizierter Kinderanwalt"
+  },
+  "sg-curdin-conrad": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-15",
+    "person_name": "Conrad Curdin",
+    "reason": "forte indication (LinkedIn/PG3 AG) qu'il a quitte la pratique privee en 2015 pour un poste de General Counsel/Head of Legal chez PG3 AG (family office St-Gall) ; l'adresse Abtwil semble correspondre a un ancien cabinet a Gossau, listing probablement perime ; statut de pratique actuelle non confirme"
+  },
+  "sg-fabio-di-cugno": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-15",
+    "person_name": "Di Cugno Fabio",
+    "reason": "aucune trace professionnelle/juridique trouvee ; seule entree = un listing residentiel partage avec l'epouse (convention d'annuaire standard pour un menage prive) ; absent de la liste complete des 22 avocats de Rorschach (search.ch) et de toute recherche au registre cantonal SG"
   },
   "sg-hans-altherr": {
     "_failed": true,
@@ -981,6 +1148,28 @@
       "Mediation"
     ],
     "source_url": "https://schwyzeranwalt.ch/?page_id=8"
+  },
+  "sz-peter-gruter": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "person_name": "Grüter Peter",
+    "phone": "+41 79 826 20 98",
+    "source_url": "https://www.avsz.ch/mitglieder.html"
+  },
+  "sz-walter-fleischmann": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "person_name": "Fleischmann Walter",
+    "phone": "+41 55 442 36 66",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Haftpflichtrecht",
+      "Opferhilferecht",
+      "Privatversicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Strassenverkehrsrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/altendorf/driur-walter-fleischmann"
   },
   "tg-alessandra-biondi": {
     "canton": "TG",
@@ -1423,6 +1612,24 @@
     ],
     "source_url": "https://www.gblaw.ch/"
   },
+  "ti-francesca-balerna-gianotti": {
+    "canton": "TI",
+    "fax": "+41 91 752 04 45",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale avv. Balerna Gianotti Francesca",
+    "person_name": "BALERNA GIANOTTI Francesca",
+    "phone": "+41 91 752 04 44",
+    "source_url": "http://piccolostudiolegale.ch/"
+  },
+  "ti-francesco-barletta": {
+    "canton": "TI",
+    "fax": "091 225 15 51",
+    "fetched_date": "2026-09-15",
+    "firm_name": "FBLaw Studio Legale",
+    "person_name": "BARLETTA Francesco",
+    "phone": "091 225 15 50",
+    "source_url": "https://search.ch/tel/lugano/via-serafino-balestra-12/avv-francesco-barletta-studio-legale-lugano.it.html"
+  },
   "ti-tatiana-celine-anastasi": {
     "canton": "TI",
     "fetched_date": "2026-09-15",
@@ -1464,6 +1671,35 @@
     "checked_date": "2026-09-15",
     "person_name": "Arnold Christian",
     "reason": "risque d'identite eleve : le cabinet associe (Arnold Simmen Advokatur & Notariat) semble avoir change de nom/composition (desormais 'Bulgheroni Simmen'), Christian Arnold n'apparait plus sur la page equipe actuelle ; au moins deux autres homonymes dans le meme canton (contact judiciaire, conseiller d'Etat/agriculteur) ; statut professionnel actuel non confirme"
+  },
+  "ur-daniel-peter-banninger": {
+    "canton": "UR",
+    "fax": "+41 41 870 65 63",
+    "fetched_date": "2026-09-15",
+    "firm_name": "TeleTrust Partner AG",
+    "founding_year": 2002,
+    "notes": "Societe de conseil contractuel/procurement (pas une etude d'avocats traditionnelle), meme adresse que Romana Bossi Bisatz (bureau partage).",
+    "person_name": "Bänninger Daniel Peter",
+    "phone": "+41 41 870 60 70",
+    "source_url": "https://www.teletrust.com/"
+  },
+  "ur-romana-bossi-bisatz": {
+    "canton": "UR",
+    "email": "r.bossi@dillierbossi.ch",
+    "fax": "041 870 65 63",
+    "fetched_date": "2026-09-15",
+    "firm_name": "dillier.bossi. – Advokatur und Notariat",
+    "founding_year": 2001,
+    "notes": "Egalement Jugendanwältin (procureure des mineurs) au Kanton Uri -- double role note pour information.",
+    "person_name": "Bossi Bisatz Romana",
+    "phone": "+41 41 870 65 65",
+    "practice_areas_de": [
+      "Advokatur",
+      "Notariat",
+      "Mediation"
+    ],
+    "source_url": "https://www.dillierbossi.ch/",
+    "specialist_certification": "Mediatorin SAV"
   },
   "ur-thomas-arnold": {
     "canton": "UR",

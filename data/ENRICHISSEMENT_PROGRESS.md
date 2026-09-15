@@ -5145,3 +5145,35 @@ déjà connu, Dornach SO).
 
 Rattachement : 105 avocats rattachés par nom au total (85 → 105, +20). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 3)
+
+Rattrapage après plusieurs déclenchements manqués. 20 avocats solo, 2 par canton (TI/SG/LU/BL/
+SZ/UR/AR/AI/NW/OW), ordre CSV stable. Deux identités confirmées via des registres cantonaux
+officiels (Uri, Appenzell Rhodes-Intérieures) téléchargés et analysés directement.
+
+Succès (17) : Francesca Balerna Gianotti (tel/fax, Biasca... Locarno-Solduno TI) ; Francesco
+Barletta (tel/fax, FBLaw, Lugano TI) ; Alex Beeler (**depuis 1995**, tel/email, Fachanwalt SAV
+Haftpflicht-/Versicherungsrecht, domaines, BEELER|SCHULER, Lucerne LU) ; Marc Bieri (tel/fax/
+email, domaines, Kanzlei Eichhof, Lucerne LU) ; Peter Brodbeck (tel, Liestal BL) ; André Brunner
+(**depuis 2002**, tel, domaines, Anwaltsbüro Brunner, Sissach BL) ; Walter Fleischmann (tel,
+domaines, Altendorf SZ) ; Peter Grüter (tel, Lachen SZ) ; Daniel Peter Bänninger (**depuis 2002**,
+tel/fax, TeleTrust Partner AG, Altdorf UR) ; Romana Bossi Bisatz (**depuis 2001**, tel/fax/email,
+Mediatorin SAV, domaines, dillier.bossi., Altdorf UR — également Jugendanwältin) ; Christoph
+Langenauer (**depuis 1981**, tel, Speicher AR) ; Anja Müller-Gerteis (**depuis 2019**, tel/email,
+domaines, AES Rechtsanwälte, Heiden AR) ; Josef Moser (**depuis 2015**, tel/email, Mediator SAV,
+contreva — même cabinet que Bruno Hörler déjà connu, confirmé au registre cantonal AI, Appenzell
+AI) ; Walter Regli (**depuis 1977**, tel/email, Advokaturbüro Regli & Partner, Appenzell AI) ;
+Linda Probst (**depuis 2024**, tel/email, domaines, ettlin&partner, Sarnen OW) ; Dominik Vogler
+(**depuis 2014**, tel/email, ettlin&partner — même étude que Linda Probst, Sarnen OW) ; Joseph
+Iten (**depuis 1969**, tel, domaines, Hergiswil NW).
+
+Échecs (3) : Curdin Conrad (Abtwil SG, indices forts d'un départ en 2015 pour un poste de General
+Counsel chez PG3 AG, listing probablement périmé) ; Fabio Di Cugno (Rorschach SG, aucune trace
+professionnelle, seul listing résidentiel trouvé) ; Astrid Rädel (Hergiswil NW, adresse CSV
+introuvable, indicatif téléphonique zurichois incohérent, site web inaccessible — risque de
+confusion avec une avocate distincte à Zurich).
+
+Rattachement : 120 avocats rattachés par nom au total (105 → 120, +15, mécanisme partagé avec la
+Phase 3b — léger écart avec les 17 succès dû à des homonymies ambiguës côté CSV, comportement
+documenté et sans gravité). Suite de tests : 94/94 au vert.
