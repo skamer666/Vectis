@@ -696,16 +696,6 @@
     "source_url": "https://www.amstadzeier.ch/",
     "specialist_certification": "Mediatorin SAV"
   },
-  "nw-dominik-vogler": {
-    "canton": "NW",
-    "email": "vogler@ettlin-partner.ch",
-    "fetched_date": "2026-09-15",
-    "firm_name": "ettlin&partner advokatur und notariat ag",
-    "founding_year": 2014,
-    "person_name": "Vogler Dominik",
-    "phone": "041 666 07 50",
-    "source_url": "https://www.ettlin-partner.ch/team/vogler-dominik"
-  },
   "nw-gerhard-balbi": {
     "canton": "NW",
     "email": "gerhard.balbi@bluewin.ch",
@@ -760,20 +750,15 @@
     ],
     "source_url": "https://search.ch/tel/hergiswil/steinruetistrasse-2/joseph-iten"
   },
-  "nw-linda-probst": {
-    "canton": "NW",
-    "email": "probst@ettlin-partner.ch",
+  "ow-dominik-vogler": {
+    "canton": "OW",
+    "email": "vogler@ettlin-partner.ch",
     "fetched_date": "2026-09-15",
     "firm_name": "ettlin&partner advokatur und notariat ag",
-    "founding_year": 2024,
-    "person_name": "Probst Linda",
+    "founding_year": 2014,
+    "person_name": "Vogler Dominik",
     "phone": "041 666 07 50",
-    "practice_areas_de": [
-      "Schuldbetreibungs- und Konkursrecht",
-      "Vertragsrecht (insb. Arbeits- und Mietrecht)",
-      "Strafrecht"
-    ],
-    "source_url": "https://www.ettlin-partner.ch/team/probst-linda"
+    "source_url": "https://www.ettlin-partner.ch/team/vogler-dominik"
   },
   "ow-kung-lukas": {
     "canton": "OW",
@@ -810,6 +795,21 @@
       "Strafrecht"
     ],
     "source_url": "https://www.ettlin-partner.ch/team/larentis-chiara"
+  },
+  "ow-linda-probst": {
+    "canton": "OW",
+    "email": "probst@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 2024,
+    "person_name": "Probst Linda",
+    "phone": "041 666 07 50",
+    "practice_areas_de": [
+      "Schuldbetreibungs- und Konkursrecht",
+      "Vertragsrecht (insb. Arbeits- und Mietrecht)",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/probst-linda"
   },
   "ow-martina-albert": {
     "canton": "OW",
