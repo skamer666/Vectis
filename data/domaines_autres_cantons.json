@@ -276,6 +276,13 @@
     ],
     "source_url": "https://adexas.com/"
   },
+  "adlaw.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Cantonale 138, 6804 Bironico",
+    "founding_year": 2021,
+    "source_url": "https://adlaw.ch/"
+  },
   "adlegem.ch": {
     "canton": "LU",
     "email": "boehni@adlegem.ch",
@@ -5608,6 +5615,13 @@
     "source_url": "https://www.blesi-papa.ch/",
     "team_size_n": null
   },
+  "bleuler-santantonino-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Mondò, casella postale 120",
+    "phone": "091 840 16 35",
+    "source_url": "http://anw24.ch/details/816/max-bleuler-s-antonino"
+  },
   "bleuleranwaltskanzlei.ch": {
     "canton": "ZH",
     "email": "info@bleuleranwaltskanzlei.ch",
@@ -6063,6 +6077,12 @@
     "firm_name": "BosLaw AG Rechtsanwälte",
     "phone": "+41 43 299 60 90",
     "source_url": "https://www.bos-law.ch/"
+  },
+  "bourquin-wollerau-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schwalbenbodenstrasse 28b",
+    "source_url": "https://search.ch/tel/wollerau/schwalbenbodenstrasse-28b/marcel-bourquin.de.html"
   },
   "bowilaw.ch": {
     "canton": "ZH",
@@ -6890,6 +6910,13 @@
     "phone": "+41 44 380 06 20",
     "source_url": "https://www.c-law.ch/"
   },
+  "cabianca-bellinzona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Cà Bianca, Viale Officina, Casella postale 1853",
+    "phone": "091 821 60 50",
+    "source_url": "https://zip.ch/it/martignoni-polti-brenno-viale-officina-bellinzona-qvDOnbKOEm/"
+  },
   "cadosch-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -7423,6 +7450,13 @@
     "source_url": "https://cms.law/en/che/office/zurich",
     "team_size_n": 70
   },
+  "cocchi-lugano-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Lelgio",
+    "founding_year": 1971,
+    "source_url": "https://www.studilegali.com/avvocati/avv-bruno-cocchi"
+  },
   "cognitor.ch": {
     "canton": "ZH",
     "fetched_date": "2026-07-29",
@@ -7547,6 +7581,13 @@
     ],
     "source_url": "https://core-attorneys.com/en/"
   },
+  "corsenca-massagno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Canton Là 3, 6864 Arzo",
+    "phone": "091 960 17 20",
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati?user_pgiudiziario_pi2%5Bricerca%5D=&cHash=2b64985ed7f2953c4c4ab721cc5b2b08&page=25"
+  },
   "cottinelli-law.ch": {
     "canton": "SG",
     "email": "sekretariat@cottinelli-law.ch",
@@ -7589,6 +7630,14 @@
     "canton": "TI",
     "fetched_date": "2026-09-14",
     "firm_name": "Studio legale e notarile Pietro Crespi",
+    "phone": "091 825 15 52",
+    "source_url": "http://www.crespi.ch/index.asp?pagina=1659",
+    "team_size_n": 3
+  },
+  "crespi.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Viale Officina 6",
     "phone": "091 825 15 52",
     "source_url": "http://www.crespi.ch/index.asp?pagina=1659",
     "team_size_n": 3
@@ -7758,6 +7807,13 @@
     "source_url": "https://www.daetwyleradvokatur.ch/Kontakt.htm",
     "team_size_n": 1
   },
+  "dafond-locarno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Piazza Cioccaro 8, 6900 Lugano, Via Borghetto 1B, 6512 Giubiasco",
+    "founding_year": 1987,
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati/?user_pgiudiziario_pi2%5Bricerca%5D=&page=27"
+  },
   "daljipi.ch": {
     "canton": "ZH",
     "email": "info@daljipi.ch",
@@ -7855,6 +7911,20 @@
     "firm_name": "de Beer Rechtsanwälte",
     "reason": "Aucun site officiel dedie trouve, uniquement des annuaires tiers"
   },
+  "debiasio-porza-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Piazza Somazzi, Casella postale 26",
+    "phone": "091 930 86 05",
+    "source_url": "https://zip.ch/fr/de-biasio-giorgio-porza-yr65851ZDz/"
+  },
+  "debiasio-porza-ti#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "c/o studio legale e notarile avv. dott. Giorgio De Biasio, Piazza Somazzi, Casella postale 26",
+    "phone": "091 930 86 05",
+    "source_url": "https://zip.ch/fr/de-biasio-giorgio-porza-yr65851ZDz/"
+  },
   "debrunner-sg": {
     "_failed": true,
     "canton": "SG",
@@ -7899,6 +7969,13 @@
     "founding_year": 2016,
     "source_url": "https://search.ch/tel/lugano/via-luigi-lavizzari-4/avv-pascal-delprete.it.html"
   },
+  "deltredici-viganello-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Luganetto 2, 6962 Lugano-Viganello",
+    "phone": "+41 91 921 38 77",
+    "source_url": "https://search.ch/tel/viganello/via-luganetto-2/avv-monica-del-tredici-berini-notaio.it.html"
+  },
   "demuth-recht.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-13",
@@ -7933,6 +8010,12 @@
     ],
     "source_url": "https://www.derungs-legal.com/vitus-derungs"
   },
+  "dettling-brunnen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Rosengartenstrasse 11",
+    "source_url": "https://search.ch/tel/brunnen/rosengartenstrasse-11/arnold-f-dettling.fr.html"
+  },
   "dettling-ott.ch": {
     "canton": "ZH",
     "email": "office@dettling-ott.ch",
@@ -7945,6 +8028,13 @@
     ],
     "source_url": "https://www.dettling-ott.ch/",
     "team_size_n": 1
+  },
+  "dettling-schwyz-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schmiedgasse 1",
+    "phone": "041 811 60 21",
+    "source_url": "https://search.ch/tel/schwyz/schmiedgasse-1/toni-und-brigitte-dettling"
   },
   "devonlegal.ch": {
     "canton": "ZH",
@@ -9285,6 +9375,20 @@
     "phone": "091 695 47 00",
     "source_url": "https://www.studilegali.com/avvocati/studio-legale-ferrari-partner"
   },
+  "ferrarilegal.com#3": {
+    "canton": "TI",
+    "email": "gabriele@ferrarilegal.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Peri 11, 6901 Lugano",
+    "phone": "091 695 47 00",
+    "source_url": "https://search.ch/tel/lugano/via-pietro-peri-11/filippo-ferrari.it.html"
+  },
+  "ferrati-massagno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Tesserete 59/A, 6900 Lugano",
+    "source_url": "https://studiolegalemichelaferrati.ch/"
+  },
   "ferronilegal.ch": {
     "canton": "TI",
     "fetched_date": "2026-09-14",
@@ -10395,6 +10499,20 @@
     "firm_name": "Studio legale M.A. Ghidoni Via in",
     "reason": "aucun site officiel propre confirme"
   },
+  "ghioldi-mendrisio-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "firm_name": "Riva Caccia 10B",
+    "reason": "seule mention generique trouvee pour Francesco Ghioldi (1 avocat enregistre sur Legaly), aucune adresse/contact confirme pour cette entree specifique"
+  },
+  "ghiringhelli-bellinzona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Orico 7",
+    "founding_year": 1990,
+    "source_url": "https://tel.search.ch/bellinzona/via-orico-7/camilla-ghiringhelli.it.html"
+  },
   "ghiringhelli-olgiati-ti": {
     "_failed": true,
     "canton": "TI",
@@ -10465,6 +10583,13 @@
       "Strafrecht"
     ],
     "source_url": "https://www.gislerhaltiner.ch/rechtsgebiete.html"
+  },
+  "giudiciraveglia.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Vela 8",
+    "phone": "091 751 35 12",
+    "source_url": "https://tel.search.ch/locarno/via-vincenzo-vela-8/andrea-giudici.it.html"
   },
   "giunuzoglu.ch": {
     "canton": "ZH",
@@ -10930,6 +11055,13 @@
       "Zivilrecht"
     ],
     "source_url": "http://www.ursula-gross.ch/"
+  },
+  "gross-pfaeffikon-sz": {
+    "_failed": true,
+    "canton": "SZ",
+    "checked_date": "2026-09-15",
+    "firm_name": "Rainstrasse 49",
+    "reason": "aucune information trouvee pour un Peter Gross avocat a Pfaffikon SZ"
   },
   "groszpoledna.ch": {
     "canton": "ZH",
@@ -13884,6 +14016,14 @@
     ],
     "source_url": "https://kcs-law.ch/kontakt/"
   },
+  "keller-brunnen-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Gersauerstrasse 76",
+    "founding_year": 1990,
+    "phone": "041 820 48 04",
+    "source_url": "https://search.ch/tel/brunnen/gersauerstrasse-76/willi-keller"
+  },
   "keller-law.ch": {
     "canton": "ZH",
     "email": "office@keller-law.ch",
@@ -13988,6 +14128,14 @@
     "fetched_date": "2026-09-13",
     "firm_name": "Keller Lehmann Rechtsanwälte AG",
     "source_url": "https://lawyers.jurata.ch/de/anwaelte/luzern-lu"
+  },
+  "kennel-schwyz-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bahnhofstrasse 77",
+    "founding_year": 1989,
+    "phone": "041 811 77 37",
+    "source_url": "https://www.rechtsanwalt-kennel.ch/"
   },
   "kerber.legal": {
     "canton": "ZH",
@@ -15761,6 +15909,13 @@
     "phone": "091 826 22 70",
     "source_url": "https://search.ch/tel/bellinzona/viale-stazione-6/rocco-taminelli.it.html"
   },
+  "legaltaminelli.ch#3": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Viale Stazione 6, 6501 Bellinzona",
+    "phone": "091 826 22 70",
+    "source_url": "https://legaltaminelli.ch/"
+  },
   "legalzone.ch": {
     "canton": "ZH",
     "email": "info@legalzone.ch",
@@ -16744,6 +16899,12 @@
     "phone": "+41 91 912 21 00",
     "source_url": "https://www.lumelegal.ch/en/our-firm/",
     "team_size_n": 4
+  },
+  "lupi-cadro-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Casella Postale 323",
+    "source_url": "https://tel.search.ch/cadro/via-pronuovo-2/michaela-ivano-e-bruna-lupi.it.html"
   },
   "lussi-law.ch": {
     "canton": "LU",
@@ -19467,6 +19628,13 @@
     "source_url": "https://www.poli-bernardi.ch/",
     "team_size_n": 3
   },
+  "polti-bellinzona-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Viale Officina, casella postale 1846",
+    "phone": "091 835 55 45",
+    "source_url": "https://search.ch/tel/bellinzona/viale-officina/stefania-polti-3.it.html"
+  },
   "poma-gandolfi-ti-2": {
     "_failed": true,
     "canton": "TI",
@@ -19502,6 +19670,20 @@
       "Internationales Privatrecht"
     ],
     "source_url": "https://www.pool-lex.ch/"
+  },
+  "porettilaw.ch": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Palazzo Gargantini",
+    "phone": "+41 (0)91.225.82.85",
+    "source_url": "http://www.porettilaw.ch/"
+  },
+  "postizzi-giubiasco-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Pedevilla 10",
+    "founding_year": 1981,
+    "source_url": "https://www.legaly.ch/it/avvocato/7684-carlo-postizzi"
   },
   "prager-dreifuss-sg": {
     "_failed": true,
@@ -19814,6 +19996,15 @@
     "checked_date": "2026-09-10",
     "firm_name": "Racioppi & Partner AG",
     "reason": "aucun site officiel propre identifie (uniquement annuaires tiers)"
+  },
+  "raeber-kuessnacht-sz": {
+    "canton": "SZ",
+    "email": "raebanwalt@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bahnhofstrasse 7",
+    "founding_year": 1984,
+    "phone": "041 850 55 77",
+    "source_url": "https://www.anwalt-raeber.ch/"
   },
   "raewel-advokatur.ch": {
     "canton": "ZH",
@@ -20921,6 +21112,13 @@
     "source_url": "https://romeroziegler.ch/kanzleiprofil/",
     "team_size_n": null
   },
+  "rondi-locarno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Piazza Grande 12, 6600 Locarno; Via Borghetto 1b",
+    "phone": "091 743 22 35",
+    "source_url": "https://tel.search.ch/locarno/piazza-grande-12/riccardo-rondi.it.html"
+  },
   "ronzani-schlauri.com": {
     "canton": "ZH",
     "email": "law@ronzani-schlauri.com",
@@ -21516,6 +21714,13 @@
     "phone": "+41 79 627 68 85",
     "source_url": "https://sabeti-legal.ch/"
   },
+  "sabino-valmara-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "firm_name": "Studio di avvocatura",
+    "reason": "un 'Fabio Sabino Avvocatura' existe (droit bancaire/financier/FINMA) mais aucune confirmation d'adresse a Val Mara, specialite tres differente du profil attendu -- risque de confusion d'identite"
+  },
   "sabrineschnyder.ch": {
     "canton": "ZH",
     "email": "info@sabrineschnyder.ch",
@@ -21866,6 +22071,13 @@
     "firm_name": "Bergstr. 127",
     "source_url": "https://search.ch/tel/zuerich/bergstrasse-127/kurt-scheibler"
   },
+  "schelbert-schwyz-sz": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Reichsstrasse 19",
+    "founding_year": 1985,
+    "source_url": "https://www.jurata.ch/de/anwalt/beat-schelbert"
+  },
   "scherrer-josef-gsteigstr-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -21878,6 +22090,13 @@
     "fetched_date": "2026-09-14",
     "firm_name": "Rosentalstr. 88",
     "source_url": "https://search.ch/tel/winterthur/rosentalstrasse-88/christian-emil-scherrer"
+  },
+  "schiavi-sanpietro-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "firm_name": "c/o Vasco Schiavi, via Campagnola",
+    "reason": "aucune information trouvee ni pour Massimiliano Schiavi ni pour Vasco Schiavi a San Pietro/Val Colla"
   },
   "schiffbau.legal": {
     "canton": "ZH",
@@ -22395,6 +22614,13 @@
     "phone": "091 610 24 55",
     "source_url": "https://it.cybo.com/CH-biz/peter-schwarz-studio-legale-notarile"
   },
+  "schwarz-agno-ti#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "World Trade Center, casella postale 275",
+    "phone": "091 610 24 55",
+    "source_url": "https://it.cybo.com/CH-biz/peter-schwarz-studio-legale-notarile"
+  },
   "schwarz-chur-gr": {
     "_failed": true,
     "canton": "GR",
@@ -22445,6 +22671,12 @@
     "checked_date": "2026-09-10",
     "firm_name": "Scilanga Studio Legale SA",
     "reason": "Aucun site officiel identifie, uniquement des fiches de registre/annuaire"
+  },
+  "scolari-locarno-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Sentiero Verigana 5, 6601 Locarno",
+    "source_url": "https://www.local.ch/de/d/locarno/6605/anwalt/avv-scolari-simonetta-1fr14IRbDBCASRFFOCMBVg"
   },
   "scope.law": {
     "canton": "ZH",
@@ -22775,6 +23007,19 @@
     "canton": "TI",
     "fetched_date": "2026-09-13",
     "firm_name": "Studio legale Simoni-Iuliucci-Seminara, casella postale 21",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto penale",
+      "Diritto amministrativo",
+      "Diritto commerciale",
+      "Responsabilità civile"
+    ],
+    "source_url": "http://www.sislaw.ch/"
+  },
+  "sislaw.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "c/o Studio legale Simoni-Iuliucci-Seminara, casella postale 21",
     "practice_areas_it": [
       "Diritto civile",
       "Diritto penale",
@@ -23904,6 +24149,13 @@
     "phone": "+41 (0)91 922 55 85",
     "source_url": "https://www.studiolegalecouchepinromerio.ch/chi-siamo"
   },
+  "studiolegalecouchepinromerio.ch#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Ginevra 5, 6900 Lugano",
+    "phone": "+41 (0)91 922 55 85",
+    "source_url": "https://www.studiolegalecouchepinromerio.ch/chi-siamo"
+  },
   "studiolegalemassetti.com": {
     "canton": "TI",
     "email": "info@studiolegalemassetti.com",
@@ -24023,6 +24275,14 @@
     "firm_name": "Studio legale e notarile avv. Alain Susin",
     "phone": "091 922 55 60",
     "source_url": "https://zip.ch/it/susin-alain-via-pasquale-lucchini-lugano-xJgZN41K6M/"
+  },
+  "suter-schwyz-sz": {
+    "canton": "SZ",
+    "email": "suter.othmar@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Rubiswilstrasse 14",
+    "founding_year": 1989,
+    "source_url": "https://www.anwalt-suter.ch/"
   },
   "suter.legal": {
     "_failed": true,
@@ -24420,6 +24680,13 @@
     "firm_name": "TA Advisory AG",
     "reason": "seule l'adresse du bureau zurichois est indiquee sur le site, aucun tel/email/domaine specifique confirme",
     "tested_date": "2026-09-07"
+  },
+  "taborelli-chiasso-ti": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Corso San Gottardo 20, 6830 Chiasso",
+    "phone": "091 682 04 72",
+    "source_url": "https://search.ch/tel/chiasso/corso-san-gottardo-20/fabio-taborelli"
   },
   "talackerstr9-uster-zh": {
     "_failed": true,
@@ -25433,6 +25700,12 @@
     "firm_name": "Rüegger Mediation & Advokatur",
     "source_url": "https://www.vanessaruegger.ch/impressum"
   },
+  "vannin.law": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Via Matorèll 2, 6926 Montagnola",
+    "source_url": "https://vannin.law/"
+  },
   "varga-bosshard-zh": {
     "_failed": true,
     "canton": "ZH",
@@ -25444,6 +25717,13 @@
     "canton": "TI",
     "fetched_date": "2026-09-14",
     "firm_name": "Studio legale e notarile Vassalli-Verga",
+    "source_url": "https://www.legaly.ch/en/anwaltskanzlei/2701-studio-legale-e-notarile-vassalli-verga",
+    "team_size_n": 3
+  },
+  "vassalliverga-chiasso-ti#2": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Corso San Gottardo 72, 6830 Chiasso",
     "source_url": "https://www.legaly.ch/en/anwaltskanzlei/2701-studio-legale-e-notarile-vassalli-verga",
     "team_size_n": 3
   },
@@ -27292,6 +27572,13 @@
     "firm_name": "Studio legale e notarile Zandrini & Partners",
     "reason": "Aucun site officiel identifie, uniquement des fiches d'annuaire/registre -- confirme a nouveau (deja note sous _sans_site)"
   },
+  "zappa-sementina-ti": {
+    "_failed": true,
+    "canton": "TI",
+    "checked_date": "2026-09-15",
+    "firm_name": "casella postale 11",
+    "reason": "seul resultat trouve (fiche Legaly) explicitement signale comme ne fournissant aucune information detaillee"
+  },
   "zd-law.ch": {
     "canton": "ZH",
     "fetched_date": "2026-09-08",
@@ -27310,6 +27597,15 @@
       "Vertragsrecht"
     ],
     "source_url": "https://zd-law.ch/"
+  },
+  "zehnder-pfaeffikon-sz": {
+    "canton": "SZ",
+    "email": "dr.h.zehnder@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Rathausweg 4",
+    "founding_year": 1988,
+    "phone": "055 410 19 29",
+    "source_url": "https://www.zehnder-anwalt.ch/"
   },
   "zelger-stans": {
     "canton": "NW",

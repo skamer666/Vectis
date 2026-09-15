@@ -4961,3 +4961,58 @@ correspond à aucun des deux, entrée probablement corrompue).
 
 Rattachement : 1638 études rattachées au total (1624 → 1638, +14). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-15 (canton TI, lot 149)
+
+Poursuite de l'exploitation du champ `nom_complet` des membres CSV pour retrouver de vrais noms
+d'avocats derrière des champs `etude` réduits à une adresse (pattern découvert au lot 148). 27
+cabinets/avocats traités (27 succès), tous à Lugano/Bellinzona/Locarno/Chiasso/Mendrisio/Arzo/
+Bironico/Cadro/Montagnola/S. Antonino, plus 6 rattachements de nouvelles entrées CSV pour des
+avocats déjà connus (Couchepin Romerio, Crespi, Ferrari, Schwarz, Taminelli, Verga).
+
+Succès (27) : Max Bleuler (tel, S. Antonino) ; Bruno Cocchi (**en activité depuis 1971**, Lugano) ;
+Carlotta Corsenca (tel, Massagno) ; Aline Couchepin Romerio (2e entrée CSV, tel, Lugano) ; Pietro
+Crespi (2e entrée CSV, 3 avocats, tel, Bellinzona) ; Felice Dafond (**depuis 1987**, ancien
+vice-syndic de Minusio, Locarno/Giubiasco) ; Andrea Daldini / ADLAW (**depuis 2021**, Bironico) ;
+Giorgio De Biasio (tel, 2 entrées CSV dont Damiano Salvini "c/o", Porza) ; Monica Del Tredici
+Berini (tel, Viganello) ; Filippo Ferrari (tel/email, Chiasso) ; Michela Ferrati (Massagno) ;
+Camilla Ghiringhelli (**depuis 1990**, Bellinzona) ; Andrea Giudici (tel, Locarno) ; Michaela Lupi
+(Cadro) ; Brenno Martignoni Polti (tel, Bellinzona) ; Stefania Polti (tel, Bellinzona) ; Matteo
+Poretti (tel, Lugano) ; Carlo Postizzi (**depuis 1981**, Giubiasco) ; Riccardo Rondi (tel,
+Locarno) ; Peter Schwarz (2e entrée CSV, tel, Agno) ; Simonetta Scolari (Locarno) ; Carmelo
+Seminara (2e entrée CSV, Viganello) ; Fabio Taborelli (tel, Chiasso) ; Rocco Taminelli (3e entrée
+CSV, tel, Bellinzona) ; Ryan Vannin (Lugano) ; Mario Verga (2e entrée CSV, 3 avocats, Chiasso).
+
+Échecs (3) : Fabio Sabino (Val Mara, specialite bancaire tres differente, risque de confusion) ;
+Massimiliano/Vasco Schiavi (S. Pietro, introuvables) ; Maurizio Zappa (Sementina, fiche vide).
+
+Rattachement : 1665 études rattachées au total (1638 → 1665, +27). Suite de tests : 94/94 au
+vert.
+
+## Phase 3, lot du 2026-09-15 (canton SZ + TI, lot 150 — dernier lot)
+
+Application de la même technique (nom réel via `nom_complet` derrière un `etude` = adresse nue)
+aux 10 dernières entrées SZ restantes et à la dernière entrée TI. **Ce lot épuise le pool de
+cabinets traitables dans les 12 cantons groupables** : il ne reste plus que 4 entrées ZH non
+rattachables (organismes non-cabinets déjà identifiés au lot 138 : une œuvre ecclésiale, une
+association de logement coopératif, une fondation pour personnes handicapées, et un texte CSV
+corrompu) — aucun cabinet réel n'y correspond.
+
+11 avocats/cabinets traités (9 succès / 2 échecs).
+
+Succès (9) : Marcel Bourquin (Wollerau) ; Arnold F. Dettling (Brunnen) ; Toni Dettling (tel,
+ancien conseiller national PRD, Schwyz) ; Willi Keller (**depuis 1990**, tel, Brunnen) ; Adrian
+Kennel (**depuis 1989**, tel, Schwyz) ; René Räber (**depuis 1984**, tel/email, Küssnacht am
+Rigi) ; Beat Schelbert (**depuis 1985**, Schwyz) ; Othmar Suter (**depuis 1989**, email, Schwyz) ;
+Hannes Zehnder (**depuis 1988**, tel/email, plus ancienne étude de Pfäffikon, Freienbach).
+
+Échecs (2) : Peter Gross (Pfäffikon SZ, introuvable) ; Francesco Ghioldi (Mendrisio, fiche trop
+générique, aucun contact confirmé pour cette entrée précise).
+
+Rattachement : 1674 études rattachées au total (1665 → 1674, +9). Suite de tests : 94/94 au
+vert.
+
+**Phase 3 (enrichissement des cabinets dans les 12 cantons groupables) est désormais épuisée** :
+1674 études rattachées au total depuis le début de la phase, plus de nombreuses entrées `_failed`
+documentées. La tâche récurrente sera désactivée automatiquement au prochain déclenchement (lot
+vide constaté) conformément au protocole.
