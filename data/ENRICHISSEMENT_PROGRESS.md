@@ -5305,3 +5305,33 @@ lot 5 de la Phase 3b (17 succès annoncés) mais son entrée avait été omise p
 l'écriture du cache. Ajouté maintenant (**depuis 2012**, domaines, Raggenbass Rechtsanwälte,
 Frauenfeld TG). Rattachement : 175 avocats rattachés par nom au total (174 → 175, +1). Suite de
 tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 6)
+
+20 candidats traités, 4 par canton, ordre CSV stable.
+
+Succès (19) : Sandrina Berli (**depuis 2023**, tel/email, domaines, Bürgi Bulaty Wunderlin, Baden
+AG) ; Bruno Bernasconi (tel, Bernasconi & Bernasconi, Killwangen AG — même étude qu'Evelyne
+Bernasconi-Mamie) ; Evelyne C. Bernasconi-Mamie (**depuis 1989**, tel, domaines, Bernasconi &
+Bernasconi, Killwangen AG) ; Mischa Boris Berner (**depuis 2007**, tel/email, Walder Haas Berner
+AG, Zofingen AG) ; Bertschi Urs (tel/fax, domaines, Zoug ZG) ; Berweger Martin (**depuis 2016**,
+notaire, domaines, Wenger Vieli AG, Zoug ZG) ; Bill Daniel (**depuis 2021**, tel/email, Mediator
+SAV, domaines, LELegal AG, Steinhausen ZG) ; Bischof Jacqueline (tel/email, JB Legal & Notary,
+Baar ZG) ; Gérard Biétry (tel/email, Étude Biétry & Capelli, Neuchâtel NE) ; Olivier Bigler-de
+Mooij (**depuis 2015**, tel/email, domaines, BdM avocat Sàrl, Peseux NE) ; Michel Bise (tel,
+domaines, Étude BHS, Neuchâtel NE) ; Christian Blandenier (tel/email, Étude Blandenier Montfort
+et Pessotto, Cernier NE — également figure politique locale active) ; Lukas Brühwiler-Frésey (tel,
+Amriswil TG) ; Andreas Burkhard (**depuis 2020**, tel/email, domaines, S-E-K Advokaten — adresse
+mise à jour depuis le registre cantonal, ancien Raggenbass Kreuzlingen, Frauenfeld TG) ; Kevin
+Bögli (**depuis 2021**, tel/email, domaines, Raggenbass, Amriswil TG — même cabinet qu'Anna-Lea
+Brunnschweiler déjà connue) ; Roman Bögli (tel/email, domaines, FLB Rechtsanwälte, vice-président
+de la commission des avocats TG, Rickenbach b. Wil TG) ; Andrej Bolliger (**depuis 2015**,
+tel/email, domaines, Anwaltskanzlei SLP, Olten SO) ; Sabine Brosi (tel/fax, domaines, Brosi
+Advokatur & Notariat, Egerkingen SO) ; Fabian Brunner (email, domaines, BrunnerAebiPartner,
+Soleure SO).
+
+Échec (1) : Kimena Brog (Soleure SO, absente de l'équipe actuelle de son ancienne étude Frôté &
+Partner, statut professionnel actuel non confirmé).
+
+Rattachement : 194 avocats rattachés par nom au total (175 → 194, +19). Suite de tests : 94/94 au
+vert.
