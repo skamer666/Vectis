@@ -5177,3 +5177,31 @@ confusion avec une avocate distincte à Zurich).
 Rattachement : 120 avocats rattachés par nom au total (105 → 120, +15, mécanisme partagé avec la
 Phase 3b — léger écart avec les 17 succès dû à des homonymies ambiguës côté CSV, comportement
 documenté et sans gravité). Suite de tests : 94/94 au vert.
+
+**Correction (2026-09-15)** : Linda Probst et Dominik Vogler (lot précédent) avaient été écrits par
+erreur avec `canton: "NW"` au lieu de `"OW"` (Sarnen est en Obwalden, pas Nidwald) — corrigé, les
+deux se rattachent désormais correctement à leurs fiches CSV OW respectives.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 4 — partiel : ZG + SO)
+
+Lot interrompu par plusieurs limites de session consécutives ; seuls ZG et SO ont pu être traités
+avant la limite (AG/NE/TG n'ont produit aucune recherche exploitable et seront repris au prochain
+lot, leurs candidats restant non traités dans le cache). 8 candidats traités (4 ZG + 4 SO).
+
+Succès (7) : Andreas Baumann (**depuis 1976**, tel, domaines, Baumann Advokatur Notariat — cabinet
+déménagé de Zoug à Cham en 2015, Cham ZG) ; Raphael Baumann (**depuis 2019**, tel/email, domaines,
+PST legal & consulting, Zoug ZG) ; Remo Baumann (**depuis 2002**, tel/email, domaines, Baumann
+Rechtsanwälte und Notare — cabinet renommé plusieurs fois depuis 2020, Zoug ZG) ; Dominic
+Baumgartner (**depuis 2020**, tel/email, domaines, DIEDRICHSEN BAUMGARTNER, Zoug ZG) ; Severin
+Bellwald (**depuis 2012**, tel/email, domaines, cabinet Mattarel von Arx Wächter Bellwald Bold,
+Olten SO) ; Thomas Biedermann (**depuis 1991**, tel, domaines, Habegger Biedermann Rechtsanwälte,
+Soleure SO) ; Pirmin Bischof (tel/fax, Bischof Rechtsanwälte und Notare, Soleure SO — identité
+confirmée comme le Conseiller aux États du même nom, toujours en pratique active à ~50% après une
+hospitalisation en 2025 ; le "St." du CSV vient très probablement du nom de rue de son étude).
+
+Échec (1) : "Isabel Bernhard" (Olten SO, prénom déduit d'un champ CSV corrompu "c/o procap" ;
+introuvable dans le registre cantonal officiel des avocats de Soleure malgré une lecture complète
+de la section B — possible erreur de CSV ou embauche trop récente).
+
+Rattachement : 129 avocats rattachés par nom au total (122 → 129, +7). Suite de tests : 94/94 au
+vert.

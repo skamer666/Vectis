@@ -1016,6 +1016,13 @@
     ],
     "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
   },
+  "so-isabel-bernhard": {
+    "_failed": true,
+    "canton": "SO",
+    "checked_date": "2026-09-15",
+    "person_name": "Bernhard",
+    "reason": "aucune entree 'Bernhard' trouvee dans le registre cantonal officiel des avocats de Soleure (lu integralement, section B) ; le prenom 'Isabel' suppose (deduit du champ adresse CSV corrompu 'Isabel c/o procap') n'a pu etre confirme comme avocate actuellement inscrite -- possible erreur de CSV, personne non-avocate chez Procap, ou embauche trop recente pour apparaitre dans les sources consultees"
+  },
   "so-lorant-roman-baumann": {
     "canton": "SO",
     "email": "baumann@abs-law.ch",
@@ -1064,6 +1071,36 @@
     "person_name": "Marc Aebi",
     "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/aebi-marc-BdSk0L6It1oLvtK4EtL7qg"
   },
+  "so-pirmin-bischof": {
+    "canton": "SO",
+    "fax": "+41 32 333 33 12",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bischof Rechtsanwälte und Notare",
+    "notes": "Identite confirmee comme le meme Pirmin Bischof, Conseiller aux Etats (Mitte/SO) ; reportages de presse (fevrier 2026) confirment qu'il a repris son activite d'avocat a environ 50% apres une hospitalisation en 2025 -- toujours en pratique active, pas retraite. La mention 'St.' dans le CSV vient tres probablement du nom de rue de son etude ('St. Niklausstrasse') et n'est pas un veritable second prenom (le registre cantonal officiel le liste comme simplement 'Bischof Pirmin').",
+    "person_name": "Pirmin St. Bischof",
+    "phone": "+41 32 333 33 11",
+    "source_url": "https://search.ch/tel/solothurn/st-niklausstrasse-1/bischof-rechtsanwaelte-und-notare"
+  },
+  "so-severin-bellwald": {
+    "canton": "SO",
+    "email": "bellwald@anwaltolten.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Mattarel, von Arx, Wächter, Bellwald, Bold – Rechtsanwälte und Notare",
+    "founding_year": 2012,
+    "person_name": "Severin Bellwald",
+    "phone": "+41 62 286 80 60",
+    "practice_areas_de": [
+      "Vertretung vor Gericht und Behörden",
+      "Ehe- und Scheidungsrecht, Konkubinatsrecht",
+      "Erbrecht inkl. Unternehmensnachfolgeplanung",
+      "Allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht inkl. Strassenverkehrsrecht"
+    ],
+    "source_url": "https://anwaltolten.ch/team/severin-bellwald/"
+  },
   "so-sophie-katrin-balz-geiser": {
     "canton": "SO",
     "email": "sb@spr-law.ch",
@@ -1079,6 +1116,24 @@
       "Strafrecht"
     ],
     "source_url": "https://spr-law.ch/de/team/"
+  },
+  "so-thomas-biedermann": {
+    "canton": "SO",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Habegger Biedermann Rechtsanwälte",
+    "founding_year": 1991,
+    "person_name": "Thomas Biedermann",
+    "phone": "062 919 50 80",
+    "practice_areas_de": [
+      "Sozialversicherungs- und Haftpflichtrecht",
+      "Bäuerliches Boden-, Agrar- und Pachtrecht",
+      "Erbrecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Bau-, Planungs-, Umwelt- und Enteigungsrecht",
+      "Verwaltungsrecht",
+      "Migrationsrecht"
+    ],
+    "source_url": "https://habbied.ch/thomas-biedermann/"
   },
   "so-timur-acemoglu": {
     "canton": "SO",
@@ -1937,5 +1992,82 @@
       "Venture Capital"
     ],
     "source_url": "https://www.wengervieli.ch/de-ch/team/barmettler-cyrill"
+  },
+  "zg-baumann-andreas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Baumann Advokatur Notariat",
+    "founding_year": 1976,
+    "notes": "Cabinet transfere de Zoug a Cham en 2015 ; plusieurs annuaires tiers montrent encore l'ancienne adresse zougoise.",
+    "person_name": "Baumann Andreas",
+    "phone": "041 711 06 18",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Handelsrecht",
+      "Internationales Recht",
+      "Planungsrecht",
+      "SchKG und Verfahrensrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.baumann-advokatur-notariat.ch/de/Andreas_Baumann"
+  },
+  "zg-baumann-raphael": {
+    "canton": "ZG",
+    "email": "rb@pst-legalconsulting.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "PST legal & consulting",
+    "founding_year": 2019,
+    "person_name": "Baumann Raphael",
+    "phone": "+41 41 729 39 36",
+    "practice_areas_en": [
+      "FinTech and Blockchain / Distributed Ledger Technologies",
+      "Advising Companies with Blockchain-Based Business Models",
+      "Start-Ups and Venture Capital",
+      "Corporate and Commercial Law",
+      "Notarial Services"
+    ],
+    "source_url": "https://pst-legalconsulting.ch/raphael-baumann-en"
+  },
+  "zg-baumann-remo": {
+    "canton": "ZG",
+    "email": "r.baumann@baumann.law",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Baumann Rechtsanwälte und Notare",
+    "founding_year": 2002,
+    "notes": "Cabinet renomme plusieurs fois (Muheim & Merz -> Baumann Inderkum & Muheim -> Baumann & Inderkum -> Baumann Rechtsanwaelte und Notare, janvier 2026) ; plusieurs annuaires tiers portent des noms/codes postaux perimes.",
+    "person_name": "Baumann Remo",
+    "phone": "+41 (0)41 726 70 90",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Immobiliar- und Baurecht",
+      "Arbeitsrecht",
+      "Submissionsrecht",
+      "Immaterialgüterrecht",
+      "Familienrecht",
+      "Beratung und Prozessführung",
+      "Verwaltungsratsmandate"
+    ],
+    "source_url": "https://www.baumanninderkum.ch/team/remo-baumann"
+  },
+  "zg-baumgartner-dominic": {
+    "canton": "ZG",
+    "email": "info@dblaw.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "DIEDRICHSEN BAUMGARTNER Advokatur Notariat",
+    "founding_year": 2020,
+    "person_name": "Baumgartner Dominic",
+    "phone": "041 720 11 00",
+    "practice_areas_de": [
+      "Notariat",
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Sportrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Schuldbetreibungs- und Konkursrecht"
+    ],
+    "source_url": "https://www.local.ch/de/d/zug/6300/advokatur--und-notariatsbuero/diedrichsen-baumgartner-advokatur-notariat-PjmcjS8TCV0sRG38WOSyHA"
   }
 }
