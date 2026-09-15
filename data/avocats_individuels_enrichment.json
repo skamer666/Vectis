@@ -156,12 +156,53 @@
     "person_name": "Fässler Daniel",
     "reason": "aucune pratique d'avocat active confirmee ; cabinet mentionne (St-Gall, depuis 1994) probablement abandonne suite a l'election au Conseil des Etats (personnalite politique en fonction), aucune coordonnee professionnelle actuelle ni domaine de competence trouve"
   },
+  "ai-horler-bruno": {
+    "canton": "AI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "contreva (anciennement moser & hörler ag)",
+    "founding_year": 1980,
+    "notes": "Egalement titulaire d'une raison individuelle 'Bruno Hörler' a Appenzell Steinegg (enregistree 2010) ; 1980 correspond a la fondation du cabinet contreva/moser & hoerler.",
+    "person_name": "Hörler Bruno",
+    "phone": "+41 71 788 10 70",
+    "source_url": "https://contreva.ai/unternehmen"
+  },
+  "ai-jud-armin": {
+    "canton": "AI",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur und Notariat Armin Jud",
+    "person_name": "Jud Armin",
+    "phone": "071 780 08 41",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Erbrecht und Nachlassrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Beurkundungsrecht"
+    ],
+    "source_url": "https://zip.ch/de/advokatur-und-notariat-armin-jud-blattenrainstrasse-appenzell-pDrpnv5ZJL/"
+  },
   "ar-christian-boetschi": {
     "_failed": true,
     "canton": "AR",
     "checked_date": "2026-09-15",
     "person_name": "Bötschi Christian",
     "reason": "aucune pratique d'avocat privee active trouvee ; faisceau d'indices concordant (articles de presse, LinkedIn) indiquant qu'il s'agit du procureur general (Leitender Staatsanwalt) d'Appenzell Rhodes-Exterieures, retraite en juillet 2022 apres 37 ans ; adresse CSV correspond a un domicile prive partage avec son epouse, non a un cabinet"
+  },
+  "ar-ehrenzeller-daniel": {
+    "canton": "AR",
+    "fax": "071 333 42 90",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Ehrenzeller",
+    "person_name": "Ehrenzeller Daniel",
+    "phone": "071 333 13 44",
+    "source_url": "https://search.ch/tel/teufen/engelgasse-214/daniel-ehrenzeller"
+  },
+  "ar-kehl-simon": {
+    "canton": "AR",
+    "fetched_date": "2026-09-15",
+    "notes": "Personne distincte d'un homonyme associe chez epartners Rechtsanwälte AG a Zurich (M&A) -- non confondu.",
+    "person_name": "Kehl Simon",
+    "phone": "071 555 05 05",
+    "source_url": "https://search.ch/tel/buehler/rothaldenstrasse-21/simon-kehl-2"
   },
   "ar-martin-birchler": {
     "canton": "AR",
@@ -171,6 +212,28 @@
     "person_name": "Birchler Martin",
     "phone": "071 511 70 35",
     "source_url": "https://www.advokatur-birchler.ch/"
+  },
+  "bl-borter-daniel": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-15",
+    "person_name": "Borter Daniel",
+    "reason": "donnees contradictoires entre sources : deux adresses (Hölstein CSV vs Liestal 'Kunz, Borter & Wassmer'), numeros de telephone incoherents pour l'adresse CSV (061 923 11 11 vs 061 951 15 61) ; affiliation a un cabinet different (Kunz, Borter & Wassmer a Liestal) non confirmee comme la meme personne -- non retenu par prudence"
+  },
+  "bl-brand-irmgard": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Brand Irmgard",
+    "person_name": "Brand Irmgard",
+    "phone": "061 823 02 52",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht",
+      "Erbrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "https://www.anwaltvergleich.ch/anwalt-Irmgard-Brand-Pratteln-rechtsanwalt-814.htm"
   },
   "bl-daniela-bifl": {
     "_failed": true,
@@ -215,6 +278,39 @@
       "Immaterialgüterrecht"
     ],
     "source_url": "http://anw24.ch/details/286/markus-bachmann-luzern-6"
+  },
+  "lu-martin-bachmann": {
+    "canton": "LU",
+    "email": "bachmann@mb-anwalt.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Martin Bachmann Anwalt",
+    "notes": "Personne distincte de Markus Bachmann (Ruflisbergstrasse 46, Lucerne) deja au cache.",
+    "person_name": "Martin Bachmann",
+    "phone": "+41 79 338 13 99",
+    "practice_areas_de": [
+      "Strassenrecht",
+      "Mietrecht",
+      "Genossenschaftsrecht"
+    ],
+    "source_url": "https://www.mb-anwalt.ch/"
+  },
+  "lu-sheila-barmettler-bucher": {
+    "canton": "LU",
+    "email": "sheila.barmettler@iup.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "IUP Ineichen Barmettler Flury",
+    "founding_year": 1999,
+    "person_name": "Sheila Barmettler-Bucher",
+    "phone": "+41 41 226 10 88",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Konkubinat",
+      "Erbrecht",
+      "Sachenrecht",
+      "Vertragsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.iup.ch/de/team/team-barmettler"
   },
   "ne-alain-roland-badertscher": {
     "canton": "NE",
@@ -343,6 +439,13 @@
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
   },
+  "nw-burgisser-adolf": {
+    "_failed": true,
+    "canton": "NW",
+    "checked_date": "2026-09-15",
+    "person_name": "Bürgisser Adolf",
+    "reason": "aucune preuve trouvee d'une pratique d'avocat ; absent de tous les repertoires juridiques consultes (search.ch, anwaltvergleich.ch, registre cantonal) ; seule trace = une entree d'annuaire residentiel sans indication de profession juridique"
+  },
   "nw-christine-amstad-zeier": {
     "canton": "NW",
     "email": "ca@amstadzeier.ch",
@@ -374,6 +477,63 @@
       "Gesellschafts- und Firmenrecht"
     ],
     "source_url": "https://www.mcadvo.ch/anwalt/stans/driur-gerhard-balbi"
+  },
+  "nw-hophan-schatzle-sandra": {
+    "canton": "NW",
+    "email": "info@hophan-rotzer.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Hophan & Rotzer, Advokatur und Notariat",
+    "founding_year": 1998,
+    "notes": "1998 = annee de brevet d'avocat (canton de Nidwald), non l'annee de fondation du cabinet.",
+    "person_name": "Hophan-Schätzle Sandra",
+    "phone": "041 624 66 40",
+    "practice_areas_de": [
+      "Designrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Immaterialgüterrecht",
+      "Kartell- und Wettbewerbsrecht",
+      "Lizenzrecht",
+      "Markenrecht",
+      "Patentrecht",
+      "Urheberrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/buochs/liciur-sandra-hophan-schaetzle"
+  },
+  "ow-kung-lukas": {
+    "canton": "OW",
+    "email": "kueng@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 2002,
+    "person_name": "Küng Lukas",
+    "phone": "041 666 07 56",
+    "practice_areas_de": [
+      "Strafrecht / Verkehrsrecht",
+      "Vertragsrecht (Miete, Pacht, Arbeitsrecht)",
+      "Haftpflichtrecht / Sozialversicherungsrecht (ausgenommen IV)",
+      "Betreibungs- und Konkursrecht",
+      "Prozessrecht / Prozessführung",
+      "Verwaltungsratsmandate"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/kung-lukas",
+    "specialist_certification": "Fachanwalt SAV Strafrecht"
+  },
+  "ow-larentis-chiara": {
+    "canton": "OW",
+    "email": "larentis@ettlin-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ettlin&partner advokatur und notariat ag",
+    "founding_year": 2015,
+    "person_name": "Larentis Chiara",
+    "phone": "041 638 05 52",
+    "practice_areas_de": [
+      "Ehe- und Erbrecht",
+      "Erbteilungen",
+      "Immobiliarsachenrecht",
+      "Gesellschaftsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.ettlin-partner.ch/team/larentis-chiara"
   },
   "ow-martina-albert": {
     "canton": "OW",
@@ -417,6 +577,38 @@
     "person_name": "Andermatt Arthur",
     "phone": "071 223 80 80",
     "source_url": "https://tel.search.ch/st-gallen/teufener-strasse-8/arthur-andermatt.en.html"
+  },
+  "sg-bachinger-konrad": {
+    "canton": "SG",
+    "fetched_date": "2026-09-15",
+    "notes": "Identite confirmee via le registre officiel des avocats du canton de Saint-Gall (ne au registre : 1950, brevet TG 1977).",
+    "person_name": "Bächinger Konrad",
+    "phone": "081 785 25 69",
+    "source_url": "https://www.sg.ch/recht/gerichte/anwalts----notarwesen/anwaltsregister---register-der-notare/anwaltsregister---register-der-notare-a-z.html"
+  },
+  "sg-blasi-christof": {
+    "canton": "SG",
+    "fax": "+41 (0)71 230 34 66",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Rechtsanwalts- und Notariatskanzlei Christof Bläsi",
+    "founding_year": 1988,
+    "notes": "Adresse officielle d'enregistrement = Kriessern (CSV) ; bureaux clients actuels a St-Gall et Boppelsen (ZH), meme personne (numero de telephone identique).",
+    "person_name": "Bläsi Christof",
+    "phone": "071 230 34 65",
+    "practice_areas_de": [
+      "Kindes- und Erwachsenenschutzrecht",
+      "Sorge- und Kontaktrecht",
+      "Recht am Lebensende",
+      "Patientenverfügung",
+      "Vorsorgeauftrag",
+      "GmbH-Recht",
+      "Recht für Privatpersonen",
+      "Vereine und Verbände",
+      "Unternehmerrecht",
+      "Stiftungsberatung"
+    ],
+    "source_url": "http://www.chblaw.ch/kanzlei/christof-blaesi/",
+    "specialist_certification": "Zertifizierter Kinderanwalt"
   },
   "sg-hans-altherr": {
     "_failed": true,
@@ -566,6 +758,35 @@
       "Gesellschaftsrecht"
     ],
     "source_url": "https://mattig.swiss/en/team/bernhard-aschwanden-en/"
+  },
+  "sz-dettling-josef": {
+    "canton": "SZ",
+    "email": "jdettling@bluewin.ch",
+    "fax": "041 820 47 94",
+    "fetched_date": "2026-09-15",
+    "person_name": "Dettling Josef",
+    "phone": "041 820 47 93",
+    "source_url": "http://anw24.ch/details/2038/josef-dettling-brunnen"
+  },
+  "sz-fassler-zehnder-annagreth": {
+    "canton": "SZ",
+    "email": "info@schwyzeranwalt.ch",
+    "fax": "041 811 68 42",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltskanzlei Fässler",
+    "person_name": "Fässler-Zehnder Annagreth",
+    "phone": "+41 (0)41 811 68 91",
+    "practice_areas_de": [
+      "Familienrecht, Ehetrennung, Eheschutzverfahren, Ehescheidung",
+      "Kindesrecht und Vormundschaftsrecht",
+      "Erbrecht und Sachenrecht",
+      "Stiftungsrecht",
+      "Mietrecht",
+      "Vertretungen im Strafverfahren",
+      "Vertretungen nach Opferhilferecht",
+      "Mediation"
+    ],
+    "source_url": "https://schwyzeranwalt.ch/?page_id=8"
   },
   "tg-cedric-akeret": {
     "canton": "TG",
@@ -868,6 +1089,16 @@
     "phone": "+41 91 751 86 62",
     "source_url": "https://tel.search.ch/locarno/largo-franco-zorzi-12/fabio-bacchetta-cattori.it.html"
   },
+  "ti-baggi-luca": {
+    "canton": "TI",
+    "fax": "091 873 09 29",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Baggi Luca - Baggi Matteo, studio legale e notarile",
+    "notes": "Etude partagee avec Matteo Baggi (meme adresse, meme ligne).",
+    "person_name": "BAGGI Luca",
+    "phone": "091 873 09 20",
+    "source_url": "https://search.ch/tel/biasca/via-a-giovannini-13/luca-baggi-matteo-baggi.it.html"
+  },
   "ti-baggi-marcello": {
     "canton": "TI",
     "fetched_date": "2026-09-06",
@@ -881,6 +1112,16 @@
       "Diritto pubblico"
     ],
     "source_url": "https://studiobaggi.com/index.php/avv-marcello-baggi/"
+  },
+  "ti-baggi-matteo": {
+    "canton": "TI",
+    "fax": "091 873 09 29",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Baggi Luca - Baggi Matteo, studio legale e notarile",
+    "notes": "Etude partagee avec Luca Baggi (meme adresse, meme ligne).",
+    "person_name": "BAGGI Matteo",
+    "phone": "091 873 09 20",
+    "source_url": "https://search.ch/tel/biasca/via-a-giovannini-13/luca-baggi-matteo-baggi.it.html"
   },
   "ti-balmelli-riccardo": {
     "canton": "TI",
@@ -913,6 +1154,33 @@
     "person_name": "ANASTASI Tatiana Céline",
     "phone": "091 690 51 10",
     "source_url": "https://search.ch/tel/chiasso/corso-san-gottardo-145/studio-legale-avv-tatiana-celine-anastasi.it.html"
+  },
+  "ur-aschwanden-bruno": {
+    "canton": "UR",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwalts- & Notariatsbüro Dr. iur. Bruno Aschwanden",
+    "notes": "Identite confirmee via le registre officiel des avocats du canton d'Uri (ne 11.11.1949).",
+    "person_name": "Aschwanden Bruno",
+    "phone": "041 871 16 60",
+    "source_url": "https://www.local.ch/en/d/altdorf-ur/6460/attorneys-at-law/dr-iur-aschwanden-bruno-c2zcXGRQNfws2nSxLghV7Q"
+  },
+  "ur-bachmann-mario": {
+    "canton": "UR",
+    "email": "m.bachmann@central-law.ch",
+    "fax": "041 870 56 58",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ZGRAGGEN BACHMANN HUBER Rechtsanwälte Notare",
+    "notes": "Identite confirmee via le registre officiel des avocats du canton d'Uri (ne 19.04.1947).",
+    "person_name": "Bachmann Mario",
+    "phone": "041 870 56 56",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Vertragsrecht",
+      "Submissionsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.central-law.ch/"
   },
   "ur-christian-arnold": {
     "_failed": true,

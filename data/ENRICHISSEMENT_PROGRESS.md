@@ -5082,3 +5082,35 @@ résolu).
 
 Rattachement : 67 avocats rattachés par nom au total (51 → 67, +16). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 2)
+
+20 avocats solo supplémentaires, 2 par canton (TI/SG/LU/BL/SZ/UR/AR/AI/NW/OW), ordre CSV stable.
+Constat récurrent (comme en Phase 3b) : plusieurs de ces avocats "solo" travaillent en réalité au
+sein d'un cabinet nommé (Kügn/Larentis chez ettlin&partner déjà connu ; Hophan-Schätzle chez
+Hophan & Rotzer ; Barmettler-Bucher chez IUP ; Bachmann Mario chez ZGRAGGEN BACHMANN HUBER ; Hörler
+chez contreva) — information absente du CSV mais trouvée par recherche web. Deux identités
+confirmées via les registres cantonaux officiels des avocats (Saint-Gall, Uri).
+
+Succès (18) : Luca et Matteo Baggi (tel/fax, étude partagée, Biasca TI) ; Konrad Bächinger (tel,
+identité confirmée au registre cantonal SG, Sevelen SG) ; Christof Bläsi (**depuis 1988**,
+tel/fax, Zertifizierter Kinderanwalt, domaines, Kriessern SG) ; Martin Bachmann (tel/email,
+domaines, sa propre étude, Adligenswil LU — distinct de Markus Bachmann déjà connu) ; Sheila
+Barmettler-Bucher (**depuis 1999**, tel/email, domaines, IUP Ineichen Barmettler Flury, Lucerne
+LU) ; Irmgard Brand (tel, domaines, sa propre étude, Pratteln BL) ; Josef Dettling (tel/fax/email,
+Brunnen SZ) ; Annagreth Fässler-Zehnder (tel/fax/email, domaines, sa propre étude, Schwyz SZ) ;
+Bruno Aschwanden (tel, identité confirmée au registre cantonal UR, Altdorf UR) ; Mario Bachmann
+(tel/fax/email, domaines, ZGRAGGEN BACHMANN HUBER, identité confirmée au registre cantonal UR,
+Altdorf UR) ; Daniel Ehrenzeller (tel/fax, sa propre étude, Teufen AR) ; Simon Kehl (tel, Bühler
+AR — distinct d'un homonyme M&A à Zurich) ; Bruno Hörler (**depuis 1980**, tel, contreva, Appenzell
+AI) ; Armin Jud (tel, domaines, sa propre étude, Appenzell AI) ; Sandra Hophan-Schätzle
+(**depuis 1998**, tel/email, domaines, Hophan & Rotzer, Buochs NW) ; Lukas Küng (**depuis 2002**,
+tel/email, Fachanwalt SAV Strafrecht, domaines, ettlin&partner, Sarnen OW) ; Chiara Larentis
+(**depuis 2015**, tel/email, domaines, ettlin&partner — même étude que Lukas Küng, Sarnen OW).
+
+Échecs (2) : Daniel Borter (Hölstein BL, adresses et téléphones contradictoires entre sources,
+possible affiliation à un cabinet différent à Liestal non confirmée) ; Adolf Bürgisser (Hergiswil
+NW, aucune preuve trouvée d'une pratique d'avocat dans tous les répertoires consultés).
+
+Rattachement : 85 avocats rattachés par nom au total (67 → 85, +18, mécanisme partagé avec la
+Phase 3b). Suite de tests : 94/94 au vert.
