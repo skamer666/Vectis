@@ -4913,3 +4913,25 @@ confirmé) ; Federica Dell'Oro (Riva San Vitale, introuvable).
 
 Rattachement : 1597 études rattachées au total (1577 → 1597, +20). Suite de tests : 94/94 au
 vert.
+
+## Phase 3, lot du 2026-09-15 (canton TI, lot 147)
+
+29 cabinets traités (29 succès / 0 échec), tous à Lugano/Mendrisio/Ambrì/Malvaglia. Le CSV
+comportait de très nombreuses variantes de nom pour des cabinets déjà enrichis lors de lots
+précédents (chaque avocat associé listé séparément avec un libellé légèrement différent) : 12
+variantes rattachées en réutilisant les faits déjà vérifiés, sans nouvelle recherche.
+
+Succès (29) : 12 variantes CSV supplémentaires rattachées à des cabinets déjà connus (Maghetti x2,
+Jäggi & Scheller, Kellerhals Carrard x3 -- **600 avocats, cabinet international**, Carla Speziali,
+Broggini Armati Binzioni, BMA Brunoni Mottis x2, Ferrari Rei, Nievergelt & Stoehr, Cavadini Steger
+Gianinazzi Maffi, Ferrari Partners) ; Guglielmoni avvocati SA / Rupen Nacaroglu (**depuis 2024**,
+2 entrées CSV, Lugano) ; Pestelacci & Pestelacci (tel/email, 2 avocats, 2 entrées CSV, Mendrisio) ;
+Nora Jardini Croci Torti (tel, Mendrisio) ; Le Tre Valli / Nicole Geninasca-Menegalli (**depuis
+2019**, Malvaglia) ; LVA LAW SA (**depuis 2016**, 4 avocats, Lugano) ; PSMLaw SA (**depuis 1954**,
+Lugano) ; IMLaw LLC / Ioana Mauger (Lugano) ; JURI Avvocati / Romeo Juri (tel/email, Ambrì) ; Karin
+Valenzano Rossi (Lugano) ; Petruzzino Law Firm / Silvia Petruzzino (Lugano) ; Edy Salmina (Lugano) ;
+Studio Legale Bay / Roy Bay (**depuis 2017**, tel/email, Lugano) ; Guarnieri & Partners (**depuis
+2023**, Lugano).
+
+Rattachement : 1624 études rattachées au total (1597 → 1624, +27). Suite de tests : 94/94 au
+vert.
