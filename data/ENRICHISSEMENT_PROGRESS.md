@@ -5335,3 +5335,27 @@ Partner, statut professionnel actuel non confirmé).
 
 Rattachement : 194 avocats rattachés par nom au total (175 → 194, +19). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 6)
+
+12 candidats traités (TI/SG/BL/SZ/UR/LU, 2 par canton — pools AI/NW/AR/OW désormais épuisés).
+
+Succès (11) : Tiziano Bernaschina (**depuis 1991**, tel/fax, domaines, Studio Cattori-Achermann-
+Bernaschina — fondé en 1932, Locarno TI) ; Giorgio Carlo Bernasconi (tel/fax/email, Melide TI) ;
+Thomas Eisenring (**depuis 1999**, tel/fax/email, expert fiscal diplômé, domaines, Flawil SG) ;
+Beat Fürstenberger (tel/email, domaines, Reich Fürstenberger Advokatur und Notariat, Arlesheim
+BL) ; Kristin Gubler Borer (tel/email, registre officiel des notaires bâlois, Laufen BL) ; Viktor
+Kälin (registre cantonal officiel schwytzois, membre du Zwangsmassnahmengericht, Einsiedeln SZ —
+aucun contact fiable trouvé, patronyme très fréquent localement) ; Thomas Kaufmann (tel, registre
+cantonal officiel, président à temps partiel du Bezirksgericht Gersau, Gersau SZ) ; Silvana Frei
+(tel/email, domaines, Meier & Mehr, Altdorf UR) ; Flavio Gisler (tel/email, domaines, notaire
+également, Altdorf UR) ; Andreas Ch. Bühlmann (tel/fax, domaines, Bühlmann & Fritschi, registre
+cantonal officiel, Lucerne LU) ; Rolf Bühler (**depuis 2023**, tel/email, domaines, cabinet propre
+depuis 2023 — probablement le même Rolf Bühler précédemment chez l'Anwaltskanzlei Seidenhof/BPS
+legal, même immeuble que Pio Brun déjà connu, Lucerne LU).
+
+Échec (1) : Urs Gähwiler (Goldach SG, aucune étude/pratique indépendante confirmée, identité
+ambiguë entre plusieurs homonymes potentiels dont un General Counsel du groupe LGT).
+
+Rattachement : 205 avocats rattachés par nom au total (194 → 205, +11). Suite de tests : 94/94 au
+vert.

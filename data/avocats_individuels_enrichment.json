@@ -586,6 +586,23 @@
     ],
     "source_url": "https://www.advokatur-enderle.ch/"
   },
+  "bl-furstenberger-beat": {
+    "canton": "BL",
+    "email": "bf@reich-fuerstenberger.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Reich Fürstenberger Advokatur und Notariat",
+    "notes": "Advokat und Notar, Arlesheim BL, inscrit au registre des avocats et des notaires du canton de Bâle-Campagne.",
+    "person_name": "Fürstenberger Beat",
+    "phone": "061 703 15 15",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Strafrecht",
+      "Obligationenrecht",
+      "Sozialversicherungsrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://www.reich-fuerstenberger.ch/"
+  },
   "bl-gottlieb-g-delbruck": {
     "canton": "BL",
     "email": "delbrueck@dsd.ch",
@@ -607,6 +624,15 @@
       "Vertragsrecht"
     ],
     "source_url": "https://zip.ch/de/delbruck-gottlieb-g-dr-iur-batteriestrasse-bottmingen-oXJRYGj06j/"
+  },
+  "bl-gubler-borer-kristin": {
+    "canton": "BL",
+    "email": "gubler@gubler-borer.ch",
+    "fetched_date": "2026-09-15",
+    "notes": "Advokatin und Notarin, Laufen BL, confirmee via l'annuaire officiel de l'association des notaires de Bâle-Campagne. Site propre inaccessible (HTTP 503) - tel/email issus de l'annuaire.",
+    "person_name": "Gubler Borer Kristin",
+    "phone": "+41 61 761 40 50",
+    "source_url": "https://www.notariat-baselland.ch/unsere-mitglieder/name/kristin-gubler-borer/"
   },
   "bl-heinz-dettwiler": {
     "_failed": true,
@@ -655,6 +681,27 @@
     ],
     "source_url": "https://www.beeler-schuler.ch/alex_beeler.html",
     "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht"
+  },
+  "lu-andreas-ch-buhlmann": {
+    "canton": "LU",
+    "fax": "+41 41 410 87 65",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bühlmann & Fritschi Rechtsanwälte",
+    "notes": "lic. iur., Rechtsanwalt und Notar, confirme au registre cantonal officiel lucernois, Lucerne LU. Site du cabinet (b-law.ch) partiellement inaccessible - email/domaines issus d'agregateurs non re-verifies en direct.",
+    "person_name": "Andreas Ch. Bühlmann",
+    "phone": "+41 41 410 87 85",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Erbrecht",
+      "Beurkundungsrecht",
+      "Strafrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://gerichte.lu.ch/anwaelte_notare_sachwalter/anwaelte/anwaltsregister_kanton_luzern?filter=B"
   },
   "lu-hans-aepli": {
     "canton": "LU",
@@ -751,6 +798,26 @@
     "person_name": "Pio Brun",
     "phone": "041 227 72 50",
     "source_url": "https://www.oeffnungszeitenbuch.de/filiale/Luzern-Anwaltskanzlei%2520Seidenhof-3380664G.html"
+  },
+  "lu-rolf-buhler": {
+    "canton": "LU",
+    "email": "info@rolfbuehler.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltskanzlei Rolf Bühler",
+    "founding_year": 2023,
+    "notes": "lic. iur., Rechtsanwalt, cabinet propre depuis le 1er septembre 2023, Lucerne LU (ancien collaborateur de BPS legal/Anwaltskanzlei Seidenhof, meme etude que Pio Brun deja connu). Faisceau d'indices convergents (meme nom, meme immeuble, meme parcours professionnel) suggere qu'il s'agit du meme Rolf Buehler figurant sur l'ancienne liste du personnel de l'Anwaltskanzlei Seidenhof, sans confirmation explicite unique.",
+    "person_name": "Rolf Bühler",
+    "phone": "+41 78 764 38 16",
+    "practice_areas_de": [
+      "Versicherungsrecht",
+      "Vertragsrecht",
+      "Erbrecht und Nachfolgeregelungen",
+      "Immaterialgüterrecht",
+      "Verfahrensrecht",
+      "Immobilien- und Baurecht",
+      "Familien- und Scheidungsrecht"
+    ],
+    "source_url": "https://www.rolfbuehler.ch/"
   },
   "lu-sheila-barmettler-bucher": {
     "canton": "LU",
@@ -1435,12 +1502,38 @@
     "source_url": "http://anw24.ch/details/2272/margareta-egli-schmerikon",
     "specialist_certification": "Mediatorin SAV"
   },
+  "sg-eisenring-thomas": {
+    "canton": "SG",
+    "email": "teisenring@bluewin.ch",
+    "fax": "071 393 50 83",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1999,
+    "notes": "Advokaturbuero solo, Flawil SG. Egalement expert fiscal diplome.",
+    "person_name": "Eisenring Thomas",
+    "phone": "071 393 50 53",
+    "practice_areas_en": [
+      "Tax and duty law",
+      "Inheritance and estate law",
+      "Corporate and business law",
+      "Employment law",
+      "Rental and lease law"
+    ],
+    "source_url": "https://www.local.ch/de/d/flawil/9230/advokaturbuero/eisenring-thomas-iA1k_aurXeNtEFps--fmlg",
+    "specialist_certification": "dipl. Steuerexperte"
+  },
   "sg-fabio-di-cugno": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-15",
     "person_name": "Di Cugno Fabio",
     "reason": "aucune trace professionnelle/juridique trouvee ; seule entree = un listing residentiel partage avec l'epouse (convention d'annuaire standard pour un menage prive) ; absent de la liste complete des 22 avocats de Rorschach (search.ch) et de toute recherche au registre cantonal SG"
+  },
+  "sg-gahwiler-urs": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-15",
+    "person_name": "Gähwiler Urs",
+    "reason": "aucune etude/pratique independante confirmee a Goldach SG ; identite ambigue entre au moins deux/trois homonymes possibles (General Counsel du groupe LGT a Vaduz, un autre lie a Gemdat AG) partageant le meme titre Dr. iur. HSG, sans lien etabli avec l'adresse source CSV"
   },
   "sg-hans-altherr": {
     "_failed": true,
@@ -1923,6 +2016,21 @@
       "Verwaltungsrecht"
     ],
     "source_url": "http://anw24.ch/details/4164/roman-jann-schindellegi"
+  },
+  "sz-kalin-viktor": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "notes": "lic.iur., Einsiedeln SZ. Confirme au registre cantonal officiel des avocats de Schwyz et dans l'annuaire officiel des autorites du district d'Einsiedeln comme membre du Zwangsmassnahmengericht. Aucun cabinet, telephone ou email fiable trouve ('Kaelin' est un patronyme tres frequent a Einsiedeln, homonymies possibles).",
+    "person_name": "Kälin Viktor",
+    "source_url": "https://www.einsiedeln.ch/libraries.files/BehoerdenVerzeichnis.pdf"
+  },
+  "sz-kaufmann-thomas": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "notes": "Fürsprecher, Gersau SZ, confirme au registre cantonal officiel des avocats de Schwyz. President a temps partiel du Bezirksgericht Gersau (article Republik.ch 2019) et conseiller fiscal independant. Le telephone trouve est probablement celui du tribunal, pas une ligne privee.",
+    "person_name": "Kaufmann Thomas",
+    "phone": "041 829 70 68",
+    "source_url": "https://www.republik.ch/2019/09/18/den-richter-im-dorf-lassen"
   },
   "sz-lars-heidbrink": {
     "canton": "SZ",
@@ -2573,6 +2681,34 @@
     ],
     "source_url": "https://www.local.ch/it/d/locarno/6600/avvocato/belgeri-mauro-Ejxav7os7L9S9dHmHXdnwA"
   },
+  "ti-bernaschina-tiziano": {
+    "canton": "TI",
+    "fax": "091 751 78 28",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio Legale e Notarile Cattori-Achermann-Bernaschina",
+    "founding_year": 1991,
+    "notes": "Avv. membro OATi e notaio. Etude fondee en 1932, Locarno TI.",
+    "person_name": "BERNASCHINA Tiziano",
+    "phone": "091 751 33 44",
+    "practice_areas_en": [
+      "Construction and planning law",
+      "Civil law",
+      "Commercial law",
+      "Contract law",
+      "Execution/bankruptcy/procedure"
+    ],
+    "source_url": "https://avvocato.comparazione.ch/avvocato-Tiziano-Bernaschina-Locarno-avvocato-445.htm"
+  },
+  "ti-bernasconi-giorgio-carlo": {
+    "canton": "TI",
+    "email": "avvgior@bluewin.ch",
+    "fax": "091 922 08 23",
+    "fetched_date": "2026-09-15",
+    "notes": "Avv. membro OATi e notaio, pratique solo, Melide TI. Aucun domaine de pratique specifique trouve.",
+    "person_name": "BERNASCONI Giorgio Carlo",
+    "phone": "091 922 72 91",
+    "source_url": "https://zip.ch/it/bernasconi-giorgiocarlo-piazza-domenico-fontana-melide-QP610aWGDM/"
+  },
   "ti-francesca-balerna-gianotti": {
     "canton": "TI",
     "fax": "+41 91 752 04 45",
@@ -2725,6 +2861,31 @@
       "Zivilrecht"
     ],
     "source_url": "https://www.local.ch/de/d/altdorf-ur/6460/advokaturbuero/felber-hansjoerg-xhXPuBXCiEQC1q5HEoTKvw"
+  },
+  "ur-frei-silvana": {
+    "canton": "UR",
+    "email": "silvana.frei@meiermehr.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Meier & Mehr",
+    "notes": "MLaw, Altdorf UR, membre de l'etude Meier & Mehr. Annees de patente (2010/2014) trouvees groupees sur l'annuaire de l'association des avocats uranais.",
+    "person_name": "Frei Silvana",
+    "phone": "041 870 90 00",
+    "source_url": "https://www.urilaw.ch/mitglieder"
+  },
+  "ur-gisler-flavio": {
+    "canton": "UR",
+    "email": "mail@rechtsanwalt-gisler.ch",
+    "fetched_date": "2026-09-15",
+    "notes": "MLaw, Rechtsanwalt und Notar, pratique solo (avec une seconde adresse a Amsteg), Altdorf UR.",
+    "person_name": "Gisler Flavio",
+    "phone": "041 871 02 15",
+    "practice_areas_de": [
+      "Notariat",
+      "Familienrecht",
+      "Erbrecht",
+      "Öffentliches Recht"
+    ],
+    "source_url": "https://www.rechtsanwalt-gisler.ch/"
   },
   "ur-patrizia-danioth-halter": {
     "canton": "UR",
