@@ -5425,3 +5425,22 @@ recherche IA contredite par vérification directe).
 
 Rattachement : 237 avocats rattachés par nom au total (220 → 237, +17). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 8)
+
+12 candidats traités (TI/SG/BL/SZ/UR/LU, 2 par canton). 0 échec — les six cantons actifs restants
+ont tous produit des données exploitables.
+
+Succès (12) : Igor Bernasconi (**depuis 2000**, tel/fax, domaines, studio proprio, Lugano TI) ;
+Ilario Bernasconi (**depuis 1995**, tel/fax, notaire également, Lugano TI) ; Bruno Geiger
+(**depuis 1972**, tel/fax, domaines, Mörschwil SG) ; Silvia Gerlach-Schaeffeler (**depuis 1974**,
+tel/fax/email, domaines, Saint-Gall SG) ; Bruno Gutzwiller (**depuis 1975**, tel/fax, domaines,
+Therwil BL) ; Adolf Häring (tel, domaines, Muttenz BL) ; Peter Linggi (tel, domaines, mediateur,
+Schwyz SZ) ; Stefan Pfyl (**depuis 1991**, tel/fax/email, expert fiscal diplômé, domaines, Schwyz
+SZ) ; Ruedi Herger (tel/email, Fürsprecher und Notar, Altdorf UR) ; Heinz Holzinger
+(**depuis 1993**, tel, domaines, Schattdorf UR) ; Philipp Burger (**depuis 2002**, tel/email,
+domaines, iur.team — confirmé collègue de Jörg Blum déjà connu, Lucerne LU) ; Edith Burri (tel,
+Malters LU).
+
+Rattachement : 249 avocats rattachés par nom au total (237 → 249, +12). Suite de tests : 94/94 au
+vert.

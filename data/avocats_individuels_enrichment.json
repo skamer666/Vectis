@@ -774,6 +774,41 @@
     "phone": "+41 61 761 40 50",
     "source_url": "https://www.notariat-baselland.ch/unsere-mitglieder/name/kristin-gubler-borer/"
   },
+  "bl-gutzwiller-bruno": {
+    "canton": "BL",
+    "fax": "061 721 69 56",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1975,
+    "notes": "Dr. iur., Therwil BL. Plusieurs adresses concurrentes trouvees dans des annuaires tiers (non retenues) ; lien avec un cabinet bâlois homonyme non confirme.",
+    "person_name": "Gutzwiller Bruno",
+    "phone": "061 721 69 55",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Scheidungsrecht",
+      "Enteignungsrecht",
+      "Verwaltungsrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/3398/bruno-gutzwiller-therwil"
+  },
+  "bl-haring-adolf": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "notes": "Dr., Muttenz BL. Aucun site web propre trouve ; le telephone provient d'un listing residentiel partage a la meme adresse, non confirme comme la ligne professionnelle.",
+    "person_name": "Häring Adolf",
+    "phone": "061 461 66 58",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Scheidungsrecht",
+      "SchKG und Verfahrensrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/muttenz/dr-adolf-haering"
+  },
   "bl-heinz-dettwiler": {
     "_failed": true,
     "canton": "BL",
@@ -842,6 +877,14 @@
       "Verkehrsrecht"
     ],
     "source_url": "https://gerichte.lu.ch/anwaelte_notare_sachwalter/anwaelte/anwaltsregister_kanton_luzern?filter=B"
+  },
+  "lu-edith-burri": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "notes": "lic. iur., Rechtsanwaeltin, pratique solo, Malters LU. Nom de registre possiblement 'Burri-Keusch' selon plusieurs annuaires tiers.",
+    "person_name": "Edith Burri",
+    "phone": "041 497 40 75",
+    "source_url": "https://www.local.ch/de/d/malters/6102/advokaturbuero/burri-edith-QwQEatk6IZqSObspeiUSgw"
   },
   "lu-hans-aepli": {
     "canton": "LU",
@@ -929,6 +972,24 @@
       "Genossenschaftsrecht"
     ],
     "source_url": "https://www.mb-anwalt.ch/"
+  },
+  "lu-philipp-burger": {
+    "canton": "LU",
+    "email": "burger@iur-team.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "iur.team",
+    "founding_year": 2002,
+    "notes": "lic. iur., Rechtsanwalt und Notar, patente LU 1992 (notariat 1994), independant depuis 2002. Confirme comme collegue de Joerg Blum deja connu chez iur.team, Metzgerrainle 9, Lucerne LU.",
+    "person_name": "Philipp Burger",
+    "phone": "+41 41 410 64 47",
+    "practice_areas_de": [
+      "Notariat / öffentliche Beurkundungen",
+      "Wirtschaftsrecht",
+      "Vermögensrecht",
+      "Erbrecht",
+      "Bau- und Immobilienrecht"
+    ],
+    "source_url": "https://iur-team.ch/iurteam/burger/"
   },
   "lu-pio-brun": {
     "canton": "LU",
@@ -1806,6 +1867,41 @@
     "person_name": "Gähwiler Urs",
     "reason": "aucune etude/pratique independante confirmee a Goldach SG ; identite ambigue entre au moins deux/trois homonymes possibles (General Counsel du groupe LGT a Vaduz, un autre lie a Gemdat AG) partageant le meme titre Dr. iur. HSG, sans lien etabli avec l'adresse source CSV"
   },
+  "sg-geiger-bruno": {
+    "canton": "SG",
+    "fax": "071 245 95 35",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1972,
+    "notes": "Dr. iur., Anwaltsbuero solo, Moerschwil SG. Un email trouve (bruno.geiger@gmlaw.ch) correspond au domaine d'un autre cabinet sans lien confirme - non retenu.",
+    "person_name": "Geiger Bruno",
+    "phone": "071 245 24 04",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Handelsrecht",
+      "Vertragsrecht",
+      "Verfahrensrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/2971/bruno-geiger-moerschwil"
+  },
+  "sg-gerlach-schaeffeler-silvia": {
+    "canton": "SG",
+    "email": "silvia.gerlach@bluewin.ch",
+    "fax": "071 245 17 15",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1974,
+    "notes": "lic. iur., pratique solo sous le nom 'Gerlach', Saint-Gall SG. Nom de registre officiel probablement 'Gerlach-Schaeffeler' (forme mariee).",
+    "person_name": "Gerlach-Schaeffeler Silvia",
+    "phone": "071 244 88 68",
+    "practice_areas_de": [
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht",
+      "Kindesrecht",
+      "Erbrecht",
+      "Mediation"
+    ],
+    "source_url": "https://search.ch/tel/st-gallen/museumstrasse-35/silvia-gerlach"
+  },
   "sg-hans-altherr": {
     "_failed": true,
     "canton": "SG",
@@ -2375,12 +2471,46 @@
     "phone": "055 420 38 60",
     "source_url": "https://www.local.ch/de/d/pfaeffikon-sz/8808/anwalt/heidbrink-lars-l8Z0MWHcg_qV1eYo7xJSMw"
   },
+  "sz-linggi-peter": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-15",
+    "notes": "lic. iur., Rechtsanwalt und Mediator, Schwyz SZ, membre confirme de l'association des avocats du canton de Schwyz (AVSZ). L'adresse source CSV (Laubstrasse 15) semble perimee - les annuaires actuels indiquent Herrengasse 13.",
+    "person_name": "Linggi Peter",
+    "phone": "076 405 76 77",
+    "practice_areas_de": [
+      "Familien- und Eherecht (inkl. Konkubinat)",
+      "Erbrecht",
+      "Vertragsrecht (insb. Arbeits- und Mietrecht)",
+      "Gesellschaftsrecht",
+      "Strafverteidigung",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://www.avsz.ch/mitglieder.html"
+  },
   "sz-peter-gruter": {
     "canton": "SZ",
     "fetched_date": "2026-09-15",
     "person_name": "Grüter Peter",
     "phone": "+41 79 826 20 98",
     "source_url": "https://www.avsz.ch/mitglieder.html"
+  },
+  "sz-pfyl-stefan": {
+    "canton": "SZ",
+    "email": "stefan.pfyl@auctor.ch",
+    "fax": "041 811 77 03",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1991,
+    "notes": "Dr. iur., Rechtsanwalt und Urkundsperson, Anwaltspatent 1991, Schwyz SZ. Egalement president du conseil d'administration d'Auctor Schwyz AG (fiduciaire).",
+    "person_name": "Pfyl Stefan",
+    "phone": "041 811 57 52",
+    "practice_areas_de": [
+      "Steuer- und Abgaberecht",
+      "Erbrecht",
+      "Gesellschaftsrecht/Handelsrecht",
+      "Notariatsrecht/Urkundstätigkeit"
+    ],
+    "source_url": "http://anw24.ch/details/6371/stefan-pfyl-schwyz.html",
+    "specialist_certification": "dipl. Steuerexperte"
   },
   "sz-roberto-daniel-hayer": {
     "canton": "SZ",
@@ -3188,6 +3318,33 @@
     "phone": "091 922 72 91",
     "source_url": "https://zip.ch/it/bernasconi-giorgiocarlo-piazza-domenico-fontana-melide-QP610aWGDM/"
   },
+  "ti-bernasconi-igor": {
+    "canton": "TI",
+    "fax": "091 260 62 65",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale Bernasconi",
+    "founding_year": 2000,
+    "notes": "Avvocato membro OATi, iscritto al registro cantonale ticinese il 16.06.2000, pratique solo, Lugano TI.",
+    "person_name": "BERNASCONI Igor",
+    "phone": "+41 91 922 58 55",
+    "practice_areas_it": [
+      "Diritto di famiglia",
+      "Diritto civile e consulenza alle imprese",
+      "Diritto della costruzione",
+      "Diritto penale"
+    ],
+    "source_url": "https://www.legale-bernasconi.ch/"
+  },
+  "ti-bernasconi-ilario": {
+    "canton": "TI",
+    "fax": "091 923 49 69",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1995,
+    "notes": "Avvocato e notaio, iscritto au registre cantonal ticinois le 05.12.1995 (notariat 04.02.1997), pratique solo, Lugano TI.",
+    "person_name": "BERNASCONI Ilario",
+    "phone": "091 923 45 21",
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati/"
+  },
   "ti-francesca-balerna-gianotti": {
     "canton": "TI",
     "fax": "+41 91 752 04 45",
@@ -3365,6 +3522,30 @@
       "Öffentliches Recht"
     ],
     "source_url": "https://www.rechtsanwalt-gisler.ch/"
+  },
+  "ur-herger-ruedi": {
+    "canton": "UR",
+    "email": "ruedi.herger@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "notes": "lic. iur., Fuersprecher und Notar, pratique solo, Altdorf UR.",
+    "person_name": "Herger Ruedi",
+    "phone": "041 870 60 30",
+    "source_url": "https://www.local.ch/de/d/altdorf-ur/6460/notar/herger-ruedi-aX1TBi2I0WVhT2mK6RqYZg"
+  },
+  "ur-holzinger-heinz": {
+    "canton": "UR",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1993,
+    "notes": "lic. iur., Rechtsanwalt und Notar, Anwaltspatent 1993, pratique solo, Schattdorf UR.",
+    "person_name": "Holzinger Heinz",
+    "phone": "041 870 39 24",
+    "practice_areas_de": [
+      "Allgemeines Strafrecht",
+      "Scheidungsrecht",
+      "Strassenverkehrsrecht",
+      "Notariatsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/3865/heinz-holzinger-schattdorf-ur"
   },
   "ur-patrizia-danioth-halter": {
     "canton": "UR",
