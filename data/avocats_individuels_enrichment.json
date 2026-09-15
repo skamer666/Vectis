@@ -433,6 +433,25 @@
     ],
     "source_url": "http://anw24.ch/details/8109/peter-sutter-heiden"
   },
+  "ar-thier-markus": {
+    "canton": "AR",
+    "email": "markus.thier@protonmail.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur Thier",
+    "founding_year": 2004,
+    "notes": "Anwalt seit 2004 ; kanzlei eigene depuis 2021, Herisau AR.",
+    "person_name": "Thier Markus",
+    "phone": "+41 76 218 86 13",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Familienrecht",
+      "Miet- und Wohnungseigentumsrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://rechtsanwalt-herisau.jurebus.ch/kanzlei/markus-thier"
+  },
   "bl-andre-brunner": {
     "canton": "BL",
     "fetched_date": "2026-09-15",
@@ -477,6 +496,41 @@
     "checked_date": "2026-09-15",
     "person_name": "Bifl Daniela",
     "reason": "adresse CSV (Hohenrainstrasse 12c) introuvable dans toutes les sources consultees, qui indiquent uniformement Wasenstrasse 13 ; emails incoherents entre sources (.ch/.com/.info) ; listes de langues contradictoires -- risque de donnee CSV erronee ou de confusion d'identite, non retenu par prudence"
+  },
+  "bl-elbert-bodo": {
+    "canton": "BL",
+    "fetched_date": "2026-09-15",
+    "notes": "Pratique solo, Arlesheim BL. Aucun telephone/email confirme par source directe.",
+    "person_name": "Elbert Bodo",
+    "practice_areas_de": [
+      "Bankenrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Handelsrecht",
+      "Lizenzrecht",
+      "Medienrecht",
+      "Miet- und Pachtrecht",
+      "Rechtshilfe",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/arlesheim/liciur-bodo-elbert"
+  },
+  "bl-enderle-felix": {
+    "canton": "BL",
+    "email": "f.enderle@advokatur-enderle.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur F. Enderle",
+    "founding_year": 2005,
+    "notes": "Advokatur-Pruefung BL 2005 ; pratique solo, Allschwil BL.",
+    "person_name": "Enderle Felix",
+    "phone": "+41 61 711 32 12",
+    "practice_areas_de": [
+      "Zivilrecht (Ehe- und Konkubinatsrecht, Kindsrecht, Scheidungsrecht)",
+      "Handels- und Vertragsrecht (Gesellschafts- und Firmenrecht, Arbeits-, Kauf- und Mietrecht, Werkvertrags- und Auftragsrecht)",
+      "Verfahrensrecht (Zivilprozessrecht, Betreibungs- und Konkursrecht, Baurecht, allgemeines Verwaltungsrecht)"
+    ],
+    "source_url": "https://www.advokatur-enderle.ch/"
   },
   "bl-gottlieb-g-delbruck": {
     "canton": "BL",
@@ -555,6 +609,24 @@
     "phone": "041 310 44 29",
     "source_url": "https://search.ch/tel/luzern/sonnenbergstrasse-55/hans-und-sylvie-aepli"
   },
+  "lu-jorg-blum": {
+    "canton": "LU",
+    "email": "blum@iur-team.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "iur.team",
+    "founding_year": 2016,
+    "notes": "Pratique independante chez iur.team depuis 2016, Lucerne (auparavant partenaire chez Gnekow Lang Studer & Blum, 1990-2015 selon une source secondaire).",
+    "person_name": "Jörg Blum",
+    "phone": "+41 41 410 26 27",
+    "practice_areas_de": [
+      "Vertrags- und Wirtschaftsrecht, Gruendungen",
+      "Immobilienrecht",
+      "Erbrecht, Nachlassplanung",
+      "Stiftungsrecht",
+      "Marken- und Urheberrecht"
+    ],
+    "source_url": "https://iur-team.ch/iurteam/blum/"
+  },
   "lu-marc-bieri": {
     "canton": "LU",
     "email": "mb@kanzlei-eichhof.ch",
@@ -616,6 +688,15 @@
       "Genossenschaftsrecht"
     ],
     "source_url": "https://www.mb-anwalt.ch/"
+  },
+  "lu-pio-brun": {
+    "canton": "LU",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltskanzlei Seidenhof",
+    "notes": "Confirme dans la liste du personnel de l'Anwaltskanzlei Seidenhof, Lucerne (adresse professionnelle, distincte de l'adresse residentielle de la source CSV a Meggen).",
+    "person_name": "Pio Brun",
+    "phone": "041 227 72 50",
+    "source_url": "https://www.oeffnungszeitenbuch.de/filiale/Luzern-Anwaltskanzlei%2520Seidenhof-3380664G.html"
   },
   "lu-sheila-barmettler-bucher": {
     "canton": "LU",
@@ -1123,6 +1204,13 @@
     ],
     "source_url": "https://www.ettlin-partner.ch/team/ettlin-robert"
   },
+  "ow-steinke-gerald-rolf": {
+    "_failed": true,
+    "canton": "OW",
+    "checked_date": "2026-09-15",
+    "person_name": "Steinke Gerald Rolf",
+    "reason": "aucune preuve trouvee d'un statut d'avocat : toutes les sources corroborees (Moneyhouse, registre du commerce, annuaire search.ch des avocats d'Engelberg, liste des membres de l'association des avocats d'Unterwald) identifient cette personne (nom trouve dans l'ordre 'Rolf Gerald Steinke') comme unique administrateur d'Alba Capital AG, une societe financiere de participations, et non comme avocat inscrit ; absent du registre cantonal officiel obwaldien (non consultable directement, mais absent de toutes les sources secondaires disponibles)"
+  },
   "sg-arthur-andermatt": {
     "canton": "SG",
     "fetched_date": "2026-09-15",
@@ -1191,6 +1279,47 @@
     "checked_date": "2026-09-15",
     "person_name": "Conrad Curdin",
     "reason": "forte indication (LinkedIn/PG3 AG) qu'il a quitte la pratique privee en 2015 pour un poste de General Counsel/Head of Legal chez PG3 AG (family office St-Gall) ; l'adresse Abtwil semble correspondre a un ancien cabinet a Gossau, listing probablement perime ; statut de pratique actuelle non confirme"
+  },
+  "sg-eggenberger-christian": {
+    "canton": "SG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Eggenberger und Egli, Rechtsanwaelte und Notare",
+    "notes": "Etude a Buchs SG (Bahnhofstrasse 29) ; l'adresse source CSV (Bleichestrasse 9, Werdenberg) correspond a un listing residentiel homonyme distinct, non retenue. Site web de l'etude (e-rechtsanwaelte.ch) inaccessible (DNS).",
+    "person_name": "Eggenberger Christian",
+    "phone": "081 755 63 00",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Baurecht",
+      "Betreibungs- und Konkursrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Kaufvertragsrecht",
+      "Opferhilferecht",
+      "Planungsrecht",
+      "Strafrecht",
+      "Umweltrecht",
+      "Vertragsrecht",
+      "Wirtschaftsstrafrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/buchs/liciur-christian-eggenberger"
+  },
+  "sg-egli-steffen-margareta": {
+    "canton": "SG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Eggenberger und Egli, Rechtsanwaelte und Notare",
+    "founding_year": 1988,
+    "notes": "Patentee canton St-Gall en 1988, branche/pratique a Schmerikon SG. Auteure publiee sous le nom Margareta Egli Steffen.",
+    "person_name": "Egli Steffen Margareta",
+    "phone": "055 422 32 88",
+    "practice_areas_en": [
+      "Banking law",
+      "Mediation",
+      "Contract law",
+      "Estate and succession law",
+      "Corporate tax law"
+    ],
+    "source_url": "http://anw24.ch/details/2272/margareta-egli-schmerikon",
+    "specialist_certification": "Mediatorin SAV"
   },
   "sg-fabio-di-cugno": {
     "_failed": true,
@@ -1594,6 +1723,32 @@
       "Mediation"
     ],
     "source_url": "https://schwyzeranwalt.ch/?page_id=8"
+  },
+  "sz-hiestand-thomas": {
+    "canton": "SZ",
+    "fax": "044 252 64 81",
+    "fetched_date": "2026-09-15",
+    "notes": "Confirme au registre cantonal officiel des avocats de Schwyz (Dr. iur., Pfaeffikon SZ), pratique solo (aucune etude listee). Un second listing homonyme a une autre adresse existe, non confirme comme la meme personne.",
+    "person_name": "Hiestand Thomas",
+    "phone": "044 252 64 69",
+    "source_url": "https://www.sz.ch/public/upload/assets/69581/Anwaltsregister_des_Kantons_Schwyz.pdf"
+  },
+  "sz-jann-roman": {
+    "canton": "SZ",
+    "fax": "043 844 45 22",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1983,
+    "notes": "Confirme au registre cantonal officiel des avocats de Schwyz (lic. iur., Schindellegi SZ), pratique solo. Admission 1983 (source secondaire, non re-confirmee independamment).",
+    "person_name": "Jann Roman",
+    "phone": "043 844 45 20",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Steuerrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/4164/roman-jann-schindellegi"
   },
   "sz-lars-heidbrink": {
     "canton": "SZ",
@@ -2133,6 +2288,33 @@
     ],
     "source_url": "https://www.gblaw.ch/"
   },
+  "ti-becker-michael": {
+    "canton": "TI",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1987,
+    "notes": "Registre cantonal officiel tessinois : inscrit comme avocat le 21.05.1987, notaire depuis le 09.10.1989. Pratique solo, Lugano. Aucun telephone/email trouve (profils d'annuaires tiers non revendiques).",
+    "person_name": "BECKER Michael",
+    "practice_areas_en": [],
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati"
+  },
+  "ti-belgeri-mauro": {
+    "canton": "TI",
+    "fax": "091 751 80 16",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1987,
+    "notes": "Pratique solo, Locarno, diplome 1987. Un homonyme politicien local (ancien maire de Locarno) existe ; non confirme comme la meme personne, mais les donnees professionnelles utilisees ici proviennent exclusivement d'annuaires d'avocats specifiques a l'avocat, non de sources politiques.",
+    "person_name": "BELGERI Mauro",
+    "phone": "091 751 21 22",
+    "practice_areas_en": [
+      "Construction and planning law",
+      "Contract law",
+      "Criminal law",
+      "Civil liability and insurance law",
+      "Civil law",
+      "Divorce law"
+    ],
+    "source_url": "https://www.local.ch/it/d/locarno/6600/avvocato/belgeri-mauro-Ejxav7os7L9S9dHmHXdnwA"
+  },
   "ti-francesca-balerna-gianotti": {
     "canton": "TI",
     "fax": "+41 91 752 04 45",
@@ -2261,6 +2443,30 @@
     "person_name": "Bänninger Daniel Peter",
     "phone": "+41 41 870 60 70",
     "source_url": "https://www.teletrust.com/"
+  },
+  "ur-dillier-thomas": {
+    "canton": "UR",
+    "fetched_date": "2026-09-15",
+    "notes": "Confirme au registre cantonal officiel des avocats d'Uri (ne le 19.09.1966, patente Uri, Schmiedgasse 18, Altdorf UR - meme adresse que dillier.bossi.), avec UID individuel distinct. N'apparait toutefois ni sur le site de dillier.bossi. ni dans l'annuaire de l'association des avocats uranais - il est en revanche identifie comme president du conseil d'administration de TeleTrust Partner AG (conseil contractuel, pas une etude d'avocats), a la meme adresse. Aucun contact direct trouve ; relation exacte avec dillier.bossi. non confirmee.",
+    "person_name": "Dillier Thomas",
+    "source_url": "https://www.ur.ch/_docn/447817/Aktuelles_Register.pdf"
+  },
+  "ur-felber-hansjorg": {
+    "canton": "UR",
+    "fax": "041 870 47 74",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1985,
+    "notes": "Confirme au registre cantonal officiel des avocats d'Uri (ne le 20.12.1954, Altdorf UR), egalement notaire (\"Rechtsanwalt u. Notar\"). Admission 1985 (source secondaire unique).",
+    "person_name": "Felber Hansjörg",
+    "phone": "041 870 47 57",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.local.ch/de/d/altdorf-ur/6460/advokaturbuero/felber-hansjoerg-xhXPuBXCiEQC1q5HEoTKvw"
   },
   "ur-patrizia-danioth-halter": {
     "canton": "UR",

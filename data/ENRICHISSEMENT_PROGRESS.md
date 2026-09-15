@@ -5273,3 +5273,29 @@ actuelle du cabinet associé, indice d'un poste de greffier plutôt qu'une prati
 
 Rattachement : 161 avocats rattachés par nom au total (144 → 161, +17). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 5)
+
+14 candidats traités (TI/SG/LU/BL 2 chacun, AR/OW 1 chacun — pools AI et NW épuisés, AR/OW proches
+de l'épuisement). Deux identités confirmées via le registre cantonal officiel uranais.
+
+Succès (13) : Michael Becker (**depuis 1987**, notaire depuis 1989, registre cantonal officiel,
+Lugano TI) ; Mauro Belgeri (**depuis 1987**, tel/fax, domaines, Locarno TI — homonyme politicien
+local non confirmé comme la même personne, données professionnelles issues exclusivement
+d'annuaires d'avocats) ; Christian Eggenberger (tel, domaines, Eggenberger und Egli, Buchs SG) ;
+Margareta Egli Steffen (**depuis 1988**, tel, Mediatorin SAV, domaines, même étude, Schmerikon SG) ;
+Jörg Blum (**depuis 2016**, tel/email, domaines, iur.team, Lucerne LU) ; Pio Brun (tel, Anwaltskanzlei
+Seidenhof, Lucerne LU) ; Bodo Elbert (domaines, Arlesheim BL) ; Felix Enderle (**depuis 2005**,
+tel/email, domaines, Advokatur F. Enderle, Allschwil BL) ; Markus Thier (**depuis 2004**, tel/email,
+domaines, Advokatur Thier, Herisau AR) ; Thomas Hiestand (tel/fax, registre cantonal officiel,
+Pfäffikon SZ) ; Roman Jann (**depuis 1983**, tel/fax, domaines, Schindellegi SZ) ; Thomas Dillier
+(registre cantonal officiel uranais, Altdorf UR — président du CA de TeleTrust Partner AG à la même
+adresse que dillier.bossi., relation exacte avec cette étude non confirmée) ; Hansjörg Felber
+(**depuis 1985**, tel/fax, domaines, notaire également, Altdorf UR).
+
+Échec (1) : Gerald Rolf Steinke (Engelberg OW, aucune preuve d'un statut d'avocat — identifié
+uniquement comme administrateur d'une société financière, Alba Capital AG, absent de toutes les
+sources professionnelles consultées).
+
+Rattachement : 174 avocats rattachés par nom au total (161 → 174, +13). Suite de tests : 94/94 au
+vert.
