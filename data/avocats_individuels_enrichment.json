@@ -1,4 +1,46 @@
 {
+  "ag-andrea-ursina-bieri-muller": {
+    "canton": "AG",
+    "email": "bieri@advonot.ch",
+    "fax": "062 824 84 01",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur & Notariat Zinniker & Fischer",
+    "founding_year": 1997,
+    "notes": "Anwaltspatent AG 1997, Aarau AG.",
+    "person_name": "Andrea Ursina Bieri-Müller",
+    "phone": "+41 62 824 84 00",
+    "practice_areas_de": [
+      "Strafrecht und Strafprozessrecht",
+      "Familien-, Konkubinats- und Scheidungsrecht",
+      "Strassenverkehrsrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Verwaltungsrecht",
+      "Bau- und Planungsrecht"
+    ],
+    "source_url": "https://www.advonot.ch/andrea-ursina-bieri-m%C3%BCller",
+    "specialist_certification": "Fachanwältin SAV Strafrecht (2017)"
+  },
+  "ag-andreas-binder": {
+    "canton": "AG",
+    "email": "andreas.binder@binderlegal.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Binder Rechtsanwälte (Binder Legal)",
+    "founding_year": 1984,
+    "notes": "Prof. em. Dr. iur. et lic. oec. HSG, Anwaltspatent AG 1984, a repris l'etude fondee par son pere Julius Binder en 1953, Baden AG.",
+    "person_name": "Andreas Binder",
+    "phone": "+41 58 404 40 00",
+    "practice_areas_en": [
+      "Mergers & Acquisitions",
+      "Corporate law and governance",
+      "Public corporate governance",
+      "Succession planning",
+      "Contract law",
+      "Dispute resolution and litigation"
+    ],
+    "source_url": "https://www.binderlegal.ch/en/team/prof-dr-andreas-binder/"
+  },
   "ag-bruno-bernasconi": {
     "canton": "AG",
     "fetched_date": "2026-09-15",
@@ -167,6 +209,13 @@
     ],
     "source_url": "https://www.berger-rohrer.ch/jonas_ammann.172de.html"
   },
+  "ag-julius-binder": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-15",
+    "person_name": "Julius Binder",
+    "reason": "pratique individuelle dissoute en 2021 (Löschung infolge Geschäftsaufgabe, source Moneyhouse via extrait de recherche) ; age de 100 ans (ne le 12.02.1925), ancien conseiller national (1963-1975) et conseiller aux Etats (1979-1987) - aucune activite d'avocat active identifiee, seulement fondateur historique (1953) de l'etude aujourd'hui dirigee par son fils Andreas Binder"
+  },
   "ag-katrin-biehler": {
     "canton": "AG",
     "email": "biehler@advokatur-baden.ch",
@@ -322,6 +371,25 @@
       "Strafrecht"
     ],
     "source_url": "https://www.advo5600.ch/ramona-bieri/"
+  },
+  "ag-reto-bieri": {
+    "canton": "AG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bieri Rechtsanwälte AG",
+    "founding_year": 2022,
+    "notes": "Anwaltspatent AG 2009. A fonde Bieri Rechtsanwaelte AG en 2022 apres 10 ans chez Haeuptli van den Bergh, Baden AG.",
+    "person_name": "Reto Bieri",
+    "phone": "056 222 07 34",
+    "practice_areas_de": [
+      "Privates Baurecht",
+      "Öffentliches Baurecht",
+      "Stockwerkeigentum",
+      "Miet- und Pachtrecht",
+      "Grundstückkauf und Beratung",
+      "Sachenrecht"
+    ],
+    "source_url": "https://www.bierilegal.ch/zur-person",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht (2021)"
   },
   "ag-roger-baumberger": {
     "canton": "AG",
@@ -928,6 +996,23 @@
     "phone": "032 721 19 10",
     "source_url": "https://search.ch/tel/neuchatel/rue-du-coq-dinde-24/alain-badertscher.fr.html"
   },
+  "ne-alexis-bolle": {
+    "canton": "NE",
+    "email": "info@etudeb.ch",
+    "fax": "032 727 20 27",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Etude Bolle & Bornand",
+    "founding_year": 2007,
+    "notes": "Brevet d'avocat neuchatelois 2007, co-fondateur de l'Etude Bolle & Bornand (depuis 2022), Neuchatel NE.",
+    "person_name": "Alexis Bolle",
+    "phone": "032 727 20 20",
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit administratif (construction, droits politiques)",
+      "Droit des affaires et conseil en entreprise"
+    ],
+    "source_url": "https://www.etudeb.ch/alexisbolle.html"
+  },
   "ne-christelle-boil": {
     "_failed": true,
     "canton": "NE",
@@ -944,6 +1029,22 @@
     "person_name": "Christian Blandenier",
     "phone": "032 854 30 30",
     "source_url": "https://tel.search.ch/cernier/impasse-du-noyer-1/christian-avocat-et-notaire-blandenier.fr.html"
+  },
+  "ne-clarie-bonjour": {
+    "canton": "NE",
+    "email": "info@brodt.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Etude Brodt & Partenaires",
+    "founding_year": 2025,
+    "notes": "Brevet d'avocate neuchateloise obtenu en mai 2025, Neuchatel NE.",
+    "person_name": "Clarie Bonjour",
+    "phone": "+41 32 835 05 35",
+    "practice_areas_fr": [
+      "Droit de la famille (séparation, divorce, protection de l'enfant et de l'adulte)",
+      "Droit social (droit du bail, droit du travail, assurances sociales)",
+      "Avocature (professions judiciaires)"
+    ],
+    "source_url": "https://brodt.ch/lequipe/clarie-bonjour"
   },
   "ne-cyril-babando": {
     "_failed": true,
@@ -1060,6 +1161,13 @@
     ],
     "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
   },
+  "ne-leticia-boni": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-15",
+    "person_name": "Leticia Boni",
+    "reason": "identite professionnelle non confirmee : seule presence verifiee est un credit d'auteur isole sur droitne.ch et un possible poste de juriste au service cantonal des formations postobligatoires ; une affirmation de recherche IA (associee/'Etude du Lac', prix Walther Hug) s'est averee non corroboree et contredite par la verification directe du site de l'etude (elle n'y figure pas)"
+  },
   "ne-marc-boillat": {
     "canton": "NE",
     "email": "m.boillat@etudebgs.ch",
@@ -1175,6 +1283,27 @@
       "Droit des poursuites"
     ],
     "source_url": "https://www.zld.legal/nberger-349903.html"
+  },
+  "ne-nicolas-bornand": {
+    "canton": "NE",
+    "email": "info@etudeb.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Etude Bolle & Bornand",
+    "founding_year": 2003,
+    "notes": "Brevet d'avocat neuchatelois 2003, a ouvert son propre cabinet en 2009 (aujourd'hui Etude Bolle & Bornand, meme etude qu'Alexis Bolle deja connu), Neuchatel NE. Egalement ancien membre du Conseil general de Saint-Blaise et depute au Grand Conseil neuchatelois.",
+    "person_name": "Nicolas Bornand",
+    "phone": "032 727 20 20",
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit de la famille",
+      "Droit des contrats",
+      "Droit administratif",
+      "Droit des assurances",
+      "Droit des poursuites et de la faillite",
+      "Droit des successions",
+      "Curatelles"
+    ],
+    "source_url": "https://www.etudeb.ch/nicolasbornand.html"
   },
   "ne-noe-david-alexandre-allegrezza": {
     "canton": "NE",
@@ -1792,6 +1921,22 @@
     ],
     "source_url": "https://www.lbr-law.ch/Boris-Banga.htm"
   },
+  "so-burger": {
+    "canton": "SO",
+    "email": "rebaso@heks.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "HEKS Rebaso (Rechtsberatungsstelle für Asylsuchende Solothurn)",
+    "founding_year": 2026,
+    "notes": "Prenom complet : Patrick Burger, MLaw. L'entree CSV corrompue ('Patrick c/o HEKS, Rebaso') est en realite la structure exacte du registre cantonal officiel des avocats de Soleure (inscrit le 01.04.2026, restriction Art. 8 al. 2 LLCA - mandats limites au but de l'organisation HEKS/Rebaso), Soleure SO.",
+    "person_name": "Burger",
+    "phone": "+41 32 621 22 29",
+    "practice_areas_de": [
+      "Asyl- und ausländerrechtliche Fragen",
+      "Beschwerden vor dem Bundesverwaltungsgericht",
+      "Familiennachzugs- und Härtefallgesuche"
+    ],
+    "source_url": "https://so.ch/fileadmin/internet/staatskanzlei/stk-lj/pdf/Anwaltsregister.pdf"
+  },
   "so-christian-aebersold": {
     "canton": "SO",
     "email": "aebersold@morandischnider.ch",
@@ -1887,6 +2032,26 @@
     ],
     "source_url": "https://brunneraebipartner.ch/"
   },
+  "so-herbert-brunner": {
+    "canton": "SO",
+    "email": "info@brunneraebipartner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BrunnerAebiPartner",
+    "founding_year": 2001,
+    "notes": "Dr. iur., inscrit au registre cantonal officiel des avocats de Soleure depuis le 23.04.2001, Soleure SO.",
+    "person_name": "Herbert Brunner",
+    "phone": "+41 32 623 66 44",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Baurecht",
+      "Gesellschaftsrecht",
+      "Familienrecht",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://so.ch/fileadmin/internet/staatskanzlei/stk-lj/pdf/Anwaltsregister.pdf"
+  },
   "so-isabel-bernhard": {
     "_failed": true,
     "canton": "SO",
@@ -1975,6 +2140,14 @@
     "person_name": "Pirmin St. Bischof",
     "phone": "+41 32 333 33 11",
     "source_url": "https://search.ch/tel/solothurn/st-niklausstrasse-1/bischof-rechtsanwaelte-und-notare"
+  },
+  "so-roland-buhler": {
+    "canton": "SO",
+    "fetched_date": "2026-09-15",
+    "founding_year": 2001,
+    "notes": "Dr. iur., inscrit au registre cantonal officiel des avocats de Soleure depuis le 25.10.2001, Trimbach SO. Aucune etude, telephone ou email confirme malgre plusieurs recherches ; a distinguer d'un homonyme avocat a Zurich (Buehler & Ferro).",
+    "person_name": "Roland Bühler",
+    "source_url": "https://so.ch/fileadmin/internet/staatskanzlei/stk-lj/pdf/Anwaltsregister.pdf"
   },
   "so-sabine-brosi": {
     "canton": "SO",
@@ -2073,6 +2246,26 @@
     "person_name": "Timur Acemoglu",
     "phone": "+41 62 212 90 60",
     "source_url": "https://acemoglu.ch/"
+  },
+  "so-tobias-martin-burri": {
+    "canton": "SO",
+    "email": "info@glaettli-rechtsanwaelte.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Glättli Rechtsanwälte AG",
+    "founding_year": 2020,
+    "notes": "MLaw, Anwaltspatent SO 2020, Notariatspatent 2021, Olten SO. Le registre cantonal officiel le liste comme 'Burri Tobias' sans second prenom - 'Martin' provient probablement du nom de rue de l'etude (Martin Disteli-Strasse) mal decoupe dans le CSV source.",
+    "person_name": "Tobias Martin Burri",
+    "phone": "+41 (0)62 287 90 60",
+    "practice_areas_de": [
+      "Gesellschafts- und Handelsrecht",
+      "Pacht- und Mietrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Bau-, Planungs- und Umweltrecht",
+      "Allgemeines Vertragsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://www.glaettli-rechtsanwaelte.ch/de/tobias_burri.html"
   },
   "sz-alois-yberg": {
     "canton": "SZ",
@@ -2290,6 +2483,24 @@
     ],
     "source_url": "https://www.s-e-k.ch/team/andreas-burkhard/"
   },
+  "tg-anita-dahler-engel": {
+    "canton": "TG",
+    "fax": "+41 71 677 97 89",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schlatter Aepli Partner",
+    "notes": "lic.iur., confirmee au registre cantonal thurgovien (Jg. 1963), Kreuzlingen TG. Egalement Gemeindepraesidentin (maire) de Mammern TG.",
+    "person_name": "Anita Dähler-Engel",
+    "phone": "+41 71 677 97 87",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Erbrecht",
+      "KMU-Recht",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "https://lawyers.jurata.ch/de/anwalt/anita-daehler-engel"
+  },
   "tg-anna-lea-brunnschweiler": {
     "canton": "TG",
     "fetched_date": "2026-09-15",
@@ -2406,6 +2617,24 @@
     "source_url": "https://www.aslantas.ch/kanzlei",
     "specialist_certification": "Fachanwalt SAV Strafrecht"
   },
+  "tg-humbert-entress": {
+    "canton": "TG",
+    "email": "humbert.entress@ewpa.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Entress Wenger Partner Advokatur",
+    "founding_year": 1986,
+    "notes": "lic.iur., Anwaltspatent TG 1986, cofondateur d'Entress Wenger Partner Advokatur (1987), Aadorf TG.",
+    "person_name": "Humbert Entress",
+    "phone": "+41 52 368 02 22",
+    "practice_areas_de": [
+      "Bau- und Umweltrecht",
+      "Wirtschafts- und Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.ewpa.ch/humbert-entress/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
   "tg-lukas-bruhwiler-fresey": {
     "canton": "TG",
     "fetched_date": "2026-09-15",
@@ -2435,6 +2664,30 @@
       "Submission / Vergaberecht"
     ],
     "source_url": "https://raggenbass.com/kanzlei/kevin-bogli"
+  },
+  "tg-marcel-epper": {
+    "canton": "TG",
+    "email": "epper@s-e-k.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "S-E-K Advokaten",
+    "founding_year": 1995,
+    "notes": "lic.iur., Anwaltspatent TG 1995, S-E-K Advokaten, Aadorf TG (ancienne etude Strehler & Epper, Ettenhausen-Aadorf, desormais fermee/deplacee).",
+    "person_name": "Marcel Epper",
+    "phone": "+41 52 365 11 41",
+    "practice_areas_de": [
+      "Scheidungs- und Familienrecht",
+      "Erb- und Sachenrecht",
+      "Miet- und Pachtrecht",
+      "Arbeitsrecht",
+      "Werkvertrags- und Auftragsrecht",
+      "Kaufrecht",
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Bau- und Immobilienrecht",
+      "Sozialversicherungsrecht",
+      "Ausländerrecht"
+    ],
+    "source_url": "https://www.s-e-k.ch/team/marcel-epper/"
   },
   "tg-markus-burgi": {
     "canton": "TG",
@@ -2599,6 +2852,21 @@
       "Criminal law and juvenile criminal law"
     ],
     "source_url": "https://www.wwvg.ch/en/team/lic-iur-valentin-brunner/"
+  },
+  "tg-veronika-r-eggler": {
+    "canton": "TG",
+    "email": "v@recht-eggler.ch",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1992,
+    "notes": "lic.iur., Rechtsanwaltspatent 1992, pratique solo depuis 2016 (auparavant chez Scherrer Jenny & Partner, Meilen, 1997-2016), Buchackern TG.",
+    "person_name": "Veronika R. Eggler",
+    "phone": "+41 71 646 07 47",
+    "practice_areas_de": [
+      "Erwachsenenschutzrecht",
+      "Tierrecht (insb. Pferde- und Reitsportrecht)",
+      "Vorsorgeauftrag und Patientenverfügung"
+    ],
+    "source_url": "https://recht-eggler.ch/"
   },
   "ti-abate-fabio": {
     "_failed": true,
@@ -3656,5 +3924,65 @@
       "Notariat"
     ],
     "source_url": "https://blum-partner.com/team/richard-blum/"
+  },
+  "zg-blum-simon": {
+    "canton": "ZG",
+    "email": "simon.blum@blum-partner.com",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Blum & Partner AG",
+    "founding_year": 2020,
+    "notes": "Dr. iur., Anwaltspatent ZG 2020, Zoug ZG - meme etude que Richard E. Blum deja connu.",
+    "person_name": "Blum Simon",
+    "phone": "+41 (0)41 729 49 29",
+    "practice_areas_en": [
+      "Contract Law",
+      "Corporate Law",
+      "Family Law and Structuring of Matrimonial Property Law",
+      "Inheritance Law as well as Estate and Succession Planning",
+      "Debt Enforcement and Bankruptcy Law",
+      "Civil Procedure Law",
+      "Notary Office"
+    ],
+    "source_url": "https://blum-partner.com/en/simon-blum-2/"
+  },
+  "zg-blunschi-stefan": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Reichlin Hess AG",
+    "founding_year": 2011,
+    "notes": "MLaw, LL.M. (Harvard), Rechtsanwalt und Notar, Anwaltspatent ZG 2011, Partner chez Reichlin Hess AG, Zoug ZG. Une adresse concurrente a Zurich (annuaires tiers) n'a pas ete confirmee sur le site officiel de l'etude.",
+    "person_name": "Blunschi Stefan",
+    "practice_areas_en": [
+      "Domestic and cross-border transactions including M&A, venture capital, private equity, corporate successions and restructurings",
+      "Corporate law and corporate governance",
+      "Sports law"
+    ],
+    "source_url": "https://www.reichlinhess.ch/en/team/stefan-blunschi/"
+  },
+  "zg-boccali-olivia": {
+    "canton": "ZG",
+    "email": "boccali@haerting.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "HÄRTING Rechtsanwälte AG",
+    "founding_year": 2025,
+    "notes": "MLaw, Rechtsanwaeltin depuis decembre 2025, HAERTING Rechtsanwaelte AG, Zoug ZG - meme cabinet que Nicole Beranek Zanon deja connue.",
+    "person_name": "Boccali Olivia",
+    "phone": "+41 41 710 28 50",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Datenschutzrecht",
+      "IT-Recht",
+      "Kommunikations- und Medienrecht",
+      "Prozessrecht",
+      "Wettbewerbsrecht"
+    ],
+    "source_url": "https://haerting.ch/team/olivia-boccali/"
+  },
+  "zg-boccato-chiara": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-15",
+    "person_name": "Boccato Chiara",
+    "reason": "absente du registre cantonal officiel zougois des avocats (verifie a deux reprises par recherche cible) ; deux affiliations professionnelles contradictoires trouvees (Wenger Vieli AG vs. Dextra Rechtsschutz AG) sans confirmation directe possible (site Wenger Vieli inaccessible, HTTP 503 x3)"
   }
 }

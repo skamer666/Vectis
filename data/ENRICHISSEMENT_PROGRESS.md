@@ -5390,3 +5390,38 @@ d'une pratique d'avocate conventionnelle).
 
 Rattachement : 220 avocats rattachés par nom au total (205 → 220, +15). Suite de tests : 94/94 au
 vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 8)
+
+20 candidats traités, 4 par canton, ordre CSV stable. Plusieurs efficacités de recherche (cabinets
+déjà connus : Blum & Partner, HÄRTING, Etude Bolle & Bornand).
+
+Succès (17) : Reto Bieri (**depuis 2022**, tel, Fachanwalt SAV Bau-/Immobilienrecht, domaines,
+Bieri Rechtsanwälte AG, Baden AG) ; Andrea Ursina Bieri-Müller (**depuis 1997**, tel/fax/email,
+Fachanwältin SAV Strafrecht, domaines, Zinniker & Fischer, Aarau AG) ; Andreas Binder
+(**depuis 1984**, tel/email, domaines, Binder Rechtsanwälte, Baden AG) ; Simon Blum
+(**depuis 2020**, tel/email, domaines, Blum & Partner AG — même étude que Richard E. Blum déjà
+connu, Zoug ZG) ; Stefan Blunschi (**depuis 2011**, domaines, Reichlin Hess AG, Zoug ZG) ; Olivia
+Boccali (**depuis 2025**, tel/email, domaines, HÄRTING Rechtsanwälte AG — même cabinet que Nicole
+Beranek Zanon déjà connue, Zoug ZG) ; Alexis Bolle (**depuis 2007**, tel/fax/email, domaines, Etude
+Bolle & Bornand, Neuchâtel NE) ; Clarie Bonjour (**depuis 2025**, tel/email, domaines, Etude Brodt
+& Partenaires, Neuchâtel NE) ; Nicolas Bornand (**depuis 2003**, tel/email, domaines, Etude Bolle &
+Bornand — même étude qu'Alexis Bolle, Neuchâtel NE) ; Anita Dähler-Engel (tel/fax, domaines,
+Schlatter Aepli Partner, maire de Mammern, Kreuzlingen TG) ; Veronika R. Eggler
+(**depuis 1992**, tel/email, domaines, pratique solo, Buchackern TG) ; Humbert Entress
+(**depuis 1986**, tel/email, Fachanwalt SAV Bau-/Immobilienrecht, domaines, Entress Wenger
+Partner, Aadorf TG) ; Marcel Epper (**depuis 1995**, tel/email, domaines, S-E-K Advokaten, Aadorf
+TG) ; Herbert Brunner (**depuis 2001**, tel/email, domaines, BrunnerAebiPartner, Soleure SO) ;
+Roland Bühler (**depuis 2001**, registre cantonal officiel, Trimbach SO — aucune autre donnée
+confirmée) ; "Burger" = Patrick Burger (**depuis 2026**, tel/email, domaines, HEKS Rebaso
+Soleure — entrée CSV corrompue résolue via le registre cantonal officiel) ; Tobias Martin Burri
+(**depuis 2020**, tel/email, domaines, Glättli Rechtsanwälte AG, Olten SO).
+
+Échecs (3) : Julius Binder (Baden AG, pratique dissoute en 2021, 100 ans, ancien conseiller
+national et conseiller aux États, aucune activité active identifiée) ; Chiara Boccato (Zoug ZG,
+absente du registre cantonal officiel, affiliations professionnelles contradictoires non
+résolues) ; Leticia Boni (Neuchâtel NE, identité professionnelle non confirmée, une affirmation de
+recherche IA contredite par vérification directe).
+
+Rattachement : 237 avocats rattachés par nom au total (220 → 237, +17). Suite de tests : 94/94 au
+vert.
