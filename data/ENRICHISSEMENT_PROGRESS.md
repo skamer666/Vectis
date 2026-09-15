@@ -5114,3 +5114,34 @@ NW, aucune preuve trouvée d'une pratique d'avocat dans tous les répertoires co
 
 Rattachement : 85 avocats rattachés par nom au total (67 → 85, +18, mécanisme partagé avec la
 Phase 3b). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 3)
+
+Rattrapage après plusieurs déclenchements manqués (limite de session atteinte puis réinitialisée).
+20 avocats individuels, 4 par canton, ordre CSV stable. Lot exceptionnellement propre : 20 succès,
+0 échec. Constat récurrent confirmé une nouvelle fois : la grande majorité de ces avocats "sans
+étude" dans le CSV travaillent en réalité dans un cabinet nommé, trouvé par recherche web.
+
+Succès (20) : Martin Basler (**depuis 1992**, tel/email, Fachanwalt SAV Arbeitsrecht, Basler
+Brunner, Zofingen AG) ; Marius Bättig (tel/email, Voser Rechtsanwälte, Baden AG) ; Hannes Baumann
+(**depuis 1988**, tel/email, domaines, chkp., Baden AG) ; Roger Baumberger (**depuis 1998**,
+tel/fax, domaines, Baumberger + Frey, Aarau AG) ; Michael Baier (tel/email, domaines, Wenger Vieli
+AG, Zoug ZG) ; Kurt Balmer (tel/fax, Fachanwalt SAV Haftpflicht-/Versicherungsrecht (2011),
+domaines, lege artis zug, Zoug ZG) ; Martina Balmer (**depuis 2017**, tel, domaines, lege artis
+zug — collègue de Kurt Balmer, Zoug ZG) ; Cyrill Barmettler (**depuis 2025**, tel/email, domaines,
+Wenger Vieli AG, Zoug ZG) ; Mathias Bauer (**depuis 2018**, tel/fax, Spécialiste FSA droit pénal
+(2025), domaines, BAUER Associés, Neuchâtel NE) ; Pierre Henri Bauer (tel/fax, domaines, Étude
+BKZ, La Chaux-de-Fonds NE) ; Philippe Bauer (**depuis 1989**, tel, BAUER Associés — collègue de
+Mathias Bauer, Neuchâtel NE) ; Gabriele Beffa (**depuis 2019**, tel, domaines, KB Avocats,
+Neuchâtel NE) ; Rolf Bickel (tel/fax, Fachanwalt SAV Bau-/Immobilienrecht, domaines, Lindtlaw,
+Kreuzlingen TG) ; Alessandra Biondi (tel/email, domaines, Bürgi Hotz Zellweger, Frauenfeld TG) ;
+Andreas Brauchli (tel, domaines, Anwaltsbüro Brauchli und Lichtensteiger, Weinfelden TG) ; Martin
+Breitenstein (tel/email, domaines, Schwarz Breitenstein AG, Frauenfeld TG) ; Agnes Atteslander
+(tel, Procap Schweiz — avocate d'utilité publique, mandats limités selon art. 8 al. 2 LLCA, Olten
+SO) ; Sophie Katrin Balz-Geiser (**depuis 2013**, tel/email, domaines, SPR Rechtsanwälte, Olten
+SO) ; Boris Banga (**depuis 2014**, tel/email, domaines, LBR Rechtsanwälte, Grenchen SO) ; Roman
+Baumann Lorant (tel/email, domaines, Altenbach Baumann Bloch — même cabinet que Lorenz Altenbach
+déjà connu, Dornach SO).
+
+Rattachement : 105 avocats rattachés par nom au total (85 → 105, +20). Suite de tests : 94/94 au
+vert.

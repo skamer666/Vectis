@@ -20,6 +20,27 @@
     "source_url": "https://www.5001.ch/en/anwaelte/christian-bar-en/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
   },
+  "ag-hannes-baumann": {
+    "canton": "AG",
+    "email": "hannes.baumann@chkp.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "chkp.",
+    "founding_year": 1988,
+    "person_name": "Hannes Baumann",
+    "phone": "+41 56 204 41 11",
+    "practice_areas_de": [
+      "Baurecht",
+      "Immobilienrecht",
+      "Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Privatversicherungsrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Schulrecht",
+      "Allgemeines Verwaltungsrecht"
+    ],
+    "source_url": "https://www.chkp.ch/team/dr-iur-hannes-baumann"
+  },
   "ag-jacqueline-alf": {
     "canton": "AG",
     "email": "j.alf@voser.ch",
@@ -83,6 +104,33 @@
     ],
     "source_url": "http://www.contractus.ch/deutsch/über-uns/"
   },
+  "ag-marius-battig": {
+    "canton": "AG",
+    "email": "m.baettig@voser.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Voser Rechtsanwälte",
+    "person_name": "Marius Bättig",
+    "phone": "+41 56 203 15 47",
+    "source_url": "https://voser.ch/team/"
+  },
+  "ag-martin-basler": {
+    "canton": "AG",
+    "email": "basler@baslerbrunner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Basler Brunner Advokatur Notariat",
+    "founding_year": 1992,
+    "person_name": "Martin Basler",
+    "phone": "+41 (0)62 745 20 20",
+    "practice_areas_de": [
+      "Arbeitsrecht",
+      "Gesellschaftsrecht",
+      "Haftpflichtrecht",
+      "Scheidungs- und Erbrecht",
+      "Vertrags- und Handelsrecht"
+    ],
+    "source_url": "https://www.baslerbrunner.ch/martinbasler/",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht"
+  },
   "ag-michael-dominik-banziger": {
     "_failed": true,
     "canton": "AG",
@@ -108,6 +156,22 @@
     ],
     "source_url": "https://www.advoarmesto.ch/",
     "specialist_certification": "Fachanwältin SAV Haftpflicht- und Versicherungsrecht"
+  },
+  "ag-roger-baumberger": {
+    "canton": "AG",
+    "fax": "062 836 30 41",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Baumberger + Frey Rechtsanwälte",
+    "founding_year": 1998,
+    "person_name": "Roger Baumberger",
+    "phone": "062 836 30 40",
+    "practice_areas_de": [
+      "Vertragsrecht (Arbeitsrecht, Mietrecht, Kaufrecht)",
+      "Familienrecht (Scheidungsrecht, Kindesrecht, Erwachsenenschutzrecht, Erbrecht)",
+      "Strafrecht",
+      "Verkehrsrecht"
+    ],
+    "source_url": "https://baumbergerfrey.ch/baumberger.shtml"
   },
   "ag-stefan-augstburger": {
     "canton": "AG",
@@ -345,6 +409,20 @@
     ],
     "source_url": "https://etude-agerba.ch/"
   },
+  "ne-gabriele-beffa": {
+    "canton": "NE",
+    "fetched_date": "2026-09-15",
+    "firm_name": "KB Avocats (Kleger & Beffa Avocats)",
+    "founding_year": 2019,
+    "person_name": "Gabriele Beffa",
+    "phone": "032 722 61 70",
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit civil",
+      "Droit administratif"
+    ],
+    "source_url": "http://www.kb-avocats.ch/"
+  },
   "ne-gautier-aubert": {
     "canton": "NE",
     "email": "etude@a2l.ch",
@@ -374,6 +452,25 @@
       "Droit des associations et des fondations"
     ],
     "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
+  },
+  "ne-mathias-bauer": {
+    "canton": "NE",
+    "fax": "032 722 60 09",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BAUER Associés",
+    "founding_year": 2018,
+    "person_name": "Mathias Bauer",
+    "phone": "032 722 60 00",
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Droit des poursuites et de la faillite",
+      "Droit pénal",
+      "Droit civil",
+      "Responsabilité civile et droit des assurances sociales",
+      "Droit administratif"
+    ],
+    "source_url": "http://www.avocatsneuchatel.ch/index.php?titre=9&id=12",
+    "specialist_certification": "Spécialiste FSA droit pénal et procédure pénale (2025)"
   },
   "ne-noe-david-alexandre-allegrezza": {
     "canton": "NE",
@@ -409,6 +506,32 @@
       "Arbitrage"
     ],
     "source_url": "https://www.a2l.ch/en/"
+  },
+  "ne-philippe-bauer": {
+    "canton": "NE",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BAUER Associés",
+    "founding_year": 1989,
+    "notes": "Tres probablement le meme Philippe Bauer que le Conseiller aux Etats neuchatelois en exercice, mais associe actif et courant du cabinet BAUER Associes confirme sur le site officiel de l'etude (double role note pour information).",
+    "person_name": "Philippe Bauer",
+    "phone": "032 722 60 00",
+    "source_url": "http://www.avocatsneuchatel.ch/index.php?titre=9&id=3"
+  },
+  "ne-pierre-henri-bauer": {
+    "canton": "NE",
+    "fax": "032 913 86 86",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Étude BKZ",
+    "person_name": "Pierre Henri Bauer",
+    "phone": "032 913 14 15",
+    "practice_areas_fr": [
+      "Droit pénal",
+      "Droit successoral",
+      "Droit matrimonial",
+      "Droit administratif",
+      "Responsabilité civile et assurances sociales et privées"
+    ],
+    "source_url": "https://etudebkz.ch/"
   },
   "ne-raphael-allimann": {
     "canton": "NE",
@@ -617,6 +740,15 @@
     "person_name": "Altherr Hans",
     "reason": "aucune donnee de pratique juridique privee trouvee (fiche generique sans domaines) ; seul numero mobile prive trouve, explicitement marque 'sans publicite' sur l'annuaire -- non retenu par respect de la confidentialite ; personnalite publique (ex-Conseiller aux Etats)"
   },
+  "so-agnes-atteslander": {
+    "canton": "SO",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Procap Schweiz (Rechtsdienst)",
+    "notes": "Prenom complet 'Agnes Atteslander' confirme au registre cantonal des avocats de Soleure, marquee '*' (avocate employee par une organisation d'utilite publique, mandats limites au but de l'organisation selon art. 8 al. 2 LLCA) -- le CSV source ne contient que le nom de famille dans le champ nom_complet.",
+    "person_name": "Atteslander",
+    "phone": "062 206 88 77",
+    "source_url": "https://so.ch/fileadmin/internet/staatskanzlei/stk-lj/pdf/Anwaltsregister.pdf"
+  },
   "so-alina-arul": {
     "canton": "SO",
     "fax": "062 207 80 41",
@@ -657,6 +789,31 @@
     ],
     "source_url": "https://www.jurata.ch/de/anwalt/beatrice-abegglen"
   },
+  "so-boris-banga": {
+    "canton": "SO",
+    "email": "banga@lbr-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "LBR Rechtsanwälte",
+    "founding_year": 2014,
+    "person_name": "Boris Banga",
+    "phone": "032 652 27 78",
+    "practice_areas_en": [
+      "Notarial services",
+      "Marriage and inheritance contracts",
+      "Corporate formation",
+      "Property purchase agreements",
+      "Administrative law",
+      "Construction and planning law",
+      "Expropriation law",
+      "Tax law",
+      "Municipal law",
+      "Contract law",
+      "Tort law",
+      "Criminal law",
+      "Family law"
+    ],
+    "source_url": "https://www.lbr-law.ch/Boris-Banga.htm"
+  },
   "so-christian-aebersold": {
     "canton": "SO",
     "email": "aebersold@morandischnider.ch",
@@ -692,6 +849,27 @@
     ],
     "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
   },
+  "so-lorant-roman-baumann": {
+    "canton": "SO",
+    "email": "baumann@abs-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Altenbach Baumann Bloch",
+    "notes": "Nom utilise sur le site du cabinet : 'Roman Baumann Lorant' -- confirme partenaire (meme adresse) de Lorenz Altenbach et Marc Bloch, deja connus au cache.",
+    "person_name": "Lorant Roman Baumann",
+    "phone": "+41 61 701 72 32",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Rechtsberatung für KMU und Gemeinden",
+      "Stiftungs-, Vereins- und Gesellschaftsrecht",
+      "Erbrecht",
+      "Bau- und Immobilien",
+      "Scheidungen und Unterhalt",
+      "Strafrecht / Strassenverkehr",
+      "Verwaltungsrecht",
+      "Persönlichkeits- und Datenschutzrecht"
+    ],
+    "source_url": "https://abs-law.ch/wp/uns-2-2-2/"
+  },
   "so-lorenz-altenbach": {
     "canton": "SO",
     "email": "altenbach@abs-law.ch",
@@ -718,6 +896,22 @@
     "notes": "Numero de telephone trouve incoherent entre sources (Soleure/Granges), non retenu par prudence.",
     "person_name": "Marc Aebi",
     "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/aebi-marc-BdSk0L6It1oLvtK4EtL7qg"
+  },
+  "so-sophie-katrin-balz-geiser": {
+    "canton": "SO",
+    "email": "sb@spr-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "SPR Rechtsanwälte (Notare)",
+    "founding_year": 2013,
+    "person_name": "Sophie Katrin Balz-Geiser",
+    "phone": "+41 62 205 20 50",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht (Miet-, Arbeits- und Gesellschaftsrecht)",
+      "Immobilienrecht (Baurecht, Mietrecht, Umweltrecht, Enteignungsrecht, Planungsrecht)",
+      "Öffentliches Recht – Verwaltungsrecht",
+      "Strafrecht"
+    ],
+    "source_url": "https://spr-law.ch/de/team/"
   },
   "so-timur-acemoglu": {
     "canton": "SO",
@@ -788,6 +982,52 @@
     ],
     "source_url": "https://schwyzeranwalt.ch/?page_id=8"
   },
+  "tg-alessandra-biondi": {
+    "canton": "TG",
+    "email": "a.biondi@bhz-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bürgi Hotz Zellweger Rechtsanwälte",
+    "person_name": "Alessandra Biondi",
+    "phone": "+41 52 723 00 00",
+    "practice_areas_de": [
+      "Familienrecht",
+      "Opferhilferecht",
+      "Erbrecht",
+      "Verwaltungsrecht",
+      "Arbeitsrecht",
+      "Strafrecht",
+      "Mediation",
+      "Beurkundung",
+      "Sozialversicherungsrecht",
+      "Datenschutz"
+    ],
+    "source_url": "https://www.bhz-law.ch/team-detail/alessandra-biondi"
+  },
+  "tg-andreas-brauchli": {
+    "canton": "TG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Anwaltsbüro Brauchli und Lichtensteiger",
+    "notes": "Adresse professionnelle courante (Hermannstrasse 8) differente de l'adresse CSV/registre officiel (Gässliweg 28) -- identite confirmee par nom, titre et annee de naissance (1956) au registre cantonal TG.",
+    "person_name": "Andreas Brauchli",
+    "phone": "071 626 50 00",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Handelsrecht",
+      "Zivilrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Bäuerliches Boden- und Erbrecht",
+      "Planungsrecht",
+      "Verwaltungsrecht",
+      "SchKG und Verfahrensrecht",
+      "Strafrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Scheidungsrecht",
+      "Unternehmenssteuerrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/weinfelden/driur-andreas-brauchli"
+  },
   "tg-cedric-akeret": {
     "canton": "TG",
     "email": "rickenbach@flb-law.ch",
@@ -856,6 +1096,27 @@
     "source_url": "https://www.aslantas.ch/kanzlei",
     "specialist_certification": "Fachanwalt SAV Strafrecht"
   },
+  "tg-martin-breitenstein": {
+    "canton": "TG",
+    "email": "breitenstein@sbm.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schwarz Breitenstein Rechtsanwälte AG",
+    "notes": "N'apparait pas au registre cantonal des avocats de Thurgovie (probablement enregistre a Zurich, bureau de Frauenfeld = succursale).",
+    "person_name": "Martin Breitenstein",
+    "phone": "052 260 34 34",
+    "practice_areas_de": [
+      "Unternehmens- und Gesellschaftsrecht",
+      "Bau- und Immobilienrecht",
+      "Erbrecht und Vorsorge",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Medienrecht",
+      "Urheberrecht",
+      "Vertragsrecht",
+      "Staats- und Verwaltungsrecht"
+    ],
+    "source_url": "https://sb-anwaelte.ch/martin-breitenstein"
+  },
   "tg-michael-alde": {
     "canton": "TG",
     "email": "m.alde@advokatur-arbon.ch",
@@ -872,6 +1133,21 @@
       "Kaufrecht und allgemeines Vertragsrecht"
     ],
     "source_url": "https://www.advokatur-arbon.ch/"
+  },
+  "tg-rolf-bickel": {
+    "canton": "TG",
+    "fax": "071 678 10 20",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Lindtlaw Anwaltskanzlei",
+    "person_name": "Rolf Bickel",
+    "phone": "071 678 10 10",
+    "practice_areas_de": [
+      "Bau- und Immobilienrecht (Baurecht, Planungsrecht, Umweltrecht, Miet- und Pachtrecht, Stockwerkeigentum)",
+      "Strafrecht",
+      "Prozessführung/Vertragsrecht"
+    ],
+    "source_url": "https://lindtlaw.ch/author/rolf-bickel/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
   },
   "tg-simone-andres": {
     "canton": "TG",
@@ -1351,5 +1627,79 @@
       "Bau- und Planungsrecht"
     ],
     "source_url": "https://lawyers.jurata.ch/de/anwalt/thomas-baechtold"
+  },
+  "zg-baier-michael": {
+    "canton": "ZG",
+    "email": "m.baier@wengervieli.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Wenger Vieli AG",
+    "person_name": "Baier Michael",
+    "phone": "+41 58 958 55 73",
+    "practice_areas_de": [
+      "Venture Capital",
+      "Mergers und Acquisitions",
+      "Private Equity",
+      "Gesellschaftsrecht und Handelsrecht",
+      "Notariat",
+      "Funds und Asset Management",
+      "Start-up Desk"
+    ],
+    "source_url": "https://www.wengervieli.ch/de-ch/team/baier-michael"
+  },
+  "zg-balmer-kurt": {
+    "canton": "ZG",
+    "fax": "041 760 63 36",
+    "fetched_date": "2026-09-15",
+    "firm_name": "lege artis zug – Rechtsanwälte und Notare",
+    "notes": "Egalement membre du Kantonsrat zougois (parlement cantonal, parti Die Mitte) -- double role note pour information.",
+    "person_name": "Balmer Kurt",
+    "phone": "+41 41 768 20 40",
+    "practice_areas_en": [
+      "Constitutional and administrative law",
+      "Criminal law",
+      "Labor law",
+      "Liability and insurance",
+      "Notary services",
+      "Traffic law"
+    ],
+    "source_url": "https://legeartiszug.ch/en/team/kurt-balmer/",
+    "specialist_certification": "Fachanwalt SAV Haftpflicht- und Versicherungsrecht (2011)"
+  },
+  "zg-balmer-martina": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "lege artis zug – Rechtsanwälte und Notare",
+    "founding_year": 2017,
+    "notes": "Collegue de Kurt Balmer (meme etude, meme adresse) ; aucun lien de parente confirme entre eux.",
+    "person_name": "Balmer Martina",
+    "phone": "+41 41 768 20 40",
+    "practice_areas_en": [
+      "Associations and foundations",
+      "Companies and financial law",
+      "Criminal law",
+      "Inheritance law",
+      "Insolvency law and administration",
+      "Labor law",
+      "Notary services",
+      "Tenancy law",
+      "Traffic law"
+    ],
+    "source_url": "https://legeartiszug.ch/en/team/martina-balmer/"
+  },
+  "zg-barmettler-cyrill": {
+    "canton": "ZG",
+    "email": "c.barmettler@wengervieli.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Wenger Vieli AG",
+    "founding_year": 2025,
+    "person_name": "Barmettler Cyrill",
+    "phone": "+41 58 958 53 92",
+    "practice_areas_de": [
+      "Mergers und Acquisitions",
+      "Gesellschaftsrecht und Handelsrecht",
+      "Private Equity",
+      "Venture Capital"
+    ],
+    "source_url": "https://www.wengervieli.ch/de-ch/team/barmettler-cyrill"
   }
 }
