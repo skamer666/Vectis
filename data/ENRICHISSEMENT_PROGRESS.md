@@ -5239,3 +5239,37 @@ Kloth (Alpnach Dorf OW, confirmé au registre cantonal UE/AELE mais aucune autre
 
 Rattachement : 144 avocats rattachés par nom au total (129 → 144, +15, mécanisme partagé avec la
 Phase 3b). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-15 (AG/ZG/NE/TG/SO, lot 5)
+
+20 candidats traités, 4 par canton, ordre CSV stable. Plusieurs identités confirmées via des
+registres officiels (rôle du barreau neuchâtelois, registre cantonal thurgovien).
+
+Succès (17) : Matthias Becker (**depuis 1992**, tel, Fachanwalt SAV Bau-/Immobilienrecht, domaines,
+Becker|Gurini|Partner, Lenzbourg AG) ; Dayana Berényi Kamm (**depuis 1999**, tel/email, Fachanwältin
+SAV Arbeitsrecht (2016), domaines, Schärer Rechtsanwälte, Aarau AG) ; Catherine Berger-Meier
+(**depuis 1991**, email, Fachanwältin SAV Familienrecht (2009-2010), Mediatorin SAV, domaines,
+Berger Rohrer Rechtsanwältinnen AG, Rheinfelden AG) ; Diego Benz (**depuis 2005**, tel/email,
+domaines, Kaiser Odermatt & Partner AG, Zoug ZG) ; Nicole Beranek Zanon (**depuis 1998**, tel/email,
+domaines, HÄRTING Schweiz AG, Zoug ZG) ; Katia A. Berchier Theiler (**depuis 2009**, domaines,
+Bright Law AG, Zoug ZG) ; Christoph Berchtold (**depuis 2014**, tel/email, domaines, Hodel & Partner
+Rechtsanwälte AG, Zoug ZG) ; Philippe Béguin (tel, Neuchâtel NE — inscrit au rôle officiel du
+barreau, étude fiscale affiliée CBEF SA en liquidation depuis nov. 2025) ; Yann Bélet (tel/email,
+ZLD & Associés, Neuchâtel NE — absent du rôle officiel de janvier 2026, probablement inscrit après
+cette date) ; Nathalie Berger (**depuis 2011**, domaines, ZLD & Associés, Neuchâtel NE) ;
+Eric-Alain Bieri (domaines, Colombier NE) ; Valentin Brunner (tel, domaines, Weber Wyler von
+Gleichenstein AG, Frauenfeld TG) ; Anna-Lea Brunnschweiler (**depuis 2019**, tel, domaines,
+Raggenbass Rechtsanwälte, Amriswil TG) ; Daniel Bitterli (**depuis 2006**, tel/email, domaines,
+BONT BITTERLI MEIER, Olten SO) ; Marc Bloch (tel/email, domaines, Altenbach Baumann Bloch — même
+cabinet que Lorenz Altenbach et Roman Baumann Lorant déjà connus, Dornach SO) ; Simon Bloch
+(**depuis 2017**, tel, domaines, HAEFLIGER BLOCH, Olten SO) ; Corina Bold (**depuis 2017**, email,
+domaines, cabinet Mattarel von Arx Wächter Bellwald Bold — même cabinet que Severin Bellwald déjà
+connu, Olten SO).
+
+Échecs (2) : Markus Josef Heinz Berger (Rupperswil AG, identité non confirmée — rapprochement
+non établi avec un homonyme "Dr. Markus Berger" trouvé, registre cantonal officiel inaccessible) ;
+Adrian Michael Brüesch (Frauenfeld TG, inscrit au registre cantonal mais absent de l'équipe
+actuelle du cabinet associé, indice d'un poste de greffier plutôt qu'une pratique privée active).
+
+Rattachement : 161 avocats rattachés par nom au total (144 → 161, +17). Suite de tests : 94/94 au
+vert.

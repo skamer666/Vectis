@@ -1,4 +1,24 @@
 {
+  "ag-catherine-berger-meier": {
+    "canton": "AG",
+    "email": "berger@berger-rohrer.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Berger Rohrer Rechtsanwaeltinnen AG",
+    "founding_year": 1991,
+    "notes": "Anwaltspatent 1991, co-fondatrice de Berger Rohrer Rechtsanwaeltinnen AG, Rheinfelden. Une adresse concurrente (activite de mediation) existe egalement, non retenue ici.",
+    "person_name": "Catherine Berger-Meier",
+    "practice_areas_de": [
+      "Mediation in familiaeren Kontexten",
+      "Familienrecht",
+      "Kinds-, Ehe- und Scheidungsrecht",
+      "Eingetragene Partnerschaft und nichteheliche Lebensgemeinschaft",
+      "Vertragsrecht",
+      "Pensionskassenversicherungsrecht",
+      "Arbeits- und Vereinsrecht"
+    ],
+    "source_url": "https://www.berger-rohrer.ch/catherine_berger.44de.html",
+    "specialist_certification": "Fachanwaeltin SAV Familienrecht (2009-2010), Mediatorin SAV"
+  },
   "ag-christian-bar": {
     "canton": "AG",
     "email": "christian.baer@5001.ch",
@@ -19,6 +39,31 @@
     ],
     "source_url": "https://www.5001.ch/en/anwaelte/christian-bar-en/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
+  "ag-dayana-berenyi-kamm": {
+    "canton": "AG",
+    "email": "dayana.berenyi@5001.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Schaerer Rechtsanwaelte",
+    "founding_year": 1999,
+    "notes": "Admission au barreau 1999, etude Schaerer Rechtsanwaelte a Aarau.",
+    "person_name": "Dayana Berényi Kamm",
+    "phone": "+41 62 837 50 00",
+    "practice_areas_en": [
+      "Employment law",
+      "Public personnel law",
+      "Employment contracts",
+      "Family law",
+      "Divorce",
+      "Parental care",
+      "Child protection",
+      "Alimony",
+      "Matrimonial regime",
+      "Pension compensation",
+      "Mediation"
+    ],
+    "source_url": "https://www.5001.ch/en/anwaelte/dayana-berenyi-kamm-en/",
+    "specialist_certification": "Fachanwaeltin SAV Arbeitsrecht (2016)"
   },
   "ag-hannes-baumann": {
     "canton": "AG",
@@ -113,6 +158,13 @@
     "phone": "+41 56 203 15 47",
     "source_url": "https://voser.ch/team/"
   },
+  "ag-markus-josef-heinz-berger": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-15",
+    "person_name": "Markus Josef Heinz Berger",
+    "reason": "identite non confirmee : le registre cantonal argovien des avocats (PDF officiel) le mentionne a Rupperswil mais le document n'a pas pu etre ouvert directement (404) ; seul un rapprochement non confirme avec 'Dr. Markus Berger' (Steuerkanzlei Berger, droit fiscal) a ete trouve, sans lien direct etabli avec Rupperswil ni avec les prenoms 'Josef Heinz'"
+  },
   "ag-martin-basler": {
     "canton": "AG",
     "email": "basler@baslerbrunner.ch",
@@ -130,6 +182,27 @@
     ],
     "source_url": "https://www.baslerbrunner.ch/martinbasler/",
     "specialist_certification": "Fachanwalt SAV Arbeitsrecht"
+  },
+  "ag-matthias-becker": {
+    "canton": "AG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Becker | Gurini | Partner - Rechtsanwaelte und Notariat",
+    "founding_year": 1992,
+    "notes": "Anwaltspatent AG 1992 ; le CSV le classait sans etude alors qu'il est partenaire de Becker|Gurini|Partner, Lenzburg.",
+    "person_name": "Matthias Becker",
+    "phone": "+41 62 888 25 25",
+    "practice_areas_de": [
+      "Privates Baurecht",
+      "Oeffentliches Baurecht",
+      "Planungs- und Enteignungsrecht",
+      "Stockwerkeigentums- und Mietrecht",
+      "Umwelt- und Altlastenrecht",
+      "Submissionsrecht",
+      "Strassenverkehrsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.advo5600.ch/matthias-becker/",
+    "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
   },
   "ag-michael-dominik-banziger": {
     "_failed": true,
@@ -605,6 +678,20 @@
     ],
     "source_url": "https://etude-agerba.ch/"
   },
+  "ne-eric-alain-bieri": {
+    "canton": "NE",
+    "fetched_date": "2026-09-15",
+    "notes": "Inscrit au role officiel du barreau neuchatelois (Colombier NE, PDF du 28.01.2026). Une adresse d'annuaire tierce (La Chaux-de-Fonds) diverge de l'adresse officielle - non retenue. Annee de brevet 1972 trouvee sur un annuaire non revendique/non maintenu, non retenue par prudence.",
+    "person_name": "Eric-Alain Bieri",
+    "practice_areas_fr": [
+      "Droit civil",
+      "Droit des contrats",
+      "Droit international",
+      "Droit penal",
+      "Responsabilite civile et droit des assurances"
+    ],
+    "source_url": "https://www.ne.ch/sites/default/files/2026-01/20260128_Avocats_Tableau%20ROB.pdf"
+  },
   "ne-gabriele-beffa": {
     "canton": "NE",
     "fetched_date": "2026-09-15",
@@ -668,6 +755,23 @@
     "source_url": "http://www.avocatsneuchatel.ch/index.php?titre=9&id=12",
     "specialist_certification": "Spécialiste FSA droit pénal et procédure pénale (2025)"
   },
+  "ne-nathalie-berger": {
+    "canton": "NE",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ZLD & Associes",
+    "founding_year": 2011,
+    "notes": "Brevet d'avocat decembre 2011, canton de Neuchatel. Inscrite au role officiel du barreau (PDF 28.01.2026). Pas de telephone/email individuel publie.",
+    "person_name": "Nathalie Berger",
+    "practice_areas_fr": [
+      "Droit des contrats",
+      "Circulation routiere",
+      "Droit de l'immobilier",
+      "Droit civil",
+      "Droit administratif",
+      "Droit des poursuites"
+    ],
+    "source_url": "https://www.zld.legal/nberger-349903.html"
+  },
   "ne-noe-david-alexandre-allegrezza": {
     "canton": "NE",
     "email": "na@concertavocats.ch",
@@ -713,6 +817,14 @@
     "phone": "032 722 60 00",
     "source_url": "http://www.avocatsneuchatel.ch/index.php?titre=9&id=3"
   },
+  "ne-philippe-beguin": {
+    "canton": "NE",
+    "fetched_date": "2026-09-15",
+    "notes": "Inscrit au role officiel du barreau neuchatelois (PDF officiel du 28.01.2026). Associe a CBEF - Cabinet Beguin d'expertise fiscale SA, societe declaree en liquidation depuis novembre 2025 (source agregateur, non re-verifiee en direct) ; inscription au barreau personnelle toujours active. Aucune confusion trouvee avec les procureurs generaux neuchatelois homonymes (Thierry/Ernest Beguin, prenoms differents).",
+    "person_name": "Philippe Béguin",
+    "phone": "079 692 27 89",
+    "source_url": "https://www.ne.ch/sites/default/files/2026-01/20260128_Avocats_Tableau%20ROB.pdf"
+  },
   "ne-pierre-henri-bauer": {
     "canton": "NE",
     "fax": "032 913 86 86",
@@ -757,6 +869,16 @@
     "checked_date": "2026-09-06",
     "person_name": "Simon Aiassa",
     "reason": "aucun site personnel trouve, uniquement liste au barreau"
+  },
+  "ne-yann-belet": {
+    "canton": "NE",
+    "email": "secretariat@zld.legal",
+    "fetched_date": "2026-09-15",
+    "firm_name": "ZLD & Associes",
+    "notes": "Liste comme Avocat (collaborateur) sur le site de l'etude ZLD & Associes, Neuchatel. Absent du role officiel du barreau neuchatelois du 28.01.2026 (verifie par lecture complete du PDF) - probablement inscrit apres cette date (recemment recu au barreau).",
+    "person_name": "Yann Bélet",
+    "phone": "032 755 70 30",
+    "source_url": "https://www.zld.legal/avocats.html"
   },
   "nw-astrid-radel": {
     "_failed": true,
@@ -1194,6 +1316,26 @@
     ],
     "source_url": "https://morandischnider.ch/team/mitarbeiter/christian-aebersold/"
   },
+  "so-corina-bold": {
+    "canton": "SO",
+    "email": "bold@anwaltolten.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Mattarel, von Arx, Waechter, Bellwald, Bold - Rechtsanwaelte und Notare",
+    "founding_year": 2017,
+    "notes": "Nom complet officiel sur le site de l'etude : Corina Bold-Gugger. Anwaltspatent 2017, meme cabinet que Severin Bellwald deja connu, Olten SO.",
+    "person_name": "Corina Bold",
+    "practice_areas_de": [
+      "Vertretung vor Gericht und Behoerden",
+      "Ehe- und Scheidungsrecht",
+      "Konkubinatsrecht",
+      "Allgemeines Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Nachbarrecht",
+      "Strafrecht inkl. Strassenverkehrsrecht"
+    ],
+    "source_url": "https://anwaltolten.ch/team/corina-gugger/"
+  },
   "so-daniel-altermatt": {
     "canton": "SO",
     "email": "altermatt@regio-iuris.ch",
@@ -1208,6 +1350,28 @@
       "Haftpflichtrecht"
     ],
     "source_url": "https://www.regio-iuris.ch/team/daniel-altermatt/"
+  },
+  "so-daniel-bitterli": {
+    "canton": "SO",
+    "email": "d.bitterli@b3m.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "BONT BITTERLI MEIER Rechtsanwaelte und Notare",
+    "founding_year": 2006,
+    "notes": "Anwaltspatent 2006, notaire depuis 2010, canton de Soleure.",
+    "person_name": "Daniel Bitterli",
+    "phone": "+41 62 212 10 30",
+    "practice_areas_de": [
+      "Vertrags- und Gesellschaftsrecht",
+      "Restrukturierung und Nachfolgeplanung",
+      "Erbrecht",
+      "Familienrecht",
+      "Verkehrsrecht",
+      "Arbeitsrecht",
+      "Verwaltungsrecht",
+      "Bau- und Planungsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://www.bbpartners.ch/daniel-bitterli"
   },
   "so-isabel-bernhard": {
     "_failed": true,
@@ -1264,6 +1428,23 @@
     "person_name": "Marc Aebi",
     "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/aebi-marc-BdSk0L6It1oLvtK4EtL7qg"
   },
+  "so-marc-bloch": {
+    "canton": "SO",
+    "email": "bloch@abs-law.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Altenbach Baumann Bloch, Advokatur und Notariat",
+    "notes": "Partenaire Bloch de l'etude Altenbach Baumann Bloch, Dornach SO - meme cabinet que Lorenz Altenbach et Roman Baumann Lorant deja connus.",
+    "person_name": "Marc Bloch",
+    "phone": "+41 61 701 72 32",
+    "practice_areas_de": [
+      "Notariat",
+      "Gesellschafts- und Firmenrecht",
+      "Arbeitsrecht",
+      "Erbrecht",
+      "Versicherungsrecht"
+    ],
+    "source_url": "https://abs-law.ch/wp/uns-2-2-2-3/"
+  },
   "so-pirmin-bischof": {
     "canton": "SO",
     "fax": "+41 32 333 33 12",
@@ -1293,6 +1474,23 @@
       "Strafrecht inkl. Strassenverkehrsrecht"
     ],
     "source_url": "https://anwaltolten.ch/team/severin-bellwald/"
+  },
+  "so-simon-bloch": {
+    "canton": "SO",
+    "fetched_date": "2026-09-15",
+    "firm_name": "HAEFLIGER BLOCH Rechtsanwaelte und Notariat",
+    "founding_year": 2017,
+    "notes": "Anwaltspatent 2017 (jurata.ch). Adresse professionnelle trouvee (Baslerstrasse 30, Olten) differe de l'adresse source CSV (Dornacherstrasse 7) - a reverifier.",
+    "person_name": "Simon Bloch",
+    "phone": "062 205 40 00",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strassenverkehrsrecht",
+      "Arbeitsrecht",
+      "Miet- und Pachtrecht",
+      "Ehe- und Familienrecht"
+    ],
+    "source_url": "https://simon-bloch.inolawyer.com/en"
   },
   "so-sophie-katrin-balz-geiser": {
     "canton": "SO",
@@ -1444,6 +1642,13 @@
     ],
     "source_url": "https://www.mcadvo.ch/anwalt/altendorf/driur-walter-fleischmann"
   },
+  "tg-adrian-michael-bruesch": {
+    "_failed": true,
+    "canton": "TG",
+    "checked_date": "2026-09-15",
+    "person_name": "Adrian Michael Brüesch",
+    "reason": "inscrit au registre cantonal thurgovien a l'adresse de l'etude Buergi Hotz Zellweger (BHZ), mais absent de la page equipe actuelle du site de BHZ (24 membres, verifiee en direct) ; un indice (LinkedIn) suggere un poste de greffier a la Rekurskommission fuer Strassenverkehrssachen TG plutot qu'une pratique privee active chez BHZ - statut professionnel actuel non confirme"
+  },
   "tg-alessandra-biondi": {
     "canton": "TG",
     "email": "a.biondi@bhz-law.ch",
@@ -1489,6 +1694,27 @@
       "Unternehmenssteuerrecht"
     ],
     "source_url": "https://www.mcadvo.ch/anwalt/weinfelden/driur-andreas-brauchli"
+  },
+  "tg-anna-lea-brunnschweiler": {
+    "canton": "TG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Raggenbass Rechtsanwaelte",
+    "founding_year": 2019,
+    "notes": "Confirmee au registre cantonal thurgovien (ne 1990). Anwaltspatent TG 2019, Partenaire chez Raggenbass Rechtsanwaelte, Amriswil.",
+    "person_name": "Anna-Lea Brunnschweiler",
+    "phone": "+41 71 414 59 59",
+    "practice_areas_de": [
+      "Erbrecht und Nachlassplanung",
+      "Betreibungs- und Konkursrecht",
+      "Arbeitsrecht",
+      "Immaterialgueterrecht",
+      "Vertragsrecht",
+      "Beistandschaften",
+      "Gesellschaftsrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Notariat"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/anna-lea-brunnschweiler"
   },
   "tg-cedric-akeret": {
     "canton": "TG",
@@ -1619,6 +1845,28 @@
     "person_name": "Simone Andres",
     "phone": "071 521 30 00",
     "source_url": "https://gublerandres.ch/anwaelte/"
+  },
+  "tg-valentin-brunner": {
+    "canton": "TG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Weber Wyler von Gleichenstein AG",
+    "notes": "Confirme au registre cantonal thurgovien des avocats (register.tg.ch, ne 1981). Etude possiblement renommee recemment (Wyler Koch Partner -> Weber Wyler von Gleichenstein) - nom d'etude a reverifier.",
+    "person_name": "Valentin Brunner",
+    "phone": "052 720 99 35",
+    "practice_areas_en": [
+      "Contract law",
+      "Employment and tenancy law",
+      "Corporate law",
+      "Intellectual property and competition law",
+      "Family law and child protection",
+      "Inheritance law",
+      "Property law",
+      "Construction and planning law",
+      "Administrative law",
+      "Migration law",
+      "Criminal law and juvenile criminal law"
+    ],
+    "source_url": "https://www.wwvg.ch/en/team/lic-iur-valentin-brunner/"
   },
   "ti-abate-fabio": {
     "_failed": true,
@@ -2361,5 +2609,86 @@
       "Schuldbetreibungs- und Konkursrecht"
     ],
     "source_url": "https://www.local.ch/de/d/zug/6300/advokatur--und-notariatsbuero/diedrichsen-baumgartner-advokatur-notariat-PjmcjS8TCV0sRG38WOSyHA"
+  },
+  "zg-benz-diego": {
+    "canton": "ZG",
+    "email": "db@kaiserodermatt.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Kaiser Odermatt & Partner AG",
+    "founding_year": 2005,
+    "notes": "Partner chez Kaiser Odermatt & Partner AG depuis 2020, Zoug.",
+    "person_name": "Benz Diego",
+    "phone": "+41 41 729 15 00",
+    "practice_areas_de": [
+      "Notariat und Beurkundungsrecht",
+      "Vertragsrecht, Vertragsgestaltung",
+      "Blockchain, Legaltech",
+      "Umstrukturierungen, Fusionen, Uebernahmen & Unternehmenskaeufe",
+      "Unternehmensberatungen",
+      "Erbfolge, Erbvertraege und Willensvollstreckung",
+      "Startups",
+      "Ansiedlungen"
+    ],
+    "source_url": "https://www.kaiserodermatt.ch/expert/diego-benz/"
+  },
+  "zg-beranek-zanon-nicole": {
+    "canton": "ZG",
+    "email": "beranek@haerting.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "HAERTING Rechtsanwaelte AG / HAERTING Schweiz AG",
+    "founding_year": 1998,
+    "notes": "Managing Partner du bureau zougois de HAERTING Schweiz AG depuis 2021 ; a fonde de la cruz beranek Rechtsanwaelte AG en 2012.",
+    "person_name": "Beranek Zanon Nicole",
+    "phone": "+41 41 710 28 50",
+    "practice_areas_de": [
+      "Datenschutzrecht",
+      "Gesellschaftsrecht",
+      "IT-Recht",
+      "Kommunikations- und Medienrecht",
+      "Notariat",
+      "Prozessrecht",
+      "Wettbewerbsrecht"
+    ],
+    "source_url": "https://haerting.ch/team/nicole-beranek-zanon/"
+  },
+  "zg-berchier-theiler-katia-a": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Bright Law AG",
+    "founding_year": 2009,
+    "notes": "Partner chez Bright Law AG depuis 2024, Zoug. Telephone/email trouves uniquement via agregateur (site brightlaw.ch inaccessible, HTTP 503) et non retenus par prudence.",
+    "person_name": "Berchier Theiler Katia A.",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Markenrecht",
+      "Prozessrecht",
+      "Erbrecht/Nachlassplanung",
+      "Baurecht"
+    ],
+    "source_url": "https://brightlaw.ch/de/team/katia-berchier-theiler"
+  },
+  "zg-berchtold-christoph": {
+    "canton": "ZG",
+    "email": "christoph.berchtold@hodel-partner.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Hodel & Partner Rechtsanwaelte AG",
+    "founding_year": 2014,
+    "notes": "Partner chez Hodel & Partner Rechtsanwaelte AG depuis 2020, Zoug.",
+    "person_name": "Berchtold Christoph",
+    "phone": "+41 (0)41 728 62 72",
+    "practice_areas_de": [
+      "Handels- und Gesellschaftsrecht",
+      "Arbeitsrecht",
+      "Marken-, Firmen- und Domainrecht",
+      "Vertragsrecht",
+      "Wirtschaftsstrafrecht",
+      "Datenschutzrecht",
+      "Erbrecht",
+      "Prozessfuehrung",
+      "Notariat"
+    ],
+    "source_url": "https://www.hodel-partner.ch/de/anwaelte_christoph_berchtold.htm"
   }
 }
