@@ -2001,6 +2001,30 @@
     "phone": "071 521 30 00",
     "source_url": "https://gublerandres.ch/anwaelte/"
   },
+  "tg-stefan-bruehwiler": {
+    "canton": "TG",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Raggenbass Rechtsanwaelte",
+    "founding_year": 2012,
+    "notes": "Anwaltspatent TG 2012, Senior Associate chez Raggenbass Rechtsanwaelte, Frauenfeld. Omis par erreur du lot precedent (5) malgre une recherche deja effectuee ; corrige ici.",
+    "person_name": "Stefan Brühwiler",
+    "practice_areas_de": [
+      "Submissionsrecht",
+      "Verwaltungsrecht",
+      "Immobilienrecht",
+      "Mietrecht",
+      "Stockwerkeigentumsrecht",
+      "Landwirtschaftliches Bodenrecht",
+      "Privates Baurecht",
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Oeffentliches Baurecht",
+      "Energierecht",
+      "Nachlassplanung",
+      "Notariat"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
+  },
   "tg-valentin-brunner": {
     "canton": "TG",
     "fetched_date": "2026-09-15",

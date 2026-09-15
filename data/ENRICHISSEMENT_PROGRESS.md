@@ -5299,3 +5299,9 @@ sources professionnelles consultées).
 
 Rattachement : 174 avocats rattachés par nom au total (161 → 174, +13). Suite de tests : 94/94 au
 vert.
+
+**Correction (2026-09-15)** : Stefan Brühwiler (Frauenfeld TG) avait été recherché et compté dans le
+lot 5 de la Phase 3b (17 succès annoncés) mais son entrée avait été omise par erreur lors de
+l'écriture du cache. Ajouté maintenant (**depuis 2012**, domaines, Raggenbass Rechtsanwälte,
+Frauenfeld TG). Rattachement : 175 avocats rattachés par nom au total (174 → 175, +1). Suite de
+tests : 94/94 au vert.
