@@ -5205,3 +5205,37 @@ de la section B — possible erreur de CSV ou embauche trop récente).
 
 Rattachement : 129 avocats rattachés par nom au total (122 → 129, +7). Suite de tests : 94/94 au
 vert.
+
+## Phase 3c, lot du 2026-09-15 (avocats solo, 12 cantons groupables, lot 4)
+
+Lot également ralenti par des limites de session répétées, complété après réinitialisation. 20
+avocats solo, 2 par canton, ordre CSV stable. Plusieurs cas d'identité complexes résolus (avocat
+suisse dont l'adresse CSV correspond en réalité à un mandat de conseil d'administration ; deux
+avocats allemands enregistrés en Suisse au titre UE/AELE seulement ; ancien Conseiller aux États
+retraité).
+
+Succès (15) : Gianfranco Barone (**depuis 1991**, tel/email, domaines, studio proprio, Lugano
+TI) ; Milena Bassi (**depuis 2021**, tel/email, domaines, Bervini & Associati, Mendrisio TI) ;
+Jürg Dommer (**depuis 1982**, tel/fax, domaines, Buchs SG) ; Beat Eberle (tel/email, domaines,
+EBERLE ADVISORY GmbH, Bad Ragaz SG) ; Markus Bischof (tel/fax, domaines, Kanzlei Hirschmatt,
+Lucerne LU) ; Willy Blättler (**depuis 1983**, tel/fax, sa propre étude, Lucerne LU) ; Gottlieb G.
+Delbrück (**depuis 1981**, tel/fax/email, domaines, Delbrück & Schnyder, Bottmingen/Binningen
+BL) ; Roberto Daniel Hayer (email, domaines, REBER Rechtsanwälte, Altendorf SZ) ; Lars Heidbrink
+(tel/fax, Pfäffikon SZ) ; Patrizia Danioth Halter (**depuis 1991**, tel, domaines, sa propre
+étude, Altdorf UR) ; Angela Dillier-Gamma (**depuis 1992**, tel/email, domaines, dillier.bossi. —
+même étude que Romana Bossi Bisatz déjà connue, Altdorf UR) ; Peter Sutter (**depuis 1989**, tel,
+domaines, AES Rechtsanwälte, Heiden AR) ; Etienne Schön (**depuis 1993**, tel/email, domaines,
+AGON PARTNERS LEGAL AG — adresse CSV correspondait à un mandat de conseil d'administration, pratique
+réelle à Zurich, Stans NW) ; Ralph Sigg (**depuis 1991**, tel/email, domaines, Sigg Hemmerle,
+Hergiswil NW) ; Julianne Ferenczy (**depuis 2001**, tel/fax, domaines, avocate allemande inscrite
+en Suisse au titre UE/AELE, cabinet réel à Heidenheim (DE), Alpnach Dorf OW).
+
+Échecs (5) : Heinz Dettwiler (Langenbruck BL, toutes les sources le qualifient de notaire et non
+d'avocat, absent du registre des avocats) ; Otmar Sieber (Trogen AR, aucune donnée professionnelle
+exploitable trouvée) ; Carlo Schmid-Sutter (Oberegg AI, ancien président du Conseil des États,
+aucune pratique d'avocat active aupres de clients privés) ; Dr. Clint Magg (Appenzell AI, avocat
+allemand enregistré UE/AELE seulement, aucune pratique suisse identifiable) ; Heinrich-Thomas
+Kloth (Alpnach Dorf OW, confirmé au registre cantonal UE/AELE mais aucune autre donnée trouvée).
+
+Rattachement : 144 avocats rattachés par nom au total (129 → 144, +15, mécanisme partagé avec la
+Phase 3b). Suite de tests : 94/94 au vert.

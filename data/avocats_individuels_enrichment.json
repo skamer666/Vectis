@@ -213,6 +213,20 @@
     "person_name": "Assalve-Inauen Anna",
     "reason": "aucune pratique d'avocate independante confirmee a l'adresse CSV ; role professionnel documente = responsable juridique en entreprise (altrimo ag) et juge au Tribunal cantonal AI, pas de cabinet prive ni de site professionnel trouve"
   },
+  "ai-carlo-schmid-sutter": {
+    "_failed": true,
+    "canton": "AI",
+    "checked_date": "2026-09-15",
+    "person_name": "Schmid-Sutter Carlo",
+    "reason": "identite confirmee comme l'ancien president du Conseil des Etats Carlo Schmid-Sutter (ne 1950) ; brevet d'avocat formellement valide au registre cantonal mais aucune preuve d'une pratique d'avocat active aupres de clients prives -- seule activite professionnelle recente documentee = mandats de conseil d'administration/fondation (ex. president de Helvecura Genossenschaft jusqu'en 2023) ; meme profil que d'autres personnalites politiques retraitees deja exclues dans ce projet"
+  },
+  "ai-clint-magg": {
+    "_failed": true,
+    "canton": "AI",
+    "checked_date": "2026-09-15",
+    "person_name": "Dr. Clint Magg",
+    "reason": "enregistre uniquement sur la liste cantonale des prestataires UE/AELE (art. 27 ss LLCA) en tant qu'avocat allemand supervise par le Rechtsanwaltskammer Stuttgart, pas admis au barreau suisse ; aucun cabinet, site, telephone ou email suisse trouve ; presence professionnelle documentee concentree sur des entreprises allemandes sans rapport (equestrian/beaute) -- pas de pratique juridique suisse identifiable"
+  },
   "ai-daniel-fassler": {
     "_failed": true,
     "canton": "AI",
@@ -323,6 +337,29 @@
     "phone": "071 511 70 35",
     "source_url": "https://www.advokatur-birchler.ch/"
   },
+  "ar-otmar-sieber": {
+    "_failed": true,
+    "canton": "AR",
+    "checked_date": "2026-09-15",
+    "person_name": "Sieber Otmar",
+    "reason": "aucune donnee professionnelle exploitable trouvee : aucun site web ou cabinet identifie, aucun numero de telephone actif (0 resultat sur les annuaires), aucune adresse email ; seule confirmation = inscription au registre cantonal (brevet 1985, urkundsperson depuis 2023) sans autre trace professionnelle -- donnees insuffisantes pour publication"
+  },
+  "ar-peter-sutter": {
+    "canton": "AR",
+    "fetched_date": "2026-09-15",
+    "firm_name": "AES Rechtsanwälte",
+    "founding_year": 1989,
+    "person_name": "Sutter Peter",
+    "phone": "071 343 68 68",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Allgemeines Strafrecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Sozialversicherungsrecht",
+      "Scheidungsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/8109/peter-sutter-heiden"
+  },
   "bl-andre-brunner": {
     "canton": "BL",
     "fetched_date": "2026-09-15",
@@ -367,6 +404,35 @@
     "checked_date": "2026-09-15",
     "person_name": "Bifl Daniela",
     "reason": "adresse CSV (Hohenrainstrasse 12c) introuvable dans toutes les sources consultees, qui indiquent uniformement Wasenstrasse 13 ; emails incoherents entre sources (.ch/.com/.info) ; listes de langues contradictoires -- risque de donnee CSV erronee ou de confusion d'identite, non retenu par prudence"
+  },
+  "bl-gottlieb-g-delbruck": {
+    "canton": "BL",
+    "email": "delbrueck@dsd.ch",
+    "fax": "061 421 29 29",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur Delbrück & Schnyder",
+    "founding_year": 1981,
+    "notes": "Adresse professionnelle incertaine entre deux localites voisines (Bottmingen/Binningen) selon les annuaires ; meme personne (nom/titre/domaines identiques).",
+    "person_name": "Delbrück Gottlieb G.",
+    "phone": "061 421 25 25",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Erbrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Handelsrecht",
+      "Internationales Recht",
+      "Nachlassrecht (Planung)",
+      "SchKG und Verfahrensrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://zip.ch/de/delbruck-gottlieb-g-dr-iur-batteriestrasse-bottmingen-oXJRYGj06j/"
+  },
+  "bl-heinz-dettwiler": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-15",
+    "person_name": "Dettwiler Heinz",
+    "reason": "aucune confirmation qu'il s'agit d'un avocat (Rechtsanwalt) ; toutes les sources trouvees (une seule, non verifiable par acces direct) le qualifient uniquement de notaire ('Notar') ; absent des registres d'avocats consultes (anw24.ch) et du registre des notaires de Bale-Campagne (notariat-baselland.ch, qui liste un 'Dieter Dettwiler' distinct) -- titre non confirme, non retenu"
   },
   "bl-peter-brodbeck": {
     "canton": "BL",
@@ -447,6 +513,22 @@
     ],
     "source_url": "http://anw24.ch/details/286/markus-bachmann-luzern-6"
   },
+  "lu-markus-bischof": {
+    "canton": "LU",
+    "fax": "041 210 87 30",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Kanzlei Hirschmatt (Dr. Markus Bischof, Dr. Louis Bochud, MLaw Livio Stocker)",
+    "notes": "Ne en 1944 (~82 ans) ; site du cabinet inaccessible lors de la recherche ; aucune preuve directe de retraite trouvee, mais statut actuel a reverifier.",
+    "person_name": "Markus Bischof",
+    "phone": "041 210 05 47",
+    "practice_areas_de": [
+      "Steuer- und Abgaberecht",
+      "Zivilrecht",
+      "Beurkundungsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://lawyer.anwaltvergleich.ch/d/law-firms/dr-iur-markus-bischof-d:MMh1SnKAw"
+  },
   "lu-martin-bachmann": {
     "canton": "LU",
     "email": "bachmann@mb-anwalt.ch",
@@ -479,6 +561,16 @@
       "Notariat"
     ],
     "source_url": "https://www.iup.ch/de/team/team-barmettler"
+  },
+  "lu-willy-blattler": {
+    "canton": "LU",
+    "fax": "041 317 05 91",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokaturbüro Blättler",
+    "founding_year": 1983,
+    "person_name": "Willy Blättler",
+    "phone": "041 317 05 90",
+    "source_url": "http://anw24.ch/details/808/willy-blaettler-luzern"
   },
   "ne-alain-roland-badertscher": {
     "canton": "NE",
@@ -696,6 +788,24 @@
     "source_url": "https://www.amstadzeier.ch/",
     "specialist_certification": "Mediatorin SAV"
   },
+  "nw-etienne-schon": {
+    "canton": "NW",
+    "email": "etienne.schoen@agon-partners.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "AGON PARTNERS LEGAL AG",
+    "founding_year": 1993,
+    "notes": "Adresse CSV (Stans NW) correspond a un mandat de conseil d'administration (EWN), non a un cabinet d'avocat ; pratique professionnelle reelle confirmee a Zurich (AGON Partners Legal AG).",
+    "person_name": "Schön Etienne",
+    "phone": "+41 (0)43 344 95 82",
+    "practice_areas_de": [
+      "Elektrizitäts- und Energierecht",
+      "Gesellschaftsrecht",
+      "Bankrecht/Refinanzierung",
+      "Arbeitsrecht",
+      "Vertrags- und Handelsrecht"
+    ],
+    "source_url": "https://www.agon-partners.com/de/professionals/etienne-sch%C3%B6n.html"
+  },
   "nw-gerhard-balbi": {
     "canton": "NW",
     "email": "gerhard.balbi@bluewin.ch",
@@ -750,6 +860,26 @@
     ],
     "source_url": "https://search.ch/tel/hergiswil/steinruetistrasse-2/joseph-iten"
   },
+  "nw-ralph-sigg": {
+    "canton": "NW",
+    "email": "info@shtl.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Sigg Hemmerle | tax legal notary",
+    "founding_year": 1991,
+    "person_name": "Sigg Ralph",
+    "phone": "+41 41 632 56 56",
+    "practice_areas_de": [
+      "Bau- und Planungsrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Vertragsrecht",
+      "Internationales Privatrecht",
+      "Zivilrecht",
+      "Notariat",
+      "Ehe- und Erbrecht",
+      "Steuerrecht"
+    ],
+    "source_url": "https://www.shtl.ch/en/"
+  },
   "ow-dominik-vogler": {
     "canton": "OW",
     "email": "vogler@ettlin-partner.ch",
@@ -759,6 +889,30 @@
     "person_name": "Vogler Dominik",
     "phone": "041 666 07 50",
     "source_url": "https://www.ettlin-partner.ch/team/vogler-dominik"
+  },
+  "ow-heinrich-thomas-kloth": {
+    "_failed": true,
+    "canton": "OW",
+    "checked_date": "2026-09-15",
+    "person_name": "Kloth Heinrich-Thomas",
+    "reason": "confirme uniquement au registre cantonal officiel des avocats UE/AELE d'Obwald (nom, titre, adresse) ; aucune autre donnee trouvee malgre une recherche exhaustive (aucun site, cabinet, telephone, email, annee d'admission) -- donnees insuffisantes pour publication"
+  },
+  "ow-julianne-ferenczy": {
+    "canton": "OW",
+    "fax": "+49 (0)7321 - 488 92 17",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Einzelkanzlei Julianne Ferenczy",
+    "founding_year": 2001,
+    "notes": "Inscrite au registre cantonal obwaldien comme avocate UE/AELE (prestation transfrontaliere) ; cabinet reel base a Heidenheim, Allemagne, pas en Suisse.",
+    "person_name": "Ferenczy Julianne",
+    "phone": "+49 (0)7321 - 488 92 02",
+    "practice_areas_de": [
+      "Medien- und Urheberrecht",
+      "Erbrecht",
+      "Konfliktmanagement",
+      "Mediation"
+    ],
+    "source_url": "https://www.julianne-ferenczy.com/impressum.html"
   },
   "ow-kung-lukas": {
     "canton": "OW",
@@ -862,6 +1016,29 @@
     "phone": "081 785 25 69",
     "source_url": "https://www.sg.ch/recht/gerichte/anwalts----notarwesen/anwaltsregister---register-der-notare/anwaltsregister---register-der-notare-a-z.html"
   },
+  "sg-beat-eberle": {
+    "canton": "SG",
+    "email": "info@eberle-advisory.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "EBERLE ADVISORY GmbH",
+    "person_name": "Eberle Beat",
+    "phone": "+41 81 515 07 15",
+    "practice_areas_de": [
+      "Allgemeines Vertragsrecht",
+      "Haftpflichtrecht",
+      "Insolvenzrecht",
+      "Strafrecht",
+      "Verkehrsrecht",
+      "Finanzmarktrecht",
+      "Verwaltungsrecht",
+      "Gesellschaftsrecht",
+      "Notariat",
+      "Ehe- und Erbrecht",
+      "Compliance/Due Diligence",
+      "Mediation"
+    ],
+    "source_url": "https://www.eberle-advisory.ch/beat-f-eberle/"
+  },
   "sg-blasi-christof": {
     "canton": "SG",
     "fax": "+41 (0)71 230 34 66",
@@ -906,6 +1083,22 @@
     "checked_date": "2026-09-15",
     "person_name": "Altherr Hans",
     "reason": "aucune donnee de pratique juridique privee trouvee (fiche generique sans domaines) ; seul numero mobile prive trouve, explicitement marque 'sans publicite' sur l'annuaire -- non retenu par respect de la confidentialite ; personnalite publique (ex-Conseiller aux Etats)"
+  },
+  "sg-jurg-dommer": {
+    "canton": "SG",
+    "fax": "081 750 05 65",
+    "fetched_date": "2026-09-15",
+    "founding_year": 1982,
+    "person_name": "Dommer Jürg",
+    "phone": "081 750 05 60",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Betreibungs- und Konkursrecht",
+      "Gesellschafts- und Firmenrecht",
+      "Beurkundungsrecht"
+    ],
+    "source_url": "http://anw24.ch/details/2126/juerg-dommer-buchs-1"
   },
   "so-agnes-atteslander": {
     "canton": "SO",
@@ -1204,12 +1397,37 @@
     ],
     "source_url": "https://schwyzeranwalt.ch/?page_id=8"
   },
+  "sz-lars-heidbrink": {
+    "canton": "SZ",
+    "fax": "055 420 38 61",
+    "fetched_date": "2026-09-15",
+    "person_name": "Heidbrink Lars",
+    "phone": "055 420 38 60",
+    "source_url": "https://www.local.ch/de/d/pfaeffikon-sz/8808/anwalt/heidbrink-lars-l8Z0MWHcg_qV1eYo7xJSMw"
+  },
   "sz-peter-gruter": {
     "canton": "SZ",
     "fetched_date": "2026-09-15",
     "person_name": "Grüter Peter",
     "phone": "+41 79 826 20 98",
     "source_url": "https://www.avsz.ch/mitglieder.html"
+  },
+  "sz-roberto-daniel-hayer": {
+    "canton": "SZ",
+    "email": "roberto.hayer@reberlaw.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "REBER Rechtsanwälte",
+    "notes": "Numero de telephone non retenu : deux valeurs contradictoires trouvees entre sources directement verifiees.",
+    "person_name": "Hayer Roberto Daniel",
+    "practice_areas_de": [
+      "Handels- und Gesellschaftsrecht",
+      "Geistiges Eigentum / IT",
+      "Prozessführung und Verfahrensrecht",
+      "Erbrecht, Vorsorge- und Nachfolgeplanung",
+      "Private Clients und KMU-Beratung",
+      "Spanish Desk"
+    ],
+    "source_url": "https://www.reberlaw.ch/de/team/roberto-hayer"
   },
   "sz-walter-fleischmann": {
     "canton": "SZ",
@@ -1685,6 +1903,43 @@
     "phone": "091 225 15 50",
     "source_url": "https://search.ch/tel/lugano/via-serafino-balestra-12/avv-francesco-barletta-studio-legale-lugano.it.html"
   },
+  "ti-gianfranco-barone": {
+    "canton": "TI",
+    "email": "baroneluganolegal@bluewin.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Studio legale e notarile Barone",
+    "founding_year": 1991,
+    "person_name": "BARONE Gianfranco",
+    "phone": "+41 91 924 97 60",
+    "practice_areas_it": [
+      "Atti notarili (trasferimenti immobiliari, donazioni, iscrizioni ipotecarie, autenticazioni)",
+      "Diritto di famiglia",
+      "Diritto di locazione",
+      "Diritto edilizio",
+      "Diritto penale",
+      "Diritto privato generale",
+      "Diritto amministrativo",
+      "Diritto successorio",
+      "Permessi di soggiorno"
+    ],
+    "source_url": "https://avv-e-notaio-barone-gianfranco.digitalone.site/"
+  },
+  "ti-milena-bassi": {
+    "canton": "TI",
+    "email": "milena.bassi@berviniassociati.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "studio legale Bervini & Associati",
+    "founding_year": 2021,
+    "person_name": "BASSI Milena",
+    "phone": "+41 91 640 30 70",
+    "practice_areas_it": [
+      "Diritto civile (diritto di famiglia, diritto delle successioni, diritti reali)",
+      "Diritto penale",
+      "Diritto pubblico (amministrativo e fiscale)",
+      "Diritto commerciale e societario"
+    ],
+    "source_url": "https://bervini-associati.digitalone.site/"
+  },
   "ti-tatiana-celine-anastasi": {
     "canton": "TI",
     "fetched_date": "2026-09-15",
@@ -1692,6 +1947,27 @@
     "person_name": "ANASTASI Tatiana Céline",
     "phone": "091 690 51 10",
     "source_url": "https://search.ch/tel/chiasso/corso-san-gottardo-145/studio-legale-avv-tatiana-celine-anastasi.it.html"
+  },
+  "ur-angela-dillier-gamma": {
+    "canton": "UR",
+    "email": "a.dillier@dillierbossi.ch",
+    "fetched_date": "2026-09-15",
+    "firm_name": "dillier.bossi. – Advokatur und Notariat",
+    "founding_year": 1992,
+    "notes": "Meme cabinet que Romana Bossi Bisatz deja connu ; annee de brevet 1992 (registre officiel urilaw.ch) retenue plutot que 1993 (site du cabinet).",
+    "person_name": "Dillier-Gamma Angela",
+    "phone": "+41 41 870 65 65",
+    "practice_areas_de": [
+      "Ehe- und Konkubinatsrecht",
+      "Familienrecht",
+      "Erbrecht",
+      "Mietrecht",
+      "Arbeitsrecht",
+      "Grundstücksrecht",
+      "Landwirtschaftliches Bodenrecht",
+      "Allgemeines Vertragsrecht"
+    ],
+    "source_url": "http://www.dillierbossi.ch/Dillier.html"
   },
   "ur-aschwanden-bruno": {
     "canton": "UR",
@@ -1737,6 +2013,22 @@
     "person_name": "Bänninger Daniel Peter",
     "phone": "+41 41 870 60 70",
     "source_url": "https://www.teletrust.com/"
+  },
+  "ur-patrizia-danioth-halter": {
+    "canton": "UR",
+    "fetched_date": "2026-09-15",
+    "firm_name": "Advokatur- und Notariatsbüro Danioth Patrizia",
+    "founding_year": 1991,
+    "person_name": "Danioth Halter Patrizia",
+    "phone": "041 870 44 55",
+    "practice_areas_de": [
+      "Verwaltungsrecht",
+      "Bau- und Planungsrecht",
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Handelsrecht"
+    ],
+    "source_url": "https://www.urilaw.ch/mitglieder"
   },
   "ur-romana-bossi-bisatz": {
     "canton": "UR",
