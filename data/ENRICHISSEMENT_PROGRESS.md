@@ -5992,3 +5992,86 @@ Todo recalculé après écriture : TI 323 (seul canton restant pour la Phase 3c)
 
 Rattachement : 557 avocats rattachés par nom au total (511 → 557, +46 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 14)
+
+Todo (avant ce lot) : AG 391, ZG 325, NE 192, TG 87, SO 126.
+
+Succès (43) : AG — 9/10 : Lorella Callea (SwissLegal (Aarau) AG depuis 2019), Anne Marie Carrel
+(cabinet propre, Möriken, mediatrice familiale SVM/SDM, tel), Daniel Casarramona (**brevet 1995**,
+notaire 2002, cabinet "Merki & Partner", Aarau, tel/fax/email), Hubert Cesna (Wettingen, lic.iur.
+HSG, tel), Andreas Clavadetscher (cabinet propre Lenzburg, president du Mieterverband Aargau depuis
+30+ ans — mandat associatif compatible), Peter M. Conrad (LL.M., partenaire Conrad & Partner
+Advokatur AG, Baden, egalement president du CA de Züblin Immobilien Holding — mandat compatible),
+Caroline Kristina Conrad-Behr (meme cabinet, partenaire **depuis 2018**, droit des societes/PME),
+Pascal Danieli (**brevet 26.09.2023**, associe Styk & Danieli Rechtsberatung depuis janvier 2026,
+tel/email, "Beobachter Vertrauensanwalt" depuis mai 2024), Donato Del Duca (Siegen/Del Duca
+Rechtsanwälte, Baden, Mediator SAV, avocat de confiance de l'Association des locataires
+argovienne, tel).
+
+ZG — 9/10 : Ducrey Yves (proprietaire Onestra Rechtsanwälte AG depuis 2025, Hünenberg), Durrer
+Debora (notaire/avocate Cham, tel — connue aussi sous "Durrer-Kern"), Eckenstein Alexander (**brevet
+2003**, associe HotzGoldmann, Baar, membre du Grand Conseil de la ville de Zoug — mandat local
+compatible), Eglin Ion (partenaire et responsable succursale Bratschi AG Zoug, president du CA,
+barreau suisse depuis 2012), Eiholzer Julia (Bär & Karrer AG Zoug, notaire 2024), Eisenring Martin
+(Dr. iur., cabinet propre EISENRING Rechtsanwälte & Notare, **brevet 2001**, ancien membre du
+parlement de la ville de Zoug — mandat local compatible), Elms Stephanie C. (**brevet 2015**,
+schadenanwaelte AG, specialiste droit des assurances sociales), Endres Michael (Senior Partner
+HütteLAW AG depuis 2008, desormais partenaire HLex AG, Cham), Fässler Lukas (proprietaire unique
+FSDZ Rechtsanwälte & Notariat AG, Baar, **independant depuis septembre 1997**, specialiste droit de
+l'informatique, tel).
+
+NE — 9/10 : Ulysse DuPasquier (Dr en droit, KGG, **brevet 2021**, tel), Ana Duran (notaire et
+avocate, La Chaux-de-Fonds, tel/email), Cloé Morgane Dutoit (Etude NVLE/Dutoit avocat-e-s Sàrl,
+Neuchâtel, tel/email, egalement deputee au Grand Conseil neuchâtelois depuis 2021 — mandat local
+compatible), Hélène Ecoutin-Dupuy (co-fondatrice de l'Etude NVLE en 2021, specialiste droit du
+travail/successoral, egalement conseillere generale de Val-de-Ruz — mandat local compatible),
+Marcel Eggler (avocat associe KGG, **specialiste FSA droit penal 2024/2025**, tel/email), Khalifa
+Sarah Jasmine Aurore El (LEAX Avocats depuis juillet 2020, **brevet 2020**), (Maradan) Corinne Engel
+(SWISSLEGAL BAULEX Avocats, Neuchâtel, specialiste SBA construction/immobilier, email), Sven Engel
+(fondateur associe ENGEL Avocats & Partenaires SA, **cabinet fonde en 2000**, charge de cours UniNE
+depuis 2003), Dominique Erard (Etude BGS Bosshart Gautschi Sautaux Erard depuis le **1er janvier
+2015**, tel/email).
+
+TG — 9/10 : Fürsprecher Urs Kröpfli (**brevet 1999**, S-E-K Advokaten, specialiste responsabilite
+civile/assurances), Dominik Kumschick (fondateur Kumschick Rechtsanwälte AG, Fachanwalt SAV
+Arbeitsrecht, Weinfelden), Otmar Kurath (**brevet 1992**, Advokatur am Malerberg, Weinfelden depuis
+1999, notaire), Patrick König (fondateur KÖNIG Rechtsdienstleistungen GmbH **en 2013**, Bürglen),
+Clemens Kühne (associe Raggenbass, Amriswil/Kreuzlingen/Frauenfeld, charge de cours HSG Executive
+School), Stefan La Ragione (**brevet 1995**, cabinet propre Weinfelden/Appenzell, tel/fax), Nina
+Lang Fluri (independante Frauenfeld depuis avril 2025, Fachanwältin SAV droit de la famille), Hermann
+Lei (cabinet propre Frauenfeld depuis 2005, tel, president du groupe UDC au Grand Conseil thurgovien
+depuis 2023 — mandat cantonal de milice compatible, defense recente d'un prevenu confirmee par la
+presse), René Lenherr (associe Forrer Lenherr Bögli & Partner, Rickenbach b. Wil, email).
+
+SO — 7/10 : Kimena Brog (**correction d'une fiche _failed du 2026-09-15** — nouvelle recherche
+localise sa fiche actuelle chez Frôté & Partner AG depuis 2015, tel), Olivia Häberli (SLP
+Rechtsanwälte und Notariat, Fachanwältin SAV droit penal), Andreas Hagenbuch (aarejura Rechtsanwälte
+Olten AG), Patrick Hasler (Hasler Frech Rechtsanwälte und Notare, president de l'Association des
+notaires soleurois, tel/email), Julian Herzog (**brevet 2016**, associe Advokatur Studer Schoch
+Schmidlin Altermatt Herzog Dreier, Dornach), Therese Martin Hintermann (**brevet 2002**, Glättli
+Rechtsanwälte, Olten, specialiste conflits professionnels/harcelement, tel/fax), David Hochstrasser
+(inscrit au barreau depuis le 04.11.2019, Olten, tel).
+
+Échecs (7) : Alexander Bernhard de Graaf (AG — site personnel confirme mais application JavaScript
+sans contenu accessible, requete Overpass infructueuse) ; Dzaferi Zani (ZG — discordance de canton,
+brevet zougois mais exerce chez Müller Paparis AG à Zurich) ; Philippe Egli (NE — fiche du registre
+officiel du barreau uniquement, aucune coordonnee) ; M.A.HSG Adrian Christian Krähenmann (TG —
+procureur à la Staatsanwaltschaft Frauenfeld, fonction publique incompatible avec une pratique
+independante) ; Bernhard (SO — donnee CSV corrompue, prenom "Isabel" deplace dans le champ adresse,
+juriste salariee du service juridique de l'association Procap, pratique non independante) ; D'Amico
+(SO — meme cas, prenom "Nadja", Rechtsanwältin salariee chez Procap Suisse, experte suppleante en
+droit des assurances sociales) ; Arthur Haefliger (SO — homonymie non resolue entre un juge federal
+du meme nom, ne 1919 et decede le 04.11.2011, et l'exploitant actuel du cabinet "Haefliger Bloch
+Rechtsanwälte und Notariat" à Olten portant potentiellement le meme nom).
+
+Note méthodologique : deux fiches CSV soleuroises ("Bernhard" et "D'Amico") comportent une anomalie
+de saisie où le prénom réel de la personne (Isabel, Nadja) a été déplacé dans le champ adresse sous
+la forme "<Prénom> c/o procap" ; le `person_name` a néanmoins été écrit strictement conforme au
+`nom_complet` du CSV (surnom seul), pour rester cohérent avec la clé de rattachement
+`(canton, nom_normalisé)`.
+
+Todo recalculé après écriture : AG 381, ZG 315, NE 182, TG 77, SO 118.
+
+Rattachement : 600 avocats rattachés par nom au total (557 → 600, +43 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 43 succès). Suite de tests : 94/94 au vert.

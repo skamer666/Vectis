@@ -1,4 +1,11 @@
 {
+  "ag-alexander-bernhard-de-graaf": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-26",
+    "person_name": "Alexander Bernhard de Graaf",
+    "reason": "Site personnel confirme (alexander-de-graaf.ch) mais application JavaScript (SPA) sans contenu textuel accessible ; requete Overpass sans resultat exploitable ; aucune coordonnee ni domaine de competence verifiable."
+  },
   "ag-andrea-ursina-bieri-muller": {
     "canton": "AG",
     "email": "bieri@advonot.ch",
@@ -40,6 +47,25 @@
       "Dispute resolution and litigation"
     ],
     "source_url": "https://www.binderlegal.ch/en/team/prof-dr-andreas-binder/"
+  },
+  "ag-andreas-clavadetscher": {
+    "canton": "AG",
+    "email": "clavadetscher@rechtsanwalt-clavadetscher.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur., Fürsprecher, cabinet independant a Lenzburg (Bachstrasse 2). President de l'association des locataires du canton d'Argovie (Mieterverband Aargau) depuis plus de 30 ans -- mandat associatif compatible avec une pratique active.",
+    "person_name": "Andreas Clavadetscher",
+    "phone": "062 891 70 91",
+    "source_url": "https://www.mcadvo.ch/anwalt/lenzburg/liciur-andreas-clavadetscher"
+  },
+  "ag-anne-marie-carrel": {
+    "canton": "AG",
+    "fax": "062 893 38 63",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwältin, mediatrice familiale SVM/SDM, cabinet independant a Moriken (AG). Langues : allemand, francais, italien.",
+    "person_name": "Anne Marie Carrel",
+    "phone": "062 893 34 63",
+    "practice_areas_fr": "Droit du travail, droit de la famille, assistance aux victimes, droit de la responsabilite civile, mediation, droit du divorce, droit penal",
+    "source_url": "https://lawyer.anwaltvergleich.ch/lawyer-Anne-Marie-Carrel-M%C3%B6riken+AG-attorney-1161.htm"
   },
   "ag-barbara-helena-borer": {
     "_failed": true,
@@ -89,6 +115,15 @@
     "person_name": "Bruno Bernasconi",
     "phone": "056 418 20 00",
     "source_url": "https://www.help.ch/firma/CHE-106.075.882/bernasconi-bernasconi-rechtsanwaelte-killwangen"
+  },
+  "ag-caroline-kristina-conrad-behr": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Conrad&Partner Advokatur AG",
+    "notes": "Diplome de droit bilingue (allemand/francais) Universite de Fribourg, diplome postgrade International Business Law ESADE. Partenaire depuis debut 2018 chez Conrad&Partner Advokatur AG a Baden. Langues : allemand, anglais, francais, espagnol.",
+    "person_name": "Caroline Kristina Conrad-Behr",
+    "practice_areas_fr": "Droit des societes, droit commercial, contrats commerciaux, droit du travail (conseil aux start-ups et PME)",
+    "source_url": "https://www.conrad-partner.ch/en/team/"
   },
   "ag-catherine-berger-meier": {
     "canton": "AG",
@@ -211,6 +246,18 @@
     "source_url": "https://www.advokatur-buchser.ch/",
     "specialist_certification": "Fürsprecher"
   },
+  "ag-daniel-casarramona": {
+    "canton": "AG",
+    "email": "casarramona@advoaarau.ch",
+    "fax": "062 834 90 09",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Merki & Partner",
+    "notes": "Brevet d'avocat 1995, notaire depuis 2002. Langues : allemand, francais, anglais.",
+    "person_name": "Daniel Casarramona",
+    "phone": "062 834 90 00",
+    "practice_areas_fr": "Droit du mariage et du concubinage, droit des contrats, droit commercial, droit de la propriete, droit des successions",
+    "source_url": "https://www.jurata.ch/de/anwalt/daniel-casarramona"
+  },
   "ag-dayana-berenyi-kamm": {
     "canton": "AG",
     "email": "dayana.berenyi@5001.ch",
@@ -251,6 +298,15 @@
       "Verkehrsrecht"
     ],
     "source_url": "https://www.5001.ch/en/anwaelte/dominik-brandli-en/"
+  },
+  "ag-donato-del-duca": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Siegen/Del Duca Rechtsanwälte",
+    "notes": "Rechtsanwalt et Mediator SAV, cabinet Siegen/Del Duca Rechtsanwälte, Stadtturmstrasse 10, Baden. Avocat de confiance de l'Association des locataires d'Argovie, membre de l'autorite de conciliation en matiere de baux a Aarau, membre du comite de l'Association des locataires d'Argovie, avocat pour requerants d'asile.",
+    "person_name": "Donato Del Duca",
+    "phone": "056 222 11 11",
+    "source_url": "https://www.local.ch/en/d/baden/5400/attorneys-at-law/casarramona-daniel-lKKes3A4BK-2znhaxSbgQg"
   },
   "ag-evelyne-c-bernasconi-mamie": {
     "canton": "AG",
@@ -373,6 +429,15 @@
       "Allgemeines Verwaltungsrecht"
     ],
     "source_url": "https://www.chkp.ch/team/dr-iur-hannes-baumann"
+  },
+  "ag-hubert-cesna": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "notes": "lic.iur. HSG, cabinet independant a Wettingen.",
+    "person_name": "Hubert Cesna",
+    "phone": "056 426 72 21",
+    "practice_areas_fr": "Droit des etrangers, droit successoral, droit du divorce, droit penal, droit des contrats",
+    "source_url": "https://tel.search.ch/wettingen/grenzstrasse-5/hubert-cesna"
   },
   "ag-jacqueline-alf": {
     "canton": "AG",
@@ -528,6 +593,14 @@
     ],
     "source_url": "https://www.chkp.ch/team/lisa-burkard",
     "specialist_certification": "M.A. HSG"
+  },
+  "ag-lorella-callea": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "SwissLegal (Aarau) AG",
+    "notes": "Avocate (lic. iur.) au sein du réseau SwissLegal (Aarau) AG depuis septembre 2019 ; auparavant cabinet propre \"LC Law Firm\" a Zurich (2011-2019) et etude de droit commercial a Zoug/Zurich (2005-2011).",
+    "person_name": "Lorella Callea",
+    "source_url": "https://www.swisslegal.ch/en/professionals/lorella-callea-115.html"
   },
   "ag-lukas-breunig": {
     "canton": "AG",
@@ -771,6 +844,17 @@
     ],
     "source_url": "https://www.wkblaw.ch/index.php?id=22"
   },
+  "ag-pascal-danieli": {
+    "canton": "AG",
+    "email": "info@styk-recht.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Styk & Danieli Rechtsberatung",
+    "notes": "Brevet d'avocat obtenu le 26.09.2023 (commission des avocats du canton d'Argovie). Avocat suppleant des 2021, associe de Suzanne Styk depuis janvier 2026 (Styk & Danieli Rechtsberatung, Neumattstrasse 17, Aarau). Designation \"Beobachter Vertrauensanwalt\" depuis mai 2024.",
+    "person_name": "Pascal Danieli",
+    "phone": "062 510 28 50",
+    "practice_areas_fr": "Droit de la famille, droit du travail, droit des contrats, droit du bail",
+    "source_url": "https://www.mcadvo.ch/anwalt/lenzburg/liciur-pascal-danieli"
+  },
   "ag-patrick-buhlmann": {
     "canton": "AG",
     "email": "p.buehlmann@voser.ch",
@@ -828,6 +912,14 @@
     ],
     "source_url": "https://www.bratschi.ch/team/patrik-burri",
     "specialist_certification": "M.A. HSG (droit et économie) ; brevet argovien décembre 2024"
+  },
+  "ag-peter-m-conrad": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Conrad & Partner Advokatur AG",
+    "notes": "LL.M., avocat partenaire chez Conrad & Partner Advokatur AG a Baden (inscrite au registre du commerce le 10.07.2020). Egalement president du conseil d'administration de Zueblin Immobilien Holding -- mandat compatible avec une pratique active.",
+    "person_name": "Peter M. Conrad",
+    "source_url": "https://www.conrad-partner.ch/en/team/"
   },
   "ag-ramona-sandya-bieri": {
     "canton": "AG",
@@ -2527,6 +2619,16 @@
     "person_name": "Alizée Cano",
     "reason": "a pratiqué dans une étude neuchâteloise avant de rejoindre une équipe à Lausanne (VD) selon les résultats - statut professionnel actuel et canton de pratique incertains, risque de changement de canton non confirmé."
   },
+  "ne-ana-duran": {
+    "canton": "NE",
+    "email": "notaire-avocat.duran@bluewin.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "Notaire et avocate, cabinet independant a La Chaux-de-Fonds (88 avenue Leopold-Robert). Membre de la Chambre des notaires neuchatelois et de l'Ordre des avocats neuchatelois. Langues : francais, espagnol.",
+    "person_name": "Ana Duran",
+    "phone": "032 913 14 15",
+    "practice_areas_fr": "Droit immobilier, droit successoral, droit des societes, droit des contrats, droit civil, droit de la famille, droit penal, droit administratif",
+    "source_url": "https://etudebkz.ch/accueil/ana-duran/"
+  },
   "ne-aurora-ciccolini": {
     "canton": "NE",
     "fetched_date": "2026-09-26",
@@ -2608,6 +2710,17 @@
     ],
     "source_url": "https://brodt.ch/lequipe/clarie-bonjour"
   },
+  "ne-cloe-morgane-dutoit": {
+    "canton": "NE",
+    "email": "cd@etude-nvle.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Etude NVLE / Dutoit avocat-e-s Sàrl",
+    "notes": "Nee en 1996, bachelor et master en droit (specialisation droit penal et criminologie) Universite de Neuchatel. Avocate a l'etude NVLE / Dutoit avocat-e-s Sàrl, Faubourg du Lac 2, Neuchatel. Conseillere generale depuis 2017 puis deputee au Grand Conseil neuchatelois depuis mai 2021 -- mandat politique local compatible.",
+    "person_name": "Cloé Morgane Dutoit",
+    "phone": "032 724 17 17",
+    "practice_areas_fr": "Droit penal (victimes et prevenus), droit civil (divorce, separation, conventions parentales, droit du bail, droit du travail), droit administratif (circulation routiere, droit des migrations, droit du service civil)",
+    "source_url": "https://www.etude-nvle.ch/portrait/cloe-dutoit/"
+  },
   "ne-cyril-babando": {
     "_failed": true,
     "canton": "NE",
@@ -2648,6 +2761,16 @@
       "Criminalité économique"
     ],
     "source_url": "https://etude-agerba.ch/"
+  },
+  "ne-dominique-erard": {
+    "canton": "NE",
+    "email": "d.erard@etudebgs.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Etude Bosshart Gautschi Sautaux Erard (BGS)",
+    "notes": "Avocat et notaire, a rejoint l'etude BGS Bosshart Gautschi Sautaux Erard le 1er janvier 2015 (Avenue de la Gare 2, Neuchatel ; egalement bureau a La Chaux-de-Fonds). Forme a l'Universite de Neuchatel.",
+    "person_name": "Dominique Erard",
+    "phone": "032 911 32 00",
+    "source_url": "https://www.linkedin.com/in/dominique-erard-3879b1a3/"
   },
   "ne-eric-alain-bieri": {
     "canton": "NE",
@@ -2725,6 +2848,15 @@
     "person_name": "Gérard Biétry",
     "phone": "+41 32 724 42 37",
     "source_url": "https://www.romandie-avocats.ch/bietry-gerard/"
+  },
+  "ne-helene-ecoutin-dupuy": {
+    "canton": "NE",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Etude NVLE",
+    "notes": "Avocate depuis 2010, inscrite au registre des avocats UE/AELE a Neuchatel depuis 2012 et au barreau neuchatelois depuis 2016. Master en droit du travail, DAS en droit du travail et des assurances sociales. Une des quatre fondatrices de l'etude NVLE (creee en 2021), Faubourg du Lac 2, Neuchatel. Conseillere generale de Val-de-Ruz depuis 2021 -- mandat politique local compatible.",
+    "person_name": "Hélène Ecoutin-Dupuy",
+    "practice_areas_fr": "Droit du travail, droit successoral",
+    "source_url": "https://www.etude-nvle.ch/portrait/helene-ecoutin-dupuy/"
   },
   "ne-hess-crystel-dufaux": {
     "canton": "NE",
@@ -2828,6 +2960,14 @@
     "source_url": "https://www.local.ch/fr/d/cortaillod/2016/notaire/dubois-julien-5xcLwHaflm16JgjYa0PzXA",
     "specialist_certification": "notaire"
   },
+  "ne-khalifa-sarah-jasmine-aurore-el": {
+    "canton": "NE",
+    "fetched_date": "2026-09-26",
+    "firm_name": "LEAX Avocats",
+    "notes": "Bachelor et master en droit. Brevet d'avocat neuchatelois 2020. A rejoint LEAX Avocats (Neuchatel, cabinet specialise en droit des affaires, droit fiscal, transactions et technologies numeriques) en juillet 2020, nom d'usage \"Sarah El Khalifa\".",
+    "person_name": "Khalifa Sarah Jasmine Aurore El",
+    "source_url": "https://www.leax.ch/sarahelkhalifa/"
+  },
   "ne-laurent-burkhard": {
     "_failed": true,
     "canton": "NE",
@@ -2890,6 +3030,15 @@
     "source_url": "https://www.splc.ch/en/lawyers-and-notaries/madalina-diaconu",
     "specialist_certification": "Dr. ; plus de 25 ans d'expérience ; professeure associée à l'Université de Neuchâtel"
   },
+  "ne-maradan-corinne-engel": {
+    "canton": "NE",
+    "email": "engel@swisslegal.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "SWISSLEGAL BAULEX Avocats",
+    "notes": "lic. iur., Certified Specialist SBA en droit de la construction et de l'immobilier. Avocate chez SWISSLEGAL BAULEX Avocats, Place Pury 3, Neuchatel. Stage a l'etude MCE Avocats. Ancienne secretaire de la section neuchateloise de la SIA (Societe suisse des ingenieurs et des architectes). Egalement connue sous le nom \"Maradan Corinne\".",
+    "person_name": "(Maradan) Corinne Engel",
+    "source_url": "https://www.swisslegal.ch/en/professionals/corinne-engel-97.html"
+  },
   "ne-marc-boillat": {
     "canton": "NE",
     "email": "m.boillat@etudebgs.ch",
@@ -2908,6 +3057,18 @@
       "Transactions immobilières"
     ],
     "source_url": "https://www.local.ch/fr/d/la-chaux-de-fonds/2300/avocat/bgs-etude-d-avocats-au-barreau-et-notaires-associes-XIf_rd7Tqz-TCcWgCPhjyA"
+  },
+  "ne-marcel-eggler": {
+    "canton": "NE",
+    "email": "info@kgg.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "KGG",
+    "notes": "Licence en droit (Neuchatel 2012), master en droit (Neuchatel 2011), LL.M. droit commercial international (King's College London 2010), CAS droit de la construction et de l'immobilier (UniFr/FSA 2017). Avocat associe chez KGG & Associes, Neuchatel.",
+    "person_name": "Marcel Eggler",
+    "phone": "(032) 729-0210",
+    "practice_areas_fr": "Droit penal, droit de la construction et immobilier",
+    "source_url": "https://www.kgg.ch/avocats-notaires/marcel-eggler",
+    "specialist_certification": "Specialiste FSA en droit penal (2024/2025)"
   },
   "ne-marine-chappuis": {
     "canton": "NE",
@@ -3138,6 +3299,13 @@
     "phone": "+41 32 722 33 22",
     "source_url": "https://search.ch/tel/neuchatel/route-des-falaises-7/philippe-brun.fr.html"
   },
+  "ne-philippe-egli": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-26",
+    "person_name": "Philippe Egli",
+    "reason": "Fiche du registre officiel du barreau neuchatelois uniquement (localite Bôle) ; aucune coordonnee, aucun cabinet, aucun domaine de competence extractible."
+  },
   "ne-pierre-henri-bauer": {
     "canton": "NE",
     "fax": "032 913 86 86",
@@ -3298,6 +3466,25 @@
     "phone": "032 864 50 10",
     "source_url": "https://notairene.ch/rechercher-un-notaire/",
     "specialist_certification": "notaire ; président de la Chambre des notaires neuchâtelois"
+  },
+  "ne-sven-engel": {
+    "canton": "NE",
+    "fetched_date": "2026-09-26",
+    "firm_name": "ENGEL Avocats & Partenaires SA",
+    "notes": "Fondateur associe de l'etude ENGEL - CHOFFAT - L'HERITIER (Neuchatel et La Chaux-de-Fonds) en 2000, aujourd'hui ENGEL Avocats & Partenaires SA (Faubourg du Lac 13, Neuchatel). Charge de cours a l'Universite de Neuchatel depuis 2003. Membre de conseils d'administration dont la Chambre de commerce et d'industrie neuchateloise. Mediateur commercial.",
+    "person_name": "Sven Engel",
+    "practice_areas_fr": "Droit des contrats, droit du bail, droit du travail, droit matrimonial, droit de la construction, droit successoral, amenagement du territoire, droit agricole, mediation commerciale",
+    "source_url": "https://www.engelavocats.ch/sven-engel-avocat-neuchatel-mediateur"
+  },
+  "ne-ulysse-dupasquier": {
+    "canton": "NE",
+    "fetched_date": "2026-09-26",
+    "firm_name": "KGG",
+    "notes": "Dr en droit (Universite de Neuchatel 2019, Master Universite de Neuchatel/Columbia Law School 2015, licence Universite de Neuchatel/Munich 2013). Brevet d'avocat neuchatelois 2021. Avocat chez KGG (4 rue de la Serre, Neuchatel) depuis 2022. Charge de cours a l'Universite de Neuchatel 2019-2024.",
+    "person_name": "Ulysse DuPasquier",
+    "phone": "+41 32 718 12 90",
+    "practice_areas_fr": "Droit commercial et des societes, fusions/acquisitions/restructurations, insolvabilite et restructuration d'entreprises, start-ups, capital-risque, procedure civile, droit des contrats, blockchain",
+    "source_url": "https://www.kgg.ch/avocats-notaires/ulysse-dupasquier"
   },
   "ne-vincent-codoni": {
     "canton": "NE",
@@ -4416,6 +4603,14 @@
     "source_url": "https://www.gfl-so.ch/2026/08/24/herzlich-willkommen-ra-und-notar-andreas-eng/",
     "specialist_certification": "lic. iur. ; notaire ; ancien Staatsschreiber du canton de Soleure (17 ans)"
   },
+  "so-andreas-hagenbuch": {
+    "canton": "SO",
+    "fetched_date": "2026-09-26",
+    "firm_name": "aarejura Rechtsanwälte",
+    "notes": "Avocat chez aarejura Rechtsanwälte Olten AG. Langues : allemand, anglais, francais.",
+    "person_name": "Andreas Hagenbuch",
+    "source_url": "https://www.aarejura.ch/index.asp?inc=team%2Fteam.asp&typ=nav3&cat=22"
+  },
   "so-andrej-bolliger": {
     "canton": "SO",
     "email": "bolliger@slp.ch",
@@ -4433,6 +4628,13 @@
       "Strafrecht"
     ],
     "source_url": "https://slp.ch/rechtsanwalt-andrej-bolliger/"
+  },
+  "so-arthur-haefliger": {
+    "_failed": true,
+    "canton": "SO",
+    "checked_date": "2026-09-26",
+    "person_name": "Arthur Haefliger",
+    "reason": "Homonymie non resolue : le cabinet \"Haefliger Bloch Rechtsanwälte und Notariat\" (Baslerstrasse 30, Olten) semble avoir ete fonde par un Arthur Haefliger ne en 1919 et decede le 4.11.2011 (ancien juge federal) ; impossible de determiner avec certitude si la personne actuellement en exercice sous ce nom est un successeur distinct sans risquer d'attribuer par erreur la biographie du juge decede a la personne active aujourd'hui."
   },
   "so-beat-ll-m-gerber": {
     "canton": "SO",
@@ -4464,6 +4666,13 @@
       "Strafrecht (allgemein)"
     ],
     "source_url": "https://www.jurata.ch/de/anwalt/beatrice-abegglen"
+  },
+  "so-bernhard": {
+    "_failed": true,
+    "canton": "SO",
+    "checked_date": "2026-09-26",
+    "person_name": "Bernhard",
+    "reason": "Donnee CSV partielle (prenom \"Isabel\" deplace dans le champ adresse : \"Isabel c/o procap\") ; juriste salariee du service juridique de l'association Procap (Frohburgstr. 4, Olten), pratique non independante limitee au droit des assurances sociales pour les membres de l'association."
   },
   "so-boris-banga": {
     "canton": "SO",
@@ -4595,6 +4804,13 @@
     ],
     "source_url": "https://anwaltolten.ch/team/corina-gugger/"
   },
+  "so-d-amico": {
+    "_failed": true,
+    "canton": "SO",
+    "checked_date": "2026-09-26",
+    "person_name": "D'Amico",
+    "reason": "Donnee CSV partielle (prenom \"Nadja\" deplace dans le champ adresse : \"Nadja c/o procap\") ; Rechtsanwältin salariee, experte suppleante en droit des assurances sociales chez Procap Suisse (Olten), pratique non independante."
+  },
   "so-daniel-altermatt": {
     "canton": "SO",
     "email": "altermatt@regio-iuris.ch",
@@ -4649,6 +4865,14 @@
     ],
     "source_url": "https://www.frey-law.ch/",
     "specialist_certification": "lic. iur. utr. ; notaire"
+  },
+  "so-david-hochstrasser": {
+    "canton": "SO",
+    "fetched_date": "2026-09-26",
+    "notes": "MLaw, inscrit au registre des avocats depuis le 4 novembre 2019, Belchenstrasse 3, Olten.",
+    "person_name": "David Hochstrasser",
+    "phone": "062 205 20 50",
+    "source_url": "https://www.moneyhouse.ch/de/person/hochstrasser-david-196634972701"
   },
   "so-denise-buschi": {
     "canton": "SO",
@@ -4860,12 +5084,23 @@
     ],
     "source_url": "https://www.wsd.ch/ueber-uns/partner/jol-dietler-6.html"
   },
-  "so-kimena-brog": {
-    "_failed": true,
+  "so-julian-herzog": {
     "canton": "SO",
-    "checked_date": "2026-09-15",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur Studer Schoch Schmidlin Altermatt Herzog Dreier",
+    "notes": "Brevet d'avocat 2016 (canton de Soleure). Associe chez Advokatur Studer Schoch Schmidlin Altermatt Herzog Dreier, Dornach (SO). Membre des barreaux de Soleure, Bâle-Campagne et suisse. Langues : allemand, anglais, francais.",
+    "person_name": "Julian Herzog",
+    "practice_areas_fr": "Droit penal, droit penal des stupefiants, droit penal des mineurs, droit de la circulation routiere, droit du bail, droit des contrats",
+    "source_url": "https://www.regio-iuris.ch/team/julian-herzog/"
+  },
+  "so-kimena-brog": {
+    "canton": "SO",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Frôté & Partner AG",
+    "notes": "CORRECTION d'une fiche _failed du 2026-09-15 (qui indiquait une absence de la page equipe et un statut non confirme) : une nouvelle recherche localise sa fiche individuelle actuelle sur le site de l'etude. MLaw. Avocate conseil et plaidante pour clients d'entreprise et particuliers chez Frôté & Partner AG (Westbahnhofstrasse 1, Soleure) depuis 2015. Egalement assistante de recherche scientifique aupres de la Prof. Anna Coninx (droit penal et procedure penale) a l'Universite de Lucerne.",
     "person_name": "Kimena Brog",
-    "reason": "absente de la page equipe actuelle de Frote & Partner (son ancien profil individuel retourne une 404) ; statut professionnel actuel non confirme (une piste non verifiee suggere un poste de greffiere au tribunal penal zougois, homonymie non exclue avec une patineuse artistique suisse egalement nommee Kimena Brog-Meier)"
+    "phone": "032 628 26 26",
+    "source_url": "http://www.frotepartner.ch/de/brog-kimena-de/"
   },
   "so-lorant-roman-baumann": {
     "canton": "SO",
@@ -4990,6 +5225,25 @@
       "Vertragsrecht"
     ],
     "source_url": "https://www.yoys.ch/Adresse-41-325002000-rechtsanwalt-Grenchen-CH5145175.html"
+  },
+  "so-olivia-haberli": {
+    "canton": "SO",
+    "fetched_date": "2026-09-26",
+    "firm_name": "SLP Rechtsanwälte und Notariat",
+    "notes": "MLaw, brevet d'avocat (canton de Soleure). Avocate chez SLP Rechtsanwälte und Notariat (Aarau/Olten), inscrite au registre a Ringstrasse 22, Olten.",
+    "person_name": "Olivia Häberli",
+    "source_url": "https://slp.ch/rechtsanwaeltin-olivia-haeberli/",
+    "specialist_certification": "Fachanwältin SAV en droit penal"
+  },
+  "so-patrick-hasler": {
+    "canton": "SO",
+    "email": "info@haslerfrech.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Hasler Frech Rechtsanwälte und Notare",
+    "notes": "MLaw, brevet d'avocat et de notaire. Cabinet Hasler Frech Rechtsanwälte und Notare, Bielstrasse 12, Soleure. President de l'Association des notaires soleurois. Conseiller juridique de l'Association des locataires de Soleure et environs.",
+    "person_name": "Patrick Hasler",
+    "phone": "032 621 20 20",
+    "source_url": "https://www.haslerfrech.ch/team/patrick-hasler/"
   },
   "so-paul-eitel": {
     "canton": "SO",
@@ -5192,6 +5446,17 @@
     ],
     "source_url": "https://www.glaettli-rechtsanwaelte.ch/de/stephan_glaettli.html",
     "specialist_certification": "brevet 2003 ; LL.M. droit européen et international des contrats, Université d'Édimbourg (2006)"
+  },
+  "so-therese-martin-hintermann": {
+    "canton": "SO",
+    "fax": "062 287 90 66",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Glättli Rechtsanwälte",
+    "notes": "lic. iur. (Universite de Zurich, 1999), brevet d'avocat 2002. Avocate chez Glättli Rechtsanwälte, Martin-Disteli-Strasse 9, Olten. Langues : allemand, anglais, francais, italien.",
+    "person_name": "Therese Martin Hintermann",
+    "phone": "062 287 90 60",
+    "practice_areas_fr": "Droit du travail, conseil en cas de conflits professionnels (harcelement sexuel, mobbing)",
+    "source_url": "https://glaettli-rechtsanwaelte.ch/de/therese-hintermann-_content---1--1021.html"
   },
   "so-thomas-biedermann": {
     "canton": "SO",
@@ -5855,6 +6120,15 @@
     ],
     "source_url": "https://raggenbass.com/kanzlei/claudia-keller"
   },
+  "tg-clemens-kuhne": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Raggenbass",
+    "notes": "Etudes a Berne et Londres. Avocat et associe chez Raggenbass (bureaux d'Amriswil, Kreuzlingen et Frauenfeld). Membre de plusieurs conseils d'administration (KMS AG, Kunststoff-Packungen AG, Lebert AG, Varioprint Holding AG). Charge de cours a l'Executive School de l'Universite de Saint-Gall.",
+    "person_name": "Clemens Kühne",
+    "practice_areas_fr": "Droit des affaires, restructurations, transactions commerciales, redaction de contrats, conseil aux conseils d'administration",
+    "source_url": "https://raggenbass.com/kanzlei/clemens-kuhne"
+  },
   "tg-daniel-christen": {
     "canton": "TG",
     "email": "daniel.christen@raggenbass.com",
@@ -5936,6 +6210,15 @@
     ],
     "source_url": "https://anwalt-malerberg.ch/anwalt-thurgau/dominik-jaermann/"
   },
+  "tg-dominik-kumschick": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Kumschick Rechtsanwälte AG",
+    "notes": "lic. iur. HSG (etudes 1991-1997). Fondateur de Kumschick Rechtsanwälte AG, Weinfelden (TG).",
+    "person_name": "Dominik Kumschick",
+    "source_url": "https://www.kumschick.law/",
+    "specialist_certification": "Fachanwalt SAV Arbeitsrecht"
+  },
   "tg-doris-ammann": {
     "canton": "TG",
     "email": "ammann@imzehntenhaus.ch",
@@ -6011,6 +6294,24 @@
     "source_url": "https://www.aslantas.ch/kanzlei",
     "specialist_certification": "Fachanwalt SAV Strafrecht"
   },
+  "tg-fursprecher-urs-kropfli": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "notes": "Fürsprecher, ne en 1970, brevet d'avocat 1999. Cabinet S-E-K Advokaten, sites de Frauenfeld (Zürcherstrasse 96) et Ettenhausen-Aadorf.",
+    "person_name": "Fürsprecher Urs Kröpfli",
+    "practice_areas_fr": "Droit de la responsabilite civile, droit prive des assurances, droit des assurances sociales, droit de l'aide aux victimes, droit de la circulation routiere",
+    "source_url": "https://www.s-e-k.ch/team/urs-kroepfli/",
+    "specialist_certification": "Specialiste certifie en droit de la responsabilite civile et des assurances"
+  },
+  "tg-hermann-lei": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "notes": "Ne le 5 novembre 1972. Cabinet independant a Frauenfeld (Thundorferstrasse 8) depuis 2005. Membre du Grand Conseil thurgovien depuis 2007, president du groupe UDC depuis 2023 -- mandat politique cantonal de milice compatible avec une pratique active (defense recente d'un prevenu devant le tribunal confirmee par la presse).",
+    "person_name": "Hermann Lei",
+    "phone": "071 622 42 82",
+    "practice_areas_fr": "Droit civil, droit commercial, droit des contrats, droit penal, droit administratif",
+    "source_url": "https://www.thurgauerzeitung.ch/ostschweiz/frauenfeld/kurios-der-thurgauer-rechts-aussen-politiker-und-anwalt-hermann-lei-verteidigt-einen-straffaelligen-asylbewerber-vor-gericht-ld.2667026"
+  },
   "tg-humbert-entress": {
     "canton": "TG",
     "email": "humbert.entress@ewpa.ch",
@@ -6052,6 +6353,13 @@
     "person_name": "Lukas Brühwiler-Frésey",
     "phone": "071 411 93 93",
     "source_url": "https://tel.search.ch/amriswil/arbonerstrasse-61c/lukas-bruehwiler"
+  },
+  "tg-m-a-hsg-adrian-christian-krahenmann": {
+    "_failed": true,
+    "canton": "TG",
+    "checked_date": "2026-09-26",
+    "person_name": "M.A.HSG Adrian Christian Krähenmann",
+    "reason": "Fonction de procureur (Staatsanwaltschaft Frauenfeld), fonction publique incompatible avec une pratique d'avocat independante active ; publications juridiques academiques mais aucune etude privee confirmee."
   },
   "tg-m-a-hsg-andreas-granwehr": {
     "canton": "TG",
@@ -6256,6 +6564,24 @@
     "source_url": "http://www.fuererpartner.com/de/mike-gessner.htm",
     "specialist_certification": "Dr. iur. ; Fachanwalt SAV Bau- und Immobilienrecht"
   },
+  "tg-nina-lang-fluri": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "notes": "Avocate independante a Frauenfeld (TG) depuis avril 2025. Notaire publique. Egalement conseillere juridique (Rechtskonsulentin) pour l'association des medecins thurgoviens (ÄTG) depuis 2011 -- activite compatible avec la pratique independante.",
+    "person_name": "Nina Lang Fluri",
+    "practice_areas_fr": "Droit de la famille (separation, divorce, contrats de mariage, concubinage), droit successoral (testaments, pactes successoraux, partages, administration de successions)",
+    "source_url": "https://anwalt-lang.ch/",
+    "specialist_certification": "Fachanwältin SAV en droit de la famille"
+  },
+  "tg-otmar-kurath": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur am Malerberg",
+    "notes": "Brevet d'avocat 1992 (canton de Thurgovie), en pratique a Weinfelden depuis 1999. Cabinet \"Advokatur am Malerberg\", Wilerstrasse 21, Weinfelden. Notaire public.",
+    "person_name": "Otmar Kurath",
+    "practice_areas_fr": "Droit de la construction, droit civil, droit des contrats, droit commercial, droit penal, droit de la famille, droit successoral, droit immobilier",
+    "source_url": "https://anwalt-malerberg.ch/anwalt-thurgau/otmar-kurath/"
+  },
   "tg-pascal-harder": {
     "canton": "TG",
     "fetched_date": "2026-09-26",
@@ -6263,6 +6589,14 @@
     "notes": "lic. iur., Rechtsanwalt, Advokaturbüro Lei Nobs Harder, études à l'Université de Bâle, Frauenfeld TG.",
     "person_name": "Pascal Harder",
     "source_url": "https://frauenfeld-anwalt.ch/ueber-uns/pascal-harder/"
+  },
+  "tg-patrick-konig": {
+    "canton": "TG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "KÖNIG Rechtsdienstleistungen GmbH",
+    "notes": "lic. iur. Fondateur de KÖNIG Rechtsdienstleistungen GmbH (2013), cabinet-boutique base a Bürglen (TG), region du lac de Constance. Conseille les PME de leur creation a la gestion des questions juridiques, administratives et reglementaires.",
+    "person_name": "Patrick König",
+    "source_url": "https://www.rechtsanwaltsverein.at/mitglied-details/patrick-koenig-buerglen-schweiz.html"
   },
   "tg-patrik-a-haberlin": {
     "canton": "TG",
@@ -6297,6 +6631,15 @@
     ],
     "source_url": "https://www.studerzahner.ch/rechtsanwalt/mitarbeiter/peter-fuchs.html",
     "specialist_certification": "Sozialversicherungsexperte"
+  },
+  "tg-rene-lenherr": {
+    "canton": "TG",
+    "email": "rene.lenherr@flb-law.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Forrer Lenherr Bögli & Partner",
+    "notes": "lic. iur. Associe chez Forrer Lenherr Bögli & Partner, Toggenburgerstrasse 31, Rickenbach b. Wil (TG).",
+    "person_name": "René Lenherr",
+    "source_url": "https://flb-law.ch/index.php?id=26&option=com_sppagebuilder&view=page"
   },
   "tg-robert-gehring": {
     "_failed": true,
@@ -6449,6 +6792,17 @@
       "Erbrecht"
     ],
     "source_url": "https://sb-anwaelte.ch/stefan-frey"
+  },
+  "tg-stefan-la-ragione": {
+    "canton": "TG",
+    "fax": "071 622 03 04",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Kanzlei für Rechtsberatung & Revision GmbH La Ragione",
+    "notes": "Ne en 1961, brevet d'avocat 1995 (canton de Thurgovie). Cabinet a Weinfelden (Fichtenstrasse 13) avec un bureau secondaire a Appenzell. Langues : allemand, italien, francais, anglais, espagnol.",
+    "person_name": "Stefan La Ragione",
+    "phone": "071 622 03 03",
+    "practice_areas_fr": "Droit civil, droit foncier agricole et droit successoral, droit du notariat, droit commercial, droit bancaire",
+    "source_url": "https://www.mcadvo.ch/anwalt/weinfelden/liciur-stefan-la-ragione"
   },
   "tg-stephanie-frohlich": {
     "canton": "TG",
@@ -8685,6 +9039,95 @@
     "notes": "Rechtsanwalt, Fachanwalt SAV Erbrecht, MBA, Bright Law AG, Bundesplatz 9, Zoug ZG.",
     "person_name": "Duarte Ludovic",
     "specialist_certification": "Fachanwalt SAV Erbrecht ; MBA"
+  },
+  "zg-ducrey-yves": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Onestra Rechtsanwälte AG",
+    "notes": "MLaw, RA. Proprietaire, avocat et notaire chez Onestra Rechtsanwälte AG (Hünenberg, ZG) depuis 2025 ; brevet de notaire ZG 2024 ; auparavant avocat/notaire chez Reichlin Hess AG (Zoug) 2021-2025 ; brevet d'avocat (canton de Lucerne) 2021.",
+    "person_name": "Ducrey Yves",
+    "practice_areas_fr": "Droit des affaires, droit des contrats, droit de la construction et immobilier, notariat, droit successoral, droit penal, poursuites et faillites",
+    "source_url": "https://www.reichlinhess.ch/team/yves-ducrey/"
+  },
+  "zg-durrer-debora": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "notes": "MLaw, notaire et avocate a Cham (ZG), citee dans certaines sources sous son nom d'epouse \"Durrer-Kern\".",
+    "person_name": "Durrer Debora",
+    "phone": "041 723 87 15",
+    "practice_areas_fr": "Droit de l'authentification notariale, droit des valeurs mobilieres et des marches de capitaux, droit successoral, droit des societes et des affaires, droit des personnes, associations et fondations",
+    "source_url": "http://anw24.ch/details/2228/debora-durrer-kern-baar"
+  },
+  "zg-dzaferi-zani": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-26",
+    "person_name": "Dzaferi Zani",
+    "reason": "Discordance de canton : brevet d'avocat obtenu dans le canton de Zoug (2021) mais exerce actuellement chez Müller Paparis AG a Zurich (Bahnhofstrasse 44, 8001 Zürich) -- pas d'etude confirmee dans le canton de Zoug."
+  },
+  "zg-eckenstein-alexander": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "HotzGoldmann",
+    "notes": "Ne en 1975, brevet d'avocat 2003 (Zoug), notaire. Avocat, notaire et associe chez HotzGoldmann Advokatur/Notariat a Baar. Membre du Grand Conseil de la ville de Zoug -- mandat politique local compatible. Langues : allemand, anglais, neerlandais, francais.",
+    "person_name": "Eckenstein Alexander",
+    "practice_areas_fr": "Droit commercial et des societes, notariat, droit penal (criminalite economique), droit du travail (placement et location de personnel), droit des fondations, droit successoral, droit des contrats",
+    "source_url": "https://www.hotzgoldmann.ch/deutsch/alexander-eckenstein"
+  },
+  "zg-eglin-ion": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bratschi AG",
+    "notes": "Partenaire et responsable de la succursale de Zoug chez Bratschi AG, notaire a Zoug, president du conseil d'administration de l'etude. Admis au barreau suisse depuis 2012.",
+    "person_name": "Eglin Ion",
+    "practice_areas_fr": "Droit commercial et des societes, droit hotelier",
+    "source_url": "https://www.bratschi.ch/en/team/ion-eglin"
+  },
+  "zg-eiholzer-julia": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bär & Karrer AG",
+    "notes": "MLaw Universite de Lucerne (2021), brevet d'avocat (canton de Lucerne) 2023, avocate chez Bär & Karrer (bureau de Zoug) depuis 2023, notaire ZG depuis 2024.",
+    "person_name": "Eiholzer Julia",
+    "practice_areas_fr": "Fusions et acquisitions, restructurations et reorganisations, droit des societes et des contrats, droit du travail",
+    "source_url": "https://www.baerkarrer.ch/de/lawyers/julia-eiholzer"
+  },
+  "zg-eisenring-martin": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "EISENRING Rechtsanwälte & Notare",
+    "notes": "Dr. iur. (doctorat Universite de Zurich 1999, magna cum laude), diplome Universite de Fribourg 1996, brevet d'avocat et de notaire 2001. Cabinet EISENRING Rechtsanwälte & Notare, Unter Altstadt 28, Zoug. Ancien membre du parlement de la ville de Zoug -- mandat politique local compatible.",
+    "person_name": "Eisenring Martin",
+    "practice_areas_fr": "Droit des societes, droit des contrats, fusions et acquisitions, droit des trusts et fondations, planification successorale et droit des successions, blockchain, FinTech",
+    "source_url": "https://www.eisenring.com/de/team"
+  },
+  "zg-elms-stephanie-c": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "schadenanwaelte AG",
+    "notes": "MLaw, brevet d'avocat 2015 (Zoug), avocate et notaire chez schadenanwaelte AG depuis 2016. MAS en medecine des assurances en cours depuis 2019, chargee de cours en droit des assurances sociales a la ZHAW depuis 2018.",
+    "person_name": "Elms Stephanie C.",
+    "practice_areas_fr": "Droit des assurances sociales, medecine des assurances",
+    "source_url": "https://www.schadenanwaelte.ch/elms-c-stephanie/"
+  },
+  "zg-endres-michael": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "HLex AG",
+    "notes": "lic.iur. HSG, Executive M.B.L.-HSG. Senior Partner chez HütteLAW AG depuis 2008 (Cham, ZG) ; partenaire chez HLex AG depuis 2026. Avocat et notaire admis dans le canton de Zoug.",
+    "person_name": "Endres Michael",
+    "practice_areas_fr": "Droit de la construction, droit successoral",
+    "source_url": "https://www.hlex.ch/en/team/michael-endres-senior-partner/"
+  },
+  "zg-fassler-lukas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "FSDZ Rechtsanwälte & Notariat AG",
+    "notes": "Etudes Universite de Fribourg 1975-1980, brevet d'avocat (canton de Lucerne) 1982. Independant depuis septembre 1997. Proprietaire unique de FSDZ Rechtsanwälte & Notariat AG, Zugerstrasse 76b, Baar (ZG). President de l'association suisse d'informatique communale (SSGi) depuis 2005.",
+    "person_name": "Fässler Lukas",
+    "phone": "+41 41 727 60 80",
+    "practice_areas_fr": "Droit de l'informatique et de l'information, gouvernance d'entreprise, compliance",
+    "source_url": "https://www.fsdz.ch/team/faessler-lukas"
   },
   "zg-jacob-bollag": {
     "canton": "ZG",
