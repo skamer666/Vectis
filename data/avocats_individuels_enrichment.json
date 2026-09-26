@@ -1334,6 +1334,30 @@
     "source_url": "https://ch.linkedin.com/in/schermbach",
     "specialist_certification": "lic. iur. (Université de Bâle, 1989-1996)"
   },
+  "bl-schnyder-kienast-salome": {
+    "canton": "BL",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur Delbrück & Schnyder",
+    "notes": "Dr. iur., Advokatin, Advokatur Delbrück & Schnyder, Hauptstrasse 34, Binningen BL (également bureau à Oberwil BL).",
+    "person_name": "Schnyder-Kienast Salome",
+    "phone": "061 421 05 87",
+    "source_url": "https://www.mcadvo.ch/anwalt/binningen/dr-salome-schnyder-kienast",
+    "specialist_certification": "Dr. iur."
+  },
+  "bl-schweizer-simon-e": {
+    "canton": "BL",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1989,
+    "notes": "Dr. iur. (né en 1959), Advokat indépendant à Sissach depuis 1989, ancien greffier aux tribunaux de district/police de Waldenburg et de Liestal, ancien membre du Landrat bâlois-campagnard, Hauptstrasse 40, Sissach BL.",
+    "person_name": "Schweizer Simon E.",
+    "practice_areas_de": [
+      "Strafverteidigung",
+      "Familienrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.advokatur-schweizer.ch/Person.html",
+    "specialist_certification": "Dr. iur."
+  },
   "bl-stephan-blaesi": {
     "canton": "BL",
     "fetched_date": "2026-09-15",
@@ -1355,6 +1379,53 @@
     "checked_date": "2026-09-26",
     "person_name": "Stephan Bläsi",
     "reason": "résultats de recherche renvoient uniquement des annuaires génériques mentionnant 'Basel' sans confirmer une pratique à Allschwil, aucun site propre ni coordonnées fiables trouvés."
+  },
+  "bl-ulrich-silvan": {
+    "canton": "BL",
+    "email": "ulrich@dplanet.ch",
+    "fax": "061 751 30 75",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur und Notariat Ulrich",
+    "notes": "lic. iur., Advokat und Notar, Postgasse 3, Aesch BL.",
+    "person_name": "Ulrich Silvan",
+    "phone": "061 751 20 55",
+    "source_url": "http://www.fachmann-vor-ort.ch/Ulrich-Silvan-Aesch-BL-lic.-iur.-Advokat-u.-Notar-Advokaturb%C3%BCro-Notariat-cztsssssxtzc",
+    "specialist_certification": "lic. iur. ; notaire"
+  },
+  "bl-urban-gabriele": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-26",
+    "person_name": "Urban Gabriele",
+    "reason": "résultats trouvant uniquement une avocate homonyme active à Bâle mais avec un ordre nom/prénom différent (« Gabriele Urban » 18 ans d'expérience) - identité et rattachement à Bâle-Campagne non confirmés."
+  },
+  "bl-von-blarer-dieter": {
+    "canton": "BL",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur von Blarer",
+    "founding_year": 2015,
+    "notes": "Advokat, brevet 1984, cabinet fondé en 1972 par Dr. Christoph von Blarer, repris par Dieter von Blarer (1986-2002 puis depuis 2015), ancien ombudsman du canton de Bâle-Ville (2006-2013, job-sharing) et collaborateur international (UNHCR Irak, OSCE Kosovo, DFAE Asie centrale), Anton von Blarerweg 2, Aesch BL.",
+    "person_name": "von Blarer Dieter",
+    "practice_areas_de": [
+      "Asyl- und Migrationsrecht",
+      "Internationales Privatrecht"
+    ],
+    "source_url": "https://www.advokatur-vonblarer.ch/dieter-vonblarer.html",
+    "specialist_certification": "brevet bâlois-campagnard 1984"
+  },
+  "bl-wagner-fred-martin": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-26",
+    "person_name": "Wagner Fred Martin",
+    "reason": "l'avocat correspondant identifié dans les résultats (Martin Wagner, avocat des médias bâlois réputé) est décédé (tué par un voisin à Rünenberg BL, affaire largement relayée par la presse) - fiche non exploitable pour une entrée active."
+  },
+  "bl-walther-beat": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-26",
+    "person_name": "Walther Beat",
+    "reason": "seul homonyme trouvé (Beat Walther) est basé à Thoune, canton de Berne - aucune correspondance à Bâle-Campagne confirmée."
   },
   "lu-alex-beeler": {
     "canton": "LU",
@@ -1429,6 +1500,39 @@
     "source_url": "https://www.ra-gachnang.ch/",
     "specialist_certification": "lic. iur. ; notaire"
   },
+  "lu-beat-hess": {
+    "canton": "LU",
+    "email": "hess@seidenhof.com",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Hess Advokatur / Lauper & Partner (Anwaltskanzlei Seidenhof)",
+    "founding_year": 1987,
+    "notes": "Rechtsanwalt, indépendant à Lucerne depuis 1987, spécialisé en droit pénal, défenseur d'office désigné du canton, Seidenhofstrasse 14, Lucerne LU.",
+    "person_name": "Beat Hess",
+    "phone": "041 227 72 50",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Strafprozessrecht"
+    ],
+    "source_url": "https://www.hess-advokatur.ch/de/team/beat-hess/8",
+    "specialist_certification": "défenseur d'office désigné du canton de Lucerne"
+  },
+  "lu-diana-kunzler": {
+    "canton": "LU",
+    "email": "info@dianakuenzler.ch",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1999,
+    "notes": "lic. iur., Rechtsanwältin, brevet 1999, langues allemand/anglais/français, Tribschenstrasse 70, Lucerne LU.",
+    "person_name": "Diana Künzler",
+    "phone": "079 762 56 71",
+    "practice_areas_de": [
+      "Kindes- und Erwachsenenschutzrecht",
+      "Kindesrecht",
+      "Scheidungsrecht",
+      "Ehe- und Konkubinatsrecht"
+    ],
+    "source_url": "https://dianakuenzler.ch/",
+    "specialist_certification": "médiatrice SDM/SAV ; représentante de l'enfant"
+  },
   "lu-dieter-daubitz": {
     "canton": "LU",
     "email": "dr.daubitz@tic.ch",
@@ -1460,6 +1564,22 @@
     "person_name": "Hans Aepli",
     "phone": "041 310 44 29",
     "source_url": "https://search.ch/tel/luzern/sonnenbergstrasse-55/hans-und-sylvie-aepli"
+  },
+  "lu-hans-hurter": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "notes": "Dr. iur., Rechtsanwalt und Notar, cabinet propre, Habsburgerstrasse 20, Lucerne LU.",
+    "person_name": "Hans Hurter",
+    "phone": "041 210 16 06",
+    "source_url": "https://www.allbiz.ch/mr-hans-hurter-041-210-16-06",
+    "specialist_certification": "Dr. iur. ; notaire"
+  },
+  "lu-ivan-ljubicic": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt, a représenté l'Église catholique romaine du canton de Lucerne dans une procédure judiciaire (dossier de 2002), Luzernerstrasse 60, Ebikon LU. Fiche minimale (registre/dossier judiciaire uniquement, aucun site propre trouvé).",
+    "person_name": "Ivan Ljubicic",
+    "source_url": "http://www.servat.unibe.ch/dfr/bger/021218_2P_16-2002.html"
   },
   "lu-jacqueline-chopard": {
     "canton": "LU",
@@ -1499,6 +1619,35 @@
       "Marken- und Urheberrecht"
     ],
     "source_url": "https://iur-team.ch/iurteam/blum/"
+  },
+  "lu-joseph-hofstetter": {
+    "_failed": true,
+    "canton": "LU",
+    "checked_date": "2026-09-26",
+    "person_name": "Joseph Hofstetter",
+    "reason": "seule référence trouvée est le cabinet Hofstetter Advokatur & Notariat AG (associé identifié : Urs Hofstetter) - aucune mention d'un « Joseph Hofstetter » distinct confirmée."
+  },
+  "lu-jost-huwyler": {
+    "canton": "LU",
+    "email": "jost.huwyler@h-plus-h.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "H+H Management GmbH",
+    "founding_year": 2011,
+    "notes": "lic. iur., LL.M., Rechtsanwalt, partenaire de H+H Management GmbH depuis 2011, Lidostrasse 5, Lucerne LU.",
+    "person_name": "Jost Huwyler",
+    "phone": "+41 76 476 35 53",
+    "source_url": "https://ch.linkedin.com/in/jost-huwyler-92257a111",
+    "specialist_certification": "lic. iur. ; LL.M."
+  },
+  "lu-kaspar-lang": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Gnekow Lang Studer & Blum",
+    "founding_year": 1971,
+    "notes": "Dr. iur., Rechtsanwalt und Notar, brevet 1971, partenaire de Gnekow Lang Studer & Blum depuis 2009 (même cabinet que Michael Gnekow déjà répertorié), juge suppléant au tribunal de district et au tribunal cantonal lucernois depuis 2016, Metzgerrainle 9, Lucerne LU.",
+    "person_name": "Kaspar Lang",
+    "source_url": "https://www.local.ch/de/d/luzern/6004/anwalt/dr-lang-kaspar-2loToFbmNC5aagOutO9h_Q",
+    "specialist_certification": "Dr. iur. ; juge suppléant (depuis 2016)"
   },
   "lu-kuno-fischer": {
     "_failed": true,
@@ -1565,6 +1714,23 @@
     ],
     "source_url": "https://lawyer.anwaltvergleich.ch/d/law-firms/dr-iur-markus-bischof-d:MMh1SnKAw"
   },
+  "lu-markus-gudel": {
+    "canton": "LU",
+    "email": "markus.guedel@kulturjurist.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "kulturjurist.ch - Advokatur M. Güdel",
+    "founding_year": 2015,
+    "notes": "MLaw, Rechtsanwalt, cabinet propre depuis l'automne 2015 spécialisé pour le secteur culturel, ancien collaborateur puis avocat chez Die Advokatur Sury AG (2011-2014), également actif comme concepteur lumière, Obergrundstrasse 42, Lucerne LU.",
+    "person_name": "Markus Güdel",
+    "phone": "+41 41 240 68 40",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Familienrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.kulturjurist.ch/",
+    "specialist_certification": "MLaw (2010)"
+  },
   "lu-martin-bachmann": {
     "canton": "LU",
     "email": "bachmann@mb-anwalt.ch",
@@ -1595,6 +1761,25 @@
     "source_url": "https://www.anwaltvergleich.ch/anwalt-Michael-Gnekow-Luzern+5-rechtsanwalt-2372.htm",
     "specialist_certification": "Dr. iur."
   },
+  "lu-michael-hafner": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Beeli Schürch",
+    "founding_year": 2006,
+    "notes": "lic. iur., Rechtsanwalt, brevet 2006, partenaire de Beeli Schürch depuis 2019 (cabinet à trois associés : Felix Schürch, Hans Beeli, Michael Hafner), langues allemand/anglais/français, Sursee LU.",
+    "person_name": "Michael Hafner",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Strafrecht",
+      "Erbrecht",
+      "Zivilprozessrecht",
+      "Betreibungs- und Konkursrecht",
+      "Familienrecht",
+      "Sozialversicherungsrecht"
+    ],
+    "source_url": "https://www.advosursee.ch/ueber-uns/lic-iur-michael-hafner.html"
+  },
   "lu-otto-enzmann": {
     "canton": "LU",
     "fax": "+41 41 491 08 92",
@@ -1612,6 +1797,14 @@
       "Gesellschafts- und Wirtschaftsrecht"
     ],
     "source_url": "https://zip.ch/en/enzmann-otto-bahnhofstrasse-wolhusen-jmJ4lK5XJv/"
+  },
+  "lu-otto-haunreiter": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt, cabinet propre, Rankried 8, Horw LU (Maria Haunreiter-Züger, médiatrice SVM, également présente à l'adresse).",
+    "person_name": "Otto Haunreiter",
+    "phone": "041 340 35 70",
+    "source_url": "https://www.local.ch/en/d/horw/6048/haunreiter-maria-und-otto-zueger-MOHCa64wmb9lJ9mkE0eZJA"
   },
   "lu-pascal-engelberger": {
     "canton": "LU",
@@ -1657,6 +1850,35 @@
     "phone": "041 227 72 50",
     "source_url": "https://www.oeffnungszeitenbuch.de/filiale/Luzern-Anwaltskanzlei%2520Seidenhof-3380664G.html"
   },
+  "lu-renate-kuhnis-korner": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Anwaltskanzlei Kühnis-Korner",
+    "founding_year": 2017,
+    "notes": "lic. iur., Rechtsanwältin, propriétaire de Kühnis-Korner, également responsable du conseil juridique de la Frauenzentrale Luzern depuis le 01.08.2017, Giselistrasse 9, Lucerne LU.",
+    "person_name": "Renate Kühnis-Korner",
+    "phone": "079 307 65 91",
+    "practice_areas_de": [
+      "Sozialversicherungsrecht",
+      "Familienrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.kuehnis-korner.ch/"
+  },
+  "lu-rene-w-isenschmid": {
+    "canton": "LU",
+    "email": "rene.isenschmid@lucerne-law.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt und Notar, cabinet propre, langues allemand/anglais, Pilatusstrasse 21, Lucerne LU.",
+    "person_name": "René W. Isenschmid",
+    "phone": "+41 41 226 31 81",
+    "practice_areas_de": [
+      "Handelsrecht",
+      "Vertragsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "http://lucerne-law.ch/"
+  },
   "lu-rolf-buhler": {
     "canton": "LU",
     "email": "info@rolfbuehler.ch",
@@ -1701,6 +1923,19 @@
     "notes": "Rechtsanwalt indépendant (dettwilerlaw.ch), ancien responsable de l'assurance militaire suisse pendant plus de 14 ans (jusqu'au 01.09.2022), conseiller communal (FDP) et président local du parti à Eich, Ibrigweidstrasse 35, Eich LU.",
     "person_name": "Stefan A. Dettwiler",
     "source_url": "https://tel.search.ch/eich/ibrigweidstrasse-35/stefan-a-dettwiler"
+  },
+  "lu-thomas-klooz": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1984,
+    "notes": "Rechtsanwalt, cabinet établi à Meggen, brevet 1984, spécialisé en droit du sport, Meggen LU.",
+    "person_name": "Thomas Klooz",
+    "practice_areas_de": [
+      "Gesellschafts- und Unternehmensrecht",
+      "Vertragsrecht",
+      "Sportrecht"
+    ],
+    "source_url": "https://www.local.ch/en/d/meggen/6045/attorneys-at-law/klooz-thomas-_grLP1qvfOVV17M4oOrUuQ"
   },
   "lu-willy-blattler": {
     "canton": "LU",
@@ -3021,6 +3256,134 @@
     "source_url": "https://rechtsanwaltkaiser.ch/Ueber-die-Anwaltskanzlei/",
     "specialist_certification": "Dr. iur. ; Fachanwalt SAV Strafrecht ; notaire ; CAS droit de la procédure pénale"
   },
+  "sg-kehl-peter": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-26",
+    "person_name": "Kehl Peter",
+    "reason": "seul résultat trouvé est un avocat allemand basé à Halle (Saale), aucune correspondance saint-galloise confirmée."
+  },
+  "sg-koller-adrian": {
+    "canton": "SG",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur., Rechtsanwalt und Urkundsperson, cabinet propre, Landstrasse 4, Bütschwil SG.",
+    "person_name": "Koller Adrian",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Vertragsrecht",
+      "Bau- und Planungsrecht",
+      "Gesellschafts- und Handelsrecht",
+      "Bäuerliches Boden- und Erbrecht"
+    ],
+    "source_url": "https://www.local.ch/de/d/buetschwil/9606/advokaturbuero/koller-adrian-IKVGrfJXUqBwGtbJCs3STA",
+    "specialist_certification": "lic. iur. ; notaire"
+  },
+  "sg-kung-marcel": {
+    "canton": "SG",
+    "email": "mk@marcelkueng.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur., lic. oec. HSG, Executive MBA, Rechtsanwalt und Urkundsperson, mandats de conseil d'administration/conseil de fondation pour familles entrepreneuriales, expert financier et bancaire, Achslenstrasse 13, St-Gall SG.",
+    "person_name": "Küng Marcel",
+    "phone": "071 280 14 65",
+    "source_url": "https://www.marcelkueng.ch/",
+    "specialist_certification": "lic. iur./lic. oec. HSG ; Executive MBA in Business Engineering ; notaire"
+  },
+  "sg-kunzler-erwin": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-26",
+    "person_name": "Künzler Erwin",
+    "reason": "seul avocat de nom proche trouvé est Ivo Künzler (et non Erwin) à St-Gall - non-concordance explicite du prénom, identité non confirmée."
+  },
+  "sg-lenel-beat": {
+    "canton": "SG",
+    "email": "anwalt@lenel.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur. HSG/Betr. oec. FH, Rechtsanwalt und Notar, ancien consultant informatique indépendant à Zurich/St-Gall (1997-2003), langues allemand/anglais/français/espagnol, Bahnhofplatz 3, St. Margrethen SG.",
+    "person_name": "Lenel Beat",
+    "phone": "+41 77 468 01 75",
+    "practice_areas_de": [
+      "Zivilrecht",
+      "Arbeitsrecht",
+      "Datenschutzrecht",
+      "Designrecht",
+      "Haftpflichtrecht",
+      "IT-Recht",
+      "Patentrecht"
+    ],
+    "source_url": "https://lenel.ch/"
+  },
+  "sg-lindegger-benno": {
+    "canton": "SG",
+    "email": "info@anwaltschaft.ch",
+    "fetched_date": "2026-09-26",
+    "founding_year": 2011,
+    "notes": "lic. iur. (né en 1959), brevet 1989, cabinet et notariat fondés en 2011, langues allemand/anglais/français, Wildeggstrasse 24, St-Gall SG.",
+    "person_name": "Lindegger Benno",
+    "phone": "+41 71 223 13 16",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Vertragsrecht",
+      "Strafrecht",
+      "Bau- und Planungsrecht",
+      "Gesellschafts- und Wirtschaftsrecht"
+    ],
+    "source_url": "https://anwaltschaft.ch/",
+    "specialist_certification": "brevet 1989"
+  },
+  "sg-maurer-remo": {
+    "canton": "SG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Hutter und Maurer",
+    "notes": "lic. iur., LL.M., Rechtsanwalt indépendant chez Hutter und Maurer, extraordinaire greffier au tribunal de district de St-Gall, membre de l'autorité tutélaire d'Altstätten, expert d'examen à la Kantonsschule Heerbrugg, Langackerweg 3, Altstätten SG.",
+    "person_name": "Maurer Remo",
+    "practice_areas_de": [
+      "Strafrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht",
+      "Europarecht",
+      "Haftpflicht- und Versicherungsrecht",
+      "Handelsrecht",
+      "Betreibungs- und Prozessrecht"
+    ],
+    "source_url": "https://tel.search.ch/altstaetten/langackerweg-3/remo-maurer-2",
+    "specialist_certification": "lic. iur. ; LL.M."
+  },
+  "sg-merz-tobias": {
+    "canton": "SG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokaturbüro Merz",
+    "notes": "Rechtsanwalt, Advokaturbüro Merz, Wiesenstrasse 36, St-Gall SG.",
+    "person_name": "Merz Tobias",
+    "source_url": "https://search.ch/tel/st-gallen/wiesenstrasse-36/tobias-und-verena-merz"
+  },
+  "sg-muller-alfred-paul": {
+    "canton": "SG",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1980,
+    "notes": "lic. oec. HSG, LL.M. (né en 1950), brevet 1980, membre du barreau saint-gallois depuis 1988, langues allemand/anglais/français/italien, cabinet à Bad Ragaz (Im Ochsenbrunnen 11) et St-Gall (St. Leonhardstrasse 45).",
+    "person_name": "Müller Alfred Paul",
+    "practice_areas_de": [
+      "Notariat",
+      "Gesellschafts- und Wirtschaftsrecht",
+      "Erbrecht",
+      "Steuerrecht",
+      "Internationales Recht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.printportal3.ch/SGAV/SGAV_Mitgliederverzeichnis_2013/pubData/SEO/Page_36.html",
+    "specialist_certification": "lic. oec. HSG ; LL.M. ; membre du barreau depuis 1988"
+  },
+  "sg-muller-marco": {
+    "canton": "SG",
+    "email": "mueller-anwalt@gmx.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt, ancien enseignant d'école professionnelle, cabinet basé à Sax SG (adresses complémentaires à Zurich et Buchs SG).",
+    "person_name": "Müller Marco",
+    "phone": "+41 79 404 56 53",
+    "source_url": "https://www.mueller-anwalt.ch/"
+  },
   "so-agnes-atteslander": {
     "canton": "SO",
     "fetched_date": "2026-09-15",
@@ -3047,14 +3410,6 @@
       "Familienrecht"
     ],
     "source_url": "https://www.advokaturolten.ch/unser-team/alina-arul.html"
-  },
-  "so-allemann-aeschlimann-nicole": {
-    "canton": "SO",
-    "email": "nicole.allemann@aarejura-grenchen.ch",
-    "fetched_date": "2026-09-06",
-    "firm_name": "aarejura Rechtsanwälte",
-    "person_name": "Nicole Allemann-Aeschlimann",
-    "source_url": "http://aarejura.ch/?inc=team%2Fteam.asp%2F"
   },
   "so-andre-derendinger": {
     "canton": "SO",
@@ -3572,10 +3927,11 @@
   },
   "so-nicole-allemann-aeschlimann": {
     "canton": "SO",
+    "email": "nicole.allemann@aarejura-grenchen.ch",
     "fetched_date": "2026-09-26",
     "firm_name": "aarejura Rechtsanwälte",
     "founding_year": 2004,
-    "notes": "lic. iur., Rechtsanwältin und Notarin, brevet 2004, aarejura Rechtsanwälte, Grenchen SO. Site officiel (aarejura.ch) indisponible (503) au moment de la vérification, source = annuaire yoys.ch.",
+    "notes": "lic. iur., Rechtsanwältin und Notarin, brevet 2004, aarejura Rechtsanwälte, Grenchen SO. Site officiel (aarejura.ch) indisponible (503) au moment de la vérification, source = annuaire yoys.ch. Entrée fusionnée avec un doublon du 2026-09-06 (même clé de rattachement, email récupéré).",
     "person_name": "Nicole Allemann-Aeschlimann",
     "practice_areas_de": [
       "Miet- und Pachtrecht",
@@ -3613,25 +3969,15 @@
     "source_url": "https://www.stampfli.ch/team/rechtsanwaelte/philipp-eng",
     "specialist_certification": "MLaw ; juge suppléant à l'autorité indépendante d'examen des plaintes en matière de radio-télévision (UBI)"
   },
-  "so-pirmin-bischof": {
-    "canton": "SO",
-    "fax": "+41 32 333 33 12",
-    "fetched_date": "2026-09-15",
-    "firm_name": "Bischof Rechtsanwälte und Notare",
-    "notes": "Identite confirmee comme le meme Pirmin Bischof, Conseiller aux Etats (Mitte/SO) ; reportages de presse (fevrier 2026) confirment qu'il a repris son activite d'avocat a environ 50% apres une hospitalisation en 2025 -- toujours en pratique active, pas retraite. La mention 'St.' dans le CSV vient tres probablement du nom de rue de son etude ('St. Niklausstrasse') et n'est pas un veritable second prenom (le registre cantonal officiel le liste comme simplement 'Bischof Pirmin').",
-    "person_name": "Pirmin St. Bischof",
-    "phone": "+41 32 333 33 11",
-    "source_url": "https://search.ch/tel/solothurn/st-niklausstrasse-1/bischof-rechtsanwaelte-und-notare"
-  },
   "so-pirmin-st-bischof": {
     "canton": "SO",
     "email": "bischof@law-firm.ch",
-    "fax": "032 333 33 12",
+    "fax": "+41 32 333 33 12",
     "fetched_date": "2026-09-26",
     "firm_name": "Bischof Rechtsanwälte und Notare",
-    "notes": "Dr. iur., LL.M. (Harvard), Rechtsanwalt und Notar, cabinet propre, Solothurn SO. Également Conseiller aux États (figure politique active).",
+    "notes": "Identite confirmee comme le meme Pirmin Bischof, Conseiller aux Etats (Mitte/SO) ; reportages de presse (fevrier 2026) confirment qu'il a repris son activite d'avocat a environ 50% apres une hospitalisation en 2025 -- toujours en pratique active, pas retraite. La mention 'St.' dans le CSV vient tres probablement du nom de rue de son etude ('St. Niklausstrasse') et n'est pas un veritable second prenom (le registre cantonal officiel le liste comme simplement 'Bischof Pirmin'). (Dr. iur., LL.M. Harvard, également confirmé par une seconde recherche indépendante du 2026-09-26 ; entrée fusionnée.)",
     "person_name": "Pirmin St. Bischof",
-    "phone": "032 333 33 11",
+    "phone": "+41 32 333 33 11",
     "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/bischof-rechtsanwaelte-und-notare-tz3QFXC_5oGu5X1FuqNg3Q"
   },
   "so-reto-gasser": {
@@ -4828,12 +5174,13 @@
     "phone": "071 521 30 00",
     "source_url": "https://gublerandres.ch/anwaelte/"
   },
-  "tg-stefan-bruehwiler": {
+  "tg-stefan-bruhwiler": {
     "canton": "TG",
-    "fetched_date": "2026-09-15",
-    "firm_name": "Raggenbass Rechtsanwaelte",
+    "email": "stefan.bruehwiler@raggenbass.com",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Raggenbass Rechtsanwälte",
     "founding_year": 2012,
-    "notes": "Anwaltspatent TG 2012, Senior Associate chez Raggenbass Rechtsanwaelte, Frauenfeld. Omis par erreur du lot precedent (5) malgre une recherche deja effectuee ; corrige ici.",
+    "notes": "Anwaltspatent TG 2012, Senior Associate chez Raggenbass Rechtsanwaelte, Frauenfeld. Omis par erreur du lot precedent (5) malgre une recherche deja effectuee ; corrige ici. Entrée fusionnée avec un doublon du 2026-09-26 (email récupéré).",
     "person_name": "Stefan Brühwiler",
     "practice_areas_de": [
       "Submissionsrecht",
@@ -4849,28 +5196,6 @@
       "Energierecht",
       "Nachlassplanung",
       "Notariat"
-    ],
-    "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
-  },
-  "tg-stefan-bruhwiler": {
-    "canton": "TG",
-    "email": "stefan.bruehwiler@raggenbass.com",
-    "fetched_date": "2026-09-26",
-    "firm_name": "Raggenbass Rechtsanwälte",
-    "founding_year": 2012,
-    "notes": "Rechtsanwalt, brevet thurgovien 2012, Raggenbass, Frauenfeld/Amriswil TG.",
-    "person_name": "Stefan Brühwiler",
-    "practice_areas_de": [
-      "Submissions- und Vergaberecht",
-      "Allgemeines öffentliches Recht",
-      "Baurecht",
-      "Mietrecht",
-      "Stockwerkeigentumsrecht",
-      "Landwirtschaftsrecht",
-      "Raumplanungsrecht",
-      "Umweltrecht",
-      "Erbrecht und Nachlassplanung",
-      "Notariat und Beurkundung"
     ],
     "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
   },
@@ -5483,6 +5808,186 @@
     ],
     "source_url": "https://www.studilegali.com/avvocati/avv-fulvio-biancardi"
   },
+  "ti-bianchetti-dr-benedetta": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 2006,
+    "notes": "Avvocato, Studio legale avv. dott. Benedetta Bianchetti, inscrite au registre cantonal le 13.06.2006, Via Marconi 4, Lugano TI.",
+    "person_name": "BIANCHETTI dr. Benedetta",
+    "source_url": "https://www.legaly.ch/it/avvocato/4273-benedetta-bianchetti"
+  },
+  "ti-bianchetti-dr-gianmaria": {
+    "canton": "TI",
+    "email": "g.m.bianchetti@ticino.com",
+    "fetched_date": "2026-09-26",
+    "founding_year": 2000,
+    "notes": "Avvocato (né le 08.03.1959), studio legale propre depuis 2000, plus de 25 ans d'expérience, conseiller communal (Lega dei Ticinesi) à Castagnola, langues italien/allemand/anglais/français, Viottolo Centrale 4, Castagnola TI.",
+    "person_name": "BIANCHETTI dr. Gianmaria",
+    "phone": "091 921 34 64",
+    "practice_areas_it": [
+      "Diritto commerciale",
+      "Esecuzioni e fallimenti",
+      "Diritto del lavoro"
+    ],
+    "source_url": "https://www.gianmariabianchetti.com/"
+  },
+  "ti-bianchi-emilio": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1987,
+    "notes": "Avvocato e notaio, inscrit au registre le 21.05.1987, notariat depuis le 03.02.1994, langues allemand/français/anglais/italien, Via Nassa 60, Lugano TI.",
+    "person_name": "BIANCHI Emilio",
+    "practice_areas_it": [
+      "Diritto tributario"
+    ],
+    "source_url": "https://www.local.ch/it/d/lugano/6900/notaio/bianchi-emilio-jgsxyalyPnOSzGJ75ddu0A",
+    "specialist_certification": "notaio (depuis 1994)"
+  },
+  "ti-biolcati-baggi-agata": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Studio legale Ghiggia",
+    "founding_year": 2004,
+    "notes": "Avvocato e notaio, membro OATi, inscrite au registre le 17.06.2004, notariat depuis le 25.01.2007, plus de dix ans au Studio legale Ghiggia, Viale Stefano Franscini 1, Lugano TI (également bureau Via al Parco 17, Maroggia TI).",
+    "person_name": "BIOLCATI BAGGi Agata",
+    "phone": "091 912 30 30",
+    "source_url": "https://zip.ch/it/biolcati-baggi-agata-avvocato-membro-oati-e-notaio-viale-stefano-franscini-lugano-aWDlX12oDp/",
+    "specialist_certification": "notaio (depuis 2007)"
+  },
+  "ti-bloch-renato": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bloch Law Offices",
+    "founding_year": 1987,
+    "notes": "Avvocato e notaio (Renato L. Bloch), fondateur de Bloch Law Offices en 1987, membre du barreau tessinois, du barreau suisse et de la chambre de commerce britanno-suisse (section Tessin, conseiller), langues allemand/anglais/français/italien/espagnol, Lugano TI.",
+    "person_name": "BLOCH Renato",
+    "practice_areas_it": [
+      "Diritto civile e commerciale",
+      "Diritto amministrativo",
+      "Diritto immobiliare"
+    ],
+    "source_url": "http://www.blochlawoffices.com/cv.html"
+  },
+  "ti-blotti-pier-carlo": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1996,
+    "notes": "Avvocato e notaio, membro OATi, studio propre depuis environ 30 ans (Piercarlo Blotti-Solari), Via A. Giovannini 16, Biasca TI, a représenté le Patriziato di Iragna dans des dossiers d'aménagement du territoire.",
+    "person_name": "BLOTTI Pier Carlo",
+    "practice_areas_it": [
+      "Diritto della costruzione e pianificazione",
+      "Diritto contrattuale",
+      "Responsabilità civile e assicurazioni",
+      "Diritto civile",
+      "Diritto successorio"
+    ],
+    "source_url": "https://www.studilegali.com/avvocati/avv-pier-carlo-blotti"
+  },
+  "ti-bonfanti-enrico": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "notes": "Avvocato e notaio, Via Pioda 1, Muralto TI. Fiche minimale (registre officiel/annuaire uniquement).",
+    "person_name": "BONFANTI Enrico",
+    "source_url": "https://zip.ch/it/bonfanti-enrico-via-pioda-muralto-oxJgQwLnDM/",
+    "specialist_certification": "notaio"
+  },
+  "ti-bonfio-maria-cristina": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Studio Legale Pedrazzini Zanazza & Associati SA",
+    "founding_year": 1987,
+    "notes": "Avvocato e notaio (Of Counsel), diplômée en droit de l'Université de Lausanne en 1984, inscrite au barreau tessinois depuis 1987 et au registre des notaires depuis 1989, langues italien/français/allemand, Lugano TI.",
+    "person_name": "BONFIO Maria Cristina",
+    "practice_areas_it": [
+      "Diritto successorio",
+      "Diritto matrimoniale",
+      "Diritto immobiliare",
+      "Diritto societario"
+    ],
+    "source_url": "https://pzlegal.ch/chi-siamo/maria-cristina-bonfio/",
+    "specialist_certification": "notaio (depuis 1989) ; ancienne présidente de l'Ordre des notaires tessinois"
+  },
+  "ti-borradori-mario": {
+    "canton": "TI",
+    "fax": "091 921 12 17",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1990,
+    "notes": "Avvocato e notaio, inscrit au registre le 28.05.1990, notariat depuis le 17.08.1992, langues italien/allemand/anglais/français, Via Pretorio 20, Lugano TI.",
+    "person_name": "BORRADORI Mario",
+    "phone": "091 921 12 18",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto commerciale",
+      "Diritto contrattuale",
+      "Diritto successorio",
+      "Diritto di compravendita"
+    ],
+    "source_url": "https://search.ch/tel/lugano/via-pretorio-20/mario-borradori",
+    "specialist_certification": "notaio (depuis 1992)"
+  },
+  "ti-bottini-paolo": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bär & Karrer",
+    "founding_year": 1992,
+    "notes": "Avvocato, inscrit au registre le 22.05.1992, Resident Partner de Bär & Karrer Lugano depuis 2001, spécialisé en droit fiscal et juridique pour multinationales (implantation/relocalisation de sièges, opérations M&A), Via Vegezzi 6, Lugano TI.",
+    "person_name": "BOTTINI Paolo",
+    "source_url": "https://chambers.com/lawyer/paolo-bottini-europe-7:762863"
+  },
+  "ti-brenni-francesco": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Kellerhals Carrard",
+    "notes": "Avvocato, admis au barreau tessinois (promotion 2021), chez Kellerhals Carrard, Lugano TI.",
+    "person_name": "BRENNI Francesco",
+    "source_url": "https://kellerhals-carrard.ch/it/team/francesco-brenni"
+  },
+  "ti-brenni-giorgio": {
+    "canton": "TI",
+    "email": "avv.g.brenni@ticino.com",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1995,
+    "notes": "Avvocato, studio legale propre, inscrit au registre le 02.06.1995, actif notamment en défense pénale, Riva Paradiso 24, Lugano-Paradiso TI.",
+    "person_name": "BRENNI Giorgio",
+    "source_url": "https://search.ch/tel/paradiso/riva-paradiso-24/giorgio-brenni.it.html"
+  },
+  "ti-brenni-masoni-paolo": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1996,
+    "notes": "Avvocato, inscrit au registre le 13.12.1996, ancien consul honoraire de Grèce pour le Tessin pendant 22 ans (jusqu'en 2014), gendre de Franco Masoni, Via Frasca 10, Lugano TI.",
+    "person_name": "BRENNI - MASONI Paolo",
+    "source_url": "https://www.local.ch/it/d/lugano/6900/avvocato/brenni-paolo-kUZA9J2bB0697qhHFr6bqA"
+  },
+  "ti-brenni-wicki-bianca-maria": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1990,
+    "notes": "Avvocato e notaio, studio legale propre, inscrite au registre le 23.11.1990, notariat depuis le 14.07.1992, membre du comité de la Société suisse de sclérose en plaques, Via F. Soave 9, Lugano TI.",
+    "person_name": "BRENNI-WICKI Bianca Maria",
+    "practice_areas_it": [
+      "Diritto commerciale",
+      "Diritto contrattuale",
+      "Diritto internazionale privato",
+      "Diritto successorio"
+    ],
+    "source_url": "https://zip.ch/it/brenni-bianca-maria-wicki-avvocato-e-notaio-via-francesco-soave-lugano-dRDYXBQmEy/",
+    "specialist_certification": "notaio (depuis 1992) ; consule honoraire d'Allemagne pour le Tessin"
+  },
+  "ti-broggini-enrico": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "founding_year": 1972,
+    "notes": "Avvocato e notaio (Enrico Broggini-De Luigi), studio legale propre, inscrit au registre le 29.05.1972, notariat depuis le 06.07.1972, langues italien/allemand/anglais/français, Via S. Materno 1, Losone TI.",
+    "person_name": "BROGGINI Enrico",
+    "practice_areas_it": [
+      "Diritto civile",
+      "Diritto contrattuale",
+      "Diritto della costruzione e pianificazione"
+    ],
+    "source_url": "https://www.studilegali.com/avvocati/avv-enrico-broggini",
+    "specialist_certification": "notaio (depuis 1972)"
+  },
   "ti-francesca-balerna-gianotti": {
     "canton": "TI",
     "fax": "+41 91 752 04 45",
@@ -5545,6 +6050,13 @@
     "person_name": "ANASTASI Tatiana Céline",
     "phone": "091 690 51 10",
     "source_url": "https://search.ch/tel/chiasso/corso-san-gottardo-145/studio-legale-avv-tatiana-celine-anastasi.it.html"
+  },
+  "ur-altdorf-30-04-2026": {
+    "_failed": true,
+    "canton": "UR",
+    "checked_date": "2026-09-26",
+    "person_name": "Altdorf, 30.04.2026",
+    "reason": "donnée non exploitable : il ne s'agit manifestement pas du nom d'un avocat mais d'un artefact du CSV source (lieu et date, probablement un fragment de bloc de signature mal extrait)."
   },
   "ur-angela-dillier-gamma": {
     "canton": "UR",
@@ -5839,6 +6351,50 @@
     "phone": "+41 (0)41 871 03 03",
     "source_url": "https://www.anwalt-arnold.ch/portrait",
     "specialist_certification": "Mediator SAV"
+  },
+  "ur-tresch-fabienne": {
+    "canton": "UR",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Anwaltskanzlei Gisler (Flavio Gisler)",
+    "founding_year": 2021,
+    "notes": "MLaw, Rechtsanwältin, brevet urnais juin 2021, chez l'étude de Flavio Gisler depuis le 01.06.2021, notaire depuis 2025, ancienne préposée cantonale (à temps partiel) à la protection des données d'Uri (démissionnaire), Altdorf UR.",
+    "person_name": "Tresch Fabienne",
+    "source_url": "https://www.rechtsanwalt-gisler.ch/fabienne-tresch",
+    "specialist_certification": "MLaw ; notaire du canton d'Uri depuis 2025"
+  },
+  "ur-wipfli-steinegger-ruth": {
+    "canton": "UR",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Steinegger & Wipfli Steinegger",
+    "notes": "lic. iur., Rechtsanwältin und Notarin, cabinet tenu avec son époux Franz Steinegger, également vice-présidente de Swiss Tennis depuis 2014 et membre du comité de Swiss Olympic depuis 2016, Dätwylerstrasse 4, Altdorf UR.",
+    "person_name": "Wipfli Steinegger Ruth",
+    "source_url": "https://www.local.ch/de/d/altdorf-ur/6460/wipfli-steinegger-ruth-IQ67CL3xt0MDOfkXJoC4cQ",
+    "specialist_certification": "lic. iur. ; présidente du tribunal des mineurs d'Uri depuis juin 2024"
+  },
+  "ur-zgraggen-michael": {
+    "canton": "UR",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Zgraggen Bachmann Huber",
+    "founding_year": 2009,
+    "notes": "MLaw, Rechtsanwalt und Notar, brevet 2009, Zgraggen Bachmann Huber, président de Spitex Uri et de la commission paritaire du secteur public, Rathausplatz 7, Altdorf UR.",
+    "person_name": "Zgraggen Michael",
+    "phone": "+41 41 870 56 56",
+    "practice_areas_de": [
+      "Beurkundungsrecht",
+      "Scheidungsrecht",
+      "Vertragsrecht",
+      "Haftpflichtrecht",
+      "Verwaltungsrecht"
+    ],
+    "source_url": "https://www.zgraggen-rechtsanwalt.ch/team/",
+    "specialist_certification": "MLaw ; notaire"
+  },
+  "ur-zust-markus": {
+    "_failed": true,
+    "canton": "UR",
+    "checked_date": "2026-09-26",
+    "person_name": "Züst Markus",
+    "reason": "cabinet principal (Dr. iur. Markus Züst) situé à St-Margrethen, canton de St-Gall - une mention secondaire de notaire à Altdorf UR ne permet pas de confirmer une pratique active et localisée dans le canton d'Uri."
   },
   "zg-aepli-michael": {
     "canton": "ZG",

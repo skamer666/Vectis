@@ -5798,3 +5798,83 @@ Todo recalculé après écriture : AG 401, ZG 335, NE 202, TG 97, SO 136.
 
 Rattachement : 421 avocats rattachés par nom au total (374 → 421, +47 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 47 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 12)
+
+Todo (avant ce lot) : TI 338, SG 35, BL 7, SZ 0 (épuisé), UR 5, LU 40. 50 candidats traités : BL 7
+(totalité du reliquat), UR 5 (totalité, dont un artefact CSV non exploitable), TI 15, SG 10, LU 13.
+
+**Découverte importante — trois doublons de cache non détectés par la méthode `(canton,
+norm(person_name))`** : lors du recalcul post-écriture, `build.py` a signalé un chiffre de
+rattachement inférieur aux attentes. Investigation : trois personnes (Nicole Allemann-Aeschlimann
+et Pirmin St. Bischof dans SO, Stefan Brühwiler dans TG) avaient chacune DEUX entrées dans le
+cache sous des clés JSON top-niveau différentes mais avec un `person_name` strictement identique
+dans les deux cas — écrites lors de lots différents (2026-09-06/09-15 pour les plus anciennes,
+2026-09-26 pour les plus récentes, ce lot-ci ou un lot antérieur du jour). Cela signifie que
+`load_individual_enrichment()` les traitait comme une collision de clé `(canton, norm(nom))` et
+écartait purement et simplement LES DEUX entrées de son dictionnaire `entries` — ces trois avocats
+n'étaient donc rattachés à aucune fiche, silencieusement, malgré une recherche déjà effectuée deux
+fois. Cause probable : la fonction `key()` de mes scripts de lot calcule la clé JSON top-niveau à
+partir du nom au moment de l'écriture, mais deux exécutions indépendantes ont dû partir de deux
+verbatim de nom légèrement différents avant harmonisation finale du champ `person_name` (l'un des
+deux a pu être tapé à la main sans être revérifié contre le nom déjà en cache). Corrigé par fusion
+des trois paires en une seule entrée chacune (clé conservée = celle que `build.slugify(person_name)`
+produit aujourd'hui), en conservant les champs les plus complets des deux versions (téléphone, fax,
+email, notes) plutôt que d'en écraser un arbitrairement. Rattachement confirmé passé de 462 à 465
+après ce seul correctif (+3, exactement les trois avocats déblocqués). **Enseignement pour les lots
+futurs** : avant d'écrire un nouveau lot, il ne suffit pas de vérifier l'absence du `(canton,
+norm(nom))` dans le todo — il faudrait aussi, si possible, faire confiance à cette même vérification
+comme garde-fou contre la ré-écriture, mais rester attentif à tout écart entre le calcul du todo et
+un recalcul `build.py` qui indiquerait un chiffre de rattachement inférieur aux succès du lot : c'est
+le signal qu'un doublon interne au cache existe déjà et mérite d'être investigué immédiatement.
+
+Succès (42) : BL — Salome Schnyder-Kienast (Dr. iur., Advokatur Delbrück & Schnyder, tel),
+Simon E. Schweizer (Dr. iur., **indépendant depuis 1989**, ancien membre du Landrat), Silvan Ulrich
+(notaire, tel/fax/email), Dieter von Blarer (**brevet 1984**, ancien ombudsman bâlois-stadt
+2006-2013, cabinet familial repris en 2015).
+
+UR — Fabienne Tresch (**brevet 2021**, notaire 2025, étude Gisler, ancienne préposée cantonale à la
+protection des données), Ruth Wipfli Steinegger (cabinet avec son époux Franz Steinegger, présidente
+du tribunal des mineurs depuis 2024, vice-présidente Swiss Tennis/Swiss Olympic), Michael Zgraggen
+(Zgraggen Bachmann Huber, **brevet 2009**, notaire, tel).
+
+TI — 15/15 : Bianchetti dr. Benedetta (**depuis 2006**), Bianchetti dr. Gianmaria (**depuis 2000**,
+tel/email), Bianchi Emilio (**depuis 1987**, notaio 1994), Biolcati Baggi Agata (**depuis 2004**,
+notaio 2007, tel), Bloch Renato (Bloch Law Offices **fondé 1987**), Blotti Pier Carlo (notaio,
+~30 ans de pratique), Bonfanti Enrico (notaio — fiche minimale), Bonfio Maria Cristina (Pedrazzini
+Zanazza & Associati, **depuis 1987**, notaio 1989, ex-présidente Ordre des notaires), Borradori Mario
+(**depuis 1990**, notaio 1992, tel/fax), Bottini Paolo (Bär & Karrer, Resident Partner depuis 2001),
+Brenni Francesco (Kellerhals Carrard), Brenni Giorgio (**depuis 1995**, email), Brenni-Masoni Paolo
+(**depuis 1996**, ex-consul honoraire de Grèce), Brenni-Wicki Bianca Maria (**depuis 1990**, notaio
+1992, consule honoraire d'Allemagne), Broggini Enrico (**depuis 1972**, notaio 1972).
+
+SG — Adrian Koller (notaire, cabinet propre), Marcel Küng (lic.iur./lic.oec. HSG, Executive MBA,
+tel/email), Beat Lenel (tel/email), Benno Lindegger (**brevet 1989**, cabinet fondé 2011, tel/email),
+Remo Maurer (Hutter und Maurer, LL.M.), Tobias Merz (Advokaturbüro Merz), Alfred Paul Müller
+(**brevet 1980**, membre du barreau depuis 1988, LL.M.), Marco Müller (tel/email, ex-enseignant).
+
+LU — Markus Güdel (kulturjurist.ch, **depuis 2015**, tel/email), Michael Hafner (Beeli Schürch,
+**brevet 2006**, partenaire 2019), Otto Haunreiter (tel), Beat Hess (**indépendant depuis 1987**,
+défenseur d'office désigné), Hans Hurter (Dr. iur., notaire, tel), Jost Huwyler (H+H Management,
+**depuis 2011**, tel/email), René W. Isenschmid (tel/email), Thomas Klooz (**depuis 1984**, droit du
+sport), Renate Kühnis-Korner (**depuis 2017** à la Frauenzentrale, tel), Diana Künzler (**brevet
+1999**, médiatrice, tel/email), Kaspar Lang (Dr. iur., Gnekow Lang Studer & Blum — même cabinet que
+Michael Gnekow déjà répertorié —, **brevet 1971**, juge suppléant depuis 2016), Ivan Ljubicic
+(fiche minimale, dossier judiciaire 2002).
+
+Échecs (8) : Urban Gabriele (BL — homonyme bâlois à l'ordre nom/prénom différent, identité non
+confirmée) ; Wagner Fred Martin (BL — l'avocat correspondant est décédé, tué par un voisin à
+Rünenberg BL, affaire largement relayée par la presse — fiche non exploitable) ; Walther Beat (BL —
+seul homonyme trouvé basé à Thoune BE) ; Züst Markus (UR — cabinet principal à St-Margrethen SG, pas
+de pratique urnaise active confirmée) ; « Altdorf, 30.04.2026 » (UR — artefact CSV non exploitable,
+manifestement pas un nom de personne) ; Kehl Peter (SG — seul résultat = un avocat allemand de Halle) ;
+Künzler Erwin (SG — seul homonyme trouvé, Ivo Künzler, prénom différent) ; Joseph Hofstetter (LU —
+cabinet Hofstetter Advokatur & Notariat AG confirmé mais associé nommé est Urs, pas Joseph).
+
+Todo recalculé après écriture (et après le correctif de doublons) : TI 323, SG 25, BL 0 (cohorte
+épuisée), UR 0 (cohorte épuisée), LU 27.
+
+Rattachement : 465 avocats rattachés par nom au total (421 → 462 après ce lot, +41 net sur 42
+succès du fait d'une ambiguïté CSV normale et attendue pour 1 nom partagé par deux personnes réelles
+du même canton — non un bug ; puis 462 → 465, +3, après le correctif des trois doublons de cache
+décrits ci-dessus). Suite de tests : 94/94 au vert.
