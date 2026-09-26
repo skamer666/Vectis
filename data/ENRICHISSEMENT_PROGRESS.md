@@ -5601,3 +5601,73 @@ OW/NW/AR/AI restent à 0, cohorte épuisée).
 
 Rattachement : 293 avocats rattachés par nom au total (278 → 293, +15 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 15 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 11)
+
+Correctif préalable : l'entrée échec `tg-kerstin-susanne-friedrich` (lot 9) avait `person_name`
+= « Kerstin Susanne Friedrich », alors que le CSV thurgovien stocke cette personne sous
+« M.A.HSG Law Kerstin Susanne Friedrich ». Corrigé (person_name seul, aucun autre champ touché)
+pour que la détection `(canton, norm(person_name))` la reconnaisse bien comme déjà traitée.
+
+Todo (avant ce lot) : AG 421, ZG 355, NE 222, TG 117 (après correctif ci-dessus), SO 156. 50
+candidats traités, 10 par canton, ordre CSV stable.
+
+Succès (44) : AG — Jeanine Vanessa Bopp (Geissmann Rechtsanwälte, **depuis 2024**), Christina
+Boutellier (Fachanwältin SAV Arbeitsrecht, Advokatur Boutellier & Kaiser, Laufenburg), Franz Peter
+Boutellier (même cabinet, tel/fax/email), Dominik Brändli (ancien procureur argovien, Schärer
+Rechtsanwälte, Aarau), Niklaus Brändli (Fachanwalt SAV Bau-/Immobilienrecht, même cabinet), Lukas
+Breunig (Dr. iur., Fachanwalt SAV Bau-/Immobilienrecht, **depuis 2007**, VOSER Rechtsanwälte,
+Baden), Nicolai Brugger (**depuis 2020**, Brugger Rechtsanwälte GmbH, Baden), Brigitta Brunner
+(Fachanwältin SAV Haftpflicht-/Versicherungsrecht, Advokatur Baden AG, tel/email — vérifiée via
+fetch direct de sa fiche officielle malgré une mention tierce contradictoire évoquant Zurich),
+Christian Brunner (Dr., notaire, BASLER BRUNNER, Aarau, tel).
+
+ZG — Selina Bruderer (MLL Legal, **notaire depuis 2019**, tel/email — vérifiée via fetch direct :
+bureau de Baar ZG confirmé malgré un résumé de recherche évoquant Zurich), Silja Brüggemann
+(Kaiser Odermatt & Partner, **depuis 2025**, brevet argovien 2024), Denise Brügger (Reichlin Hess
+AG, LL.M. Denver), Roland Bruhin (Dr. iur., M.B.L., notaire, Fachanwalt SAV Erbrecht, Bruhin Klass
+Landtwing AG, tel/email), Jürg Burger M. (lic.iur., LL.M., tel, Grafenauweg 6 Zoug), Doris
+Burri-Bucher (lic.iur., notaire, Studer Advokatur & Notariat), Anton Burri-Wenzel (fiche minimale —
+MLaw inscrit au registre zougois, domicilié Rotkreuz, aucun cabinet identifié).
+
+NE — Richard Calame (Dr. en droit, spécialiste FSA construction/immobilier, **brevet 1985**, SPLC
+Avocats & Notaires), Lionel Capelli (**brevet 2006**, co-fondateur 2007, JSM & partners, tel/fax/
+email), Marine Chappuis (**barreau depuis 2018**, Etude du Lac), Rachel Christinat (**depuis 2018**,
+Schaller et associés, également chargée d'enseignement UniNE, email), Aurora Ciccolini (OWP Étude
+d'avocats), Rosaria Cirillo (spécialiste FSA droit de la famille, Athemis Avocats, La
+Chaux-de-Fonds, email), Vincent Codoni (**brevet 1992**, notaire **depuis 1994**, Couvet, tel/
+email), Lucia Colaci (fondatrice de Juriconsult, email), Catalina Constantina (**fondatrice depuis
+2021**, médiatrice FSA, ancienne Bâtonnière neuchâteloise, Constantina Law Firm).
+
+TG — Marina Fürer (BHZ, tel/email), Michael Gehring (**depuis 2005**, LINDTLAW, admis en Suisse et
+en Allemagne, Kreuzlingen), Sabine Geissbühler (mediatrice SAV, présidente commission des honoraires
+du barreau thurgovien, Frauenfeld), Mike Gessner (Dr. iur., Fachanwalt SAV Bau-/Immobilienrecht,
+**depuis 1997**, Fürer Partner Advocaten), M.A.HSG Andreas Granwehr (Raggenbass, droit de la
+circulation routière — fiche relativement mince), Andrea Grischott-Domanig (Dr. iur., **brevet
+2012**, cabinet propre, Frauenfeld), Klaus Gubler (Gubler Andres Rechtsanwälte, tel, Kreuzlingen),
+Silvia Hangartner (cabinet propre, tel/fax/email, Weinfelden), Pascal Harder (Advokaturbüro Lei
+Nobs Harder, Frauenfeld).
+
+SO — Fabio D'Antoni (Morandi Schnider, tel/email), André Derendinger (notaire, **depuis 2022**,
+Menzi Saner Derendinger, expert immobilier, Olten), Joël Dietler (**partenaire depuis 2024**,
+Winiger Scruzzi Droll Dietler, Olten), Hänni Cornelia Dippon (**cabinet propre depuis 1997**, plus
+de 30 ans de pratique, tel, Oensingen), Caroline Dreier (**depuis 2018**, Studer Schoch Schmidlin
+Altermatt Herzog, Dornach), Camill Droll (Fachanwalt SAV Strafrecht, **partenaire depuis 2020**,
+même cabinet que Dietler), Ronnie Dürrenmatt (MLaw, notaire, KSCP Rechtsanwälte und Notare,
+Grenchen), Stefan Eberle (MLaw, Bont Bitterli Meier, tel/fax/email, Olten), Andreas Ehrsam
+(**brevet 2016**, notaire **depuis 2017**, chargé de cours FHNW), Paul Eitel (Prof. Dr. iur. Dr.
+h.c., Fachanwalt SAV Erbrecht, **depuis 1991**, partenaire **depuis 1996**, Bracher Schönberg Eitel
+Rechsteiner, tel/email, Solothurn).
+
+Échecs (6) : Barbara Helena Borer (AG — résultats renvoyant presque exclusivement vers Barbara
+Borer-Mathys, identité non confirmée avec certitude) ; Lukas Bründler (ZG — inscrit au registre
+zougois mais exerce chez Bär & Karrer à Zurich, incohérence cantonale) ; Yara Brusa (ZG — pratique
+confirmée à Zurich/Staiger Schwald, aucun cabinet zougois identifié) ; Mario Bünter (ZG — présence
+au registre uniquement, aucun cabinet ni coordonnée) ; Alizée Cano (NE — a rejoint une équipe à
+Lausanne VD selon les résultats, canton de pratique actuel incertain) ; Robert Gehring (TG — aucun
+avocat actif de ce nom trouvé dans le canton).
+
+Todo recalculé après écriture : AG 411, ZG 345, NE 212, TG 107, SO 146.
+
+Rattachement : 337 avocats rattachés par nom au total (293 → 337, +44 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 44 succès). Suite de tests : 94/94 au vert.
