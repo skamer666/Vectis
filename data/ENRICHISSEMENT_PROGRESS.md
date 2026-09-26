@@ -6199,3 +6199,39 @@ Todo recalculé après écriture : AG 371, ZG 305, NE 172, TG 67, SO 108.
 
 Rattachement : 694 avocats rattachés par nom au total (648 → 694, +46 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 15)
+
+Todo (avant ce lot) : TI 273 (seul canton restant pour la Phase 3c).
+
+Succès (48/50) : De Bernardis Loss Ottavia, De Martino Umberto, De Palatis Keller Luisa, De Pascale
+Maria (**en Suisse depuis 2016**, 20 ans de pratique en Italie avant), De Polo Eero, Della Santa
+Gianluigi (ex-conseiller communal de Bellinzone 2004-2008), Delmuè Nicola (**etude fondee 2007**),
+De' Sena Massimo, Di Giacinto-Lo Russo Vittoria, Di Noi Marilyn (**brevet session automne 2020**),
+Dosi Gianluca (egalement inscrit au barreau de Côme, Italie), Droz Gianolli Véronique, Du Pasquier
+Laurent (**inscrit 1974**), Effenberger Julius (pratique bicantonale Zurich/Tessin), Ermani Mauro
+(ex-president du Tribunal penal cantonal, **reinscrit au barreau en mai 2025** apres demission pour
+raisons de sante), Facchi Aurelio, Faccini Cristina, Faldarini Andreea-Roxana, Faraci Fulvio (**en
+activite depuis 1996**), Ferrari Mattia A. (**etude familiale fondee 1967** par le pere, poursuivie
+avec sa soeur), Ferrari Maurizio, Ferrari Olivier, Ferrario Petrini Lisa (**independante depuis
+2021**), Ferrari-Testa Michela (**independante a Tesserete depuis 1992**, ex-deputee 1995-1999,
+presidente du CA de BancaStato depuis janvier 2025 — mandat de conseil d'administration compatible),
+Ferrazzini Andrea, Ferrini Aldo-Alfonso, Ferroni Giacomazzi Lucilla (ex-presidente FAFTPlus 2012-2015),
+Fertile Manuela, Fiori Marco, Foglia dr. Aldo (ex-juge suppleant au Tribunal federal pendant 16 ans —
+mandat conclu), Foglia Felice (**inscrit 1973**), Foglia Renata, Fontana Curzio, Fontana Verena
+Ursula, Fornara Lorenzo (ex-fonctionnaire du registre foncier), Fornara Stefano (Walder Wyss, **brevet
+2009**), Forni Alberto F. (**etude fondee 1996**, fondateur de divorzio.ch), Forni Cesare, Franscini
+Michele, Frigerio Marco, Fubiani dr. Carlo, Galante dr. Matteo, Galfetti Renzo (ex-depute), Galli
+Antonio (**en activite depuis 1977**), Galli Butti Valeria, Galli Francesco (mediateur USI depuis
+2022), Gallo Ramona (presidente de l'association CryptoPolis), Garbani Marco (responsable juridique
+de GastroTicino).
+
+Échecs (2) : Furnari Carmelo (TI — brevet confirme (session automne 2021) mais aucune coordonnee ni
+cabinet tessinois confirme, seul un homonyme italien a Luino a ete trouve) ; Garzoni Arturo (TI —
+ancien procureur public (2000-2022), retraite anticipee au 31.05.2022, aucune reprise d'activite
+d'avocat independant confirmee).
+
+Todo recalculé après écriture : TI 223.
+
+Rattachement : 742 avocats rattachés par nom au total (694 → 742, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès). Suite de tests : 94/94 au vert.
