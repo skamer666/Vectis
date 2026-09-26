@@ -5941,3 +5941,54 @@ Todo recalculé après écriture : AG 391, ZG 325, NE 192, TG 87, SO 126.
 
 Rattachement : 511 avocats rattachés par nom au total (465 → 511, +46 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 13)
+
+Todo (avant ce lot) : TI 323, SG 25, LU 27 (BL/SZ/UR/OW/NW/AR/AI déjà épuisés). Lot élargi à 52
+candidats pour vider intégralement SG (25) et LU (27) en un seul passage.
+
+Succès (46) : SG — 22/25 : Andreas A. Oehler (**indépendant depuis 2003**, notaire, tel/email),
+Ronald Pedergnana (Dr. iur. HSG, notaire), Daniel Perret (Advokaturbüro Perret, email), Patrice
+Piccand (**fondateur 2017**, LL.M., ex-Credit Suisse), Dario Piras (**brevet 2001**, tel/fax), Paul
+Rechsteiner (**indépendant depuis 1980**, ancien conseiller aux États 2011-2022, mandat achevé),
+Peter Rösler (cabinet propre, email), Hans-Walther Rutz (notaire, tel/email), Ralph Sutter (notaire,
+Executive MBA, pilote de ligne), Viktor Scheiwiler (Dr. iur., tel), Simone Schmucki (**brevet
+2006**, Fachanwältin SAV, tel/email), Dominik Schorno (notaire, tel/email), Albert Stadelmann
+(notaire, médiateur SDM, tel/email), Heinz T. Stadelmann (Fürsprecher, notaire officiel, tel/email),
+Thomas Stark (fiche minimale), Gabriele Sturm (**indépendante depuis 2008**, notaire, tel/fax/
+email), Flurin Turnes (tel), Patrick Waldburger (Dr. iur., dipl. Steuerexperte, tel/email), Niklaus
+Widmer (Dr. oec. HSG, tel/fax), Pascal Wirth (**brevet 2005**, tel/email), Nadia Wottka (notaire),
+Antje Ziegler Schmidt (Dr. iur., notaire, également juge de paix et vice-présidente du parlement de
+la ville de St-Gall depuis janvier 2026 — mandat local compatible).
+
+LU — 24/27 : Peter Lussi (**cabinet propre depuis 1988**, notaire 1989, tel/email), Urs Manser
+(**brevet 1990**, notaire, médiateur, tel), Aline Marty (**brevet 2010**, notaire 2013, a rejoint
+Kanzlei41 avec Philipp Vonarburg après leur départ commun de Schwegler & Partner fin janvier 2026),
+Stefan Mattmann (Dr. iur. 1988, tel/email), Peter Möri (notaire, tel/email), Beat Mühlebach (Mühlebach
+Advokatur AG, tel/fax), Hans Müller (Dr. iur., Burger & Müller, **indépendant depuis 1984**), Leo
+Müller (**cabinet depuis 1997**, également membre du Conseil national — mandat parlementaire fédéral
+de milice jugé compatible avec une pratique active confirmée par la source elle-même), Dario Picecchi
+(Wenger Vieli AG **depuis 2023**, Dr. iur., chargé de cours), Ruedi Portmann (Dr. iur., **brevet
+1988**, tel), Beat Rohrer (Dr. iur., **cabinet fondé 1989**, actuellement en phase de préretraite
+mais toujours actif en arrière-plan comme consultant — cohérent avec le précédent Holenstein/SG),
+Urs Schaffhauser (**indépendant depuis 1993**, Fachanwalt SAV, tel/fax/email), Josef Schaller
+(**brevet 1987**, tel/fax), Eric Schuler (**brevet 1995**, Fachanwalt SAV, tel/email), Jost
+Schumacher (Dr. iur., notaire), Christian Schürer (Dr. iur., Advokatur Schürer), Josef Steiner
+(**brevet 1979**), Hans-Ulrich Stooss (Dr., notaire, exécuteur testamentaire, tel/fax/email), Peter
+Studer (**brevet 1972**, 45 ans d'expérience, tel), Arno Thürig (Fachanwalt SAV Strafrecht, ancien
+procureur économique, tel/email), Christof Truniger (Dr. iur. LL.M., **brevet 1995**, Fachanwalt SAV
+Bau-/Immobilienrecht, email), Marc W. Unternährer (notaire, 30+ ans d'expérience, tel/email),
+Philipp Vonarburg (**brevet 2009**, notaire 2012, Kanzlei41), Thomas Wüthrich (**cabinet depuis
+1993**, brevet 1989, tel/email).
+
+Échecs (6) : Rusch Heinz (SG — seul homonyme sans rapport avec la profession d'avocat) ; Sutter
+Rudolf (SG — aucune correspondance distincte, seul Ralph Sutter apparaît) ; Schärli Stephan (SG —
+fiche d'annuaire uniquement, aucun cabinet ni coordonnée) ; Kurt Müller (LU — aucune correspondance
+confirmée) ; Othmar Müller (LU — aucune correspondance trouvée) ; Kilian Ritler (LU — juriste
+d'entreprise salarié, Leiter Rechtsabteilung de la Suva, non une pratique d'avocat indépendante).
+
+Todo recalculé après écriture : TI 323 (seul canton restant pour la Phase 3c), SG 0 (cohorte
+épuisée), LU 0 (cohorte épuisée).
+
+Rattachement : 557 avocats rattachés par nom au total (511 → 557, +46 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
