@@ -6235,3 +6235,60 @@ Todo recalculé après écriture : TI 223.
 
 Rattachement : 742 avocats rattachés par nom au total (694 → 742, +48 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 48 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 16)
+
+Todo (avant ce lot) : AG 371, ZG 305, NE 172, TG 67, SO 108.
+
+Succès (48) : AG — 9/10 : Beat Edelmann (Dr., partenaire depuis 1983), Fabienne Edelmann (depuis
+2020), Rahel Christina Edelmann (**brevet 06.12.2017**), meme etude Edelmann Rechtsanwälte & Notare,
+Bad Zurzach ; Samuel Alexander Egli (Fricker Seiler Rechtsanwälte depuis 2019) ; Dieter Egloff
+(Voser Rechtsanwälte, president du conseil de banque de l'AKB depuis octobre — mandat compatible) ;
+Richard Eichenberger (EBT Rechtsanwälte, Baden) ; Stephan Eichenberger (**brevet 2006**, Advokatur
+und Notariat Koller & Eichenberger, Berikon) ; Severin Egloff (**brevet 2022**, Voser Rechtsanwälte,
+notaire) ; Carmen Emmenegger (**fondatrice en janvier 2011**, Emmenegger Rechtsanwälte GmbH, Baden/
+Aarau).
+
+ZG — 10/10 : Frei Nina J. (Dr. iur., partenaire Schweiger Law, ex-11 ans partenaire Hodel Frei &
+Partner), Frese Lukas (Schweiger Advokatur, arbitrages internationaux), Frey Andrea Riccardo
+(**brevet 2022**, Wenger Vieli, M&A/venture capital), Fricker Simon (Fachanwalt SAV Arbeitsrecht,
+Reichlin Hess AG), Fries Sandro (Fries Partner AG), Frigo Andrea (Reichlin Hess, droit de la
+protection des donnees), Frigo Jost M. (**brevet 1973**, Advokaturbüro Frigo), Fronzaroli Mattia
+(Zwicky & Partner, mediateur SKWM), Fuchs-Hodel Anja (BKL Recht), Furrer Beat (partenaire
+Schnurrenberger Tobler Gnehm & Partner depuis 2018, ex-president du Tribunal cantonal de Zoug
+2013-2017 — mandat judiciaire conclu, retour a la pratique).
+
+NE — 10/10 : David Freymond (Etude Brodt & Partenaires), Patrick Frunz (cofondateur de l'Etude HFE
+en 2022), Olivier Gabus (**chez KGG depuis 1980**, professeur honoraire UniNE), Emilio Garrido,
+Gillian Claudine Gay (KGG, egalement collaboratrice scientifique UniNE), Renaud Gfeller (**brevet
+1992**), Florian Godbille (**brevet 2017**, Fabbro & Partners depuis juillet 2023), Benjamin Graf
+(notaire et avocat, La Chaux-de-Fonds), Yves Grandjean (Etude du Concert), Fabrice Grandjean
+(Grandjean Avocats).
+
+TG — 9/10 : Hans Munz (Dr., independant depuis 2011, Advokatur im Lindenhof depuis 2020, membre du
+Grand Conseil thurgovien depuis 2014 — mandat cantonal compatible), Peter Muri (**fondateur 1994**
+de Muri Partner Rechtsanwälte AG), Niels Möller (partenaire Strickler+Partner depuis 2005, ex-juge
+au tribunal des mesures de contrainte — mandat conclu), Nathalie Möri (Entress Wenger Partner,
+notaire), Felix Müller (Dr. iur., **brevet 1991**), Stefan Müller (gerant-proprietaire de sartorial
+rechtsanwälte ag), Lukas Nater (nater-law.ch, Kreuzlingen), Sarah Nobs (independante depuis 2017,
+egalement juge suppleante a l'Obergericht thurgovien depuis juin 2024 — mandat compatible), Claudia
+Nuzzo (Stadelmann Rechtsanwälte, brevet zurichois 2021).
+
+SO — 10/10 : Rebekka Kindler (Morandi Schnider Rechtsanwälte und Notare, tel/email), Rolf Kissling
+(**brevet 1990**, cabinet propre, ex-Kantonsrat FDP 1993-2001), Theodor Kocher (cabinet propre,
+Schnottwil), Linda Kolaj (Morandi Schnider, tel/email), Andreas Kummer (cofondateur Kummer & Hug,
+30+ ans d'experience), Alexander Kunz (**brevet 1978**, cabinet propre Soleure), Simone Kury
+(**brevet 1996**, Advokatur und Notariat Kury, tel/fax/email), Daniel Laffer (Stampfli Rechtsanwälte
+depuis avril 2024, egalement membre du Tribunal fiscal soleurois — mandat nebenamtlich compatible),
+Irène Lehmann-Lüthi (cabinet propre depuis 2004, Kriegstetten), Jacqueline Lehmann (**brevet 2020**,
+etude Schoch Schmidlin Altermatt Herzog Dreier Lehmann, Dornach).
+
+Échecs (2) : Katharina Eichenberger Caballero MeSjiaarsah (AG — donnee CSV probablement corrompue,
+seule correspondance plausible concerne une "Sarah Eichenberger Caballero Mejias" dont le prenom ne
+correspond pas, risque d'erreur d'attribution non resolu) ; Alfred Müller (TG — nom trop commun,
+aucune correspondance specifique confirmee dans le canton).
+
+Todo recalculé après écriture : AG 361, ZG 295, NE 162, TG 57, SO 98.
+
+Rattachement : 790 avocats rattachés par nom au total (742 → 790, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès). Suite de tests : 94/94 au vert.
