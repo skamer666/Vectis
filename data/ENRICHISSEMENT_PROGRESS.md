@@ -6486,3 +6486,59 @@ Todo recalculé après écriture : TI 73.
 Rattachement : 975 avocats rattachés par nom au total (928 → 975, +47 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 47 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (avocats individuels AG/ZG/NE/TG/SO, lot 19)
+
+Todo (avant ce lot) : AG 351, ZG 285, NE 152, TG 47, SO 88.
+
+Succès (46/50) :
+
+- **AG (9/10)** : Lukas Fischer (MLaw avec distinction Lucerne 2013, licence 2015, ex-greffier
+  Lenzburg — fonction terminée), Serge Flury, Flury-Wyrsch Nadia (ex-membre CA Raiffeisenbank
+  Aarau-Lenzburg — mandat terminé), Frana Martin (Advokatur am Rhein), Frauchiger Robert (Rex
+  Advokatur, **aujourd'hui actif à temps partiel**), Freiermuth Rolf Paul (Freiermuth Studer, étude
+  fondée 2012), Fretz Michael (Fachanwalt SAV construction/immobilier depuis 2018, chargé de cours
+  FHNW depuis 2013), Dominic Frey (Baumberger + Frey), Dominik Frey (Advokatur Baden, associé,
+  licence 1993).
+- **ZG (10/10)** : Gnehm Viktor Lorenz (associé depuis 2002, ex-banquier d'investissement — carrière
+  terminée en 1998), Göçmen Alp (Zwicky & Partner, notaire), Goldmann Werner (Hotz & Goldmann,
+  **indépendant depuis 1994**, ex-président Association des avocats ZG 2008-2018 — mandat terminé),
+  Granziol Leo (Dr., Nobel & Hug), Greber Stephan F. (MME Legal), Grimm Gabriela (**indépendante
+  depuis 2001**, LL.M. Londres 1997), Grubesa-Milic Andjelka (associée Bihrer Attorneys, admise
+  2011), Grunder Daniel (fondateur, étude 2013, spécialiste FSA droit successoral), Grünig Emanuel
+  (MME Legal, droit des marchés financiers), Grütter Annika (Reichlin Hess AG).
+- **NE (9/10)** : Hirschi-Duckert Daniel (InLaw Associés, brevet 2022), Hofner Jean-Patrice (avocat
+  et notaire honoraire, fonctions de conseil dans plusieurs fondations — compatibles), Hug Dario
+  (Dr., Étude A2L, enseigne à l'Université de Neuchâtel — fonction académique compatible),
+  Huguenin-Dezot Jean-Pierre (cofondateur Étude BHS), Hurni Baptiste (Javet Schwarb Mauri, conseiller
+  national 2019 puis conseiller aux États 2023 — mandats fédéraux compatibles avec le régime du
+  parlement de milice suisse), Indino Dario Gabriele (Athemis Avocats), Ilazi Arbrie (Étude Brodt &
+  Partenaires), Jacopin-Grimonprez Anne-Marie, Jeanneret-Grosjean Zélie (Étude BHS, VP/trésorière
+  Jeune Barreau neuchâtelois — fonction compatible).
+- **TG (8/10)** : Rothe Rainer (avocat depuis 1992, également admis à Hambourg), Ruckstuhl Arthur
+  (Advokaturbüro Ruckstuhl), Ruibal Saila (Pedrazzini | Ruibal, associée, notaire), Rutishauser-Auer
+  Catherine (indépendante, membre conseil de fondation WITG — fonction compatible), Rüedi Beat
+  (**indépendant 1970-2022 — mandat terminé**, aujourd'hui consultant chez Lindtlaw, conseiller
+  communal depuis 1999 — mandat local compatible), Schlatter Jürg K. (licence 1985), Schmid
+  Gian-Andrea (Muri Partner), Schmid Pascal (Muri Partner, **ex-président du tribunal de district de
+  Weinfelden 2009-2021 — mandat terminé**, élu au Grand Conseil TG 2016 et au Conseil national 2023 —
+  mandats compatibles avec le régime de milice).
+- **SO (10/10)** : Morandi Tobias (président CA, Morandi Schnider), Muhr Annemarie (**étude propre
+  depuis 2015**), Friedrich, PhD Müller (Kueng Lawyers, Kriegstetten), Roland Müller (Dr., licence
+  1987), Viktor Müller (Olten/Wangen bei Olten — confirmation de l'adresse CSV), Muralt Beat (licence
+  1992), Nardo Alessandra (KSCP), « Neuhaus » (identifié comme Samuel Neuhaus — le prénom du CSV
+  avait été placé par erreur dans le champ adresse — associé KSCP, Grenchen), Novakovic Marija
+  (licence 2000, confirmation que le « St. » du nom CSV est un fragment de « St. Niklausstrasse »),
+  Nüssli Bruno (Dornach/Allschwil).
+
+Échecs (4) : Ulrich Fischer/AG (aucune correspondance spécifique confirmée) ; Huguenin-Elie
+Léa/NE (exerce actuellement à Lausanne, canton de Vaud, malgré son inscription au rôle
+neuchâtelois — correspondance de canton non confirmée) ; Michael Scherrer/TG (aucune correspondance
+spécifique confirmée à Weinfelden) ; Raphael Schmid/TG (site professionnel explicitement présenté
+comme "ancien site internet", aucune pratique actuelle confirmée).
+
+Todo recalculé après écriture : AG 341, ZG 275, NE 142, TG 37, SO 78.
+
+Rattachement : 1021 avocats rattachés par nom au total (975 → 1021, +46 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 46 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
