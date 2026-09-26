@@ -5671,3 +5671,62 @@ Todo recalculé après écriture : AG 411, ZG 345, NE 212, TG 107, SO 146.
 
 Rattachement : 337 avocats rattachés par nom au total (293 → 337, +44 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 44 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 11)
+
+Todo (avant ce lot) : ZH 0, GR 0 (aucun avocat solo dans ces deux cantons — structure `CANTON_DATA`
+confirmée : 0 indép. pour les deux), TI 348, SG 43, BL 15, SZ 9, UR 13, OW/NW/AR/AI 0 (cohorte
+épuisée), LU 47. 50 candidats traités : TI 10, SG 8, BL 8, SZ 9 (totalité du reliquat), UR 8, LU 7.
+
+Succès (37) : TI — 10/10 (BERNASCONI Pianca Vanna, avvocato e notaio 1994, tel/fax ; BERNASCONI
+Raffaele, studio Bernasconi & Riva ; BERNASCONI Roberta, Probst & Pozzoli, notaio 1993 ; BERNASCONI
+Stefania, fiche minimale registre 1996 ; BERSANI Andrea, Bersani & Schiavi, Bellinzona ; BERTINOTTI
+Simone, studio avv. Steven Flury, **inscrit 2022** ; BERVINI Rossano, **depuis 1977**, notaio 1979,
+Bervini & Associati ; BIAGGI-ALBRICI Romina, Mattei & Partners, **partenaire depuis 2018** ;
+BIAGGI-FABIO Flaviana, **depuis 1999**, notaio 2000, tel/fax ; BIANCARDI Fulvio, Molo & Collenberg,
+**depuis 1991**).
+
+SG — 6/8 (Hidber Anton, Hidber Advokatur, tel/email ; Holenstein August, Frey & Partner
+**consultant depuis 2011** ; Hubatka Thomas, cabinet propre, tel/fax/email ; Huber-Studerus Karin,
+ancienne juge des assurances, **inscrite au barreau 2023** ; Juchli Philipp, Dr. iur., notaire,
+cabinet propre ; Kaiser Daniel, Dr. iur., Fachanwalt SAV Strafrecht, notaire, **cabinet fondé
+2014**).
+
+BL — 3/8 (Olah Philipp André, NEOVIUS, **depuis 2021** ; Rey Laura, Advokatur Rey, Reinach ;
+Schermbach Michael Karl Gerhard, ancien juriste du Conseil d'État bâlois-campagnard, actuellement
+Human Rights Attorney chez Dignitas).
+
+SZ — 7/9 (Spörri Sven, **brevet 2010**, tel/fax ; Steiner Conrad Monika, **cabinet propre depuis
+2007**, tel/email ; Steiner Markus, Fachanwalt SAV Strafrecht, **depuis 2001** ; von Weber Franz
+Xaver, Dr. iur. habil. ; Windlin-Strüby Monika, Windlin Law **depuis 2021**, notaire, ancienne
+directrice bancaire ; Yalcin Pascal, fiche minimale registre officiel ; Zucker Armin, Dr. iur.,
+Zucker Legal, distinction Handelsblatt 2020).
+
+UR — 6/8 (Meier Michael, Meier & Mehr, **brevet 2003** ; Muheim Franz Xaver, Dr. iur., consultant
+depuis 2022 ; Näf Hermann, cabinet propre, tel/email ; Stadler Karl, ancien procureur et
+vice-président de tribunal, actuel préposé cantonal à la protection des données, cabinet actif en
+parallèle ; Steinegger Franz, **depuis 1981**, ancien conseiller national ; Studhalter Sandra,
+Meier & Mehr **depuis 2022**, médiatrice UMCH, tel/email).
+
+LU — 5/7 (Pascal Engelberger, Adlegem, **indépendant depuis 2007** ; Otto Enzmann, Advokaturbüro
+Enzmann, **depuis 1991**, tel/fax ; Anton Frank, **brevet 1985**, email ; Beat Gachnang, Gachnang
+Advokatur & Notariat, **depuis 1991**, tel ; Michael Gnekow, Dr. iur., Gnekow Lang Studer & Blum,
+**brevet 1972**).
+
+Échecs (13) : Hochreutener Roland (SG — statut ambigu entre greffier au Tribunal administratif
+fédéral et cabinet privé, incompatibilité non résolue) ; Imhof Marietta (SG — présence LinkedIn
+uniquement, aucune coordonnée professionnelle) ; Mayer Felix, Meyer Peter, Moser Silvia (BL —
+aucune correspondance confirmée dans le canton) ; Riggenbach Dieter (BL — cabinet à Bâle-Ville BS,
+incohérence cantonale) ; Roth Monika (BL — rôles multiples potentiellement incompatibles, juge/
+surveillance MP, aucun cabinet privé confirmé) ; Tank Weber Gabriela (SZ — cabinet à Zollikon ZH,
+incohérence cantonale) ; Wipfli Martin (SZ — cabinet Baryon AG à Zurich, activité dominée par
+mandats d'administrateur et mairie de Feusisberg) ; Simmen Georg (UR — conseiller d'État urnais
+depuis mai 2024, fonction gouvernementale incompatible) ; Stadler-Ineichen Hansruedi (UR — pratique
+explicitement arrêtée en 2018) ; Kuno Fischer (LU — activité dominée par le marché de l'art,
+aucune pratique juridique active à Lucerne confirmée) ; Ghislaine Frésard-Fellay (LU — présence
+uniquement académique, aucun cabinet ni adresse à Lucerne).
+
+Todo recalculé après écriture : TI 338, SG 35, BL 7, SZ 0 (cohorte épuisée), UR 5, LU 40.
+
+Rattachement : 374 avocats rattachés par nom au total (337 → 374, +37 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 37 succès). Suite de tests : 94/94 au vert.
