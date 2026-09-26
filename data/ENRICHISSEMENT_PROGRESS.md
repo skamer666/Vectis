@@ -6635,3 +6635,36 @@ Todo recalculé après écriture : AG 331, ZG 265, NE 132, TG 27, SO 68.
 Rattachement : 1115 avocats rattachés par nom au total (1070 → 1115, +45 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 45 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 20 — DERNIER LOT)
+
+Todo (avant ce lot) : TI 23 (dernier canton restant pour la Phase 3c).
+
+Succès (22/23) : Valsangiacomo Roberto (titulaire depuis 2001, père d'Andrea Valsangiacomo déjà
+enrichi), Vanetta Luca, Vanotti Massimo (Bär & Karrer, lic.iur. 1999), Varini-Rossi Ornella, Vassalli
+García Fernández Flavia (licence 1994), Verda Emanuele (né 1969, Verda Law), Visani Andrea (BMA
+Brunoni Mottis & Associati, président Round Table Lugano depuis 2015 — fonction compatible),
+Viscardi Galli Claudia (née 1976, membre CA Cornèr Banque depuis 2022 — fonction compatible),
+Viscardi Giancarlo (notaire, Viscardi & Caldelari), Viscardi Giovanna (née 1975, **30 ans de
+pratique**, anciens mandats politiques municipaux et cantonaux tous terminés, candidate à juge de
+paix), Vismara Ettore (**avocat et notaire depuis 1985**, maire de Paradiso depuis 1996 — mandat
+exécutif communal maintenu en parallèle, compatible), Vitalini dr. Carlo (membre OATi), Vitulano
+Patrizia (inscrite 2010, conseil juridique ICPO), Wicki Francesco (**titulaire de l'étude familiale
+depuis 2007**, spécialiste FSA droit successoral 2019), Will Stefano (fiche minimale), Xavier Sandra
+(née 1985, licence 2011), Zandrini Walter (**étude fondée en 2022**), Zanetti Pozzi Prisca (exerce
+avec son époux Andrea Pozzi, conseillère communale de Novaggio — mandat local compatible), Zanetti
+Stefano (a quitté après 35 ans la présidence de la section CATEF Bellinzone — fonction associative
+terminée), Zorzi Luca (ex-président FTC 13 ans et ex-président AC Bellinzona à deux reprises —
+mandats terminés), Zorzi Nicola (né 1963), Zucchetti Carla (**cofondatrice**, licence 1992, notariat
+1999, spécialiste droit de la famille).
+
+Échec (1) : von Siebenthal Mauro (a quitté la pratique du droit il y a ~20 ans pour devenir
+producteur de vin au Chili, n'exerce plus comme avocat).
+
+Todo recalculé après écriture : TI 0. **Vérification exhaustive sur les 12 cantons groupables (ZH,
+TI, SG, GR, BL, SZ, UR, OW, NW, AR, AI, LU) : 0 avocat solo restant à traiter dans l'ensemble des 12
+cantons.** La Phase 3c est terminée.
+
+Rattachement : 1137 avocats rattachés par nom au total (1115 → 1137, +22 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 22 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
