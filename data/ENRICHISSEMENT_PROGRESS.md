@@ -6292,3 +6292,43 @@ Todo recalculé après écriture : AG 361, ZG 295, NE 162, TG 57, SO 98.
 
 Rattachement : 790 avocats rattachés par nom au total (742 → 790, +48 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 48 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 16)
+
+Todo (avant ce lot) : TI 223 (seul canton restant pour la Phase 3c).
+
+Succès (46/50) : Gatti Betty (**etude propre depuis 2020**, CAS construction/immobilier), Gemnetti
+Francesca (presidente Commission suisse UNESCO, secretaire generale CORSI), Genetelli Rolando et
+Stefano (etude familiale **de plus de 50 ans**, Giubiasco), Genovini Ivano (conseil juridique du
+TCS), Germano Enrico (Prospero Legal, ex-fonctions publiques conclues), Ghidoni Franco, Ghidoni
+Mario Arnaldo (**inscrit 2025**), Ghiggia Battista (**en activite depuis 1991**, ex-president OATi
+2009-2011, ex-candidat Lega au Conseil des Etats 2015), Ghilardi Letizia (conseillere communale de
+Monteceneri), Gianelli Patrizia, Gianoni Filippo (**pres de 30 ans de pratique**, professeur associe
+Universite de l'Insubria, president de l'Ente regionale per lo sviluppo depuis 2010), Gianoni Franco
+(**ne 1929, serment 1955**, auteur du livre "Il mio mestiere, l'avvocato"), Gianoni Pedroni Sara
+(ex-presidente du parti "Il Centro" 2018-2022), Gianora Marzio (**etude familiale 20+ ans**),
+Gilardi Gabriele et Michele (etudes independantes, Locarno/Muralto), Godenzi Gino, Greco Edward F.,
+Grignola Edy, Guggiari Salari Sharon (**etude propre depuis 2014**, specialiste FSA droit du
+travail, MAS droit fiscal), Guglielmoni Mario (**barreau depuis 1964**), Henauer Alexander (agent
+FIFA, conseil Federation suisse de petanque), Iannaco Giorcelli Anna Lisa, Inselmini Tino
+(**barreau depuis 1970**), Janner Franco, Jermini Davide (partner Walder Wyss, responsable bureau de
+Lugano), Jermini Cesare (partner Bär & Karrer, membre du conseil de l'ASA), Jordi Jean-Maurice,
+Jorio Colombo Alessandra, Jörg Daniele, Kaeser Maya Eliane, Keller Roberto (syndic de Claro — mandat
+executif communal compatible), Koller Baiardi Corinne, Laffranchini Bernasconi Paola, Lamorgese
+Carolina (**brevet 2019**), Landolt Walter, Lang Heinz, Lehmann-Belladelli Cinzia (**30+ ans
+d'activite**), Lelais Didier, Lepori Cesare (ex-chef de groupe PPD Bellinzone), Lepori Colombo
+Francesca (ex-16 ans deputee, mediatrice RSI depuis 2022, juge suppleante Cour d'appel — mandats
+compatibles), Locatelli Rosangela, Loss Campana Renata (a egalement siege comme juge non-titulaire
+dans une affaire penale — mandat occasionnel compatible), Lurati Elisa (**inscrite 2017**), Macconi
+Massimo.
+
+Échecs (4) : Item Ildebrando (mention journalistique isolee de 2012, aucune coordonnee ni cabinet
+confirme distinctement des homonymes Dario/Ettore Item) ; Lanz dr. Paul Ulrich (aucune information
+specifique trouvee, seule une procureure publique homonyme "Francesca Lanz" est apparue) ; Leotta G.
+Sampaio Lara (seule la promotion au barreau en decembre 2022 confirmee, aucune coordonnee) ; Loser
+Laura (aucune correspondance, seul un homonyme "Luca Loser" distinct est apparu).
+
+Todo recalculé après écriture : TI 173.
+
+Rattachement : 836 avocats rattachés par nom au total (790 → 836, +46 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
