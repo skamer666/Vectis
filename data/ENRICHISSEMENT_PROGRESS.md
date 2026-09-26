@@ -6585,3 +6585,53 @@ Todo recalculé après écriture : TI 23 (dernier lot restant pour clore la Phas
 Rattachement : 1070 avocats rattachés par nom au total (1021 → 1070, +49 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (avocats individuels AG/ZG/NE/TG/SO, lot 20)
+
+Todo (avant ce lot) : AG 341, ZG 275, NE 142, TG 37, SO 78.
+
+Succès (45/50) :
+
+- **AG (9/10)** : Frey Martin Andreas (Fürsprecher, MLaw, SwissLegal Aarau, partner), Fricker Matthias
+  (Fachanwalt SAV pénal, ex-juge suppléant Cour supérieure AG 2009-2020 — mandat terminé), Friedli
+  Hans Peter (**40 ans d'expérience**), Fuhrer David (Dr. iur., fuhrer-mna), Funk Philip (Dr., associé
+  Voser depuis 1989, VP CA AZ Medien depuis 2010 — fonction compatible), Furter Gabriela Maria
+  (**notariat ouvert en 2022**, spécialiste droit de la famille), Galligani Stefan (**avocat depuis
+  1992**), Garcia Fernando (dirige BÄCHLI GARCIA AG depuis 2014), Gautschi Andreas (BEELEGAL depuis
+  2021, ex-FINMA — fonction terminée).
+- **ZG (10/10)** : Guldener Tatiana (associée KLEIN depuis 2013), Habke Oliver (GHM Partners, associé
+  et directeur général), Haemmerli Felix (Reichlin Hess), Häfliger Rolf (Dr., LL.M., Barandun Ltd,
+  associé), Hager Rainer (associé Schweiger depuis 1993, président de la Bourgeoisie de Zoug depuis
+  2009 — fonction civique compatible), Hagmann Hans (Neese Stalder Villiger, indépendant depuis
+  2001), Hasler Barbora (MLL Legal), Hauser Gabriela (**raison individuelle fondée en 2016**), Hausheer
+  Urs J. (lege artis zug), Hausherr Matthys (Huber & Hausherr, licence 1981).
+- **NE (9/10)** : Jeannin Pascal (cofondateur CHJ legal), Jean-Petit-Matile Pierre (**fondateur CJE
+  Sàrl depuis 1997**), Jendly-Richoz Carine (legal.fact, fiscaliste), Jenny Jonathan (**étude fondée
+  en 2023**, associé Étude A2L depuis 2024), Jéquier Guillaume (KGG), Joseph Anne, Jouval Romain
+  (**étude fondée en 2021**, chargé de cours HEG-Arc), Kajtaz Nermina (Étude NVLE, née 1998), Keskes
+  Erdem (**10 ans d'expérience**, membre de la Justice militaire depuis 2014 — fonction de milice
+  compatible).
+- **TG (8/10)** : Schoop Anina (Fürer Partner Advocaten, licence 2018), Schroff Christian (licence
+  1984), Schwarz René (Dr., Bürgi Hotz Zellweger, ex-président tribunal district Steckborn 1991-2010
+  — mandat terminé), Schweizer Sebastian (Fürer Partner Advocaten), Seiler Martin (cabinet
+  individuel), Sorba Emanuel (advore rechtsanwälte, associé), Spahr Christoph (Fachanwalt SAV
+  construction/immobilier, président Association des avocats thurgoviens — fonction compatible),
+  Stadelmann Markus (**étude fondée en 2006**, seul depuis 2023).
+- **SO (9/10)** : Nüssli-Kaiser Nicole (Nüssli Partner, maire d'Allschwil depuis 2013 — mandat
+  exécutif communal compatible, maintenu en parallèle), Palermo Sabrina (aarejura Rechtsanwälte),
+  Pfefferli Roy (KSCP), Platzer Peter (né 1954, licence 1987), Behnisch Barbara St. Reber (notaire,
+  licence 1996), Markus Reber (Dr., notaire), Rechsteiner Peter (associé depuis 1998), Reinhart
+  Mathias (**19 ans d'expérience**), Ritz Rahel (BONT BITTERLI MEIER, inscrite 2021).
+
+Échecs (5) : Fröhlich Peter/AG (aucune correspondance confirmée) ; Jusupovic Selma/NE (seule
+inscription au rôle, sans adresse) ; Schoch Ospina Montes Katja/TG (exerce à Winterthur, canton de
+Zurich, malgré un bureau de son étude à Frauenfeld) ; Steiger Christophe Philipp/TG (informations
+contradictoires — juriste d'entreprise salarié vs affiliations d'études non concordantes) ; Orfei
+Pierino/SO (président de tribunal de district à plein temps, fonction judiciaire professionnelle
+et non pratique indépendante).
+
+Todo recalculé après écriture : AG 331, ZG 265, NE 132, TG 27, SO 68.
+
+Rattachement : 1115 avocats rattachés par nom au total (1070 → 1115, +45 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 45 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
