@@ -6380,3 +6380,62 @@ Todo recalculé après écriture : TI 123.
 Rattachement : 880 avocats rattachés par nom au total (836 → 880, +44 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 44 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (avocats individuels AG/ZG/NE/TG/SO, lot 17)
+
+Todo (avant ce lot) : AG 361, ZG 295, NE 162, TG 57, SO 98.
+
+Succès (48/50) :
+
+- **AG (10/10)** : Ender Thomas (Dr. iur., Schumacher Baur Hürlimann, spécialiste SBA construction/
+  immobilier, chargé de cours EPFZ depuis 2017), Erne Nicole (chkp. ag, licence 2008/notariat 2014),
+  Ernst Cornelia (Merki & Partner, licence 2018), Etter-Strebel Heidi (Dr., étude propre, Muri),
+  Fäs Peter Walter (Stephani + Partner, licence Bâle-Ville 2012), Fehlmann-Leutwyler Monika
+  (Advokatur und Notariat Fehlmann, Brugg), Felder Roger Stefan (Dr., chkp. ag, licence 2022),
+  Fiechter Markus (Dr. LL.M., Voser Rechtsanwälte, ex-juge suppléant Tribunal de commerce AG
+  1996-2019 — mandat terminé), Fischer Claude (lic. iur., né 1951, licence 1979, Aarau), Fischer
+  Guido (Dr., a repris l'étude familiale en 1985, licence 1981).
+- **ZG (10/10)** : Furrer Marcel (cabinet propre depuis 1999, Cham), Gauch Sandro (WyssLaw,
+  trésorier JusClub Zug), Gerlach Alessandro (ZANETTI Attorneys at Law, Baar), Germann Nathalie
+  (Wenger Vieli, ex-greffière Tribunal cantonal LU — fonction terminée), Ghaemmaghami Páyá (Swiss
+  Law Solutions, notaire ZG), Giger Bruno (Dr., WyssLaw, licence Schwyz 1990), Giger Roman
+  (Kaiser Odermatt & Partner, indépendant depuis 2013, expert fiscal diplômé 1994), Girardet Alain
+  (étude propre depuis 2021, ex-associé/partenaire dès 2001), Gisler Max (Dr., Bauanwalt, droit de
+  la construction), Gmeiner-Giger Mélanie (Wenger Vieli).
+- **NE (9/10)** : Gremion Guillaume (LEAX Avocats), Grossenbacher Florence (Bauer, Haeny & Bauer),
+  Gutmann Séverine (indépendante depuis 2014, ex-DRH Ulysse Nardin), Rufener Corinne Gyssler
+  (avocate et notaire, La Chaux-de-Fonds), Haag Christian (HaagDefacto fondé 2021, anciens mandats
+  de juge suppléant 2013-2017 et de membre d'autorité de conciliation tous terminés, mandats de
+  commission actuels compatibles), Haeny Béatrice (Étude du Lac cofondée 2025, députée PLR au Grand
+  Conseil — mandat parlementaire compatible), Hainard Frédéric (fhavocat sa, ex-Conseiller d'État NE
+  élu 2009, mandat terminé, retour à la pratique privée), Hassissene Ines (Étude CHJ legal,
+  indépendante depuis 2014), Heinis Pierre (Étude Pierre Heinis/ZPG, barreau depuis 1985, ex-substitut
+  du Procureur général 17 ans — mandat terminé).
+- **TG (10/10)** : Parolari Carlo (Bürgi Hotz Zellweger, anciens mandats politiques municipaux tous
+  terminés, préside aujourd'hui plusieurs conseils d'administration — fonctions compatibles), Pedolin
+  Gian Reto (cabinet propre depuis 2003, Langrickenbach), Pirani Thiemo (Weber Wyler von
+  Gleichenstein, licence 2025, juge d'instruction militaire — mandat compatible), Pironato Raphael
+  (Raggenbass, Fachanwalt SAV droit du travail), Pola Michel (veriat legal AG), Regli Tobias
+  (Lindtlaw), Reichelt Simone (Lindtlaw, licence 2024), Reinhart Nathalie (Lindtlaw, trésorière TAV
+  — fonction associative compatible), Rickenbach Jennifer (Bürgi Hotz Zellweger, présidente cantonale
+  TGshop Fachgeschäfte Thurgau élue 2026 — fonction associative compatible), Roos Natalie (Bürgi Hotz
+  Zellweger, licence 2018).
+- **SO (9/10)** : Leiser Lea (Gressly Rechtsanwälte, licence 2022), Rolf lic. iur Liniger (cabinet
+  propre depuis 1989, Olten), Thomann Melania St. Lupi (Dr., Stampfli Rechtsanwälte, présidente de
+  l'association des avocats soleurois), David St. Lüthi (Bischof Rechtsanwälte, inscrit 2010 —
+  confirmation que le « St. » du nom CSV est un fragment de « St. Niklausstrasse »), Peter Dr. rer.
+  pol. Untere Marti (ex-chef de l'Office des impôts soleurois — mandat terminé, confirmation que
+  « Untere » est un fragment de « Untere Sternengasse »), Mast Anna Clara (Morandi Schnider), Mathys
+  Gabriela (indépendante depuis 2016, présidente de la Standeskommission du barreau soleurois),
+  Miescher Andreas (aarejura Rechtsanwälte, administrateur), Miescher Matthias (fondateur/associé
+  aarejura Rechtsanwälte, médiateur FSA).
+
+Échecs (2) : Guggisberg Julien/NE (seule une inscription au rôle du barreau, aucune coordonnée) ;
+« Mengis »/SO (identifiée comme Andrea Mengis, cheffe adjointe salariée du service juridique de
+Procap Suisse à Muttenz BL/Olten — exercice non indépendant, même précédent que Bernhard/D'Amico).
+
+Todo recalculé après écriture : AG 351, ZG 285, NE 152, TG 47, SO 88.
+
+Rattachement : 928 avocats rattachés par nom au total (880 → 928, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
