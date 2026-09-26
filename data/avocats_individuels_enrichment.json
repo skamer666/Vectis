@@ -631,6 +631,13 @@
     "person_name": "Bötschi Christian",
     "reason": "aucune pratique d'avocat privee active trouvee ; faisceau d'indices concordant (articles de presse, LinkedIn) indiquant qu'il s'agit du procureur general (Leitender Staatsanwalt) d'Appenzell Rhodes-Exterieures, retraite en juillet 2022 apres 37 ans ; adresse CSV correspond a un domicile prive partage avec son epouse, non a un cabinet"
   },
+  "ar-christian-botschi": {
+    "_failed": true,
+    "canton": "AR",
+    "checked_date": "2026-09-26",
+    "person_name": "Christian Bötschi",
+    "reason": "était procureur en chef (leitender Staatsanwalt) d'Appenzell Rhodes-Extérieures, retraité fin juillet 2022, actuellement administrateur de sociétés - aucune pratique d'avocat indépendante confirmée."
+  },
   "ar-christoph-langenauer": {
     "canton": "AR",
     "fetched_date": "2026-09-15",
@@ -900,6 +907,13 @@
     ],
     "source_url": "https://www.local.ch/de/d/basel/4054/advokatur-und-notariatsbuero/blaesi-stephan-57u2V1VAJlLCUsXXeUud4w"
   },
+  "bl-stephan-blasi": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-26",
+    "person_name": "Stephan Bläsi",
+    "reason": "résultats de recherche renvoient uniquement des annuaires génériques mentionnant 'Basel' sans confirmer une pratique à Allschwil, aucun site propre ni coordonnées fiables trouvés."
+  },
   "lu-alex-beeler": {
     "canton": "LU",
     "email": "a.beeler@beeler-schuler.ch",
@@ -953,6 +967,27 @@
     "person_name": "Hans Aepli",
     "phone": "041 310 44 29",
     "source_url": "https://search.ch/tel/luzern/sonnenbergstrasse-55/hans-und-sylvie-aepli"
+  },
+  "lu-jacqueline-chopard": {
+    "canton": "LU",
+    "email": "chopard@hispeed.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "Dr. iur., Rechtsanwältin, pratique solo, Sentimattstrasse 13, Lucerne LU.",
+    "person_name": "Jacqueline Chopard",
+    "phone": "041 534 16 55",
+    "source_url": "https://www.local.ch/de/d/luzern/6003/chopard-jacqueline-xfd3bMu0pQNKkyTt-n_f3w"
+  },
+  "lu-johann-burri": {
+    "canton": "LU",
+    "fax": "041 210 70 07",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt, défenseur d'office désigné (Gewählter Amtlicher Verteidiger) du canton de Lucerne, Burgerstrasse 22, Lucerne LU.",
+    "person_name": "Johann Burri",
+    "phone": "041 210 60 12",
+    "practice_areas_de": [
+      "Strafverteidigung"
+    ],
+    "source_url": "https://zip.ch/de/burri-johann-rechtsanwalt-burgerstrasse-luzern-rlE3Mgqm67/"
   },
   "lu-jorg-blum": {
     "canton": "LU",

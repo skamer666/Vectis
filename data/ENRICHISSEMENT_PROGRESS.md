@@ -5475,5 +5475,42 @@ Lise Brügger-Dummermuth (Neuchâtel NE, site du cabinet schaller-lex.ch inacces
 Kerstin Susanne Friedrich (Frauenfeld TG, absente de la page équipe actuelle de S-E-K Advokaten
 malgré des mentions tierces).
 
-Rattachement : 263 avocats rattachés par nom au total (249 → 263, +14). Suite de tests : à
-vérifier (voir ci-dessous).
+Rattachement : 263 avocats rattachés par nom au total (249 → 263, +14). Suite de tests : 94/94 au
+vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 9)
+
+⚠️ **Avertissement méthodologique important** : ce lot a révélé que 13 des 18 candidats
+initialement sélectionnés comme « non traités » via `key(canton, nom_complet CSV) not in cache`
+étaient en réalité **déjà présents dans le cache** — mais sous une clé JSON calculée à partir du
+nom remis à l'ordre naturel prénom-nom (ex. `sz-alois-yberg`), alors que le CSV source stocke ces
+avocats solo au format « Nom Prénom » (ex. `nom_complet = "Yberg Alois"`, qui slugifierait en
+`sz-yberg-alois`). La clé JSON top-niveau n'est qu'une étiquette lisible : le rattachement réel
+dans `build.py` (`attach_individual_enrichment`) compare `norm(person_name)` au `norm(nom_complet)`
+du CSV — donc un `person_name` stocké à l'ordre naturel ("Alois Yberg") NE correspond PAS non plus
+à `norm("Yberg Alois")` et risque de ne jamais s'attacher silencieusement. **Toute exécution
+future doit vérifier l'absence via `(canton, norm(person_name))` sur l'ensemble du cache, pas
+seulement via la clé JSON**, et vérifier que `person_name` reprend l'ordre exact de `nom_complet`
+tel que lu dans le CSV (ne pas "corriger" l'ordre des mots). Les 13 candidats concernés (Yberg
+Alois SZ, Aschwanden Bernhard SZ, Andermatt Arthur SG, Altherr Hans SG, Bifl Daniela BL, Arnold
+Christian/Thomas UR, Albert Martina/Ettlin Robert OW, Amstad Zeier Christine/Balbi Gerhard NW,
+Birchler Martin AR, Anastasi Tatiana Céline TI) n'ont pas été réécrits pour éviter tout risque de
+duplication/écrasement — leur statut de rattachement effectif (attaché ou silencieusement orphelin
+à cause de l'ordre des mots) reste à auditer séparément.
+
+2 candidats réellement nouveaux traités (LU uniquement, seul canton sans collision) + 2 échecs
+neufs identifiés en cours de route (BL/AR) ; 2 échecs supplémentaires rencontrés (AI) se sont
+avérés déjà connus depuis le 2026-09-15 avec les mêmes conclusions (non réécrits).
+
+Succès (2) : Johann Burri (tel/fax, défenseur d'office désigné du canton de Lucerne, spécialisé
+en défense pénale, Lucerne LU) ; Jacqueline Chopard (Dr. iur., tel/email, pratique solo, Lucerne
+LU).
+
+Échecs neufs (2) : Stephan Bläsi (Bâle-Campagne, résultats de recherche pointant vers "Bâle"
+générique sans confirmer une pratique à Allschwil, aucun site propre trouvé) ; Christian Bötschi
+(Appenzell Rhodes-Extérieures, ancien procureur en chef retraité en 2022, aucune pratique
+d'avocat indépendante confirmée).
+
+Rattachement : 265 avocats rattachés par nom au total (263 → 265, +2 ; nombre potentiellement
+sous-estimé compte tenu de l'avertissement ci-dessus sur l'ordre des noms). Suite de tests :
+94/94 au vert (voir ci-dessous, tests exécutés conjointement avec le lot Phase 3b du même jour).
