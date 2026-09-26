@@ -6075,3 +6075,63 @@ Todo recalculé après écriture : AG 381, ZG 315, NE 182, TG 77, SO 118.
 
 Rattachement : 600 avocats rattachés par nom au total (557 → 600, +43 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 43 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 14)
+
+Todo (avant ce lot) : TI 323 (seul canton restant pour la Phase 3c — SG, LU, BL, SZ, UR, OW, NW, AR,
+AI deja epuises, ZH et GR structurellement sans avocats solo).
+
+Succès (49/50) : Broggini Marco (avocat et notaio, Locarno/Ascona, tel/email) ; Brun Theobald
+(**independant depuis 1998**, LL.M., specialiste propriete intellectuelle, Lugano) ; Brunetti Elio
+(dott. iur., Lugano/Arbedo) ; Böhm Daniel A. (**etude fondee en 1997**, Lugano) ; Cabrini Renato
+(avocat et notaire, ex-president OATI 2015-2019, Lugano) ; Caimi Carlo Luigi (**en activite depuis
+1983**, ex-Granconsigliere 2003-2015, ex-juge suppleant Tribunal d'appel jusqu'en 2023, president de
+"Si alla Vita" depuis 1986) ; Caimi-Gellera Biancamaria (meme etude, **inscrite 1985**) ; Caldelari
+Pierpaolo (**en activite depuis 1981**, membre CA Banque Cornèr depuis 2019) ; Calvarese Daniele
+(associe CSNLAW depuis 2009, tel/fax) ; Camponovo Aron (**etude fondee 2009**, ex-president du
+Conseil communal de Chiasso) ; Camponovo Elena (etude propre Chiasso, tel/email) ; Camponovo Stefano
+(**brevet 2002**, etude Camponovo & Camponovo depuis 2003, vice-syndic de Chiasso — mandat local
+compatible ; homonymie CSV non resolue avec un second "Camponovo Stefano" dans le meme canton,
+rattachement ignore par le garde-fou anti-collision) ; Camponovo Teo (fiche minimale, inscription
+recente 16.01.2026) ; Canevascini Brenno (**en activite depuis 1991**, ex-president OATi 2011-2013,
+chroniqueur droit sportif depuis 1991) ; Capoferri Fabio (etude propre, Chiasso) ; Capoferri
+Regazzoni Barbara (Lugano, tel/fax) ; Caratti Paolo (Bellinzona, **en activite depuis 1994**) ;
+Caroni Milo (**brevet 1964**, Locarno, tel) ; Caroni Paolo (etude de famille Locarno, ex-vice-syndic
+de Locarno 2012-2021 — mandat local compatible, actuel president de la Commission intercommunale
+des transports) ; Caronna Raffaele (etude Torricelli & Caronna, Lugano) ; Casagrande Carlo (Dr.,
+Lugano, tel) ; Casella Capelli Mara (**etude fondee 2006**, Camorino, droit de la famille/successoral
+/fiscal) ; Cassina Edy (Pregassona, tel) ; Castelli Costantino (CSNLAW, Lugano, consultant juridique
+du CAS Ticino) ; Cattaneo Pascal (etude Stadler-Cattaneo, Chiasso, president OATi, tel/fax) ;
+Cattaneo Sergio (**en activite depuis 1978**, Lugano, tel/fax/email) ; Cavadini Morys (associe BMA
+Brunoni Mottis & Associati depuis 2009, LL.M., droit bancaire) ; Cavalli Corrado (**brevet 1991**,
+Locarno) ; Celio Filippo (CELIO CAVADINI & PARTNERS, Lugano/Ambrì, tel) ; Celio Giovanni (**brevet
+1988**, Biasca, ex-juge Tribunal d'appel 2013-2019, tel/fax) ; Cereda Marco (**etude fondee 1980**,
+Bellinzona, ex-syndic PLR de Sementina jusqu'en 2008, tel/fax/email) ; Cereghetti Marco (Lugano,
+ombudsman assurances privees/SUVA) ; Ceruti Francesco (**en activite depuis 15+ ans**, conseil
+fiscal/societaire, Lugano/Chiasso, tel/email) ; Clemente Cristina (**etude propre depuis 1990**,
+Muralto, droit penal/divorce) ; Codoni Claudio (etude Codoni, Lugano, tel/fax) ; Codoni Nahla (meme
+etude) ; Collenberg Maurizio (etude Molo & Collenberg, Lugano) ; Colombo Epiney Emanuela (ex-pretore
+1988-1990, ex-juge Tribunal d'appel 1990-2015, juge suppleante depuis 2015, presidente Commission de
+recours des magistrats depuis 2016, Porza) ; Colombo Markus (etude Jorio-Colombo, Locarno/Minusio) ;
+Colombo Maura (**en activite depuis 1994**, Lugano, tel) ; Compagnino Marco (fiche minimale,
+inscription recente 26.08.2024) ; Conca Soldati Claudia (Gentilino, tel/fax) ; Corti Nicola
+(ex-procureur public tessinois, etude propre Lugano avec le notaire Quattropani, ex-depute Grand
+Conseil tessinois 2019-2023 — mandat local compatible) ; Costantino Alwin Hermann (etude propre
+Chiasso, **en activite depuis 2015**) ; Creazzo Fabio (Studio Creazzo, Lugano, tel/email) ; Creazzo
+Pier Mario (**brevet 1964**, meme etude de famille, membre Conseil de fondation OTAF) ; Crespi-Hohl
+Irene (avocate salariee a temps partiel, Studio Pietro Crespi, Bellinzona) ; Dadò Raffaele (Muralto,
+droit societaire/successoral) ; Dazio Giancarlo (**en activite depuis 1987**, Locarno, conseil
+juridique de l'Association Suisse de Football).
+
+Échec (1) : Cardoso Teixeira Beatriz (TI — aucune information exploitable trouvee dans les moteurs
+de recherche ni les annuaires professionnels tessinois).
+
+Note : rattachement CSV ignore pour "Camponovo Stefano" (homonymie exacte entre deux lignes distinctes
+du CSV tessinois du meme nom) — cas attendu du garde-fou anti-collision `attach_individual_enrichment`,
+distinct du bug de doublon de cle interne au cache corrige lors d'un lot precedent.
+
+Todo recalculé après écriture : TI 273.
+
+Rattachement : 648 avocats rattachés par nom au total (600 → 648, +48 sur 49 succès en raison de
+l'homonymie CSV ci-dessus ; confirmé par recalcul `build.py` après écriture). Suite de tests : 94/94
+au vert.
