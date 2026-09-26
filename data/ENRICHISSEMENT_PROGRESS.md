@@ -6439,3 +6439,50 @@ Todo recalculé après écriture : AG 351, ZG 285, NE 152, TG 47, SO 88.
 Rattachement : 928 avocats rattachés par nom au total (880 → 928, +48 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 48 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 18)
+
+Todo (avant ce lot) : TI 123 (seul canton restant pour la Phase 3c).
+
+Succès (47/50) : Mottis Davide (BMA Brunoni Mottis & Associati, président du club de hockey Ambrì
+depuis 2026), Märki Marco (Fiori e Märki, Locarno), Naef Francesco (partner CSNLAW), Nero Valentina
+(**licence 2022**, nerolegal.ch), Neuroni Elena (fiche minimale), Notti Irma (membre OATi, Morbio
+Inferiore), Olgiati Diego (avv. et notaire, président Judo Kwai Muralto), Olgiati Rocco (membre OATi
+et notaire, inscrit 2002), Ottaviani dr. Fabrizio (Studio Legale Ottaviani, a repris l'étude
+familiale fondée par son père en 1947), Pacilli Chiara (fiche minimale, inscrite 2023), Padlina
+Gabriele (licence 2010), Pagani Luca (**indépendant depuis 2017**, maire de Balerna, président du
+Parlement tessinois 2015/16 — mandats locaux/cantonaux compatibles), Pampanin Gadella Federica
+(membre OATi et notaire, inscrite 1993), Parli Massimiliano (Eusebio & Parli), Patuzzo Michele et
+Patuzzo Sandro (étude familiale Patuzzo, Sandro ex-Pretore de Lugano et ex-juge de la Cour d'appel —
+mandats terminés), Paul Anupa (Bellinzona), Pedrazzini dr. Franco (Dr., LL.M., membre FSA depuis
+1992), Pedrazzini Ghisla Lorenza (ex-présidente du district PPD de Locarno — mandat terminé), Pedrazzini
+Luigi (étude familiale Pedrazzini Ghisla, ex-Conseiller d'État tessinois — mandat terminé, retour à
+la pratique), Pedrazzini Massimo (étude fondée en 2014), Pedrinis Susy (inscrite 2024), Pedroli
+Giuseppe (né 1959, diplômé Berne 1989), Pedrolini Carlo Edy (LL.M., propriétaire unique depuis 2021),
+Peduzzi Stefano (avvocato e mediatore), Pellegrini Pietro (**barreau depuis 1964**), Pellegrini
+Sebastiano (Rossi-Pellegrini-Sauvain), Pelli Fulvio (Pelli & Associati, anciens mandats politiques
+tous terminés — conseil national 1995-2014, ex-président FDP.Les Libéraux), Perucchi Marco (inscrit
+1988, notaire 1990), Peter Henry (Prof. Dr., Kellerhals Carrard, ex-chargé de cours Genève
+1988-1997 — fonction académique terminée), Petrini Enea (**étude propre depuis 2014**, membre du CA
+de BancaStato depuis 2023 — fonction de conseil compatible), Petrini Gardo (licence 1989), Pezzati
+Fulvio (Via Soldino, Lugano), Pieretti Gerrits Francesca (fondatrice, barreaux TI et Milan), Pietra
+Ponti Marina (ex-conseil juridique ASMACT 17 ans — mandat terminé), Pizzola Stefano (inscrit 1990),
+Polar Giovanni (inscrit 1974), Ponti Daniel (né 1975, président association Ceresio Clean Bottoms —
+fonction associative compatible), Pool Sara (fiche minimale, inscrite 2023), Pozzi Andrea (né 1960,
+maire de Novaggio — mandat local compatible), Pozzoli Rodolfo (Probst & Pozzoli), Primavesi Marco
+(inscrit 1984, notaire 1985), Prospero Andrea A. (étude fondée en 2003, ex-KPMG/Arthur Andersen —
+fonctions terminées), Quadri Marcello, Quadri Massimo (Monti Lang & Quadri, inscrit 2005), Quadri
+Venerio (fiche minimale, inscrit 1991), Quattropani Samuele (**indépendant depuis 2001**, président
+de la Commission régionale de tutelle d'Agno depuis 2004 — fonction publique locale compatible).
+
+Échecs (3) : Panariello Weber Antonella (aucune information spécifique trouvée) ; Peran Xenia
+(**radiée du Registre cantonal des avocats**, radiation confirmée par le tribunal administratif et
+le Tribunal fédéral — ne peut pas exercer actuellement) ; Piccaluga Federico (identifié comme
+juriste d'entreprise salarié — Group General Counsel de Duferco/DufEnergy — exercice non
+indépendant).
+
+Todo recalculé après écriture : TI 73.
+
+Rattachement : 975 avocats rattachés par nom au total (928 → 975, +47 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 47 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
