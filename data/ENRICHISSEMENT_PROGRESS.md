@@ -6542,3 +6542,46 @@ Todo recalculé après écriture : AG 341, ZG 275, NE 142, TG 37, SO 78.
 Rattachement : 1021 avocats rattachés par nom au total (975 → 1021, +46 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 46 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 19)
+
+Todo (avant ce lot) : TI 73 (seul canton restant pour la Phase 3c).
+
+Succès (49/50) : Ramelli Franco (Ramelli-Broggini, 30+ ans), Rampini Attilio (juge suppléant Cour
+d'appel, membre commission disciplinaire — fonctions compatibles), Regazzi Fabio et Regazzi Märki
+Pamela (Studio Mecca-Regazzi/notleg.ch), Rei-Ferrari Chiarella (**a repris l'étude familiale en
+1990**, première femme présidente de l'Ordre des avocats tessinois 1999/2000 — mandat terminé, juge
+suppléante depuis 1992 — fonction compatible), Rella Massimo, Respini Simona, Rezzonico Lorenza,
+Rigato Laura, Rizzi Ornella (fiche minimale, inscrite 2013), Robbiani Yari (licence 2004), Romelli
+Eva et Romelli Stefano (étude familiale, Stefano licence 1981), Rossi Matteo (Rossi-Pellegrini-
+Sauvain), Rossi Stefano (inscrit 2002), Roveri Maurizio (**propriétaire de sa propre étude**,
+chargé de cours Villa Negroni depuis 2007), Rulli Roberto (barreau depuis 1990), Rusca Michele
+(inscrit 1981), Sala Luciana (Toffoli & Sala, associée fondatrice), Salvioni Niccolò (**propriétaire
+depuis 2017**, étude fondée par son père en 1962), Scarpelli Samuele (Dr. iur., licence 2018,
+ex-secrétaire judiciaire du Ministère public 2016-2022 — fonction terminée), Schindler Marc (fiche
+minimale), Schober-Foletti Katja (inscrite 1999), Schweikert Anne (avocate et notaire depuis
+2000/2004, VP COOPI Suisse depuis 2016 — fonction compatible), Schweri Isabel, Scilanga Marilisa
+(Dr., étude fondée 2014), Sciuchetti Sergio (inscrit 1986), Segàt Luca (deux adresses confirmées,
+Bellinzona et Paradiso), Simonetti Claudio (co-titulaire CSNLAW), Snider Francesca (membre OATi et
+notaire), Soldati Felicita (**étude propre depuis 2019**), Soldati Gregory (**retour au Tessin en
+2017**), Soldati Marco, Speziali Carla (Dr., fondatrice, **23 ans d'expérience**, ex-maire de Locarno
+2004-2015 — mandat terminé, étude maintenue durant le mandat), Spiess Giangiorgio (ancien membre du
+comité exécutif de l'UEFA — distinction honorifique compatible), Stadler Sandro (président de
+l'Association suisse des notaires — fonction compatible), Steimle-Schuler Ursula, Taddei Luca
+(membre OATi et notaire), Tadè-Klinkenbergh Taïsa (inscrite 2020, brevet 2013), Talleri Giacomo
+(LL.M.), Tartaglia Lara (**licence obtenue en 2021**, née 1994), Toffoli Curzio (associé fondateur
+Toffoli & Sala), Togninalli Gianora Claudia (étude familiale Gianora), Toma Pelucca Lara (licence
+1994), Turkovic Mara (fiche minimale, licence 2022), Uboldi Ermani Tanja (inscrite 1992, notariat
+1995), Urbani Nicola (**près de 30 ans de pratique**), Vadlja Davor (membre conseil de fondation
+d'une caisse de pension — fonction compatible), Valsangiacomo Andrea (étude fondée 1981, y exerce
+depuis 2000).
+
+Échecs (1) : Solcà Claudia (identifiée comme juge ordinaire à la Cour d'appel du Tribunal pénal
+fédéral à Bellinzone depuis 2019 — fonction judiciaire fédérale à plein temps, situation trop
+ambiguë pour confirmer une pratique indépendante actuelle).
+
+Todo recalculé après écriture : TI 23 (dernier lot restant pour clore la Phase 3c).
+
+Rattachement : 1070 avocats rattachés par nom au total (1021 → 1070, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
