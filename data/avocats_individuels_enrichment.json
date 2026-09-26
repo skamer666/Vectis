@@ -953,6 +953,33 @@
     "person_name": "Dettwiler Heinz",
     "reason": "aucune confirmation qu'il s'agit d'un avocat (Rechtsanwalt) ; toutes les sources trouvees (une seule, non verifiable par acces direct) le qualifient uniquement de notaire ('Notar') ; absent des registres d'avocats consultes (anw24.ch) et du registre des notaires de Bale-Campagne (notariat-baselland.ch, qui liste un 'Dieter Dettwiler' distinct) -- titre non confirme, non retenu"
   },
+  "bl-heritier-patrick": {
+    "_failed": true,
+    "canton": "BL",
+    "checked_date": "2026-09-26",
+    "person_name": "Héritier Patrick",
+    "reason": "cabinet Advokatur Héritier & Partner AG basé à Bâle (canton de Bâle-Ville BS), pas à Bâle-Campagne (BL), malgré la résidence de Patrick Héritier à Oberwil BL - incohérence cantonale, cohérent avec le précédent déjà constaté pour Daniel Fässler (AI)."
+  },
+  "bl-hess-helena": {
+    "canton": "BL",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur Helena Hess",
+    "notes": "Dr. iur., Advokatin, pratique solo, langues allemand/français/anglais, domaines : droit étranger, droit de la construction et de l'aménagement, poursuites et faillites, responsabilité civile et assurances, droit pénal, droit des contrats, droit civil, Schulstrasse 23, Muttenz BL.",
+    "person_name": "Hess Helena",
+    "phone": "+41 61 465 10 30",
+    "source_url": "https://advokaturhess.ch/"
+  },
+  "bl-hindermann-fluri-heidi": {
+    "canton": "BL",
+    "email": "h.hindermann@advokatur-gstad.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Advokatur im Gstad",
+    "founding_year": 1993,
+    "notes": "Advokatin, dirige l'Advokatur im Gstad (fondée en 1993), pratique le droit depuis 1989, spécialisée en droit de la famille, Tramstrasse 55, Münchenstein BL.",
+    "person_name": "Hindermann Fluri Heidi",
+    "phone": "+41 61 411 35 10",
+    "source_url": "https://advokatur-gstad.ch/team/heidi-hindermann/"
+  },
   "bl-peter-brodbeck": {
     "canton": "BL",
     "fetched_date": "2026-09-15",
@@ -1022,6 +1049,16 @@
     ],
     "source_url": "https://gerichte.lu.ch/anwaelte_notare_sachwalter/anwaelte/anwaltsregister_kanton_luzern?filter=B"
   },
+  "lu-dieter-daubitz": {
+    "canton": "LU",
+    "email": "dr.daubitz@tic.ch",
+    "fax": "041 410 38 41",
+    "fetched_date": "2026-09-26",
+    "notes": "Dr. iur., Rechtsanwalt, cabinet propre, également chef de projet pour la SGA (Schutzgemeinschaft für Ärzte), Baldismoosstrasse 42, Adligenswil LU.",
+    "person_name": "Dieter Daubitz",
+    "phone": "041 370 14 81",
+    "source_url": "http://www.swissguide.ch/de/Rechtsanwalt-Patentanwalt/Luzern/149738_driurdieterdaubitz.html"
+  },
   "lu-edith-burri": {
     "canton": "LU",
     "fetched_date": "2026-09-15",
@@ -1075,6 +1112,17 @@
       "Marken- und Urheberrecht"
     ],
     "source_url": "https://iur-team.ch/iurteam/blum/"
+  },
+  "lu-linda-dosch": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Ineichen Manser Barmettler Dosch",
+    "founding_year": 2003,
+    "notes": "Rechtsanwältin LL.M. et médiatrice, brevet 2003, associée chez Ineichen Manser Barmettler Dosch, spécialisée en droit commercial international et européen, droit des contrats, droit des sociétés, droit international privé, langues allemand/anglais/français, Sempacherstrasse 15, Lucerne LU.",
+    "person_name": "Linda Dosch",
+    "phone": "+41 41 418 60 35",
+    "source_url": "https://anwalt-ineichen.ch/kontakt",
+    "specialist_certification": "LL.M. ; médiatrice ; membre LAV depuis 2017"
   },
   "lu-marc-bieri": {
     "canton": "LU",
@@ -1202,6 +1250,13 @@
       "Notariat"
     ],
     "source_url": "https://www.iup.ch/de/team/team-barmettler"
+  },
+  "lu-stefan-a-dettwiler": {
+    "canton": "LU",
+    "fetched_date": "2026-09-26",
+    "notes": "Rechtsanwalt indépendant (dettwilerlaw.ch), ancien responsable de l'assurance militaire suisse pendant plus de 14 ans (jusqu'au 01.09.2022), conseiller communal (FDP) et président local du parti à Eich, Ibrigweidstrasse 35, Eich LU.",
+    "person_name": "Stefan A. Dettwiler",
+    "source_url": "https://tel.search.ch/eich/ibrigweidstrasse-35/stefan-a-dettwiler"
   },
   "lu-willy-blattler": {
     "canton": "LU",
@@ -2146,12 +2201,39 @@
     ],
     "source_url": "https://search.ch/tel/st-gallen/museumstrasse-35/silvia-gerlach"
   },
+  "sg-grob-walter": {
+    "_failed": true,
+    "canton": "SG",
+    "checked_date": "2026-09-26",
+    "person_name": "Grob Walter",
+    "reason": "aucune mention d'un avocat actif nommé Walter Grob à St-Gall - seuls trouvés : un fromager retraité, un ancien maire de Teufen (affaire d'héritage) et un ex-président de la KESB Linth ; aucun rapport avec la profession d'avocat confirmé."
+  },
+  "sg-guntzel-karl": {
+    "canton": "SG",
+    "email": "guentzel.ra@bluewin.ch",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur., Rechtsanwalt (né en 1950), cabinet propre, ancien président du Grand Conseil saint-gallois (2011/12, membre 1992-2023), pratique en droit de la construction et de l'aménagement du territoire, droit commercial et droit pénal, langues allemand/anglais/français, Goethestrasse 24, St-Gall SG.",
+    "person_name": "Güntzel Karl",
+    "phone": "071 222 90 23",
+    "source_url": "https://www.anwaltvergleich.ch/anwalt-Karl-Guntzel-St.+Gallen-rechtsanwalt-2554.htm"
+  },
   "sg-hans-altherr": {
     "_failed": true,
     "canton": "SG",
     "checked_date": "2026-09-15",
     "person_name": "Altherr Hans",
     "reason": "aucune donnee de pratique juridique privee trouvee (fiche generique sans domaines) ; seul numero mobile prive trouve, explicitement marque 'sans publicite' sur l'annuaire -- non retenu par respect de la confidentialite ; personnalite publique (ex-Conseiller aux Etats)"
+  },
+  "sg-hanzi-thomas": {
+    "canton": "SG",
+    "email": "info@haenzikoch.ch",
+    "fax": "+41 71 282 10 69",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Anwaltskanzlei Hänzi & Koch",
+    "notes": "Rechtsanwalt, cabinet Hänzi & Koch, pratique en droit commercial et droit des contrats, Achslenstrasse 13, St-Gall SG.",
+    "person_name": "Hänzi Thomas",
+    "phone": "+41 71 282 10 60",
+    "source_url": "http://www.haenzikoch.ch/index.php?article_id=17"
   },
   "sg-jurg-dommer": {
     "canton": "SG",
@@ -2836,6 +2918,13 @@
     "source_url": "http://anw24.ch/details/6371/stefan-pfyl-schwyz.html",
     "specialist_certification": "dipl. Steuerexperte"
   },
+  "sz-porpiglia-giovanni": {
+    "_failed": true,
+    "canton": "SZ",
+    "checked_date": "2026-09-26",
+    "person_name": "Porpiglia Giovanni",
+    "reason": "identifié comme président de la société Amforc AG (blockchain/DLT) à Reichenburg SZ, aucune pratique d'avocat active confirmée - aucune qualification ni activité juridique mentionnée dans les résultats."
+  },
   "sz-roberto-daniel-hayer": {
     "canton": "SZ",
     "email": "roberto.hayer@reberlaw.ch",
@@ -2852,6 +2941,24 @@
       "Spanish Desk"
     ],
     "source_url": "https://www.reberlaw.ch/de/team/roberto-hayer"
+  },
+  "sz-rohner-oswald": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-26",
+    "notes": "lic. iur., Rechtsanwalt, Advokaturbüro (UID CHE-333.233.995), également juge au tribunal de district (Bezirksgericht) d'Einsiedeln, Churerstrasse 24, Pfäffikon SZ.",
+    "person_name": "Rohner Oswald",
+    "source_url": "https://www.hellopage.ch/Rohner-Oswald-Lachen-SZ-lic.-iur.-Rechtsanwalt-Advokaturb%C3%BCro-cztstruqqtzc",
+    "specialist_certification": "lic. iur."
+  },
+  "sz-schumacher-matthias": {
+    "canton": "SZ",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Rechtsanwalt Schumacher",
+    "founding_year": 2002,
+    "notes": "Rechtsanwalt (brevet schwyzois depuis 2002) et Urkundsperson du canton de Schwyz, né en 1972, également actif chez Mattig-Suter und Partner (fiduciaire), Strehlgasse 13, Schwyz SZ.",
+    "person_name": "Schumacher Matthias",
+    "phone": "+41 79 207 42 25",
+    "source_url": "https://www.schumacherlaw.ch/uumlber-mich.html"
   },
   "sz-walter-fleischmann": {
     "canton": "SZ",
@@ -3811,6 +3918,33 @@
     "phone": "091 923 45 21",
     "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati/"
   },
+  "ti-bernasconi-loris": {
+    "canton": "TI",
+    "email": "loris.bernasconi@bluewin.ch",
+    "fax": "091 682 47 27",
+    "fetched_date": "2026-09-26",
+    "notes": "Avvocato e notaio, membro OATi, pratique en droit administratif, droit commercial, droit des contrats, droit du divorce, droit des sociétés et poursuites/faillites, Piazza Indipendenza 4, Chiasso TI.",
+    "person_name": "BERNASCONI Loris",
+    "phone": "091 682 41 71",
+    "source_url": "http://lorisbernasconi.ch/en/",
+    "specialist_certification": "notaio (membro OATi)"
+  },
+  "ti-bernasconi-marco": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "notes": "Avvocato inscrit au registre cantonal tessinois depuis le 24.05.1989, Crocicchio Cortogna 2, CP 1138, Lugano TI. Fiche minimale (registre officiel uniquement, aucun cabinet ni site propre identifié).",
+    "person_name": "BERNASCONI Marco",
+    "source_url": "https://www4.ti.ch/poteri/giudiziario/avvocatura-e-notariato/registro-cantonale-avvocati/?user_pgiudiziario_pi2%5Bricerca%5D=&page=9"
+  },
+  "ti-bernasconi-nello": {
+    "canton": "TI",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Studio legale e notarile avv. Nello Bernasconi",
+    "notes": "Avvocato e notaio, membro OATi, 53 ans d'expérience professionnelle, langues italien/allemand, Salita Carlo Bossoli 8, Lugano TI.",
+    "person_name": "BERNASCONI Nello",
+    "source_url": "https://www.jurata.ch/anwalt/nello-bernasconi",
+    "specialist_certification": "notaio (membro OATi)"
+  },
   "ti-francesca-balerna-gianotti": {
     "canton": "TI",
     "fax": "+41 91 752 04 45",
@@ -4012,6 +4146,34 @@
       "Notariatsrecht"
     ],
     "source_url": "http://anw24.ch/details/3865/heinz-holzinger-schattdorf-ur"
+  },
+  "ur-huber-gabi": {
+    "canton": "UR",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bachmann Huber Zgraggen",
+    "founding_year": 1982,
+    "notes": "Dr. iur., Rechtsanwältin und Notarin, brevet 1981, cabinet propre depuis 1982, co-propriétaire de Bachmann Huber Zgraggen, ancienne conseillère nationale (FDP), Rathausplatz 7, Altdorf UR.",
+    "person_name": "Huber Gabi",
+    "source_url": "https://search.ch/tel/altdorf/rathausplatz-7/dr-iur-huber-gabi",
+    "specialist_certification": "notaire (brevet 1981) ; doctorat en droit civil 1990 ; médiatrice FSA depuis 2006"
+  },
+  "ur-hunninger-sebastian": {
+    "canton": "UR",
+    "fetched_date": "2026-09-26",
+    "notes": "MLaw, Rechtsanwalt, cabinet à Gotthardstrasse 76A, Schattdorf UR (également actif à Zurich), pratique en droit pénal fiscal, droit des étrangers et droit de la famille (divorce, enlèvement international d'enfants, entretien, garde), langues allemand/français.",
+    "person_name": "Hünninger Sebastian",
+    "source_url": "https://dr-fassbender.ch/rechtsanwalt-sebastian-huenninger/",
+    "specialist_certification": "MLaw"
+  },
+  "ur-meier-markus": {
+    "canton": "UR",
+    "fax": "041 870 94 14",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Meier Rechtsanwälte und Notare",
+    "notes": "Rechtsanwalt, cabinet Meier Rechtsanwälte und Notare, tarif horaire CHF 250-350, langues allemand/anglais/français, spécialisé en droit commercial et droit des contrats, Spitalplatz 6, Altdorf UR.",
+    "person_name": "Meier Markus",
+    "phone": "041 870 94 44",
+    "source_url": "https://www.anwaltvergleich.ch/anwalt-Markus-Meier-Altdorf+UR-rechtsanwalt-4131.htm"
   },
   "ur-patrizia-danioth-halter": {
     "canton": "UR",

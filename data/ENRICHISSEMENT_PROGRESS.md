@@ -5558,3 +5558,46 @@ officiel du barreau, aucun cabinet ni coordonnée trouvés).
 
 Rattachement : 278 avocats rattachés par nom au total (259 → 278, +19 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 19 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 10)
+
+Todo (méthode `(canton, norm(person_name))`, avant ce lot) : TI 351, SG 46, BL 18, SZ 12, UR 16,
+OW 0, NW 0, AR 0, AI 0, LU 50. 18 candidats recherchés, 3 par canton sur TI/SG/BL/SZ/UR/LU.
+
+Point de méthode : les recherches web de ce lot ont été relancées après une reprise de session
+(le contexte détaillé d'un lot précédemment interrompu n'était plus disponible mot pour mot dans
+la conversation reprise). Plutôt que de risquer une reconstitution approximative de faits déjà
+oubliés, chaque candidat a été re-vérifié par une recherche fraîche avant toute écriture —
+cohérent avec la consigne de ne jamais fabriquer de faits.
+
+Succès (15) : Loris Bernasconi (avvocato e notaio, tel/fax/email, membre OATi, Chiasso TI) ; Marco
+Bernasconi (fiche minimale — inscrit au registre cantonal tessinois depuis 1989, aucun cabinet
+propre identifié, Lugano TI) ; Nello Bernasconi (avvocato e notaio, Studio legale e notarile,
+membre OATi, 53 ans d'expérience, Lugano TI) ; Karl Güntzel (lic. iur., cabinet propre, tel/email,
+ancien président du Grand Conseil saint-gallois, St-Gall SG) ; Thomas Hänzi (Anwaltskanzlei Hänzi
+& Koch, tel/fax/email, St-Gall SG) ; Helena Hess (Dr. iur., Advokatur Helena Hess, tel, domaines,
+Muttenz BL) ; Heidi Hindermann Fluri (Advokatin, Advokatur im Gstad **fondée en 1993**, tel/email,
+spécialiste droit de la famille, Münchenstein BL) ; Oswald Rohner (lic. iur., Advokaturbüro,
+également juge au Bezirksgericht d'Einsiedeln, Pfäffikon SZ) ; Matthias Schumacher (**brevet
+depuis 2002**, tel, Urkundsperson, également chez Mattig-Suter und Partner, Schwyz SZ) ; Gabi
+Huber (Dr. iur., Rechtsanwältin und Notarin, **brevet 1981**, co-propriétaire Bachmann Huber
+Zgraggen, ancienne conseillère nationale FDP, Altdorf UR) ; Sebastian Hünninger (MLaw, cabinet à
+Schattdorf UR et à Zurich, droit pénal fiscal/étrangers/famille) ; Markus Meier (Meier
+Rechtsanwälte und Notare, tel/fax, domaines, Altdorf UR) ; Dieter Daubitz (Dr. iur., tel/fax/email,
+cabinet propre, Adligenswil LU) ; Stefan A. Dettwiler (cabinet propre dettwilerlaw.ch, ancien
+responsable de l'assurance militaire suisse, conseiller communal FDP, Eich LU) ; Linda Dosch
+(Rechtsanwältin LL.M., médiatrice, **brevet 2003**, associée chez Ineichen Manser Barmettler
+Dosch, Lucerne LU).
+
+Échecs (3) : Walter Grob (SG — aucun avocat actif de ce nom trouvé, seuls des homonymes sans
+rapport : fromager retraité, ancien maire de Teufen, ex-président KESB Linth) ; Patrick Héritier
+(BL — cabinet Advokatur Héritier & Partner AG basé à Bâle-Ville BS et non à Bâle-Campagne BL malgré
+sa résidence à Oberwil BL, incohérence cantonale cohérente avec le précédent Daniel Fässler/AI) ;
+Giovanni Porpiglia (SZ — identifié uniquement comme président d'Amforc AG, société blockchain/DLT,
+aucune pratique d'avocat active confirmée).
+
+Todo recalculé après écriture : TI 348, SG 43, BL 15, SZ 9, UR 13, LU 47 (12 cantons groupables ;
+OW/NW/AR/AI restent à 0, cohorte épuisée).
+
+Rattachement : 293 avocats rattachés par nom au total (278 → 293, +15 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 15 succès). Suite de tests : 94/94 au vert.
