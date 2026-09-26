@@ -6332,3 +6332,51 @@ Todo recalculé après écriture : TI 173.
 
 Rattachement : 836 avocats rattachés par nom au total (790 → 836, +46 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3c, lot du 2026-09-26 (avocats solo, 12 cantons groupables, lot 17)
+
+Todo (avant ce lot) : TI 173 (seul canton restant pour la Phase 3c).
+
+Succès (44/50) : Macconi Roberto (avv. et notaire, licence 1972), Maddalena Gabrielle (**étude
+propre depuis 2019**, focus droit pénal), Maffei Giorgia (**étude fondée en 2015**), Maggetti Mirko
+(**notaire, en pratique individuelle depuis 20 ans**), Maggini Cristina (fiche minimale), Magri
+Flavio (barreau depuis 1971, notaire depuis 1971), Malnati Fabiola (**raison individuelle créée en
+2024**, licence 2012), Manconi Alix (**étude propre depuis avril 2023**), Manetti Stefano (LawStudio,
+licence 1990), Marazzi Andrea (étude et notariat, Muralto), Marcellini Luca (co-fondateur
+Marcellini-Galliani, pénal/entraide/fiscal), Mariotti Sinikka et Mariotti Vittorio (étude familiale
+de 2 avocats, Vittorio né 1946, ex-conseiller communal Locarno 1979-1992 — mandat terminé), Martinelli
+Peter Raffaella (spécialiste FSA et médiatrice FSA droit du travail), Martinoli Caterina (Dr., étude
+propre), Martire Francesco (fiche minimale, inscrit 2024), Masi Federica (**titulaire depuis ~2022**),
+Masoni Brenni Giovanna (étude familiale de 1958, présidente Banca del Ceresio/CISA — fonctions de
+présidence compatibles), Masoni D'Andrea Paola (inscrite 1995), Masoni Franco (**barreau depuis
+1957**, anciens mandats politiques tous terminés : conseiller national 1967-1975, conseiller aux
+États 1975-1979/1983-1991), Mazzoleni Alessandro (spécialiste FSA RC/assurances, vice-syndic de
+Minusio — mandat local compatible), Mazzoleni Corno Maddalena, Mazzoleni Maria Grazia (**active
+depuis 1986**), Mazzoleni Piero (**licence 1979**, ex-maire de Minusio 12 ans — mandat terminé,
+aujourd'hui président de la Protection Suisse des Animaux), Mecca Athos (Mecca Avvocati SA, fondée
+2022), Meier Daniele (avv. et notaire, inscrit 1989), Menini Nicola (inscrit 1999, notaire 2000),
+Merlini dr. Giovanni (né 1962, ex-conseiller national 2014-2019 — mandat terminé, préside aujourd'hui
+le conseil de la SUPSI), Meyer Shamali (fiche minimale, inscrite 2025), Meyer-Tomassini dr. Tiziana
+(**étude propre depuis 1994**), Minotti Ivano (**en pratique depuis plus de 30 ans**), Mion Fabrizio
+(inscrit 1983), Moghini Giovanni (adresse trouvée diffère du CSV — Lugano/Paradiso au lieu de
+Savosa, agglomération proche), Molina Gianluca (licence 2003, président ARP 2 Mendrisio — fonction
+publique locale compatible), Molino Andrea (associé fondateur MAG Legis, étude fondée 1959), Molo
+Mario (**licence 1977**, ex-président du Tribunal militaire 8 — mandat terminé), Molo Mauro
+(co-titulaire Molo & Collenberg depuis 1993), Mombelli Egidio, Monaci Fabrizio F. (~20 ans de
+pratique), Monti Antonio (**étude fondée en 1991**, SA depuis 2010), Monti Lang Donatella (étude
+Monti Lang & Quadri), Mordasini Emilie (juge suppléante Cour d'appel élue 2021 — mandat judiciaire
+compatible), Morganti Perucchi Micol (Kellerhals Carrard, membre PostCom — fonction fédérale de
+commission compatible), Moroni Stampa Mauro.
+
+Échecs (6) : Maiolo Riccardo (exerce comme secrétaire judiciaire salarié du Ministère public
+tessinois — poste public non indépendant) ; Mancini Daniela (seul un stage 2019 et un brevet 2023
+confirmés, aucune pratique indépendante actuelle) ; Mantoan Ugo (seul un listage générique
+d'annuaire) ; Marazza Carlo (aucun avocat de ce nom identifié à Locarno) ; Moghini Francesca (seul
+un profil LinkedIn sans coordonnées) ; Mombelli Sharon (seule une fiche d'annuaire générique sans
+détails vérifiables).
+
+Todo recalculé après écriture : TI 123.
+
+Rattachement : 880 avocats rattachés par nom au total (836 → 880, +44 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 44 succès ; toujours 2 collisions de nom ignorées, sans
+changement). Suite de tests : 94/94 au vert.
