@@ -6135,3 +6135,67 @@ Todo recalculé après écriture : TI 273.
 Rattachement : 648 avocats rattachés par nom au total (600 → 648, +48 sur 49 succès en raison de
 l'homonymie CSV ci-dessus ; confirmé par recalcul `build.py` après écriture). Suite de tests : 94/94
 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 15)
+
+Todo (avant ce lot) : AG 381, ZG 315, NE 182, TG 77, SO 118.
+
+Succès (46) : AG — 9/10 : Giuseppe Dell'Olivo (Advokatur Baden, mediateur SAV, ex-president du
+Arbeitsgericht Brugg 1997-2008 nebenamtlich), Lea Christina Deubelbeiss (**brevet 14.12.2023**,
+Schärer Rechtsanwälte, ex-employee du parquet), Remo Di Marco (**brevet 2022**, VOSER Rechtsanwälte,
+tel/email), Dominique Sibylle Disler (**fondatrice de lex go AG en 2022**, ex-Baur Hürlimann AG),
+Remo Dössegger (Fürsprecher, cabinet propre Aarau, tel/fax), Marc Dübendorfer (**brevet 1994**,
+Schwaller Flury Dübendorfer, tel/fax), Michèle Dürrenberger (M & D Advokatur und Mediation,
+Rheinfelden, tel), Alex Dutler (ex-procureur argovien, Anwaltsbüro Dutler, Pikettanwalt), Andreas
+Edelmann (**brevet 1992**, Edelmann Rechtsanwälte & Notare, cabinet fonde en 1950, tel/email).
+
+ZG — 8/10 : Fehr Marco (fondateur Fehr Legal GmbH, Baar), Norina Ferrari (MLL Legal depuis 2023),
+Fischer Markus (Marc) (**independant depuis 2002**, FISCHER Advokatur), Jannis Flachsmann (**etude
+JF Legal GmbH fondee 2025**, LL.M. Fordham 2011), Reto Flütsch (Bright Law AG, master droit des
+affaires/fiscal 2021-2023 magna cum laude), Laura Fontana (fondatrice fontana law GmbH, email),
+Nicole Forny (droit des contrats/travail/bail/penal/famille), Dominik Frei (**brevet 2002**, Blum &
+Partner AG, LL.M. Sydney 2005).
+
+NE — 10/10 : David Erard (Etude HFE, Neuchâtel/La Chaux-de-Fonds, tel, conseil TCS), Leia Ursula
+Fardel (Tschumy Avocats depuis 2023, cofondatrice ANeDIAS), Sylvie Fassbind-Ducommun (cabinet propre
+Peseux, ex-deputee, tel/email), Sylvie Favre (ex-procureure, Neuchâtel, droit penal), Laurent Feld
+(Etude CF, Peseux, notaire, tel/email), Jérôme Fer (notavolex, **en pratique depuis 20+ ans**, La
+Chaux-de-Fonds, tel), Tania Ferreira (INLAW Alexandre Zen-Ruffinen SA, Neuchâtel), Franck Flury
+(**brevet juin 2018**, Etude Michel et Marino Montini), Benoît Fracheboud (**brevet 12.12.2025**,
+Etude BHS, defense benevole de militants d'Extinction Rebellion), Manon Freitag (Etude du Lac depuis
+janvier 2026, presidente du Jeune Barreau neuchatelois, conseillere generale et deputee — mandats
+locaux/cantonaux compatibles).
+
+TG — 9/10 : Thomas Leu (partner Hasler Leu Casanova depuis 2009, president de groupe FDP au Kantonsrat
+— mandat cantonal de milice compatible), Ana Maria Lombardi (Bürgi Hotz Zellweger Rechtsanwälte
+depuis 2014, **partenaire depuis juin 2023**), Karin Looser Hürsch (Dr. iur., **brevet 1997**, Bürgi
+Hotz Zellweger Rechtsanwälte, ex-20 ans partenaire chez Grauer & Looser, presidente du TAV), Daniela
+J. Lutz Müller (Lutz Müller Rechtsanwälte depuis 2022, specialiste droit de la construction/immobilier,
+email), Christian Lörli (partner Muri Partner Rechtsanwälte AG depuis 2014, tel), Petar Mihajlovic
+(**brevet 2018**, S-E-K Advokaten, ex-chef de projet cantonal 2022-2023), Nicolas Mohr (**brevet
+2013**, partner Friedrich-Hebeisen-Mohr Rechtsanwälte am Bodensee depuis 2018), Kathrin Moosmann
+(Muri Partner Rechtsanwälte AG), Erich Moser (**brevet 1981**, Advokaturbüro Moser, Frauenfeld,
+tel).
+
+SO — 10/10 : Anita Hug (30+ ans d'experience, cofondatrice Kummer & Hug Rechtsanwälte und Notare,
+independante 1993-2018 puis Solothurn/Zurich 2019-2022), Lucie Hüsler (**inscrite 2001**, notaire,
+mediatrice, cabinet propre Soleure), Andrea Ilgenstein (Morandi Schnider Rechtsanwälte und Notare,
+**inscrite 01.03.2026**, ex-Protekta/Strausak), Cuno Hans Jaeggi (**brevet 2001**, KSCP Rechtsanwälte
+und Notare), Tobias Jakob (Strausak Rechtsanwälte und Notare, tel ; candidat non confirme elu a la
+presidence du tribunal d'arrondissement Solothurn-Lebern en mai 2025, toujours praticien confirme),
+Konrad Jeker (Gressly Rechtsanwälte, specialiste defense penale, chargé de cours HSG, tel/email),
+Ralph Hans Kaiser (KSCP Rechtsanwälte und Notare, droit de la construction, tel/email), Urs Kaiser
+(Dr., **brevet 1982**, KSCP Rechtsanwälte und Notare, Grenchen, tel), Benjamin Kamber (partenaire
+KSCP depuis 2020), Adolf C. Kellerhals (Dr. iur., **inscrit 23.04.2001**, cabinet propre Olten, tel).
+
+Échecs (4) : Thirza Döbeli (AG — brevet obtenu 17.12.2020 mais parcours exclusivement academique/
+recherche a l'Universite de Berne 2015-2019, aucune etude ni pratique independante retracee) ;
+Lorenz Flückiger (ZG — inscrit au registre mais activite confirmee limitee au conseil en gestion des
+risques/compliance, aucune pratique juridique confirmee) ; Philipp Frech (ZG — fiche du registre
+cantonal uniquement, aucune coordonnee ni cabinet) ; Heinz Macchi (TG — discordance de canton,
+cabinet confirme a Wil SG et non en Thurgovie).
+
+Todo recalculé après écriture : AG 371, ZG 305, NE 172, TG 67, SO 108.
+
+Rattachement : 694 avocats rattachés par nom au total (648 → 694, +46 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
