@@ -5878,3 +5878,66 @@ Rattachement : 465 avocats rattachés par nom au total (421 → 462 après ce lo
 succès du fait d'une ambiguïté CSV normale et attendue pour 1 nom partagé par deux personnes réelles
 du même canton — non un bug ; puis 462 → 465, +3, après le correctif des trois doublons de cache
 décrits ci-dessus). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 13)
+
+Todo (avant ce lot) : AG 401, ZG 335, NE 202, TG 97, SO 136. 50 candidats traités, 10 par canton
+(9 pour SO car « D'Amico », nom incomplet sans prénom, laissé de côté), ordre CSV stable.
+
+Point de méthode confirmé sur ce lot : plusieurs candidats occupent en parallèle un mandat
+politique ou judiciaire local/cantonal à temps partiel (députation, conseil communal, juge
+suppléant) sans que cela remette en cause une pratique d'avocat active — traités comme succès,
+conformément au précédent déjà établi (ex. Karl Stadler, UR). Seuls les mandats gouvernementaux ou
+politiques à plein temps (exécutif cantonal, Conseil des États, présidence de parti national)
+continuent d'être traités comme incompatibles avec une pratique active et donc en échec.
+
+Succès (46) : AG — Christoph Bundi (Schärer Rechtsanwälte, notaire, tel/fax/email), Konrad Bünzli
+(Dr. iur., **indépendant depuis 1992**), Nicole Burger (Burger Rechtsanwälte, **depuis 2025**,
+ancienne procureure), Patrick Bürgi (Bürgi Bulaty Wunderlin, **brevet 2003**), Lisa Burkard (chkp.,
+M.A. HSG, **brevet 2017**), Julian Burkhalter (AKJB, **brevet 2011**, tel/fax/email), Sabine
+Burkhalter Kaimakliotis (VOSER Rechtsanwälte, Dr. iur., 21 ans de barreau), Patrik Burri (Fricker
+Seiler, **brevet décembre 2024**, tel/email), Marcel Buttliger (**cabinet fondé 1995**, Dr. iur.,
+ex-Lenz & Staehelin).
+
+ZG — Marie-Anne Dähler (Zwicky & Partner, tel/email), Rainer Deecke (schadenanwaelte AG, **brevet
+2008**, Fachanwalt SAV, tel/email), Carmela Degen (WILD DUBACH AG), Carmen de la Cruz Böhringer
+(**admise 1997**, partenaire depuis 2012), Nathan Demmer (Schilter Rechtsanwälte, **depuis 2025**),
+Andreas Derungs (**cabinet propre depuis 2003**, brevet 1989, tel), Cornelia Diedrichsen
+(**fondatrice depuis 2017**, brevet 2001), Markus Dormann (advokatur am rosenweg, 16 ans
+d'expérience), Ludovic Duarte (Bright Law AG, Fachanwalt SAV Erbrecht, MBA).
+
+NE — Céline de Weck-Immelé (KGG, **brevet mars 2000**, spécialiste FSA famille 2013), Joël Desaules
+(Etude du Concert, **associé depuis 2011**, médiateur FSM), Madalina Diaconu (SPLC, Managing
+Partner, ex-CIO/CJUE), Johnny Dousse (ZLD Avocats, email, représentant Ombudsman assurance depuis
+2020), Iliriana Dreni (DVR Legal & Tax, **brevet 2022**, experte fiscale diplômée), Julien Dubois
+(Étude not-ne, notaire), Pierre-Henri Dubois (Etude Dubois, tel), Romain Dubois (JSM & partners,
+**brevet juin 2024**, également député PS), Crystel Hess Dufaux (CSP Neuchâtel, avocate-conseil,
+chargée de cours HES-SO).
+
+TG — Daniel Jung (Jung Advokatur, **brevet 2003**, ex-procureur cantonal), Dominik Järmann
+(Stadelmann Rechtsanwälte, **brevet 2019**, tel/email), Caroline Kapfhamer (AK legal, **brevet
+2002**, Fachanwältin SAV Arbeitsrecht, juge suppléante 2024-2028), Fabian Kapfhamer (LINDTLAW,
+Fachanwalt SAV Arbeitsrecht, notaire), Claudia Keller (Raggenbass, **brevet 1999**), Roland Keller
+(Raggenbass, Dr. iur., chargé de cours HSG), Robin Koch (sartorial, **brevet 2023**, tel/email),
+Dean Andreas Kradolfer (Dr. iur. HSG, **brevet 2003**, Fachanwalt Erbrecht), Simon Krauter (S-E-K
+Advokaten, **depuis 2005**, Fachanwalt SAV Arbeitsrecht, juge suppléant depuis 2015, email).
+
+SO — Christoph Gäumann (Notavis, tel/email), Beat Gerber (gfl Rechtsanwälte, LL.M., **brevet
+bernois 1988**, notaire 1996), Florian Gertsch (**inscrit 2022**, tel), Stephan Glättli (Glättli
+Rechtsanwälte AG, LL.M. Édimbourg 2006), Ulrich Martin Glättli (Dr. iur., **brevet 1971**, même
+cabinet), Philipp Gressly (**brevet 1995**, Fachanwalt SAV Haftpflicht-/Versicherungsrecht 2008,
+tel/email), Michael Hans Grimm (KSCP, **partenaire depuis 2020**, tel/email), Gabriela Grob Hügli
+(Jurakanzlei, 25+ ans d'expérience), Michelle Grosjean (Morandi Schnider, Dr. iur., notaire),
+Thomas Felix Grütter (**cabinet fondé 1997**, Fachanwalt SAV Familienrecht, tel/email).
+
+Échecs (4) : Thierry Burkart (AG — Conseiller aux États et président du PLR suisse, fonction
+politique nationale à plein temps, listé comme simple « Konsulent » chez Kellerhals Carrard) ;
+Diethelm Jeannine (ZG — présence au registre uniquement, aucune coordonnée) ; Jean-Philippe Dunand
+(NE — activité exclusivement académique, professeur ordinaire depuis 2006, aucune pratique active
+confirmée) ; Visar Keraj (TG — associé-gérant d'une société (ComLaw GmbH), aucune confirmation de
+brevet d'avocat).
+
+Todo recalculé après écriture : AG 391, ZG 325, NE 192, TG 87, SO 126.
+
+Rattachement : 511 avocats rattachés par nom au total (465 → 511, +46 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 46 succès). Suite de tests : 94/94 au vert.
