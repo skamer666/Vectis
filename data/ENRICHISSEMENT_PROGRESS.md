@@ -5514,3 +5514,47 @@ d'avocat indépendante confirmée).
 Rattachement : 265 avocats rattachés par nom au total (263 → 265, +2 ; nombre potentiellement
 sous-estimé compte tenu de l'avertissement ci-dessus sur l'ordre des noms). Suite de tests :
 94/94 au vert (voir ci-dessous, tests exécutés conjointement avec le lot Phase 3b du même jour).
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 10)
+
+**Correctif méthodologique appliqué** (suite à l'avertissement du lot Phase 3c précédent) : les 4
+entrées ZG du lot 9 (Bodmer David, Bollag Jacob, Bolliger Dominique, Brand Jürg) avaient été
+écrites avec `person_name` à l'ordre naturel prénom-nom, alors que le CSV source des avocats
+solo/individuels du canton de Zoug utilise systématiquement l'ordre « Nom Prénom ». Corrigé en
+remettant `person_name` à l'ordre exact du CSV pour ces 4 entrées (aucun autre champ modifié) :
+le rattachement (`build.attach_individual_enrichment`) est passé de 255 à 259 avocats après ce
+seul correctif, confirmant qu'elles ne s'attachaient pas silencieusement auparavant. **Pour ce
+lot et tous les suivants sur le canton ZG (et plus généralement avant toute écriture), le nom
+CSV exact (`nom_complet`) est vérifié au préalable et repris tel quel dans `person_name`** — la
+détection des candidats non traités se fait désormais par comparaison `(canton, norm(person_name))`
+sur l'ensemble du cache plutôt que par simple clé JSON top-niveau.
+
+Todo recalculé avec cette méthode corrigée : AG 425, ZG 359, NE 226, TG 122, SO 160. 20 candidats
+traités, 3-4 par canton, ordre CSV stable.
+
+Succès (19) : Christoph Blöchlinger (**depuis 2012**, domaines, EBT Rechtsanwälte, Baden AG) ;
+Fabian Blum (**depuis 2009**, tel/fax, domaines, Bürgi Bulaty Wunderlin, Baden AG) ; Willy Bolliger
+(**depuis 1992**, domaines, cabinet propre Zehnder Bolliger & Partner, Baden AG) ; Wilhelm Boner
+(**depuis 1978**, domaines, Boner Rechtsanwälte fondé 1983, Aarau AG) ; Ernst A. Brandenberg
+(tel, notaire, Brandenberg Advokatur und Notariat fondé 1967, Zoug ZG) ; Manuel Brandenberg
+(**depuis 2004**, tel, notaire, même cabinet qu'Ernst A. Brandenberg déjà connu, Zoug ZG) ; Tobias
+Brändli (**depuis 2015**, domaines, notaire, indépendant, Zoug ZG) ; Joël Brochon (**depuis 2018**,
+notaire, partenaire chez Zanetti Rechtsanwälte, Baar ZG) ; Philippe Brun (tel/email, Neuchâtel NE) ;
+Sabrina Burgat (**depuis 2006**, tel, spécialiste FSA droit de la famille, Etude SLB, également
+professeure à l'Université de Neuchâtel, Neuchâtel NE) ; Patrick Burkhalter (**depuis 1994**,
+tel/fax/email, notaire, Courtelary NE) ; Urban Friedrich (**depuis 1986**, domaines, fondateur du
+cabinet, Kreuzlingen TG) ; Anja Fry (**depuis 2014**, tel, Fachanwältin SAV Familienrecht,
+notaire, domaines, Entress Wenger Partner, Aadorf TG) ; Stephanie Fröhlich (**depuis 2020**,
+email, domaines, S-E-K Advokaten, Frauenfeld/Aadorf TG) ; Peter Fuchs (domaines, expert en
+assurances sociales, notaire, Studer Zahner Anwälte, Kreuzlingen TG) ; Denise Büschi
+(**depuis 2021**, aarejura Rechtsanwälte — même cabinet que Nicole Allemann-Aeschlimann déjà
+connue, Grenchen SO) ; Jean-Claude Cattin (**depuis 2000**, tel, domaines, co-fondateur Kaiser
+Simmen Cattin Partner, Grenchen SO) ; Mario Chirico (**depuis 1995**, tel/fax, domaines, notaire,
+cabinet propre, Grenchen SO) ; Valérie Dätwyler (**depuis 2022**, notaire depuis 2024, KSCP
+Rechtsanwälte und Notare, Grenchen SO).
+
+Échec (1) : Laurent Burkhard (La Chaux-de-Fonds NE, seule confirmation = inscription au rôle
+officiel du barreau, aucun cabinet ni coordonnée trouvés).
+
+Rattachement : 278 avocats rattachés par nom au total (259 → 278, +19 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 19 succès). Suite de tests : 94/94 au vert.
