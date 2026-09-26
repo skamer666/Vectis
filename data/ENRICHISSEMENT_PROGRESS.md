@@ -5730,3 +5730,71 @@ Todo recalculé après écriture : TI 338, SG 35, BL 7, SZ 0 (cohorte épuisée)
 
 Rattachement : 374 avocats rattachés par nom au total (337 → 374, +37 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 37 succès). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 12)
+
+Todo (avant ce lot) : AG 411, ZG 345, NE 212, TG 107, SO 146. 50 candidats traités, 10 par canton,
+ordre CSV stable.
+
+**Découverte de méthode importante (canton NE)** : contrairement à l'hypothèse retenue jusqu'ici
+(NE toujours à l'ordre naturel prénom-nom), le CSV neuchâtelois stocke en fait certains noms
+composés avec particule (« de », « De ») à l'ordre inversé « Nom Particule Prénom » (ex. « Pury
+Jonas de », « Oliveira Didier De », « Vries Reilingh Daniel de »), tandis que les noms simples
+restent à l'ordre naturel (ex. « Sibilla Cretti », « Jämes Dällenbach »). Vérifié systématiquement
+via `build.CANTON_DATA['NE']['individuals']` avant écriture pour ce lot - aucune supposition
+d'ordre par canton ne doit plus être faite sans vérification directe, y compris pour un canton
+déjà traité par le passé. De même pour SO, une entrée porte un format CSV inhabituel avec virgule
+insérée (« Thomas , LL.M. Fürst ») repris tel quel.
+
+Succès (47) : AG — Fabienne Brunner (Brunner Hunziker, **indépendante depuis 2013**), Frank Brunner
+(cabinet propre, tel/fax/email, Baden), Matthias Brunner (BAUR HÜRLIMANN, **depuis 2018**), Sarah
+Brunner-Dobler (Dr. iur., Miotti Humbel Brunner AG, tel/email), Therese Buchegger (Walder Haas
+Berner AG, Zofingen — fiche minimale), Oliver Bucher (BAUR HÜRLIMANN, Fachanwalt SAV Bau-/
+Immobilienrecht, **brevet 2002**), Daniel Buchser (Fürsprecher, **cabinet fondé 1987**), Patrick
+Bühlmann (VOSER Rechtsanwälte, Fachanwalt SAV Arbeitsrecht, tel/email), Oliver Bulaty (Bürgi
+Bulaty Wunderlin, **avocat depuis 2008**).
+
+ZG — Beat Bussmann (cabinet propre, tel), Raoul Bussmann (Dr. iur., cabinet propre), Samuel
+Bussmann (Dr. iur., dipl. Steuerexperte, MME Legal Tax Compliance), Matthias Camenzind (Bertschi &
+Camenzind, **brevet 1994**, tel/fax), Marco Caprez (Studer Burri Caprez, tel/email), Irène
+Castell-Bachmann (**brevet 1996**, Bright Law AG depuis 2025, ex-Zwicky Windlin & Partner), Andrea
+Christen (Wenger Vieli AG depuis 2022, LL.M. Duke, notaire 2016), Thomas Christmann (Nützi
+Christmann & Partner AG), David Colak (Blum und Partner AG, **notaire depuis 2019**, tel/email),
+Tatjana Compagnoni (Girardetlaw depuis 2021, formée à Moscou puis Lucerne, en pratique à Zoug
+depuis 2011).
+
+NE — Sibilla Cretti (SGC Avocat, **propriétaire depuis 2010**, tel/email), Jämes Dällenbach (Etude
+Dällenbach, tel/fax), Laura De Carlo (Engel Avocats, **depuis 2023**), Daria de Cerjat (Etude
+NVLE, **brevet novembre 2024**), Didier De Oliveira (KMD & Associés, **barreau depuis 2014**, tel),
+Sabina De Oliveira (KMD Avocats, **brevet 2024**, email), Jonas de Pury (Etude de Pury, expert
+fiscal diplômé, tel), Gilles de Reynier (Reysus, spécialiste FSA assurances, **fusion 2006**, tel/
+fax/email), Christopher De Sousa (notaire, président de la Chambre des notaires neuchâtelois,
+tel/email), Daniel de Vries Reilingh (DVR Legal & Tax SA, **fondateur 2011**, expert fiscal
+diplômé).
+
+TG — Christa-Maria Harder Schuler (Dr. iur., Fürer Partner Advocaten, tel), Dominik Hasler
+(**indépendant depuis 1990**, président de la commission de recours des avocats TG), Andreas
+Hebeisen (Friedrich Hebeisen Mohr, **depuis 1987**, tel/fax), Rosalie Hepberger (M.A.HSG, Raggenbass),
+Beat Hirt (Dr. iur., Advokaturbüro Beat Hirt, tel, également CEO du groupe Provida), Matthias Hotz
+(Bürgi Hotz Zellweger, **brevet 1993**, ex-président de l'association des avocats TG), Fabienne
+Hug (sartorial rechtsanwälte, **depuis 2024**, notaire, médiatrice), Patrik A. Häberlin (Häberlin &
+Partners / HPS LAW, LL.M. LL.M.).
+
+SO — Andreas Eng (Stampfli Rechtsanwälte, ancien chancelier d'État soleurois 17 ans), Philipp Eng
+(Stampfli Rechtsanwälte, également juge suppléant UBI), Hermann Roland Aarehuus Etter (Dr. iur.,
+lic. oec. HSG, **cabinet fondé 2015**), Gabriella Flückiger (Fachanwältin SAV Bau-/Immobilienrecht,
+tel/fax), Jeannette Frech (Advokatur Frech / gfl, tel/email), Daniel Ricardo Frey (**inscrit
+2003**, notaire, tel), Isabelle Frey (Jusonline AG, médiatrice SAV), Roman Frey (aarejura
+Rechtsanwälte, **inscrit 2019**, notaire 2024), Thomas Fürst (Stampfli Rechtsanwälte, **brevet
+2014**, président de l'association des avocats soleurois), Reto Gasser (gfl Rechtsanwälte,
+**indépendant depuis 2005**, Fachanwalt SAV Strafrecht).
+
+Échecs (3) : Daniel Buchs (AG — aucun avocat de ce nom exact trouvé, seuls homonymes sans rapport) ;
+Sebastian Georg Huber (TG — présence générique uniquement, plusieurs homonymes créant un risque de
+confusion, aucune coordonnée distinctive) ; Melanie Jauch (TG — localisée à Zurich selon les
+résultats, aucun ancrage thurgovien confirmé).
+
+Todo recalculé après écriture : AG 401, ZG 335, NE 202, TG 97, SO 136.
+
+Rattachement : 421 avocats rattachés par nom au total (374 → 421, +47 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 47 succès). Suite de tests : 94/94 au vert.
