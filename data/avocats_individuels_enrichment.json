@@ -41,6 +41,23 @@
     ],
     "source_url": "https://www.binderlegal.ch/en/team/prof-dr-andreas-binder/"
   },
+  "ag-brigitte-bitterli": {
+    "canton": "AG",
+    "email": "bitterli@kaech-law.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Käch Bitterli Recht",
+    "founding_year": 2000,
+    "notes": "Rechtsanwaeltin, associee chez KAECH BITTERLI RECHT, praticienne depuis 2000, Muri AG.",
+    "person_name": "Brigitte Bitterli",
+    "phone": "+41 56 648 25 30",
+    "practice_areas_de": [
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Familien- und Erbrecht",
+      "Pferderecht"
+    ],
+    "source_url": "https://kaech-law.ch/ihre-rechtsanwaeltin-brigitte-bitterli/"
+  },
   "ag-bruno-bernasconi": {
     "canton": "AG",
     "fetched_date": "2026-09-15",
@@ -247,6 +264,25 @@
     "source_url": "https://www.geissmannlegal.ch/team/kim-attenhofer/",
     "specialist_certification": "Fachanwältin SAV Bau- und Immobilienrecht"
   },
+  "ag-kurt-bischofberger": {
+    "canton": "AG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bischofberger + Bisegger",
+    "notes": "lic. iur., Rechtsanwalt, cabinet Bischofberger + Bisegger, Baden AG. Site officiel du cabinet non trouve, source = annuaire mcadvo.ch.",
+    "person_name": "Kurt Bischofberger",
+    "phone": "+41 56 222 97 22",
+    "practice_areas_de": [
+      "Haftpflicht- und Versicherungsrecht",
+      "Handelsrecht",
+      "Planungsrecht",
+      "SchKG und Verfahrensrecht",
+      "Strafrecht",
+      "Vertragsrecht",
+      "Verwaltungsrecht",
+      "Zivilrecht"
+    ],
+    "source_url": "https://www.mcadvo.ch/anwalt/baden/liciur-kurt-bischofberger"
+  },
   "ag-marcel-aebi": {
     "canton": "AG",
     "fetched_date": "2026-09-06",
@@ -269,6 +305,24 @@
     "person_name": "Marius Bättig",
     "phone": "+41 56 203 15 47",
     "source_url": "https://voser.ch/team/"
+  },
+  "ag-markus-binder": {
+    "canton": "AG",
+    "email": "markus.binder@binderlegal.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Binder Rechtsanwälte",
+    "founding_year": 1982,
+    "notes": "Dr. iur., Rechtsanwalt und Notar, brevet d'avocat argovien 1982, notaire depuis 1989, associe chez Binder Rechtsanwaelte depuis 1983, Baden AG.",
+    "person_name": "Markus Binder",
+    "phone": "+41 58 404 40 00",
+    "practice_areas_de": [
+      "Immobilienrecht",
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Stiftungsrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://www.binderlegal.ch/en/team/dr-markus-binder/"
   },
   "ag-markus-josef-heinz-berger": {
     "_failed": true,
@@ -423,6 +477,13 @@
       "Arbeits- und Mietrecht"
     ],
     "source_url": "https://www.5401.ch/anwaeltinnen/"
+  },
+  "ag-simon-bisegger": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-26",
+    "person_name": "Simon Bisegger",
+    "reason": "homonymie possible : un MLaw associé chez Nater Dallafior Rechtsanwälte (Zurich) selon LinkedIn, et un nom associé 'Bisegger' au sein du cabinet Bischofberger + Bisegger à Baden selon un agrégateur tiers - identité non confirmée."
   },
   "ag-simone-anna-bertschi": {
     "canton": "AG",
@@ -1074,6 +1135,13 @@
     ],
     "source_url": "https://www.etudeb.ch/alexisbolle.html"
   },
+  "ne-celia-bouzelboudjen": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-26",
+    "person_name": "Célia Bouzelboudjen",
+    "reason": "page profil (avocat-ne.ch/profil-celia-b/) retourne 404, absente de l'équipe actuelle affichée sur le site du cabinet JSM (Javet Schwarb Mauri)."
+  },
   "ne-christelle-boil": {
     "_failed": true,
     "canton": "NE",
@@ -1113,6 +1181,23 @@
     "checked_date": "2026-09-15",
     "person_name": "Cyril Babando",
     "reason": "aucune etude privee trouvee (affilie a ASLOCA Neuchateloise, association de defense des locataires, pas un cabinet d'avocat) ; aucun telephone/email personnel confirme ; conflit de localite non resolu (Neuchatel au registre vs La Chaux-de-Fonds mentionne ailleurs)"
+  },
+  "ne-daniel-brodt": {
+    "canton": "NE",
+    "email": "info@brodt.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Brodt & Partenaires",
+    "founding_year": 2002,
+    "notes": "Avocat, cabinet propre depuis 2002 (fin de stage), Neuchâtel NE.",
+    "person_name": "Daniel Brodt",
+    "phone": "+41 32 720 05 10",
+    "practice_areas_fr": [
+      "Droit des sociétés",
+      "Droit successoral",
+      "Droit de la famille",
+      "Droit pénal"
+    ],
+    "source_url": "https://www.brodt.ch/lequipe/daniel-brodt"
   },
   "ne-david-agerba": {
     "canton": "NE",
@@ -1222,12 +1307,29 @@
     ],
     "source_url": "http://www.valegal.ch/index.php/equipe/isabelle-augsburger"
   },
+  "ne-julien-broquet": {
+    "canton": "NE",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Étude Obrist & Broquet",
+    "founding_year": 2007,
+    "notes": "Avocat, brevet 2007, associé fondateur de l'Étude Obrist & Broquet (fondée en 2007), Neuchâtel NE.",
+    "person_name": "Julien Broquet",
+    "phone": "+41 32 722 16 50",
+    "source_url": "https://neuchatel.legal/broquet/"
+  },
   "ne-leticia-boni": {
     "_failed": true,
     "canton": "NE",
     "checked_date": "2026-09-15",
     "person_name": "Leticia Boni",
     "reason": "identite professionnelle non confirmee : seule presence verifiee est un credit d'auteur isole sur droitne.ch et un possible poste de juriste au service cantonal des formations postobligatoires ; une affirmation de recherche IA (associee/'Etude du Lac', prix Walther Hug) s'est averee non corroboree et contredite par la verification directe du site de l'etude (elle n'y figure pas)"
+  },
+  "ne-lise-brugger-dummermuth": {
+    "_failed": true,
+    "canton": "NE",
+    "checked_date": "2026-09-26",
+    "person_name": "Lise Brügger-Dummermuth",
+    "reason": "site du cabinet (schaller-lex.ch) inaccessible (502/503) lors de deux tentatives."
   },
   "ne-marc-boillat": {
     "canton": "NE",
@@ -2227,6 +2329,22 @@
     ],
     "source_url": "https://abs-law.ch/wp/uns-2-2-2-3/"
   },
+  "so-nicole-allemann-aeschlimann": {
+    "canton": "SO",
+    "fetched_date": "2026-09-26",
+    "firm_name": "aarejura Rechtsanwälte",
+    "founding_year": 2004,
+    "notes": "lic. iur., Rechtsanwältin und Notarin, brevet 2004, aarejura Rechtsanwälte, Grenchen SO. Site officiel (aarejura.ch) indisponible (503) au moment de la vérification, source = annuaire yoys.ch.",
+    "person_name": "Nicole Allemann-Aeschlimann",
+    "practice_areas_de": [
+      "Miet- und Pachtrecht",
+      "Verwaltungsrecht",
+      "Gesellschafts- und Unternehmensrecht",
+      "Arbeitsrecht",
+      "Vertragsrecht"
+    ],
+    "source_url": "https://www.yoys.ch/Adresse-41-325002000-rechtsanwalt-Grenchen-CH5145175.html"
+  },
   "so-pirmin-bischof": {
     "canton": "SO",
     "fax": "+41 32 333 33 12",
@@ -2236,6 +2354,17 @@
     "person_name": "Pirmin St. Bischof",
     "phone": "+41 32 333 33 11",
     "source_url": "https://search.ch/tel/solothurn/st-niklausstrasse-1/bischof-rechtsanwaelte-und-notare"
+  },
+  "so-pirmin-st-bischof": {
+    "canton": "SO",
+    "email": "bischof@law-firm.ch",
+    "fax": "032 333 33 12",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bischof Rechtsanwälte und Notare",
+    "notes": "Dr. iur., LL.M. (Harvard), Rechtsanwalt und Notar, cabinet propre, Solothurn SO. Également Conseiller aux États (figure politique active).",
+    "person_name": "Pirmin St. Bischof",
+    "phone": "032 333 33 11",
+    "source_url": "https://www.local.ch/de/d/solothurn/4500/anwalt/bischof-rechtsanwaelte-und-notare-tz3QFXC_5oGu5X1FuqNg3Q"
   },
   "so-roland-buhler": {
     "canton": "SO",
@@ -2613,6 +2742,26 @@
     ],
     "source_url": "https://www.s-e-k.ch/team/andreas-burkhard/"
   },
+  "tg-angelo-fedi": {
+    "canton": "TG",
+    "email": "angelo.fedi@raggenbass.com",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Raggenbass Rechtsanwälte",
+    "founding_year": 2011,
+    "notes": "lic. iur., Rechtsanwalt, brevet 2011, Raggenbass, Amriswil TG, chargé de cours à l'IRP-HSG.",
+    "person_name": "Angelo Fedi",
+    "practice_areas_de": [
+      "Allgemeines öffentliches Recht",
+      "Öffentliches Baurecht",
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Strafverteidigung",
+      "Verkehrsrecht",
+      "Datenschutzrecht",
+      "Vergaberecht"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/angelo-fedi"
+  },
   "tg-anita-dahler-engel": {
     "canton": "TG",
     "fax": "+41 71 677 97 89",
@@ -2764,6 +2913,13 @@
     ],
     "source_url": "https://www.ewpa.ch/humbert-entress/",
     "specialist_certification": "Fachanwalt SAV Bau- und Immobilienrecht"
+  },
+  "tg-kerstin-susanne-friedrich": {
+    "_failed": true,
+    "canton": "TG",
+    "checked_date": "2026-09-26",
+    "person_name": "Kerstin Susanne Friedrich",
+    "reason": "absente de la page équipe actuelle du cabinet S-E-K Advokaten malgré des mentions tierces (LinkedIn, presse), statut professionnel actuel non confirmé."
   },
   "tg-lukas-bruhwiler-fresey": {
     "canton": "TG",
@@ -2939,6 +3095,48 @@
       "Notariat"
     ],
     "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
+  },
+  "tg-stefan-bruhwiler": {
+    "canton": "TG",
+    "email": "stefan.bruehwiler@raggenbass.com",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Raggenbass Rechtsanwälte",
+    "founding_year": 2012,
+    "notes": "Rechtsanwalt, brevet thurgovien 2012, Raggenbass, Frauenfeld/Amriswil TG.",
+    "person_name": "Stefan Brühwiler",
+    "practice_areas_de": [
+      "Submissions- und Vergaberecht",
+      "Allgemeines öffentliches Recht",
+      "Baurecht",
+      "Mietrecht",
+      "Stockwerkeigentumsrecht",
+      "Landwirtschaftsrecht",
+      "Raumplanungsrecht",
+      "Umweltrecht",
+      "Erbrecht und Nachlassplanung",
+      "Notariat und Beurkundung"
+    ],
+    "source_url": "https://raggenbass.com/kanzlei/stefan-bruhwiler"
+  },
+  "tg-stefan-frey": {
+    "canton": "TG",
+    "email": "frey@sbm.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Schwarz Breitenstein Rechtsanwälte AG",
+    "founding_year": 2024,
+    "notes": "Rechtsanwalt und Notar, partenaire depuis 2024, Schwarz Breitenstein Anwälte, Winterthur/Frauenfeld TG.",
+    "person_name": "Stefan Frey",
+    "phone": "052 260 34 34",
+    "practice_areas_de": [
+      "Gesellschaftsrecht",
+      "Notariats- und Grundbuchgeschäfte",
+      "Vertragsrecht",
+      "Arbeitsrecht",
+      "Mietrecht",
+      "Schuldbetreibungs- und Konkursrecht",
+      "Erbrecht"
+    ],
+    "source_url": "https://sb-anwaelte.ch/stefan-frey"
   },
   "tg-thomas-dufner": {
     "canton": "TG",
@@ -4165,5 +4363,77 @@
     "checked_date": "2026-09-15",
     "person_name": "Boccato Chiara",
     "reason": "absente du registre cantonal officiel zougois des avocats (verifie a deux reprises par recherche cible) ; deux affiliations professionnelles contradictoires trouvees (Wenger Vieli AG vs. Dextra Rechtsschutz AG) sans confirmation directe possible (site Wenger Vieli inaccessible, HTTP 503 x3)"
+  },
+  "zg-david-bodmer": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bodmer.Legal",
+    "notes": "Dr., Rechtsanwalt und Notar, cabinet boutique international, Zug ZG. Telephone trouve via recherche tierce non confirme par fetch direct (page contact indisponible, 503) - non retenu.",
+    "person_name": "David Bodmer",
+    "practice_areas_en": [
+      "Business law",
+      "Corporate law",
+      "Inheritance law"
+    ],
+    "source_url": "https://www.bodmer.legal/en/about/"
+  },
+  "zg-dominique-bolliger": {
+    "canton": "ZG",
+    "email": "info@bkrn.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bolliger Könitzer AG",
+    "notes": "Rechtsanwalt und Notar, partenaire chez Bolliger Koenitzer AG, Zug ZG. Domaines attribues au niveau du cabinet (page individuelle introuvable).",
+    "person_name": "Dominique Bolliger",
+    "phone": "+41 41 724 57 57",
+    "practice_areas_de": [
+      "Wirtschaftsrecht",
+      "Zivilrecht",
+      "Verwaltungsrecht",
+      "Unternehmensnachfolge",
+      "Ehe- und Erbverträge",
+      "Gesellschaftsgründung und -umstrukturierung"
+    ],
+    "source_url": "https://www.bolligerkoenitzer.com/"
+  },
+  "zg-jacob-bollag": {
+    "canton": "ZG",
+    "email": "jacob.bollag@bollaglegal.ch",
+    "fetched_date": "2026-09-26",
+    "firm_name": "Bollag Advokatur & Notariat",
+    "founding_year": 2016,
+    "notes": "Dr. iur., Rechtsanwalt und Notar, brevet 2014, cabinet propre depuis 2016, Zug ZG.",
+    "person_name": "Jacob Bollag",
+    "phone": "+41 41 729 08 70",
+    "practice_areas_de": [
+      "Erbrecht",
+      "Gesellschaftsrecht",
+      "Vertragsrecht",
+      "Notariat",
+      "Familienrecht",
+      "Betreibungs- und Konkursrecht",
+      "Arbeitsrecht",
+      "Mietrecht"
+    ],
+    "source_url": "https://www.bollaglegal.ch/jacob-bollag",
+    "specialist_certification": "brevet d'avocat et de notaire 2014"
+  },
+  "zg-jurg-brand": {
+    "canton": "ZG",
+    "fax": "041 720 10 42",
+    "fetched_date": "2026-09-26",
+    "firm_name": "B&P Brand & Partner Rechtsanwälte",
+    "founding_year": 1990,
+    "notes": "Fürsprecher und dipl. Steuerexperte, brevet 1990, Zug ZG. Site officiel du cabinet non trouve, source = annuaire anw24.ch.",
+    "person_name": "Jürg Brand",
+    "phone": "041 720 10 40",
+    "practice_areas_de": [
+      "Verwaltungsrecht",
+      "Erbrecht und Nachlassrecht",
+      "Börsen- und Kapitalmarktrecht",
+      "Rechtshilfe (international)",
+      "Steuer- und Abgaberecht"
+    ],
+    "source_url": "http://anw24.ch/details/1059/juerg-brand-zug",
+    "specialist_certification": "dipl. Steuerexperte"
   }
 }

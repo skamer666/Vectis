@@ -5444,3 +5444,36 @@ Malters LU).
 
 Rattachement : 249 avocats rattachés par nom au total (237 → 249, +12). Suite de tests : 94/94 au
 vert.
+
+## Phase 3b, lot du 2026-09-26 (AG/ZG/NE/TG/SO, lot 9)
+
+Reprise après pause des routines planifiées (06/09 → 19/09 : file d'attente non traitée faute
+d'exécution ; routines réactivées le 26/09 par Greg). 18 candidats traités, 3-4 par canton, ordre
+CSV stable.
+
+Succès (14) : Markus Binder (**depuis 1982**, tel/email, domaines, notaire, Binder Rechtsanwälte,
+Baden AG) ; Kurt Bischofberger (tel, domaines, Bischofberger + Bisegger, Baden AG — site officiel
+introuvable, source annuaire mcadvo.ch) ; Brigitte Bitterli (**depuis 2000**, tel/email, domaines,
+Käch Bitterli Recht, Muri AG) ; David Bodmer (domaines, Bodmer.Legal, Zug ZG — téléphone non
+retenu, page contact du site indisponible lors de la vérification) ; Jacob Bollag (**depuis
+2016**, brevet 2014, tel/email, domaines, cabinet propre, Zug ZG) ; Dominique Bolliger (tel/email,
+domaines du cabinet, Bolliger Könitzer AG, Zug ZG) ; Jürg Brand (**depuis 1990**, tel/fax, dipl.
+Steuerexperte, domaines, B&P Brand & Partner, Zug ZG — source annuaire anw24.ch) ; Daniel Brodt
+(**depuis 2002**, tel/email, domaines, cabinet propre Brodt & Partenaires, Neuchâtel NE) ; Julien
+Broquet (**depuis 2007**, tel, associé fondateur Étude Obrist & Broquet, Neuchâtel NE) ; Stefan
+Brühwiler (**depuis 2012**, email, domaines, Raggenbass, Frauenfeld/Amriswil TG) ; Angelo Fedi
+(**depuis 2011**, email, domaines, Raggenbass, chargé de cours IRP-HSG, Amriswil TG) ; Stefan Frey
+(**depuis 2024**, tel/email, domaines, notaire, Schwarz Breitenstein, Winterthur/Frauenfeld TG) ;
+Nicole Allemann-Aeschlimann (**depuis 2004**, domaines, aarejura Rechtsanwälte, Grenchen SO — site
+officiel indisponible 503, source annuaire yoys.ch) ; Pirmin St. Bischof (tel/fax/email, notaire,
+cabinet propre Bischof Rechtsanwälte und Notare, également Conseiller aux États, Solothurn SO).
+
+Échecs (4) : Simon Bisegger (Baden AG, homonymie possible entre un MLaw associé chez Nater
+Dallafior à Zurich et un nom associé du cabinet Bischofberger + Bisegger, identité non confirmée) ;
+Célia Bouzelboudjen (Neuchâtel NE, page profil 404, absente de l'équipe actuelle du cabinet JSM) ;
+Lise Brügger-Dummermuth (Neuchâtel NE, site du cabinet schaller-lex.ch inaccessible 502/503) ;
+Kerstin Susanne Friedrich (Frauenfeld TG, absente de la page équipe actuelle de S-E-K Advokaten
+malgré des mentions tierces).
+
+Rattachement : 263 avocats rattachés par nom au total (249 → 263, +14). Suite de tests : à
+vérifier (voir ci-dessous).
