@@ -6864,3 +6864,42 @@ collisions de nom ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 259, ZG 194, NE 66, SO 0 —
 total 519 sur les 3 cantons restants de la Phase 3b (Thurgovie et Soleure désormais épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 27)
+
+Poursuite de l'enrichissement individuel dans les 3 cantons restants (AG, ZG, NE). Lot traité :
+AG (Käufeler → Koller, hors « Michael Hunziker »), ZG (Letter → Maurer-Lambrou), NE (Planas →
+Rüedi).
+
+**Résultat : 42 succès / 7 échecs.**
+
+Échecs : Alfred Koch et Ursula Koller (AG) — seule inscription au registre argovien confirmée,
+sans étude, pratique privée ou adresse professionnelle actuelle identifiable ; Angela Letter (ZG)
+— juriste d'entreprise (Corporate Finance & Platform Solutions) chez UBS, aucune pratique privée
+indépendante identifiée ; Christina Mäder (ZG) — Assistenzstaatsanwältin (procureure assistante)
+en poste au ministère public du canton de Zoug, fonction publique actuelle incompatible avec la
+pratique privée (même précédent que Judith Hubatka et George Kammann, ZG, lot 26) ; Marielle
+Daphné Rebetez et Yves Robert-Nicoud (NE) — seule inscription au Rôle Officiel du Barreau
+neuchâtelois confirmée, sans étude ni adresse professionnelle identifiable ; Fredy Rumo (NE) —
+avocat inscrit au barreau neuchâtelois depuis 1971, reconnu coupable d'escroquerie (culpabilité
+confirmée en appel) avec interdiction de plaidoirie rapportée et procédures disciplinaires
+annoncées par le barreau neuchâtelois, mais sans confirmation explicite d'une radiation formelle
+— classé en échec pour statut professionnel actuel incertain et insuffisamment confirmé, plutôt
+que d'affirmer à tort soit une pratique active soit une radiation.
+
+Précédent étendu : ancien magistrat (juge suppléant au Tribunal fédéral 1984-2008, terminé) et
+professeur de droit retraité ayant conservé une activité de Rechtskonsulent compatible avec la
+pratique privée (Martin Killias, AG), dans la continuité du précédent des ex-magistrats ayant
+quitté leurs fonctions publiques déjà établi (Claude Nicati, Peter Heinrich Heuberger, Victor von
+Sury).
+
+Rappel structurel (sans changement) : les deux entrées « Michael Hunziker » du canton d'Argovie
+restent structurellement ambiguës pour `build.attach_individual_enrichment` (nom identique, deux
+candidats CSV) et continuent d'être exclues de tout lot.
+
+Rattachement : 1472 avocats rattachés par nom au total (1430 → 1472, +42 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 42 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 244, ZG 177, NE 49 — total
+470 sur les 3 cantons restants de la Phase 3b.
