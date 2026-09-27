@@ -6973,3 +6973,37 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 219, ZG 152 — total 371 sur
 les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 30)
+
+Poursuite de l'enrichissement individuel dans les 2 cantons restants (AG, ZG). Lot traité :
+AG (Lüscher-Eichenberger → Metzger, hors « Michael Hunziker »), ZG (Murer → Planzer).
+
+**Résultat : 48 succès / 2 échecs.**
+
+Échecs : Esther Lüscher-Eichenberger (AG) — seules des inscriptions d'annuaire téléphonique sont
+confirmées, aucune étude ni activité actuelle vérifiable ; Sämi Meier (AG) — un profil homonyme a
+été trouvé (Meier Sadiku Law Ltd, Lucerne/Zurich), mais son brevet d'avocat est enregistré dans le
+canton de Lucerne et à Paris, pas en Argovie, avec pour seul lien argovien une mention secondaire
+non confirmée — identification avec la personne inscrite au registre argovien jugée insuffisante.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : sept entrées « Meier » distinctes (AG, dont deux — Emanuel et Fabian — au sein de la
+même étude MEIER Notariat Advokatur, différenciées par succursale) et deux « Meichssner », deux
+« Merki » (AG) ; côté ZG, deux « Odermatt » (André/Patrik) et deux « Peyer » (Adrian/René),
+vérifiés comme des personnes distinctes à des études différentes.
+
+Cas particulier signalé pour transparence (classé succès malgré une pratique confirmée hors du
+canton d'inscription) : Michael Meier (AG) — brevet d'avocat obtenu explicitement dans le canton
+d'Argovie en 2020 après un stage au Bezirksgericht Lenzburg, mais étude actuelle basée à Zurich —
+classé succès car le brevet argovien direct constitue un lien plus solide que le cas de Sämi Meier
+ci-dessus (dont le brevet lui-même n'est pas argovien), dans la continuité du précédent Arpat
+Senocak (NE, lot 27) où des faits professionnels concrets et vérifiables priment sur la
+localisation géographique de la pratique actuelle.
+
+Rattachement : 1612 avocats rattachés par nom au total (1564 → 1612, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 194, ZG 127 — total 321 sur
+les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
