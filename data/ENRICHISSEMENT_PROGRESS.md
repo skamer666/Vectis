@@ -7148,3 +7148,52 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 94 — total 94 sur le seul
 canton restant de la Phase 3b (Thurgovie, Soleure, Neuchâtel et Zoug toujours épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 35) — CLÔTURE COMPLÈTE DE LA PHASE 3b
+
+Lot dédié à l'épuisement complet du canton d'Argovie (94 avocats restants, de Sommerhalder-Hegglin
+à Zürcher, hors les deux entrées structurellement ambiguës « Michael Hunziker ») : les 92 dossiers
+traitables du canton ont été traités en une seule fois, en trois recherches parallèles.
+
+**Résultat : 79 succès / 13 échecs.**
+
+**Le canton d'Argovie (AG) est désormais entièrement traité : 2 avocats restants sur les 459 du
+canton, correspondant exactement aux deux entrées « Michael Hunziker » structurellement
+ambiguës (homonymes CSV exacts, cf. notes du lot 26) qui ne pourront jamais être rattachées quel
+que soit le contenu du cache.**
+
+**LES 5 CANTONS DE LA PHASE 3b (AG, ZG, NE, TG, SO) SONT DÉSORMAIS TOUS ENTIÈREMENT ÉPUISÉS.**
+
+Échecs : Ines Verena Stocker, Yvonne Raphaela van der Stroom, Christine Zanetti — ambiguïtés
+homonymiques non résolues entre plusieurs personnes de ce nom sans lien confirmé avec le registre
+argovien ; Alex Stöckli, Stefanie-Daniela Stöckli, Martin Strobel, Walter Studer, Maja
+Urech-Ziörjen, Rudolf Weber, Roland Wietlisbach, Eva Wirth — seule une inscription de registre ou
+d'annuaire nue confirmée, aucune étude ni coordonnée trouvée ; Lukas Wedekind-Schmid — homonymes
+trouvés dans d'autres cantons ou non listés par l'étude supposée ; Urs van Stiphout — a quitté
+l'étude successeur en 2020 pour un rôle non juridique (CEO d'une société technologique), aucune
+pratique juridique actuelle confirmée.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : trois « Stöckli » (Alex/Anna Lena/Stefanie-Daniela), trois « Studer »
+(Benno/Rudolf/Walter), deux « Stutz » (Antonia/Patrick), deux « Suter » (Christoph/Emanuel), deux
+« Treyer » (Barbara/Peter), deux « van Stiphout » (Titus/Urs), deux « Vogel » (Dominic
+Rudolf/Robert), trois « Walther » (Conrad/Jörg/Simone Corina), trois « Weber »
+(Felix/Markus/Rudolf), quatre « Wehrli » (Cornel/Damian Nicolas/Marianne/Michèle Wehrli Roth),
+deux « Wyss » (John/Juliane), deux « Zehnder » (Hans/Kevin), deux « Zimmermann »
+(Christian/Markus).
+
+Cas particulier signalé pour transparence (classé succès malgré une confiance modérée) : Luzi
+Stamm — ancien conseiller national (UDC, 1991-2019) confirmé comme exerçant en parallèle sa propre
+étude d'avocat depuis 1989, dans la continuité du précédent du parlement de milice suisse déjà
+établi, bien qu'aucun site professionnel dédié n'ait été trouvé au-delà d'inscriptions d'annuaire
+et d'un article de presse confirmant une activité active en 2020.
+
+Rattachement : 1895 avocats rattachés par nom au total (1816 → 1895, +79 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 79 succès de ce lot ; toujours 2 collisions de nom
+ignorées — les deux « Michael Hunziker » — sans changement). Suite de tests : 94/94 au vert.
+
+**Bilan final de la Phase 3b** : 1895 avocats individuels rattachés par nom au total sur les 5
+cantons AG/ZG/NE/TG/SO, contre 0 au début de la phase (reprise du 06/09/2026). Reste uniquement 2
+entrées structurellement irrattachables (homonymes CSV exacts « Michael Hunziker », AG). Conforme
+à l'étape 5 des instructions de la tâche récurrente, celle-ci va être désactivée et son
+achèvement rapporté.
