@@ -6826,3 +6826,41 @@ sans changement). Suite de tests : 94/94 au vert.
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 272, ZG 207, NE 78, SO 13 —
 total 570 sur les 4 cantons restants de la Phase 3b. Le canton de Soleure (SO) approche de
 l'épuisement (13 avocats restants).
+
+## Phase 3b, lot du 2026-09-27 (lot 26)
+
+Poursuite de l'enrichissement individuel dans les 4 cantons restants (AG, ZG, NE, SO), avec
+priorité donnée à Soleure pour l'épuiser. Lot traité : AG (Hüni → Käser, hors « Michael Hunziker »),
+ZG (Kuhn → Lenzlinger), NE (Ozveren → Piller), SO (Wehrle → Zulauf, dernier lot pour ce canton,
++ rattrapage de l'entrée « Zuber » identifiée au lot précédent mais omise par erreur du script
+d'écriture).
+
+**Résultat : 50 succès / 2 échecs** (+ 1 succès de rattrapage « Zuber »/Irja Zuber Hofer, Procap
+Soleure, cf. ci-dessus).
+
+**Le canton de Soleure (SO) est désormais entièrement traité : 0 avocat restant sur les 188 du
+canton.**
+
+Échecs : Philipp Jenni (AG) — aucune étude ou pratique privée actuelle dans le canton d'Argovie
+identifiable, le seul homonyme trouvé occupant un poste juridique en entreprise (UBS, Zurich) sans
+lien confirmé avec l'inscription cantonale ; Jeff Perret (NE) — seule une inscription au Rôle
+Officiel du Barreau neuchâtelois est confirmée, sans étude ni adresse professionnelle
+identifiable (distinct de David Perret, traité avec succès ce même lot).
+
+**Cas particulier signalé pour les lots futurs** : les deux entrées « Michael Hunziker » du canton
+d'Argovie (Aarau / Wohlen) partagent un `nom_complet` strictement identique dans le CSV source.
+`build.attach_individual_enrichment` les traite donc comme structurellement ambiguës (deux
+candidats CSV pour la même clé de rattachement) et ne rattachera jamais un enrichissement à l'une
+ou l'autre, quel que soit le contenu du cache — écrire une entrée serait un travail perdu. Ces deux
+entrées ont été volontairement exclues de ce lot et doivent continuer à l'être.
+
+Précédent appliqué sans changement : parlementaire fédéral en exercice compatible avec la pratique
+du droit (Rémy Wyssmann, SO, Conseiller national depuis décembre 2023 et avocat indépendant depuis
+1997), dans la continuité du précédent du parlement de milice suisse déjà établi.
+
+Rattachement : 1430 avocats rattachés par nom au total (1381 → 1430, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès de ce lot [48 + 1 rattrapage] ; toujours 2
+collisions de nom ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 259, ZG 194, NE 66, SO 0 —
+total 519 sur les 3 cantons restants de la Phase 3b (Thurgovie et Soleure désormais épuisées).
