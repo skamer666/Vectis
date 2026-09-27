@@ -6668,3 +6668,34 @@ cantons.** La Phase 3c est terminée.
 Rattachement : 1137 avocats rattachés par nom au total (1115 → 1137, +22 ; confirmé par recalcul
 `build.py` après écriture, cohérent avec les 22 succès ; toujours 2 collisions de nom ignorées, sans
 changement). Suite de tests : 94/94 au vert.
+
+## Phase 3b, lot du 2026-09-27 (lot 21)
+
+Poursuite de l'enrichissement individuel dans les 5 cantons sans étude (AG, ZG, NE, TG, SO),
+pool `build.CANTON_DATA[code]['individuals']`. Lot de 50 candidats (10 par canton) traité :
+AG (Gautschi → Gisi), ZG (Hiltbrunner → Homberger), NE (Kienholz → Lang), TG (Strehler → Thaa),
+SO (Roos → Saner).
+
+**Résultat : 49 succès / 1 échec.**
+
+Seul échec : Lea Eliane Gautschi (AG) — seule une inscription au registre cantonal des avocats
+est confirmée (domicile Reinach AG, lieu de pratique Frick), sans étude ni adresse professionnelle
+identifiable ; une avocate homonyme chez Wehrli Partner (Aarau) n'a pas pu être reliée avec
+certitude à cette personne précise.
+
+Précédents de classification appliqués sans changement : fonctions politiques/associatives
+compatibles en parallèle de la pratique (présidence d'ordre des avocats, mandat de conseil
+d'administration bancaire terminé, candidature politique non élue, ancienne présidence de parti
+de jeunesse terminée) ; ancien juge cantonal (Oberrichter) ayant quitté cette fonction et exerçant
+désormais comme avocat (Hansjörg Geissmann, AG) ; juge suppléant·e à temps partiel compatible avec
+la pratique (Milena Holzgang, tribunal des mesures de contrainte SZ ; auditeur militaire/milice,
+Cyril Kleger, NE) ; fonction académique à temps partiel compatible (assistanat universitaire,
+Ivan Ruprecht, SO).
+
+Rattachement : 1186 avocats rattachés par nom au total (1137 → 1186, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées,
+sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé contre les 3 fichiers de cache,
+succès et échecs confondus) : AG 321, ZG 255, NE 122, TG 17, SO 58 — total 773 sur les 5 cantons
+de la Phase 3b.
