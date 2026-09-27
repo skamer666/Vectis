@@ -6903,3 +6903,36 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 244, ZG 177, NE 49 — total
 470 sur les 3 cantons restants de la Phase 3b.
+
+## Phase 3b, lot du 2026-09-27 (lot 28)
+
+Lot dédié à l'épuisement complet du canton de Neuchâtel (49 avocats restants, de Sandoz-Ohtenin
+à Zürcher) : les 49 dossiers du canton ont été traités en une seule fois.
+
+**Résultat : 44 succès / 5 échecs.**
+
+**Le canton de Neuchâtel (NE) est désormais entièrement traité : 0 avocat restant sur les 259 du
+canton.**
+
+Échecs : Grégoire Schweizer, Samantha Trani, Eckart von Beust et Simone Walder-de-Montmollin —
+seule l'inscription au Rôle Officiel du Barreau neuchâtelois (ROB) est confirmée pour chacun,
+sans étude, site, téléphone, email ni activité concrète identifiable malgré recherches ciblées ;
+Marie-Ange Zellweger — inscrite au ROB, mais l'étude portant son nom (Etude Zellweger, Neuchâtel)
+ne liste actuellement que d'autres associés sur sa page équipe, sans lien confirmé pour elle
+(une homonyme décédée 1936-2019 à La Neuveville BE, non liée, a été explicitement écartée pour
+éviter toute confusion).
+
+Précédent étendu : mandat politique fédéral en exercice (Conseillère aux Etats) compatible avec
+une inscription au barreau et une affiliation d'étude confirmées en parallèle (Céline Vara, NE),
+dans la continuité du précédent du parlement de milice suisse déjà établi ; avocat inscrit dont la
+pratique effective se situe hors du canton d'inscription, dans un réseau international, mais dont
+l'affiliation professionnelle actuelle est explicitement confirmée (Arpat Senocak, NE, associé
+Gide Loyrette Nouel basé à Istanbul) — classé succès car des faits professionnels concrets et
+vérifiables ont été trouvés, à la différence des échecs à inscription nue.
+
+Rattachement : 1516 avocats rattachés par nom au total (1472 → 1516, +44 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 44 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 244, ZG 177, NE 0 — total
+421 sur les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel désormais épuisées).
