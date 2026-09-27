@@ -6936,3 +6936,40 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 244, ZG 177, NE 0 — total
 421 sur les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel désormais épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 29)
+
+Poursuite de l'enrichissement individuel dans les 2 cantons restants (AG, ZG). Lot traité :
+AG (Kopp → Loeb, hors « Michael Hunziker »), ZG (McCreight-Ernst → Müller Thomas M.).
+
+**Résultat : 48 succès / 2 échecs.**
+
+Échecs : Milic Andelka (ZG) — seule inscription au registre cantonal zougois confirmée, aucune
+étude, adresse ou coordonnée trouvée ; Müller Micheline (ZG) — inscrite au registre zougois, mais
+le cabinet lucernois auquel une source secondaire la rattachait (Rudolf & Bieri AG, Emmenbrücke,
+canton de Lucerne) ne la liste pas sur sa page équipe actuelle et n'a aucune adresse zougoise —
+aucune pratique actuelle dans le canton de Zoug identifiable.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : trois « Kuhn » et quatre « Küng » (AG), deux « Lanz » et deux « Leiser » (AG) ;
+côté ZG, un groupe de onze entrées « Müller » et trois « Mosimann » ont nécessité une vérification
+systématique du prénom (et, pour deux entrées strictement homonymes « Müller Florian A. » et
+« Müller Florian », de l'initiale) contre le registre cantonal et les pages d'équipe des études
+avant toute attribution — voir notes de chaque entrée pour le détail de la désambiguïsation.
+
+Cas particuliers signalés pour transparence (classés succès malgré une confiance modérée sur
+l'affiliation actuelle, en l'absence d'élément contredisant la source trouvée) : Keivan Mohasseb
+(ZG) — affiliation à HÄRTING Rechtsanwälte établie via des publications co-signées hébergées sur
+le site de l'étude, non confirmée par une page équipe nominative ; Michael Mosimann et Stefan
+Müller (ZG) — pages propres des cabinets en erreur serveur lors de la consultation directe, faits
+confirmés via extraits de recherche et annuaires professionnels tiers (Lawstyle.ch, Legal500,
+Lexology) ; Thomas M. Müller (ZG) — bio publique n'affichant que « Dr. Thomas Müller » sans
+l'initiale « M. », retenu comme seul candidat basé à Zoug après élimination d'un homonyme zurichois
+distinct.
+
+Rattachement : 1564 avocats rattachés par nom au total (1516 → 1564, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 219, ZG 152 — total 371 sur
+les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
