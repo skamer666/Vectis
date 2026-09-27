@@ -6729,3 +6729,39 @@ sans changement). Suite de tests : 94/94 au vert.
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 311, ZG 245, NE 112, TG 7,
 SO 48 — total 723 sur les 5 cantons de la Phase 3b. La Thurgovie (TG) approche de l'épuisement
 (7 avocats restants).
+
+## Phase 3b, lot du 2026-09-27 (lot 23)
+
+Poursuite de l'enrichissement individuel dans les 5 cantons sans étude (AG, ZG, NE, TG, SO),
+avec priorité donnée à la Thurgovie pour l'épuiser. Lot de 51 candidats traité :
+AG (Häfliger → Heim), ZG (Ineichen → Jozic), NE (Luyet → Marty), TG (Wohnlich → Züst, dernier lot
+pour ce canton), SO (Schnyder → Stähli).
+
+**Résultat : 49 succès / 2 échecs.**
+
+Échecs : Pierre Luyet (NE) et Diana Macario (NE) — seule une inscription au Rôle Officiel du
+Barreau neuchâtelois (code postal uniquement) est confirmée pour chacun, sans étude, adresse
+professionnelle ou activité concrète identifiable malgré recherches.
+
+**La Thurgovie (TG) est désormais entièrement traitée : 0 avocat restant sur les 151 du canton.**
+
+Nouveau cas de corruption de champ CSV confirmé (troisième occurrence du même type, canton de
+Soleure) : « Sennhauser » → Dominik Sennhauser, avocat au service juridique de Procap Suisse à
+Olten, prénom leché dans le champ adresse (« Dominik c/o procap »).
+
+Précédents appliqués sans changement : ancien magistrat judiciaire ayant quitté sa fonction pour
+exercer comme avocat (Nicolas Marthe, NE, ancien président du Tribunal de district de Neuchâtel) ;
+parlementaire cantonal en exercice compatible avec la pratique (Jonathan Marty, NE, député au Grand
+Conseil neuchâtelois) ; candidature politique non encore aboutie sans incidence sur la
+classification (Nils Haldemann, AG, candidat à la présidence du tribunal de district de Zofingen) ;
+fiche minimale avec adresse professionnelle réelle confirmée (Markus Häfliger, AG ; Géraldine Wüst,
+TG ; Markus Züst, TG, dont le registre cantonal thurgovien confirme une adresse spécifique à
+Salenstein malgré un cabinet principal situé à Saint-Gall).
+
+Rattachement : 1284 avocats rattachés par nom au total (1235 → 1284, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées,
+sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 299, ZG 233, NE 102, TG 0,
+SO 38 — total 672 sur les 5 cantons de la Phase 3b (4 cantons restants désormais, la Thurgovie
+étant épuisée).
