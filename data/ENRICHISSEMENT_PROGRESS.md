@@ -7045,3 +7045,36 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 169, ZG 102 — total 271 sur
 les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 32)
+
+Poursuite de l'enrichissement individuel dans les 2 cantons restants (AG, ZG). Lot traité :
+AG (Notter → Rihs, hors « Michael Hunziker »), ZG (Schilter → Seckler).
+
+**Résultat : 47 succès / 3 échecs.**
+
+Échecs : Pascal Joel Ott (AG) — seul un homonyme trouvé occupe la fonction de procureur, une
+profession distincte de celle d'avocat privé, aucun avocat de ce nom exact localisable ; Schlatter
+Simone (ZG) — seule l'inscription au registre cantonal confirmée, une étude homonyme identifiée
+étant en réalité basée en Thurgovie et sans lien ; Schmid Marco (ZG) — seule une inscription nue au
+registre confirmée, un enseignant homonyme à la Kantonsschule Zug ayant été vérifié et écarté
+comme personne distincte.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : deux « Peter » (Dominik Marcel/Milena), deux « Pfisterer » (Lukas Martin/Sibylle,
+collègues avec Michael Pletscher au sein de la même étude), deux « Plüss » (Martin/Thomas), deux
+« Rey »/« Rihs » (collègues à la même étude RLH, prénoms distincts) côté AG ; côté ZG, deux
+« Schilter » (Andreas/Irène, même étude), trois « Schmid » (Heini/Marco/Philippe), deux
+« Schneider » (Angela/Sarah).
+
+Cas particulier signalé pour transparence (classé succès avec réserve) : Jürg Raidt (AG) — seule
+source trouvée un annuaire téléphonique et des citations de jurisprudence fédérale anciennes
+(2000-2002), aucun site propre, confirmation d'activité actuelle plus faible que les autres
+entrées de ce lot.
+
+Rattachement : 1702 avocats rattachés par nom au total (1655 → 1702, +47 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 47 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 144, ZG 77 — total 221 sur
+les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
