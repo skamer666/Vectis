@@ -19399,5 +19399,675 @@
     "person_name": "Seckler Dorothea",
     "phone": "+41 41 796 89 24",
     "source_url": "https://www.secklerlegal.com/"
+  },
+  "zg-seeberger-pascal": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Huber & Hausherr",
+    "notes": "MLaw, notaire, Zoug. Pratique en conseil et contentieux.",
+    "person_name": "Seeberger Pascal",
+    "source_url": "https://www.huberhausherr.ch/"
+  },
+  "zg-seeholzer-corinne": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "hs legal ag (anciennement « seeholzer ag »)",
+    "notes": "Fachanwaeltin SAV droit de la famille, mediatrice SAV, notaire, Zoug. Etude recemment rebaptisee/relocalisee.",
+    "person_name": "Seeholzer Corinne",
+    "source_url": "https://hslegal.ch/seeholzer-ag/"
+  },
+  "zg-seitz-guido": {
+    "canton": "ZG",
+    "email": "guidoseitz@riversidelaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Riversidelaw Rechtsanwälte",
+    "notes": "Associe depuis 2021 (auparavant associe chez Crameri Seitz Schobloch 2006-2021). lic. iur. Zurich 2000, brevet 2004. Domaines : droit des societes/commercial, droit des contrats national/international, contentieux (representation de creanciers), insolvabilite/faillites, Strafrecht. Langues DE/EN/FR.",
+    "person_name": "Seitz Guido",
+    "phone": "+41 44 250 43 70",
+    "source_url": "https://riversidelaw.ch/guido-seitz"
+  },
+  "zg-senn-jakob": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Jakob Senn Rechtsberatung",
+    "notes": "Ne en 1980, Hünenberg (ZG). lic. iur., inscrit au registre zougois. Egalement actif au service juridique/direction de CSS Assurance.",
+    "person_name": "Senn Jakob",
+    "phone": "+41 76 566 81 44",
+    "source_url": "http://sennlaw.ch/Kontakt/"
+  },
+  "zg-severin-adrian": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Blum & Partner",
+    "notes": "A l'etude depuis 2025. MLaw Univ. de Lucerne 2016, notaire du canton de Zoug depuis 2023, admis devant tous les tribunaux suisses depuis 2021. Domaines : droit prive/public de la construction, droit administratif, Strafrecht, droit des etrangers, droit du bail, Erbrecht, droit des contrats, droit des societes.",
+    "person_name": "Severin Adrian",
+    "source_url": "https://blum-partner.com/adrian-severin-3/"
+  },
+  "zg-sherifoska-raima": {
+    "canton": "ZG",
+    "email": "office@rslegal.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Raima Law",
+    "notes": "Avocate et notaire, cabinet individuel, Rotkreuz. Plus de 8 ans chez Bär & Karrer et en interne chez Roche. Domaines : droit suisse des societes/des affaires/des contrats, sante et sciences de la vie (conseil reglementaire Medical & Scientific Affairs).",
+    "person_name": "Sherifoska Raima",
+    "phone": "+41 76 395 16 14",
+    "source_url": "https://raimalaw.com/en/about/"
+  },
+  "zg-sidler-max": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Sidler Max",
+    "reason": "Seule une inscription d'annuaire agrégateur (anwalt-finden.net) a ete trouvee, sans site propre confirmable ; risque de confusion avec un homonyme distinct (Dr. Oliver Sidler, droit des medias/informatique) rend l'identification insuffisamment fiable."
+  },
+  "zg-snaidero-kriesi-liliana": {
+    "canton": "ZG",
+    "email": "snaidero@lilex.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Lilex Advokatur",
+    "notes": "Domaine : droit des technologies de l'information/internet/protection des donnees. Inscrite au registre zougois des avocats mais exerce depuis une adresse zurichoise.",
+    "person_name": "Snaidero Kriesi Liliana",
+    "source_url": "http://www.lilex.ch/startseite.php?lang=de"
+  },
+  "zg-speck-beat-d": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Wenger Vieli AG",
+    "notes": "Dr.iur., LL.M., notaire du canton de Zoug, Managing Partner, responsable du groupe « Transactions ». A l'etude depuis 2003. Domaines : fusions-acquisitions transfrontalieres (contexte private equity/capital-risque), secteurs energie/informatique/telecoms/divertissement.",
+    "person_name": "Speck Beat D.",
+    "source_url": "https://www.wengervieli.ch/de-ch/team/speck-beat"
+  },
+  "zg-spillmann-ueli": {
+    "canton": "ZG",
+    "email": "u.spillmann@hotzgoldmann.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "HotzGoldmann (Advokatur/Notariat)",
+    "notes": "MLaw, avocat et notaire, ne en 1991, Baar. Etude specialisee en droit de la construction, droit du travail, droit du divorce.",
+    "person_name": "Spillmann Ueli",
+    "source_url": "https://www.hotzgoldmann.ch/deutsch/ueli-spillmann"
+  },
+  "zg-stacher-lea": {
+    "canton": "ZG",
+    "email": "lea.stacher@hodel-frei.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Hodel & Partner (anciennement Hodel Frei & Partner)",
+    "notes": "MLaw, Fachanwaeltin SAV droit de la famille, associee. Domaines : droit du mariage/concubinage, separation/divorce, droits de l'enfant. Langues DE/EN/FR.",
+    "person_name": "Stacher Lea",
+    "phone": "+41 41 728 62 72",
+    "source_url": "https://www.hodel-partner.ch/de/anwaelte_lea_stacher.htm"
+  },
+  "zg-stadlin-franziska": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "notes": "lic. iur., avocate et notaire, cabinet individuel, Zoug. Aucune autre information de pratique trouvee au-dela de l'adresse et du telephone.",
+    "person_name": "Stadlin Franziska",
+    "phone": "041 711 01 19",
+    "source_url": "https://zip.ch/de/stadlin-franziska-horber-gartenstrasse-zug-QP61aANl6M/"
+  },
+  "zg-stalder-markus": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Markus Stalder Anwaltsbüro",
+    "notes": "Ne le 14 juillet 1952 a Lucerne, licence en droit Zurich 1975, brevet d'avocat/notaire zougois 1979. Cabinet fonde en 1991 a Sihlbrugg (Baar), relocalise a Cham en 2001. Domaine : droit commercial. Distinct de Michael Stalder (autre etude, adresse differente).",
+    "person_name": "Stalder Markus",
+    "source_url": "https://www.markus-stalder.ch/"
+  },
+  "zg-stalder-michael": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Stalder Advokatur AG (fondee en 2020)",
+    "notes": "Brevet d'avocat obtenu en 2007 (canton de Zoug), associe depuis 2012, Zoug. Delegue de l'association des avocats zougoise aupres de la Federation suisse des avocats depuis 2012. Langues DE/EN. Distinct de Markus Stalder (autre etude, autre adresse).",
+    "person_name": "Stalder Michael",
+    "source_url": "https://www.nsvr.ch/de/team/michael-stalder"
+  },
+  "zg-stamm-philipp": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bratschi Ltd.",
+    "notes": "Associe (bureau de Zoug), admis au barreau suisse en 2005. Domaines : droit des societes/des contrats, propriete intellectuelle, droit des technologies/medias/communications, protection des donnees, droit de la concurrence. Ancien responsable juridique et conformite dans le secteur numerique/en ligne.",
+    "person_name": "Stamm Philipp",
+    "source_url": "https://www.bratschi.ch/en/team/philipp-stamm"
+  },
+  "zg-steiner-karim": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "MLL Legal (bureau de Baar/Zoug)",
+    "notes": "Associate et notaire du canton de Zoug. MLaw (summa cum laude, Univ. de Lucerne), DAS Finance (Univ. de Zurich), CAS fusions-acquisitions/droit des societes et evaluation. Domaines : droit des societes/fusions-acquisitions, Notariat, droit bancaire et financier.",
+    "person_name": "Steiner Karim",
+    "source_url": "https://mll-legal.com/people/karim-steiner/?lang=en"
+  },
+  "zg-steinmann-reto": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "SOS Rechtsanwälte AG (Steinmann - Odermatt - Schneider)",
+    "notes": "lic. iur., licence Univ. de Zurich 1986, brevet d'avocat/notaire zougois 1988, independant depuis 1988. Domaines : Strafrecht, droit du sport, droit des societes, droit notarial. Ancien juge unique de la Federation suisse de hockey sur glace (2004-2016).",
+    "person_name": "Steinmann Reto",
+    "source_url": "https://www.sos-legal.ch/en/reto-steinmann"
+  },
+  "zg-stockli-armin": {
+    "canton": "ZG",
+    "email": "info@kanzleistoeckli.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Rechtsanwaltskanzlei Armin Stöckli",
+    "notes": "lic. iur., Baar, egalement office notarial. Distinct de Barbara Stöckli (autre etude, autre ville).",
+    "person_name": "Stöckli Armin",
+    "phone": "+41 41 760 39 59",
+    "source_url": "https://www.kanzleistoeckli.ch/"
+  },
+  "zg-stockli-barbara": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "STÖCKLI-KLAUS Advokatur & Notariat",
+    "notes": "lic. iur. (Univ. de Zurich 1998), brevet d'avocat/notaire 2001, Zoug. Domaines : Erbrecht, droit des societes, droit des contrats, services notariaux (contrats de mariage/succession, testaments, procurations). Distincte d'Armin Stöckli (autre etude, autre ville).",
+    "person_name": "Stöckli Barbara",
+    "phone": "+41 41 541 77 15",
+    "source_url": "https://www.stoeckli-klaus.ch/"
+  },
+  "zg-stoltz-thomas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bär & Karrer AG",
+    "notes": "Associe, co-responsable du groupe droit du travail/migration/assurances sociales, dirige le bureau de Zoug. Plus de 20 ans de conseil dans la region Zurich/Zoug. Notaire pour actes de fusions-acquisitions/IPO. Reconnu par Who's Who Legal en droit de l'immigration d'entreprise depuis 2014.",
+    "person_name": "Stoltz Thomas",
+    "source_url": "https://de.baerkarrer.ch/juristinnen-und-juristen/partner/stoltz-thomas.html"
+  },
+  "zg-storchenegger-patrick": {
+    "canton": "ZG",
+    "email": "info@pst-legalconsulting.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "PST Legal & Consulting",
+    "notes": "lic. iur., fondateur, plus de 20 ans d'experience, Zoug. Domaines : droit fiscal national/international, droit des societes/commercial, fusions-acquisitions, fintech/actifs crypto (focalisation Crypto Valley).",
+    "person_name": "Storchenegger Patrick",
+    "phone": "041 729 39 61",
+    "source_url": "https://www.pst-legalconsulting.ch/patrick-storchenegger-de"
+  },
+  "zg-straub-christoph": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "notes": "Dr.iur., avocat et notaire (Urkundsperson), Zoug. Domaines : droit etranger, notarisation, Erbrecht, droit des societes/des affaires, droit commercial.",
+    "person_name": "Straub Christoph",
+    "phone": "041 711 67 21",
+    "source_url": "https://www.mcadvo.ch/anwalt/zug/driur-christoph-straub"
+  },
+  "zg-stubenvoll-corinna": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "HÄRTING Rechtsanwälte AG",
+    "notes": "A l'equipe suisse depuis juillet 2024. Etudes de droit Univ. de Ratisbonne / Friedrich-Alexander-Univ. Erlangen, admissions au barreau allemand et suisse, formation de mediatrice (2019). Domaine : droit de la protection des donnees et des technologies.",
+    "person_name": "Stubenvoll Corinna",
+    "source_url": "https://haerting.ch/team/corinna-stubenvoll-3/"
+  },
+  "zg-studer-peter-m": {
+    "canton": "ZG",
+    "email": "p.studer@studerzug.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Studer Burri Caprez (Studer Advokatur & Notariat)",
+    "notes": "lic. iur., LL.M., Fachanwalt SAV Erbrecht, ne en 1966, brevet 1994, Zoug. Domaines : droit des contrats, Erbrecht, droit de la famille, droit du travail, droit des societes. Langues DE/EN/FR.",
+    "person_name": "Studer Peter M.",
+    "phone": "041 560 19 00",
+    "source_url": "http://www.studerzug.ch/team_en.html"
+  },
+  "zg-stutz-vital-g": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "ADVOZUG",
+    "notes": "Associe depuis 2008. MLaw Univ. de Zurich 1980. 15 ans en gestion d'actifs bancaires puis 12 ans comme CEO d'une association economique suisse majeure avant de rejoindre le barreau. Domaines : droit des assurances sociales, droit des contrats (egalement enseignes a l'universite). Ancien membre du conseil de la SUVA et de commissions federales.",
+    "person_name": "Stutz Vital G.",
+    "source_url": "https://www.advozug.ch/2_2_vital_stutz.php"
+  },
+  "zg-surer-lara": {
+    "canton": "ZG",
+    "email": "surer@zanettilaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Zanetti Rechtsanwälte (Zanetti Attorneys at Law)",
+    "notes": "J.D., avocate et notaire du canton de Zoug. MLaw Univ. de Lucerne, semestre d'echange a la faculte de droit de l'Ewha Womans University (Seoul).",
+    "person_name": "Surer Lara",
+    "source_url": "https://scheidungsanwaltzug.ch/en/kanzlei/"
+  },
+  "zg-sutter-urs": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokatur Sutter (anciennement « Advokaturzug »)",
+    "notes": "Cabinet individuel, Zoug, depuis 2015. Domaines : Strafrecht et droit du travail pour entreprises/particuliers. A publie une these sur la defense en droit penal international (2012).",
+    "person_name": "Sutter Urs",
+    "phone": "+41 41 911 00 05",
+    "source_url": "https://www.advokatursutter.ch/kontakt"
+  },
+  "zg-taisch-franco": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Barandun AG",
+    "notes": "Associe, bureaux Zurich/Zoug/Geneve/NY/Liechtenstein. Dr. iur. (Univ. de Zurich 1987), habilitation Univ. de Lucerne 2009, professeur titulaire de droit des affaires et des marches financiers a l'Univ. de Lucerne. Domaines : restructuration de gouvernance d'entreprise, fusions-acquisitions, droit commercial/des societes, droit des marches financiers, conformite.",
+    "person_name": "Taisch Franco",
+    "source_url": "https://www.barandun-law.ch/de-team/franco-taisch"
+  },
+  "zg-taxer-sabine": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Wenger Vieli AG",
+    "notes": "Senior Associate (promue en 2023), a l'etude depuis 2019. Membre de l'association des avocats zougoise. MLaw/LL.M. (Londres), Fachanwaeltin SAV droit du travail. Domaines : droit du travail et de l'immigration, contentieux, droit des societes/commercial, fusions-acquisitions.",
+    "person_name": "Taxer Sabine",
+    "source_url": "https://www.wengervieli.ch/team/taxer-sabine"
+  },
+  "zg-tela-sebastiano": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Tela Sebastiano",
+    "reason": "Selon le site meme de Bär & Karrer, il n'est « pas encore admis comme avocat » (nicht als Rechtsanwalt zugelassen) et travaille comme Junior Associate au bureau de Lugano (equipe droit du sport/TMT) -- aucune pratique confirmee dans le canton de Zoug."
+  },
+  "zg-thalmann-fridolin": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Thalmann Fridolin",
+    "reason": "Seule l'inscription au registre cantonal des avocats de Zoug (adresse professionnelle a Cham) est confirmee ; aucune etude, coordonnee ou domaine de pratique trouve."
+  },
+  "zg-thalmann-paul": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Reichlin Hess AG",
+    "notes": "Dr., LL.M. (London School of Economics), notaire, Zoug. Domaines : droit des societes/commercial, restructurations, fusions-acquisitions, marches des capitaux, gouvernance d'entreprise/conformite, droit des contrats, droit de la concurrence, contentieux/arbitrage commercial. Langues DE/EN/FR.",
+    "person_name": "Thalmann Paul",
+    "source_url": "https://www.reichlinhess.ch/en/team/paul-thalmann/"
+  },
+  "zg-thoma-beat-h": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "notes": "lic. iur., cabinet individuel (egalement notaire), admis au barreau zougois en 1977, Zoug. Domaines : droit civil, droit des contrats, responsabilite civile/assurances, droit international, Strafrecht. Langues DE/EN/FR.",
+    "person_name": "Thoma Beat H.",
+    "phone": "+41 41 711 86 70",
+    "source_url": "https://www.local.ch/de/d/zug/6300/rechtsanwalt/thoma-beat-h-ZmE5Pz0gtC0Dn5yPR5lW0w"
+  },
+  "zg-tobler-sandro-g": {
+    "canton": "ZG",
+    "email": "tobler@stgp.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "STGP Advokatur Notariat (anciennement BKS Advokatur Notariat, renommee en 2016)",
+    "notes": "lic. iur., LL.M. (Univ. d'Edimbourg 2002), associe depuis 2013 (auparavant Bär & Karrer 1999-2004, Reichlin & Hess 2005-2012). Fachanwalt SAV Erbrecht (2013). Domaines : contentieux/arbitrage civil, planification successorale, droit des societes/commercial incl. fusions-acquisitions.",
+    "person_name": "Tobler Sandro G.",
+    "phone": "+41 41 723 10 40",
+    "source_url": "https://stgp.ch/en/people/partners/sandro-g-tobler/"
+  },
+  "zg-tremp-michael": {
+    "canton": "ZG",
+    "email": "m.tremp@hotzgoldmann.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "HotzGoldmann",
+    "notes": "Ne en 1974, lic. iur. Univ. de Fribourg (2000), brevet zougois 2002, associe depuis 2013 (Baar/Zoug). Domaines : droit de la construction/de la planification, droit du divorce, Erbrecht, droit du bail, droit du travail. Langues DE/EN.",
+    "person_name": "Tremp Michael",
+    "source_url": "https://www.hotzgoldmann.ch/deutsch/michael-tremp"
+  },
+  "zg-trepte-natalie": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Trepte Natalie",
+    "reason": "Seule une inscription au registre cantonal des avocats de Zoug (adresse et numero de mobile) est confirmee ; aucune etude ou domaine de pratique trouve."
+  },
+  "zg-truttmann-nadine": {
+    "canton": "ZG",
+    "email": "truttmann@aeplilaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Studer & Aepli (aeplilaw.ch)",
+    "notes": "Avocate et notaire (notaire depuis 2022), bureau de Zoug. Ancienne greffiere aux tribunaux de district/du travail de Zurich (2019-2023). Domaines : droit des societes/des contrats, droit du travail, contentieux civil, defense penale/representation des victimes, droit des etrangers (permis de sejour/travail).",
+    "person_name": "Truttmann Nadine",
+    "phone": "+41 41 710 15 77",
+    "source_url": "https://www.aeplilaw.ch/team"
+  },
+  "zg-ueltschi-rahel": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bihrer Attorneys at Law Ltd (Zurich)",
+    "notes": "Associee. Auparavant chez Klein Rechtsanwälte (Zurich) et liee a l'etude familiale « Ueltschi Rechtsanwälte » (Berne/Gstaad/Boltigen/Cham ZG). LL.M. resolution des litiges (Straus Institute, Pepperdine), MLaw Univ. de Berne, mediatrice SAV. Domaines : droit des societes/des contrats, planification successorale, droit du travail, contentieux, faillites/poursuites, mediation. Langues DE/EN/ES/FR/IT.",
+    "person_name": "Ueltschi Rahel",
+    "source_url": "https://ch.linkedin.com/in/rahel-ueltschi-7b30844a"
+  },
+  "zg-ulrich-franz-xaver": {
+    "canton": "ZG",
+    "email": "info@baurecht-ulrich.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Baurecht Ulrich",
+    "notes": "Proprietaire depuis 2019, Cham (egalement bureau a Zurich). M.A. HSG en droit, specialiste/mediateur en droit de la construction et de l'immobilier. Domaine exclusif depuis 2012 : droit suisse de la construction et de l'immobilier. Publications : articles dans « die baustellen » et « intelligent bauen » (defauts de construction, servitudes, reglements de construction), contributions dans la NZZ sur le droit de la propriete, travail sur les vices de plans.",
+    "person_name": "Ulrich Franz-​Xaver",
+    "phone": "041 561 38 25",
+    "source_url": "https://baurecht-ulrich.ch/ueber-mich/"
+  },
+  "zg-ulrich-thomas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "advokatur am rosenweg",
+    "notes": "lic. iur., avocat et notaire, ne en 1963, Baar. Domaines : droit de la famille/de l'enfant, Strafrecht, droit de la circulation, droit des contrats, droit de la procedure, poursuites/faillites. L'etude propose aussi des services de marques/droit d'auteur via une division « DORMANN IP® ».",
+    "person_name": "Ulrich Thomas",
+    "source_url": "http://www.ulrich-advokatur.ch/"
+  },
+  "zg-utiger-jonas": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "MME Legal",
+    "notes": "Legal Associate, MLaw, stage juridique 2021-2022 au tribunal cantonal zougois et chez MME. Conseille des entreprises suisses/etrangeres et des particuliers.",
+    "person_name": "Utiger Jonas",
+    "source_url": "https://www.mme.ch/en/team/jonas-utiger"
+  },
+  "zg-uttinger-laurence": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "AVS Rechtsanwälte AG",
+    "notes": "Independante depuis juillet 2018, a fonde AVS Rechtsanwälte AG le 30 avril 2020 (succedant a son cabinet individuel « Advokatur für Vorsorge- und Sozialversicherungsrecht »). lic. iur. Univ. de Lucerne (2006), brevet 2009, nee en 1978. Domaine : droit de la prevoyance professionnelle et des assurances sociales internationales suisses (conseil aux institutions de prevoyance).",
+    "person_name": "Uttinger Laurence",
+    "source_url": "https://xn--avs-rechtsanwlte-7nb.ch/wer-wir-sind/laurence-uttinger"
+  },
+  "zg-van-der-lely-jill": {
+    "canton": "ZG",
+    "email": "info@wysslaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "WyssLaw Rechtsanwälte & Notare AG",
+    "notes": "Associee, avocate et notaire. MLaw Univ. de Zurich.",
+    "person_name": "van der Lely Jill",
+    "phone": "+41 41 711 88 41",
+    "source_url": "https://www.wysslaw.ch/"
+  },
+  "zg-villiger-daniel": {
+    "canton": "ZG",
+    "email": "villiger@nsvr.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Cabinet individuel (anciennement associe chez Neese Stalder Villiger, 2017-2019)",
+    "notes": "Brevet d'avocat 2014, brevet de notaire zougois, independant depuis 2019, Zoug. Fachanwalt SAV droit de la construction et de l'immobilier (diplome en mars 2026). Domaines : droit de la construction, droit administratif/de la planification, droit de l'expropriation, droit immobilier, droit de l'environnement, droit foncier rural, droit des contrats (travail/bail). Langues DE/EN.",
+    "person_name": "Villiger Daniel",
+    "source_url": "https://www.nsvr.ch/de/team/daniel-villiger"
+  },
+  "zg-vischer-h-l-bernhard": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokaturbüro Dr. H.L. Bernhard Vischer",
+    "notes": "Dr. iur., cabinet individuel, Zoug. Domaines : Erbrecht, droit des societes, droit international prive, entraide judiciaire internationale.",
+    "person_name": "Vischer H.L. Bernhard",
+    "source_url": "https://www.rechtsanwalt.com/rechtsanwalt/dr-iur-h-l-bernhard-vischer/"
+  },
+  "zg-vogel-alexander": {
+    "canton": "ZG",
+    "email": "alexander.vogel@mll-legal.com",
+    "fetched_date": "2026-09-27",
+    "firm_name": "MLL Legal (associé)",
+    "notes": "Dr.iur., LL.M. (Northwestern Univ.), admis au barreau suisse en 1992 et a celui de l'Etat de New York en 1994. Dirige les groupes fusions-acquisitions/societes, private equity et fintech. Domaines : fusions-acquisitions transfrontalieres, private equity, financement d'acquisitions, marches des capitaux, droit bancaire et financier, immobilier et construction, insolvabilite/restructuration, ESG, reglementaire/fintech/DLT. Publications : \"Corporate Governance 2026 – Switzerland\" (Lexology), \"Joint Ventures 2026\" (Chambers & Partners), \"Fintech Laws and Regulations 2026 – Switzerland\". Adresse professionnelle enregistree a Baar (ZG).",
+    "person_name": "Vogel Alexander",
+    "phone": "+41 58 552 00 40",
+    "source_url": "https://mll-legal.com/people/alexander-vogel/?lang=en"
+  },
+  "zg-vogel-bernhard": {
+    "canton": "ZG",
+    "email": "bvogel@vnlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "VOGELNÄGELI Rechtsanwälte",
+    "notes": "Associe depuis 2011, intermediaire financier reglemente, Zoug. Domaines : conseil aux entrepreneurs/familles fortunees (national/international), mandats d'administrateur, planification successorale transfrontaliere, droit des contrats/societes (pactes d'actionnaires, contrats d'acquisition). Publications : these \"Der Franchise-Vertrag – Wettbewerbliche Behandlung, typische Bindungen nach Schweizer Kartellrecht\" (2006), \"Kartellrechtliche Folgen der Integration von Handelsvertretern in das Unternehmen des Herstellers\" (SZW 2007/2, avec Künzler). Langues DE/EN.",
+    "person_name": "Vogel Bernhard",
+    "phone": "+41 41 544 12 16",
+    "source_url": "https://vogelnaegeli.ch/team-de/bernhard-vogel-de"
+  },
+  "zg-vogel-hans-a": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "notes": "Dr. iur., cabinet individuel, Zoug. Aucun domaine de pratique specifique trouve au-dela d'une inscription d'annuaire generale.",
+    "person_name": "Vogel Hans A.",
+    "phone": "041 711 11 60",
+    "source_url": "https://www.local.ch/en/d/zug/6300/dr-vogel-hans-a-Wj1D1xNrETNiyaXgso9HiA"
+  },
+  "zg-vogt-peter": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Vogt Peter",
+    "reason": "Un « Peter Vogt » apparait comme co-intervenant lors d'un evenement organise dans les locaux de Bright Law AG (petit-dejeuner professionnel sur la transmission d'entreprises familiales), mais rien ne confirme qu'il s'agisse d'un avocat employe ou associe de cette etude plutot que d'un invite externe ; un homonyme distinct (KSCP Rechtsanwälte, Grenchen, canton de Soleure) a ete explicitement ecarte. Affiliation professionnelle actuelle jugee insuffisamment confirmee."
+  },
+  "zg-vokinger-gioia": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schweiger Advokatur/Notariat",
+    "notes": "MLaw (Univ. de Lucerne et Univ. d'Edimbourg, 2020), stagiaire au tribunal de district de Schwytz puis avocate suppleante et, depuis 2023, avocate et notaire chez Schweiger, Zoug. Domaines : droit des contrats, droit prive general, affaires notariales, droit immobilier et de la construction. Admise devant tous les tribunaux suisses.",
+    "person_name": "Vokinger Gioia",
+    "source_url": "https://www.schweigerlaw.ch/de/team.htm"
+  },
+  "zg-volker-mathias": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "VOELKERLAW (Anwaltskanzlei Völker AG)",
+    "notes": "Dr.iur., LL.M., egalement notaire (Urkundsperson) et mediateur diplome FH/SAV. Domaines : defense penale (tribunaux militaires et civils), droit du divorce/de la famille, mediation, constitution de societes (Sarl/SA).",
+    "person_name": "Völker Mathias",
+    "source_url": "https://voelkerag.ch/"
+  },
+  "zg-von-flue-bolliger-daniela": {
+    "canton": "ZG",
+    "email": "vonflue@swisslegal.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "lege artis zug – Rechtsanwälte und Notare (anciennement Swisslegal HPLAW Zug / Hausheer & Partner)",
+    "notes": "A l'etude depuis 2004, associee depuis 2008, Zoug. LL.M. droit international des affaires (Univ. de Zurich, 2010), brevet d'avocat/notaire zougois depuis 2000. Domaines : droit de la notarisation, Erbrecht, droit des societes/commercial, droit du travail, droit des contrats de vente, droit prive. Langues DE/EN/FR.",
+    "person_name": "von Flüe Bolliger Daniela",
+    "phone": "041 768 20 40",
+    "source_url": "https://legeartiszug.ch/en/about-us/"
+  },
+  "zg-wadsack-lukas": {
+    "canton": "ZG",
+    "email": "lukas.wadsack@wadsack.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Wadsack Zug AG",
+    "notes": "Expert fiscal diplome, M.A. HSG, avocat, responsable de la division juridique/administration/gestion, president du conseil d'administration, Zoug. Domaines (DE) : conseil juridique, comptabilite/clotures, revision, conseil fiscal.",
+    "person_name": "Wadsack Lukas",
+    "source_url": "https://www.wadsack.ch/profiles/wadsack-lukas/"
+  },
+  "zg-waibel-alessa": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Reichlin Hess AG",
+    "notes": "Senior Associate. Domaines : droit des societes/commercial, fusions-acquisitions, private equity, droit des contrats, financement, droit du sport. MLaw (Univ. de Zurich), LL.M. (Maastricht), admise au barreau zurichois en 2019, CAS droit international du sport (2023-24). Langues DE/EN.",
+    "person_name": "Waibel Alessa",
+    "source_url": "https://www.reichlinhess.ch/en/team/alessa-waibel/"
+  },
+  "zg-walder-jean-pierre": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Walder Jean-​Pierre",
+    "reason": "Inscrit au registre zougois (lic.iur., Baar), mais toute presence web trouvee le montre comme directeur/membre de conseil de societes fiduciaires (Sagi Associates GmbH, AFS Atlas Fiduciary Services AG, SwissTrust Consulting Group AG) plutot que comme avocat pratiquant avec une clientele juridique et un site propre -- aucune pratique juridique actuelle confirmee."
+  },
+  "zg-walter-regula": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Invest Law AG",
+    "notes": "lic.iur., DHEE (College d'Europe, Bruges), licence Univ. de Zurich. Membre de la Crypto Valley Association (Zoug) et de HSG Alumni. Langues DE/EN/FR.",
+    "person_name": "Walter Regula",
+    "source_url": "https://investlaw.ch/uber-uns/team/"
+  },
+  "zg-wartmann-martin": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Satisloh (juriste d'entreprise en interne)",
+    "notes": "lic.iur., LL.M., inscrit au registre zougois des avocats, base a Steinhausen. Environ 10 ans d'experience. Group General Counsel & Company Secretary. Domaines : droit commercial/des affaires, fusions-acquisitions, family offices, integration post-fusion, negociation de contrats. Reconnu au Legal 500 GC Powerlist Switzerland 2024.",
+    "person_name": "Wartmann Martin",
+    "source_url": "https://www.legal500.com/gc-powerlist/switzerland-2024/martin-wartmann-5/"
+  },
+  "zg-weber-marcello": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Anwaltskanzlei + Notariat Weber Kamer",
+    "notes": "lic.iur., LL.M., brevet d'avocat depuis 1984, Fachanwalt SAV Erbrecht, Zoug. Domaines : droit civil, commercial, des contrats, international, procedural. Langues DE/FR/EN/IT/ES.",
+    "person_name": "Weber Marcello",
+    "source_url": "https://www.weber-kamer.ch/wp-content/uploads/2016/07/marcello_weber_cv_de.pdf"
+  },
+  "zg-weidmann-raffael-j": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Weidmann & Partner",
+    "notes": "lic.iur., cabinet ouvert en 1988, relocalise en 1992, Zoug. Domaines : droit de la construction/de la planification, notarisation, droit des societes/des affaires/commercial.",
+    "person_name": "Weidmann Raffael J.",
+    "phone": "041 729 30 15",
+    "source_url": "https://www.mcadvo.ch/anwalt/zug/liciur-raffael-j-weidmann"
+  },
+  "zg-weiss-marco": {
+    "canton": "ZG",
+    "email": "info@marcoweiss.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Cabinet du Dr. iur. Marco Weiss",
+    "notes": "Dr. iur. (Univ. de Zurich, these « Das Verfahren der Verwaltungsrechtspflege im Kanton Zug »), cabinet fonde en 1986, Steinhausen. Domaine : droit des affaires. Langues DE/EN/FR/IT. Distinct de Sabrina Weiss (autre etude).",
+    "person_name": "Weiss Marco",
+    "phone": "+41 41 710 52 52",
+    "source_url": "https://marcoweiss.ch/en/portraet/"
+  },
+  "zg-weiss-sabrina": {
+    "canton": "ZG",
+    "email": "sabrina.weiss@mme.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "MME Legal | Tax | Compliance",
+    "notes": "A l'etude depuis 2023, Dr.iur., avocate et notaire du canton de Zoug. Domaines : droit des societes, droit des contrats, droit immobilier/de la construction, fusions-acquisitions/transactions. These sur la gouvernance d'entreprise dans les etudes d'avocats suisses (Univ. de Saint-Gall). Distincte de Marco Weiss (autre etude).",
+    "person_name": "Weiss Sabrina",
+    "phone": "+41 41 726 99 66",
+    "source_url": "https://www.mme.ch/en/sabrina-weiss"
+  },
+  "zg-weissmann-melissa-v": {
+    "canton": "ZG",
+    "email": "info@hestralaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Hestra Law (fondee par elle en 2025 ; auparavant chez Hodel & Partner)",
+    "notes": "Brevet d'avocate depuis 2013 (canton de Zoug). Specialiste certifiee SAV droit de la famille (2025). Domaines : droit de la famille, Erbrecht, droit des contrats/commercial, services notariaux. Langues DE/FR/EN.",
+    "person_name": "Weissmann Melissa V.",
+    "phone": "+41 41 562 30 80",
+    "source_url": "https://www.hestralaw.ch/en/"
+  },
+  "zg-weltert-hans": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Weltert & Partner AG",
+    "notes": "Egalement enregistre sous « Hans M. Weltert » / « Johann Martin Weltert » dans les registres du commerce, Cham. Etude fondee en 2020 (egalement bureau a Aarau). Brevet d'avocat initial 1983 (canton d'Argovie). Domaines : droit des societes/commercial, droit des valeurs mobilieres/marches des capitaux, poursuites/faillites, droit civil et administratif. Langues DE/FR/EN.",
+    "person_name": "Weltert Hans",
+    "source_url": "https://business-monitor.ch/en/companies/1058766-weltert-partner-ag"
+  },
+  "zg-wettenschwiler-suzanne": {
+    "canton": "ZG",
+    "email": "wettenschwiler@kaiserodermatt.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Kaiser Odermatt & Partner",
+    "notes": "Dr. iur. (Univ. de Zurich), diplome d'etudes superieures (Univ. de Geneve), associee independante depuis 2013 (auparavant associee chez Stadlin Advokatur Notariat 1996-2013), Zoug. Domaines : droit des societes, droit international des contrats/commercial, fondations, trusts/planification successorale, family office.",
+    "person_name": "Wettenschwiler Suzanne",
+    "phone": "+41 41 729 15 00",
+    "source_url": "https://www.kaiserodermatt.ch/expert/suzanne-wettenschwiler/"
+  },
+  "zg-wetzel-mathias": {
+    "canton": "ZG",
+    "email": "wetzel@schweigerlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schweiger Advokatur/Notariat",
+    "notes": "Associe depuis 2017, brevet de notaire zougois, Zoug. Domaines : droit immobilier/de la construction, droit civil/des contrats, droit des societes, affaires notariales, Strafrecht. Egalement actif politiquement au conseil communal de Zoug.",
+    "person_name": "Wetzel Mathias",
+    "phone": "+41 41 728 73 73",
+    "source_url": "https://www.schweigerlaw.ch/de/team.htm"
+  },
+  "zg-wild-hans-rudolf": {
+    "canton": "ZG",
+    "email": "hrwild@schweigerlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schweiger Advokatur/Notariat",
+    "notes": "Associe depuis 1988, lic.iur., brevet 1980/1983, Zoug. Domaines : droit des contrats, droit commercial/des societes, droit du bail, Erbrecht, contentieux/arbitrage. Langues DE/EN/FR.",
+    "person_name": "Wild Hans-​Rudolf",
+    "source_url": "https://www.schweigerlaw.ch/de/team.htm"
+  },
+  "zg-williner-ramona": {
+    "canton": "ZG",
+    "email": "ramona.williner@grunder-law.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Grunder Rechtsanwälte AG",
+    "notes": "Avocate et notaire depuis 2018, MLaw (Univ. de Zurich), Baar. Domaines : droit commercial, contrats, Erbrecht, questions de fin de vie/KESB, services notariaux. Langues DE/EN.",
+    "person_name": "Williner Ramona",
+    "phone": "+41 41 500 31 00",
+    "source_url": "https://grunder-law.ch/about-us/ramona-williner/?lang=en"
+  },
+  "zg-winckler-knecht-felix": {
+    "canton": "ZG",
+    "email": "f.winckler@brightlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bright Law AG",
+    "notes": "Brevet d'avocat 2015, notaire du canton de Zoug depuis 2018, Senior Associate depuis 2020 (auparavant chez Zwicky, Windlin & Partner 2015-2020). MLaw Univ. de Lucerne 2013. Domaines : droit des societes/des contrats, fusions-acquisitions d'entreprises, droit du travail, planification successorale, services notariaux.",
+    "person_name": "Winckler-​Knecht Felix",
+    "phone": "+41 41 555 40 80",
+    "source_url": "https://brightlaw.ch/de/team/felix-winckler-knecht"
+  },
+  "zg-windlin-jost": {
+    "canton": "ZG",
+    "email": "j.windlin@brightlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bright Law AG",
+    "notes": "Avocat et notaire du canton de Zoug depuis 1994, associe chez Bright Law depuis 2021 (auparavant associe chez Zwicky, Windlin & Partner 2003-2020). LL.M. Domaines : droit des societes, droit general des contrats, fusions-acquisitions, droit successoral, clientele privee, services notariaux.",
+    "person_name": "Windlin Jost",
+    "phone": "+41 41 555 40 80",
+    "source_url": "https://brightlaw.ch/de/team/jost-windlin"
+  },
+  "zg-wullschleger-cristina": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Hodel & Partner (Rechtsanwälte/Notare)",
+    "notes": "MLaw (double diplome Univ. de Zurich/Lausanne), basee a Baar. Affiliation confirmee via le numero de telephone general de l'etude ; aucune page individuelle dediee trouvee, information a considerer avec une confiance moindre que les autres entrees.",
+    "person_name": "Wullschleger Cristina",
+    "phone": "+41 41 728 62 72",
+    "source_url": "https://www.hodel-partner.ch/de/anwaelte_andrea_hodel-schmid.htm"
+  },
+  "zg-wyer-louis-joseph": {
+    "canton": "ZG",
+    "email": "lwyer@lawyers-wyer.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Wyer & Partner",
+    "notes": "lic.iur., cabinet d'avocats (Advokaturbüro), Zoug.",
+    "person_name": "Wyer Louis Joseph",
+    "phone": "041 720 47 57",
+    "source_url": "https://zip.ch/de/wyer-partner-zeughausgasse-zug-RJ902Ror64/"
+  },
+  "zg-wyss-alexander": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Baker McKenzie Switzerland AG (bureau de Zurich)",
+    "notes": "Dr., MBA, notaire du canton de Zoug depuis 2009 (inscrit au registre zougois bien que le bureau soit a Zurich). Domaines : transactions immobilieres, private equity/capital-risque, fusions-acquisitions, structuration de fonds, gouvernance d'entreprise, droit reglementaire des services financiers. Publications : commentaire des art. 18/20/43/44/64/65 de la loi sur la fusion (Stämpflis Handkommentar Fusionsgesetz, 2e ed., 2015), contribution au Chambers Real Estate 2019 Guide (Suisse), intervention « Development Projects » (Academy of Best Execution, 2016). Distinct de l'etude homonyme WyssLaw Rechtsanwälte & Notare AG (Zoug), qui ne le compte pas parmi ses associes.",
+    "person_name": "Wyss Alexander",
+    "phone": "+41 44 384 14 43",
+    "source_url": "https://www.bakermckenzie.com/en/people/w/wyss-alexander"
+  },
+  "zg-wyss-sarah": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schweiger Advokatur/Notariat",
+    "notes": "Etudes de droit Univ. de Lucerne, stagiaire/auditrice au tribunal cantonal zougois puis juriste chez Schweiger des mi-2022, ensuite avocate et notaire du canton de Zoug. Domaines : droit immobilier, droit de la construction, droit des contrats, affaires notariales. Admise devant tous les tribunaux suisses. Distincte d'Alexander Wyss (autre etude) et de l'etude WyssLaw AG.",
+    "person_name": "Wyss Sarah",
+    "phone": "+41 41 728 73 73",
+    "source_url": "https://www.schweigerlaw.ch/de/rechtsgebiete.htm"
+  },
+  "zg-zanetti-giovanni-gianni-f": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Zanetti Rechtsanwälte AG",
+    "notes": "lic.iur., Fachanwalt SAV droit du travail, CAS finance et comptabilite pour juristes, Managing Partner/president du conseil d'administration. Bureaux a Baar (siege), Zurich, Küssnacht am Rigi. Domaines : droit du travail, droit des societes, assurances sociales, Strafrecht, droit fiscal, Erbrecht, droit des biens, droit de la famille, droit des contrats, services notariaux, arbitrage, contentieux civil, poursuites/faillites. Publication : \"Das arbeitsrechtliche Konkurrenzverbot\" (clauses de non-concurrence en droit du travail).",
+    "person_name": "Zanetti Giovanni (Gianni) F.",
+    "phone": "+41 41 766 35 85",
+    "source_url": "https://zanettilaw.ch/"
+  },
+  "zg-zaugg-gregor-a": {
+    "_failed": true,
+    "canton": "ZG",
+    "checked_date": "2026-09-27",
+    "person_name": "Zaugg Gregor A.",
+    "reason": "Seule l'inscription au registre cantonal des avocats de Zoug (base a Baar) est confirmee ; aucune etude, site, telephone, email ou domaine de pratique trouve malgre plusieurs recherches ciblees."
+  },
+  "zg-zurcher-wolfgang": {
+    "canton": "ZG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Wenger & Vieli AG (Wenger Vieli Ltd)",
+    "notes": "Dr. iur., LL.M., notaire du canton de Zoug, associe. Domaines : capital-risque, private equity, acquisitions d'entreprises/fusions-acquisitions, droit des marches des capitaux (placements d'actions, IPO, offres publiques d'achat), services notariaux. Represente reconnu aupres de la Bourse suisse SIX. Ancien assistant a la chaire de droit des societes et bancaire de l'Univ. de Zurich et ancien collaborateur d'une etude americaine. Page propre en erreur intermittente (503) ; faits confirmes via extraits de recherche et LinkedIn.",
+    "person_name": "Zürcher Wolfgang",
+    "source_url": "https://www.wengervieli.ch/de-ch/team/zurcher-wolfgang"
+  },
+  "zg-zwicky-markus": {
+    "canton": "ZG",
+    "email": "m.zwicky@zp-law.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Zwicky & Partner",
+    "notes": "Dr. iur., avocat et notaire, Fachanwalt SAV Erbrecht (depuis 2019), associe. Etude fondee en 2021 sous le nom « Zwicky & Partner » (succedant a « Zwicky Windlin & Partner », 2004-2020, elle-meme active depuis 1991 a la meme adresse), Zoug. Domaines : droit des societes, droit civil, droit de la famille et successoral, services notariaux, contentieux et conseil.",
+    "person_name": "Zwicky Markus",
+    "phone": "+41 41 728 72 00",
+    "source_url": "https://zp-law.ch/person/dr-markus-zwicky"
   }
 }

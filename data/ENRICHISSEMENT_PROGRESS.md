@@ -7078,3 +7078,45 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 144, ZG 77 — total 221 sur
 les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 33)
+
+Lot dédié à l'épuisement complet du canton de Zoug (77 avocats restants, de Seeberger à Zwicky) :
+les 77 dossiers du canton ont été traités en une seule fois, en trois recherches parallèles.
+
+**Résultat : 70 succès / 7 échecs.**
+
+**Le canton de Zoug (ZG) est désormais entièrement traité : 0 avocat restant sur les 396 du
+canton.**
+
+Échecs : Sidler Max, Thalmann Fridolin, Trepte Natalie, Zaugg Gregor A. — seule l'inscription au
+registre cantonal confirmée, aucune étude ni coordonnée trouvée (Sidler Max en outre risque de
+confusion avec un homonyme distinct, Dr. Oliver Sidler) ; Tela Sebastiano — selon le site de son
+employeur (Bär & Karrer), pas encore admis comme avocat, basé à Lugano hors du canton ; Walder
+Jean-Pierre — inscrit au registre mais présent uniquement comme dirigeant de sociétés fiduciaires,
+sans pratique juridique cliente confirmée ; Vogt Peter — un homonyme co-intervenant lors d'un
+événement organisé chez Bright Law AG a été trouvé, mais rien ne confirme une affiliation
+professionnelle (invité externe possible), et un second homonyme sans lien (KSCP Rechtsanwälte,
+Soleure) a été explicitement écarté.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : deux « Stalder » (Markus/Michael), deux « Stöckli » (Armin/Barbara), deux
+« Thalmann » (Fridolin/Paul), deux « Ulrich » (Franz-Xaver/Thomas), trois « Vogel »
+(Alexander/Bernhard/Hans A.), deux « Weiss » (Marco/Sabrina), deux « Wyss » (Alexander/Sarah,
+distincts également de l'étude homonyme WyssLaw AG).
+
+Cas particuliers signalés pour transparence (classés succès avec réserve) : Stadlin Franziska et
+Straub Christoph — fiches minimales (adresse/téléphone) sans autre détail de pratique ; Ueltschi
+Rahel — pratique actuelle confirmée chez Bihrer Attorneys (Zurich) plutôt que physiquement à Zoug,
+dans la continuité du précédent Arpat Senocak/Michael Meier déjà établi ; Weltert Hans — identité
+confirmée par une correspondance de prénom courant en usage suisse (« Hans » pour « Johann
+Martin ») dans les registres du commerce ; Wullschleger Cristina et Zürcher Wolfgang — affiliation
+confirmée via des sources indirectes (téléphone général de l'étude, extraits de recherche) faute
+de page individuelle ou de site directement accessible.
+
+Rattachement : 1772 avocats rattachés par nom au total (1702 → 1772, +70 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 70 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 144, ZG 0 — total 144 sur le
+seul canton restant de la Phase 3b (Thurgovie, Soleure, Neuchâtel et Zoug désormais épuisées).
