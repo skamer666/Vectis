@@ -6795,3 +6795,34 @@ sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 286, ZG 220, NE 90, SO 25 —
 total 621 sur les 4 cantons restants de la Phase 3b.
+
+## Phase 3b, lot du 2026-09-27 (lot 25)
+
+Poursuite de l'enrichissement individuel dans les 4 cantons restants (AG, ZG, NE, SO).
+Lot de 51 candidats traité : AG (Hoffet → Humm), ZG (Kim → Krimmer), NE (Musitelli → Ott),
+SO (Tschumi → Walter).
+
+**Résultat : 49 succès / 2 échecs.**
+
+Échecs : Stephan M. Koch (ZG) — seule inscription au registre zougois confirmée, la société
+associée retrouvée (KOCH ADVOKATUR NOTARIAT AG) ayant été radiée du registre du commerce sans
+étude actuelle identifiable ; Stefan Koller (ZG) — seule inscription au registre confirmée, sans
+étude ni adresse professionnelle actuelle identifiable (distinct du cabinet de Jürg Koller).
+
+Précédents appliqués sans changement : ancien magistrat (procureur général adjoint de la
+Confédération, juge d'instruction) ayant quitté ses fonctions publiques pour la pratique privée
+(Claude Nicati, NE) ; ancien cadre de l'administration cantonale ayant quitté sa fonction pour le
+secteur privé (Victor von Sury, SO, ex-chef du service juridique du Département des constructions
+et de la justice soleurois) ; mandats politiques et associatifs de milice (passés ou en cours)
+compatibles avec la pratique (plusieurs entrées AG/NE/SO, dont Daniel Urech, SO, actuellement
+maire de Dornach et député cantonal en parallèle de son étude d'avocat et de notariat) ; fonctions
+académiques compatibles (Thierry Obrist et Simon Othenin-Girard, NE, professeurs en parallèle de
+leur pratique).
+
+Rattachement : 1381 avocats rattachés par nom au total (1332 → 1381, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées,
+sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 272, ZG 207, NE 78, SO 13 —
+total 570 sur les 4 cantons restants de la Phase 3b. Le canton de Soleure (SO) approche de
+l'épuisement (13 avocats restants).
