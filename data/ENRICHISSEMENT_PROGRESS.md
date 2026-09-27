@@ -6699,3 +6699,33 @@ sans changement). Suite de tests : 94/94 au vert.
 Reste à traiter (calcul exact par jointure canton+nom normalisé contre les 3 fichiers de cache,
 succès et échecs confondus) : AG 321, ZG 255, NE 122, TG 17, SO 58 — total 773 sur les 5 cantons
 de la Phase 3b.
+
+## Phase 3b, lot du 2026-09-27 (lot 22)
+
+Poursuite de l'enrichissement individuel dans les 5 cantons sans étude (AG, ZG, NE, TG, SO).
+Lot de 50 candidats traité : AG (Gloor → Haefeli), ZG (Hotz → Inderkum), NE (Lavanchy → Lunke),
+TG (Trippel → Winterfeldt), SO (Savoldelli → Schnider).
+
+**Résultat : 49 succès / 1 échec.**
+
+Seul échec : Judith Hubatka (ZG) — nommée Leitende Oberstaatsanwältin (procureure générale en
+chef) du canton de Zoug par le tribunal cantonal avec effet au 1er janvier 2025, fonction publique
+à temps plein incompatible avec la pratique privée malgré son ancien poste chez Reichlin Hess AG.
+Nouveau précédent de classification, dans la continuité du précédent « juge professionnel·le à
+temps plein actuel » déjà établi : une fonction de magistrature du parquet à temps plein et
+actuelle (procureur·e général·e) est traitée de la même façon qu'un poste de juge professionnel·le
+à temps plein — échec, car il s'agit de la profession actuelle réelle et non d'un mandat de milice.
+
+Deux corruptions de champ CSV du même type que celles déjà rencontrées (prénom du canton de
+Soleure) confirmées : « Schilliger » → Daniel Schilliger, et « Schmid » → Livia Schmid, tous deux
+avocat·e·s au service juridique de Procap Suisse à Olten, prénom leché dans le champ adresse
+(« Daniel c/o procap » / « Livia c/o procap »), comme pour l'entrée « Atteslander » d'un lot
+antérieur.
+
+Rattachement : 1235 avocats rattachés par nom au total (1186 → 1235, +49 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 49 succès ; toujours 2 collisions de nom ignorées,
+sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 311, ZG 245, NE 112, TG 7,
+SO 48 — total 723 sur les 5 cantons de la Phase 3b. La Thurgovie (TG) approche de l'épuisement
+(7 avocats restants).
