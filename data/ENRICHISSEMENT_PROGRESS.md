@@ -6765,3 +6765,33 @@ sans changement). Suite de tests : 94/94 au vert.
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 299, ZG 233, NE 102, TG 0,
 SO 38 — total 672 sur les 5 cantons de la Phase 3b (4 cantons restants désormais, la Thurgovie
 étant épuisée).
+
+## Phase 3b, lot du 2026-09-27 (lot 24)
+
+Poursuite de l'enrichissement individuel dans les 4 cantons restants (AG, ZG, NE, SO ; la
+Thurgovie ayant été épuisée au lot précédent). Lot de 51 candidats traité : AG (Hemmeler → Hofer),
+ZG (Jucker → Kaufmann-Ottiger), NE (Massard → Munastra), SO (Stampfli → Trümpy).
+
+**Résultat : 48 succès / 3 échecs.**
+
+Échecs : Benjamin Max Hofer (AG) — seule mention trouvée « Anwaltsassistent » (assistant
+juridique), sans confirmation d'un brevet d'avocat en pratique indépendante ; George Kammann
+(ZG) — occupe actuellement la fonction de secrétaire général et greffier (poste à 80%) du
+tribunal administratif du canton de Zoug, fonction publique juridictionnelle actuelle
+incompatible avec la pratique privée (nouveau cas d'application du précédent du magistrat/greffier
+à temps plein en poste) ; Claude Meyrat (NE) — seule une inscription au Rôle Officiel du Barreau
+neuchâtelois (NPA St-Imier) est confirmée, sans étude ni adresse professionnelle identifiable.
+
+Précédents appliqués sans changement : ancien procureur cantonal ayant quitté sa fonction pour la
+pratique privée (Peter Heinrich Heuberger, AG, ex-Staatsanwalt argovien 2011-2025) ; fonctions
+académiques et judiciaires suppléantes à temps partiel compatibles (Luca Melcarne et Marino/Michel
+Montini, NE, assistanats universitaires ; Rocco Mauri, NE, ancien magistrat suppléant terminé ;
+Theo Strausak et David Stämpfli, SO, juge suppléant / commission fédérale d'estimation) ; mandats
+associatifs et de conseil d'administration compatibles (plusieurs entrées).
+
+Rattachement : 1332 avocats rattachés par nom au total (1284 → 1332, +48 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 48 succès ; toujours 2 collisions de nom ignorées,
+sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 286, ZG 220, NE 90, SO 25 —
+total 621 sur les 4 cantons restants de la Phase 3b.
