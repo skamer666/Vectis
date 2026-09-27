@@ -7120,3 +7120,31 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 144, ZG 0 — total 144 sur le
 seul canton restant de la Phase 3b (Thurgovie, Soleure, Neuchâtel et Zoug désormais épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 34)
+
+Poursuite de l'enrichissement individuel dans le seul canton restant (AG). Lot traité : Rikardsen
+→ Sommer, hors « Michael Hunziker ».
+
+**Résultat : 44 succès / 6 échecs.**
+
+Échecs : Laura Rikardsen — seule fonction trouvée greffière au Tribunal administratif fédéral,
+fonction judiciaire et non pratique privée ; Andreas Rüegger — occupe une fonction publique
+cantonale (responsable droit et exécution, Bâle-Campagne) et un mandat politique communal, aucune
+pratique privée confirmée ; Christoph Schärli — seul homonyme trouvé breveté et basé dans le canton
+de Zurich, identification avec la personne argovienne non confirmée ; Nina Rebekka Schlegel —
+aucun profil, étude ou inscription trouvé malgré recherches approfondies ; Angela Schneider —
+ambiguïté homonymique non résolue entre plusieurs personnes de ce nom dans des cantons différents ;
+Claudia Snaidero — seule trace trouvée la rattache au canton de Bâle-Campagne, aucune présence
+argovienne confirmée.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : deux « Röthlisberger » (Andreas/Thomas) et deux « Seiler » (Nadine Céline
+Barbara/Roger), chacun vérifié contre des études distinctes.
+
+Rattachement : 1816 avocats rattachés par nom au total (1772 → 1816, +44 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 44 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 94 — total 94 sur le seul
+canton restant de la Phase 3b (Thurgovie, Soleure, Neuchâtel et Zoug toujours épuisées).

@@ -44,6 +44,14 @@
     "phone": "+41 56 521 44 00",
     "source_url": "https://rlh-law.ch/en/rechtsanwaelte/alexander-rihs/"
   },
+  "ag-alexander-schawalder": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Aare Advokatur und Notariat",
+    "notes": "lic.iur., cabinet individuel, Aarau. Domaines (DE) : Familienrecht (mariage/divorce, regime matrimonial), Mediation, droit de l'enfant, Erbrecht, droit des contrats, responsabilite civile, Strafrecht, droit administratif, droit de la circulation, Notariat. Langues EN/FR/IT. Propose une consultation juridique gratuite mensuelle a Erlinsbach (SO).",
+    "person_name": "Alexander Schawalder",
+    "source_url": "https://www.mcadvo.ch/anwalt/aarau/liciur-alexander-schawalder"
+  },
   "ag-alexandra-adriana-manz-notter": {
     "canton": "AG",
     "email": "info@notterlegal.ch",
@@ -108,6 +116,22 @@
     "phone": "+41 58 322 83 22",
     "source_url": "https://penalisti.ch/de/team/andre-kuhn"
   },
+  "ag-andrea-johanna-schutz": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schütz Law AG",
+    "notes": "Etude fondee en janvier 2025, brevet argovien depuis janvier 2025, Lenzburg. Dr. iur. (Univ. de Zurich), LL.M. droit de la sante (Univ. de Melbourne). Domaines (DE) : droit des produits therapeutiques/de la sante, procedures administratives/penales en la matiere, remboursement par les assureurs-maladie, publicite/distribution de dispositifs medicaux/medicaments. Auparavant responsable des enquetes du service penal de Swissmedic. Etude classee dans le palmares « Top-Anwälte 2026 » (droit de la sante).",
+    "person_name": "Andrea Johanna Schütz",
+    "source_url": "https://schuetzlaw.ch/en/about-us/"
+  },
+  "ag-andrea-maja-scherrer": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Anwaltskanzlei SLP",
+    "notes": "A l'etude depuis 2023/2024 (auparavant greffiere au Bezirksgericht Aarau), Aarau. Domaines (DE) : Strafrecht, droit des contrats, Familienrecht.",
+    "person_name": "Andrea Maja Scherrer",
+    "source_url": "https://slp.ch/rechtsanwaeltin-andrea-scherrer/"
+  },
   "ag-andrea-meier": {
     "canton": "AG",
     "email": "meier@msraw.ch",
@@ -126,6 +150,14 @@
     "notes": "lic. iur., brevet 1990, Baden. Fachanwaeltin SAV droit de la famille (2008), mediatrice SAV (2007), avocate collaborative (clp Suisse), avocate d'enfants certifiee.",
     "person_name": "Andrea Metzler",
     "source_url": "https://www.kmtbaden.ch/team/lic-iur-andrea-metzler/"
+  },
+  "ag-andrea-rebecca-schifferle": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Müller Schifferle, Notariat und Advokatur",
+    "notes": "Brevet argovien 2011, a l'etude depuis juillet 2023 (auparavant chez Voser Rechtsanwälte), Baden. Domaines (DE) : Notariat, Erb-/Nachlassrecht, droits reels, droit commercial/des societes, droit des contrats, procedure civile, droit des personnes/associations/fondations, Ehe-/Konkubinatsrecht, droit foncier rural et successoral. Egalement chargee de cours/experte d'examen en droit du mariage et successoral a l'IfFP.",
+    "person_name": "Andrea Rebecca Schifferle",
+    "source_url": "https://mueller-schifferle.ch/team"
   },
   "ag-andrea-ursina-bieri-muller": {
     "canton": "AG",
@@ -222,6 +254,29 @@
     "notes": "Kantonsschule Aarau, Bachelor en droit (summa cum laude) et Master en droit (magna cum laude) a Bale. Experience a la Commission de la concurrence et dans des cabinets zurichois. Avocat independant depuis 2023 chez Stampfli Rechtsanwaelte, Soleure ; depuis le 1er septembre 2026 la fusion avec gfl Rechtsanwaelte a donne gfl Rechtsanwaelte und Notare, le bureau d'Aarau (fonde en 2018) etant maintenu, Laurenzenvorstadt 57, Aarau. Membre du comite electoral des Vert'liberaux (GLP) d'Aarau et membre du comite GLP des districts d'Aarau et de Kulm (fonctions politiques de milice compatibles).",
     "person_name": "Andreas Roman Holenstein",
     "source_url": "https://www.stampfli.ch/team/rechtsanwaelte/andreas-holenstein"
+  },
+  "ag-andreas-rothlisberger": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokaturbüro Dr. Andreas Röthlisberger",
+    "notes": "Dr.iur., etude fondee en 1990, Aarau. Avocat et mediateur SAV. Domaines (DE) : Gesellschafts-/Firmenrecht, Versicherungsrecht, Handelsrecht, Vertragsrecht, droit de l'environnement/de la construction. Egalement directeur general de la VKB Aargau depuis 1998, cofondateur de SENS en 1990. Distinct de Thomas Röthlisberger (autre etude).",
+    "person_name": "Andreas Röthlisberger",
+    "phone": "+41 62 824 23 23",
+    "source_url": "https://aroet.ch/"
+  },
+  "ag-andreas-ruegger": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Andreas Rüegger",
+    "reason": "Titulaire d'un brevet d'avocat argovien, mais occupe actuellement la fonction de responsable droit et execution (Bauinspektorat) du canton de Bale-Campagne, une fonction publique, ainsi qu'un mandat politique de conseiller municipal a Zofingue -- aucun site ou etude confirmant une pratique privee actuelle."
+  },
+  "ag-angela-schneider": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Angela Schneider",
+    "reason": "Ambiguite homonymique non resolue : plusieurs « Angela Schneider » distinctes trouvees (petite etude a Rheinfelden AG admise en Bale-Campagne en 2013 sans adresse confirmee, une chez SOS Rechtsanwälte a Zoug, une chez FURER & PARTNER a Bale, une a Garmisch-Partenkirchen en Allemagne) sans qu'aucune ne puisse etre identifiee avec certitude comme la personne inscrite au registre argovien."
   },
   "ag-anne-marie-carrel": {
     "canton": "AG",
@@ -395,6 +450,14 @@
     "practice_areas_de": "Auslaenderrecht, Strafrecht inkl. Opferhilfe, Strassenverkehrsrecht, Arbeitsrecht, Mietrecht, Familienrecht",
     "source_url": "http://www.ce-rechtsanwaelte.ch/"
   },
+  "ag-carole-aline-schenkel": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Baur Hürlimann AG",
+    "notes": "Brevet argovien 2012, membre du conseil de l'etude, Baden. Domaines (DE) : droit de la construction/de l'immobilier, droit des contrats (vente, entreprise, mandat, bail), SchKG, responsabilite civile/assurances, droit medical/de la sante, defense penale (construction/medical).",
+    "person_name": "Carole Aline Schenkel",
+    "source_url": "https://bhlaw.ch/carole-schenkel/?lang=en"
+  },
   "ag-caroline-kristina-conrad-behr": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -433,6 +496,16 @@
     "person_name": "Cécile Catherine Pelet",
     "source_url": "https://www.kmtbaden.ch/team/mlaw-cecile-pelet/"
   },
+  "ag-cecile-eveline-schmidlin": {
+    "canton": "AG",
+    "email": "cecile.schmidlin@5001.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schärer Rechtsanwälte",
+    "notes": "Dr. iur. (Univ. de Bale 2024), brevet 2018, Aarau. Domaines (DE) : protection des donnees, droit des contrats, droit du travail, droit constitutionnel/communal/administratif, droit de la sante, droit de l'energie.",
+    "person_name": "Cécile Eveline Schmidlin",
+    "phone": "+41 62 837 50 00",
+    "source_url": "https://www.5001.ch/en/anwaelte/cecile-schmidlin-2/"
+  },
   "ag-cedric-arnaud-lalive-d-epinay": {
     "canton": "AG",
     "email": "info@slp.ch",
@@ -442,6 +515,16 @@
     "person_name": "Cédric Arnaud Lalive d'Epinay",
     "phone": "+41 62 836 40 50",
     "source_url": "https://slp.ch/anwaelte/"
+  },
+  "ag-celine-schorro": {
+    "canton": "AG",
+    "email": "mail@ritterkoller.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Ritter Koller AG",
+    "notes": "Confirmee comme « Rechtsanwältin » sur la page equipe de l'etude, Möhlin ; sa sous-page individuelle renvoie une erreur 404, aucun autre detail de pratique confirme au-dela de la liste de l'equipe.",
+    "person_name": "Céline Schorro",
+    "phone": "+41 61 855 40 40",
+    "source_url": "https://www.ritterkoller.ch/de/anwaelte/index.php"
   },
   "ag-christian-bar": {
     "canton": "AG",
@@ -571,6 +654,13 @@
     "phone": "+41 62 888 25 25",
     "source_url": "https://www.advo5600.ch/christoph-maeder/"
   },
+  "ag-christoph-scharli": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Christoph Schärli",
+    "reason": "Un homonyme lic.iur. (specialiste des marches publics/droit de la construction, Schärli Recht GmbH) a ete trouve, mais son brevet d'avocat a ete obtenu dans le canton de Zurich (2014) et il est base a Zurich -- aucun element ne confirme qu'il s'agit de la personne inscrite au registre argovien."
+  },
   "ag-claude-fischer": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -578,6 +668,21 @@
     "person_name": "Claude Fischer",
     "phone": "062 836 40 50",
     "source_url": "https://www.mcadvo.ch/anwalt/aarau/liciur-claude-fischer"
+  },
+  "ag-claudia-rohrer": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Berger Rohrer Rechtsanwältinnen AG",
+    "notes": "Cofondatrice, Fachanwaeltin SAV droit de la famille, avocate independante a Rheinfelden depuis 2004. Domaines (DE) : Ehe-/Konkubinatsrecht, droit du divorce, droit des contrats, aide aux victimes, assurances sociales. Le site de l'etude precise qu'elle n'accepte actuellement pas de nouveaux mandats. Egalement conseillere municipale (PS) a Rheinfelden et co-cheffe de groupe au Grand Conseil.",
+    "person_name": "Claudia Rohrer",
+    "source_url": "https://www.berger-rohrer.ch/claudia_rohrer.45de.html"
+  },
+  "ag-claudia-snaidero": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Claudia Snaidero",
+    "reason": "Seule trace trouvee : une declaration de juristes suisses contre la loi Covid-19 revisee, ou elle est indiquee comme etant du canton de Bale-Campagne, pas d'Argovie ; aucun site d'etude, inscription au registre ou adresse argovienne localisee."
   },
   "ag-cornelia-ernst": {
     "canton": "AG",
@@ -681,6 +786,15 @@
     "phone": "062 751 24 30",
     "source_url": "https://www.lanzwehrli.ch/team/daniel-manzetti/"
   },
+  "ag-daniel-santini": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Santini Advokatur / Santini Immobilien",
+    "notes": "Lenzburg/Dottikon. Conseil et representation juridique generale pour particuliers et entreprises, immobilier.",
+    "person_name": "Daniel Santini",
+    "phone": "062 892 48 46",
+    "source_url": "http://www.santini-law.ch/"
+  },
   "ag-daniela-kung": {
     "canton": "AG",
     "email": "daniela.kueng@5001.ch",
@@ -762,6 +876,16 @@
     "person_name": "Deborah Götsch",
     "source_url": "https://advokaturgrimm.ch/team"
   },
+  "ag-denis-solak": {
+    "canton": "AG",
+    "email": "solak@geissmannlegal.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Geissmann Rechtsanwälte und Notare AG",
+    "notes": "MLaw Univ. de Zurich 2017, brevet argovien 2020, brevet de notaire argovien 2023 (formation notariale 2021-2023 chez Küng Rechtsanwälte, Wettingen). Domaines (DE) : droit economique/des societes, droit immobilier/de la construction, Notariat (immobilier, societes, contrats de famille/succession).",
+    "person_name": "Denis Solak",
+    "phone": "+41 56 437 36 37",
+    "source_url": "https://www.geissmannlegal.ch/team/denis-solak/"
+  },
   "ag-dieter-egloff": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -837,6 +961,16 @@
     "phone": "+41 62 836 40 50",
     "source_url": "https://slp.ch/rechtsanwalt-dominik-probst/"
   },
+  "ag-dominik-rothacher": {
+    "canton": "AG",
+    "email": "kontakt@rothacher-rechtsanwalt.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Rothacher Rechtsanwalt",
+    "notes": "Ne en 1971, licence en droit 1997 (Univ. de Berne), independant a Aarau depuis oct. 2015. Domaines (DE) : Strafrecht general, droit economique, droit des societes/entreprises, droit de la circulation routiere, droit des contrats. Langues DE/PT/FR/EN.",
+    "person_name": "Dominik Rothacher",
+    "phone": "+41 62 824 32 92",
+    "source_url": "https://www.rothacher-rechtsanwalt.ch/kontakt"
+  },
   "ag-dominique-sibylle-disler": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -866,6 +1000,14 @@
       "Article en droit agraire"
     ],
     "source_url": "https://lawyers.jurata.ch/de/anwalt/elias-hoerhager"
+  },
+  "ag-elif-sengul": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Real & Partner AG",
+    "notes": "Brevet d'avocat obtenu en 2000 (26 ans d'experience), Stein. Domaines (DE) : droit du divorce, Ehe-/Konkubinatsrecht, droits reels, droit du bail/fermage, droit europeen. Langues DE/TR/EN.",
+    "person_name": "Elif Sengül",
+    "source_url": "https://lawyers.jurata.ch/de/anwalt/elif-senguel"
   },
   "ag-emanuel-meier": {
     "canton": "AG",
@@ -1023,6 +1165,16 @@
     "person_name": "Fabienne Edelmann",
     "source_url": "https://www.edelmann-recht.ch/index.php?id=2"
   },
+  "ag-fabienne-senn-kaufmann": {
+    "canton": "AG",
+    "email": "fsenn@kanzleimutschellen.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokatur und Notariat Eichenberger & Senn",
+    "notes": "Berikon. Domaines (DE) : Familienrecht, Strafrecht, droit des contrats, Erbrecht, droit economique, Notariat. A assure des defenses d'office en procedure penale argovienne.",
+    "person_name": "Fabienne Senn-Kaufmann",
+    "phone": "+41 56 633 64 42",
+    "source_url": "https://kanzleimutschellen.ch/"
+  },
   "ag-fernando-garcia": {
     "canton": "AG",
     "email": "info@baechli-garcia.ch",
@@ -1135,6 +1287,14 @@
     "phone": "062 892 94 72",
     "source_url": "http://anw24.ch/component/adsfactory/details/5858/gabriela-mueller-hunkeler-lenzburg.html"
   },
+  "ag-gabriela-rohner": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "notes": "Dr.iur., licence Univ. de Zurich 1991, brevet argovien 1993, Aarau (etude d'advocature/mediation, ROHNER & SCHMID). Associee independante depuis debut 2011. Domaines (DE) : Familienrecht (separation, divorce), protection de l'enfant, droit du travail, droit du bail, mediation.",
+    "person_name": "Gabriela Rohner",
+    "phone": "062 822 93 82",
+    "source_url": "https://www.advomediation.ch/über-uns"
+  },
   "ag-gennaro-mastronardi": {
     "canton": "AG",
     "email": "mastronardi@graf-mastronardi.ch",
@@ -1152,6 +1312,14 @@
     "notes": "Originaire d'Aarau. Geschaeftsfuehrer (directeur general) de BAUR Rechtsanwaelte GmbH, Oberstadtstrasse 7, Baden. Domaines : conseil et contentieux, droit des contrats, droit administratif, droit du travail et de la fonction publique ; services notariaux pour le canton d'Argovie, notamment droit immobilier, droit des societes et droit successoral.",
     "person_name": "Georg Klingler",
     "source_url": "https://bhlaw.ch/georg-klingler/?lang=en"
+  },
+  "ag-georg-scharer": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schärer Rechtsanwälte",
+    "notes": "lic.iur., avocat et notaire. Etude formee en 2003 par la fusion de dix associes issus de trois anciennes etudes d'Aarau (origines dans les annees 1930). Domaines (DE) : Notariat (immobilier, contrats de mariage/succession), Gesellschaftsrecht.",
+    "person_name": "Georg Schärer",
+    "source_url": "https://www.5001.ch/de/georg-schaerer"
   },
   "ag-giuseppe-dell-olivo": {
     "canton": "AG",
@@ -1247,6 +1415,14 @@
     "person_name": "Hans Peter Friedli",
     "source_url": "https://hpfriedli.ch/"
   },
+  "ag-hans-rudolf-schibli": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schibli & Partner Advokatur und Notariat AG",
+    "notes": "Dr., president du conseil d'administration, specialiste CAS responsabilite civile/assurances, diplome en droit financier (Law Society Ireland). Bureaux Aarau, Aarburg, Baden, Zurich. Enseigne aux Univ. de Saint-Gall et FHNW. Juge suppleant au tribunal cantonal argovien (tribunal des assurances).",
+    "person_name": "Hans Rudolf Schibli",
+    "source_url": "https://www.schibli-partner.ch/organization/person/1"
+  },
   "ag-hansjorg-geissmann": {
     "canton": "AG",
     "fetched_date": "2026-09-27",
@@ -1296,6 +1472,15 @@
     "phone": "+41 62 771 46 83",
     "source_url": "http://www.siegenthaler-partner.ch/team.htm"
   },
+  "ag-herbert-h-scholl": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "SLP Rechtsanwälte und Notariat",
+    "notes": "Associe depuis 1984, lic.iur., Aarau/Olten. Domaines (DE) : droit des contrats, droit du sport, droit medical, Bau-/Planungsrecht, droit administratif, droit public de la fonction publique, droit de l'environnement, droit des marches publics. Ancien president du Grand Conseil argovien, ancien directeur de l'association commerciale argovienne.",
+    "person_name": "Herbert H. Scholl",
+    "phone": "062 836 40 50",
+    "source_url": "https://slp.ch/rechtsanwalt-herbert-h-scholl/"
+  },
   "ag-hubert-cesna": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -1336,6 +1521,16 @@
       "Enteignungsrecht"
     ],
     "source_url": "https://voser.ch/mlaw-jaqueline-alf/"
+  },
+  "ag-janine-sommer": {
+    "canton": "AG",
+    "email": "j.sommer@kanzlei-b9.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Gimmel Breunig Sommer (Kanzlei B9)",
+    "notes": "Master en droit Lucerne/Neuchatel 2011, brevet argovien 2013, CAS representation de l'enfant (Lucerne, 2023-24), Brugg. Domaines (DE) : Familienrecht (mariage/divorce, protection de l'enfant et de l'adulte), Strafrecht (defense/representation des victimes), representation de l'enfant, droit des migrations, droit du bail, droit des contrats. Egalement mediatrice pour les litiges de bail du district de Brugg depuis 2021, conseillere juridique de la Frauenzentrale argovienne depuis 2016.",
+    "person_name": "Janine Sommer",
+    "phone": "+41 56 269 75 85",
+    "source_url": "https://www.kanzlei-b9.ch/de/janine-sommer"
   },
   "ag-jeanine-hollinger": {
     "canton": "AG",
@@ -1436,6 +1631,14 @@
     "person_name": "Jürg Raidt",
     "phone": "056 221 04 15",
     "source_url": "https://tel.search.ch/baden/seminarstrasse-44/juerg-raidt"
+  },
+  "ag-jyrki-schaublin": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokatur + Notariat Müller Schäublin AG",
+    "notes": "A repris l'etude de Valentin Müller en 2020, notaire depuis 2022, Rheinfelden (auparavant au bureau du registre foncier de Laufenburg 2016-2020). Domaines : services notariaux, conseil aux entreprises/particuliers, representation devant les autorites/tribunaux.",
+    "person_name": "Jyrki Schäublin",
+    "source_url": "https://www.advokatur-mueller-schaeublin.ch/team"
   },
   "ag-kaspar-hemmeler": {
     "canton": "AG",
@@ -1548,6 +1751,13 @@
     "phone": "056 200 50 40",
     "source_url": "https://www.meier-anwaelte.ch/Laura-Moretti-Mlaw"
   },
+  "ag-laura-rikardsen": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Laura Rikardsen",
+    "reason": "Seule fonction trouvee : greffiere (Gerichtsschreiberin) au Tribunal administratif federal, une fonction judiciaire et non une pratique privee d'avocate ; aucun site ou registre ne confirme une pratique independante actuelle en Argovie."
+  },
   "ag-lea-christina-deubelbeiss": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -1563,6 +1773,16 @@
     "checked_date": "2026-09-27",
     "person_name": "Lea Eliane Gautschi",
     "reason": "Seule une inscription au registre cantonal des avocats est confirmee (domicile Reinach AG, lieu de pratique Frick, NPA 5070) ; aucune etude, adresse professionnelle ou activite concrete identifiee malgre recherches (une avocate homonyme chez Wehrli Partner a Aarau n'a pas pu etre reliee avec certitude a cette personne)."
+  },
+  "ag-leo-sigg": {
+    "canton": "AG",
+    "email": "sigg@schadenanwaelte.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "schadenanwaelte",
+    "notes": "MLaw, Fachanwalt SAV responsabilite civile/assurances depuis 2008, Aarau. Domaines (DE) : responsabilite civile/assurances, assurances sociales (accident/invalidite).",
+    "person_name": "Leo Sigg",
+    "phone": "+41 62 544 77 00",
+    "source_url": "https://www.schadenanwaelte.ch/sigg-leo/"
   },
   "ag-leonhard-muller": {
     "canton": "AG",
@@ -1622,6 +1842,15 @@
     "person_name": "Luca Alessandro Maag",
     "phone": "056 501 30 00",
     "source_url": "https://graf-mastronardi.ch/luca-maag/"
+  },
+  "ag-luca-schoop": {
+    "canton": "AG",
+    "email": "schoop@5401.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Bürgi Bulaty Wunderlin Rechtsanwälte",
+    "notes": "Brevet argovien 2021, licence Univ. de Bale, Baden. Domaines (DE) : Strafrecht (defense et representation des victimes), Familienrecht, droit du travail/du bail, droit des contrats. Publications : « Finanzielle Folgen des Schwarzfahrens » (sui generis, 2024), « Die Medienöffentlichkeit der Strafjustiz ausserhalb des Hauptverfahrens » (2018).",
+    "person_name": "Luca Schoop",
+    "source_url": "https://www.5401.ch/anwaeltinnen/luca-schoop/"
   },
   "ag-lukas-alexander-muller": {
     "canton": "AG",
@@ -1685,6 +1914,14 @@
     "person_name": "Magnus Küng",
     "phone": "+41 56 437 36 37",
     "source_url": "https://notariat-kueng.ch/magnus-kueng/"
+  },
+  "ag-marc-andreas-siegenthaler": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Siegenthaler & Partner AG",
+    "notes": "Etude fondee en 1970, ne en 1967, brevet bernois (Fürsprecher) 1996, avocat independant depuis 2003, proprietaire de l'etude depuis 2011, Menziken. Domaines (DE) : droit de la circulation routiere, Strafrecht, droit du travail, droit immobilier, droit aerien, droit des marches financiers, lutte contre le blanchiment d'argent, droit des contrats. Egalement actif en droit aerien/des drones (titulaire d'une licence de pilote multimoteur).",
+    "person_name": "Marc Andreas Siegenthaler",
+    "source_url": "http://www.siegenthaler-partner.ch/team.htm"
   },
   "ag-marc-dubendorfer": {
     "canton": "AG",
@@ -1764,6 +2001,14 @@
     "person_name": "Marius Bättig",
     "phone": "+41 56 203 15 47",
     "source_url": "https://voser.ch/team/"
+  },
+  "ag-mark-schwitter": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Anwaltsbüro Dr. Mark A. Schwitter",
+    "notes": "Dr. iur., notaire assermente du canton d'Argovie, Oberwil-Lieli. Domaines : droit commercial, droit civil, droit bancaire.",
+    "person_name": "Mark Schwitter",
+    "source_url": "http://rechtsanspruch.ch/kontakt.html"
   },
   "ag-markus-binder": {
     "canton": "AG",
@@ -1847,6 +2092,14 @@
     "person_name": "Markus Leimbacher",
     "phone": "+41 56 269 75 85",
     "source_url": "https://www.kanzlei-b9.ch/de/markus-leimbacher"
+  },
+  "ag-markus-siegrist": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Siegrist Ries & Partner",
+    "notes": "Dr. iur., licence Univ. de Berne 1982, brevet argovien 1983, brevet de notaire argovien 1985 (en pratique depuis 1987), etude fondee en 1984, Aarau. Domaines (DE) : Bau-/Planungs-/Umweltrecht, droit de l'equipement/des contributions, droit de l'expropriation, droit du contrat d'entreprise/d'architecte, droit immobilier/du bail. Langues DE/IT/FR.",
+    "person_name": "Markus Siegrist",
+    "source_url": "https://www.siegrist-ries.ch/rechtsanwaelte/dr-iur-markus-siegrist.html"
   },
   "ag-martin-andreas-frey": {
     "canton": "AG",
@@ -1937,6 +2190,22 @@
     "person_name": "Martin Ramisberger",
     "phone": "056 282 28 80",
     "source_url": "https://www.ramisberger.ch/"
+  },
+  "ag-martin-sacher": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "notes": "Cabinet individuel, brevet argovien 1989, Schinznach Dorf/Brugg. Domaines (DE) : SchKG/droit de la procedure, Bau-/Planungsrecht, droit des contrats, responsabilite civile/assurances, droit civil, Erbrecht. Langues FR/EN/DE.",
+    "person_name": "Martin Sacher",
+    "source_url": "https://lawyer.anwaltvergleich.ch/d/law-firms/martin-sacher-d:kOhzSWdXx"
+  },
+  "ag-martin-schwaller": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokatur + Notariat Schwaller Flury Dübendorfer",
+    "notes": "lic.iur., notaire, Aarau. Domaines (DE) : Bau-/Planungsrecht, Ehe-/Konkubinatsrecht, Erbrecht, Gesellschafts-/Handelsrecht, propriete intellectuelle, droits reels, poursuites/procedure, droit des contrats.",
+    "person_name": "Martin Schwaller",
+    "phone": "062 822 77 72",
+    "source_url": "https://www.sfd-law.ch/partner.html"
   },
   "ag-martina-hunziker": {
     "canton": "AG",
@@ -2099,6 +2368,16 @@
     "person_name": "Michael Pletscher",
     "source_url": "https://www.pfisterer.ch/de/publikationen/dr-iur-michael-pletscher"
   },
+  "ag-michael-ritter": {
+    "canton": "AG",
+    "email": "michael.ritter@ritterkoller.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Ritter Koller AG",
+    "notes": "Cofondateur/associe (etude fondee en 2016), Fachanwalt SAV droit de la construction et de l'immobilier, Möhlin. Domaines (DE) : Agrarrecht, Erbrecht, Raumplanungs-/Baurecht, droit foncier rural, Familienrecht, Steuerrecht, Strafrecht, droit civil/des contrats, SchKG. Publications : articles dans UFA-Revue et Bauernzeitung, incl. « Die sachenrechtliche Qualifikation von Photovoltaikanlagen ». Juge des pairs (Standesrichter) de l'association des avocats argoviens depuis 2025.",
+    "person_name": "Michael Ritter",
+    "phone": "+41 61 855 40 40",
+    "source_url": "https://www.ritterkoller.ch/de/anwaelte/team/michael-ritter.php"
+  },
   "ag-michele-bachli": {
     "_failed": true,
     "canton": "AG",
@@ -2115,6 +2394,16 @@
     "phone": "061 836 40 20",
     "practice_areas_de": "Internationales Privatrecht, Ehe- und Konkubinatsrecht, Scheidungsrecht, Opferhilferecht, Miet- und Pachtrecht",
     "source_url": "https://www.local.ch/de/d/rheinfelden/4310/advokaturbuero/duerrenberger-michele-QHlfp4Iwh2rGVMqhFKvbbA"
+  },
+  "ag-michele-santucci": {
+    "canton": "AG",
+    "email": "mail@sanlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "SANLAW",
+    "notes": "Brevet argovien 2005, independant depuis 2006, Wohlen. Domaines (DE) : droit civil, droit des contrats, responsabilite civile/assurances, SchKG, droit administratif. Langues DE/IT/FR.",
+    "person_name": "Michele Santucci",
+    "phone": "056 610 81 20",
+    "source_url": "https://www.sanlaw.ch/"
   },
   "ag-milena-peter": {
     "canton": "AG",
@@ -2164,6 +2453,16 @@
     "person_name": "Nadia Flury-Wyrsch",
     "source_url": "https://fragdenanwalt.ch/anwalt/lenzburg-rechtsanwaeltin-frau-lic-iur-nadia-flury-wyrsch-aargau"
   },
+  "ag-nadine-celine-barbara-seiler": {
+    "canton": "AG",
+    "email": "nadine.seiler@bhlaw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Baur Hürlimann AG",
+    "notes": "MLaw, brevet argovien 2022, Baden. Domaines (DE) : Planungs-/Bau-/Umweltrecht, droit de l'Etat et administratif, droit public de la fonction publique, droit du travail, droit de l'education. Identite confirmee via le PDF officiel du registre argovien des avocats (domiciliee a Niederwil AG, lieu de travail Baden), distincte d'une autre « Nadine Seiler » potentielle chez Fricker Seiler non confirmee comme la meme personne.",
+    "person_name": "Nadine Céline Barbara Seiler",
+    "phone": "+41 56 200 07 07",
+    "source_url": "https://bhlaw.ch/nadine-seiler/?lang=en"
+  },
   "ag-nicolai-brugger": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -2179,6 +2478,15 @@
       "Familienrecht"
     ],
     "source_url": "https://www.bruggerlegal.ch/"
+  },
+  "ag-nicolas-schaller": {
+    "canton": "AG",
+    "email": "nicolas.schaller@merki-partner.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Merki & Partner",
+    "notes": "MLaw Univ. de Zurich, brevet argovien 2022, a l'etude depuis 2023, charge de cours invite a l'Univ. de Zurich depuis 2024. Domaines (DE) : Erb-/Nachlassrecht, droits reels (servitudes, voisinage, PPE), Familienrecht, droit des contrats (bail, vente, entreprise, mandat), responsabilite civile/assurances, droit commercial/des societes, droit de la construction/planification, droit de la faillite.",
+    "person_name": "Nicolas Schaller",
+    "source_url": "https://www.merki-partner.ch/de/team/nicolas-schaller"
   },
   "ag-nicole-burger": {
     "canton": "AG",
@@ -2202,6 +2510,14 @@
     "notes": "MLaw, University of Fribourg 2006. Lawyer's license 2008, notary license 2014. Practice areas: family and inheritance law, corporate and contract law, notarization.",
     "person_name": "Nicole Erne",
     "source_url": "https://www.chkp.ch/team/mlaw-nicole-erne"
+  },
+  "ag-nicole-schatti-vonasch": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Basler Brunner Advokatur Notariat",
+    "notes": "Licence Univ. de Bale 2007, brevet argovien 2010, Zofingen. Auparavant a l'Anwaltskanzlei Schätti (2015-2019) et employee d'un assureur de protection juridique (2010-2015). Egalement conciliatrice (Schlichterin) en matiere de droit du bail dans le canton d'Argovie. Membre du conseil de la fondation azb.",
+    "person_name": "Nicole Schätti Vonäsch",
+    "source_url": "https://www.baslerbrunner.ch/nicoleschaetti/"
   },
   "ag-niklaus-brandli": {
     "canton": "AG",
@@ -2237,6 +2553,13 @@
     "notes": "Brevet d'avocat argovien obtenu le 14 dec. 2023, Küttigen. Domaines (DE) : droit prive et penal general, conseil/contentieux en droit des contrats et des societes.",
     "person_name": "Nina Niederhauser",
     "source_url": "https://www.5001.ch/en/anwaelte/ninaniederhauser/"
+  },
+  "ag-nina-rebekka-schlegel": {
+    "_failed": true,
+    "canton": "AG",
+    "checked_date": "2026-09-27",
+    "person_name": "Nina Rebekka Schlegel",
+    "reason": "Recherches approfondies (variantes de nom, annuaires jurata.ch/anwaltvergleich.ch/moneyhouse) sans aucun resultat correspondant : aucun profil, etude ou inscription au registre trouve pour cette personne."
   },
   "ag-nino-riccardo-moder": {
     "canton": "AG",
@@ -2342,6 +2665,14 @@
     "person_name": "Pascal Mathias Messerli",
     "source_url": "https://lawyers.jurata.ch/de/anwalt/pascal-messerli"
   },
+  "ag-pascal-yannick-schurch": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Becker | Gurini | Partner",
+    "notes": "Brevet argovien 2018, Lenzburg. Domaines (DE) : droit des contrats, Strafrecht, poursuites/faillites, droit de la circulation, Familienrecht. Langues DE/EN.",
+    "person_name": "Pascal Yannick Schürch",
+    "source_url": "https://www.advo5600.ch/pascal-schuerch/"
+  },
   "ag-patricia-perillard": {
     "canton": "AG",
     "email": "perillard@5401.ch",
@@ -2445,6 +2776,15 @@
     "phone": "+41 56 210 41 16",
     "source_url": "https://www.anwalt-notar.ch/"
   },
+  "ag-peter-f-siegen": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Siegen / Del Duca Rechtsanwälte",
+    "notes": "Dr. iur., independant depuis 1998, brevet 1995, Fachanwalt SAV responsabilite civile/assurances, Baden. Domaines (DE) : responsabilite civile/assurances, assurances sociales, assurances privees, Familienrecht. Conseille des victimes d'accidents.",
+    "person_name": "Peter F. Siegen",
+    "phone": "056 222 11 11",
+    "source_url": "https://siegen.ch/index.php/3/pers/1/Team"
+  },
   "ag-peter-frohlich": {
     "_failed": true,
     "canton": "AG",
@@ -2506,6 +2846,16 @@
     "phone": "056 203 10 20",
     "source_url": "https://voser.ch/dr-philip-funk/"
   },
+  "ag-philip-rene-schneiter": {
+    "canton": "AG",
+    "email": "schneiter@msraw.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "MeierSchneiter Rechtsanwälte",
+    "notes": "Licence Univ. de Zurich 2000, brevet zurichois 2003, CAS droit du travail (Univ. de Zurich 2007), mediateur FHNW (2013), Wettingen. Egalement responsable du conseil juridique a la Chambre de commerce et d'industrie argovienne (AIHK). Domaines (DE) : droit civil, droit de la famille/du divorce/successoral, droit des contrats, droit du bail/travail, Strafrecht, droit de la circulation.",
+    "person_name": "Philip René Schneiter",
+    "phone": "056 437 19 19",
+    "source_url": "https://www.msraw.ch/team"
+  },
   "ag-philipp-jenni": {
     "_failed": true,
     "canton": "AG",
@@ -2540,6 +2890,15 @@
     "notes": "MLaw, aus Muolen. Anwaltspatent des Kantons Aargau am 06.12.2017. Bei Edelmann Rechtsanwälte & Notare, Bad Zurzach, seit 2019/2020.",
     "person_name": "Rahel Christina Edelmann",
     "source_url": "https://www.ag.ch/de/aktuell/medien/medienmitteilungen?mm=bestandene-anwaltspruefung-f8fdeee2-b4e0-431d-ba33-aadf729ea0bd_de"
+  },
+  "ag-ralph-schiltknecht": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schiltknecht Rechtsanwälte",
+    "notes": "Brevet argovien 1991, cabinet individuel fonde en 2014, Aarau. Mediateur SDM. Domaines (DE) : Mediation, Familienrecht, Erbrecht, droit du travail, Bau-/Planungsrecht. Langues DE/EN/FR.",
+    "person_name": "Ralph Schiltknecht",
+    "phone": "062 825 11 80",
+    "source_url": "https://schiltknecht-rechtsanwalt.ch/ueber-uns/team/ralph-schiltknecht/"
   },
   "ag-ramona-sandya-bieri": {
     "canton": "AG",
@@ -2624,6 +2983,16 @@
     "practice_areas_de": "Haftpflicht- und Versicherungsrecht, Handelsrecht, Betreibungs- und Konkursrecht, Steuerrecht, Strafrecht, Vertragsrecht, Verwaltungsrecht, Zivilrecht",
     "source_url": "https://www.mcadvo.ch/anwalt/aarau/liciur-remo-doessegger"
   },
+  "ag-renate-senn": {
+    "canton": "AG",
+    "email": "senn@gloor-senn.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "GLOORSENN Rechtsanwälte",
+    "notes": "Brevet 1999, Fachanwaeltin SAV Strafrecht (2015), mediatrice SAV (2007), Baden. Domaines (DE) : defense penale, representation des victimes, detention provisoire, tutelle, expertises penales, droit de l'execution des peines, procedure penale militaire, entraide judiciaire internationale. Publication : Gloor/Senn, « Ersatzmassnahmen statt Untersuchungshaft – zurückhaltende Anwendung in der Praxis », Anwaltsrevue 8/2017.",
+    "person_name": "Renate Senn",
+    "phone": "+41 56 552 14 00",
+    "source_url": "https://gloor-senn.ch/de/rechtsanwaelte/renate-senn"
+  },
   "ag-rene-hufschmid": {
     "canton": "AG",
     "fetched_date": "2026-09-27",
@@ -2707,6 +3076,16 @@
     "person_name": "Roger Huber",
     "source_url": "https://www.garcia-huber.ch/kanzlei"
   },
+  "ag-roger-seiler": {
+    "canton": "AG",
+    "email": "r.seiler@frickerseiler.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Fricker Seiler Rechtsanwälte",
+    "notes": "lic.iur., brevet de notaire obtenu en 2002, Wohlen. Distinct de Nadine Céline Barbara Seiler (autre etude).",
+    "person_name": "Roger Seiler",
+    "phone": "056 611 91 00",
+    "source_url": "https://www.frickerseiler.ch/team/anwaltsteam/"
+  },
   "ag-roger-stefan-felder": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -2781,6 +3160,15 @@
     ],
     "source_url": "https://voser.ch/dr-sabine-burkhalter-kaimakliotis/",
     "specialist_certification": "Dr. iur., licence 1999, 21 ans de barreau"
+  },
+  "ag-sacha-sekulic": {
+    "canton": "AG",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Advokatur Sekulic",
+    "notes": "lic.iur., LL.M., Aarau. Auparavant chez VISCHER AG (2008-2013), greffier a la Cour d'appel de Bale-Ville (2006-2008). Domaines (DE) : droit des contrats, Gesellschaftsrecht, droit du travail, Erbrecht, forfaits PME. Langues DE/EN/FR/serbo-croate.",
+    "person_name": "Sacha Sekulic",
+    "phone": "062 878 25 25",
+    "source_url": "https://www.advokatur-sekulic.ch/en"
   },
   "ag-salvatore-petralia": {
     "canton": "AG",
@@ -3056,6 +3444,26 @@
     "phone": "062 521 36 13",
     "source_url": "https://www.leinhardt.ch/%C3%9Cber-mich/"
   },
+  "ag-tanja-katharina-schmid": {
+    "canton": "AG",
+    "email": "t.schmid@voser.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Voser Rechtsanwälte KlG",
+    "notes": "Avocate et notaire, MLaw, a l'etude depuis env. aout 2021, Baden. Domaines (DE) : Gesellschaftsrecht, droit immobilier, droit du mariage et successoral.",
+    "person_name": "Tanja Katharina Schmid",
+    "phone": "+41 56 203 14 50",
+    "source_url": "https://voser.ch/profil/"
+  },
+  "ag-tanja-schmutz": {
+    "canton": "AG",
+    "email": "tanja.schmutz@5001.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schärer Rechtsanwälte",
+    "notes": "MLaw UZH 2014, BLaw Fribourg 2011, brevet 2017, brevet de notaire argovien 2025, Aarau. Domaines (DE) : droit economique, Familien-/Erbrecht, droit des contrats, Bau-/Planungs-/Umweltrecht, droit du travail, Notariat, droit immobilier.",
+    "person_name": "Tanja Schmutz",
+    "phone": "+41 62 837 50 00",
+    "source_url": "https://www.5001.ch/en/anwaelte/tanja-schmutz/"
+  },
   "ag-therese-buchegger": {
     "canton": "AG",
     "fetched_date": "2026-09-26",
@@ -3114,6 +3522,16 @@
     "phone": "062 834 60 01",
     "source_url": "https://www.mcadvo.ch/anwalt/aarau/liciur-thomas-pluess"
   },
+  "ag-thomas-rothlisberger": {
+    "canton": "AG",
+    "email": "t.roethlisberger@voser.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Voser Rechtsanwälte",
+    "notes": "Dr., a l'etude depuis le 1er juin 2016, 23 ans d'experience, Fachanwalt SAV droit de la construction et de l'immobilier (2015), Baden. Domaines (DE) : droit de la construction/de l'immobilier, droit civil general, droit des contrats/de la vente, contrats d'architecte/de planificateur, droit du bail/de la propriete par etages, responsabilite civile/assurances. Publications : articles sur les defauts de construction et l'hypotheque legale des artisans (2025), la vente en propriete par etages selon les normes SIA (2025), les arrieres de loyer (2024). Distinct d'Andreas Röthlisberger (autre etude).",
+    "person_name": "Thomas Röthlisberger",
+    "phone": "+41 56 203 15 43",
+    "source_url": "https://voser.ch/dr-thomas-roethlisberger/"
+  },
   "ag-tobias-gimmel": {
     "canton": "AG",
     "email": "t.gimmel@kanzlei-b9.ch",
@@ -3123,6 +3541,16 @@
     "person_name": "Tobias Gimmel",
     "phone": "056 269 75 90",
     "source_url": "https://www.kanzlei-b9.ch/de/tobias-gimmel"
+  },
+  "ag-tom-schaffner": {
+    "canton": "AG",
+    "email": "tom.schaffner@5001.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "Schärer Rechtsanwälte",
+    "notes": "MLaw, associe depuis 2019 (auparavant dans une grande etude zurichoise depuis 2014), Aarau. Domaines : fusions-acquisitions, contrats commerciaux, restructuration, private equity/capital-risque.",
+    "person_name": "Tom Schaffner",
+    "phone": "062 837 50 00",
+    "source_url": "https://www.5001.ch/en/anwaelte/tom-schaffner-en/"
   },
   "ag-ulrich-fischer": {
     "_failed": true,
@@ -3181,6 +3609,16 @@
     "person_name": "Werner Lanz",
     "phone": "+41 56 437 36 37",
     "source_url": "https://www.geissmannlegal.ch/team/werner-lanz/"
+  },
+  "ag-werner-schib": {
+    "canton": "AG",
+    "email": "schib@swisslegal.ch",
+    "fetched_date": "2026-09-27",
+    "firm_name": "SwissLegal (Aarau) AG",
+    "notes": "Licence Univ. de Zurich 1998, brevet argovien 1999, brevet de notaire 2003, Aarau. Domaines (DE) : Notariat/Beurkundungsrecht, droit immobilier, droit des contrats. Egalement vice-maire/conseiller municipal d'Aarau.",
+    "person_name": "Werner Schib",
+    "phone": "+41 62 824 23 23",
+    "source_url": "https://www.swisslegal.ch/en/professionals/werner-schib-45.html"
   },
   "ag-wilhelm-boner": {
     "canton": "AG",
