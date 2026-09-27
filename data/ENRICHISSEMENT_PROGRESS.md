@@ -7007,3 +7007,41 @@ ignorées, sans changement). Suite de tests : 94/94 au vert.
 
 Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 194, ZG 127 — total 321 sur
 les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
+
+## Phase 3b, lot du 2026-09-27 (lot 31)
+
+Poursuite de l'enrichissement individuel dans les 2 cantons restants (AG, ZG). Lot traité :
+AG (Metzler → Niggemeier, hors « Michael Hunziker »), ZG (Portmann Zürcher → Schilliger).
+
+**Résultat : 43 succès / 7 échecs.**
+
+Échecs : Rudolf Reinhard Müller et Reto Nadig (AG) — aucun avocat de ce nom exact localisable en
+Argovie, seuls des homonymes non liés trouvés ; Valentin Müller (AG) — étude reprise par un
+successeur en 2025, plus de pratique indépendante actuelle confirmée ; Anne-Marie Mülthaler (AG) —
+seule une avocate au nom proche « Ama Mülthaler » trouvée, identification jugée insuffisamment
+confirmée ; Fabian Niggemeier (AG) — a quitté la profession d'avocat pour devenir CEO d'une
+société technologique zurichoise ; Ruchti Silvia et Schaub Rudolf P. (ZG) — inscriptions de
+registre ou d'annuaire périmées uniquement, aucun site ou coordonnée actuelle confirmable.
+
+Cas de désambiguïsation homonymique traités avec soin particulier (aucune erreur d'attribution
+identifiée) : sept entrées « Müller » distinctes plus deux noms composés « Müller-Hunkeler » et
+« Müller-Wirth » (AG, dont trois — Leonhard, Lukas Alexander et Paula Helena Franziska Niedermann —
+collègues au sein de la même étude Hauser & Müller, confirmés via la page équipe du cabinet) ; côté
+ZG, deux « Schelbert » (Bruno/Cyrill), vérifiés comme des personnes distinctes à des études
+différentes.
+
+Cas particuliers signalés pour transparence (classés succès avec réserve) : Gabriela
+Müller-Hunkeler (AG) — fiche d'annuaire sans mention explicite d'activité en cours (brevet de
+1978), aucune annonce de cessation trouvée non plus ; Rinderknecht Thomas M. (ZG) — étude
+récemment fusionnée dans STAIGER Rechtsanwälte AG (1er sept. 2026), statut actif non
+reconfirmable sur la page post-fusion ; Rosenthal Sarah (ZG) — profil LinkedIn la mentionnant
+actuellement « en congé sabbatique » malgré un site d'étude actif ; Rohner Sybille (ZG) —
+affiliation confirmée uniquement via LinkedIn et extraits de recherche, sans consultation directe
+du site de l'étude.
+
+Rattachement : 1655 avocats rattachés par nom au total (1612 → 1655, +43 ; confirmé par recalcul
+`build.py` après écriture, cohérent avec les 43 succès de ce lot ; toujours 2 collisions de nom
+ignorées, sans changement). Suite de tests : 94/94 au vert.
+
+Reste à traiter (calcul exact par jointure canton+nom normalisé) : AG 169, ZG 102 — total 271 sur
+les 2 cantons restants de la Phase 3b (Thurgovie, Soleure et Neuchâtel toujours épuisées).
