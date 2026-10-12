@@ -373,6 +373,12 @@ DOMAINES_EXTRA_TRANSLATIONS = {
         "it": "Blockchain e attivi digitali",
         "en": "Blockchain and digital assets",
     },
+    "Contentieux": {
+        "fr": "Contentieux",
+        "de": "Streitbeilegung",
+        "it": "Contenzioso",
+        "en": "Litigation",
+    },
 }
 
 UI = {
