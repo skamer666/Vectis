@@ -968,6 +968,12 @@ def gen_ge_avocats(start=0, count=None, rows=None):
                                                            domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
                                                            fonction=row.get("fonction") or None)
             ctx["domaines"] = [{"name": i18n.DOMAINES[d][lang]["name"], "url": domaine_path(d, lang)} for d in domaine_ids]
+            # Tags libres, non classifiables : specialites declarees par l'avocat
+            # lui-meme qui n'ont pas (encore) de categorie structuree sur le site
+            # (pas de hub, pas de page canton x domaine, pas de filtre). Affiches
+            # uniquement sur sa propre fiche, jamais agreges/indexes ailleurs --
+            # a la difference de ctx["domaines"], volontairement sans "url".
+            ctx["domaines_extra"] = [d.strip() for d in (row.get("domaines_extra") or "").split(";") if d.strip()]
             _domaine_names_web = [i18n.DOMAINES[d][lang]["name"] for d in domaine_ids] or web_practice_areas(_web, lang)
             ctx["insight_text"] = pt.firm_insight(
                 lang, _langues_for_lang, _domaine_names_web, None,
