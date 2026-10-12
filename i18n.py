@@ -360,6 +360,21 @@ FSA_TO_DOMAINE = {
     "Amenagement du territoire": "droit_construction_amenagement",
 }
 
+# Traductions des tags libres (ctx["domaines_extra"], voir build.py) : specialites
+# declarees par l'avocat sans categorie structuree sur le site (pas de hub, pas de
+# FSA_TO_DOMAINE). Cle = libelle francais tel que stocke dans les CSV (colonne
+# domaines_extra), valeur = traduction par langue. Un libelle absent d'ici est
+# simplement affiche tel quel (texte francais par defaut) plutot que de bloquer --
+# jamais invente automatiquement.
+DOMAINES_EXTRA_TRANSLATIONS = {
+    "Blockchain et actifs numériques": {
+        "fr": "Blockchain et actifs numériques",
+        "de": "Blockchain und digitale Vermögenswerte",
+        "it": "Blockchain e attivi digitali",
+        "en": "Blockchain and digital assets",
+    },
+}
+
 UI = {
     "fr": {
         "site_name": "Legatis",

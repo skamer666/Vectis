@@ -973,7 +973,10 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             # (pas de hub, pas de page canton x domaine, pas de filtre). Affiches
             # uniquement sur sa propre fiche, jamais agreges/indexes ailleurs --
             # a la difference de ctx["domaines"], volontairement sans "url".
-            ctx["domaines_extra"] = [d.strip() for d in (row.get("domaines_extra") or "").split(";") if d.strip()]
+            _domaines_extra_fr = [d.strip() for d in (row.get("domaines_extra") or "").split(";") if d.strip()]
+            ctx["domaines_extra"] = [
+                i18n.DOMAINES_EXTRA_TRANSLATIONS.get(d, {}).get(lang, d) for d in _domaines_extra_fr
+            ]
             _domaine_names_web = [i18n.DOMAINES[d][lang]["name"] for d in domaine_ids] or web_practice_areas(_web, lang)
             ctx["insight_text"] = pt.firm_insight(
                 lang, _langues_for_lang, _domaine_names_web, None,
@@ -1040,7 +1043,7 @@ def gen_ge_avocats(start=0, count=None, rows=None):
             # (jamais invente, chaque question conditionnee a une donnee reelle).
             ctx["faq"] = pt.lawyer_faq(
                 lang, nom, canton_name, ville=row.get("ville") or None,
-                domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids],
+                domaines=[i18n.DOMAINES[d][lang]["name"] for d in domaine_ids] + ctx["domaines_extra"],
                 langues=_langues_for_lang, seniority_text=ctx["seniority_text"],
                 telephone=ctx["telephone"] or None, email=ctx["email"] or None,
                 etude=row.get("etude") or None,
