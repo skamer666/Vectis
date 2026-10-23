@@ -280,6 +280,23 @@ def base_ctx(lang, path, title, description, extra_hreflang=None):
 
 # ---------------------------------------------------------------- data load
 
+def load_retired_profiles():
+    """Fiches retirees sur demande (droit d'opposition/suppression) : cle
+    "CANTON/slug", jamais regenerees ni servies -- l'avocat concerne disparait
+    completement du site (pages, listes de collegues, "a proximite", etc.)
+    au prochain build, au lieu d'un simple noindex qui laisse la page en ligne.
+    Voir data/profils_retires.json pour l'historique des demandes (date,
+    motif, verification effectuee)."""
+    path = os.path.join(DATA_DIR, "profils_retires.json")
+    if not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as f:
+        return set(json.load(f).keys())
+
+
+RETIRED_PROFILES = load_retired_profiles()
+
+
 def load_ge_individuals():
     path = os.path.join(DATA_DIR, "avocats_geneve_enrichi.csv")
     with open(path, encoding="utf-8") as f:
@@ -290,7 +307,7 @@ def load_ge_individuals():
         n = seen_slugs.get(base, 0)
         seen_slugs[base] = n + 1
         r["_slug"] = base if n == 0 else f"{base}-{n+1}"
-    return rows
+    return [r for r in rows if f"GE/{r['_slug']}" not in RETIRED_PROFILES]
 
 
 def load_ge_firms():
@@ -1547,7 +1564,7 @@ def load_canton(code):
         n = seen_slugs.get(base, 0)
         seen_slugs[base] = n + 1
         r["_slug"] = base if n == 0 else f"{base}-{n+1}"
-    return rows
+    return [r for r in rows if f"{code}/{r['_slug']}" not in RETIRED_PROFILES]
 
 
 def build_canton_firms(individuals):
