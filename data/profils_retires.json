@@ -2,5 +2,9 @@
   "GE/nathan-bouvier": {
     "date": "2026-10-21",
     "motif": "Demande de suppression par email (nb@nathanbouvier.ch), identite verifiee aupres du registre ODAGE"
+  },
+  "VD/jean-fonjallaz": {
+    "date": "2026-11-02",
+    "motif": "Demande de suppression par email (jfonjallaz@citycable.ch), ancien juge federal, statut registre source = membre_honoraire (non avocat actif) -- champ non reflete par le site avant retrait"
   }
 }
