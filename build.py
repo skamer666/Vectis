@@ -1554,6 +1554,16 @@ def load_canton(code):
         return []
     with open(path, encoding="utf-8") as f:
         raw_rows = list(csv.DictReader(f))
+    if code == "VD":
+        # "membre_honoraire" (seul canton avec un champ statut source) : avocat
+        # ayant cesse toute activite, qui reste rattache a l'ordre a titre
+        # honorifique mais ne peut plus pratiquer -- jamais un "avocat en
+        # exercice" que la fiche presentait pourtant comme tel. Suite a la
+        # plainte de Jean Fonjallaz (ancien juge federal, membre_honoraire)
+        # le 2026-11-02 : exclu systematiquement, pas seulement sur demande
+        # individuelle (profils_retires.json reste pour les autres cas, ex.
+        # avocats actifs qui demandent leur retrait).
+        raw_rows = [r for r in raw_rows if r.get("statut") != "membre_honoraire"]
     rows = [normalize_row(code, r) for r in raw_rows]
     rows = [r for r in rows if r["nom_complet"]]
     for r in rows:
